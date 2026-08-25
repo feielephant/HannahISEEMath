@@ -186,10 +186,35 @@
   .grade-note{
     font-family:"JetBrains Mono", monospace;
     font-size:0.78rem;
-    margin-top:-4px;
+    margin-top:2px;
   }
   .grade-note.right{ color:var(--accent-ink); }
   .grade-note.wrong{ color:var(--wrong); }
+
+  .card-actions{
+    display:flex;
+    gap:8px;
+    justify-content:flex-end;
+  }
+  .mini-btn{
+    font-family:"JetBrains Mono", monospace;
+    font-size:0.7rem;
+    padding:4px 11px;
+    border-radius:999px;
+    border:1px solid var(--border);
+    background:var(--surface);
+    color:var(--ink-muted);
+    cursor:pointer;
+    transition: border-color 0.15s, color 0.15s;
+  }
+  .mini-btn.check-one:hover{ border-color:var(--accent); color:var(--accent-ink); }
+  .mini-btn.clear-one:hover{ border-color:var(--wrong); color:var(--wrong); }
+  .grade-summary .gs-checked{
+    font-family:"JetBrains Mono", monospace;
+    font-size:0.82rem;
+    color:var(--ink-faint);
+    align-self:center;
+  }
 
   .choice.grade-correct{ border-color:var(--accent); background:var(--accent-soft); color:var(--ink); font-weight:600; }
   .choice.grade-correct .letter{ color:var(--accent-ink); }
@@ -1099,7 +1124,7 @@
   var TOTAL = 47;
   var state = {};
   try { state = JSON.parse(localStorage.getItem(STORAGE_KEY) || '{}'); } catch(e){ state = {}; }
-  var graded = false;
+  var gradedResults = {};
 
   var ANSWERS = {
     'p126-5': {type:'num', value:20}, 'p126-6': {type:'num', value:200}, 'p126-7': {type:'num', value:1},
@@ -1154,27 +1179,155 @@
   }
 
   function clearGradeMarks(qidToClear){
-    var scope = qidToClear
-      ? document.querySelectorAll('[data-qid="' + qidToClear + '"]')
-      : document.querySelectorAll('[data-qid]');
-    scope.forEach(function(el){
-      el.classList.remove('grade-correct', 'grade-wrong');
+    var selector = qidToClear ? '[data-qid="' + qidToClear + '"]' : '[data-qid]';
+    var seen = [];
+    document.querySelectorAll(selector).forEach(function(el){
       var card = el.closest('.card');
-      if (!card) return;
+      if (!card || seen.indexOf(card) !== -1) return;
+      seen.push(card);
+      card.querySelectorAll('.answer-box').forEach(function(b){ b.classList.remove('grade-correct', 'grade-wrong'); });
       card.querySelectorAll('.choice').forEach(function(c){ c.classList.remove('grade-correct', 'grade-wrong-pick'); });
       var note = card.querySelector('.grade-note');
       if (note) note.remove();
     });
+    if (qidToClear) delete gradedResults[qidToClear];
+    else gradedResults = {};
   }
 
   function maybeClearGradeOnEdit(qid){
-    if (!graded) return;
+    if (!gradedResults.hasOwnProperty(qid)) return;
     clearGradeMarks(qid);
-    graded = false;
+    refreshSummary();
+  }
+
+  function refreshSummary(){
+    var keys = Object.keys(gradedResults);
     var summary = document.getElementById('grade-summary');
-    if (summary) summary.hidden = true;
     var hideBtn = document.getElementById('hide-results');
-    if (hideBtn) hideBtn.hidden = true;
+    if (keys.length === 0){
+      if (summary) summary.hidden = true;
+      if (hideBtn) hideBtn.hidden = true;
+      return;
+    }
+    var correct = 0, wrong = 0, blank = 0;
+    keys.forEach(function(k){
+      if (gradedResults[k] === 'correct') correct++;
+      else if (gradedResults[k] === 'wrong') wrong++;
+      else if (gradedResults[k] === 'blank') blank++;
+    });
+    if (summary){
+      summary.hidden = false;
+      var html = '<span class="gs-checked">Checked ' + keys.length + '/' + TOTAL + '</span>';
+      html += '<span class="gs-item right">' + correct + ' correct</span><span class="gs-item wrong">' + wrong + ' wrong</span>';
+      if (blank) html += '<span class="gs-item blank">' + blank + ' left blank</span>';
+      summary.innerHTML = html;
+    }
+    if (hideBtn) hideBtn.hidden = false;
+  }
+
+  function gradeOne(qid){
+    var ans = ANSWERS[qid];
+    if (!ans) return;
+    var anchor = document.querySelector('.card-actions[data-qid="' + qid + '"]');
+    var card = anchor ? anchor.closest('.card') : null;
+    if (card){
+      var oldNote = card.querySelector('.grade-note');
+      if (oldNote) oldNote.remove();
+    }
+    if (ans.type === 'num'){
+      var inp = document.querySelector('input.answer-input[data-qid="' + qid + '"]');
+      if (!inp) return;
+      var box = inp.closest('.answer-box');
+      box.classList.remove('grade-correct', 'grade-wrong');
+      var raw = inp.value.trim();
+      var userVal = parseNum(raw);
+      var note = document.createElement('div');
+      note.className = 'grade-note';
+      if (raw === ''){
+        gradedResults[qid] = 'blank';
+        box.classList.add('grade-wrong');
+        note.classList.add('wrong');
+        note.textContent = 'Correct answer: ' + ans.value;
+      } else if (userVal != null && Math.abs(userVal - ans.value) < 0.01){
+        gradedResults[qid] = 'correct';
+        box.classList.add('grade-correct');
+        note.classList.add('right');
+        note.textContent = 'Correct!';
+      } else {
+        gradedResults[qid] = 'wrong';
+        box.classList.add('grade-wrong');
+        note.classList.add('wrong');
+        note.textContent = 'You put "' + raw + '" — correct answer: ' + ans.value;
+      }
+      (anchor || box).insertAdjacentElement('afterend', note);
+    } else if (ans.type === 'choice'){
+      var group = document.querySelector('.choices[data-qid="' + qid + '"]');
+      if (!group) return;
+      var buttons = group.querySelectorAll('.choice');
+      buttons.forEach(function(b){ b.classList.remove('grade-correct', 'grade-wrong-pick'); });
+      var picked = null;
+      buttons.forEach(function(b){
+        if (b.classList.contains('selected')) picked = b.dataset.letter;
+        if (b.dataset.letter === ans.letter) b.classList.add('grade-correct');
+      });
+      if (picked == null){
+        gradedResults[qid] = 'blank';
+      } else if (picked === ans.letter){
+        gradedResults[qid] = 'correct';
+      } else {
+        gradedResults[qid] = 'wrong';
+        buttons.forEach(function(b){
+          if (b.dataset.letter === picked) b.classList.add('grade-wrong-pick');
+        });
+      }
+    }
+  }
+
+  function checkOne(qid){
+    gradeOne(qid);
+    refreshSummary();
+  }
+
+  function clearOne(qid){
+    var inp = document.querySelector('input.answer-input[data-qid="' + qid + '"]');
+    if (inp){
+      inp.value = '';
+    } else {
+      var group = document.querySelector('.choices[data-qid="' + qid + '"]');
+      if (group) group.querySelectorAll('.choice.selected').forEach(function(c){ c.classList.remove('selected'); });
+    }
+    delete state[qid];
+    save();
+    markCard(qid);
+    updateProgress();
+    clearGradeMarks(qid);
+    refreshSummary();
+  }
+
+  function injectCardControls(){
+    var qids = {};
+    document.querySelectorAll('.answer-input[data-qid]').forEach(function(inp){ qids[inp.dataset.qid] = inp.closest('.answer-box'); });
+    document.querySelectorAll('.choices[data-qid]').forEach(function(group){ qids[group.dataset.qid] = group; });
+    Object.keys(qids).forEach(function(qid){
+      var anchor = qids[qid];
+      if (!anchor) return;
+      var row = document.createElement('div');
+      row.className = 'card-actions';
+      row.dataset.qid = qid;
+      var checkBtn = document.createElement('button');
+      checkBtn.type = 'button';
+      checkBtn.className = 'mini-btn check-one';
+      checkBtn.textContent = 'Check';
+      checkBtn.addEventListener('click', function(){ checkOne(qid); });
+      var clearBtnOne = document.createElement('button');
+      clearBtnOne.type = 'button';
+      clearBtnOne.className = 'mini-btn clear-one';
+      clearBtnOne.textContent = 'Clear';
+      clearBtnOne.addEventListener('click', function(){ clearOne(qid); });
+      row.appendChild(checkBtn);
+      row.appendChild(clearBtnOne);
+      anchor.insertAdjacentElement('afterend', row);
+    });
   }
 
   document.querySelectorAll('.answer-input').forEach(function(inp){
@@ -1219,66 +1372,9 @@
   });
 
   function gradeAll(){
-    var correct = 0, wrong = 0, blank = 0;
-    Object.keys(ANSWERS).forEach(function(qid){
-      var ans = ANSWERS[qid];
-      if (ans.type === 'num'){
-        var inp = document.querySelector('input.answer-input[data-qid="' + qid + '"]');
-        if (!inp) return;
-        var box = inp.closest('.answer-box');
-        var raw = inp.value.trim();
-        var userVal = parseNum(raw);
-        var note = document.createElement('div');
-        note.className = 'grade-note';
-        if (raw === ''){
-          blank++;
-          box.classList.add('grade-wrong');
-          note.classList.add('wrong');
-          note.textContent = 'Correct answer: ' + ans.value;
-        } else if (userVal != null && Math.abs(userVal - ans.value) < 0.01){
-          correct++;
-          box.classList.add('grade-correct');
-          note.classList.add('right');
-          note.textContent = 'Correct!';
-        } else {
-          wrong++;
-          box.classList.add('grade-wrong');
-          note.classList.add('wrong');
-          note.textContent = 'You put "' + raw + '" — correct answer: ' + ans.value;
-        }
-        box.insertAdjacentElement('afterend', note);
-      } else if (ans.type === 'choice'){
-        var group = document.querySelector('.choices[data-qid="' + qid + '"]');
-        if (!group) return;
-        var buttons = group.querySelectorAll('.choice');
-        var picked = null;
-        buttons.forEach(function(b){
-          if (b.classList.contains('selected')) picked = b.dataset.letter;
-          if (b.dataset.letter === ans.letter) b.classList.add('grade-correct');
-        });
-        if (picked == null){
-          blank++;
-        } else if (picked === ans.letter){
-          correct++;
-        } else {
-          wrong++;
-          buttons.forEach(function(b){
-            if (b.dataset.letter === picked) b.classList.add('grade-wrong-pick');
-          });
-        }
-      }
-    });
-
+    Object.keys(ANSWERS).forEach(function(qid){ gradeOne(qid); });
+    refreshSummary();
     var summary = document.getElementById('grade-summary');
-    if (summary){
-      summary.hidden = false;
-      var html = '<span class="gs-item right">' + correct + ' correct</span><span class="gs-item wrong">' + wrong + ' wrong</span>';
-      if (blank) html += '<span class="gs-item blank">' + blank + ' left blank</span>';
-      summary.innerHTML = html;
-    }
-    var hideBtn = document.getElementById('hide-results');
-    if (hideBtn) hideBtn.hidden = false;
-    graded = true;
     summary && summary.scrollIntoView({ behavior:'smooth', block:'nearest' });
   }
 
@@ -1291,10 +1387,7 @@
   if (hideResultsBtn){
     hideResultsBtn.addEventListener('click', function(){
       clearGradeMarks();
-      graded = false;
-      var summary = document.getElementById('grade-summary');
-      if (summary) summary.hidden = true;
-      hideResultsBtn.hidden = true;
+      refreshSummary();
     });
   }
 
@@ -1308,15 +1401,12 @@
       document.querySelectorAll('.choice.selected').forEach(function(c){ c.classList.remove('selected'); });
       document.querySelectorAll('.card.done').forEach(function(c){ c.classList.remove('done'); });
       clearGradeMarks();
-      graded = false;
-      var summary = document.getElementById('grade-summary');
-      if (summary) summary.hidden = true;
-      var hideBtn = document.getElementById('hide-results');
-      if (hideBtn) hideBtn.hidden = true;
+      refreshSummary();
       updateProgress();
     });
   }
 
+  injectCardControls();
   updateProgress();
 })();
 </script>
