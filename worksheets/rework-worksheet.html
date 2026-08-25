@@ -142,7 +142,7 @@
     letter-spacing:0.08em;
   }
   #progress-stat .n{ color:var(--accent-ink); }
-  .clear-btn{
+  .clear-btn, .submit-btn, .hide-btn{
     font-family:"JetBrains Mono", monospace;
     font-size:0.78rem;
     color:var(--ink-muted);
@@ -151,9 +151,52 @@
     border-radius:999px;
     padding:9px 16px;
     cursor:pointer;
-    transition: border-color 0.15s, color 0.15s;
+    transition: border-color 0.15s, color 0.15s, background 0.15s;
   }
   .clear-btn:hover{ border-color:var(--wrong); color:var(--wrong); }
+  .submit-btn{
+    background:var(--accent);
+    border-color:var(--accent);
+    color:#fff;
+    font-weight:600;
+  }
+  .submit-btn:hover{ background:var(--accent-ink); border-color:var(--accent-ink); }
+  .hide-btn:hover{ border-color:var(--ink-faint); color:var(--ink); }
+
+  .grade-summary{
+    display:flex;
+    flex-wrap:wrap;
+    gap:10px;
+    margin-top:16px;
+  }
+  .grade-summary .gs-item{
+    font-family:"JetBrains Mono", monospace;
+    font-size:0.85rem;
+    font-weight:600;
+    padding:6px 14px;
+    border-radius:999px;
+    border:1px solid var(--border);
+  }
+  .grade-summary .gs-item.right{ color:var(--accent-ink); background:var(--accent-soft); border-color:var(--accent); }
+  .grade-summary .gs-item.wrong{ color:var(--wrong); background:var(--wrong-soft); border-color:var(--wrong); }
+  .grade-summary .gs-item.blank{ color:var(--amber); background:transparent; border-color:var(--amber); }
+
+  .answer-box.grade-correct{ border-color:var(--accent); background:var(--accent-soft); }
+  .answer-box.grade-wrong{ border-color:var(--wrong); background:var(--wrong-soft); }
+  .grade-note{
+    font-family:"JetBrains Mono", monospace;
+    font-size:0.78rem;
+    margin-top:-4px;
+  }
+  .grade-note.right{ color:var(--accent-ink); }
+  .grade-note.wrong{ color:var(--wrong); }
+
+  .choice.grade-correct{ border-color:var(--accent); background:var(--accent-soft); color:var(--ink); font-weight:600; }
+  .choice.grade-correct .letter{ color:var(--accent-ink); }
+  .choice.grade-wrong-pick{ border-color:var(--wrong); background:var(--wrong-soft); color:var(--ink); font-weight:600; }
+  .choice.grade-wrong-pick .letter{ color:var(--wrong); }
+  .choice.selected.grade-wrong-pick{ border-color:var(--wrong); background:var(--wrong-soft); color:var(--ink); }
+  .choice.selected.grade-wrong-pick .letter{ color:var(--wrong); }
 
   .method{
     margin-top:26px;
@@ -394,9 +437,12 @@
     <div class="stat-row">
       <div class="stat"><span class="n">47</span><span class="lbl">Problems to redo</span></div>
       <div class="stat" id="progress-stat"><span class="n"><span id="progress-count">0</span> / 47</span><span class="lbl">Answered</span></div>
+      <button type="button" class="submit-btn" id="submit-grade">Submit &amp; grade</button>
+      <button type="button" class="hide-btn" id="hide-results" hidden>Hide results</button>
       <button type="button" class="clear-btn" id="clear-all">Clear all answers</button>
     </div>
-    <p class="method"><strong>How to use this:</strong> type your final answer into the <span class="pill">Answer</span> blank. A few &mdash; estimation problems, "which of these" problems, and the two number-line reads &mdash; can't be reduced to one typed-in number, so those keep four lettered options: click the one you think is right to select it. Everything you enter is saved in this browser as you go, so you can leave and come back.</p>
+    <div class="grade-summary" id="grade-summary" hidden></div>
+    <p class="method"><strong>How to use this:</strong> type your final answer into the <span class="pill">Answer</span> blank. A few &mdash; estimation problems, "which of these" problems, and the two number-line reads &mdash; can't be reduced to one typed-in number, so those keep four lettered options: click the one you think is right to select it. Everything you enter is saved in this browser as you go, so you can leave and come back. When she's done, <strong>Submit &amp; grade</strong> reveals every correct answer and tallies right vs. wrong; editing an answer afterward clears its grade until you resubmit.</p>
     <p class="method">A handful of visual-only problems from pages 132&ndash;134 and 165&ndash;166, 190 couldn't be graded confidently from photos and aren't included, except two number-line reads that came out clean on a careful recheck. Page 187's photo is rotated in a way that separates questions from their answer choices, so it's left out too.</p>
   </header>
 
@@ -1053,6 +1099,30 @@
   var TOTAL = 47;
   var state = {};
   try { state = JSON.parse(localStorage.getItem(STORAGE_KEY) || '{}'); } catch(e){ state = {}; }
+  var graded = false;
+
+  var ANSWERS = {
+    'p126-5': {type:'num', value:20}, 'p126-6': {type:'num', value:200}, 'p126-7': {type:'num', value:1},
+    'p126-9': {type:'num', value:80}, 'p126-10': {type:'num', value:20}, 'p127-9': {type:'num', value:60},
+    'p128-4': {type:'choice', letter:'B'}, 'p128-5': {type:'choice', letter:'C'},
+    'p130-4': {type:'choice', letter:'C'}, 'p130-6': {type:'choice', letter:'C'},
+    'p131-8': {type:'choice', letter:'B'}, 'p131-9': {type:'choice', letter:'C'},
+    'p132-6': {type:'choice', letter:'D'}, 'p134-3': {type:'choice', letter:'B'},
+    'p135-4': {type:'num', value:14}, 'p135-5': {type:'num', value:12}, 'p135-8': {type:'num', value:7.5},
+    'p136-3': {type:'num', value:8}, 'p136-5': {type:'num', value:5.5}, 'p136-8': {type:'num', value:16},
+    'p141-9': {type:'choice', letter:'D'}, 'p141-10': {type:'choice', letter:'C'},
+    'p143-2': {type:'num', value:2400}, 'p143-3': {type:'num', value:0.004}, 'p143-10': {type:'num', value:2},
+    'p147-1': {type:'num', value:18}, 'p147-5': {type:'num', value:60}, 'p147-7': {type:'num', value:1},
+    'p150-3': {type:'choice', letter:'B'},
+    'p152-1': {type:'choice', letter:'C'}, 'p152-4': {type:'choice', letter:'A'}, 'p152-6': {type:'choice', letter:'B'},
+    'p153-10': {type:'choice', letter:'D'},
+    'p159-3': {type:'num', value:250}, 'p162-4': {type:'num', value:89},
+    'p163-3': {type:'choice', letter:'A'}, 'p163-4': {type:'num', value:50},
+    'p164-9': {type:'num', value:7}, 'p166-7': {type:'choice', letter:'D'}, 'p169-6': {type:'num', value:9},
+    'p176-3': {type:'num', value:24}, 'p177-10': {type:'num', value:3},
+    'p181-9': {type:'num', value:9}, 'p181-10': {type:'num', value:45},
+    'p193-3': {type:'num', value:90}, 'p194-9': {type:'num', value:8}, 'p194-10': {type:'num', value:6}
+  };
 
   function save(){
     try { localStorage.setItem(STORAGE_KEY, JSON.stringify(state)); } catch(e){}
@@ -1073,6 +1143,40 @@
     else card.classList.remove('done');
   }
 
+  function parseNum(raw){
+    if (raw == null) return null;
+    var s = String(raw).trim().replace(/,/g, '');
+    if (!s) return null;
+    var m = s.match(/-?\d+(\.\d+)?/);
+    if (!m) return null;
+    var n = parseFloat(m[0]);
+    return isNaN(n) ? null : n;
+  }
+
+  function clearGradeMarks(qidToClear){
+    var scope = qidToClear
+      ? document.querySelectorAll('[data-qid="' + qidToClear + '"]')
+      : document.querySelectorAll('[data-qid]');
+    scope.forEach(function(el){
+      el.classList.remove('grade-correct', 'grade-wrong');
+      var card = el.closest('.card');
+      if (!card) return;
+      card.querySelectorAll('.choice').forEach(function(c){ c.classList.remove('grade-correct', 'grade-wrong-pick'); });
+      var note = card.querySelector('.grade-note');
+      if (note) note.remove();
+    });
+  }
+
+  function maybeClearGradeOnEdit(qid){
+    if (!graded) return;
+    clearGradeMarks(qid);
+    graded = false;
+    var summary = document.getElementById('grade-summary');
+    if (summary) summary.hidden = true;
+    var hideBtn = document.getElementById('hide-results');
+    if (hideBtn) hideBtn.hidden = true;
+  }
+
   document.querySelectorAll('.answer-input').forEach(function(inp){
     var qid = inp.dataset.qid;
     if (state[qid]) inp.value = state[qid];
@@ -1083,6 +1187,7 @@
       save();
       markCard(qid);
       updateProgress();
+      maybeClearGradeOnEdit(qid);
     });
   });
 
@@ -1108,9 +1213,90 @@
         save();
         markCard(qid);
         updateProgress();
+        maybeClearGradeOnEdit(qid);
       });
     });
   });
+
+  function gradeAll(){
+    var correct = 0, wrong = 0, blank = 0;
+    Object.keys(ANSWERS).forEach(function(qid){
+      var ans = ANSWERS[qid];
+      if (ans.type === 'num'){
+        var inp = document.querySelector('input.answer-input[data-qid="' + qid + '"]');
+        if (!inp) return;
+        var box = inp.closest('.answer-box');
+        var raw = inp.value.trim();
+        var userVal = parseNum(raw);
+        var note = document.createElement('div');
+        note.className = 'grade-note';
+        if (raw === ''){
+          blank++;
+          box.classList.add('grade-wrong');
+          note.classList.add('wrong');
+          note.textContent = 'Correct answer: ' + ans.value;
+        } else if (userVal != null && Math.abs(userVal - ans.value) < 0.01){
+          correct++;
+          box.classList.add('grade-correct');
+          note.classList.add('right');
+          note.textContent = 'Correct!';
+        } else {
+          wrong++;
+          box.classList.add('grade-wrong');
+          note.classList.add('wrong');
+          note.textContent = 'You put "' + raw + '" — correct answer: ' + ans.value;
+        }
+        box.insertAdjacentElement('afterend', note);
+      } else if (ans.type === 'choice'){
+        var group = document.querySelector('.choices[data-qid="' + qid + '"]');
+        if (!group) return;
+        var buttons = group.querySelectorAll('.choice');
+        var picked = null;
+        buttons.forEach(function(b){
+          if (b.classList.contains('selected')) picked = b.dataset.letter;
+          if (b.dataset.letter === ans.letter) b.classList.add('grade-correct');
+        });
+        if (picked == null){
+          blank++;
+        } else if (picked === ans.letter){
+          correct++;
+        } else {
+          wrong++;
+          buttons.forEach(function(b){
+            if (b.dataset.letter === picked) b.classList.add('grade-wrong-pick');
+          });
+        }
+      }
+    });
+
+    var summary = document.getElementById('grade-summary');
+    if (summary){
+      summary.hidden = false;
+      var html = '<span class="gs-item right">' + correct + ' correct</span><span class="gs-item wrong">' + wrong + ' wrong</span>';
+      if (blank) html += '<span class="gs-item blank">' + blank + ' left blank</span>';
+      summary.innerHTML = html;
+    }
+    var hideBtn = document.getElementById('hide-results');
+    if (hideBtn) hideBtn.hidden = false;
+    graded = true;
+    summary && summary.scrollIntoView({ behavior:'smooth', block:'nearest' });
+  }
+
+  var submitBtn = document.getElementById('submit-grade');
+  if (submitBtn){
+    submitBtn.addEventListener('click', gradeAll);
+  }
+
+  var hideResultsBtn = document.getElementById('hide-results');
+  if (hideResultsBtn){
+    hideResultsBtn.addEventListener('click', function(){
+      clearGradeMarks();
+      graded = false;
+      var summary = document.getElementById('grade-summary');
+      if (summary) summary.hidden = true;
+      hideResultsBtn.hidden = true;
+    });
+  }
 
   var clearBtn = document.getElementById('clear-all');
   if (clearBtn){
@@ -1121,6 +1307,12 @@
       document.querySelectorAll('.answer-input').forEach(function(inp){ inp.value = ''; });
       document.querySelectorAll('.choice.selected').forEach(function(c){ c.classList.remove('selected'); });
       document.querySelectorAll('.card.done').forEach(function(c){ c.classList.remove('done'); });
+      clearGradeMarks();
+      graded = false;
+      var summary = document.getElementById('grade-summary');
+      if (summary) summary.hidden = true;
+      var hideBtn = document.getElementById('hide-results');
+      if (hideBtn) hideBtn.hidden = true;
       updateProgress();
     });
   }
