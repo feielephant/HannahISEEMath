@@ -1,0 +1,1403 @@
+<title>Hannah's Math Workbook</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Petrona:ital,wght@0,500;0,600;0,700;1,500&family=Public+Sans:ital,wght@0,400;0,500;0,600;1,400&family=JetBrains+Mono:wght@400;500;600&display=swap">
+<style>
+  :root{
+    --bg:#EEF2F0;
+    --grid-line: rgba(30,42,40,0.055);
+    --surface:#FFFFFF;
+    --surface-alt:#E7EDEA;
+    --ink:#1E2A28;
+    --ink-muted:#57655F;
+    --ink-faint:#8B968F;
+    --border:#D6DFDA;
+    --accent:#1C7A69;
+    --accent-ink:#0F5648;
+    --accent-soft:#E1F2EC;
+    --amber:#9A6B12;
+    --amber-soft:#FBF1DE;
+    --shadow: 0 1px 2px rgba(20,30,28,0.04), 0 8px 24px -12px rgba(20,30,28,0.12);
+  }
+  @media (prefers-color-scheme: dark){
+    :root:not([data-theme="light"]){
+      --bg:#12181A;
+      --grid-line: rgba(210,225,220,0.045);
+      --surface:#1B2224;
+      --surface-alt:#212A2C;
+      --ink:#E8EFEC;
+      --ink-muted:#9FB0AA;
+      --ink-faint:#6C7C77;
+      --border:#2C3739;
+      --accent:#4FC4AC;
+      --accent-ink:#8FE0CC;
+      --accent-soft:rgba(79,196,172,0.14);
+      --amber:#E0AC4E;
+      --amber-soft:rgba(224,172,78,0.14);
+      --shadow: 0 1px 2px rgba(0,0,0,0.3), 0 8px 24px -12px rgba(0,0,0,0.5);
+    }
+  }
+  :root[data-theme="dark"]{
+    --bg:#12181A;
+    --grid-line: rgba(210,225,220,0.045);
+    --surface:#1B2224;
+    --surface-alt:#212A2C;
+    --ink:#E8EFEC;
+    --ink-muted:#9FB0AA;
+    --ink-faint:#6C7C77;
+    --border:#2C3739;
+    --accent:#4FC4AC;
+    --accent-ink:#8FE0CC;
+    --accent-soft:rgba(79,196,172,0.14);
+    --amber:#E0AC4E;
+    --amber-soft:rgba(224,172,78,0.14);
+    --shadow: 0 1px 2px rgba(0,0,0,0.3), 0 8px 24px -12px rgba(0,0,0,0.5);
+  }
+
+  *{box-sizing:border-box;}
+  body{
+    margin:0;
+    background:
+      linear-gradient(var(--grid-line) 1px, transparent 1px) 0 0/ 28px 28px,
+      linear-gradient(90deg, var(--grid-line) 1px, transparent 1px) 0 0/ 28px 28px,
+      var(--bg);
+    color:var(--ink);
+    font-family:"Public Sans", ui-sans-serif, system-ui, sans-serif;
+    line-height:1.5;
+    -webkit-font-smoothing:antialiased;
+  }
+  ::selection{ background: var(--accent-soft); }
+  .wrap{ max-width: 980px; margin: 0 auto; padding: 0 20px 96px; }
+
+  header.hero{ padding: 56px 0 36px; border-bottom: 1px solid var(--border); margin-bottom: 40px; }
+  .eyebrow{
+    font-family:"JetBrains Mono", ui-monospace, monospace; font-size:0.72rem; letter-spacing:0.11em;
+    text-transform:uppercase; color:var(--accent-ink); display:flex; align-items:center; gap:10px; margin-bottom:14px;
+  }
+  .eyebrow::before{ content:""; width:7px; height:7px; background:var(--accent); border-radius:50%; display:inline-block; box-shadow: 0 0 0 3px var(--accent-soft); }
+  h1{
+    font-family:"Petrona", Georgia, serif; font-weight:700; font-size: clamp(2rem, 4.4vw, 2.75rem);
+    line-height:1.08; margin:0 0 14px; text-wrap:balance; letter-spacing:-0.01em;
+  }
+  .hero p.lede{ max-width:64ch; color:var(--ink-muted); font-size:1.03rem; margin: 0 0 20px; }
+  .stat-row{ display:flex; flex-wrap:wrap; gap:14px; margin-bottom: 8px; }
+  .stat{ background:var(--surface); border:1px solid var(--border); border-radius:10px; padding:12px 18px; box-shadow:var(--shadow); min-width:120px; }
+  .stat .n{ font-family:"JetBrains Mono", monospace; font-variant-numeric: tabular-nums; font-size:1.5rem; font-weight:600; color:var(--ink); display:block; }
+  .stat .lbl{ font-size:0.72rem; color:var(--ink-faint); text-transform:uppercase; letter-spacing:0.08em; }
+  .method{ margin-top:18px; font-size:0.86rem; color:var(--ink-muted); border-left:2px solid var(--border); padding-left:14px; max-width:64ch; }
+  .method strong{ color:var(--ink); font-weight:600; }
+
+  nav.toc{ margin: 0 0 48px; background:var(--surface); border:1px solid var(--border); border-radius:12px; padding:18px 20px; box-shadow:var(--shadow); }
+  nav.toc .toc-title{ font-family:"JetBrains Mono", monospace; font-size:0.7rem; letter-spacing:0.1em; text-transform:uppercase; color:var(--ink-faint); margin-bottom:12px; }
+  nav.toc ol{ list-style:none; margin:0; padding:0; display:grid; grid-template-columns: repeat(auto-fill, minmax(200px,1fr)); gap: 6px 18px; column-count: unset; }
+  nav.toc li a{ display:flex; justify-content:space-between; gap:8px; text-decoration:none; color:var(--ink); font-size:0.85rem; padding:4px 0; border-bottom:1px dashed transparent; }
+  nav.toc li a:hover{ border-bottom-color:var(--border); }
+  nav.toc li a .pg{ font-family:"JetBrains Mono", monospace; color:var(--ink-faint); font-size:0.76rem; flex-shrink:0; }
+
+  section.topic{ margin-bottom:44px; scroll-margin-top: 20px; }
+  .topic-head{ display:flex; align-items:baseline; gap:12px; flex-wrap:wrap; margin-bottom:18px; padding-bottom:10px; border-bottom:1px solid var(--border); }
+  .topic-head h2{ font-family:"Petrona", Georgia, serif; font-weight:600; font-size:1.36rem; margin:0; letter-spacing:-0.005em; }
+  .topic-head .page-tag{ font-family:"JetBrains Mono", monospace; font-size:0.75rem; color:var(--ink-faint); background:var(--surface-alt); border:1px solid var(--border); padding:2px 9px; border-radius:999px; }
+
+  .cards{ display:grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap:16px; }
+  .card{ background:var(--surface); border:1px solid var(--border); border-radius:12px; padding:18px 20px 16px; box-shadow:var(--shadow); display:flex; flex-direction:column; gap:11px; }
+  .card-num{ font-family:"Petrona", Georgia, serif; font-style:italic; font-weight:600; color:var(--ink-faint); font-size:0.92rem; }
+  .q-text{ font-size:0.95rem; color:var(--ink); }
+  .q-text .g{ font-family:"JetBrains Mono", monospace; font-size:0.92em; }
+
+  .choices{ display:grid; grid-template-columns: 1fr 1fr; gap:6px; }
+  .choice{ font-family:"JetBrains Mono", monospace; font-size:0.83rem; padding:6px 9px; border-radius:7px; border:1px solid var(--border); background:var(--surface-alt); color:var(--ink-muted); position:relative; line-height:1.35; }
+  .choice .letter{ color:var(--ink-faint); margin-right:3px; }
+  .choice.correct{ background:var(--accent-soft); border-color:var(--accent); color:var(--ink); font-weight:600; }
+  .choice.correct .letter{ color:var(--accent-ink); }
+  .choice.correct::after{ content:"\2713"; position:absolute; top:5px; right:7px; color:var(--accent-ink); font-size:0.72rem; }
+  .approx .choice.correct{ border-style:dashed; }
+
+  .why{ font-size:0.81rem; color:var(--ink-muted); font-style:italic; border-top:1px dashed var(--border); padding-top:9px; }
+  .why b{ font-style:normal; color:var(--ink); font-weight:600; }
+  .note{ font-size:0.76rem; color:var(--amber); background:var(--amber-soft); border-radius:6px; padding:5px 9px; }
+
+  .diagram{ background:var(--surface-alt); border:1px solid var(--border); border-radius:8px; padding:10px; display:flex; justify-content:center; }
+  .diagram svg{ max-width:100%; height:auto; display:block; }
+  .diagram table{ border-collapse:collapse; font-family:"JetBrains Mono", monospace; font-size:0.76rem; font-variant-numeric: tabular-nums; }
+  .diagram th, .diagram td{ border:1px solid var(--border); padding:4px 8px; text-align:center; }
+  .diagram th{ color:var(--ink-faint); font-weight:500; background:var(--surface); }
+
+  footer{ margin-top:60px; padding-top:22px; border-top:1px solid var(--border); color:var(--ink-faint); font-size:0.8rem; }
+  @media (max-width:480px){ .choices{ grid-template-columns: 1fr; } }
+</style>
+
+<div class="wrap">
+  <header class="hero">
+    <div class="eyebrow">Elevate Prep &middot; ISEE Math Multiple Choice</div>
+    <h1>Hannah's Math Workbook</h1>
+    <p class="lede">A clean digital copy of every problem across all 37 photographed pages &mdash; independently re-solved from scratch, with the correct answer marked. Pencil marks and prior answers from the book are not shown here; see the separate Corrections Packet for that review.</p>
+    <div class="stat-row">
+      <div class="stat"><span class="n">37</span><span class="lbl">Photos</span></div>
+      <div class="stat"><span class="n">37</span><span class="lbl">Pages</span></div>
+      <div class="stat"><span class="n">223</span><span class="lbl">Problems</span></div>
+    </div>
+    <p class="method"><strong>How to read a card:</strong> the choice marked with a check is correct. A dashed check border means the figure (a hand-drawn chart, pie slice, or grid) couldn't be measured exactly from the photo, so that answer is a best estimate rather than a certainty.</p>
+  </header>
+
+  <nav class="toc" aria-label="Jump to a page">
+    <div class="toc-title">Jump to a page</div>
+    <ol id="toc-list">
+      <li><a href="#p126"><span>Percents &middot; Set 1</span><span class="pg">126</span></a></li>
+      <li><a href="#p127"><span>Percents &middot; Set 2</span><span class="pg">127</span></a></li>
+      <li><a href="#p128"><span>Estimating &middot; Set 1</span><span class="pg">128&ndash;129</span></a></li>
+      <li><a href="#p130"><span>Estimating &middot; Set 2</span><span class="pg">130&ndash;131</span></a></li>
+      <li><a href="#p132"><span>Number Lines &middot; Set 1</span><span class="pg">132&ndash;133</span></a></li>
+      <li><a href="#p133b"><span>Number Lines &middot; Set 2</span><span class="pg">133&ndash;134</span></a></li>
+      <li><a href="#p135"><span>Proportions &middot; Set 1</span><span class="pg">135</span></a></li>
+      <li><a href="#p136"><span>Proportions &middot; Set 2</span><span class="pg">136</span></a></li>
+      <li><a href="#p141"><span>Probability &middot; Set 1 &amp; 2</span><span class="pg">141</span></a></li>
+      <li><a href="#p143"><span>Unit Conversions &middot; Set 1</span><span class="pg">143</span></a></li>
+      <li><a href="#p147"><span>Solving Equations &middot; Set 1</span><span class="pg">147</span></a></li>
+      <li><a href="#p150"><span>Creating Equations &middot; Set 1</span><span class="pg">150&ndash;151</span></a></li>
+      <li><a href="#p152"><span>Creating Equations &middot; Set 2</span><span class="pg">152&ndash;153</span></a></li>
+      <li><a href="#p159"><span>Mixed Word Problems &middot; Set 1</span><span class="pg">159</span></a></li>
+      <li><a href="#p162"><span>Mean/Median/Mode/Range &middot; Set 1</span><span class="pg">162&ndash;163</span></a></li>
+      <li><a href="#p163"><span>Mean/Median/Mode/Range &middot; Set 2</span><span class="pg">163&ndash;164</span></a></li>
+      <li><a href="#p165"><span>Charts, Graphs &amp; Tables</span><span class="pg">165&ndash;167, 169</span></a></li>
+      <li><a href="#p176"><span>Area &amp; Perimeter &middot; Set 1</span><span class="pg">176</span></a></li>
+      <li><a href="#p177"><span>Area &amp; Perimeter &middot; Set 2</span><span class="pg">177</span></a></li>
+      <li><a href="#p181"><span>Shaded Area &middot; Set 1 &amp; 2</span><span class="pg">181</span></a></li>
+      <li><a href="#p187"><span>Coordinate Geometry &middot; Set 1</span><span class="pg">187&ndash;188</span></a></li>
+      <li><a href="#p189"><span>Coordinate Geometry &middot; Set 2</span><span class="pg">189&ndash;190</span></a></li>
+      <li><a href="#p191"><span>Volume &amp; Surface Area &middot; Set 1</span><span class="pg">191&ndash;192</span></a></li>
+      <li><a href="#p193"><span>Volume &amp; Surface Area &middot; Set 2</span><span class="pg">193&ndash;194</span></a></li>
+    </ol>
+  </nav>
+
+  <div id="sections">
+
+  <section class="topic" id="p126">
+    <div class="topic-head"><h2>Percents &middot; Practice Set 1</h2><span class="page-tag">page 126</span></div>
+    <div class="cards">
+      <div class="card"><div class="card-num">Problem 1</div><div class="q-text">What is 50% of 130?</div>
+        <div class="choices"><div class="choice">A&nbsp;55</div><div class="choice">B&nbsp;60</div><div class="choice correct">C&nbsp;65</div><div class="choice">D&nbsp;75</div></div>
+        <div class="why"><b>Why:</b> 0.50 &times; 130 = 65.</div></div>
+      <div class="card"><div class="card-num">Problem 2</div><div class="q-text">What is 10% of 460?</div>
+        <div class="choices"><div class="choice">A&nbsp;0.46</div><div class="choice">B&nbsp;4.6</div><div class="choice">C&nbsp;23</div><div class="choice correct">D&nbsp;46</div></div>
+        <div class="why"><b>Why:</b> 0.10 &times; 460 = 46.</div></div>
+      <div class="card"><div class="card-num">Problem 3</div><div class="q-text">What is 20% of 150?</div>
+        <div class="choices"><div class="choice correct">A&nbsp;30</div><div class="choice">B&nbsp;35</div><div class="choice">C&nbsp;45</div><div class="choice">D&nbsp;75</div></div>
+        <div class="why"><b>Why:</b> 0.20 &times; 150 = 30.</div></div>
+      <div class="card"><div class="card-num">Problem 4</div><div class="q-text">What is 15% of 40?</div>
+        <div class="choices"><div class="choice">A&nbsp;2</div><div class="choice">B&nbsp;5</div><div class="choice correct">C&nbsp;6</div><div class="choice">D&nbsp;8</div></div>
+        <div class="why"><b>Why:</b> 0.15 &times; 40 = 6.</div></div>
+      <div class="card"><div class="card-num">Problem 5</div><div class="q-text">9 is what percent of 45?</div>
+        <div class="choices"><div class="choice">A&nbsp;5%</div><div class="choice correct">B&nbsp;20%</div><div class="choice">C&nbsp;25%</div><div class="choice">D&nbsp;40%</div></div>
+        <div class="why"><b>Why:</b> 9 &divide; 45 = 0.20.</div></div>
+      <div class="card"><div class="card-num">Problem 6</div><div class="q-text">What percent of 30 is 60?</div>
+        <div class="choices"><div class="choice">A&nbsp;50%</div><div class="choice">B&nbsp;100%</div><div class="choice">C&nbsp;150%</div><div class="choice correct">D&nbsp;200%</div></div>
+        <div class="why"><b>Why:</b> 60 &divide; 30 = 2.00.</div></div>
+      <div class="card"><div class="card-num">Problem 7</div><div class="q-text">36 is what percent of 3,600?</div>
+        <div class="choices"><div class="choice correct">A&nbsp;1%</div><div class="choice">B&nbsp;2%</div><div class="choice">C&nbsp;5%</div><div class="choice">D&nbsp;10%</div></div>
+        <div class="why"><b>Why:</b> 36 &divide; 3,600 = 0.01.</div></div>
+      <div class="card"><div class="card-num">Problem 8</div><div class="q-text">7 is 25% of what number?</div>
+        <div class="choices"><div class="choice correct">A&nbsp;28</div><div class="choice">B&nbsp;35</div><div class="choice">C&nbsp;280</div><div class="choice">D&nbsp;350</div></div>
+        <div class="why"><b>Why:</b> 7 &divide; 0.25 = 28.</div></div>
+      <div class="card"><div class="card-num">Problem 9</div><div class="q-text">60 is 75% of what number?</div>
+        <div class="choices"><div class="choice">A&nbsp;45</div><div class="choice">B&nbsp;65</div><div class="choice">C&nbsp;75</div><div class="choice correct">D&nbsp;80</div></div>
+        <div class="why"><b>Why:</b> 60 &divide; 0.75 = 80.</div></div>
+      <div class="card"><div class="card-num">Problem 10</div><div class="q-text">30 is 150% of what number?</div>
+        <div class="choices"><div class="choice correct">A&nbsp;20</div><div class="choice">B&nbsp;25</div><div class="choice">C&nbsp;40</div><div class="choice">D&nbsp;45</div></div>
+        <div class="why"><b>Why:</b> 30 &divide; 1.50 = 20.</div></div>
+    </div>
+  </section>
+
+  <section class="topic" id="p127">
+    <div class="topic-head"><h2>Percents &middot; Practice Set 2</h2><span class="page-tag">page 127</span></div>
+    <div class="cards">
+      <div class="card"><div class="card-num">Problem 1</div><div class="q-text">What is 75% of 48?</div>
+        <div class="choices"><div class="choice">A&nbsp;12</div><div class="choice correct">B&nbsp;36</div><div class="choice">C&nbsp;24</div><div class="choice">D&nbsp;32</div></div>
+        <div class="why"><b>Why:</b> 0.75 &times; 48 = 36.</div></div>
+      <div class="card"><div class="card-num">Problem 2</div><div class="q-text">What is 80% of 50?</div>
+        <div class="choices"><div class="choice">A&nbsp;30</div><div class="choice">B&nbsp;35</div><div class="choice correct">C&nbsp;40</div><div class="choice">D&nbsp;45</div></div>
+        <div class="why"><b>Why:</b> 0.80 &times; 50 = 40.</div></div>
+      <div class="card"><div class="card-num">Problem 3</div><div class="q-text">What is 5% of 700?</div>
+        <div class="choices"><div class="choice">A&nbsp;3.5</div><div class="choice">B&nbsp;15</div><div class="choice correct">C&nbsp;35</div><div class="choice">D&nbsp;350</div></div>
+        <div class="why"><b>Why:</b> 0.05 &times; 700 = 35.</div></div>
+      <div class="card"><div class="card-num">Problem 4</div><div class="q-text">What is 200% of 16?</div>
+        <div class="choices"><div class="choice correct">A&nbsp;32</div><div class="choice">B&nbsp;36</div><div class="choice">C&nbsp;42</div><div class="choice">D&nbsp;48</div></div>
+        <div class="why"><b>Why:</b> 2.00 &times; 16 = 32.</div></div>
+      <div class="card"><div class="card-num">Problem 5</div><div class="q-text">24 is what percent of 30?</div>
+        <div class="choices"><div class="choice">A&nbsp;45%</div><div class="choice">B&nbsp;60%</div><div class="choice correct">C&nbsp;80%</div><div class="choice">D&nbsp;125%</div></div>
+        <div class="why"><b>Why:</b> 24 &divide; 30 = 0.80.</div></div>
+      <div class="card"><div class="card-num">Problem 6</div><div class="q-text">What percent of 10 is 40?</div>
+        <div class="choices"><div class="choice">A&nbsp;20%</div><div class="choice">B&nbsp;25%</div><div class="choice">C&nbsp;300%</div><div class="choice correct">D&nbsp;400%</div></div>
+        <div class="why"><b>Why:</b> 40 &divide; 10 = 4.</div></div>
+      <div class="card"><div class="card-num">Problem 7</div><div class="q-text">63 is what percent of 630?</div>
+        <div class="choices"><div class="choice">A&nbsp;1%</div><div class="choice">B&nbsp;2%</div><div class="choice correct">C&nbsp;10%</div><div class="choice">D&nbsp;63%</div></div>
+        <div class="why"><b>Why:</b> 63 &divide; 630 = 0.10.</div></div>
+      <div class="card"><div class="card-num">Problem 8</div><div class="q-text">40 is 20% of what number?</div>
+        <div class="choices"><div class="choice">A&nbsp;80</div><div class="choice correct">B&nbsp;200</div><div class="choice">C&nbsp;400</div><div class="choice">D&nbsp;800</div></div>
+        <div class="why"><b>Why:</b> 40 &divide; 0.20 = 200.</div></div>
+      <div class="card"><div class="card-num">Problem 9</div><div class="q-text">90 is 150% of what number?</div>
+        <div class="choices"><div class="choice correct">A&nbsp;60</div><div class="choice">B&nbsp;75</div><div class="choice">C&nbsp;135</div><div class="choice">D&nbsp;180</div></div>
+        <div class="why"><b>Why:</b> 90 &divide; 1.50 = 60.</div></div>
+      <div class="card"><div class="card-num">Problem 10</div><div class="q-text">12 is 25% of what number?</div>
+        <div class="choices"><div class="choice">A&nbsp;3</div><div class="choice">B&nbsp;4</div><div class="choice">C&nbsp;36</div><div class="choice correct">D&nbsp;48</div></div>
+        <div class="why"><b>Why:</b> 12 &divide; 0.25 = 48.</div></div>
+    </div>
+  </section>
+
+  <section class="topic" id="p128">
+    <div class="topic-head"><h2>Estimating &middot; Practice Set 1</h2><span class="page-tag">pages 128&ndash;129</span></div>
+    <div class="cards">
+      <div class="card"><div class="card-num">Problem 1</div><div class="q-text">Which of the following is the best way to estimate the product 418 &times; 68?</div>
+        <div class="choices"><div class="choice">A&nbsp;500&times;60</div><div class="choice">B&nbsp;400&times;60</div><div class="choice">C&nbsp;500&times;70</div><div class="choice correct">D&nbsp;400&times;70</div></div>
+        <div class="why"><b>Why:</b> round each factor to its leading digit.</div></div>
+      <div class="card"><div class="card-num">Problem 2</div><div class="q-text">Which of the following is the best way to estimate the quotient 19.57 &divide; 4.86?</div>
+        <div class="choices"><div class="choice correct">A&nbsp;20&divide;5</div><div class="choice">B&nbsp;20&divide;4</div><div class="choice">C&nbsp;19&divide;4</div><div class="choice">D&nbsp;19&divide;5</div></div>
+        <div class="why"><b>Why:</b> 20 and 5 are the nearest "friendly" numbers that divide evenly.</div></div>
+      <div class="card"><div class="card-num">Problem 3</div><div class="q-text">Lewis ordered 223 boxes of pencils, 82 pencils per box. Best estimate of the total?</div>
+        <div class="choices"><div class="choice correct">A&nbsp;200&times;80</div><div class="choice">B&nbsp;200&times;90</div><div class="choice">C&nbsp;300&times;80</div><div class="choice">D&nbsp;300&times;90</div></div>
+        <div class="why"><b>Why:</b> round 223&rarr;200 and 82&rarr;80.</div></div>
+      <div class="card"><div class="card-num">Problem 4</div><div class="q-text">What is a reasonable estimation for the value of (38 &times; 624)/18?</div>
+        <div class="choices"><div class="choice">A&nbsp;500&ndash;1,000</div><div class="choice correct">B&nbsp;1,000&ndash;1,500</div><div class="choice">C&nbsp;1,500&ndash;2,000</div><div class="choice">D&nbsp;2,000&ndash;2,500</div></div>
+        <div class="why"><b>Why:</b> exact value &asymp; 1,317.</div></div>
+      <div class="card"><div class="card-num">Problem 5</div><div class="q-text">Lucy bought a $34.49 shirt, three $2.99 pairs of socks, and $67.49 shoes. Estimated total?</div>
+        <div class="choices"><div class="choice">A&nbsp;$100&ndash;105</div><div class="choice">B&nbsp;$105&ndash;110</div><div class="choice correct">C&nbsp;$110&ndash;115</div><div class="choice">D&nbsp;$115&ndash;120</div></div>
+        <div class="why"><b>Why:</b> exact total = $110.95.</div></div>
+      <div class="card"><div class="card-num">Problem 6</div><div class="q-text">Mount Everest is 29,029 ft. Which mountain's height is closest to 1/3 of that?</div>
+        <div class="choices"><div class="choice">A&nbsp;Olympus, 7,992 ft</div><div class="choice correct">B&nbsp;Norikura, 9,928 ft</div><div class="choice">C&nbsp;Walter, 13,123 ft</div><div class="choice">D&nbsp;Meru, 14,980 ft</div></div>
+        <div class="why"><b>Why:</b> 1/3 of 29,029 &asymp; 9,676, closest to 9,928.</div></div>
+      <div class="card"><div class="card-num">Problem 7</div><div class="q-text">Both jars below hold 2 cups when full. Combined, about how much liquid is there?</div>
+        <div class="diagram approx"><svg viewBox="0 0 180 100" width="180" height="100">
+          <rect x="15" y="20" width="55" height="70" rx="4" fill="none" stroke="currentColor" style="color:var(--ink-muted)"/>
+          <rect x="17" y="70" width="51" height="18" fill="var(--accent)" fill-opacity="0.4"/>
+          <text x="42" y="14" text-anchor="middle" font-family="Public Sans" font-size="9" fill="var(--ink-faint)">~1/4 full</text>
+          <rect x="105" y="10" width="45" height="80" rx="4" fill="none" stroke="currentColor" style="color:var(--ink-muted)"/>
+          <rect x="107" y="20" width="41" height="68" fill="var(--accent)" fill-opacity="0.4"/>
+          <text x="127" y="7" text-anchor="middle" font-family="Public Sans" font-size="9" fill="var(--ink-faint)">~3/4 full</text>
+        </svg></div>
+        <div class="choices"><div class="choice">A&nbsp;1 cup</div><div class="choice">B&nbsp;1.5 cups</div><div class="choice correct">C&nbsp;2 cups</div><div class="choice">D&nbsp;3 cups</div></div>
+        <div class="why"><b>Why (approx):</b> &frac14; full + &frac34; full &asymp; 0.5 + 1.5 = 2 cups.</div></div>
+      <div class="card"><div class="card-num">Problem 8 <span style="font-weight:400;color:var(--ink-faint);">&middot; p.129</span></div><div class="q-text">What is a reasonable estimation for the value of (77 &times; 62)/41?</div>
+        <div class="choices"><div class="choice">A&nbsp;50&ndash;75</div><div class="choice">B&nbsp;75&ndash;100</div><div class="choice correct">C&nbsp;100&ndash;125</div><div class="choice">D&nbsp;125&ndash;150</div></div>
+        <div class="why"><b>Why:</b> exact value &asymp; 116.4.</div></div>
+      <div class="card"><div class="card-num">Problem 9 <span style="font-weight:400;color:var(--ink-faint);">&middot; p.129</span></div><div class="q-text">Each bar represents one whole candy bar. If Gina eats the shaded amount of each, about how many total bars?</div>
+        <div class="diagram approx"><svg viewBox="0 0 200 90" width="200" height="90">
+          <g font-family="Public Sans" font-size="8" fill="var(--ink-faint)">
+            <rect x="10" y="8" width="180" height="16" fill="none" stroke="currentColor" style="color:var(--ink-muted)"/>
+            <rect x="10" y="8" width="77" height="16" fill="var(--accent)" fill-opacity="0.4"/>
+            <line x1="35.7" y1="8" x2="35.7" y2="24" stroke="var(--border)"/><line x1="61.4" y1="8" x2="61.4" y2="24" stroke="var(--border)"/><line x1="87.1" y1="8" x2="87.1" y2="24" stroke="var(--border)"/><line x1="112.9" y1="8" x2="112.9" y2="24" stroke="var(--border)"/><line x1="138.6" y1="8" x2="138.6" y2="24" stroke="var(--border)"/><line x1="164.3" y1="8" x2="164.3" y2="24" stroke="var(--border)"/>
+            <text x="4" y="20">3/7</text>
+            <rect x="10" y="35" width="180" height="16" fill="none" stroke="currentColor" style="color:var(--ink-muted)"/>
+            <rect x="10" y="35" width="135" height="16" fill="var(--accent)" fill-opacity="0.4"/>
+            <line x1="55" y1="35" x2="55" y2="51" stroke="var(--border)"/><line x1="100" y1="35" x2="100" y2="51" stroke="var(--border)"/><line x1="145" y1="35" x2="145" y2="51" stroke="var(--border)"/>
+            <text x="4" y="47">3/4</text>
+            <rect x="10" y="62" width="180" height="16" fill="none" stroke="currentColor" style="color:var(--ink-muted)"/>
+            <rect x="10" y="62" width="60" height="16" fill="var(--accent)" fill-opacity="0.4"/>
+            <line x1="70" y1="62" x2="70" y2="78" stroke="var(--border)"/><line x1="130" y1="62" x2="130" y2="78" stroke="var(--border)"/>
+            <text x="4" y="74">1/3</text>
+          </g>
+        </svg></div>
+        <div class="choices"><div class="choice">A&nbsp;1</div><div class="choice correct">B&nbsp;1&frac12;</div><div class="choice">C&nbsp;2</div><div class="choice">D&nbsp;2&frac12;</div></div>
+        <div class="why"><b>Why (approx):</b> 3/7 + 3/4 + 1/3 &asymp; 1.51.</div></div>
+      <div class="card"><div class="card-num">Problem 10 <span style="font-weight:400;color:var(--ink-faint);">&middot; p.129</span></div><div class="q-text">Tim's trail mix ingredients, evenly mixed and split into 8 bags. About how many cups per bag?</div>
+        <div class="diagram"><table><tr><th>Granola</th><th>Raisins</th><th>Peanuts</th><th>Choc chips</th><th>Almonds</th></tr><tr><td>9 cups</td><td>7 cups</td><td>5 cups</td><td>4 cups</td><td>2 cups</td></tr></table></div>
+        <div class="choices"><div class="choice">A&nbsp;3</div><div class="choice correct">B&nbsp;3&frac12;</div><div class="choice">C&nbsp;4</div><div class="choice">D&nbsp;4&frac12;</div></div>
+        <div class="why"><b>Why:</b> total = 27 cups; 27 &divide; 8 = 3.375.</div></div>
+    </div>
+  </section>
+
+  <section class="topic" id="p130">
+    <div class="topic-head"><h2>Estimating &middot; Practice Set 2</h2><span class="page-tag">pages 130&ndash;131</span></div>
+    <div class="cards">
+      <div class="card"><div class="card-num">Problem 1</div><div class="q-text">Which of the following is the best way to estimate the product 73.87 &times; 295.74?</div>
+        <div class="choices"><div class="choice">A&nbsp;80&times;300</div><div class="choice">B&nbsp;100&times;300</div><div class="choice">C&nbsp;70&times;250</div><div class="choice correct">D&nbsp;70&times;300</div></div>
+        <div class="why"><b>Why:</b> round each factor to its leading digit.</div></div>
+      <div class="card"><div class="card-num">Problem 2</div><div class="q-text">Which of the following is the best way to estimate the quotient 577 &divide; 27?</div>
+        <div class="choices"><div class="choice correct">A&nbsp;600&divide;30</div><div class="choice">B&nbsp;600&divide;20</div><div class="choice">C&nbsp;500&divide;30</div><div class="choice">D&nbsp;500&divide;20</div></div>
+        <div class="why"><b>Why:</b> 600 and 30 are close, friendly, and divide evenly.</div></div>
+      <div class="card"><div class="card-num">Problem 3</div><div class="q-text">Garret ran 17 miles/week for 52 weeks. Best estimate of total miles?</div>
+        <div class="choices"><div class="choice">A&nbsp;10&times;50</div><div class="choice">B&nbsp;10&times;60</div><div class="choice correct">C&nbsp;20&times;50</div><div class="choice">D&nbsp;20&times;60</div></div>
+        <div class="why"><b>Why:</b> round 17&rarr;20 and 52&rarr;50.</div></div>
+      <div class="card"><div class="card-num">Problem 4</div><div class="q-text">Devin bought 6 items: $6.99, $3.49, $11.49, $5.49, $12.99, $0.50. Estimated total?</div>
+        <div class="choices"><div class="choice">A&nbsp;$30&ndash;35</div><div class="choice">B&nbsp;$35&ndash;40</div><div class="choice correct">C&nbsp;$40&ndash;45</div><div class="choice">D&nbsp;$45&ndash;50</div></div>
+        <div class="why"><b>Why:</b> exact total = $40.95.</div></div>
+      <div class="card"><div class="card-num">Problem 5</div><div class="q-text">What is a reasonable estimation for the value of (61 &times; 645)/29?</div>
+        <div class="choices"><div class="choice">A&nbsp;800&ndash;1,100</div><div class="choice correct">B&nbsp;1,100&ndash;1,400</div><div class="choice">C&nbsp;1,400&ndash;1,700</div><div class="choice">D&nbsp;2,000&ndash;2,300</div></div>
+        <div class="why"><b>Why:</b> exact value &asymp; 1,356.7.</div></div>
+      <div class="card"><div class="card-num">Problem 6</div><div class="q-text">Lake Superior has an area of 82,100 km&sup2;. Which lake's area is closest to 1/4 of that?</div>
+        <div class="choices"><div class="choice">A&nbsp;Vostok, 12,500</div><div class="choice">B&nbsp;Balkhash, 16,400</div><div class="choice correct">C&nbsp;Ontario, 18,960</div><div class="choice">D&nbsp;Winnipeg, 24,514</div></div>
+        <div class="why"><b>Why:</b> 1/4 of 82,100 = 20,525, closest to 18,960.</div></div>
+      <div class="card"><div class="card-num">Problem 7</div><div class="q-text">Both jars below hold 4 cups when full. Combined, about how much liquid is there?</div>
+        <div class="diagram approx"><svg viewBox="0 0 180 100" width="180" height="100">
+          <rect x="15" y="20" width="55" height="70" rx="4" fill="none" stroke="currentColor" style="color:var(--ink-muted)"/>
+          <rect x="17" y="36" width="51" height="52" fill="var(--accent)" fill-opacity="0.4"/>
+          <text x="42" y="14" text-anchor="middle" font-family="Public Sans" font-size="9" fill="var(--ink-faint)">~3/4 full</text>
+          <rect x="105" y="10" width="45" height="80" rx="4" fill="none" stroke="currentColor" style="color:var(--ink-muted)"/>
+          <rect x="107" y="15" width="41" height="73" fill="var(--accent)" fill-opacity="0.4"/>
+          <text x="127" y="7" text-anchor="middle" font-family="Public Sans" font-size="9" fill="var(--ink-faint)">~7/8 full</text>
+        </svg></div>
+        <div class="choices"><div class="choice">A&nbsp;1.5 cups</div><div class="choice">B&nbsp;4 cups</div><div class="choice">C&nbsp;4.5 cups</div><div class="choice correct">D&nbsp;5.5 cups</div></div>
+        <div class="why"><b>Why (approx):</b> &frac12; full (2 cups) + &frac78; full (3.5 cups) &asymp; 5.5 cups.</div></div>
+      <div class="card"><div class="card-num">Problem 8 <span style="font-weight:400;color:var(--ink-faint);">&middot; p.131</span></div><div class="q-text">Patricia mixes 10pt red, 5pt blue, 3pt pink, 1pt white, 1pt purple paint into 6 cans. About how many pints per can?</div>
+        <div class="choices"><div class="choice">A&nbsp;3</div><div class="choice correct">B&nbsp;3&frac14;</div><div class="choice">C&nbsp;3&frac34;</div><div class="choice">D&nbsp;4</div></div>
+        <div class="why"><b>Why:</b> total 20 pints &divide; 6 &asymp; 3.33.</div></div>
+      <div class="card"><div class="card-num">Problem 9 <span style="font-weight:400;color:var(--ink-faint);">&middot; p.131</span></div><div class="q-text">What is a reasonable estimation for the value of (121 &times; 28)/64?</div>
+        <div class="choices"><div class="choice">A&nbsp;25&ndash;30</div><div class="choice">B&nbsp;30&ndash;45</div><div class="choice correct">C&nbsp;45&ndash;65</div><div class="choice">D&nbsp;65&ndash;75</div></div>
+        <div class="why"><b>Why:</b> exact value &asymp; 52.9.</div></div>
+      <div class="card"><div class="card-num">Problem 10 <span style="font-weight:400;color:var(--ink-faint);">&middot; p.131</span></div><div class="q-text">Each bar represents one whole candy bar. If Ken eats the shaded amount of each, about how many total bars?</div>
+        <div class="diagram approx"><svg viewBox="0 0 200 90" width="200" height="90">
+          <g font-family="Public Sans" font-size="8" fill="var(--ink-faint)">
+            <rect x="10" y="8" width="180" height="16" fill="none" stroke="currentColor" style="color:var(--ink-muted)"/>
+            <rect x="10" y="8" width="157" height="16" fill="var(--accent)" fill-opacity="0.4"/>
+            <text x="4" y="20">7/8</text>
+            <rect x="10" y="35" width="180" height="16" fill="none" stroke="currentColor" style="color:var(--ink-muted)"/>
+            <rect x="10" y="35" width="90" height="16" fill="var(--accent)" fill-opacity="0.4"/>
+            <line x1="100" y1="35" x2="100" y2="51" stroke="var(--border)"/>
+            <text x="4" y="47">1/2</text>
+            <rect x="10" y="62" width="180" height="16" fill="none" stroke="currentColor" style="color:var(--ink-muted)"/>
+            <rect x="10" y="62" width="108" height="16" fill="var(--accent)" fill-opacity="0.4"/>
+            <line x1="46" y1="62" x2="46" y2="78" stroke="var(--border)"/><line x1="82" y1="62" x2="82" y2="78" stroke="var(--border)"/><line x1="118" y1="62" x2="118" y2="78" stroke="var(--border)"/><line x1="154" y1="62" x2="154" y2="78" stroke="var(--border)"/>
+            <text x="4" y="74">3/5</text>
+          </g>
+        </svg></div>
+        <div class="choices"><div class="choice">A&nbsp;1&frac12;</div><div class="choice correct">B&nbsp;2</div><div class="choice">C&nbsp;2&frac12;</div><div class="choice">D&nbsp;3</div></div>
+        <div class="why"><b>Why (approx):</b> 7/8 + 1/2 + 3/5 &asymp; 1.98.</div></div>
+    </div>
+  </section>
+
+  <section class="topic" id="p132">
+    <div class="topic-head"><h2>Number Lines &middot; Practice Set 1</h2><span class="page-tag">pages 132&ndash;133</span></div>
+    <p style="color:var(--ink-muted); font-size:0.85rem; max-width:66ch; margin:-8px 0 16px;">Tick positions on this page are reconstructed from the endpoint labels and equal spacing &mdash; treat as best-effort, not pixel-exact.</p>
+    <div class="cards">
+      <div class="card"><div class="card-num">Problem 1</div><div class="q-text">What number is represented by A on the number line?</div>
+        <div class="diagram approx"><svg viewBox="0 0 260 55" width="260" height="55"><line x1="15" y1="30" x2="245" y2="30" stroke="currentColor" style="color:var(--ink-muted)"/>
+          <g stroke="currentColor" style="color:var(--ink-muted)"><line x1="15" y1="25" x2="15" y2="35"/><line x1="61" y1="25" x2="61" y2="35"/><line x1="107" y1="25" x2="107" y2="35"/><line x1="153" y1="25" x2="153" y2="35"/><line x1="199" y1="25" x2="199" y2="35"/><line x1="245" y1="25" x2="245" y2="35"/></g>
+          <text x="15" y="48" text-anchor="middle" font-family="JetBrains Mono" font-size="10" fill="var(--ink-faint)">4</text>
+          <text x="245" y="48" text-anchor="middle" font-family="JetBrains Mono" font-size="10" fill="var(--ink-faint)">19</text>
+          <circle cx="107" cy="30" r="3" fill="var(--accent)"/><text x="107" y="15" text-anchor="middle" font-family="Public Sans" font-size="11" font-weight="600" fill="var(--accent-ink)">A</text></svg></div>
+        <div class="choices"><div class="choice">A&nbsp;6</div><div class="choice">B&nbsp;8</div><div class="choice correct">C&nbsp;10</div><div class="choice">D&nbsp;13</div></div>
+        <div class="why"><b>Why:</b> step=(19&minus;4)/5=3; A is 2 steps from 4 &rarr; 10.</div></div>
+      <div class="card"><div class="card-num">Problem 2</div><div class="q-text">What number is represented by X on the number line?</div>
+        <div class="diagram approx"><svg viewBox="0 0 260 55" width="260" height="55"><line x1="15" y1="30" x2="245" y2="30" stroke="currentColor" style="color:var(--ink-muted)"/>
+          <g stroke="currentColor" style="color:var(--ink-muted)"><line x1="15" y1="25" x2="15" y2="35"/><line x1="53" y1="25" x2="53" y2="35"/><line x1="91" y1="25" x2="91" y2="35"/><line x1="130" y1="25" x2="130" y2="35"/><line x1="168" y1="25" x2="168" y2="35"/><line x1="207" y1="25" x2="207" y2="35"/><line x1="245" y1="25" x2="245" y2="35"/></g>
+          <text x="15" y="48" text-anchor="middle" font-family="JetBrains Mono" font-size="10" fill="var(--ink-faint)">20</text>
+          <text x="245" y="48" text-anchor="middle" font-family="JetBrains Mono" font-size="10" fill="var(--ink-faint)">62</text>
+          <circle cx="207" cy="30" r="3" fill="var(--accent)"/><text x="207" y="15" text-anchor="middle" font-family="Public Sans" font-size="11" font-weight="600" fill="var(--accent-ink)">X</text></svg></div>
+        <div class="choices"><div class="choice">A&nbsp;48</div><div class="choice">B&nbsp;50</div><div class="choice">C&nbsp;54</div><div class="choice correct">D&nbsp;55</div></div>
+        <div class="why"><b>Why:</b> step=(62&minus;20)/6=7; X is one step before 62 &rarr; 55.</div></div>
+      <div class="card"><div class="card-num">Problem 3</div><div class="q-text">What number is represented by B on the number line?</div>
+        <div class="diagram approx"><svg viewBox="0 0 260 55" width="260" height="55"><line x1="15" y1="30" x2="245" y2="30" stroke="currentColor" style="color:var(--ink-muted)"/>
+          <g stroke="currentColor" style="color:var(--ink-muted)"><line x1="15" y1="25" x2="15" y2="35"/><line x1="61" y1="25" x2="61" y2="35"/><line x1="107" y1="25" x2="107" y2="35"/><line x1="153" y1="25" x2="153" y2="35"/><line x1="199" y1="25" x2="199" y2="35"/><line x1="245" y1="25" x2="245" y2="35"/></g>
+          <text x="61" y="48" text-anchor="middle" font-family="JetBrains Mono" font-size="10" fill="var(--ink-faint)">56</text>
+          <text x="245" y="48" text-anchor="middle" font-family="JetBrains Mono" font-size="10" fill="var(--ink-faint)">68</text>
+          <circle cx="15" cy="30" r="3" fill="var(--accent)"/><text x="15" y="15" text-anchor="middle" font-family="Public Sans" font-size="11" font-weight="600" fill="var(--accent-ink)">B</text></svg></div>
+        <div class="choices"><div class="choice">A&nbsp;50</div><div class="choice">B&nbsp;52</div><div class="choice">C&nbsp;53</div><div class="choice correct">D&nbsp;54</div></div>
+        <div class="why"><b>Why:</b> step=2 (56 to 68 over 6); B sits one step left of 56 &rarr; 54.</div></div>
+      <div class="card"><div class="card-num">Problem 4</div><div class="q-text">What numbers are represented by A, B, and C on the number line?</div>
+        <div class="diagram approx"><svg viewBox="0 0 260 55" width="260" height="55"><line x1="15" y1="30" x2="245" y2="30" stroke="currentColor" style="color:var(--ink-muted)"/>
+          <g stroke="currentColor" style="color:var(--ink-muted)"><line x1="15" y1="25" x2="15" y2="35"/><line x1="43.75" y1="25" x2="43.75" y2="35"/><line x1="72.5" y1="25" x2="72.5" y2="35"/><line x1="101.25" y1="25" x2="101.25" y2="35"/><line x1="130" y1="25" x2="130" y2="35"/><line x1="158.75" y1="25" x2="158.75" y2="35"/><line x1="187.5" y1="25" x2="187.5" y2="35"/><line x1="216.25" y1="25" x2="216.25" y2="35"/><line x1="245" y1="25" x2="245" y2="35"/></g>
+          <text x="15" y="48" text-anchor="middle" font-family="JetBrains Mono" font-size="10" fill="var(--ink-faint)">1.5</text>
+          <text x="245" y="48" text-anchor="middle" font-family="JetBrains Mono" font-size="10" fill="var(--ink-faint)">3.1</text>
+          <circle cx="101.25" cy="30" r="3" fill="var(--accent)"/><text x="101.25" y="15" text-anchor="middle" font-family="Public Sans" font-size="10" font-weight="600" fill="var(--accent-ink)">A</text>
+          <circle cx="130" cy="30" r="3" fill="var(--accent)"/><text x="130" y="15" text-anchor="middle" font-family="Public Sans" font-size="10" font-weight="600" fill="var(--accent-ink)">B</text>
+          <circle cx="158.75" cy="30" r="3" fill="var(--accent)"/><text x="158.75" y="15" text-anchor="middle" font-family="Public Sans" font-size="10" font-weight="600" fill="var(--accent-ink)">C</text></svg></div>
+        <div class="choices"><div class="choice">A&nbsp;1.7,1.8,1.9</div><div class="choice correct">B&nbsp;1.9,2.1,2.3</div><div class="choice">C&nbsp;2.0,2.2,2.4</div><div class="choice">D&nbsp;2.1,2.4,2.7</div></div>
+        <div class="why"><b>Why:</b> step=(3.1&minus;1.5)/8=0.2 &rarr; 1.9, 2.1, 2.3.</div></div>
+      <div class="card"><div class="card-num">Problem 5</div><div class="q-text">What numbers are represented by X, Y, and Z on the number line?</div>
+        <div class="diagram approx"><svg viewBox="0 0 260 55" width="260" height="55"><line x1="15" y1="30" x2="245" y2="30" stroke="currentColor" style="color:var(--ink-muted)"/>
+          <g stroke="currentColor" style="color:var(--ink-muted)"><line x1="15" y1="25" x2="15" y2="35"/><line x1="48" y1="25" x2="48" y2="35"/><line x1="80" y1="25" x2="80" y2="35"/><line x1="113" y1="25" x2="113" y2="35"/><line x1="146" y1="25" x2="146" y2="35"/><line x1="179" y1="25" x2="179" y2="35"/><line x1="212" y1="25" x2="212" y2="35"/><line x1="245" y1="25" x2="245" y2="35"/></g>
+          <text x="15" y="48" text-anchor="middle" font-family="JetBrains Mono" font-size="10" fill="var(--ink-faint)">5.2</text>
+          <text x="245" y="48" text-anchor="middle" font-family="JetBrains Mono" font-size="10" fill="var(--ink-faint)">8.7</text>
+          <circle cx="48" cy="30" r="3" fill="var(--accent)"/><text x="48" y="15" text-anchor="middle" font-family="Public Sans" font-size="10" font-weight="600" fill="var(--accent-ink)">X</text>
+          <circle cx="113" cy="30" r="3" fill="var(--accent)"/><text x="113" y="15" text-anchor="middle" font-family="Public Sans" font-size="10" font-weight="600" fill="var(--accent-ink)">Y</text>
+          <circle cx="212" cy="30" r="3" fill="var(--accent)"/><text x="212" y="15" text-anchor="middle" font-family="Public Sans" font-size="10" font-weight="600" fill="var(--accent-ink)">Z</text></svg></div>
+        <div class="choices"><div class="choice">A&nbsp;5.6,6.4,7.6</div><div class="choice">B&nbsp;5.6,6.4,8.3</div><div class="choice">C&nbsp;5.7,6.7,7.7</div><div class="choice correct">D&nbsp;5.7,6.7,8.2</div></div>
+        <div class="why"><b>Why:</b> step=(8.7&minus;5.2)/7=0.5 &rarr; 5.7, 6.7, 8.2.</div></div>
+      <div class="card"><div class="card-num">Problem 6</div><div class="q-text">What numbers are represented by J, K, and L on the number line?</div>
+        <div class="diagram"><svg viewBox="0 0 320 70" width="320" height="70"><line x1="20" y1="40" x2="305" y2="40" stroke="currentColor" stroke-width="1.5" style="color:var(--ink-muted)"/>
+          <g stroke="currentColor" stroke-width="1.5" style="color:var(--ink-muted)"><line x1="30" y1="34" x2="30" y2="46"/><line x1="67.1" y1="34" x2="67.1" y2="46"/><line x1="104.3" y1="34" x2="104.3" y2="46"/><line x1="141.4" y1="34" x2="141.4" y2="46"/><line x1="178.6" y1="34" x2="178.6" y2="46"/><line x1="215.7" y1="34" x2="215.7" y2="46"/><line x1="252.9" y1="34" x2="252.9" y2="46"/><line x1="290" y1="34" x2="290" y2="46"/></g>
+          <text x="20" y="60" font-family="JetBrains Mono" font-size="11" fill="var(--ink-faint)">3.7</text><text x="280" y="60" font-family="JetBrains Mono" font-size="11" fill="var(--ink-faint)">9.3</text>
+          <circle cx="30" cy="40" r="3" fill="var(--accent)"/><text x="24" y="20" font-family="Public Sans" font-size="12" font-weight="600" fill="var(--accent-ink)">J</text>
+          <circle cx="104.3" cy="40" r="3" fill="var(--accent)"/><text x="98" y="20" font-family="Public Sans" font-size="12" font-weight="600" fill="var(--accent-ink)">K</text>
+          <circle cx="215.7" cy="40" r="3" fill="var(--accent)"/><text x="210" y="20" font-family="Public Sans" font-size="12" font-weight="600" fill="var(--accent-ink)">L</text></svg></div>
+        <div class="choices"><div class="choice">A&nbsp;2.8,5.2,7.9</div><div class="choice">B&nbsp;2.9,5.3,7.7</div><div class="choice">C&nbsp;3.1,5.2,7.9</div><div class="choice correct">D&nbsp;3.7,5.3,7.7</div></div>
+        <div class="why"><b>Why:</b> step=0.8 (labeled 3.7&rarr;4.5) &rarr; J=3.7, K=5.3, L=7.7.</div></div>
+      <div class="card"><div class="card-num">Problem 7</div><div class="q-text">What is the sum of M and N on the number line?</div>
+        <div class="diagram approx"><svg viewBox="0 0 260 55" width="260" height="55"><line x1="15" y1="30" x2="245" y2="30" stroke="currentColor" style="color:var(--ink-muted)"/>
+          <g stroke="currentColor" style="color:var(--ink-muted)"><line x1="15" y1="25" x2="15" y2="35"/><line x1="72.5" y1="25" x2="72.5" y2="35"/><line x1="130" y1="25" x2="130" y2="35"/><line x1="187.5" y1="25" x2="187.5" y2="35"/><line x1="245" y1="25" x2="245" y2="35"/></g>
+          <text x="72.5" y="48" text-anchor="middle" font-family="JetBrains Mono" font-size="10" fill="var(--ink-faint)">2</text>
+          <text x="130" y="48" text-anchor="middle" font-family="JetBrains Mono" font-size="10" fill="var(--ink-faint)">4</text>
+          <text x="187.5" y="48" text-anchor="middle" font-family="JetBrains Mono" font-size="10" fill="var(--ink-faint)">6</text>
+          <circle cx="15" cy="30" r="3" fill="var(--accent)"/><text x="15" y="15" text-anchor="middle" font-family="Public Sans" font-size="10" font-weight="600" fill="var(--accent-ink)">M</text>
+          <circle cx="187.5" cy="30" r="3" fill="var(--accent)"/><text x="187.5" y="15" text-anchor="middle" font-family="Public Sans" font-size="10" font-weight="600" fill="var(--accent-ink)">N</text></svg></div>
+        <div class="choices"><div class="choice">A&nbsp;&minus;8</div><div class="choice">B&nbsp;&minus;4</div><div class="choice correct">C&nbsp;4</div><div class="choice">D&nbsp;8</div></div>
+        <div class="why"><b>Why:</b> M=&minus;2, N=6; sum = 4.</div></div>
+      <div class="card"><div class="card-num">Problem 8 <span style="font-weight:400;color:var(--ink-faint);">&middot; p.133</span></div><div class="q-text">W is the average of V and another number. What is the other number?</div>
+        <div class="diagram approx"><svg viewBox="0 0 260 55" width="260" height="55"><line x1="15" y1="30" x2="245" y2="30" stroke="currentColor" style="color:var(--ink-muted)"/>
+          <g stroke="currentColor" style="color:var(--ink-muted)"><line x1="15" y1="25" x2="15" y2="35"/><line x1="72.5" y1="25" x2="72.5" y2="35"/><line x1="130" y1="25" x2="130" y2="35"/><line x1="245" y1="25" x2="245" y2="35"/></g>
+          <text x="15" y="48" text-anchor="middle" font-family="JetBrains Mono" font-size="10" fill="var(--ink-faint)">0</text>
+          <text x="245" y="48" text-anchor="middle" font-family="JetBrains Mono" font-size="10" fill="var(--ink-faint)">24</text>
+          <circle cx="15" cy="30" r="3" fill="var(--accent)"/><text x="15" y="15" text-anchor="middle" font-family="Public Sans" font-size="11" font-weight="600" fill="var(--accent-ink)">V</text>
+          <circle cx="72.5" cy="30" r="3" fill="var(--accent)"/><text x="72.5" y="15" text-anchor="middle" font-family="Public Sans" font-size="11" font-weight="600" fill="var(--accent-ink)">W</text></svg></div>
+        <div class="choices"><div class="choice">A&nbsp;3</div><div class="choice">B&nbsp;6</div><div class="choice correct">C&nbsp;12</div><div class="choice">D&nbsp;15</div></div>
+        <div class="why"><b>Why:</b> V=0, W=6; other = 2W&minus;V = 12.</div></div>
+      <div class="card"><div class="card-num">Problem 9 <span style="font-weight:400;color:var(--ink-faint);">&middot; p.133</span></div><div class="q-text">S is the average of R and another number. What is the other number?</div>
+        <div class="diagram approx"><svg viewBox="0 0 260 55" width="260" height="55"><line x1="15" y1="30" x2="245" y2="30" stroke="currentColor" style="color:var(--ink-muted)"/>
+          <g stroke="currentColor" style="color:var(--ink-muted)"><line x1="15" y1="25" x2="15" y2="35"/><line x1="72.5" y1="25" x2="72.5" y2="35"/><line x1="130" y1="25" x2="130" y2="35"/><line x1="245" y1="25" x2="245" y2="35"/></g>
+          <text x="15" y="48" text-anchor="middle" font-family="JetBrains Mono" font-size="10" fill="var(--ink-faint)">0</text>
+          <text x="245" y="48" text-anchor="middle" font-family="JetBrains Mono" font-size="10" fill="var(--ink-faint)">16</text>
+          <circle cx="72.5" cy="30" r="3" fill="var(--accent)"/><text x="72.5" y="15" text-anchor="middle" font-family="Public Sans" font-size="11" font-weight="600" fill="var(--accent-ink)">R</text>
+          <circle cx="130" cy="30" r="3" fill="var(--accent)"/><text x="130" y="15" text-anchor="middle" font-family="Public Sans" font-size="11" font-weight="600" fill="var(--accent-ink)">S</text></svg></div>
+        <div class="choices"><div class="choice">A&nbsp;6</div><div class="choice">B&nbsp;7</div><div class="choice">C&nbsp;14</div><div class="choice correct">D&nbsp;16</div></div>
+        <div class="why"><b>Why:</b> R=4, S=10; other = 2S&minus;R = 16.</div></div>
+      <div class="card"><div class="card-num">Problem 10 <span style="font-weight:400;color:var(--ink-faint);">&middot; p.133</span></div><div class="q-text">What number is represented by G on the number line?</div>
+        <div class="diagram approx"><svg viewBox="0 0 260 55" width="260" height="55"><line x1="15" y1="30" x2="245" y2="30" stroke="currentColor" style="color:var(--ink-muted)"/>
+          <g stroke="currentColor" style="color:var(--ink-muted)"><line x1="15" y1="25" x2="15" y2="35"/><line x1="72.5" y1="25" x2="72.5" y2="35"/><line x1="188.5" y1="25" x2="188.5" y2="35"/></g>
+          <text x="15" y="48" text-anchor="middle" font-family="JetBrains Mono" font-size="10" fill="var(--ink-faint)">1</text>
+          <text x="72.5" y="48" text-anchor="middle" font-family="JetBrains Mono" font-size="10" fill="var(--ink-faint)">2</text>
+          <circle cx="188.5" cy="30" r="3" fill="var(--accent)"/><text x="188.5" y="15" text-anchor="middle" font-family="Public Sans" font-size="11" font-weight="600" fill="var(--accent-ink)">G</text></svg></div>
+        <div class="choices"><div class="choice">A&nbsp;2&frac12;</div><div class="choice">B&nbsp;2&frac23;</div><div class="choice correct">C&nbsp;2&frac34;</div><div class="choice">D&nbsp;3</div></div>
+        <div class="why"><b>Why:</b> step=0.25 (from 1&rarr;2 over 4); G is 3 steps past 2 &rarr; 2&frac34;.</div></div>
+    </div>
+  </section>
+
+  <section class="topic" id="p133b">
+    <div class="topic-head"><h2>Number Lines &middot; Practice Set 2</h2><span class="page-tag">pages 133&ndash;134</span></div>
+    <div class="cards">
+      <div class="card"><div class="card-num">Problem 1</div><div class="q-text">What number is represented by Y on the number line?</div>
+        <div class="diagram approx"><svg viewBox="0 0 260 55" width="260" height="55"><line x1="15" y1="30" x2="245" y2="30" stroke="currentColor" style="color:var(--ink-muted)"/>
+          <g stroke="currentColor" style="color:var(--ink-muted)"><line x1="15" y1="25" x2="15" y2="35"/><line x1="130" y1="25" x2="130" y2="35"/><line x1="245" y1="25" x2="245" y2="35"/></g>
+          <text x="15" y="48" text-anchor="middle" font-family="JetBrains Mono" font-size="10" fill="var(--ink-faint)">5</text>
+          <text x="245" y="48" text-anchor="middle" font-family="JetBrains Mono" font-size="10" fill="var(--ink-faint)">35</text>
+          <circle cx="130" cy="30" r="3" fill="var(--accent)"/><text x="130" y="15" text-anchor="middle" font-family="Public Sans" font-size="11" font-weight="600" fill="var(--accent-ink)">Y</text></svg></div>
+        <div class="choices"><div class="choice">A&nbsp;17</div><div class="choice correct">B&nbsp;20</div><div class="choice">C&nbsp;23</div><div class="choice">D&nbsp;26</div></div>
+        <div class="why"><b>Why:</b> step=5 (5 to 35 over 6); Y is the midpoint &rarr; 20.</div></div>
+      <div class="card"><div class="card-num">Problem 2</div><div class="q-text">What number is represented by F on the number line?</div>
+        <div class="diagram approx"><svg viewBox="0 0 260 55" width="260" height="55"><line x1="15" y1="30" x2="245" y2="30" stroke="currentColor" style="color:var(--ink-muted)"/>
+          <g stroke="currentColor" style="color:var(--ink-muted)"><line x1="15" y1="25" x2="15" y2="35"/><line x1="72.5" y1="25" x2="72.5" y2="35"/><line x1="245" y1="25" x2="245" y2="35"/></g>
+          <text x="15" y="48" text-anchor="middle" font-family="JetBrains Mono" font-size="10" fill="var(--ink-faint)">3</text>
+          <text x="245" y="48" text-anchor="middle" font-family="JetBrains Mono" font-size="10" fill="var(--ink-faint)">4</text>
+          <circle cx="72.5" cy="30" r="3" fill="var(--accent)"/><text x="72.5" y="15" text-anchor="middle" font-family="Public Sans" font-size="11" font-weight="600" fill="var(--accent-ink)">F</text></svg></div>
+        <div class="choices"><div class="choice correct">A&nbsp;3&frac14;</div><div class="choice">B&nbsp;3&frac13;</div><div class="choice">C&nbsp;3&frac38;</div><div class="choice">D&nbsp;3&frac12;</div></div>
+        <div class="why"><b>Why:</b> step=0.125 (3 to 4 over 8); F is 2 steps from 3 &rarr; 3&frac14;.</div></div>
+      <div class="card"><div class="card-num">Problem 3 <span style="font-weight:400;color:var(--ink-faint);">&middot; p.134</span></div><div class="q-text">What number is represented by B on the number line?</div>
+        <div class="diagram"><svg viewBox="0 0 320 70" width="320" height="70"><line x1="20" y1="40" x2="305" y2="40" stroke="currentColor" stroke-width="1.5" style="color:var(--ink-muted)"/>
+          <g stroke="currentColor" stroke-width="1.5" style="color:var(--ink-muted)"><line x1="30" y1="34" x2="30" y2="46"/><line x1="73.3" y1="34" x2="73.3" y2="46"/><line x1="116.7" y1="34" x2="116.7" y2="46"/><line x1="160" y1="34" x2="160" y2="46"/><line x1="203.3" y1="34" x2="203.3" y2="46"/><line x1="246.7" y1="34" x2="246.7" y2="46"/><line x1="290" y1="34" x2="290" y2="46"/></g>
+          <text x="20" y="60" font-family="JetBrains Mono" font-size="11" fill="var(--ink-faint)">7</text><text x="282" y="60" font-family="JetBrains Mono" font-size="11" fill="var(--ink-faint)">31</text>
+          <circle cx="203.3" cy="40" r="3" fill="var(--accent)"/><text x="198" y="20" font-family="Public Sans" font-size="12" font-weight="600" fill="var(--accent-ink)">B</text></svg></div>
+        <div class="choices"><div class="choice">A&nbsp;19</div><div class="choice correct">B&nbsp;23</div><div class="choice">C&nbsp;24</div><div class="choice">D&nbsp;27</div></div>
+        <div class="why"><b>Why:</b> step=(31&minus;7)/6=4; B is 4 steps from 7 &rarr; 23.</div></div>
+      <div class="card"><div class="card-num">Problem 4 <span style="font-weight:400;color:var(--ink-faint);">&middot; p.134</span></div><div class="q-text">What numbers are represented by X, Y, and Z on the number line?</div>
+        <div class="diagram approx"><svg viewBox="0 0 260 55" width="260" height="55"><line x1="15" y1="30" x2="245" y2="30" stroke="currentColor" style="color:var(--ink-muted)"/>
+          <g stroke="currentColor" style="color:var(--ink-muted)"><line x1="15" y1="25" x2="15" y2="35"/><line x1="44" y1="25" x2="44" y2="35"/><line x1="73" y1="25" x2="73" y2="35"/><line x1="101.5" y1="25" x2="101.5" y2="35"/><line x1="130" y1="25" x2="130" y2="35"/><line x1="159" y1="25" x2="159" y2="35"/><line x1="188" y1="25" x2="188" y2="35"/><line x1="216.5" y1="25" x2="216.5" y2="35"/><line x1="245" y1="25" x2="245" y2="35"/></g>
+          <text x="15" y="48" text-anchor="middle" font-family="JetBrains Mono" font-size="10" fill="var(--ink-faint)">0.3</text>
+          <text x="245" y="48" text-anchor="middle" font-family="JetBrains Mono" font-size="10" fill="var(--ink-faint)">5.1</text>
+          <circle cx="130" cy="30" r="3" fill="var(--accent)"/><text x="130" y="15" text-anchor="middle" font-family="Public Sans" font-size="10" font-weight="600" fill="var(--accent-ink)">X</text>
+          <circle cx="159" cy="30" r="3" fill="var(--accent)"/><text x="159" y="15" text-anchor="middle" font-family="Public Sans" font-size="10" font-weight="600" fill="var(--accent-ink)">Y</text>
+          <circle cx="188" cy="30" r="3" fill="var(--accent)"/><text x="188" y="15" text-anchor="middle" font-family="Public Sans" font-size="10" font-weight="600" fill="var(--accent-ink)">Z</text></svg></div>
+        <div class="choices"><div class="choice">A&nbsp;2.1,2.7,3.3</div><div class="choice correct">B&nbsp;2.7,3.3,3.9</div><div class="choice">C&nbsp;2.7,3.4,4.1</div><div class="choice">D&nbsp;3.1,3.8,4.5</div></div>
+        <div class="why"><b>Why:</b> step=(5.1&minus;0.3)/8=0.6 &rarr; 2.7, 3.3, 3.9.</div></div>
+      <div class="card"><div class="card-num">Problem 5 <span style="font-weight:400;color:var(--ink-faint);">&middot; p.134</span></div><div class="q-text">What numbers are represented by C, D, and E on the number line?</div>
+        <div class="diagram approx"><svg viewBox="0 0 260 55" width="260" height="55"><line x1="15" y1="30" x2="245" y2="30" stroke="currentColor" style="color:var(--ink-muted)"/>
+          <g stroke="currentColor" style="color:var(--ink-muted)"><line x1="15" y1="25" x2="15" y2="35"/><line x1="47.9" y1="25" x2="47.9" y2="35"/><line x1="80.7" y1="25" x2="80.7" y2="35"/><line x1="113.6" y1="25" x2="113.6" y2="35"/><line x1="146.4" y1="25" x2="146.4" y2="35"/><line x1="179.3" y1="25" x2="179.3" y2="35"/><line x1="212.1" y1="25" x2="212.1" y2="35"/><line x1="245" y1="25" x2="245" y2="35"/></g>
+          <text x="15" y="48" text-anchor="middle" font-family="JetBrains Mono" font-size="10" fill="var(--ink-faint)">4.5</text>
+          <text x="245" y="48" text-anchor="middle" font-family="JetBrains Mono" font-size="10" fill="var(--ink-faint)">5.9</text>
+          <circle cx="47.9" cy="30" r="3" fill="var(--accent)"/><text x="47.9" y="15" text-anchor="middle" font-family="Public Sans" font-size="10" font-weight="600" fill="var(--accent-ink)">C</text>
+          <circle cx="80.7" cy="30" r="3" fill="var(--accent)"/><text x="80.7" y="15" text-anchor="middle" font-family="Public Sans" font-size="10" font-weight="600" fill="var(--accent-ink)">D</text>
+          <circle cx="212.1" cy="30" r="3" fill="var(--accent)"/><text x="212.1" y="15" text-anchor="middle" font-family="Public Sans" font-size="10" font-weight="600" fill="var(--accent-ink)">E</text></svg></div>
+        <div class="choices"><div class="choice">A&nbsp;4.6,4.7,5.8</div><div class="choice">B&nbsp;4.6,4.8,5.6</div><div class="choice">C&nbsp;4.7,4.9,5.5</div><div class="choice correct">D&nbsp;4.7,4.9,5.7</div></div>
+        <div class="why"><b>Why:</b> step=(5.9&minus;4.5)/7=0.2 &rarr; 4.7, 4.9, 5.7.</div></div>
+      <div class="card"><div class="card-num">Problem 6 <span style="font-weight:400;color:var(--ink-faint);">&middot; p.134</span></div><div class="q-text">What numbers are represented by A, B, and C on the number line?</div>
+        <div class="diagram approx"><svg viewBox="0 0 260 55" width="260" height="55"><line x1="15" y1="30" x2="245" y2="30" stroke="currentColor" style="color:var(--ink-muted)"/>
+          <g stroke="currentColor" style="color:var(--ink-muted)"><line x1="15" y1="25" x2="15" y2="35"/><line x1="86" y1="25" x2="86" y2="35"/><line x1="157" y1="25" x2="157" y2="35"/><line x1="245" y1="25" x2="245" y2="35"/></g>
+          <text x="86" y="48" text-anchor="middle" font-family="JetBrains Mono" font-size="10" fill="var(--ink-faint)">1.1</text>
+          <text x="157" y="48" text-anchor="middle" font-family="JetBrains Mono" font-size="10" fill="var(--ink-faint)">2.6</text>
+          <circle cx="15" cy="30" r="3" fill="var(--accent)"/><text x="15" y="15" text-anchor="middle" font-family="Public Sans" font-size="10" font-weight="600" fill="var(--accent-ink)">A</text>
+          <circle cx="51" cy="30" r="3" fill="var(--accent)"/><text x="51" y="15" text-anchor="middle" font-family="Public Sans" font-size="10" font-weight="600" fill="var(--accent-ink)">B</text>
+          <circle cx="216" cy="30" r="3" fill="var(--accent)"/><text x="216" y="15" text-anchor="middle" font-family="Public Sans" font-size="10" font-weight="600" fill="var(--accent-ink)">C</text></svg></div>
+        <div class="choices"><div class="choice">A&nbsp;0.2,0.8,2.0</div><div class="choice correct">B&nbsp;0.2,0.8,2.3</div><div class="choice">C&nbsp;0.5,0.9,1.7</div><div class="choice">D&nbsp;0.8,1.0,2.4</div></div>
+        <div class="why"><b>Why:</b> step=0.3; stepping left from 1.1 gives 0.8, 0.5, 0.2; C sits one step before 2.6 &rarr; 2.3.</div></div>
+      <div class="card"><div class="card-num">Problem 7 <span style="font-weight:400;color:var(--ink-faint);">&middot; p.134</span></div><div class="q-text">What is the sum of P and Q on the number line?</div>
+        <div class="diagram approx"><svg viewBox="0 0 260 55" width="260" height="55"><line x1="15" y1="30" x2="245" y2="30" stroke="currentColor" style="color:var(--ink-muted)"/>
+          <g stroke="currentColor" style="color:var(--ink-muted)"><line x1="15" y1="25" x2="15" y2="35"/><line x1="130" y1="25" x2="130" y2="35"/><line x1="245" y1="25" x2="245" y2="35"/></g>
+          <text x="15" y="48" text-anchor="middle" font-family="JetBrains Mono" font-size="10" fill="var(--ink-faint)">&minus;5</text>
+          <text x="245" y="48" text-anchor="middle" font-family="JetBrains Mono" font-size="10" fill="var(--ink-faint)">13</text>
+          <circle cx="15" cy="30" r="3" fill="var(--accent)"/><text x="15" y="15" text-anchor="middle" font-family="Public Sans" font-size="11" font-weight="600" fill="var(--accent-ink)">P</text>
+          <circle cx="188" cy="30" r="3" fill="var(--accent)"/><text x="188" y="15" text-anchor="middle" font-family="Public Sans" font-size="11" font-weight="600" fill="var(--accent-ink)">Q</text></svg></div>
+        <div class="choices"><div class="choice">A&nbsp;&minus;3</div><div class="choice correct">B&nbsp;&minus;2</div><div class="choice">C&nbsp;2</div><div class="choice">D&nbsp;3</div></div>
+        <div class="why"><b>Why (approx):</b> &minus;5 and 13 look like interior reference ticks rather than the true ends of the line; with P and Q further out (P&asymp;&minus;11, Q&asymp;9 on a step-2 grid), the sum is &minus;2. Number-line tick reading has real uncertainty here &mdash; worth double-checking against the book.</div></div>
+      <div class="card"><div class="card-num">Problem 8 <span style="font-weight:400;color:var(--ink-faint);">&middot; p.134</span></div><div class="q-text">What number is represented by X on the number line?</div>
+        <div class="diagram approx"><svg viewBox="0 0 260 55" width="260" height="55"><line x1="15" y1="30" x2="245" y2="30" stroke="currentColor" style="color:var(--ink-muted)"/>
+          <g stroke="currentColor" style="color:var(--ink-muted)"><line x1="15" y1="25" x2="15" y2="35"/><line x1="130" y1="25" x2="130" y2="35"/><line x1="245" y1="25" x2="245" y2="35"/></g>
+          <text x="130" y="48" text-anchor="middle" font-family="JetBrains Mono" font-size="10" fill="var(--ink-faint)">37</text>
+          <text x="245" y="48" text-anchor="middle" font-family="JetBrains Mono" font-size="10" fill="var(--ink-faint)">69</text>
+          <circle cx="15" cy="30" r="3" fill="var(--accent)"/><text x="15" y="15" text-anchor="middle" font-family="Public Sans" font-size="11" font-weight="600" fill="var(--accent-ink)">X</text></svg></div>
+        <div class="choices"><div class="choice correct">A&nbsp;21</div><div class="choice">B&nbsp;23</div><div class="choice">C&nbsp;25</div><div class="choice">D&nbsp;29</div></div>
+        <div class="why"><b>Why:</b> step=4; X sits 4 steps left of 37 &rarr; 21.</div></div>
+      <div class="card"><div class="card-num">Problem 9 <span style="font-weight:400;color:var(--ink-faint);">&middot; p.134</span></div><div class="q-text">N is the average of M and another number. What is the other number?</div>
+        <div class="diagram approx"><svg viewBox="0 0 260 55" width="260" height="55"><line x1="15" y1="30" x2="245" y2="30" stroke="currentColor" style="color:var(--ink-muted)"/>
+          <g stroke="currentColor" style="color:var(--ink-muted)"><line x1="15" y1="25" x2="15" y2="35"/><line x1="130" y1="25" x2="130" y2="35"/><line x1="245" y1="25" x2="245" y2="35"/></g>
+          <text x="15" y="48" text-anchor="middle" font-family="JetBrains Mono" font-size="10" fill="var(--ink-faint)">10</text>
+          <text x="245" y="48" text-anchor="middle" font-family="JetBrains Mono" font-size="10" fill="var(--ink-faint)">35</text>
+          <circle cx="15" cy="30" r="3" fill="var(--accent)"/><text x="15" y="15" text-anchor="middle" font-family="Public Sans" font-size="11" font-weight="600" fill="var(--accent-ink)">M</text>
+          <circle cx="130" cy="30" r="3" fill="var(--accent)"/><text x="130" y="15" text-anchor="middle" font-family="Public Sans" font-size="11" font-weight="600" fill="var(--accent-ink)">N</text></svg></div>
+        <div class="choices"><div class="choice">A&nbsp;22.5</div><div class="choice">B&nbsp;30</div><div class="choice correct">C&nbsp;40</div><div class="choice">D&nbsp;45</div></div>
+        <div class="why"><b>Why:</b> M=10, N=25; other = 2N&minus;M = 40.</div></div>
+      <div class="card"><div class="card-num">Problem 10 <span style="font-weight:400;color:var(--ink-faint);">&middot; p.134</span></div><div class="q-text">U is the average of T and another number. What is the other number?</div>
+        <div class="diagram approx"><svg viewBox="0 0 260 55" width="260" height="55"><line x1="15" y1="30" x2="245" y2="30" stroke="currentColor" style="color:var(--ink-muted)"/>
+          <g stroke="currentColor" style="color:var(--ink-muted)"><line x1="15" y1="25" x2="15" y2="35"/><line x1="130" y1="25" x2="130" y2="35"/><line x1="245" y1="25" x2="245" y2="35"/></g>
+          <text x="15" y="48" text-anchor="middle" font-family="JetBrains Mono" font-size="10" fill="var(--ink-faint)">2</text>
+          <text x="245" y="48" text-anchor="middle" font-family="JetBrains Mono" font-size="10" fill="var(--ink-faint)">12</text>
+          <circle cx="130" cy="30" r="3" fill="var(--accent)"/><text x="130" y="15" text-anchor="middle" font-family="Public Sans" font-size="11" font-weight="600" fill="var(--accent-ink)">T</text>
+          <circle cx="187.5" cy="30" r="3" fill="var(--accent)"/><text x="187.5" y="15" text-anchor="middle" font-family="Public Sans" font-size="11" font-weight="600" fill="var(--accent-ink)">U</text></svg></div>
+        <div class="choices"><div class="choice">A&nbsp;4</div><div class="choice">B&nbsp;8</div><div class="choice correct">C&nbsp;14</div><div class="choice">D&nbsp;16</div></div>
+        <div class="why"><b>Why:</b> T=6, U=10; other = 2U&minus;T = 14.</div></div>
+    </div>
+  </section>
+
+  <section class="topic" id="p135">
+    <div class="topic-head"><h2>Proportions &middot; Practice Set 1</h2><span class="page-tag">page 135</span></div>
+    <div class="cards">
+      <div class="card"><div class="card-num">Problem 1</div><div class="q-text">Brandon drives at 25 mph. How long to drive 175 miles?</div>
+        <div class="choices"><div class="choice">A&nbsp;5 hrs</div><div class="choice">B&nbsp;6 hrs</div><div class="choice correct">C&nbsp;7 hrs</div><div class="choice">D&nbsp;8 hrs</div></div>
+        <div class="why"><b>Why:</b> 175 &divide; 25 = 7.</div></div>
+      <div class="card"><div class="card-num">Problem 2</div><div class="q-text">Mia reads 5 pages every 4 minutes. How long to read 100 pages?</div>
+        <div class="choices"><div class="choice correct">A&nbsp;80 min</div><div class="choice">B&nbsp;84 min</div><div class="choice">C&nbsp;100 min</div><div class="choice">D&nbsp;125 min</div></div>
+        <div class="why"><b>Why:</b> 100/5=20 groups &times; 4 min = 80.</div></div>
+      <div class="card"><div class="card-num">Problem 3</div><div class="q-text">Morgan does 50 jumping jacks in 30 seconds. How many in 2 minutes?</div>
+        <div class="choices"><div class="choice correct">A&nbsp;200</div><div class="choice">B&nbsp;225</div><div class="choice">C&nbsp;250</div><div class="choice">D&nbsp;300</div></div>
+        <div class="why"><b>Why:</b> 120s/30s=4; 4&times;50=200.</div></div>
+      <div class="card"><div class="card-num">Problem 4</div><div class="q-text">Snow fell at 1.2 in every 4 hrs. How many hours to accumulate 4.2 in?</div>
+        <div class="choices"><div class="choice">A&nbsp;7 hrs</div><div class="choice">B&nbsp;8 hrs</div><div class="choice">C&nbsp;12 hrs</div><div class="choice correct">D&nbsp;14 hrs</div></div>
+        <div class="why"><b>Why:</b> rate=0.3 in/hr; 4.2/0.3=14.</div></div>
+      <div class="card"><div class="card-num">Problem 5</div><div class="q-text">If 6 apples cost $9, what is the cost of 8 apples?</div>
+        <div class="choices"><div class="choice">A&nbsp;$11</div><div class="choice correct">B&nbsp;$12</div><div class="choice">C&nbsp;$14</div><div class="choice">D&nbsp;$16</div></div>
+        <div class="why"><b>Why:</b> $1.50/apple &times; 8 = $12.</div></div>
+      <div class="card"><div class="card-num">Problem 6</div><div class="q-text">Partha runs 4 miles in 22 min. How long for Panu to run 6 miles at the same pace?</div>
+        <div class="choices"><div class="choice">A&nbsp;24 min</div><div class="choice correct">B&nbsp;33 min</div><div class="choice">C&nbsp;42 min</div><div class="choice">D&nbsp;66 min</div></div>
+        <div class="why"><b>Why:</b> 5.5 min/mile &times; 6 = 33.</div></div>
+      <div class="card"><div class="card-num">Problem 7</div><div class="q-text">5 vans fit 65 people. How many vans for 156 people?</div>
+        <div class="choices"><div class="choice correct">A&nbsp;12</div><div class="choice">B&nbsp;13</div><div class="choice">C&nbsp;14</div><div class="choice">D&nbsp;15</div></div>
+        <div class="why"><b>Why:</b> 13 people/van; 156/13=12.</div></div>
+      <div class="card"><div class="card-num">Problem 8</div><div class="q-text">4 prizes cost $3. How much for 10 prizes?</div>
+        <div class="choices"><div class="choice">A&nbsp;$6.75</div><div class="choice">B&nbsp;$7.25</div><div class="choice correct">C&nbsp;$7.50</div><div class="choice">D&nbsp;$13.30</div></div>
+        <div class="why"><b>Why:</b> $0.75/prize &times; 10 = $7.50.</div></div>
+      <div class="card"><div class="card-num">Problem 9</div><div class="q-text">A building casts a 15-ft shadow; a 5-ft child casts a 3-ft shadow. How tall is the building?</div>
+        <div class="choices"><div class="choice">A&nbsp;9 ft</div><div class="choice">B&nbsp;20 ft</div><div class="choice correct">C&nbsp;25 ft</div><div class="choice">D&nbsp;35 ft</div></div>
+        <div class="why"><b>Why:</b> 15 &times; (5/3) = 25.</div></div>
+      <div class="card"><div class="card-num">Problem 10</div><div class="q-text">2.4 in on a map = 36 real miles. How many in represent 54 miles?</div>
+        <div class="choices"><div class="choice">A&nbsp;2.2 in</div><div class="choice correct">B&nbsp;3.6 in</div><div class="choice">C&nbsp;3.8 in</div><div class="choice">D&nbsp;4.8 in</div></div>
+        <div class="why"><b>Why:</b> 0.0667 in/mile &times; 54 = 3.6.</div></div>
+    </div>
+  </section>
+
+  <section class="topic" id="p136">
+    <div class="topic-head"><h2>Proportions &middot; Practice Set 2</h2><span class="page-tag">page 136</span></div>
+    <div class="cards">
+      <div class="card"><div class="card-num">Problem 1</div><div class="q-text">Susan swims 4 miles in 60 min. How many miles in 3 hours?</div>
+        <div class="choices"><div class="choice correct">A&nbsp;12 mi</div><div class="choice">B&nbsp;15 mi</div><div class="choice">C&nbsp;18 mi</div><div class="choice">D&nbsp;45 mi</div></div>
+        <div class="why"><b>Why:</b> 4 mi/hr &times; 3 = 12.</div></div>
+      <div class="card"><div class="card-num">Problem 2</div><div class="q-text">Gina makes 8 bracelets in 18 min. How many in 90 min?</div>
+        <div class="choices"><div class="choice">A&nbsp;32</div><div class="choice">B&nbsp;35</div><div class="choice correct">C&nbsp;40</div><div class="choice">D&nbsp;45</div></div>
+        <div class="why"><b>Why:</b> 8/18 &times; 90 = 40.</div></div>
+      <div class="card"><div class="card-num">Problem 3</div><div class="q-text">Daniel types 120 words in 2 min. How long for 480 words?</div>
+        <div class="choices"><div class="choice">A&nbsp;4 min</div><div class="choice">B&nbsp;6 min</div><div class="choice">C&nbsp;7 min</div><div class="choice correct">D&nbsp;8 min</div></div>
+        <div class="why"><b>Why:</b> 60 words/min; 480/60=8.</div></div>
+      <div class="card"><div class="card-num">Problem 4</div><div class="q-text">8 buses fit 160 students. How many buses for 60 students?</div>
+        <div class="choices"><div class="choice">A&nbsp;2</div><div class="choice correct">B&nbsp;3</div><div class="choice">C&nbsp;4</div><div class="choice">D&nbsp;6</div></div>
+        <div class="why"><b>Why:</b> 20 students/bus; 60/20=3.</div></div>
+      <div class="card"><div class="card-num">Problem 5</div><div class="q-text">Rain fell at 3.3 in every 6 hrs. How many in in 10 hrs?</div>
+        <div class="choices"><div class="choice correct">A&nbsp;5.5 in</div><div class="choice">B&nbsp;6 in</div><div class="choice">C&nbsp;7.3 in</div><div class="choice">D&nbsp;11 in</div></div>
+        <div class="why"><b>Why:</b> 0.55 in/hr &times; 10 = 5.5.</div></div>
+      <div class="card"><div class="card-num">Problem 6</div><div class="q-text">16 t-shirts cost $100. What is the cost of 12?</div>
+        <div class="choices"><div class="choice">A&nbsp;$65</div><div class="choice">B&nbsp;$70</div><div class="choice">C&nbsp;$73</div><div class="choice correct">D&nbsp;$75</div></div>
+        <div class="why"><b>Why:</b> $6.25/shirt &times; 12 = $75.</div></div>
+      <div class="card"><div class="card-num">Problem 7</div><div class="q-text">8 wooden beams support 50 lb. How many beams to support 175 lb?</div>
+        <div class="choices"><div class="choice">A&nbsp;20</div><div class="choice">B&nbsp;24</div><div class="choice correct">C&nbsp;28</div><div class="choice">D&nbsp;32</div></div>
+        <div class="why"><b>Why:</b> 6.25 lb/beam; 175/6.25=28.</div></div>
+      <div class="card"><div class="card-num">Problem 8</div><div class="q-text">A recipe uses 4 tbsp sugar per 12 tbsp water. For 48 tbsp water, how much sugar?</div>
+        <div class="choices"><div class="choice">A&nbsp;12</div><div class="choice correct">B&nbsp;16</div><div class="choice">C&nbsp;132</div><div class="choice">D&nbsp;144</div></div>
+        <div class="why"><b>Why:</b> ratio 1/3; 48&times;1/3=16.</div></div>
+      <div class="card"><div class="card-num">Problem 9</div><div class="q-text">An 18-ft flagpole casts a 24-ft shadow. How long is a 6-ft person's shadow?</div>
+        <div class="choices"><div class="choice">A&nbsp;4 ft</div><div class="choice">B&nbsp;4.5 ft</div><div class="choice">C&nbsp;6 ft</div><div class="choice correct">D&nbsp;8 ft</div></div>
+        <div class="why"><b>Why:</b> 6 &times; (24/18) = 8.</div></div>
+      <div class="card"><div class="card-num">Problem 10</div><div class="q-text">4.2 cm on a map = 30 real miles. How many cm represent 20 miles?</div>
+        <div class="choices"><div class="choice">A&nbsp;2.1 cm</div><div class="choice correct">B&nbsp;2.8 cm</div><div class="choice">C&nbsp;3.1 cm</div><div class="choice">D&nbsp;6.3 cm</div></div>
+        <div class="why"><b>Why:</b> 0.14 cm/mile &times; 20 = 2.8.</div></div>
+    </div>
+  </section>
+
+  <section class="topic" id="p141">
+    <div class="topic-head"><h2>Probability &middot; Practice Set 1 (tail) &amp; Set 2</h2><span class="page-tag">page 141</span></div>
+    <div class="cards">
+      <div class="card"><div class="card-num">Set 1 &middot; Problem 9</div><div class="q-text">Lauren's box has orange, grape, apple, pineapple juice boxes. P(grape) = 3/8. Which combination is possible?</div>
+        <div class="choices"><div class="choice">A&nbsp;3 grape, 8 other</div><div class="choice">B&nbsp;6 grape, 12 other</div><div class="choice">C&nbsp;8 grape, 11 other</div><div class="choice correct">D&nbsp;9 grape, 15 other</div></div>
+        <div class="why"><b>Why:</b> 9/(9+15)=9/24=3/8.</div></div>
+      <div class="card"><div class="card-num">Set 1 &middot; Problem 10</div><div class="q-text">P(NOT white marble) = 5/7. Which combination is possible?</div>
+        <div class="choices"><div class="choice">A&nbsp;5 white, 7 other</div><div class="choice">B&nbsp;6 white, 21 other</div><div class="choice correct">C&nbsp;4 white, 10 other</div><div class="choice">D&nbsp;15 white, 6 other</div></div>
+        <div class="why"><b>Why:</b> P(white)=2/7; 4/14=2/7.</div></div>
+      <div class="card"><div class="card-num">Set 2 &middot; Problem 1</div><div class="q-text">9 gray, 4 brown, 8 white blocks in a bucket. P(gray)?</div>
+        <div class="choices"><div class="choice">A&nbsp;4/21</div><div class="choice correct">B&nbsp;3/7</div><div class="choice">C&nbsp;4/7</div><div class="choice">D&nbsp;3/4</div></div>
+        <div class="why"><b>Why:</b> 9/21 = 3/7.</div></div>
+      <div class="card"><div class="card-num">Set 2 &middot; Problem 2</div><div class="q-text">24 stickers: 12 silver, 4 gold, 8 pink. P(NOT silver or gold)?</div>
+        <div class="choices"><div class="choice">A&nbsp;1/6</div><div class="choice correct">B&nbsp;1/3</div><div class="choice">C&nbsp;1/2</div><div class="choice">D&nbsp;2/3</div></div>
+        <div class="why"><b>Why:</b> "not silver/gold" = pink: 8/24=1/3.</div></div>
+      <div class="card"><div class="card-num">Set 2 &middot; Problem 3</div><div class="q-text">3 blueberry, 4 plain, 3 cinnamon waffles. P(blueberry or cinnamon)?</div>
+        <div class="choices"><div class="choice">A&nbsp;2/5</div><div class="choice correct">B&nbsp;3/5</div><div class="choice">C&nbsp;2/3</div><div class="choice">D&nbsp;7/10</div></div>
+        <div class="why"><b>Why:</b> (3+3)/10=6/10=3/5.</div></div>
+      <div class="card"><div class="card-num">Set 2 &middot; Problem 4</div><div class="q-text">A 6-sided number cube is flipped 4 times. P(first roll is even)?</div>
+        <div class="choices"><div class="choice">A&nbsp;1/6</div><div class="choice">B&nbsp;1/3</div><div class="choice correct">C&nbsp;1/2</div><div class="choice">D&nbsp;3/5</div></div>
+        <div class="why"><b>Why:</b> 3 even faces out of 6 = 1/2.</div></div>
+    </div>
+  </section>
+
+  <section class="topic" id="p143">
+    <div class="topic-head"><h2>Unit Conversions &middot; Practice Set 1</h2><span class="page-tag">page 143</span></div>
+    <div class="cards">
+      <div class="card"><div class="card-num">Problem 1</div><div class="q-text">How many quarts are in 2.5 gallons? (1 gal = 4 qt)</div>
+        <div class="choices"><div class="choice">A&nbsp;5 qt</div><div class="choice">B&nbsp;8 qt</div><div class="choice correct">C&nbsp;10 qt</div><div class="choice">D&nbsp;20 qt</div></div>
+        <div class="why"><b>Why:</b> 2.5 &times; 4 = 10.</div></div>
+      <div class="card"><div class="card-num">Problem 2</div><div class="q-text">How many grams are in 2.4 kilograms?</div>
+        <div class="choices"><div class="choice">A&nbsp;24g</div><div class="choice">B&nbsp;240g</div><div class="choice correct">C&nbsp;2,400g</div><div class="choice">D&nbsp;24,000g</div></div>
+        <div class="why"><b>Why:</b> 2.4 &times; 1,000 = 2,400.</div></div>
+      <div class="card"><div class="card-num">Problem 3</div><div class="q-text">4,000 mL is equal to how many kiloliters?</div>
+        <div class="choices"><div class="choice correct">A&nbsp;0.004 kL</div><div class="choice">B&nbsp;0.04 kL</div><div class="choice">C&nbsp;40,000 kL</div><div class="choice">D&nbsp;4,000,000 kL</div></div>
+        <div class="why"><b>Why:</b> 4,000 &divide; 1,000,000 = 0.004.</div></div>
+      <div class="card"><div class="card-num">Problem 4</div><div class="q-text">144 inches equals how many yards? (1 yd=3ft, 1ft=12in)</div>
+        <div class="choices"><div class="choice correct">A&nbsp;4 yd</div><div class="choice">B&nbsp;6 yd</div><div class="choice">C&nbsp;8 yd</div><div class="choice">D&nbsp;12 yd</div></div>
+        <div class="why"><b>Why:</b> 144&divide;12=12 ft; 12&divide;3=4 yd.</div></div>
+      <div class="card"><div class="card-num">Problem 5</div><div class="q-text">How many minutes are in 2 days?</div>
+        <div class="choices"><div class="choice">A&nbsp;1,440</div><div class="choice correct">B&nbsp;2,880</div><div class="choice">C&nbsp;5,760</div><div class="choice">D&nbsp;172,800</div></div>
+        <div class="why"><b>Why:</b> 2 &times; 24 &times; 60 = 2,880.</div></div>
+      <div class="card"><div class="card-num">Problem 6</div><div class="q-text">How many feet are in 18 yards?</div>
+        <div class="choices"><div class="choice">A&nbsp;6 ft</div><div class="choice">B&nbsp;36 ft</div><div class="choice correct">C&nbsp;54 ft</div><div class="choice">D&nbsp;216 ft</div></div>
+        <div class="why"><b>Why:</b> 18 &times; 3 = 54.</div></div>
+      <div class="card"><div class="card-num">Problem 7</div><div class="q-text">120 seconds equals how many hours?</div>
+        <div class="choices"><div class="choice">A&nbsp;1/60</div><div class="choice correct">B&nbsp;1/30</div><div class="choice">C&nbsp;0.2</div><div class="choice">D&nbsp;2</div></div>
+        <div class="why"><b>Why:</b> 120 &divide; 3,600 = 1/30.</div></div>
+      <div class="card"><div class="card-num">Problem 8</div><div class="q-text">24 cups equals how many pints? (1 pt = 2 cups)</div>
+        <div class="choices"><div class="choice">A&nbsp;6 pt</div><div class="choice">B&nbsp;8 pt</div><div class="choice correct">C&nbsp;12 pt</div><div class="choice">D&nbsp;48 pt</div></div>
+        <div class="why"><b>Why:</b> 24 &divide; 2 = 12.</div></div>
+      <div class="card"><div class="card-num">Problem 9</div><div class="q-text">Which of the following is equal to 6 quarts?</div>
+        <div class="choices"><div class="choice">A&nbsp;2 gal</div><div class="choice">B&nbsp;12 fl oz</div><div class="choice">C&nbsp;18 pt</div><div class="choice correct">D&nbsp;24 cups</div></div>
+        <div class="why"><b>Why:</b> 6 qt &times; 2 pt/qt &times; 2 cups/pt = 24.</div></div>
+      <div class="card"><div class="card-num">Problem 10</div><div class="q-text">Which of the following is equal to 200 centimeters?</div>
+        <div class="choices"><div class="choice">A&nbsp;0.02 km</div><div class="choice correct">B&nbsp;2 m</div><div class="choice">C&nbsp;20 m</div><div class="choice">D&nbsp;20,000 mm</div></div>
+        <div class="why"><b>Why:</b> 200 &divide; 100 = 2.</div></div>
+    </div>
+  </section>
+
+  <section class="topic" id="p147">
+    <div class="topic-head"><h2>Solving Equations &middot; Practice Set 1</h2><span class="page-tag">page 147</span></div>
+    <div class="cards">
+      <div class="card"><div class="card-num">Problem 1</div><div class="q-text">What is the value of x in x &minus; 8 = 10?</div>
+        <div class="choices"><div class="choice">A&nbsp;&minus;18</div><div class="choice">B&nbsp;&minus;2</div><div class="choice">C&nbsp;2</div><div class="choice correct">D&nbsp;18</div></div>
+        <div class="why"><b>Why:</b> add 8 to both sides.</div></div>
+      <div class="card"><div class="card-num">Problem 2</div><div class="q-text">9 + m = 28 and n &minus; 7 = 16. What is n &minus; m?</div>
+        <div class="choices"><div class="choice correct">A&nbsp;4</div><div class="choice">B&nbsp;5</div><div class="choice">C&nbsp;14</div><div class="choice">D&nbsp;28</div></div>
+        <div class="why"><b>Why:</b> m=19, n=23; 23&minus;19=4.</div></div>
+      <div class="card"><div class="card-num">Problem 3</div><div class="q-text">If 2(&#9633; + 5) = 36, what is &#9633;?</div>
+        <div class="choices"><div class="choice">A&nbsp;12</div><div class="choice correct">B&nbsp;13</div><div class="choice">C&nbsp;18</div><div class="choice">D&nbsp;23</div></div>
+        <div class="why"><b>Why:</b> &#9633;+5=18, so &#9633;=13.</div></div>
+      <div class="card"><div class="card-num">Problem 4</div><div class="q-text">a &divide; 3 = 9 and b + 3 = 11. What is the sum of a and b?</div>
+        <div class="choices"><div class="choice">A&nbsp;11</div><div class="choice">B&nbsp;29</div><div class="choice correct">C&nbsp;35</div><div class="choice">D&nbsp;41</div></div>
+        <div class="why"><b>Why:</b> a=27, b=8; sum=35.</div></div>
+      <div class="card"><div class="card-num">Problem 5</div><div class="q-text">What is the value of y in y/3 &minus; 7 = 13?</div>
+        <div class="choices"><div class="choice">A&nbsp;2</div><div class="choice">B&nbsp;18</div><div class="choice">C&nbsp;45</div><div class="choice correct">D&nbsp;60</div></div>
+        <div class="why"><b>Why:</b> y/3=20, so y=60.</div></div>
+      <div class="card"><div class="card-num">Problem 6</div><div class="q-text">&minus;5x = 20 and 12 &minus; y = 9. What is the product of x and y?</div>
+        <div class="choices"><div class="choice">A&nbsp;&minus;15</div><div class="choice correct">B&nbsp;&minus;12</div><div class="choice">C&nbsp;12</div><div class="choice">D&nbsp;15</div></div>
+        <div class="why"><b>Why:</b> x=&minus;4, y=3; product=&minus;12.</div></div>
+      <div class="card"><div class="card-num">Problem 7</div><div class="q-text">What is the value of x in 6 &minus; 2x = 4?</div>
+        <div class="choices"><div class="choice">A&nbsp;&minus;1</div><div class="choice correct">B&nbsp;1</div><div class="choice">C&nbsp;2</div><div class="choice">D&nbsp;5</div></div>
+        <div class="why"><b>Why:</b> &minus;2x=&minus;2, so x=1.</div></div>
+      <div class="card"><div class="card-num">Problem 8</div><div class="q-text">If 20/&Delta; + 8 = 12, what is &Delta;?</div>
+        <div class="choices"><div class="choice">A&nbsp;1</div><div class="choice">B&nbsp;4</div><div class="choice correct">C&nbsp;5</div><div class="choice">D&nbsp;10</div></div>
+        <div class="why"><b>Why:</b> 20/&Delta;=4, so &Delta;=5.</div></div>
+    </div>
+  </section>
+
+  <section class="topic" id="p150">
+    <div class="topic-head"><h2>Creating Equations and Expressions &middot; Practice Set 1</h2><span class="page-tag">pages 150&ndash;151</span></div>
+    <div class="cards">
+      <div class="card"><div class="card-num">Problem 1</div><div class="q-text">Vishak has x dollars. After giving $6 to Hasti, he has y dollars. Which equation finds his starting amount?</div>
+        <div class="choices"><div class="choice">A&nbsp;x=y&minus;6</div><div class="choice">B&nbsp;x=6y</div><div class="choice correct">C&nbsp;x=y+6</div><div class="choice">D&nbsp;x+y=6</div></div>
+        <div class="why"><b>Why:</b> x&minus;6=y, so x=y+6.</div></div>
+      <div class="card"><div class="card-num">Problem 2</div><div class="q-text">8 boxes of paper cost $76 total. c = cost of one box. Which equation finds c?</div>
+        <div class="choices"><div class="choice correct">A&nbsp;76&divide;c=8</div><div class="choice">B&nbsp;76&times;8=c</div><div class="choice">C&nbsp;c&divide;8=76</div><div class="choice">D&nbsp;76&minus;c=8</div></div>
+        <div class="why"><b>Why:</b> total &divide; cost-per-box = number of boxes.</div></div>
+      <div class="card"><div class="card-num">Problem 3</div><div class="q-text">3 apples + 1 banana = $3.50. Each apple = 2&times; a banana (b). Which equation finds b?</div>
+        <div class="choices"><div class="choice">A&nbsp;b+3=3.50</div><div class="choice correct">B&nbsp;7b=3.50</div><div class="choice">C&nbsp;4b=3.50</div><div class="choice">D&nbsp;5b=3.50</div></div>
+        <div class="why"><b>Why:</b> 3(2b)+b=7b.</div></div>
+      <div class="card"><div class="card-num">Problem 4</div><div class="q-text">Which represents "eight less than six times a number"?</div>
+        <div class="choices"><div class="choice correct">A&nbsp;6x&minus;8</div><div class="choice">B&nbsp;8x&minus;6</div><div class="choice">C&nbsp;8&minus;6x</div><div class="choice">D&nbsp;6&minus;8x</div></div>
+        <div class="why"><b>Why:</b> "six times a number" minus 8.</div></div>
+      <div class="card"><div class="card-num">Problem 5</div><div class="q-text">Which represents "three times the sum of a number and 8 is 5 less than half of the number"?</div>
+        <div class="choices"><div class="choice">A&nbsp;3(n+8)=5&minus;&frac12;n</div><div class="choice correct">B&nbsp;3(n+8)=&frac12;n&minus;5</div><div class="choice">C&nbsp;3n+8=&frac12;n&minus;5</div><div class="choice">D&nbsp;3n+8=5&minus;&frac12;n</div></div>
+        <div class="why"><b>Why:</b> "5 less than half" = &frac12;n&minus;5.</div></div>
+      <div class="card"><div class="card-num">Problem 6</div><div class="q-text">Which represents "four more than twice a number is 16"?</div>
+        <div class="choices"><div class="choice">A&nbsp;2(n+4)=16</div><div class="choice">B&nbsp;4n+2=16</div><div class="choice">C&nbsp;2n&minus;4=16</div><div class="choice correct">D&nbsp;2n+4=16</div></div>
+        <div class="why"><b>Why:</b> twice the number (2n) plus 4.</div></div>
+      <div class="card"><div class="card-num">Problem 7</div><div class="q-text">Volume of a rectangular prism is 60 m&sup3; (V=lwh). Which equation finds height?</div>
+        <div class="choices"><div class="choice">A&nbsp;h=60lw</div><div class="choice">B&nbsp;h=60l/w</div><div class="choice">C&nbsp;h=lw/60</div><div class="choice correct">D&nbsp;h=60/(lw)</div></div>
+        <div class="why"><b>Why:</b> h=V/(lw).</div></div>
+      <div class="card"><div class="card-num">Problem 8 <span style="font-weight:400;color:var(--ink-faint);">&middot; p.151</span></div><div class="q-text">Ryan bought $50 shoes and 6 pairs of socks, spending $68 total. Which equation finds cost per pair of socks (s)?</div>
+        <div class="choices"><div class="choice">A&nbsp;50+s=68</div><div class="choice">B&nbsp;6(50)+s=68</div><div class="choice correct">C&nbsp;50+6s=68</div><div class="choice">D&nbsp;50&minus;6s=68</div></div>
+        <div class="why"><b>Why:</b> shoe cost + 6 pairs of socks at s each.</div></div>
+      <div class="card"><div class="card-num">Problem 9 <span style="font-weight:400;color:var(--ink-faint);">&middot; p.151</span></div><div class="q-text">Brenda ate x marshmallows, Gerald ate y. Brenda won. Expression for how many more Brenda ate?</div>
+        <div class="choices"><div class="choice">A&nbsp;x+y</div><div class="choice correct">B&nbsp;x&minus;y</div><div class="choice">C&nbsp;y&minus;x</div><div class="choice">D&nbsp;x&divide;y</div></div>
+        <div class="why"><b>Why:</b> "how many more" = subtraction.</div></div>
+      <div class="card"><div class="card-num">Problem 10 <span style="font-weight:400;color:var(--ink-faint);">&middot; p.151</span></div><div class="q-text">Area of a triangle is 40 in&sup2; (A=&frac12;bh). Which equation finds height?</div>
+        <div class="choices"><div class="choice correct">A&nbsp;h=2(40)/b</div><div class="choice">B&nbsp;h=40b/2</div><div class="choice">C&nbsp;h=2(40)&times;b</div><div class="choice">D&nbsp;h=2(40)&minus;b</div></div>
+        <div class="why"><b>Why:</b> h=2A/b.</div></div>
+    </div>
+  </section>
+
+  <section class="topic" id="p152">
+    <div class="topic-head"><h2>Creating Equations and Expressions &middot; Practice Set 2</h2><span class="page-tag">pages 152&ndash;153</span></div>
+    <div class="cards">
+      <div class="card"><div class="card-num">Problem 1</div><div class="q-text">Roger and Cory scored 34 points total; Roger scored 6 more than Cory (c). Which equation finds c?</div>
+        <div class="choices"><div class="choice">A&nbsp;c+6=34</div><div class="choice">B&nbsp;c&minus;6=34</div><div class="choice correct">C&nbsp;2c+6=34</div><div class="choice">D&nbsp;2c&minus;6=34</div></div>
+        <div class="why"><b>Why:</b> c+(c+6)=2c+6.</div></div>
+      <div class="card"><div class="card-num">Problem 2</div><div class="q-text">Sonja has x dollars; earns $25 babysitting, now has y. Which equation relates them?</div>
+        <div class="choices"><div class="choice">A&nbsp;x=y+25</div><div class="choice">B&nbsp;x=25&minus;y</div><div class="choice">C&nbsp;x&minus;y=25</div><div class="choice correct">D&nbsp;y&minus;x=25</div></div>
+        <div class="why"><b>Why:</b> y=x+25.</div></div>
+      <div class="card"><div class="card-num">Problem 3</div><div class="q-text">Alice (a yrs) is older than Brett (b yrs). Expression for "how many times as old is Alice"?</div>
+        <div class="choices"><div class="choice">A&nbsp;ab</div><div class="choice">B&nbsp;a+b</div><div class="choice correct">C&nbsp;a&divide;b</div><div class="choice">D&nbsp;b&divide;a</div></div>
+        <div class="why"><b>Why:</b> ratio of ages a/b.</div></div>
+      <div class="card"><div class="card-num">Problem 4</div><div class="q-text">Which represents "five more than half a number is three less than twice the number"?</div>
+        <div class="choices"><div class="choice correct">A&nbsp;&frac12;n+5=2n&minus;3</div><div class="choice">B&nbsp;&frac12;n+5=3&minus;2n</div><div class="choice">C&nbsp;&frac12;(n+5)=2n&minus;3</div><div class="choice">D&nbsp;&frac12;(n+5)=3&minus;2n</div></div>
+        <div class="why"><b>Why:</b> &frac12;n+5 set equal to 2n&minus;3.</div></div>
+      <div class="card"><div class="card-num">Problem 5</div><div class="q-text">Which represents "ten less than one fourth of a number"?</div>
+        <div class="choices"><div class="choice">A&nbsp;(x&minus;10)/4</div><div class="choice correct">B&nbsp;&frac14;x&minus;10</div><div class="choice">C&nbsp;10&minus;&frac14;x</div><div class="choice">D&nbsp;(10&minus;x)/4</div></div>
+        <div class="why"><b>Why:</b> x/4, then subtract 10.</div></div>
+      <div class="card"><div class="card-num">Problem 6</div><div class="q-text">Which represents "four times the sum of a number and one is twenty-four"?</div>
+        <div class="choices"><div class="choice">A&nbsp;4n+1=24</div><div class="choice correct">B&nbsp;4(n+1)=24</div><div class="choice">C&nbsp;4(n&minus;1)=24</div><div class="choice">D&nbsp;4n&minus;1=24</div></div>
+        <div class="why"><b>Why:</b> the sum (n+1) must be grouped first.</div></div>
+      <div class="card"><div class="card-num">Problem 7 <span style="font-weight:400;color:var(--ink-faint);">&middot; p.153</span></div><div class="q-text">Ryan has 12 action figures and b boxes of toy cars (10/box), 42 items total. Which equation finds b?</div>
+        <div class="choices"><div class="choice">A&nbsp;10(12)+b=42</div><div class="choice correct">B&nbsp;12+10b=42</div><div class="choice">C&nbsp;12+b/10=42</div><div class="choice">D&nbsp;12+10/b=42</div></div>
+        <div class="why"><b>Why:</b> 12 figures + 10b toy cars = 42.</div></div>
+      <div class="card"><div class="card-num">Problem 8 <span style="font-weight:400;color:var(--ink-faint);">&middot; p.153</span></div><div class="q-text">Junior buys a $12 notebook and b boxes of pencils at $3 each. Expression for total spent?</div>
+        <div class="choices"><div class="choice">A&nbsp;12+b</div><div class="choice">B&nbsp;12(3)+3b</div><div class="choice correct">C&nbsp;12+3b</div><div class="choice">D&nbsp;12b+3</div></div>
+        <div class="why"><b>Why:</b> $12 notebook + $3 per pencil box.</div></div>
+      <div class="card"><div class="card-num">Problem 9 <span style="font-weight:400;color:var(--ink-faint);">&middot; p.153</span></div><div class="q-text">Area of a rectangle is 24 m&sup2; (A=bh). Which equation finds base b?</div>
+        <div class="choices"><div class="choice correct">A&nbsp;b=24/h</div><div class="choice">B&nbsp;b=24h</div><div class="choice">C&nbsp;b=24&minus;h</div><div class="choice">D&nbsp;b=h/24</div></div>
+        <div class="why"><b>Why:</b> b=A/h.</div></div>
+      <div class="card"><div class="card-num">Problem 10 <span style="font-weight:400;color:var(--ink-faint);">&middot; p.153</span></div><div class="q-text">Volume of a pyramid is 75 in&sup3; (V=&frac13;lwh). Which equation finds width w?</div>
+        <div class="choices"><div class="choice">A&nbsp;w=3(75)&times;lh</div><div class="choice">B&nbsp;w=75/(3lh)</div><div class="choice">C&nbsp;w=3(75)&minus;lh</div><div class="choice correct">D&nbsp;w=3(75)/lh</div></div>
+        <div class="why"><b>Why:</b> w=3V/(lh).</div></div>
+    </div>
+  </section>
+
+  <section class="topic" id="p159">
+    <div class="topic-head"><h2>Mixed Word Problems &middot; Practice Set 1</h2><span class="page-tag">page 159</span></div>
+    <div class="cards">
+      <div class="card"><div class="card-num">Problem 1</div><div class="q-text">Wilson scored 18 points; Ryan scored 7 more than Wilson. Total points?</div>
+        <div class="choices"><div class="choice">A&nbsp;25</div><div class="choice">B&nbsp;29</div><div class="choice">C&nbsp;32</div><div class="choice correct">D&nbsp;43</div></div>
+        <div class="why"><b>Why:</b> Ryan=25; total=18+25=43.</div></div>
+      <div class="card"><div class="card-num">Problem 2</div><div class="q-text">Leo played 28 games at a carnival, losing 6 fewer than he won. How many did he lose?</div>
+        <div class="choices"><div class="choice">A&nbsp;8</div><div class="choice correct">B&nbsp;11</div><div class="choice">C&nbsp;17</div><div class="choice">D&nbsp;21</div></div>
+        <div class="why"><b>Why:</b> wins=17, losses=17&minus;6=11.</div></div>
+      <div class="card"><div class="card-num">Problem 3</div><div class="q-text">Benji splits cookies into 5 boxes of 25, sells each for $2. Total money made?</div>
+        <div class="choices"><div class="choice">A&nbsp;$10</div><div class="choice">B&nbsp;$50</div><div class="choice">C&nbsp;$200</div><div class="choice correct">D&nbsp;$250</div></div>
+        <div class="why"><b>Why:</b> 125 cookies &times; $2 = $250.</div></div>
+      <div class="card"><div class="card-num">Problem 4</div><div class="q-text">Caroline's even number is &gt;12 and &lt;18, also &gt;14 and &lt;20. What is it?</div>
+        <div class="choices"><div class="choice">A&nbsp;14</div><div class="choice">B&nbsp;15</div><div class="choice correct">C&nbsp;16</div><div class="choice">D&nbsp;18</div></div>
+        <div class="why"><b>Why:</b> only 16 fits both ranges and is even.</div></div>
+      <div class="card"><div class="card-num">Problem 5</div><div class="q-text">Hansel has 56 candies, Gretel has 40. How many must Hansel give to equalize?</div>
+        <div class="choices"><div class="choice correct">A&nbsp;8</div><div class="choice">B&nbsp;9</div><div class="choice">C&nbsp;12</div><div class="choice">D&nbsp;16</div></div>
+        <div class="why"><b>Why:</b> half the 16-candy difference = 8.</div></div>
+      <div class="card"><div class="card-num">Problem 6</div><div class="q-text">Vinny's number is &gt;30, &lt;40, and a multiple of 4 and 6. What is it?</div>
+        <div class="choices"><div class="choice">A&nbsp;24</div><div class="choice">B&nbsp;32</div><div class="choice correct">C&nbsp;36</div><div class="choice">D&nbsp;38</div></div>
+        <div class="why"><b>Why:</b> LCM(4,6)=12; only 36 is between 30&ndash;40.</div></div>
+      <div class="card"><div class="card-num">Problem 7</div><div class="q-text">Harold has $40, deposits $20/week. Total after 14 weeks?</div>
+        <div class="choices"><div class="choice">A&nbsp;$240</div><div class="choice">B&nbsp;$260</div><div class="choice">C&nbsp;$280</div><div class="choice correct">D&nbsp;$320</div></div>
+        <div class="why"><b>Why:</b> 40 + 20&times;14 = 320.</div></div>
+      <div class="card"><div class="card-num">Problem 8</div><div class="q-text">8 people split an office space cost at $75 each. If 3 leave, how much does each remaining person pay?</div>
+        <div class="choices"><div class="choice">A&nbsp;$15</div><div class="choice">B&nbsp;$100</div><div class="choice correct">C&nbsp;$120</div><div class="choice">D&nbsp;$200</div></div>
+        <div class="why"><b>Why:</b> total $600 &divide; 5 remaining = $120.</div></div>
+    </div>
+  </section>
+
+  <section class="topic" id="p162">
+    <div class="topic-head"><h2>Mean, Median, Mode, and Range &middot; Practice Set 1</h2><span class="page-tag">pages 162&ndash;163</span></div>
+    <div class="cards">
+      <div class="card"><div class="card-num">Problem 1</div><div class="q-text">Find the mean of 10, 340, 15, 223, 55, 77.</div>
+        <div class="choices"><div class="choice correct">A&nbsp;120</div><div class="choice">B&nbsp;130</div><div class="choice">C&nbsp;150</div><div class="choice">D&nbsp;720</div></div>
+        <div class="why"><b>Why:</b> sum=720; 720/6=120.</div></div>
+      <div class="card"><div class="card-num">Problem 2</div><div class="q-text">Find the median of 45, 48, 45, 52, 60, 120, 45, 90.</div>
+        <div class="choices"><div class="choice">A&nbsp;45</div><div class="choice">B&nbsp;48</div><div class="choice correct">C&nbsp;50</div><div class="choice">D&nbsp;52</div></div>
+        <div class="why"><b>Why:</b> sorted middle two (48,52) average to 50.</div></div>
+      <div class="card"><div class="card-num">Problem 3</div><div class="q-text">Find the mode of 23, 47, 7, 19, 26, 47, 80, 47, 19.</div>
+        <div class="choices"><div class="choice">A&nbsp;19</div><div class="choice">B&nbsp;23</div><div class="choice">C&nbsp;26</div><div class="choice correct">D&nbsp;47</div></div>
+        <div class="why"><b>Why:</b> 47 appears three times.</div></div>
+      <div class="card"><div class="card-num">Problem 4</div><div class="q-text">Find the range of 18, 96, 7, 13, 55, 88, 35.</div>
+        <div class="choices"><div class="choice">A&nbsp;81</div><div class="choice">B&nbsp;83</div><div class="choice correct">C&nbsp;89</div><div class="choice">D&nbsp;96</div></div>
+        <div class="why"><b>Why:</b> 96&minus;7=89.</div></div>
+      <div class="card"><div class="card-num">Problem 5</div><div class="q-text">Brian &amp; twin (15), mother (45), father (50), sister (5). Mean age?</div>
+        <div class="choices"><div class="choice">A&nbsp;23</div><div class="choice correct">B&nbsp;26</div><div class="choice">C&nbsp;28.75</div><div class="choice">D&nbsp;32.5</div></div>
+        <div class="why"><b>Why:</b> 130/5=26.</div></div>
+      <div class="card"><div class="card-num">Problem 6</div><div class="q-text">Which is true for 20, 20, 20, 30, 40, 50, 60?</div>
+        <div class="choices"><div class="choice">A&nbsp;median = mode</div><div class="choice">B&nbsp;median &gt; range</div><div class="choice">C&nbsp;range &lt; mode</div><div class="choice correct">D&nbsp;mean &gt; mode</div></div>
+        <div class="why"><b>Why:</b> mean&asymp;34.3 &gt; mode(20).</div></div>
+      <div class="card"><div class="card-num">Problem 7</div><div class="q-text">Which is false for 45, 50, 3, 40, 45, 45?</div>
+        <div class="choices"><div class="choice">A&nbsp;mean &lt; median</div><div class="choice">B&nbsp;mode = median</div><div class="choice correct">C&nbsp;range &lt; median</div><div class="choice">D&nbsp;mode &gt; mean</div></div>
+        <div class="why"><b>Why:</b> range(47) is not &lt; median(45).</div></div>
+      <div class="card"><div class="card-num">Problem 8</div><div class="q-text">Range of ages is 23; oldest is 41. Youngest?</div>
+        <div class="choices"><div class="choice">A&nbsp;8</div><div class="choice correct">B&nbsp;18</div><div class="choice">C&nbsp;28</div><div class="choice">D&nbsp;64</div></div>
+        <div class="why"><b>Why:</b> 41&minus;23=18.</div></div>
+      <div class="card"><div class="card-num">Problem 9</div><div class="q-text">Average of 3&frac12;, 1&frac14;, 2&frac34;, 5?</div>
+        <div class="choices"><div class="choice correct">A&nbsp;3&frac18;</div><div class="choice">B&nbsp;3&frac14;</div><div class="choice">C&nbsp;4&frac14;</div><div class="choice">D&nbsp;12&frac12;</div></div>
+        <div class="why"><b>Why:</b> sum=12.5; 12.5/4=3.125.</div></div>
+      <div class="card"><div class="card-num">Problem 10 <span style="font-weight:400;color:var(--ink-faint);">&middot; p.163</span></div><div class="q-text">Five kittens weigh 1.4, 3&frac58;, 2&frac23;, 5&frac13;, 7.6 lbs. Average weight?</div>
+        <div class="choices"><div class="choice">A&nbsp;3&frac78;</div><div class="choice correct">B&nbsp;4&frac18;</div><div class="choice">C&nbsp;4&frac14;</div><div class="choice">D&nbsp;4&frac34;</div></div>
+        <div class="why"><b>Why:</b> sum=20.625; /5=4.125.</div></div>
+    </div>
+  </section>
+
+  <section class="topic" id="p163">
+    <div class="topic-head"><h2>Mean, Median, Mode, and Range &middot; Practice Set 2</h2><span class="page-tag">pages 163&ndash;164</span></div>
+    <div class="cards">
+      <div class="card"><div class="card-num">Problem 1</div><div class="q-text">Find the mode of 13, 86, 14, 86, 23, 23, 86, 19, 7, 12, 1.</div>
+        <div class="choices"><div class="choice">A&nbsp;19</div><div class="choice">B&nbsp;23</div><div class="choice">C&nbsp;85</div><div class="choice correct">D&nbsp;86</div></div>
+        <div class="why"><b>Why:</b> 86 appears three times.</div></div>
+      <div class="card"><div class="card-num">Problem 2</div><div class="q-text">Find the median of 4, 18, 23, 17, 6, 29, 4.</div>
+        <div class="choices"><div class="choice">A&nbsp;4</div><div class="choice">B&nbsp;15</div><div class="choice correct">C&nbsp;17</div><div class="choice">D&nbsp;18</div></div>
+        <div class="why"><b>Why:</b> sorted middle value = 17.</div></div>
+      <div class="card"><div class="card-num">Problem 3</div><div class="q-text">Which is true for 15, 18, 15, 15, 16, 17?</div>
+        <div class="choices"><div class="choice correct">A&nbsp;mean &gt; mode</div><div class="choice">B&nbsp;mean &lt; range</div><div class="choice">C&nbsp;median = mode</div><div class="choice">D&nbsp;median = mean</div></div>
+        <div class="why"><b>Why:</b> mean(16) &gt; mode(15).</div></div>
+      <div class="card"><div class="card-num">Problem 4</div><div class="q-text">Find the mean of 80, 53, 22, 57, 100, 30, 8.</div>
+        <div class="choices"><div class="choice correct">A&nbsp;50</div><div class="choice">B&nbsp;53</div><div class="choice">C&nbsp;57</div><div class="choice">D&nbsp;70</div></div>
+        <div class="why"><b>Why:</b> sum=350; 350/7=50.</div></div>
+      <div class="card"><div class="card-num">Problem 5</div><div class="q-text">Find the range of 22, 87, 60, 31, 31, 19, 40, 50.</div>
+        <div class="choices"><div class="choice">A&nbsp;19</div><div class="choice">B&nbsp;65</div><div class="choice correct">C&nbsp;68</div><div class="choice">D&nbsp;87</div></div>
+        <div class="why"><b>Why:</b> 87&minus;19=68.</div></div>
+      <div class="card"><div class="card-num">Problem 6</div><div class="q-text">Which is false for 10, 25, 20, 20, 25, 30, 20, 30?</div>
+        <div class="choices"><div class="choice">A&nbsp;mean &gt; mode</div><div class="choice">B&nbsp;median &gt; range</div><div class="choice">C&nbsp;mode = range</div><div class="choice correct">D&nbsp;median = mode</div></div>
+        <div class="why"><b>Why:</b> median(22.5) &ne; mode(20).</div></div>
+      <div class="card"><div class="card-num">Problem 7 <span style="font-weight:400;color:var(--ink-faint);">&middot; p.164</span></div><div class="q-text">Robert (50), twin daughters (12,12), wife (45), son (6). Average age?</div>
+        <div class="choices"><div class="choice">A&nbsp;20</div><div class="choice correct">B&nbsp;25</div><div class="choice">C&nbsp;28.25</div><div class="choice">D&nbsp;31.25</div></div>
+        <div class="why"><b>Why:</b> 125/5=25.</div></div>
+      <div class="card"><div class="card-num">Problem 8</div><div class="q-text">Average of 6&frac18;, 3&frac14;, 3/2, 2&frac12;, 2&frac58;?</div>
+        <div class="choices"><div class="choice">A&nbsp;2&frac45;</div><div class="choice correct">B&nbsp;3&frac15;</div><div class="choice">C&nbsp;3&frac14;</div><div class="choice">D&nbsp;3&frac12;</div></div>
+        <div class="why"><b>Why:</b> sum=16 (eighths); /5=3.2.</div></div>
+      <div class="card"><div class="card-num">Problem 9</div><div class="q-text">Seven consecutive odd numbers, median 13. Smallest?</div>
+        <div class="choices"><div class="choice correct">A&nbsp;7</div><div class="choice">B&nbsp;9</div><div class="choice">C&nbsp;10</div><div class="choice">D&nbsp;19</div></div>
+        <div class="why"><b>Why:</b> smallest = 13 &minus; 2(3) = 7.</div></div>
+      <div class="card"><div class="card-num">Problem 10</div><div class="q-text">Rain: Mon 9/10in, Tue &amp; Wed 3/5in each, Thu-Sat 1&nbsp;1/10in each. Average over 6 days?</div>
+        <div class="choices"><div class="choice">A&nbsp;&frac45;</div><div class="choice correct">B&nbsp;9/10</div><div class="choice">C&nbsp;1&nbsp;1/10</div><div class="choice">D&nbsp;1&frac45;</div></div>
+        <div class="why"><b>Why:</b> total 54/10 &divide; 6 = 9/10.</div></div>
+    </div>
+  </section>
+
+  <section class="topic" id="p165">
+    <div class="topic-head"><h2>Charts, Graphs, and Tables &middot; Practice Set 1</h2><span class="page-tag">pages 165&ndash;167, 169</span></div>
+    <p style="color:var(--ink-muted); font-size:0.85rem; max-width:66ch; margin:-8px 0 16px;">Pie-slice and line-graph readings on this page are estimated from the photographed figures &mdash; marked with a dashed check where exact values weren't measurable.</p>
+    <div class="cards">
+      <div class="card"><div class="card-num">Problem 1</div><div class="q-text">The table shows items Sean bought at the farmers market. If Sean spent $21.50 total, how many apples did he buy?</div>
+        <div class="diagram"><table><tr><th>Item</th><th>Price/One</th><th>Total Spent</th></tr><tr><td>Orange</td><td>$0.50</td><td>$5.50</td></tr><tr><td>Apple</td><td>$1.25</td><td>?</td></tr><tr><td>Avocado</td><td>$1.50</td><td>$6.00</td></tr><tr><td>Onion</td><td>$0.75</td><td>$3.75</td></tr></table></div>
+        <div class="choices"><div class="choice">A&nbsp;4</div><div class="choice correct">B&nbsp;5</div><div class="choice">C&nbsp;6</div><div class="choice">D&nbsp;6.5</div></div>
+        <div class="why"><b>Why:</b> apple total = 21.50&minus;15.25=$6.25; &divide;$1.25=5.</div></div>
+
+      <div class="card"><div class="card-num">Problem 2</div><div class="q-text">The pictograph shows carnival tickets won by four kids (&#9711; = 25 tickets). How many more did Danny win than Greta?</div>
+        <div class="diagram"><svg viewBox="0 0 220 100" width="220" height="100">
+          <g font-family="Public Sans" font-size="10" fill="var(--ink-muted)">
+            <text x="0" y="14">Hank</text><text x="0" y="34">Danny</text><text x="0" y="54">Gina</text><text x="0" y="74">Greta</text>
+          </g>
+          <g fill="none" stroke="currentColor" style="color:var(--accent)">
+            <circle cx="55" cy="10" r="5"/><circle cx="70" cy="10" r="5"/><circle cx="85" cy="10" r="5"/>
+            <circle cx="55" cy="30" r="5"/><circle cx="70" cy="30" r="5"/><circle cx="85" cy="30" r="5"/><circle cx="100" cy="30" r="5"/><circle cx="115" cy="30" r="5"/><circle cx="130" cy="30" r="5"/>
+            <circle cx="55" cy="50" r="5"/><circle cx="70" cy="50" r="5"/><circle cx="85" cy="50" r="5"/><circle cx="100" cy="50" r="5"/>
+            <circle cx="55" cy="70" r="5"/><circle cx="70" cy="70" r="5"/>
+          </g>
+          <text x="55" y="95" font-family="Public Sans" font-size="9" fill="var(--ink-faint)">&#9711; = 25 tickets</text>
+        </svg></div>
+        <div class="choices"><div class="choice">A&nbsp;4</div><div class="choice">B&nbsp;75</div><div class="choice">C&nbsp;50</div><div class="choice correct">D&nbsp;100</div></div>
+        <div class="why"><b>Why:</b> Danny=150, Greta=50; diff=100.</div></div>
+
+      <div class="card"><div class="card-num">Problem 3</div><div class="q-text">Heart rates over a 30-min workout. At 30 min, how much higher was Julie's rate than Lauren's?</div>
+        <div class="diagram"><table><tr><th></th><th>Start</th><th>10min</th><th>20min</th><th>30min</th></tr><tr><td>Julie</td><td>70</td><td>90</td><td>120</td><td class="hl">160</td></tr><tr><td>Kenny</td><td>75</td><td>100</td><td>120</td><td>135</td></tr><tr><td>Lauren</td><td>83</td><td>93</td><td>103</td><td class="hl">113</td></tr></table></div>
+        <div class="choices"><div class="choice">A&nbsp;15</div><div class="choice">B&nbsp;17</div><div class="choice">C&nbsp;37</div><div class="choice correct">D&nbsp;47</div></div>
+        <div class="why"><b>Why:</b> 160&minus;113=47.</div></div>
+
+      <div class="card"><div class="card-num">Problem 4</div><div class="q-text">Bar graph: favorite colors, girls vs. boys. Difference between girls who chose yellow and boys who chose red?</div>
+        <div class="diagram approx"><svg viewBox="0 0 220 110" width="220" height="110">
+          <g font-family="JetBrains Mono" font-size="8" fill="var(--ink-faint)"><text x="0" y="10">30</text><text x="0" y="35">20</text><text x="0" y="60">10</text><text x="4" y="85">0</text></g>
+          <line x1="20" y1="85" x2="210" y2="85" stroke="currentColor" style="color:var(--ink-muted)"/>
+          <g fill="var(--surface-alt)" stroke="var(--ink-muted)"><rect x="30" y="72" width="14" height="13"/><rect x="90" y="10" width="14" height="75"/><rect x="150" y="35" width="14" height="50"/></g>
+          <g fill="var(--accent)" fill-opacity="0.5" stroke="var(--accent)"><rect x="46" y="10" width="14" height="75"/><rect x="106" y="10" width="14" height="75"/><rect x="166" y="60" width="14" height="25"/></g>
+          <g font-family="Public Sans" font-size="9" fill="var(--ink-muted)"><text x="35" y="97">Red</text><text x="93" y="97">Blue</text><text x="148" y="97">Yellow</text></g>
+        </svg></div>
+        <div class="choices"><div class="choice">A&nbsp;1</div><div class="choice correct">B&nbsp;5</div><div class="choice">C&nbsp;15</div><div class="choice">D&nbsp;20</div></div>
+        <div class="why"><b>Why (approx):</b> girls-yellow &asymp;20, boys-red &asymp;25; diff &asymp;5.</div></div>
+
+      <div class="card"><div class="card-num">p.166 &middot; Problem 5</div><div class="q-text">Circle graph: 80 students' favorite colors. About what fraction chose blue?</div>
+        <div class="diagram approx"><svg viewBox="0 0 120 120" width="120" height="120">
+          <circle cx="60" cy="60" r="50" fill="none" stroke="currentColor" style="color:var(--ink-muted)"/>
+          <path d="M60,60 L60,10 A50,50 0 0 1 100,80 Z" fill="var(--accent)" fill-opacity="0.4"/>
+          <path d="M60,60 L60,10 L20,30" fill="none" stroke="var(--border)"/>
+          <line x1="60" y1="60" x2="20" y2="30" stroke="currentColor" style="color:var(--ink-muted)"/>
+          <line x1="60" y1="60" x2="20" y2="90" stroke="currentColor" style="color:var(--ink-muted)"/>
+          <line x1="60" y1="60" x2="100" y2="80" stroke="currentColor" style="color:var(--ink-muted)"/>
+          <line x1="60" y1="60" x2="60" y2="10" stroke="currentColor" style="color:var(--ink-muted)"/>
+        </svg></div>
+        <div class="choices"><div class="choice correct">A&nbsp;&frac14;</div><div class="choice">B&nbsp;&frac38;</div><div class="choice">C&nbsp;&frac12;</div><div class="choice">D&nbsp;&frac23;</div></div>
+        <div class="why"><b>Why (approx):</b> blue's wedge is the thinnest of the four &mdash; closer to 1/4 than 3/8.</div></div>
+
+      <div class="card"><div class="card-num">p.166 &middot; Problem 6</div><div class="q-text">Paint prices at two stores. What is the price of 3 gallons of red paint from "Paint With Me"?</div>
+        <div class="diagram"><table><tr><th></th><th>Red/gal</th><th>Blue/gal</th></tr><tr><td>Paint With Me</td><td>$2.75</td><td>$3.50</td></tr><tr><td>Paint and More</td><td>$4.25</td><td>$3.25</td></tr></table></div>
+        <div class="choices"><div class="choice correct">A&nbsp;$8.25</div><div class="choice">B&nbsp;$8.75</div><div class="choice">C&nbsp;$10.50</div><div class="choice">D&nbsp;$12.75</div></div>
+        <div class="why"><b>Why:</b> 3 &times; $2.75 = $8.25.</div></div>
+
+      <div class="card"><div class="card-num">p.166 &middot; Problem 7</div><div class="q-text">Venn diagram: "people over 13" and "people who live in NY." Who fits the shaded (overlap) region?</div>
+        <div class="diagram"><svg viewBox="0 0 260 140" width="260" height="140">
+          <circle cx="95" cy="70" r="55" fill="none" stroke="currentColor" style="color:var(--ink-muted)"/>
+          <circle cx="165" cy="70" r="55" fill="none" stroke="currentColor" style="color:var(--ink-muted)"/>
+          <path d="M130,25 A55,55 0 0 1 130,115 A55,55 0 0 1 130,25 Z" fill="var(--accent)" fill-opacity="0.4"/>
+          <text x="18" y="18" font-family="Public Sans" font-size="11" fill="var(--ink)">people over age 13</text>
+          <text x="150" y="18" font-family="Public Sans" font-size="11" fill="var(--ink)">people who live in NY</text>
+        </svg></div>
+        <div class="choices"><div class="choice">A&nbsp;Julie, 12, CA</div><div class="choice">B&nbsp;Manny, 54, NJ</div><div class="choice">C&nbsp;Luis, 13, NY</div><div class="choice correct">D&nbsp;Brenda, 18, NY</div></div>
+        <div class="why"><b>Why:</b> only Brenda is both over 13 and in NY.</div></div>
+
+      <div class="card"><div class="card-num">p.166 &middot; Problem 8</div><div class="q-text">Line graph of monthly revenue (Mar&ndash;Sep). Between which 2 months was there the least change?</div>
+        <div class="diagram approx"><svg viewBox="0 0 220 100" width="220" height="100">
+          <polyline points="10,90 40,63 70,77 100,23 130,63 190,10" fill="none" stroke="var(--accent)" stroke-width="2"/>
+          <g font-family="Public Sans" font-size="8" fill="var(--ink-faint)"><text x="4" y="98">Mar</text><text x="34" y="98">Apr</text><text x="62" y="98">Jun</text><text x="92" y="98">Jul</text><text x="122" y="98">Aug</text><text x="180" y="98">Sep</text></g>
+        </svg></div>
+        <div class="choices"><div class="choice correct">A&nbsp;Apr &amp; Jun</div><div class="choice">B&nbsp;Mar &amp; Apr</div><div class="choice">C&nbsp;Jul &amp; Aug</div><div class="choice">D&nbsp;Aug &amp; Sep</div></div>
+        <div class="why"><b>Why:</b> Apr(&asymp;10) to Jun(&asymp;5) is the smallest change (&asymp;5); every other adjacent pair changes by 15&ndash;20+.</div></div>
+
+      <div class="card"><div class="card-num">p.167 &middot; Problem 9</div><div class="q-text">3-circle Venn: "same side lengths," "red shapes," "&ge;4 sides." Which shape fits the triple overlap?</div>
+        <div class="diagram"><svg viewBox="0 0 260 215" width="260" height="215">
+          <defs>
+            <clipPath id="p167q9c"><circle cx="130" cy="150" r="68"/></clipPath>
+            <mask id="p167q9notB"><rect x="0" y="0" width="260" height="215" fill="white"/><circle cx="170" cy="75" r="68" fill="black"/></mask>
+          </defs>
+          <g clip-path="url(#p167q9c)" mask="url(#p167q9notB)"><circle cx="90" cy="75" r="68" fill="var(--accent)" fill-opacity="0.4"/></g>
+          <circle cx="90" cy="75" r="68" fill="none" stroke="currentColor" style="color:var(--ink-muted)"/>
+          <circle cx="170" cy="75" r="68" fill="none" stroke="currentColor" style="color:var(--ink-muted)"/>
+          <circle cx="130" cy="150" r="68" fill="none" stroke="currentColor" style="color:var(--ink-muted)"/>
+          <text x="10" y="20" font-family="Public Sans" font-size="10.5" fill="var(--ink)">same side</text>
+          <text x="10" y="32" font-family="Public Sans" font-size="10.5" fill="var(--ink)">lengths</text>
+          <text x="178" y="20" font-family="Public Sans" font-size="10.5" fill="var(--ink)">red</text>
+          <text x="178" y="32" font-family="Public Sans" font-size="10.5" fill="var(--ink)">shapes</text>
+          <text x="93" y="207" font-family="Public Sans" font-size="10.5" fill="var(--ink)">&ge;4 sides</text>
+        </svg></div>
+        <div class="choices"><div class="choice">A&nbsp;yellow equilateral triangle</div><div class="choice">B&nbsp;red square</div><div class="choice">C&nbsp;green rectangle</div><div class="choice correct">D&nbsp;blue regular pentagon</div></div>
+        <div class="why"><b>Why:</b> the shaded region is same-side-lengths &amp; &ge;4 sides, but NOT red &mdash; a pentagon (5 equal sides, not red) fits; a red square would be outside this shading since it's in the "red" circle.</div></div>
+
+      <div class="card"><div class="card-num">p.167 &middot; Problem 10</div><div class="q-text">Bar graph: minutes spent on homework (June, Liz, Alex, Sofia, Remy). Which statement is false?</div>
+        <div class="diagram approx"><svg viewBox="0 0 220 100" width="220" height="100">
+          <line x1="20" y1="85" x2="210" y2="85" stroke="currentColor" style="color:var(--ink-muted)"/>
+          <g fill="var(--accent)" fill-opacity="0.4" stroke="var(--accent)">
+            <rect x="30" y="15" width="18" height="70"/><rect x="65" y="55" width="18" height="30"/><rect x="100" y="45" width="18" height="40"/><rect x="135" y="75" width="18" height="10"/><rect x="170" y="45" width="18" height="40"/>
+          </g>
+          <g font-family="Public Sans" font-size="8" fill="var(--ink-faint)"><text x="24" y="96">June</text><text x="62" y="96">Liz</text><text x="96" y="96">Alex</text><text x="128" y="96">Sofia</text><text x="164" y="96">Remy</text></g>
+        </svg></div>
+        <div class="choices"><div class="choice">A&nbsp;Alex = Liz + Sofia combined</div><div class="choice">B&nbsp;mean is between 35&ndash;40</div><div class="choice correct">C&nbsp;median is lower than the mode</div><div class="choice">D&nbsp;range is higher than the mode</div></div>
+        <div class="why"><b>Why (approx):</b> with values &asymp;70,30,40,10,40, median(40)=mode(40), so "lower than" is false.</div></div>
+
+      <div class="card"><div class="card-num">p.169 &middot; Problem 4</div><div class="q-text">Table of items Bethany bought. If she spent $112 total, how many pairs of shorts?</div>
+        <div class="diagram"><table><tr><th>Item</th><th>Price/One</th><th>Purchased</th></tr><tr><td>Shirt</td><td>$10</td><td>4</td></tr><tr><td>Socks</td><td>$2</td><td>8</td></tr><tr><td>Hat</td><td>$8</td><td>1</td></tr><tr><td>Shorts</td><td>$12</td><td>?</td></tr></table></div>
+        <div class="choices"><div class="choice">A&nbsp;3</div><div class="choice correct">B&nbsp;4</div><div class="choice">C&nbsp;6</div><div class="choice">D&nbsp;48</div></div>
+        <div class="why"><b>Why:</b> 112&minus;(40+16+8)=48; &divide;$12=4.</div></div>
+
+      <div class="card"><div class="card-num">p.169 &middot; Problem 5</div><div class="q-text">Circle graph: 100 students' favorite pets. About what fraction chose rabbits?</div>
+        <div class="diagram approx"><svg viewBox="0 0 120 120" width="120" height="120">
+          <circle cx="60" cy="60" r="50" fill="none" stroke="currentColor" style="color:var(--ink-muted)"/>
+          <path d="M60,60 L60,10 A50,50 0 0 1 90,20 Z" fill="var(--accent)" fill-opacity="0.4"/>
+          <line x1="60" y1="60" x2="60" y2="10" stroke="currentColor" style="color:var(--ink-muted)"/>
+          <line x1="60" y1="60" x2="103" y2="35" stroke="currentColor" style="color:var(--ink-muted)"/>
+          <line x1="60" y1="60" x2="103" y2="85" stroke="currentColor" style="color:var(--ink-muted)"/>
+          <line x1="60" y1="60" x2="60" y2="110" stroke="currentColor" style="color:var(--ink-muted)"/>
+          <line x1="60" y1="60" x2="17" y2="85" stroke="currentColor" style="color:var(--ink-muted)"/>
+        </svg></div>
+        <div class="choices"><div class="choice">A&nbsp;&frac18;</div><div class="choice correct">B&nbsp;&frac16;</div><div class="choice">C&nbsp;&frac14;</div><div class="choice">D&nbsp;&frac12;</div></div>
+        <div class="why"><b>Why (approx):</b> rabbit's wedge looks closest to 1/6 of the circle.</div></div>
+
+      <div class="card"><div class="card-num">p.169 &middot; Problem 6</div><div class="q-text">Table: temperature of 3 buckets of water over time. Difference between Bucket 1 and Bucket 3 at 20 min?</div>
+        <div class="diagram"><table><tr><th></th><th>Start</th><th>20min</th><th>40min</th><th>60min</th></tr><tr><td>Bucket 1</td><td>42&deg;F</td><td class="hl">54&deg;F</td><td>66&deg;F</td><td>78&deg;F</td></tr><tr><td>Bucket 2</td><td>30&deg;F</td><td>36&deg;F</td><td>41&deg;F</td><td>45&deg;F</td></tr><tr><td>Bucket 3</td><td>60&deg;F</td><td class="hl">63&deg;F</td><td>67&deg;F</td><td>72&deg;F</td></tr></table></div>
+        <div class="choices"><div class="choice correct">A&nbsp;9&deg;F</div><div class="choice">B&nbsp;11&deg;F</div><div class="choice">C&nbsp;18&deg;F</div><div class="choice">D&nbsp;27&deg;F</div></div>
+        <div class="why"><b>Why:</b> 63&minus;54=9.</div></div>
+
+      <div class="card"><div class="card-num">p.169 &middot; Problem 7</div><div class="q-text">Line graph of monthly revenue. Difference in revenue between September and June?</div>
+        <div class="diagram approx"><svg viewBox="0 0 220 100" width="220" height="100">
+          <polyline points="10,90 40,63 70,77 100,23 130,63 190,10" fill="none" stroke="var(--accent)" stroke-width="2"/>
+          <g font-family="Public Sans" font-size="8" fill="var(--ink-faint)"><text x="4" y="98">Mar</text><text x="34" y="98">Apr</text><text x="62" y="98">Jun</text><text x="92" y="98">Jul</text><text x="122" y="98">Aug</text><text x="180" y="98">Sep</text></g>
+        </svg></div>
+        <div class="choices"><div class="choice">A&nbsp;$5,000</div><div class="choice">B&nbsp;$20,000</div><div class="choice correct">C&nbsp;$25,000</div><div class="choice">D&nbsp;$30,000</div></div>
+        <div class="why"><b>Why (approx):</b> June&asymp;$5k, September&asymp;$30k; difference&asymp;$25k.</div></div>
+    </div>
+  </section>
+
+  <section class="topic" id="p176">
+    <div class="topic-head"><h2>Area and Perimeter Word Problems &middot; Practice Set 1</h2><span class="page-tag">page 176</span></div>
+    <div class="cards">
+      <div class="card"><div class="card-num">Problem 1</div><div class="q-text">A rectangle has a perimeter of 24 cm and one side of 8 cm. What is its area?</div>
+        <div class="diagram"><svg viewBox="0 0 140 80" width="140" height="80"><rect x="15" y="15" width="110" height="50" fill="none" stroke="currentColor" style="color:var(--ink-muted)"/><text x="70" y="10" text-anchor="middle" font-family="JetBrains Mono" font-size="11" fill="var(--ink)">8 cm</text></svg></div>
+        <div class="choices"><div class="choice">A&nbsp;22 cm&sup2;</div><div class="choice correct">B&nbsp;32 cm&sup2;</div><div class="choice">C&nbsp;36 cm&sup2;</div><div class="choice">D&nbsp;128 cm&sup2;</div></div>
+        <div class="why"><b>Why:</b> other side=4cm; area=8&times;4=32.</div></div>
+      <div class="card"><div class="card-num">Problem 2</div><div class="q-text">What is the perimeter of a square that has an area of 36 square inches?</div>
+        <div class="choices"><div class="choice">A&nbsp;12 in</div><div class="choice">B&nbsp;18 in</div><div class="choice correct">C&nbsp;24 in</div><div class="choice">D&nbsp;81 in</div></div>
+        <div class="why"><b>Why:</b> side=6; perimeter=24.</div></div>
+      <div class="card"><div class="card-num">Problem 3</div><div class="q-text">The triangle below has an area of 24 square feet. What is its perimeter?</div>
+        <div class="diagram"><svg viewBox="0 0 220 150" width="220" height="150">
+          <polygon points="20,130 20,20 190,130" fill="none" stroke="currentColor" stroke-width="2.5" style="color:var(--ink-muted)"/>
+          <rect x="20" y="115" width="15" height="15" fill="none" stroke="currentColor" stroke-width="1.5" style="color:var(--ink-faint)"/>
+          <text x="4" y="78" font-family="JetBrains Mono" font-size="13" fill="var(--ink)">8</text>
+          <text x="95" y="146" font-family="JetBrains Mono" font-size="13" fill="var(--ink)">6 ft</text>
+          <text x="95" y="68" font-family="JetBrains Mono" font-size="13" fill="var(--ink)" transform="rotate(-33 95 68)">10 ft</text></svg></div>
+        <div class="choices"><div class="choice">A&nbsp;8 ft</div><div class="choice">B&nbsp;20 ft</div><div class="choice correct">C&nbsp;24 ft</div><div class="choice">D&nbsp;48 ft</div></div>
+        <div class="why"><b>Why:</b> legs 6,8 &rarr; hyp 10 (6-8-10); perimeter=24.</div></div>
+      <div class="card"><div class="card-num">Problem 4</div><div class="q-text">The perimeter of a square is 12a. What is the length of one side, in terms of a?</div>
+        <div class="choices"><div class="choice">A&nbsp;3</div><div class="choice">B&nbsp;6</div><div class="choice correct">C&nbsp;3a</div><div class="choice">D&nbsp;6a</div></div>
+        <div class="why"><b>Why:</b> 12a &divide; 4 = 3a.</div></div>
+      <div class="card"><div class="card-num">Problem 5</div><div class="q-text">A square has area 16 in&sup2;. If you double the side lengths, what is the new area?</div>
+        <div class="choices"><div class="choice">A&nbsp;32 in&sup2;</div><div class="choice correct">B&nbsp;64 in&sup2;</div><div class="choice">C&nbsp;48 in&sup2;</div><div class="choice">D&nbsp;256 in&sup2;</div></div>
+        <div class="why"><b>Why:</b> side 4&rarr;8; new area=64.</div></div>
+      <div class="card"><div class="card-num">Problem 6</div><div class="q-text">A square (side 8 ft) and a rectangle have the same perimeter. Which could be the rectangle's dimensions?</div>
+        <div class="choices"><div class="choice">A&nbsp;16 &amp; 4 ft</div><div class="choice">B&nbsp;6 &amp; 2 ft</div><div class="choice">C&nbsp;12 &amp; 3 ft</div><div class="choice correct">D&nbsp;11 &amp; 5 ft</div></div>
+        <div class="why"><b>Why:</b> perimeter=32; only 11+5=16 fits l+w=16.</div></div>
+      <div class="card"><div class="card-num">Problem 7</div><div class="q-text">A triangle has a perimeter of 40 in. One side is 15 in. Which pair could NOT be the other two sides?</div>
+        <div class="choices"><div class="choice">A&nbsp;10 &amp; 15 in</div><div class="choice">B&nbsp;12 &amp; 13 in</div><div class="choice">C&nbsp;8 &amp; 17 in</div><div class="choice correct">D&nbsp;9 &amp; 14 in</div></div>
+        <div class="why"><b>Why:</b> other two must sum to 25; 9+14=23 doesn't.</div></div>
+      <div class="card"><div class="card-num">Problem 8</div><div class="q-text">A square is shown below. What is its perimeter, in terms of x?</div>
+        <div class="diagram"><svg viewBox="0 0 140 80" width="140" height="80"><rect x="30" y="15" width="80" height="50" fill="none" stroke="currentColor" style="color:var(--ink-muted)"/><text x="70" y="10" text-anchor="middle" font-family="JetBrains Mono" font-size="11" fill="var(--ink)">x + 4</text></svg></div>
+        <div class="choices"><div class="choice">A&nbsp;4x+4</div><div class="choice">B&nbsp;x+16</div><div class="choice">C&nbsp;2x+8</div><div class="choice correct">D&nbsp;4x+16</div></div>
+        <div class="why"><b>Why:</b> perimeter=4(x+4)=4x+16.</div></div>
+    </div>
+  </section>
+
+  <section class="topic" id="p177">
+    <div class="topic-head"><h2>Area and Perimeter Word Problems &middot; Practice Set 2</h2><span class="page-tag">page 177</span></div>
+    <div class="cards">
+      <div class="card"><div class="card-num">Problem 1</div><div class="q-text">The area of a triangle is 20 square yards. If the base is 10 yards, what is the height?</div>
+        <div class="choices"><div class="choice">A&nbsp;1 yd</div><div class="choice">B&nbsp;2 yd</div><div class="choice correct">C&nbsp;4 yd</div><div class="choice">D&nbsp;10 yd</div></div>
+        <div class="why"><b>Why:</b> h=2A/b=40/10=4.</div></div>
+      <div class="card"><div class="card-num">Problem 2</div><div class="q-text">A rectangle has a perimeter of 56 inches. Which could be its dimensions?</div>
+        <div class="choices"><div class="choice correct">A&nbsp;16 &amp; 12 in</div><div class="choice">B&nbsp;7 &amp; 8 in</div><div class="choice">C&nbsp;26 &amp; 30 in</div><div class="choice">D&nbsp;15 &amp; 11 in</div></div>
+        <div class="why"><b>Why:</b> only 16+12=28 gives 2(l+w)=56.</div></div>
+      <div class="card"><div class="card-num">Problem 3</div><div class="q-text">The rectangle below has an area of 108 cm&sup2;. What is its perimeter?</div>
+        <div class="diagram"><svg viewBox="0 0 140 90" width="140" height="90"><rect x="15" y="15" width="60" height="60" fill="none" stroke="currentColor" style="color:var(--ink-muted)"/><text x="45" y="10" text-anchor="middle" font-family="JetBrains Mono" font-size="11" fill="var(--ink)">9 cm</text></svg></div>
+        <div class="choices"><div class="choice">A&nbsp;12 cm</div><div class="choice">B&nbsp;21 cm</div><div class="choice correct">C&nbsp;42 cm</div><div class="choice">D&nbsp;44 cm</div></div>
+        <div class="why"><b>Why:</b> other side=12; perimeter=2(9+12)=42.</div></div>
+      <div class="card"><div class="card-num">Problem 4</div><div class="q-text">The area of a triangle is twice the area of a square. The triangle's area is 72 sq ft. What is the perimeter of the square?</div>
+        <div class="choices"><div class="choice">A&nbsp;6 ft</div><div class="choice correct">B&nbsp;24 ft</div><div class="choice">C&nbsp;28 ft</div><div class="choice">D&nbsp;36 ft</div></div>
+        <div class="why"><b>Why:</b> square area=72&divide;2=36; side=6; perimeter=4&times;6=24.</div></div>
+      <div class="card"><div class="card-num">Problem 5</div><div class="q-text">A rectangle has a width of 4b and a length of 6. What is its area?</div>
+        <div class="choices"><div class="choice">A&nbsp;20</div><div class="choice">B&nbsp;24</div><div class="choice">C&nbsp;20b</div><div class="choice correct">D&nbsp;24b</div></div>
+        <div class="why"><b>Why:</b> area=4b&times;6=24b.</div></div>
+      <div class="card"><div class="card-num">Problem 6</div><div class="q-text">A square has a perimeter of 64 inches. What is its area?</div>
+        <div class="choices"><div class="choice">A&nbsp;32 in&sup2;</div><div class="choice">B&nbsp;64 in&sup2;</div><div class="choice">C&nbsp;216 in&sup2;</div><div class="choice correct">D&nbsp;256 in&sup2;</div></div>
+        <div class="why"><b>Why:</b> side=16; area=256.</div></div>
+      <div class="card"><div class="card-num">Problem 9</div><div class="q-text">The area of a rectangle is 18x m&sup2;. One side is 9 m. What is the other side?</div>
+        <div class="choices"><div class="choice correct">A&nbsp;2x m</div><div class="choice">B&nbsp;9x m</div><div class="choice">C&nbsp;2 m</div><div class="choice">D&nbsp;9 m</div></div>
+        <div class="why"><b>Why:</b> 18x&divide;9=2x (the constant side divides out, x stays).</div></div>
+      <div class="card"><div class="card-num">Problem 10</div><div class="q-text">A can of paint covers 10 sq yd. How many cans to cover an 18ft&times;15ft wall?</div>
+        <div class="choices"><div class="choice correct">A&nbsp;3</div><div class="choice">B&nbsp;6</div><div class="choice">C&nbsp;9</div><div class="choice">D&nbsp;27</div></div>
+        <div class="why"><b>Why:</b> 270ft&sup2;=30yd&sup2;; &divide;10=3.</div></div>
+    </div>
+  </section>
+
+  <section class="topic" id="p181">
+    <div class="topic-head"><h2>Shaded Area &middot; Practice Set 1 (tail) &amp; Set 2</h2><span class="page-tag">page 181</span></div>
+    <div class="cards">
+      <div class="card"><div class="card-num">Set 1 &middot; Problem 9</div><div class="q-text">A large triangle (27 units&sup2;) is split into 9 small triangles, 3 shaded. What is the shaded area?</div>
+        <div class="diagram"><svg viewBox="0 0 200 185" width="200" height="185">
+          <g fill="none" stroke="currentColor" stroke-width="1.3" style="color:var(--ink-muted)">
+            <path d="M100,10 L70,65 L130,65 Z"/><path d="M70,65 L40,120 L100,120 Z"/><path d="M130,65 L100,120 L160,120 Z"/>
+            <path d="M40,120 L10,175 L70,175 Z"/><path d="M100,120 L70,175 L130,175 Z"/><path d="M160,120 L130,175 L190,175 Z"/>
+            <path d="M70,65 L130,65 L100,120 Z"/><path d="M40,120 L100,120 L70,175 Z"/><path d="M100,120 L160,120 L130,175 Z"/>
+          </g>
+          <path d="M70,65 L40,120 L100,120 Z" fill="var(--accent)" fill-opacity="0.4"/>
+          <path d="M100,120 L160,120 L130,175 Z" fill="var(--accent)" fill-opacity="0.4"/>
+          <path d="M100,120 L70,175 L130,175 Z" fill="var(--accent)" fill-opacity="0.4"/>
+          <path d="M100,10 L10,175 L190,175 Z" fill="none" stroke="currentColor" stroke-width="2.2" style="color:var(--ink)"/></svg></div>
+        <div class="choices"><div class="choice">A&nbsp;2 units&sup2;</div><div class="choice">B&nbsp;3 units&sup2;</div><div class="choice">C&nbsp;6 units&sup2;</div><div class="choice correct">D&nbsp;9 units&sup2;</div></div>
+        <div class="why"><b>Why:</b> each small triangle=3; 3&times;3=9.</div></div>
+      <div class="card"><div class="card-num">Set 1 &middot; Problem 10</div><div class="q-text">Two overlapping squares: outer perimeter 36in, inner perimeter 24in. Area of the outer-only shaded region?</div>
+        <div class="diagram"><svg viewBox="0 0 210 200" width="210" height="200">
+          <rect x="20" y="45" width="135" height="135" fill="var(--accent)" fill-opacity="0.3" stroke="currentColor" style="color:var(--ink-muted)"/>
+          <rect x="65" y="45" width="90" height="90" fill="var(--surface)" stroke="currentColor" style="color:var(--ink-muted)"/>
+          <text x="75" y="195" font-family="JetBrains Mono" font-size="12" fill="var(--ink)">outer: 36 in perimeter</text>
+          <text x="103" y="40" font-family="JetBrains Mono" font-size="11" fill="var(--ink)">inner: 24 in</text></svg></div>
+        <div class="choices"><div class="choice">A&nbsp;12 in&sup2;</div><div class="choice">B&nbsp;24 in&sup2;</div><div class="choice">C&nbsp;32 in&sup2;</div><div class="choice correct">D&nbsp;45 in&sup2;</div></div>
+        <div class="why"><b>Why:</b> outer(81)&minus;inner(36)=45.</div></div>
+      <div class="card"><div class="card-num">Set 2 &middot; Problem 1</div><div class="q-text">A 9ft &times; 12ft rectangle has a triangle inside (unshaded). The base of the triangle measures 8 ft. What is the shaded area?</div>
+        <div class="diagram"><svg viewBox="0 0 150 120" width="150" height="120"><rect x="10" y="10" width="120" height="90" fill="var(--accent)" fill-opacity="0.35" stroke="currentColor" style="color:var(--ink-muted)"/><polygon points="10,10 90,10 10,100" fill="var(--surface)" stroke="currentColor" style="color:var(--ink-muted)"/><text x="50" y="8" text-anchor="middle" font-family="JetBrains Mono" font-size="9" fill="var(--ink)">8 ft</text><text x="70" y="112" text-anchor="middle" font-family="JetBrains Mono" font-size="10" fill="var(--ink)">12 ft</text><text x="140" y="58" font-family="JetBrains Mono" font-size="10" fill="var(--ink)">9 ft</text></svg></div>
+        <div class="choices"><div class="choice">A&nbsp;36 ft&sup2;</div><div class="choice">B&nbsp;60 ft&sup2;</div><div class="choice">C&nbsp;62 ft&sup2;</div><div class="choice correct">D&nbsp;72 ft&sup2;</div></div>
+        <div class="why"><b>Why:</b> rectangle area=9&times;12=108; triangle area=&frac12;(8)(9)=36; shaded=108&minus;36=72.</div></div>
+      <div class="card"><div class="card-num">Set 2 &middot; Problem 2</div><div class="q-text">A 6&times;6 grid; each square is 1.5 units&sup2;. What is the area of the shaded region?</div>
+        <div class="choices approx"><div class="choice">A&nbsp;14 units&sup2;</div><div class="choice correct">B&nbsp;21 units&sup2;</div><div class="choice">C&nbsp;22 units&sup2;</div><div class="choice">D&nbsp;28 units&sup2;</div></div>
+        <div class="why note">Shaded cell count estimated from the photo (&asymp;14 of 36 squares); not fully verified &mdash; double-check against the book.</div></div>
+    </div>
+  </section>
+
+  <section class="topic" id="p187">
+    <div class="topic-head"><h2>Coordinate Geometry &middot; Practice Set 1</h2><span class="page-tag">pages 187&ndash;188</span></div>
+    <div class="cards">
+      <div class="card"><div class="card-num">Problem 1</div><div class="q-text">What are the coordinates of point A on the grid below?</div>
+        <div class="diagram"><svg viewBox="0 0 140 140" width="140" height="140">
+          <g stroke="var(--border)" stroke-width="0.5">
+            <line x1="10" y1="10" x2="10" y2="130"/><line x1="20" y1="10" x2="20" y2="130"/><line x1="30" y1="10" x2="30" y2="130"/><line x1="40" y1="10" x2="40" y2="130"/><line x1="50" y1="10" x2="50" y2="130"/><line x1="60" y1="10" x2="60" y2="130"/><line x1="70" y1="10" x2="70" y2="130"/><line x1="80" y1="10" x2="80" y2="130"/><line x1="90" y1="10" x2="90" y2="130"/><line x1="100" y1="10" x2="100" y2="130"/><line x1="110" y1="10" x2="110" y2="130"/><line x1="120" y1="10" x2="120" y2="130"/><line x1="130" y1="10" x2="130" y2="130"/>
+            <line x1="10" y1="10" x2="130" y2="10"/><line x1="10" y1="20" x2="130" y2="20"/><line x1="10" y1="30" x2="130" y2="30"/><line x1="10" y1="40" x2="130" y2="40"/><line x1="10" y1="50" x2="130" y2="50"/><line x1="10" y1="60" x2="130" y2="60"/><line x1="10" y1="70" x2="130" y2="70"/><line x1="10" y1="80" x2="130" y2="80"/><line x1="10" y1="90" x2="130" y2="90"/><line x1="10" y1="100" x2="130" y2="100"/><line x1="10" y1="110" x2="130" y2="110"/><line x1="10" y1="120" x2="130" y2="120"/><line x1="10" y1="130" x2="130" y2="130"/>
+          </g>
+          <line x1="10" y1="70" x2="130" y2="70" stroke="currentColor" style="color:var(--ink-muted)"/><line x1="70" y1="10" x2="70" y2="130" stroke="currentColor" style="color:var(--ink-muted)"/>
+          <circle cx="30" cy="40" r="3" fill="var(--ink)"/><text x="16" y="34" font-family="Public Sans" font-size="11" font-weight="600" fill="var(--ink)">A</text>
+        </svg></div>
+        <div class="choices"><div class="choice">A&nbsp;(3,&minus;4)</div><div class="choice">B&nbsp;(&minus;3,4)</div><div class="choice">C&nbsp;(&minus;4,&minus;3)</div><div class="choice correct">D&nbsp;(&minus;4,3)</div></div>
+        <div class="why"><b>Why:</b> A sits 4 left, 3 up from the origin.</div></div>
+      <div class="card"><div class="card-num">Problem 2</div><div class="q-text">Point W has coordinates (7, &minus;5). Translated 4 units left and 3 units up, what are the new coordinates?</div>
+        <div class="choices"><div class="choice">A&nbsp;(3,&minus;8)</div><div class="choice">B&nbsp;(11,&minus;2)</div><div class="choice correct">C&nbsp;(3,&minus;2)</div><div class="choice">D&nbsp;(10,&minus;9)</div></div>
+        <div class="why"><b>Why:</b> (7&minus;4, &minus;5+3) = (3,&minus;2).</div></div>
+      <div class="card"><div class="card-num">Problem 3</div><div class="q-text">Point A has coordinates (5, 1). Reflected over the y-axis, what are the new coordinates?</div>
+        <div class="choices"><div class="choice correct">A&nbsp;(&minus;5,1)</div><div class="choice">B&nbsp;(1,5)</div><div class="choice">C&nbsp;(5,&minus;1)</div><div class="choice">D&nbsp;(&minus;5,&minus;1)</div></div>
+        <div class="why"><b>Why:</b> reflecting over the y-axis negates x.</div></div>
+      <div class="card"><div class="card-num">Problem 4</div><div class="q-text">Points (&minus;3,1), (&minus;1,4), (5,1), (5,4) form a quadrilateral. Which term best describes it?</div>
+        <div class="choices"><div class="choice correct">A&nbsp;trapezoid</div><div class="choice">B&nbsp;kite</div><div class="choice">C&nbsp;rectangle</div><div class="choice">D&nbsp;parallelogram</div></div>
+        <div class="why"><b>Why:</b> exactly one pair of parallel sides (top=6, bottom=8).</div></div>
+      <div class="card"><div class="card-num">Problem 5</div><div class="q-text">Use the coordinate grid below. Which point has coordinates (4, &minus;1)?</div>
+        <div class="diagram"><svg viewBox="0 0 140 140" width="140" height="140">
+          <g stroke="var(--border)" stroke-width="0.5">
+            <line x1="10" y1="10" x2="10" y2="130"/><line x1="20" y1="10" x2="20" y2="130"/><line x1="30" y1="10" x2="30" y2="130"/><line x1="40" y1="10" x2="40" y2="130"/><line x1="50" y1="10" x2="50" y2="130"/><line x1="60" y1="10" x2="60" y2="130"/><line x1="70" y1="10" x2="70" y2="130"/><line x1="80" y1="10" x2="80" y2="130"/><line x1="90" y1="10" x2="90" y2="130"/><line x1="100" y1="10" x2="100" y2="130"/><line x1="110" y1="10" x2="110" y2="130"/><line x1="120" y1="10" x2="120" y2="130"/><line x1="130" y1="10" x2="130" y2="130"/>
+            <line x1="10" y1="10" x2="130" y2="10"/><line x1="10" y1="20" x2="130" y2="20"/><line x1="10" y1="30" x2="130" y2="30"/><line x1="10" y1="40" x2="130" y2="40"/><line x1="10" y1="50" x2="130" y2="50"/><line x1="10" y1="60" x2="130" y2="60"/><line x1="10" y1="70" x2="130" y2="70"/><line x1="10" y1="80" x2="130" y2="80"/><line x1="10" y1="90" x2="130" y2="90"/><line x1="10" y1="100" x2="130" y2="100"/><line x1="10" y1="110" x2="130" y2="110"/><line x1="10" y1="120" x2="130" y2="120"/><line x1="10" y1="130" x2="130" y2="130"/>
+          </g>
+          <line x1="10" y1="70" x2="130" y2="70" stroke="currentColor" style="color:var(--ink-muted)"/><line x1="70" y1="10" x2="70" y2="130" stroke="currentColor" style="color:var(--ink-muted)"/>
+          <circle cx="60" cy="30" r="3" fill="var(--ink)"/><text x="46" y="24" font-family="Public Sans" font-size="11" font-weight="600" fill="var(--ink)">C</text>
+          <circle cx="110" cy="60" r="3" fill="var(--ink)"/><text x="116" y="56" font-family="Public Sans" font-size="11" font-weight="600" fill="var(--ink)">A</text>
+          <circle cx="110" cy="80" r="3" fill="var(--ink)"/><text x="116" y="88" font-family="Public Sans" font-size="11" font-weight="600" fill="var(--ink)">B</text>
+          <circle cx="60" cy="110" r="3" fill="var(--ink)"/><text x="46" y="118" font-family="Public Sans" font-size="11" font-weight="600" fill="var(--ink)">D</text>
+        </svg></div>
+        <div class="choices"><div class="choice">A&nbsp;Point A</div><div class="choice correct">B&nbsp;Point B</div><div class="choice">C&nbsp;Point C</div><div class="choice">D&nbsp;Point D</div></div>
+        <div class="why"><b>Why:</b> B sits at (4,&minus;1) on the grid.</div></div>
+      <div class="card"><div class="card-num">p.188 &middot; Problem 6</div><div class="q-text">Points (&minus;2,0), (&minus;2,3), (4,0) form a triangle. Which term best describes it?</div>
+        <div class="choices"><div class="choice">A&nbsp;obtuse</div><div class="choice">B&nbsp;acute</div><div class="choice">C&nbsp;equilateral</div><div class="choice correct">D&nbsp;right</div></div>
+        <div class="why"><b>Why:</b> the vertical side (&minus;2,0)-(&minus;2,3) and horizontal side (&minus;2,0)-(4,0) meet at a 90&deg; angle.</div></div>
+      <div class="card"><div class="card-num">p.188 &middot; Problem 7</div><div class="q-text">What is the area of a triangle with vertices (5,2), (1,2), (2,4)?</div>
+        <div class="choices"><div class="choice correct">A&nbsp;4 units&sup2;</div><div class="choice">B&nbsp;6 units&sup2;</div><div class="choice">C&nbsp;8 units&sup2;</div><div class="choice">D&nbsp;9 units&sup2;</div></div>
+        <div class="why"><b>Why:</b> base 4 (along y=2), height 2; area=4.</div></div>
+      <div class="card"><div class="card-num">p.188 &middot; Problem 8</div><div class="q-text">Eden walks from point A to point B, moving only left/right/up/down. Shortest distance?</div>
+        <div class="diagram"><svg viewBox="0 0 140 140" width="140" height="140">
+          <g stroke="var(--border)" stroke-width="0.5">
+            <line x1="10" y1="10" x2="10" y2="130"/><line x1="20" y1="10" x2="20" y2="130"/><line x1="30" y1="10" x2="30" y2="130"/><line x1="40" y1="10" x2="40" y2="130"/><line x1="50" y1="10" x2="50" y2="130"/><line x1="60" y1="10" x2="60" y2="130"/><line x1="70" y1="10" x2="70" y2="130"/><line x1="80" y1="10" x2="80" y2="130"/><line x1="90" y1="10" x2="90" y2="130"/><line x1="100" y1="10" x2="100" y2="130"/><line x1="110" y1="10" x2="110" y2="130"/><line x1="120" y1="10" x2="120" y2="130"/><line x1="130" y1="10" x2="130" y2="130"/>
+            <line x1="10" y1="10" x2="130" y2="10"/><line x1="10" y1="20" x2="130" y2="20"/><line x1="10" y1="30" x2="130" y2="30"/><line x1="10" y1="40" x2="130" y2="40"/><line x1="10" y1="50" x2="130" y2="50"/><line x1="10" y1="60" x2="130" y2="60"/><line x1="10" y1="70" x2="130" y2="70"/><line x1="10" y1="80" x2="130" y2="80"/><line x1="10" y1="90" x2="130" y2="90"/><line x1="10" y1="100" x2="130" y2="100"/><line x1="10" y1="110" x2="130" y2="110"/><line x1="10" y1="120" x2="130" y2="120"/><line x1="10" y1="130" x2="130" y2="130"/>
+          </g>
+          <line x1="10" y1="70" x2="130" y2="70" stroke="currentColor" style="color:var(--ink-muted)"/><line x1="70" y1="10" x2="70" y2="130" stroke="currentColor" style="color:var(--ink-muted)"/>
+          <circle cx="40" cy="30" r="3" fill="var(--ink)"/><text x="30" y="24" font-family="Public Sans" font-size="11" font-weight="600" fill="var(--ink)">A</text>
+          <circle cx="80" cy="60" r="3" fill="var(--ink)"/><text x="86" y="58" font-family="Public Sans" font-size="11" font-weight="600" fill="var(--ink)">B</text>
+        </svg></div>
+        <div class="choices"><div class="choice">A&nbsp;5</div><div class="choice correct">B&nbsp;7</div><div class="choice">C&nbsp;10</div><div class="choice">D&nbsp;12</div></div>
+        <div class="why"><b>Why:</b> Manhattan distance = |&Delta;x|+|&Delta;y| = 4+3 = 7.</div></div>
+      <div class="card"><div class="card-num">p.188 &middot; Problem 9</div><div class="q-text">Point K is translated 2 units down and 3 right, ending at (&minus;6,1). What were its starting coordinates?</div>
+        <div class="choices"><div class="choice">A&nbsp;(&minus;3,&minus;1)</div><div class="choice">B&nbsp;(&minus;4,&minus;4)</div><div class="choice correct">C&nbsp;(&minus;9,3)</div><div class="choice">D&nbsp;(&minus;9,&minus;1)</div></div>
+        <div class="why"><b>Why:</b> reverse: (&minus;6&minus;3, 1+2)=(&minus;9,3).</div></div>
+      <div class="card"><div class="card-num">p.188 &middot; Problem 10</div><div class="q-text">The grid shows three vertices of a rectangle. Which could be the fourth coordinate?</div>
+        <div class="choices"><div class="choice">A&nbsp;(2,4)</div><div class="choice">B&nbsp;(5,2)</div><div class="choice">C&nbsp;(4,3)</div><div class="choice correct">D&nbsp;(4,2)</div></div>
+        <div class="why"><b>Why:</b> closes the rectangle at x=4, y=2.</div></div>
+    </div>
+  </section>
+
+  <section class="topic" id="p189">
+    <div class="topic-head"><h2>Coordinate Geometry &middot; Practice Set 2</h2><span class="page-tag">pages 189&ndash;190</span></div>
+    <div class="cards">
+      <div class="card"><div class="card-num">Problem 1</div><div class="q-text">What are the coordinates of point C below?</div>
+        <div class="diagram"><svg viewBox="0 0 140 140" width="140" height="140">
+          <g stroke="var(--border)" stroke-width="0.5">
+            <line x1="10" y1="10" x2="10" y2="130"/><line x1="20" y1="10" x2="20" y2="130"/><line x1="30" y1="10" x2="30" y2="130"/><line x1="40" y1="10" x2="40" y2="130"/><line x1="50" y1="10" x2="50" y2="130"/><line x1="60" y1="10" x2="60" y2="130"/><line x1="70" y1="10" x2="70" y2="130"/><line x1="80" y1="10" x2="80" y2="130"/><line x1="90" y1="10" x2="90" y2="130"/><line x1="100" y1="10" x2="100" y2="130"/><line x1="110" y1="10" x2="110" y2="130"/><line x1="120" y1="10" x2="120" y2="130"/><line x1="130" y1="10" x2="130" y2="130"/>
+            <line x1="10" y1="10" x2="130" y2="10"/><line x1="10" y1="20" x2="130" y2="20"/><line x1="10" y1="30" x2="130" y2="30"/><line x1="10" y1="40" x2="130" y2="40"/><line x1="10" y1="50" x2="130" y2="50"/><line x1="10" y1="60" x2="130" y2="60"/><line x1="10" y1="70" x2="130" y2="70"/><line x1="10" y1="80" x2="130" y2="80"/><line x1="10" y1="90" x2="130" y2="90"/><line x1="10" y1="100" x2="130" y2="100"/><line x1="10" y1="110" x2="130" y2="110"/><line x1="10" y1="120" x2="130" y2="120"/><line x1="10" y1="130" x2="130" y2="130"/>
+          </g>
+          <line x1="10" y1="70" x2="130" y2="70" stroke="currentColor" style="color:var(--ink-muted)"/><line x1="70" y1="10" x2="70" y2="130" stroke="currentColor" style="color:var(--ink-muted)"/>
+          <circle cx="90" cy="100" r="3" fill="var(--ink)"/><text x="96" y="112" font-family="Public Sans" font-size="11" font-weight="600" fill="var(--ink)">C</text></svg></div>
+        <div class="choices"><div class="choice">A&nbsp;(&minus;3,2)</div><div class="choice">B&nbsp;(2,3)</div><div class="choice correct">C&nbsp;(2,&minus;3)</div><div class="choice">D&nbsp;(&minus;3,&minus;2)</div></div>
+        <div class="why"><b>Why:</b> read directly off the grid: 2 right, 3 down.</div></div>
+      <div class="card"><div class="card-num">Problem 2</div><div class="q-text">Point E has coordinates (5,8). Translated 3 down, 2 right. New coordinates?</div>
+        <div class="choices"><div class="choice correct">A&nbsp;(7,5)</div><div class="choice">B&nbsp;(2,10)</div><div class="choice">C&nbsp;(3,5)</div><div class="choice">D&nbsp;(7,11)</div></div>
+        <div class="why"><b>Why:</b> (5+2, 8&minus;3) = (7,5).</div></div>
+      <div class="card"><div class="card-num">Problem 3</div><div class="q-text">Point B has coordinates (5,&minus;7). Reflected over the x-axis, what are the new coordinates?</div>
+        <div class="choices"><div class="choice correct">A&nbsp;(5,7)</div><div class="choice">B&nbsp;(&minus;7,5)</div><div class="choice">C&nbsp;(&minus;5,&minus;7)</div><div class="choice">D&nbsp;(&minus;5,7)</div></div>
+        <div class="why"><b>Why:</b> reflecting over the x-axis negates y.</div></div>
+      <div class="card"><div class="card-num">Problem 4</div><div class="q-text">Use the grid below. Which point has coordinates (3,&minus;3)?</div>
+        <div class="diagram"><svg viewBox="0 0 140 140" width="140" height="140">
+          <g stroke="var(--border)" stroke-width="0.5">
+            <line x1="10" y1="10" x2="10" y2="130"/><line x1="20" y1="10" x2="20" y2="130"/><line x1="30" y1="10" x2="30" y2="130"/><line x1="40" y1="10" x2="40" y2="130"/><line x1="50" y1="10" x2="50" y2="130"/><line x1="60" y1="10" x2="60" y2="130"/><line x1="70" y1="10" x2="70" y2="130"/><line x1="80" y1="10" x2="80" y2="130"/><line x1="90" y1="10" x2="90" y2="130"/><line x1="100" y1="10" x2="100" y2="130"/><line x1="110" y1="10" x2="110" y2="130"/><line x1="120" y1="10" x2="120" y2="130"/><line x1="130" y1="10" x2="130" y2="130"/>
+            <line x1="10" y1="10" x2="130" y2="10"/><line x1="10" y1="20" x2="130" y2="20"/><line x1="10" y1="30" x2="130" y2="30"/><line x1="10" y1="40" x2="130" y2="40"/><line x1="10" y1="50" x2="130" y2="50"/><line x1="10" y1="60" x2="130" y2="60"/><line x1="10" y1="70" x2="130" y2="70"/><line x1="10" y1="80" x2="130" y2="80"/><line x1="10" y1="90" x2="130" y2="90"/><line x1="10" y1="100" x2="130" y2="100"/><line x1="10" y1="110" x2="130" y2="110"/><line x1="10" y1="120" x2="130" y2="120"/><line x1="10" y1="130" x2="130" y2="130"/>
+          </g>
+          <line x1="10" y1="70" x2="130" y2="70" stroke="currentColor" style="color:var(--ink-muted)"/><line x1="70" y1="10" x2="70" y2="130" stroke="currentColor" style="color:var(--ink-muted)"/>
+          <circle cx="40" cy="40" r="3" fill="var(--ink)"/><text x="28" y="34" font-family="Public Sans" font-size="11" font-weight="600" fill="var(--ink)">Q</text>
+          <circle cx="100" cy="30" r="3" fill="var(--ink)"/><text x="106" y="26" font-family="Public Sans" font-size="11" font-weight="600" fill="var(--ink)">R</text>
+          <circle cx="40" cy="100" r="3" fill="var(--ink)"/><text x="26" y="106" font-family="Public Sans" font-size="11" font-weight="600" fill="var(--ink)">T</text>
+          <circle cx="100" cy="100" r="3" fill="var(--ink)"/><text x="106" y="106" font-family="Public Sans" font-size="11" font-weight="600" fill="var(--ink)">S</text></svg></div>
+        <div class="choices"><div class="choice">A&nbsp;Point Q</div><div class="choice">B&nbsp;Point R</div><div class="choice correct">C&nbsp;Point S</div><div class="choice">D&nbsp;Point T</div></div>
+        <div class="why"><b>Why:</b> S sits at (3,&minus;3) on the grid.</div></div>
+      <div class="card"><div class="card-num">Problem 5</div><div class="q-text">Point B lies between A and C. A=(&minus;3,4). B is 5 right of A and 3 left of C. Coordinates of C?</div>
+        <div class="choices"><div class="choice">A&nbsp;(2,4)</div><div class="choice correct">B&nbsp;(5,4)</div><div class="choice">C&nbsp;(&minus;11,4)</div><div class="choice">D&nbsp;(&minus;3,12)</div></div>
+        <div class="why"><b>Why:</b> B=(2,4); C=(2+3,4)=(5,4).</div></div>
+      <div class="card"><div class="card-num">p.190 &middot; Problem 6</div><div class="q-text">What is the perimeter of a rectangle with vertices (6,1), (6,3), (&minus;1,3), (&minus;1,1)?</div>
+        <div class="choices"><div class="choice">A&nbsp;9</div><div class="choice">B&nbsp;14</div><div class="choice correct">C&nbsp;18</div><div class="choice">D&nbsp;22</div></div>
+        <div class="why"><b>Why:</b> width 7, height 2; perimeter=2(7+2)=18.</div></div>
+      <div class="card"><div class="card-num">p.190 &middot; Problem 7</div><div class="q-text">Points (&minus;1,2), (&minus;1,4), (5,0) form a triangle. Which term best describes it?</div>
+        <div class="choices"><div class="choice">A&nbsp;acute</div><div class="choice">B&nbsp;right</div><div class="choice">C&nbsp;equilateral</div><div class="choice correct">D&nbsp;obtuse</div></div>
+        <div class="why"><b>Why:</b> the angle at (&minus;1,2) is about 108&deg;.</div></div>
+      <div class="card"><div class="card-num">p.190 &middot; Problem 8</div><div class="q-text">The grid shows three vertices of a trapezoid. Which could be the fourth coordinate?</div>
+        <div class="diagram"><svg viewBox="0 0 140 140" width="140" height="140">
+          <g stroke="var(--border)" stroke-width="0.5">
+            <line x1="10" y1="10" x2="10" y2="130"/><line x1="20" y1="10" x2="20" y2="130"/><line x1="30" y1="10" x2="30" y2="130"/><line x1="40" y1="10" x2="40" y2="130"/><line x1="50" y1="10" x2="50" y2="130"/><line x1="60" y1="10" x2="60" y2="130"/><line x1="70" y1="10" x2="70" y2="130"/><line x1="80" y1="10" x2="80" y2="130"/><line x1="90" y1="10" x2="90" y2="130"/><line x1="100" y1="10" x2="100" y2="130"/><line x1="110" y1="10" x2="110" y2="130"/><line x1="120" y1="10" x2="120" y2="130"/><line x1="130" y1="10" x2="130" y2="130"/>
+            <line x1="10" y1="10" x2="130" y2="10"/><line x1="10" y1="20" x2="130" y2="20"/><line x1="10" y1="30" x2="130" y2="30"/><line x1="10" y1="40" x2="130" y2="40"/><line x1="10" y1="50" x2="130" y2="50"/><line x1="10" y1="60" x2="130" y2="60"/><line x1="10" y1="70" x2="130" y2="70"/><line x1="10" y1="80" x2="130" y2="80"/><line x1="10" y1="90" x2="130" y2="90"/><line x1="10" y1="100" x2="130" y2="100"/><line x1="10" y1="110" x2="130" y2="110"/><line x1="10" y1="120" x2="130" y2="120"/><line x1="10" y1="130" x2="130" y2="130"/>
+          </g>
+          <line x1="10" y1="70" x2="130" y2="70" stroke="currentColor" style="color:var(--ink-muted)"/><line x1="70" y1="10" x2="70" y2="130" stroke="currentColor" style="color:var(--ink-muted)"/>
+          <circle cx="40" cy="40" r="3" fill="var(--ink)"/><text x="16" y="34" font-family="Public Sans" font-size="10" fill="var(--ink)">(&minus;3,3)</text>
+          <circle cx="50" cy="100" r="3" fill="var(--ink)"/><text x="14" y="112" font-family="Public Sans" font-size="10" fill="var(--ink)">(&minus;2,&minus;3)</text>
+          <circle cx="90" cy="100" r="3" fill="var(--ink)"/><text x="94" y="112" font-family="Public Sans" font-size="10" fill="var(--ink)">(2,&minus;3)</text></svg></div>
+        <div class="choices"><div class="choice">A&nbsp;(2,2)</div><div class="choice correct">B&nbsp;(4,3)</div><div class="choice">C&nbsp;(3,4)</div><div class="choice">D&nbsp;(5,0)</div></div>
+        <div class="why"><b>Why:</b> a y=3 vertex at x=4 makes a second parallel side.</div></div>
+      <div class="card"><div class="card-num">p.190 &middot; Problem 9</div><div class="q-text">Points (3,&minus;2), (&minus;3,&minus;2), (&minus;1,2), (5,2) form a quadrilateral. Which term best describes it?</div>
+        <div class="choices"><div class="choice">A&nbsp;square</div><div class="choice">B&nbsp;kite</div><div class="choice">C&nbsp;rectangle</div><div class="choice correct">D&nbsp;parallelogram</div></div>
+        <div class="why"><b>Why:</b> both pairs of opposite sides are parallel and equal.</div></div>
+      <div class="card"><div class="card-num">p.190 &middot; Problem 10</div><div class="q-text">Katrina walks from X to Z, moving only left/right/up/down. Shortest distance?</div>
+        <div class="diagram"><svg viewBox="0 0 140 140" width="140" height="140">
+          <g stroke="var(--border)" stroke-width="0.5">
+            <line x1="10" y1="10" x2="10" y2="130"/><line x1="20" y1="10" x2="20" y2="130"/><line x1="30" y1="10" x2="30" y2="130"/><line x1="40" y1="10" x2="40" y2="130"/><line x1="50" y1="10" x2="50" y2="130"/><line x1="60" y1="10" x2="60" y2="130"/><line x1="70" y1="10" x2="70" y2="130"/><line x1="80" y1="10" x2="80" y2="130"/><line x1="90" y1="10" x2="90" y2="130"/><line x1="100" y1="10" x2="100" y2="130"/><line x1="110" y1="10" x2="110" y2="130"/><line x1="120" y1="10" x2="120" y2="130"/><line x1="130" y1="10" x2="130" y2="130"/>
+            <line x1="10" y1="10" x2="130" y2="10"/><line x1="10" y1="20" x2="130" y2="20"/><line x1="10" y1="30" x2="130" y2="30"/><line x1="10" y1="40" x2="130" y2="40"/><line x1="10" y1="50" x2="130" y2="50"/><line x1="10" y1="60" x2="130" y2="60"/><line x1="10" y1="70" x2="130" y2="70"/><line x1="10" y1="80" x2="130" y2="80"/><line x1="10" y1="90" x2="130" y2="90"/><line x1="10" y1="100" x2="130" y2="100"/><line x1="10" y1="110" x2="130" y2="110"/><line x1="10" y1="120" x2="130" y2="120"/><line x1="10" y1="130" x2="130" y2="130"/>
+          </g>
+          <line x1="10" y1="70" x2="130" y2="70" stroke="currentColor" style="color:var(--ink-muted)"/><line x1="70" y1="10" x2="70" y2="130" stroke="currentColor" style="color:var(--ink-muted)"/>
+          <circle cx="40" cy="30" r="3" fill="var(--ink)"/><text x="26" y="24" font-family="Public Sans" font-size="11" font-weight="600" fill="var(--ink)">Z</text>
+          <circle cx="110" cy="50" r="3" fill="var(--ink)"/><text x="116" y="46" font-family="Public Sans" font-size="11" font-weight="600" fill="var(--ink)">Y</text>
+          <circle cx="100" cy="110" r="3" fill="var(--ink)"/><text x="106" y="122" font-family="Public Sans" font-size="11" font-weight="600" fill="var(--ink)">X</text></svg></div>
+        <div class="choices"><div class="choice">A&nbsp;7</div><div class="choice">B&nbsp;10</div><div class="choice correct">C&nbsp;14</div><div class="choice">D&nbsp;16</div></div>
+        <div class="why"><b>Why:</b> |3&minus;(&minus;3)|+|&minus;4&minus;4| = 6+8 = 14.</div></div>
+    </div>
+  </section>
+
+  <section class="topic" id="p191">
+    <div class="topic-head"><h2>Volume, Surface Area, and 3D Shapes &middot; Practice Set 1</h2><span class="page-tag">pages 191&ndash;192</span></div>
+    <div class="cards">
+      <div class="card"><div class="card-num">Problem 1</div><div class="q-text">What is the volume of a cube with side length 3 in?</div>
+        <div class="choices"><div class="choice">A&nbsp;9 in&sup3;</div><div class="choice correct">B&nbsp;27 in&sup3;</div><div class="choice">C&nbsp;54 in&sup3;</div><div class="choice">D&nbsp;81 in&sup3;</div></div>
+        <div class="why"><b>Why:</b> 3&sup3;=27.</div></div>
+      <div class="card"><div class="card-num">Problem 2</div><div class="q-text">A cube has volume 8 cubic feet. What is its surface area?</div>
+        <div class="choices"><div class="choice">A&nbsp;2 ft&sup2;</div><div class="choice">B&nbsp;12 ft&sup2;</div><div class="choice correct">C&nbsp;24 ft&sup2;</div><div class="choice">D&nbsp;64 ft&sup2;</div></div>
+        <div class="why"><b>Why:</b> side=2; SA=6&times;4=24.</div></div>
+      <div class="card"><div class="card-num">Problem 3</div><div class="q-text">What is the surface area of a rectangular prism measuring 4 &times; 7 &times; 1 in?</div>
+        <div class="choices"><div class="choice">A&nbsp;28 in&sup2;</div><div class="choice">B&nbsp;39 in&sup2;</div><div class="choice">C&nbsp;68 in&sup2;</div><div class="choice correct">D&nbsp;78 in&sup2;</div></div>
+        <div class="why"><b>Why:</b> 2(28+4+7)=78.</div></div>
+      <div class="card"><div class="card-num">Problem 4</div><div class="q-text">The net below will form which shape?</div>
+        <div class="diagram"><svg viewBox="0 0 60 130" width="60" height="130"><ellipse cx="30" cy="15" rx="22" ry="8" fill="none" stroke="currentColor" style="color:var(--ink-muted)"/><rect x="8" y="15" width="44" height="100" fill="none" stroke="currentColor" style="color:var(--ink-muted)"/><ellipse cx="30" cy="115" rx="22" ry="8" fill="none" stroke="currentColor" style="color:var(--ink-muted)"/></svg></div>
+        <div class="choices"><div class="choice correct">A&nbsp;cylinder</div><div class="choice">B&nbsp;cone</div><div class="choice">C&nbsp;cube</div><div class="choice">D&nbsp;sphere</div></div>
+        <div class="why"><b>Why:</b> two circles + a wrap-around rectangle = a cylinder net.</div></div>
+      <div class="card"><div class="card-num">Problem 5</div><div class="q-text">What is the volume of the rectangular prism shown below?</div>
+        <div class="diagram"><svg viewBox="0 0 150 100" width="150" height="100"><polygon points="30,70 86,70 86,46 30,46" fill="none" stroke="currentColor" style="color:var(--ink-muted)"/><polygon points="30,46 86,46 100,36 44,36" fill="none" stroke="currentColor" style="color:var(--ink-muted)"/><polygon points="86,70 100,60 100,36 86,46" fill="none" stroke="currentColor" style="color:var(--ink-muted)"/><text x="58" y="84" text-anchor="middle" font-family="JetBrains Mono" font-size="11" fill="var(--ink)">7 cm</text><text x="6" y="60" font-family="JetBrains Mono" font-size="10" fill="var(--ink)">3 cm</text><text x="104" y="55" font-family="JetBrains Mono" font-size="10" fill="var(--ink)">2 cm</text></svg></div>
+        <div class="choices"><div class="choice">A&nbsp;12 cm&sup3;</div><div class="choice">B&nbsp;35 cm&sup3;</div><div class="choice correct">C&nbsp;42 cm&sup3;</div><div class="choice">D&nbsp;82 cm&sup3;</div></div>
+        <div class="why"><b>Why:</b> 7&times;2&times;3=42.</div></div>
+      <div class="card"><div class="card-num">Problem 6</div><div class="q-text">What shape is shown below?</div>
+        <div class="diagram"><svg viewBox="0 0 100 90" width="100" height="90">
+          <polygon points="50,10 15,75 75,75" fill="none" stroke="currentColor" style="color:var(--ink-muted)"/>
+          <line x1="50" y1="10" x2="92" y2="58" stroke="currentColor" style="color:var(--ink-muted)"/>
+          <line x1="75" y1="75" x2="92" y2="58" stroke="currentColor" style="color:var(--ink-muted)"/></svg></div>
+        <div class="choices"><div class="choice correct">A&nbsp;pyramid</div><div class="choice">B&nbsp;cylinder</div><div class="choice">C&nbsp;cone</div><div class="choice">D&nbsp;prism</div></div>
+        <div class="why"><b>Why:</b> triangular faces meeting at one apex.</div></div>
+      <div class="card"><div class="card-num">Problem 7</div><div class="q-text">The volume of the small shaded cube is 4 ft&sup3;. What is the volume of the larger cube?</div>
+        <div class="diagram"><svg viewBox="0 0 200 200" width="200" height="200">
+          <g fill="none" stroke="currentColor" stroke-width="1.5" style="color:var(--ink-muted)">
+            <path d="M100,10 L30,50 L100,90 L170,50 Z"/><path d="M30,50 L100,90 L100,190 L30,150 Z"/><path d="M100,90 L170,50 L170,150 L100,190 Z"/></g>
+          <g stroke="currentColor" stroke-width="0.8" style="color:var(--ink-faint)">
+            <line x1="100" y1="123.3" x2="93" y2="119.5"/><line x1="100" y1="156.7" x2="93" y2="152.9"/>
+            <line x1="53.3" y1="163.3" x2="53.3" y2="155.3"/><line x1="76.7" y1="176.7" x2="76.7" y2="168.7"/>
+            <line x1="123.3" y1="176.7" x2="123.3" y2="168.7"/><line x1="146.7" y1="163.3" x2="146.7" y2="155.3"/></g>
+          <path d="M30,50 L53.3,36.7 L76.7,50 L53.3,63.3 Z" fill="var(--accent)" fill-opacity="0.55" stroke="currentColor" stroke-width="1.3" style="color:var(--ink)"/>
+          <path d="M30,50 L53.3,63.3 L53.3,96.7 L30,83.3 Z" fill="var(--accent)" fill-opacity="0.4" stroke="currentColor" stroke-width="1.3" style="color:var(--ink)"/></svg></div>
+        <div class="choices"><div class="choice">A&nbsp;27 ft&sup3;</div><div class="choice">B&nbsp;36 ft&sup3;</div><div class="choice correct">C&nbsp;108 ft&sup3;</div><div class="choice">D&nbsp;216 ft&sup3;</div></div>
+        <div class="why"><b>Why:</b> 27 unit cubes (3&times;3&times;3) &times; 4 = 108.</div></div>
+      <div class="card"><div class="card-num">p.192 &middot; Problem 8</div><div class="q-text">A rectangular prism is built from unit cubes (1.5 cm&sup3; each), 4 wide &times; 3 deep &times; 2 tall. Total volume?</div>
+        <div class="choices"><div class="choice">A&nbsp;24 cm&sup3;</div><div class="choice">B&nbsp;32 cm&sup3;</div><div class="choice correct">C&nbsp;36 cm&sup3;</div><div class="choice">D&nbsp;16 cm&sup3;</div></div>
+        <div class="why"><b>Why:</b> 4&times;3&times;2=24 cubes &times; 1.5 = 36.</div></div>
+      <div class="card"><div class="card-num">p.192 &middot; Problem 9</div><div class="q-text">The volume of the larger cube shown is 54 in&sup3;. What is the volume of the small shaded cube?</div>
+        <div class="diagram"><svg viewBox="0 0 200 200" width="200" height="200">
+          <g fill="none" stroke="currentColor" stroke-width="1.5" style="color:var(--ink-muted)">
+            <path d="M100,10 L30,50 L100,90 L170,50 Z"/><path d="M30,50 L100,90 L100,190 L30,150 Z"/><path d="M100,90 L170,50 L170,150 L100,190 Z"/></g>
+          <g stroke="currentColor" stroke-width="0.8" style="color:var(--ink-faint)">
+            <line x1="100" y1="123.3" x2="93" y2="119.5"/><line x1="100" y1="156.7" x2="93" y2="152.9"/>
+            <line x1="53.3" y1="163.3" x2="53.3" y2="155.3"/><line x1="76.7" y1="176.7" x2="76.7" y2="168.7"/>
+            <line x1="123.3" y1="176.7" x2="123.3" y2="168.7"/><line x1="146.7" y1="163.3" x2="146.7" y2="155.3"/></g>
+          <path d="M30,50 L53.3,36.7 L76.7,50 L53.3,63.3 Z" fill="var(--accent)" fill-opacity="0.55" stroke="currentColor" stroke-width="1.3" style="color:var(--ink)"/>
+          <path d="M30,50 L53.3,63.3 L53.3,96.7 L30,83.3 Z" fill="var(--accent)" fill-opacity="0.4" stroke="currentColor" stroke-width="1.3" style="color:var(--ink)"/></svg></div>
+        <div class="choices"><div class="choice">A&nbsp;1 in&sup3;</div><div class="choice correct">B&nbsp;2 in&sup3;</div><div class="choice">C&nbsp;3 in&sup3;</div><div class="choice">D&nbsp;9 in&sup3;</div></div>
+        <div class="why"><b>Why:</b> 54 &divide; 27 unit cubes = 2.</div></div>
+      <div class="card"><div class="card-num">p.192 &middot; Problem 10</div><div class="q-text">A 15in&times;8in cardboard has 2in&times;2in squares cut from each corner, then folds into a box with no top. Volume?</div>
+        <div class="diagram"><svg viewBox="0 0 170 100" width="170" height="100">
+          <rect x="10" y="10" width="150" height="80" fill="none" stroke="currentColor" style="color:var(--ink-muted)"/>
+          <rect x="10" y="10" width="16" height="16" fill="none" stroke-dasharray="3,2" stroke="var(--ink-faint)"/><rect x="144" y="10" width="16" height="16" fill="none" stroke-dasharray="3,2" stroke="var(--ink-faint)"/>
+          <rect x="10" y="74" width="16" height="16" fill="none" stroke-dasharray="3,2" stroke="var(--ink-faint)"/><rect x="144" y="74" width="16" height="16" fill="none" stroke-dasharray="3,2" stroke="var(--ink-faint)"/>
+          <text x="85" y="97" text-anchor="middle" font-family="JetBrains Mono" font-size="10" fill="var(--ink)">15 in</text>
+          <text x="4" y="55" font-family="JetBrains Mono" font-size="10" fill="var(--ink)">8</text></svg></div>
+        <div class="choices"><div class="choice correct">A&nbsp;88 in&sup3;</div><div class="choice">B&nbsp;120 in&sup3;</div><div class="choice">C&nbsp;156 in&sup3;</div><div class="choice">D&nbsp;240 in&sup3;</div></div>
+        <div class="why"><b>Why:</b> new dims 11&times;4&times;2; volume=88.</div></div>
+    </div>
+  </section>
+
+  <section class="topic" id="p193">
+    <div class="topic-head"><h2>Volume, Surface Area, and 3D Shapes &middot; Practice Set 2</h2><span class="page-tag">pages 193&ndash;194</span></div>
+    <div class="cards">
+      <div class="card"><div class="card-num">Problem 1</div><div class="q-text">What is the surface area of a cube with side length 4 in?</div>
+        <div class="choices"><div class="choice">A&nbsp;24 in&sup2;</div><div class="choice">B&nbsp;64 in&sup2;</div><div class="choice correct">C&nbsp;96 in&sup2;</div><div class="choice">D&nbsp;144 in&sup2;</div></div>
+        <div class="why"><b>Why:</b> 6&times;16=96.</div></div>
+      <div class="card"><div class="card-num">Problem 2</div><div class="q-text">A cube has surface area 54 cm&sup2;. What is its volume?</div>
+        <div class="choices"><div class="choice">A&nbsp;9 cm&sup3;</div><div class="choice correct">B&nbsp;27 cm&sup3;</div><div class="choice">C&nbsp;81 cm&sup3;</div><div class="choice">D&nbsp;6,561 cm&sup3;</div></div>
+        <div class="why"><b>Why:</b> side=3; volume=27.</div></div>
+      <div class="card"><div class="card-num">Problem 3</div><div class="q-text">What is the volume of a rectangular prism 5km &times; 3km &times; 6km?</div>
+        <div class="choices"><div class="choice">A&nbsp;48 km&sup3;</div><div class="choice">B&nbsp;75 km&sup3;</div><div class="choice correct">C&nbsp;90 km&sup3;</div><div class="choice">D&nbsp;180 km&sup3;</div></div>
+        <div class="why"><b>Why:</b> 5&times;3&times;6=90.</div></div>
+      <div class="card"><div class="card-num">Problem 4</div><div class="q-text">What shape is shown below?</div>
+        <div class="diagram"><svg viewBox="0 0 60 90" width="60" height="90"><ellipse cx="30" cy="15" rx="22" ry="8" fill="none" stroke="currentColor" style="color:var(--ink-muted)"/><line x1="8" y1="15" x2="8" y2="75" stroke="currentColor" style="color:var(--ink-muted)"/><line x1="52" y1="15" x2="52" y2="75" stroke="currentColor" style="color:var(--ink-muted)"/><path d="M8,75 A22,8 0 0 0 52,75" fill="none" stroke="currentColor" style="color:var(--ink-muted)"/></svg></div>
+        <div class="choices"><div class="choice correct">A&nbsp;cylinder</div><div class="choice">B&nbsp;cone</div><div class="choice">C&nbsp;oval</div><div class="choice">D&nbsp;sphere</div></div>
+        <div class="why"><b>Why:</b> two parallel circular ends, curved side.</div></div>
+      <div class="card"><div class="card-num">Problem 5</div><div class="q-text">What is the surface area of the rectangular prism shown below?</div>
+        <div class="diagram"><svg viewBox="0 0 150 100" width="150" height="100"><polygon points="30,70 86,70 86,46 30,46" fill="none" stroke="currentColor" style="color:var(--ink-muted)"/><polygon points="30,46 86,46 100,36 44,36" fill="none" stroke="currentColor" style="color:var(--ink-muted)"/><polygon points="86,70 100,60 100,36 86,46" fill="none" stroke="currentColor" style="color:var(--ink-muted)"/><text x="58" y="84" text-anchor="middle" font-family="JetBrains Mono" font-size="11" fill="var(--ink)">8 cm</text><text x="6" y="60" font-family="JetBrains Mono" font-size="10" fill="var(--ink)">4 cm</text><text x="104" y="55" font-family="JetBrains Mono" font-size="10" fill="var(--ink)">4 cm</text></svg></div>
+        <div class="choices"><div class="choice">A&nbsp;64 cm&sup2;</div><div class="choice">B&nbsp;80 cm&sup2;</div><div class="choice">C&nbsp;128 cm&sup2;</div><div class="choice correct">D&nbsp;160 cm&sup2;</div></div>
+        <div class="why"><b>Why:</b> 2(32+32+16)=160.</div></div>
+      <div class="card"><div class="card-num">Problem 6</div><div class="q-text">This net will form which type of shape?</div>
+        <div class="diagram"><svg viewBox="0 0 100 90" width="100" height="90"><g fill="none" stroke="currentColor" style="color:var(--ink-muted)">
+          <rect x="35" y="5" width="30" height="25"/><rect x="5" y="30" width="30" height="25"/><rect x="35" y="30" width="30" height="25"/><rect x="65" y="30" width="30" height="25"/><rect x="35" y="55" width="30" height="25"/></g></svg></div>
+        <div class="choices"><div class="choice correct">A&nbsp;rectangular prism</div><div class="choice">B&nbsp;pyramid</div><div class="choice">C&nbsp;rectangle</div><div class="choice">D&nbsp;triangular prism</div></div>
+        <div class="why"><b>Why:</b> a 6-square cross net folds into a box.</div></div>
+      <div class="card"><div class="card-num">Problem 7</div><div class="q-text">The volume of the small shaded cube is 2.5 ft&sup3;. What is the volume of the larger cube?</div>
+        <div class="diagram"><svg viewBox="0 0 200 200" width="200" height="200">
+          <g fill="none" stroke="currentColor" stroke-width="1.5" style="color:var(--ink-muted)">
+            <path d="M100,10 L30,50 L100,90 L170,50 Z"/><path d="M30,50 L100,90 L100,190 L30,150 Z"/><path d="M100,90 L170,50 L170,150 L100,190 Z"/></g>
+          <g stroke="currentColor" stroke-width="0.8" style="color:var(--ink-faint)">
+            <line x1="100" y1="123.3" x2="93" y2="119.5"/><line x1="100" y1="156.7" x2="93" y2="152.9"/>
+            <line x1="53.3" y1="163.3" x2="53.3" y2="155.3"/><line x1="76.7" y1="176.7" x2="76.7" y2="168.7"/>
+            <line x1="123.3" y1="176.7" x2="123.3" y2="168.7"/><line x1="146.7" y1="163.3" x2="146.7" y2="155.3"/></g>
+          <path d="M30,50 L53.3,36.7 L76.7,50 L53.3,63.3 Z" fill="var(--accent)" fill-opacity="0.55" stroke="currentColor" stroke-width="1.3" style="color:var(--ink)"/>
+          <path d="M30,50 L53.3,63.3 L53.3,96.7 L30,83.3 Z" fill="var(--accent)" fill-opacity="0.4" stroke="currentColor" stroke-width="1.3" style="color:var(--ink)"/></svg></div>
+        <div class="choices"><div class="choice">A&nbsp;54 ft&sup3;</div><div class="choice correct">B&nbsp;67.5 ft&sup3;</div><div class="choice">C&nbsp;77.5 ft&sup3;</div><div class="choice">D&nbsp;135 ft&sup3;</div></div>
+        <div class="why"><b>Why:</b> 27 &times; 2.5 = 67.5.</div></div>
+      <div class="card"><div class="card-num">p.194 &middot; Problem 8</div><div class="q-text">The volume of the cube below is 27 in&sup3;. What is the shaded area (two visible faces)?</div>
+        <div class="diagram"><svg viewBox="0 0 130 110" width="130" height="110">
+          <polygon points="20,90 20,30 80,30 80,90" fill="var(--accent)" fill-opacity="0.4" stroke="currentColor" style="color:var(--ink-muted)"/>
+          <polygon points="20,30 45,10 105,10 80,30" fill="none" stroke="currentColor" style="color:var(--ink-muted)"/>
+          <polygon points="80,30 105,10 105,70 80,90" fill="var(--accent)" fill-opacity="0.4" stroke="currentColor" style="color:var(--ink-muted)"/></svg></div>
+        <div class="choices"><div class="choice">A&nbsp;9 in&sup2;</div><div class="choice">B&nbsp;12 in&sup2;</div><div class="choice correct">C&nbsp;18 in&sup2;</div><div class="choice">D&nbsp;162 in&sup2;</div></div>
+        <div class="why"><b>Why:</b> side=3; two faces shaded, 2&times;9=18.</div></div>
+      <div class="card"><div class="card-num">p.194 &middot; Problem 9</div><div class="q-text">A small cube has base area 4 cm&sup2;. A larger cube has side 4 cm. How many small cubes fit inside?</div>
+        <div class="choices"><div class="choice">A&nbsp;2</div><div class="choice">B&nbsp;4</div><div class="choice correct">C&nbsp;8</div><div class="choice">D&nbsp;16</div></div>
+        <div class="why"><b>Why:</b> small cube side=2; (4/2)&sup3;=8.</div></div>
+      <div class="card"><div class="card-num">p.194 &middot; Problem 10</div><div class="q-text">The surface area of the larger cube shown is 54 in&sup2;. What is the surface area of the small shaded cube?</div>
+        <div class="diagram"><svg viewBox="0 0 200 200" width="200" height="200">
+          <g fill="none" stroke="currentColor" stroke-width="1.5" style="color:var(--ink-muted)">
+            <path d="M100,10 L30,50 L100,90 L170,50 Z"/><path d="M30,50 L100,90 L100,190 L30,150 Z"/><path d="M100,90 L170,50 L170,150 L100,190 Z"/></g>
+          <g stroke="currentColor" stroke-width="0.8" style="color:var(--ink-faint)">
+            <line x1="100" y1="123.3" x2="93" y2="119.5"/><line x1="100" y1="156.7" x2="93" y2="152.9"/>
+            <line x1="53.3" y1="163.3" x2="53.3" y2="155.3"/><line x1="76.7" y1="176.7" x2="76.7" y2="168.7"/>
+            <line x1="123.3" y1="176.7" x2="123.3" y2="168.7"/><line x1="146.7" y1="163.3" x2="146.7" y2="155.3"/></g>
+          <path d="M30,50 L53.3,36.7 L76.7,50 L53.3,63.3 Z" fill="var(--accent)" fill-opacity="0.55" stroke="currentColor" stroke-width="1.3" style="color:var(--ink)"/>
+          <path d="M30,50 L53.3,63.3 L53.3,96.7 L30,83.3 Z" fill="var(--accent)" fill-opacity="0.4" stroke="currentColor" stroke-width="1.3" style="color:var(--ink)"/></svg></div>
+        <div class="choices"><div class="choice">A&nbsp;2 in&sup2;</div><div class="choice correct">B&nbsp;6 in&sup2;</div><div class="choice">C&nbsp;9 in&sup2;</div><div class="choice">D&nbsp;12 in&sup2;</div></div>
+        <div class="why"><b>Why:</b> large cube side=3; unit cube side=1; SA=6.</div></div>
+    </div>
+  </section>
+
+  </div>
+
+  <footer>
+    Recreated from a photographed practice book (Elevate Prep &middot; ISEE Math Multiple Choice) for reference. Every problem was independently re-solved; a handful of hand-drawn charts and grids are marked as estimates where exact pixel measurement wasn't possible from the photo.
+  </footer>
+</div>

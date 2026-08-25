@@ -1,0 +1,1130 @@
+<title>Hannah's Rework Worksheet</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Petrona:ital,wght@0,500;0,600;0,700;1,500&family=Public+Sans:ital,wght@0,400;0,500;0,600;1,400&family=JetBrains+Mono:wght@400;500;600&display=swap">
+<style>
+  :root{
+    --bg:#EEF2F0;
+    --grid-line: rgba(30,42,40,0.055);
+    --surface:#FFFFFF;
+    --surface-alt:#E7EDEA;
+    --ink:#1E2A28;
+    --ink-muted:#57655F;
+    --ink-faint:#8B968F;
+    --border:#D6DFDA;
+    --accent:#1C7A69;
+    --accent-ink:#0F5648;
+    --accent-soft:#E1F2EC;
+    --wrong:#B9402E;
+    --wrong-soft:#FBEAE6;
+    --amber:#9A6B12;
+    --shadow: 0 1px 2px rgba(20,30,28,0.04), 0 8px 24px -12px rgba(20,30,28,0.12);
+  }
+  @media (prefers-color-scheme: dark){
+    :root:not([data-theme="light"]){
+      --bg:#12181A;
+      --grid-line: rgba(210,225,220,0.045);
+      --surface:#1B2224;
+      --surface-alt:#212A2C;
+      --ink:#E8EFEC;
+      --ink-muted:#9FB0AA;
+      --ink-faint:#6C7C77;
+      --border:#2C3739;
+      --accent:#4FC4AC;
+      --accent-ink:#8FE0CC;
+      --accent-soft:rgba(79,196,172,0.14);
+      --wrong:#E77563;
+      --wrong-soft:rgba(231,117,99,0.14);
+      --amber:#E0AC4E;
+      --shadow: 0 1px 2px rgba(0,0,0,0.3), 0 8px 24px -12px rgba(0,0,0,0.5);
+    }
+  }
+  :root[data-theme="dark"]{
+    --bg:#12181A;
+    --grid-line: rgba(210,225,220,0.045);
+    --surface:#1B2224;
+    --surface-alt:#212A2C;
+    --ink:#E8EFEC;
+    --ink-muted:#9FB0AA;
+    --ink-faint:#6C7C77;
+    --border:#2C3739;
+    --accent:#4FC4AC;
+    --accent-ink:#8FE0CC;
+    --accent-soft:rgba(79,196,172,0.14);
+    --wrong:#E77563;
+    --wrong-soft:rgba(231,117,99,0.14);
+    --amber:#E0AC4E;
+    --shadow: 0 1px 2px rgba(0,0,0,0.3), 0 8px 24px -12px rgba(0,0,0,0.5);
+  }
+
+  *{box-sizing:border-box;}
+  html{-webkit-text-size-adjust:100%;}
+  body{
+    margin:0;
+    background:
+      linear-gradient(var(--grid-line) 1px, transparent 1px) 0 0/ 28px 28px,
+      linear-gradient(90deg, var(--grid-line) 1px, transparent 1px) 0 0/ 28px 28px,
+      var(--bg);
+    color:var(--ink);
+    font-family:"Public Sans", ui-sans-serif, system-ui, sans-serif;
+    line-height:1.5;
+    -webkit-font-smoothing:antialiased;
+  }
+  a{color:var(--accent-ink);}
+  ::selection{ background: var(--accent-soft); }
+
+  .wrap{ max-width: 980px; margin: 0 auto; padding: 0 20px 96px; }
+
+  /* ---------- Header ---------- */
+  header.hero{
+    padding: 56px 0 36px;
+    border-bottom: 1px solid var(--border);
+    margin-bottom: 40px;
+  }
+  .eyebrow{
+    font-family:"JetBrains Mono", ui-monospace, monospace;
+    font-size:0.72rem;
+    letter-spacing:0.11em;
+    text-transform:uppercase;
+    color:var(--accent-ink);
+    display:flex;
+    align-items:center;
+    gap:10px;
+    margin-bottom:14px;
+  }
+  .eyebrow::before{
+    content:"";
+    width:7px; height:7px;
+    background:var(--accent);
+    border-radius:50%;
+    display:inline-block;
+    box-shadow: 0 0 0 3px var(--accent-soft);
+  }
+  h1{
+    font-family:"Petrona", Georgia, serif;
+    font-weight:700;
+    font-size: clamp(2rem, 4.4vw, 2.75rem);
+    line-height:1.08;
+    margin:0 0 14px;
+    text-wrap:balance;
+    letter-spacing:-0.01em;
+  }
+  .hero p.lede{
+    max-width:64ch;
+    color:var(--ink-muted);
+    font-size:1.03rem;
+    margin: 0 0 28px;
+  }
+  .stat-row{
+    display:flex;
+    flex-wrap:wrap;
+    align-items:center;
+    gap:14px;
+  }
+  .stat{
+    background:var(--surface);
+    border:1px solid var(--border);
+    border-radius:10px;
+    padding:12px 18px;
+    box-shadow:var(--shadow);
+    min-width:128px;
+  }
+  .stat .n{
+    font-family:"JetBrains Mono", monospace;
+    font-variant-numeric: tabular-nums;
+    font-size:1.5rem;
+    font-weight:600;
+    color:var(--ink);
+    display:block;
+  }
+  .stat .lbl{
+    font-size:0.72rem;
+    color:var(--ink-faint);
+    text-transform:uppercase;
+    letter-spacing:0.08em;
+  }
+  #progress-stat .n{ color:var(--accent-ink); }
+  .clear-btn{
+    font-family:"JetBrains Mono", monospace;
+    font-size:0.78rem;
+    color:var(--ink-muted);
+    background:var(--surface);
+    border:1px solid var(--border);
+    border-radius:999px;
+    padding:9px 16px;
+    cursor:pointer;
+    transition: border-color 0.15s, color 0.15s;
+  }
+  .clear-btn:hover{ border-color:var(--wrong); color:var(--wrong); }
+
+  .method{
+    margin-top:26px;
+    font-size:0.88rem;
+    color:var(--ink-muted);
+    border-left:2px solid var(--border);
+    padding-left:14px;
+    max-width:64ch;
+  }
+  .method strong{ color:var(--ink); font-weight:600; }
+  .method .pill{
+    display:inline-flex;
+    align-items:center;
+    font-family:"JetBrains Mono", monospace;
+    font-size:0.72rem;
+    padding:1px 7px;
+    border-radius:999px;
+    border:1px solid var(--border);
+    background:var(--surface-alt);
+    color:var(--ink-muted);
+    margin:0 2px;
+    vertical-align:middle;
+  }
+
+  /* ---------- TOC ---------- */
+  nav.toc{
+    margin: 0 0 48px;
+    background:var(--surface);
+    border:1px solid var(--border);
+    border-radius:12px;
+    padding:18px 20px;
+    box-shadow:var(--shadow);
+  }
+  nav.toc .toc-title{
+    font-family:"JetBrains Mono", monospace;
+    font-size:0.7rem;
+    letter-spacing:0.1em;
+    text-transform:uppercase;
+    color:var(--ink-faint);
+    margin-bottom:12px;
+  }
+  nav.toc ol{
+    list-style:none;
+    margin:0; padding:0;
+    display:grid;
+    grid-template-columns: repeat(auto-fill, minmax(210px,1fr));
+    gap: 6px 18px;
+  }
+  nav.toc li a{
+    display:flex;
+    justify-content:space-between;
+    gap:8px;
+    text-decoration:none;
+    color:var(--ink);
+    font-size:0.87rem;
+    padding:5px 0;
+    border-bottom:1px dashed transparent;
+  }
+  nav.toc li a:hover{ border-bottom-color:var(--border); }
+  nav.toc li a .pg{
+    font-family:"JetBrains Mono", monospace;
+    color:var(--ink-faint);
+    font-size:0.78rem;
+    flex-shrink:0;
+  }
+  nav.toc li a .count{
+    color:var(--accent-ink);
+    font-family:"JetBrains Mono", monospace;
+    font-size:0.78rem;
+  }
+
+  /* ---------- Sections ---------- */
+  section.topic{
+    margin-bottom:44px;
+    scroll-margin-top: 20px;
+  }
+  .topic-head{
+    display:flex;
+    align-items:baseline;
+    gap:12px;
+    flex-wrap:wrap;
+    margin-bottom:18px;
+    padding-bottom:10px;
+    border-bottom:1px solid var(--border);
+  }
+  .topic-head h2{
+    font-family:"Petrona", Georgia, serif;
+    font-weight:600;
+    font-size:1.36rem;
+    margin:0;
+    letter-spacing:-0.005em;
+  }
+  .topic-head .page-tag{
+    font-family:"JetBrains Mono", monospace;
+    font-size:0.75rem;
+    color:var(--ink-faint);
+    background:var(--surface-alt);
+    border:1px solid var(--border);
+    padding:2px 9px;
+    border-radius:999px;
+  }
+
+  .cards{
+    display:grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap:16px;
+  }
+
+  .card{
+    background:var(--surface);
+    border:1px solid var(--border);
+    border-radius:12px;
+    padding:18px 20px 18px;
+    box-shadow:var(--shadow);
+    display:flex;
+    flex-direction:column;
+    gap:12px;
+    transition: border-color 0.15s, box-shadow 0.15s;
+  }
+  .card.done{ border-color:var(--accent); }
+  .card-num{
+    font-family:"Petrona", Georgia, serif;
+    font-style:italic;
+    font-weight:600;
+    color:var(--ink-faint);
+    font-size:0.95rem;
+  }
+  .q-text{
+    font-size:0.96rem;
+    color:var(--ink);
+  }
+  .q-text .g{ font-family:"JetBrains Mono", monospace; font-size:0.92em; }
+
+  .choices{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    gap:7px;
+  }
+  .choice{
+    font-family:"JetBrains Mono", monospace;
+    font:inherit;
+    font-size:0.85rem;
+    padding:7px 9px;
+    border-radius:7px;
+    border:1px solid var(--border);
+    background:var(--surface-alt);
+    color:var(--ink-muted);
+    line-height:1.35;
+    text-align:left;
+    cursor:pointer;
+    display:block;
+    width:100%;
+  }
+  .choice:hover{ border-color:var(--ink-faint); }
+  .choice:focus-visible{ outline:2px solid var(--accent); outline-offset:1px; }
+  .choice .letter{ color:var(--ink-faint); margin-right:3px; }
+  .choice.selected{
+    background:var(--accent-soft);
+    border-color:var(--accent);
+    color:var(--ink);
+    font-weight:600;
+  }
+  .choice.selected .letter{ color:var(--accent-ink); }
+
+  .answer-box{
+    display:flex;
+    align-items:center;
+    gap:12px;
+    border:1.5px solid var(--border);
+    border-radius:8px;
+    background:var(--surface-alt);
+    padding:6px 14px;
+    transition: border-color 0.15s;
+  }
+  .answer-box:focus-within{ border-color:var(--accent); }
+  .answer-box .ab-label{
+    font-family:"JetBrains Mono", monospace;
+    font-size:0.68rem;
+    letter-spacing:0.08em;
+    text-transform:uppercase;
+    color:var(--ink-faint);
+    flex-shrink:0;
+  }
+  .answer-box input.answer-input{
+    flex:1;
+    min-width:0;
+    border:none;
+    background:transparent;
+    font-family:"JetBrains Mono", monospace;
+    font-size:0.95rem;
+    color:var(--ink);
+    padding:6px 2px;
+    outline:none;
+  }
+  .answer-box input.answer-input::placeholder{ color:var(--ink-faint); opacity:0.7; }
+
+  .diagram{
+    background:var(--surface-alt);
+    border:1px solid var(--border);
+    border-radius:8px;
+    padding:10px;
+    display:flex;
+    justify-content:center;
+  }
+  .diagram svg{ max-width:100%; height:auto; display:block; }
+  .diagram table{
+    border-collapse:collapse;
+    font-family:"JetBrains Mono", monospace;
+    font-size:0.78rem;
+    font-variant-numeric: tabular-nums;
+  }
+  .diagram th, .diagram td{
+    border:1px solid var(--border);
+    padding:4px 9px;
+    text-align:center;
+  }
+  .diagram th{ color:var(--ink-faint); font-weight:500; background:var(--surface); }
+
+  footer{
+    margin-top:60px;
+    padding-top:22px;
+    border-top:1px solid var(--border);
+    color:var(--ink-faint);
+    font-size:0.8rem;
+  }
+
+  @media (max-width:480px){
+    .choices{ grid-template-columns: 1fr; }
+  }
+</style>
+
+<div class="wrap">
+
+  <header class="hero">
+    <div class="eyebrow">Elevate Prep &middot; ISEE Math Multiple Choice</div>
+    <h1>Rework Worksheet</h1>
+    <p class="lede">The 47 problems Hannah needs to work through on her own &mdash; everything she got wrong, plus everything flagged as "wrong at some point" even if the answer sitting there now is correct (it may have been fixed with help). No answers are shown on this page &mdash; solve each one cold.</p>
+    <div class="stat-row">
+      <div class="stat"><span class="n">47</span><span class="lbl">Problems to redo</span></div>
+      <div class="stat" id="progress-stat"><span class="n"><span id="progress-count">0</span> / 47</span><span class="lbl">Answered</span></div>
+      <button type="button" class="clear-btn" id="clear-all">Clear all answers</button>
+    </div>
+    <p class="method"><strong>How to use this:</strong> type your final answer into the <span class="pill">Answer</span> blank. A few &mdash; estimation problems, "which of these" problems, and the two number-line reads &mdash; can't be reduced to one typed-in number, so those keep four lettered options: click the one you think is right to select it. Everything you enter is saved in this browser as you go, so you can leave and come back.</p>
+    <p class="method">A handful of visual-only problems from pages 132&ndash;134 and 165&ndash;166, 190 couldn't be graded confidently from photos and aren't included, except two number-line reads that came out clean on a careful recheck. Page 187's photo is rotated in a way that separates questions from their answer choices, so it's left out too.</p>
+  </header>
+
+  <nav class="toc" aria-label="Jump to practice set">
+    <div class="toc-title">Jump to a practice set</div>
+    <ol>
+      <li><a href="#p126"><span>Percents &middot; Set 1</span><span class="pg">p.126 &middot; <span class="count">5</span></span></a></li>
+      <li><a href="#p127"><span>Percents &middot; Set 2</span><span class="pg">p.127 &middot; <span class="count">1</span></span></a></li>
+      <li><a href="#p128"><span>Estimating &middot; Set 1</span><span class="pg">p.128 &middot; <span class="count">2</span></span></a></li>
+      <li><a href="#p130"><span>Estimating &middot; Set 2</span><span class="pg">p.130 &middot; <span class="count">2</span></span></a></li>
+      <li><a href="#p131"><span>Estimating &middot; Set 2 (cont.)</span><span class="pg">p.131 &middot; <span class="count">2</span></span></a></li>
+      <li><a href="#p132"><span>Number Lines &middot; Set 1</span><span class="pg">p.132 &middot; <span class="count">1</span></span></a></li>
+      <li><a href="#p134"><span>Number Lines &middot; Set 2</span><span class="pg">p.134 &middot; <span class="count">1</span></span></a></li>
+      <li><a href="#p135"><span>Proportions &middot; Set 1</span><span class="pg">p.135 &middot; <span class="count">3</span></span></a></li>
+      <li><a href="#p136"><span>Proportions &middot; Set 2</span><span class="pg">p.136 &middot; <span class="count">3</span></span></a></li>
+      <li><a href="#p141"><span>Probability &middot; Set 1</span><span class="pg">p.141 &middot; <span class="count">2</span></span></a></li>
+      <li><a href="#p143"><span>Unit Conversions &middot; Set 1</span><span class="pg">p.143 &middot; <span class="count">3</span></span></a></li>
+      <li><a href="#p147"><span>Solving Equations &middot; Set 1</span><span class="pg">p.147 &middot; <span class="count">3</span></span></a></li>
+      <li><a href="#p150"><span>Creating Equations &middot; Set 1</span><span class="pg">p.150 &middot; <span class="count">1</span></span></a></li>
+      <li><a href="#p152"><span>Creating Equations &middot; Set 2</span><span class="pg">p.152 &middot; <span class="count">3</span></span></a></li>
+      <li><a href="#p153"><span>Creating Equations &middot; Set 2 (cont.)</span><span class="pg">p.153 &middot; <span class="count">1</span></span></a></li>
+      <li><a href="#p159"><span>Mixed Word Problems &middot; Set 1</span><span class="pg">p.159 &middot; <span class="count">1</span></span></a></li>
+      <li><a href="#p162"><span>Mean/Median/Mode/Range &middot; Set 1</span><span class="pg">p.162 &middot; <span class="count">1</span></span></a></li>
+      <li><a href="#p163"><span>Mean/Median/Mode/Range &middot; Set 2</span><span class="pg">p.163 &middot; <span class="count">2</span></span></a></li>
+      <li><a href="#p164"><span>Mean/Median/Mode/Range &middot; Set 2 (cont.)</span><span class="pg">p.164 &middot; <span class="count">1</span></span></a></li>
+      <li><a href="#p166169"><span>Charts, Graphs &amp; Tables</span><span class="pg">p.166 &amp; 169 &middot; <span class="count">2</span></span></a></li>
+      <li><a href="#p176"><span>Area &amp; Perimeter &middot; Set 1</span><span class="pg">p.176 &middot; <span class="count">1</span></span></a></li>
+      <li><a href="#p177"><span>Area &amp; Perimeter &middot; Set 2</span><span class="pg">p.177 &middot; <span class="count">1</span></span></a></li>
+      <li><a href="#p181"><span>Shaded Area &middot; Set 1</span><span class="pg">p.181 &middot; <span class="count">2</span></span></a></li>
+      <li><a href="#p193"><span>Volume &amp; Surface Area &middot; Set 2</span><span class="pg">p.193 &middot; <span class="count">1</span></span></a></li>
+      <li><a href="#p194"><span>Volume &amp; Surface Area &middot; Set 2 (cont.)</span><span class="pg">p.194 &middot; <span class="count">2</span></span></a></li>
+    </ol>
+  </nav>
+
+  <!-- ================= p126 ================= -->
+  <section class="topic" id="p126">
+    <div class="topic-head"><h2>Percents &middot; Practice Set 1</h2><span class="page-tag">page 126</span></div>
+    <div class="cards">
+      <div class="card">
+        <div class="card-num">Problem 5</div>
+        <div class="q-text">9 is what percent of 45?</div>
+        <div class="answer-box"><span class="ab-label">Answer</span><input type="text" class="answer-input" data-qid="p126-5" autocomplete="off" spellcheck="false"></div>
+      </div>
+      <div class="card">
+        <div class="card-num">Problem 6</div>
+        <div class="q-text">What percent of 30 is 60?</div>
+        <div class="answer-box"><span class="ab-label">Answer</span><input type="text" class="answer-input" data-qid="p126-6" autocomplete="off" spellcheck="false"></div>
+      </div>
+      <div class="card">
+        <div class="card-num">Problem 7</div>
+        <div class="q-text">36 is what percent of 3,600?</div>
+        <div class="answer-box"><span class="ab-label">Answer</span><input type="text" class="answer-input" data-qid="p126-7" autocomplete="off" spellcheck="false"></div>
+      </div>
+      <div class="card">
+        <div class="card-num">Problem 9</div>
+        <div class="q-text">60 is 75% of what number?</div>
+        <div class="answer-box"><span class="ab-label">Answer</span><input type="text" class="answer-input" data-qid="p126-9" autocomplete="off" spellcheck="false"></div>
+      </div>
+      <div class="card">
+        <div class="card-num">Problem 10</div>
+        <div class="q-text">30 is 150% of what number?</div>
+        <div class="answer-box"><span class="ab-label">Answer</span><input type="text" class="answer-input" data-qid="p126-10" autocomplete="off" spellcheck="false"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= p127 ================= -->
+  <section class="topic" id="p127">
+    <div class="topic-head"><h2>Percents &middot; Practice Set 2</h2><span class="page-tag">page 127</span></div>
+    <div class="cards">
+      <div class="card">
+        <div class="card-num">Problem 9</div>
+        <div class="q-text">90 is 150% of what number?</div>
+        <div class="answer-box"><span class="ab-label">Answer</span><input type="text" class="answer-input" data-qid="p127-9" autocomplete="off" spellcheck="false"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= p128 ================= -->
+  <section class="topic" id="p128">
+    <div class="topic-head"><h2>Estimating &middot; Practice Set 1</h2><span class="page-tag">page 128</span></div>
+    <div class="cards">
+      <div class="card">
+        <div class="card-num">Problem 4</div>
+        <div class="q-text">What is a reasonable estimation for the value of <span class="g">(38 &times; 624) / 18</span>?</div>
+        <div class="choices" data-qid="p128-4">
+          <button type="button" class="choice" data-letter="A"><span class="letter">A</span>500&ndash;1,000</button>
+          <button type="button" class="choice" data-letter="B"><span class="letter">B</span>1,000&ndash;1,500</button>
+          <button type="button" class="choice" data-letter="C"><span class="letter">C</span>1,500&ndash;2,000</button>
+          <button type="button" class="choice" data-letter="D"><span class="letter">D</span>2,000&ndash;2,500</button>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-num">Problem 5</div>
+        <div class="q-text">Lucy bought a $34.49 shirt, three $2.99 pairs of socks, and $67.49 shoes. What's the estimated total?</div>
+        <div class="choices" data-qid="p128-5">
+          <button type="button" class="choice" data-letter="A"><span class="letter">A</span>$100&ndash;105</button>
+          <button type="button" class="choice" data-letter="B"><span class="letter">B</span>$105&ndash;110</button>
+          <button type="button" class="choice" data-letter="C"><span class="letter">C</span>$110&ndash;115</button>
+          <button type="button" class="choice" data-letter="D"><span class="letter">D</span>$115&ndash;120</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= p130 ================= -->
+  <section class="topic" id="p130">
+    <div class="topic-head"><h2>Estimating &middot; Practice Set 2</h2><span class="page-tag">page 130</span></div>
+    <div class="cards">
+      <div class="card">
+        <div class="card-num">Problem 4</div>
+        <div class="q-text">Devin bought six items costing $6.99, $3.49, $11.49, $5.49, $12.99, and $0.50. What's the estimated total?</div>
+        <div class="choices" data-qid="p130-4">
+          <button type="button" class="choice" data-letter="A"><span class="letter">A</span>$30&ndash;35</button>
+          <button type="button" class="choice" data-letter="B"><span class="letter">B</span>$35&ndash;40</button>
+          <button type="button" class="choice" data-letter="C"><span class="letter">C</span>$40&ndash;45</button>
+          <button type="button" class="choice" data-letter="D"><span class="letter">D</span>$45&ndash;50</button>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-num">Problem 6</div>
+        <div class="q-text">Lake Superior has an area of 82,100 km&sup2;. Which lake has an area closest to &frac14; of that?</div>
+        <div class="choices" data-qid="p130-6">
+          <button type="button" class="choice" data-letter="A"><span class="letter">A</span>Vostok, 12,500 km&sup2;</button>
+          <button type="button" class="choice" data-letter="B"><span class="letter">B</span>Balkhash, 16,400 km&sup2;</button>
+          <button type="button" class="choice" data-letter="C"><span class="letter">C</span>Ontario, 18,960 km&sup2;</button>
+          <button type="button" class="choice" data-letter="D"><span class="letter">D</span>Winnipeg, 24,514 km&sup2;</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= p131 ================= -->
+  <section class="topic" id="p131">
+    <div class="topic-head"><h2>Estimating &middot; Practice Set 2 <span style="font-size:0.75em; color:var(--ink-faint); font-style:italic;">(continued)</span></h2><span class="page-tag">page 131</span></div>
+    <div class="cards">
+      <div class="card">
+        <div class="card-num">Problem 8</div>
+        <div class="q-text">Patricia mixes 10 pt red, 5 pt blue, 3 pt pink, 1 pt white, and 1 pt purple paint, then splits it equally into 6 cans. About how many pints per can?</div>
+        <div class="choices" data-qid="p131-8">
+          <button type="button" class="choice" data-letter="A"><span class="letter">A</span>3</button>
+          <button type="button" class="choice" data-letter="B"><span class="letter">B</span>3&frac14;</button>
+          <button type="button" class="choice" data-letter="C"><span class="letter">C</span>3&frac34;</button>
+          <button type="button" class="choice" data-letter="D"><span class="letter">D</span>4</button>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-num">Problem 9</div>
+        <div class="q-text">What is a reasonable estimation for the value of <span class="g">(121 &times; 28) / 64</span>?</div>
+        <div class="choices" data-qid="p131-9">
+          <button type="button" class="choice" data-letter="A"><span class="letter">A</span>25&ndash;30</button>
+          <button type="button" class="choice" data-letter="B"><span class="letter">B</span>30&ndash;45</button>
+          <button type="button" class="choice" data-letter="C"><span class="letter">C</span>45&ndash;65</button>
+          <button type="button" class="choice" data-letter="D"><span class="letter">D</span>65&ndash;75</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= p132 ================= -->
+  <section class="topic" id="p132">
+    <div class="topic-head"><h2>Number Lines &middot; Practice Set 1</h2><span class="page-tag">page 132</span></div>
+    <div class="cards">
+      <div class="card">
+        <div class="card-num">Problem 6</div>
+        <div class="q-text">What numbers are represented by J, K, and L on the number line (from about 3.7 to 9.3)?</div>
+        <div class="diagram">
+          <svg viewBox="0 0 320 70" width="320" height="70">
+            <line x1="20" y1="40" x2="305" y2="40" stroke="currentColor" stroke-width="1.5" style="color:var(--ink-muted)"/>
+            <path d="M20,40 L27,35 M20,40 L27,45 M305,40 L298,35 M305,40 L298,45" stroke="currentColor" stroke-width="1.5" fill="none" style="color:var(--ink-muted)"/>
+            <g stroke="currentColor" stroke-width="1.5" style="color:var(--ink-muted)">
+              <line x1="30" y1="34" x2="30" y2="46"/>
+              <line x1="67.1" y1="34" x2="67.1" y2="46"/>
+              <line x1="104.3" y1="34" x2="104.3" y2="46"/>
+              <line x1="141.4" y1="34" x2="141.4" y2="46"/>
+              <line x1="178.6" y1="34" x2="178.6" y2="46"/>
+              <line x1="215.7" y1="34" x2="215.7" y2="46"/>
+              <line x1="252.9" y1="34" x2="252.9" y2="46"/>
+              <line x1="290" y1="34" x2="290" y2="46"/>
+            </g>
+            <text x="20" y="60" font-family="JetBrains Mono, monospace" font-size="11" fill="var(--ink-faint)">3.7</text>
+            <text x="280" y="60" font-family="JetBrains Mono, monospace" font-size="11" fill="var(--ink-faint)">9.3</text>
+            <circle cx="30" cy="40" r="3" fill="var(--accent)"/>
+            <text x="24" y="20" font-family="Public Sans, sans-serif" font-size="12" font-weight="600" fill="var(--accent-ink)">J</text>
+            <circle cx="104.3" cy="40" r="3" fill="var(--accent)"/>
+            <text x="98" y="20" font-family="Public Sans, sans-serif" font-size="12" font-weight="600" fill="var(--accent-ink)">K</text>
+            <circle cx="215.7" cy="40" r="3" fill="var(--accent)"/>
+            <text x="210" y="20" font-family="Public Sans, sans-serif" font-size="12" font-weight="600" fill="var(--accent-ink)">L</text>
+          </svg>
+        </div>
+        <div class="choices" data-qid="p132-6">
+          <button type="button" class="choice" data-letter="A"><span class="letter">A</span>2.8, 5.2, 7.9</button>
+          <button type="button" class="choice" data-letter="B"><span class="letter">B</span>2.9, 5.3, 7.7</button>
+          <button type="button" class="choice" data-letter="C"><span class="letter">C</span>3.1, 5.2, 7.9</button>
+          <button type="button" class="choice" data-letter="D"><span class="letter">D</span>3.7, 5.3, 7.7</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= p134 ================= -->
+  <section class="topic" id="p134">
+    <div class="topic-head"><h2>Number Lines &middot; Practice Set 2</h2><span class="page-tag">page 134</span></div>
+    <div class="cards">
+      <div class="card">
+        <div class="card-num">Problem 3</div>
+        <div class="q-text">What number is represented by B on the number line (from 7 to 31)?</div>
+        <div class="diagram">
+          <svg viewBox="0 0 320 70" width="320" height="70">
+            <line x1="20" y1="40" x2="305" y2="40" stroke="currentColor" stroke-width="1.5" style="color:var(--ink-muted)"/>
+            <path d="M20,40 L27,35 M20,40 L27,45 M305,40 L298,35 M305,40 L298,45" stroke="currentColor" stroke-width="1.5" fill="none" style="color:var(--ink-muted)"/>
+            <g stroke="currentColor" stroke-width="1.5" style="color:var(--ink-muted)">
+              <line x1="30" y1="34" x2="30" y2="46"/>
+              <line x1="73.3" y1="34" x2="73.3" y2="46"/>
+              <line x1="116.7" y1="34" x2="116.7" y2="46"/>
+              <line x1="160" y1="34" x2="160" y2="46"/>
+              <line x1="203.3" y1="34" x2="203.3" y2="46"/>
+              <line x1="246.7" y1="34" x2="246.7" y2="46"/>
+              <line x1="290" y1="34" x2="290" y2="46"/>
+            </g>
+            <text x="20" y="60" font-family="JetBrains Mono, monospace" font-size="11" fill="var(--ink-faint)">7</text>
+            <text x="282" y="60" font-family="JetBrains Mono, monospace" font-size="11" fill="var(--ink-faint)">31</text>
+            <circle cx="203.3" cy="40" r="3" fill="var(--accent)"/>
+            <text x="198" y="20" font-family="Public Sans, sans-serif" font-size="12" font-weight="600" fill="var(--accent-ink)">B</text>
+          </svg>
+        </div>
+        <div class="choices" data-qid="p134-3">
+          <button type="button" class="choice" data-letter="A"><span class="letter">A</span>19</button>
+          <button type="button" class="choice" data-letter="B"><span class="letter">B</span>23</button>
+          <button type="button" class="choice" data-letter="C"><span class="letter">C</span>24</button>
+          <button type="button" class="choice" data-letter="D"><span class="letter">D</span>27</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= p135 ================= -->
+  <section class="topic" id="p135">
+    <div class="topic-head"><h2>Proportions &middot; Practice Set 1</h2><span class="page-tag">page 135</span></div>
+    <div class="cards">
+      <div class="card">
+        <div class="card-num">Problem 4</div>
+        <div class="q-text">It snowed at a rate of 1.2 inches every 4 hours. At that rate, how many hours to accumulate 4.2 inches?</div>
+        <div class="answer-box"><span class="ab-label">Answer</span><input type="text" class="answer-input" data-qid="p135-4" autocomplete="off" spellcheck="false"></div>
+      </div>
+      <div class="card">
+        <div class="card-num">Problem 5</div>
+        <div class="q-text">If 6 apples cost $9, what is the cost of 8 apples?</div>
+        <div class="answer-box"><span class="ab-label">Answer</span><input type="text" class="answer-input" data-qid="p135-5" autocomplete="off" spellcheck="false"></div>
+      </div>
+      <div class="card">
+        <div class="card-num">Problem 8</div>
+        <div class="q-text">At a carnival, you can buy 4 prizes with $3. How much money would you need to buy 10 prizes?</div>
+        <div class="answer-box"><span class="ab-label">Answer</span><input type="text" class="answer-input" data-qid="p135-8" autocomplete="off" spellcheck="false"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= p136 ================= -->
+  <section class="topic" id="p136">
+    <div class="topic-head"><h2>Proportions &middot; Practice Set 2</h2><span class="page-tag">page 136</span></div>
+    <div class="cards">
+      <div class="card">
+        <div class="card-num">Problem 3</div>
+        <div class="q-text">Daniel types 120 words in 2 minutes. How long to type 480 words?</div>
+        <div class="answer-box"><span class="ab-label">Answer</span><input type="text" class="answer-input" data-qid="p136-3" autocomplete="off" spellcheck="false"></div>
+      </div>
+      <div class="card">
+        <div class="card-num">Problem 5</div>
+        <div class="q-text">Rain fell at 3.3 inches every 6 hours. At that rate, how many inches in 10 hours?</div>
+        <div class="answer-box"><span class="ab-label">Answer</span><input type="text" class="answer-input" data-qid="p136-5" autocomplete="off" spellcheck="false"></div>
+      </div>
+      <div class="card">
+        <div class="card-num">Problem 8</div>
+        <div class="q-text">A recipe uses 4 tbsp sugar per 12 tbsp water. For 48 tbsp water, how much sugar?</div>
+        <div class="answer-box"><span class="ab-label">Answer</span><input type="text" class="answer-input" data-qid="p136-8" autocomplete="off" spellcheck="false"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= p141 ================= -->
+  <section class="topic" id="p141">
+    <div class="topic-head"><h2>Probability &middot; Practice Set 1</h2><span class="page-tag">page 141</span></div>
+    <div class="cards">
+      <div class="card">
+        <div class="card-num">Problem 9</div>
+        <div class="q-text">Lauren's box has orange, grape, apple, and pineapple juice boxes. P(grape) = 3/8. Which combination of juice boxes is possible?</div>
+        <div class="choices" data-qid="p141-9">
+          <button type="button" class="choice" data-letter="A"><span class="letter">A</span>3 grape, 8 other</button>
+          <button type="button" class="choice" data-letter="B"><span class="letter">B</span>6 grape, 12 other</button>
+          <button type="button" class="choice" data-letter="C"><span class="letter">C</span>8 grape, 11 other</button>
+          <button type="button" class="choice" data-letter="D"><span class="letter">D</span>9 grape, 15 other</button>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-num">Problem 10</div>
+        <div class="q-text">P(NOT white marble) = 5/7. Which combination of marbles is possible?</div>
+        <div class="choices" data-qid="p141-10">
+          <button type="button" class="choice" data-letter="A"><span class="letter">A</span>5 white, 7 other</button>
+          <button type="button" class="choice" data-letter="B"><span class="letter">B</span>6 white, 21 other</button>
+          <button type="button" class="choice" data-letter="C"><span class="letter">C</span>4 white, 10 other</button>
+          <button type="button" class="choice" data-letter="D"><span class="letter">D</span>15 white, 6 other</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= p143 ================= -->
+  <section class="topic" id="p143">
+    <div class="topic-head"><h2>Unit Conversions &middot; Practice Set 1</h2><span class="page-tag">page 143</span></div>
+    <div class="cards">
+      <div class="card">
+        <div class="card-num">Problem 2</div>
+        <div class="q-text">How many grams are in 2.4 kilograms?</div>
+        <div class="answer-box"><span class="ab-label">Answer</span><input type="text" class="answer-input" data-qid="p143-2" autocomplete="off" spellcheck="false"></div>
+      </div>
+      <div class="card">
+        <div class="card-num">Problem 3</div>
+        <div class="q-text">4,000 milliliters is equal to how many kiloliters?</div>
+        <div class="answer-box"><span class="ab-label">Answer</span><input type="text" class="answer-input" data-qid="p143-3" autocomplete="off" spellcheck="false"></div>
+      </div>
+      <div class="card">
+        <div class="card-num">Problem 10</div>
+        <div class="q-text">200 centimeters is equal to how many meters?</div>
+        <div class="answer-box"><span class="ab-label">Answer</span><input type="text" class="answer-input" data-qid="p143-10" autocomplete="off" spellcheck="false"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= p147 ================= -->
+  <section class="topic" id="p147">
+    <div class="topic-head"><h2>Solving Equations &middot; Practice Set 1</h2><span class="page-tag">page 147</span></div>
+    <div class="cards">
+      <div class="card">
+        <div class="card-num">Problem 1</div>
+        <div class="q-text">What is the value of <span class="g">x</span> in <span class="g">x &minus; 8 = 10</span>?</div>
+        <div class="answer-box"><span class="ab-label">Answer</span><input type="text" class="answer-input" data-qid="p147-1" autocomplete="off" spellcheck="false"></div>
+      </div>
+      <div class="card">
+        <div class="card-num">Problem 5</div>
+        <div class="q-text">What is the value of <span class="g">y</span> in <span class="g">y/3 &minus; 7 = 13</span>?</div>
+        <div class="answer-box"><span class="ab-label">Answer</span><input type="text" class="answer-input" data-qid="p147-5" autocomplete="off" spellcheck="false"></div>
+      </div>
+      <div class="card">
+        <div class="card-num">Problem 7</div>
+        <div class="q-text">What is the value of <span class="g">x</span> in <span class="g">6 &minus; 2x = 4</span>?</div>
+        <div class="answer-box"><span class="ab-label">Answer</span><input type="text" class="answer-input" data-qid="p147-7" autocomplete="off" spellcheck="false"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= p150 ================= -->
+  <section class="topic" id="p150">
+    <div class="topic-head"><h2>Creating Equations and Expressions &middot; Practice Set 1</h2><span class="page-tag">page 150</span></div>
+    <div class="cards">
+      <div class="card">
+        <div class="card-num">Problem 3</div>
+        <div class="q-text">3 apples + 1 banana costs $3.50. Each apple costs twice as much as each banana (b). Which equation finds b?</div>
+        <div class="choices" data-qid="p150-3">
+          <button type="button" class="choice" data-letter="A"><span class="letter">A</span>b + 3 = 3.50</button>
+          <button type="button" class="choice" data-letter="B"><span class="letter">B</span>7b = 3.50</button>
+          <button type="button" class="choice" data-letter="C"><span class="letter">C</span>4b = 3.50</button>
+          <button type="button" class="choice" data-letter="D"><span class="letter">D</span>5b = 3.50</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= p152 ================= -->
+  <section class="topic" id="p152">
+    <div class="topic-head"><h2>Creating Equations and Expressions &middot; Practice Set 2</h2><span class="page-tag">page 152</span></div>
+    <div class="cards">
+      <div class="card">
+        <div class="card-num">Problem 1</div>
+        <div class="q-text">Roger and Cory scored 34 points total. Roger scored 6 more than Cory (c). Which equation finds c?</div>
+        <div class="choices" data-qid="p152-1">
+          <button type="button" class="choice" data-letter="A"><span class="letter">A</span>c + 6 = 34</button>
+          <button type="button" class="choice" data-letter="B"><span class="letter">B</span>c &minus; 6 = 34</button>
+          <button type="button" class="choice" data-letter="C"><span class="letter">C</span>2c + 6 = 34</button>
+          <button type="button" class="choice" data-letter="D"><span class="letter">D</span>2c &minus; 6 = 34</button>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-num">Problem 4</div>
+        <div class="q-text">Which represents "five more than half a number is three less than twice the number"?</div>
+        <div class="choices" data-qid="p152-4">
+          <button type="button" class="choice" data-letter="A"><span class="letter">A</span>&frac12;n + 5 = 2n &minus; 3</button>
+          <button type="button" class="choice" data-letter="B"><span class="letter">B</span>&frac12;n + 5 = 3 &minus; 2n</button>
+          <button type="button" class="choice" data-letter="C"><span class="letter">C</span>&frac12;(n+5) = 2n &minus; 3</button>
+          <button type="button" class="choice" data-letter="D"><span class="letter">D</span>&frac12;(n+5) = 3 &minus; 2n</button>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-num">Problem 6</div>
+        <div class="q-text">Which represents "four times the sum of a number and one is twenty-four"?</div>
+        <div class="choices" data-qid="p152-6">
+          <button type="button" class="choice" data-letter="A"><span class="letter">A</span>4n + 1 = 24</button>
+          <button type="button" class="choice" data-letter="B"><span class="letter">B</span>4(n+1) = 24</button>
+          <button type="button" class="choice" data-letter="C"><span class="letter">C</span>4(n&minus;1) = 24</button>
+          <button type="button" class="choice" data-letter="D"><span class="letter">D</span>4n &minus; 1 = 24</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= p153 ================= -->
+  <section class="topic" id="p153">
+    <div class="topic-head"><h2>Creating Equations and Expressions &middot; Practice Set 2 <span style="font-size:0.75em; color:var(--ink-faint); font-style:italic;">(continued)</span></h2><span class="page-tag">page 153</span></div>
+    <div class="cards">
+      <div class="card">
+        <div class="card-num">Problem 10</div>
+        <div class="q-text">The volume of a pyramid is 75 in&sup3;. Which equation finds the width w? <span class="g">(V = &frac13;lwh)</span></div>
+        <div class="choices" data-qid="p153-10">
+          <button type="button" class="choice" data-letter="A"><span class="letter">A</span>w = 3(75) &times; lh</button>
+          <button type="button" class="choice" data-letter="B"><span class="letter">B</span>w = 75 / (3lh)</button>
+          <button type="button" class="choice" data-letter="C"><span class="letter">C</span>w = 3(75) &minus; lh</button>
+          <button type="button" class="choice" data-letter="D"><span class="letter">D</span>w = 3(75) / (lh)</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= p159 ================= -->
+  <section class="topic" id="p159">
+    <div class="topic-head"><h2>Mixed Word Problems &middot; Practice Set 1</h2><span class="page-tag">page 159</span></div>
+    <div class="cards">
+      <div class="card">
+        <div class="card-num">Problem 3</div>
+        <div class="q-text">Benji split his cookies into 5 boxes of 25 cookies each, and sold each cookie for $2. How much money did he make?</div>
+        <div class="answer-box"><span class="ab-label">Answer</span><input type="text" class="answer-input" data-qid="p159-3" autocomplete="off" spellcheck="false"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= p162 ================= -->
+  <section class="topic" id="p162">
+    <div class="topic-head"><h2>Mean, Median, Mode, and Range &middot; Practice Set 1</h2><span class="page-tag">page 162</span></div>
+    <div class="cards">
+      <div class="card">
+        <div class="card-num">Problem 4</div>
+        <div class="q-text">Find the range of 18, 96, 7, 13, 55, 88, and 35.</div>
+        <div class="answer-box"><span class="ab-label">Answer</span><input type="text" class="answer-input" data-qid="p162-4" autocomplete="off" spellcheck="false"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= p163 ================= -->
+  <section class="topic" id="p163">
+    <div class="topic-head"><h2>Mean, Median, Mode, and Range &middot; Practice Set 2</h2><span class="page-tag">page 163</span></div>
+    <div class="cards">
+      <div class="card">
+        <div class="card-num">Problem 3</div>
+        <div class="q-text">Which statement is true given the data set 15, 18, 15, 15, 16, 17?</div>
+        <div class="choices" data-qid="p163-3">
+          <button type="button" class="choice" data-letter="A"><span class="letter">A</span>mean &gt; mode</button>
+          <button type="button" class="choice" data-letter="B"><span class="letter">B</span>mean &lt; range</button>
+          <button type="button" class="choice" data-letter="C"><span class="letter">C</span>median = mode</button>
+          <button type="button" class="choice" data-letter="D"><span class="letter">D</span>median = mean</button>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-num">Problem 4</div>
+        <div class="q-text">Find the mean of the data set: 80, 53, 22, 57, 100, 30, 8.</div>
+        <div class="answer-box"><span class="ab-label">Answer</span><input type="text" class="answer-input" data-qid="p163-4" autocomplete="off" spellcheck="false"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= p164 ================= -->
+  <section class="topic" id="p164">
+    <div class="topic-head"><h2>Mean, Median, Mode, and Range &middot; Practice Set 2 <span style="font-size:0.75em; color:var(--ink-faint); font-style:italic;">(continued)</span></h2><span class="page-tag">page 164</span></div>
+    <div class="cards">
+      <div class="card">
+        <div class="card-num">Problem 9</div>
+        <div class="q-text">In a group of seven consecutive odd numbers, the median is 13. What is the smallest number?</div>
+        <div class="answer-box"><span class="ab-label">Answer</span><input type="text" class="answer-input" data-qid="p164-9" autocomplete="off" spellcheck="false"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= p166-169 ================= -->
+  <section class="topic" id="p166169">
+    <div class="topic-head"><h2>Charts, Graphs, and Tables &middot; Practice Set 1</h2><span class="page-tag">pages 166 &amp; 169</span></div>
+    <div class="cards">
+      <div class="card">
+        <div class="card-num">Problem 7</div>
+        <div class="q-text">A Venn diagram shows "people over age 13" and "people who live in New York." Who could be found in the shaded (overlap) part?</div>
+        <div class="diagram">
+          <svg viewBox="0 0 260 140" width="260" height="140">
+            <circle cx="95" cy="70" r="55" fill="none" stroke="currentColor" stroke-width="1.5" style="color:var(--ink-muted)"/>
+            <circle cx="165" cy="70" r="55" fill="none" stroke="currentColor" stroke-width="1.5" style="color:var(--ink-muted)"/>
+            <path d="M130,25 A55,55 0 0 1 130,115 A55,55 0 0 1 130,25 Z" fill="var(--accent)" fill-opacity="0.4"/>
+            <text x="18" y="18" font-family="Public Sans, sans-serif" font-size="11" fill="var(--ink)">people over age 13</text>
+            <text x="150" y="18" font-family="Public Sans, sans-serif" font-size="11" fill="var(--ink)">people who live in NY</text>
+          </svg>
+        </div>
+        <div class="choices" data-qid="p166-7">
+          <button type="button" class="choice" data-letter="A"><span class="letter">A</span>Julie, who is 12 and lives in California</button>
+          <button type="button" class="choice" data-letter="B"><span class="letter">B</span>Manny, who is 54 and lives in New Jersey</button>
+          <button type="button" class="choice" data-letter="C"><span class="letter">C</span>Luis, who is 13 and lives in New York</button>
+          <button type="button" class="choice" data-letter="D"><span class="letter">D</span>Brenda, who is 18 and lives in New York</button>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-num">Problem 6 <span style="font-weight:400; color:var(--ink-faint);">&middot; p.169</span></div>
+        <div class="q-text">The table shows the temperature of three buckets of water over time. What was the difference between Bucket 1 and Bucket 3 after 20 minutes?</div>
+        <div class="diagram">
+          <table>
+            <tr><th></th><th>Start</th><th>20 min</th><th>40 min</th><th>60 min</th></tr>
+            <tr><th>Bucket 1</th><td>42&deg;F</td><td>54&deg;F</td><td>66&deg;F</td><td>78&deg;F</td></tr>
+            <tr><th>Bucket 2</th><td>30&deg;F</td><td>36&deg;F</td><td>41&deg;F</td><td>45&deg;F</td></tr>
+            <tr><th>Bucket 3</th><td>60&deg;F</td><td>63&deg;F</td><td>67&deg;F</td><td>72&deg;F</td></tr>
+          </table>
+        </div>
+        <div class="answer-box"><span class="ab-label">Answer</span><input type="text" class="answer-input" data-qid="p169-6" autocomplete="off" spellcheck="false"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= p176 ================= -->
+  <section class="topic" id="p176">
+    <div class="topic-head"><h2>Area and Perimeter Word Problems &middot; Practice Set 1</h2><span class="page-tag">page 176</span></div>
+    <div class="cards">
+      <div class="card">
+        <div class="card-num">Problem 3</div>
+        <div class="q-text">The triangle below has an area of 24 square feet. What is its perimeter?</div>
+        <div class="diagram">
+          <svg viewBox="0 0 220 150" width="220" height="150">
+            <polygon points="20,130 20,20 190,130" fill="none" stroke="currentColor" stroke-width="2.5" style="color:var(--ink-muted)"/>
+            <rect x="20" y="115" width="15" height="15" fill="none" stroke="currentColor" stroke-width="1.5" style="color:var(--ink-faint)"/>
+            <text x="4" y="78" font-family="JetBrains Mono, monospace" font-size="13" fill="var(--ink)">8</text>
+            <text x="95" y="146" font-family="JetBrains Mono, monospace" font-size="13" fill="var(--ink)">6 ft</text>
+            <text x="95" y="68" font-family="JetBrains Mono, monospace" font-size="13" fill="var(--ink)" transform="rotate(-33 95 68)">10 ft</text>
+          </svg>
+        </div>
+        <div class="answer-box"><span class="ab-label">Answer</span><input type="text" class="answer-input" data-qid="p176-3" autocomplete="off" spellcheck="false"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= p177 ================= -->
+  <section class="topic" id="p177">
+    <div class="topic-head"><h2>Area and Perimeter Word Problems &middot; Practice Set 2</h2><span class="page-tag">page 177</span></div>
+    <div class="cards">
+      <div class="card">
+        <div class="card-num">Problem 10</div>
+        <div class="q-text">A can of paint covers 10 square yards. How many cans are needed to cover an 18 ft &times; 15 ft wall?</div>
+        <div class="answer-box"><span class="ab-label">Answer</span><input type="text" class="answer-input" data-qid="p177-10" autocomplete="off" spellcheck="false"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= p181 ================= -->
+  <section class="topic" id="p181">
+    <div class="topic-head"><h2>Shaded Area &middot; Practice Set 1</h2><span class="page-tag">page 181</span></div>
+    <div class="cards">
+      <div class="card">
+        <div class="card-num">Problem 9</div>
+        <div class="q-text">The total area of the large triangle (split into 9 small triangles, 3 shaded) is 27 units&sup2;. What is the area of the shaded region?</div>
+        <div class="diagram">
+          <svg viewBox="0 0 200 185" width="200" height="185">
+            <g fill="none" stroke="currentColor" stroke-width="1.3" style="color:var(--ink-muted)">
+              <path d="M100,10 L70,65 L130,65 Z"/>
+              <path d="M70,65 L40,120 L100,120 Z"/>
+              <path d="M130,65 L100,120 L160,120 Z"/>
+              <path d="M40,120 L10,175 L70,175 Z"/>
+              <path d="M100,120 L70,175 L130,175 Z"/>
+              <path d="M160,120 L130,175 L190,175 Z"/>
+              <path d="M70,65 L130,65 L100,120 Z"/>
+              <path d="M40,120 L100,120 L70,175 Z"/>
+              <path d="M100,120 L160,120 L130,175 Z"/>
+            </g>
+            <path d="M70,65 L40,120 L100,120 Z" fill="var(--accent)" fill-opacity="0.4"/>
+            <path d="M100,120 L160,120 L130,175 Z" fill="var(--accent)" fill-opacity="0.4"/>
+            <path d="M100,120 L70,175 L130,175 Z" fill="var(--accent)" fill-opacity="0.4"/>
+            <path d="M100,10 L10,175 L190,175 Z" fill="none" stroke="currentColor" stroke-width="2.2" style="color:var(--ink)"/>
+          </svg>
+        </div>
+        <div class="answer-box"><span class="ab-label">Answer</span><input type="text" class="answer-input" data-qid="p181-9" autocomplete="off" spellcheck="false"></div>
+      </div>
+      <div class="card">
+        <div class="card-num">Problem 10</div>
+        <div class="q-text">Two overlapping squares: the outer square's perimeter is 36 in, the inner square's perimeter is 24 in. What is the area of the shaded (outer-only) region?</div>
+        <div class="diagram">
+          <svg viewBox="0 0 210 200" width="210" height="200">
+            <rect x="20" y="45" width="135" height="135" fill="var(--accent)" fill-opacity="0.3" stroke="currentColor" stroke-width="1.5" style="color:var(--ink-muted)"/>
+            <rect x="65" y="45" width="90" height="90" fill="var(--surface)" stroke="currentColor" stroke-width="1.5" style="color:var(--ink-muted)"/>
+            <text x="75" y="195" font-family="JetBrains Mono, monospace" font-size="12" fill="var(--ink)">outer: 36 in perimeter</text>
+            <text x="103" y="40" font-family="JetBrains Mono, monospace" font-size="11" fill="var(--ink)">inner: 24 in</text>
+          </svg>
+        </div>
+        <div class="answer-box"><span class="ab-label">Answer</span><input type="text" class="answer-input" data-qid="p181-10" autocomplete="off" spellcheck="false"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= p193 ================= -->
+  <section class="topic" id="p193">
+    <div class="topic-head"><h2>Volume, Surface Area, and 3D Shapes &middot; Practice Set 2</h2><span class="page-tag">page 193</span></div>
+    <div class="cards">
+      <div class="card">
+        <div class="card-num">Problem 3</div>
+        <div class="q-text">What is the volume of a rectangular prism that has a width of 5 km, a height of 3 km, and a length of 6 km?</div>
+        <div class="answer-box"><span class="ab-label">Answer</span><input type="text" class="answer-input" data-qid="p193-3" autocomplete="off" spellcheck="false"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= p194 ================= -->
+  <section class="topic" id="p194">
+    <div class="topic-head"><h2>Volume, Surface Area, and 3D Shapes &middot; Practice Set 2 <span style="font-size:0.75em; color:var(--ink-faint); font-style:italic;">(continued)</span></h2><span class="page-tag">page 194</span></div>
+    <div class="cards">
+      <div class="card">
+        <div class="card-num">Problem 9</div>
+        <div class="q-text">A small cube has a base area of 4 square cm. A larger cube has a side length of 4 cm. How many small cubes could fit inside the larger cube?</div>
+        <div class="answer-box"><span class="ab-label">Answer</span><input type="text" class="answer-input" data-qid="p194-9" autocomplete="off" spellcheck="false"></div>
+      </div>
+      <div class="card">
+        <div class="card-num">Problem 10</div>
+        <div class="q-text">The surface area of the larger cube shown is 54 in&sup2;, split into a 3&times;3&times;3 grid of unit cubes with one small cube shaded. What is the surface area of the shaded cube?</div>
+        <div class="diagram">
+          <svg viewBox="0 0 200 200" width="200" height="200">
+            <g fill="none" stroke="currentColor" stroke-width="1.5" style="color:var(--ink-muted)">
+              <path d="M100,10 L30,50 L100,90 L170,50 Z"/>
+              <path d="M30,50 L100,90 L100,190 L30,150 Z"/>
+              <path d="M100,90 L170,50 L170,150 L100,190 Z"/>
+            </g>
+            <g stroke="currentColor" stroke-width="0.8" style="color:var(--ink-faint)">
+              <line x1="100" y1="123.3" x2="93" y2="119.5"/>
+              <line x1="100" y1="156.7" x2="93" y2="152.9"/>
+              <line x1="53.3" y1="163.3" x2="53.3" y2="155.3"/>
+              <line x1="76.7" y1="176.7" x2="76.7" y2="168.7"/>
+              <line x1="123.3" y1="176.7" x2="123.3" y2="168.7"/>
+              <line x1="146.7" y1="163.3" x2="146.7" y2="155.3"/>
+            </g>
+            <path d="M30,50 L53.3,36.7 L76.7,50 L53.3,63.3 Z" fill="var(--accent)" fill-opacity="0.55" stroke="currentColor" stroke-width="1.3" style="color:var(--ink)"/>
+            <path d="M30,50 L53.3,63.3 L53.3,96.7 L30,83.3 Z" fill="var(--accent)" fill-opacity="0.4" stroke="currentColor" stroke-width="1.3" style="color:var(--ink)"/>
+          </svg>
+        </div>
+        <div class="answer-box"><span class="ab-label">Answer</span><input type="text" class="answer-input" data-qid="p194-10" autocomplete="off" spellcheck="false"></div>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    Recreated from a photographed practice book (Elevate Prep &middot; ISEE Math Multiple Choice) for Hannah to rework independently. Answers aren't shown here on purpose &mdash; the full solved reference lives in a separate document for checking work afterward. Typed answers and selected choices are saved only in this browser (via localStorage), so they won't show up on a different device or in a private window.
+  </footer>
+
+</div>
+
+<script>
+(function(){
+  var STORAGE_KEY = 'hannah-rework-worksheet-v1';
+  var TOTAL = 47;
+  var state = {};
+  try { state = JSON.parse(localStorage.getItem(STORAGE_KEY) || '{}'); } catch(e){ state = {}; }
+
+  function save(){
+    try { localStorage.setItem(STORAGE_KEY, JSON.stringify(state)); } catch(e){}
+  }
+
+  function updateProgress(){
+    var count = Object.keys(state).filter(function(k){ return state[k]; }).length;
+    var el = document.getElementById('progress-count');
+    if (el) el.textContent = count;
+  }
+
+  function markCard(qid){
+    var el = document.querySelector('[data-qid="' + qid + '"]');
+    if (!el) return;
+    var card = el.closest('.card');
+    if (!card) return;
+    if (state[qid]) card.classList.add('done');
+    else card.classList.remove('done');
+  }
+
+  document.querySelectorAll('.answer-input').forEach(function(inp){
+    var qid = inp.dataset.qid;
+    if (state[qid]) inp.value = state[qid];
+    markCard(qid);
+    inp.addEventListener('input', function(){
+      state[qid] = inp.value.trim();
+      if (!state[qid]) delete state[qid];
+      save();
+      markCard(qid);
+      updateProgress();
+    });
+  });
+
+  document.querySelectorAll('.choices').forEach(function(group){
+    var qid = group.dataset.qid;
+    var choices = group.querySelectorAll('.choice');
+    choices.forEach(function(ch){
+      var letter = ch.dataset.letter;
+      if (state[qid] === letter) ch.classList.add('selected');
+    });
+    markCard(qid);
+    choices.forEach(function(ch){
+      ch.addEventListener('click', function(){
+        var letter = ch.dataset.letter;
+        var already = ch.classList.contains('selected');
+        choices.forEach(function(c){ c.classList.remove('selected'); });
+        if (already){
+          delete state[qid];
+        } else {
+          ch.classList.add('selected');
+          state[qid] = letter;
+        }
+        save();
+        markCard(qid);
+        updateProgress();
+      });
+    });
+  });
+
+  var clearBtn = document.getElementById('clear-all');
+  if (clearBtn){
+    clearBtn.addEventListener('click', function(){
+      if (!window.confirm('Clear all answers on this worksheet? This can\'t be undone.')) return;
+      state = {};
+      save();
+      document.querySelectorAll('.answer-input').forEach(function(inp){ inp.value = ''; });
+      document.querySelectorAll('.choice.selected').forEach(function(c){ c.classList.remove('selected'); });
+      document.querySelectorAll('.card.done').forEach(function(c){ c.classList.remove('done'); });
+      updateProgress();
+    });
+  }
+
+  updateProgress();
+})();
+</script>
