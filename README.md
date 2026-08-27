@@ -8,24 +8,26 @@ The source photos of the book aren't included here (copyright) — they're kept 
 
 ```
 worksheets/       Generated HTML study tools
-  full-workbook.html        Every problem, independently re-solved, with diagrams
-  rework-worksheet.html     The 120 flagged/missed problems, blank for her to redo
-  shuffled-rework-set.html  Same 120 problems, reshuffled into random order each visit
+  full-workbook.html                  Every problem, independently re-solved, with diagrams
+  rework-worksheet.html               The 120 flagged/missed problems, blank, with per-problem Check + Submit & grade
+  rework-worksheet-testmode.html      Same, but no per-problem Check — only Submit & grade at the end
+  shuffled-rework-set.html            Same 120 problems, random order each visit, with per-problem Check + Submit & grade
+  shuffled-rework-set-testmode.html   Same, but no per-problem Check — only Submit & grade at the end
 ```
 
 ### `worksheets/full-workbook.html`
 
-A clean reference copy of every problem, transcribed and re-solved from scratch, with recreated diagrams: number lines, coordinate grids, Venn diagrams, isometric cubes/prisms, pie and bar charts, and tables. Each problem shows the correct choice and a one-line explanation. This is the answer key for checking work against `rework-worksheet.html` and `shuffled-rework-set.html`.
+A clean reference copy of every problem, transcribed and re-solved from scratch, with recreated diagrams: number lines, coordinate grids, Venn diagrams, isometric cubes/prisms, pie and bar charts, and tables. Each problem shows the correct choice and a one-line explanation. This is the answer key for checking work against the worksheets below.
 
-### `worksheets/rework-worksheet.html`
+### `worksheets/rework-worksheet.html` / `shuffled-rework-set.html`
 
 The 120 problems Hannah needs to redo independently: everything she got wrong, plus everything flagged by a circled question number even where the current answer is correct. No answers are shown up front. Problems that reduce to one computed number get a blank text field; problems that are inherently multiple-choice (estimation ranges, "which of these," equation-select, the number-line reads) keep clickable lettered options.
 
-Each problem has its own **Check** / **Clear** buttons, plus a global **Submit & grade** / **Clear all answers**. Checking a problem reveals the correct answer and a short "Why" explanation, and tallies a running correct/wrong count. Answers autosave to the browser (localStorage).
+Each problem has its own **Check** / **Clear** buttons, plus a global **Submit & grade** / **Clear all answers**. Checking a problem (or submitting) reveals the correct answer and a short "Why" explanation, and tallies a running correct/wrong count. The shuffled version reshuffles into a new random order on load or on demand, so a repeat attempt isn't just recalling problem position. Answers autosave to the browser (localStorage), separately per file.
 
-### `worksheets/shuffled-rework-set.html`
+### `worksheets/rework-worksheet-testmode.html` / `shuffled-rework-set-testmode.html`
 
-The same 120 problems as a single flowing list that reshuffles into a new random order on load or on demand (a "Reshuffle order" button), so a repeat attempt isn't just recalling problem position. Progress is tracked and saved independently from the ordered worksheet, with the same Check/grade behavior.
+Same content and behavior as above, minus the per-problem Check/Clear buttons — there's nothing to peek at mid-way through. She works the whole set cold, then hits **Submit & grade** once at the end to see everything reveal at once.
 
 ## Using the worksheets
 
