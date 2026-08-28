@@ -1,0 +1,1043 @@
+<title>Rework Set &middot; Day 3 of 4</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Petrona:ital,wght@0,500;0,600;0,700;1,500&family=Public+Sans:ital,wght@0,400;0,500;0,600;1,400&family=JetBrains+Mono:wght@400;500;600&display=swap">
+<style>
+  :root{
+    --bg:#EEF2F0;
+    --grid-line: rgba(30,42,40,0.055);
+    --surface:#FFFFFF;
+    --surface-alt:#E7EDEA;
+    --ink:#1E2A28;
+    --ink-muted:#57655F;
+    --ink-faint:#8B968F;
+    --border:#D6DFDA;
+    --accent:#1C7A69;
+    --accent-ink:#0F5648;
+    --accent-soft:#E1F2EC;
+    --wrong:#B9402E;
+    --wrong-soft:#FBEAE6;
+    --amber:#9A6B12;
+    --shadow: 0 1px 2px rgba(20,30,28,0.04), 0 8px 24px -12px rgba(20,30,28,0.12);
+  }
+  @media (prefers-color-scheme: dark){
+    :root:not([data-theme="light"]){
+      --bg:#12181A;
+      --grid-line: rgba(210,225,220,0.045);
+      --surface:#1B2224;
+      --surface-alt:#212A2C;
+      --ink:#E8EFEC;
+      --ink-muted:#9FB0AA;
+      --ink-faint:#6C7C77;
+      --border:#2C3739;
+      --accent:#4FC4AC;
+      --accent-ink:#8FE0CC;
+      --accent-soft:rgba(79,196,172,0.14);
+      --wrong:#E77563;
+      --wrong-soft:rgba(231,117,99,0.14);
+      --amber:#E0AC4E;
+      --shadow: 0 1px 2px rgba(0,0,0,0.3), 0 8px 24px -12px rgba(0,0,0,0.5);
+    }
+  }
+  :root[data-theme="dark"]{
+    --bg:#12181A;
+    --grid-line: rgba(210,225,220,0.045);
+    --surface:#1B2224;
+    --surface-alt:#212A2C;
+    --ink:#E8EFEC;
+    --ink-muted:#9FB0AA;
+    --ink-faint:#6C7C77;
+    --border:#2C3739;
+    --accent:#4FC4AC;
+    --accent-ink:#8FE0CC;
+    --accent-soft:rgba(79,196,172,0.14);
+    --wrong:#E77563;
+    --wrong-soft:rgba(231,117,99,0.14);
+    --amber:#E0AC4E;
+    --shadow: 0 1px 2px rgba(0,0,0,0.3), 0 8px 24px -12px rgba(0,0,0,0.5);
+  }
+
+  *{box-sizing:border-box;}
+  html{-webkit-text-size-adjust:100%;}
+  body{
+    margin:0;
+    background:
+      linear-gradient(var(--grid-line) 1px, transparent 1px) 0 0/ 28px 28px,
+      linear-gradient(90deg, var(--grid-line) 1px, transparent 1px) 0 0/ 28px 28px,
+      var(--bg);
+    color:var(--ink);
+    font-family:"Public Sans", ui-sans-serif, system-ui, sans-serif;
+    line-height:1.5;
+    -webkit-font-smoothing:antialiased;
+  }
+  ::selection{ background: var(--accent-soft); }
+
+  .wrap{ max-width: 760px; margin: 0 auto; padding: 0 20px 96px; }
+
+  /* ---------- Header ---------- */
+  header.hero{
+    padding: 56px 0 36px;
+    border-bottom: 1px solid var(--border);
+    margin-bottom: 36px;
+  }
+  .eyebrow{
+    font-family:"JetBrains Mono", ui-monospace, monospace;
+    font-size:0.72rem;
+    letter-spacing:0.11em;
+    text-transform:uppercase;
+    color:var(--accent-ink);
+    display:flex;
+    align-items:center;
+    gap:10px;
+    margin-bottom:14px;
+  }
+  .eyebrow::before{
+    content:"";
+    width:7px; height:7px;
+    background:var(--accent);
+    border-radius:50%;
+    display:inline-block;
+    box-shadow: 0 0 0 3px var(--accent-soft);
+  }
+  h1{
+    font-family:"Petrona", Georgia, serif;
+    font-weight:700;
+    font-size: clamp(2rem, 4.4vw, 2.75rem);
+    line-height:1.08;
+    margin:0 0 14px;
+    text-wrap:balance;
+    letter-spacing:-0.01em;
+  }
+  .hero p.lede{
+    max-width:60ch;
+    color:var(--ink-muted);
+    font-size:1.03rem;
+    margin: 0 0 26px;
+  }
+  .stat-row{
+    display:flex;
+    flex-wrap:wrap;
+    align-items:center;
+    gap:14px;
+  }
+  .stat{
+    background:var(--surface);
+    border:1px solid var(--border);
+    border-radius:10px;
+    padding:12px 18px;
+    box-shadow:var(--shadow);
+    min-width:118px;
+  }
+  .stat .n{
+    font-family:"JetBrains Mono", monospace;
+    font-variant-numeric: tabular-nums;
+    font-size:1.5rem;
+    font-weight:600;
+    color:var(--ink);
+    display:block;
+  }
+  .stat .lbl{
+    font-size:0.72rem;
+    color:var(--ink-faint);
+    text-transform:uppercase;
+    letter-spacing:0.08em;
+  }
+  #progress-stat .n{ color:var(--accent-ink); }
+  .btn{
+    font-family:"JetBrains Mono", monospace;
+    font-size:0.78rem;
+    color:var(--ink-muted);
+    background:var(--surface);
+    border:1px solid var(--border);
+    border-radius:999px;
+    padding:9px 16px;
+    cursor:pointer;
+    transition: border-color 0.15s, color 0.15s;
+  }
+  .btn:hover{ border-color:var(--ink-faint); color:var(--ink); }
+  .btn.danger:hover{ border-color:var(--wrong); color:var(--wrong); }
+  .btn.primary{
+    border-color:var(--accent);
+    color:var(--accent-ink);
+    background:var(--accent-soft);
+    font-weight:600;
+  }
+  .btn.primary:hover{ border-color:var(--accent-ink); }
+  .btn.submit{
+    background:var(--accent);
+    border-color:var(--accent);
+    color:#fff;
+    font-weight:600;
+  }
+  .btn.submit:hover{ background:var(--accent-ink); border-color:var(--accent-ink); color:#fff; }
+
+  .grade-summary{
+    display:flex;
+    flex-wrap:wrap;
+    gap:10px;
+    margin-top:16px;
+  }
+  .grade-summary .gs-item{
+    font-family:"JetBrains Mono", monospace;
+    font-size:0.85rem;
+    font-weight:600;
+    padding:6px 14px;
+    border-radius:999px;
+    border:1px solid var(--border);
+  }
+  .grade-summary .gs-item.right{ color:var(--accent-ink); background:var(--accent-soft); border-color:var(--accent); }
+  .grade-summary .gs-item.wrong{ color:var(--wrong); background:var(--wrong-soft); border-color:var(--wrong); }
+  .grade-summary .gs-item.blank{ color:var(--amber); background:transparent; border-color:var(--amber); }
+
+  .answer-box.grade-correct{ border-color:var(--accent); background:var(--accent-soft); }
+  .answer-box.grade-wrong{ border-color:var(--wrong); background:var(--wrong-soft); }
+  .grade-note{
+    font-family:"JetBrains Mono", monospace;
+    font-size:0.78rem;
+    margin-top:2px;
+  }
+  .grade-note.right{ color:var(--accent-ink); }
+  .grade-note.wrong{ color:var(--wrong); }
+
+  .card-actions{
+    display:flex;
+    gap:8px;
+    justify-content:flex-end;
+  }
+  .mini-btn{
+    font-family:"JetBrains Mono", monospace;
+    font-size:0.7rem;
+    padding:4px 11px;
+    border-radius:999px;
+    border:1px solid var(--border);
+    background:var(--surface);
+    color:var(--ink-muted);
+    cursor:pointer;
+    transition: border-color 0.15s, color 0.15s;
+  }
+  .mini-btn.check-one:hover{ border-color:var(--accent); color:var(--accent-ink); }
+  .mini-btn.clear-one:hover{ border-color:var(--wrong); color:var(--wrong); }
+  .grade-summary .gs-checked{
+    font-family:"JetBrains Mono", monospace;
+    font-size:0.82rem;
+    color:var(--ink-faint);
+    align-self:center;
+  }
+
+  .choice.grade-correct{ border-color:var(--accent); background:var(--accent-soft); color:var(--ink); font-weight:600; }
+  .choice.grade-correct .letter{ color:var(--accent-ink); }
+  .choice.grade-wrong-pick{ border-color:var(--wrong); background:var(--wrong-soft); color:var(--ink); font-weight:600; }
+  .choice.grade-wrong-pick .letter{ color:var(--wrong); }
+  .choice.selected.grade-wrong-pick{ border-color:var(--wrong); background:var(--wrong-soft); color:var(--ink); }
+  .choice.selected.grade-wrong-pick .letter{ color:var(--wrong); }
+
+  .method{
+    margin-top:24px;
+    font-size:0.88rem;
+    color:var(--ink-muted);
+    border-left:2px solid var(--border);
+    padding-left:14px;
+    max-width:60ch;
+  }
+  .method strong{ color:var(--ink); font-weight:600; }
+
+  /* ---------- Cards ---------- */
+  .cards-flat{
+    display:flex;
+    flex-direction:column;
+    gap:16px;
+  }
+
+  .card{
+    background:var(--surface);
+    border:1px solid var(--border);
+    border-radius:12px;
+    padding:18px 20px 18px;
+    box-shadow:var(--shadow);
+    display:flex;
+    flex-direction:column;
+    gap:12px;
+    transition: border-color 0.15s, box-shadow 0.15s;
+  }
+  .card.done{ border-color:var(--accent); }
+  .card-num{
+    display:flex;
+    align-items:baseline;
+    gap:8px;
+    font-family:"Petrona", Georgia, serif;
+    font-style:italic;
+    font-weight:600;
+    color:var(--ink-faint);
+    font-size:0.95rem;
+  }
+  .card-num .qnum{
+    font-family:"JetBrains Mono", monospace;
+    font-style:normal;
+    font-weight:600;
+    color:var(--accent-ink);
+    background:var(--accent-soft);
+    border-radius:6px;
+    padding:1px 7px;
+    font-size:0.78rem;
+  }
+  .card-num .ptag{
+    font-family:"JetBrains Mono", monospace;
+    font-style:normal;
+    font-size:0.72rem;
+    color:var(--ink-faint);
+  }
+  .q-text{
+    font-size:0.96rem;
+    color:var(--ink);
+  }
+  .q-text .g{ font-family:"JetBrains Mono", monospace; font-size:0.92em; }
+
+  .choices{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    gap:7px;
+  }
+  .choice{
+    font-family:"JetBrains Mono", monospace;
+    font:inherit;
+    font-size:0.85rem;
+    padding:7px 9px;
+    border-radius:7px;
+    border:1px solid var(--border);
+    background:var(--surface-alt);
+    color:var(--ink-muted);
+    line-height:1.35;
+    text-align:left;
+    cursor:pointer;
+    display:block;
+    width:100%;
+  }
+  .choice:hover{ border-color:var(--ink-faint); }
+  .choice:focus-visible{ outline:2px solid var(--accent); outline-offset:1px; }
+  .choice .letter{ color:var(--ink-faint); margin-right:3px; }
+  .choice.selected{
+    background:var(--accent-soft);
+    border-color:var(--accent);
+    color:var(--ink);
+    font-weight:600;
+  }
+  .choice.selected .letter{ color:var(--accent-ink); }
+
+  .answer-box{
+    display:flex;
+    align-items:center;
+    gap:12px;
+    border:1.5px solid var(--border);
+    border-radius:8px;
+    background:var(--surface-alt);
+    padding:6px 14px;
+    transition: border-color 0.15s;
+  }
+  .answer-box:focus-within{ border-color:var(--accent); }
+  .answer-box .ab-label{
+    font-family:"JetBrains Mono", monospace;
+    font-size:0.68rem;
+    letter-spacing:0.08em;
+    text-transform:uppercase;
+    color:var(--ink-faint);
+    flex-shrink:0;
+  }
+  .answer-box input.answer-input{
+    flex:1;
+    min-width:0;
+    border:none;
+    background:transparent;
+    font-family:"JetBrains Mono", monospace;
+    font-size:0.95rem;
+    color:var(--ink);
+    padding:6px 2px;
+    outline:none;
+  }
+
+  .diagram{
+    background:var(--surface-alt);
+    border:1px solid var(--border);
+    border-radius:8px;
+    padding:10px;
+    display:flex;
+    justify-content:center;
+  }
+  .diagram svg{ max-width:100%; height:auto; display:block; }
+  .diagram table{
+    border-collapse:collapse;
+    font-family:"JetBrains Mono", monospace;
+    font-size:0.78rem;
+    font-variant-numeric: tabular-nums;
+  }
+  .diagram th, .diagram td{
+    border:1px solid var(--border);
+    padding:4px 9px;
+    text-align:center;
+  }
+  .diagram th{ color:var(--ink-faint); font-weight:500; background:var(--surface); }
+
+  footer{
+    margin-top:56px;
+    padding-top:22px;
+    border-top:1px solid var(--border);
+    color:var(--ink-faint);
+    font-size:0.8rem;
+  }
+
+  @media (max-width:480px){
+    .choices{ grid-template-columns: 1fr; }
+  }
+</style>
+
+<div class="wrap">
+
+  <header class="hero">
+    <div class="eyebrow">Elevate Prep &middot; ISEE Math Multiple Choice</div>
+    <h1>Rework Set <span style="font-size:0.5em; color:var(--ink-faint); font-weight:500;">&middot; day 3 of 4</span></h1>
+    <p class="lede">Day 3 of 4 &mdash; 30 of the 120 flagged problems (a mix from every topic and test, not one big chunk), in a fresh random order every time you load or reshuffle. No per-problem Check button &mdash; she works through this set, then hits <strong>Submit &amp; grade</strong> once at the end. The other three days are separate pages; do one a day rather than all 120 at once.</p>
+    <div class="stat-row">
+      <div class="stat"><span class="n">30</span><span class="lbl">Problems today</span></div>
+      <div class="stat" id="progress-stat"><span class="n"><span id="progress-count">0</span> / 30</span><span class="lbl">Answered</span></div>
+      <button type="button" class="btn primary" id="reshuffle">Reshuffle order</button>
+      <button type="button" class="btn submit" id="submit-grade">Submit &amp; grade</button>
+      <button type="button" class="btn" id="hide-results" hidden>Hide results</button>
+      <button type="button" class="btn danger" id="clear-all">Clear all answers</button>
+    </div>
+    <div class="grade-summary" id="grade-summary" hidden></div>
+    <p class="method"><strong>How to use this:</strong> type your final answer into the blank, or click a lettered option to select it. The small tag under each problem number (like <span style="font-family:'JetBrains Mono',monospace;">p.126</span>) just shows which page it originally came from &mdash; it's not a hint. Your answers save automatically in this browser and stay put even after a reshuffle. Once she's answered everything, <strong>Submit &amp; grade</strong> reveals every correct answer and a one-line "Why" for each, and tallies right vs. wrong &mdash; all at once, not problem by problem.</p>
+  </header>
+
+  <div class="cards-flat" id="cards-flat">
+    <div class="card" data-page="p.124">
+        <div class="card-num"><span class="qnum"></span><span class="ptag">p.124</span></div>
+        <div class="q-text">What is 3/8 as a percent?</div>
+        
+        <div class="answer-box"><span class="ab-label">Answer</span><input type="text" class="answer-input" data-qid="p124-10" autocomplete="off" spellcheck="false"></div>
+      </div>
+
+    <div class="card" data-page="p.126">
+      <div class="card-num"><span class="qnum"></span><span class="ptag">p.126</span></div>
+      <div class="q-text">60 is 75% of what number?</div>
+      <div class="answer-box"><span class="ab-label">Answer</span><input type="text" class="answer-input" data-qid="p126-9" autocomplete="off" spellcheck="false"></div>
+    </div>
+
+    <div class="card" data-page="p.128">
+      <div class="card-num"><span class="qnum"></span><span class="ptag">p.128</span></div>
+      <div class="q-text">Lucy bought a $34.49 shirt, three $2.99 pairs of socks, and $67.49 shoes. What's the estimated total?</div>
+      <div class="choices" data-qid="p128-5">
+        <button type="button" class="choice" data-letter="A"><span class="letter">A</span>$100–105</button>
+        <button type="button" class="choice" data-letter="B"><span class="letter">B</span>$105–110</button>
+        <button type="button" class="choice" data-letter="C"><span class="letter">C</span>$110–115</button>
+        <button type="button" class="choice" data-letter="D"><span class="letter">D</span>$115–120</button>
+      </div>
+    </div>
+
+    <div class="card" data-page="p.131">
+      <div class="card-num"><span class="qnum"></span><span class="ptag">p.131</span></div>
+      <div class="q-text">What is a reasonable estimation for the value of <span class="g">(121 × 28) / 64</span>?</div>
+      <div class="choices" data-qid="p131-9">
+        <button type="button" class="choice" data-letter="A"><span class="letter">A</span>25–30</button>
+        <button type="button" class="choice" data-letter="B"><span class="letter">B</span>30–45</button>
+        <button type="button" class="choice" data-letter="C"><span class="letter">C</span>45–65</button>
+        <button type="button" class="choice" data-letter="D"><span class="letter">D</span>65–75</button>
+      </div>
+    </div>
+
+    <div class="card" data-page="p.135">
+      <div class="card-num"><span class="qnum"></span><span class="ptag">p.135</span></div>
+      <div class="q-text">If 6 apples cost $9, what is the cost of 8 apples?</div>
+      <div class="answer-box"><span class="ab-label">Answer</span><input type="text" class="answer-input" data-qid="p135-5" autocomplete="off" spellcheck="false"></div>
+    </div>
+
+    <div class="card" data-page="p.136">
+      <div class="card-num"><span class="qnum"></span><span class="ptag">p.136</span></div>
+      <div class="q-text">A recipe uses 4 tbsp sugar per 12 tbsp water. For 48 tbsp water, how much sugar?</div>
+      <div class="answer-box"><span class="ab-label">Answer</span><input type="text" class="answer-input" data-qid="p136-8" autocomplete="off" spellcheck="false"></div>
+    </div>
+
+    <div class="card" data-page="p.143">
+      <div class="card-num"><span class="qnum"></span><span class="ptag">p.143</span></div>
+      <div class="q-text">4,000 milliliters is equal to how many kiloliters?</div>
+      <div class="answer-box"><span class="ab-label">Answer</span><input type="text" class="answer-input" data-qid="p143-3" autocomplete="off" spellcheck="false"></div>
+    </div>
+
+    <div class="card" data-page="p.144">
+        <div class="card-num"><span class="qnum"></span><span class="ptag">p.144</span></div>
+        <div class="q-text">How many seconds are in half of a day?</div>
+        
+        <div class="answer-box"><span class="ab-label">Answer</span><input type="text" class="answer-input" data-qid="p144-4" autocomplete="off" spellcheck="false"></div>
+      </div>
+
+    <div class="card" data-page="p.144">
+        <div class="card-num"><span class="qnum"></span><span class="ptag">p.144</span></div>
+        <div class="q-text">16 pints is equal to how many gallons? (1 gallon = 4 quarts, 1 quart = 2 pints)</div>
+        
+        <div class="answer-box"><span class="ab-label">Answer</span><input type="text" class="answer-input" data-qid="p144-10" autocomplete="off" spellcheck="false"></div>
+      </div>
+
+    <div class="card" data-page="p.150">
+      <div class="card-num"><span class="qnum"></span><span class="ptag">p.150</span></div>
+      <div class="q-text">3 apples + 1 banana costs $3.50. Each apple costs twice as much as each banana (b). Which equation finds b?</div>
+      <div class="choices" data-qid="p150-3">
+        <button type="button" class="choice" data-letter="A"><span class="letter">A</span>b + 3 = 3.50</button>
+        <button type="button" class="choice" data-letter="B"><span class="letter">B</span>7b = 3.50</button>
+        <button type="button" class="choice" data-letter="C"><span class="letter">C</span>4b = 3.50</button>
+        <button type="button" class="choice" data-letter="D"><span class="letter">D</span>5b = 3.50</button>
+      </div>
+    </div>
+
+    <div class="card" data-page="p.153">
+      <div class="card-num"><span class="qnum"></span><span class="ptag">p.153</span></div>
+      <div class="q-text">The volume of a pyramid is 75 in³. Which equation finds the width w? <span class="g">(V = ⅓lwh)</span></div>
+      <div class="choices" data-qid="p153-10">
+        <button type="button" class="choice" data-letter="A"><span class="letter">A</span>w = 3(75) × lh</button>
+        <button type="button" class="choice" data-letter="B"><span class="letter">B</span>w = 75 / (3lh)</button>
+        <button type="button" class="choice" data-letter="C"><span class="letter">C</span>w = 3(75) − lh</button>
+        <button type="button" class="choice" data-letter="D"><span class="letter">D</span>w = 3(75) / (lh)</button>
+      </div>
+    </div>
+
+    <div class="card" data-page="p.163">
+      <div class="card-num"><span class="qnum"></span><span class="ptag">p.163</span></div>
+      <div class="q-text">Find the mean of the data set: 80, 53, 22, 57, 100, 30, 8.</div>
+      <div class="answer-box"><span class="ab-label">Answer</span><input type="text" class="answer-input" data-qid="p163-4" autocomplete="off" spellcheck="false"></div>
+    </div>
+
+    <div class="card" data-page="p.176">
+      <div class="card-num"><span class="qnum"></span><span class="ptag">p.176</span></div>
+      <div class="q-text">The triangle below has an area of 24 square feet. What is its perimeter?</div>
+      <div class="diagram">
+        <svg viewBox="0 0 220 150" width="220" height="150">
+          <polygon points="20,130 20,20 190,130" fill="none" stroke="currentColor" stroke-width="2.5" style="color:var(--ink-muted)"></polygon>
+          <rect x="20" y="115" width="15" height="15" fill="none" stroke="currentColor" stroke-width="1.5" style="color:var(--ink-faint)"></rect>
+          <text x="4" y="78" font-family="JetBrains Mono, monospace" font-size="13" fill="var(--ink)">8</text>
+          <text x="95" y="146" font-family="JetBrains Mono, monospace" font-size="13" fill="var(--ink)">6 ft</text>
+          <text x="95" y="68" font-family="JetBrains Mono, monospace" font-size="13" fill="var(--ink)" transform="rotate(-33 95 68)">10 ft</text>
+        </svg>
+      </div>
+      <div class="answer-box"><span class="ab-label">Answer</span><input type="text" class="answer-input" data-qid="p176-3" autocomplete="off" spellcheck="false"></div>
+    </div>
+
+    <div class="card" data-page="p.193">
+      <div class="card-num"><span class="qnum"></span><span class="ptag">p.193</span></div>
+      <div class="q-text">What is the volume of a rectangular prism that has a width of 5 km, a height of 3 km, and a length of 6 km?</div>
+      <div class="answer-box"><span class="ab-label">Answer</span><input type="text" class="answer-input" data-qid="p193-3" autocomplete="off" spellcheck="false"></div>
+    </div>
+
+    <div class="card" data-page="T1 QR">
+        <div class="card-num"><span class="qnum"></span><span class="ptag">T1 QR</span></div>
+        <div class="q-text">Talia is twice as old as Wilson. Wilson is three times as old as Wendy. The sum of all of their ages is 50 years. How old is Talia?</div>
+        
+        <div class="answer-box"><span class="ab-label">Answer</span><input type="text" class="answer-input" data-qid="t1qr-4" autocomplete="off" spellcheck="false"></div>
+      </div>
+
+    <div class="card" data-page="T1 QR">
+        <div class="card-num"><span class="qnum"></span><span class="ptag">T1 QR</span></div>
+        <div class="q-text">If a can be divided by 4 and 6 without leaving a remainder, then a can also be divided by which number without leaving a remainder?</div>
+        
+        <div class="choices" data-qid="t1qr-10">
+          <button type="button" class="choice" data-letter="A"><span class="letter">A</span>10</button>
+          <button type="button" class="choice" data-letter="B"><span class="letter">B</span>12</button>
+          <button type="button" class="choice" data-letter="C"><span class="letter">C</span>18</button>
+          <button type="button" class="choice" data-letter="D"><span class="letter">D</span>24</button>
+        </div>
+      </div>
+
+    <div class="card" data-page="T1 QR">
+        <div class="card-num"><span class="qnum"></span><span class="ptag">T1 QR</span></div>
+        <div class="q-text">Which equation can be read as ‘4 less than twice a number is equal to the sum of the number and 11’?</div>
+        
+        <div class="choices" data-qid="t1qr-19">
+          <button type="button" class="choice" data-letter="A"><span class="letter">A</span>2x − 4 = x + 11</button>
+          <button type="button" class="choice" data-letter="B"><span class="letter">B</span>2x − 4 = x − 11</button>
+          <button type="button" class="choice" data-letter="C"><span class="letter">C</span>4 − 2x = x + 11</button>
+          <button type="button" class="choice" data-letter="D"><span class="letter">D</span>4 − 2x = x − 11</button>
+        </div>
+      </div>
+
+    <div class="card" data-page="T1 QR">
+        <div class="card-num"><span class="qnum"></span><span class="ptag">T1 QR</span></div>
+        <div class="q-text">A deck of cards contains 6 red cards, 4 blue cards, 8 green cards, 1 yellow card, and 5 white cards. If a card is randomly selected from the deck, which color has a 1 out of 4 chance of being selected?</div>
+        
+        <div class="choices" data-qid="t1qr-23">
+          <button type="button" class="choice" data-letter="A"><span class="letter">A</span>blue</button>
+          <button type="button" class="choice" data-letter="B"><span class="letter">B</span>green</button>
+          <button type="button" class="choice" data-letter="C"><span class="letter">C</span>yellow</button>
+          <button type="button" class="choice" data-letter="D"><span class="letter">D</span>red</button>
+        </div>
+      </div>
+
+    <div class="card" data-page="T1 QR">
+        <div class="card-num"><span class="qnum"></span><span class="ptag">T1 QR</span></div>
+        <div class="q-text">Which of the following illustrates the identity property for multiplication?</div>
+        
+        <div class="choices" data-qid="t1qr-28">
+          <button type="button" class="choice" data-letter="A"><span class="letter">A</span>x • y = y • x</button>
+          <button type="button" class="choice" data-letter="B"><span class="letter">B</span>x • 0 = 0</button>
+          <button type="button" class="choice" data-letter="C"><span class="letter">C</span>x + 0 = x</button>
+          <button type="button" class="choice" data-letter="D"><span class="letter">D</span>x • 1 = x</button>
+        </div>
+      </div>
+
+    <div class="card" data-page="T1 QR">
+        <div class="card-num"><span class="qnum"></span><span class="ptag">T1 QR</span></div>
+        <div class="q-text">A bag is filled with red, blue, yellow, and green marbles. The probability of choosing a red marble out of the bag is 7 out of 10. Which combination of marbles is possible?</div>
+        
+        <div class="choices" data-qid="t1qr-34">
+          <button type="button" class="choice" data-letter="A"><span class="letter">A</span>7 red marbles and 10 other marbles</button>
+          <button type="button" class="choice" data-letter="B"><span class="letter">B</span>14 red marbles and 20 other marbles</button>
+          <button type="button" class="choice" data-letter="C"><span class="letter">C</span>16 red marbles and 6 other marbles</button>
+          <button type="button" class="choice" data-letter="D"><span class="letter">D</span>21 red marbles and 9 other marbles</button>
+        </div>
+      </div>
+
+    <div class="card" data-page="T1 MA">
+        <div class="card-num"><span class="qnum"></span><span class="ptag">T1 MA</span></div>
+        <div class="q-text">A basket of fruit has 16 apples, 8 oranges, and 12 pears. What is the ratio of apples to pears?</div>
+        
+        <div class="choices" data-qid="t1ma-14">
+          <button type="button" class="choice" data-letter="A"><span class="letter">A</span>1:2</button>
+          <button type="button" class="choice" data-letter="B"><span class="letter">B</span>3:4</button>
+          <button type="button" class="choice" data-letter="C"><span class="letter">C</span>4:3</button>
+          <button type="button" class="choice" data-letter="D"><span class="letter">D</span>2:1</button>
+        </div>
+      </div>
+
+    <div class="card" data-page="T1 MA">
+        <div class="card-num"><span class="qnum"></span><span class="ptag">T1 MA</span></div>
+        <div class="q-text">Use the number sequence to answer the question. <span class="g">3, 6, 11, 18, 27, ___</span>. What is the next number in the sequence?</div>
+        
+        <div class="answer-box"><span class="ab-label">Answer</span><input type="text" class="answer-input" data-qid="t1ma-25" autocomplete="off" spellcheck="false"></div>
+      </div>
+
+    <div class="card" data-page="T2 QR">
+        <div class="card-num"><span class="qnum"></span><span class="ptag">T2 QR</span></div>
+        <div class="q-text">The points with coordinates (0, 3), (5, 1), and (0, 0) are used to form a triangle. If all three points are connected to form the triangle, what type of triangle is formed?</div>
+        
+        <div class="choices" data-qid="t2qr-15">
+          <button type="button" class="choice" data-letter="A"><span class="letter">A</span>acute</button>
+          <button type="button" class="choice" data-letter="B"><span class="letter">B</span>right</button>
+          <button type="button" class="choice" data-letter="C"><span class="letter">C</span>obtuse</button>
+          <button type="button" class="choice" data-letter="D"><span class="letter">D</span>equilateral</button>
+        </div>
+      </div>
+
+    <div class="card" data-page="T2 QR">
+        <div class="card-num"><span class="qnum"></span><span class="ptag">T2 QR</span></div>
+        <div class="q-text">Both jars below would each hold a cup of liquid if they were filled to the top. The jars are not filled to the top. If the liquids in the two jars are combined, approximately how much total liquid will there be?</div>
+        <div class="diagram"><svg viewBox="0 0 180 150" width="180" height="150">
+          <rect x="20" y="80.3" width="55" height="29.700000000000003" fill="var(--accent)" fill-opacity="0.4"></rect>
+          <rect x="20" y="20" width="55" height="90" fill="none" stroke="currentColor" stroke-width="1.5" style="color:var(--ink-muted)"></rect><rect x="110" y="56.3" width="40" height="73.7" fill="var(--accent)" fill-opacity="0.4"></rect>
+          <rect x="110" y="20" width="40" height="110" fill="none" stroke="currentColor" stroke-width="1.5" style="color:var(--ink-muted)"></rect>
+          <text x="47" y="145" text-anchor="middle" font-family="Public Sans, sans-serif" font-size="10" fill="var(--ink-faint)">~1/3 full</text>
+          <text x="130" y="145" text-anchor="middle" font-family="Public Sans, sans-serif" font-size="10" fill="var(--ink-faint)">~2/3 full</text></svg></div>
+        <div class="choices" data-qid="t2qr-30">
+          <button type="button" class="choice" data-letter="A"><span class="letter">A</span>0.5 cups</button>
+          <button type="button" class="choice" data-letter="B"><span class="letter">B</span>1 cup</button>
+          <button type="button" class="choice" data-letter="C"><span class="letter">C</span>1.5 cups</button>
+          <button type="button" class="choice" data-letter="D"><span class="letter">D</span>2 cups</button>
+        </div>
+      </div>
+
+    <div class="card" data-page="T2 MA">
+        <div class="card-num"><span class="qnum"></span><span class="ptag">T2 MA</span></div>
+        <div class="q-text">London is in a time zone that is 4 hours ahead of New York. If a plane leaves London at 11:00 P.M. and arrives in New York 9 hours later, what time is it in New York when the plane arrives?</div>
+        
+        <div class="choices" data-qid="t2ma-2">
+          <button type="button" class="choice" data-letter="A"><span class="letter">A</span>4:00 A.M.</button>
+          <button type="button" class="choice" data-letter="B"><span class="letter">B</span>8:00 A.M.</button>
+          <button type="button" class="choice" data-letter="C"><span class="letter">C</span>12:00 P.M.</button>
+          <button type="button" class="choice" data-letter="D"><span class="letter">D</span>6:00 P.M.</button>
+        </div>
+      </div>
+
+    <div class="card" data-page="T2 MA">
+        <div class="card-num"><span class="qnum"></span><span class="ptag">T2 MA</span></div>
+        <div class="q-text">The Burj Khalifa in Dubai is 2,722 feet tall. Which of the following structures has a height closest to 1/4 that of The Burj Khalifa?</div>
+        
+        <div class="choices" data-qid="t2ma-15">
+          <button type="button" class="choice" data-letter="A"><span class="letter">A</span>Anaconda Smelter Stack (585 ft)</button>
+          <button type="button" class="choice" data-letter="B"><span class="letter">B</span>Hassan II Mosque (698 ft)</button>
+          <button type="button" class="choice" data-letter="C"><span class="letter">C</span>Jinping-I Dam (1,001 ft)</button>
+          <button type="button" class="choice" data-letter="D"><span class="letter">D</span>Kiev TV Tower (1,263 ft)</button>
+        </div>
+      </div>
+
+    <div class="card" data-page="T3 QR">
+        <div class="card-num"><span class="qnum"></span><span class="ptag">T3 QR</span></div>
+        <div class="q-text">The probability of choosing a caramel chocolate from a box of chocolates is 3 out of 4. Which of the following could be a possible combination of chocolates?</div>
+        
+        <div class="choices" data-qid="t3qr-13">
+          <button type="button" class="choice" data-letter="A"><span class="letter">A</span>6 caramel and 8 other</button>
+          <button type="button" class="choice" data-letter="B"><span class="letter">B</span>9 caramel and 6 other</button>
+          <button type="button" class="choice" data-letter="C"><span class="letter">C</span>21 caramel and 7 other</button>
+          <button type="button" class="choice" data-letter="D"><span class="letter">D</span>30 caramel and 40 other</button>
+        </div>
+      </div>
+
+    <div class="card" data-page="T3 QR">
+        <div class="card-num"><span class="qnum"></span><span class="ptag">T3 QR</span></div>
+        <div class="q-text">The figure below is made up of two overlapping squares. The side length of the larger square is 8 ft, and the area of the shaded region is 28 ft². What is the side length of the smaller square?</div>
+        <div class="diagram"><svg viewBox="0 0 170 160" width="170" height="160">
+          <rect x="10" y="10" width="130" height="130" fill="none" stroke="currentColor" stroke-width="1.8" style="color:var(--ink-muted)"></rect>
+          <rect x="75" y="75" width="65" height="65" fill="var(--surface)" stroke="currentColor" stroke-width="1.8" style="color:var(--ink-muted)"></rect>
+          <path d="M10,10 L140,10 L140,140 L75,140 L75,75 L10,75 Z" fill="var(--accent)" fill-opacity="0.35"></path>
+          <text x="75" y="6" text-anchor="middle" font-family="JetBrains Mono, monospace" font-size="11" fill="var(--ink)">8 ft</text>
+          <text x="40" y="45" font-family="JetBrains Mono, monospace" font-size="11" fill="var(--ink)">28 ft²</text>
+        </svg></div>
+        <div class="answer-box"><span class="ab-label">Answer</span><input type="text" class="answer-input" data-qid="t3qr-35" autocomplete="off" spellcheck="false"></div>
+      </div>
+
+    <div class="card" data-page="T3 MA">
+        <div class="card-num"><span class="qnum"></span><span class="ptag">T3 MA</span></div>
+        <div class="q-text">If the perimeter of a rectangle is 30, which equation can be used to find the length of the rectangle? (P = 2l + 2w)</div>
+        
+        <div class="choices" data-qid="t3ma-12">
+          <button type="button" class="choice" data-letter="A"><span class="letter">A</span>l = 15 − w</button>
+          <button type="button" class="choice" data-letter="B"><span class="letter">B</span>l = 15 + w</button>
+          <button type="button" class="choice" data-letter="C"><span class="letter">C</span>l = 30 − 2w</button>
+          <button type="button" class="choice" data-letter="D"><span class="letter">D</span>l = 30 + 2w</button>
+        </div>
+      </div>
+
+    <div class="card" data-page="T3 MA">
+        <div class="card-num"><span class="qnum"></span><span class="ptag">T3 MA</span></div>
+        <div class="q-text">What is the value of the expression <span class="g">7 2/5 − 4 7/10</span>?</div>
+        
+        <div class="choices" data-qid="t3ma-24">
+          <button type="button" class="choice" data-letter="A"><span class="letter">A</span>2 3/10</button>
+          <button type="button" class="choice" data-letter="B"><span class="letter">B</span>2 7/10</button>
+          <button type="button" class="choice" data-letter="C"><span class="letter">C</span>3 3/10</button>
+          <button type="button" class="choice" data-letter="D"><span class="letter">D</span>3 7/10</button>
+        </div>
+      </div>
+
+  </div>
+
+  <footer>
+    Day 3 of 4 &mdash; 30 of the 120 flagged problems from Hannah's ISEE Math practice book, recreated and independently re-solved. Reordered randomly on every visit within this day's set. Typed answers and selected choices are saved only in this browser (via localStorage), separately per day.
+  </footer>
+
+</div>
+
+<script>
+(function(){
+  var STORAGE_KEY = 'hannah-rework-worksheet-shuffled-v1';
+  var TOTAL = 30;
+  var state = {};
+  try { state = JSON.parse(localStorage.getItem(STORAGE_KEY) || '{}'); } catch(e){ state = {}; }
+  var gradedResults = {};
+
+  var ANSWERS = {
+    'p124-10': {type:'num', value:37.5},
+    'p126-9': {type:'num', value:80},
+    'p128-5': {type:'choice', letter:'C'},
+    'p131-9': {type:'choice', letter:'C'},
+    'p135-5': {type:'num', value:12},
+    'p136-8': {type:'num', value:16},
+    'p143-3': {type:'num', value:0.004},
+    'p144-4': {type:'num', value:43200},
+    'p144-10': {type:'num', value:2},
+    'p150-3': {type:'choice', letter:'B'},
+    'p153-10': {type:'choice', letter:'D'},
+    'p163-4': {type:'num', value:50},
+    'p176-3': {type:'num', value:24},
+    'p193-3': {type:'num', value:90},
+    't1qr-4': {type:'num', value:30},
+    't1qr-10': {type:'choice', letter:'B'},
+    't1qr-19': {type:'choice', letter:'A'},
+    't1qr-23': {type:'choice', letter:'D'},
+    't1qr-28': {type:'choice', letter:'D'},
+    't1qr-34': {type:'choice', letter:'D'},
+    't1ma-14': {type:'choice', letter:'C'},
+    't1ma-25': {type:'num', value:38},
+    't2qr-15': {type:'choice', letter:'A'},
+    't2qr-30': {type:'choice', letter:'B'},
+    't2ma-2': {type:'choice', letter:'A'},
+    't2ma-15': {type:'choice', letter:'B'},
+    't3qr-13': {type:'choice', letter:'C'},
+    't3qr-35': {type:'num', value:6},
+    't3ma-12': {type:'choice', letter:'A'},
+    't3ma-24': {type:'choice', letter:'B'}
+  };
+
+  var WHY = {
+    'p124-10': '3 divided by 8 = 0.375 = 37.5%.',
+    'p126-9': '60 ÷ 0.75 = 80.',
+    'p128-5': 'exact total = $110.95.',
+    'p131-9': 'exact value ≈ 52.9.',
+    'p135-5': '$1.50/apple × 8 = $12.',
+    'p136-8': 'ratio 1/3; 48×1/3=16.',
+    'p143-3': '4,000 ÷ 1,000,000 = 0.004.',
+    'p144-4': 'Half a day = 12 hours; 12 hours x 3600 seconds/hour = 43,200 seconds.',
+    'p144-10': '16 pints / 2 pints-per-quart = 8 quarts; 8 quarts / 4 quarts-per-gallon = 2 gallons.',
+    'p150-3': '3(2b)+b=7b.',
+    'p153-10': 'w=3V/(lh).',
+    'p163-4': 'sum=350; 350/7=50.',
+    'p176-3': 'legs 6,8 → hyp 10 (6-8-10); perimeter=24.',
+    'p193-3': '5×3×6=90.',
+    't1qr-4': 'Let Wendy=w, Wilson=3w, Talia=6w; sum=10w=50 so w=5, Talia=6(5)=30.',
+    't1qr-10': 'a must be a multiple of LCM(4,6)=12, so a is always divisible by 12; 10, 18, and 24 are not guaranteed divisors of every multiple of 12.',
+    't1qr-19': '\'Twice a number\' is 2x; \'4 less than\' that is 2x-4; \'the sum of the number and 11\' is x+11, giving 2x-4=x+11.',
+    't1qr-23': 'Total cards = 6+4+8+1+5 = 24; 1/4 of 24 is 6, which matches the 6 red cards.',
+    't1qr-28': 'The multiplicative identity property states that multiplying any number by 1 leaves it unchanged: x•1=x.',
+    't1qr-34': 'For P(red)=7/10, red must equal 7k and total 10k for an integer k (so others=3k); only 21 red (k=3) with 9 others (3×3=9) fits.',
+    't1ma-14': '16 apples to 12 pears simplifies to 4:3.',
+    't1ma-25': 'The differences increase by 2 each time (3,5,7,9,...); the next difference is 11, so 27+11=38.',
+    't2qr-15': 'Side lengths squared are 9, 26, 29; since the longest side squared (29) is less than the sum of the other two (9+26=35), the largest angle is acute, making the triangle acute.',
+    't2qr-30': 'The shorter jar looks about 1/3 full and the taller jar about 2/3 full; 1/3 + 2/3 = 1 full cup combined.',
+    't2ma-2': '11:00 PM London time equals 7:00 PM New York time (4 hours behind); adding the 9-hour flight gives 4:00 AM New York time.',
+    't2ma-15': '1/4 of 2,722 is 680.5 feet; 698 feet (Hassan II Mosque) is closest, only 17.5 feet away.',
+    't3qr-13': 'Caramel/total must equal 3/4; only 21/(21+7)=21/28=3/4 satisfies this (others give 3/7, 3/5, 3/7 respectively).',
+    't3qr-35': 'Shaded area = larger square area - smaller square area: 64 - s² = 28, so s² = 36, s = 6 ft.',
+    't3ma-12': 'From 30=2l+2w, dividing by 2 gives 15=l+w, so l=15-w.',
+    't3ma-24': '7 2/5 = 7 4/10 = 6 14/10; 6 14/10 - 4 7/10 = 2 7/10.'
+  };
+
+  function save(){
+    try { localStorage.setItem(STORAGE_KEY, JSON.stringify(state)); } catch(e){}
+  }
+
+  function updateProgress(){
+    var count = Object.keys(state).filter(function(k){ return state[k]; }).length;
+    var el = document.getElementById('progress-count');
+    if (el) el.textContent = count;
+  }
+
+  function markCard(qid){
+    var el = document.querySelector('[data-qid="' + qid + '"]');
+    if (!el) return;
+    var card = el.closest('.card');
+    if (!card) return;
+    if (state[qid]) card.classList.add('done');
+    else card.classList.remove('done');
+  }
+
+  function renumber(){
+    var cards = document.querySelectorAll('#cards-flat .card');
+    cards.forEach(function(card, i){
+      var qnum = card.querySelector('.qnum');
+      if (qnum) qnum.textContent = 'Q' + (i + 1);
+    });
+  }
+
+  function shuffle(){
+    var container = document.getElementById('cards-flat');
+    var cards = Array.prototype.slice.call(container.children);
+    for (var i = cards.length - 1; i > 0; i--){
+      var j = Math.floor(Math.random() * (i + 1));
+      var tmp = cards[i]; cards[i] = cards[j]; cards[j] = tmp;
+    }
+    cards.forEach(function(c){ container.appendChild(c); });
+    renumber();
+  }
+
+  function parseNum(raw){
+    if (raw == null) return null;
+    var s = String(raw).trim().replace(/,/g, '');
+    if (!s) return null;
+    var m = s.match(/-?\d+(\.\d+)?/);
+    if (!m) return null;
+    var n = parseFloat(m[0]);
+    return isNaN(n) ? null : n;
+  }
+
+  function clearGradeMarks(qidToClear){
+    var selector = qidToClear ? '[data-qid="' + qidToClear + '"]' : '[data-qid]';
+    var seen = [];
+    document.querySelectorAll(selector).forEach(function(el){
+      var card = el.closest('.card');
+      if (!card || seen.indexOf(card) !== -1) return;
+      seen.push(card);
+      card.querySelectorAll('.answer-box').forEach(function(b){ b.classList.remove('grade-correct', 'grade-wrong'); });
+      card.querySelectorAll('.choice').forEach(function(c){ c.classList.remove('grade-correct', 'grade-wrong-pick'); });
+      var note = card.querySelector('.grade-note');
+      if (note) note.remove();
+    });
+    if (qidToClear) delete gradedResults[qidToClear];
+    else gradedResults = {};
+  }
+
+  function maybeClearGradeOnEdit(qid){
+    if (!gradedResults.hasOwnProperty(qid)) return;
+    clearGradeMarks(qid);
+    refreshSummary();
+  }
+
+  function refreshSummary(){
+    var keys = Object.keys(gradedResults);
+    var summary = document.getElementById('grade-summary');
+    var hideBtn = document.getElementById('hide-results');
+    if (keys.length === 0){
+      if (summary) summary.hidden = true;
+      if (hideBtn) hideBtn.hidden = true;
+      return;
+    }
+    var correct = 0, wrong = 0, blank = 0;
+    keys.forEach(function(k){
+      if (gradedResults[k] === 'correct') correct++;
+      else if (gradedResults[k] === 'wrong') wrong++;
+      else if (gradedResults[k] === 'blank') blank++;
+    });
+    if (summary){
+      summary.hidden = false;
+      var html = '<span class="gs-checked">Checked ' + keys.length + '/' + TOTAL + '</span>';
+      html += '<span class="gs-item right">' + correct + ' correct</span><span class="gs-item wrong">' + wrong + ' wrong</span>';
+      if (blank) html += '<span class="gs-item blank">' + blank + ' left blank</span>';
+      summary.innerHTML = html;
+    }
+    if (hideBtn) hideBtn.hidden = false;
+  }
+
+  function gradeOne(qid){
+    var ans = ANSWERS[qid];
+    if (!ans) return;
+    var qidEl = document.querySelector('[data-qid="' + qid + '"]');
+    var card = qidEl ? qidEl.closest('.card') : null;
+    if (card){
+      var oldNote = card.querySelector('.grade-note');
+      if (oldNote) oldNote.remove();
+    }
+    if (ans.type === 'num'){
+      var inp = document.querySelector('input.answer-input[data-qid="' + qid + '"]');
+      if (!inp) return;
+      var box = inp.closest('.answer-box');
+      box.classList.remove('grade-correct', 'grade-wrong');
+      var raw = inp.value.trim();
+      var userVal = parseNum(raw);
+      var note = document.createElement('div');
+      note.className = 'grade-note';
+      var whyHtml = WHY[qid] ? ' <b>Why:</b> ' + WHY[qid] : '';
+      if (raw === ''){
+        gradedResults[qid] = 'blank';
+        box.classList.add('grade-wrong');
+        note.classList.add('wrong');
+        note.innerHTML = 'Correct answer: ' + ans.value + whyHtml;
+      } else if (userVal != null && Math.abs(userVal - ans.value) < 0.01){
+        gradedResults[qid] = 'correct';
+        box.classList.add('grade-correct');
+        note.classList.add('right');
+        note.innerHTML = 'Correct!' + whyHtml;
+      } else {
+        gradedResults[qid] = 'wrong';
+        box.classList.add('grade-wrong');
+        note.classList.add('wrong');
+        note.innerHTML = 'You put &quot;' + raw + '&quot; — correct answer: ' + ans.value + whyHtml;
+      }
+      box.insertAdjacentElement('afterend', note);
+    } else if (ans.type === 'choice'){
+      var group = document.querySelector('.choices[data-qid="' + qid + '"]');
+      if (!group) return;
+      var buttons = group.querySelectorAll('.choice');
+      buttons.forEach(function(b){ b.classList.remove('grade-correct', 'grade-wrong-pick'); });
+      var picked = null;
+      buttons.forEach(function(b){
+        if (b.classList.contains('selected')) picked = b.dataset.letter;
+        if (b.dataset.letter === ans.letter) b.classList.add('grade-correct');
+      });
+      var note2 = document.createElement('div');
+      note2.className = 'grade-note';
+      var whyHtml2 = WHY[qid] ? ' <b>Why:</b> ' + WHY[qid] : '';
+      if (picked == null){
+        gradedResults[qid] = 'blank';
+        note2.classList.add('wrong');
+        note2.innerHTML = 'Correct answer: ' + ans.letter + '.' + whyHtml2;
+      } else if (picked === ans.letter){
+        gradedResults[qid] = 'correct';
+        note2.classList.add('right');
+        note2.innerHTML = 'Correct!' + whyHtml2;
+      } else {
+        gradedResults[qid] = 'wrong';
+        buttons.forEach(function(b){
+          if (b.dataset.letter === picked) b.classList.add('grade-wrong-pick');
+        });
+        note2.classList.add('wrong');
+        note2.innerHTML = 'Correct answer: ' + ans.letter + '.' + whyHtml2;
+      }
+      group.insertAdjacentElement('afterend', note2);
+    }
+  }
+
+  document.querySelectorAll('.answer-input').forEach(function(inp){
+    var qid = inp.dataset.qid;
+    if (state[qid]) inp.value = state[qid];
+    markCard(qid);
+    inp.addEventListener('input', function(){
+      state[qid] = inp.value.trim();
+      if (!state[qid]) delete state[qid];
+      save();
+      markCard(qid);
+      updateProgress();
+      maybeClearGradeOnEdit(qid);
+    });
+  });
+
+  document.querySelectorAll('.choices').forEach(function(group){
+    var qid = group.dataset.qid;
+    var choices = group.querySelectorAll('.choice');
+    choices.forEach(function(ch){
+      var letter = ch.dataset.letter;
+      if (state[qid] === letter) ch.classList.add('selected');
+    });
+    markCard(qid);
+    choices.forEach(function(ch){
+      ch.addEventListener('click', function(){
+        var letter = ch.dataset.letter;
+        var already = ch.classList.contains('selected');
+        choices.forEach(function(c){ c.classList.remove('selected'); });
+        if (already){
+          delete state[qid];
+        } else {
+          ch.classList.add('selected');
+          state[qid] = letter;
+        }
+        save();
+        markCard(qid);
+        updateProgress();
+        maybeClearGradeOnEdit(qid);
+      });
+    });
+  });
+
+  function gradeAll(){
+    Object.keys(ANSWERS).forEach(function(qid){ gradeOne(qid); });
+    refreshSummary();
+    var summary = document.getElementById('grade-summary');
+    summary && summary.scrollIntoView({ behavior:'smooth', block:'nearest' });
+  }
+
+  var submitBtn = document.getElementById('submit-grade');
+  if (submitBtn){
+    submitBtn.addEventListener('click', gradeAll);
+  }
+
+  var hideResultsBtn = document.getElementById('hide-results');
+  if (hideResultsBtn){
+    hideResultsBtn.addEventListener('click', function(){
+      clearGradeMarks();
+      refreshSummary();
+    });
+  }
+
+  var reshuffleBtn = document.getElementById('reshuffle');
+  if (reshuffleBtn){
+    reshuffleBtn.addEventListener('click', shuffle);
+  }
+
+  var clearBtn = document.getElementById('clear-all');
+  if (clearBtn){
+    clearBtn.addEventListener('click', function(){
+      if (!window.confirm('Clear all answers on this worksheet? This can\'t be undone.')) return;
+      state = {};
+      save();
+      document.querySelectorAll('.answer-input').forEach(function(inp){ inp.value = ''; });
+      document.querySelectorAll('.choice.selected').forEach(function(c){ c.classList.remove('selected'); });
+      document.querySelectorAll('.card.done').forEach(function(c){ c.classList.remove('done'); });
+      clearGradeMarks();
+      refreshSummary();
+      updateProgress();
+    });
+  }
+
+  shuffle();
+  updateProgress();
+})();
+</script>
