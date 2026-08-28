@@ -1376,7 +1376,7 @@
         <div class="diagram"><svg viewBox="0 0 260 180" width="260" height="180">
           <path d="M90,90 L15.0,90.0 A75,75 0 0 1 90.0,15.0 Z" fill="var(--accent)" fill-opacity="0.55" stroke="var(--surface)" stroke-width="1.5"/>
           <path d="M90,90 L90.0,15.0 A75,75 0 0 1 165.0,90.0 Z" fill="var(--accent)" fill-opacity="0.3" stroke="var(--surface)" stroke-width="1.5"/>
-          <path d="M90,90 L165.0,90.0 A75,75 0 1 1 19.5,115.7 Z" fill="var(--ink-faint)" fill-opacity="0.35" stroke="var(--surface)" stroke-width="1.5"/>
+          <path d="M90,90 L165.0,90.0 A75,75 0 0 1 19.5,115.7 Z" fill="var(--ink-faint)" fill-opacity="0.35" stroke="var(--surface)" stroke-width="1.5"/>
           <path d="M90,90 L19.5,115.7 A75,75 0 0 1 15.0,90.0 Z" fill="var(--amber)" fill-opacity="0.5" stroke="var(--surface)" stroke-width="1.5"/>
           <text x="45" y="45" font-family="Public Sans, sans-serif" font-size="11" fill="var(--ink)">June</text>
           <text x="150" y="45" font-family="Public Sans, sans-serif" font-size="11" fill="var(--ink)">August</text>
@@ -1960,6 +1960,129 @@
     't3ma-29': {type:'num', value:15}
   };
 
+  var WHY = {
+    'p124-1': '0.5 x 100 = 50%.',
+    'p124-10': '3 divided by 8 = 0.375 = 37.5%.',
+    'p124-6': '3 3/4 = 3.75; 3.75 x 100 = 375%.',
+    'p126-10': '30 ÷ 1.50 = 20.',
+    'p126-5': '9 ÷ 45 = 0.20.',
+    'p126-6': '60 ÷ 30 = 2.00.',
+    'p126-7': '36 ÷ 3,600 = 0.01.',
+    'p126-9': '60 ÷ 0.75 = 80.',
+    'p127-9': '90 ÷ 1.50 = 60.',
+    'p128-4': 'exact value ≈ 1,317.',
+    'p128-5': 'exact total = $110.95.',
+    'p130-4': 'exact total = $40.95.',
+    'p130-6': '1/4 of 82,100 = 20,525, closest to 18,960.',
+    'p131-8': 'total 20 pints ÷ 6 ≈ 3.33.',
+    'p131-9': 'exact value ≈ 52.9.',
+    'p132-6': 'step=0.8 (labeled 3.7→4.5) → J=3.7, K=5.3, L=7.7.',
+    'p134-3': 'step=(31−7)/6=4; B is 4 steps from 7 → 23.',
+    'p135-4': 'rate=0.3 in/hr; 4.2/0.3=14.',
+    'p135-5': '$1.50/apple × 8 = $12.',
+    'p135-8': '$0.75/prize × 10 = $7.50.',
+    'p136-3': '60 words/min; 480/60=8.',
+    'p136-5': '0.55 in/hr × 10 = 5.5.',
+    'p136-8': 'ratio 1/3; 48×1/3=16.',
+    'p141-10': 'P(white)=2/7; 4/14=2/7.',
+    'p141-9': '9/(9+15)=9/24=3/8.',
+    'p143-10': '200 ÷ 100 = 2.',
+    'p143-2': '2.4 × 1,000 = 2,400.',
+    'p143-3': '4,000 ÷ 1,000,000 = 0.004.',
+    'p144-1': '530 mL divided by 1000 mL/L equals 0.53 L.',
+    'p144-10': '16 pints / 2 pints-per-quart = 8 quarts; 8 quarts / 4 quarts-per-gallon = 2 gallons.',
+    'p144-3': '1.5 gallons x 4 quarts/gallon = 6 quarts; 6 quarts x 2 pints/quart = 12 pints.',
+    'p144-4': 'Half a day = 12 hours; 12 hours x 3600 seconds/hour = 43,200 seconds.',
+    'p144-5': '0.06 kg x 1,000,000 mg/kg = 60,000 mg.',
+    'p144-8': '195 / 60 = 3 hours with remainder 15 minutes; 15/60 = 0.25, so 3.25 hours.',
+    'p144-9': '70 cm / 100 cm-per-meter = 0.7 meters.',
+    'p147-1': 'add 8 to both sides.',
+    'p147-5': 'y/3=20, so y=60.',
+    'p147-7': '−2x=−2, so x=1.',
+    'p150-3': '3(2b)+b=7b.',
+    'p152-1': 'c+(c+6)=2c+6.',
+    'p152-4': '½n+5 set equal to 2n−3.',
+    'p152-6': 'the sum (n+1) must be grouped first.',
+    'p153-10': 'w=3V/(lh).',
+    'p159-3': '125 cookies × $2 = $250.',
+    'p162-4': '96−7=89.',
+    'p163-3': 'mean(16) &gt; mode(15).',
+    'p163-4': 'sum=350; 350/7=50.',
+    'p164-9': 'smallest = 13 &minus; 2(3) = 7.',
+    'p166-7': 'only Brenda is both over 13 and in NY.',
+    'p169-6': '63−54=9.',
+    'p176-3': 'legs 6,8 → hyp 10 (6-8-10); perimeter=24.',
+    'p177-10': '270ft²=30yd²; ÷10=3.',
+    'p181-10': 'outer(81)−inner(36)=45.',
+    'p181-9': 'each small triangle=3; 3×3=9.',
+    'p193-3': '5×3×6=90.',
+    'p194-10': 'large cube side=3; unit cube side=1; SA=6.',
+    'p194-9': 'small cube side=2; (4/2)³=8.',
+    't1ma-14': '16 apples to 12 pears simplifies to 4:3.',
+    't1ma-17': '964,254 × 4 ≈ 3,857,016, which is closest to Los Angeles\'s population of 3,793,621.',
+    't1ma-21': 'Converting to decimals: 4/9≈0.444, 7/12≈0.583, 3/5=0.6, 3/7≈0.4286; 3/7 is the smallest.',
+    't1ma-23': '3 yards = 9 ft = 9×12 = 108 inches (36 inches is only 1 yard).',
+    't1ma-25': 'The differences increase by 2 each time (3,5,7,9,...); the next difference is 11, so 27+11=38.',
+    't1ma-27': 'All regular hexagons are similar to each other by definition; the other pairs mix non-proportional or different shape types (a square is not similar to a non-square rectangle, and a trapezoid is not similar to a parallelogram).',
+    't1ma-6': 'There are 3 circles among 12 total shapes (3 circles, 5 pluses, 4 stars), giving probability 3/12=1/4.',
+    't1ma-7': '50-(□+3)=40 → □+3=10 → □=7.',
+    't1qr-10': 'a must be a multiple of LCM(4,6)=12, so a is always divisible by 12; 10, 18, and 24 are not guaranteed divisors of every multiple of 12.',
+    't1qr-12': '24 ÷ (3/4) = 24 × 4/3 = 32 cups.',
+    't1qr-15': 'Known scores have min 75, max 88 (range 13); a missing score of 74 makes the min 74, giving range 88-74=14.',
+    't1qr-16': 'The dot counts follow the triangular numbers 1,3,6,10,... (adding 2,3,4,...); the 6th triangular number is 1+2+3+4+5+6=21.',
+    't1qr-19': '\'Twice a number\' is 2x; \'4 less than\' that is 2x-4; \'the sum of the number and 11\' is x+11, giving 2x-4=x+11.',
+    't1qr-20': 'Denominator = 50×60=3000; numerator=9000; 9000/3000=3.',
+    't1qr-21': 'Plant 3\'s heights (1,2,4,8,16,32) double each day; continuing the doubling, Day 6=64 and Day 7=128.',
+    't1qr-22': 'Summing the shaded fractions of the three bars, 3/8 + 2/5 + 3/4 = 61/40 ≈ 1.525, which is closest to 1 1/2.',
+    't1qr-23': 'Total cards = 6+4+8+1+5 = 24; 1/4 of 24 is 6, which matches the 6 red cards.',
+    't1qr-25': 'The cross/plus figure has an irregular arm arrangement that preserves symmetry across the vertical (x) and horizontal (y) lines but not the diagonal (z) line.',
+    't1qr-26': 'The figure depicts a cube built from a 5x5x5 arrangement of unit cubes, giving 5^3=125 total small cubes.',
+    't1qr-27': 'Rounding: 58≈60, 453≈450, 29≈30; (60×450)/30 = 900, which falls between 800 and 1200.',
+    't1qr-28': 'The multiplicative identity property states that multiplying any number by 1 leaves it unchanged: x•1=x.',
+    't1qr-29': '3 of the 6 equal triangular wedges are shaded, so shaded area = 42 × (3/6) = 21 cm2.',
+    't1qr-3': '21 rock songs / 3 ratio units = 7 per unit, so pop songs = 7 units × 7 = 49.',
+    't1qr-32': 'June\'s sector appears to be one quarter of the circle (bounded by perpendicular lines through the center); 1/4 of 120 = 30.',
+    't1qr-33': 'Girls (Math+English) = 15+20=35; Boys (Math+English) = 10+25=35 — equal, confirming statement A; the other statements don\'t match the graph\'s values (totals differ by 15 not 20, art difference is 15 not 3, and the D sum is 40 not 50).',
+    't1qr-34': 'For P(red)=7/10, red must equal 7k and total 10k for an integer k (so others=3k); only 21 red (k=3) with 9 others (3×3=9) fits.',
+    't1qr-38': 'A straight cut through one vertex yields two triangles, while a cut across two sides yields a triangle plus a quadrilateral with at most 2 right angles (a trapezoid), never a full rectangle since the hypotenuse is slanted.',
+    't1qr-4': 'Let Wendy=w, Wilson=3w, Talia=6w; sum=10w=50 so w=5, Talia=6(5)=30.',
+    't1qr-7': 'Rate = 80 miles/90 min; time for 120 miles = 120×90/80 = 135 minutes.',
+    't1qr-8': 'The diagram\'s tick marks show the large cube\'s edge is 3 times the small cube\'s edge; surface area scales with the square of the edge ratio (3^2=9), so 12 × 9 = 108 sq ft.',
+    't1qr-9': '6x=-30 gives x=-5; 4+y=10 gives y=6; product = -5×6 = -30.',
+    't2ma-1': 'For this staircase-shaped rectilinear figure, horizontal segments always sum to the bounding width (13 in) doubled and vertical segments to the bounding height (12 in) doubled, so perimeter = 2(13+12) = 50 in.',
+    't2ma-13': 'As decimals, 1/4=0.25 and 2/5=0.4; only 1/3≈0.333 falls between them (1/2=0.5 and 4/7≈0.57 are too big, 2/9≈0.22 is too small).',
+    't2ma-14': '54 = 2×27 = 2×3×3×3 = 2×3³; option C is not a full prime factorization since 27 isn\'t prime, and D (=56) is numerically wrong.',
+    't2ma-15': '1/4 of 2,722 is 680.5 feet; 698 feet (Hassan II Mosque) is closest, only 17.5 feet away.',
+    't2ma-2': '11:00 PM London time equals 7:00 PM New York time (4 hours behind); adding the 9-hour flight gives 4:00 AM New York time.',
+    't2ma-24': 'None of the values are whole numbers or integers, but all are ratios of integers, making \'rational numbers\' the classification that correctly and unambiguously describes the set as given.',
+    't2ma-28': 'The number of boxes times 4 candles per box equals the total 36 candles, so b×4=36 (giving b=9).',
+    't2ma-5': 'Only option B is both a true equation (5×2=10=45−35) and follows the correct distributive form a(b−c)=ab−ac.',
+    't2qr-13': 'Known totals: bananas $2.25 + peaches $2.50 + grapefruit $6.00 = $10.75; remaining $2.25 for plums at $0.75 each = 3 plums.',
+    't2qr-15': 'Side lengths squared are 9, 26, 29; since the longest side squared (29) is less than the sum of the other two (9+26=35), the largest angle is acute, making the triangle acute.',
+    't2qr-16': 'Outer dimensions become 14m x 12m (168 m²); subtracting the 12x10 garden (120 m²) leaves 48 m² of walkway.',
+    't2qr-21': 'The pattern uses n consecutive odd numbers continuing from the previous set; for 5³ that\'s the 5 odd numbers starting right after 19: 21+23+25+27+29 = 125 = 5³.',
+    't2qr-24': 'The grid shows the prism divided into 48 small unit cubes, so each small cube has volume 48/48 = 1 ft³.',
+    't2qr-30': 'The shorter jar looks about 1/3 full and the taller jar about 2/3 full; 1/3 + 2/3 = 1 full cup combined.',
+    't2qr-31': 'Checking each row: 2(4)-1=7, 2(7)-1=13, 2(8)-1=15, 2(10)-1=19 — all match, so the rule is 2♦-1=☐.',
+    't2qr-34': 'The drop between readings increases by 5 each interval (5,10,15,20,25); continuing, the next drops are 30 (to 245 at 35 min) then 35 (to 210 at 40 min).',
+    't2qr-5': 'Let plate=p: mug=3p, bowl=2p; 3p+p+2p=6p=24, so p=4; bowl=2p=8.',
+    't3ma-1': '29 ÷ 7 = 4 remainder 1, so 29/7 = 4 1/7.',
+    't3ma-12': 'From 30=2l+2w, dividing by 2 gives 15=l+w, so l=15-w.',
+    't3ma-16': 'Regrouping the addends without changing their order is the associative property.',
+    't3ma-20': '1 cm = 10 mm, so 40 cm = 400 mm.',
+    't3ma-23': '12 × 214 = 2,568.',
+    't3ma-24': '7 2/5 = 7 4/10 = 6 14/10; 6 14/10 - 4 7/10 = 2 7/10.',
+    't3ma-29': 'Sorted values: 5, 10, 10, 15, 25, 30, 40; the median (4th of 7) is 15.',
+    't3ma-9': 'The table shows output = input × (input/2 + 1) (verified: 12→84, 10→60, 6→24, 4→12, 2→4). For input 18: 18×(9+1)=18×10=180.',
+    't3qr-1': 'x must be a common factor of 12 and 18, so the largest possible x is GCF(12,18)=6; only 6 is guaranteed divisible by every possible value of x (1,2,3,6).',
+    't3qr-13': 'Caramel/total must equal 3/4; only 21/(21+7)=21/28=3/4 satisfies this (others give 3/7, 3/5, 3/7 respectively).',
+    't3qr-22': 'Each person makes 6/30 × 45 = 9 bags in 45 minutes; with both Gina and Weston working, total = 2 × 9 = 18.',
+    't3qr-29': 'Each of the 6 faces has area 24/6=4 in²; side length = √4 = 2 in.',
+    't3qr-30': 'For row (6,x): 6=(x+4)/2 gives x=8. For row (y,16): y=(16+4)/2=10. x+y=8+10=18.',
+    't3qr-35': 'Shaded area = larger square area - smaller square area: 64 - s² = 28, so s² = 36, s = 6 ft.',
+    't3qr-36': 'Consecutive differences alternate -1,-2,-1,-2,-1 (Nov45,Dec44,Jan42,Feb41,Mar39,Apr38); continuing the alternation, Apr→May is -2 (36), May→Jun is -1 (35), Jun→Jul is -2, giving July=33.'
+  };
+
   function save(){
     try { localStorage.setItem(STORAGE_KEY, JSON.stringify(state)); } catch(e){}
   }
@@ -2054,21 +2177,22 @@
       var userVal = parseNum(raw);
       var note = document.createElement('div');
       note.className = 'grade-note';
+      var whyHtml = WHY[qid] ? ' <b>Why:</b> ' + WHY[qid] : '';
       if (raw === ''){
         gradedResults[qid] = 'blank';
         box.classList.add('grade-wrong');
         note.classList.add('wrong');
-        note.textContent = 'Correct answer: ' + ans.value;
+        note.innerHTML = 'Correct answer: ' + ans.value + whyHtml;
       } else if (userVal != null && Math.abs(userVal - ans.value) < 0.01){
         gradedResults[qid] = 'correct';
         box.classList.add('grade-correct');
         note.classList.add('right');
-        note.textContent = 'Correct!';
+        note.innerHTML = 'Correct!' + whyHtml;
       } else {
         gradedResults[qid] = 'wrong';
         box.classList.add('grade-wrong');
         note.classList.add('wrong');
-        note.textContent = 'You put "' + raw + '" — correct answer: ' + ans.value;
+        note.innerHTML = 'You put &quot;' + raw + '&quot; — correct answer: ' + ans.value + whyHtml;
       }
       (anchor || box).insertAdjacentElement('afterend', note);
     } else if (ans.type === 'choice'){
@@ -2081,16 +2205,26 @@
         if (b.classList.contains('selected')) picked = b.dataset.letter;
         if (b.dataset.letter === ans.letter) b.classList.add('grade-correct');
       });
+      var note2 = document.createElement('div');
+      note2.className = 'grade-note';
+      var whyHtml2 = WHY[qid] ? ' <b>Why:</b> ' + WHY[qid] : '';
       if (picked == null){
         gradedResults[qid] = 'blank';
+        note2.classList.add('wrong');
+        note2.innerHTML = 'Correct answer: ' + ans.letter + '.' + whyHtml2;
       } else if (picked === ans.letter){
         gradedResults[qid] = 'correct';
+        note2.classList.add('right');
+        note2.innerHTML = 'Correct!' + whyHtml2;
       } else {
         gradedResults[qid] = 'wrong';
         buttons.forEach(function(b){
           if (b.dataset.letter === picked) b.classList.add('grade-wrong-pick');
         });
+        note2.classList.add('wrong');
+        note2.innerHTML = 'Correct answer: ' + ans.letter + '.' + whyHtml2;
       }
+      (anchor || group).insertAdjacentElement('afterend', note2);
     }
   }
 
