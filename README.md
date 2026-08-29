@@ -17,6 +17,7 @@ worksheets/       Generated HTML study tools
   shuffled-rework-set-testmode-day2.html    30 of the 120, day 2 of a 4-day split (test mode)
   shuffled-rework-set-testmode-day3.html    30 of the 120, day 3 of a 4-day split (test mode)
   shuffled-rework-set-testmode-day4.html    30 of the 120, day 4 of a 4-day split (test mode)
+  redo-set-1.html                           Problems missed a 2nd time, rebuilt with fresh numbers
 ```
 
 ### `worksheets/full-workbook.html`
@@ -36,6 +37,10 @@ Same content and behavior as above, minus the per-problem Check/Clear buttons �
 ### `worksheets/shuffled-rework-set-testmode-day{1,2,3,4}.html`
 
 The 120 problems are a lot to finish in one sitting, so these split the shuffled test-mode set into four independent 30-problem days — one file per day. Each day's 30 problems were assigned by taking the full 120 in their natural page/test order and distributing round-robin across the four days, so every day gets a mix of topics and tests rather than one being all percents and another all geometry. Each day has its own random shuffle, its own progress tracking, and grades independently of the others.
+
+### `worksheets/redo-set-1.html`
+
+A one-off set built from problems Hannah got wrong a second time on a graded worksheet. Same problem type and difficulty as the original miss, but with the numbers changed and each one independently re-solved from scratch, so it's a genuine retry rather than the same problem with a memorized answer. No per-problem Check — Submit & grade at the end, same as the test-mode worksheets. Future "missed again" sets should follow this pattern (`redo-set-2.html`, etc.) rather than reusing this file.
 
 ## Using the worksheets
 
