@@ -18,8 +18,8 @@ worksheets/       Generated HTML study tools
   shuffled-rework-set-testmode-day3.html    30 of the 120, day 3 of a 4-day split (test mode)
   shuffled-rework-set-testmode-day4.html    30 of the 120, day 4 of a 4-day split (test mode)
   redo-set-1.html                           Problems missed a 2nd time, rebuilt with fresh numbers
-  online-set-1.html                         10 questions from an online session she rushed past unread
-  redo-set-2.html                           7 problems she genuinely missed on that same session, fresh numbers
+  online-set-1.html                         Problems 21-30 from an online session, rushed past unread
+  redo-set-2.html                           6 problems she genuinely missed on that same session, fresh numbers
 ```
 
 ### `worksheets/full-workbook.html`
@@ -46,11 +46,11 @@ A one-off set built from problems Hannah got wrong a second time on a graded wor
 
 ### `worksheets/online-set-1.html`
 
-The last 10 questions from a session on an online ISEE practice platform (not the *Elevate Prep* book) that she clicked through quickly without actually reading — same 10 questions and same numbers, presented fresh with blanks so they get a genuine first attempt. Sourced from screenshots of the platform's post-answer review screens, independently re-verified rather than trusted from the reveal text. Same test-mode behavior as the sets above: no per-problem Check, Submit & grade at the end.
+Problems 21 through 30 from a session on an online ISEE practice platform (not the *Elevate Prep* book) that she clicked through quickly without actually reading — same 10 questions and same numbers, presented fresh with blanks so they get a genuine first attempt. Sourced from screenshots of the platform's post-answer review screens, independently re-verified rather than trusted from the reveal text. Same test-mode behavior as the sets above: no per-problem Check, Submit & grade at the end.
 
 ### `worksheets/redo-set-2.html`
 
-The other side of that same online session: 7 problems she actually read and answered — and got wrong for real, before the rushing that produced `online-set-1.html` started. Same pattern as `redo-set-1.html`: numbers changed, each one independently re-solved from scratch, no per-problem Check.
+The other side of that same online session: 6 problems (numbers 20 and 29a/33/36/38/5 from the platform's own numbering, outside the 21&ndash;30 range) she actually read and answered — and got wrong for real, before the rushing that produced `online-set-1.html` started. Same pattern as `redo-set-1.html`: numbers changed, each one independently re-solved from scratch, no per-problem Check.
 
 ## Working on this repo with Claude Code
 
