@@ -1,0 +1,718 @@
+<title>Redo Set 2 (Fresh Numbers)</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Petrona:ital,wght@0,500;0,600;0,700;1,500&family=Public+Sans:ital,wght@0,400;0,500;0,600;1,400&family=JetBrains+Mono:wght@400;500;600&display=swap">
+<style>
+  :root{
+    --bg:#EEF2F0;
+    --grid-line: rgba(30,42,40,0.055);
+    --surface:#FFFFFF;
+    --surface-alt:#E7EDEA;
+    --ink:#1E2A28;
+    --ink-muted:#57655F;
+    --ink-faint:#8B968F;
+    --border:#D6DFDA;
+    --accent:#1C7A69;
+    --accent-ink:#0F5648;
+    --accent-soft:#E1F2EC;
+    --wrong:#B9402E;
+    --wrong-soft:#FBEAE6;
+    --amber:#9A6B12;
+    --shadow: 0 1px 2px rgba(20,30,28,0.04), 0 8px 24px -12px rgba(20,30,28,0.12);
+  }
+  @media (prefers-color-scheme: dark){
+    :root:not([data-theme="light"]){
+      --bg:#12181A;
+      --grid-line: rgba(210,225,220,0.045);
+      --surface:#1B2224;
+      --surface-alt:#212A2C;
+      --ink:#E8EFEC;
+      --ink-muted:#9FB0AA;
+      --ink-faint:#6C7C77;
+      --border:#2C3739;
+      --accent:#4FC4AC;
+      --accent-ink:#8FE0CC;
+      --accent-soft:rgba(79,196,172,0.14);
+      --wrong:#E77563;
+      --wrong-soft:rgba(231,117,99,0.14);
+      --amber:#E0AC4E;
+      --shadow: 0 1px 2px rgba(0,0,0,0.3), 0 8px 24px -12px rgba(0,0,0,0.5);
+    }
+  }
+  :root[data-theme="dark"]{
+    --bg:#12181A;
+    --grid-line: rgba(210,225,220,0.045);
+    --surface:#1B2224;
+    --surface-alt:#212A2C;
+    --ink:#E8EFEC;
+    --ink-muted:#9FB0AA;
+    --ink-faint:#6C7C77;
+    --border:#2C3739;
+    --accent:#4FC4AC;
+    --accent-ink:#8FE0CC;
+    --accent-soft:rgba(79,196,172,0.14);
+    --wrong:#E77563;
+    --wrong-soft:rgba(231,117,99,0.14);
+    --amber:#E0AC4E;
+    --shadow: 0 1px 2px rgba(0,0,0,0.3), 0 8px 24px -12px rgba(0,0,0,0.5);
+  }
+
+  *{box-sizing:border-box;}
+  html{-webkit-text-size-adjust:100%;}
+  body{
+    margin:0;
+    background:
+      linear-gradient(var(--grid-line) 1px, transparent 1px) 0 0/ 28px 28px,
+      linear-gradient(90deg, var(--grid-line) 1px, transparent 1px) 0 0/ 28px 28px,
+      var(--bg);
+    color:var(--ink);
+    font-family:"Public Sans", ui-sans-serif, system-ui, sans-serif;
+    line-height:1.5;
+    -webkit-font-smoothing:antialiased;
+  }
+  a{color:var(--accent-ink);}
+  ::selection{ background: var(--accent-soft); }
+
+  .wrap{ max-width: 980px; margin: 0 auto; padding: 0 20px 96px; }
+
+  /* ---------- Header ---------- */
+  header.hero{
+    padding: 56px 0 36px;
+    border-bottom: 1px solid var(--border);
+    margin-bottom: 40px;
+  }
+  .eyebrow{
+    font-family:"JetBrains Mono", ui-monospace, monospace;
+    font-size:0.72rem;
+    letter-spacing:0.11em;
+    text-transform:uppercase;
+    color:var(--accent-ink);
+    display:flex;
+    align-items:center;
+    gap:10px;
+    margin-bottom:14px;
+  }
+  .eyebrow::before{
+    content:"";
+    width:7px; height:7px;
+    background:var(--accent);
+    border-radius:50%;
+    display:inline-block;
+    box-shadow: 0 0 0 3px var(--accent-soft);
+  }
+  h1{
+    font-family:"Petrona", Georgia, serif;
+    font-weight:700;
+    font-size: clamp(2rem, 4.4vw, 2.75rem);
+    line-height:1.08;
+    margin:0 0 14px;
+    text-wrap:balance;
+    letter-spacing:-0.01em;
+  }
+  .hero p.lede{
+    max-width:64ch;
+    color:var(--ink-muted);
+    font-size:1.03rem;
+    margin: 0 0 28px;
+  }
+  .stat-row{
+    display:flex;
+    flex-wrap:wrap;
+    align-items:center;
+    gap:14px;
+  }
+  .stat{
+    background:var(--surface);
+    border:1px solid var(--border);
+    border-radius:10px;
+    padding:12px 18px;
+    box-shadow:var(--shadow);
+    min-width:128px;
+  }
+  .stat .n{
+    font-family:"JetBrains Mono", monospace;
+    font-variant-numeric: tabular-nums;
+    font-size:1.5rem;
+    font-weight:600;
+    color:var(--ink);
+    display:block;
+  }
+  .stat .lbl{
+    font-size:0.72rem;
+    color:var(--ink-faint);
+    text-transform:uppercase;
+    letter-spacing:0.08em;
+  }
+  #progress-stat .n{ color:var(--accent-ink); }
+  .clear-btn, .submit-btn, .hide-btn{
+    font-family:"JetBrains Mono", monospace;
+    font-size:0.78rem;
+    color:var(--ink-muted);
+    background:var(--surface);
+    border:1px solid var(--border);
+    border-radius:999px;
+    padding:9px 16px;
+    cursor:pointer;
+    transition: border-color 0.15s, color 0.15s, background 0.15s;
+  }
+  .clear-btn:hover{ border-color:var(--wrong); color:var(--wrong); }
+  .submit-btn{
+    background:var(--accent);
+    border-color:var(--accent);
+    color:#fff;
+    font-weight:600;
+  }
+  .submit-btn:hover{ background:var(--accent-ink); border-color:var(--accent-ink); }
+  .hide-btn:hover{ border-color:var(--ink-faint); color:var(--ink); }
+
+  .grade-summary{
+    display:flex;
+    flex-wrap:wrap;
+    gap:10px;
+    margin-top:16px;
+  }
+  .grade-summary .gs-item{
+    font-family:"JetBrains Mono", monospace;
+    font-size:0.85rem;
+    font-weight:600;
+    padding:6px 14px;
+    border-radius:999px;
+    border:1px solid var(--border);
+  }
+  .grade-summary .gs-item.right{ color:var(--accent-ink); background:var(--accent-soft); border-color:var(--accent); }
+  .grade-summary .gs-item.wrong{ color:var(--wrong); background:var(--wrong-soft); border-color:var(--wrong); }
+  .grade-summary .gs-item.blank{ color:var(--amber); background:transparent; border-color:var(--amber); }
+
+  .answer-box.grade-correct{ border-color:var(--accent); background:var(--accent-soft); }
+  .answer-box.grade-wrong{ border-color:var(--wrong); background:var(--wrong-soft); }
+  .grade-note{
+    font-family:"JetBrains Mono", monospace;
+    font-size:0.78rem;
+    margin-top:2px;
+  }
+  .grade-note.right{ color:var(--accent-ink); }
+  .grade-note.wrong{ color:var(--wrong); }
+
+  .card-actions{
+    display:flex;
+    gap:8px;
+    justify-content:flex-end;
+  }
+  .mini-btn{
+    font-family:"JetBrains Mono", monospace;
+    font-size:0.7rem;
+    padding:4px 11px;
+    border-radius:999px;
+    border:1px solid var(--border);
+    background:var(--surface);
+    color:var(--ink-muted);
+    cursor:pointer;
+    transition: border-color 0.15s, color 0.15s;
+  }
+  .mini-btn.check-one:hover{ border-color:var(--accent); color:var(--accent-ink); }
+  .mini-btn.clear-one:hover{ border-color:var(--wrong); color:var(--wrong); }
+  .grade-summary .gs-checked{
+    font-family:"JetBrains Mono", monospace;
+    font-size:0.82rem;
+    color:var(--ink-faint);
+    align-self:center;
+  }
+
+  .choice.grade-correct{ border-color:var(--accent); background:var(--accent-soft); color:var(--ink); font-weight:600; }
+  .choice.grade-correct .letter{ color:var(--accent-ink); }
+  .choice.grade-wrong-pick{ border-color:var(--wrong); background:var(--wrong-soft); color:var(--ink); font-weight:600; }
+  .choice.grade-wrong-pick .letter{ color:var(--wrong); }
+  .choice.selected.grade-wrong-pick{ border-color:var(--wrong); background:var(--wrong-soft); color:var(--ink); }
+  .choice.selected.grade-wrong-pick .letter{ color:var(--wrong); }
+
+  .method{
+    margin-top:26px;
+    font-size:0.88rem;
+    color:var(--ink-muted);
+    border-left:2px solid var(--border);
+    padding-left:14px;
+    max-width:64ch;
+  }
+  .method strong{ color:var(--ink); font-weight:600; }
+  .method .pill{
+    display:inline-flex;
+    align-items:center;
+    font-family:"JetBrains Mono", monospace;
+    font-size:0.72rem;
+    padding:1px 7px;
+    border-radius:999px;
+    border:1px solid var(--border);
+    background:var(--surface-alt);
+    color:var(--ink-muted);
+    margin:0 2px;
+    vertical-align:middle;
+  }
+
+  /* ---------- Sections ---------- */
+  .cards{
+    display:grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap:16px;
+  }
+
+  .card{
+    background:var(--surface);
+    border:1px solid var(--border);
+    border-radius:12px;
+    padding:18px 20px 18px;
+    box-shadow:var(--shadow);
+    display:flex;
+    flex-direction:column;
+    gap:12px;
+    transition: border-color 0.15s, box-shadow 0.15s;
+  }
+  .card.done{ border-color:var(--accent); }
+  .card-num{
+    font-family:"Petrona", Georgia, serif;
+    font-style:italic;
+    font-weight:600;
+    color:var(--ink-faint);
+    font-size:0.95rem;
+  }
+  .q-text{
+    font-size:0.96rem;
+    color:var(--ink);
+  }
+  .q-text .g{ font-family:"JetBrains Mono", monospace; font-size:0.92em; }
+
+  .choices{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    gap:7px;
+  }
+  .choice{
+    font-family:"JetBrains Mono", monospace;
+    font:inherit;
+    font-size:0.85rem;
+    padding:7px 9px;
+    border-radius:7px;
+    border:1px solid var(--border);
+    background:var(--surface-alt);
+    color:var(--ink-muted);
+    line-height:1.35;
+    text-align:left;
+    cursor:pointer;
+    display:block;
+    width:100%;
+  }
+  .choice:hover{ border-color:var(--ink-faint); }
+  .choice:focus-visible{ outline:2px solid var(--accent); outline-offset:1px; }
+  .choice .letter{ color:var(--ink-faint); margin-right:3px; }
+  .choice.selected{
+    background:var(--accent-soft);
+    border-color:var(--accent);
+    color:var(--ink);
+    font-weight:600;
+  }
+  .choice.selected .letter{ color:var(--accent-ink); }
+
+  .answer-box{
+    display:flex;
+    align-items:center;
+    gap:12px;
+    border:1.5px solid var(--border);
+    border-radius:8px;
+    background:var(--surface-alt);
+    padding:6px 14px;
+    transition: border-color 0.15s;
+  }
+  .answer-box:focus-within{ border-color:var(--accent); }
+  .answer-box .ab-label{
+    font-family:"JetBrains Mono", monospace;
+    font-size:0.68rem;
+    letter-spacing:0.08em;
+    text-transform:uppercase;
+    color:var(--ink-faint);
+    flex-shrink:0;
+  }
+  .answer-box input.answer-input{
+    flex:1;
+    min-width:0;
+    border:none;
+    background:transparent;
+    font-family:"JetBrains Mono", monospace;
+    font-size:0.95rem;
+    color:var(--ink);
+    padding:6px 2px;
+    outline:none;
+  }
+  .answer-box input.answer-input::placeholder{ color:var(--ink-faint); opacity:0.7; }
+
+  .diagram{
+    background:var(--surface-alt);
+    border:1px solid var(--border);
+    border-radius:8px;
+    padding:10px;
+    display:flex;
+    justify-content:center;
+  }
+  .diagram svg{ max-width:100%; height:auto; display:block; }
+  .diagram table{
+    border-collapse:collapse;
+    font-family:"JetBrains Mono", monospace;
+    font-size:0.78rem;
+    font-variant-numeric: tabular-nums;
+  }
+  .diagram th, .diagram td{
+    border:1px solid var(--border);
+    padding:4px 9px;
+    text-align:center;
+  }
+  .diagram th{ color:var(--ink-faint); font-weight:500; background:var(--surface); }
+
+  footer{
+    margin-top:60px;
+    padding-top:22px;
+    border-top:1px solid var(--border);
+    color:var(--ink-faint);
+    font-size:0.8rem;
+  }
+
+  @media (max-width:480px){
+    .choices{ grid-template-columns: 1fr; }
+  }
+</style>
+
+<div class="wrap">
+
+  <header class="hero">
+    <div class="eyebrow">ISEE Math Practice &middot; Online Platform</div>
+    <h1>Redo Set 2 <span style="font-size:0.5em; color:var(--ink-faint); font-weight:500;">&middot; the ones she truly missed</span></h1>
+    <p class="lede">The 7 problems from that same online session she actually read and answered &mdash; and got wrong for real, before the rushing started. Rebuilt with different numbers so it's not just recalling the same answer. No per-problem Check button; work through all 7, then hit <strong>Submit &amp; grade</strong> once at the end.</p>
+    <div class="stat-row">
+      <div class="stat"><span class="n">7</span><span class="lbl">Problems</span></div>
+      <div class="stat" id="progress-stat"><span class="n"><span id="progress-count">0</span> / 7</span><span class="lbl">Answered</span></div>
+      <button type="button" class="submit-btn" id="submit-grade">Submit &amp; grade</button>
+      <button type="button" class="hide-btn" id="hide-results" hidden>Hide results</button>
+      <button type="button" class="clear-btn" id="clear-all">Clear all answers</button>
+    </div>
+    <div class="grade-summary" id="grade-summary" hidden></div>
+    <p class="method"><strong>How to use this:</strong> type your final answer into the <span class="pill">Answer</span> blank, or click a lettered option to select it. Everything saves in this browser as you go. Once she's answered everything, <strong>Submit &amp; grade</strong> reveals every correct answer and a one-line "Why" for each, and tallies right vs. wrong.</p>
+  </header>
+
+  <div class="cards">
+      <div class="card">
+        <div class="q-text">Which whole number is divisible by both 2 and 3 without leaving a remainder?</div>
+        <div class="choices" data-qid="redo2-div6">
+          <button type="button" class="choice" data-letter="A"><span class="letter">A</span>917</button>
+          <button type="button" class="choice" data-letter="B"><span class="letter">B</span>923</button>
+          <button type="button" class="choice" data-letter="C"><span class="letter">C</span>926</button>
+          <button type="button" class="choice" data-letter="D"><span class="letter">D</span>918</button>
+        </div>
+      </div>
+      <div class="card">
+        <div class="q-text">Priya walks 3/4 of a mile. Diego walks 5/8 of a mile. Which statement shows how to find who walked farther?</div>
+        <div class="choices" data-qid="redo2-frac">
+          <button type="button" class="choice" data-letter="A"><span class="letter">A</span>3/4=6/8 and 6/8&gt;5/8</button>
+          <button type="button" class="choice" data-letter="B"><span class="letter">B</span>3/4=6/8 and 6/8&lt;5/8</button>
+          <button type="button" class="choice" data-letter="C"><span class="letter">C</span>5/8=10/16 and 10/16&gt;12/16</button>
+          <button type="button" class="choice" data-letter="D"><span class="letter">D</span>3/4&lt;1/2 and 5/8&gt;1/2</button>
+        </div>
+      </div>
+      <div class="card">
+        <div class="q-text">A carton of juice contains 3.4 liters. Mia pours three glasses of juice, totaling 3/4 liter. How much juice is left in the carton?</div>
+        <div class="choices" data-qid="redo2-milk">
+          <button type="button" class="choice" data-letter="A"><span class="letter">A</span>less than 2 liters</button>
+          <button type="button" class="choice" data-letter="B"><span class="letter">B</span>more than 2 and less than 2.5 liters</button>
+          <button type="button" class="choice" data-letter="C"><span class="letter">C</span>more than 2.5 and less than 3 liters</button>
+          <button type="button" class="choice" data-letter="D"><span class="letter">D</span>more than 3 liters</button>
+        </div>
+      </div>
+      <div class="card">
+        <div class="q-text">A librarian checked out &#9733; picture books and &#9671; chapter books in one day. She spent &#9661; minutes processing each of these books. Which expression represents the total amount of time the librarian spent processing these books?</div>
+        <div class="choices" data-qid="redo2-expr">
+          <button type="button" class="choice" data-letter="A"><span class="letter">A</span>(&#9733;+&#9671;)&divide;&#9661;</button>
+          <button type="button" class="choice" data-letter="B"><span class="letter">B</span>(&#9733;+&#9671;)+&#9661;</button>
+          <button type="button" class="choice" data-letter="C"><span class="letter">C</span>(&#9733;+&#9671;)&times;&#9661;</button>
+          <button type="button" class="choice" data-letter="D"><span class="letter">D</span>(&#9733;+&#9671;)&minus;&#9661;</button>
+        </div>
+      </div>
+      <div class="card">
+        <div class="q-text">The figure shown was made by joining two rectangular prisms. Which expression can be used to find the total volume of the figure? <span class="g">(V = lwh)</span></div>
+        <div class="diagram"><svg viewBox="0 0 319 124" width="319" height="124"><polygon points="43.3,28.0 59.3,14.0 93.3,14.0 77.3,28.0" fill="var(--surface-alt)" stroke="currentColor" stroke-width="1.4" style="color:var(--ink-muted)"/><polygon points="77.3,28.0 93.3,14.0 93.3,84.0 77.3,98.0" fill="var(--surface)" stroke="currentColor" stroke-width="1.4" style="color:var(--ink-muted)"/><polygon points="43.3,28.0 77.3,28.0 77.3,98.0 43.3,98.0" fill="var(--surface)" stroke="currentColor" stroke-width="1.6" style="color:var(--ink)"/><text x="60.3" y="114.0" text-anchor="middle" font-family="JetBrains Mono, monospace" font-size="10.5" fill="var(--ink-muted)">3 ft</text><text x="35.3" y="66.0" text-anchor="end" font-family="JetBrains Mono, monospace" font-size="10.5" fill="var(--ink-muted)">8 ft</text><text x="91.3" y="19.0" text-anchor="start" font-family="JetBrains Mono, monospace" font-size="10.5" fill="var(--ink-muted)">3 ft</text><text x="146.6" y="72.5" text-anchor="middle" font-family="JetBrains Mono, monospace" font-size="20" fill="var(--ink-faint)">+</text><polygon points="209.8,66.0 225.8,52.0 275.8,52.0 259.8,66.0" fill="var(--surface-alt)" stroke="currentColor" stroke-width="1.4" style="color:var(--ink-muted)"/><polygon points="259.8,66.0 275.8,52.0 275.8,84.0 259.8,98.0" fill="var(--surface)" stroke="currentColor" stroke-width="1.4" style="color:var(--ink-muted)"/><polygon points="209.8,66.0 259.8,66.0 259.8,98.0 209.8,98.0" fill="var(--surface)" stroke="currentColor" stroke-width="1.6" style="color:var(--ink)"/><text x="234.8" y="114.0" text-anchor="middle" font-family="JetBrains Mono, monospace" font-size="10.5" fill="var(--ink-muted)">5 ft</text><text x="201.8" y="79.0" text-anchor="end" font-family="JetBrains Mono, monospace" font-size="10.5" fill="var(--ink-muted)">4 ft</text><text x="273.8" y="57.0" text-anchor="start" font-family="JetBrains Mono, monospace" font-size="10.5" fill="var(--ink-muted)">3 ft</text></svg></div>
+        <div class="choices" data-qid="redo2-vol">
+          <button type="button" class="choice" data-letter="A"><span class="letter">A</span>3&times;3&times;8</button>
+          <button type="button" class="choice" data-letter="B"><span class="letter">B</span>8&times;8&times;3 + 5&times;3&times;4</button>
+          <button type="button" class="choice" data-letter="C"><span class="letter">C</span>3&times;3&times;8 + 5&times;5&times;4</button>
+          <button type="button" class="choice" data-letter="D"><span class="letter">D</span>3&times;3&times;8 + 5&times;3&times;4</button>
+        </div>
+      </div>
+      <div class="card">
+        <div class="q-text">The perimeter of the largest polygon is 28 centimeters. The perimeter of the square is 20 centimeters. Use the figure to answer the question. What is the perimeter of the triangle?</div>
+        <div class="diagram"><svg viewBox="0 0 184 114" width="184" height="114"><polygon points="12,12 102,12 172,102 12,102" fill="none" stroke="currentColor" stroke-width="1.8" style="color:var(--ink)"/><line x1="102" y1="12" x2="102" y2="102" stroke="currentColor" stroke-width="1.3" stroke-dasharray="4,3" style="color:var(--ink-faint)"/></svg></div>
+        <div class="answer-box"><span class="ab-label">Answer</span><input type="text" class="answer-input" data-qid="redo2-perim" autocomplete="off" spellcheck="false"></div>
+      </div>
+      <div class="card">
+        <div class="q-text">A number machine uses a rule to change numbers. The table shows what happened when four different numbers went into the same number machine. Which of these could be four more results from the same number machine?</div>
+        <div class="diagram"><table><tr><th>Input</th><th>Output</th></tr><tr><td>2</td><td>6</td></tr><tr><td>5</td><td>15</td></tr><tr><td>7</td><td>21</td></tr><tr><td>10</td><td>30</td></tr></table></div>
+        <div class="choices" data-qid="redo2-machine">
+          <button type="button" class="choice" data-letter="A"><span class="letter">A</span>4&rarr;8, 5&rarr;10, 6&rarr;12, 7&rarr;14</button>
+          <button type="button" class="choice" data-letter="B"><span class="letter">B</span>4&rarr;12, 5&rarr;13, 6&rarr;14, 7&rarr;15</button>
+          <button type="button" class="choice" data-letter="C"><span class="letter">C</span>4&rarr;12, 5&rarr;15, 6&rarr;18, 7&rarr;21</button>
+          <button type="button" class="choice" data-letter="D"><span class="letter">D</span>4&rarr;16, 5&rarr;20, 6&rarr;24, 7&rarr;28</button>
+        </div>
+      </div>
+  </div>
+
+  <footer>
+    A redo set built from the problems Hannah genuinely worked through and missed on an online practice session, with the numbers changed and each one independently re-solved from scratch &mdash; not just the same problems with the answer key re-applied.
+  </footer>
+
+</div>
+
+<script>
+(function(){
+  var STORAGE_KEY = 'hannah-redo-set-2-v1';
+  var TOTAL = 7;
+  var state = {};
+  try { state = JSON.parse(localStorage.getItem(STORAGE_KEY) || '{}'); } catch(e){ state = {}; }
+  var gradedResults = {};
+
+  var ANSWERS = {
+    'redo2-div6': {type:'choice', letter:'D'},
+    'redo2-frac': {type:'choice', letter:'A'},
+    'redo2-milk': {type:'choice', letter:'C'},
+    'redo2-expr': {type:'choice', letter:'C'},
+    'redo2-vol': {type:'choice', letter:'D'},
+    'redo2-perim': {type:'num', value:18},
+    'redo2-machine': {type:'choice', letter:'C'}
+  };
+
+  var WHY = {
+    'redo2-div6': 'A number divisible by both 2 and 3 must be divisible by 6. 917 and 923 are odd (fail the 2 test); 926 is even but its digits sum to 17 (fail the 3 test); 918 is even with digit sum 18, so it&rsquo;s divisible by 6.',
+    'redo2-frac': 'Converting 3/4 to eighths gives 6/8; comparing same-denominator fractions, 6/8 &gt; 5/8, so Priya walked the farther distance. (5/8=10/16 is true, but 10/16 is not &gt; 12/16 &mdash; and 3/4 is not less than 1/2.)',
+    'redo2-milk': 'Juice remaining = 3.4 &minus; 0.75 = 2.65 liters, which is more than 2.5 and less than 3.',
+    'redo2-expr': '(&#9733;+&#9671;) is the total number of books checked out, and she spends &#9661; minutes on each one, so the total time is (&#9733;+&#9671;)&times;&#9661;.',
+    'redo2-vol': 'The tower block has volume 3&times;3&times;8=72 cubic ft; the extension block has volume 5&times;3&times;4=60 cubic ft. Total volume = 3&times;3&times;8 + 5&times;3&times;4 = 132 cubic ft.',
+    'redo2-perim': 'The square&rsquo;s side is 20&divide;4=5 cm, the length it shares with the triangle. Combined perimeter = square + triangle &minus; 2&times;(shared side): 28 = 20 + triangle &minus; 10, so the triangle&rsquo;s perimeter is 18 cm.',
+    'redo2-machine': 'The sample table shows output = 3&times;input (2&times;3=6, 5&times;3=15, 7&times;3=21, 10&times;3=30). Only choice C keeps that same &times;3 rule for every pair (A uses &times;2, B uses +8, D uses &times;4).'
+  };
+
+
+  function save(){
+    try { localStorage.setItem(STORAGE_KEY, JSON.stringify(state)); } catch(e){}
+  }
+
+  function updateProgress(){
+    var count = Object.keys(state).filter(function(k){ return state[k]; }).length;
+    var el = document.getElementById('progress-count');
+    if (el) el.textContent = count;
+  }
+
+  function markCard(qid){
+    var el = document.querySelector('[data-qid="' + qid + '"]');
+    if (!el) return;
+    var card = el.closest('.card');
+    if (!card) return;
+    if (state[qid]) card.classList.add('done');
+    else card.classList.remove('done');
+  }
+
+  function parseNum(raw){
+    if (raw == null) return null;
+    var s = String(raw).trim().replace(/,/g, '');
+    if (!s) return null;
+    var m = s.match(/-?\d+(\.\d+)?/);
+    if (!m) return null;
+    var n = parseFloat(m[0]);
+    return isNaN(n) ? null : n;
+  }
+
+  function clearGradeMarks(qidToClear){
+    var selector = qidToClear ? '[data-qid="' + qidToClear + '"]' : '[data-qid]';
+    var seen = [];
+    document.querySelectorAll(selector).forEach(function(el){
+      var card = el.closest('.card');
+      if (!card || seen.indexOf(card) !== -1) return;
+      seen.push(card);
+      card.querySelectorAll('.answer-box').forEach(function(b){ b.classList.remove('grade-correct', 'grade-wrong'); });
+      card.querySelectorAll('.choice').forEach(function(c){ c.classList.remove('grade-correct', 'grade-wrong-pick'); });
+      var note = card.querySelector('.grade-note');
+      if (note) note.remove();
+    });
+    if (qidToClear) delete gradedResults[qidToClear];
+    else gradedResults = {};
+  }
+
+  function maybeClearGradeOnEdit(qid){
+    if (!gradedResults.hasOwnProperty(qid)) return;
+    clearGradeMarks(qid);
+    refreshSummary();
+  }
+
+  function refreshSummary(){
+    var keys = Object.keys(gradedResults);
+    var summary = document.getElementById('grade-summary');
+    var hideBtn = document.getElementById('hide-results');
+    if (keys.length === 0){
+      if (summary) summary.hidden = true;
+      if (hideBtn) hideBtn.hidden = true;
+      return;
+    }
+    var correct = 0, wrong = 0, blank = 0;
+    keys.forEach(function(k){
+      if (gradedResults[k] === 'correct') correct++;
+      else if (gradedResults[k] === 'wrong') wrong++;
+      else if (gradedResults[k] === 'blank') blank++;
+    });
+    if (summary){
+      summary.hidden = false;
+      var html = '<span class="gs-checked">Checked ' + keys.length + '/' + TOTAL + '</span>';
+      html += '<span class="gs-item right">' + correct + ' correct</span><span class="gs-item wrong">' + wrong + ' wrong</span>';
+      if (blank) html += '<span class="gs-item blank">' + blank + ' left blank</span>';
+      summary.innerHTML = html;
+    }
+    if (hideBtn) hideBtn.hidden = false;
+  }
+
+  function gradeOne(qid){
+    var ans = ANSWERS[qid];
+    if (!ans) return;
+    var qidEl = document.querySelector('[data-qid="' + qid + '"]');
+    var card = qidEl ? qidEl.closest('.card') : null;
+    if (card){
+      var oldNote = card.querySelector('.grade-note');
+      if (oldNote) oldNote.remove();
+    }
+    if (ans.type === 'num'){
+      var inp = document.querySelector('input.answer-input[data-qid="' + qid + '"]');
+      if (!inp) return;
+      var box = inp.closest('.answer-box');
+      box.classList.remove('grade-correct', 'grade-wrong');
+      var raw = inp.value.trim();
+      var userVal = parseNum(raw);
+      var note = document.createElement('div');
+      note.className = 'grade-note';
+      var whyHtml = WHY[qid] ? ' <b>Why:</b> ' + WHY[qid] : '';
+      if (raw === ''){
+        gradedResults[qid] = 'blank';
+        box.classList.add('grade-wrong');
+        note.classList.add('wrong');
+        note.innerHTML = 'Correct answer: ' + ans.value + whyHtml;
+      } else if (userVal != null && Math.abs(userVal - ans.value) < 0.01){
+        gradedResults[qid] = 'correct';
+        box.classList.add('grade-correct');
+        note.classList.add('right');
+        note.innerHTML = 'Correct!' + whyHtml;
+      } else {
+        gradedResults[qid] = 'wrong';
+        box.classList.add('grade-wrong');
+        note.classList.add('wrong');
+        note.innerHTML = 'You put &quot;' + raw + '&quot; — correct answer: ' + ans.value + whyHtml;
+      }
+      box.insertAdjacentElement('afterend', note);
+    } else if (ans.type === 'choice'){
+      var group = document.querySelector('.choices[data-qid="' + qid + '"]');
+      if (!group) return;
+      var buttons = group.querySelectorAll('.choice');
+      buttons.forEach(function(b){ b.classList.remove('grade-correct', 'grade-wrong-pick'); });
+      var picked = null;
+      buttons.forEach(function(b){
+        if (b.classList.contains('selected')) picked = b.dataset.letter;
+        if (b.dataset.letter === ans.letter) b.classList.add('grade-correct');
+      });
+      var note2 = document.createElement('div');
+      note2.className = 'grade-note';
+      var whyHtml2 = WHY[qid] ? ' <b>Why:</b> ' + WHY[qid] : '';
+      if (picked == null){
+        gradedResults[qid] = 'blank';
+        note2.classList.add('wrong');
+        note2.innerHTML = 'Correct answer: ' + ans.letter + '.' + whyHtml2;
+      } else if (picked === ans.letter){
+        gradedResults[qid] = 'correct';
+        note2.classList.add('right');
+        note2.innerHTML = 'Correct!' + whyHtml2;
+      } else {
+        gradedResults[qid] = 'wrong';
+        buttons.forEach(function(b){
+          if (b.dataset.letter === picked) b.classList.add('grade-wrong-pick');
+        });
+        note2.classList.add('wrong');
+        note2.innerHTML = 'Correct answer: ' + ans.letter + '.' + whyHtml2;
+      }
+      group.insertAdjacentElement('afterend', note2);
+    }
+  }
+
+  document.querySelectorAll('.answer-input').forEach(function(inp){
+    var qid = inp.dataset.qid;
+    if (state[qid]) inp.value = state[qid];
+    markCard(qid);
+    inp.addEventListener('input', function(){
+      state[qid] = inp.value.trim();
+      if (!state[qid]) delete state[qid];
+      save();
+      markCard(qid);
+      updateProgress();
+      maybeClearGradeOnEdit(qid);
+    });
+  });
+
+  document.querySelectorAll('.choices').forEach(function(group){
+    var qid = group.dataset.qid;
+    var choices = group.querySelectorAll('.choice');
+    choices.forEach(function(ch){
+      var letter = ch.dataset.letter;
+      if (state[qid] === letter) ch.classList.add('selected');
+    });
+    markCard(qid);
+    choices.forEach(function(ch){
+      ch.addEventListener('click', function(){
+        var letter = ch.dataset.letter;
+        var already = ch.classList.contains('selected');
+        choices.forEach(function(c){ c.classList.remove('selected'); });
+        if (already){
+          delete state[qid];
+        } else {
+          ch.classList.add('selected');
+          state[qid] = letter;
+        }
+        save();
+        markCard(qid);
+        updateProgress();
+        maybeClearGradeOnEdit(qid);
+      });
+    });
+  });
+
+  function gradeAll(){
+    Object.keys(ANSWERS).forEach(function(qid){ gradeOne(qid); });
+    refreshSummary();
+    var summary = document.getElementById('grade-summary');
+    summary && summary.scrollIntoView({ behavior:'smooth', block:'nearest' });
+  }
+
+  var submitBtn = document.getElementById('submit-grade');
+  if (submitBtn){
+    submitBtn.addEventListener('click', gradeAll);
+  }
+
+  var hideResultsBtn = document.getElementById('hide-results');
+  if (hideResultsBtn){
+    hideResultsBtn.addEventListener('click', function(){
+      clearGradeMarks();
+      refreshSummary();
+    });
+  }
+
+  var clearBtn = document.getElementById('clear-all');
+  if (clearBtn){
+    clearBtn.addEventListener('click', function(){
+      if (!window.confirm('Clear all answers on this worksheet? This can\'t be undone.')) return;
+      state = {};
+      save();
+      document.querySelectorAll('.answer-input').forEach(function(inp){ inp.value = ''; });
+      document.querySelectorAll('.choice.selected').forEach(function(c){ c.classList.remove('selected'); });
+      document.querySelectorAll('.card.done').forEach(function(c){ c.classList.remove('done'); });
+      clearGradeMarks();
+      refreshSummary();
+      updateProgress();
+    });
+  }
+
+  updateProgress();
+})();
+</script>
