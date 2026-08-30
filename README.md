@@ -18,6 +18,7 @@ worksheets/       Generated HTML study tools
   shuffled-rework-set-testmode-day3.html    30 of the 120, day 3 of a 4-day split (test mode)
   shuffled-rework-set-testmode-day4.html    30 of the 120, day 4 of a 4-day split (test mode)
   redo-set-1.html                           Problems missed a 2nd time, rebuilt with fresh numbers
+  online-set-1.html                         10 questions from an online session she rushed past unread
 ```
 
 ### `worksheets/full-workbook.html`
@@ -41,6 +42,10 @@ The 120 problems are a lot to finish in one sitting, so these split the shuffled
 ### `worksheets/redo-set-1.html`
 
 A one-off set built from problems Hannah got wrong a second time on a graded worksheet. Same problem type and difficulty as the original miss, but with the numbers changed and each one independently re-solved from scratch, so it's a genuine retry rather than the same problem with a memorized answer. No per-problem Check — Submit & grade at the end, same as the test-mode worksheets. Future "missed again" sets should follow this pattern (`redo-set-2.html`, etc.) rather than reusing this file.
+
+### `worksheets/online-set-1.html`
+
+The last 10 questions from a session on an online ISEE practice platform (not the *Elevate Prep* book) that she clicked through quickly without actually reading — same 10 questions and same numbers, presented fresh with blanks so they get a genuine first attempt. Sourced from screenshots of the platform's post-answer review screens, independently re-verified rather than trusted from the reveal text. Same test-mode behavior as the sets above: no per-problem Check, Submit & grade at the end.
 
 ## Working on this repo with Claude Code
 
