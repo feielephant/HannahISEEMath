@@ -42,6 +42,13 @@ The 120 problems are a lot to finish in one sitting, so these split the shuffled
 
 A one-off set built from problems Hannah got wrong a second time on a graded worksheet. Same problem type and difficulty as the original miss, but with the numbers changed and each one independently re-solved from scratch, so it's a genuine retry rather than the same problem with a memorized answer. No per-problem Check — Submit & grade at the end, same as the test-mode worksheets. Future "missed again" sets should follow this pattern (`redo-set-2.html`, etc.) rather than reusing this file.
 
+## Working on this repo with Claude Code
+
+`.claude/skills/isee-worksheet/SKILL.md` captures the build procedure, naming
+conventions, and recurring-bug checklist (SVG label clipping, WHY-string
+escaping, grading-script gotchas) so future sessions don't have to rediscover
+them. It auto-loads whenever a task touches `worksheets/`.
+
 ## Using the worksheets
 
 Each file in `worksheets/` is self-contained — open it directly in a browser, no server or build step needed. Progress is saved per-browser via `localStorage`, so it won't carry over between devices or browsers.
