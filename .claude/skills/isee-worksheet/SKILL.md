@@ -118,6 +118,19 @@ for the `var(--...)` CSS custom properties first (QuickLook's renderer doesn't
 resolve them). Do this for any diagram with labels placed inside or near a 3D
 face, not just ones that pass the coordinate math.
 
+A related trap: a label can pass every check above (in bounds, crosses no edge,
+overlaps no other label) and *still* be ambiguous if it sits near a **corner**
+rather than the middle of the edge it names — every vertex of a 3D box has 3
+edges meeting there, so a label nudged toward one just reads as "pointing at
+the corner," not at any one of them. This tends to happen on short edges (e.g.
+a depth edge on a small block), where nudging the label off the edge to avoid
+clipping/crossing lands it closer to an endpoint than the middle. Check this
+by eye on the render, not just with the crossing/overlap checks. Fix it with a
+leader line: put the label itself in open space away from the shape, and draw
+a thin line from it to a single point at the true midpoint of the target edge
+(a small dot at that point helps). Reserve extra margin on whichever side has
+room for the leader to extend into before laying out the rest of the figure.
+
 Second lesson from the prism diagram bug: a diagram can also just be **wrong on
 the content level**, not clipped — e.g. a "48 unit cubes" prism that was drawn as
 a handful of arbitrary lines, never actually depicting 48 cubes. Before shipping
