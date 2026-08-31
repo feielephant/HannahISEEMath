@@ -114,10 +114,16 @@ the right pieces; a diagram drawn as two already-separated boxes with a "+" betw
 them does that splitting *for* her, deleting the actual skill being tested. Before
 shipping a composite-shape diagram, ask: does this rendering perform any step the
 problem is supposed to test (decomposition, identifying which edges are shared,
-spotting which face is hidden)? If so, draw the single fused solid instead — join
-the pieces into one continuous outline (a dashed internal seam line is fine as a
-visual hint, since real textbook figures often show it, but don't render them as
-visually separate objects).
+spotting which face is hidden)? If so, draw the single fused solid instead, as one
+continuous outline with no internal seam line — when a solid can genuinely be
+split more than one way (the reason a composite-volume problem typically offers
+several plausible-but-wrong groupings as distractors), marking "the" seam hands
+over the one decomposition that actually works with consistent edge lengths,
+which is the crux of the problem. Only draw an internal divider when the boundary
+between the two shapes is inherent to the figure itself and unambiguous regardless
+of solving strategy (e.g. a square fused to a triangle has exactly one possible
+shared edge, so showing it depicts the shape, not a solving hint) — the test is
+whether a *different but equally valid* split exists that the line would rule out.
 
 ## Grading script internals
 
