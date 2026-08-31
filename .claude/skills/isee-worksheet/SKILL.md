@@ -107,6 +107,18 @@ any diagram, check it actually depicts what the problem states: for a cube-count
 diagram, count the grid cells; for a perimeter/shape diagram, sum the edge lengths
 via the distance formula and confirm it equals the stated total.
 
+Third lesson, from a composite-solid volume diagram: a diagram can be geometrically
+correct yet still **give away the answer's structure**. A composite-prism problem
+tests whether the student can look at one fused shape and mentally split it into
+the right pieces; a diagram drawn as two already-separated boxes with a "+" between
+them does that splitting *for* her, deleting the actual skill being tested. Before
+shipping a composite-shape diagram, ask: does this rendering perform any step the
+problem is supposed to test (decomposition, identifying which edges are shared,
+spotting which face is hidden)? If so, draw the single fused solid instead — join
+the pieces into one continuous outline (a dashed internal seam line is fine as a
+visual hint, since real textbook figures often show it, but don't render them as
+visually separate objects).
+
 ## Grading script internals
 
 - `ANSWERS[qid]` is `{type:'num', value:N}` or `{type:'choice', letter:'X'}`.
