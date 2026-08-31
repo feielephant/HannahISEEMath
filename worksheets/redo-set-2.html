@@ -381,10 +381,10 @@
   <header class="hero">
     <div class="eyebrow">ISEE Math Practice &middot; Online Platform</div>
     <h1>Redo Set 2 <span style="font-size:0.5em; color:var(--ink-faint); font-weight:500;">&middot; the ones she truly missed</span></h1>
-    <p class="lede">The 7 problems from that same online session she actually read and answered &mdash; and got wrong for real, before the rushing started. Rebuilt with different numbers so it's not just recalling the same answer. No per-problem Check button; work through all 7, then hit <strong>Submit &amp; grade</strong> once at the end.</p>
+    <p class="lede">The 8 problems from that same online session she actually read and answered &mdash; and got wrong for real, before the rushing started. Rebuilt with different numbers so it's not just recalling the same answer. No per-problem Check button; work through all 8, then hit <strong>Submit &amp; grade</strong> once at the end.</p>
     <div class="stat-row">
-      <div class="stat"><span class="n">7</span><span class="lbl">Problems</span></div>
-      <div class="stat" id="progress-stat"><span class="n"><span id="progress-count">0</span> / 7</span><span class="lbl">Answered</span></div>
+      <div class="stat"><span class="n">8</span><span class="lbl">Problems</span></div>
+      <div class="stat" id="progress-stat"><span class="n"><span id="progress-count">0</span> / 8</span><span class="lbl">Answered</span></div>
       <button type="button" class="submit-btn" id="submit-grade">Submit &amp; grade</button>
       <button type="button" class="hide-btn" id="hide-results" hidden>Hide results</button>
       <button type="button" class="clear-btn" id="clear-all">Clear all answers</button>
@@ -401,6 +401,15 @@
           <button type="button" class="choice" data-letter="B"><span class="letter">B</span>923</button>
           <button type="button" class="choice" data-letter="C"><span class="letter">C</span>926</button>
           <button type="button" class="choice" data-letter="D"><span class="letter">D</span>918</button>
+        </div>
+      </div>
+      <div class="card">
+        <div class="q-text">Priya walks 3/4 of a mile. Diego walks 5/8 of a mile. Which statement shows how to find who walked farther?</div>
+        <div class="choices" data-qid="redo2-frac">
+          <button type="button" class="choice" data-letter="A"><span class="letter">A</span>3/4=6/8 and 6/8&gt;5/8</button>
+          <button type="button" class="choice" data-letter="B"><span class="letter">B</span>3/4=6/8 and 6/8&lt;5/8</button>
+          <button type="button" class="choice" data-letter="C"><span class="letter">C</span>5/8=10/16 and 10/16&gt;12/16</button>
+          <button type="button" class="choice" data-letter="D"><span class="letter">D</span>3/4&lt;1/2 and 5/8&gt;1/2</button>
         </div>
       </div>
       <div class="card">
@@ -462,13 +471,14 @@
 <script>
 (function(){
   var STORAGE_KEY = 'hannah-redo-set-2-v1';
-  var TOTAL = 7;
+  var TOTAL = 8;
   var state = {};
   try { state = JSON.parse(localStorage.getItem(STORAGE_KEY) || '{}'); } catch(e){ state = {}; }
   var gradedResults = {};
 
   var ANSWERS = {
     'redo2-div6': {type:'choice', letter:'D'},
+    'redo2-frac': {type:'choice', letter:'A'},
     'redo2-milk': {type:'choice', letter:'C'},
     'redo2-expr': {type:'choice', letter:'C'},
     'redo2-vol': {type:'choice', letter:'D'},
@@ -479,6 +489,7 @@
 
   var WHY = {
     'redo2-div6': 'A number divisible by both 2 and 3 must be divisible by 6. 917 and 923 are odd (fail the 2 test); 926 is even but its digits sum to 17 (fail the 3 test); 918 is even with digit sum 18, so it&rsquo;s divisible by 6.',
+    'redo2-frac': 'Converting 3/4 to eighths gives 6/8; comparing same-denominator fractions, 6/8 &gt; 5/8, so Priya walked the farther distance. (5/8=10/16 is true, but 10/16 is not &gt; 12/16 &mdash; and 3/4 is not less than 1/2.)',
     'redo2-milk': 'Juice remaining = 3.4 &minus; 0.75 = 2.65 liters, which is more than 2.5 and less than 3.',
     'redo2-expr': '(&#9733;+&#9671;) is the total number of books checked out, and she spends &#9661; minutes on each one, so the total time is (&#9733;+&#9671;)&times;&#9661;.',
     'redo2-vol': 'The tower block has volume 3&times;3&times;8=72 cubic ft; the extension block has volume 5&times;3&times;4=60 cubic ft. Total volume = 3&times;3&times;8 + 5&times;3&times;4 = 132 cubic ft.',
