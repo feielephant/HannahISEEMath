@@ -100,6 +100,24 @@ takes label text as a parameter, its margins must be a function of that paramete
 — that's what makes the fix self-correcting for future label lengths instead of
 being a fix for exactly one case.
 
+A margin/overlap check alone isn't enough, either — it catches a label clipping
+the viewBox or colliding with *another label*, but not a label sitting **inside
+a face and crossing one of the shape's own edges** (e.g. a width label placed in
+the middle of an isometric top-face parallelogram, with the depth-slant line
+running right through the digits — technically "in bounds," fully illegible).
+Actually check for that: either compute it (does the label's bounding box
+intersect any polygon edge segment, not just other labels) or, easier and more
+reliable, **render the SVG and look at it** before shipping. This sandbox has no
+SVG library preinstalled, but macOS QuickLook does the job with zero setup:
+```
+qlmanage -t -s 800 -o /path/to/output/dir /path/to/diagram.svg
+```
+produces `diagram.svg.png` next to it — read that with the Read tool. Wrap the
+diagram's own markup in a standalone `<svg>` with plain hex colors substituted
+for the `var(--...)` CSS custom properties first (QuickLook's renderer doesn't
+resolve them). Do this for any diagram with labels placed inside or near a 3D
+face, not just ones that pass the coordinate math.
+
 Second lesson from the prism diagram bug: a diagram can also just be **wrong on
 the content level**, not clipped — e.g. a "48 unit cubes" prism that was drawn as
 a handful of arbitrary lines, never actually depicting 48 cubes. Before shipping
