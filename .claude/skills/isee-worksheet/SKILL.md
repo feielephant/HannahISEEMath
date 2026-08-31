@@ -156,6 +156,14 @@ of solving strategy (e.g. a square fused to a triangle has exactly one possible
 shared edge, so showing it depicts the shape, not a solving hint) — the test is
 whether a *different but equally valid* split exists that the line would rule out.
 
+Fourth lesson, same family, from a coordinate-geometry problem: "a coordinate grid
+is shown" in the original almost always means a **blank, labeled grid** — plotting
+the given points and recognizing the resulting shape is the task. A diagram that
+pre-plots the points, draws the polygon, and shades it in hands over the exact
+thing being tested (the original screenshot for this problem type never has the
+shape already drawn). Ship just the axes and gridlines; list the point labels in
+the question text only, not on the figure.
+
 ## Grading script internals
 
 - `ANSWERS[qid]` is `{type:'num', value:N}` or `{type:'choice', letter:'X'}`.
