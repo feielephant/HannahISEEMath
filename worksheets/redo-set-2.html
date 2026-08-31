@@ -381,10 +381,10 @@
   <header class="hero">
     <div class="eyebrow">ISEE Math Practice &middot; Online Platform</div>
     <h1>Redo Set 2 <span style="font-size:0.5em; color:var(--ink-faint); font-weight:500;">&middot; the ones she truly missed</span></h1>
-    <p class="lede">The 6 problems from that same online session she actually read and answered &mdash; and got wrong for real, before the rushing started. Rebuilt with different numbers so it's not just recalling the same answer. No per-problem Check button; work through all 6, then hit <strong>Submit &amp; grade</strong> once at the end.</p>
+    <p class="lede">The 7 problems from that same online session she actually read and answered &mdash; and got wrong for real, before the rushing started. Rebuilt with different numbers so it's not just recalling the same answer. No per-problem Check button; work through all 7, then hit <strong>Submit &amp; grade</strong> once at the end.</p>
     <div class="stat-row">
-      <div class="stat"><span class="n">6</span><span class="lbl">Problems</span></div>
-      <div class="stat" id="progress-stat"><span class="n"><span id="progress-count">0</span> / 6</span><span class="lbl">Answered</span></div>
+      <div class="stat"><span class="n">7</span><span class="lbl">Problems</span></div>
+      <div class="stat" id="progress-stat"><span class="n"><span id="progress-count">0</span> / 7</span><span class="lbl">Answered</span></div>
       <button type="button" class="submit-btn" id="submit-grade">Submit &amp; grade</button>
       <button type="button" class="hide-btn" id="hide-results" hidden>Hide results</button>
       <button type="button" class="clear-btn" id="clear-all">Clear all answers</button>
@@ -446,6 +446,11 @@
           <button type="button" class="choice" data-letter="D"><span class="letter">D</span>4&rarr;16, 5&rarr;20, 6&rarr;24, 7&rarr;28</button>
         </div>
       </div>
+      <div class="card">
+        <div class="q-text">The table shows the number of tickets sold to a movie viewing during one week. What is the median number of tickets sold to the movie viewing during that week?</div>
+        <div class="diagram"><table><tr><th>Day</th><th>Number of Tickets</th></tr><tr><td>Sunday</td><td>620</td></tr><tr><td>Monday</td><td>340</td></tr><tr><td>Tuesday</td><td>810</td></tr><tr><td>Wednesday</td><td>275</td></tr><tr><td>Thursday</td><td>590</td></tr><tr><td>Friday</td><td>460</td></tr><tr><td>Saturday</td><td>705</td></tr></table></div>
+        <div class="answer-box"><span class="ab-label">Answer</span><input type="text" class="answer-input" data-qid="redo2-median" autocomplete="off" spellcheck="false"></div>
+      </div>
   </div>
 
   <footer>
@@ -457,7 +462,7 @@
 <script>
 (function(){
   var STORAGE_KEY = 'hannah-redo-set-2-v1';
-  var TOTAL = 6;
+  var TOTAL = 7;
   var state = {};
   try { state = JSON.parse(localStorage.getItem(STORAGE_KEY) || '{}'); } catch(e){ state = {}; }
   var gradedResults = {};
@@ -468,7 +473,8 @@
     'redo2-expr': {type:'choice', letter:'C'},
     'redo2-vol': {type:'choice', letter:'D'},
     'redo2-perim': {type:'num', value:18},
-    'redo2-machine': {type:'choice', letter:'C'}
+    'redo2-machine': {type:'choice', letter:'C'},
+    'redo2-median': {type:'num', value:590}
   };
 
   var WHY = {
@@ -477,7 +483,8 @@
     'redo2-expr': '(&#9733;+&#9671;) is the total number of books checked out, and she spends &#9661; minutes on each one, so the total time is (&#9733;+&#9671;)&times;&#9661;.',
     'redo2-vol': 'The tower block has volume 3&times;3&times;8=72 cubic ft; the extension block has volume 5&times;3&times;4=60 cubic ft. Total volume = 3&times;3&times;8 + 5&times;3&times;4 = 132 cubic ft.',
     'redo2-perim': 'The square&rsquo;s side is 20&divide;4=5 cm, the length it shares with the triangle. Combined perimeter = square + triangle &minus; 2&times;(shared side): 28 = 20 + triangle &minus; 10, so the triangle&rsquo;s perimeter is 18 cm.',
-    'redo2-machine': 'The sample table shows output = 3&times;input (2&times;3=6, 5&times;3=15, 7&times;3=21, 10&times;3=30). Only choice C keeps that same &times;3 rule for every pair (A uses &times;2, B uses +8, D uses &times;4).'
+    'redo2-machine': 'The sample table shows output = 3&times;input (2&times;3=6, 5&times;3=15, 7&times;3=21, 10&times;3=30). Only choice C keeps that same &times;3 rule for every pair (A uses &times;2, B uses +8, D uses &times;4).',
+    'redo2-median': 'Sorted the week\'s tickets: 275, 340, 460, 590, 620, 705, 810 &mdash; the middle value (4th of 7) is 590.'
   };
 
 

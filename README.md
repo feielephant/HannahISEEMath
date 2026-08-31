@@ -19,7 +19,7 @@ worksheets/       Generated HTML study tools
   shuffled-rework-set-testmode-day4.html    30 of the 120, day 4 of a 4-day split (test mode)
   redo-set-1.html                           Problems missed a 2nd time, rebuilt with fresh numbers
   online-set-1.html                         Problems 21-30 from an online session, rushed past unread
-  redo-set-2.html                           6 problems she genuinely missed on that same session, fresh numbers
+  redo-set-2.html                           7 problems she genuinely missed on that same session, fresh numbers
 ```
 
 ### `worksheets/full-workbook.html`
@@ -50,7 +50,7 @@ Problems 21 through 30 from a session on an online ISEE practice platform (not t
 
 ### `worksheets/redo-set-2.html`
 
-The other side of that same online session: 6 problems (numbers 20 and 29a/33/36/38/5 from the platform's own numbering, outside the 21&ndash;30 range) she actually read and answered — and got wrong for real, before the rushing that produced `online-set-1.html` started. Same pattern as `redo-set-1.html`: numbers changed, each one independently re-solved from scratch, no per-problem Check.
+The other side of that same online session: 7 problems (numbers 18, 20, and 29a/33/36/38/5 from the platform's own numbering, outside the 21&ndash;30 range) she actually read and answered — and got wrong for real, before the rushing that produced `online-set-1.html` started. Same pattern as `redo-set-1.html`: numbers changed, each one independently re-solved from scratch, no per-problem Check.
 
 ## Working on this repo with Claude Code
 
