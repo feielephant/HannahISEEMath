@@ -164,6 +164,16 @@ thing being tested (the original screenshot for this problem type never has the
 shape already drawn). Ship just the axes and gridlines; list the point labels in
 the question text only, not on the figure.
 
+**SVG arrowhead-marker gotcha**: for an axis-arrow `<marker orient="auto">`, draw
+the arrowhead pointing in the local **+x direction** (tip on the right, e.g.
+`M0,0 L6,3 L0,6 Z` with `refX`/`refY` at the tip) regardless of which way the axis
+actually points — `orient="auto"` rotates the marker to match the line's real
+direction for you. Manually drawing the arrowhead pre-rotated to match the axis
+(e.g. pointing "up" for a y-axis) double-rotates it and it ends up backwards
+(a y-axis arrow drawn pointing up came out pointing left). Reuse the exact same
+marker definition for every axis on a diagram; only the line direction should
+change.
+
 ## Grading script internals
 
 - `ANSWERS[qid]` is `{type:'num', value:N}` or `{type:'choice', letter:'X'}`.
