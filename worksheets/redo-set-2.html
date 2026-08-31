@@ -301,6 +301,20 @@
   .choice:hover{ border-color:var(--ink-faint); }
   .choice:focus-visible{ outline:2px solid var(--accent); outline-offset:1px; }
   .choice .letter{ color:var(--ink-faint); margin-right:3px; }
+  .choice table.mini-table{
+    border-collapse:collapse;
+    font-family:"JetBrains Mono", monospace;
+    font-size:0.72rem;
+    font-variant-numeric: tabular-nums;
+    margin-top:5px;
+    width:100%;
+  }
+  .choice table.mini-table th, .choice table.mini-table td{
+    border:1px solid var(--border);
+    padding:2px 6px;
+    text-align:center;
+  }
+  .choice table.mini-table th{ color:var(--ink-faint); font-weight:500; }
   .choice.selected{
     background:var(--accent-soft);
     border-color:var(--accent);
@@ -449,10 +463,18 @@
         <div class="q-text">A number machine uses a rule to change numbers. The table shows what happened when four different numbers went into the same number machine. Which of these could be four more results from the same number machine?</div>
         <div class="diagram"><table><tr><th>Input</th><th>Output</th></tr><tr><td>2</td><td>6</td></tr><tr><td>5</td><td>15</td></tr><tr><td>7</td><td>21</td></tr><tr><td>10</td><td>30</td></tr></table></div>
         <div class="choices" data-qid="redo2-machine">
-          <button type="button" class="choice" data-letter="A"><span class="letter">A</span>4&rarr;8, 5&rarr;10, 6&rarr;12, 7&rarr;14</button>
-          <button type="button" class="choice" data-letter="B"><span class="letter">B</span>4&rarr;12, 5&rarr;13, 6&rarr;14, 7&rarr;15</button>
-          <button type="button" class="choice" data-letter="C"><span class="letter">C</span>4&rarr;12, 5&rarr;15, 6&rarr;18, 7&rarr;21</button>
-          <button type="button" class="choice" data-letter="D"><span class="letter">D</span>4&rarr;16, 5&rarr;20, 6&rarr;24, 7&rarr;28</button>
+          <button type="button" class="choice" data-letter="A"><span class="letter">A</span>
+            <table class="mini-table"><tr><th>Input</th><th>Output</th></tr><tr><td>4</td><td>8</td></tr><tr><td>5</td><td>10</td></tr><tr><td>6</td><td>12</td></tr><tr><td>7</td><td>14</td></tr></table>
+          </button>
+          <button type="button" class="choice" data-letter="B"><span class="letter">B</span>
+            <table class="mini-table"><tr><th>Input</th><th>Output</th></tr><tr><td>4</td><td>12</td></tr><tr><td>5</td><td>13</td></tr><tr><td>6</td><td>14</td></tr><tr><td>7</td><td>15</td></tr></table>
+          </button>
+          <button type="button" class="choice" data-letter="C"><span class="letter">C</span>
+            <table class="mini-table"><tr><th>Input</th><th>Output</th></tr><tr><td>4</td><td>12</td></tr><tr><td>5</td><td>15</td></tr><tr><td>6</td><td>18</td></tr><tr><td>7</td><td>21</td></tr></table>
+          </button>
+          <button type="button" class="choice" data-letter="D"><span class="letter">D</span>
+            <table class="mini-table"><tr><th>Input</th><th>Output</th></tr><tr><td>4</td><td>16</td></tr><tr><td>5</td><td>20</td></tr><tr><td>6</td><td>24</td></tr><tr><td>7</td><td>28</td></tr></table>
+          </button>
         </div>
       </div>
       <div class="card">
