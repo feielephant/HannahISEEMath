@@ -20,7 +20,7 @@ worksheets/       Generated HTML study tools
   redo-set-1.html                           Problems missed a 2nd time, rebuilt with fresh numbers
   online-set-1.html                         Problems 21-30 from an online session, rushed past unread
   redo-set-2.html                           8 problems she genuinely missed on that same session, fresh numbers
-  redo-set-3.html                           25 problems missed a 2nd time across earlier sets, fresh numbers
+  redo-set-3.html                           29 problems missed a 2nd time across earlier sets, fresh numbers
 ```
 
 ### `worksheets/full-workbook.html`
@@ -55,7 +55,7 @@ The other side of that same online session: 8 problems (numbers 5, 18, 20, 22, 2
 
 ### `worksheets/redo-set-3.html`
 
-A larger "missed again" set: 25 problems pulled from across several earlier worksheets (the original book-based rework set, plus the T2/T3 practice-test batches) that she got wrong a second time on a repeat attempt. Same pattern as `redo-set-1.html`/`redo-set-2.html` — numbers changed and each one independently re-solved from scratch — plus the correct answer's letter position shuffled throughout, so neither the numbers nor "it's usually A" pattern-matching carries over from memory.
+A larger "missed again" set: 29 problems pulled from across several earlier worksheets (the original book-based rework set, `redo-set-1.html`/`redo-set-2.html`, and the T2/T3 practice-test batches) that she got wrong a second time on a repeat attempt. Same pattern — numbers changed and each one independently re-solved from scratch — plus the correct answer's letter position shuffled throughout, so neither the numbers nor "it's usually A" pattern-matching carries over from memory. The composite-prism volume diagram is additionally mirrored (both left-right and up-down) from its source so the picture itself doesn't look familiar.
 
 ## Working on this repo with Claude Code
 
