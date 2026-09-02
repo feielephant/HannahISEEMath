@@ -1,0 +1,886 @@
+<title>Redo Set 3 (Fresh Numbers)</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Petrona:ital,wght@0,500;0,600;0,700;1,500&family=Public+Sans:ital,wght@0,400;0,500;0,600;1,400&family=JetBrains+Mono:wght@400;500;600&display=swap">
+<style>
+  :root{
+    --bg:#EEF2F0;
+    --grid-line: rgba(30,42,40,0.055);
+    --surface:#FFFFFF;
+    --surface-alt:#E7EDEA;
+    --ink:#1E2A28;
+    --ink-muted:#57655F;
+    --ink-faint:#8B968F;
+    --border:#D6DFDA;
+    --accent:#1C7A69;
+    --accent-ink:#0F5648;
+    --accent-soft:#E1F2EC;
+    --wrong:#B9402E;
+    --wrong-soft:#FBEAE6;
+    --amber:#9A6B12;
+    --shadow: 0 1px 2px rgba(20,30,28,0.04), 0 8px 24px -12px rgba(20,30,28,0.12);
+  }
+  @media (prefers-color-scheme: dark){
+    :root:not([data-theme="light"]){
+      --bg:#12181A;
+      --grid-line: rgba(210,225,220,0.045);
+      --surface:#1B2224;
+      --surface-alt:#212A2C;
+      --ink:#E8EFEC;
+      --ink-muted:#9FB0AA;
+      --ink-faint:#6C7C77;
+      --border:#2C3739;
+      --accent:#4FC4AC;
+      --accent-ink:#8FE0CC;
+      --accent-soft:rgba(79,196,172,0.14);
+      --wrong:#E77563;
+      --wrong-soft:rgba(231,117,99,0.14);
+      --amber:#E0AC4E;
+      --shadow: 0 1px 2px rgba(0,0,0,0.3), 0 8px 24px -12px rgba(0,0,0,0.5);
+    }
+  }
+  :root[data-theme="dark"]{
+    --bg:#12181A;
+    --grid-line: rgba(210,225,220,0.045);
+    --surface:#1B2224;
+    --surface-alt:#212A2C;
+    --ink:#E8EFEC;
+    --ink-muted:#9FB0AA;
+    --ink-faint:#6C7C77;
+    --border:#2C3739;
+    --accent:#4FC4AC;
+    --accent-ink:#8FE0CC;
+    --accent-soft:rgba(79,196,172,0.14);
+    --wrong:#E77563;
+    --wrong-soft:rgba(231,117,99,0.14);
+    --amber:#E0AC4E;
+    --shadow: 0 1px 2px rgba(0,0,0,0.3), 0 8px 24px -12px rgba(0,0,0,0.5);
+  }
+
+  *{box-sizing:border-box;}
+  html{-webkit-text-size-adjust:100%;}
+  body{
+    margin:0;
+    background:
+      linear-gradient(var(--grid-line) 1px, transparent 1px) 0 0/ 28px 28px,
+      linear-gradient(90deg, var(--grid-line) 1px, transparent 1px) 0 0/ 28px 28px,
+      var(--bg);
+    color:var(--ink);
+    font-family:"Public Sans", ui-sans-serif, system-ui, sans-serif;
+    line-height:1.5;
+    -webkit-font-smoothing:antialiased;
+  }
+  a{color:var(--accent-ink);}
+  ::selection{ background: var(--accent-soft); }
+
+  .wrap{ max-width: 980px; margin: 0 auto; padding: 0 20px 96px; }
+
+  /* ---------- Header ---------- */
+  header.hero{
+    padding: 56px 0 36px;
+    border-bottom: 1px solid var(--border);
+    margin-bottom: 40px;
+  }
+  .eyebrow{
+    font-family:"JetBrains Mono", ui-monospace, monospace;
+    font-size:0.72rem;
+    letter-spacing:0.11em;
+    text-transform:uppercase;
+    color:var(--accent-ink);
+    display:flex;
+    align-items:center;
+    gap:10px;
+    margin-bottom:14px;
+  }
+  .eyebrow::before{
+    content:"";
+    width:7px; height:7px;
+    background:var(--accent);
+    border-radius:50%;
+    display:inline-block;
+    box-shadow: 0 0 0 3px var(--accent-soft);
+  }
+  h1{
+    font-family:"Petrona", Georgia, serif;
+    font-weight:700;
+    font-size: clamp(2rem, 4.4vw, 2.75rem);
+    line-height:1.08;
+    margin:0 0 14px;
+    text-wrap:balance;
+    letter-spacing:-0.01em;
+  }
+  .hero p.lede{
+    max-width:64ch;
+    color:var(--ink-muted);
+    font-size:1.03rem;
+    margin: 0 0 28px;
+  }
+  .stat-row{
+    display:flex;
+    flex-wrap:wrap;
+    align-items:center;
+    gap:14px;
+  }
+  .stat{
+    background:var(--surface);
+    border:1px solid var(--border);
+    border-radius:10px;
+    padding:12px 18px;
+    box-shadow:var(--shadow);
+    min-width:128px;
+  }
+  .stat .n{
+    font-family:"JetBrains Mono", monospace;
+    font-variant-numeric: tabular-nums;
+    font-size:1.5rem;
+    font-weight:600;
+    color:var(--ink);
+    display:block;
+  }
+  .stat .lbl{
+    font-size:0.72rem;
+    color:var(--ink-faint);
+    text-transform:uppercase;
+    letter-spacing:0.08em;
+  }
+  #progress-stat .n{ color:var(--accent-ink); }
+  .clear-btn, .submit-btn, .hide-btn{
+    font-family:"JetBrains Mono", monospace;
+    font-size:0.78rem;
+    color:var(--ink-muted);
+    background:var(--surface);
+    border:1px solid var(--border);
+    border-radius:999px;
+    padding:9px 16px;
+    cursor:pointer;
+    transition: border-color 0.15s, color 0.15s, background 0.15s;
+  }
+  .clear-btn:hover{ border-color:var(--wrong); color:var(--wrong); }
+  .submit-btn{
+    background:var(--accent);
+    border-color:var(--accent);
+    color:#fff;
+    font-weight:600;
+  }
+  .submit-btn:hover{ background:var(--accent-ink); border-color:var(--accent-ink); }
+  .hide-btn:hover{ border-color:var(--ink-faint); color:var(--ink); }
+
+  .grade-summary{
+    display:flex;
+    flex-wrap:wrap;
+    gap:10px;
+    margin-top:16px;
+  }
+  .grade-summary .gs-item{
+    font-family:"JetBrains Mono", monospace;
+    font-size:0.85rem;
+    font-weight:600;
+    padding:6px 14px;
+    border-radius:999px;
+    border:1px solid var(--border);
+  }
+  .grade-summary .gs-item.right{ color:var(--accent-ink); background:var(--accent-soft); border-color:var(--accent); }
+  .grade-summary .gs-item.wrong{ color:var(--wrong); background:var(--wrong-soft); border-color:var(--wrong); }
+  .grade-summary .gs-item.blank{ color:var(--amber); background:transparent; border-color:var(--amber); }
+
+  .answer-box.grade-correct{ border-color:var(--accent); background:var(--accent-soft); }
+  .answer-box.grade-wrong{ border-color:var(--wrong); background:var(--wrong-soft); }
+  .grade-note{
+    font-family:"JetBrains Mono", monospace;
+    font-size:0.78rem;
+    margin-top:2px;
+  }
+  .grade-note.right{ color:var(--accent-ink); }
+  .grade-note.wrong{ color:var(--wrong); }
+
+  .card-actions{
+    display:flex;
+    gap:8px;
+    justify-content:flex-end;
+  }
+  .mini-btn{
+    font-family:"JetBrains Mono", monospace;
+    font-size:0.7rem;
+    padding:4px 11px;
+    border-radius:999px;
+    border:1px solid var(--border);
+    background:var(--surface);
+    color:var(--ink-muted);
+    cursor:pointer;
+    transition: border-color 0.15s, color 0.15s;
+  }
+  .mini-btn.check-one:hover{ border-color:var(--accent); color:var(--accent-ink); }
+  .mini-btn.clear-one:hover{ border-color:var(--wrong); color:var(--wrong); }
+  .grade-summary .gs-checked{
+    font-family:"JetBrains Mono", monospace;
+    font-size:0.82rem;
+    color:var(--ink-faint);
+    align-self:center;
+  }
+
+  .choice.grade-correct{ border-color:var(--accent); background:var(--accent-soft); color:var(--ink); font-weight:600; }
+  .choice.grade-correct .letter{ color:var(--accent-ink); }
+  .choice.grade-wrong-pick{ border-color:var(--wrong); background:var(--wrong-soft); color:var(--ink); font-weight:600; }
+  .choice.grade-wrong-pick .letter{ color:var(--wrong); }
+  .choice.selected.grade-wrong-pick{ border-color:var(--wrong); background:var(--wrong-soft); color:var(--ink); }
+  .choice.selected.grade-wrong-pick .letter{ color:var(--wrong); }
+
+  .method{
+    margin-top:26px;
+    font-size:0.88rem;
+    color:var(--ink-muted);
+    border-left:2px solid var(--border);
+    padding-left:14px;
+    max-width:64ch;
+  }
+  .method strong{ color:var(--ink); font-weight:600; }
+  .method .pill{
+    display:inline-flex;
+    align-items:center;
+    font-family:"JetBrains Mono", monospace;
+    font-size:0.72rem;
+    padding:1px 7px;
+    border-radius:999px;
+    border:1px solid var(--border);
+    background:var(--surface-alt);
+    color:var(--ink-muted);
+    margin:0 2px;
+    vertical-align:middle;
+  }
+
+  /* ---------- Sections ---------- */
+  .cards{
+    display:grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap:16px;
+  }
+
+  .card{
+    background:var(--surface);
+    border:1px solid var(--border);
+    border-radius:12px;
+    padding:18px 20px 18px;
+    box-shadow:var(--shadow);
+    display:flex;
+    flex-direction:column;
+    gap:12px;
+    transition: border-color 0.15s, box-shadow 0.15s;
+  }
+  .card.done{ border-color:var(--accent); }
+  .card-num{
+    font-family:"Petrona", Georgia, serif;
+    font-style:italic;
+    font-weight:600;
+    color:var(--ink-faint);
+    font-size:0.95rem;
+  }
+  .q-text{
+    font-size:0.96rem;
+    color:var(--ink);
+  }
+  .q-text .g{ font-family:"JetBrains Mono", monospace; font-size:0.92em; }
+
+  .choices{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    gap:7px;
+  }
+  .choice{
+    font-family:"JetBrains Mono", monospace;
+    font:inherit;
+    font-size:0.85rem;
+    padding:7px 9px;
+    border-radius:7px;
+    border:1px solid var(--border);
+    background:var(--surface-alt);
+    color:var(--ink-muted);
+    line-height:1.35;
+    text-align:left;
+    cursor:pointer;
+    display:block;
+    width:100%;
+  }
+  .choice:hover{ border-color:var(--ink-faint); }
+  .choice:focus-visible{ outline:2px solid var(--accent); outline-offset:1px; }
+  .choice .letter{ color:var(--ink-faint); margin-right:3px; }
+  .choice table.mini-table{
+    border-collapse:collapse;
+    font-family:"JetBrains Mono", monospace;
+    font-size:0.72rem;
+    font-variant-numeric: tabular-nums;
+    margin-top:5px;
+    width:100%;
+  }
+  .choice table.mini-table th, .choice table.mini-table td{
+    border:1px solid var(--border);
+    padding:2px 6px;
+    text-align:center;
+  }
+  .choice table.mini-table th{ color:var(--ink-faint); font-weight:500; }
+  .choice.selected{
+    background:var(--accent-soft);
+    border-color:var(--accent);
+    color:var(--ink);
+    font-weight:600;
+  }
+  .choice.selected .letter{ color:var(--accent-ink); }
+
+  .answer-box{
+    display:flex;
+    align-items:center;
+    gap:12px;
+    border:1.5px solid var(--border);
+    border-radius:8px;
+    background:var(--surface-alt);
+    padding:6px 14px;
+    transition: border-color 0.15s;
+  }
+  .answer-box:focus-within{ border-color:var(--accent); }
+  .answer-box .ab-label{
+    font-family:"JetBrains Mono", monospace;
+    font-size:0.68rem;
+    letter-spacing:0.08em;
+    text-transform:uppercase;
+    color:var(--ink-faint);
+    flex-shrink:0;
+  }
+  .answer-box input.answer-input{
+    flex:1;
+    min-width:0;
+    border:none;
+    background:transparent;
+    font-family:"JetBrains Mono", monospace;
+    font-size:0.95rem;
+    color:var(--ink);
+    padding:6px 2px;
+    outline:none;
+  }
+  .answer-box input.answer-input::placeholder{ color:var(--ink-faint); opacity:0.7; }
+
+  .diagram{
+    background:var(--surface-alt);
+    border:1px solid var(--border);
+    border-radius:8px;
+    padding:10px;
+    display:flex;
+    justify-content:center;
+  }
+  .diagram svg{ max-width:100%; height:auto; display:block; }
+  .diagram table{
+    border-collapse:collapse;
+    font-family:"JetBrains Mono", monospace;
+    font-size:0.78rem;
+    font-variant-numeric: tabular-nums;
+  }
+  .diagram th, .diagram td{
+    border:1px solid var(--border);
+    padding:4px 9px;
+    text-align:center;
+  }
+  .diagram th{ color:var(--ink-faint); font-weight:500; background:var(--surface); }
+
+  footer{
+    margin-top:60px;
+    padding-top:22px;
+    border-top:1px solid var(--border);
+    color:var(--ink-faint);
+    font-size:0.8rem;
+  }
+
+  @media (max-width:480px){
+    .choices{ grid-template-columns: 1fr; }
+  }
+</style>
+<div class="wrap">
+
+  <header class="hero">
+    <div class="eyebrow">ISEE Math Practice &middot; Missed Again</div>
+    <h1>Redo Set 3 <span style="font-size:0.5em; color:var(--ink-faint); font-weight:500;">&middot; the ones she got wrong a second time</span></h1>
+    <p class="lede">25 problems from across earlier worksheets that she got wrong again on a repeat attempt. Rebuilt with different numbers and the correct answer moved to a different letter, so it's not just recalling the same answer or the same position. No per-problem Check button; work through all 25, then hit <strong>Submit &amp; grade</strong> once at the end.</p>
+    <div class="stat-row">
+      <div class="stat"><span class="n">25</span><span class="lbl">Problems</span></div>
+      <div class="stat" id="progress-stat"><span class="n"><span id="progress-count">0</span> / 25</span><span class="lbl">Answered</span></div>
+      <button type="button" class="submit-btn" id="submit-grade">Submit &amp; grade</button>
+      <button type="button" class="hide-btn" id="hide-results" hidden>Hide results</button>
+      <button type="button" class="clear-btn" id="clear-all">Clear all answers</button>
+    </div>
+    <div class="grade-summary" id="grade-summary" hidden></div>
+    <p class="method"><strong>How to use this:</strong> type your final answer into the <span class="pill">Answer</span> blank, or click a lettered option to select it. Everything saves in this browser as you go. Once she's answered everything, <strong>Submit &amp; grade</strong> reveals every correct answer and a one-line "Why" for each, and tallies right vs. wrong.</p>
+  </header>
+
+  <div class="cards">
+      <div class="card">
+        <div class="q-text">A number machine performs the same operation on each input number to create an output number. The machine only takes even numbers as inputs. Which output comes from an input of 10?</div>
+        <div class="diagram"><table><tr><th>Input</th><th>Output</th></tr><tr><td>6</td><td>24</td></tr><tr><td>12</td><td>84</td></tr><tr><td>16</td><td>144</td></tr><tr><td>20</td><td>220</td></tr></table></div>
+        <div class="answer-box"><span class="ab-label">Answer</span><input type="text" class="answer-input" data-qid="redo3-machine" autocomplete="off" spellcheck="false"></div>
+      </div>
+      <div class="card">
+        <div class="q-text">Which statement is true given the data set 8, 11, 8, 8, 9, 10?</div>
+        <div class="choices" data-qid="redo3-stats">
+          <button type="button" class="choice" data-letter="A"><span class="letter">A</span>median = mode</button>
+          <button type="button" class="choice" data-letter="B"><span class="letter">B</span>mean &gt; mode</button>
+          <button type="button" class="choice" data-letter="C"><span class="letter">C</span>mean &lt; range</button>
+          <button type="button" class="choice" data-letter="D"><span class="letter">D</span>median = mean</button>
+        </div>
+      </div>
+      <div class="card">
+        <div class="q-text">What is the prime factorization of 72?</div>
+        <div class="choices" data-qid="redo3-primefact">
+          <button type="button" class="choice" data-letter="A"><span class="letter">A</span>2&times;36</button>
+          <button type="button" class="choice" data-letter="B"><span class="letter">B</span>2&sup2;&times;3&sup3;</button>
+          <button type="button" class="choice" data-letter="C"><span class="letter">C</span>2&sup3;&times;3&sup2;</button>
+          <button type="button" class="choice" data-letter="D"><span class="letter">D</span>8&times;9</button>
+        </div>
+      </div>
+      <div class="card">
+        <div class="q-text">Rain fell at 4.2 inches every 6 hours. At that rate, how many inches fall in 9 hours?</div>
+        <div class="answer-box"><span class="ab-label">Answer</span><input type="text" class="answer-input" data-qid="redo3-rate" autocomplete="off" spellcheck="false"></div>
+      </div>
+      <div class="card">
+        <div class="q-text">What is the value of x in 8 &minus; 3x = 2?</div>
+        <div class="answer-box"><span class="ab-label">Answer</span><input type="text" class="answer-input" data-qid="redo3-linear" autocomplete="off" spellcheck="false"></div>
+      </div>
+      <div class="card">
+        <div class="q-text">Use the figure to answer the question. What is the perimeter of the figure?</div>
+        <div class="diagram"><svg viewBox="0 0 257 150" width="257" height="150"><polygon points="53.3,115.0 203.3,115.0 203.3,75.0 143.3,75.0 143.3,25.0 53.3,25.0" fill="none" stroke="currentColor" stroke-width="1.8" style="color:var(--ink-muted)"/><text x="128.3" y="135.0" text-anchor="middle" font-family="JetBrains Mono, monospace" font-size="11" fill="var(--ink)">15 in</text><text x="216.3" y="99.0" text-anchor="start" font-family="JetBrains Mono, monospace" font-size="11" fill="var(--ink)">4 in</text><text x="98.3" y="13.0" text-anchor="middle" font-family="JetBrains Mono, monospace" font-size="11" fill="var(--ink)">9 in</text><text x="38.3" y="73.0" text-anchor="end" font-family="JetBrains Mono, monospace" font-size="11" fill="var(--ink)">6 in</text></svg></div>
+        <div class="answer-box"><span class="ab-label">Answer</span><input type="text" class="answer-input" data-qid="redo3-staircase" autocomplete="off" spellcheck="false"></div>
+      </div>
+      <div class="card">
+        <div class="q-text">The table below shows items that Jamal bought at the grocery store. If Jamal spent a total of $13.50, how many plums did he buy?</div>
+        <div class="diagram"><table><tr><th>Item</th><th>Price for One</th><th>Total Spent</th></tr><tr><td>Banana</td><td>$0.30</td><td>$1.80</td></tr><tr><td>Peach</td><td>$1.10</td><td>$3.30</td></tr><tr><td>Plum</td><td>$0.70</td><td>?</td></tr><tr><td>Grapefruit</td><td>$1.40</td><td>$5.60</td></tr></table></div>
+        <div class="answer-box"><span class="ab-label">Answer</span><input type="text" class="answer-input" data-qid="redo3-grocery" autocomplete="off" spellcheck="false"></div>
+      </div>
+      <div class="card">
+        <div class="q-text">Lake Michigan has an area of 91,600 km&sup2;. Which lake has an area closest to &frac14; of that?</div>
+        <div class="choices" data-qid="redo3-lakearea">
+          <button type="button" class="choice" data-letter="A"><span class="letter">A</span>Ontario, 22,450 km&sup2;</button>
+          <button type="button" class="choice" data-letter="B"><span class="letter">B</span>Vostok, 13,800 km&sup2;</button>
+          <button type="button" class="choice" data-letter="C"><span class="letter">C</span>Winnipeg, 27,300 km&sup2;</button>
+          <button type="button" class="choice" data-letter="D"><span class="letter">D</span>Balkhash, 19,200 km&sup2;</button>
+        </div>
+      </div>
+      <div class="card">
+        <div class="q-text">Which fraction is in between 1/5 and 1/3?</div>
+        <div class="choices" data-qid="redo3-fracbetween">
+          <button type="button" class="choice" data-letter="A"><span class="letter">A</span>1/2</button>
+          <button type="button" class="choice" data-letter="B"><span class="letter">B</span>1/6</button>
+          <button type="button" class="choice" data-letter="C"><span class="letter">C</span>3/4</button>
+          <button type="button" class="choice" data-letter="D"><span class="letter">D</span>3/10</button>
+        </div>
+      </div>
+      <div class="card">
+        <div class="q-text">225 minutes is equal to how many hours?</div>
+        <div class="answer-box"><span class="ab-label">Answer</span><input type="text" class="answer-input" data-qid="redo3-minhours" autocomplete="off" spellcheck="false"></div>
+      </div>
+      <div class="card">
+        <div class="q-text">The combined area of all of the surfaces of the small, shaded cube is 18 square feet. What is the total combined area of the surfaces of the larger cube?</div>
+        <div class="diagram"><svg viewBox="0 0 200 200" width="200" height="200"><g fill="none" stroke="currentColor" stroke-width="1.5" style="color:var(--ink-muted)"><path d="M100,10 L30,50 L100,90 L170,50 Z"/><path d="M30,50 L100,90 L100,190 L30,150 Z"/><path d="M100,90 L170,50 L170,150 L100,190 Z"/></g><g stroke="currentColor" stroke-width="0.8" style="color:var(--ink-faint)"><line x1="100.0" y1="115.0" x2="104.0" y2="115.0"/><line x1="100.0" y1="140.0" x2="104.0" y2="140.0"/><line x1="100.0" y1="165.0" x2="104.0" y2="165.0"/><line x1="47.5" y1="160.0" x2="49.5" y2="156.5"/><line x1="65.0" y1="170.0" x2="67.0" y2="166.5"/><line x1="82.5" y1="180.0" x2="84.5" y2="176.5"/><line x1="152.5" y1="160.0" x2="154.5" y2="163.5"/><line x1="135.0" y1="170.0" x2="137.0" y2="173.5"/><line x1="117.5" y1="180.0" x2="119.5" y2="183.5"/></g><path d="M47.5,40.0 L30.0,50.0 L47.5,60.0 L65.0,50.0 Z" fill="var(--accent)" fill-opacity="0.55" stroke="currentColor" stroke-width="1.3" style="color:var(--ink)"/><path d="M30.0,50.0 L47.5,60.0 L47.5,85.0 L30.0,75.0 Z" fill="var(--accent)" fill-opacity="0.4" stroke="currentColor" stroke-width="1.3" style="color:var(--ink)"/></svg></div>
+        <div class="answer-box"><span class="ab-label">Answer</span><input type="text" class="answer-input" data-qid="redo3-cube" autocomplete="off" spellcheck="false"></div>
+      </div>
+      <div class="card">
+        <div class="q-text">Use the pattern to answer the question. 3+5=2&sup3;, 7+9+11=3&sup3;, 13+15+17+19=4&sup3;. Which of the following is equal to 6&sup3;?</div>
+        <div class="choices" data-qid="redo3-oddpattern">
+          <button type="button" class="choice" data-letter="A"><span class="letter">A</span>21+23+25+27+29</button>
+          <button type="button" class="choice" data-letter="B"><span class="letter">B</span>30+31+32+33+34+35</button>
+          <button type="button" class="choice" data-letter="C"><span class="letter">C</span>31+33+35+37+39+41</button>
+          <button type="button" class="choice" data-letter="D"><span class="letter">D</span>33+35+37+39+41+43</button>
+        </div>
+      </div>
+      <div class="card">
+        <div class="q-text">Marcus has 45 candies and wants to package them into boxes of 5 candies. Which equation can be used to determine how many boxes, b, Marcus needs?</div>
+        <div class="choices" data-qid="redo3-boxes">
+          <button type="button" class="choice" data-letter="A"><span class="letter">A</span>b&divide;5=45</button>
+          <button type="button" class="choice" data-letter="B"><span class="letter">B</span>b+5=45</button>
+          <button type="button" class="choice" data-letter="C"><span class="letter">C</span>b&divide;45=5</button>
+          <button type="button" class="choice" data-letter="D"><span class="letter">D</span>b&times;5=45</button>
+        </div>
+      </div>
+      <div class="card">
+        <div class="q-text">Which represents &ldquo;six more than a third of a number is four less than the number&rdquo;?</div>
+        <div class="choices" data-qid="redo3-algphrase">
+          <button type="button" class="choice" data-letter="A"><span class="letter">A</span>&frac13;(n+6) = 4 &minus; n</button>
+          <button type="button" class="choice" data-letter="B"><span class="letter">B</span>&frac13;(n+6) = n &minus; 4</button>
+          <button type="button" class="choice" data-letter="C"><span class="letter">C</span>&frac13;n + 6 = 4 &minus; n</button>
+          <button type="button" class="choice" data-letter="D"><span class="letter">D</span>&frac13;n + 6 = n &minus; 4</button>
+        </div>
+      </div>
+      <div class="card">
+        <div class="q-text">Tokyo is 13 hours ahead of New York. If a plane leaves Tokyo at 10:00 P.M. and arrives in New York 14 hours later, what time is it in New York when the plane arrives?</div>
+        <div class="choices" data-qid="redo3-timezone">
+          <button type="button" class="choice" data-letter="A"><span class="letter">A</span>3:00 A.M.</button>
+          <button type="button" class="choice" data-letter="B"><span class="letter">B</span>11:00 P.M.</button>
+          <button type="button" class="choice" data-letter="C"><span class="letter">C</span>9:00 P.M.</button>
+          <button type="button" class="choice" data-letter="D"><span class="letter">D</span>7:00 A.M.</button>
+        </div>
+      </div>
+      <div class="card">
+        <div class="q-text">What is a reasonable estimation for the value of (143 &times; 32) / 72?</div>
+        <div class="choices" data-qid="redo3-estimate">
+          <button type="button" class="choice" data-letter="A"><span class="letter">A</span>55&ndash;70</button>
+          <button type="button" class="choice" data-letter="B"><span class="letter">B</span>25&ndash;40</button>
+          <button type="button" class="choice" data-letter="C"><span class="letter">C</span>70&ndash;85</button>
+          <button type="button" class="choice" data-letter="D"><span class="letter">D</span>40&ndash;55</button>
+        </div>
+      </div>
+      <div class="card">
+        <div class="q-text">A basket of fruit has 20 apples, 10 oranges, and 15 pears. What is the ratio of apples to pears?</div>
+        <div class="choices" data-qid="redo3-ratio">
+          <button type="button" class="choice" data-letter="A"><span class="letter">A</span>4:3</button>
+          <button type="button" class="choice" data-letter="B"><span class="letter">B</span>1:2</button>
+          <button type="button" class="choice" data-letter="C"><span class="letter">C</span>2:1</button>
+          <button type="button" class="choice" data-letter="D"><span class="letter">D</span>3:4</button>
+        </div>
+      </div>
+      <div class="card">
+        <div class="q-text">Which of the following illustrates the identity property for addition?</div>
+        <div class="choices" data-qid="redo3-identity">
+          <button type="button" class="choice" data-letter="A"><span class="letter">A</span>x&times;0=0</button>
+          <button type="button" class="choice" data-letter="B"><span class="letter">B</span>x&times;1=x</button>
+          <button type="button" class="choice" data-letter="C"><span class="letter">C</span>x+0=x</button>
+          <button type="button" class="choice" data-letter="D"><span class="letter">D</span>x+y=y+x</button>
+        </div>
+      </div>
+      <div class="card">
+        <div class="q-text">The points with coordinates (0, 4), (6, 2), and (0, 0) are used to form a triangle. If all three points are connected to form the triangle, what type of triangle is formed?</div>
+        <div class="choices" data-qid="redo3-triangletype">
+          <button type="button" class="choice" data-letter="A"><span class="letter">A</span>obtuse</button>
+          <button type="button" class="choice" data-letter="B"><span class="letter">B</span>equilateral</button>
+          <button type="button" class="choice" data-letter="C"><span class="letter">C</span>right</button>
+          <button type="button" class="choice" data-letter="D"><span class="letter">D</span>acute</button>
+        </div>
+      </div>
+      <div class="card">
+        <div class="q-text">The Merdeka 118 tower is 2,717 feet tall. Which of the following structures has a height closest to 1/4 that of Merdeka 118?</div>
+        <div class="choices" data-qid="redo3-buildingheight">
+          <button type="button" class="choice" data-letter="A"><span class="letter">A</span>Anaconda Smelter Stack (550 ft)</button>
+          <button type="button" class="choice" data-letter="B"><span class="letter">B</span>Jinping-I Dam (850 ft)</button>
+          <button type="button" class="choice" data-letter="C"><span class="letter">C</span>Kiev TV Tower (1,050 ft)</button>
+          <button type="button" class="choice" data-letter="D"><span class="letter">D</span>Hassan II Mosque (679 ft)</button>
+        </div>
+      </div>
+      <div class="card">
+        <div class="q-text">The figure below is made up of two overlapping squares. The side length of the larger square is 10 ft, and the area of the shaded region is 51 ft&sup2;. What is the side length of the smaller square?</div>
+        <div class="diagram"><svg viewBox="0 0 168 168" width="168" height="168"><rect x="14" y="14" width="140" height="140" fill="var(--accent)" fill-opacity="0.18" stroke="currentColor" stroke-width="1.8" style="color:var(--ink)"/><rect x="56.0" y="56.0" width="98" height="98" fill="var(--surface)" stroke="currentColor" stroke-width="1.6" style="color:var(--ink-muted)"/></svg></div>
+        <div class="answer-box"><span class="ab-label">Answer</span><input type="text" class="answer-input" data-qid="redo3-overlapsquares" autocomplete="off" spellcheck="false"></div>
+      </div>
+      <div class="card">
+        <div class="q-text">How many seconds are in a third of a day?</div>
+        <div class="answer-box"><span class="ab-label">Answer</span><input type="text" class="answer-input" data-qid="redo3-seconds" autocomplete="off" spellcheck="false"></div>
+      </div>
+      <div class="card">
+        <div class="q-text">If the perimeter of a rectangle is 40, which equation can be used to find the length of the rectangle? <span class="g">(P = 2l + 2w)</span></div>
+        <div class="choices" data-qid="redo3-rectlength">
+          <button type="button" class="choice" data-letter="A"><span class="letter">A</span>l = 40 + 2w</button>
+          <button type="button" class="choice" data-letter="B"><span class="letter">B</span>l = 20 + w</button>
+          <button type="button" class="choice" data-letter="C"><span class="letter">C</span>l = 20 &minus; w</button>
+          <button type="button" class="choice" data-letter="D"><span class="letter">D</span>l = 40 &minus; 2w</button>
+        </div>
+      </div>
+      <div class="card">
+        <div class="q-text">72 is 80% of what number?</div>
+        <div class="answer-box"><span class="ab-label">Answer</span><input type="text" class="answer-input" data-qid="redo3-percent" autocomplete="off" spellcheck="false"></div>
+      </div>
+      <div class="card">
+        <div class="q-text">4 apples + 1 banana costs $4.20. Each apple costs 3 times as much as each banana (b). Which equation finds b?</div>
+        <div class="choices" data-qid="redo3-appleq">
+          <button type="button" class="choice" data-letter="A"><span class="letter">A</span>5b=4.20</button>
+          <button type="button" class="choice" data-letter="B"><span class="letter">B</span>b+4=4.20</button>
+          <button type="button" class="choice" data-letter="C"><span class="letter">C</span>7b=4.20</button>
+          <button type="button" class="choice" data-letter="D"><span class="letter">D</span>13b=4.20</button>
+        </div>
+      </div>
+  </div>
+
+  <footer>
+    A redo set built from problems Hannah missed a second time across several earlier worksheets, with the numbers changed, each one independently re-solved from scratch, and the correct answer's position shuffled &mdash; not just the same problems with the answer key re-applied.
+  </footer>
+
+</div>
+
+<script>
+(function(){
+  var STORAGE_KEY = 'hannah-redo-set-3-v1';
+  var TOTAL = 25;
+  var state = {};
+  try { state = JSON.parse(localStorage.getItem(STORAGE_KEY) || '{}'); } catch(e){ state = {}; }
+  var gradedResults = {};
+
+  var ANSWERS = {
+    'redo3-machine': {type:'num', value:60},
+    'redo3-stats': {type:'choice', letter:'B'},
+    'redo3-primefact': {type:'choice', letter:'C'},
+    'redo3-rate': {type:'num', value:6.3},
+    'redo3-linear': {type:'num', value:2},
+    'redo3-staircase': {type:'num', value:48},
+    'redo3-grocery': {type:'num', value:4},
+    'redo3-lakearea': {type:'choice', letter:'A'},
+    'redo3-fracbetween': {type:'choice', letter:'D'},
+    'redo3-minhours': {type:'num', value:3.75},
+    'redo3-cube': {type:'num', value:288},
+    'redo3-oddpattern': {type:'choice', letter:'C'},
+    'redo3-boxes': {type:'choice', letter:'D'},
+    'redo3-algphrase': {type:'choice', letter:'D'},
+    'redo3-timezone': {type:'choice', letter:'B'},
+    'redo3-estimate': {type:'choice', letter:'A'},
+    'redo3-ratio': {type:'choice', letter:'A'},
+    'redo3-identity': {type:'choice', letter:'C'},
+    'redo3-triangletype': {type:'choice', letter:'D'},
+    'redo3-buildingheight': {type:'choice', letter:'D'},
+    'redo3-overlapsquares': {type:'num', value:7},
+    'redo3-seconds': {type:'num', value:28800},
+    'redo3-rectlength': {type:'choice', letter:'C'},
+    'redo3-percent': {type:'num', value:90},
+    'redo3-appleq': {type:'choice', letter:'D'}
+  };
+
+  var WHY = {
+    'redo3-machine': 'Checking the table: output = input &times; (input/2 + 1) (6&times;4=24, 12&times;7=84, 16&times;9=144, 20&times;11=220). For input 10: 10&times;(5+1)=10&times;6=60.',
+    'redo3-stats': 'mean=(8+11+8+8+9+10)/6=9; mode=8 (appears 3 times); 9&gt;8, so mean&gt;mode is true. (median=8.5, range=3 &mdash; the other statements don\'t hold.)',
+    'redo3-primefact': '72 = 8&times;9 = 2&times;2&times;2&times;3&times;3 = 2&sup3;&times;3&sup2;. A isn\'t fully factored (36 isn\'t prime); D is numerically correct but 8 and 9 aren\'t prime; B (=108) is numerically wrong.',
+    'redo3-rate': '4.2 &divide; 6 = 0.7 in/hr; 0.7 &times; 9 = 6.3 inches.',
+    'redo3-linear': '&minus;3x = 2&minus;8 = &minus;6, so x = 2.',
+    'redo3-staircase': 'For this staircase-shaped rectilinear figure, horizontal segments always sum to the bounding width (15 in) doubled and vertical segments to the bounding height (9 in) doubled, so perimeter = 2(15+9) = 48 in.',
+    'redo3-grocery': 'Known totals: bananas $1.80 + peaches $3.30 + grapefruit $5.60 = $10.70; remaining $2.80 for plums at $0.70 each = 4 plums.',
+    'redo3-lakearea': '&frac14; of 91,600 = 22,900 km&sup2; &mdash; Ontario\'s 22,450 is the closest of the four (only 450 off).',
+    'redo3-fracbetween': 'As decimals, 1/5=0.2 and 1/3&asymp;0.333; only 3/10=0.3 falls between them (1/2=0.5 and 3/4=0.75 are too big, 1/6&asymp;0.167 is too small).',
+    'redo3-minhours': '225 &divide; 60 = 3 hours with remainder 45 minutes; 45/60 = 0.75, so 3.75 hours. (Tip: type it as a decimal like 3.75, not &ldquo;3 hours 45 minutes&rdquo; &mdash; the checker only reads the number.)',
+    'redo3-cube': 'The diagram\'s tick marks show the large cube\'s edge is 4 times the small cube\'s edge; surface area scales with the square of the edge ratio (4&sup2;=16), so 18 &times; 16 = 288 sq ft.',
+    'redo3-oddpattern': 'Each line uses the next n consecutive odd numbers, continuing right after the last one used. The 5&sup3; line (not shown) would end at 29, so 6&sup3; uses the next six odd numbers: 31+33+35+37+39+41 = 216 = 6&sup3;. (A is the 5&sup3; sum; B isn\'t odd numbers; D starts two too high.)',
+    'redo3-boxes': 'The number of boxes times 5 candies per box equals the total 45 candies, so b&times;5=45 (giving b=9).',
+    'redo3-algphrase': '&ldquo;Six more than a third of a number&rdquo; = &frac13;n + 6; &ldquo;four less than the number&rdquo; = n &minus; 4, giving &frac13;n+6 = n&minus;4.',
+    'redo3-timezone': '10:00 PM Tokyo time equals 9:00 AM New York time (13 hours behind); adding the 14-hour flight gives 11:00 PM New York time.',
+    'redo3-estimate': 'exact value &asymp; 63.6, which falls in the 55&ndash;70 range.',
+    'redo3-ratio': '20 apples to 15 pears simplifies to 4:3.',
+    'redo3-identity': 'The additive identity property states that adding 0 to any number leaves it unchanged: x+0=x. (x&times;1=x is the multiplicative identity; x&times;0=0 and x+y=y+x are different properties entirely.)',
+    'redo3-triangletype': 'Side lengths squared are 16, 40, 40; since the longest side squared (40) is less than the sum of the other two (16+40=56), the largest angle is acute, making the triangle acute.',
+    'redo3-buildingheight': '1/4 of 2,717 is 679.25 feet; 679 feet (Hassan II Mosque) is closest, only 0.25 feet away.',
+    'redo3-overlapsquares': 'Shaded area = larger square area &minus; smaller square area: 100 &minus; s&sup2; = 51, so s&sup2; = 49, s = 7 ft.',
+    'redo3-seconds': 'A third of a day = 24&divide;3 = 8 hours; 8 hours &times; 3,600 seconds/hour = 28,800 seconds.',
+    'redo3-rectlength': 'From 40=2l+2w, dividing by 2 gives 20=l+w, so l=20&minus;w.',
+    'redo3-percent': '72 &divide; 0.8 = 90.',
+    'redo3-appleq': '4 apples at 3b each = 12b, plus 1 banana (b) = 13b = 4.20.'
+  };
+
+
+  function save(){
+    try { localStorage.setItem(STORAGE_KEY, JSON.stringify(state)); } catch(e){}
+  }
+
+  function updateProgress(){
+    var count = Object.keys(state).filter(function(k){ return state[k]; }).length;
+    var el = document.getElementById('progress-count');
+    if (el) el.textContent = count;
+  }
+
+  function markCard(qid){
+    var el = document.querySelector('[data-qid="' + qid + '"]');
+    if (!el) return;
+    var card = el.closest('.card');
+    if (!card) return;
+    if (state[qid]) card.classList.add('done');
+    else card.classList.remove('done');
+  }
+
+  function parseNum(raw){
+    if (raw == null) return null;
+    var s = String(raw).trim().replace(/,/g, '');
+    if (!s) return null;
+    var m = s.match(/-?\d+(\.\d+)?/);
+    if (!m) return null;
+    var n = parseFloat(m[0]);
+    return isNaN(n) ? null : n;
+  }
+
+  function clearGradeMarks(qidToClear){
+    var selector = qidToClear ? '[data-qid="' + qidToClear + '"]' : '[data-qid]';
+    var seen = [];
+    document.querySelectorAll(selector).forEach(function(el){
+      var card = el.closest('.card');
+      if (!card || seen.indexOf(card) !== -1) return;
+      seen.push(card);
+      card.querySelectorAll('.answer-box').forEach(function(b){ b.classList.remove('grade-correct', 'grade-wrong'); });
+      card.querySelectorAll('.choice').forEach(function(c){ c.classList.remove('grade-correct', 'grade-wrong-pick'); });
+      var note = card.querySelector('.grade-note');
+      if (note) note.remove();
+    });
+    if (qidToClear) delete gradedResults[qidToClear];
+    else gradedResults = {};
+  }
+
+  function maybeClearGradeOnEdit(qid){
+    if (!gradedResults.hasOwnProperty(qid)) return;
+    clearGradeMarks(qid);
+    refreshSummary();
+  }
+
+  function refreshSummary(){
+    var keys = Object.keys(gradedResults);
+    var summary = document.getElementById('grade-summary');
+    var hideBtn = document.getElementById('hide-results');
+    if (keys.length === 0){
+      if (summary) summary.hidden = true;
+      if (hideBtn) hideBtn.hidden = true;
+      return;
+    }
+    var correct = 0, wrong = 0, blank = 0;
+    keys.forEach(function(k){
+      if (gradedResults[k] === 'correct') correct++;
+      else if (gradedResults[k] === 'wrong') wrong++;
+      else if (gradedResults[k] === 'blank') blank++;
+    });
+    if (summary){
+      summary.hidden = false;
+      var html = '<span class="gs-checked">Checked ' + keys.length + '/' + TOTAL + '</span>';
+      html += '<span class="gs-item right">' + correct + ' correct</span><span class="gs-item wrong">' + wrong + ' wrong</span>';
+      if (blank) html += '<span class="gs-item blank">' + blank + ' left blank</span>';
+      summary.innerHTML = html;
+    }
+    if (hideBtn) hideBtn.hidden = false;
+  }
+
+  function gradeOne(qid){
+    var ans = ANSWERS[qid];
+    if (!ans) return;
+    var qidEl = document.querySelector('[data-qid="' + qid + '"]');
+    var card = qidEl ? qidEl.closest('.card') : null;
+    if (card){
+      var oldNote = card.querySelector('.grade-note');
+      if (oldNote) oldNote.remove();
+    }
+    if (ans.type === 'num'){
+      var inp = document.querySelector('input.answer-input[data-qid="' + qid + '"]');
+      if (!inp) return;
+      var box = inp.closest('.answer-box');
+      box.classList.remove('grade-correct', 'grade-wrong');
+      var raw = inp.value.trim();
+      var userVal = parseNum(raw);
+      var note = document.createElement('div');
+      note.className = 'grade-note';
+      var whyHtml = WHY[qid] ? ' <b>Why:</b> ' + WHY[qid] : '';
+      if (raw === ''){
+        gradedResults[qid] = 'blank';
+        box.classList.add('grade-wrong');
+        note.classList.add('wrong');
+        note.innerHTML = 'Correct answer: ' + ans.value + whyHtml;
+      } else if (userVal != null && Math.abs(userVal - ans.value) < 0.01){
+        gradedResults[qid] = 'correct';
+        box.classList.add('grade-correct');
+        note.classList.add('right');
+        note.innerHTML = 'Correct!' + whyHtml;
+      } else {
+        gradedResults[qid] = 'wrong';
+        box.classList.add('grade-wrong');
+        note.classList.add('wrong');
+        note.innerHTML = 'You put &quot;' + raw + '&quot; — correct answer: ' + ans.value + whyHtml;
+      }
+      box.insertAdjacentElement('afterend', note);
+    } else if (ans.type === 'choice'){
+      var group = document.querySelector('.choices[data-qid="' + qid + '"]');
+      if (!group) return;
+      var buttons = group.querySelectorAll('.choice');
+      buttons.forEach(function(b){ b.classList.remove('grade-correct', 'grade-wrong-pick'); });
+      var picked = null;
+      buttons.forEach(function(b){
+        if (b.classList.contains('selected')) picked = b.dataset.letter;
+        if (b.dataset.letter === ans.letter) b.classList.add('grade-correct');
+      });
+      var note2 = document.createElement('div');
+      note2.className = 'grade-note';
+      var whyHtml2 = WHY[qid] ? ' <b>Why:</b> ' + WHY[qid] : '';
+      if (picked == null){
+        gradedResults[qid] = 'blank';
+        note2.classList.add('wrong');
+        note2.innerHTML = 'Correct answer: ' + ans.letter + '.' + whyHtml2;
+      } else if (picked === ans.letter){
+        gradedResults[qid] = 'correct';
+        note2.classList.add('right');
+        note2.innerHTML = 'Correct!' + whyHtml2;
+      } else {
+        gradedResults[qid] = 'wrong';
+        buttons.forEach(function(b){
+          if (b.dataset.letter === picked) b.classList.add('grade-wrong-pick');
+        });
+        note2.classList.add('wrong');
+        note2.innerHTML = 'Correct answer: ' + ans.letter + '.' + whyHtml2;
+      }
+      group.insertAdjacentElement('afterend', note2);
+    }
+  }
+
+  document.querySelectorAll('.answer-input').forEach(function(inp){
+    var qid = inp.dataset.qid;
+    if (state[qid]) inp.value = state[qid];
+    markCard(qid);
+    inp.addEventListener('input', function(){
+      state[qid] = inp.value.trim();
+      if (!state[qid]) delete state[qid];
+      save();
+      markCard(qid);
+      updateProgress();
+      maybeClearGradeOnEdit(qid);
+    });
+  });
+
+  document.querySelectorAll('.choices').forEach(function(group){
+    var qid = group.dataset.qid;
+    var choices = group.querySelectorAll('.choice');
+    choices.forEach(function(ch){
+      var letter = ch.dataset.letter;
+      if (state[qid] === letter) ch.classList.add('selected');
+    });
+    markCard(qid);
+    choices.forEach(function(ch){
+      ch.addEventListener('click', function(){
+        var letter = ch.dataset.letter;
+        var already = ch.classList.contains('selected');
+        choices.forEach(function(c){ c.classList.remove('selected'); });
+        if (already){
+          delete state[qid];
+        } else {
+          ch.classList.add('selected');
+          state[qid] = letter;
+        }
+        save();
+        markCard(qid);
+        updateProgress();
+        maybeClearGradeOnEdit(qid);
+      });
+    });
+  });
+
+  function gradeAll(){
+    Object.keys(ANSWERS).forEach(function(qid){ gradeOne(qid); });
+    refreshSummary();
+    var summary = document.getElementById('grade-summary');
+    summary && summary.scrollIntoView({ behavior:'smooth', block:'nearest' });
+  }
+
+  var submitBtn = document.getElementById('submit-grade');
+  if (submitBtn){
+    submitBtn.addEventListener('click', gradeAll);
+  }
+
+  var hideResultsBtn = document.getElementById('hide-results');
+  if (hideResultsBtn){
+    hideResultsBtn.addEventListener('click', function(){
+      clearGradeMarks();
+      refreshSummary();
+    });
+  }
+
+  var clearBtn = document.getElementById('clear-all');
+  if (clearBtn){
+    clearBtn.addEventListener('click', function(){
+      if (!window.confirm('Clear all answers on this worksheet? This can\'t be undone.')) return;
+      state = {};
+      save();
+      document.querySelectorAll('.answer-input').forEach(function(inp){ inp.value = ''; });
+      document.querySelectorAll('.choice.selected').forEach(function(c){ c.classList.remove('selected'); });
+      document.querySelectorAll('.card.done').forEach(function(c){ c.classList.remove('done'); });
+      clearGradeMarks();
+      refreshSummary();
+      updateProgress();
+    });
+  }
+
+  updateProgress();
+})();
+</script>
