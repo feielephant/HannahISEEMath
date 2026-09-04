@@ -21,6 +21,7 @@ worksheets/       Generated HTML study tools
   online-set-1.html                         Problems 21-30 from an online session, rushed past unread
   redo-set-2.html                           8 problems she genuinely missed on that same session, fresh numbers
   redo-set-3.html                           29 problems missed a 2nd time across earlier sets, fresh numbers
+  redo-set-4.html                           20 problems, extra drill on the most persistent topics
 ```
 
 ### `worksheets/full-workbook.html`
@@ -56,6 +57,10 @@ The other side of that same online session: 8 problems (numbers 5, 18, 20, 22, 2
 ### `worksheets/redo-set-3.html`
 
 A larger "missed again" set: 29 problems pulled from across several earlier worksheets (the original book-based rework set, `redo-set-1.html`/`redo-set-2.html`, and the T2/T3 practice-test batches) that she got wrong a second time on a repeat attempt. Same pattern — numbers changed and each one independently re-solved from scratch — plus the correct answer's letter position shuffled throughout, so neither the numbers nor "it's usually A" pattern-matching carries over from memory. The composite-prism volume diagram is additionally mirrored (both left-right and up-down) from its source so the picture itself doesn't look familiar.
+
+### `worksheets/redo-set-4.html`
+
+A focused-practice set, not a straight "missed again" dump: 20 problems weighted by how often each *topic* has kept recurring across `redo-set-1.html`, `-2.html`, and `-3.html`, rather than one problem per miss. The grocery-total table (solve for a missing item's quantity from a running total) got the most repetition — 5 variants — since it's been wrong in four separate worksheets now; word-problem-to-equation translation, "closest to a fraction of X" estimation, time-zone elapsed time, and composite-shape scaling each get 2–3; the odd-number cubing pattern, which has been closer to solid, gets just 1. Fresh numbers throughout, independently re-solved.
 
 ## Working on this repo with Claude Code
 
