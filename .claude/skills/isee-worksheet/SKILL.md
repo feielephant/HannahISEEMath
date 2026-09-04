@@ -51,6 +51,20 @@ Triggered by the user pasting a block of problems Hannah got wrong (usually with
    any HTML — print qid → new numbers → computed answer, and sanity-check by hand.
    Never hand-wave a "changed" number without re-solving; a plausible-looking wrong
    answer is worse than an obviously-wrong one.
+2a. **Move the correct choice to a different letter than it held in its source
+   file, on every multiple-choice problem, every time it's redone.** New numbers
+   alone don't stop a memorized "it was B last time" from transferring across
+   attempts. When a redo set draws from multiple earlier files, check each
+   problem's *previous* letter (search the source file's `ANSWERS`) and pick a
+   different one — don't just default to whatever position the new options
+   happen to land in.
+2b. **When the same diagram-bearing problem gets redone again** (numbers already
+   changed once before, still missed), also vary the diagram's presentation, not
+   just its numbers — mirror it left-right, up-down, or both. Rebuild the label
+   placement from scratch for the new orientation (don't just flip old label
+   coordinates) and re-run the full diagram-verification pass below; a narrow
+   face that fit a label before may not after mirroring, and may need a leader
+   line it didn't need previously.
 3. **Reuse the existing template**, don't invent a new look: pull the CSS block and
    the JS logic tail (grading functions, `refreshSummary`, `parseNum`) from an
    existing test-mode file, keep the same fonts/theme vars/typography.
@@ -74,6 +88,38 @@ problems/day), split with round-robin distribution over the qids' *natural* orde
 cluster one topic per day (e.g. all geometry on day 3); round-robin mixes topics
 every day, which is what was actually asked for both times this came up. Each day
 file needs its own `STORAGE_KEY` and its own `TOTAL` count.
+
+## Distractor design
+
+A wrong choice should require actually doing the check to rule out, not be
+dismissible on sight. When a distractor's premise is a comparison against a
+well-known benchmark (e.g. "is this fraction less than 1/2?"), pick the two
+values *close to* that benchmark rather than far from it — 2/3 vs. 1/2 is
+instant recall ("everyone knows 2/3 is more than half"); 9/16 vs. 1/2 forces
+an actual conversion. Sharper still: choose a value that sits *exactly on*
+the benchmark (8/16 = 1/2 exactly) so the distractor is false specifically
+because it claims strict inequality where there's equality — the same trick
+real ISEE problems use (e.g. 3/6 vs. 1/2 in the original book problem). This
+generalizes beyond fractions-vs-1/2: anywhere a distractor's wrongness is
+"obvious at a glance" rather than "wrong once you check," move the numbers
+closer to whatever line the student is meant to be testing.
+
+## Answer format should match how the real test would ask it
+
+The real ISEE is always multiple-choice — a student never free-types an
+answer on test day. So a problem whose correct value could legitimately be
+written more than one way (a unit conversion like "195 minutes = how many
+hours" — 3.25, or "3 hours 15 minutes", or a fraction that could be given
+reduced or not) is a bad candidate for this repo's blank-`num`-input format:
+`parseNum()` only reads a decimal, so a student who did the math correctly
+but wrote it in a different valid format gets marked wrong for a reason that
+could never happen on the actual test (the real test would just list "3.25
+hours" as one of four options). When building a **new** problem of this
+shape, make it `type:'choice'` with real ISEE-style distractors instead of
+a blank input, even if the source material presented it as fill-in-the-blank
+— that's a book-workbook convention, not a test-format one. This hasn't been
+retroactively applied to existing problems in this repo (ask before doing a
+sweep), but default to it going forward.
 
 ## SVG diagrams — the recurring bug class
 
