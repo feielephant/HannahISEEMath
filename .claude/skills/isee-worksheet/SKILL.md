@@ -136,7 +136,18 @@ the content level**, not clipped — e.g. a "48 unit cubes" prism that was drawn
 a handful of arbitrary lines, never actually depicting 48 cubes. Before shipping
 any diagram, check it actually depicts what the problem states: for a cube-count
 diagram, count the grid cells; for a perimeter/shape diagram, sum the edge lengths
-via the distance formula and confirm it equals the stated total.
+via the distance formula and confirm it equals the stated total. That aggregate
+check isn't sufficient on its own, though — it can pass even when one individual
+label's *text* doesn't match the edge it sits next to (e.g. a label reading "6 in"
+next to an edge that's actually 9 units long, while a different, unlabeled edge
+happens to be 6 units, and the overall total still comes out right by coincidence
+of which values got used in the answer formula). Check every label individually:
+measure the specific edge each one is anchored to (from the polygon's own
+coordinates) and confirm the printed number matches that edge, not just that the
+full perimeter sums correctly. Also watch for two different edges coincidentally
+having the same true length — if their labels then show the same number, a reader
+can mistake that for a typo; picking parameters that keep every labeled value
+distinct avoids the false alarm.
 
 Third lesson, from a composite-solid volume diagram: a diagram can be geometrically
 correct yet still **give away the answer's structure**. A composite-prism problem
