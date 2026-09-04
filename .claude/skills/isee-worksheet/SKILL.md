@@ -201,6 +201,13 @@ change.
 - When inserting a grade note/badge, insert relative to the actual answer element
   (`box`/`group`), not an `anchor || box` pattern where `anchor` can be null from a
   removed control — that silently no-ops the insert.
+- The `.choice` rule needs `overflow-wrap:anywhere`. A choice made of numbers joined
+  by `+`/`&times;`/etc. with no spaces (e.g. `43+45+47+49+51+53+55`, an odd-number
+  cubing pattern option) is one unbreakable token to the browser — without this
+  rule it silently overflows past the button's background and border instead of
+  wrapping, which reads as the option being cut off. This is a repo-wide CSS gap,
+  not a per-file one — check it's present in the template before reusing a file's
+  CSS block for a new worksheet.
 
 ## Testing checklist (run before every publish)
 
