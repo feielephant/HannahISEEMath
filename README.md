@@ -22,6 +22,8 @@ worksheets/       Generated HTML study tools
   redo-set-2.html                           8 problems she genuinely missed on that same session, fresh numbers
   redo-set-3.html                           29 problems missed a 2nd time across earlier sets, fresh numbers
   redo-set-4.html                           20 problems, extra drill on the most persistent topics
+  redo-set-5.html                           9 problems from a 9/5 practice test, redone to check focus vs. skill
+  online-set-2.html                         Same 9 problems as redo-set-5.html, original numbers unchanged
 ```
 
 ### `worksheets/full-workbook.html`
@@ -61,6 +63,14 @@ A larger "missed again" set: 29 problems pulled from across several earlier work
 ### `worksheets/redo-set-4.html`
 
 A focused-practice set, not a straight "missed again" dump: 20 problems weighted by how often each *topic* has kept recurring across `redo-set-1.html`, `-2.html`, and `-3.html`, rather than one problem per miss. The grocery-total table (solve for a missing item's quantity from a running total) got the most repetition — 5 variants — since it's been wrong in four separate worksheets now; word-problem-to-equation translation, "closest to a fraction of X" estimation, time-zone elapsed time, and composite-shape scaling each get 2–3; the odd-number cubing pattern, which has been closer to solid, gets just 1. Fresh numbers throughout, independently re-solved.
+
+### `worksheets/redo-set-5.html`
+
+A different kind of redo: 9 problems from a practice test taken on 9/5 that she missed on the first pass (probability from a card diagram, a time-zone flight, a decimal sum, a Venn diagram, a mean-weight word problem, a number-line read, a recipe-division estimate, a cube-counting diagram, and a calculator-estimate range). The point isn't just scoring it &mdash; if she gets most of these right with fresh numbers, that points to focus rather than a skill gap; if the same topics come back wrong again, that's worth reviewing together directly. Numbers, diagrams, and answer-choice positions are all changed from the original. The time-zone problem uses the actual map image from the source screenshot (embedded directly in the page) rather than a redrawn approximation, since an accurate hand-drawn US time-zone map isn't worth the risk of introducing a geography error.
+
+### `worksheets/online-set-2.html`
+
+The other half of the redo-set-5 pair: the identical 9 problems, same numbers, same diagrams, nothing changed &mdash; meant for a calm, focused redo rather than a memory-proof one. Comparing results between this file and `redo-set-5.html` is the actual point: right on both points to attention as the original issue; wrong on both (even with fresh numbers the second time) points to the concept itself needing review.
 
 ## Working on this repo with Claude Code
 
