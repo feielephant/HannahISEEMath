@@ -231,6 +231,30 @@ direction for you. Manually drawing the arrowhead pre-rotated to match the axis
 marker definition for every axis on a diagram; only the line direction should
 change.
 
+**Venn-diagram shading gotcha**: the shaded intersection of two overlapping
+`<circle>`s must be **computed from the actual circle equations, never
+eyeballed**. Hand-picking the lens's top/bottom points (e.g. "looks about 15px
+above/below center") reliably overshoots — a shaded region that's ~10px too
+tall/wide per side reads as "the shading is too much" (exactly the bug hit here:
+`d="M130,52.5 A45,45 0 0 1 130,137.5 ..."` used guessed y-values instead of the
+true intersection). For two circles of equal radius `r` with centers on a
+horizontal line distance `d` apart:
+```python
+x_mid = (c1.x + c2.x) / 2
+dy = math.sqrt(r**2 - (x_mid - c1.x)**2)   # true intersection points: (x_mid, c1.y ± dy)
+```
+Then build the lens as a sampled polyline rather than trusting SVG's `A`
+(arc) command's sweep-flags, which are easy to get backwards: step an angle
+`theta` from `-θ0` to `+θ0` around circle 1's center (where
+`θ0 = degrees(acos((x_mid - c1.x) / r))`) for the right-bulging arc, then
+mirror for circle 2's left-bulging arc back to the start point, and join into
+one closed path. Sanity-check before shipping: each arc's own midpoint should
+land exactly on the *other* circle's near extreme point (the right arc's
+midpoint = circle 1's rightmost point; the left arc's midpoint = circle 2's
+leftmost point) — if it doesn't, the arc is bulging the wrong way or using the
+wrong circle's center. Render it (`qlmanage`) to confirm the lens looks like a
+proportional vesica shape, not oversized, before publishing.
+
 ## Grading script internals
 
 - `ANSWERS[qid]` is `{type:'num', value:N}` or `{type:'choice', letter:'X'}`.
