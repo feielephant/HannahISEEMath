@@ -255,6 +255,29 @@ leftmost point) — if it doesn't, the arc is bulging the wrong way or using the
 wrong circle's center. Render it (`qlmanage`) to confirm the lens looks like a
 proportional vesica shape, not oversized, before publishing.
 
+**Number-line tick density must match the original, not just the labeled
+values.** A number-line "which values are the arrows pointing to" problem is
+only as hard as the *unlabeled* tick marks between the labeled endpoints force
+it to be. The original 0905 batch's version had 8 equal intervals (9 tick
+marks) between two labeled endpoints, with only every *other* tick arrowed —
+so reading it required first figuring out the actual step size from 9 ticks,
+then counting out to the right one. A rebuild that only drew tick marks at the
+answer-choice values themselves (4 intervals, 5 ticks, every visible tick
+arrowed) reproduced the correct *numbers* but deleted the actual task, since
+each arrow then sat on an obviously-labeled division point — caught via user
+feedback ("you made it much easier... you have less grid"), not by any
+automated check, because the answer/grading logic was completely correct.
+Before shipping any number-line diagram, count the original's actual tick
+marks from the source screenshot (zoom in — they're easy to undercount at
+normal resolution) rather than assuming "however many divisions the labeled
+values imply," and reproduce that same density (extra unlabeled ticks
+included) even when the endpoints/arrow-values themselves are unchanged or
+freshly chosen. This generalizes: any diagram where the *reading task itself*
+depends on a visual density (tick marks, grid squares, scale-bar segments) —
+not just the labeled data points — needs that density checked against the
+source directly, since getting the right final numbers doesn't guarantee the
+diagram still tests the same skill.
+
 ## Grading script internals
 
 - `ANSWERS[qid]` is `{type:'num', value:N}` or `{type:'choice', letter:'X'}`.
