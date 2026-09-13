@@ -80,6 +80,50 @@ Triggered by the user pasting a block of problems Hannah got wrong (usually with
 7. Publish (Artifact + sync to `worksheets/` + commit + push) — see Publish
    checklist below.
 
+## Grouping a set by problem type instead of a flat list
+
+When asked to merge problems from multiple sources into one file "grouped by
+type" (e.g. redo-set-5.html absorbing two separate online-practice sessions,
+9/5 and 8/30, into one 24-problem file), reorder the *entire* card list into
+topic sections — not just the newly-added cards — since a flat 9 followed by
+a grouped 15 defeats the point. Add a `.group-title` element
+(`grid-column: 1 / -1` so it spans the full `.cards` grid, styled off the
+existing `.eyebrow` token look) before each section's first card, and rebuild
+the `.cards` div's contents in the new order by extracting each existing
+card's full HTML block (match on its `data-qid`, brace-count from the
+enclosing `<div class="card">` to find the true end — the same technique used
+to isolate a single card for a QuickLook preview) rather than trying to
+`sed`/regex-move chunks in place. Map every problem to one of the real ISEE
+strands (Number Theory & Estimation, Fractions & Decimals, Patterns &
+Algebraic Thinking, Geometry & Measurement, Data Analysis & Probability) —
+these are broad enough that few if any groups end up with only one item, and
+they mean something to a parent, unlike a generic "Misc" bucket. Update the
+header's problem count, the `TOTAL` JS constant, and the lede copy to match
+the new total — these are easy to leave stale since they're three separate
+edits far apart in the file, and jsdom's grade-note count check won't catch a
+wrong *count* in ungraded header text.
+
+**Before adding anything to a "redo" file, check whether she actually got it
+right.** Screenshots from a graded review session show the same color
+convention documented elsewhere in this file (green = correct answer, pink/
+magenta = her wrong pick) — but green-only-no-pink means she picked the
+correct answer, not that the screenshot is irrelevant. A "put everything from
+this folder into the redo set" request still means everything she *missed* —
+carry over a problem she already answered correctly and the file stops
+meaning what its own name says. Flag the excluded ones by name in the summary
+rather than silently dropping them, since "everything" was the literal
+instruction.
+
+**Multi-file variable naming collisions**: when a Python assembly script
+appends new dict entries into an existing JS object literal (`var ANSWERS =
+{...}`, `var WHY = {...}`) via string splicing, the existing block's last
+entry may not end in a trailing comma — check for and add one before
+splicing in new lines, or the result is a silent `Unexpected string` syntax
+error at exactly that boundary. `node --check` on the extracted `<script>`
+block (write it to a `.js` file first) gives a real line number for this;
+`new Function(scriptText)` alone only says "Unexpected string" with no
+location.
+
 ## Splitting a large set into daily files
 
 When a set is too big for one sitting (rule of thumb Hannah has given: ~30
