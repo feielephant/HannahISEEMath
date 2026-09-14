@@ -422,16 +422,13 @@
   <header class="hero">
     <div class="eyebrow">ISEE Math Practice &middot; Focus Check</div>
     <h1>Redo Set 6 <span style="font-size:0.5em; color:var(--ink-faint); font-weight:500;">&middot; same practice test, fresh numbers</span></h1>
-    <p class="lede">15 problems from her 9/13 online ISEE practice session (both math sections) &mdash; rebuilt with different numbers, diagrams, and answer-choice positions so this is a genuine redo, not a memorized answer, and grouped below by topic. Since these screenshots didn't show a graded reveal, this set treats all 15 as worth another look. No per-problem Check button; work through everything, then hit <strong>Submit &amp; grade</strong> once at the end.</p>
+    <p class="lede">15 problems from her 9/13 online ISEE practice session (both math sections) &mdash; rebuilt with different numbers, diagrams, and answer-choice positions so this is a genuine redo, not a memorized answer, and grouped below by topic.</p>
     <div class="stat-row">
       <div class="stat"><span class="n">15</span><span class="lbl">Problems</span></div>
       <div class="stat" id="progress-stat"><span class="n"><span id="progress-count">0</span> / 15</span><span class="lbl">Answered</span></div>
-      <button type="button" class="submit-btn" id="submit-grade">Submit &amp; grade</button>
-      <button type="button" class="hide-btn" id="hide-results" hidden>Hide results</button>
       <button type="button" class="clear-btn" id="clear-all">Clear all answers</button>
     </div>
-    <div class="grade-summary" id="grade-summary" hidden></div>
-    <p class="method"><strong>How to use this:</strong> click a lettered option to select it. Everything saves in this browser as you go. Once she's answered everything, <strong>Submit &amp; grade</strong> reveals every correct answer and a one-line "Why" for each, and tallies right vs. wrong.</p>
+    <p class="method"><strong>How to use this:</strong> click a lettered option to select your answer for each problem &mdash; your picks save in this browser as you go. This page does not check or reveal answers. When you've finished all 15, check your work with a parent or coach using the separate answer key.</p>
   </header>
 
   <div class="cards">
@@ -591,46 +588,8 @@
 <script>
 (function(){
   var STORAGE_KEY = 'hannah-redo-set-6-v1';
-  var TOTAL = 15;
   var state = {};
   try { state = JSON.parse(localStorage.getItem(STORAGE_KEY) || '{}'); } catch(e){ state = {}; }
-  var gradedResults = {};
-
-  var ANSWERS = {
-    'r6-milkest': {type:'choice', letter:'B'},
-    'r6-divis12': {type:'choice', letter:'A'},
-    'r6-billsest': {type:'choice', letter:'D'},
-    'r6-widthfrac': {type:'choice', letter:'B'},
-    'r6-birdseed': {type:'choice', letter:'A'},
-    'r6-recipescale': {type:'choice', letter:'A'},
-    'r6-arrayfactor': {type:'choice', letter:'B'},
-    'r6-primeeven': {type:'choice', letter:'C'},
-    'r6-distrib': {type:'choice', letter:'D'},
-    'r6-floortile': {type:'choice', letter:'D'},
-    'r6-pavers': {type:'choice', letter:'A'},
-    'r6-rooms': {type:'choice', letter:'A'},
-    'r6-triarea': {type:'choice', letter:'D'},
-    'r6-votes': {type:'choice', letter:'C'},
-    'r6-stemleaf': {type:'choice', letter:'B'},
-  };
-
-  var WHY = {
-    'r6-milkest': 'Rounding each number to a friendly value: 95&asymp;100, 29&asymp;30, 19&asymp;20, so 30&times;20=600, plus 100 gives an estimate of 700. The exact value (95+29&times;19=646) confirms 700 is the closest estimate among the choices.',
-    'r6-divis12': 'A number divisible by 12 must be divisible by both 3 and 4. 336&divide;12=28 exactly. 124, 214, and 442 all leave a remainder when divided by 12.',
-    'r6-billsest': 'The exact total is $42.15+$55.80+$29.34+$61.05+$48.72=$237.06, which is closest to $240 (about $2.94 away) compared to $230 (about $7.06 away).',
-    'r6-widthfrac': 'The equation Y = 3&frasl;5 &times; length directly states that Y is always 3&frasl;5 times the length &mdash; no calculation needed, just reading the relationship as given.',
-    'r6-birdseed': 'If n=4: 4&frasl;5 + 1&frasl;4 = 16&frasl;20 + 5&frasl;20 = 21&frasl;20, which is more than 1 whole bag, so it will not all fit. Checking the others: n=1 gives 9&frasl;20=0.45, which is NOT less than 1&frasl;3&asymp;0.33 (choice A is false); n=2 gives 13&frasl;20=0.65, NOT less than 1&frasl;2 (choice B is false); n=3 gives 17&frasl;20=0.85, which is less than 1, so it WOULD fit (choice C is false).',
-    'r6-recipescale': '936 &times; 1&frasl;4 = 936 &divide; 4 = 234 milliliters.',
-    'r6-arrayfactor': 'The reference array is 4 rows &times; 12 columns = 48. Choice A (6&times;8=48) has the same product but a different factor pair &mdash; that\'s the same number, shown with two different factors. B (4&times;11=44), C (5&times;9=45), and D (7&times;7=49) all give different products entirely.',
-    'r6-primeeven': 'Any product of two whole numbers that are each greater than 1 is always composite, since it always has at least the factors 1, itself, and the two numbers multiplied together &mdash; that\'s true regardless of whether the individual numbers are prime, odd, or even. (The product\'s parity actually varies: prime=2 with odd=3 gives an even product 6, while prime=3 with odd=5 gives an odd product 15 &mdash; so \'odd\' and \'even\' can\'t be the guaranteed answer.)',
-    'r6-distrib': 'The distributive property says a &times; (b + c) = (a &times; b) + (a &times; c). Applying it here: 12 &times; (14 + 22) = (12 &times; 14) + (12 &times; 22).',
-    'r6-floortile': 'The grid has 25 small squares total. The 5 white squares (forming a plus shape in the middle) are NOT yet tiled, so 20 of the 25 squares are tiled: 20&divide;25 = 80%.',
-    'r6-pavers': 'Dividing each dimension of the sidewalk by the matching dimension of one tile gives the number of tiles that fit along each direction: (120&divide;6)&times;(36&divide;4) = 20&times;9 = 180 pavers.',
-    'r6-rooms': 'Room A\'s side is &radic;100=10 ft, so its perimeter is 4&times;10=40 ft. Room B\'s perimeter is 2&times;(6+14)=40 ft &mdash; the perimeters are equal. The areas are NOT equal (Room A=100 ft&sup2;, Room B=6&times;14=84 ft&sup2;).',
-    'r6-triarea': 'Substituting base=8 into A = 1&frasl;2 &times; base &times; height gives A = 1&frasl;2 &times; 8 &times; height = 4 &times; height, so A is always 4 times the height.',
-    'r6-votes': 'Total votes so far: 12+18+6+24=60. Maroon\'s share is 18&frasl;60 = 3&frasl;10. Applying that same proportion to the next 30 votes: 3&frasl;10 &times; 30 = 9.',
-    'r6-stemleaf': 'Reading the plot: 40,44,44,49,51,55,58,58,62,64,67,71,71,71 &mdash; exactly three days (71,71,71) reach at least 71&deg;F. 49&deg;F occurs only once (not 2 days), the lowest temperature is 40&deg;F (so it was NOT at least 55&deg;F every day), and 67&deg;F occurs only once (not 3 days).',
-  };
 
   function save(){
     try { localStorage.setItem(STORAGE_KEY, JSON.stringify(state)); } catch(e){}
@@ -651,145 +610,6 @@
     else card.classList.remove('done');
   }
 
-  function parseNum(raw){
-    if (raw == null) return null;
-    var s = String(raw).trim().replace(/,/g, '');
-    if (!s) return null;
-    var m = s.match(/-?\d+(\.\d+)?/);
-    if (!m) return null;
-    var n = parseFloat(m[0]);
-    return isNaN(n) ? null : n;
-  }
-
-  function clearGradeMarks(qidToClear){
-    var selector = qidToClear ? '[data-qid="' + qidToClear + '"]' : '[data-qid]';
-    var seen = [];
-    document.querySelectorAll(selector).forEach(function(el){
-      var card = el.closest('.card');
-      if (!card || seen.indexOf(card) !== -1) return;
-      seen.push(card);
-      card.querySelectorAll('.answer-box').forEach(function(b){ b.classList.remove('grade-correct', 'grade-wrong'); });
-      card.querySelectorAll('.choice').forEach(function(c){ c.classList.remove('grade-correct', 'grade-wrong-pick'); });
-      var note = card.querySelector('.grade-note');
-      if (note) note.remove();
-    });
-    if (qidToClear) delete gradedResults[qidToClear];
-    else gradedResults = {};
-  }
-
-  function maybeClearGradeOnEdit(qid){
-    if (!gradedResults.hasOwnProperty(qid)) return;
-    clearGradeMarks(qid);
-    refreshSummary();
-  }
-
-  function refreshSummary(){
-    var keys = Object.keys(gradedResults);
-    var summary = document.getElementById('grade-summary');
-    var hideBtn = document.getElementById('hide-results');
-    if (keys.length === 0){
-      if (summary) summary.hidden = true;
-      if (hideBtn) hideBtn.hidden = true;
-      return;
-    }
-    var correct = 0, wrong = 0, blank = 0;
-    keys.forEach(function(k){
-      if (gradedResults[k] === 'correct') correct++;
-      else if (gradedResults[k] === 'wrong') wrong++;
-      else if (gradedResults[k] === 'blank') blank++;
-    });
-    if (summary){
-      summary.hidden = false;
-      var html = '<span class="gs-checked">Checked ' + keys.length + '/' + TOTAL + '</span>';
-      html += '<span class="gs-item right">' + correct + ' correct</span><span class="gs-item wrong">' + wrong + ' wrong</span>';
-      if (blank) html += '<span class="gs-item blank">' + blank + ' left blank</span>';
-      summary.innerHTML = html;
-    }
-    if (hideBtn) hideBtn.hidden = false;
-  }
-
-  function gradeOne(qid){
-    var ans = ANSWERS[qid];
-    if (!ans) return;
-    var qidEl = document.querySelector('[data-qid="' + qid + '"]');
-    var card = qidEl ? qidEl.closest('.card') : null;
-    if (card){
-      var oldNote = card.querySelector('.grade-note');
-      if (oldNote) oldNote.remove();
-    }
-    if (ans.type === 'num'){
-      var inp = document.querySelector('input.answer-input[data-qid="' + qid + '"]');
-      if (!inp) return;
-      var box = inp.closest('.answer-box');
-      box.classList.remove('grade-correct', 'grade-wrong');
-      var raw = inp.value.trim();
-      var userVal = parseNum(raw);
-      var note = document.createElement('div');
-      note.className = 'grade-note';
-      var whyHtml = WHY[qid] ? ' <b>Why:</b> ' + WHY[qid] : '';
-      if (raw === '' || userVal === null){
-        gradedResults[qid] = 'blank';
-        note.innerHTML = '<span class="wrong">Left blank.</span> Correct answer: ' + ans.value + '.' + whyHtml;
-        note.classList.add('wrong');
-        box.parentNode.insertBefore(note, box.nextSibling);
-        return;
-      }
-      var correct = Math.abs(userVal - ans.value) < 1e-9;
-      if (correct){
-        box.classList.add('grade-correct');
-        gradedResults[qid] = 'correct';
-        note.innerHTML = '<span class="right">Correct!</span>' + whyHtml;
-        note.classList.add('right');
-      } else {
-        box.classList.add('grade-wrong');
-        gradedResults[qid] = 'wrong';
-        note.innerHTML = '<span class="wrong">Not quite.</span> Correct answer: ' + ans.value + '.' + whyHtml;
-        note.classList.add('wrong');
-      }
-      box.parentNode.insertBefore(note, box.nextSibling);
-    } else if (ans.type === 'choice'){
-      var group = document.querySelector('.choices[data-qid="' + qid + '"]');
-      if (!group) return;
-      var buttons = group.querySelectorAll('.choice');
-      var selected = group.querySelector('.choice.selected');
-      buttons.forEach(function(b){ b.classList.remove('grade-correct', 'grade-wrong-pick'); });
-      var note = document.createElement('div');
-      note.className = 'grade-note';
-      var whyHtml = WHY[qid] ? ' <b>Why:</b> ' + WHY[qid] : '';
-      var correctBtn = null;
-      buttons.forEach(function(b){ if (b.getAttribute('data-letter') === ans.letter) correctBtn = b; });
-      if (!selected){
-        gradedResults[qid] = 'blank';
-        if (correctBtn) correctBtn.classList.add('grade-correct');
-        note.innerHTML = '<span class="wrong">Left blank.</span> Correct answer: ' + ans.letter + '.' + whyHtml;
-        note.classList.add('wrong');
-        group.parentNode.insertBefore(note, group.nextSibling);
-        return;
-      }
-      var pickedLetter = selected.getAttribute('data-letter');
-      if (pickedLetter === ans.letter){
-        selected.classList.add('grade-correct');
-        gradedResults[qid] = 'correct';
-        note.innerHTML = '<span class="right">Correct!</span>' + whyHtml;
-        note.classList.add('right');
-      } else {
-        selected.classList.add('grade-wrong-pick');
-        if (correctBtn) correctBtn.classList.add('grade-correct');
-        gradedResults[qid] = 'wrong';
-        note.innerHTML = '<span class="wrong">Not quite.</span> Correct answer: ' + ans.letter + '.' + whyHtml;
-        note.classList.add('wrong');
-      }
-      group.parentNode.insertBefore(note, group.nextSibling);
-    }
-  }
-
-  function gradeAll(){
-    Object.keys(ANSWERS).forEach(function(qid){ gradeOne(qid); });
-    refreshSummary();
-    var summary = document.getElementById('grade-summary');
-    if (summary) summary.scrollIntoView({behavior:'smooth', block:'nearest'});
-  }
-
   document.addEventListener('click', function(e){
     var choiceBtn = e.target.closest('.choice');
     if (choiceBtn){
@@ -801,40 +621,15 @@
       save();
       updateProgress();
       markCard(qid);
-      maybeClearGradeOnEdit(qid);
-      return;
-    }
-    if (e.target.id === 'submit-grade'){
-      gradeAll();
       return;
     }
     if (e.target.id === 'clear-all'){
       state = {};
-      gradedResults = {};
       save();
       document.querySelectorAll('.choice.selected').forEach(function(b){ b.classList.remove('selected'); });
-      document.querySelectorAll('input.answer-input').forEach(function(i){ i.value = ''; });
       document.querySelectorAll('.card').forEach(function(c){ c.classList.remove('done'); });
-      clearGradeMarks();
-      refreshSummary();
       updateProgress();
       return;
-    }
-    if (e.target.id === 'hide-results'){
-      clearGradeMarks();
-      refreshSummary();
-      return;
-    }
-  });
-
-  document.addEventListener('input', function(e){
-    if (e.target.matches('input.answer-input')){
-      var qid = e.target.getAttribute('data-qid');
-      state[qid] = e.target.value.trim() !== '';
-      save();
-      updateProgress();
-      markCard(qid);
-      maybeClearGradeOnEdit(qid);
     }
   });
 

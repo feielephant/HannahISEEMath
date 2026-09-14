@@ -24,7 +24,8 @@ worksheets/       Generated HTML study tools
   redo-set-4.html                           20 problems, extra drill on the most persistent topics
   redo-set-5.html                           24 problems from two online practice sessions, grouped by topic
   online-set-2.html                         Same 9 problems as redo-set-5.html's original 9, numbers unchanged
-  redo-set-6.html                           15 problems from a 9/13 online session, grouped by topic
+  redo-set-6.html                           15 problems from a 9/13 online session, grouped by topic, no self-check
+  redo-set-6-answer-key.html                Answer key for redo-set-6.html &mdash; for parent/coach use only
 ```
 
 ### `worksheets/full-workbook.html`
@@ -76,6 +77,12 @@ Started as the other half of the redo-set-5 pair (the identical 9 problems from 
 ### `worksheets/redo-set-6.html`
 
 15 problems from a 9/13 online ISEE practice session (both math sections &mdash; the ISEE splits math into Quantitative Reasoning and Mathematics Achievement, which is why the source screenshots had two different "Question 24," "Question 26," etc.), organized into the same five-topic layout as redo-set-5.html: Number Theory & Estimation, Fractions & Ratios, Patterns & Algebraic Thinking, Geometry & Measurement, and Data Analysis. Unlike the earlier sets, these source screenshots didn't show a graded reveal (no green-correct/pink-wrong highlighting, just "% of other test-takers" stats), so there was no way to tell which of the 15 she'd actually missed &mdash; this set treats all 15 as worth a fresh look rather than guessing. Numbers, diagrams, and answer-choice positions are all changed from the original; a couple of the diagram-heavy problems (an array-of-squares factor-pair question, a partially-shaded floor-tile grid) needed pixel-level re-measurement of the original screenshots to get the exact grid dimensions right before building fresh versions.
+
+**No self-check, unlike every earlier worksheet in this repo.** This file has no Submit & grade button, and — more importantly — no answer key embedded in its HTML/JS at all (not just a hidden button; the correct answers genuinely aren't present anywhere in the page source). Clicking a lettered choice just records the pick and saves it, nothing more. This was a deliberate change after a run of suspiciously strong redo-set results didn't carry over to an actual practice test, raising the possibility that the in-page grading reveal was getting used to check answers rather than to learn from them. Answers now live only in `redo-set-6-answer-key.html`, a separate, unlinked page meant for a parent or coach to check work against after the worksheet is done by hand.
+
+### `worksheets/redo-set-6-answer-key.html`
+
+The answer key for `redo-set-6.html`: correct letter and a one-line "Why" for each of the 15 problems, grouped the same way as the worksheet. Deliberately not linked from the worksheet itself — keep this link separate from whatever link she uses to do the problems.
 
 ## Working on this repo with Claude Code
 
