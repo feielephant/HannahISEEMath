@@ -1,0 +1,425 @@
+<title>Redo Set 8 &mdash; Answer Key</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Petrona:ital,wght@0,500;0,600;0,700;1,500&family=Public+Sans:ital,wght@0,400;0,500;0,600;1,400&family=JetBrains+Mono:wght@400;500;600&display=swap">
+<style>
+  :root{
+    --bg:#EEF2F0;
+    --grid-line: rgba(30,42,40,0.055);
+    --surface:#FFFFFF;
+    --surface-alt:#E7EDEA;
+    --ink:#1E2A28;
+    --ink-muted:#57655F;
+    --ink-faint:#8B968F;
+    --border:#D6DFDA;
+    --accent:#1C7A69;
+    --accent-ink:#0F5648;
+    --accent-soft:#E1F2EC;
+    --wrong:#B9402E;
+    --wrong-soft:#FBEAE6;
+    --amber:#9A6B12;
+    --shadow: 0 1px 2px rgba(20,30,28,0.04), 0 8px 24px -12px rgba(20,30,28,0.12);
+  }
+  @media (prefers-color-scheme: dark){
+    :root:not([data-theme="light"]){
+      --bg:#12181A;
+      --grid-line: rgba(210,225,220,0.045);
+      --surface:#1B2224;
+      --surface-alt:#212A2C;
+      --ink:#E8EFEC;
+      --ink-muted:#9FB0AA;
+      --ink-faint:#6C7C77;
+      --border:#2C3739;
+      --accent:#4FC4AC;
+      --accent-ink:#8FE0CC;
+      --accent-soft:rgba(79,196,172,0.14);
+      --wrong:#E77563;
+      --wrong-soft:rgba(231,117,99,0.14);
+      --amber:#E0AC4E;
+      --shadow: 0 1px 2px rgba(0,0,0,0.3), 0 8px 24px -12px rgba(0,0,0,0.5);
+    }
+  }
+  :root[data-theme="dark"]{
+    --bg:#12181A;
+    --grid-line: rgba(210,225,220,0.045);
+    --surface:#1B2224;
+    --surface-alt:#212A2C;
+    --ink:#E8EFEC;
+    --ink-muted:#9FB0AA;
+    --ink-faint:#6C7C77;
+    --border:#2C3739;
+    --accent:#4FC4AC;
+    --accent-ink:#8FE0CC;
+    --accent-soft:rgba(79,196,172,0.14);
+    --wrong:#E77563;
+    --wrong-soft:rgba(231,117,99,0.14);
+    --amber:#E0AC4E;
+    --shadow: 0 1px 2px rgba(0,0,0,0.3), 0 8px 24px -12px rgba(0,0,0,0.5);
+  }
+
+  *{box-sizing:border-box;}
+  html{-webkit-text-size-adjust:100%;}
+  body{
+    margin:0;
+    background:
+      linear-gradient(var(--grid-line) 1px, transparent 1px) 0 0/ 28px 28px,
+      linear-gradient(90deg, var(--grid-line) 1px, transparent 1px) 0 0/ 28px 28px,
+      var(--bg);
+    color:var(--ink);
+    font-family:"Public Sans", ui-sans-serif, system-ui, sans-serif;
+    line-height:1.5;
+    -webkit-font-smoothing:antialiased;
+  }
+  a{color:var(--accent-ink);}
+  ::selection{ background: var(--accent-soft); }
+
+  .wrap{ max-width: 980px; margin: 0 auto; padding: 0 20px 96px; }
+
+  header.hero{
+    padding: 56px 0 36px;
+    border-bottom: 1px solid var(--border);
+    margin-bottom: 40px;
+  }
+  .eyebrow{
+    font-family:"JetBrains Mono", ui-monospace, monospace;
+    font-size:0.72rem;
+    letter-spacing:0.11em;
+    text-transform:uppercase;
+    color:var(--accent-ink);
+    display:flex;
+    align-items:center;
+    gap:10px;
+    margin-bottom:14px;
+  }
+  .eyebrow::before{
+    content:"";
+    width:7px; height:7px;
+    background:var(--accent);
+    border-radius:50%;
+    display:inline-block;
+    box-shadow: 0 0 0 3px var(--accent-soft);
+  }
+  h1{
+    font-family:"Petrona", Georgia, serif;
+    font-weight:700;
+    font-size: clamp(2rem, 4.4vw, 2.75rem);
+    line-height:1.08;
+    margin:0 0 14px;
+    text-wrap:balance;
+    letter-spacing:-0.01em;
+  }
+  .hero p.lede{
+    max-width:64ch;
+    color:var(--ink-muted);
+    font-size:1.03rem;
+    margin: 0 0 28px;
+  }
+
+  .cards{
+    display:grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap:16px;
+  }
+
+  .group-title{
+    grid-column: 1 / -1;
+    display:flex;
+    align-items:center;
+    gap:10px;
+    font-family:"JetBrains Mono", ui-monospace, monospace;
+    font-size:0.74rem;
+    letter-spacing:0.09em;
+    text-transform:uppercase;
+    color:var(--accent-ink);
+    margin: 26px 0 2px;
+    padding-bottom:8px;
+    border-bottom:1px solid var(--border);
+  }
+  .group-title:first-child{ margin-top:0; }
+  .group-title-n{
+    font-family:"JetBrains Mono", monospace;
+    font-size:0.7rem;
+    color:var(--ink-faint);
+    background:var(--surface-alt);
+    border:1px solid var(--border);
+    border-radius:999px;
+    padding:2px 9px;
+    letter-spacing:normal;
+    text-transform:none;
+  }
+
+  .card{
+    background:var(--surface);
+    border:1px solid var(--border);
+    border-radius:12px;
+    padding:18px 20px 18px;
+    box-shadow:var(--shadow);
+    display:flex;
+    flex-direction:column;
+    gap:12px;
+  }
+  .card-num{
+    font-family:"Petrona", Georgia, serif;
+    font-style:italic;
+    font-weight:600;
+    color:var(--ink-faint);
+    font-size:0.95rem;
+  }
+  .q-text{
+    font-size:0.96rem;
+    color:var(--ink);
+  }
+  .q-text .g{ font-family:"JetBrains Mono", monospace; font-size:0.92em; }
+
+  .answer-box{
+    display:flex;
+    align-items:center;
+    gap:12px;
+    border:1.5px solid var(--border);
+    border-radius:8px;
+    background:var(--surface-alt);
+    padding:6px 14px;
+  }
+  .answer-box .ab-label{
+    font-family:"JetBrains Mono", monospace;
+    font-size:0.68rem;
+    letter-spacing:0.08em;
+    text-transform:uppercase;
+    color:var(--ink-faint);
+    flex-shrink:0;
+  }
+  .grade-note{
+    font-family:"Public Sans", sans-serif;
+    font-size:0.85rem;
+    color:var(--ink-muted);
+    border-left:2px solid var(--border);
+    padding-left:12px;
+  }
+  .grade-note b{ color:var(--ink); }
+
+  .diagram{
+    background:var(--surface-alt);
+    border:1px solid var(--border);
+    border-radius:8px;
+    padding:10px;
+    display:flex;
+    justify-content:center;
+  }
+  .diagram svg{ max-width:100%; height:auto; display:block; }
+  .diagram table{
+    border-collapse:collapse;
+    font-family:"JetBrains Mono", monospace;
+    font-size:0.78rem;
+    font-variant-numeric: tabular-nums;
+  }
+  .diagram th, .diagram td{
+    border:1px solid var(--border);
+    padding:4px 9px;
+    text-align:center;
+  }
+  .diagram th{ color:var(--ink-faint); font-weight:500; background:var(--surface); }
+  .diagram .stemleaf{
+    font-family:"JetBrains Mono", monospace;
+    font-size:0.85rem;
+    border-collapse:collapse;
+  }
+  .diagram .stemleaf td{ border:none; padding:2px 10px; text-align:left; }
+  .diagram .stemleaf .stem{ text-align:right; color:var(--ink-faint); border-right:2px solid var(--ink-faint); padding-right:10px; }
+
+  footer{
+    margin-top:60px;
+    padding-top:22px;
+    border-top:1px solid var(--border);
+    color:var(--ink-faint);
+    font-size:0.8rem;
+  }
+</style>
+<div class="wrap">
+
+  <header class="hero">
+    <div class="eyebrow">ISEE Math Practice &middot; Answer Key</div>
+    <h1>Redo Set 8 <span style="font-size:0.5em; color:var(--ink-faint); font-weight:500;">&middot; for parent/coach use only</span></h1>
+    <p class="lede">Answer key for <code>redo-set-8.html</code> (27 problems). Not linked from the worksheet itself &mdash; keep this link separate.</p>
+  </header>
+
+  <div class="cards">
+
+      <div class="group-title"><span class="group-title-n">4</span> Multi-Step Area &amp; Perimeter Strategy</div>
+      <div class="card">
+        <div class="card-num">Problem 1</div>
+        <div class="q-text">The perimeter of a square is 32 centimeters. If a rectangle with a width of 4 centimeters has the same area as the square, what is the length of the rectangle in centimeters?</div>
+        <div class="answer-box"><span class="ab-label">Answer</span><span style="font-family:'JetBrains Mono',monospace;font-weight:700;color:var(--accent-ink);">16</span></div>
+        <div class="grade-note"><b>Why:</b> Side of square = 32 &divide; 4 = 8. Area = 8 &times; 8 = 64. Length of rectangle = 64 &divide; 4 = 16. The key step is finding the square's area FIRST &mdash; you can't get the rectangle's length by operating on the perimeter directly.</div>
+      </div>
+      <div class="card">
+        <div class="card-num">Problem 2</div>
+        <div class="q-text">The perimeter of a square is 40 centimeters. If a rectangle with a width of 5 centimeters has the same area as the square, what is the length of the rectangle in centimeters?</div>
+        <div class="answer-box"><span class="ab-label">Answer</span><span style="font-family:'JetBrains Mono',monospace;font-weight:700;color:var(--accent-ink);">20</span></div>
+        <div class="grade-note"><b>Why:</b> Side of square = 40 &divide; 4 = 10. Area = 10 &times; 10 = 100. Length of rectangle = 100 &divide; 5 = 20.</div>
+      </div>
+      <div class="card">
+        <div class="card-num">Problem 3</div>
+        <div class="q-text">Maria wants to cover a path with paving tiles. The path is 96 inches long and 60 inches wide. Each tile is 6 inches long and 5 inches wide. If she knows how to find the area of a rectangle, how can Maria determine how many tiles she needs without laying them all on the path? <span class="g">(A = l &times; w)</span></div>
+        <div class="answer-box"><span class="ab-label">Answer</span><span style="font-family:'JetBrains Mono',monospace;font-weight:700;color:var(--accent-ink);">B</span></div>
+        <div class="grade-note"><b>Why:</b> The number of tiles needed = (path length &divide; tile length) &times; (path width &divide; tile width) = (96&divide;6) &times; (60&divide;5) = 16 &times; 12 = 192 tiles. Subtracting or multiplying the raw dimensions (A, C, D) doesn't correspond to "how many tiles fit."</div>
+      </div>
+      <div class="card">
+        <div class="card-num">Problem 4</div>
+        <div class="q-text">An array with 7 rows and 9 columns has 63 squares in total. Which pair of dimensions describes a DIFFERENT array with the same total number of squares?</div>
+        <div class="answer-box"><span class="ab-label">Answer</span><span style="font-family:'JetBrains Mono',monospace;font-weight:700;color:var(--accent-ink);">A</span></div>
+        <div class="grade-note"><b>Why:</b> 3 &times; 21 = 63, matching the original array's total. Check every choice by multiplying: 5&times;12=60, 6&times;11=66, 8&times;8=64 &mdash; none of those match 63.</div>
+      </div>
+
+      <div class="group-title"><span class="group-title-n">4</span> &ldquo;Always True?&rdquo; Logic</div>
+      <div class="card">
+        <div class="card-num">Problem 5</div>
+        <div class="q-text">Two numbers are each greater than 1. One number is even, and the other number is a multiple of 5. What will always be true about the product of the two numbers?</div>
+        <div class="answer-box"><span class="ab-label">Answer</span><span style="font-family:'JetBrains Mono',monospace;font-weight:700;color:var(--accent-ink);">B</span></div>
+        <div class="grade-note"><b>Why:</b> The even number always contributes a factor of 2; the multiple of 5 always contributes a factor of 5. So the product is always divisible by 2 &times; 5 = 10. Test it: 2&times;5=10, 4&times;15=60, 6&times;25=150 &mdash; all multiples of 10. (D fails: 2&times;5=10, which is not greater than 20.)</div>
+      </div>
+      <div class="card">
+        <div class="card-num">Problem 6</div>
+        <div class="q-text">Which statement is true?</div>
+        <div class="answer-box"><span class="ab-label">Answer</span><span style="font-family:'JetBrains Mono',monospace;font-weight:700;color:var(--accent-ink);">B</span></div>
+        <div class="grade-note"><b>Why:</b> A rhombus is a 4-sided shape with all sides equal. A square has all sides equal, so every square meets that definition &mdash; a square is always a rhombus. But not every rhombus has 90&deg; angles, so a rhombus is not always a square (that reverses the true relationship, same trap as "a rectangle is always a square").</div>
+      </div>
+      <div class="card">
+        <div class="card-num">Problem 7</div>
+        <div class="q-text">Room A is a square with an area of 121 square feet. Room B is a rectangle with a length of 20 feet and a width of 5 feet. Which statement correctly compares the two rooms?</div>
+        <div class="answer-box"><span class="ab-label">Answer</span><span style="font-family:'JetBrains Mono',monospace;font-weight:700;color:var(--accent-ink);">B</span></div>
+        <div class="grade-note"><b>Why:</b> Room A: side = &radic;121 = 11, perimeter = 4&times;11 = 44 ft. Room B: area = 20&times;5 = 100 sq ft, perimeter = 2(20+5) = 50 ft. Room A actually has the LARGER area (121 &gt; 100) but the SMALLER perimeter (44 &lt; 50) &mdash; proof that a bigger area does not guarantee a bigger perimeter. That's exactly why D is a trap.</div>
+      </div>
+      <div class="card">
+        <div class="card-num">Problem 8</div>
+        <div class="q-text">A number is chosen that is a prime number greater than 2. What can you always say about that number?</div>
+        <div class="answer-box"><span class="ab-label">Answer</span><span style="font-family:'JetBrains Mono',monospace;font-weight:700;color:var(--accent-ink);">A</span></div>
+        <div class="grade-note"><b>Why:</b> 2 is the only even prime number. Once you require the prime to be greater than 2, every remaining prime (3, 5, 7, 11, 13, ...) is odd. (D fails because 5 itself is a prime greater than 2 and IS a multiple of 5.)</div>
+      </div>
+
+      <div class="group-title"><span class="group-title-n">4</span> Organize the Data Before Computing</div>
+      <div class="card">
+        <div class="card-num">Problem 9</div>
+        <div class="q-text">A set of numbers shows the points scored by 7 players in a game: 14, 8, 22, 5, 19, 11, 17. What is the median number of points scored?</div>
+        <div class="answer-box"><span class="ab-label">Answer</span><span style="font-family:'JetBrains Mono',monospace;font-weight:700;color:var(--accent-ink);">14</span></div>
+        <div class="grade-note"><b>Why:</b> Sort first: 5, 8, 11, <u>14</u>, 17, 19, 22. With 7 values, the median is the 4th one once sorted &mdash; 14. (Averaging any values in their original, unsorted order is not the median.)</div>
+      </div>
+      <div class="card">
+        <div class="card-num">Problem 10</div>
+        <div class="q-text">The table shows the number of visitors to a museum on each day of one week. What is the median number of visitors?</div>
+        <div class="answer-box"><span class="ab-label">Answer</span><span style="font-family:'JetBrains Mono',monospace;font-weight:700;color:var(--accent-ink);">120</span></div>
+        <div class="grade-note"><b>Why:</b> Values as listed by day: 120, 95, 150, 80, 135, 200, 110. Sort them first: 80, 95, 110, <u>120</u>, 135, 150, 200. The median (middle of 7 sorted values) is 120 &mdash; the Monday value, which is a coincidence of this data, not a shortcut for future problems.</div>
+      </div>
+      <div class="card">
+        <div class="card-num">Problem 11</div>
+        <div class="q-text">The stem-and-leaf plot shows the ages of 12 people at a family reunion, where 3|4 represents 34. Based on the plot, how many people are exactly 42 years old?</div>
+        <div class="answer-box"><span class="ab-label">Answer</span><span style="font-family:'JetBrains Mono',monospace;font-weight:700;color:var(--accent-ink);">1</span></div>
+        <div class="grade-note"><b>Why:</b> The stem "4" row reads: 2, 6, 6, 6 &mdash; that's FOUR different ages: 42, 46, 46, and 46. Only one leaf is a "2," so only one person is exactly 42. (Three people are 46 &mdash; don't mix up "three leaves in the row" with "three people at one age" unless the leaves themselves repeat.)</div>
+      </div>
+      <div class="card">
+        <div class="card-num">Problem 12</div>
+        <div class="q-text">In a survey of 60 people, 18 said they prefer tea over coffee. Based on this survey, how many of the next 40 people surveyed would be expected to prefer tea?</div>
+        <div class="answer-box"><span class="ab-label">Answer</span><span style="font-family:'JetBrains Mono',monospace;font-weight:700;color:var(--accent-ink);">12</span></div>
+        <div class="grade-note"><b>Why:</b> Build the ratio first: 18 out of 60 prefer tea, which is 18/60 = 0.3 (30%). Apply that same rate to 40 people: 0.3 &times; 40 = 12. Subtracting or comparing the two raw numbers (60 and 18, or 18 and 40) directly does not answer a prediction question &mdash; you need the rate.</div>
+      </div>
+
+      <div class="group-title"><span class="group-title-n">3</span> Number-Line Tick Counting</div>
+      <div class="card">
+        <div class="card-num">Problem 13</div>
+        <div class="q-text">What value is the arrow pointing to on the number line? (0 to 2, marked off in equal ticks)</div>
+        <div class="answer-box"><span class="ab-label">Answer</span><span style="font-family:'JetBrains Mono',monospace;font-weight:700;color:var(--accent-ink);">1.4</span></div>
+        <div class="grade-note"><b>Why:</b> Count the ticks between the labels first: there are 10 equal spaces between 0 and 2, so each tick is worth 2 &divide; 10 = 0.2. The arrow sits on the 7th tick from 0: 7 &times; 0.2 = 1.4.</div>
+      </div>
+      <div class="card">
+        <div class="card-num">Problem 14</div>
+        <div class="q-text">What value is the arrow pointing to on the number line? (3 to 5, marked off in equal ticks)</div>
+        <div class="answer-box"><span class="ab-label">Answer</span><span style="font-family:'JetBrains Mono',monospace;font-weight:700;color:var(--accent-ink);">3.75 (3&frac34;)</span></div>
+        <div class="grade-note"><b>Why:</b> There are 8 equal spaces between 3 and 5 (a span of 2), so each tick is worth 2 &divide; 8 = 0.25. The arrow sits on the 3rd tick from 3: 3 + (3 &times; 0.25) = 3.75.</div>
+      </div>
+      <div class="card">
+        <div class="card-num">Problem 15</div>
+        <div class="q-text">What value is the arrow pointing to on the number line? (10 to 16, marked off in equal ticks)</div>
+        <div class="answer-box"><span class="ab-label">Answer</span><span style="font-family:'JetBrains Mono',monospace;font-weight:700;color:var(--accent-ink);">14.5</span></div>
+        <div class="grade-note"><b>Why:</b> There are 12 equal spaces between 10 and 16 (a span of 6), so each tick is worth 6 &divide; 12 = 0.5. The arrow sits on the 9th tick from 10: 10 + (9 &times; 0.5) = 14.5.</div>
+      </div>
+
+      <div class="group-title"><span class="group-title-n">3</span> Probability: The Right Category</div>
+      <div class="card">
+        <div class="card-num">Problem 16</div>
+        <div class="q-text">A bag contains 15 marbles: 6 red, 4 blue, and 5 green. If one marble is drawn at random, what is the probability that it will NOT be red?</div>
+        <div class="answer-box"><span class="ab-label">Answer</span><span style="font-family:'JetBrains Mono',monospace;font-weight:700;color:var(--accent-ink);">B (3/5)</span></div>
+        <div class="grade-note"><b>Why:</b> "Not red" means blue or green: 4 + 5 = 9 out of 15, which reduces to 3/5. Choice A (2/5) is 6/15 &mdash; the probability of drawing RED, the opposite of what's asked. Always underline the word NOT and double-check which group you're counting.</div>
+      </div>
+      <div class="card">
+        <div class="card-num">Problem 17</div>
+        <div class="q-text">A spinner is divided into 10 equal sections. 3 sections are yellow and the rest are green. What is the probability that the spinner will land on a section that is NOT yellow?</div>
+        <div class="answer-box"><span class="ab-label">Answer</span><span style="font-family:'JetBrains Mono',monospace;font-weight:700;color:var(--accent-ink);">B (7/10)</span></div>
+        <div class="grade-note"><b>Why:</b> 10 total sections, 3 yellow, so 10&minus;3 = 7 are NOT yellow: 7/10. Choice A (3/10) is the probability of landing on yellow &mdash; the trap.</div>
+      </div>
+      <div class="card">
+        <div class="card-num">Problem 18</div>
+        <div class="q-text">A raffle sold 25 tickets in total, and 10 of them are winning tickets. What is the probability that a randomly chosen ticket is a LOSING ticket?</div>
+        <div class="answer-box"><span class="ab-label">Answer</span><span style="font-family:'JetBrains Mono',monospace;font-weight:700;color:var(--accent-ink);">B (3/5)</span></div>
+        <div class="grade-note"><b>Why:</b> 25 &minus; 10 = 15 losing tickets, out of 25 total: 15/25 = 3/5. Choice A (2/5) is 10/25, the probability of a WINNING ticket &mdash; again, the complement trap.</div>
+      </div>
+
+      <div class="group-title"><span class="group-title-n">3</span> Spatial &amp; Grid Counting</div>
+      <div class="card">
+        <div class="card-num">Problem 19</div>
+        <div class="q-text">The grid below has 20 equal squares. What percentage of the grid is NOT shaded?</div>
+        <div class="answer-box"><span class="ab-label">Answer</span><span style="font-family:'JetBrains Mono',monospace;font-weight:700;color:var(--accent-ink);">25%</span></div>
+        <div class="grade-note"><b>Why:</b> Count the un-shaded (white) squares one at a time, row by row &mdash; there are 5 out of 20 total. 5/20 = 1/4 = 25%. It helps to physically mark each un-shaded square with a small tally as you count, rather than eyeballing the total.</div>
+      </div>
+      <div class="card">
+        <div class="card-num">Problem 20</div>
+        <div class="q-text">A rectangular box is built out of identical unit cubes, with no gaps. It is 5 cubes long, 3 cubes wide, and 4 cubes tall. How many unit cubes make up the entire box?</div>
+        <div class="answer-box"><span class="ab-label">Answer</span><span style="font-family:'JetBrains Mono',monospace;font-weight:700;color:var(--accent-ink);">60</span></div>
+        <div class="grade-note"><b>Why:</b> Volume = length &times; width &times; height = 5 &times; 3 &times; 4 = 60. Double-check that you're using the correct number for each of the three dimensions rather than swapping one for another.</div>
+      </div>
+      <div class="card">
+        <div class="card-num">Problem 21</div>
+        <div class="q-text">A tower is built by stacking identical layers of unit cubes. Each layer is a 4-by-4 square of cubes, and there are 5 layers stacked directly on top of each other. How many unit cubes make up the tower in total?</div>
+        <div class="answer-box"><span class="ab-label">Answer</span><span style="font-family:'JetBrains Mono',monospace;font-weight:700;color:var(--accent-ink);">80</span></div>
+        <div class="grade-note"><b>Why:</b> One layer = 4 &times; 4 = 16 cubes. 5 layers = 16 &times; 5 = 80 cubes total.</div>
+      </div>
+
+      <div class="group-title"><span class="group-title-n">2</span> Distributive Property</div>
+      <div class="card">
+        <div class="card-num">Problem 22</div>
+        <div class="q-text">Which expression is equivalent to 14 &times; (12 + 25)?</div>
+        <div class="answer-box"><span class="ab-label">Answer</span><span style="font-family:'JetBrains Mono',monospace;font-weight:700;color:var(--accent-ink);">B</span></div>
+        <div class="grade-note"><b>Why:</b> The distributive property multiplies 14 by BOTH terms inside the parentheses: 14&times;(12+25) = (14&times;12)+(14&times;25). Choice A only multiplies 14 by the 12 and leaves the 25 untouched &mdash; that changes the value of the expression.</div>
+      </div>
+      <div class="card">
+        <div class="card-num">Problem 23</div>
+        <div class="q-text">Which expression is equivalent to 20 &times; (9 + 16)?</div>
+        <div class="answer-box"><span class="ab-label">Answer</span><span style="font-family:'JetBrains Mono',monospace;font-weight:700;color:var(--accent-ink);">B</span></div>
+        <div class="grade-note"><b>Why:</b> 20&times;(9+16) = (20&times;9)+(20&times;16). Both terms inside the parentheses need their own multiplication by 20.</div>
+      </div>
+
+      <div class="group-title"><span class="group-title-n">4</span> Quick Check: Redo Set 7 Skills</div>
+      <div class="card">
+        <div class="card-num">Problem 24</div>
+        <div class="q-text">Which number is divisible by both 3 and 4?</div>
+        <div class="answer-box"><span class="ab-label">Answer</span><span style="font-family:'JetBrains Mono',monospace;font-weight:700;color:var(--accent-ink);">C (336)</span></div>
+        <div class="grade-note"><b>Why:</b> Check both rules for every choice: 342 (digit sum 9, divisible by 3; but last 2 digits 42&divide;4 is not whole &mdash; fails 4). 316 (last 2 digits 16&divide;4=4, divisible by 4; but digit sum 10 &mdash; fails 3). 336 (digit sum 12, divisible by 3; last 2 digits 36&divide;4=9, divisible by 4 &mdash; passes both). 322 (fails both).</div>
+      </div>
+      <div class="card">
+        <div class="card-num">Problem 25</div>
+        <div class="q-text">Denver is 2 hours behind Chicago. If a train leaves Chicago at 9:00 A.M. and arrives in Denver 6 hours later (Denver local time), what time is it in Denver when the train arrives?</div>
+        <div class="answer-box"><span class="ab-label">Answer</span><span style="font-family:'JetBrains Mono',monospace;font-weight:700;color:var(--accent-ink);">B (1:00 P.M.)</span></div>
+        <div class="grade-note"><b>Why:</b> Convert the departure time to Denver time first: 9:00 A.M. Chicago &minus; 2 hours = 7:00 A.M. Denver. Then add the 6-hour travel time: 7:00 A.M. + 6 hours = 1:00 P.M.</div>
+      </div>
+      <div class="card">
+        <div class="card-num">Problem 26</div>
+        <div class="q-text">The perimeter of the largest polygon is 34 centimeters. The perimeter of the square is 24 centimeters. Use the figure to answer the question. What is the perimeter of the triangle?</div>
+        <div class="answer-box"><span class="ab-label">Answer</span><span style="font-family:'JetBrains Mono',monospace;font-weight:700;color:var(--accent-ink);">22</span></div>
+        <div class="grade-note"><b>Why:</b> Square's side = 24 &divide; 4 = 6. The shared side between the square and triangle is counted once in the "largest polygon" outline but is a full side (counted twice, once per shape) when you separate the two shapes: triangle's perimeter = 34 &minus; 24 + (2 &times; 6) = 22.</div>
+      </div>
+      <div class="card">
+        <div class="card-num">Problem 27</div>
+        <div class="q-text">Priya did the problem shown with her calculator.<br><span class="g">(68 &times; 512) / 20</span><br>What is a reasonable estimation for her answer?</div>
+        <div class="answer-box"><span class="ab-label">Answer</span><span style="font-family:'JetBrains Mono',monospace;font-weight:700;color:var(--accent-ink);">C</span></div>
+        <div class="grade-note"><b>Why:</b> Exact value: 68 &times; 512 &divide; 20 = 34,816 &divide; 20 = 1,740.8, which falls in the "1,600 to 2,000" bucket. A quick estimate: 70 &times; 500 &divide; 20 = 35,000 &divide; 20 = 1,750, landing in the same bucket.</div>
+      </div>
+  </div>
+
+  <footer>Built for Hannah &middot; ISEE Math Practice</footer>
+</div>

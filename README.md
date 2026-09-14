@@ -28,6 +28,8 @@ worksheets/       Generated HTML study tools
   redo-set-6-answer-key.html                Answer key for redo-set-6.html &mdash; for parent/coach use only
   redo-set-7.html                           23 new problems on the topics that keep recurring, no self-check
   redo-set-7-answer-key.html                Answer key for redo-set-7.html &mdash; for parent/coach use only
+  redo-set-8.html                           27 new problems on gap categories from the full 203-problem review, no self-check
+  redo-set-8-answer-key.html                Answer key for redo-set-8.html &mdash; for parent/coach use only
 ```
 
 ### `worksheets/full-workbook.html`
@@ -93,6 +95,14 @@ The answer key for `redo-set-6.html`: correct letter and a one-line "Why" for ea
 ### `worksheets/redo-set-7-answer-key.html`
 
 The answer key for `redo-set-7.html`: correct answer and a one-line "Why" for each of the 23 problems, grouped the same way as the worksheet. Not linked from the worksheet itself.
+
+### `worksheets/redo-set-8.html`
+
+27 brand-new problems built from a full independent review of 203 screenshots from a separate "all problems" practice folder (not tied to any single missed-worksheet comparison like earlier sets) — every problem was read individually, classified right/wrong, and every wrong answer further classified as a careless slip or a genuine knowledge gap. redo-set-7's four topics (divisibility, time-zone, composite-perimeter, estimation) were confirmed as real recurring issues by this larger sample, but 7 more categories showed up that weren't covered anywhere yet: multi-step area/perimeter strategy (find an intermediate value before the final step — 4 problems), "always true" logical reasoning that misses an edge case or converse (4 problems), organizing data before computing — sorting before taking a median, reading a stem-and-leaf plot correctly, building a ratio for a prediction (4 problems), number-line tick-density — a standing weak spot from earlier work that still hadn't resolved (3 problems), probability category identification (the asked-for event vs. its complement — 3 problems), spatial/grid counting (3 problems), and the distributive property applied to only one term instead of both (2 problems). A closing 4-problem "Quick Check" group revisits redo-set-7's own topics with fresh numbers to confirm those gains are sticking. Like redo-set-6 and -7, no self-check — answers live only in the separate answer key.
+
+### `worksheets/redo-set-8-answer-key.html`
+
+The answer key for `redo-set-8.html`: correct answer and a "Why" for each of the 27 problems, grouped the same way as the worksheet. Not linked from the worksheet itself.
 
 ## Working on this repo with Claude Code
 
