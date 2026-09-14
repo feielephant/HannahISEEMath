@@ -26,6 +26,8 @@ worksheets/       Generated HTML study tools
   online-set-2.html                         Same 9 problems as redo-set-5.html's original 9, numbers unchanged
   redo-set-6.html                           15 problems from a 9/13 online session, grouped by topic, no self-check
   redo-set-6-answer-key.html                Answer key for redo-set-6.html &mdash; for parent/coach use only
+  redo-set-7.html                           23 new problems on the topics that keep recurring, no self-check
+  redo-set-7-answer-key.html                Answer key for redo-set-7.html &mdash; for parent/coach use only
 ```
 
 ### `worksheets/full-workbook.html`
@@ -83,6 +85,14 @@ Started as the other half of the redo-set-5 pair (the identical 9 problems from 
 ### `worksheets/redo-set-6-answer-key.html`
 
 The answer key for `redo-set-6.html`: correct letter and a one-line "Why" for each of the 15 problems, grouped the same way as the worksheet. Deliberately not linked from the worksheet itself — keep this link separate from whatever link she uses to do the problems.
+
+### `worksheets/redo-set-7.html`
+
+23 brand-new problems, not reused from any earlier worksheet, built specifically around the topics that have kept recurring as errors across the whole project's history (checked by comparing every confirmed-miss worksheet from redo-set-1 through redo-set-6, not just redo-set-4's original analysis): grocery running-total tables (the single most repeated miss overall, 8+ instances), time-zone elapsed time and composite-shape volume/area (both came back wrong on an actual practice test even after redo-set-4 drilled them directly), number-machine tables, estimation/rounding, and divisibility rules (the last two identified by cross-checking redo-set-5 against redo-set-6 and finding the same skills recurring across two independent sessions). Weighted by recurrence: 5 grocery-table variants, 4 time-zone, 6 composite-shape (2 volume, 2 overlapping-square-area, 2 combined-perimeter), 2 number-machine, 3 estimation, 3 divisibility. Like redo-set-6, this ships with no self-check and a separate answer key.
+
+### `worksheets/redo-set-7-answer-key.html`
+
+The answer key for `redo-set-7.html`: correct answer and a one-line "Why" for each of the 23 problems, grouped the same way as the worksheet. Not linked from the worksheet itself.
 
 ## Working on this repo with Claude Code
 
