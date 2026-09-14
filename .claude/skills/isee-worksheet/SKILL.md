@@ -322,6 +322,25 @@ not just the labeled data points — needs that density checked against the
 source directly, since getting the right final numbers doesn't guarantee the
 diagram still tests the same skill.
 
+**Counting grid/array cells by eye is unreliable — count pixels instead.**
+Building a redo of a "which array shows two factors of the same number"
+problem (0913 batch), an eyeballed count of the reference array's columns
+from a normally-viewed screenshot gave 17; the actual answer choices' areas
+(54, 48, 45, 63, 68) shared no common factor with 3&times;17=51, which was
+the tell that the count was wrong. Re-measured with Python/PIL — sample a
+row (or column) of pixels through the middle of the grid, find contiguous
+runs of dark pixels (the grid lines), and count the runs — the true count
+was 18 columns (3&times;18=54), which matched one answer choice (6&times;8=54)
+exactly. Sample two different row/column depths and cross-check when a grid's
+own border is drawn thicker than its interior lines (a doubled-up detection
+at one edge is a sign of this, not an extra row/column) — visually re-count
+the specific suspect region afterward to confirm before trusting the pixel
+result. Use this pixel-counting approach — not a normal-resolution eyeball
+count — for any diagram where the exact cell/row/column count of a grid or
+array feeds directly into the correct answer (factor-pair arrays, partially-
+shaded percentage grids, dot arrays), since a miscount by even one row or
+column changes the underlying math, not just the diagram's appearance.
+
 ## Grading script internals
 
 - `ANSWERS[qid]` is `{type:'num', value:N}` or `{type:'choice', letter:'X'}`.
