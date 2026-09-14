@@ -22,8 +22,9 @@ worksheets/       Generated HTML study tools
   redo-set-2.html                           8 problems she genuinely missed on that same session, fresh numbers
   redo-set-3.html                           29 problems missed a 2nd time across earlier sets, fresh numbers
   redo-set-4.html                           20 problems, extra drill on the most persistent topics
-  redo-set-5.html                           9 problems from a 9/5 practice test, redone to check focus vs. skill
-  online-set-2.html                         Same 9 problems as redo-set-5.html, original numbers unchanged
+  redo-set-5.html                           24 problems from two online practice sessions, grouped by topic
+  online-set-2.html                         Same 9 problems as redo-set-5.html's original 9, numbers unchanged
+  redo-set-6.html                           15 problems from a 9/13 online session, grouped by topic
 ```
 
 ### `worksheets/full-workbook.html`
@@ -71,6 +72,10 @@ A different kind of redo, and the largest single-topic-grouped set so far: 24 pr
 ### `worksheets/online-set-2.html`
 
 Started as the other half of the redo-set-5 pair (the identical 9 problems from the 9/5 session, same numbers, same diagrams, nothing changed &mdash; meant for a calm, focused redo rather than a memory-proof one), but `redo-set-5.html` has since grown to 24 problems across two sessions, so this file now only pairs with the first 9 of those (probability, time-zone, decimal sum, Venn diagram, mean weight, number-line, recipe estimate, cube-counting, calculator estimate). Comparing results between the two on those 9 is the actual point: right on both points to attention as the original issue; wrong on both (even with fresh numbers the second time) points to the concept itself needing review.
+
+### `worksheets/redo-set-6.html`
+
+15 problems from a 9/13 online ISEE practice session (both math sections &mdash; the ISEE splits math into Quantitative Reasoning and Mathematics Achievement, which is why the source screenshots had two different "Question 24," "Question 26," etc.), organized into the same five-topic layout as redo-set-5.html: Number Theory & Estimation, Fractions & Ratios, Patterns & Algebraic Thinking, Geometry & Measurement, and Data Analysis. Unlike the earlier sets, these source screenshots didn't show a graded reveal (no green-correct/pink-wrong highlighting, just "% of other test-takers" stats), so there was no way to tell which of the 15 she'd actually missed &mdash; this set treats all 15 as worth a fresh look rather than guessing. Numbers, diagrams, and answer-choice positions are all changed from the original; a couple of the diagram-heavy problems (an array-of-squares factor-pair question, a partially-shaded floor-tile grid) needed pixel-level re-measurement of the original screenshots to get the exact grid dimensions right before building fresh versions.
 
 ## Working on this repo with Claude Code
 
