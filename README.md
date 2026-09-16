@@ -26,7 +26,7 @@ worksheets/       Generated HTML study tools
   online-set-2.html                         Same 9 problems as redo-set-5.html's original 9, numbers unchanged
   redo-set-6.html                           15 problems from a 9/13 online session, grouped by topic, no self-check
   redo-set-6-answer-key.html                Answer key for redo-set-6.html &mdash; for parent/coach use only
-  redo-set-7.html                           23 new problems on the topics that keep recurring, no self-check
+  redo-set-7.html                           30 new problems on the topics that keep recurring, no self-check
   redo-set-7-answer-key.html                Answer key for redo-set-7.html &mdash; for parent/coach use only
   redo-set-8.html                           27 new problems on gap categories from the full 203-problem review, no self-check
   redo-set-8-answer-key.html                Answer key for redo-set-8.html &mdash; for parent/coach use only
@@ -90,11 +90,11 @@ The answer key for `redo-set-6.html`: correct letter and a one-line "Why" for ea
 
 ### `worksheets/redo-set-7.html`
 
-23 brand-new problems, not reused from any earlier worksheet, built specifically around the topics that have kept recurring as errors across the whole project's history (checked by comparing every confirmed-miss worksheet from redo-set-1 through redo-set-6, not just redo-set-4's original analysis): grocery running-total tables (the single most repeated miss overall, 8+ instances), time-zone elapsed time and composite-shape volume/area (both came back wrong on an actual practice test even after redo-set-4 drilled them directly), number-machine tables, estimation/rounding, and divisibility rules (the last two identified by cross-checking redo-set-5 against redo-set-6 and finding the same skills recurring across two independent sessions). Weighted by recurrence: 5 grocery-table variants, 4 time-zone, 6 composite-shape (2 volume, 2 overlapping-square-area, 2 combined-perimeter), 2 number-machine, 3 estimation, 3 divisibility. Like redo-set-6, this ships with no self-check and a separate answer key.
+30 brand-new problems, not reused from any earlier worksheet, built specifically around the topics that have kept recurring as errors across the whole project's history (checked by comparing every confirmed-miss worksheet from redo-set-1 through redo-set-6, not just redo-set-4's original analysis): grocery running-total tables (the single most repeated miss overall, 8+ instances), time-zone elapsed time and composite-shape volume/area (both came back wrong on an actual practice test even after redo-set-4 drilled them directly), number-machine tables, estimation/rounding, and divisibility rules (the last two identified by cross-checking redo-set-5 against redo-set-6 and finding the same skills recurring across two independent sessions). Weighted by recurrence: 5 grocery-table variants, 4 time-zone, 6 composite-shape (2 volume, 2 overlapping-square-area, 2 combined-perimeter), 2 number-machine, 3 estimation, 3 divisibility &mdash; that's the original 23. Seven more were added later, after a real redo-set-6 attempt and a real redo-set-8 attempt both confirmed the same gaps keep resurfacing: 2 more multi-step area/perimeter problems (this project's single most persistent gap, per the full 203-problem diagnostic review), 1 more divisibility (check-every-condition), 1 more estimation, 1 "always true" logic problem, 1 distributive-property problem, and 1 proportional-prediction problem. Like redo-set-6, this ships with no self-check and a separate answer key.
 
 ### `worksheets/redo-set-7-answer-key.html`
 
-The answer key for `redo-set-7.html`: correct answer and a one-line "Why" for each of the 23 problems, grouped the same way as the worksheet. Not linked from the worksheet itself.
+The answer key for `redo-set-7.html`: correct answer and a one-line "Why" for each of the 30 problems, grouped the same way as the worksheet. Not linked from the worksheet itself.
 
 ### `worksheets/redo-set-8.html`
 
