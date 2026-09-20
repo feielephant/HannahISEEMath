@@ -22,7 +22,7 @@ worksheets/       Generated HTML study tools
   redo-set-2.html                           8 problems she genuinely missed on that same session, fresh numbers
   redo-set-3.html                           29 problems missed a 2nd time across earlier sets, fresh numbers
   redo-set-4.html                           20 problems, extra drill on the most persistent topics
-  redo-set-5.html                           24 problems from two online practice sessions, grouped by topic
+  redo-set-5.html                           24 redo problems from two online sessions, plus the 33 exact original problems from the 203-screenshot review
   online-set-2.html                         Same 9 problems as redo-set-5.html's original 9, numbers unchanged
   redo-set-6.html                           15 problems from a 9/13 online session, grouped by topic, no self-check
   redo-set-6-answer-key.html                Answer key for redo-set-6.html &mdash; for parent/coach use only
@@ -73,6 +73,8 @@ A focused-practice set, not a straight "missed again" dump: 20 problems weighted
 ### `worksheets/redo-set-5.html`
 
 A different kind of redo, and the largest single-topic-grouped set so far: 24 problems pulled from her online ISEE practice-platform sessions (9/5 and 8/30) that she missed on the first pass, organized into five topic sections &mdash; Number Theory & Estimation, Fractions & Decimals, Patterns & Algebraic Thinking, Geometry & Measurement, and Data Analysis & Probability &mdash; rather than one flat list. The point isn't just scoring it &mdash; if she gets most of these right with fresh numbers, that points to focus rather than a skill gap; if the same topics come back wrong again, that's worth reviewing together directly. Numbers, diagrams, and answer-choice positions are all changed from the original. The time-zone problem uses the actual map image from the source screenshot (embedded directly in the page) rather than a redrawn approximation, since an accurate hand-drawn US time-zone map isn't worth the risk of introducing a geography error. Three problems from the 8/30 session that she'd actually already answered correctly (a fraction-thickness comparison, a coordinate-plane quadrilateral, and an area estimate) were deliberately left out &mdash; this file is for redoing misses, not re-serving what she already has.
+
+**Update:** redo-set-5 now ends with a 33-problem section, "Original Online-Test Errors," containing the exact problems (same numbers, same choices, rebuilt from the screenshots) that she got wrong in the 203-screenshot online review, so there is one page of every confirmed online-platform error. It keeps this file's Submit & grade behavior (answers and "Why" are embedded in the page).
 
 ### `worksheets/online-set-2.html`
 
