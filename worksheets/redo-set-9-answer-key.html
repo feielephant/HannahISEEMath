@@ -1,0 +1,302 @@
+<title>Redo Set 9 &mdash; Answer Key</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Petrona:ital,wght@0,500;0,600;0,700;1,500&family=Public+Sans:ital,wght@0,400;0,500;0,600;1,400&family=JetBrains+Mono:wght@400;500;600&display=swap">
+<style>
+  :root{
+    --bg:#EEF2F0;
+    --grid-line: rgba(30,42,40,0.055);
+    --surface:#FFFFFF;
+    --surface-alt:#E7EDEA;
+    --ink:#1E2A28;
+    --ink-muted:#57655F;
+    --ink-faint:#8B968F;
+    --border:#D6DFDA;
+    --accent:#1C7A69;
+    --accent-ink:#0F5648;
+    --accent-soft:#E1F2EC;
+    --wrong:#B9402E;
+    --wrong-soft:#FBEAE6;
+    --amber:#9A6B12;
+    --shadow: 0 1px 2px rgba(20,30,28,0.04), 0 8px 24px -12px rgba(20,30,28,0.12);
+  }
+  @media (prefers-color-scheme: dark){
+    :root:not([data-theme="light"]){
+      --bg:#12181A;
+      --grid-line: rgba(210,225,220,0.045);
+      --surface:#1B2224;
+      --surface-alt:#212A2C;
+      --ink:#E8EFEC;
+      --ink-muted:#9FB0AA;
+      --ink-faint:#6C7C77;
+      --border:#2C3739;
+      --accent:#4FC4AC;
+      --accent-ink:#8FE0CC;
+      --accent-soft:rgba(79,196,172,0.14);
+      --wrong:#E77563;
+      --wrong-soft:rgba(231,117,99,0.14);
+      --amber:#E0AC4E;
+      --shadow: 0 1px 2px rgba(0,0,0,0.3), 0 8px 24px -12px rgba(0,0,0,0.5);
+    }
+  }
+  :root[data-theme="dark"]{
+    --bg:#12181A;
+    --grid-line: rgba(210,225,220,0.045);
+    --surface:#1B2224;
+    --surface-alt:#212A2C;
+    --ink:#E8EFEC;
+    --ink-muted:#9FB0AA;
+    --ink-faint:#6C7C77;
+    --border:#2C3739;
+    --accent:#4FC4AC;
+    --accent-ink:#8FE0CC;
+    --accent-soft:rgba(79,196,172,0.14);
+    --wrong:#E77563;
+    --wrong-soft:rgba(231,117,99,0.14);
+    --amber:#E0AC4E;
+    --shadow: 0 1px 2px rgba(0,0,0,0.3), 0 8px 24px -12px rgba(0,0,0,0.5);
+  }
+
+  *{box-sizing:border-box;}
+  html{-webkit-text-size-adjust:100%;}
+  body{
+    margin:0;
+    background:
+      linear-gradient(var(--grid-line) 1px, transparent 1px) 0 0/ 28px 28px,
+      linear-gradient(90deg, var(--grid-line) 1px, transparent 1px) 0 0/ 28px 28px,
+      var(--bg);
+    color:var(--ink);
+    font-family:"Public Sans", ui-sans-serif, system-ui, sans-serif;
+    line-height:1.5;
+    -webkit-font-smoothing:antialiased;
+  }
+  a{color:var(--accent-ink);}
+  ::selection{ background: var(--accent-soft); }
+
+  .wrap{ max-width: 980px; margin: 0 auto; padding: 0 20px 96px; }
+
+  header.hero{
+    padding: 56px 0 36px;
+    border-bottom: 1px solid var(--border);
+    margin-bottom: 40px;
+  }
+  .eyebrow{
+    font-family:"JetBrains Mono", ui-monospace, monospace;
+    font-size:0.72rem;
+    letter-spacing:0.11em;
+    text-transform:uppercase;
+    color:var(--accent-ink);
+    display:flex;
+    align-items:center;
+    gap:10px;
+    margin-bottom:14px;
+  }
+  .eyebrow::before{
+    content:"";
+    width:7px; height:7px;
+    background:var(--accent);
+    border-radius:50%;
+    display:inline-block;
+    box-shadow: 0 0 0 3px var(--accent-soft);
+  }
+  h1{
+    font-family:"Petrona", Georgia, serif;
+    font-weight:700;
+    font-size: clamp(2rem, 4.4vw, 2.75rem);
+    line-height:1.08;
+    margin:0 0 14px;
+    text-wrap:balance;
+    letter-spacing:-0.01em;
+  }
+  .hero p.lede{
+    max-width:64ch;
+    color:var(--ink-muted);
+    font-size:1.03rem;
+    margin: 0 0 28px;
+  }
+
+  .cards{
+    display:grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap:16px;
+  }
+
+  .group-title{
+    grid-column: 1 / -1;
+    display:flex;
+    align-items:center;
+    gap:10px;
+    font-family:"JetBrains Mono", ui-monospace, monospace;
+    font-size:0.74rem;
+    letter-spacing:0.09em;
+    text-transform:uppercase;
+    color:var(--accent-ink);
+    margin: 26px 0 2px;
+    padding-bottom:8px;
+    border-bottom:1px solid var(--border);
+  }
+  .group-title:first-child{ margin-top:0; }
+  .group-title-n{
+    font-family:"JetBrains Mono", monospace;
+    font-size:0.7rem;
+    color:var(--ink-faint);
+    background:var(--surface-alt);
+    border:1px solid var(--border);
+    border-radius:999px;
+    padding:2px 9px;
+    letter-spacing:normal;
+    text-transform:none;
+  }
+
+  .card{
+    background:var(--surface);
+    border:1px solid var(--border);
+    border-radius:12px;
+    padding:18px 20px 18px;
+    box-shadow:var(--shadow);
+    display:flex;
+    flex-direction:column;
+    gap:12px;
+  }
+  .card-num{
+    font-family:"Petrona", Georgia, serif;
+    font-style:italic;
+    font-weight:600;
+    color:var(--ink-faint);
+    font-size:0.95rem;
+  }
+  .q-text{
+    font-size:0.96rem;
+    color:var(--ink);
+  }
+  .q-text .g{ font-family:"JetBrains Mono", monospace; font-size:0.92em; }
+
+  .answer-box{
+    display:flex;
+    align-items:center;
+    gap:12px;
+    border:1.5px solid var(--border);
+    border-radius:8px;
+    background:var(--surface-alt);
+    padding:6px 14px;
+  }
+  .answer-box .ab-label{
+    font-family:"JetBrains Mono", monospace;
+    font-size:0.68rem;
+    letter-spacing:0.08em;
+    text-transform:uppercase;
+    color:var(--ink-faint);
+    flex-shrink:0;
+  }
+  .grade-note{
+    font-family:"Public Sans", sans-serif;
+    font-size:0.85rem;
+    color:var(--ink-muted);
+    border-left:2px solid var(--border);
+    padding-left:12px;
+  }
+  .grade-note b{ color:var(--ink); }
+
+  .diagram{
+    background:var(--surface-alt);
+    border:1px solid var(--border);
+    border-radius:8px;
+    padding:10px;
+    display:flex;
+    justify-content:center;
+  }
+  .diagram svg{ max-width:100%; height:auto; display:block; }
+  .diagram table{
+    border-collapse:collapse;
+    font-family:"JetBrains Mono", monospace;
+    font-size:0.78rem;
+    font-variant-numeric: tabular-nums;
+  }
+  .diagram th, .diagram td{
+    border:1px solid var(--border);
+    padding:4px 9px;
+    text-align:center;
+  }
+  .diagram th{ color:var(--ink-faint); font-weight:500; background:var(--surface); }
+  .diagram .stemleaf{
+    font-family:"JetBrains Mono", monospace;
+    font-size:0.85rem;
+    border-collapse:collapse;
+  }
+  .diagram .stemleaf td{ border:none; padding:2px 10px; text-align:left; }
+  .diagram .stemleaf .stem{ text-align:right; color:var(--ink-faint); border-right:2px solid var(--ink-faint); padding-right:10px; }
+
+  footer{
+    margin-top:60px;
+    padding-top:22px;
+    border-top:1px solid var(--border);
+    color:var(--ink-faint);
+    font-size:0.8rem;
+  }
+</style>
+<div class="wrap">
+
+  <header class="hero">
+    <div class="eyebrow">ISEE Math Practice &middot; Answer Key</div>
+    <h1>Redo Set 9 <span style="font-size:0.5em; color:var(--ink-faint); font-weight:500;">&middot; for parent/coach use only</span></h1>
+    <p class="lede">Answer key for <code>redo-set-9.html</code> (9 problems). Not linked from the worksheet itself &mdash; keep this link separate.</p>
+  </header>
+
+  <div class="cards">
+      <div class="group-title"><span class="group-title-n">9</span> Second Chance: The 9 Problems from the 0920 Test</div>
+      <div class="card">
+        <div class="card-num">Problem 1</div>
+        <div class="q-text">Serena picked a number greater than 40 but less than 50. If the number is an odd number that is divisible by 3, what number did Serena pick?</div>
+        <div class="answer-box"><span class="ab-label">Answer</span><span style="font-family:'JetBrains Mono',monospace;font-weight:700;color:var(--accent-ink);">B (45)</span></div>
+        <div class="grade-note"><b>Why:</b> Check all three conditions: between 40 and 50, odd, and divisible by 3. 45 is odd and 4+5=9 is a multiple of 3, so 45 works. 48 is divisible by 3 but it is EVEN; 43 and 49 are odd but not divisible by 3.</div>
+      </div>
+      <div class="card">
+        <div class="card-num">Problem 2</div>
+        <div class="q-text">A group of fraction bars is shown. Which list shows the fractions <span class="g">2/3, 3/4, 3/6, 2/5</span> in order from <b>least to greatest</b>?</div>
+        <div class="answer-box"><span class="ab-label">Answer</span><span style="font-family:'JetBrains Mono',monospace;font-weight:700;color:var(--accent-ink);">B (2/5, 3/6, 2/3, 3/4)</span></div>
+        <div class="grade-note"><b>Why:</b> Using the bars (or decimals): 2/5 = 0.4, 3/6 = 0.5, 2/3 = 0.67, 3/4 = 0.75. Least to greatest is 2/5, 3/6, 2/3, 3/4. Choice D lists them greatest to least, which is the reverse of what was asked.</div>
+      </div>
+      <div class="card">
+        <div class="card-num">Problem 3</div>
+        <div class="q-text">Two classes, Class A and Class B, each recorded the eye color of students in the class. The graph shows the results. Which eye color was the most common?</div>
+        <div class="answer-box"><span class="ab-label">Answer</span><span style="font-family:'JetBrains Mono',monospace;font-weight:700;color:var(--accent-ink);">A (blue)</span></div>
+        <div class="grade-note"><b>Why:</b> The question is about BOTH classes together, so add the two bars for each color: blue 5 + 6 = 11, brown 8 + 2 = 10, green 3 + 3 = 6, hazel 4 + 3 = 7. Blue is the most common. Brown has the single tallest bar, but only in Class A.</div>
+      </div>
+      <div class="card">
+        <div class="card-num">Problem 4</div>
+        <div class="q-text">Volume is the space an object takes up. A box contains 27 unit cubes. There are gaps between the cubes contained in the box. Which statement best represents the volume of the box?</div>
+        <div class="answer-box"><span class="ab-label">Answer</span><span style="font-family:'JetBrains Mono',monospace;font-weight:700;color:var(--accent-ink);">C (The volume of the box is greater than 27 cubic units.)</span></div>
+        <div class="grade-note"><b>Why:</b> Volume is the space the box takes up. The cubes take up 27 cubic units, and the gaps are extra space inside the box that is also part of its volume. So the box's volume is greater than 27 cubic units.</div>
+      </div>
+      <div class="card">
+        <div class="card-num">Problem 5</div>
+        <div class="q-text">Students were asked to write a new number using all the rules below and the digits 0, 2, 4, 6, and 8.<br><b>RULES FOR THE NEW NUMBER</b><br>1. The number must have 5 digits.<br>2. The number must be even.<br>3. The number must be the smallest number possible.<br>4. Each number can be used only once.<br><br>What digit is in the <b>tens</b> place for the new number?</div>
+        <div class="answer-box"><span class="ab-label">Answer</span><span style="font-family:'JetBrains Mono',monospace;font-weight:700;color:var(--accent-ink);">D (6)</span></div>
+        <div class="grade-note"><b>Why:</b> The smallest 5-digit number can't start with 0, so it starts with 2, then the rest go in order: 20468 (it ends in 8, so it is even). The places are: 2 ten-thousands, 0 thousands, 4 hundreds, 6 tens, 8 ones. The tens digit is 6. (2 is the ten-thousands digit.)</div>
+      </div>
+      <div class="card">
+        <div class="card-num">Problem 6</div>
+        <div class="q-text">Ron is calculating how much it would cost for each of his friends to go see a movie. They shared the total cost of the tickets equally. The list shows what is known.<br>The number of people attending is &#9633;.<br>The total cost of the tickets is &#9675;.<br>Which equation will determine &#9651;, the cost for each friend to attend the movie?</div>
+        <div class="answer-box"><span class="ab-label">Answer</span><span style="font-family:'JetBrains Mono',monospace;font-weight:700;color:var(--accent-ink);">D (&#9651; = &#9675; &divide; &#9633;)</span></div>
+        <div class="grade-note"><b>Why:</b> &ldquo;Shared the total cost equally&rdquo; means the total is split among the people, so divide: cost each = total &divide; number of people. Test it with numbers: $30 total shared by 5 people is $6 each, which is 30 &divide; 5.</div>
+      </div>
+      <div class="card">
+        <div class="card-num">Problem 7</div>
+        <div class="q-text">The table shows the number of people who attended a concert on four nights. Which graph represents the data in the table?</div>
+        <div class="answer-box"><span class="ab-label">Answer</span><span style="font-family:'JetBrains Mono',monospace;font-weight:700;color:var(--accent-ink);">B (Graph B (bars 175, 125, 200, 75))</span></div>
+        <div class="grade-note"><b>Why:</b> Check every night against the table: Night 1 = 175, Night 2 = 125, Night 3 = 200, Night 4 = 75. Graph B matches all four bars. Graph A has the same four numbers but in the wrong nights (75, 200, 125, 175). In the picture graphs each person is 50, so they would need 3.5, 2.5, 4 and 1.5 people; neither does.</div>
+      </div>
+      <div class="card">
+        <div class="card-num">Problem 8</div>
+        <div class="q-text">Which number leaves a remainder of 2 when divided by both 5 and 8?</div>
+        <div class="answer-box"><span class="ab-label">Answer</span><span style="font-family:'JetBrains Mono',monospace;font-weight:700;color:var(--accent-ink);">D (42)</span></div>
+        <div class="grade-note"><b>Why:</b> Test each choice with BOTH numbers. 42 &divide; 5 = 8 remainder 2, and 42 &divide; 8 = 5 remainder 2, so 42 works. 37 leaves 2 for 5 but 5 for 8. 38 leaves 3 and 6. 40 leaves 0 and 0.</div>
+      </div>
+      <div class="card">
+        <div class="card-num">Problem 9</div>
+        <div class="q-text">Use the number pattern to answer the question.<br><span class="g">1 &nbsp;3 &nbsp;9 &nbsp;27 &nbsp;? &nbsp;?</span><br>What is the <b>sixth</b> number in the pattern?</div>
+        <div class="answer-box"><span class="ab-label">Answer</span><span style="font-family:'JetBrains Mono',monospace;font-weight:700;color:var(--accent-ink);">C (243)</span></div>
+        <div class="grade-note"><b>Why:</b> Each number is 3 times the one before: 1, 3, 9, 27, 81, 243. The fifth number is 81 and the sixth is 243. (The rule is multiply by 3, not add and not double.)</div>
+      </div>
+  </div>
+
+  <footer>Built for Hannah &middot; ISEE Math Practice</footer>
+</div>

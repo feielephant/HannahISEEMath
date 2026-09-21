@@ -30,6 +30,8 @@ worksheets/       Generated HTML study tools
   redo-set-7-answer-key.html                Answer key for redo-set-7.html &mdash; for parent/coach use only
   redo-set-8.html                           27 new problems on gap categories from the full 203-problem review, no self-check
   redo-set-8-answer-key.html                Answer key for redo-set-8.html &mdash; for parent/coach use only
+  redo-set-9.html                           The 9 exact problems missed on the 0920 test, a second try, no self-check
+  redo-set-9-answer-key.html                Answer key for redo-set-9.html &mdash; for parent/coach use only
 ```
 
 ### `worksheets/full-workbook.html`
@@ -105,6 +107,10 @@ The answer key for `redo-set-7.html`: correct answer and a one-line "Why" for ea
 ### `worksheets/redo-set-8-answer-key.html`
 
 The answer key for `redo-set-8.html`: correct answer and a "Why" for each of the 27 problems, grouped the same way as the worksheet. Not linked from the worksheet itself.
+
+### `worksheets/redo-set-9.html`
+
+The 9 problems she missed on the 0920 practice test, presented exactly as they were (same numbers, same answer choices), as a second chance: if she fixes them all, they were attention slips; anything still wrong is worth working through together. The misses were mostly "answered part of the question" slips (dropped the odd condition, reversed least-to-greatest, added only one class on a graph, missed "shared equally"), plus a remainder problem, a multiply-by-3 pattern and a volume-with-gaps concept. No self-check; answers are in `redo-set-9-answer-key.html`.
 
 ## Working on this repo with Claude Code
 
