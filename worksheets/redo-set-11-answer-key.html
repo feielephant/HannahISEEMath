@@ -1,0 +1,343 @@
+<title>Redo Set 11 &mdash; Answer Key</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Petrona:ital,wght@0,500;0,600;0,700;1,500&family=Public+Sans:ital,wght@0,400;0,500;0,600;1,400&family=JetBrains+Mono:wght@400;500;600&display=swap">
+<style>
+  :root{
+    --bg:#EEF2F0;
+    --grid-line: rgba(30,42,40,0.055);
+    --surface:#FFFFFF;
+    --surface-alt:#E7EDEA;
+    --ink:#1E2A28;
+    --ink-muted:#57655F;
+    --ink-faint:#8B968F;
+    --border:#D6DFDA;
+    --accent:#1C7A69;
+    --accent-ink:#0F5648;
+    --accent-soft:#E1F2EC;
+    --wrong:#B9402E;
+    --wrong-soft:#FBEAE6;
+    --amber:#9A6B12;
+    --shadow: 0 1px 2px rgba(20,30,28,0.04), 0 8px 24px -12px rgba(20,30,28,0.12);
+  }
+  @media (prefers-color-scheme: dark){
+    :root:not([data-theme="light"]){
+      --bg:#12181A;
+      --grid-line: rgba(210,225,220,0.045);
+      --surface:#1B2224;
+      --surface-alt:#212A2C;
+      --ink:#E8EFEC;
+      --ink-muted:#9FB0AA;
+      --ink-faint:#6C7C77;
+      --border:#2C3739;
+      --accent:#4FC4AC;
+      --accent-ink:#8FE0CC;
+      --accent-soft:rgba(79,196,172,0.14);
+      --wrong:#E77563;
+      --wrong-soft:rgba(231,117,99,0.14);
+      --amber:#E0AC4E;
+      --shadow: 0 1px 2px rgba(0,0,0,0.3), 0 8px 24px -12px rgba(0,0,0,0.5);
+    }
+  }
+  :root[data-theme="dark"]{
+    --bg:#12181A;
+    --grid-line: rgba(210,225,220,0.045);
+    --surface:#1B2224;
+    --surface-alt:#212A2C;
+    --ink:#E8EFEC;
+    --ink-muted:#9FB0AA;
+    --ink-faint:#6C7C77;
+    --border:#2C3739;
+    --accent:#4FC4AC;
+    --accent-ink:#8FE0CC;
+    --accent-soft:rgba(79,196,172,0.14);
+    --wrong:#E77563;
+    --wrong-soft:rgba(231,117,99,0.14);
+    --amber:#E0AC4E;
+    --shadow: 0 1px 2px rgba(0,0,0,0.3), 0 8px 24px -12px rgba(0,0,0,0.5);
+  }
+
+  *{box-sizing:border-box;}
+  html{-webkit-text-size-adjust:100%;}
+  body{
+    margin:0;
+    background:
+      linear-gradient(var(--grid-line) 1px, transparent 1px) 0 0/ 28px 28px,
+      linear-gradient(90deg, var(--grid-line) 1px, transparent 1px) 0 0/ 28px 28px,
+      var(--bg);
+    color:var(--ink);
+    font-family:"Public Sans", ui-sans-serif, system-ui, sans-serif;
+    line-height:1.5;
+    -webkit-font-smoothing:antialiased;
+  }
+  a{color:var(--accent-ink);}
+  ::selection{ background: var(--accent-soft); }
+
+  .wrap{ max-width: 980px; margin: 0 auto; padding: 0 20px 96px; }
+
+  header.hero{
+    padding: 56px 0 36px;
+    border-bottom: 1px solid var(--border);
+    margin-bottom: 40px;
+  }
+  .eyebrow{
+    font-family:"JetBrains Mono", ui-monospace, monospace;
+    font-size:0.72rem;
+    letter-spacing:0.11em;
+    text-transform:uppercase;
+    color:var(--accent-ink);
+    display:flex;
+    align-items:center;
+    gap:10px;
+    margin-bottom:14px;
+  }
+  .eyebrow::before{
+    content:"";
+    width:7px; height:7px;
+    background:var(--accent);
+    border-radius:50%;
+    display:inline-block;
+    box-shadow: 0 0 0 3px var(--accent-soft);
+  }
+  h1{
+    font-family:"Petrona", Georgia, serif;
+    font-weight:700;
+    font-size: clamp(2rem, 4.4vw, 2.75rem);
+    line-height:1.08;
+    margin:0 0 14px;
+    text-wrap:balance;
+    letter-spacing:-0.01em;
+  }
+  .hero p.lede{
+    max-width:64ch;
+    color:var(--ink-muted);
+    font-size:1.03rem;
+    margin: 0 0 28px;
+  }
+
+  .cards{
+    display:grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap:16px;
+  }
+
+  .group-title{
+    grid-column: 1 / -1;
+    display:flex;
+    align-items:center;
+    gap:10px;
+    font-family:"JetBrains Mono", ui-monospace, monospace;
+    font-size:0.74rem;
+    letter-spacing:0.09em;
+    text-transform:uppercase;
+    color:var(--accent-ink);
+    margin: 26px 0 2px;
+    padding-bottom:8px;
+    border-bottom:1px solid var(--border);
+  }
+  .group-title:first-child{ margin-top:0; }
+  .group-title-n{
+    font-family:"JetBrains Mono", monospace;
+    font-size:0.7rem;
+    color:var(--ink-faint);
+    background:var(--surface-alt);
+    border:1px solid var(--border);
+    border-radius:999px;
+    padding:2px 9px;
+    letter-spacing:normal;
+    text-transform:none;
+  }
+
+  .card{
+    background:var(--surface);
+    border:1px solid var(--border);
+    border-radius:12px;
+    padding:18px 20px 18px;
+    box-shadow:var(--shadow);
+    display:flex;
+    flex-direction:column;
+    gap:12px;
+  }
+  .card-num{
+    font-family:"Petrona", Georgia, serif;
+    font-style:italic;
+    font-weight:600;
+    color:var(--ink-faint);
+    font-size:0.95rem;
+  }
+  .q-text{
+    font-size:0.96rem;
+    color:var(--ink);
+  }
+  .q-text .g{ font-family:"JetBrains Mono", monospace; font-size:0.92em; }
+
+  .answer-box{
+    display:flex;
+    align-items:center;
+    gap:12px;
+    border:1.5px solid var(--border);
+    border-radius:8px;
+    background:var(--surface-alt);
+    padding:6px 14px;
+  }
+  .answer-box .ab-label{
+    font-family:"JetBrains Mono", monospace;
+    font-size:0.68rem;
+    letter-spacing:0.08em;
+    text-transform:uppercase;
+    color:var(--ink-faint);
+    flex-shrink:0;
+  }
+  .grade-note{
+    font-family:"Public Sans", sans-serif;
+    font-size:0.85rem;
+    color:var(--ink-muted);
+    border-left:2px solid var(--border);
+    padding-left:12px;
+  }
+  .grade-note b{ color:var(--ink); }
+
+  .diagram{
+    background:var(--surface-alt);
+    border:1px solid var(--border);
+    border-radius:8px;
+    padding:10px;
+    margin-top:8px;
+    display:flex;
+    justify-content:flex-start;
+    overflow-x:auto;
+  }
+  .diagram svg{ max-width:100%; height:auto; display:block; }
+  .diagram table{
+    border-collapse:collapse;
+    font-family:"JetBrains Mono", monospace;
+    font-size:0.78rem;
+    font-variant-numeric: tabular-nums;
+  }
+  .diagram th, .diagram td{
+    border:1px solid var(--border);
+    padding:4px 9px;
+    text-align:center;
+  }
+  .diagram th{ color:var(--ink-faint); font-weight:500; background:var(--surface); }
+  .diagram .stemleaf{
+    font-family:"JetBrains Mono", monospace;
+    font-size:0.85rem;
+    border-collapse:collapse;
+  }
+  .diagram .stemleaf td{ border:none; padding:2px 10px; text-align:left; }
+  .diagram .stemleaf .stem{ text-align:right; color:var(--ink-faint); border-right:2px solid var(--ink-faint); padding-right:10px; }
+
+  footer{
+    margin-top:60px;
+    padding-top:22px;
+    border-top:1px solid var(--border);
+    color:var(--ink-faint);
+    font-size:0.8rem;
+  }
+</style>
+<div class="wrap">
+
+  <header class="hero">
+    <div class="eyebrow">ISEE Math Practice &middot; Answer Key</div>
+    <h1>Redo Set 11 <span style="font-size:0.5em; color:var(--ink-faint); font-weight:500;">&middot; for parent/coach use only</span></h1>
+    <p class="lede">Answer key for <code>redo-set-11.html</code> (15 problems).</p>
+  </header>
+
+  <div class="cards">
+      <div class="group-title"><span class="group-title-n">3</span> Sticky Gap: Predicting From a Ratio</div>
+      <div class="card">
+        <div class="card-num">Problem 1</div>
+        <div class="q-text">The table shows how 60 students voted for their favorite pizza topping. Based on this sample, about how many of a NEW group of 45 students would you expect to choose Pepperoni?<div class="diagram"><table><tr><th>Topping</th><th>Cheese</th><th>Pepperoni</th><th>Veggie</th><th>Sausage</th></tr><tr><td>Votes</td><td>15</td><td>24</td><td>9</td><td>12</td></tr></table></div></div>
+        <div class="answer-box"><span class="ab-label">Answer</span><span style="font-family:'JetBrains Mono',monospace;font-weight:700;color:var(--accent-ink);">D (18)</span></div>
+        <div class="grade-note"><b>Why:</b> Total votes = 15+24+9+12 = 60. Pepperoni got 24 of 60, which is 0.4 (40%). A NEW group is expected to follow roughly the same pattern, so 0.4 &times; 45 = 18. Choice A (12 = 24&minus;12) and choice B (15 = 24&minus;9) both come from subtracting two table values instead of building a rate &mdash; the same trap as before.</div>
+      </div>
+      <div class="card">
+        <div class="card-num">Problem 2</div>
+        <div class="q-text">A bag has 50 marbles, and 35 of them are blue. If a new bag has 20 marbles from the exact same mix, about how many would you expect to be blue?</div>
+        <div class="answer-box"><span class="ab-label">Answer</span><span style="font-family:'JetBrains Mono',monospace;font-weight:700;color:var(--accent-ink);">14</span></div>
+        <div class="grade-note"><b>Why:</b> 35 of 50 is 35/50 = 0.7 (70%). A new, smaller bag from the same mix should still be about 70% blue: 0.7 &times; 20 = 14. The key idea: a new sample is expected to roughly match the pattern of the original sample, just scaled to its own size.</div>
+      </div>
+      <div class="card">
+        <div class="card-num">Problem 3</div>
+        <div class="q-text">A survey of 90 shoppers found that 18 preferred online shopping over in-store. Based on this, about how many of the next 55 shoppers would be expected to prefer online shopping?</div>
+        <div class="answer-box"><span class="ab-label">Answer</span><span style="font-family:'JetBrains Mono',monospace;font-weight:700;color:var(--accent-ink);">11</span></div>
+        <div class="grade-note"><b>Why:</b> 18 of 90 is 18/90 = 0.2 (20%). Apply that same rate to the new group: 0.2 &times; 55 = 11. Before calculating, ask: "is this the same kind of situation as before?" &mdash; a sample rate, applied to a new group size.</div>
+      </div>
+      <div class="group-title"><span class="group-title-n">3</span> Sticky Gap: Two Volumes, Joined, Means Add Them</div>
+      <div class="card">
+        <div class="card-num">Problem 4</div>
+        <div class="q-text">A solid figure is made by attaching two rectangular boxes together with NO overlapping space. Box 1 measures 4 ft by 2 ft by 5 ft. Box 2 measures 4 ft by 3 ft by 2 ft. Since the boxes do not overlap, the total volume is the volume of Box 1 PLUS the volume of Box 2. What is the total volume, in cubic feet?</div>
+        <div class="answer-box"><span class="ab-label">Answer</span><span style="font-family:'JetBrains Mono',monospace;font-weight:700;color:var(--accent-ink);">64</span></div>
+        <div class="grade-note"><b>Why:</b> Box 1: 4&times;2&times;5 = 40 cubic ft. Box 2: 4&times;3&times;2 = 24 cubic ft. Because the boxes don&rsquo;t overlap, NO space is shared between them, so the total volume is simply 40+24 = 64 cubic ft. Whenever two solids are joined without overlapping, their volumes always add together.</div>
+      </div>
+      <div class="card">
+        <div class="card-num">Problem 5</div>
+        <div class="q-text">A solid is formed by joining two rectangular prisms with no overlap. The first prism is 6 cm by 3 cm by 4 cm. The second prism is 6 cm by 2 cm by 3 cm. What is the total volume of the solid, in cubic centimeters?</div>
+        <div class="answer-box"><span class="ab-label">Answer</span><span style="font-family:'JetBrains Mono',monospace;font-weight:700;color:var(--accent-ink);">108</span></div>
+        <div class="grade-note"><b>Why:</b> First prism: 6&times;3&times;4 = 72 cubic cm. Second prism: 6&times;2&times;3 = 36 cubic cm. No overlap means the volumes add: 72+36 = 108 cubic cm.</div>
+      </div>
+      <div class="card">
+        <div class="card-num">Problem 6</div>
+        <div class="q-text">A moving container is built from two connected rectangular sections with no overlapping space. The first section is 5 ft by 4 ft by 6 ft. The second section is 5 ft by 4 ft by 2 ft. What is the total volume of the moving container, in cubic feet?</div>
+        <div class="answer-box"><span class="ab-label">Answer</span><span style="font-family:'JetBrains Mono',monospace;font-weight:700;color:var(--accent-ink);">160</span></div>
+        <div class="grade-note"><b>Why:</b> First section: 5&times;4&times;6 = 120 cubic ft. Second section: 5&times;4&times;2 = 40 cubic ft. No overlap means add the two volumes: 120+40 = 160 cubic ft. The pattern is always the same: find each piece&rsquo;s volume separately, then add.</div>
+      </div>
+      <div class="group-title"><span class="group-title-n">3</span> Sticky Gap: Trust the Math, Even When It Is Not a Whole Number</div>
+      <div class="card">
+        <div class="card-num">Problem 7</div>
+        <div class="q-text">A square has a side length of 9 cm. A rectangle has the same AREA as the square, and a length of 20 cm. What is the width of the rectangle, in centimeters?</div>
+        <div class="answer-box"><span class="ab-label">Answer</span><span style="font-family:'JetBrains Mono',monospace;font-weight:700;color:var(--accent-ink);">4.05</span></div>
+        <div class="grade-note"><b>Why:</b> Area of the square = 9&times;9 = 81 sq cm. Width of the rectangle = 81 &divide; 20 = 4.05 cm. This does NOT divide evenly, and that is completely fine &mdash; it does not mean you made a mistake. Many real measurements come out as decimals. If your method is right, write down the exact answer, even when it is not a whole number.</div>
+      </div>
+      <div class="card">
+        <div class="card-num">Problem 8</div>
+        <div class="q-text">A square has a side length of 5 in. A rectangle has the same AREA as the square, and a length of 8 in. What is the width of the rectangle, in inches?</div>
+        <div class="answer-box"><span class="ab-label">Answer</span><span style="font-family:'JetBrains Mono',monospace;font-weight:700;color:var(--accent-ink);">3.125</span></div>
+        <div class="grade-note"><b>Why:</b> Area of the square = 5&times;5 = 25 sq in. Width = 25 &divide; 8 = 3.125 in (or 3 1/8 in). Same reminder as the last problem: a non-whole-number result is a normal, correct answer here &mdash; keep going instead of assuming you went wrong.</div>
+      </div>
+      <div class="card">
+        <div class="card-num">Problem 9</div>
+        <div class="q-text">Notebooks are sold in packs of 8 for $9.00. What is the price per notebook, in dollars?</div>
+        <div class="answer-box"><span class="ab-label">Answer</span><span style="font-family:'JetBrains Mono',monospace;font-weight:700;color:var(--accent-ink);">1.125</span></div>
+        <div class="grade-note"><b>Why:</b> 9.00 &divide; 8 = 1.125, or $1.125 per notebook (this is why store prices often end in a fraction of a cent before rounding). Trust the division even though it does not come out to a round number.</div>
+      </div>
+      <div class="group-title"><span class="group-title-n">6</span> Multi-Habit Problems</div>
+      <div class="card">
+        <div class="card-num">Problem 10</div>
+        <div class="q-text">Which number is EVEN and is NOT divisible by 5?</div>
+        <div class="answer-box"><span class="ab-label">Answer</span><span style="font-family:'JetBrains Mono',monospace;font-weight:700;color:var(--accent-ink);">B (14)</span></div>
+        <div class="grade-note"><b>Why:</b> Check BOTH conditions for every choice, and watch the word NOT. 20 is even, but 20&divide;5=4 exactly, so it IS divisible by 5 (fails the NOT). 30 is even but also divisible by 5 (fails). 15 is divisible by 5 but it is odd (fails the even condition). Only 14 is even AND not divisible by 5 (14&divide;5=2 remainder 4). This combines Habit 1 (check every condition) with Habit 3 (watch the word NOT).</div>
+      </div>
+      <div class="card">
+        <div class="card-num">Problem 11</div>
+        <div class="q-text">The table shows the number of steps 5 friends walked in a day. What is the DIFFERENCE between the highest and lowest number of steps?<div class="diagram"><table><tr><th>Amir</th><th>Bella</th><th>Chen</th><th>Dana</th><th>Elle</th></tr><tr><td>8,200</td><td>6,500</td><td>9,100</td><td>7,300</td><td>5,900</td></tr></table></div></div>
+        <div class="answer-box"><span class="ab-label">Answer</span><span style="font-family:'JetBrains Mono',monospace;font-weight:700;color:var(--accent-ink);">3200</span></div>
+        <div class="grade-note"><b>Why:</b> Use ALL 5 values to find the highest (Chen, 9,100) and the lowest (Elle, 5,900). The question asks for the DIFFERENCE, which is the final answer, not just naming the two friends: 9,100&minus;5,900 = 3,200. This combines Habit 2 (use every value to find the true max and min) with Habit 4 (the difference is the exact thing asked for, not the two numbers themselves).</div>
+      </div>
+      <div class="card">
+        <div class="card-num">Problem 12</div>
+        <div class="q-text">A square has an area of 64 square feet. A rectangle has a length of 20 feet and a width of 4 feet. Which statement is true?</div>
+        <div class="answer-box"><span class="ab-label">Answer</span><span style="font-family:'JetBrains Mono',monospace;font-weight:700;color:var(--accent-ink);">A (The rectangle has the greater perimeter.)</span></div>
+        <div class="grade-note"><b>Why:</b> Square: area 64 means side = 8 ft (since 8&times;8=64), so perimeter = 4&times;8 = 32 ft. Rectangle: area = 20&times;4 = 80 sq ft, perimeter = 2(20+4) = 48 ft. This combines Habit 3 (the question gives area but asks about perimeter &mdash; you have to convert first) with Habit 5 (compute both perimeters instead of assuming): 48 &gt; 32, so the rectangle has the greater perimeter.</div>
+      </div>
+      <div class="card">
+        <div class="card-num">Problem 13</div>
+        <div class="q-text">One number is even and greater than 10. Another number is odd and greater than 10. What must always be true about their SUM?</div>
+        <div class="answer-box"><span class="ab-label">Answer</span><span style="font-family:'JetBrains Mono',monospace;font-weight:700;color:var(--accent-ink);">C (always odd)</span></div>
+        <div class="grade-note"><b>Why:</b> The "greater than 10" parts are extra conditions that don&rsquo;t actually matter for this question &mdash; only even + odd matters, which always gives an odd sum (test it: 12+11=23, 18+15=33). This combines Habit 1 (figuring out which conditions actually matter) with Habit 5 (testing real examples instead of assuming): choice B fails on 18+15=33 (not prime), and D fails on 12+11=23 (not a multiple of 3).</div>
+      </div>
+      <div class="card">
+        <div class="card-num">Problem 14</div>
+        <div class="q-text">The table shows the number of fish caught by 4 friends. What is the total number of fish caught by the two friends who caught the FEWEST fish?<div class="diagram"><table><tr><th>Sam</th><th>Tia</th><th>Uma</th><th>Vik</th></tr><tr><td>12</td><td>7</td><td>15</td><td>9</td></tr></table></div></div>
+        <div class="answer-box"><span class="ab-label">Answer</span><span style="font-family:'JetBrains Mono',monospace;font-weight:700;color:var(--accent-ink);">16</span></div>
+        <div class="grade-note"><b>Why:</b> Use all 4 values to rank them: Sam 12, Tia 7, Uma 15, Vik 9. The two friends who caught the FEWEST fish are Tia (7) and Vik (9) &mdash; not just the single fewest. The question asks for their combined total: 7+9=16. This combines Habit 2 (use every value to rank correctly), Habit 3 (watch "fewest," and notice it asks for TWO friends, not one), and Habit 4 (the final answer is their sum, not their names).</div>
+      </div>
+      <div class="card">
+        <div class="card-num">Problem 15</div>
+        <div class="q-text">A rectangle has a perimeter of 26 inches and a width of 5 inches. What is the AREA of the rectangle, in square inches?</div>
+        <div class="answer-box"><span class="ab-label">Answer</span><span style="font-family:'JetBrains Mono',monospace;font-weight:700;color:var(--accent-ink);">40</span></div>
+        <div class="grade-note"><b>Why:</b> Perimeter is given, but AREA is asked &mdash; a key-word switch (Habit 3). First find the length: 2(length+5)=26, so length=8. Then find area (Habit 4, the actual thing asked): 8&times;5=40 sq in. Stopping at length=8 (an intermediate step) is the trap this problem is built to catch.</div>
+      </div>
+  </div>
+
+  <footer>Built for Hannah &middot; ISEE Math Practice</footer>
+</div>

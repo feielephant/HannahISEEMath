@@ -34,6 +34,8 @@ worksheets/       Generated HTML study tools
   redo-set-9-answer-key.html                Answer key for redo-set-9.html &mdash; for parent/coach use only
   redo-set-10.html                          30 new problems training the 5 attention habits, ahead of the Friday test
   redo-set-10-answer-key.html                Answer key for redo-set-10.html &mdash; for parent/coach use only
+  redo-set-11.html                          15 new problems: 3 sticky-gap groups from real redo-set-10 misses, plus 6 multi-habit combos
+  redo-set-11-answer-key.html                Answer key for redo-set-11.html &mdash; for parent/coach use only
 ```
 
 ### `worksheets/full-workbook.html`
@@ -121,6 +123,14 @@ The 9 problems she missed on the 0920 practice test, presented exactly as they w
 ### `worksheets/redo-set-10-answer-key.html`
 
 The answer key for `redo-set-10.html`: correct answer and a "Why" for each of the 30 problems, explicitly naming the trap each wrong choice represents.
+
+### `worksheets/redo-set-11.html`
+
+15 brand-new problems, not reused from any earlier worksheet, built directly from a real redo-set-10 attempt rather than a fresh diagnostic pass. Three real misses drove 9 of the problems, grouped as sticky-gap sections: predicting a count from a ratio (missed with fresh numbers on the Wildcat-mascot table problem, confirming this gap is still real), composite volume being the sum of two joined solids (missed even in a picture-free, text-only version, ruling out diagram-reading as the cause), and a newly identified issue &mdash; trusting the math even when the answer isn't a whole number (she used the correct method on a square-vs-rectangle area problem but abandoned it on seeing 49&divide;14 wasn't an integer, assuming she'd made an error). All three "trust the math" problems deliberately have decimal answers. The last 6 problems each combine two (one combines three) of the 5 attention habits in a single question, closer to how a real test problem can layer several small checks at once. No self-check; answers are in `redo-set-11-answer-key.html`.
+
+### `worksheets/redo-set-11-answer-key.html`
+
+The answer key for `redo-set-11.html`: correct answer and a "Why" for each of the 15 problems, grouped the same way as the worksheet.
 
 ## Working on this repo with Claude Code
 
