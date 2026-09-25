@@ -1,0 +1,432 @@
+<title>Redo Set 10 &mdash; Answer Key</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Petrona:ital,wght@0,500;0,600;0,700;1,500&family=Public+Sans:ital,wght@0,400;0,500;0,600;1,400&family=JetBrains+Mono:wght@400;500;600&display=swap">
+<style>
+  :root{
+    --bg:#EEF2F0;
+    --grid-line: rgba(30,42,40,0.055);
+    --surface:#FFFFFF;
+    --surface-alt:#E7EDEA;
+    --ink:#1E2A28;
+    --ink-muted:#57655F;
+    --ink-faint:#8B968F;
+    --border:#D6DFDA;
+    --accent:#1C7A69;
+    --accent-ink:#0F5648;
+    --accent-soft:#E1F2EC;
+    --wrong:#B9402E;
+    --wrong-soft:#FBEAE6;
+    --amber:#9A6B12;
+    --shadow: 0 1px 2px rgba(20,30,28,0.04), 0 8px 24px -12px rgba(20,30,28,0.12);
+  }
+  @media (prefers-color-scheme: dark){
+    :root:not([data-theme="light"]){
+      --bg:#12181A;
+      --grid-line: rgba(210,225,220,0.045);
+      --surface:#1B2224;
+      --surface-alt:#212A2C;
+      --ink:#E8EFEC;
+      --ink-muted:#9FB0AA;
+      --ink-faint:#6C7C77;
+      --border:#2C3739;
+      --accent:#4FC4AC;
+      --accent-ink:#8FE0CC;
+      --accent-soft:rgba(79,196,172,0.14);
+      --wrong:#E77563;
+      --wrong-soft:rgba(231,117,99,0.14);
+      --amber:#E0AC4E;
+      --shadow: 0 1px 2px rgba(0,0,0,0.3), 0 8px 24px -12px rgba(0,0,0,0.5);
+    }
+  }
+  :root[data-theme="dark"]{
+    --bg:#12181A;
+    --grid-line: rgba(210,225,220,0.045);
+    --surface:#1B2224;
+    --surface-alt:#212A2C;
+    --ink:#E8EFEC;
+    --ink-muted:#9FB0AA;
+    --ink-faint:#6C7C77;
+    --border:#2C3739;
+    --accent:#4FC4AC;
+    --accent-ink:#8FE0CC;
+    --accent-soft:rgba(79,196,172,0.14);
+    --wrong:#E77563;
+    --wrong-soft:rgba(231,117,99,0.14);
+    --amber:#E0AC4E;
+    --shadow: 0 1px 2px rgba(0,0,0,0.3), 0 8px 24px -12px rgba(0,0,0,0.5);
+  }
+
+  *{box-sizing:border-box;}
+  html{-webkit-text-size-adjust:100%;}
+  body{
+    margin:0;
+    background:
+      linear-gradient(var(--grid-line) 1px, transparent 1px) 0 0/ 28px 28px,
+      linear-gradient(90deg, var(--grid-line) 1px, transparent 1px) 0 0/ 28px 28px,
+      var(--bg);
+    color:var(--ink);
+    font-family:"Public Sans", ui-sans-serif, system-ui, sans-serif;
+    line-height:1.5;
+    -webkit-font-smoothing:antialiased;
+  }
+  a{color:var(--accent-ink);}
+  ::selection{ background: var(--accent-soft); }
+
+  .wrap{ max-width: 980px; margin: 0 auto; padding: 0 20px 96px; }
+
+  header.hero{
+    padding: 56px 0 36px;
+    border-bottom: 1px solid var(--border);
+    margin-bottom: 40px;
+  }
+  .eyebrow{
+    font-family:"JetBrains Mono", ui-monospace, monospace;
+    font-size:0.72rem;
+    letter-spacing:0.11em;
+    text-transform:uppercase;
+    color:var(--accent-ink);
+    display:flex;
+    align-items:center;
+    gap:10px;
+    margin-bottom:14px;
+  }
+  .eyebrow::before{
+    content:"";
+    width:7px; height:7px;
+    background:var(--accent);
+    border-radius:50%;
+    display:inline-block;
+    box-shadow: 0 0 0 3px var(--accent-soft);
+  }
+  h1{
+    font-family:"Petrona", Georgia, serif;
+    font-weight:700;
+    font-size: clamp(2rem, 4.4vw, 2.75rem);
+    line-height:1.08;
+    margin:0 0 14px;
+    text-wrap:balance;
+    letter-spacing:-0.01em;
+  }
+  .hero p.lede{
+    max-width:64ch;
+    color:var(--ink-muted);
+    font-size:1.03rem;
+    margin: 0 0 28px;
+  }
+
+  .cards{
+    display:grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap:16px;
+  }
+
+  .group-title{
+    grid-column: 1 / -1;
+    display:flex;
+    align-items:center;
+    gap:10px;
+    font-family:"JetBrains Mono", ui-monospace, monospace;
+    font-size:0.74rem;
+    letter-spacing:0.09em;
+    text-transform:uppercase;
+    color:var(--accent-ink);
+    margin: 26px 0 2px;
+    padding-bottom:8px;
+    border-bottom:1px solid var(--border);
+  }
+  .group-title:first-child{ margin-top:0; }
+  .group-title-n{
+    font-family:"JetBrains Mono", monospace;
+    font-size:0.7rem;
+    color:var(--ink-faint);
+    background:var(--surface-alt);
+    border:1px solid var(--border);
+    border-radius:999px;
+    padding:2px 9px;
+    letter-spacing:normal;
+    text-transform:none;
+  }
+
+  .card{
+    background:var(--surface);
+    border:1px solid var(--border);
+    border-radius:12px;
+    padding:18px 20px 18px;
+    box-shadow:var(--shadow);
+    display:flex;
+    flex-direction:column;
+    gap:12px;
+  }
+  .card-num{
+    font-family:"Petrona", Georgia, serif;
+    font-style:italic;
+    font-weight:600;
+    color:var(--ink-faint);
+    font-size:0.95rem;
+  }
+  .q-text{
+    font-size:0.96rem;
+    color:var(--ink);
+  }
+  .q-text .g{ font-family:"JetBrains Mono", monospace; font-size:0.92em; }
+
+  .answer-box{
+    display:flex;
+    align-items:center;
+    gap:12px;
+    border:1.5px solid var(--border);
+    border-radius:8px;
+    background:var(--surface-alt);
+    padding:6px 14px;
+  }
+  .answer-box .ab-label{
+    font-family:"JetBrains Mono", monospace;
+    font-size:0.68rem;
+    letter-spacing:0.08em;
+    text-transform:uppercase;
+    color:var(--ink-faint);
+    flex-shrink:0;
+  }
+  .grade-note{
+    font-family:"Public Sans", sans-serif;
+    font-size:0.85rem;
+    color:var(--ink-muted);
+    border-left:2px solid var(--border);
+    padding-left:12px;
+  }
+  .grade-note b{ color:var(--ink); }
+
+  .diagram{
+    background:var(--surface-alt);
+    border:1px solid var(--border);
+    border-radius:8px;
+    padding:10px;
+    display:flex;
+    justify-content:center;
+  }
+  .diagram svg{ max-width:100%; height:auto; display:block; }
+  .diagram table{
+    border-collapse:collapse;
+    font-family:"JetBrains Mono", monospace;
+    font-size:0.78rem;
+    font-variant-numeric: tabular-nums;
+  }
+  .diagram th, .diagram td{
+    border:1px solid var(--border);
+    padding:4px 9px;
+    text-align:center;
+  }
+  .diagram th{ color:var(--ink-faint); font-weight:500; background:var(--surface); }
+  .diagram .stemleaf{
+    font-family:"JetBrains Mono", monospace;
+    font-size:0.85rem;
+    border-collapse:collapse;
+  }
+  .diagram .stemleaf td{ border:none; padding:2px 10px; text-align:left; }
+  .diagram .stemleaf .stem{ text-align:right; color:var(--ink-faint); border-right:2px solid var(--ink-faint); padding-right:10px; }
+
+  footer{
+    margin-top:60px;
+    padding-top:22px;
+    border-top:1px solid var(--border);
+    color:var(--ink-faint);
+    font-size:0.8rem;
+  }
+</style>
+<div class="wrap">
+
+  <header class="hero">
+    <div class="eyebrow">ISEE Math Practice &middot; Answer Key</div>
+    <h1>Redo Set 10 <span style="font-size:0.5em; color:var(--ink-faint); font-weight:500;">&middot; for parent/coach use only</span></h1>
+    <p class="lede">Answer key for <code>redo-set-10.html</code> (30 problems). Not linked from the worksheet itself &mdash; keep this link separate.</p>
+  </header>
+
+  <div class="cards">
+      <div class="group-title"><span class="group-title-n">6</span> Habit 1: Check Every Condition</div>
+      <div class="card">
+        <div class="card-num">Problem 1</div>
+        <div class="q-text">Which number is divisible by both 4 and 3?</div>
+        <div class="answer-box"><span class="ab-label">Answer</span><span style="font-family:'JetBrains Mono',monospace;font-weight:700;color:var(--accent-ink);">C (132)</span></div>
+        <div class="grade-note"><b>Why:</b> Check BOTH rules for every choice: 124 is divisible by 4 (124&divide;4=31) but its digits sum to 7, not divisible by 3. 126&rsquo;s digits sum to 9 (divisible by 3) but 126&divide;4=31.5, not divisible by 4. 132 passes both: 132&divide;4=33, and 1+3+2=6. 125 fails both.</div>
+      </div>
+      <div class="card">
+        <div class="card-num">Problem 2</div>
+        <div class="q-text">Serena is thinking of a number. It is greater than 60 and less than 70. It is odd, and it is divisible by 5. What number is Serena thinking of?</div>
+        <div class="answer-box"><span class="ab-label">Answer</span><span style="font-family:'JetBrains Mono',monospace;font-weight:700;color:var(--accent-ink);">B (65)</span></div>
+        <div class="grade-note"><b>Why:</b> Check all three conditions against every choice: 60 is divisible by 5 but even, and not greater than 60 (it IS 60). 68 is in range but even. 75 is odd and divisible by 5 but outside the 60&ndash;70 range. Only 65 passes all three: in range, odd, divisible by 5.</div>
+      </div>
+      <div class="card">
+        <div class="card-num">Problem 3</div>
+        <div class="q-text">Which number between 20 and 30 leaves a remainder of 1 when divided by BOTH 4 and 6?</div>
+        <div class="answer-box"><span class="ab-label">Answer</span><span style="font-family:'JetBrains Mono',monospace;font-weight:700;color:var(--accent-ink);">B (25)</span></div>
+        <div class="grade-note"><b>Why:</b> Check both divisions for each choice. 25&divide;4 = 6 remainder 1, and 25&divide;6 = 4 remainder 1 &mdash; passes both. 21&divide;6 leaves remainder 3 (fails). 26&divide;4 leaves remainder 2 (fails). 28&divide;4 leaves remainder 0 (fails).</div>
+      </div>
+      <div class="card">
+        <div class="card-num">Problem 4</div>
+        <div class="q-text">Maria has more than 30 but fewer than 40 marbles. The number of marbles is a multiple of 6. How many marbles does Maria have?</div>
+        <div class="answer-box"><span class="ab-label">Answer</span><span style="font-family:'JetBrains Mono',monospace;font-weight:700;color:var(--accent-ink);">C (36)</span></div>
+        <div class="grade-note"><b>Why:</b> 30 is a multiple of 6, but the marbles must be MORE than 30, so 30 itself doesn&rsquo;t count. 42 is a multiple of 6 but is over 40. 33 isn&rsquo;t a multiple of 6 at all. Only 36 passes both conditions: it&rsquo;s between 30 and 40, and it&rsquo;s a multiple of 6.</div>
+      </div>
+      <div class="card">
+        <div class="card-num">Problem 5</div>
+        <div class="q-text">Which quadrilateral always has all four sides equal AND at least one right angle?</div>
+        <div class="answer-box"><span class="ab-label">Answer</span><span style="font-family:'JetBrains Mono',monospace;font-weight:700;color:var(--accent-ink);">B (square)</span></div>
+        <div class="grade-note"><b>Why:</b> A rhombus has 4 equal sides but not necessarily any right angles. A rectangle and parallelogram don&rsquo;t necessarily have 4 equal sides. Only a square is guaranteed to have both: 4 equal sides AND 4 right angles.</div>
+      </div>
+      <div class="card">
+        <div class="card-num">Problem 6</div>
+        <div class="q-text">Which number is a factor of both 24 and 36?</div>
+        <div class="answer-box"><span class="ab-label">Answer</span><span style="font-family:'JetBrains Mono',monospace;font-weight:700;color:var(--accent-ink);">C (12)</span></div>
+        <div class="grade-note"><b>Why:</b> Check each choice against BOTH numbers. 8 divides 24 evenly but 36&divide;8=4.5 (fails). 9 divides 36 evenly but 24&divide;9 is not whole (fails). 16 divides neither evenly. 12 divides both: 24&divide;12=2 and 36&divide;12=3.</div>
+      </div>
+      <div class="group-title"><span class="group-title-n">6</span> Habit 2: Use Every Piece of Data</div>
+      <div class="card">
+        <div class="card-num">Problem 7</div>
+        <div class="q-text">Five friends measured their heights in inches: 52, 55, 58, 60, and 65. What is the mean height, in inches?</div>
+        <div class="answer-box"><span class="ab-label">Answer</span><span style="font-family:'JetBrains Mono',monospace;font-weight:700;color:var(--accent-ink);">58</span></div>
+        <div class="grade-note"><b>Why:</b> Add ALL five heights: 52+55+58+60+65 = 290. Then 290 &divide; 5 = 58. Count the numbers given (5) and make sure all 5 went into the sum.</div>
+      </div>
+      <div class="card">
+        <div class="card-num">Problem 8</div>
+        <div class="q-text">A gift basket has 8 apples, 5 oranges, 3 pears, 6 bananas, 4 kiwis, and 2 mangoes. If the fruit is divided evenly into 4 baskets, how many pieces of fruit go in each basket?</div>
+        <div class="answer-box"><span class="ab-label">Answer</span><span style="font-family:'JetBrains Mono',monospace;font-weight:700;color:var(--accent-ink);">7</span></div>
+        <div class="grade-note"><b>Why:</b> Add all SIX fruit counts first: 8+5+3+6+4+2 = 28. Then 28 &divide; 4 = 7. It&rsquo;s easy to add only some of the six numbers by accident &mdash; recount how many kinds of fruit are listed (6) before dividing.</div>
+      </div>
+      <div class="card">
+        <div class="card-num">Problem 9</div>
+        <div class="q-text">The table shows the number of books read by two book clubs last month, by genre. Which genre had the most books read IN TOTAL (both clubs combined)?<br><br><table><tr><th>Genre</th><th>Club A</th><th>Club B</th></tr><tr><td>Mystery</td><td>6</td><td>9</td></tr><tr><td>Fantasy</td><td>11</td><td>2</td></tr><tr><td>History</td><td>4</td><td>5</td></tr><tr><td>Sci-Fi</td><td>7</td><td>6</td></tr></table></div>
+        <div class="answer-box"><span class="ab-label">Answer</span><span style="font-family:'JetBrains Mono',monospace;font-weight:700;color:var(--accent-ink);">A (Mystery)</span></div>
+        <div class="grade-note"><b>Why:</b> Add BOTH clubs for every genre, not just one: Mystery = 6+9 = 15, Fantasy = 11+2 = 13, History = 4+5 = 9, Sci-Fi = 7+6 = 13. Mystery has the most combined. Fantasy has the single tallest column (11) for one club, which is the trap if you only check one club&rsquo;s numbers.</div>
+      </div>
+      <div class="card">
+        <div class="card-num">Problem 10</div>
+        <div class="q-text">A set of numbers shows the number of emails 7 coworkers received today: 22, 9, 31, 15, 4, 27, and 18. What is the median number of emails?</div>
+        <div class="answer-box"><span class="ab-label">Answer</span><span style="font-family:'JetBrains Mono',monospace;font-weight:700;color:var(--accent-ink);">18</span></div>
+        <div class="grade-note"><b>Why:</b> Sort ALL seven values first: 4, 9, 15, 18, 22, 27, 31. With 7 values, the median is the 4th one once sorted: 18. Leaving out any of the 7 values while sorting throws off which one is the middle.</div>
+      </div>
+      <div class="card">
+        <div class="card-num">Problem 11</div>
+        <div class="q-text">The table shows the number of visitors to a museum on 5 days. Which day had attendance closest to the MEAN (average) across all 5 days?<br><br><table><tr><th>Day</th><th>Mon</th><th>Tue</th><th>Wed</th><th>Thu</th><th>Fri</th></tr><tr><td>Visitors</td><td>140</td><td>95</td><td>210</td><td>160</td><td>125</td></tr></table></div>
+        <div class="answer-box"><span class="ab-label">Answer</span><span style="font-family:'JetBrains Mono',monospace;font-weight:700;color:var(--accent-ink);">B (Monday)</span></div>
+        <div class="grade-note"><b>Why:</b> Find the mean using ALL 5 days: (140+95+210+160+125) &divide; 5 = 730 &divide; 5 = 146. Now compare every day to 146: Tue is 51 away, Mon is 6 away, Wed is 64 away, Thu is 14 away. Monday is closest. Skipping any day when adding would give the wrong mean to compare against.</div>
+      </div>
+      <div class="card">
+        <div class="card-num">Problem 12</div>
+        <div class="q-text">A recipe lists these amounts in cups: 2, 1, 3, 0.5, 1.5, 2, and 1. What is the total number of cups in the recipe?</div>
+        <div class="answer-box"><span class="ab-label">Answer</span><span style="font-family:'JetBrains Mono',monospace;font-weight:700;color:var(--accent-ink);">11</span></div>
+        <div class="grade-note"><b>Why:</b> Add all SEVEN amounts: 2+1+3+0.5+1.5+2+1 = 11. Count the list before adding (7 amounts) and check the same count of numbers went into the sum.</div>
+      </div>
+      <div class="group-title"><span class="group-title-n">6</span> Habit 3: Watch the Key Word</div>
+      <div class="card">
+        <div class="card-num">Problem 13</div>
+        <div class="q-text">Which list shows 3/8, 1/2, 5/6, and 1/4 in order from GREATEST to least?</div>
+        <div class="answer-box"><span class="ab-label">Answer</span><span style="font-family:'JetBrains Mono',monospace;font-weight:700;color:var(--accent-ink);">A (5/6, 1/2, 3/8, 1/4)</span></div>
+        <div class="grade-note"><b>Why:</b> As decimals: 5/6&asymp;0.83, 1/2=0.5, 3/8=0.375, 1/4=0.25. GREATEST to least means starting with the biggest: 5/6, 1/2, 3/8, 1/4. Choice B is the exact reverse (least to greatest) &mdash; the classic trap for this wording.</div>
+      </div>
+      <div class="card">
+        <div class="card-num">Problem 14</div>
+        <div class="q-text">Eight campers split the cost of a canoe rental equally. The number of campers is &#9633;. The total rental cost is &#9675;. Which expression gives the cost per camper?</div>
+        <div class="answer-box"><span class="ab-label">Answer</span><span style="font-family:'JetBrains Mono',monospace;font-weight:700;color:var(--accent-ink);">D (&#9675; &divide; &#9633;)</span></div>
+        <div class="grade-note"><b>Why:</b> &ldquo;Split equally&rdquo; among a group means divide the total by the number of people: cost per camper = total &divide; number of campers = &#9675; &divide; &#9633;.</div>
+      </div>
+      <div class="card">
+        <div class="card-num">Problem 15</div>
+        <div class="q-text">A square has a side length of 7 cm. A rectangle has the same AREA as the square, and a length of 14 cm. What is the width of the rectangle, in centimeters?</div>
+        <div class="answer-box"><span class="ab-label">Answer</span><span style="font-family:'JetBrains Mono',monospace;font-weight:700;color:var(--accent-ink);">3.5</span></div>
+        <div class="grade-note"><b>Why:</b> The square&rsquo;s AREA is 7&times;7=49 sq cm. The rectangle has the same area, so its width is 49&divide;14 = 3.5 cm. Notice this problem says area, not perimeter.</div>
+      </div>
+      <div class="card">
+        <div class="card-num">Problem 16</div>
+        <div class="q-text">A square has a side length of 7 cm. A rectangle has the same PERIMETER as the square, and a length of 12 cm. What is the width of the rectangle, in centimeters?</div>
+        <div class="answer-box"><span class="ab-label">Answer</span><span style="font-family:'JetBrains Mono',monospace;font-weight:700;color:var(--accent-ink);">2</span></div>
+        <div class="grade-note"><b>Why:</b> The square&rsquo;s PERIMETER is 4&times;7=28 cm. The rectangle has the same perimeter (not the same area &mdash; this is the same square as the last problem, but a different word!): 2(12+width)=28, so 12+width=14, and width=2 cm.</div>
+      </div>
+      <div class="card">
+        <div class="card-num">Problem 17</div>
+        <div class="q-text">Which number is NOT divisible by 6?</div>
+        <div class="answer-box"><span class="ab-label">Answer</span><span style="font-family:'JetBrains Mono',monospace;font-weight:700;color:var(--accent-ink);">D (28)</span></div>
+        <div class="grade-note"><b>Why:</b> Watch the word NOT. 18, 24, and 30 are all divisible by 6 (18&divide;6=3, 24&divide;6=4, 30&divide;6=5). 28&divide;6 = 4 remainder 4, so 28 is the one that is NOT divisible by 6.</div>
+      </div>
+      <div class="card">
+        <div class="card-num">Problem 18</div>
+        <div class="q-text">A theater requires groups to have AT LEAST 15 people to get a discount. Which group size would NOT qualify for the discount?</div>
+        <div class="answer-box"><span class="ab-label">Answer</span><span style="font-family:'JetBrains Mono',monospace;font-weight:700;color:var(--accent-ink);">C (12)</span></div>
+        <div class="grade-note"><b>Why:</b> &ldquo;At least 15&rdquo; means 15 or more qualifies. 15, 20, and 30 all meet or beat that. 12 is fewer than 15, so it does NOT qualify.</div>
+      </div>
+      <div class="group-title"><span class="group-title-n">6</span> Habit 4: Answer the Exact Thing Asked</div>
+      <div class="card">
+        <div class="card-num">Problem 19</div>
+        <div class="q-text">In the number 84,657, what digit is in the HUNDREDS place?</div>
+        <div class="answer-box"><span class="ab-label">Answer</span><span style="font-family:'JetBrains Mono',monospace;font-weight:700;color:var(--accent-ink);">C (6)</span></div>
+        <div class="grade-note"><b>Why:</b> Break down the places: 8 = ten-thousands, 4 = thousands, 6 = hundreds, 5 = tens, 7 = ones. The question asks specifically for the hundreds digit: 6. (8 is the ten-thousands digit &mdash; a common mix-up when the question asks for a specific place.)</div>
+      </div>
+      <div class="card">
+        <div class="card-num">Problem 20</div>
+        <div class="q-text">The perimeter of the largest polygon is 30 centimeters. The perimeter of the square is 20 centimeters. What is the perimeter of the triangle?</div>
+        <div class="answer-box"><span class="ab-label">Answer</span><span style="font-family:'JetBrains Mono',monospace;font-weight:700;color:var(--accent-ink);">C (20)</span></div>
+        <div class="grade-note"><b>Why:</b> Square&rsquo;s side = 20&divide;4 = 5 cm. Triangle&rsquo;s perimeter = 30 &minus; 20 + 2&times;5 = 20 cm. Choice A (10 = 30&minus;20) is the trap for stopping after the first subtraction instead of finishing the calculation &mdash; that&rsquo;s an intermediate number, not the final answer.</div>
+      </div>
+      <div class="card">
+        <div class="card-num">Problem 21</div>
+        <div class="q-text">A bag has 20 marbles: 8 red, 5 blue, and 7 green. What is the probability of NOT drawing a red marble?</div>
+        <div class="answer-box"><span class="ab-label">Answer</span><span style="font-family:'JetBrains Mono',monospace;font-weight:700;color:var(--accent-ink);">B (3/5)</span></div>
+        <div class="grade-note"><b>Why:</b> &ldquo;NOT red&rdquo; means blue or green: 5+7=12 out of 20, which is 3/5. Choice A (2/5 = 8/20) is the probability of drawing red &mdash; the opposite of what was asked.</div>
+      </div>
+      <div class="card">
+        <div class="card-num">Problem 22</div>
+        <div class="q-text">What is the value of x in 3x + 5 = 26?</div>
+        <div class="answer-box"><span class="ab-label">Answer</span><span style="font-family:'JetBrains Mono',monospace;font-weight:700;color:var(--accent-ink);">B (7)</span></div>
+        <div class="grade-note"><b>Why:</b> 3x + 5 = 26, so 3x = 21, so x = 7. Choice A (21) is the value of 3x, an intermediate step &mdash; not the final value of x that the question asked for.</div>
+      </div>
+      <div class="card">
+        <div class="card-num">Problem 23</div>
+        <div class="q-text">Tom buys a shirt for $18 and a hat for $12. He pays with a $50 bill. How much change does he get?</div>
+        <div class="answer-box"><span class="ab-label">Answer</span><span style="font-family:'JetBrains Mono',monospace;font-weight:700;color:var(--accent-ink);">B ($20)</span></div>
+        <div class="grade-note"><b>Why:</b> Total cost = 18+12 = $30. Change = 50 &minus; 30 = $20. Choice A ($30) is the total cost, an intermediate number &mdash; the question asked for the change, not the cost.</div>
+      </div>
+      <div class="card">
+        <div class="card-num">Problem 24</div>
+        <div class="q-text">A set of test scores: 70, 85, 90, 75, and 95. What is the MEDIAN score?</div>
+        <div class="answer-box"><span class="ab-label">Answer</span><span style="font-family:'JetBrains Mono',monospace;font-weight:700;color:var(--accent-ink);">B (85)</span></div>
+        <div class="grade-note"><b>Why:</b> Sort first: 70, 75, 85, 90, 95. The median (middle value) is 85. Choice A (83) is the MEAN (415&divide;5=83) &mdash; a different measure than what was asked for.</div>
+      </div>
+      <div class="group-title"><span class="group-title-n">6</span> Habit 5: Compute Both Sides, Do Not Assume</div>
+      <div class="card">
+        <div class="card-num">Problem 25</div>
+        <div class="q-text">Room A is a rectangle with a length of 10 ft and a width of 4 ft. Room B is a square with a side of 7 ft. Which statement is true?</div>
+        <div class="answer-box"><span class="ab-label">Answer</span><span style="font-family:'JetBrains Mono',monospace;font-weight:700;color:var(--accent-ink);">C (The two rooms have equal perimeters.)</span></div>
+        <div class="grade-note"><b>Why:</b> Room A: area = 10&times;4=40, perimeter = 2(10+4)=28. Room B: area = 7&times;7=49, perimeter = 4&times;7=28. The perimeters come out exactly equal (28=28), even though the areas are different (40 vs 49). You have to compute both to see this &mdash; you can&rsquo;t assume from the shapes alone.</div>
+      </div>
+      <div class="card">
+        <div class="card-num">Problem 26</div>
+        <div class="q-text">Two numbers are greater than 1. One is even and the other is odd. What must always be true about their SUM?</div>
+        <div class="answer-box"><span class="ab-label">Answer</span><span style="font-family:'JetBrains Mono',monospace;font-weight:700;color:var(--accent-ink);">B (always odd)</span></div>
+        <div class="grade-note"><b>Why:</b> Even + odd always gives an odd result (test it: 4+3=7, 10+5=15). It&rsquo;s tempting to assume the sum could be either, but it&rsquo;s worth actually testing an example rather than guessing.</div>
+      </div>
+      <div class="card">
+        <div class="card-num">Problem 27</div>
+        <div class="q-text">Which statement is true?</div>
+        <div class="answer-box"><span class="ab-label">Answer</span><span style="font-family:'JetBrains Mono',monospace;font-weight:700;color:var(--accent-ink);">B (A trapezoid is always a quadrilateral.)</span></div>
+        <div class="grade-note"><b>Why:</b> A trapezoid is defined as a 4-sided shape, so every trapezoid is a quadrilateral &mdash; that direction always holds. The other three reverse the relationship or mix up two different shape types; they sound plausible but fail when you actually check a specific example.</div>
+      </div>
+      <div class="card">
+        <div class="card-num">Problem 28</div>
+        <div class="q-text">Which is greater: 5/8 of 40, or 3/5 of 60?</div>
+        <div class="answer-box"><span class="ab-label">Answer</span><span style="font-family:'JetBrains Mono',monospace;font-weight:700;color:var(--accent-ink);">B (3/5 of 60 is greater)</span></div>
+        <div class="grade-note"><b>Why:</b> 5/8 of 40 = 25. 3/5 of 60 = 36. You have to actually calculate both values &mdash; you can&rsquo;t tell just from comparing the fractions 5/8 and 3/5, since the two starting numbers (40 and 60) are different.</div>
+      </div>
+      <div class="card">
+        <div class="card-num">Problem 29</div>
+        <div class="q-text">A number is a multiple of 4. Another number is a multiple of 9. What must always describe their product?</div>
+        <div class="answer-box"><span class="ab-label">Answer</span><span style="font-family:'JetBrains Mono',monospace;font-weight:700;color:var(--accent-ink);">B (always a multiple of 36)</span></div>
+        <div class="grade-note"><b>Why:</b> The multiple of 4 always contributes a factor of 4; the multiple of 9 always contributes a factor of 9. Since 4 and 9 share no common factor, the product is always divisible by 4&times;9=36. (D fails: 4&times;9=36, which is not greater than 100.)</div>
+      </div>
+      <div class="card">
+        <div class="card-num">Problem 30</div>
+        <div class="q-text">Rectangle A is 3 ft by 20 ft. Rectangle B is 8 ft by 8 ft. Which statement is true?</div>
+        <div class="answer-box"><span class="ab-label">Answer</span><span style="font-family:'JetBrains Mono',monospace;font-weight:700;color:var(--accent-ink);">B (Rectangle A has the greater perimeter.)</span></div>
+        <div class="grade-note"><b>Why:</b> Rectangle A: area = 3&times;20=60, perimeter = 2(3+20)=46. Rectangle B: area = 8&times;8=64, perimeter = 2(8+8)=32. Rectangle B actually has the LARGER area (64 &gt; 60) but the SMALLER perimeter (32 &lt; 46) &mdash; a long, thin rectangle can have a smaller area but a bigger perimeter than a square. This only shows up if you compute both instead of assuming the bigger-looking shape wins both.</div>
+      </div>
+  </div>
+
+  <footer>Built for Hannah &middot; ISEE Math Practice</footer>
+</div>

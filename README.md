@@ -32,6 +32,8 @@ worksheets/       Generated HTML study tools
   redo-set-8-answer-key.html                Answer key for redo-set-8.html &mdash; for parent/coach use only
   redo-set-9.html                           The 9 exact problems missed on the 0920 test, a second try, no self-check
   redo-set-9-answer-key.html                Answer key for redo-set-9.html &mdash; for parent/coach use only
+  redo-set-10.html                          30 new problems training the 5 attention habits, ahead of the Friday test
+  redo-set-10-answer-key.html                Answer key for redo-set-10.html &mdash; for parent/coach use only
 ```
 
 ### `worksheets/full-workbook.html`
@@ -111,6 +113,14 @@ The answer key for `redo-set-8.html`: correct answer and a "Why" for each of the
 ### `worksheets/redo-set-9.html`
 
 The 9 problems she missed on the 0920 practice test, presented exactly as they were (same numbers, same answer choices), as a second chance: if she fixes them all, they were attention slips; anything still wrong is worth working through together. The misses were mostly "answered part of the question" slips (dropped the odd condition, reversed least-to-greatest, added only one class on a graph, missed "shared equally"), plus a remainder problem, a multiply-by-3 pattern and a volume-with-gaps concept. No self-check; answers are in `redo-set-9-answer-key.html`.
+
+### `worksheets/redo-set-10.html`
+
+30 brand-new problems, not reused from any earlier worksheet, built specifically to train the 5 attention habits identified by scanning every wrong answer across the 203-problem review, redo-set-6, redo-set-7, redo-set-8, and the 0920 test (see `habit-checklist.html` in the parent folder for the full writeup): checking every stated condition, using all the given data, watching the one key word that flips the answer, giving the exact thing asked for rather than an intermediate step, and computing both sides of a comparison instead of assuming. 6 problems per habit. Every wrong choice is a deliberate trap matching exactly what she'd pick if she skipped that specific check &mdash; the answer key calls out the trap explicitly. Built ahead of a test the following Friday, so this is meant for quick, focused practice rather than another comprehensive topic sweep. No self-check; answers are in `redo-set-10-answer-key.html`.
+
+### `worksheets/redo-set-10-answer-key.html`
+
+The answer key for `redo-set-10.html`: correct answer and a "Why" for each of the 30 problems, explicitly naming the trap each wrong choice represents.
 
 ## Working on this repo with Claude Code
 
