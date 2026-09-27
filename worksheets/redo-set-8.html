@@ -693,7 +693,7 @@
       var qid = group.getAttribute('data-qid');
       group.querySelectorAll('.choice').forEach(function(b){ b.classList.remove('selected'); });
       choiceBtn.classList.add('selected');
-      state[qid] = true;
+      state[qid] = choiceBtn.getAttribute('data-letter');
       save();
       updateProgress();
       markCard(qid);
@@ -713,7 +713,7 @@
   document.addEventListener('input', function(e){
     if (e.target.matches('input.answer-input')){
       var qid = e.target.getAttribute('data-qid');
-      state[qid] = e.target.value.trim() !== '';
+      state[qid] = e.target.value;
       save();
       updateProgress();
       markCard(qid);
@@ -722,7 +722,16 @@
 
   document.addEventListener('DOMContentLoaded', function(){
     Object.keys(state).forEach(function(qid){
-      if (!state[qid]) return;
+      var val = state[qid];
+      if (!val) return;
+      var group = document.querySelector('.choices[data-qid="' + qid + '"]');
+      if (group){
+        var btn = group.querySelector('.choice[data-letter="' + val + '"]');
+        if (btn) btn.classList.add('selected');
+      } else {
+        var input = document.querySelector('input.answer-input[data-qid="' + qid + '"]');
+        if (input) input.value = val;
+      }
       markCard(qid);
     });
     updateProgress();
