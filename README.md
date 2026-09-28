@@ -36,6 +36,8 @@ worksheets/       Generated HTML study tools
   redo-set-10-answer-key.html                Answer key for redo-set-10.html &mdash; for parent/coach use only
   redo-set-11.html                          15 new problems: 3 sticky-gap groups from real redo-set-10 misses, plus 6 multi-habit combos
   redo-set-11-answer-key.html                Answer key for redo-set-11.html &mdash; for parent/coach use only
+  redo-set-12.html                          12 new problems from a real 9/27 practice-test attempt, the last practice test before the real one
+  redo-set-12-answer-key.html                Answer key for redo-set-12.html &mdash; for parent/coach use only
 ```
 
 ### `worksheets/full-workbook.html`
@@ -131,6 +133,14 @@ The answer key for `redo-set-10.html`: correct answer and a "Why" for each of th
 ### `worksheets/redo-set-11-answer-key.html`
 
 The answer key for `redo-set-11.html`: correct answer and a "Why" for each of the 15 problems, grouped the same way as the worksheet.
+
+### `worksheets/redo-set-12.html`
+
+12 brand-new problems, not reused from any earlier worksheet, built from a real attempt at the 9/27 online practice test &mdash; the last practice test before the real ISEE. Six sticky spots showed up in that attempt, two fresh problems each: a repeated-digit addition cryptarithm where the hundreds digit is always forced to 1 by carrying, no matter the specific digits (missed on `AA+BB=CDE`); matching each symbol in a word problem to the right quantity before combining them (missed on a pencils/stickers-style translation, swapping which symbol was the original amount versus the amount given away); cubing a linear scale factor to get a volume ratio instead of using a surface-area-style formula (missed on a "how many small cubes fit in a bigger cube" problem, picking 150 instead of 125); the direction of a successive percent change (got the 4% magnitude right on a 20%-up-then-20%-down salary problem but called it an increase instead of a decrease); the MORE-vs-LESS attention habit, confirmed still not secure on an easy fraction-to-decimal comparison that 90% of test-takers got right; and a decimal-addition place-value slip. No self-check; answers are in `redo-set-12-answer-key.html`.
+
+### `worksheets/redo-set-12-answer-key.html`
+
+The answer key for `redo-set-12.html`: correct answer and a "Why" for each of the 12 problems, grouped the same way as the worksheet.
 
 ## Working on this repo with Claude Code
 
