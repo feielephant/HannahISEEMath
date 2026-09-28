@@ -328,9 +328,20 @@
   }
   .diagram .stemleaf td{ border:none; padding:2px 10px; text-align:left; }
   .diagram .stemleaf .stem{ text-align:right; color:var(--ink-faint); border-right:2px solid var(--ink-faint); padding-right:10px; }
+  .diagram figure{ margin:0; }
+  .diagram figcaption{ font-size:0.72rem; color:var(--ink-faint); margin-top:6px; }
+  .cube-label{ font-family:"JetBrains Mono", monospace; font-size:0.7rem; margin-top:3px; color:var(--ink-muted); }
+
+  .tape{ display:flex; flex-direction:column; gap:3px; width:100%; }
+  .tape-boxes{ display:flex; width:100%; align-items:stretch; gap:1px; }
+  .tape-boxes .box{ flex:1; border:1px solid currentColor; opacity:0.82; text-align:center; font-family:"JetBrains Mono", monospace; font-size:0.68rem; padding:3px 0; }
+  .tape-boxes .mult-label{ flex:0 0 auto; font-size:0.65rem; align-self:center; padding-right:3px; opacity:0.82; }
+  .tape-brackets{ display:flex; width:100%; gap:1px; }
+  .tape-brackets .seg{ border-top:1.5px solid currentColor; text-align:center; font-size:0.63rem; padding-top:2px; opacity:0.82; }
 
   .choices.one{ grid-template-columns:1fr; }
   .choice svg{ display:block; margin-top:4px; max-width:100%; height:auto; }
+  .choice .tape{ margin-top:2px; }
   footer{
     margin-top:60px;
     padding-top:22px;
@@ -348,18 +359,18 @@
   <header class="hero">
     <div class="eyebrow">ISEE Math Practice &middot; Exact Repeat</div>
     <h1>Redo Set 13 <span style="font-size:0.5em; color:var(--ink-faint); font-weight:500;">&middot; the 9/27 misses, unchanged</span></h1>
-    <p class="lede">The exact 6 problems missed on the 9/27 practice test &mdash; same numbers, same wording, same answer choices, nothing changed. This is a true second attempt, not a fresh-number redo: if she gets them all right now, they were slips under time pressure; anything still wrong points to a real gap worth 5 minutes together before the real test. (A separate fresh-number version of these same 6 spots is in redo-set-12.html, for practice beyond just this one repeat.)</p>
+    <p class="lede">The exact 7 problems missed on the 9/27 practice test &mdash; same numbers, same wording, same answer choices and diagrams, nothing changed. This is a true second attempt, not a fresh-number redo: if she gets them all right now, they were slips under time pressure; anything still wrong points to a real gap worth 5 minutes together before the real test. (A separate fresh-number version of these same 7 spots is in redo-set-12.html, for practice beyond just this one repeat.)</p>
     <div class="stat-row">
-      <div class="stat"><span class="n">6</span><span class="lbl">Problems</span></div>
-      <div class="stat" id="progress-stat"><span class="n"><span id="progress-count">0</span> / 6</span><span class="lbl">Answered</span></div>
+      <div class="stat"><span class="n">7</span><span class="lbl">Problems</span></div>
+      <div class="stat" id="progress-stat"><span class="n"><span id="progress-count">0</span> / 7</span><span class="lbl">Answered</span></div>
       <button type="button" class="clear-btn" id="clear-all">Clear all answers</button>
     </div>
-    <p class="method"><strong>How to use this:</strong> type your answer into the <span class="pill">Answer</span> blank, or click a lettered option to select it. Everything saves in this browser as you go. This page does not check or reveal answers. When you've finished all 6, check your work with a parent or coach using the separate answer key.</p>
+    <p class="method"><strong>How to use this:</strong> type your answer into the <span class="pill">Answer</span> blank, or click a lettered option to select it. Everything saves in this browser as you go. This page does not check or reveal answers. When you've finished all 7, check your work with a parent or coach using the separate answer key.</p>
   </header>
 
   <div class="cards">
-      <div class="group-title"><span class="group-title-n">6</span> 9/27 Practice Test &mdash; Exact Repeat</div>
-      <div class="group-note">The 6 problems missed on the 9/27 practice test, presented exactly as they were &mdash; same numbers, same answer choices, same order &mdash; as a genuine second chance right before the real test. If she gets these right cold, it was a slip; anything still wrong is worth one more look together first.</div>
+      <div class="group-title"><span class="group-title-n">7</span> 9/27 Practice Test &mdash; Exact Repeat</div>
+      <div class="group-note">The 7 problems missed on the 9/27 practice test, presented exactly as they were &mdash; same numbers, same answer choices (and diagrams), same order &mdash; as a genuine second chance right before the real test. If she gets these right cold, it was a slip; anything still wrong is worth one more look together first.</div>
       <div class="card">
         <div class="q-text">Each letter represents a different digit from 1 through 9. AA + BB = CDE. What digit does C represent?</div>
         <div class="choices" data-qid="h13-1">
@@ -379,7 +390,9 @@
         </div>
       </div>
       <div class="card">
-        <div class="q-text">Two cubes are shown. Cube A has sides with length 2 millimeters. Cube B is 5 times as wide as Cube A. How many Cube A&rsquo;s can fit inside Cube B?</div>
+        <div class="q-text">Two cubes are shown. Cube A has sides with length 2 millimeters. Cube B is 5 times as wide as Cube A.</div>
+        <div class="diagram"><figure><div style="display:flex;align-items:flex-end;gap:22px;"><div style="text-align:center;"><svg viewBox="0 0 47 47" width="47" height="47" role="img" aria-label="cube"><polygon points="6.0,15.1 15.1,6.0 41.1,6.0 32.0,15.1" fill="currentColor" fill-opacity="0.28" stroke="currentColor" stroke-width="1.2"/><polygon points="32.0,15.1 41.1,6.0 41.1,32.0 32.0,41.1" fill="currentColor" fill-opacity="0.4" stroke="currentColor" stroke-width="1.2"/><rect x="6.0" y="15.1" width="26.0" height="26.0" fill="currentColor" fill-opacity="0.16" stroke="currentColor" stroke-width="1.2"/></svg><div class="cube-label">A &middot; 2 mm</div></div><div style="text-align:center;"><svg viewBox="0 0 134 134" width="134" height="134" role="img" aria-label="cube"><polygon points="6.0,37.5 37.5,6.0 127.5,6.0 96.0,37.5" fill="currentColor" fill-opacity="0.28" stroke="currentColor" stroke-width="1.2"/><polygon points="96.0,37.5 127.5,6.0 127.5,96.0 96.0,127.5" fill="currentColor" fill-opacity="0.4" stroke="currentColor" stroke-width="1.2"/><rect x="6.0" y="37.5" width="90.0" height="90.0" fill="currentColor" fill-opacity="0.16" stroke="currentColor" stroke-width="1.2"/></svg><div class="cube-label">B</div></div></div><figcaption>Cube B is 5 times as wide as Cube A.</figcaption></figure></div>
+        <div class="q-text">How many Cube A&rsquo;s can fit inside Cube B?</div>
         <div class="choices" data-qid="h13-3">
           <button type="button" class="choice" data-letter="A"><span class="letter">A</span>15</button>
           <button type="button" class="choice" data-letter="B"><span class="letter">B</span>25</button>
@@ -412,6 +425,15 @@
           <button type="button" class="choice" data-letter="B"><span class="letter">B</span>7.30</button>
           <button type="button" class="choice" data-letter="C"><span class="letter">C</span>7.70</button>
           <button type="button" class="choice" data-letter="D"><span class="letter">D</span>7.75</button>
+        </div>
+      </div>
+      <div class="card">
+        <div class="q-text">Margot has 4 rolls of stretch bandage. Each roll has 63 inches of stretch bandage. Margot uses 42 inches of stretch bandage for an injury. Which diagram shows a way to find n, the number of inches of stretch bandage Margot has left?</div>
+        <div class="choices" data-qid="h13-7">
+          <button type="button" class="choice" data-letter="A"><span class="letter">A</span><div class="tape"><div class="tape-boxes"><div class="box" style="flex:1.5">n</div><div class="box" style="flex:1">42</div></div><div class="tape-brackets"><div class="seg" style="flex:2.5">63</div></div></div></button>
+          <button type="button" class="choice" data-letter="B"><span class="letter">B</span><div class="tape"><div class="tape-boxes"><span class="mult-label">4&rarr;</span><div class="box" style="flex:1.5">63</div><div class="box" style="flex:1">42</div></div><div class="tape-brackets"><span class="mult-label" style="visibility:hidden">4&rarr;</span><div class="seg" style="flex:2.5">n</div></div></div></button>
+          <button type="button" class="choice" data-letter="C"><span class="letter">C</span><div class="tape"><div class="tape-boxes"><div class="box">63</div><div class="box">63</div><div class="box">63</div><div class="box">63</div></div><div class="tape-brackets"><div class="seg" style="flex:5">n</div><div class="seg" style="flex:1">42</div></div></div></button>
+          <button type="button" class="choice" data-letter="D"><span class="letter">D</span><div class="tape"><div class="tape-boxes"><div class="box">63</div><div class="box">63</div><div class="box">63</div><div class="box">63</div></div><div class="tape-brackets"><div class="seg" style="flex:1">n</div></div></div></button>
         </div>
       </div>
   </div>

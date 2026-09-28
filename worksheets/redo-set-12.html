@@ -328,9 +328,20 @@
   }
   .diagram .stemleaf td{ border:none; padding:2px 10px; text-align:left; }
   .diagram .stemleaf .stem{ text-align:right; color:var(--ink-faint); border-right:2px solid var(--ink-faint); padding-right:10px; }
+  .diagram figure{ margin:0; }
+  .diagram figcaption{ font-size:0.72rem; color:var(--ink-faint); margin-top:6px; }
+  .cube-label{ font-family:"JetBrains Mono", monospace; font-size:0.7rem; margin-top:3px; color:var(--ink-muted); }
+
+  .tape{ display:flex; flex-direction:column; gap:3px; width:100%; }
+  .tape-boxes{ display:flex; width:100%; align-items:stretch; gap:1px; }
+  .tape-boxes .box{ flex:1; border:1px solid currentColor; opacity:0.82; text-align:center; font-family:"JetBrains Mono", monospace; font-size:0.68rem; padding:3px 0; }
+  .tape-boxes .mult-label{ flex:0 0 auto; font-size:0.65rem; align-self:center; padding-right:3px; opacity:0.82; }
+  .tape-brackets{ display:flex; width:100%; gap:1px; }
+  .tape-brackets .seg{ border-top:1.5px solid currentColor; text-align:center; font-size:0.63rem; padding-top:2px; opacity:0.82; }
 
   .choices.one{ grid-template-columns:1fr; }
   .choice svg{ display:block; margin-top:4px; max-width:100%; height:auto; }
+  .choice .tape{ margin-top:2px; }
   footer{
     margin-top:60px;
     padding-top:22px;
@@ -348,13 +359,13 @@
   <header class="hero">
     <div class="eyebrow">ISEE Math Practice &middot; Final Practice Redo</div>
     <h1>Redo Set 12 <span style="font-size:0.5em; color:var(--ink-faint); font-weight:500;">&middot; from the 9/27 practice test</span></h1>
-    <p class="lede">12 brand-new problems, not reused from any earlier worksheet, built from a real attempt at the 9/27 practice test &mdash; the last one before the real test. Six sticky spots showed up: a forced-digit cryptarithm, matching a symbol to the right quantity in a word problem, cubing a scale factor for volume, the direction of a successive percent change, an easy MORE-vs-LESS fraction comparison that 90% of test-takers got right, and a decimal-addition slip. Two fresh problems per spot.</p>
+    <p class="lede">14 brand-new problems, not reused from any earlier worksheet, built from a real attempt at the 9/27 practice test &mdash; the last one before the real test. Seven sticky spots showed up: a forced-digit cryptarithm, matching a symbol to the right quantity in a word problem, cubing a scale factor for volume (with the actual cube diagrams this time), the direction of a successive percent change, an easy MORE-vs-LESS fraction comparison that 90% of test-takers got right, a decimal-addition slip, and reading a tape-diagram model correctly. Two fresh problems per spot.</p>
     <div class="stat-row">
-      <div class="stat"><span class="n">12</span><span class="lbl">Problems</span></div>
-      <div class="stat" id="progress-stat"><span class="n"><span id="progress-count">0</span> / 12</span><span class="lbl">Answered</span></div>
+      <div class="stat"><span class="n">14</span><span class="lbl">Problems</span></div>
+      <div class="stat" id="progress-stat"><span class="n"><span id="progress-count">0</span> / 14</span><span class="lbl">Answered</span></div>
       <button type="button" class="clear-btn" id="clear-all">Clear all answers</button>
     </div>
-    <p class="method"><strong>How to use this:</strong> type your answer into the <span class="pill">Answer</span> blank, or click a lettered option to select it. Everything saves in this browser as you go. This page does not check or reveal answers. When you've finished all 12, check your work with a parent or coach using the separate answer key.</p>
+    <p class="method"><strong>How to use this:</strong> type your answer into the <span class="pill">Answer</span> blank, or click a lettered option to select it. Everything saves in this browser as you go. This page does not check or reveal answers. When you've finished all 14, check your work with a parent or coach using the separate answer key.</p>
   </header>
 
   <div class="cards">
@@ -391,7 +402,9 @@
       <div class="group-title"><span class="group-title-n">2</span> Sticky Gap: Cube the Scale Factor for Volume</div>
       <div class="group-note">From the 9/27 practice test: when a cube&rsquo;s side scales by a factor, the volume scales by that factor CUBED &mdash; not the factor itself and not a surface-area-style formula.</div>
       <div class="card">
-        <div class="q-text">Two cubes are shown. Cube A has sides with length 3 millimeters. Cube B is 4 times as wide as Cube A. How many Cube A&rsquo;s can fit inside Cube B?</div>
+        <div class="q-text">Two cubes are shown. Cube A has sides with length 3 millimeters. Cube B is 4 times as wide as Cube A.</div>
+        <div class="diagram"><figure><div style="display:flex;align-items:flex-end;gap:22px;"><div style="text-align:center;"><svg viewBox="0 0 47 47" width="47" height="47" role="img" aria-label="cube"><polygon points="6.0,15.1 15.1,6.0 41.1,6.0 32.0,15.1" fill="currentColor" fill-opacity="0.28" stroke="currentColor" stroke-width="1.2"/><polygon points="32.0,15.1 41.1,6.0 41.1,32.0 32.0,41.1" fill="currentColor" fill-opacity="0.4" stroke="currentColor" stroke-width="1.2"/><rect x="6.0" y="15.1" width="26.0" height="26.0" fill="currentColor" fill-opacity="0.16" stroke="currentColor" stroke-width="1.2"/></svg><div class="cube-label">A &middot; 3 mm</div></div><div style="text-align:center;"><svg viewBox="0 0 134 134" width="134" height="134" role="img" aria-label="cube"><polygon points="6.0,37.5 37.5,6.0 127.5,6.0 96.0,37.5" fill="currentColor" fill-opacity="0.28" stroke="currentColor" stroke-width="1.2"/><polygon points="96.0,37.5 127.5,6.0 127.5,96.0 96.0,127.5" fill="currentColor" fill-opacity="0.4" stroke="currentColor" stroke-width="1.2"/><rect x="6.0" y="37.5" width="90.0" height="90.0" fill="currentColor" fill-opacity="0.16" stroke="currentColor" stroke-width="1.2"/></svg><div class="cube-label">B</div></div></div><figcaption>Cube B is 4 times as wide as Cube A.</figcaption></figure></div>
+        <div class="q-text">How many Cube A&rsquo;s can fit inside Cube B?</div>
         <div class="choices" data-qid="h12-c1">
           <button type="button" class="choice" data-letter="A"><span class="letter">A</span>12</button>
           <button type="button" class="choice" data-letter="B"><span class="letter">B</span>16</button>
@@ -400,7 +413,9 @@
         </div>
       </div>
       <div class="card">
-        <div class="q-text">Two cubes are shown. Cube A has sides with length 5 centimeters. Cube B is 3 times as wide as Cube A. How many Cube A&rsquo;s can fit inside Cube B?</div>
+        <div class="q-text">Two cubes are shown. Cube A has sides with length 5 centimeters. Cube B is 3 times as wide as Cube A.</div>
+        <div class="diagram"><figure><div style="display:flex;align-items:flex-end;gap:22px;"><div style="text-align:center;"><svg viewBox="0 0 52 52" width="52" height="52" role="img" aria-label="cube"><polygon points="6.0,16.5 16.5,6.0 46.5,6.0 36.0,16.5" fill="currentColor" fill-opacity="0.28" stroke="currentColor" stroke-width="1.2"/><polygon points="36.0,16.5 46.5,6.0 46.5,36.0 36.0,46.5" fill="currentColor" fill-opacity="0.4" stroke="currentColor" stroke-width="1.2"/><rect x="6.0" y="16.5" width="30.0" height="30.0" fill="currentColor" fill-opacity="0.16" stroke="currentColor" stroke-width="1.2"/></svg><div class="cube-label">A &middot; 5 cm</div></div><div style="text-align:center;"><svg viewBox="0 0 134 134" width="134" height="134" role="img" aria-label="cube"><polygon points="6.0,37.5 37.5,6.0 127.5,6.0 96.0,37.5" fill="currentColor" fill-opacity="0.28" stroke="currentColor" stroke-width="1.2"/><polygon points="96.0,37.5 127.5,6.0 127.5,96.0 96.0,127.5" fill="currentColor" fill-opacity="0.4" stroke="currentColor" stroke-width="1.2"/><rect x="6.0" y="37.5" width="90.0" height="90.0" fill="currentColor" fill-opacity="0.16" stroke="currentColor" stroke-width="1.2"/></svg><div class="cube-label">B</div></div></div><figcaption>Cube B is 3 times as wide as Cube A.</figcaption></figure></div>
+        <div class="q-text">How many Cube A&rsquo;s can fit inside Cube B?</div>
         <div class="choices" data-qid="h12-c2">
           <button type="button" class="choice" data-letter="A"><span class="letter">A</span>9</button>
           <button type="button" class="choice" data-letter="B"><span class="letter">B</span>15</button>
@@ -457,6 +472,26 @@
       <div class="card">
         <div class="q-text">What is the value of the expression 4.6 + 3.25?</div>
         <div class="answer-box"><span class="ab-label">Answer</span><input type="text" class="answer-input" data-qid="h12-f2" autocomplete="off" spellcheck="false"></div>
+      </div>
+      <div class="group-title"><span class="group-title-n">2</span> Sticky Gap: Reading a Tape-Diagram Model</div>
+      <div class="group-note">From the 9/27 practice test: picked a tape diagram that only modeled ONE roll/box instead of the full total across all of them.</div>
+      <div class="card">
+        <div class="q-text">Wyatt has 3 rolls of packing tape. Each roll has 48 feet of packing tape. Wyatt uses 20 feet of packing tape for a project. Which diagram shows a way to find n, the number of feet of packing tape Wyatt has left?</div>
+        <div class="choices" data-qid="h12-g1">
+          <button type="button" class="choice" data-letter="A"><span class="letter">A</span><div class="tape"><div class="tape-boxes"><div class="box">48</div><div class="box">48</div><div class="box">48</div></div><div class="tape-brackets"><div class="seg" style="flex:6">n</div><div class="seg" style="flex:1">20</div></div></div></button>
+          <button type="button" class="choice" data-letter="B"><span class="letter">B</span><div class="tape"><div class="tape-boxes"><div class="box" style="flex:1.5">n</div><div class="box" style="flex:1">20</div></div><div class="tape-brackets"><div class="seg" style="flex:2.5">48</div></div></div></button>
+          <button type="button" class="choice" data-letter="C"><span class="letter">C</span><div class="tape"><div class="tape-boxes"><span class="mult-label">3&rarr;</span><div class="box" style="flex:1.5">48</div><div class="box" style="flex:1">20</div></div><div class="tape-brackets"><span class="mult-label" style="visibility:hidden">3&rarr;</span><div class="seg" style="flex:2.5">n</div></div></div></button>
+          <button type="button" class="choice" data-letter="D"><span class="letter">D</span><div class="tape"><div class="tape-boxes"><div class="box">48</div><div class="box">48</div><div class="box">48</div></div><div class="tape-brackets"><div class="seg" style="flex:1">n</div></div></div></button>
+        </div>
+      </div>
+      <div class="card">
+        <div class="q-text">Priya has 5 boxes of greeting cards. Each box has 24 greeting cards. Priya gives away 15 greeting cards. Which diagram shows a way to find n, the number of greeting cards Priya has left?</div>
+        <div class="choices" data-qid="h12-g2">
+          <button type="button" class="choice" data-letter="A"><span class="letter">A</span><div class="tape"><div class="tape-boxes"><div class="box" style="flex:1.5">n</div><div class="box" style="flex:1">15</div></div><div class="tape-brackets"><div class="seg" style="flex:2.5">24</div></div></div></button>
+          <button type="button" class="choice" data-letter="B"><span class="letter">B</span><div class="tape"><div class="tape-boxes"><div class="box">24</div><div class="box">24</div><div class="box">24</div><div class="box">24</div><div class="box">24</div></div><div class="tape-brackets"><div class="seg" style="flex:7">n</div><div class="seg" style="flex:1">15</div></div></div></button>
+          <button type="button" class="choice" data-letter="C"><span class="letter">C</span><div class="tape"><div class="tape-boxes"><span class="mult-label">5&rarr;</span><div class="box" style="flex:1.5">24</div><div class="box" style="flex:1">15</div></div><div class="tape-brackets"><span class="mult-label" style="visibility:hidden">5&rarr;</span><div class="seg" style="flex:2.5">n</div></div></div></button>
+          <button type="button" class="choice" data-letter="D"><span class="letter">D</span><div class="tape"><div class="tape-boxes"><div class="box">24</div><div class="box">24</div><div class="box">24</div><div class="box">24</div><div class="box">24</div></div><div class="tape-brackets"><div class="seg" style="flex:1">n</div></div></div></button>
+        </div>
       </div>
   </div>
 

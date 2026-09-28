@@ -225,6 +225,16 @@
   }
   .diagram .stemleaf td{ border:none; padding:2px 10px; text-align:left; }
   .diagram .stemleaf .stem{ text-align:right; color:var(--ink-faint); border-right:2px solid var(--ink-faint); padding-right:10px; }
+  .diagram figure{ margin:0; }
+  .diagram figcaption{ font-size:0.72rem; color:var(--ink-faint); margin-top:6px; }
+  .cube-label{ font-family:"JetBrains Mono", monospace; font-size:0.7rem; margin-top:3px; color:var(--ink-muted); }
+
+  .tape{ display:flex; flex-direction:column; gap:3px; width:180px; }
+  .tape-boxes{ display:flex; width:100%; align-items:stretch; gap:1px; }
+  .tape-boxes .box{ flex:1; border:1px solid currentColor; opacity:0.82; text-align:center; font-family:"JetBrains Mono", monospace; font-size:0.68rem; padding:3px 0; }
+  .tape-boxes .mult-label{ flex:0 0 auto; font-size:0.65rem; align-self:center; padding-right:3px; opacity:0.82; }
+  .tape-brackets{ display:flex; width:100%; gap:1px; }
+  .tape-brackets .seg{ border-top:1.5px solid currentColor; text-align:center; font-size:0.63rem; padding-top:2px; opacity:0.82; }
 
   footer{
     margin-top:60px;
@@ -239,7 +249,7 @@
   <header class="hero">
     <div class="eyebrow">ISEE Math Practice &middot; Answer Key</div>
     <h1>Redo Set 12 <span style="font-size:0.5em; color:var(--ink-faint); font-weight:500;">&middot; for parent/coach use only</span></h1>
-    <p class="lede">Answer key for <code>redo-set-12.html</code> (12 problems).</p>
+    <p class="lede">Answer key for <code>redo-set-12.html</code> (14 problems).</p>
   </header>
 
   <div class="cards">
@@ -272,13 +282,13 @@
       <div class="group-title"><span class="group-title-n">2</span> Sticky Gap: Cube the Scale Factor for Volume</div>
       <div class="card">
         <div class="card-num">Problem 5</div>
-        <div class="q-text">Two cubes are shown. Cube A has sides with length 3 millimeters. Cube B is 4 times as wide as Cube A. How many Cube A&rsquo;s can fit inside Cube B?</div>
+        <div class="q-text">Two cubes are shown. Cube A has sides with length 3 millimeters. Cube B is 4 times as wide as Cube A. How many Cube A&rsquo;s can fit inside Cube B?<div class="diagram"><figure><div style="display:flex;align-items:flex-end;gap:22px;"><div style="text-align:center;"><svg viewBox="0 0 47 47" width="47" height="47" role="img" aria-label="cube"><polygon points="6.0,15.1 15.1,6.0 41.1,6.0 32.0,15.1" fill="currentColor" fill-opacity="0.28" stroke="currentColor" stroke-width="1.2"/><polygon points="32.0,15.1 41.1,6.0 41.1,32.0 32.0,41.1" fill="currentColor" fill-opacity="0.4" stroke="currentColor" stroke-width="1.2"/><rect x="6.0" y="15.1" width="26.0" height="26.0" fill="currentColor" fill-opacity="0.16" stroke="currentColor" stroke-width="1.2"/></svg><div class="cube-label">A &middot; 3 mm</div></div><div style="text-align:center;"><svg viewBox="0 0 134 134" width="134" height="134" role="img" aria-label="cube"><polygon points="6.0,37.5 37.5,6.0 127.5,6.0 96.0,37.5" fill="currentColor" fill-opacity="0.28" stroke="currentColor" stroke-width="1.2"/><polygon points="96.0,37.5 127.5,6.0 127.5,96.0 96.0,127.5" fill="currentColor" fill-opacity="0.4" stroke="currentColor" stroke-width="1.2"/><rect x="6.0" y="37.5" width="90.0" height="90.0" fill="currentColor" fill-opacity="0.16" stroke="currentColor" stroke-width="1.2"/></svg><div class="cube-label">B</div></div></div><figcaption>Cube B is 4 times as wide as Cube A.</figcaption></figure></div></div>
         <div class="answer-box"><span class="ab-label">Answer</span><span style="font-family:'JetBrains Mono',monospace;font-weight:700;color:var(--accent-ink);">C (64)</span></div>
         <div class="grade-note"><b>Why:</b> Cube A&rsquo;s volume is 3&times;3&times;3=27 cubic mm. Cube B&rsquo;s side is 4&times;3=12 mm, so its volume is 12&times;12&times;12=1,728 cubic mm. 1,728&divide;27=64. The shortcut: when a cube&rsquo;s side length scales by a factor (here 4), its VOLUME scales by that factor CUBED (4&sup3;=64) &mdash; not just the factor itself (12, too small) and not a surface-area-style calculation like 4&times;4&times;6=96 (that formula is for counting square faces, not fitting solid cubes inside).</div>
       </div>
       <div class="card">
         <div class="card-num">Problem 6</div>
-        <div class="q-text">Two cubes are shown. Cube A has sides with length 5 centimeters. Cube B is 3 times as wide as Cube A. How many Cube A&rsquo;s can fit inside Cube B?</div>
+        <div class="q-text">Two cubes are shown. Cube A has sides with length 5 centimeters. Cube B is 3 times as wide as Cube A. How many Cube A&rsquo;s can fit inside Cube B?<div class="diagram"><figure><div style="display:flex;align-items:flex-end;gap:22px;"><div style="text-align:center;"><svg viewBox="0 0 52 52" width="52" height="52" role="img" aria-label="cube"><polygon points="6.0,16.5 16.5,6.0 46.5,6.0 36.0,16.5" fill="currentColor" fill-opacity="0.28" stroke="currentColor" stroke-width="1.2"/><polygon points="36.0,16.5 46.5,6.0 46.5,36.0 36.0,46.5" fill="currentColor" fill-opacity="0.4" stroke="currentColor" stroke-width="1.2"/><rect x="6.0" y="16.5" width="30.0" height="30.0" fill="currentColor" fill-opacity="0.16" stroke="currentColor" stroke-width="1.2"/></svg><div class="cube-label">A &middot; 5 cm</div></div><div style="text-align:center;"><svg viewBox="0 0 134 134" width="134" height="134" role="img" aria-label="cube"><polygon points="6.0,37.5 37.5,6.0 127.5,6.0 96.0,37.5" fill="currentColor" fill-opacity="0.28" stroke="currentColor" stroke-width="1.2"/><polygon points="96.0,37.5 127.5,6.0 127.5,96.0 96.0,127.5" fill="currentColor" fill-opacity="0.4" stroke="currentColor" stroke-width="1.2"/><rect x="6.0" y="37.5" width="90.0" height="90.0" fill="currentColor" fill-opacity="0.16" stroke="currentColor" stroke-width="1.2"/></svg><div class="cube-label">B</div></div></div><figcaption>Cube B is 3 times as wide as Cube A.</figcaption></figure></div></div>
         <div class="answer-box"><span class="ab-label">Answer</span><span style="font-family:'JetBrains Mono',monospace;font-weight:700;color:var(--accent-ink);">D (27)</span></div>
         <div class="grade-note"><b>Why:</b> Cube A&rsquo;s volume is 5&times;5&times;5=125 cubic cm. Cube B&rsquo;s side is 3&times;5=15 cm, so its volume is 15&times;15&times;15=3,375 cubic cm. 3,375&divide;125=27. Same shortcut as before: cube the scale factor (3&sup3;=27) to get the volume ratio &mdash; squaring it (9) or multiplying it by 6 like a surface-area formula (54) both skip the actual 3D scaling.</div>
       </div>
@@ -320,6 +330,21 @@
         <div class="q-text">What is the value of the expression 4.6 + 3.25?</div>
         <div class="answer-box"><span class="ab-label">Answer</span><span style="font-family:'JetBrains Mono',monospace;font-weight:700;color:var(--accent-ink);">7.85</span></div>
         <div class="grade-note"><b>Why:</b> Line up the decimal points: 4.60 + 3.25 = 7.85. Writing the shorter decimal with a trailing zero first (4.6 &rarr; 4.60) helps make sure every column lines up with the matching place value.</div>
+      </div>
+      <div class="group-title"><span class="group-title-n">2</span> Sticky Gap: Reading a Tape-Diagram Model</div>
+      <div class="card">
+        <div class="card-num">Problem 13</div>
+        <div class="q-text">Wyatt has 3 rolls of packing tape. Each roll has 48 feet of packing tape. Wyatt uses 20 feet of packing tape for a project. Which diagram shows a way to find n, the number of feet of packing tape Wyatt has left?</div>
+        <div class="answer-box"><span class="ab-label">Answer</span><span style="font-family:'JetBrains Mono',monospace;font-weight:700;color:var(--accent-ink);">A</span></div>
+        <div class="diagram"><div class="tape"><div class="tape-boxes"><div class="box">48</div><div class="box">48</div><div class="box">48</div></div><div class="tape-brackets"><div class="seg" style="flex:6">n</div><div class="seg" style="flex:1">20</div></div></div></div>
+        <div class="grade-note"><b>Why:</b> The total amount of tape is all 3 rolls together: 3&times;48=144 feet, shown as three separate 48-foot boxes &mdash; not just one roll (that trap only shows a single 48). Using 20 feet leaves n, so n is the total MINUS the 20 used: 144&minus;20=124. A bracket that covers all four... all three boxes with nothing subtracted (ignoring the 20 used) is a different trap.</div>
+      </div>
+      <div class="card">
+        <div class="card-num">Problem 14</div>
+        <div class="q-text">Priya has 5 boxes of greeting cards. Each box has 24 greeting cards. Priya gives away 15 greeting cards. Which diagram shows a way to find n, the number of greeting cards Priya has left?</div>
+        <div class="answer-box"><span class="ab-label">Answer</span><span style="font-family:'JetBrains Mono',monospace;font-weight:700;color:var(--accent-ink);">B</span></div>
+        <div class="diagram"><div class="tape"><div class="tape-boxes"><div class="box">24</div><div class="box">24</div><div class="box">24</div><div class="box">24</div><div class="box">24</div></div><div class="tape-brackets"><div class="seg" style="flex:7">n</div><div class="seg" style="flex:1">15</div></div></div></div>
+        <div class="grade-note"><b>Why:</b> The total number of cards is all 5 boxes together: 5&times;24=120, shown as five separate 24-card boxes, not just one box. Giving away 15 leaves n, so n is the total MINUS the 15 given away: 120&minus;15=105. The correct diagram shows the FULL total broken into every box, with n as almost all of it and the small 15 sliced off the end &mdash; not a single box, and not the total with nothing taken away.</div>
       </div>
   </div>
 

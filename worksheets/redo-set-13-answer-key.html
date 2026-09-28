@@ -225,6 +225,16 @@
   }
   .diagram .stemleaf td{ border:none; padding:2px 10px; text-align:left; }
   .diagram .stemleaf .stem{ text-align:right; color:var(--ink-faint); border-right:2px solid var(--ink-faint); padding-right:10px; }
+  .diagram figure{ margin:0; }
+  .diagram figcaption{ font-size:0.72rem; color:var(--ink-faint); margin-top:6px; }
+  .cube-label{ font-family:"JetBrains Mono", monospace; font-size:0.7rem; margin-top:3px; color:var(--ink-muted); }
+
+  .tape{ display:flex; flex-direction:column; gap:3px; width:180px; }
+  .tape-boxes{ display:flex; width:100%; align-items:stretch; gap:1px; }
+  .tape-boxes .box{ flex:1; border:1px solid currentColor; opacity:0.82; text-align:center; font-family:"JetBrains Mono", monospace; font-size:0.68rem; padding:3px 0; }
+  .tape-boxes .mult-label{ flex:0 0 auto; font-size:0.65rem; align-self:center; padding-right:3px; opacity:0.82; }
+  .tape-brackets{ display:flex; width:100%; gap:1px; }
+  .tape-brackets .seg{ border-top:1.5px solid currentColor; text-align:center; font-size:0.63rem; padding-top:2px; opacity:0.82; }
 
   footer{
     margin-top:60px;
@@ -239,11 +249,11 @@
   <header class="hero">
     <div class="eyebrow">ISEE Math Practice &middot; Answer Key</div>
     <h1>Redo Set 13 <span style="font-size:0.5em; color:var(--ink-faint); font-weight:500;">&middot; for parent/coach use only</span></h1>
-    <p class="lede">Answer key for <code>redo-set-13.html</code> (6 problems).</p>
+    <p class="lede">Answer key for <code>redo-set-13.html</code> (7 problems).</p>
   </header>
 
   <div class="cards">
-      <div class="group-title"><span class="group-title-n">6</span> 9/27 Practice Test &mdash; Exact Repeat</div>
+      <div class="group-title"><span class="group-title-n">7</span> 9/27 Practice Test &mdash; Exact Repeat</div>
       <div class="card">
         <div class="card-num">Problem 1</div>
         <div class="q-text">Each letter represents a different digit from 1 through 9. AA + BB = CDE. What digit does C represent?</div>
@@ -258,7 +268,7 @@
       </div>
       <div class="card">
         <div class="card-num">Problem 3</div>
-        <div class="q-text">Two cubes are shown. Cube A has sides with length 2 millimeters. Cube B is 5 times as wide as Cube A. How many Cube A&rsquo;s can fit inside Cube B?</div>
+        <div class="q-text">Two cubes are shown. Cube A has sides with length 2 millimeters. Cube B is 5 times as wide as Cube A. How many Cube A&rsquo;s can fit inside Cube B?<div class="diagram"><figure><div style="display:flex;align-items:flex-end;gap:22px;"><div style="text-align:center;"><svg viewBox="0 0 47 47" width="47" height="47" role="img" aria-label="cube"><polygon points="6.0,15.1 15.1,6.0 41.1,6.0 32.0,15.1" fill="currentColor" fill-opacity="0.28" stroke="currentColor" stroke-width="1.2"/><polygon points="32.0,15.1 41.1,6.0 41.1,32.0 32.0,41.1" fill="currentColor" fill-opacity="0.4" stroke="currentColor" stroke-width="1.2"/><rect x="6.0" y="15.1" width="26.0" height="26.0" fill="currentColor" fill-opacity="0.16" stroke="currentColor" stroke-width="1.2"/></svg><div class="cube-label">A &middot; 2 mm</div></div><div style="text-align:center;"><svg viewBox="0 0 134 134" width="134" height="134" role="img" aria-label="cube"><polygon points="6.0,37.5 37.5,6.0 127.5,6.0 96.0,37.5" fill="currentColor" fill-opacity="0.28" stroke="currentColor" stroke-width="1.2"/><polygon points="96.0,37.5 127.5,6.0 127.5,96.0 96.0,127.5" fill="currentColor" fill-opacity="0.4" stroke="currentColor" stroke-width="1.2"/><rect x="6.0" y="37.5" width="90.0" height="90.0" fill="currentColor" fill-opacity="0.16" stroke="currentColor" stroke-width="1.2"/></svg><div class="cube-label">B</div></div></div><figcaption>Cube B is 5 times as wide as Cube A.</figcaption></figure></div></div>
         <div class="answer-box"><span class="ab-label">Answer</span><span style="font-family:'JetBrains Mono',monospace;font-weight:700;color:var(--accent-ink);">C (125)</span></div>
         <div class="grade-note"><b>Why:</b> Cube A&rsquo;s volume is 2&times;2&times;2=8 cubic mm. Cube B&rsquo;s side is 5&times;2=10 mm, so its volume is 10&times;10&times;10=1,000 cubic mm. 1,000&divide;8=125. The shortcut: cube the scale factor (5&sup3;=125) &mdash; 150 comes from a surface-area-style calculation (5&times;5&times;6), which counts faces, not how many solid cubes fit inside.</div>
       </div>
@@ -279,6 +289,13 @@
         <div class="q-text">What is the value of the expression 6.5 + 1.25?</div>
         <div class="answer-box"><span class="ab-label">Answer</span><span style="font-family:'JetBrains Mono',monospace;font-weight:700;color:var(--accent-ink);">D (7.75)</span></div>
         <div class="grade-note"><b>Why:</b> Line up the decimal points before adding: write 6.5 as 6.50 so the tenths line up with tenths and the hundredths line up with hundredths. 6.50 + 1.25 = 7.75.</div>
+      </div>
+      <div class="card">
+        <div class="card-num">Problem 7</div>
+        <div class="q-text">Margot has 4 rolls of stretch bandage. Each roll has 63 inches of stretch bandage. Margot uses 42 inches of stretch bandage for an injury. Which diagram shows a way to find n, the number of inches of stretch bandage Margot has left?</div>
+        <div class="answer-box"><span class="ab-label">Answer</span><span style="font-family:'JetBrains Mono',monospace;font-weight:700;color:var(--accent-ink);">C</span></div>
+        <div class="diagram"><div class="tape"><div class="tape-boxes"><div class="box">63</div><div class="box">63</div><div class="box">63</div><div class="box">63</div></div><div class="tape-brackets"><div class="seg" style="flex:5">n</div><div class="seg" style="flex:1">42</div></div></div></div>
+        <div class="grade-note"><b>Why:</b> The total amount of bandage is all 4 rolls together: 4&times;63=252 inches, shown as four separate 63-inch boxes &mdash; not just one roll (that trap only shows a single 63). Margot uses 42, so n is the total MINUS the 42 used: 252&minus;42=210. A bracket that covers all four boxes with nothing subtracted (ignoring the 42 used) is a different trap, and multiplying the wrong combination by 4 is a third.</div>
       </div>
   </div>
 
