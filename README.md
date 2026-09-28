@@ -38,6 +38,8 @@ worksheets/       Generated HTML study tools
   redo-set-11-answer-key.html                Answer key for redo-set-11.html &mdash; for parent/coach use only
   redo-set-12.html                          12 new problems from a real 9/27 practice-test attempt, the last practice test before the real one
   redo-set-12-answer-key.html                Answer key for redo-set-12.html &mdash; for parent/coach use only
+  redo-set-13.html                          The exact 6 problems missed on the 9/27 test, unchanged, as a true second attempt
+  redo-set-13-answer-key.html                Answer key for redo-set-13.html &mdash; for parent/coach use only
 ```
 
 ### `worksheets/full-workbook.html`
@@ -141,6 +143,14 @@ The answer key for `redo-set-11.html`: correct answer and a "Why" for each of th
 ### `worksheets/redo-set-12-answer-key.html`
 
 The answer key for `redo-set-12.html`: correct answer and a "Why" for each of the 12 problems, grouped the same way as the worksheet.
+
+### `worksheets/redo-set-13.html`
+
+The other half of the redo-set-12 pair: the exact 6 problems missed on the 9/27 practice test, presented exactly as they were &mdash; same numbers, same wording, same answer choices, same order &mdash; as a genuine second attempt right before the real test, following the same pattern as `redo-set-9.html`. Comparing results between this file and `redo-set-12.html`'s fresh-number versions of the same 6 spots is the actual point: right on both means it was a slip under time pressure the first time; wrong on both (even with different numbers) points to a real gap worth reviewing together before test day.
+
+### `worksheets/redo-set-13-answer-key.html`
+
+The answer key for `redo-set-13.html`: correct answer and a "Why" for each of the 6 problems.
 
 ## Working on this repo with Claude Code
 
