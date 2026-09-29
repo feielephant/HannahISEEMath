@@ -38,7 +38,7 @@ worksheets/       Generated HTML study tools
   redo-set-11-answer-key.html                Answer key for redo-set-11.html &mdash; for parent/coach use only
   redo-set-12.html                          14 new problems from a real 9/27 practice-test attempt, the last practice test before the real one
   redo-set-12-answer-key.html                Answer key for redo-set-12.html &mdash; for parent/coach use only
-  redo-set-13.html                          The exact 7 problems missed on the 9/27 test, unchanged, as a true second attempt
+  redo-set-13.html                          13 exact-repeat problems: the 7 from the 9/27 test plus 6 older confirmed misses from the book and earlier sessions
   redo-set-13-answer-key.html                Answer key for redo-set-13.html &mdash; for parent/coach use only
 ```
 
@@ -148,11 +148,17 @@ The answer key for `redo-set-12.html`: correct answer and a "Why" for each of th
 
 ### `worksheets/redo-set-13.html`
 
-The other half of the redo-set-12 pair: the exact 7 problems missed on the 9/27 practice test, presented exactly as they were &mdash; same numbers, same wording, same answer choices and diagrams, same order &mdash; as a genuine second attempt right before the real test, following the same pattern as `redo-set-9.html`. Comparing results between this file and `redo-set-12.html`'s fresh-number versions of the same 7 spots is the actual point: right on both means it was a slip under time pressure the first time; wrong on both (even with different numbers) points to a real gap worth reviewing together before test day.
+13 exact-repeat problems, following the same pattern as `redo-set-9.html` (unchanged numbers, wording, answer choices, and diagrams). The first 7 are the redo-set-12 pair: the exact problems missed on the 9/27 practice test, for comparing against `redo-set-12.html`'s fresh-number versions of the same spots (right on both means it was a slip; wrong on both points to a real gap).
+
+The last 6 were added after checking how often each 9/27 mistake had actually shown up earlier in the full practice history (the physical prep book and every earlier online session) rather than assuming the 9/27 test was the first occurrence:
+- **3 more "cube the scale factor" misses** &mdash; the same 9/27 mistake (using a surface-area-style formula, factor&sup2;&times;6, instead of cubing the linear scale factor) turned out to be a 4-5-times-repeated gap going back weeks: book page 194 (used the raw scale factor, never cubed it), book page 314 (5&times;5&times;5 cube, picked 150 instead of 125), and the 9/13 online session (4&times;4&times;4 cube, picked 96 instead of 64, the identical problem repeated from 9/5).
+- **3 unrelated older misses**, included for completeness once the history was being checked anyway: a decimal-addition carrying slip (9/5), a subtraction-and-range-estimate problem (8/30), and a fraction comparison she'd already gotten right once on a 9/13 retry (8/30 originally) &mdash; a check on whether that improvement actually stuck.
+
+By contrast, the other 4 problem types in redo-set-12/13 (the cryptarithm, the symbol-translation word problem, the percent-change-direction problem, and the tape-diagram-as-answer-choices format) turned out to have **zero prior instances** anywhere in the practice history &mdash; the 9/27 test was her first exposure to each, not a repeated pattern.
 
 ### `worksheets/redo-set-13-answer-key.html`
 
-The answer key for `redo-set-13.html`: correct answer and a "Why" for each of the 7 problems.
+The answer key for `redo-set-13.html`: correct answer and a "Why" for each of the 13 problems, grouped the same way as the worksheet.
 
 ## Working on this repo with Claude Code
 
