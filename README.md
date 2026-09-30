@@ -38,7 +38,7 @@ worksheets/       Generated HTML study tools
   redo-set-11-answer-key.html                Answer key for redo-set-11.html &mdash; for parent/coach use only
   redo-set-12.html                          14 new problems from a real 9/27 practice-test attempt, the last practice test before the real one
   redo-set-12-answer-key.html                Answer key for redo-set-12.html &mdash; for parent/coach use only
-  redo-set-13.html                          28 exact-repeat problems, personally re-verified against source images after an earlier pass fabricated some content
+  redo-set-13.html                          31 exact-repeat problems, personally re-verified against source images after an earlier pass fabricated some content
   redo-set-13-answer-key.html                Answer key for redo-set-13.html &mdash; for parent/coach use only
 ```
 
@@ -148,9 +148,9 @@ The answer key for `redo-set-12.html`: correct answer and a "Why" for each of th
 
 ### `worksheets/redo-set-13.html`
 
-28 exact-repeat problems, following the same pattern as `redo-set-9.html` (unchanged numbers, wording, and answer choices). Rebuilt 9/29 after a full re-read of the entire practice history surfaced major gaps that earlier, narrower searches had missed entirely &mdash; then rebuilt again the same day after several of those "verbatim transcriptions" turned out to be fabricated rather than sourced from the real page, once personally re-checked against the original images.
+31 exact-repeat problems, following the same pattern as `redo-set-9.html` (unchanged numbers, wording, and answer choices). Rebuilt 9/29 after a full re-read of the entire practice history surfaced major gaps that earlier, narrower searches had missed entirely &mdash; then rebuilt again the same day after several of those "verbatim transcriptions" turned out to be fabricated rather than sourced from the real page, once personally re-checked against the original images.
 
-Seven groups:
+Eight groups:
 - **Final check &mdash; cube scale factor &amp; decimal addition** (2 problems) &mdash; both aced with fresh numbers in redo-set-12, kept as one last exact-repeat check rather than a full re-drill.
 - **9/27 test, one more miss found** (1 problem) &mdash; the "Beach Restaurant" table problem was originally misread as correct; the wrong-answer highlight color looked similar to the platform's elimination marker, the same mistake that happened once before on this test. Re-checked directly: she picked $42, correct is $39.
 - **Estimation: matching your answer to the right bucket** (9 problems) &mdash; the single largest gap in the whole archive (10 confirmed wrong). "About how many / reasonable estimate / closest approximation" problems with range-based answer choices; several instances show CORRECT scratch work with the wrong bucket circled anyway.
@@ -158,12 +158,13 @@ Seven groups:
 - **Multi-step unit conversion** (4 problems, new) &mdash; conversions needing more than one step (yards&rarr;inches, gallons&rarr;pints) get only partially completed.
 - **Decimal/fraction to percent: which way the point moves** (3 problems, new) &mdash; a sibling of the off-by-10 gap from a dedicated conversion drill: shifting the decimal point the wrong number of places when converting to a percent.
 - **Reverse-percent problems** (3 problems, new) &mdash; straightforward "what is P% of X" is solid, but reversed framings ("X is what% of Y," "X is P% of what number") are not; each wrong instance uses a different broken mechanism (backwards fraction, multiplying instead of dividing). One of these she also self-corrected on the page.
+- **Answering the complement instead of the target** (3 problems, new) &mdash; given a fixed relationship or probability, states the opposite of what was asked (1-minus-the-target) instead of the target itself; shows up identically in a probability problem and in two algebraic "always true" relationship statements.
 
-**A data-integrity note, since it matters for how much to trust the rest of this project's research:** an earlier version of this file, also 25 problems but across six *different* groups, included a "word problems with a letter variable" group built from what was reported as 4 verbatim transcriptions. On direct re-inspection of the actual source images, only 1 of those 4 was real (the apple/banana problem, now folded into the "off by a factor of 10" group above) &mdash; the other 3 (including a "Roger and Cory" problem and one supposedly from page 312) were invented by a research pass that, when it couldn't find an exact match for a vague prior description, generated plausible-sounding content instead of reporting the miss. Two percent problems were also briefly removed over ambiguous circle marks, then restored once re-examined: a circled-and-crossed-out answer is a discarded first attempt, a clean circle is the corrected final one &mdash; real evidence of the off-by-10 instinct even though she caught it herself that time. Two more batches (3 decimal-to-percent problems, then 3 reverse-percent problems) were added after being independently re-verified against their source pages. Every problem in the current file has been personally re-checked against its source image.
+**A data-integrity note, since it matters for how much to trust the rest of this project's research:** an earlier version of this file, also 25 problems but across six *different* groups, included a "word problems with a letter variable" group built from what was reported as 4 verbatim transcriptions. On direct re-inspection of the actual source images, only 1 of those 4 was real (the apple/banana problem, now folded into the "off by a factor of 10" group above) &mdash; the other 3 (including a "Roger and Cory" problem and one supposedly from page 312) were invented by a research pass that, when it couldn't find an exact match for a vague prior description, generated plausible-sounding content instead of reporting the miss. Two percent problems were also briefly removed over ambiguous circle marks, then restored once re-examined: a circled-and-crossed-out answer is a discarded first attempt, a clean circle is the corrected final one &mdash; real evidence of the off-by-10 instinct even though she caught it herself that time. Three more batches (3 decimal-to-percent, 3 reverse-percent, 3 complement-confusion problems) were added after each was independently re-verified against its source page. Every problem in the current file has been personally re-checked against its source image.
 
 ### `worksheets/redo-set-13-answer-key.html`
 
-The answer key for `redo-set-13.html`: correct answer and a "Why" for each of the 28 problems, grouped the same way as the worksheet.
+The answer key for `redo-set-13.html`: correct answer and a "Why" for each of the 31 problems, grouped the same way as the worksheet.
 
 ## Working on this repo with Claude Code
 
