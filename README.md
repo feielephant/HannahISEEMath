@@ -38,7 +38,7 @@ worksheets/       Generated HTML study tools
   redo-set-11-answer-key.html                Answer key for redo-set-11.html &mdash; for parent/coach use only
   redo-set-12.html                          14 new problems from a real 9/27 practice-test attempt, the last practice test before the real one
   redo-set-12-answer-key.html                Answer key for redo-set-12.html &mdash; for parent/coach use only
-  redo-set-13.html                          13 exact-repeat problems: the 7 from the 9/27 test plus 6 older confirmed misses from the book and earlier sessions
+  redo-set-13.html                          19 exact-repeat problems: the 9/27 test, 3 older cube misses, and 9 newly-found estimation misses (the biggest gap found so far)
   redo-set-13-answer-key.html                Answer key for redo-set-13.html &mdash; for parent/coach use only
 ```
 
@@ -148,17 +148,18 @@ The answer key for `redo-set-12.html`: correct answer and a "Why" for each of th
 
 ### `worksheets/redo-set-13.html`
 
-13 exact-repeat problems, following the same pattern as `redo-set-9.html` (unchanged numbers, wording, answer choices, and diagrams). The first 7 are the redo-set-12 pair: the exact problems missed on the 9/27 practice test, for comparing against `redo-set-12.html`'s fresh-number versions of the same spots (right on both means it was a slip; wrong on both points to a real gap).
+19 exact-repeat problems, following the same pattern as `redo-set-9.html` (unchanged numbers, wording, and answer choices). Rebuilt 9/29 once an estimation gap turned out to be the biggest error category in the whole practice history and needed to be added.
 
-The last 6 were added after checking how often each 9/27 mistake had actually shown up earlier in the full practice history (the physical prep book and every earlier online session) rather than assuming the 9/27 test was the first occurrence:
-- **3 more "cube the scale factor" misses** &mdash; the same 9/27 mistake (using a surface-area-style formula, factor&sup2;&times;6, instead of cubing the linear scale factor) turned out to be a 4-5-times-repeated gap going back weeks: book page 194 (used the raw scale factor, never cubed it), book page 314 (5&times;5&times;5 cube, picked 150 instead of 125), and the 9/13 online session (4&times;4&times;4 cube, picked 96 instead of 64, the identical problem repeated from 9/5).
-- **3 unrelated older misses**, included for completeness once the history was being checked anyway: a decimal-addition carrying slip (9/5), a subtraction-and-range-estimate problem (8/30), and a fraction comparison she'd already gotten right once on a 9/13 retry (8/30 originally) &mdash; a check on whether that improvement actually stuck.
+Three groups:
+- **The 7 from 9/27** &mdash; the redo-set-12 pair, for comparing against `redo-set-12.html`'s fresh-number versions of the same spots (right on both means it was a slip; wrong on both points to a real gap).
+- **3 more "cube the scale factor" misses** &mdash; the same 9/27 mistake (using a surface-area-style formula, factor&sup2;&times;6, instead of cubing the linear scale factor) turned out to be a 5-times-repeated gap going back weeks: book page 194, book page 314 (5&times;5&times;5 cube, picked 150 instead of 125), and the 9/13 online session (4&times;4&times;4 cube, picked 96 instead of 64, the identical problem repeated from 9/5). Kept as a final check even after she aced the fresh-number versions in redo-set-12.
+- **9 estimation misses** &mdash; a newly-found gap, and the single largest one in the whole archive (9 confirmed wrong, ~36% error rate, higher than any other tracked gap). "About how many / reasonable estimate / closest approximation" problems where the answer choices are ranges. The striking pattern: in several cases her own rounding/scratch work landed on the correct value, and she still circled the wrong range &mdash; e.g. computing &asymp;$41 against a correct $40&ndash;45 bucket, then marking $35&ndash;40 anyway. Pulled from book pages 128, 130, 131 and the 9/5 and 9/13 online sessions. Not covered anywhere else in this project until now.
 
-By contrast, the other 4 problem types in redo-set-12/13 (the cryptarithm, the symbol-translation word problem, the percent-change-direction problem, and the tape-diagram-as-answer-choices format) turned out to have **zero prior instances** anywhere in the practice history &mdash; the 9/27 test was her first exposure to each, not a repeated pattern.
+The 4 problem types from the 9/27 test not repeated further here (cryptarithm, symbol-translation, percent-change-direction, tape-diagram-as-answer-choices) had **zero prior instances** anywhere in the practice history when checked &mdash; first exposures, not repeated patterns, so they didn't need a bigger footprint than the one exact repeat already in this set.
 
 ### `worksheets/redo-set-13-answer-key.html`
 
-The answer key for `redo-set-13.html`: correct answer and a "Why" for each of the 13 problems, grouped the same way as the worksheet.
+The answer key for `redo-set-13.html`: correct answer and a "Why" for each of the 19 problems, grouped the same way as the worksheet.
 
 ## Working on this repo with Claude Code
 
