@@ -1,0 +1,355 @@
+<title>Redo Set 14 &mdash; Answer Key</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Petrona:ital,wght@0,500;0,600;0,700;1,500&family=Public+Sans:ital,wght@0,400;0,500;0,600;1,400&family=JetBrains+Mono:wght@400;500;600&display=swap">
+<style>
+  :root{
+    --bg:#EEF2F0;
+    --grid-line: rgba(30,42,40,0.055);
+    --surface:#FFFFFF;
+    --surface-alt:#E7EDEA;
+    --ink:#1E2A28;
+    --ink-muted:#57655F;
+    --ink-faint:#8B968F;
+    --border:#D6DFDA;
+    --accent:#1C7A69;
+    --accent-ink:#0F5648;
+    --accent-soft:#E1F2EC;
+    --wrong:#B9402E;
+    --wrong-soft:#FBEAE6;
+    --amber:#9A6B12;
+    --shadow: 0 1px 2px rgba(20,30,28,0.04), 0 8px 24px -12px rgba(20,30,28,0.12);
+  }
+  @media (prefers-color-scheme: dark){
+    :root:not([data-theme="light"]){
+      --bg:#12181A;
+      --grid-line: rgba(210,225,220,0.045);
+      --surface:#1B2224;
+      --surface-alt:#212A2C;
+      --ink:#E8EFEC;
+      --ink-muted:#9FB0AA;
+      --ink-faint:#6C7C77;
+      --border:#2C3739;
+      --accent:#4FC4AC;
+      --accent-ink:#8FE0CC;
+      --accent-soft:rgba(79,196,172,0.14);
+      --wrong:#E77563;
+      --wrong-soft:rgba(231,117,99,0.14);
+      --amber:#E0AC4E;
+      --shadow: 0 1px 2px rgba(0,0,0,0.3), 0 8px 24px -12px rgba(0,0,0,0.5);
+    }
+  }
+  :root[data-theme="dark"]{
+    --bg:#12181A;
+    --grid-line: rgba(210,225,220,0.045);
+    --surface:#1B2224;
+    --surface-alt:#212A2C;
+    --ink:#E8EFEC;
+    --ink-muted:#9FB0AA;
+    --ink-faint:#6C7C77;
+    --border:#2C3739;
+    --accent:#4FC4AC;
+    --accent-ink:#8FE0CC;
+    --accent-soft:rgba(79,196,172,0.14);
+    --wrong:#E77563;
+    --wrong-soft:rgba(231,117,99,0.14);
+    --amber:#E0AC4E;
+    --shadow: 0 1px 2px rgba(0,0,0,0.3), 0 8px 24px -12px rgba(0,0,0,0.5);
+  }
+
+  *{box-sizing:border-box;}
+  html{-webkit-text-size-adjust:100%;}
+  body{
+    margin:0;
+    background:
+      linear-gradient(var(--grid-line) 1px, transparent 1px) 0 0/ 28px 28px,
+      linear-gradient(90deg, var(--grid-line) 1px, transparent 1px) 0 0/ 28px 28px,
+      var(--bg);
+    color:var(--ink);
+    font-family:"Public Sans", ui-sans-serif, system-ui, sans-serif;
+    line-height:1.5;
+    -webkit-font-smoothing:antialiased;
+  }
+  a{color:var(--accent-ink);}
+  ::selection{ background: var(--accent-soft); }
+
+  .wrap{ max-width: 980px; margin: 0 auto; padding: 0 20px 96px; }
+
+  header.hero{
+    padding: 56px 0 36px;
+    border-bottom: 1px solid var(--border);
+    margin-bottom: 40px;
+  }
+  .eyebrow{
+    font-family:"JetBrains Mono", ui-monospace, monospace;
+    font-size:0.72rem;
+    letter-spacing:0.11em;
+    text-transform:uppercase;
+    color:var(--accent-ink);
+    display:flex;
+    align-items:center;
+    gap:10px;
+    margin-bottom:14px;
+  }
+  .eyebrow::before{
+    content:"";
+    width:7px; height:7px;
+    background:var(--accent);
+    border-radius:50%;
+    display:inline-block;
+    box-shadow: 0 0 0 3px var(--accent-soft);
+  }
+  h1{
+    font-family:"Petrona", Georgia, serif;
+    font-weight:700;
+    font-size: clamp(2rem, 4.4vw, 2.75rem);
+    line-height:1.08;
+    margin:0 0 14px;
+    text-wrap:balance;
+    letter-spacing:-0.01em;
+  }
+  .hero p.lede{
+    max-width:64ch;
+    color:var(--ink-muted);
+    font-size:1.03rem;
+    margin: 0 0 28px;
+  }
+
+  .cards{
+    display:grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap:16px;
+  }
+
+  .group-title{
+    grid-column: 1 / -1;
+    display:flex;
+    align-items:center;
+    gap:10px;
+    font-family:"JetBrains Mono", ui-monospace, monospace;
+    font-size:0.74rem;
+    letter-spacing:0.09em;
+    text-transform:uppercase;
+    color:var(--accent-ink);
+    margin: 26px 0 2px;
+    padding-bottom:8px;
+    border-bottom:1px solid var(--border);
+  }
+  .group-title:first-child{ margin-top:0; }
+  .group-title-n{
+    font-family:"JetBrains Mono", monospace;
+    font-size:0.7rem;
+    color:var(--ink-faint);
+    background:var(--surface-alt);
+    border:1px solid var(--border);
+    border-radius:999px;
+    padding:2px 9px;
+    letter-spacing:normal;
+    text-transform:none;
+  }
+
+  .card{
+    background:var(--surface);
+    border:1px solid var(--border);
+    border-radius:12px;
+    padding:18px 20px 18px;
+    box-shadow:var(--shadow);
+    display:flex;
+    flex-direction:column;
+    gap:12px;
+  }
+  .card-num{
+    font-family:"Petrona", Georgia, serif;
+    font-style:italic;
+    font-weight:600;
+    color:var(--ink-faint);
+    font-size:0.95rem;
+  }
+  .q-text{
+    font-size:0.96rem;
+    color:var(--ink);
+  }
+  .q-text .g{ font-family:"JetBrains Mono", monospace; font-size:0.92em; }
+
+  .answer-box{
+    display:flex;
+    align-items:center;
+    gap:12px;
+    border:1.5px solid var(--border);
+    border-radius:8px;
+    background:var(--surface-alt);
+    padding:6px 14px;
+  }
+  .answer-box .ab-label{
+    font-family:"JetBrains Mono", monospace;
+    font-size:0.68rem;
+    letter-spacing:0.08em;
+    text-transform:uppercase;
+    color:var(--ink-faint);
+    flex-shrink:0;
+  }
+  .grade-note{
+    font-family:"Public Sans", sans-serif;
+    font-size:0.85rem;
+    color:var(--ink-muted);
+    border-left:2px solid var(--border);
+    padding-left:12px;
+  }
+  .grade-note b{ color:var(--ink); }
+
+  .diagram{
+    background:var(--surface-alt);
+    border:1px solid var(--border);
+    border-radius:8px;
+    padding:10px;
+    margin-top:8px;
+    display:flex;
+    justify-content:flex-start;
+    overflow-x:auto;
+  }
+  .diagram svg{ max-width:100%; height:auto; display:block; }
+  .diagram table{
+    border-collapse:collapse;
+    font-family:"JetBrains Mono", monospace;
+    font-size:0.78rem;
+    font-variant-numeric: tabular-nums;
+  }
+  .diagram th, .diagram td{
+    border:1px solid var(--border);
+    padding:4px 9px;
+    text-align:center;
+  }
+  .diagram th{ color:var(--ink-faint); font-weight:500; background:var(--surface); }
+  .diagram .stemleaf{
+    font-family:"JetBrains Mono", monospace;
+    font-size:0.85rem;
+    border-collapse:collapse;
+  }
+  .diagram .stemleaf td{ border:none; padding:2px 10px; text-align:left; }
+  .diagram .stemleaf .stem{ text-align:right; color:var(--ink-faint); border-right:2px solid var(--ink-faint); padding-right:10px; }
+  .diagram figure{ margin:0; }
+  .diagram figcaption{ font-size:0.72rem; color:var(--ink-faint); margin-top:6px; }
+  .cube-label{ font-family:"JetBrains Mono", monospace; font-size:0.7rem; margin-top:3px; color:var(--ink-muted); }
+
+  .tape{ display:flex; flex-direction:column; gap:3px; width:180px; }
+  .tape-boxes{ display:flex; width:100%; align-items:stretch; gap:1px; }
+  .tape-boxes .box{ flex:1; border:1px solid currentColor; opacity:0.82; text-align:center; font-family:"JetBrains Mono", monospace; font-size:0.68rem; padding:3px 0; }
+  .tape-boxes .mult-label{ flex:0 0 auto; font-size:0.65rem; align-self:center; padding-right:3px; opacity:0.82; }
+  .tape-brackets{ display:flex; width:100%; gap:1px; }
+  .tape-brackets .seg{ border-top:1.5px solid currentColor; text-align:center; font-size:0.63rem; padding-top:2px; opacity:0.82; }
+
+  footer{
+    margin-top:60px;
+    padding-top:22px;
+    border-top:1px solid var(--border);
+    color:var(--ink-faint);
+    font-size:0.8rem;
+  }
+</style>
+<div class="wrap">
+
+  <header class="hero">
+    <div class="eyebrow">ISEE Math Practice &middot; Answer Key</div>
+    <h1>Redo Set 14 <span style="font-size:0.5em; color:var(--ink-faint); font-weight:500;">&middot; for parent/coach use only</span></h1>
+    <p class="lede">Answer key for <code>redo-set-14.html</code> (15 problems).</p>
+  </header>
+
+  <div class="cards">
+      <div class="group-title"><span class="group-title-n">4</span> Know Your Metric &amp; Percent Facts</div>
+      <div class="card">
+        <div class="card-num">Problem 1</div>
+        <div class="q-text">1 kilogram is equal to how many grams?</div>
+        <div class="answer-box"><span class="ab-label">Answer</span><span style="font-family:'JetBrains Mono',monospace;font-weight:700;color:var(--accent-ink);">1000</span></div>
+        <div class="grade-note"><b>Why:</b> &ldquo;Kilo-&rdquo; always means 1,000 &mdash; worth knowing as a pure fact, not something to recalculate every time. 1 kilogram = 1,000 grams.</div>
+      </div>
+      <div class="card">
+        <div class="card-num">Problem 2</div>
+        <div class="q-text">1 liter is equal to how many milliliters?</div>
+        <div class="answer-box"><span class="ab-label">Answer</span><span style="font-family:'JetBrains Mono',monospace;font-weight:700;color:var(--accent-ink);">1000</span></div>
+        <div class="grade-note"><b>Why:</b> Same fact, different unit: &ldquo;kilo-&rdquo; means 1,000, so 1 liter = 1,000 milliliters.</div>
+      </div>
+      <div class="card">
+        <div class="card-num">Problem 3</div>
+        <div class="q-text">1 meter is equal to how many centimeters?</div>
+        <div class="answer-box"><span class="ab-label">Answer</span><span style="font-family:'JetBrains Mono',monospace;font-weight:700;color:var(--accent-ink);">100</span></div>
+        <div class="grade-note"><b>Why:</b> &ldquo;Centi-&rdquo; means 1/100, so it takes 100 centimeters to make 1 meter.</div>
+      </div>
+      <div class="card">
+        <div class="card-num">Problem 4</div>
+        <div class="q-text">1 whole is equal to what percent?</div>
+        <div class="answer-box"><span class="ab-label">Answer</span><span style="font-family:'JetBrains Mono',monospace;font-weight:700;color:var(--accent-ink);">100</span></div>
+        <div class="grade-note"><b>Why:</b> 100% means the whole thing. This is the anchor fact every percent problem builds on &mdash; if a problem ever gives you &ldquo;the whole,&rdquo; that&rsquo;s 100%.</div>
+      </div>
+      <div class="group-title"><span class="group-title-n">2</span> Off by a Factor of 10 &mdash; One More Check</div>
+      <div class="card">
+        <div class="card-num">Problem 5</div>
+        <div class="q-text">How many grams are in 3.6 kilograms?</div>
+        <div class="answer-box"><span class="ab-label">Answer</span><span style="font-family:'JetBrains Mono',monospace;font-weight:700;color:var(--accent-ink);">A (3,600 grams)</span></div>
+        <div class="grade-note"><b>Why:</b> 1 kilogram = 1,000 grams, so 3.6 kg = 3.6&times;1,000 = 3,600 grams.</div>
+      </div>
+      <div class="card">
+        <div class="card-num">Problem 6</div>
+        <div class="q-text">7,000 milliliters is equal to how many kiloliters?</div>
+        <div class="answer-box"><span class="ab-label">Answer</span><span style="font-family:'JetBrains Mono',monospace;font-weight:700;color:var(--accent-ink);">B (0.007 kiloliters)</span></div>
+        <div class="grade-note"><b>Why:</b> 1 kiloliter = 1,000,000 milliliters, so 7,000&divide;1,000,000 = 0.007 kiloliters.</div>
+      </div>
+      <div class="group-title"><span class="group-title-n">1</span> Multi-Step Conversion &mdash; One More Check</div>
+      <div class="card">
+        <div class="card-num">Problem 7</div>
+        <div class="q-text">How many milligrams are in 0.08 kilograms?</div>
+        <div class="answer-box"><span class="ab-label">Answer</span><span style="font-family:'JetBrains Mono',monospace;font-weight:700;color:var(--accent-ink);">C (80,000 milligrams)</span></div>
+        <div class="grade-note"><b>Why:</b> 0.08 kg = 80 g (kg&rarr;g is &times;1,000). Then 80 g = 80,000 mg (g&rarr;mg is &times;1,000 again). Two hops, not one.</div>
+      </div>
+      <div class="group-title"><span class="group-title-n">2</span> Percent, Both Directions</div>
+      <div class="card">
+        <div class="card-num">Problem 8</div>
+        <div class="q-text">What is 5% of 840?</div>
+        <div class="answer-box"><span class="ab-label">Answer</span><span style="font-family:'JetBrains Mono',monospace;font-weight:700;color:var(--accent-ink);">D (42)</span></div>
+        <div class="grade-note"><b>Why:</b> 5% of 840 = 0.05&times;840 = 42.</div>
+      </div>
+      <div class="card">
+        <div class="card-num">Problem 9</div>
+        <div class="q-text">8 is what percent of 40?</div>
+        <div class="answer-box"><span class="ab-label">Answer</span><span style="font-family:'JetBrains Mono',monospace;font-weight:700;color:var(--accent-ink);">A (20%)</span></div>
+        <div class="grade-note"><b>Why:</b> 8&divide;40=0.2=20%.</div>
+      </div>
+      <div class="group-title"><span class="group-title-n">1</span> Answering the Complement, Not the Target</div>
+      <div class="card">
+        <div class="card-num">Problem 10</div>
+        <div class="q-text">A drawer has 15 socks, and 6 of them are white. If one sock is picked at random, what is the chance it will be white?</div>
+        <div class="answer-box"><span class="ab-label">Answer</span><span style="font-family:'JetBrains Mono',monospace;font-weight:700;color:var(--accent-ink);">B (2/5)</span></div>
+        <div class="grade-note"><b>Why:</b> 6 of 15 is 6/15=2/5. Picking 3/5 would be the chance of NOT getting white (the complement) &mdash; always double-check which outcome the question actually asked for.</div>
+      </div>
+      <div class="group-title"><span class="group-title-n">5</span> Sticky Gap &mdash; Estimation: Matching the Bucket</div>
+      <div class="card">
+        <div class="card-num">Problem 11</div>
+        <div class="q-text">What is a reasonable estimation for the value of 42&times;518&divide;21?</div>
+        <div class="answer-box"><span class="ab-label">Answer</span><span style="font-family:'JetBrains Mono',monospace;font-weight:700;color:var(--accent-ink);">C (between 1,000 and 1,500)</span></div>
+        <div class="grade-note"><b>Why:</b> 42 is about 40, 518 is about 500, 21 stays about 21&hellip;or more simply, 42&divide;21=2, so this is close to 2&times;518=1,036, solidly inside 1,000&ndash;1,500.</div>
+      </div>
+      <div class="card">
+        <div class="card-num">Problem 12</div>
+        <div class="q-text">Maria bought a jacket for $45.49, two scarves that each cost $8.99, and a hat for $12.49. What is the estimated total cost of Maria&rsquo;s items?</div>
+        <div class="answer-box"><span class="ab-label">Answer</span><span style="font-family:'JetBrains Mono',monospace;font-weight:700;color:var(--accent-ink);">D (in between $75 and $80)</span></div>
+        <div class="grade-note"><b>Why:</b> Round each price: jacket &asymp;$45, scarves &asymp;2&times;$9=$18, hat &asymp;$12. Total &asymp;$45+$18+$12=$75. The exact total is $75.96, inside $75&ndash;80.</div>
+      </div>
+      <div class="card">
+        <div class="card-num">Problem 13</div>
+        <div class="q-text">A reservoir holds 64,400 gallons of water. Which of the following tanks holds an amount closest to 1/4 that of the reservoir?</div>
+        <div class="answer-box"><span class="ab-label">Answer</span><span style="font-family:'JetBrains Mono',monospace;font-weight:700;color:var(--accent-ink);">A (Tank R, which holds 15,600 gallons)</span></div>
+        <div class="grade-note"><b>Why:</b> 1/4 of 64,400 is 16,100 gallons. Check the DISTANCE from 16,100 for each choice: Tank R is only 500 away, the closest of the four.</div>
+      </div>
+      <div class="card">
+        <div class="card-num">Problem 14</div>
+        <div class="q-text">During a 4-month period, Jake&rsquo;s phone bills were $52.25, $48.90, $61.15, and $55.40. What is the closest approximation of the total cost of Jake&rsquo;s combined phone bills?</div>
+        <div class="answer-box"><span class="ab-label">Answer</span><span style="font-family:'JetBrains Mono',monospace;font-weight:700;color:var(--accent-ink);">B ($220)</span></div>
+        <div class="grade-note"><b>Why:</b> Round each bill to the nearest dollar: 52+49+61+55=217, closest to $220.</div>
+      </div>
+      <div class="card">
+        <div class="card-num">Problem 15</div>
+        <div class="q-text">Mr. Alvarez had 95 notebooks in a supply closet. He adds 24 more boxes of notebooks, with each box containing 15 notebooks. The expression 95+(24&times;15) represents the exact number of notebooks now. Which of these is the best estimate of the number of notebooks in the supply closet?</div>
+        <div class="answer-box"><span class="ab-label">Answer</span><span style="font-family:'JetBrains Mono',monospace;font-weight:700;color:var(--accent-ink);">C (500)</span></div>
+        <div class="grade-note"><b>Why:</b> 24&times;15=360, plus 95=455. Between 400 and 500, 455 is closer to 500 (only 45 away, vs. 55 away from 400).</div>
+      </div>
+  </div>
+
+  <footer>Built for Hannah &middot; ISEE Math Practice</footer>
+</div>
