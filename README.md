@@ -40,7 +40,7 @@ worksheets/       Generated HTML study tools
   redo-set-12-answer-key.html                Answer key for redo-set-12.html &mdash; for parent/coach use only
   redo-set-13.html                          31 exact-repeat problems, personally re-verified against source images after an earlier pass fabricated some content
   redo-set-13-answer-key.html                Answer key for redo-set-13.html &mdash; for parent/coach use only
-  redo-set-14.html                          15 light problems for the day before the test: fact recall plus fresh checks on what redo-set-13 found still wrong
+  redo-set-14.html                          9 realistic problems for the day before the test: fresh checks on exactly what redo-set-13 found still wrong
   redo-set-14-answer-key.html                Answer key for redo-set-14.html &mdash; for parent/coach use only
 ```
 
@@ -170,13 +170,15 @@ The answer key for `redo-set-13.html`: correct answer and a "Why" for each of th
 
 ### `worksheets/redo-set-14.html`
 
-15 problems, deliberately kept light for the last day before the real test. A real redo-set-13 attempt came back with 9 of 31 wrong, spread across nearly every major gap found that day (off-by-10, multi-step conversion, reverse-percent, the complement-confusion group, and 3 more estimation misses) &mdash; including both self-corrected off-by-10 problems, which were wrong again with no self-correction this time. One miss in particular ("2.4 kg = 240 g" instead of 2,400) suggested the issue might be more fundamental than a calculation slip: not having the metric prefix values (kilo=1,000, centi=1/100) fully memorized as pure facts.
+9 problems, deliberately kept short for the last day before the real test. A real redo-set-13 attempt came back with 9 of 31 wrong, spread across nearly every major gap found that day (off-by-10, multi-step conversion, reverse-percent, the complement-confusion group, and 3 more estimation misses) &mdash; including both self-corrected off-by-10 problems, which were wrong again with no self-correction this time.
 
-Six short groups: 4 pure fact-recall questions (no word problems) testing exactly that theory, then fresh-number versions of each thing that just came back wrong &mdash; 2 off-by-10, 1 multi-step conversion, 2 percent (one each direction), 1 complement-confusion, and 5 estimation (weighted heaviest, since it remains the single biggest gap). Not meant to be comprehensive &mdash; just the highest-value 15 for one last check-in.
+An earlier draft of this file also included 4 pure fact-recall questions ("1 kilogram is equal to how many grams?") to test a theory about the root cause, after one miss ("2.4 kg = 240 g" instead of 2,400) suggested the issue might be not having the metric prefix values fully memorized as pure facts. Those were cut: a trivia-style fact check doesn't resemble anything on the real test, so it wouldn't give an honest sense of what she's about to face. The final version keeps every problem realistic and full-difficulty, just fewer of them.
+
+Five short groups, all fresh numbers on exactly what came back wrong on redo-set-13: 2 off-by-10, 1 multi-step conversion, 2 percent (one each direction), 1 complement-confusion, and 3 estimation (the single biggest gap, so it keeps the most reps, covering three different estimation sub-types rather than padding with similar ones). Not meant to be comprehensive &mdash; just the highest-value 9 for one last check-in.
 
 ### `worksheets/redo-set-14-answer-key.html`
 
-The answer key for `redo-set-14.html`: correct answer and a "Why" for each of the 15 problems, grouped the same way as the worksheet.
+The answer key for `redo-set-14.html`: correct answer and a "Why" for each of the 9 problems, grouped the same way as the worksheet.
 
 ## Working on this repo with Claude Code
 
