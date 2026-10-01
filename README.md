@@ -40,7 +40,7 @@ worksheets/       Generated HTML study tools
   redo-set-12-answer-key.html                Answer key for redo-set-12.html &mdash; for parent/coach use only
   redo-set-13.html                          31 exact-repeat problems, personally re-verified against source images after an earlier pass fabricated some content
   redo-set-13-answer-key.html                Answer key for redo-set-13.html &mdash; for parent/coach use only
-  redo-set-14.html                          9 realistic problems for the day before the test: fresh checks on exactly what redo-set-13 found still wrong
+  redo-set-14.html                          15 realistic problems for the day before the test: fresh checks on what redo-set-13 found still wrong, plus two more confirmed gaps
   redo-set-14-answer-key.html                Answer key for redo-set-14.html &mdash; for parent/coach use only
 ```
 
@@ -170,15 +170,17 @@ The answer key for `redo-set-13.html`: correct answer and a "Why" for each of th
 
 ### `worksheets/redo-set-14.html`
 
-9 problems, deliberately kept short for the last day before the real test. A real redo-set-13 attempt came back with 9 of 31 wrong, spread across nearly every major gap found that day (off-by-10, multi-step conversion, reverse-percent, the complement-confusion group, and 3 more estimation misses) &mdash; including both self-corrected off-by-10 problems, which were wrong again with no self-correction this time.
+15 problems, kept to well under half of a usual 30-problem set for the last day before the real test. A real redo-set-13 attempt came back with 9 of 31 wrong, spread across nearly every major gap found that day (off-by-10, multi-step conversion, reverse-percent, the complement-confusion group, and 3 more estimation misses) &mdash; including both self-corrected off-by-10 problems, which were wrong again with no self-correction this time.
 
-An earlier draft of this file also included 4 pure fact-recall questions ("1 kilogram is equal to how many grams?") to test a theory about the root cause, after one miss ("2.4 kg = 240 g" instead of 2,400) suggested the issue might be not having the metric prefix values fully memorized as pure facts. Those were cut: a trivia-style fact check doesn't resemble anything on the real test, so it wouldn't give an honest sense of what she's about to face. The final version keeps every problem realistic and full-difficulty, just fewer of them.
+An earlier draft of this file also included 4 pure fact-recall questions ("1 kilogram is equal to how many grams?") to test a theory about the root cause, after one miss ("2.4 kg = 240 g" instead of 2,400) suggested the issue might be not having the metric prefix values fully memorized as pure facts. Those were cut: a trivia-style fact check doesn't resemble anything on the real test, so it wouldn't give an honest sense of what she's about to face. Every problem stays realistic and full-difficulty.
 
-Five short groups, all fresh numbers on exactly what came back wrong on redo-set-13: 2 off-by-10, 1 multi-step conversion, 2 percent (one each direction), 1 complement-confusion, and 3 estimation (the single biggest gap, so it keeps the most reps, covering three different estimation sub-types rather than padding with similar ones). Not meant to be comprehensive &mdash; just the highest-value 9 for one last check-in.
+The file started at 9 problems (the bare minimum re-test of what came back wrong on redo-set-13), then was expanded back to 15 once it was clear 15 is still well under half her usual load: 6 more problems were added for two additional gap categories already confirmed elsewhere in her history but not re-tested since (decimal/fraction&rarr;percent conversion, and one more complement-confusion instance), rather than opening a new, unverified research hunt the night before the test.
+
+Six short groups, all fresh numbers on confirmed gaps: 2 off-by-10, 1 multi-step conversion, 2 percent (one each direction), 3 decimal/fraction&rarr;percent conversion, 2 complement-confusion, and 5 estimation (the single biggest gap, so it keeps the most reps, covering four different estimation sub-types rather than padding with similar ones). Not meant to be fully comprehensive of every gap ever found &mdash; topics already proven solid on recent attempts (e.g. cube/scale-factor, which she got right on redo-set-13) are intentionally skipped.
 
 ### `worksheets/redo-set-14-answer-key.html`
 
-The answer key for `redo-set-14.html`: correct answer and a "Why" for each of the 9 problems, grouped the same way as the worksheet.
+The answer key for `redo-set-14.html`: correct answer and a "Why" for each of the 15 problems, grouped the same way as the worksheet.
 
 ## Working on this repo with Claude Code
 
