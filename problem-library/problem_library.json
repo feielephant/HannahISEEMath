@@ -5112,7 +5112,9 @@
   "real_test_signal": "no-signal",
   "is_wrong": true,
   "source": "isee_official_screenshot",
-  "is_full_test": true
+  "is_full_test": true,
+  "platform_solution": "Correct answer A (1). If the sum of two two-digit numbers is a three-digit number, the hundreds digit must be 1 (largest possible sum 99+99=198). The sum has the form CDE, so C = 1. Example: 77+55=132.",
+  "platform_follow_up_exercise": "Interpreting Pictographs"
  },
  {
   "source_file": "Screenshot 2026-10-02 at 11.40.57 AM.png",
