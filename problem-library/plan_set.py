@@ -42,8 +42,20 @@ for tier, n in MIX.items():
     for t in pick(tier, n):
         slots.append({"tier": tier, "topic": t["topic"], "priority": t.get("priority"), "habits": t.get("habits", [])})
 
-# ramp difficulty: harder items later in the set (small noise so it is not a rigid sort)
-slots.sort(key=lambda s: RANK[s["tier"]] + random.uniform(0, 1.0))
+# soft ramp matched to real tests: ~2 Hard in first half, ~5 in second half; the rest shuffle freely
+hard = [s for s in slots if s["tier"] == "Hard"]
+rest = [s for s in slots if s["tier"] != "Hard"]
+random.shuffle(rest)
+first_hard, second_hard = hard[:2], hard[2:]
+first_pos = sorted(random.sample(range(19), 2))
+second_pos = sorted(random.sample(range(19, 38), len(second_hard)))
+ordered = [None] * 38
+for pos, h in zip(first_pos + second_pos, first_hard + second_hard):
+    ordered[pos] = h
+free = [i for i in range(38) if ordered[i] is None]
+for i, r in zip(free, rest):
+    ordered[i] = r
+slots = ordered
 
 # balanced answer letters: 10/10/9/9, then shuffled, avoid 3 identical in a row
 letters = ["A"]*10 + ["B"]*10 + ["C"]*9 + ["D"]*9

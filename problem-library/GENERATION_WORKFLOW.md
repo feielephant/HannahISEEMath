@@ -23,7 +23,7 @@ Purpose: generate 38-problem Quantitative Reasoning practice sets (matched to th
 
 ## Set-shape rules (added 2026-10-02)
 - Answer letters: balanced A/B/C/D (10/10/9/9 across 38), no three identical letters in a row. The planner assigns them.
-- Difficulty ramp: harder problems come later. Real tests show Hard share rising from ~5–9% in the first half to ~17–21% in the second half. The planner puts all Hard slots in the second half.
+- Difficulty: a soft ramp, not a rule. Real tests show Hard share ~5–9% in the first half and ~17–21% in the second. The planner places ~2 Hard slots in the first half and ~5 in the second; Easy and Medium shuffle freely.
 - Diagrams: about 55% of real questions include a diagram, chart, or table, so ~21 of 38 slots are diagram slots. Build the diagram as an inline SVG or table in the same style as the real test (bar graph, number line, shaded figure, composite shape), not as a text description.
 - Each slot carries a reference (wrong_so_far, graded_so_far, times_practised_before, last_practised_set). Mention the relevant habit and gap in the answer key so she sees why each problem is there.
 
