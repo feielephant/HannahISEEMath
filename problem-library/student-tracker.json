@@ -1,0 +1,240 @@
+{
+ "student": "Hannah",
+ "updated": "2026-10-02",
+ "test_format": {
+  "problems": 38,
+  "minutes": 35,
+  "choices_per_problem": 4,
+  "section": "Quantitative Reasoning"
+ },
+ "real_tier_mix_from_8_tests": {
+  "Easy": 0.28,
+  "Medium": 0.53,
+  "Hard": 0.16,
+  "unmatched": 0.03
+ },
+ "topics": [
+  {
+   "topic": "Percent Word Problems",
+   "tier": "Hard",
+   "real_tests": 6,
+   "wrong": 8,
+   "graded": 25,
+   "habits": [
+    "check-every-condition",
+    "exact-thing-asked"
+   ],
+   "priority": "high"
+  },
+  {
+   "topic": "Area and Perimeter of Complex Polygons",
+   "tier": "Hard",
+   "real_tests": 6,
+   "wrong": 4,
+   "graded": 10,
+   "habits": [
+    "check-every-condition"
+   ],
+   "priority": "high"
+  },
+  {
+   "topic": "Translating Math Expressions",
+   "tier": "Hard",
+   "real_tests": 8,
+   "wrong": 5,
+   "graded": 23,
+   "habits": [
+    "key-word-watch"
+   ],
+   "priority": "high"
+  },
+  {
+   "topic": "Solving Problems with Geometric Formulas",
+   "tier": "Hard",
+   "real_tests": 4,
+   "wrong": 2,
+   "graded": 5,
+   "habits": [],
+   "priority": "medium"
+  },
+  {
+   "topic": "Fractional Parts Word Problems",
+   "tier": "Hard",
+   "real_tests": 4,
+   "wrong": 1,
+   "graded": 5,
+   "habits": [
+    "exact-thing-asked"
+   ],
+   "priority": "medium"
+  },
+  {
+   "topic": "Converting to a Decimal",
+   "tier": "Hard",
+   "real_tests": 8,
+   "wrong": 5,
+   "graded": 31,
+   "habits": [],
+   "priority": "medium"
+  },
+  {
+   "topic": "Equivalent Fractions, Decimals, and Percents",
+   "tier": "Hard",
+   "real_tests": 6,
+   "wrong": 2,
+   "graded": 11,
+   "habits": [
+    "key-word-watch"
+   ],
+   "priority": "medium"
+  },
+  {
+   "topic": "Finding Ratios, given Probability",
+   "tier": "Hard",
+   "real_tests": 6,
+   "wrong": 2,
+   "graded": 12,
+   "habits": [
+    "check-every-condition"
+   ],
+   "priority": "medium"
+  },
+  {
+   "topic": "Measurement Scaling",
+   "tier": "Hard",
+   "real_tests": 6,
+   "wrong": 2,
+   "graded": 17,
+   "habits": [],
+   "priority": "medium"
+  },
+  {
+   "topic": "Determining Averages between Points on Number Lines",
+   "tier": "Hard",
+   "real_tests": 3,
+   "wrong": 2,
+   "graded": 13,
+   "habits": [
+    "exact-thing-asked"
+   ],
+   "priority": "medium"
+  },
+  {
+   "topic": "Number of Unique Paths, Diagonals",
+   "tier": "Hard",
+   "real_tests": 3,
+   "wrong": 0,
+   "graded": 3,
+   "habits": [],
+   "priority": "low"
+  },
+  {
+   "topic": "Counting Multiples within a Range",
+   "tier": "Hard",
+   "real_tests": 2,
+   "wrong": 0,
+   "graded": 3,
+   "habits": [
+    "check-every-condition",
+    "use-all-data"
+   ],
+   "priority": "medium"
+  },
+  {
+   "topic": "Equilateral Triangles",
+   "tier": "Hard",
+   "real_tests": 2,
+   "wrong": 0,
+   "graded": 2,
+   "habits": [],
+   "priority": "low"
+  },
+  {
+   "topic": "Multi-step Solving Equations",
+   "tier": "Hard",
+   "real_tests": 2,
+   "wrong": 0,
+   "graded": 10,
+   "habits": [],
+   "priority": "low"
+  },
+  {
+   "topic": "Angles in Triangles",
+   "tier": "Hard",
+   "real_tests": 7,
+   "wrong": 2,
+   "graded": 24,
+   "habits": [],
+   "priority": "maintain"
+  },
+  {
+   "topic": "Area of Triangles",
+   "tier": "Hard",
+   "real_tests": 7,
+   "wrong": 1,
+   "graded": 11,
+   "habits": [],
+   "priority": "maintain"
+  },
+  {
+   "topic": "Multi-step unit conversion (off-by-10, multi-step)",
+   "tier": "Medium",
+   "real_tests": null,
+   "wrong": null,
+   "graded": null,
+   "habits": [
+    "exact-thing-asked"
+   ],
+   "priority": "high",
+   "note": "7/10 multi-step wrong on Elevate Prep drill p.144; off-by-10 confirmed"
+  },
+  {
+   "topic": "Estimation (sums, products, money, ranges)",
+   "tier": "Medium",
+   "real_tests": null,
+   "wrong": 4,
+   "graded": 10,
+   "habits": [
+    "compute-both-sides"
+   ],
+   "priority": "high",
+   "note": "biggest gap by count on official tests"
+  },
+  {
+   "topic": "Divisibility / number constraints (Serena/Who am I style)",
+   "tier": "Medium",
+   "real_tests": null,
+   "wrong": 4,
+   "graded": 12,
+   "habits": [
+    "check-every-condition",
+    "use-all-data"
+   ],
+   "priority": "high"
+  },
+  {
+   "topic": "Cryptarithm / digit substitution",
+   "tier": "Hard",
+   "real_tests": null,
+   "wrong": 1,
+   "graded": 2,
+   "habits": [
+    "exact-thing-asked"
+   ],
+   "priority": "medium",
+   "note": "platform links this to Interpreting Pictographs"
+  },
+  {
+   "topic": "Key-word NOT in equivalence questions",
+   "tier": "Easy",
+   "real_tests": null,
+   "wrong": 4,
+   "graded": 4,
+   "habits": [
+    "key-word-watch"
+   ],
+   "priority": "high",
+   "note": "4/4 wrong on 'Which value is NOT equivalent' drill"
+  }
+ ]
+}
