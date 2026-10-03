@@ -21,6 +21,12 @@ Purpose: generate 38-problem Quantitative Reasoning practice sets (matched to th
 4. Build the worksheet (no answers shown) and a separate answer key. Add a 35-minute timer.
 5. After she takes the set, grade it and update student-tracker.json: wrong counts per topic, last practiced, and any new habit evidence.
 
+## Set-shape rules (added 2026-10-02)
+- Answer letters: balanced A/B/C/D (10/10/9/9 across 38), no three identical letters in a row. The planner assigns them.
+- Difficulty ramp: harder problems come later. Real tests show Hard share rising from ~5–9% in the first half to ~17–21% in the second half. The planner puts all Hard slots in the second half.
+- Diagrams: about 55% of real questions include a diagram, chart, or table, so ~21 of 38 slots are diagram slots. Build the diagram as an inline SVG or table in the same style as the real test (bar graph, number line, shaded figure, composite shape), not as a text description.
+- Each slot carries a reference (wrong_so_far, graded_so_far, times_practised_before, last_practised_set). Mention the relevant habit and gap in the answer key so she sees why each problem is there.
+
 ## Targeting rule
 - High-priority topics appear more often; "maintain" topics appear at least once every 3 sets so strong skills don't fade.
 - No topic appears more than 3 times in one set.

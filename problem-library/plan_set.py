@@ -1,46 +1,72 @@
-import json, random, sys, os
+import json, random, os
+from collections import Counter
 HERE = os.path.dirname(os.path.abspath(__file__))
 tracker = json.load(open(os.path.join(HERE, 'student-tracker.json')))
+banks = json.load(open(os.path.join(HERE, 'problem-library-banks.json')))
 log_path = os.path.join(HERE, 'practice-log.json')
 log = json.load(open(log_path)) if os.path.exists(log_path) else {"sets": []}
 
 WEIGHT = {"high": 3, "medium": 2, "low": 1, "maintain": 1, "unknown": 1}
+RANK = {"Easy": 1, "Medium": 2, "Hard": 3}
 set_no = len(log["sets"]) + 1
-last_seen = {}
+random.seed(set_no)
+
+last_seen, times = {}, Counter()
 for s in log["sets"]:
     for t in s["topics"]:
-        last_seen[t] = s["set_no"]
+        last_seen[t] = s["set_no"]; times[t] += 1
 
-random.seed(set_no)
-slots = []
-TOTAL = 38
-MIX = {"Easy": 11, "Medium": 20, "Hard": 7}  # ~28/53/16 of 38, rounded
-topics_by_tier = {}
-for t in tracker["topics"]:
-    topics_by_tier.setdefault(t["tier"], []).append(t)
-banks = json.load(open(os.path.join(HERE, 'problem-library-banks.json')))
-tracked = {t["topic"] for t in tracker["topics"]}
-for tier, names in banks.items():
-    for nm in names:
-        if nm not in tracked:
-            topics_by_tier.setdefault(tier, []).append({"topic": nm, "tier": tier, "priority": "unknown"})
+tracked = {t["topic"]: t for t in tracker["topics"]}
+pools = {}
+for tier in ["Easy", "Medium", "Hard"]:
+    pools[tier] = [tracked.get(n, {"topic": n, "tier": tier, "priority": "unknown", "habits": []}) for n in banks[tier]]
+    pools[tier] += [t for t in tracker["topics"] if t["tier"] == tier and t["topic"] not in banks[tier]]
 
-for tier, n in MIX.items():
-    pool = topics_by_tier.get(tier, [])
-    # rotation: topics not practised in the last 2 sets get a boost, so strong topics keep getting reps
+MIX = {"Easy": 11, "Medium": 20, "Hard": 7}
+def pick(tier, n):
     def score(t):
         gap = set_no - last_seen.get(t["topic"], 0)
-        return WEIGHT[t["priority"]] * (1 + min(gap, 3) * 0.5) * random.uniform(0.8, 1.2)
-    ranked = sorted(pool, key=score, reverse=True)
-    counts = {}
-    for _ in range(n):
+        return WEIGHT[t["priority"]] * (1 + min(gap, 3) * 0.5) * random.uniform(0.8, 1.2) / (1 + times[t["topic"]] * 0.2)
+    ranked = sorted(pools[tier], key=score, reverse=True)
+    counts, out = Counter(), []
+    while len(out) < n:
         for t in ranked:
-            if counts.get(t["topic"], 0) < 3:
-                counts[t["topic"]] = counts.get(t["topic"], 0) + 1
-                slots.append((tier, t["topic"]))
-                break
+            if counts[t["topic"]] < 3:
+                counts[t["topic"]] += 1; out.append(t); break
+        else:
+            break
+    return out
 
-plan = {"set_no": set_no, "slots": [{"n": i+1, "tier": tier, "topic": topic} for i,(tier,topic) in enumerate(slots)]}
-print(json.dumps(plan, indent=1))
-log["sets"].append({"set_no": set_no, "topics": [s[1] for s in slots]})
+slots = []
+for tier, n in MIX.items():
+    for t in pick(tier, n):
+        slots.append({"tier": tier, "topic": t["topic"], "priority": t.get("priority"), "habits": t.get("habits", [])})
+
+# ramp difficulty: harder items later in the set (small noise so it is not a rigid sort)
+slots.sort(key=lambda s: RANK[s["tier"]] + random.uniform(0, 1.0))
+
+# balanced answer letters: 10/10/9/9, then shuffled, avoid 3 identical in a row
+letters = ["A"]*10 + ["B"]*10 + ["C"]*9 + ["D"]*9
+for _ in range(1000):
+    random.shuffle(letters)
+    if not any(letters[i] == letters[i+1] == letters[i+2] for i in range(len(letters)-2)):
+        break
+for s, L in zip(slots, letters):
+    s["correct_letter"] = L
+
+# diagrams: real test is ~55% diagram/chart/table questions -> ~21 of 38
+diag_idx = set(random.sample(range(38), 21))
+for i, s in enumerate(slots):
+    s["needs_diagram"] = i in diag_idx
+    t = tracked.get(s["topic"])
+    s["reference"] = {
+        "wrong_so_far": (t or {}).get("wrong"), "graded_so_far": (t or {}).get("graded"),
+        "times_practised_before": times[s["topic"]], "last_practised_set": last_seen.get(s["topic"]),
+    }
+
+plan = {"set_no": set_no, "slots": [dict(n=i+1, **s) for i, s in enumerate(slots)]}
+log["sets"].append({"set_no": set_no, "topics": [s["topic"] for s in slots]})
 json.dump(log, open(log_path, "w"), indent=1)
+print(json.dumps(plan, indent=1))
+print("letters:", Counter(letters), "diagram slots:", len(diag_idx),
+      "hard in 2nd half:", sum(1 for s in slots[19:] if s["tier"] == "Hard"), "hard in 1st half:", sum(1 for s in slots[:19] if s["tier"] == "Hard"))
