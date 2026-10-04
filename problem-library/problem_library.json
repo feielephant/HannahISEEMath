@@ -21969,5 +21969,4290 @@
   "source": "individual_exercise_screenshot",
   "type": "question",
   "set_name": "Remaining Amount after Reducing by Fractions"
+ },
+ {
+  "source_file": "Screenshot 2026-10-04 at 10.02.21 AM.png",
+  "exercise_topic_guess": "DETERMINING AVERAGES BETWEEN POINTS ON NUMBER LINES #1",
+  "question_number": 1,
+  "question_text": "Use the number line shown to answer the question. T is the average of S and another number. What is the other number?",
+  "diagram_description": "Horizontal number line with arrowheads at both ends. Labeled 0 and 2 beneath the line. Evenly spaced tick marks (about 14 visible, roughly 0.5 unit apart, inferred from 0 to 2 span). Points S and T marked above the line; S and T are unlabeled numerically (approx. positions 1 and 3 by tick spacing, inferred).",
+  "choices": [
+   "2",
+   "3.5",
+   "4",
+   "5"
+  ],
+  "correct_letter": null,
+  "correct_pct": null,
+  "is_wrong": null,
+  "topic_broad": "arithmetic",
+  "topic_specific": "averages between points on number line",
+  "notes": "No green or maroon marker visible. Blue header and nav show set #1, question 1 of 5.",
+  "global_id": 818,
+  "source": "individual_exercise_screenshot",
+  "type": "question",
+  "set_name": "DETERMINING AVERAGES BETWEEN POINTS ON NUMBER LINES #1"
+ },
+ {
+  "source_file": "Screenshot 2026-10-04 at 10.02.25 AM.png",
+  "exercise_topic_guess": "DETERMINING AVERAGES BETWEEN POINTS ON NUMBER LINES #1",
+  "question_number": 2,
+  "question_text": "Use the number line shown to answer the question. T is the average of S and another number. What is the other number?",
+  "diagram_description": "Horizontal number line with arrowheads at both ends. Labeled 0 and 2 beneath the line. Evenly spaced tick marks (roughly 0.5 unit apart, inferred from 0 to 2 span). S above the line between 0 and 2 (near 1.5 by tick position, inferred); T above the line to the right of 2 (near 3 by tick position, inferred).",
+  "choices": [
+   "4",
+   "4.5",
+   "5",
+   "6.5"
+  ],
+  "correct_letter": null,
+  "correct_pct": null,
+  "is_wrong": null,
+  "topic_broad": "arithmetic",
+  "topic_specific": "averages between points on number line",
+  "notes": "No green or maroon marker visible. Question 2 of 5 in set #1.",
+  "global_id": 819,
+  "source": "individual_exercise_screenshot",
+  "type": "question",
+  "set_name": "DETERMINING AVERAGES BETWEEN POINTS ON NUMBER LINES #1"
+ },
+ {
+  "source_file": "Screenshot 2026-10-04 at 10.02.27 AM.png",
+  "exercise_topic_guess": "DETERMINING AVERAGES BETWEEN POINTS ON NUMBER LINES #1",
+  "question_number": 3,
+  "question_text": "Use the number line shown to answer the question. X is the average of U and another number. What is the other number?",
+  "diagram_description": "Horizontal number line with arrowheads at both ends. Labeled 0 and 2 beneath the line. Evenly spaced tick marks (roughly 0.5 unit apart, inferred). U above the line near 0.5 and X above the line near 4.5 (by tick position, inferred; not numerically labeled).",
+  "choices": [
+   "6.5",
+   "7.5",
+   "8",
+   "8.5"
+  ],
+  "correct_letter": null,
+  "correct_pct": null,
+  "is_wrong": null,
+  "topic_broad": "arithmetic",
+  "topic_specific": "averages between points on number line",
+  "notes": "No green or maroon marker visible. Question 3 of 5 in set #1.",
+  "global_id": 820,
+  "source": "individual_exercise_screenshot",
+  "type": "question",
+  "set_name": "DETERMINING AVERAGES BETWEEN POINTS ON NUMBER LINES #1"
+ },
+ {
+  "source_file": "Screenshot 2026-10-04 at 10.02.33 AM.png",
+  "exercise_topic_guess": "DETERMINING AVERAGES BETWEEN POINTS ON NUMBER LINES #1",
+  "question_number": 4,
+  "question_text": "Use the number line shown to answer the question. X is the average of U and another number. What is the other number?",
+  "diagram_description": "Horizontal number line with arrowheads at both ends. Labeled 0 and 2 beneath the line. Evenly spaced tick marks (roughly 0.5 unit apart, inferred). U and X labels bunched together above the line, U slightly left of X (approx. 3.5 and 4 by tick position, inferred).",
+  "choices": [
+   "0.5",
+   "3",
+   "4.5",
+   "5.5"
+  ],
+  "correct_letter": null,
+  "correct_pct": null,
+  "is_wrong": null,
+  "topic_broad": "arithmetic",
+  "topic_specific": "averages between points on number line",
+  "notes": "No green or maroon marker visible. Question 4 of 5 in set #1.",
+  "global_id": 821,
+  "source": "individual_exercise_screenshot",
+  "type": "question",
+  "set_name": "DETERMINING AVERAGES BETWEEN POINTS ON NUMBER LINES #1"
+ },
+ {
+  "source_file": "Screenshot 2026-10-04 at 10.02.38 AM.png",
+  "exercise_topic_guess": "DETERMINING AVERAGES BETWEEN POINTS ON NUMBER LINES #1",
+  "question_number": 5,
+  "question_text": "Use the number line shown to answer the question. X is the average of U and another number. What is the other number?",
+  "diagram_description": "Horizontal number line with arrowheads at both ends. Labeled 0 and 2 beneath the line. Evenly spaced tick marks (roughly 0.5 unit apart, inferred). U above the line near 2.5 and X above the line near 5 (by tick position, inferred; not numerically labeled).",
+  "choices": [
+   "6.5",
+   "7.5",
+   "8.5",
+   "9"
+  ],
+  "correct_letter": null,
+  "correct_pct": null,
+  "is_wrong": null,
+  "topic_broad": "arithmetic",
+  "topic_specific": "averages between points on number line",
+  "notes": "No green or maroon marker visible. Question 5 of 5 in set #1.",
+  "global_id": 822,
+  "source": "individual_exercise_screenshot",
+  "type": "question",
+  "set_name": "DETERMINING AVERAGES BETWEEN POINTS ON NUMBER LINES #1"
+ },
+ {
+  "source_file": "Screenshot 2026-10-04 at 10.03.47 AM.png",
+  "exercise_topic_guess": "EQUIVALENT FRACTIONS, DECIMALS, AND PERCENTS #5",
+  "question_number": 1,
+  "question_text": "Which fraction is equivalent to 0.44?",
+  "diagram_description": "No figure. Text question only.",
+  "choices": [
+   "11/44",
+   "4/11",
+   "4/10",
+   "11/25"
+  ],
+  "correct_letter": null,
+  "correct_pct": null,
+  "is_wrong": null,
+  "topic_broad": "fractions",
+  "topic_specific": "decimal to equivalent fraction",
+  "notes": "No green or maroon marker visible. Test Innovators logo partially visible at top.",
+  "global_id": 823,
+  "source": "individual_exercise_screenshot",
+  "type": "question",
+  "set_name": "EQUIVALENT FRACTIONS, DECIMALS, AND PERCENTS #5"
+ },
+ {
+  "source_file": "Screenshot 2026-10-04 at 10.03.51 AM.png",
+  "exercise_topic_guess": "EQUIVALENT FRACTIONS, DECIMALS, AND PERCENTS #5",
+  "question_number": 2,
+  "question_text": "Which fraction is equivalent to 0.65?",
+  "diagram_description": "No figure. Text question only.",
+  "choices": [
+   "1/65",
+   "13/65",
+   "13/20",
+   "5/6"
+  ],
+  "correct_letter": null,
+  "correct_pct": null,
+  "is_wrong": null,
+  "topic_broad": "fractions",
+  "topic_specific": "decimal to equivalent fraction",
+  "notes": "No green or maroon marker visible.",
+  "global_id": 824,
+  "source": "individual_exercise_screenshot",
+  "type": "question",
+  "set_name": "EQUIVALENT FRACTIONS, DECIMALS, AND PERCENTS #5"
+ },
+ {
+  "source_file": "Screenshot 2026-10-04 at 10.03.55 AM.png",
+  "exercise_topic_guess": "EQUIVALENT FRACTIONS, DECIMALS, AND PERCENTS #5",
+  "question_number": 3,
+  "question_text": "Which fraction is equivalent to 1.5?",
+  "diagram_description": "No figure. Text question only.",
+  "choices": [
+   "2/3",
+   "5/4",
+   "4/3",
+   "3/2"
+  ],
+  "correct_letter": null,
+  "correct_pct": null,
+  "is_wrong": null,
+  "topic_broad": "fractions",
+  "topic_specific": "decimal to equivalent fraction",
+  "notes": "No green or maroon marker visible.",
+  "global_id": 825,
+  "source": "individual_exercise_screenshot",
+  "type": "question",
+  "set_name": "EQUIVALENT FRACTIONS, DECIMALS, AND PERCENTS #5"
+ },
+ {
+  "source_file": "Screenshot 2026-10-04 at 10.03.59 AM.png",
+  "exercise_topic_guess": "EQUIVALENT FRACTIONS, DECIMALS, AND PERCENTS #5",
+  "question_number": 4,
+  "question_text": "Which fraction is equivalent to 2.5?",
+  "diagram_description": "No figure. Text question only.",
+  "choices": [
+   "2/5",
+   "5/3",
+   "5/2",
+   "10/2"
+  ],
+  "correct_letter": null,
+  "correct_pct": null,
+  "is_wrong": null,
+  "topic_broad": "fractions",
+  "topic_specific": "decimal to equivalent fraction",
+  "notes": "No green or maroon marker visible.",
+  "global_id": 826,
+  "source": "individual_exercise_screenshot",
+  "type": "question",
+  "set_name": "EQUIVALENT FRACTIONS, DECIMALS, AND PERCENTS #5"
+ },
+ {
+  "source_file": "Screenshot 2026-10-04 at 10.04.03 AM.png",
+  "exercise_topic_guess": "EQUIVALENT FRACTIONS, DECIMALS, AND PERCENTS #5",
+  "question_number": 5,
+  "question_text": "Which fraction is equivalent to 5.5?",
+  "diagram_description": "No figure. Text question only.",
+  "choices": [
+   "3/2",
+   "9/2",
+   "11/2",
+   "13/2"
+  ],
+  "correct_letter": null,
+  "correct_pct": null,
+  "is_wrong": null,
+  "topic_broad": "fractions",
+  "topic_specific": "decimal to equivalent fraction",
+  "notes": "No green or maroon marker visible.",
+  "global_id": 827,
+  "source": "individual_exercise_screenshot",
+  "type": "question",
+  "set_name": "EQUIVALENT FRACTIONS, DECIMALS, AND PERCENTS #5"
+ },
+ {
+  "source_file": "Screenshot 2026-10-04 at 10.04.19 AM.png",
+  "exercise_topic_guess": "EQUIVALENT FRACTIONS, DECIMALS, AND PERCENTS #4",
+  "question_number": 1,
+  "question_text": "Which fraction is equivalent to 0.06?",
+  "diagram_description": "No figure. Text question only.",
+  "choices": [
+   "1/60",
+   "3/50",
+   "1/6",
+   "6/10"
+  ],
+  "correct_letter": null,
+  "correct_pct": null,
+  "is_wrong": null,
+  "topic_broad": "fractions",
+  "topic_specific": "decimal to equivalent fraction",
+  "notes": "No green or maroon marker visible. Header reads #4.",
+  "global_id": 828,
+  "source": "individual_exercise_screenshot",
+  "type": "question",
+  "set_name": "EQUIVALENT FRACTIONS, DECIMALS, AND PERCENTS #4"
+ },
+ {
+  "source_file": "Screenshot 2026-10-04 at 10.04.24 AM.png",
+  "exercise_topic_guess": "EQUIVALENT FRACTIONS, DECIMALS, AND PERCENTS #4",
+  "question_number": 2,
+  "question_text": "Which fraction is equivalent to 0.3?",
+  "diagram_description": "No figure. Text question only.",
+  "choices": [
+   "1/30",
+   "3/10",
+   "1/3",
+   "3/5"
+  ],
+  "correct_letter": null,
+  "correct_pct": null,
+  "is_wrong": null,
+  "topic_broad": "fractions",
+  "topic_specific": "decimal to equivalent fraction",
+  "notes": "No green or maroon marker visible.",
+  "global_id": 829,
+  "source": "individual_exercise_screenshot",
+  "type": "question",
+  "set_name": "EQUIVALENT FRACTIONS, DECIMALS, AND PERCENTS #4"
+ },
+ {
+  "source_file": "Screenshot 2026-10-04 at 10.04.28 AM.png",
+  "exercise_topic_guess": "EQUIVALENT FRACTIONS, DECIMALS, AND PERCENTS #4",
+  "question_number": 3,
+  "question_text": "Which fraction is equivalent to 0.25?",
+  "diagram_description": "No figure. Text question only.",
+  "choices": [
+   "1/25",
+   "1/5",
+   "1/4",
+   "1/3"
+  ],
+  "correct_letter": null,
+  "correct_pct": null,
+  "is_wrong": null,
+  "topic_broad": "fractions",
+  "topic_specific": "decimal to equivalent fraction",
+  "notes": "No green or maroon marker visible.",
+  "global_id": 830,
+  "source": "individual_exercise_screenshot",
+  "type": "question",
+  "set_name": "EQUIVALENT FRACTIONS, DECIMALS, AND PERCENTS #4"
+ },
+ {
+  "source_file": "Screenshot 2026-10-04 at 10.04.32 AM.png",
+  "exercise_topic_guess": "EQUIVALENT FRACTIONS, DECIMALS, AND PERCENTS #4",
+  "question_number": 4,
+  "question_text": "Which fraction is equivalent to 0.7?",
+  "diagram_description": "No figure. Text question only.",
+  "choices": [
+   "1/70",
+   "7/100",
+   "1/7",
+   "7/10"
+  ],
+  "correct_letter": null,
+  "correct_pct": null,
+  "is_wrong": null,
+  "topic_broad": "fractions",
+  "topic_specific": "decimal to equivalent fraction",
+  "notes": "No green or maroon marker visible.",
+  "global_id": 831,
+  "source": "individual_exercise_screenshot",
+  "type": "question",
+  "set_name": "EQUIVALENT FRACTIONS, DECIMALS, AND PERCENTS #4"
+ },
+ {
+  "source_file": "Screenshot 2026-10-04 at 10.04.36 AM.png",
+  "exercise_topic_guess": "EQUIVALENT FRACTIONS, DECIMALS, AND PERCENTS #4",
+  "question_number": 5,
+  "question_text": "Which fraction is equivalent to 0.37?",
+  "diagram_description": "No figure. Text question only.",
+  "choices": [
+   "1/3",
+   "37/100",
+   "3/8",
+   "3/7"
+  ],
+  "correct_letter": null,
+  "correct_pct": null,
+  "is_wrong": null,
+  "topic_broad": "fractions",
+  "topic_specific": "decimal to equivalent fraction",
+  "notes": "No green or maroon marker visible.",
+  "global_id": 832,
+  "source": "individual_exercise_screenshot",
+  "type": "question",
+  "set_name": "EQUIVALENT FRACTIONS, DECIMALS, AND PERCENTS #4"
+ },
+ {
+  "source_file": "Screenshot 2026-10-04 at 10.10.17 AM.png",
+  "exercise_topic_guess": "FINDING THE FRACTIONAL PART OF A NUMBER #1",
+  "question_number": 3,
+  "question_text": "What is 3/4 of 24?",
+  "diagram_description": "No figure. Text question only.",
+  "choices": [
+   "9",
+   "16",
+   "18",
+   "32"
+  ],
+  "correct_letter": null,
+  "correct_pct": null,
+  "is_wrong": null,
+  "topic_broad": "fractions",
+  "topic_specific": "finding fractional part of a whole number",
+  "notes": "No green or maroon marker visible. Header reads #1.",
+  "global_id": 833,
+  "source": "individual_exercise_screenshot",
+  "type": "question",
+  "set_name": "FINDING THE FRACTIONAL PART OF A NUMBER #1"
+ },
+ {
+  "source_file": "Screenshot 2026-10-04 at 10.10.21 AM.png",
+  "exercise_topic_guess": "FINDING THE FRACTIONAL PART OF A NUMBER #1",
+  "question_number": 4,
+  "question_text": "1/5 of what number is 3?",
+  "diagram_description": "No figure. Text question only.",
+  "choices": [
+   "2",
+   "4",
+   "15",
+   "25"
+  ],
+  "correct_letter": null,
+  "correct_pct": null,
+  "is_wrong": null,
+  "topic_broad": "fractions",
+  "topic_specific": "finding whole from fractional part",
+  "notes": "No green or maroon marker visible. Header reads #1.",
+  "global_id": 834,
+  "source": "individual_exercise_screenshot",
+  "type": "question",
+  "set_name": "FINDING THE FRACTIONAL PART OF A NUMBER #1"
+ },
+ {
+  "source_file": "Screenshot 2026-10-04 at 10.14.40 AM.png",
+  "exercise_topic_guess": "IDENTIFYING INDEPENDENT VS. DEPENDENT EVENTS #1",
+  "question_number": 1,
+  "question_text": "A bag contains a total of 20 marbles. If 3 of the marbles are blue, what is the probability of drawing a blue marble?",
+  "diagram_description": "No figure. Text question only.",
+  "choices": [
+   "3/23",
+   "3/20",
+   "3/17",
+   "17/20"
+  ],
+  "correct_letter": null,
+  "correct_pct": null,
+  "is_wrong": null,
+  "topic_broad": "probability",
+  "topic_specific": "simple probability of an event",
+  "notes": "No green or maroon marker visible.",
+  "global_id": 835,
+  "source": "individual_exercise_screenshot",
+  "type": "question",
+  "set_name": "IDENTIFYING INDEPENDENT VS. DEPENDENT EVENTS #1"
+ },
+ {
+  "source_file": "Screenshot 2026-10-04 at 10.14.43 AM.png",
+  "exercise_topic_guess": "IDENTIFYING INDEPENDENT VS. DEPENDENT EVENTS #1",
+  "question_number": 2,
+  "question_text": "There are 40 cards in a deck. If 13 of the cards are green, what is the probability of drawing a green card?",
+  "diagram_description": "No figure. Text question only.",
+  "choices": [
+   "13/53",
+   "13/40",
+   "13/27",
+   "27/40"
+  ],
+  "correct_letter": null,
+  "correct_pct": null,
+  "is_wrong": null,
+  "topic_broad": "probability",
+  "topic_specific": "simple probability of an event",
+  "notes": "No green or maroon marker visible.",
+  "global_id": 836,
+  "source": "individual_exercise_screenshot",
+  "type": "question",
+  "set_name": "IDENTIFYING INDEPENDENT VS. DEPENDENT EVENTS #1"
+ },
+ {
+  "source_file": "Screenshot 2026-10-04 at 10.14.47 AM.png",
+  "exercise_topic_guess": "IDENTIFYING INDEPENDENT VS. DEPENDENT EVENTS #1",
+  "question_number": 3,
+  "question_text": "A number cube has the numbers 1 - 6 on it. What is the probability of NOT rolling a 5?",
+  "diagram_description": "No figure. Text question only.",
+  "choices": [
+   "1/6",
+   "1/5",
+   "5/6",
+   "5/5"
+  ],
+  "correct_letter": null,
+  "correct_pct": null,
+  "is_wrong": null,
+  "topic_broad": "probability",
+  "topic_specific": "complement probability with number cube",
+  "notes": "No green or maroon marker visible.",
+  "global_id": 837,
+  "source": "individual_exercise_screenshot",
+  "type": "question",
+  "set_name": "IDENTIFYING INDEPENDENT VS. DEPENDENT EVENTS #1"
+ },
+ {
+  "source_file": "Screenshot 2026-10-04 at 10.14.50 AM.png",
+  "exercise_topic_guess": "IDENTIFYING INDEPENDENT VS. DEPENDENT EVENTS #1",
+  "question_number": 4,
+  "question_text": "A pen case contains 24 pens. If 13 of the pens are blue, what is the probability of drawing a pen that is NOT blue?",
+  "diagram_description": "No figure. Text question only.",
+  "choices": [
+   "11/24",
+   "13/24",
+   "11/13",
+   "13/11"
+  ],
+  "correct_letter": null,
+  "correct_pct": null,
+  "is_wrong": null,
+  "topic_broad": "probability",
+  "topic_specific": "complement probability",
+  "notes": "No green or maroon marker visible.",
+  "global_id": 838,
+  "source": "individual_exercise_screenshot",
+  "type": "question",
+  "set_name": "IDENTIFYING INDEPENDENT VS. DEPENDENT EVENTS #1"
+ },
+ {
+  "source_file": "Screenshot 2026-10-04 at 10.14.55 AM.png",
+  "exercise_topic_guess": "IDENTIFYING INDEPENDENT VS. DEPENDENT EVENTS #1",
+  "question_number": 5,
+  "question_text": "A number cube has the numbers 1 - 6 on it. If it is rolled five times, what is the probability that the first roll landed on a 6?",
+  "diagram_description": "No figure. Text question only.",
+  "choices": [
+   "1/6",
+   "1/5",
+   "1/30",
+   "6/30"
+  ],
+  "correct_letter": null,
+  "correct_pct": null,
+  "is_wrong": null,
+  "topic_broad": "probability",
+  "topic_specific": "independent events, repeated rolls",
+  "notes": "No green or maroon marker visible.",
+  "global_id": 839,
+  "source": "individual_exercise_screenshot",
+  "type": "question",
+  "set_name": "IDENTIFYING INDEPENDENT VS. DEPENDENT EVENTS #1"
+ },
+ {
+  "source_file": "Screenshot 2026-10-04 at 10.15.13 AM.png",
+  "exercise_topic_guess": "IDENTIFYING INDEPENDENT VS. DEPENDENT EVENTS #2",
+  "question_number": 1,
+  "question_text": "A deck of thirteen cards has the numbers 1 - 13 written on them. What is the probability of drawing an even numbered card?",
+  "diagram_description": "No figure. Text question only.",
+  "choices": [
+   "6/13",
+   "1/2",
+   "7/13",
+   "6/7"
+  ],
+  "correct_letter": null,
+  "correct_pct": null,
+  "is_wrong": null,
+  "topic_broad": "probability",
+  "topic_specific": "simple probability, even numbers",
+  "notes": "No green or maroon marker visible.",
+  "global_id": 840,
+  "source": "individual_exercise_screenshot",
+  "type": "question",
+  "set_name": "IDENTIFYING INDEPENDENT VS. DEPENDENT EVENTS #2"
+ },
+ {
+  "source_file": "Screenshot 2026-10-04 at 10.15.16 AM.png",
+  "exercise_topic_guess": "IDENTIFYING INDEPENDENT VS. DEPENDENT EVENTS #2",
+  "question_number": 2,
+  "question_text": "An eight-sided number cube has the numbers 1 - 8 on it. What is the probability of rolling a prime number?",
+  "diagram_description": "No figure. Text question only.",
+  "choices": [
+   "1/8",
+   "1/2",
+   "5/8",
+   "3/4"
+  ],
+  "correct_letter": null,
+  "correct_pct": null,
+  "is_wrong": null,
+  "topic_broad": "probability",
+  "topic_specific": "simple probability, prime numbers",
+  "notes": "No green or maroon marker visible.",
+  "global_id": 841,
+  "source": "individual_exercise_screenshot",
+  "type": "question",
+  "set_name": "IDENTIFYING INDEPENDENT VS. DEPENDENT EVENTS #2"
+ },
+ {
+  "source_file": "Screenshot 2026-10-04 at 10.15.19 AM.png",
+  "exercise_topic_guess": "IDENTIFYING INDEPENDENT VS. DEPENDENT EVENTS #2",
+  "question_number": 3,
+  "question_text": "A coin is flipped three times. What is the probability that the first coin landed on heads?",
+  "diagram_description": "No figure. Text question only.",
+  "choices": [
+   "1/8",
+   "1/4",
+   "3/8",
+   "1/2"
+  ],
+  "correct_letter": null,
+  "correct_pct": null,
+  "is_wrong": null,
+  "topic_broad": "probability",
+  "topic_specific": "independent events, coin flips",
+  "notes": "No green or maroon marker visible.",
+  "global_id": 842,
+  "source": "individual_exercise_screenshot",
+  "type": "question",
+  "set_name": "IDENTIFYING INDEPENDENT VS. DEPENDENT EVENTS #2"
+ },
+ {
+  "source_file": "Screenshot 2026-10-04 at 10.15.24 AM.png",
+  "exercise_topic_guess": "IDENTIFYING INDEPENDENT VS. DEPENDENT EVENTS #2",
+  "question_number": 4,
+  "question_text": "An ice chest contains 19 juice boxes that are the same size. If 8 of the juice boxes are apple juice, what is the probability of NOT selecting an apple juice.",
+  "diagram_description": "No figure. Text question only.",
+  "choices": [
+   "8/19",
+   "11/19",
+   "8/11",
+   "11/8"
+  ],
+  "correct_letter": null,
+  "correct_pct": null,
+  "is_wrong": null,
+  "topic_broad": "probability",
+  "topic_specific": "complement probability",
+  "notes": "No green or maroon marker visible. Question text as shown ends with a period after the question mark-less sentence.",
+  "global_id": 843,
+  "source": "individual_exercise_screenshot",
+  "type": "question",
+  "set_name": "IDENTIFYING INDEPENDENT VS. DEPENDENT EVENTS #2"
+ },
+ {
+  "source_file": "Screenshot 2026-10-04 at 10.15.29 AM.png",
+  "exercise_topic_guess": "IDENTIFYING INDEPENDENT VS. DEPENDENT EVENTS #2",
+  "question_number": 5,
+  "question_text": "Jane rolls a 20-sided number block. Each side is numbered 1 - 20. If Jane rolls the number block six times, what is the probability that Jane rolls a 7 on the first roll?",
+  "diagram_description": "No figure. Text question only.",
+  "choices": [
+   "1/120",
+   "7/120",
+   "1/20",
+   "7/20"
+  ],
+  "correct_letter": null,
+  "correct_pct": null,
+  "is_wrong": null,
+  "topic_broad": "probability",
+  "topic_specific": "independent events, repeated rolls",
+  "notes": "No green or maroon marker visible.",
+  "global_id": 844,
+  "source": "individual_exercise_screenshot",
+  "type": "question",
+  "set_name": "IDENTIFYING INDEPENDENT VS. DEPENDENT EVENTS #2"
+ },
+ {
+  "source_file": "Screenshot 2026-10-04 at 10.16.50 AM.png",
+  "exercise_topic_guess": "Fractional Parts Word Problems #1",
+  "question_number": 1,
+  "question_text": "After a week of remodeling the bathroom, 3/5 of the floor has new tile. If the entire bathroom floor is 30 square feet, how much more of the bathroom floor needs tile?",
+  "diagram_description": "No figure. Text question only.",
+  "choices": [
+   "12 square feet",
+   "15 square feet",
+   "18 square feet",
+   "20 square feet"
+  ],
+  "correct_letter": "A",
+  "correct_pct": 76.9,
+  "is_wrong": false,
+  "topic_broad": "fractions",
+  "topic_specific": "fractional part word problem",
+  "notes": "Review screen with Hide Answer / Hide Choices toggles; filter 1-5 nav shown. Green circle on A; no maroon marker. Percentages shown: A 76.9%, B <5.0%, C 16.7%, D <5.0%. No solution panel visible.",
+  "global_id": 845,
+  "source": "individual_exercise_screenshot",
+  "type": "question",
+  "set_name": "Fractional Parts Word Problems #1"
+ },
+ {
+  "source_file": "Screenshot 2026-10-04 at 10.16.54 AM.png",
+  "exercise_topic_guess": "Fractional Parts Word Problems #1",
+  "question_number": 2,
+  "question_text": "Penny has 32 cookies. She gives 3/8 of her cookies to her neighbors. How many cookies does Penny have now?",
+  "diagram_description": "No figure. Text question only.",
+  "choices": [
+   "8",
+   "9",
+   "12",
+   "20"
+  ],
+  "correct_letter": "D",
+  "correct_pct": 76.6,
+  "is_wrong": false,
+  "topic_broad": "fractions",
+  "topic_specific": "fractional part word problem",
+  "notes": "Green circle on D; no maroon marker. Percentages: A <5.0%, B <5.0%, C 18.4%, D 76.6%. Solution panel visible at bottom: 'Solution' / 'Choice D is the correct answer .' (no further text visible).",
+  "global_id": 846,
+  "source": "individual_exercise_screenshot",
+  "type": "question",
+  "set_name": "Fractional Parts Word Problems #1"
+ },
+ {
+  "source_file": "Screenshot 2026-10-04 at 10.16.59 AM.png",
+  "exercise_topic_guess": "Fractional Parts Word Problems #1",
+  "question_number": 3,
+  "question_text": "It takes 30 minutes for Carol to clean 3/5 of her room. At this rate, how long will it take Carol to finish cleaning her room?",
+  "diagram_description": "No figure. Text question only.",
+  "choices": [
+   "10 minutes",
+   "15 minutes",
+   "20 minutes",
+   "25 minutes"
+  ],
+  "correct_letter": "C",
+  "correct_pct": 87.1,
+  "is_wrong": false,
+  "topic_broad": "fractions",
+  "topic_specific": "fractional part word problem, unit rate",
+  "notes": "Green circle on C; no maroon marker. Percentages: A <5.0%, B 6.9%, C 87.1%, D <5.0%. Solution panel cut off at bottom, no text legible.",
+  "global_id": 847,
+  "source": "individual_exercise_screenshot",
+  "type": "question",
+  "set_name": "Fractional Parts Word Problems #1"
+ },
+ {
+  "source_file": "Screenshot 2026-10-04 at 10.17.04 AM.png",
+  "exercise_topic_guess": "Fractional Parts Word Problems #1",
+  "question_number": 4,
+  "question_text": "A water bottle is 5/8 full and currently has 400 milliliters of water. How much water can the bottle hold when full?",
+  "diagram_description": "No figure. Text question only.",
+  "choices": [
+   "80 milliliters",
+   "480 milliliters",
+   "640 milliliters",
+   "720 milliliters"
+  ],
+  "correct_letter": "C",
+  "correct_pct": 83.1,
+  "is_wrong": false,
+  "topic_broad": "fractions",
+  "topic_specific": "fractional part word problem, whole from part",
+  "notes": "Green circle on C; no maroon marker. Percentages: A <5.0%, B 5.8%, C 83.1%, D 9.0%. Solution panel cut off, only the word 'Solution' legible.",
+  "global_id": 848,
+  "source": "individual_exercise_screenshot",
+  "type": "question",
+  "set_name": "Fractional Parts Word Problems #1"
+ },
+ {
+  "source_file": "Screenshot 2026-10-04 at 10.17.08 AM.png",
+  "exercise_topic_guess": "Fractional Parts Word Problems #1",
+  "question_number": 5,
+  "question_text": "Benjamin has $5,000 in his bank account. He spent 1/5 of this amount on a new outfit. He then spent 1/5 of the remaining amount on a new computer. How much money does Benjamin have in his bank account after his purchases?",
+  "diagram_description": "No figure. Text question only.",
+  "choices": [
+   "$3,000",
+   "$3,200",
+   "$3,600",
+   "$4,200"
+  ],
+  "correct_letter": "B",
+  "correct_pct": 59.4,
+  "is_wrong": false,
+  "topic_broad": "fractions",
+  "topic_specific": "successive fractional part word problem, money",
+  "notes": "Green circle on B; no maroon marker. Percentages: A 34.8%, B 59.4%, C <5.0%, D <5.0%. Solution text visible: 'Choice B is the correct answer. First, find out how much Benjamin spent on the new outfit. Multiply 1/5 by the total amount of money he started with, $5,000:' then a partially cut-off equation line (appears to show 1/5 x $5,000 = $1,000).",
+  "global_id": 849,
+  "source": "individual_exercise_screenshot",
+  "type": "question",
+  "set_name": "Fractional Parts Word Problems #1"
+ },
+ {
+  "source_file": "Screenshot 2026-10-04 at 10.18.02 AM.png",
+  "exercise_topic_guess": "Y-INTERCEPTS, GIVEN GRAPHS",
+  "question_number": 3,
+  "question_text": "The graph below shows the money saved by Rufus over a 10-week period. A line perpendicular to the line above would have a slope of what?",
+  "diagram_description": "Graph titled 'Saving Money'. Y-axis labeled 'Amount of Money (dollars)' with labels 10 to 90 in steps of 10; X-axis labeled 'Time (weeks)' with labels 1 to 10. Fine gridlines. One straight line rising from the y-axis at about 30 (y-intercept at (0, 30)) to about (10, 80), passing through approximately (4, 50) and (6, 60). Arrowheads on both axes.",
+  "choices": [
+   "-5",
+   "5",
+   "-1/5",
+   "1/5"
+  ],
+  "correct_letter": null,
+  "correct_pct": null,
+  "is_wrong": null,
+  "topic_broad": "algebra-equations",
+  "topic_specific": "slope of perpendicular line from graph",
+  "notes": "No green or maroon marker visible. Visible graph-based question; the given line's slope reads as 5 from the graph (inferred from (0,30) and (10,80)). Choices are shown as -5, 5, -1/5, 1/5.",
+  "global_id": 850,
+  "source": "individual_exercise_screenshot",
+  "type": "question",
+  "set_name": "Y-INTERCEPTS, GIVEN GRAPHS"
+ },
+ {
+  "source_file": "Screenshot 2026-10-04 at 10.19.04 AM.png",
+  "exercise_topic_guess": "Multi-step Solving Equations",
+  "question_number": 1,
+  "question_text": "Use the equations to answer the question. 3 + p = 7; 2 + q = 8. What is the sum of p + q?",
+  "diagram_description": "No figure. Two equations displayed: 3 + p = 7 and 2 + q = 8.",
+  "choices": [
+   "4",
+   "6",
+   "10",
+   "15"
+  ],
+  "correct_letter": "C",
+  "correct_pct": 99.2,
+  "is_wrong": false,
+  "topic_broad": "algebra-equations",
+  "topic_specific": "two-step equations, sum of variables",
+  "notes": "Review screen; green circle on C; no maroon marker. Percentages: A <5.0%, B <5.0%, C 99.2%, D <5.0%. Solution panel partially visible: 'The correct answer to the question is answer choice (C) 10.'",
+  "global_id": 851,
+  "source": "individual_exercise_screenshot",
+  "type": "question",
+  "set_name": "Multi-step Solving Equations"
+ },
+ {
+  "source_file": "Screenshot 2026-10-04 at 10.19.08 AM.png",
+  "exercise_topic_guess": "Multi-step Solving Equations",
+  "question_number": 2,
+  "question_text": "Use the equations to answer the question. a - 5 = 12; 6 + b = 11. What is the difference of a - b?",
+  "diagram_description": "No figure. Two equations displayed: a - 5 = 12 and 6 + b = 11.",
+  "choices": [
+   "2",
+   "5",
+   "7",
+   "12"
+  ],
+  "correct_letter": "D",
+  "correct_pct": 91.4,
+  "is_wrong": false,
+  "topic_broad": "algebra-equations",
+  "topic_specific": "two-step equations, difference of variables",
+  "notes": "Review screen; green circle on D; no maroon marker. Percentages: A 7.9%, B <5.0%, C <5.0%, D 91.4%. Solution panel cut off, no text legible.",
+  "global_id": 852,
+  "source": "individual_exercise_screenshot",
+  "type": "question",
+  "set_name": "Multi-step Solving Equations"
+ },
+ {
+  "source_file": "Screenshot 2026-10-04 at 10.19.12 AM.png",
+  "exercise_topic_guess": "Multi-step Solving Equations",
+  "question_number": 3,
+  "question_text": "Use the equations to answer the question. 7 x c = 35; d / 3 = 10. What is the quotient of d / c?",
+  "diagram_description": "No figure. Two equations displayed: 7 x c = 35 and d divided by 3 = 10.",
+  "choices": [
+   "1/6",
+   "5/6",
+   "5",
+   "6"
+  ],
+  "correct_letter": "D",
+  "correct_pct": 95.0,
+  "is_wrong": false,
+  "topic_broad": "algebra-equations",
+  "topic_specific": "one-step equations, quotient of variables",
+  "notes": "Review screen; green circle on D; no maroon marker. Percentages: A <5.0%, B <5.0%, C <5.0%, D 95.0%. Solution panel cut off, only 'Solution' legible.",
+  "global_id": 853,
+  "source": "individual_exercise_screenshot",
+  "type": "question",
+  "set_name": "Multi-step Solving Equations"
+ },
+ {
+  "source_file": "Screenshot 2026-10-04 at 10.19.17 AM.png",
+  "exercise_topic_guess": "Multi-step Solving Equations",
+  "question_number": 4,
+  "question_text": "Use the equations to answer the question. 4 x g = 28; 10 - h = 8. What is the sum of g + h?",
+  "diagram_description": "No figure. Two equations displayed: 4 x g = 28 and 10 - h = 8.",
+  "choices": [
+   "2",
+   "7",
+   "9",
+   "14"
+  ],
+  "correct_letter": "C",
+  "correct_pct": 98.2,
+  "is_wrong": false,
+  "topic_broad": "algebra-equations",
+  "topic_specific": "one-step equations, sum of variables",
+  "notes": "Review screen; green circle on C; no maroon marker. Percentages: A <5.0%, B <5.0%, C 98.2%, D <5.0%. Solution text visible: 'The correct answer to the question is answer choice (C), 9.'",
+  "global_id": 854,
+  "source": "individual_exercise_screenshot",
+  "type": "question",
+  "set_name": "Multi-step Solving Equations"
+ },
+ {
+  "source_file": "Screenshot 2026-10-04 at 10.19.20 AM.png",
+  "exercise_topic_guess": "Multi-step Solving Equations",
+  "question_number": 5,
+  "question_text": "Use the equations to answer the question. 36 / j = 9; k x 6 = 18. What is the product of j x k?",
+  "diagram_description": "No figure. Two equations displayed: 36 divided by j = 9 and k x 6 = 18.",
+  "choices": [
+   "3",
+   "4",
+   "6",
+   "12"
+  ],
+  "correct_letter": "D",
+  "correct_pct": 98.4,
+  "is_wrong": false,
+  "topic_broad": "algebra-equations",
+  "topic_specific": "one-step equations, product of variables",
+  "notes": "Review screen; green circle on D; no maroon marker. Percentages: A <5.0%, B <5.0%, C <5.0%, D 98.4%. Solution text visible: 'The correct answer to the question is answer choice (D),12. One way the answer can be found is by first solving for the values of j and k. Starting with 36 / j = 9, multiply both sides by j to move it from the denominator' (cut off).",
+  "global_id": 855,
+  "source": "individual_exercise_screenshot",
+  "type": "question",
+  "set_name": "Multi-step Solving Equations"
+ },
+ {
+  "source_file": "Screenshot 2026-10-04 at 10.20.16 AM.png",
+  "exercise_topic_guess": "NUMBER OF UNIQUE PATHS, DIAGONALS, ETC. THAT CAN BE DRAWN",
+  "question_number": 1,
+  "question_text": "A square is shown. How many lines can be drawn from one corner to another corner where the line goes through the inside of the square?",
+  "diagram_description": "Square outline drawn in thick black stroke, no interior lines or labels.",
+  "choices": [
+   "2",
+   "3",
+   "4",
+   "5"
+  ],
+  "correct_letter": null,
+  "correct_pct": null,
+  "is_wrong": null,
+  "topic_broad": "geometry-angles-shapes",
+  "topic_specific": "diagonals of a polygon",
+  "notes": "No green or maroon marker visible. Header reads set name; question 1 of 4.",
+  "global_id": 856,
+  "source": "individual_exercise_screenshot",
+  "type": "question",
+  "set_name": "NUMBER OF UNIQUE PATHS, DIAGONALS, ETC. THAT CAN BE DRAWN"
+ },
+ {
+  "source_file": "Screenshot 2026-10-04 at 10.20.20 AM.png",
+  "exercise_topic_guess": "NUMBER OF UNIQUE PATHS, DIAGONALS, ETC. THAT CAN BE DRAWN",
+  "question_number": 2,
+  "question_text": "A pentagon is shown. How many unique lines can be drawn from one corner to another corner where the line goes through the inside of the pentagon?",
+  "diagram_description": "Pentagon outline in thick black stroke with five vertices (approx. top, upper-right, lower-right, lower-left, upper-left), no interior lines or labels.",
+  "choices": [
+   "2",
+   "4",
+   "5",
+   "6"
+  ],
+  "correct_letter": null,
+  "correct_pct": null,
+  "is_wrong": null,
+  "topic_broad": "geometry-angles-shapes",
+  "topic_specific": "diagonals of a polygon",
+  "notes": "No green or maroon marker visible. Question 2 of 4.",
+  "global_id": 857,
+  "source": "individual_exercise_screenshot",
+  "type": "question",
+  "set_name": "NUMBER OF UNIQUE PATHS, DIAGONALS, ETC. THAT CAN BE DRAWN"
+ },
+ {
+  "source_file": "Screenshot 2026-10-04 at 10.20.23 AM.png",
+  "exercise_topic_guess": "NUMBER OF UNIQUE PATHS, DIAGONALS, ETC. THAT CAN BE DRAWN",
+  "question_number": 3,
+  "question_text": "A triangle is shown. How many unique lines can be drawn from one corner to another corner where the line goes through the inside of the triangle?",
+  "diagram_description": "Triangle outline in thick black stroke (approximately equilateral), three vertices, no interior lines or labels.",
+  "choices": [
+   "0",
+   "1",
+   "2",
+   "3"
+  ],
+  "correct_letter": null,
+  "correct_pct": null,
+  "is_wrong": null,
+  "topic_broad": "geometry-angles-shapes",
+  "topic_specific": "diagonals of a polygon",
+  "notes": "No green or maroon marker visible. Question 3 of 4.",
+  "global_id": 858,
+  "source": "individual_exercise_screenshot",
+  "type": "question",
+  "set_name": "NUMBER OF UNIQUE PATHS, DIAGONALS, ETC. THAT CAN BE DRAWN"
+ },
+ {
+  "source_file": "Screenshot 2026-10-04 at 10.20.26 AM.png",
+  "exercise_topic_guess": "unclear",
+  "question_number": "unclear",
+  "question_text": "unclear",
+  "diagram_description": "unclear",
+  "choices": [],
+  "correct_letter": null,
+  "correct_pct": null,
+  "is_wrong": null,
+  "topic_broad": "word-problem-other",
+  "topic_specific": "unclear",
+  "notes": "Image file is only about 662 bytes and appears blank or near-empty when opened; no readable content.",
+  "global_id": 859,
+  "source": "individual_exercise_screenshot",
+  "type": "question",
+  "set_name": "unclear"
+ },
+ {
+  "source_file": "Screenshot 2026-10-04 at 10.20.31 AM.png",
+  "exercise_topic_guess": "NUMBER OF UNIQUE PATHS, DIAGONALS, ETC. THAT CAN BE DRAWN",
+  "question_number": "4",
+  "question_text": "A hexagon is shown. How many unique lines can be drawn from one corner to another corner where the line goes through the inside of the hexagon?",
+  "diagram_description": "Plain 2D regular-looking hexagon, black outline, vertices at top and bottom with vertical sides on left and right. No labels, no vertex letters, no interior lines.",
+  "choices": [
+   {
+    "letter": "A",
+    "text": "6"
+   },
+   {
+    "letter": "B",
+    "text": "7"
+   },
+   {
+    "letter": "C",
+    "text": "8"
+   },
+   {
+    "letter": "D",
+    "text": "9"
+   }
+  ],
+  "correct_letter": null,
+  "correct_pct": null,
+  "is_wrong": null,
+  "topic_broad": "geometry-angles-shapes",
+  "topic_specific": "counting diagonals of a hexagon",
+  "notes": "Title visible in blue header. No green/maroon marker visible. No solution shown.",
+  "global_id": 860,
+  "source": "individual_exercise_screenshot",
+  "type": "question",
+  "set_name": "NUMBER OF UNIQUE PATHS, DIAGONALS, ETC. THAT CAN BE DRAWN"
+ },
+ {
+  "source_file": "Screenshot 2026-10-04 at 10.45.36 AM.png",
+  "exercise_topic_guess": "UNIT CONVERSION WITH MADE UP UNITS #1",
+  "question_number": "1",
+  "question_text": "Bruce created a made-up currency system for his class store. 2 taptoos = 25 rapples. 100 rapples = 40 shands. Based on the equations above, how many shands are equal to 1 taptoo?",
+  "diagram_description": "No figure. Two equations centered above the question: '2 taptoos = 25 rapples' and '100 rapples = 40 shands'.",
+  "choices": [
+   {
+    "letter": "A",
+    "text": "4"
+   },
+   {
+    "letter": "B",
+    "text": "5"
+   },
+   {
+    "letter": "C",
+    "text": "8"
+   },
+   {
+    "letter": "D",
+    "text": "10"
+   }
+  ],
+  "correct_letter": null,
+  "correct_pct": null,
+  "is_wrong": null,
+  "topic_broad": "measurement-conversion",
+  "topic_specific": "unit conversion with made-up units (chained)",
+  "notes": "Title visible in blue header. No green/maroon marker visible. No solution shown.",
+  "global_id": 861,
+  "source": "individual_exercise_screenshot",
+  "type": "question",
+  "set_name": "UNIT CONVERSION WITH MADE UP UNITS #1"
+ },
+ {
+  "source_file": "Screenshot 2026-10-04 at 10.45.41 AM.png",
+  "exercise_topic_guess": "UNIT CONVERSION WITH MADE UP UNITS #1",
+  "question_number": "2",
+  "question_text": "A chactrac is equal to 63 plibobs, and 9 plibobs are equal to 800 twips. How many twips are equal to a chactrac?",
+  "diagram_description": "No figure. Text only.",
+  "choices": [
+   {
+    "letter": "A",
+    "text": "560"
+   },
+   {
+    "letter": "B",
+    "text": "800"
+   },
+   {
+    "letter": "C",
+    "text": "5,600"
+   },
+   {
+    "letter": "D",
+    "text": "7,200"
+   }
+  ],
+  "correct_letter": null,
+  "correct_pct": null,
+  "is_wrong": null,
+  "topic_broad": "measurement-conversion",
+  "topic_specific": "unit conversion with made-up units (chained)",
+  "notes": "Title visible in blue header. No green/maroon marker visible. No solution shown.",
+  "global_id": 862,
+  "source": "individual_exercise_screenshot",
+  "type": "question",
+  "set_name": "UNIT CONVERSION WITH MADE UP UNITS #1"
+ },
+ {
+  "source_file": "Screenshot 2026-10-04 at 10.45.44 AM.png",
+  "exercise_topic_guess": "UNIT CONVERSION WITH MADE UP UNITS #1",
+  "question_number": "3",
+  "question_text": "A blurp is equal to 94 blays, and 47 blays are equal to 632 bilbels. How many bilbels are equal to a blurp?",
+  "diagram_description": "No figure. Text only.",
+  "choices": [
+   {
+    "letter": "A",
+    "text": "316"
+   },
+   {
+    "letter": "B",
+    "text": "679"
+   },
+   {
+    "letter": "C",
+    "text": "774"
+   },
+   {
+    "letter": "D",
+    "text": "1,264"
+   }
+  ],
+  "correct_letter": null,
+  "correct_pct": null,
+  "is_wrong": null,
+  "topic_broad": "measurement-conversion",
+  "topic_specific": "unit conversion with made-up units (chained)",
+  "notes": "Title visible in blue header. No green/maroon marker visible. No solution shown.",
+  "global_id": 863,
+  "source": "individual_exercise_screenshot",
+  "type": "question",
+  "set_name": "UNIT CONVERSION WITH MADE UP UNITS #1"
+ },
+ {
+  "source_file": "Screenshot 2026-10-04 at 10.48.05 AM.png",
+  "exercise_topic_guess": "Practice exercise catalog (no question shown)",
+  "question_number": null,
+  "question_text": null,
+  "diagram_description": "Catalog cards, not a question. Card 1: 'Adding and Subtracting Fractions', Medium, 5 Questions, VIEW button. Card 2 (blue highlighted footer): 'Adding and Subtracting Mixed Numbers', Medium, 20 Questions, VIEW button. Partial card cut off at right edge.",
+  "choices": [],
+  "correct_letter": null,
+  "correct_pct": null,
+  "is_wrong": null,
+  "topic_broad": null,
+  "topic_specific": "catalog cards: adding/subtracting fractions and mixed numbers",
+  "notes": "Catalog screen only. No question, choices, or green/maroon marker.",
+  "global_id": 864,
+  "source": "individual_exercise_screenshot",
+  "type": "question",
+  "set_name": "Practice exercise catalog (no question shown)"
+ },
+ {
+  "source_file": "Screenshot 2026-10-04 at 10.48.38 AM.png",
+  "exercise_topic_guess": "Practice exercise catalog (no question shown)",
+  "question_number": null,
+  "question_text": null,
+  "diagram_description": "Catalog cards, not a question. Card 1: 'Adding and Subtracting Fractions', Medium, 5 Questions. Card 2: 'Adding and Subtracting Mixed Numbers', Medium, 20 Questions (blue footer). Card 3: 'Algebra with Geometric Shapes', Medium, 30 Questions. Left edge shows part of a filter panel.",
+  "choices": [],
+  "correct_letter": null,
+  "correct_pct": null,
+  "is_wrong": null,
+  "topic_broad": null,
+  "topic_specific": "catalog cards: fractions, mixed numbers, algebra with geometric shapes",
+  "notes": "Catalog screen only. No question, choices, or green/maroon marker.",
+  "global_id": 865,
+  "source": "individual_exercise_screenshot",
+  "type": "question",
+  "set_name": "Practice exercise catalog (no question shown)"
+ },
+ {
+  "source_file": "Screenshot 2026-10-04 at 10.50.21 AM.png",
+  "exercise_topic_guess": "Practice exercise catalog (no question shown)",
+  "question_number": null,
+  "question_text": null,
+  "diagram_description": "Single catalog card, Medium, title 'Comparing/Adding/Subtra...' on line 1 and 'Bar Graph/Data Table Values' on lines 2-3 (middle of title truncated by the card). 20 Questions (blue footer), VIEW button.",
+  "choices": [],
+  "correct_letter": null,
+  "correct_pct": null,
+  "is_wrong": null,
+  "topic_broad": null,
+  "topic_specific": "catalog card: comparing/adding/subtracting bar graph/data table values",
+  "notes": "Catalog screen only. Title is truncated in the screenshot; the full wording is unclear. No green/maroon marker.",
+  "global_id": 866,
+  "source": "individual_exercise_screenshot",
+  "type": "question",
+  "set_name": "Practice exercise catalog (no question shown)"
+ },
+ {
+  "source_file": "Screenshot 2026-10-04 at 10.54.17 AM.png",
+  "exercise_topic_guess": "PRACTICE EXERCISES FOR LOWER LEVEL (catalog)",
+  "question_number": null,
+  "question_text": null,
+  "diagram_description": "Full catalog page, 'Results (62 banks)', filters Subject = Math & Quantitative, Difficulty = Medium. Grid of cards with titles and question counts. Several cards are circled by hand in purple ink (not green or maroon). Circled cards: 'Identifying Correct Conclusions from Bar Graph/Data Table Values' (15 Questions); 'Multiplying and Dividing Decimals' (5); 'Multiplying and Dividing Whole Numbers' (10); 'No Remainder when Divided by a given Number' (count obscured by the circle, unclear); 'No Remainder when Divided by two given Numbers' (15); 'Nth Term, given Arithmetic Sequence, Progressive Pattern, etc.' (20); 'Patterns in Data Tables and Lists' (9); 'Predicting the Next Shapes, given Progressive Pattern' (16); 'Shape Construction & Symmetry in 2-D Figures' (10).",
+  "choices": [],
+  "correct_letter": null,
+  "correct_pct": null,
+  "is_wrong": null,
+  "topic_broad": null,
+  "topic_specific": "practice catalog, lower level, medium difficulty (circled cards listed)",
+  "notes": "Catalog screen only, not a question. Purple hand-drawn circles are not green or maroon markers. Other visible cards (e.g. Identifying Multiples, LCM, Percent Increase & Decrease, Prime Numbers) are not transcribed in detail.",
+  "global_id": 867,
+  "source": "individual_exercise_screenshot",
+  "type": "question",
+  "set_name": "PRACTICE EXERCISES FOR LOWER LEVEL (catalog)"
+ },
+ {
+  "source_file": "Screenshot 2026-10-04 at 11.10.35 AM.png",
+  "exercise_topic_guess": "IDENTIFYING CORRECT CONCLUSIONS FROM BAR GRAPH/DATA TABLE VALUES #1",
+  "question_number": "1",
+  "question_text": "A sculptor logged the number of minutes he worked on a particular sculpture during a week. Based on the graph, which conclusion is true?",
+  "diagram_description": "Bar graph titled 'MINUTES SPENT SCULPTING'. Y-axis 'Time (minutes)', 0 to 60 in steps of 5. X-axis 'Day'. Bars (approx., read from gridlines): Monday ~30, Tuesday ~30, Wednesday ~45, Thursday ~55, Friday ~40. Gray bars.",
+  "choices": [
+   {
+    "letter": "A",
+    "text": "The time spent sculpting on Thursday is twice the time spent sculpting on Monday."
+   },
+   {
+    "letter": "B",
+    "text": "The time spent sculpting on Friday is half as much as the time spent sculpting on Thursday."
+   },
+   {
+    "letter": "C",
+    "text": "The time spent sculpting on Monday and Tuesday combined is greater than Thursday."
+   },
+   {
+    "letter": "D",
+    "text": "The time spent sculpting on Monday and Tuesday combined is twice the time spent sculpting on Friday."
+   }
+  ],
+  "correct_letter": null,
+  "correct_pct": null,
+  "is_wrong": null,
+  "topic_broad": "data-analysis-graphs-tables",
+  "topic_specific": "identifying correct conclusions from bar graph",
+  "notes": "Title visible in blue header. No green/maroon marker visible. No solution shown.",
+  "global_id": 868,
+  "source": "individual_exercise_screenshot",
+  "type": "question",
+  "set_name": "IDENTIFYING CORRECT CONCLUSIONS FROM BAR GRAPH/DATA TABLE VALUES #1"
+ },
+ {
+  "source_file": "Screenshot 2026-10-04 at 11.10.40 AM.png",
+  "exercise_topic_guess": "IDENTIFYING CORRECT CONCLUSIONS FROM BAR GRAPH/DATA TABLE VALUES #1",
+  "question_number": "2",
+  "question_text": "A scientist recorded the number of hours he observed a Koala named Masubi sleeping during a given week. Based on the graph, which conclusion is true?",
+  "diagram_description": "Bar graph titled 'HOURS MASUBI SLEPT'. Y-axis 'Time (hours)', 0 to 24 in steps of 2. X-axis 'Day'. Bars (approx.): Monday ~8, Tuesday ~14, Wednesday ~14, Thursday ~14, Friday ~22. Gray bars.",
+  "choices": [
+   {
+    "letter": "A",
+    "text": "The mean is 14."
+   },
+   {
+    "letter": "B",
+    "text": "The range is equal to the mode."
+   },
+   {
+    "letter": "C",
+    "text": "The mode is equal to the smallest value."
+   },
+   {
+    "letter": "D",
+    "text": "The range is equal to the largest value."
+   }
+  ],
+  "correct_letter": null,
+  "correct_pct": null,
+  "is_wrong": null,
+  "topic_broad": "data-analysis-graphs-tables",
+  "topic_specific": "identifying correct conclusions from bar graph (mean/mode/range)",
+  "notes": "Title visible in blue header. No green/maroon marker visible. No solution shown.",
+  "global_id": 869,
+  "source": "individual_exercise_screenshot",
+  "type": "question",
+  "set_name": "IDENTIFYING CORRECT CONCLUSIONS FROM BAR GRAPH/DATA TABLE VALUES #1"
+ },
+ {
+  "source_file": "Screenshot 2026-10-04 at 11.10.46 AM.png",
+  "exercise_topic_guess": "IDENTIFYING CORRECT CONCLUSIONS FROM BAR GRAPH/DATA TABLE VALUES #1",
+  "question_number": "3",
+  "question_text": "A scientist recorded the number of hours she observed a volcano actively erupting during a given week. Based on this graph, which conclusion is true?",
+  "diagram_description": "Bar graph titled 'HOURS OF ACTIVE ERUPTION'. Y-axis 'Time (Hours)', 0 to 24 in steps of 2. X-axis 'Day'. Bars (approx.): Monday ~12, Tuesday ~22, Wednesday ~18, Thursday ~14, Friday ~10. Gray bars.",
+  "choices": [
+   {
+    "letter": "A",
+    "text": "Tuesday's hours are twice as much as Friday's hours."
+   },
+   {
+    "letter": "B",
+    "text": "Monday's hours are half as much as Tuesday's hours."
+   },
+   {
+    "letter": "C",
+    "text": "Thursday's hours and Friday's hours combined equal one day."
+   },
+   {
+    "letter": "D",
+    "text": "Monday's hours and Thursday's hours combined equal one day."
+   }
+  ],
+  "correct_letter": null,
+  "correct_pct": null,
+  "is_wrong": null,
+  "topic_broad": "data-analysis-graphs-tables",
+  "topic_specific": "identifying correct conclusions from bar graph",
+  "notes": "Title visible in blue header. No green/maroon marker visible. No solution shown.",
+  "global_id": 870,
+  "source": "individual_exercise_screenshot",
+  "type": "question",
+  "set_name": "IDENTIFYING CORRECT CONCLUSIONS FROM BAR GRAPH/DATA TABLE VALUES #1"
+ },
+ {
+  "source_file": "Screenshot 2026-10-04 at 11.10.50 AM.png",
+  "exercise_topic_guess": "IDENTIFYING CORRECT CONCLUSIONS FROM BAR GRAPH/DATA TABLE VALUES #1",
+  "question_number": "4",
+  "question_text": "The Greene's recorded how many hours they kept their air conditioning on in their house during the week. Based on this graph, which conclusion is true?",
+  "diagram_description": "Bar graph titled 'HOURS THE AIR CONDITIONING WAS ACTIVE'. Y-axis 'Time (Hours)', 0 to 24 in steps of 2. X-axis 'Day'. Bars (approx.): Monday ~10, Tuesday ~14, Wednesday ~22, Thursday ~18, Friday ~12. Gray bars.",
+  "choices": [
+   {
+    "letter": "A",
+    "text": "There is no mode."
+   },
+   {
+    "letter": "B",
+    "text": "The mode is equal to the range."
+   },
+   {
+    "letter": "C",
+    "text": "Wednesday's hours is equal to the median."
+   },
+   {
+    "letter": "D",
+    "text": "Tuesday's hours are twice as much as Monday's hours."
+   }
+  ],
+  "correct_letter": null,
+  "correct_pct": null,
+  "is_wrong": null,
+  "topic_broad": "data-analysis-graphs-tables",
+  "topic_specific": "identifying correct conclusions from bar graph (mode/range/median)",
+  "notes": "Title visible in blue header. No green/maroon marker visible. No solution shown. Stem reads 'The Greene's recorded...' as shown.",
+  "global_id": 871,
+  "source": "individual_exercise_screenshot",
+  "type": "question",
+  "set_name": "IDENTIFYING CORRECT CONCLUSIONS FROM BAR GRAPH/DATA TABLE VALUES #1"
+ },
+ {
+  "source_file": "Screenshot 2026-10-04 at 11.10.55 AM.png",
+  "exercise_topic_guess": "IDENTIFYING CORRECT CONCLUSIONS FROM BAR GRAPH/DATA TABLE VALUES #1",
+  "question_number": "5",
+  "question_text": "The graph shows the number of hours a novelist spent writing during a given week. Based on this graph, which conclusion is true?",
+  "diagram_description": "Bar graph titled 'HOURS SPENT WRITING'. Y-axis 'Time (Hours)', 0 to 24 in steps of 2. X-axis 'Day'. Bars (approx.): Monday ~8, Tuesday ~10, Wednesday ~6, Thursday ~16, Friday ~12. Gray bars.",
+  "choices": [
+   {
+    "letter": "A",
+    "text": "Thursday's hours are double Tuesday's hours."
+   },
+   {
+    "letter": "B",
+    "text": "Wednesday's hours are half as much as Friday's hours."
+   },
+   {
+    "letter": "C",
+    "text": "Tuesday's hours and Friday's hours combine to make one day."
+   },
+   {
+    "letter": "D",
+    "text": "Monday's hours and Wednesday's hours combine to make a half day."
+   }
+  ],
+  "correct_letter": null,
+  "correct_pct": null,
+  "is_wrong": null,
+  "topic_broad": "data-analysis-graphs-tables",
+  "topic_specific": "identifying correct conclusions from bar graph",
+  "notes": "Title visible in blue header. No green/maroon marker visible. No solution shown.",
+  "global_id": 872,
+  "source": "individual_exercise_screenshot",
+  "type": "question",
+  "set_name": "IDENTIFYING CORRECT CONCLUSIONS FROM BAR GRAPH/DATA TABLE VALUES #1"
+ },
+ {
+  "source_file": "Screenshot 2026-10-04 at 11.11.13 AM.png",
+  "exercise_topic_guess": "IDENTIFYING CORRECT CONCLUSIONS FROM BAR GRAPH/DATA TABLE VALUES #2",
+  "question_number": "1",
+  "question_text": "The following graph displays how many babies were born per weeks at a hospital. Based on the graph, which conclusion is true?",
+  "diagram_description": "Bar graph titled 'BABIES BORN'. Y-axis 'Number of Babies', 0 to 24 in steps of 2. X-axis 'Week' with ticks 1-5. Bars (approx.): Week 1 ~12, Week 2 ~14, Week 3 ~10, Week 4 ~14, Week 5 ~12. Gray bars.",
+  "choices": [
+   {
+    "letter": "A",
+    "text": "The range is 12."
+   },
+   {
+    "letter": "B",
+    "text": "The median is 10."
+   },
+   {
+    "letter": "C",
+    "text": "Weeks 1 and 2 had more babies born than Weeks 4 and 5."
+   },
+   {
+    "letter": "D",
+    "text": "Weeks 1 and 4 had more babies born than Weeks 3 and 5."
+   }
+  ],
+  "correct_letter": null,
+  "correct_pct": null,
+  "is_wrong": null,
+  "topic_broad": "data-analysis-graphs-tables",
+  "topic_specific": "identifying correct conclusions from bar graph (range/median)",
+  "notes": "Title visible in blue header. No green/maroon marker visible. No solution shown.",
+  "global_id": 873,
+  "source": "individual_exercise_screenshot",
+  "type": "question",
+  "set_name": "IDENTIFYING CORRECT CONCLUSIONS FROM BAR GRAPH/DATA TABLE VALUES #2"
+ },
+ {
+  "source_file": "Screenshot 2026-10-04 at 11.11.17 AM.png",
+  "exercise_topic_guess": "IDENTIFYING CORRECT CONCLUSIONS FROM BAR GRAPH/DATA TABLE VALUES #2",
+  "question_number": "2",
+  "question_text": "The graph shows the number of cars that were sold per week at an auto dealership. Based on the graph, which conclusion is true?",
+  "diagram_description": "Bar graph titled 'CARS SOLD'. Y-axis 'Number of Cars', 0 to 24 in steps of 2. X-axis 'Week' with ticks 1-5. Bars (approx.): Week 1 ~18, Week 2 ~22, Week 3 ~20, Week 4 ~16, Week 5 ~24. Gray bars.",
+  "choices": [
+   {
+    "letter": "A",
+    "text": "Week 1 is the median number of sales."
+   },
+   {
+    "letter": "B",
+    "text": "Week 3 is the mode number of sales."
+   },
+   {
+    "letter": "C",
+    "text": "Week 4 sales are 2/3 the Week 5 sales."
+   },
+   {
+    "letter": "D",
+    "text": "Week 5 sales are 4/5 the Week 2 sales."
+   }
+  ],
+  "correct_letter": null,
+  "correct_pct": null,
+  "is_wrong": null,
+  "topic_broad": "data-analysis-graphs-tables",
+  "topic_specific": "identifying correct conclusions from bar graph (median/mode/fractions)",
+  "notes": "Title visible in blue header. No green/maroon marker visible. Choices C and D use fraction notation as rendered. No solution shown.",
+  "global_id": 874,
+  "source": "individual_exercise_screenshot",
+  "type": "question",
+  "set_name": "IDENTIFYING CORRECT CONCLUSIONS FROM BAR GRAPH/DATA TABLE VALUES #2"
+ },
+ {
+  "source_file": "Screenshot 2026-10-04 at 11.11.22 AM.png",
+  "exercise_topic_guess": "IDENTIFYING CORRECT CONCLUSIONS FROM BAR GRAPH/DATA TABLE VALUES #2",
+  "question_number": "3",
+  "question_text": "The graph shows the number of monster costumes that were sold during one week at a costume company. Based on the graph, which conclusion is true?",
+  "diagram_description": "Bar graph titled 'MONSTER COSTUME SALES'. Y-axis 'Number of Costumes Sold', 0 to 24 in steps of 2. X-axis 'Day'. Bars (approx.): Monday ~6, Tuesday ~20, Wednesday ~18, Thursday ~16, Friday ~22. Gray bars.",
+  "choices": [
+   {
+    "letter": "A",
+    "text": "Monday's number is closest to the mode."
+   },
+   {
+    "letter": "B",
+    "text": "Monday's number is closest to the mean."
+   },
+   {
+    "letter": "C",
+    "text": "Wednesday's number is the median."
+   },
+   {
+    "letter": "D",
+    "text": "The range is equal to Wednesday's number of sales."
+   }
+  ],
+  "correct_letter": null,
+  "correct_pct": null,
+  "is_wrong": null,
+  "topic_broad": "data-analysis-graphs-tables",
+  "topic_specific": "identifying correct conclusions from bar graph (mean/mode/median/range)",
+  "notes": "Title visible in blue header. No green/maroon marker visible. No solution shown.",
+  "global_id": 875,
+  "source": "individual_exercise_screenshot",
+  "type": "question",
+  "set_name": "IDENTIFYING CORRECT CONCLUSIONS FROM BAR GRAPH/DATA TABLE VALUES #2"
+ },
+ {
+  "source_file": "Screenshot 2026-10-04 at 11.11.26 AM.png",
+  "exercise_topic_guess": "IDENTIFYING CORRECT CONCLUSIONS FROM BAR GRAPH/DATA TABLE VALUES #2",
+  "question_number": "4",
+  "question_text": "The graph shows the number of cell phones that were sold during one week at a phone store. Based on the graph, which conclusion is true?",
+  "diagram_description": "Bar graph titled 'CELL PHONES SOLD'. Y-axis 'Number Sold', 0 to 60 in steps of 5. X-axis 'Day'. Bars (approx.): Monday ~40, Tuesday ~40, Wednesday ~40, Thursday ~60 (top of axis), Friday ~60 (top of axis). Gray bars.",
+  "choices": [
+   {
+    "letter": "A",
+    "text": "The range is 40."
+   },
+   {
+    "letter": "B",
+    "text": "The mode is 60."
+   },
+   {
+    "letter": "C",
+    "text": "There is no mode."
+   },
+   {
+    "letter": "D",
+    "text": "The value of the mode is twice that of the range."
+   }
+  ],
+  "correct_letter": null,
+  "correct_pct": null,
+  "is_wrong": null,
+  "topic_broad": "data-analysis-graphs-tables",
+  "topic_specific": "identifying correct conclusions from bar graph (mode/range)",
+  "notes": "Title visible in blue header. No green/maroon marker visible. Thursday and Friday bars reach the top of the axis; exact values unclear. No solution shown.",
+  "global_id": 876,
+  "source": "individual_exercise_screenshot",
+  "type": "question",
+  "set_name": "IDENTIFYING CORRECT CONCLUSIONS FROM BAR GRAPH/DATA TABLE VALUES #2"
+ },
+ {
+  "source_file": "Screenshot 2026-10-04 at 11.11.30 AM.png",
+  "exercise_topic_guess": "IDENTIFYING CORRECT CONCLUSIONS FROM BAR GRAPH/DATA TABLE VALUES #2",
+  "question_number": "5",
+  "question_text": "The graph shows the number of items sold during one week in a pawn shop. Based on the graph, which conclusion is true?",
+  "diagram_description": "Bar graph titled 'ITEMS SOLD'. Y-axis 'Number Sold', 0 to 120 in steps of 10. X-axis 'Day'. Bars (approx.): Monday ~60, Tuesday ~100, Wednesday ~80, Thursday ~100, Friday ~120. Gray bars.",
+  "choices": [
+   {
+    "letter": "A",
+    "text": "Wednesday's value is equal to the mode."
+   },
+   {
+    "letter": "B",
+    "text": "Tuesday's value is twice that of the range."
+   },
+   {
+    "letter": "C",
+    "text": "Monday's number is twice that of Friday's."
+   },
+   {
+    "letter": "D",
+    "text": "The largest difference in items sold is between Friday and Monday."
+   }
+  ],
+  "correct_letter": null,
+  "correct_pct": null,
+  "is_wrong": null,
+  "topic_broad": "data-analysis-graphs-tables",
+  "topic_specific": "identifying correct conclusions from bar graph (mode/range/difference)",
+  "notes": "Title visible in blue header. No green/maroon marker visible. No solution shown.",
+  "global_id": 877,
+  "source": "individual_exercise_screenshot",
+  "type": "question",
+  "set_name": "IDENTIFYING CORRECT CONCLUSIONS FROM BAR GRAPH/DATA TABLE VALUES #2"
+ },
+ {
+  "source_file": "Screenshot 2026-10-04 at 11.12.12 AM.png",
+  "exercise_topic_guess": "MULTIPLYING AND DIVIDING DECIMALS",
+  "question_number": "1",
+  "question_text": "75.4 \u00d7 6 =",
+  "diagram_description": "No figure. Arithmetic expression only.",
+  "choices": [
+   {
+    "letter": "A",
+    "text": "452.4"
+   },
+   {
+    "letter": "B",
+    "text": "451.4"
+   },
+   {
+    "letter": "C",
+    "text": "453.4"
+   },
+   {
+    "letter": "D",
+    "text": "450.4"
+   }
+  ],
+  "correct_letter": null,
+  "correct_pct": null,
+  "is_wrong": null,
+  "topic_broad": "decimals",
+  "topic_specific": "multiplying decimals by whole number",
+  "notes": "Title visible in blue header. No green/maroon marker visible. No solution shown.",
+  "global_id": 878,
+  "source": "individual_exercise_screenshot",
+  "type": "question",
+  "set_name": "MULTIPLYING AND DIVIDING DECIMALS"
+ },
+ {
+  "source_file": "Screenshot 2026-10-04 at 11.12.15 AM.png",
+  "exercise_topic_guess": "MULTIPLYING AND DIVIDING DECIMALS",
+  "question_number": "2",
+  "question_text": "33.7 \u00d7 6 =",
+  "diagram_description": "No figure. Arithmetic expression only.",
+  "choices": [
+   {
+    "letter": "A",
+    "text": "201.2"
+   },
+   {
+    "letter": "B",
+    "text": "202.2"
+   },
+   {
+    "letter": "C",
+    "text": "203.2"
+   },
+   {
+    "letter": "D",
+    "text": "204.2"
+   }
+  ],
+  "correct_letter": null,
+  "correct_pct": null,
+  "is_wrong": null,
+  "topic_broad": "decimals",
+  "topic_specific": "multiplying decimals by whole number",
+  "notes": "Title visible in blue header. No green/maroon marker visible. No solution shown.",
+  "global_id": 879,
+  "source": "individual_exercise_screenshot",
+  "type": "question",
+  "set_name": "MULTIPLYING AND DIVIDING DECIMALS"
+ },
+ {
+  "source_file": "Screenshot 2026-10-04 at 11.12.19 AM.png",
+  "exercise_topic_guess": "MULTIPLYING AND DIVIDING DECIMALS",
+  "question_number": "3",
+  "question_text": "75.4 \u00f7 5 =",
+  "diagram_description": "No figure. Arithmetic expression only.",
+  "choices": [
+   {
+    "letter": "A",
+    "text": "16.08"
+   },
+   {
+    "letter": "B",
+    "text": "15.80"
+   },
+   {
+    "letter": "C",
+    "text": "15.08"
+   },
+   {
+    "letter": "D",
+    "text": "16.80"
+   }
+  ],
+  "correct_letter": null,
+  "correct_pct": null,
+  "is_wrong": null,
+  "topic_broad": "decimals",
+  "topic_specific": "dividing decimals by whole number",
+  "notes": "Title visible in blue header. No green/maroon marker visible. No solution shown.",
+  "global_id": 880,
+  "source": "individual_exercise_screenshot",
+  "type": "question",
+  "set_name": "MULTIPLYING AND DIVIDING DECIMALS"
+ },
+ {
+  "source_file": "Screenshot 2026-10-04 at 11.12.22 AM.png",
+  "exercise_topic_guess": "MULTIPLYING AND DIVIDING DECIMALS",
+  "question_number": "4",
+  "question_text": "116.8 \u00f7 4 =",
+  "diagram_description": "No figure. Arithmetic expression only.",
+  "choices": [
+   {
+    "letter": "A",
+    "text": "26.2"
+   },
+   {
+    "letter": "B",
+    "text": "27.2"
+   },
+   {
+    "letter": "C",
+    "text": "28.2"
+   },
+   {
+    "letter": "D",
+    "text": "29.2"
+   }
+  ],
+  "correct_letter": null,
+  "correct_pct": null,
+  "is_wrong": null,
+  "topic_broad": "decimals",
+  "topic_specific": "dividing decimals by whole number",
+  "notes": "Title visible in blue header. No green/maroon marker visible. No solution shown.",
+  "global_id": 881,
+  "source": "individual_exercise_screenshot",
+  "type": "question",
+  "set_name": "MULTIPLYING AND DIVIDING DECIMALS"
+ },
+ {
+  "source_file": "Screenshot 2026-10-04 at 11.12.26 AM.png",
+  "exercise_topic_guess": "MULTIPLYING AND DIVIDING DECIMALS",
+  "question_number": "5",
+  "question_text": "(75.4 \u00d7 6) \u00f7 3 =",
+  "diagram_description": "No figure. Arithmetic expression only.",
+  "choices": [
+   {
+    "letter": "A",
+    "text": "150.8"
+   },
+   {
+    "letter": "B",
+    "text": "158"
+   },
+   {
+    "letter": "C",
+    "text": "150.08"
+   },
+   {
+    "letter": "D",
+    "text": "160.8"
+   }
+  ],
+  "correct_letter": null,
+  "correct_pct": null,
+  "is_wrong": null,
+  "topic_broad": "decimals",
+  "topic_specific": "multiplying then dividing decimals",
+  "notes": "Title visible in blue header. No green/maroon marker visible. No solution shown.",
+  "global_id": 882,
+  "source": "individual_exercise_screenshot",
+  "type": "question",
+  "set_name": "MULTIPLYING AND DIVIDING DECIMALS"
+ },
+ {
+  "source_file": "Screenshot 2026-10-04 at 11.12.55 AM.png",
+  "exercise_topic_guess": "MULTIPLYING AND DIVIDING WHOLE NUMBERS #1",
+  "question_number": "1",
+  "question_text": "If a log that is 45 feet long is cut into thirds, what is the length of each piece in feet?",
+  "diagram_description": "No figure. Text only.",
+  "choices": [
+   {
+    "letter": "A",
+    "text": "12"
+   },
+   {
+    "letter": "B",
+    "text": "14"
+   },
+   {
+    "letter": "C",
+    "text": "15"
+   },
+   {
+    "letter": "D",
+    "text": "17"
+   }
+  ],
+  "correct_letter": null,
+  "correct_pct": null,
+  "is_wrong": null,
+  "topic_broad": "arithmetic",
+  "topic_specific": "dividing whole numbers (equal parts, word problem)",
+  "notes": "Title visible in blue header. No green/maroon marker visible. No solution shown.",
+  "global_id": 883,
+  "source": "individual_exercise_screenshot",
+  "type": "question",
+  "set_name": "MULTIPLYING AND DIVIDING WHOLE NUMBERS #1"
+ },
+ {
+  "source_file": "Screenshot 2026-10-04 at 11.12.57 AM.png",
+  "exercise_topic_guess": "MULTIPLYING AND DIVIDING WHOLE NUMBERS #1",
+  "question_number": "2",
+  "question_text": "If a log that is 51 feet long is cut into thirds, what is the length of each piece in feet?",
+  "diagram_description": "No figure. Text only.",
+  "choices": [
+   {
+    "letter": "A",
+    "text": "13"
+   },
+   {
+    "letter": "B",
+    "text": "15"
+   },
+   {
+    "letter": "C",
+    "text": "16"
+   },
+   {
+    "letter": "D",
+    "text": "17"
+   }
+  ],
+  "correct_letter": null,
+  "correct_pct": null,
+  "is_wrong": null,
+  "topic_broad": "arithmetic",
+  "topic_specific": "dividing whole numbers (equal parts, word problem)",
+  "notes": "Title visible in blue header. No green/maroon marker visible. No solution shown.",
+  "global_id": 884,
+  "source": "individual_exercise_screenshot",
+  "type": "question",
+  "set_name": "MULTIPLYING AND DIVIDING WHOLE NUMBERS #1"
+ },
+ {
+  "source_file": "Screenshot 2026-10-04 at 11.13.03 AM.png",
+  "exercise_topic_guess": "MULTIPLYING AND DIVIDING WHOLE NUMBERS #1",
+  "question_number": "3",
+  "question_text": "If a string that is 54 feet long is cut into sixths, what is the length of each piece in feet?",
+  "diagram_description": "No figure. Text only.",
+  "choices": [
+   {
+    "letter": "A",
+    "text": "10"
+   },
+   {
+    "letter": "B",
+    "text": "9"
+   },
+   {
+    "letter": "C",
+    "text": "8"
+   },
+   {
+    "letter": "D",
+    "text": "7"
+   }
+  ],
+  "correct_letter": null,
+  "correct_pct": null,
+  "is_wrong": null,
+  "topic_broad": "arithmetic",
+  "topic_specific": "dividing whole numbers (equal parts, word problem)",
+  "notes": "Title visible in blue header. No green/maroon marker visible. No solution shown.",
+  "global_id": 885,
+  "source": "individual_exercise_screenshot",
+  "type": "question",
+  "set_name": "MULTIPLYING AND DIVIDING WHOLE NUMBERS #1"
+ },
+ {
+  "source_file": "Screenshot 2026-10-04 at 11.13.07 AM.png",
+  "exercise_topic_guess": "MULTIPLYING AND DIVIDING WHOLE NUMBERS #1",
+  "question_number": "4",
+  "question_text": "If a string that is 60 feet long is cut into fifths, what is the length of each piece in feet?",
+  "diagram_description": "No figure. Text only.",
+  "choices": [
+   {
+    "letter": "A",
+    "text": "12"
+   },
+   {
+    "letter": "B",
+    "text": "13"
+   },
+   {
+    "letter": "C",
+    "text": "14"
+   },
+   {
+    "letter": "D",
+    "text": "15"
+   }
+  ],
+  "correct_letter": null,
+  "correct_pct": null,
+  "is_wrong": null,
+  "topic_broad": "arithmetic",
+  "topic_specific": "dividing whole numbers (equal parts, word problem)",
+  "notes": "Title visible in blue header. No green/maroon marker visible. No solution shown.",
+  "global_id": 886,
+  "source": "individual_exercise_screenshot",
+  "type": "question",
+  "set_name": "MULTIPLYING AND DIVIDING WHOLE NUMBERS #1"
+ },
+ {
+  "source_file": "Screenshot 2026-10-04 at 11.13.11 AM.png",
+  "exercise_topic_guess": "MULTIPLYING AND DIVIDING WHOLE NUMBERS #1",
+  "question_number": "5",
+  "question_text": "If a string that is 72 feet long is cut into thirds, what is the length of each piece in feet?",
+  "diagram_description": "No figure. Text only.",
+  "choices": [
+   {
+    "letter": "A",
+    "text": "21"
+   },
+   {
+    "letter": "B",
+    "text": "22"
+   },
+   {
+    "letter": "C",
+    "text": "24"
+   },
+   {
+    "letter": "D",
+    "text": "25"
+   }
+  ],
+  "correct_letter": null,
+  "correct_pct": null,
+  "is_wrong": null,
+  "topic_broad": "arithmetic",
+  "topic_specific": "dividing whole numbers (equal parts, word problem)",
+  "notes": "Title visible in blue header. No green/maroon marker visible. No solution shown.",
+  "global_id": 887,
+  "source": "individual_exercise_screenshot",
+  "type": "question",
+  "set_name": "MULTIPLYING AND DIVIDING WHOLE NUMBERS #1"
+ },
+ {
+  "source_file": "Screenshot 2026-10-04 at 11.13.32 AM.png",
+  "exercise_topic_guess": "NO REMAINDER WHEN DIVIDED BY A GIVEN NUMBER #2",
+  "question_number": "1",
+  "question_text": "Which whole number is divisible by 14?",
+  "diagram_description": "No figure. Text only.",
+  "choices": [
+   {
+    "letter": "A",
+    "text": "394"
+   },
+   {
+    "letter": "B",
+    "text": "458"
+   },
+   {
+    "letter": "C",
+    "text": "635"
+   },
+   {
+    "letter": "D",
+    "text": "700"
+   }
+  ],
+  "correct_letter": null,
+  "correct_pct": null,
+  "is_wrong": null,
+  "topic_broad": "number-theory-divisibility",
+  "topic_specific": "divisibility by a given number",
+  "notes": "Title visible in blue header. No green/maroon marker visible. No solution shown.",
+  "global_id": 888,
+  "source": "individual_exercise_screenshot",
+  "type": "question",
+  "set_name": "NO REMAINDER WHEN DIVIDED BY A GIVEN NUMBER #2"
+ },
+ {
+  "source_file": "Screenshot 2026-10-04 at 11.13.36 AM.png",
+  "exercise_topic_guess": "NO REMAINDER WHEN DIVIDED BY A GIVEN NUMBER #2",
+  "question_number": "2",
+  "question_text": "Which whole number is divisible by 15?",
+  "diagram_description": "No figure. Text only.",
+  "choices": [
+   {
+    "letter": "A",
+    "text": "371"
+   },
+   {
+    "letter": "B",
+    "text": "375"
+   },
+   {
+    "letter": "C",
+    "text": "395"
+   },
+   {
+    "letter": "D",
+    "text": "403"
+   }
+  ],
+  "correct_letter": null,
+  "correct_pct": null,
+  "is_wrong": null,
+  "topic_broad": "number-theory-divisibility",
+  "topic_specific": "divisibility by a given number",
+  "notes": "Title visible in blue header. No green/maroon marker visible. No solution shown.",
+  "global_id": 889,
+  "source": "individual_exercise_screenshot",
+  "type": "question",
+  "set_name": "NO REMAINDER WHEN DIVIDED BY A GIVEN NUMBER #2"
+ },
+ {
+  "source_file": "Screenshot 2026-10-04 at 11.13.40 AM.png",
+  "exercise_topic_guess": "NO REMAINDER WHEN DIVIDED BY A GIVEN NUMBER #2",
+  "question_number": "3",
+  "question_text": "Which whole number is divisible by 21?",
+  "diagram_description": "No figure. Text only.",
+  "choices": [
+   {
+    "letter": "A",
+    "text": "273"
+   },
+   {
+    "letter": "B",
+    "text": "277"
+   },
+   {
+    "letter": "C",
+    "text": "283"
+   },
+   {
+    "letter": "D",
+    "text": "292"
+   }
+  ],
+  "correct_letter": null,
+  "correct_pct": null,
+  "is_wrong": null,
+  "topic_broad": "number-theory-divisibility",
+  "topic_specific": "divisibility by a given number",
+  "notes": "Title visible in blue header. No green/maroon marker visible. No solution shown.",
+  "global_id": 890,
+  "source": "individual_exercise_screenshot",
+  "type": "question",
+  "set_name": "NO REMAINDER WHEN DIVIDED BY A GIVEN NUMBER #2"
+ },
+ {
+  "source_file": "Screenshot 2026-10-04 at 11.13.44 AM.png",
+  "exercise_topic_guess": "NO REMAINDER WHEN DIVIDED BY A GIVEN NUMBER #2",
+  "question_number": "4",
+  "question_text": "Which whole number is divisible by 23?",
+  "diagram_description": "No figure. Text only.",
+  "choices": [
+   {
+    "letter": "A",
+    "text": "168"
+   },
+   {
+    "letter": "B",
+    "text": "178"
+   },
+   {
+    "letter": "C",
+    "text": "184"
+   },
+   {
+    "letter": "D",
+    "text": "196"
+   }
+  ],
+  "correct_letter": null,
+  "correct_pct": null,
+  "is_wrong": null,
+  "topic_broad": "number-theory-divisibility",
+  "topic_specific": "divisibility by a given number",
+  "notes": "Title visible in blue header. No green/maroon marker visible. No solution shown.",
+  "global_id": 891,
+  "source": "individual_exercise_screenshot",
+  "type": "question",
+  "set_name": "NO REMAINDER WHEN DIVIDED BY A GIVEN NUMBER #2"
+ },
+ {
+  "source_file": "Screenshot 2026-10-04 at 11.13.48 AM.png",
+  "exercise_topic_guess": "NO REMAINDER WHEN DIVIDED BY A GIVEN NUMBER #2",
+  "question_number": "5",
+  "question_text": "Which whole number is divisible by 31?",
+  "diagram_description": "No figure. Text only.",
+  "choices": [
+   {
+    "letter": "A",
+    "text": "217"
+   },
+   {
+    "letter": "B",
+    "text": "255"
+   },
+   {
+    "letter": "C",
+    "text": "265"
+   },
+   {
+    "letter": "D",
+    "text": "277"
+   }
+  ],
+  "correct_letter": null,
+  "correct_pct": null,
+  "is_wrong": null,
+  "topic_broad": "number-theory-divisibility",
+  "topic_specific": "divisibility by a given number",
+  "notes": "Title visible in blue header. No green/maroon marker visible. No solution shown.",
+  "global_id": 892,
+  "source": "individual_exercise_screenshot",
+  "type": "question",
+  "set_name": "NO REMAINDER WHEN DIVIDED BY A GIVEN NUMBER #2"
+ },
+ {
+  "source_file": "Screenshot 2026-10-04 at 11.14.04 AM.png",
+  "exercise_topic_guess": "NO REMAINDER WHEN DIVIDED BY A GIVEN NUMBER #1",
+  "question_number": "1",
+  "question_text": "Which whole number is divisible by 7?",
+  "diagram_description": "No figure. Text only.",
+  "choices": [
+   {
+    "letter": "A",
+    "text": "202"
+   },
+   {
+    "letter": "B",
+    "text": "204"
+   },
+   {
+    "letter": "C",
+    "text": "217"
+   },
+   {
+    "letter": "D",
+    "text": "219"
+   }
+  ],
+  "correct_letter": null,
+  "correct_pct": null,
+  "is_wrong": null,
+  "topic_broad": "number-theory-divisibility",
+  "topic_specific": "divisibility by a given number",
+  "notes": "Title visible in blue header. No green/maroon marker visible. No solution shown.",
+  "global_id": 893,
+  "source": "individual_exercise_screenshot",
+  "type": "question",
+  "set_name": "NO REMAINDER WHEN DIVIDED BY A GIVEN NUMBER #1"
+ },
+ {
+  "source_file": "Screenshot 2026-10-04 at 11.14.07 AM.png",
+  "exercise_topic_guess": "NO REMAINDER WHEN DIVIDED BY A GIVEN NUMBER #1",
+  "question_number": "2",
+  "question_text": "Which whole number is divisible by 6?",
+  "diagram_description": "No figure. Text only.",
+  "choices": [
+   {
+    "letter": "A",
+    "text": "165"
+   },
+   {
+    "letter": "B",
+    "text": "169"
+   },
+   {
+    "letter": "C",
+    "text": "172"
+   },
+   {
+    "letter": "D",
+    "text": "174"
+   }
+  ],
+  "correct_letter": null,
+  "correct_pct": null,
+  "is_wrong": null,
+  "topic_broad": "number-theory-divisibility",
+  "topic_specific": "divisibility by a given number",
+  "notes": "Title visible in blue header. No green/maroon marker visible. No solution shown.",
+  "global_id": 894,
+  "source": "individual_exercise_screenshot",
+  "type": "question",
+  "set_name": "NO REMAINDER WHEN DIVIDED BY A GIVEN NUMBER #1"
+ },
+ {
+  "source_file": "Screenshot 2026-10-04 at 11.14.11 AM.png",
+  "exercise_topic_guess": "NO REMAINDER WHEN DIVIDED BY A GIVEN NUMBER #1",
+  "question_number": "3",
+  "question_text": "Which whole number is divisible by 13?",
+  "diagram_description": "No figure. Text only.",
+  "choices": [
+   {
+    "letter": "A",
+    "text": "546"
+   },
+   {
+    "letter": "B",
+    "text": "552"
+   },
+   {
+    "letter": "C",
+    "text": "555"
+   },
+   {
+    "letter": "D",
+    "text": "557"
+   }
+  ],
+  "correct_letter": null,
+  "correct_pct": null,
+  "is_wrong": null,
+  "topic_broad": "number-theory-divisibility",
+  "topic_specific": "divisibility by a given number",
+  "notes": "Title visible in blue header. No green/maroon marker visible. No solution shown.",
+  "global_id": 895,
+  "source": "individual_exercise_screenshot",
+  "type": "question",
+  "set_name": "NO REMAINDER WHEN DIVIDED BY A GIVEN NUMBER #1"
+ },
+ {
+  "source_file": "Screenshot 2026-10-04 at 11.14.15 AM.png",
+  "exercise_topic_guess": "NO REMAINDER WHEN DIVIDED BY A GIVEN NUMBER #1",
+  "question_number": "4",
+  "question_text": "Which whole number is divisible by 9?",
+  "diagram_description": "No figure. Text only.",
+  "choices": [
+   {
+    "letter": "A",
+    "text": "399"
+   },
+   {
+    "letter": "B",
+    "text": "396"
+   },
+   {
+    "letter": "C",
+    "text": "393"
+   },
+   {
+    "letter": "D",
+    "text": "390"
+   }
+  ],
+  "correct_letter": null,
+  "correct_pct": null,
+  "is_wrong": null,
+  "topic_broad": "number-theory-divisibility",
+  "topic_specific": "divisibility by a given number",
+  "notes": "Title visible in blue header. No green/maroon marker visible. No solution shown.",
+  "global_id": 896,
+  "source": "individual_exercise_screenshot",
+  "type": "question",
+  "set_name": "NO REMAINDER WHEN DIVIDED BY A GIVEN NUMBER #1"
+ },
+ {
+  "source_file": "Screenshot 2026-10-04 at 11.14.19 AM.png",
+  "exercise_topic_guess": "NO REMAINDER WHEN DIVIDED BY A GIVEN NUMBER #1",
+  "question_number": "5",
+  "question_text": "Which whole number is divisible by 11?",
+  "diagram_description": "No figure. Text only.",
+  "choices": [
+   {
+    "letter": "A",
+    "text": "277"
+   },
+   {
+    "letter": "B",
+    "text": "289"
+   },
+   {
+    "letter": "C",
+    "text": "297"
+   },
+   {
+    "letter": "D",
+    "text": "301"
+   }
+  ],
+  "correct_letter": null,
+  "correct_pct": null,
+  "is_wrong": null,
+  "topic_broad": "number-theory-divisibility",
+  "topic_specific": "divisibility by a given number",
+  "notes": "Title visible in blue header. No green/maroon marker visible. No solution shown.",
+  "global_id": 897,
+  "source": "individual_exercise_screenshot",
+  "type": "question",
+  "set_name": "NO REMAINDER WHEN DIVIDED BY A GIVEN NUMBER #1"
+ },
+ {
+  "source_file": "Screenshot 2026-10-04 at 11.15.01 AM.png",
+  "exercise_topic_guess": "NO REMAINDER WHEN DIVIDED BY TWO GIVEN NUMBERS #1",
+  "question_number": "1",
+  "question_text": "Which number is divisible by both 3 and 4?",
+  "diagram_description": "No figure. Text only.",
+  "choices": [
+   {
+    "letter": "A",
+    "text": "6"
+   },
+   {
+    "letter": "B",
+    "text": "15"
+   },
+   {
+    "letter": "C",
+    "text": "24"
+   },
+   {
+    "letter": "D",
+    "text": "40"
+   }
+  ],
+  "correct_letter": null,
+  "correct_pct": null,
+  "is_wrong": null,
+  "topic_broad": "number-theory-divisibility",
+  "topic_specific": "divisibility by two given numbers",
+  "notes": "Title visible in blue header. No green/maroon marker visible. No solution shown.",
+  "global_id": 898,
+  "source": "individual_exercise_screenshot",
+  "type": "question",
+  "set_name": "NO REMAINDER WHEN DIVIDED BY TWO GIVEN NUMBERS #1"
+ },
+ {
+  "source_file": "Screenshot 2026-10-04 at 11.15.05 AM.png",
+  "exercise_topic_guess": "NO REMAINDER WHEN DIVIDED BY TWO GIVEN NUMBERS #1",
+  "question_number": "2",
+  "question_text": "Which number is divisible by both 4 and 6?",
+  "diagram_description": "No figure. Text only.",
+  "choices": [
+   {
+    "letter": "A",
+    "text": "14"
+   },
+   {
+    "letter": "B",
+    "text": "28"
+   },
+   {
+    "letter": "C",
+    "text": "30"
+   },
+   {
+    "letter": "D",
+    "text": "48"
+   }
+  ],
+  "correct_letter": null,
+  "correct_pct": null,
+  "is_wrong": null,
+  "topic_broad": "number-theory-divisibility",
+  "topic_specific": "divisibility by two given numbers",
+  "notes": "Title visible in blue header. No green/maroon marker visible. No solution shown.",
+  "global_id": 899,
+  "source": "individual_exercise_screenshot",
+  "type": "question",
+  "set_name": "NO REMAINDER WHEN DIVIDED BY TWO GIVEN NUMBERS #1"
+ },
+ {
+  "source_file": "Screenshot 2026-10-04 at 11.15.13 AM.png",
+  "exercise_topic_guess": "NO REMAINDER WHEN DIVIDED BY TWO GIVEN NUMBERS #1",
+  "question_number": "3",
+  "question_text": "Which number is divisible by both 5 and 8?",
+  "diagram_description": "No figure. Text only.",
+  "choices": [
+   {
+    "letter": "A",
+    "text": "24"
+   },
+   {
+    "letter": "B",
+    "text": "45"
+   },
+   {
+    "letter": "C",
+    "text": "96"
+   },
+   {
+    "letter": "D",
+    "text": "120"
+   }
+  ],
+  "correct_letter": null,
+  "correct_pct": null,
+  "is_wrong": null,
+  "topic_broad": "number-theory-divisibility",
+  "topic_specific": "divisibility by two given numbers",
+  "notes": "Title visible in blue header. No green/maroon marker visible. No solution shown.",
+  "global_id": 900,
+  "source": "individual_exercise_screenshot",
+  "type": "question",
+  "set_name": "NO REMAINDER WHEN DIVIDED BY TWO GIVEN NUMBERS #1"
+ },
+ {
+  "source_file": "Screenshot 2026-10-04 at 11.15.17 AM.png",
+  "exercise_topic_guess": "NO REMAINDER WHEN DIVIDED BY TWO GIVEN NUMBERS #1",
+  "question_number": "4",
+  "question_text": "Which number is divisible by both 2 and 7?",
+  "diagram_description": "No figure. Text only.",
+  "choices": [
+   {
+    "letter": "A",
+    "text": "56"
+   },
+   {
+    "letter": "B",
+    "text": "63"
+   },
+   {
+    "letter": "C",
+    "text": "72"
+   },
+   {
+    "letter": "D",
+    "text": "88"
+   }
+  ],
+  "correct_letter": null,
+  "correct_pct": null,
+  "is_wrong": null,
+  "topic_broad": "number-theory-divisibility",
+  "topic_specific": "divisibility by two given numbers",
+  "notes": "Title visible in blue header. No green/maroon marker visible. No solution shown.",
+  "global_id": 901,
+  "source": "individual_exercise_screenshot",
+  "type": "question",
+  "set_name": "NO REMAINDER WHEN DIVIDED BY TWO GIVEN NUMBERS #1"
+ },
+ {
+  "source_file": "Screenshot 2026-10-04 at 11.15.21 AM.png",
+  "exercise_topic_guess": "NO REMAINDER WHEN DIVIDED BY TWO GIVEN NUMBERS #1",
+  "question_number": 5,
+  "question_text": "Which number is divisible by both 9 and 12?",
+  "diagram_description": "None (text only).",
+  "choices": [
+   "54",
+   "63",
+   "96",
+   "144"
+  ],
+  "correct_letter": null,
+  "correct_pct": null,
+  "is_wrong": null,
+  "topic_broad": "number-theory-divisibility",
+  "topic_specific": "divisible by two given numbers (common multiple)",
+  "notes": "No solution shown. My check: 144 is divisible by both 9 (x16) and 12 (x12); 54, 63, 96 each fail one of the two.",
+  "global_id": 902,
+  "source": "individual_exercise_screenshot",
+  "type": "question",
+  "set_name": "NO REMAINDER WHEN DIVIDED BY TWO GIVEN NUMBERS #1"
+ },
+ {
+  "source_file": "Screenshot 2026-10-04 at 11.15.44 AM.png",
+  "exercise_topic_guess": "NTH TERM, GIVEN ARITHMETIC SEQUENCE, PROGRESSIVE PATTERN, ETC. #1",
+  "question_number": 1,
+  "question_text": "What is the next number in the sequence? 4, 10, 16, 22, 28, 34, ...",
+  "diagram_description": "None (text sequence only).",
+  "choices": [
+   "35",
+   "36",
+   "39",
+   "40"
+  ],
+  "correct_letter": null,
+  "correct_pct": null,
+  "is_wrong": null,
+  "topic_broad": "patterns-sequences",
+  "topic_specific": "next term, arithmetic sequence (constant difference)",
+  "notes": "No solution shown. My check: common difference 6, so next term is 40 (D).",
+  "global_id": 903,
+  "source": "individual_exercise_screenshot",
+  "type": "question",
+  "set_name": "NTH TERM, GIVEN ARITHMETIC SEQUENCE, PROGRESSIVE PATTERN, ETC. #1"
+ },
+ {
+  "source_file": "Screenshot 2026-10-04 at 11.15.50 AM.png",
+  "exercise_topic_guess": "NTH TERM, GIVEN ARITHMETIC SEQUENCE, PROGRESSIVE PATTERN, ETC. #1",
+  "question_number": 2,
+  "question_text": "What is the next number in the sequence? 2, 3, 5, 8, 12, 17, 23, ...",
+  "diagram_description": "None (text sequence only).",
+  "choices": [
+   "24",
+   "26",
+   "30",
+   "32"
+  ],
+  "correct_letter": null,
+  "correct_pct": null,
+  "is_wrong": null,
+  "topic_broad": "patterns-sequences",
+  "topic_specific": "next term, progressive (increasing-difference) pattern",
+  "notes": "No solution shown. My check: differences are 1, 2, 3, 4, 5, 6, so the next term is 29, which is NOT among the choices. Flag for review (possible transcription or answer-choice issue).",
+  "global_id": 904,
+  "source": "individual_exercise_screenshot",
+  "type": "question",
+  "set_name": "NTH TERM, GIVEN ARITHMETIC SEQUENCE, PROGRESSIVE PATTERN, ETC. #1"
+ },
+ {
+  "source_file": "Screenshot 2026-10-04 at 11.15.54 AM.png",
+  "exercise_topic_guess": "NTH TERM, GIVEN ARITHMETIC SEQUENCE, PROGRESSIVE PATTERN, ETC. #1",
+  "question_number": 3,
+  "question_text": "What is the next number in the sequence? 100, 90, 85, 75, 70, 60, ...",
+  "diagram_description": "None (text sequence only).",
+  "choices": [
+   "45",
+   "50",
+   "55",
+   "65"
+  ],
+  "correct_letter": null,
+  "correct_pct": null,
+  "is_wrong": null,
+  "topic_broad": "patterns-sequences",
+  "topic_specific": "next term, alternating-difference pattern",
+  "notes": "No solution shown. My check: differences alternate -10, -5, so the next term is 55 (C).",
+  "global_id": 905,
+  "source": "individual_exercise_screenshot",
+  "type": "question",
+  "set_name": "NTH TERM, GIVEN ARITHMETIC SEQUENCE, PROGRESSIVE PATTERN, ETC. #1"
+ },
+ {
+  "source_file": "Screenshot 2026-10-04 at 11.15.59 AM.png",
+  "exercise_topic_guess": "NTH TERM, GIVEN ARITHMETIC SEQUENCE, PROGRESSIVE PATTERN, ETC. #1",
+  "question_number": 4,
+  "question_text": "What is the next number in the sequence? 1, 4, 9, 16, 25, 36, ...",
+  "diagram_description": "None (text sequence only).",
+  "choices": [
+   "39",
+   "45",
+   "49",
+   "52"
+  ],
+  "correct_letter": null,
+  "correct_pct": null,
+  "is_wrong": null,
+  "topic_broad": "patterns-sequences",
+  "topic_specific": "next term, square numbers",
+  "notes": "No solution shown. My check: consecutive squares, so the next term is 49 (C).",
+  "global_id": 906,
+  "source": "individual_exercise_screenshot",
+  "type": "question",
+  "set_name": "NTH TERM, GIVEN ARITHMETIC SEQUENCE, PROGRESSIVE PATTERN, ETC. #1"
+ },
+ {
+  "source_file": "Screenshot 2026-10-04 at 11.16.03 AM.png",
+  "exercise_topic_guess": "NTH TERM, GIVEN ARITHMETIC SEQUENCE, PROGRESSIVE PATTERN, ETC. #1",
+  "question_number": 5,
+  "question_text": "What is the next number in the sequence? 1, 2, 4, 7, 11, 16, ...",
+  "diagram_description": "None (text sequence only).",
+  "choices": [
+   "17",
+   "22",
+   "24",
+   "27"
+  ],
+  "correct_letter": null,
+  "correct_pct": null,
+  "is_wrong": null,
+  "topic_broad": "patterns-sequences",
+  "topic_specific": "next term, progressive (increasing-difference) pattern",
+  "notes": "No solution shown. My check: differences are 1, 2, 3, 4, 5, so the next term is 22 (B).",
+  "global_id": 907,
+  "source": "individual_exercise_screenshot",
+  "type": "question",
+  "set_name": "NTH TERM, GIVEN ARITHMETIC SEQUENCE, PROGRESSIVE PATTERN, ETC. #1"
+ },
+ {
+  "source_file": "Screenshot 2026-10-04 at 11.16.42 AM.png",
+  "exercise_topic_guess": "PATTERNS IN DATA TABLES AND LISTS #1",
+  "question_number": 1,
+  "question_text": "A set of input and output values is shown. If the input value is 9, what is the output value?",
+  "diagram_description": "Two-column table with headers Input and Output. Rows (input, output): (1, 5), (3, 7), (5, 9), (7, 11).",
+  "choices": [
+   "12",
+   "13",
+   "14",
+   "15"
+  ],
+  "correct_letter": null,
+  "correct_pct": null,
+  "is_wrong": null,
+  "topic_broad": "patterns-sequences",
+  "topic_specific": "input-output table, find output for given input",
+  "notes": "No solution shown. My check: output = input + 4, so input 9 gives 13 (B).",
+  "global_id": 908,
+  "source": "individual_exercise_screenshot",
+  "type": "question",
+  "set_name": "PATTERNS IN DATA TABLES AND LISTS #1"
+ },
+ {
+  "source_file": "Screenshot 2026-10-04 at 11.16.49 AM.png",
+  "exercise_topic_guess": "PATTERNS IN DATA TABLES AND LISTS #1",
+  "question_number": 2,
+  "question_text": "A set of input and output values is shown. If the input value is 5, what is the output value?",
+  "diagram_description": "Two-column table with headers Input and Output. Rows (input, output): (0, 0), (1, 3), (2, 6), (3, 9).",
+  "choices": [
+   "12",
+   "15",
+   "18",
+   "21"
+  ],
+  "correct_letter": null,
+  "correct_pct": null,
+  "is_wrong": null,
+  "topic_broad": "patterns-sequences",
+  "topic_specific": "input-output table, find output for given input",
+  "notes": "No solution shown. My check: output = 3 x input, so input 5 gives 15 (B).",
+  "global_id": 909,
+  "source": "individual_exercise_screenshot",
+  "type": "question",
+  "set_name": "PATTERNS IN DATA TABLES AND LISTS #1"
+ },
+ {
+  "source_file": "Screenshot 2026-10-04 at 11.16.52 AM.png",
+  "exercise_topic_guess": "PATTERNS IN DATA TABLES AND LISTS #1",
+  "question_number": 3,
+  "question_text": "A set of input and output values is shown. What rule is applied to the input value to get the output value?",
+  "diagram_description": "Two-column table with headers Input and Output. Rows (input, output): (2, 8), (4, 16), (6, 24), (10, 40).",
+  "choices": [
+   "Add 6",
+   "Add 8",
+   "Multiply by 2",
+   "Multiply by 4"
+  ],
+  "correct_letter": null,
+  "correct_pct": null,
+  "is_wrong": null,
+  "topic_broad": "patterns-sequences",
+  "topic_specific": "input-output table, identify rule",
+  "notes": "No solution shown. My check: every output is 4 times the input, so the rule is multiply by 4 (D).",
+  "global_id": 910,
+  "source": "individual_exercise_screenshot",
+  "type": "question",
+  "set_name": "PATTERNS IN DATA TABLES AND LISTS #1"
+ },
+ {
+  "source_file": "Screenshot 2026-10-04 at 11.16.56 AM.png",
+  "exercise_topic_guess": "PATTERNS IN DATA TABLES AND LISTS #1",
+  "question_number": 4,
+  "question_text": "A set of input and output values is shown. If the output value is 15, what is the input value?",
+  "diagram_description": "Two-column table with headers Input and Output. Rows (input, output): (0, 1), (1, 3), (2, 5), (3, 7).",
+  "choices": [
+   "4",
+   "5",
+   "7",
+   "31"
+  ],
+  "correct_letter": null,
+  "correct_pct": null,
+  "is_wrong": null,
+  "topic_broad": "patterns-sequences",
+  "topic_specific": "input-output table, find input for given output",
+  "notes": "No solution shown. My check: output = 2 x input + 1, so output 15 gives input 7 (C).",
+  "global_id": 911,
+  "source": "individual_exercise_screenshot",
+  "type": "question",
+  "set_name": "PATTERNS IN DATA TABLES AND LISTS #1"
+ },
+ {
+  "source_file": "Screenshot 2026-10-04 at 11.17.19 AM.png",
+  "exercise_topic_guess": "PREDICTING THE NEXT SHAPES, GIVEN PROGRESSIVE PATTERN #2",
+  "question_number": 1,
+  "question_text": "The first four objects in a pattern are shown. If the pattern continues, how many dots are in the 10th object?",
+  "diagram_description": "2-D dot figures, left to right: object 1 is a single dot; object 2 is a small triangle outline with dots at its corners; the object labeled 'Third Object' is a triangle with dots at its corners, along its sides and along its base (6 dots by my count); the object labeled 'Fourth Object' is a larger triangle with dots at corners and along its sides plus one dot inside (10 dots by my count). Only 'Third Object' and 'Fourth Object' have text labels. Dot counts are my reading of the image.",
+  "choices": [
+   "45",
+   "50",
+   "55",
+   "66"
+  ],
+  "correct_letter": null,
+  "correct_pct": null,
+  "is_wrong": null,
+  "topic_broad": "patterns-sequences",
+  "topic_specific": "predicting next figure, dot counts (triangular numbers)",
+  "notes": "No solution shown. My reading: 1, 3, 6, 10 dots (triangular numbers). The 10th triangular number is 55 (C). Verify the dot counts against the image before relying on this.",
+  "global_id": 912,
+  "source": "individual_exercise_screenshot",
+  "type": "question",
+  "set_name": "PREDICTING THE NEXT SHAPES, GIVEN PROGRESSIVE PATTERN #2"
+ },
+ {
+  "source_file": "Screenshot 2026-10-04 at 11.17.23 AM.png",
+  "exercise_topic_guess": "PREDICTING THE NEXT SHAPES, GIVEN PROGRESSIVE PATTERN #2",
+  "question_number": 2,
+  "question_text": "The first five figures in a pattern are shown. If the pattern continues, what would the 6th figure in the pattern look like?",
+  "diagram_description": "2-D square-tile figures, left to right: figure 1 is one square; figure 2 is two squares stacked vertically; figure 3 is an L of three squares (two on top, one below right); figure 4 is a 2x2 block; figure 5 is a 2-wide, 2-tall block with one extra square below the left column (5 squares). The answer choices are also 2-D square-tile figures.",
+  "choices": [
+   "Grid: 2 columns x 3 rows of squares (6 squares)",
+   "Stepped figure: top row of 3 squares, middle row of 2, bottom row of 1 (6 squares)",
+   "Stepped figure: top row of 2 squares, middle row of 3, bottom row of 1 (6 squares)",
+   "Stepped figure: top row of 2 squares, middle row of 2, bottom row of 3 (about 7 squares; verify)"
+  ],
+  "correct_letter": null,
+  "correct_pct": null,
+  "is_wrong": null,
+  "topic_broad": "patterns-sequences",
+  "topic_specific": "predicting next figure, square-tile count pattern",
+  "notes": "No solution shown. Figure n has n squares, so figure 6 should have 6 squares. Choices A, B and C appear to have 6 squares; D appears to have 7 (my row count, verify). Figure arrangements are my reading.",
+  "global_id": 913,
+  "source": "individual_exercise_screenshot",
+  "type": "question",
+  "set_name": "PREDICTING THE NEXT SHAPES, GIVEN PROGRESSIVE PATTERN #2"
+ },
+ {
+  "source_file": "Screenshot 2026-10-04 at 11.17.53 AM.png",
+  "exercise_topic_guess": "PREDICTING THE NEXT SHAPES, GIVEN PROGRESSIVE PATTERN #2",
+  "question_number": 3,
+  "question_text": "The first four figures in a pattern are shown. If the pattern continues, what would the 9th figure in the pattern look like?",
+  "diagram_description": "2-D square-tile figures, left to right: figure 1 is two squares stacked vertically; figure 2 is a square on top left with two squares below (3 squares); figure 3 is a 2x2 block (4 squares); figure 4 is two squares on top and three squares below, bottom row extending right (5 squares). Choices are also 2-D square-tile figures, each with two rows.",
+  "choices": [
+   "Two rows of 4 squares (8 squares)",
+   "Two rows of 5 squares (10 squares)",
+   "Two rows of 6 squares (12 squares)",
+   "Top row of 4 squares, bottom row of 5 squares (9 squares)"
+  ],
+  "correct_letter": null,
+  "correct_pct": null,
+  "is_wrong": null,
+  "topic_broad": "patterns-sequences",
+  "topic_specific": "predicting next figure, square-tile count pattern",
+  "notes": "No solution shown. My count of the first four figures: 2, 3, 4, 5 squares. The pattern suggests figure 9 has 10 squares, which matches choice B (two rows of 5). Verify against the image.",
+  "global_id": 914,
+  "source": "individual_exercise_screenshot",
+  "type": "question",
+  "set_name": "PREDICTING THE NEXT SHAPES, GIVEN PROGRESSIVE PATTERN #2"
+ },
+ {
+  "source_file": "Screenshot 2026-10-04 at 11.17.58 AM.png",
+  "exercise_topic_guess": "PREDICTING THE NEXT SHAPES, GIVEN PROGRESSIVE PATTERN #2",
+  "question_number": 4,
+  "question_text": "The first three figures in a pattern are shown. Which figure in this pattern has 29 squares?",
+  "diagram_description": "2-D square-tile cross-like figures, left to right: figure 1 is a plus shape of 5 squares (center plus one above, below, left, right); figure 2 has a horizontal row and a vertical column of squares crossing at the center (about 9 squares); figure 3 is a larger cross with arms of about 3 squares each (about 13 squares). Counts are approximate readings.",
+  "choices": [
+   "Fifth",
+   "Sixth",
+   "Seventh",
+   "Eighth"
+  ],
+  "correct_letter": null,
+  "correct_pct": null,
+  "is_wrong": null,
+  "topic_broad": "patterns-sequences",
+  "topic_specific": "predicting figure by square count, linear pattern (4n + 1)",
+  "notes": "No solution shown. My reading: 5, 9, 13 squares, so figure n has 4n + 1 squares. 29 = 4(7) + 1, so the seventh figure (C). Counts are approximate; verify.",
+  "global_id": 915,
+  "source": "individual_exercise_screenshot",
+  "type": "question",
+  "set_name": "PREDICTING THE NEXT SHAPES, GIVEN PROGRESSIVE PATTERN #2"
+ },
+ {
+  "source_file": "Screenshot 2026-10-04 at 11.18.02 AM.png",
+  "exercise_topic_guess": "PREDICTING THE NEXT SHAPES, GIVEN PROGRESSIVE PATTERN #2",
+  "question_number": 5,
+  "question_text": "The first three figures in a pattern are shown. Which number could NOT be the number of squares in a figure in this pattern?",
+  "diagram_description": "Same cross-like square-tile pattern as question 4: figure 1 is a plus of 5 squares; figure 2 is a horizontal and vertical cross of about 9 squares; figure 3 is a larger cross of about 13 squares. Counts are approximate readings.",
+  "choices": [
+   "17",
+   "21",
+   "25",
+   "28"
+  ],
+  "correct_letter": null,
+  "correct_pct": null,
+  "is_wrong": null,
+  "topic_broad": "patterns-sequences",
+  "topic_specific": "predicting figure by square count, linear pattern (4n + 1)",
+  "notes": "No solution shown. My reading: figures have 4n + 1 squares (5, 9, 13, ...). 17, 21, 25 all fit this form; 28 does not, so the answer is 28 (D).",
+  "global_id": 916,
+  "source": "individual_exercise_screenshot",
+  "type": "question",
+  "set_name": "PREDICTING THE NEXT SHAPES, GIVEN PROGRESSIVE PATTERN #2"
+ },
+ {
+  "source_file": "Screenshot 2026-10-04 at 11.18.18 AM.png",
+  "exercise_topic_guess": "PREDICTING THE NEXT SHAPES, GIVEN PROGRESSIVE PATTERN #3",
+  "question_number": 1,
+  "question_text": "A pattern is shown. If two more rows are added to the bottom of the pattern, how many total squares will be used to make the new figure?",
+  "diagram_description": "Staircase of unit squares, left-aligned: top row 1 square, then rows of 2, 3 and 4 squares going down (10 squares total). Each row is one square wider than the row above, all aligned on the left.",
+  "choices": [
+   "10",
+   "15",
+   "18",
+   "21"
+  ],
+  "correct_letter": null,
+  "correct_pct": null,
+  "is_wrong": null,
+  "topic_broad": "patterns-sequences",
+  "topic_specific": "predicting next figure, staircase square count",
+  "notes": "No solution shown. My check: adding rows of 5 and 6 squares to the existing 10 gives 21 (D).",
+  "global_id": 917,
+  "source": "individual_exercise_screenshot",
+  "type": "question",
+  "set_name": "PREDICTING THE NEXT SHAPES, GIVEN PROGRESSIVE PATTERN #3"
+ },
+ {
+  "source_file": "Screenshot 2026-10-04 at 11.18.22 AM.png",
+  "exercise_topic_guess": "PREDICTING THE NEXT SHAPES, GIVEN PROGRESSIVE PATTERN #3",
+  "question_number": 2,
+  "question_text": "A pattern is shown. If two more rows are added to the bottom of the pattern, how many total squares will be used to make the new figure?",
+  "diagram_description": "Centered stacked figure of unit squares (pyramid-like): top row 1 square, then rows of 3, 5 and 7 squares (16 squares total), each row centered over the one below.",
+  "choices": [
+   "21",
+   "30",
+   "36",
+   "41"
+  ],
+  "correct_letter": null,
+  "correct_pct": null,
+  "is_wrong": null,
+  "topic_broad": "patterns-sequences",
+  "topic_specific": "predicting next figure, centered square-count pattern",
+  "notes": "No solution shown. My check: rows of 1, 3, 5, 7 odd counts; adding rows of 9 and 11 gives 16 + 20 = 36 (C).",
+  "global_id": 918,
+  "source": "individual_exercise_screenshot",
+  "type": "question",
+  "set_name": "PREDICTING THE NEXT SHAPES, GIVEN PROGRESSIVE PATTERN #3"
+ },
+ {
+  "source_file": "Screenshot 2026-10-04 at 11.18.26 AM.png",
+  "exercise_topic_guess": "PREDICTING THE NEXT SHAPES, GIVEN PROGRESSIVE PATTERN #3",
+  "question_number": 3,
+  "question_text": "A pattern is shown. If three more rows are added to the bottom of the pattern, how many total squares will be used to make the new figure?",
+  "diagram_description": "Staircase of unit squares, left-aligned: top row 1 square, then rows of 2, 3 and 4 squares going down (10 squares total).",
+  "choices": [
+   "21",
+   "25",
+   "28",
+   "31"
+  ],
+  "correct_letter": null,
+  "correct_pct": null,
+  "is_wrong": null,
+  "topic_broad": "patterns-sequences",
+  "topic_specific": "predicting next figure, staircase square count",
+  "notes": "No solution shown. My check: adding rows of 5, 6 and 7 squares to the existing 10 gives 28 (C).",
+  "global_id": 919,
+  "source": "individual_exercise_screenshot",
+  "type": "question",
+  "set_name": "PREDICTING THE NEXT SHAPES, GIVEN PROGRESSIVE PATTERN #3"
+ },
+ {
+  "source_file": "Screenshot 2026-10-04 at 11.18.30 AM.png",
+  "exercise_topic_guess": "PREDICTING THE NEXT SHAPES, GIVEN PROGRESSIVE PATTERN #3",
+  "question_number": 4,
+  "question_text": "A figure is shown. If one more ring of hexagons were added to this figure, how many total hexagons would be used to make this figure?",
+  "diagram_description": "2-D honeycomb of regular hexagons: one gray hexagon at the center, surrounded by a ring of 6 white hexagons (7 hexagons total).",
+  "choices": [
+   "19",
+   "23",
+   "27",
+   "29"
+  ],
+  "correct_letter": null,
+  "correct_pct": null,
+  "is_wrong": null,
+  "topic_broad": "patterns-sequences",
+  "topic_specific": "hexagon ring count (centered hexagonal numbers)",
+  "notes": "No solution shown. My check: 1 center + 6 = 7; a second ring adds 12, giving 19 (A).",
+  "global_id": 920,
+  "source": "individual_exercise_screenshot",
+  "type": "question",
+  "set_name": "PREDICTING THE NEXT SHAPES, GIVEN PROGRESSIVE PATTERN #3"
+ },
+ {
+  "source_file": "Screenshot 2026-10-04 at 11.18.35 AM.png",
+  "exercise_topic_guess": "PREDICTING THE NEXT SHAPES, GIVEN PROGRESSIVE PATTERN #3",
+  "question_number": 5,
+  "question_text": "A pattern is shown. If two more rows were added to this figure, how many total squares would be used to form the resulting figure?",
+  "diagram_description": "Centered stacked figure of unit squares (pyramid-like): top row 1 square, then rows of 2, 3 and 4 squares, each row centered over the one below (10 squares total).",
+  "choices": [
+   "10",
+   "15",
+   "18",
+   "21"
+  ],
+  "correct_letter": null,
+  "correct_pct": null,
+  "is_wrong": null,
+  "topic_broad": "patterns-sequences",
+  "topic_specific": "predicting next figure, centered square-count pattern",
+  "notes": "No solution shown. My check: 10 existing squares plus rows of 5 and 6 gives 21 (D).",
+  "global_id": 921,
+  "source": "individual_exercise_screenshot",
+  "type": "question",
+  "set_name": "PREDICTING THE NEXT SHAPES, GIVEN PROGRESSIVE PATTERN #3"
+ },
+ {
+  "source_file": "Screenshot 2026-10-04 at 11.18.39 AM.png",
+  "exercise_topic_guess": "PREDICTING THE NEXT SHAPES, GIVEN PROGRESSIVE PATTERN #3",
+  "question_number": 6,
+  "question_text": "A figure is shown. If one more ring of hexagons were added to this figure, how many total hexagons would be used to make this figure?",
+  "diagram_description": "2-D honeycomb of regular hexagons: 2 rings around a center. Outer ring has 12 hexagons (appear gray); inner ring has 6 white hexagons; center hexagon is white (19 total by my count). Shading counts are my reading.",
+  "choices": [
+   "29",
+   "33",
+   "37",
+   "42"
+  ],
+  "correct_letter": null,
+  "correct_pct": null,
+  "is_wrong": null,
+  "topic_broad": "patterns-sequences",
+  "topic_specific": "hexagon ring count (centered hexagonal numbers)",
+  "notes": "No solution shown. My check: 19 hexagons now; a third ring adds 18, giving 37 (C). Verify the 19-hexagon count against the image.",
+  "global_id": 922,
+  "source": "individual_exercise_screenshot",
+  "type": "question",
+  "set_name": "PREDICTING THE NEXT SHAPES, GIVEN PROGRESSIVE PATTERN #3"
+ },
+ {
+  "source_file": "Screenshot 2026-10-04 at 11.19.09 AM.png",
+  "exercise_topic_guess": "SHAPE CONSTRUCTION & SYMMETRY IN 2-D FIGURES #2",
+  "question_number": 1,
+  "question_text": "The figure shown may be reflected over one or more of the dotted lines. The shape will exactly match the original figure when it is reflected over which line or group of lines?",
+  "diagram_description": "Thick black outline of a six-pointed star (irregular, not a regular hexagram). Three dotted, arrow-tipped lines: line a is vertical through the top and bottom points, labeled a above the top point; line b is a dashed diagonal running from lower-left to upper-right, labeled b at its upper-right end; line c is a dashed diagonal running from upper-left to lower-right, labeled c at its lower-right end. Positions approximate.",
+  "choices": [
+   "line a only",
+   "line a and line c",
+   "line b and line c",
+   "line a, line b, and line c"
+  ],
+  "correct_letter": null,
+  "correct_pct": null,
+  "is_wrong": null,
+  "topic_broad": "geometry-angles-shapes",
+  "topic_specific": "reflectional symmetry, lines of symmetry for a star outline",
+  "notes": "No solution shown and no answer marked.",
+  "global_id": 923,
+  "source": "individual_exercise_screenshot",
+  "type": "question",
+  "set_name": "SHAPE CONSTRUCTION & SYMMETRY IN 2-D FIGURES #2"
+ },
+ {
+  "source_file": "Screenshot 2026-10-04 at 11.19.17 AM.png",
+  "exercise_topic_guess": "SHAPE CONSTRUCTION & SYMMETRY IN 2-D FIGURES #2",
+  "question_number": 2,
+  "question_text": "The figure shown may be reflected over one or more lines of symmetry. How many lines of symmetry does the figure have?",
+  "diagram_description": "Regular six-pointed star outline (hexagram, two overlapping triangles) with no dotted lines shown.",
+  "choices": [
+   "6",
+   "8",
+   "10",
+   "12"
+  ],
+  "correct_letter": null,
+  "correct_pct": null,
+  "is_wrong": null,
+  "topic_broad": "geometry-angles-shapes",
+  "topic_specific": "lines of symmetry, regular six-pointed star",
+  "notes": "No solution shown. My check: a regular six-pointed star has 6 lines of symmetry (A).",
+  "global_id": 924,
+  "source": "individual_exercise_screenshot",
+  "type": "question",
+  "set_name": "SHAPE CONSTRUCTION & SYMMETRY IN 2-D FIGURES #2"
+ },
+ {
+  "source_file": "Screenshot 2026-10-04 at 11.19.19 AM.png",
+  "exercise_topic_guess": "SHAPE CONSTRUCTION & SYMMETRY IN 2-D FIGURES #2",
+  "question_number": 3,
+  "question_text": "The figure shown may be reflected over one or more of the dotted lines. The hexagon will NOT exactly match the original figure when it is reflected over which of the given lines?",
+  "diagram_description": "Regular hexagon with vertices at top and bottom (vertical sides). Three dashed, arrow-tipped lines: line a is vertical through the top and bottom vertices, labeled a at the top; line b is horizontal through the upper-left and upper-right vertices, labeled b at the right; line c is a diagonal from the upper-left vertex to the lower-right area, labeled c at the lower-right.",
+  "choices": [
+   "line b only",
+   "line a or line c",
+   "line b or line c",
+   "line a, line b, or line c"
+  ],
+  "correct_letter": null,
+  "correct_pct": null,
+  "is_wrong": null,
+  "topic_broad": "geometry-angles-shapes",
+  "topic_specific": "reflectional symmetry, hexagon and given lines",
+  "notes": "No solution shown and no answer marked. The question is a NOT question.",
+  "global_id": 925,
+  "source": "individual_exercise_screenshot",
+  "type": "question",
+  "set_name": "SHAPE CONSTRUCTION & SYMMETRY IN 2-D FIGURES #2"
+ },
+ {
+  "source_file": "Screenshot 2026-10-04 at 11.19.25 AM.png",
+  "exercise_topic_guess": "SHAPE CONSTRUCTION & SYMMETRY IN 2-D FIGURES #2",
+  "question_number": 4,
+  "question_text": "The figure shown may be reflected over one or more of the dotted lines. The shape will NOT exactly match the original figure when it is reflected over which of the given lines?",
+  "diagram_description": "Thick black outline of an irregular six-pointed star, same family as question 1 (points at top and bottom on a vertical axis). Three dotted, arrow-tipped lines: line a is vertical through the top and bottom points, labeled a above the top point; line b is a dashed diagonal from lower-left to upper-right, labeled b at its left end; line c is a dashed diagonal from the center toward the lower-right, labeled c at its lower-right end. Positions approximate.",
+  "choices": [
+   "line b only",
+   "line a or line c",
+   "line b or line c",
+   "line a, line b, or line c"
+  ],
+  "correct_letter": null,
+  "correct_pct": null,
+  "is_wrong": null,
+  "topic_broad": "geometry-angles-shapes",
+  "topic_specific": "reflectional symmetry, star outline and given lines",
+  "notes": "No solution shown and no answer marked. The question is a NOT question.",
+  "global_id": 926,
+  "source": "individual_exercise_screenshot",
+  "type": "question",
+  "set_name": "SHAPE CONSTRUCTION & SYMMETRY IN 2-D FIGURES #2"
+ },
+ {
+  "source_file": "Screenshot 2026-10-04 at 11.19.29 AM.png",
+  "exercise_topic_guess": "SHAPE CONSTRUCTION & SYMMETRY IN 2-D FIGURES #2",
+  "question_number": 5,
+  "question_text": "How many lines of symmetry does a square have?",
+  "diagram_description": "None (text only).",
+  "choices": [
+   "1",
+   "2",
+   "3",
+   "4"
+  ],
+  "correct_letter": null,
+  "correct_pct": null,
+  "is_wrong": null,
+  "topic_broad": "geometry-angles-shapes",
+  "topic_specific": "lines of symmetry, square",
+  "notes": "No solution shown. A square has 4 lines of symmetry (D).",
+  "global_id": 927,
+  "source": "individual_exercise_screenshot",
+  "type": "question",
+  "set_name": "SHAPE CONSTRUCTION & SYMMETRY IN 2-D FIGURES #2"
+ },
+ {
+  "source_file": "Screenshot 2026-10-04 at 11.19.46 AM.png",
+  "exercise_topic_guess": "SHAPE CONSTRUCTION & SYMMETRY IN 2-D FIGURES #1",
+  "question_number": 1,
+  "question_text": "The figure shown may be reflected over one or more lines of symmetry. How many lines of symmetry does the figure have?",
+  "diagram_description": "Regular pentagon outline (thick black), no dotted lines shown.",
+  "choices": [
+   "1",
+   "3",
+   "4",
+   "5"
+  ],
+  "correct_letter": null,
+  "correct_pct": null,
+  "is_wrong": null,
+  "topic_broad": "geometry-angles-shapes",
+  "topic_specific": "lines of symmetry, regular pentagon",
+  "notes": "No solution shown. A regular pentagon has 5 lines of symmetry (D).",
+  "global_id": 928,
+  "source": "individual_exercise_screenshot",
+  "type": "question",
+  "set_name": "SHAPE CONSTRUCTION & SYMMETRY IN 2-D FIGURES #1"
+ },
+ {
+  "source_file": "Screenshot 2026-10-04 at 11.19.50 AM.png",
+  "exercise_topic_guess": "SHAPE CONSTRUCTION & SYMMETRY IN 2-D FIGURES #1",
+  "question_number": 2,
+  "question_text": "The figure shown may be reflected over one or more lines of symmetry. How many lines of symmetry does the figure have?",
+  "diagram_description": "Triangle outline (thick black) with a pointed apex at the top and a horizontal base; appears equilateral. No dotted lines shown.",
+  "choices": [
+   "1",
+   "2",
+   "3",
+   "4"
+  ],
+  "correct_letter": null,
+  "correct_pct": null,
+  "is_wrong": null,
+  "topic_broad": "geometry-angles-shapes",
+  "topic_specific": "lines of symmetry, equilateral triangle",
+  "notes": "No solution shown. An equilateral triangle has 3 lines of symmetry (C).",
+  "global_id": 929,
+  "source": "individual_exercise_screenshot",
+  "type": "question",
+  "set_name": "SHAPE CONSTRUCTION & SYMMETRY IN 2-D FIGURES #1"
+ },
+ {
+  "source_file": "Screenshot 2026-10-04 at 11.19.55 AM.png",
+  "exercise_topic_guess": "SHAPE CONSTRUCTION & SYMMETRY IN 2-D FIGURES #1",
+  "question_number": 3,
+  "question_text": "The figure shown may be reflected over one or more of the dotted lines. The hexagon will exactly match the original figure when it is reflected over which line or group of lines?",
+  "diagram_description": "Regular hexagon with vertices at top and bottom (vertical sides). Three dashed, arrow-tipped lines: line a is vertical through the top and bottom vertices, labeled a above the top vertex; line b is horizontal through the upper-left and upper-right vertices, labeled b at the right; line c is a diagonal from the upper-left vertex to the lower-right edge, labeled c at the lower-right end. Positions approximate.",
+  "choices": [
+   "line b only",
+   "both line a and line c",
+   "both line b and line c",
+   "line a, line b, and line c"
+  ],
+  "correct_letter": null,
+  "correct_pct": null,
+  "is_wrong": null,
+  "topic_broad": "geometry-angles-shapes",
+  "topic_specific": "reflectional symmetry, hexagon and given lines",
+  "notes": "No solution shown and no answer marked.",
+  "global_id": 930,
+  "source": "individual_exercise_screenshot",
+  "type": "question",
+  "set_name": "SHAPE CONSTRUCTION & SYMMETRY IN 2-D FIGURES #1"
+ },
+ {
+  "source_file": "Screenshot 2026-10-04 at 11.19.56 AM.png",
+  "exercise_topic_guess": "SHAPE CONSTRUCTION & SYMMETRY IN 2-D FIGURES #1",
+  "question_number": 4,
+  "question_text": "The figure shown may be reflected over one or more lines of symmetry. How many lines of symmetry does the figure have?",
+  "diagram_description": "Regular hexagon outline (thick black) with vertices at top and bottom; no dotted lines shown.",
+  "choices": [
+   "3",
+   "4",
+   "5",
+   "6"
+  ],
+  "correct_letter": null,
+  "correct_pct": null,
+  "is_wrong": null,
+  "topic_broad": "geometry-angles-shapes",
+  "topic_specific": "lines of symmetry, regular hexagon",
+  "notes": "No solution shown. A regular hexagon has 6 lines of symmetry (D).",
+  "global_id": 931,
+  "source": "individual_exercise_screenshot",
+  "type": "question",
+  "set_name": "SHAPE CONSTRUCTION & SYMMETRY IN 2-D FIGURES #1"
+ },
+ {
+  "source_file": "Screenshot 2026-10-04 at 11.20.02 AM.png",
+  "exercise_topic_guess": "SHAPE CONSTRUCTION & SYMMETRY IN 2-D FIGURES #1",
+  "question_number": 5,
+  "question_text": "The figure shown may be reflected over one or more of the dotted lines. The pentagon will NOT exactly match the original figure when it is reflected over which of the given lines?",
+  "diagram_description": "Thick black outline of a regular pentagon with a point at the top. Three dotted, arrow-tipped lines: line a is vertical through the top point and bottom edge, labeled a above the top; line b is horizontal through the left and right upper vertices, labeled b at the left; line c is a diagonal from the lower-left edge up to the upper-right vertex, labeled c at the lower-left end.",
+  "choices": [
+   "line a only",
+   "line b only",
+   "line a or line c",
+   "line a, line b, or line c"
+  ],
+  "correct_letter": null,
+  "correct_pct": null,
+  "is_wrong": null,
+  "topic_broad": "geometry-angles-shapes",
+  "topic_specific": "reflectional symmetry, pentagon and given lines",
+  "notes": "No solution shown and no answer marked. The question is a NOT question.",
+  "global_id": 932,
+  "source": "individual_exercise_screenshot",
+  "type": "question",
+  "set_name": "SHAPE CONSTRUCTION & SYMMETRY IN 2-D FIGURES #1"
+ },
+ {
+  "source_file": "Screenshot 2026-10-04 at 11.20.34 AM.png",
+  "exercise_topic_guess": "SOLVING 1 VARIABLE EQUATIONS #1",
+  "question_number": 1,
+  "question_text": "If 3x - 5 = 16, what is the value of x?",
+  "diagram_description": "None (text only).",
+  "choices": [
+   "8",
+   "7",
+   "6",
+   "5"
+  ],
+  "correct_letter": null,
+  "correct_pct": null,
+  "is_wrong": null,
+  "topic_broad": "algebra-equations",
+  "topic_specific": "one-variable linear equation, ax + b = c",
+  "notes": "No solution shown. My check: 3x = 21, x = 7 (B).",
+  "global_id": 933,
+  "source": "individual_exercise_screenshot",
+  "type": "question",
+  "set_name": "SOLVING 1 VARIABLE EQUATIONS #1"
+ },
+ {
+  "source_file": "Screenshot 2026-10-04 at 11.20.38 AM.png",
+  "exercise_topic_guess": "SOLVING 1 VARIABLE EQUATIONS #1",
+  "question_number": 2,
+  "question_text": "If 2x + 5 = 13, what is the value of x?",
+  "diagram_description": "None (text only).",
+  "choices": [
+   "4",
+   "5",
+   "6",
+   "7"
+  ],
+  "correct_letter": null,
+  "correct_pct": null,
+  "is_wrong": null,
+  "topic_broad": "algebra-equations",
+  "topic_specific": "one-variable linear equation, ax + b = c",
+  "notes": "No solution shown. My check: 2x = 8, x = 4 (A).",
+  "global_id": 934,
+  "source": "individual_exercise_screenshot",
+  "type": "question",
+  "set_name": "SOLVING 1 VARIABLE EQUATIONS #1"
+ },
+ {
+  "source_file": "Screenshot 2026-10-04 at 11.20.41 AM.png",
+  "exercise_topic_guess": "SOLVING 1 VARIABLE EQUATIONS #1",
+  "question_number": 3,
+  "question_text": "If 5x - 3 = 12, what is the value of x?",
+  "diagram_description": "None (text only).",
+  "choices": [
+   "5",
+   "4",
+   "3",
+   "2"
+  ],
+  "correct_letter": null,
+  "correct_pct": null,
+  "is_wrong": null,
+  "topic_broad": "algebra-equations",
+  "topic_specific": "one-variable linear equation, ax + b = c",
+  "notes": "No solution shown. My check: 5x = 15, x = 3 (C).",
+  "global_id": 935,
+  "source": "individual_exercise_screenshot",
+  "type": "question",
+  "set_name": "SOLVING 1 VARIABLE EQUATIONS #1"
+ },
+ {
+  "source_file": "Screenshot 2026-10-04 at 11.20.45 AM.png",
+  "exercise_topic_guess": "SOLVING 1 VARIABLE EQUATIONS #1",
+  "question_number": 4,
+  "question_text": "If 3q + 2 = 17, what is the value of q?",
+  "diagram_description": "None (text only).",
+  "choices": [
+   "6",
+   "5",
+   "4",
+   "3"
+  ],
+  "correct_letter": null,
+  "correct_pct": null,
+  "is_wrong": null,
+  "topic_broad": "algebra-equations",
+  "topic_specific": "one-variable linear equation, ax + b = c",
+  "notes": "No solution shown. My check: 3q = 15, q = 5 (B).",
+  "global_id": 936,
+  "source": "individual_exercise_screenshot",
+  "type": "question",
+  "set_name": "SOLVING 1 VARIABLE EQUATIONS #1"
+ },
+ {
+  "source_file": "Screenshot 2026-10-04 at 11.20.49 AM.png",
+  "exercise_topic_guess": "SOLVING 1 VARIABLE EQUATIONS #1",
+  "question_number": 5,
+  "question_text": "If 2q + 8 = 24, what is the value of q?",
+  "diagram_description": "None (text only).",
+  "choices": [
+   "8",
+   "7",
+   "6",
+   "5"
+  ],
+  "correct_letter": null,
+  "correct_pct": null,
+  "is_wrong": null,
+  "topic_broad": "algebra-equations",
+  "topic_specific": "one-variable linear equation, ax + b = c",
+  "notes": "No solution shown. My check: 2q = 16, q = 8 (A).",
+  "global_id": 937,
+  "source": "individual_exercise_screenshot",
+  "type": "question",
+  "set_name": "SOLVING 1 VARIABLE EQUATIONS #1"
+ },
+ {
+  "source_file": "Screenshot 2026-10-04 at 11.21.44 AM.png",
+  "exercise_topic_guess": "WORD PROBLEMS WITH NEGATIVE NUMBERS #1",
+  "question_number": 1,
+  "question_text": "One day in early January, the temperature hit a low of -14\u00b0C at sunrise. By noon, it had increased by 8\u00b0C to reach the highest temperature of the day. At sunset, the temperature was 4\u00b0C lower than the high. In \u00b0C, what was the temperature at sunset?",
+  "diagram_description": "None (text only).",
+  "choices": [
+   "-26",
+   "-18",
+   "-10",
+   "4"
+  ],
+  "correct_letter": null,
+  "correct_pct": null,
+  "is_wrong": null,
+  "topic_broad": "arithmetic",
+  "topic_specific": "integer word problem with negatives, temperature change",
+  "notes": "No solution shown. Choice D has a diagonal strike-through over its letter circle; this looks like an on-screen elimination mark, not a maroon marker, so it does not indicate a wrong pick. My check: high = -14 + 8 = -6; sunset = -6 - 4 = -10 (C).",
+  "global_id": 938,
+  "source": "individual_exercise_screenshot",
+  "type": "question",
+  "set_name": "WORD PROBLEMS WITH NEGATIVE NUMBERS #1"
+ },
+ {
+  "source_file": "Screenshot 2026-10-04 at 11.21.49 AM.png",
+  "exercise_topic_guess": "WORD PROBLEMS WITH NEGATIVE NUMBERS #1",
+  "question_number": 2,
+  "question_text": "The town of Salton City, California is below sea level, at an elevation of -38 meters (m) at ground level. A tree-trimmer in town scales to the top of a 25 m palm tree, then climbs downward 10 m to work on the tree trunk. In m, what is the elevation of the tree-trimmer while working on the trunk?",
+  "diagram_description": "None (text only).",
+  "choices": [
+   "-53",
+   "-23",
+   "-3",
+   "15"
+  ],
+  "correct_letter": null,
+  "correct_pct": null,
+  "is_wrong": null,
+  "topic_broad": "arithmetic",
+  "topic_specific": "integer word problem with negatives, elevation",
+  "notes": "No solution shown. My check: -38 + 25 - 10 = -23 (B).",
+  "global_id": 939,
+  "source": "individual_exercise_screenshot",
+  "type": "question",
+  "set_name": "WORD PROBLEMS WITH NEGATIVE NUMBERS #1"
+ },
+ {
+  "source_file": "Screenshot 2026-10-04 at 11.21.52 AM.png",
+  "exercise_topic_guess": "WORD PROBLEMS WITH NEGATIVE NUMBERS #1",
+  "question_number": 3,
+  "question_text": "Owen had a balance of $18 in his bank account, until he spent $24 on games and $11 on snacks. In $, what was Owen's account balance?",
+  "diagram_description": "None (text only).",
+  "choices": [
+   "-17",
+   "-6",
+   "17",
+   "53"
+  ],
+  "correct_letter": null,
+  "correct_pct": null,
+  "is_wrong": null,
+  "topic_broad": "arithmetic",
+  "topic_specific": "integer word problem with negatives, money balance",
+  "notes": "No solution shown. My check: 18 - 24 - 11 = -17 (A).",
+  "global_id": 940,
+  "source": "individual_exercise_screenshot",
+  "type": "question",
+  "set_name": "WORD PROBLEMS WITH NEGATIVE NUMBERS #1"
+ },
+ {
+  "source_file": "Screenshot 2026-10-04 at 11.21.57 AM.png",
+  "exercise_topic_guess": "WORD PROBLEMS WITH NEGATIVE NUMBERS #1",
+  "question_number": 4,
+  "question_text": "One August day near Los Angeles, the temperature hit a high of 103\u00b0F at 2 P.M. Meanwhile, in McMurdo Station in Antarctica, the highest temperature that day was -9\u00b0F. In \u00b0F, what was the difference in temperature?",
+  "diagram_description": "None (text only).",
+  "choices": [
+   "-112",
+   "-94",
+   "94",
+   "112"
+  ],
+  "correct_letter": null,
+  "correct_pct": null,
+  "is_wrong": null,
+  "topic_broad": "arithmetic",
+  "topic_specific": "integer word problem with negatives, difference of temperatures",
+  "notes": "No solution shown. My check: 103 - (-9) = 112 (D).",
+  "global_id": 941,
+  "source": "individual_exercise_screenshot",
+  "type": "question",
+  "set_name": "WORD PROBLEMS WITH NEGATIVE NUMBERS #1"
+ },
+ {
+  "source_file": "Screenshot 2026-10-04 at 11.22.01 AM.png",
+  "exercise_topic_guess": "WORD PROBLEMS WITH NEGATIVE NUMBERS #1",
+  "question_number": 5,
+  "question_text": "Death Valley's Badwater Basin has an elevation of -86 meters (m) at surface level. From there, a Badwater snail hopes to someday climb the towering Telescope Peak, whose summit sits at an elevation of 3,366 m. To start training for the climb, the snail gains 500 m of elevation when crawling from Badwater to the top of a nearby peak. In m, what is the height of that peak?",
+  "diagram_description": "None (text only).",
+  "choices": [
+   "-586",
+   "414",
+   "586",
+   "3,280"
+  ],
+  "correct_letter": null,
+  "correct_pct": null,
+  "is_wrong": null,
+  "topic_broad": "arithmetic",
+  "topic_specific": "integer word problem with negatives, elevation change",
+  "notes": "No solution shown. My check: -86 + 500 = 414 (B). The question asks for the 'height of that peak' while the answer choices look like elevations; the stated answer is 414 (B).",
+  "global_id": 942,
+  "source": "individual_exercise_screenshot",
+  "type": "question",
+  "set_name": "WORD PROBLEMS WITH NEGATIVE NUMBERS #1"
+ },
+ {
+  "source_file": "Screenshot 2026-10-04 at 11.22.18 AM.png",
+  "exercise_topic_guess": "WORD PROBLEMS W. RATIOS #1",
+  "question_number": 1,
+  "question_text": "Tom had some coins in a bag. He counted 13 coins that were gold and 17 coins that were silver. What fraction of the coins that Tom saw were silver?",
+  "diagram_description": "None (text only). Answer choices are stacked fractions: 13/30, 17/30, 13/17, 17/13.",
+  "choices": [
+   "13/30",
+   "17/30",
+   "13/17",
+   "17/13"
+  ],
+  "correct_letter": null,
+  "correct_pct": null,
+  "is_wrong": null,
+  "topic_broad": "ratios-proportions",
+  "topic_specific": "part-to-whole fraction from counts",
+  "notes": "No solution shown. My check: total seen = 13 + 17 = 30, silver = 17, so 17/30 (B).",
+  "global_id": 943,
+  "source": "individual_exercise_screenshot",
+  "type": "question",
+  "set_name": "WORD PROBLEMS W. RATIOS #1"
+ },
+ {
+  "source_file": "Screenshot 2026-10-04 at 11.22.22 AM.png",
+  "exercise_topic_guess": "WORD PROBLEMS W. RATIOS #1",
+  "question_number": 2,
+  "question_text": "Howard counted the number of marbles in his bag. He counted 21 red marbles and 29 blue marbles. What fraction of marbles are NOT blue?",
+  "diagram_description": "none",
+  "choices": [
+   "21/50",
+   "29/50",
+   "21/29",
+   "29/21"
+  ],
+  "correct_letter": null,
+  "correct_pct": null,
+  "is_wrong": null,
+  "topic_broad": "fractions",
+  "topic_specific": "fraction of total not in one color (word problem)",
+  "notes": "Choice x marks are gray (no color marker). Question 2 of 5 in the section.",
+  "global_id": 944,
+  "source": "individual_exercise_screenshot",
+  "type": "question",
+  "set_name": "WORD PROBLEMS W. RATIOS #1"
+ },
+ {
+  "source_file": "Screenshot 2026-10-04 at 11.22.26 AM.png",
+  "exercise_topic_guess": "WORD PROBLEMS W. RATIOS #1",
+  "question_number": 3,
+  "question_text": "In a pack of trading cards, for every 8 common cards, you get 2 rare cards. If Chloe opened enough packs to have 40 common cards, how many rare cards will Chloe have?",
+  "diagram_description": "none",
+  "choices": [
+   "5",
+   "10",
+   "32",
+   "34"
+  ],
+  "correct_letter": null,
+  "correct_pct": null,
+  "is_wrong": null,
+  "topic_broad": "ratios-proportions",
+  "topic_specific": "common-to-rare card ratio",
+  "notes": "No color markers visible. Question 3 of 5.",
+  "global_id": 945,
+  "source": "individual_exercise_screenshot",
+  "type": "question",
+  "set_name": "WORD PROBLEMS W. RATIOS #1"
+ },
+ {
+  "source_file": "Screenshot 2026-10-04 at 11.22.30 AM.png",
+  "exercise_topic_guess": "WORD PROBLEMS W. RATIOS #1",
+  "question_number": 4,
+  "question_text": "On a map, every 2 inches represents 7 miles. If the distance between two cities on the map is 12 inches, what is the actual distance between the two cities, in miles?",
+  "diagram_description": "none",
+  "choices": [
+   "6",
+   "17",
+   "35",
+   "42"
+  ],
+  "correct_letter": null,
+  "correct_pct": null,
+  "is_wrong": null,
+  "topic_broad": "ratios-proportions",
+  "topic_specific": "map scale",
+  "notes": "No color markers visible. Question 4 of 5.",
+  "global_id": 946,
+  "source": "individual_exercise_screenshot",
+  "type": "question",
+  "set_name": "WORD PROBLEMS W. RATIOS #1"
+ },
+ {
+  "source_file": "Screenshot 2026-10-04 at 11.22.35 AM.png",
+  "exercise_topic_guess": "WORD PROBLEMS W. RATIOS #1",
+  "question_number": 5,
+  "question_text": "In a pen case, [fraction: unclear] are blue. What number can represent the number of blue pens in the pen case?",
+  "diagram_description": "none",
+  "choices": [
+   "6",
+   "13",
+   "16",
+   "20"
+  ],
+  "correct_letter": null,
+  "correct_pct": null,
+  "is_wrong": null,
+  "topic_broad": "fractions",
+  "topic_specific": "fraction of a group (pens)",
+  "notes": "The fraction in the question stem is too small to read with confidence at this resolution (appears to be a stacked fraction); recorded as unclear. Question 5 of 5.",
+  "global_id": 947,
+  "source": "individual_exercise_screenshot",
+  "type": "question",
+  "set_name": "WORD PROBLEMS W. RATIOS #1"
+ },
+ {
+  "source_file": "Screenshot 2026-10-04 at 9.40.38 AM.png",
+  "exercise_topic_guess": "INTERPRETING PICTOGRAPHS #4",
+  "question_number": 1,
+  "question_text": "The graph shows the amount of time four friends spent on homework during the week. How many hours does Frank spend on homework during the week?",
+  "diagram_description": "Table titled TIME SPENT ON HOMEWORK with rows Anna, Frank, Mel, Sarah. Anna: 1 full diamond plus a half diamond (left half). Frank: 3 full diamonds plus a half diamond. Mel: 4 full diamonds. Sarah: 5 full diamonds. Key below: Each diamond represents 2 hours.",
+  "choices": [
+   "3",
+   "4",
+   "7",
+   "8"
+  ],
+  "correct_letter": null,
+  "correct_pct": null,
+  "is_wrong": null,
+  "topic_broad": "data-analysis-graphs-tables",
+  "topic_specific": "pictograph with partial symbols",
+  "notes": "No color markers visible. Question 1 of 5.",
+  "global_id": 948,
+  "source": "individual_exercise_screenshot",
+  "type": "question",
+  "set_name": "INTERPRETING PICTOGRAPHS #4"
+ },
+ {
+  "source_file": "Screenshot 2026-10-04 at 9.40.41 AM.png",
+  "exercise_topic_guess": "INTERPRETING PICTOGRAPHS #4",
+  "question_number": 2,
+  "question_text": "The graph shows the number of fish in a different lakes and ponds. How many fish are in Walden pond?",
+  "diagram_description": "Table titled FISH COUNT with rows Lake George, Walden Pond, Lake Winihaka, Grimly's Pond. Fish icons: Lake George 6, Walden Pond 4, Lake Winihaka 7, Grimly's Pond 1. Key below: Each fish icon represents 500 fish.",
+  "choices": [
+   "500",
+   "1,250",
+   "2,000",
+   "2,500"
+  ],
+  "correct_letter": null,
+  "correct_pct": null,
+  "is_wrong": null,
+  "topic_broad": "data-analysis-graphs-tables",
+  "topic_specific": "pictograph, multiplier key",
+  "notes": "No color markers visible. Question 2 of 5.",
+  "global_id": 949,
+  "source": "individual_exercise_screenshot",
+  "type": "question",
+  "set_name": "INTERPRETING PICTOGRAPHS #4"
+ },
+ {
+  "source_file": "Screenshot 2026-10-04 at 9.40.45 AM.png",
+  "exercise_topic_guess": "INTERPRETING PICTOGRAPHS #4",
+  "question_number": 3,
+  "question_text": "The graph shows the number of moons planets in the solar system have. How many moons orbit Jupiter?",
+  "diagram_description": "Table titled NUMBER OF MOONS with rows Jupiter, Saturn, Uranus, Neptune. Jupiter: 6 full circles plus 1 half circle. Saturn: 6 full circles plus 1 half circle. Uranus: 1 full circle plus 1 half circle. Neptune: 1 half circle only. Key below: Each full circle represents 10 moons.",
+  "choices": [
+   "7",
+   "15",
+   "35",
+   "65"
+  ],
+  "correct_letter": null,
+  "correct_pct": null,
+  "is_wrong": null,
+  "topic_broad": "data-analysis-graphs-tables",
+  "topic_specific": "pictograph with half symbols",
+  "notes": "Question text as shown (includes 'planets' in place of 'planets' wording as displayed). No color markers visible. Question 3 of 5.",
+  "global_id": 950,
+  "source": "individual_exercise_screenshot",
+  "type": "question",
+  "set_name": "INTERPRETING PICTOGRAPHS #4"
+ },
+ {
+  "source_file": "Screenshot 2026-10-04 at 9.40.49 AM.png",
+  "exercise_topic_guess": "INTERPRETING PICTOGRAPHS #4",
+  "question_number": 4,
+  "question_text": "The graph shows the number of international flights the departed from four different airports over a holiday weekend. How many international flights departed from O'Hare International Airport?",
+  "diagram_description": "Table titled INTERNATIONAL FLIGHTS with rows Atlanta, Dallas, JFK, O'Hare. Airplane icons: Atlanta about 11, Dallas about 9, JFK about 6, O'Hare about 12 (icon counts approximate at this resolution). Key below: Each airplane icon represents 200 flights.",
+  "choices": [
+   "1,200",
+   "1,800",
+   "2,400",
+   "3,000"
+  ],
+  "correct_letter": null,
+  "correct_pct": null,
+  "is_wrong": null,
+  "topic_broad": "data-analysis-graphs-tables",
+  "topic_specific": "pictograph, large multiplier key",
+  "notes": "Icon counts are approximate; the screenshot is too small to count them exactly. No color markers visible. Question 4 of 5.",
+  "global_id": 951,
+  "source": "individual_exercise_screenshot",
+  "type": "question",
+  "set_name": "INTERPRETING PICTOGRAPHS #4"
+ },
+ {
+  "source_file": "Screenshot 2026-10-04 at 9.40.52 AM.png",
+  "exercise_topic_guess": "INTERPRETING PICTOGRAPHS #4",
+  "question_number": 5,
+  "question_text": "The graph shows the number of shoes four friends own. How many shoes does Adam have?",
+  "diagram_description": "Table titled SHOE COUNTS with rows Adam, Beth, Cal, David. Shoe icons: Adam 6, Beth 4, Cal 1, David 2. Key below: Each shoe icon represents 4 shoes.",
+  "choices": [
+   "6",
+   "24",
+   "36",
+   "48"
+  ],
+  "correct_letter": null,
+  "correct_pct": null,
+  "is_wrong": null,
+  "topic_broad": "data-analysis-graphs-tables",
+  "topic_specific": "pictograph, multiplier key",
+  "notes": "No color markers visible. Question 5 of 5.",
+  "global_id": 952,
+  "source": "individual_exercise_screenshot",
+  "type": "question",
+  "set_name": "INTERPRETING PICTOGRAPHS #4"
+ },
+ {
+  "source_file": "Screenshot 2026-10-04 at 9.45.14 AM.png",
+  "exercise_topic_guess": "Area and Perimeter of Complex Polygons (exercise menu tile)",
+  "question_number": null,
+  "question_text": null,
+  "diagram_description": "none",
+  "choices": [],
+  "correct_letter": null,
+  "correct_pct": null,
+  "is_wrong": null,
+  "topic_broad": "geometry-area-perimeter",
+  "topic_specific": "exercise menu tile",
+  "notes": "Practice-exercise menu card, not a question. Shows title 'Area and Perimeter of Complex Polygons', '10 Questions', a Hard ribbon and a VIEW button.",
+  "global_id": 953,
+  "source": "individual_exercise_screenshot",
+  "type": "question",
+  "set_name": "Area and Perimeter of Complex Polygons (exercise menu tile)"
+ },
+ {
+  "source_file": "Screenshot 2026-10-04 at 9.47.03 AM.png",
+  "exercise_topic_guess": "Averaging mixed numbers (no header visible; topic from question content)",
+  "question_number": 2,
+  "question_text": "Poe has four rocks. One weighs 4 1/2 ounces, two weigh 1 1/2 ounces, and one weighs 1/2 an ounce. What is the mean weight of the rocks, in ounces?",
+  "diagram_description": "none",
+  "choices": [
+   "1",
+   "1 1/2",
+   "2",
+   "2 1/6"
+  ],
+  "correct_letter": null,
+  "correct_pct": null,
+  "is_wrong": null,
+  "topic_broad": "arithmetic",
+  "topic_specific": "mean of mixed numbers",
+  "notes": "Blue header bar not visible in this crop. No color markers visible. Question 2 of 5.",
+  "global_id": 954,
+  "source": "individual_exercise_screenshot",
+  "type": "question",
+  "set_name": "Averaging mixed numbers (no header visible; topic from question content)"
+ },
+ {
+  "source_file": "Screenshot 2026-10-04 at 9.47.11 AM.png",
+  "exercise_topic_guess": "AVERAGING MIXED NUMBERS #2",
+  "question_number": 1,
+  "question_text": "Brady bought three bunches of bananas. One weighed 1 1/2 pounds, one weighed 1/2 pounds, and one weighed 1 pound. What is the mean weight of the bunches of bananas, in pounds?",
+  "diagram_description": "none",
+  "choices": [
+   "1",
+   "2",
+   "3",
+   "4"
+  ],
+  "correct_letter": null,
+  "correct_pct": null,
+  "is_wrong": null,
+  "topic_broad": "arithmetic",
+  "topic_specific": "mean of mixed numbers",
+  "notes": "No color markers visible. Question 1 of 5.",
+  "global_id": 955,
+  "source": "individual_exercise_screenshot",
+  "type": "question",
+  "set_name": "AVERAGING MIXED NUMBERS #2"
+ },
+ {
+  "source_file": "Screenshot 2026-10-04 at 9.47.15 AM.png",
+  "exercise_topic_guess": "AVERAGING MIXED NUMBERS #2",
+  "question_number": 3,
+  "question_text": "Franny measured the length of four pieces of yarn. One piece measured 3 1/2 feet, one piece measured 2 1/2 feet, and two pieces measured 5 feet each. What is the average length of the pieces of yarn, in feet?",
+  "diagram_description": "none",
+  "choices": [
+   "2 2/3",
+   "3",
+   "3 2/3",
+   "4"
+  ],
+  "correct_letter": null,
+  "correct_pct": null,
+  "is_wrong": null,
+  "topic_broad": "arithmetic",
+  "topic_specific": "mean of mixed numbers",
+  "notes": "No color markers visible. Question 3 of 5.",
+  "global_id": 956,
+  "source": "individual_exercise_screenshot",
+  "type": "question",
+  "set_name": "AVERAGING MIXED NUMBERS #2"
+ },
+ {
+  "source_file": "Screenshot 2026-10-04 at 9.47.18 AM.png",
+  "exercise_topic_guess": "AVERAGING MIXED NUMBERS #2",
+  "question_number": 4,
+  "question_text": "A dance recital has five acts. One act is 3 minutes long, two acts are 2 1/2 minutes long, and two acts are 3 1/2 minutes long. What is the average length of one act of the dance recital, in minutes?",
+  "diagram_description": "none",
+  "choices": [
+   "2",
+   "2 1/2",
+   "3",
+   "3 1/2"
+  ],
+  "correct_letter": null,
+  "correct_pct": null,
+  "is_wrong": null,
+  "topic_broad": "arithmetic",
+  "topic_specific": "mean of mixed numbers",
+  "notes": "No color markers visible. Question 4 of 5.",
+  "global_id": 957,
+  "source": "individual_exercise_screenshot",
+  "type": "question",
+  "set_name": "AVERAGING MIXED NUMBERS #2"
+ },
+ {
+  "source_file": "Screenshot 2026-10-04 at 9.47.22 AM.png",
+  "exercise_topic_guess": "AVERAGING MIXED NUMBERS #2",
+  "question_number": 5,
+  "question_text": "Marie has four boxes. One box weighs 2 pounds, two boxes weigh 4 1/2 pounds, and one box weighs 3 pounds. What is the mean weight of the boxes, in pounds?",
+  "diagram_description": "none",
+  "choices": [
+   "2 3/8",
+   "3 1/2",
+   "3",
+   "4"
+  ],
+  "correct_letter": null,
+  "correct_pct": null,
+  "is_wrong": null,
+  "topic_broad": "arithmetic",
+  "topic_specific": "mean of mixed numbers",
+  "notes": "No color markers visible. Question 5 of 5.",
+  "global_id": 958,
+  "source": "individual_exercise_screenshot",
+  "type": "question",
+  "set_name": "AVERAGING MIXED NUMBERS #2"
+ },
+ {
+  "source_file": "Screenshot 2026-10-04 at 9.48.17 AM.png",
+  "exercise_topic_guess": "CONVERTING TO A DECIMAL #1",
+  "question_number": 4,
+  "question_text": "Write 4% as a decimal.",
+  "diagram_description": "none",
+  "choices": [
+   "0.004",
+   "0.04",
+   "0.40",
+   "0.4"
+  ],
+  "correct_letter": null,
+  "correct_pct": null,
+  "is_wrong": null,
+  "topic_broad": "decimals",
+  "topic_specific": "percent to decimal",
+  "notes": "No color markers visible. Question 4 of 5.",
+  "global_id": 959,
+  "source": "individual_exercise_screenshot",
+  "type": "question",
+  "set_name": "CONVERTING TO A DECIMAL #1"
+ },
+ {
+  "source_file": "Screenshot 2026-10-04 at 9.48.21 AM.png",
+  "exercise_topic_guess": "CONVERTING TO A DECIMAL #1",
+  "question_number": 5,
+  "question_text": "Write 6 3/4 % as a decimal.",
+  "diagram_description": "none",
+  "choices": [
+   "6.75",
+   "0.675",
+   "0.0675",
+   "0.00675"
+  ],
+  "correct_letter": null,
+  "correct_pct": null,
+  "is_wrong": null,
+  "topic_broad": "decimals",
+  "topic_specific": "mixed-number percent to decimal",
+  "notes": "No color markers visible. Question 5 of 5.",
+  "global_id": 960,
+  "source": "individual_exercise_screenshot",
+  "type": "question",
+  "set_name": "CONVERTING TO A DECIMAL #1"
+ },
+ {
+  "source_file": "Screenshot 2026-10-04 at 9.48.25 AM.png",
+  "exercise_topic_guess": "CONVERTING TO A DECIMAL #1",
+  "question_number": 3,
+  "question_text": "Write 11/20 as a decimal.",
+  "diagram_description": "none",
+  "choices": [
+   "0.11",
+   "0.31",
+   "0.5",
+   "0.55"
+  ],
+  "correct_letter": null,
+  "correct_pct": null,
+  "is_wrong": null,
+  "topic_broad": "decimals",
+  "topic_specific": "fraction to decimal",
+  "notes": "No color markers visible. Question 3 of 5.",
+  "global_id": 961,
+  "source": "individual_exercise_screenshot",
+  "type": "question",
+  "set_name": "CONVERTING TO A DECIMAL #1"
+ },
+ {
+  "source_file": "Screenshot 2026-10-04 at 9.48.29 AM.png",
+  "exercise_topic_guess": "CONVERTING TO A DECIMAL #1",
+  "question_number": 2,
+  "question_text": "Write 9/100 as a decimal.",
+  "diagram_description": "none",
+  "choices": [
+   "0.0009",
+   "0.009",
+   "0.09",
+   "0.9"
+  ],
+  "correct_letter": null,
+  "correct_pct": null,
+  "is_wrong": null,
+  "topic_broad": "decimals",
+  "topic_specific": "fraction to decimal",
+  "notes": "No color markers visible. Question 2 of 5.",
+  "global_id": 962,
+  "source": "individual_exercise_screenshot",
+  "type": "question",
+  "set_name": "CONVERTING TO A DECIMAL #1"
+ },
+ {
+  "source_file": "Screenshot 2026-10-04 at 9.48.33 AM.png",
+  "exercise_topic_guess": "CONVERTING TO A DECIMAL #1",
+  "question_number": 1,
+  "question_text": "Write 479/1,000 as a decimal.",
+  "diagram_description": "none",
+  "choices": [
+   "0.0479",
+   "0.479",
+   "4.79",
+   "4,790"
+  ],
+  "correct_letter": null,
+  "correct_pct": null,
+  "is_wrong": null,
+  "topic_broad": "decimals",
+  "topic_specific": "fraction to decimal",
+  "notes": "No color markers visible. Question 1 of 5.",
+  "global_id": 963,
+  "source": "individual_exercise_screenshot",
+  "type": "question",
+  "set_name": "CONVERTING TO A DECIMAL #1"
+ },
+ {
+  "source_file": "Screenshot 2026-10-04 at 9.49.07 AM.png",
+  "exercise_topic_guess": "CONVERTING TO A FRACTION #1",
+  "question_number": 5,
+  "question_text": "Write 1/4 % as a fraction.",
+  "diagram_description": "none",
+  "choices": [
+   "1/2,500",
+   "1/800",
+   "1/600",
+   "1/400"
+  ],
+  "correct_letter": null,
+  "correct_pct": null,
+  "is_wrong": null,
+  "topic_broad": "percents",
+  "topic_specific": "percent to fraction",
+  "notes": "No color markers visible. Question 5 of 5.",
+  "global_id": 964,
+  "source": "individual_exercise_screenshot",
+  "type": "question",
+  "set_name": "CONVERTING TO A FRACTION #1"
+ },
+ {
+  "source_file": "Screenshot 2026-10-04 at 9.49.12 AM.png",
+  "exercise_topic_guess": "CONVERTING TO A FRACTION #1",
+  "question_number": 4,
+  "question_text": "Write 89% as a fraction.",
+  "diagram_description": "none",
+  "choices": [
+   "89/10,000",
+   "89/1,000",
+   "8.9/100",
+   "89/100"
+  ],
+  "correct_letter": null,
+  "correct_pct": null,
+  "is_wrong": null,
+  "topic_broad": "percents",
+  "topic_specific": "percent to fraction",
+  "notes": "No color markers visible. Question 4 of 5.",
+  "global_id": 965,
+  "source": "individual_exercise_screenshot",
+  "type": "question",
+  "set_name": "CONVERTING TO A FRACTION #1"
+ },
+ {
+  "source_file": "Screenshot 2026-10-04 at 9.49.15 AM.png",
+  "exercise_topic_guess": "CONVERTING TO A FRACTION #1",
+  "question_number": 3,
+  "question_text": "Write 0.14 as a fraction.",
+  "diagram_description": "none",
+  "choices": [
+   "14/1,000",
+   "7/50",
+   "1/14",
+   "2/7"
+  ],
+  "correct_letter": null,
+  "correct_pct": null,
+  "is_wrong": null,
+  "topic_broad": "decimals",
+  "topic_specific": "decimal to fraction",
+  "notes": "No color markers visible. Question 3 of 5.",
+  "global_id": 966,
+  "source": "individual_exercise_screenshot",
+  "type": "question",
+  "set_name": "CONVERTING TO A FRACTION #1"
+ },
+ {
+  "source_file": "Screenshot 2026-10-04 at 9.49.19 AM.png",
+  "exercise_topic_guess": "CONVERTING TO A FRACTION #1",
+  "question_number": 2,
+  "question_text": "Write 0.527 as a fraction.",
+  "diagram_description": "none",
+  "choices": [
+   "527/100,000",
+   "527/10,000",
+   "527/1,000",
+   "527/100"
+  ],
+  "correct_letter": null,
+  "correct_pct": null,
+  "is_wrong": null,
+  "topic_broad": "decimals",
+  "topic_specific": "decimal to fraction",
+  "notes": "No color markers visible. Question 2 of 5.",
+  "global_id": 967,
+  "source": "individual_exercise_screenshot",
+  "type": "question",
+  "set_name": "CONVERTING TO A FRACTION #1"
+ },
+ {
+  "source_file": "Screenshot 2026-10-04 at 9.49.22 AM.png",
+  "exercise_topic_guess": "CONVERTING TO A FRACTION #1",
+  "question_number": 1,
+  "question_text": "Write 0.13 as a fraction.",
+  "diagram_description": "none",
+  "choices": [
+   "13/1,000",
+   "13/100",
+   "13/10",
+   "13/1"
+  ],
+  "correct_letter": null,
+  "correct_pct": null,
+  "is_wrong": null,
+  "topic_broad": "decimals",
+  "topic_specific": "decimal to fraction",
+  "notes": "No color markers visible. Question 1 of 5.",
+  "global_id": 968,
+  "source": "individual_exercise_screenshot",
+  "type": "question",
+  "set_name": "CONVERTING TO A FRACTION #1"
+ },
+ {
+  "source_file": "Screenshot 2026-10-04 at 9.49.53 AM.png",
+  "exercise_topic_guess": "CONVERTING TO A PERCENT #1",
+  "question_number": 5,
+  "question_text": "Convert 0.021 into a percent.",
+  "diagram_description": "none",
+  "choices": [
+   "0.00021%",
+   "0.0021%",
+   "2.1%",
+   "21%"
+  ],
+  "correct_letter": null,
+  "correct_pct": null,
+  "is_wrong": null,
+  "topic_broad": "percents",
+  "topic_specific": "decimal to percent",
+  "notes": "No color markers visible. Question 5 of 5.",
+  "global_id": 969,
+  "source": "individual_exercise_screenshot",
+  "type": "question",
+  "set_name": "CONVERTING TO A PERCENT #1"
+ },
+ {
+  "source_file": "Screenshot 2026-10-04 at 9.49.57 AM.png",
+  "exercise_topic_guess": "CONVERTING TO A PERCENT #1",
+  "question_number": 4,
+  "question_text": "Convert 0.37 into a percent.",
+  "diagram_description": "none",
+  "choices": [
+   "37%",
+   "3.7%",
+   "0.037%",
+   "0.0037%"
+  ],
+  "correct_letter": null,
+  "correct_pct": null,
+  "is_wrong": null,
+  "topic_broad": "percents",
+  "topic_specific": "decimal to percent",
+  "notes": "No color markers visible. Question 4 of 5.",
+  "global_id": 970,
+  "source": "individual_exercise_screenshot",
+  "type": "question",
+  "set_name": "CONVERTING TO A PERCENT #1"
+ },
+ {
+  "source_file": "Screenshot 2026-10-04 at 9.50.02 AM.png",
+  "exercise_topic_guess": "CONVERTING TO A PERCENT #1",
+  "question_number": 3,
+  "question_text": "Convert 3/8 into a percent.",
+  "diagram_description": "none",
+  "choices": [
+   "0.375%",
+   "12.5%",
+   "22.67%",
+   "37.5%"
+  ],
+  "correct_letter": null,
+  "correct_pct": null,
+  "is_wrong": null,
+  "topic_broad": "percents",
+  "topic_specific": "fraction to percent",
+  "notes": "No color markers visible. Question 3 of 5.",
+  "global_id": 971,
+  "source": "individual_exercise_screenshot",
+  "type": "question",
+  "set_name": "CONVERTING TO A PERCENT #1"
+ },
+ {
+  "source_file": "Screenshot 2026-10-04 at 9.50.13 AM.png",
+  "exercise_topic_guess": "CONVERTING TO A PERCENT #1",
+  "question_number": 2,
+  "question_text": "Convert 3/20 into a percent.",
+  "diagram_description": "none",
+  "choices": [
+   "0.15%",
+   "3%",
+   "5%",
+   "15%"
+  ],
+  "correct_letter": null,
+  "correct_pct": null,
+  "is_wrong": null,
+  "topic_broad": "percents",
+  "topic_specific": "fraction to percent",
+  "notes": "No color markers visible. Question 2 of 5.",
+  "global_id": 972,
+  "source": "individual_exercise_screenshot",
+  "type": "question",
+  "set_name": "CONVERTING TO A PERCENT #1"
+ },
+ {
+  "source_file": "Screenshot 2026-10-04 at 9.50.17 AM.png",
+  "exercise_topic_guess": "CONVERTING TO A PERCENT #1",
+  "question_number": 1,
+  "question_text": "Convert 59/100 into a percent.",
+  "diagram_description": "none",
+  "choices": [
+   "0.59%",
+   "59%",
+   "590%",
+   "5,900%"
+  ],
+  "correct_letter": null,
+  "correct_pct": null,
+  "is_wrong": null,
+  "topic_broad": "percents",
+  "topic_specific": "fraction to percent",
+  "notes": "No color markers visible. Question 1 of 5.",
+  "global_id": 973,
+  "source": "individual_exercise_screenshot",
+  "type": "question",
+  "set_name": "CONVERTING TO A PERCENT #1"
+ },
+ {
+  "source_file": "Screenshot 2026-10-04 at 9.50.56 AM.png",
+  "exercise_topic_guess": "COUNTING MULTIPLES WITHIN A RANGE",
+  "question_number": 1,
+  "question_text": "How many numbers between 67 and 91 are divisible by 3?",
+  "diagram_description": "none",
+  "choices": [
+   "4",
+   "6",
+   "8",
+   "10"
+  ],
+  "correct_letter": null,
+  "correct_pct": null,
+  "is_wrong": null,
+  "topic_broad": "number-theory-divisibility",
+  "topic_specific": "counting multiples of 3 in a range",
+  "notes": "No color markers visible. Question 1 of 5.",
+  "global_id": 974,
+  "source": "individual_exercise_screenshot",
+  "type": "question",
+  "set_name": "COUNTING MULTIPLES WITHIN A RANGE"
+ },
+ {
+  "source_file": "Screenshot 2026-10-04 at 9.50.58 AM (2).png",
+  "exercise_topic_guess": "Practice Exercises for Lower Level (menu grid)",
+  "question_number": null,
+  "question_text": null,
+  "diagram_description": "none",
+  "choices": [],
+  "correct_letter": null,
+  "correct_pct": null,
+  "is_wrong": null,
+  "topic_broad": null,
+  "topic_specific": "practice exercises menu",
+  "notes": "Full-screen browser view of the Practice Exercises list (Math and Quantitative, Hard filter, 28 banks), not a question. Includes tiles such as Averaging Mixed Numbers, Converting to a Decimal/Fraction/Percent, Counting Multiples within a Range, Determining Averages between Points on Number Lines (5/10 completed).",
+  "global_id": 975,
+  "source": "individual_exercise_screenshot",
+  "type": "question",
+  "set_name": "Practice Exercises for Lower Level (menu grid)"
+ },
+ {
+  "source_file": "Screenshot 2026-10-04 at 9.50.58 AM.png",
+  "exercise_topic_guess": "COUNTING MULTIPLES WITHIN A RANGE",
+  "question_number": 2,
+  "question_text": "How many numbers between 55 and 62 are divisible by 3?",
+  "diagram_description": "none",
+  "choices": [
+   "2",
+   "3",
+   "4",
+   "5"
+  ],
+  "correct_letter": null,
+  "correct_pct": null,
+  "is_wrong": null,
+  "topic_broad": "number-theory-divisibility",
+  "topic_specific": "counting multiples of 3 in a range",
+  "notes": "Full-screen view including browser chrome. No color markers visible. Question 2 of 5.",
+  "global_id": 976,
+  "source": "individual_exercise_screenshot",
+  "type": "question",
+  "set_name": "COUNTING MULTIPLES WITHIN A RANGE"
+ },
+ {
+  "source_file": "Screenshot 2026-10-04 at 9.51.01 AM.png",
+  "exercise_topic_guess": "COUNTING MULTIPLES WITHIN A RANGE",
+  "question_number": 2,
+  "question_text": "How many numbers between 55 and 62 are divisible by 3?",
+  "diagram_description": "none",
+  "choices": [
+   "2",
+   "3",
+   "4",
+   "5"
+  ],
+  "correct_letter": null,
+  "correct_pct": null,
+  "is_wrong": null,
+  "topic_broad": "number-theory-divisibility",
+  "topic_specific": "counting multiples of 3 in a range",
+  "notes": "Duplicate of the question shown in Screenshot 2026-10-04 at 9.50.58 AM.png (cropped view). No color markers visible.",
+  "global_id": 977,
+  "source": "individual_exercise_screenshot",
+  "type": "question",
+  "set_name": "COUNTING MULTIPLES WITHIN A RANGE"
+ },
+ {
+  "source_file": "Screenshot 2026-10-04 at 9.51.04 AM.png",
+  "exercise_topic_guess": "COUNTING MULTIPLES WITHIN A RANGE",
+  "question_number": 3,
+  "question_text": "How many numbers between 67 and 85 are divisible by 4?",
+  "diagram_description": "none",
+  "choices": [
+   "2",
+   "3",
+   "5",
+   "7"
+  ],
+  "correct_letter": null,
+  "correct_pct": null,
+  "is_wrong": null,
+  "topic_broad": "number-theory-divisibility",
+  "topic_specific": "counting multiples of 4 in a range",
+  "notes": "No color markers visible. Question 3 of 5.",
+  "global_id": 978,
+  "source": "individual_exercise_screenshot",
+  "type": "question",
+  "set_name": "COUNTING MULTIPLES WITHIN A RANGE"
+ },
+ {
+  "source_file": "Screenshot 2026-10-04 at 9.51.08 AM.png",
+  "exercise_topic_guess": "COUNTING MULTIPLES WITHIN A RANGE",
+  "question_number": 4,
+  "question_text": "How many numbers between 67 and 93 are divisible by 5?",
+  "diagram_description": "none",
+  "choices": [
+   "2",
+   "3",
+   "4",
+   "5"
+  ],
+  "correct_letter": null,
+  "correct_pct": null,
+  "is_wrong": null,
+  "topic_broad": "number-theory-divisibility",
+  "topic_specific": "counting multiples of 5 in a range",
+  "notes": "Choice D bubble appears gray-highlighted (possibly hover state), not a green or maroon marker. Question 4 of 5.",
+  "global_id": 979,
+  "source": "individual_exercise_screenshot",
+  "type": "question",
+  "set_name": "COUNTING MULTIPLES WITHIN A RANGE"
+ },
+ {
+  "source_file": "Screenshot 2026-10-04 at 9.51.14 AM.png",
+  "exercise_topic_guess": "COUNTING MULTIPLES WITHIN A RANGE",
+  "question_number": 5,
+  "question_text": "How many numbers between 83 and 99 are divisible by 4?",
+  "diagram_description": "none",
+  "choices": [
+   "3",
+   "4",
+   "5",
+   "6"
+  ],
+  "correct_letter": null,
+  "correct_pct": null,
+  "is_wrong": null,
+  "topic_broad": "number-theory-divisibility",
+  "topic_specific": "counting multiples of 4 in a range",
+  "notes": "No color markers visible. Question 5 of 5.",
+  "global_id": 980,
+  "source": "individual_exercise_screenshot",
+  "type": "question",
+  "set_name": "COUNTING MULTIPLES WITHIN A RANGE"
+ },
+ {
+  "source_file": "Screenshot 2026-10-04 at 9.52.46 AM.png",
+  "exercise_topic_guess": "Determining Averages between Points on Number Lines #2",
+  "question_number": 1,
+  "question_text": "Use the number line shown to answer the question. G is the average of L and another number. What is the other number?",
+  "diagram_description": "Horizontal number line with arrowheads at both ends and evenly spaced tick marks; 0 and 2 labeled below the line. L is marked above a tick well to the left of 0. G is marked above the tick labeled 2.",
+  "choices": [
+   "2.5",
+   "4.5",
+   "5.5",
+   "6.5"
+  ],
+  "correct_letter": "D",
+  "correct_pct": 80.9,
+  "is_wrong": true,
+  "topic_broad": "arithmetic",
+  "topic_specific": "averages on number line (find the other point)",
+  "notes": "Maroon marker on C (5.5, 'less than 5.0%' of answers) and green on D (6.5, 80.9%). Choice pcts: A <5.0%, B 11.1%, C <5.0%. Section tab 1 shown in maroon. Hannah's selection is C (wrong).",
+  "global_id": 981,
+  "source": "individual_exercise_screenshot",
+  "type": "question",
+  "set_name": "Determining Averages between Points on Number Lines #2"
+ },
+ {
+  "source_file": "Screenshot 2026-10-04 at 9.52.52 AM.png",
+  "exercise_topic_guess": "Determining Averages between Points on Number Lines #2",
+  "question_number": 2,
+  "question_text": "Use the number line shown to answer the question. G is the average of L and another number. What is the other number?",
+  "diagram_description": "Horizontal number line with arrowheads at both ends and evenly spaced tick marks; 0 and 2 labeled below the line. L is marked above a tick just left of 0. G is marked above a tick just right of 0 (between 0 and 2).",
+  "choices": [
+   "1.5",
+   "2.5",
+   "3",
+   "3.5"
+  ],
+  "correct_letter": "B",
+  "correct_pct": 80.2,
+  "is_wrong": false,
+  "topic_broad": "arithmetic",
+  "topic_specific": "averages on number line (find the other point)",
+  "notes": "Green marker on B only (80.2%). Pcts: A 12.7%, C <5.0%, D <5.0%. Solution panel visible: 'Choice B is the correct answer.' Section tab 2 shown green.",
+  "global_id": 982,
+  "source": "individual_exercise_screenshot",
+  "type": "question",
+  "set_name": "Determining Averages between Points on Number Lines #2"
+ },
+ {
+  "source_file": "Screenshot 2026-10-04 at 9.52.55 AM.png",
+  "exercise_topic_guess": "Determining Averages between Points on Number Lines #2",
+  "question_number": 3,
+  "question_text": "Use the number line shown to answer the question. P is the average of E and another number. What is the other number?",
+  "diagram_description": "Horizontal number line with arrowheads at both ends and evenly spaced tick marks; 0 and 2 labeled below the line. E is marked above a tick to the left of 0 (about two units left of 0). P is marked above the tick labeled 2.",
+  "choices": [
+   "-2",
+   "4",
+   "5",
+   "6"
+  ],
+  "correct_letter": "D",
+  "correct_pct": 77.4,
+  "is_wrong": false,
+  "topic_broad": "arithmetic",
+  "topic_specific": "averages on number line (find the other point)",
+  "notes": "Green marker on D only (77.4%). Pcts: A <5.0%, B 14.6%, C 5.5%. Solution panel visible: 'Choice D is the correct answer.' Positions read from tick marks (approximate). Section tab 3 shown dark green.",
+  "global_id": 983,
+  "source": "individual_exercise_screenshot",
+  "type": "question",
+  "set_name": "Determining Averages between Points on Number Lines #2"
+ },
+ {
+  "source_file": "Screenshot 2026-10-04 at 9.52.59 AM.png",
+  "exercise_topic_guess": "Determining Averages between Points on Number Lines #2",
+  "question_number": 4,
+  "question_text": "Use the number line shown to answer the question. P is the average of E and another number. What is the other number?",
+  "diagram_description": "Horizontal number line with arrowheads at both ends and evenly spaced tick marks; 0 and 2 labeled below the line. E is marked above a tick to the left of 0. P is marked above a tick to the right of 2 (about 3).",
+  "choices": [
+   "4.5",
+   "6",
+   "7.5",
+   "8.5"
+  ],
+  "correct_letter": "C",
+  "correct_pct": 77.7,
+  "is_wrong": false,
+  "topic_broad": "arithmetic",
+  "topic_specific": "averages on number line (find the other point)",
+  "notes": "Green marker on C only (77.7%). Pcts: A 12.8%, B 6.4%, D <5.0%. Positions read from tick marks (approximate). Section tab 4 shown dark green.",
+  "global_id": 984,
+  "source": "individual_exercise_screenshot",
+  "type": "question",
+  "set_name": "Determining Averages between Points on Number Lines #2"
+ },
+ {
+  "source_file": "Screenshot 2026-10-04 at 9.53.03 AM.png",
+  "exercise_topic_guess": "Determining Averages between Points on Number Lines #2",
+  "question_number": 5,
+  "question_text": "Use the number line shown to answer the question. P is the average of E and another number. What is the other number?",
+  "diagram_description": "Horizontal number line with arrowheads at both ends and evenly spaced tick marks; 0 and 2 labeled below the line. E is marked above a tick to the left of 0 (about three units left of 0). P is marked above a tick to the right of 0 (about 1).",
+  "choices": [
+   "3",
+   "4",
+   "5",
+   "6"
+  ],
+  "correct_letter": "C",
+  "correct_pct": 74.7,
+  "is_wrong": false,
+  "topic_broad": "arithmetic",
+  "topic_specific": "averages on number line (find the other point)",
+  "notes": "Green marker on C only (74.7%). Pcts: A 5.0%, B 12.4%, D 8.0%. Positions read from tick marks (approximate). Section tab 5 shown dark green.",
+  "global_id": 985,
+  "source": "individual_exercise_screenshot",
+  "type": "question",
+  "set_name": "Determining Averages between Points on Number Lines #2"
  }
 ]
