@@ -1,6 +1,6 @@
 {
  "student": "Hannah",
- "updated": "2026-10-02",
+ "updated": "2026-10-04",
  "test_format": {
   "problems": 38,
   "minutes": 35,
@@ -117,7 +117,8 @@
    "habits": [
     "exact-thing-asked"
    ],
-   "priority": "medium"
+   "priority": "medium",
+   "evidence_2026-10-04": "Determining Averages #2: Q1 marked wrong (picked C, correct D)"
   },
   {
    "topic": "Number of Unique Paths, Diagonals",
@@ -235,6 +236,62 @@
    ],
    "priority": "high",
    "note": "4/4 wrong on 'Which value is NOT equivalent' drill"
+  },
+  {
+   "topic": "Estimating Multiplication & Division",
+   "tier": "Medium",
+   "real_tests": null,
+   "wrong": 0,
+   "graded": 0,
+   "habits": [
+    "compute-both-sides"
+   ],
+   "priority": "high",
+   "note": "estimation group: largest real gap; examples added 2026-10-03, no graded results yet"
+  },
+  {
+   "topic": "Estimating Sums/Differences of Decimal Numbers",
+   "tier": "Medium",
+   "real_tests": null,
+   "wrong": 0,
+   "graded": 0,
+   "habits": [
+    "compute-both-sides"
+   ],
+   "priority": "high",
+   "note": "estimation group: largest real gap; examples added 2026-10-03, no graded results yet"
+  },
+  {
+   "topic": "Estimating Division with Money",
+   "tier": "Easy",
+   "real_tests": null,
+   "wrong": 0,
+   "graded": 0,
+   "habits": [
+    "compute-both-sides"
+   ],
+   "priority": "high",
+   "note": "estimation group: largest real gap; examples added 2026-10-03, no graded results yet"
+  },
+  {
+   "topic": "Remaining Amount after Reducing by Fractions",
+   "tier": "Medium",
+   "real_tests": null,
+   "wrong": 0,
+   "graded": 0,
+   "habits": [],
+   "priority": "medium",
+   "note": "examples added 2026-10-03; no graded results yet"
+  },
+  {
+   "topic": "3D shape from its net (unfolding a solid)",
+   "tier": "Medium",
+   "real_tests": null,
+   "wrong": 0,
+   "graded": 0,
+   "habits": [],
+   "priority": "high",
+   "note": "not practised before; on real test (ISEE Lower #3 cube-net) and book sets; enhancement type"
   }
  ]
 }
