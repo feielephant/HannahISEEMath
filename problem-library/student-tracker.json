@@ -301,5 +301,29 @@
    "Q31-38 wrong": "13 of 32 (41%)"
   },
   "use": "Speed sets should include full timed sections; the last third of each set practised under time pressure. Gap counts use only non-pacing-affected items."
+ },
+ "math_achievement": {
+  "source": "155 review screenshots (What to Expect, ISEE Lower #1-4); 149 questions; 24 confirmed wrong (maroon marker)",
+  "wrong_by_test": {
+   "What to Expect": 3,
+   "ISEE Lower #1": 9,
+   "ISEE Lower #2": 6,
+   "ISEE Lower #3": 3,
+   "ISEE Lower #4": 3
+  },
+  "wrong_by_skill": {
+   "patterns (function machine, difference, shape, geometric)": 4,
+   "divisibility and remainders": 4,
+   "decimal and fraction comparison/place value": 5,
+   "logic true/false, always-true": 2,
+   "word problems, data tables, geometry, estimation": 6,
+   "other": 3
+  },
+  "priority": [
+   "patterns",
+   "divisibility and remainders",
+   "decimal and fraction place value and comparison"
+  ],
+  "timing": "Math Achievement timing charts show fewer slow problems than QR; not measured carefully yet"
  }
 }

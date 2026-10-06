@@ -1,0 +1,4341 @@
+[
+ {
+  "source_file": "Screenshot 2026-10-06 at 10.24.33 AM.png",
+  "type": "question",
+  "test_set": null,
+  "question_number": 1,
+  "question_text": "Use the triangle to answer the question. What is the perimeter of the triangle? (P = s + s + s)",
+  "diagram_description": "Right triangle with side labels 15 ft (hypotenuse), 12 ft (vertical leg), 9 ft (horizontal base).",
+  "choices": [
+   "18 feet",
+   "36 feet",
+   "54 feet",
+   "72 feet"
+  ],
+  "correct_letter": "B",
+  "correct_pct": 98.1,
+  "is_wrong": false,
+  "strip_wrong": [
+   15,
+   21,
+   22
+  ],
+  "topic_broad": "geometry-area-perimeter",
+  "topic_specific": "perimeter of a triangle",
+  "exercise_title": "Follow-Up Exercise: Perimeter",
+  "is_timing_chart": false,
+  "notes": "Header reads WHAT TO EXPECT (Sep 5, 2026); not an ISEE LOWER #N header, so test_set null. Green B only."
+ },
+ {
+  "source_file": "Screenshot 2026-10-06 at 10.24.38 AM.png",
+  "type": "question",
+  "test_set": null,
+  "question_number": 2,
+  "question_text": "A total of 28 students were asked which one of three snacks\u2014ice cream, popsicles, or frozen yogurt\u2014they preferred. If 17 students said they preferred ice cream, and 4 students said they preferred popsicles, how many students said they preferred frozen yogurt?",
+  "diagram_description": null,
+  "choices": [
+   "7",
+   "11",
+   "15",
+   "21"
+  ],
+  "correct_letter": "A",
+  "correct_pct": 96.5,
+  "is_wrong": false,
+  "strip_wrong": [
+   15,
+   21,
+   22
+  ],
+  "topic_broad": "word-problem-other",
+  "topic_specific": "subtraction word problem (total minus two categories)",
+  "exercise_title": "Follow-Up Exercise: Adding and Subtracting Integers",
+  "is_timing_chart": false,
+  "notes": "Green A only."
+ },
+ {
+  "source_file": "Screenshot 2026-10-06 at 10.24.42 AM.png",
+  "type": "question",
+  "test_set": null,
+  "question_number": 3,
+  "question_text": "What is the name of a rectangle with sides of equal length?",
+  "diagram_description": null,
+  "choices": [
+   "hexagon",
+   "octagon",
+   "pentagon",
+   "square"
+  ],
+  "correct_letter": "D",
+  "correct_pct": 97.2,
+  "is_wrong": false,
+  "strip_wrong": [
+   15,
+   21,
+   22
+  ],
+  "topic_broad": "geometry-angles-shapes",
+  "topic_specific": "identifying shapes (square)",
+  "exercise_title": "Follow-Up Exercise: Identifying Shapes",
+  "is_timing_chart": false,
+  "notes": "Green D only."
+ },
+ {
+  "source_file": "Screenshot 2026-10-06 at 10.24.46 AM.png",
+  "type": "question",
+  "test_set": null,
+  "question_number": 4,
+  "question_text": "What is the standard form for two hundred three thousand forty-nine?",
+  "diagram_description": null,
+  "choices": [
+   "203,049",
+   "203,409",
+   "230,490",
+   "234,900"
+  ],
+  "correct_letter": "A",
+  "correct_pct": 97.2,
+  "is_wrong": false,
+  "strip_wrong": [
+   15,
+   21,
+   22
+  ],
+  "topic_broad": "arithmetic",
+  "topic_specific": "number words to standard form (place value)",
+  "exercise_title": "Follow-Up Exercise: Identifying Numbers, Standard Form <> Word Form",
+  "is_timing_chart": false,
+  "notes": "Same question appears again in 10.25.22 AM (different crop). Green A only."
+ },
+ {
+  "source_file": "Screenshot 2026-10-06 at 10.25.22 AM.png",
+  "type": "question",
+  "test_set": null,
+  "question_number": 4,
+  "question_text": "What is the standard form for two hundred three thousand forty-nine?",
+  "diagram_description": null,
+  "choices": [
+   "203,049",
+   "203,409",
+   "230,490",
+   "234,900"
+  ],
+  "correct_letter": "A",
+  "correct_pct": 97.2,
+  "is_wrong": false,
+  "strip_wrong": [
+   15,
+   21,
+   22
+  ],
+  "topic_broad": "arithmetic",
+  "topic_specific": "number words to standard form (place value)",
+  "exercise_title": "Follow-Up Exercise: Identifying Numbers, Standard Form <> Word Form",
+  "is_timing_chart": false,
+  "notes": "Duplicate screenshot of Q4 (same content as 10.24.46 AM). Green A only."
+ },
+ {
+  "source_file": "Screenshot 2026-10-06 at 10.25.26 AM.png",
+  "type": "question",
+  "test_set": null,
+  "question_number": 5,
+  "question_text": "Use the number line to answer the question. What number is represented by point P on the number line?",
+  "diagram_description": "Number line with arrows at both ends, labeled 80 and 85 below; point P marked above a tick between them with ticks at each unit.",
+  "choices": [
+   "73",
+   "77",
+   "79",
+   "83"
+  ],
+  "correct_letter": "B",
+  "correct_pct": 93.8,
+  "is_wrong": false,
+  "strip_wrong": [
+   15,
+   21,
+   22
+  ],
+  "topic_broad": "arithmetic",
+  "topic_specific": "reading points on a number line",
+  "exercise_title": "Follow-Up Exercise: Determining Points on Number Lines",
+  "is_timing_chart": false,
+  "notes": "Green B only."
+ },
+ {
+  "source_file": "Screenshot 2026-10-06 at 10.25.30 AM.png",
+  "type": "question",
+  "test_set": null,
+  "question_number": 6,
+  "question_text": "What is the value of the expression 308 + 197?",
+  "diagram_description": null,
+  "choices": [
+   "405",
+   "495",
+   "505",
+   "515"
+  ],
+  "correct_letter": "C",
+  "correct_pct": 92.3,
+  "is_wrong": false,
+  "strip_wrong": [
+   15,
+   21,
+   22
+  ],
+  "topic_broad": "arithmetic",
+  "topic_specific": "3-digit addition with regrouping",
+  "exercise_title": "Follow-Up Exercise: Adding and Subtracting Integers",
+  "is_timing_chart": false,
+  "notes": "Green C only. Solution shows a place-value regrouping grid."
+ },
+ {
+  "source_file": "Screenshot 2026-10-06 at 10.25.34 AM.png",
+  "type": "question",
+  "test_set": null,
+  "question_number": 7,
+  "question_text": "Which expression is equal to 20?",
+  "diagram_description": null,
+  "choices": [
+   "(3 \u00d7 5) + 4 \u2212 7",
+   "3 \u00d7 (5 + 4) \u2212 7",
+   "3 \u00d7 5 + (4 \u2212 7)",
+   "3 \u00d7 (5 + 4 \u2212 7)"
+  ],
+  "correct_letter": "B",
+  "correct_pct": 91.9,
+  "is_wrong": false,
+  "strip_wrong": [
+   15,
+   21,
+   22
+  ],
+  "topic_broad": "arithmetic",
+  "topic_specific": "order of operations",
+  "exercise_title": "Follow-Up Exercise: Order of Operations and Equivalence",
+  "is_timing_chart": false,
+  "notes": "Green B only."
+ },
+ {
+  "source_file": "Screenshot 2026-10-06 at 10.25.38 AM.png",
+  "type": "question",
+  "test_set": null,
+  "question_number": 8,
+  "question_text": "A class put three cans full of water in the sun. Each can was covered and had a thermometer in it to measure the temperature of the water in degrees Fahrenheit. One can was painted black, one can was painted white, and one can was painted silver. The table shows the data collected. At 50 minutes, how much warmer was the water in the black can than the water in the white can?",
+  "diagram_description": "None visible on this screen. The question refers to a data table that does not appear in the screenshot.",
+  "choices": [
+   "8\u00b0F",
+   "13\u00b0F",
+   "18\u00b0F",
+   "23\u00b0F"
+  ],
+  "correct_letter": "D",
+  "correct_pct": 91.1,
+  "is_wrong": false,
+  "strip_wrong": [
+   15,
+   21,
+   22
+  ],
+  "topic_broad": "data-analysis-graphs-tables",
+  "topic_specific": "reading table values, temperature difference",
+  "exercise_title": "Follow-Up Exercise: Comparing/Adding/Subtracting Bar Graph/Data Table Values",
+  "is_timing_chart": false,
+  "notes": "Green D only. Solution text gives black can 75\u00b0F and white can 52\u00b0F at 50 min. The data table itself is not in the screenshot."
+ },
+ {
+  "source_file": "Screenshot 2026-10-06 at 10.25.41 AM.png",
+  "type": "question",
+  "test_set": null,
+  "question_number": 9,
+  "question_text": "Which fraction is equivalent to 0.4?",
+  "diagram_description": null,
+  "choices": [
+   "1/4 (9.8%)",
+   "1/40 (5.4%)",
+   "4/10",
+   "4/100"
+  ],
+  "correct_letter": "C",
+  "correct_pct": 82.0,
+  "is_wrong": false,
+  "strip_wrong": [
+   15,
+   21,
+   22
+  ],
+  "topic_broad": "decimals",
+  "topic_specific": "decimal to fraction equivalence",
+  "exercise_title": "Follow-Up Exercise: Equivalent Fractions, Decimals, and Percents",
+  "is_timing_chart": false,
+  "notes": "Green C only. Choice A and B percentages shown on screen were 9.8 and 5.4; recorded in choice text for reference."
+ },
+ {
+  "source_file": "Screenshot 2026-10-06 at 10.25.45 AM.png",
+  "type": "question",
+  "test_set": null,
+  "question_number": 10,
+  "question_text": "What is the value of the expression 2,000 \u2212 165?",
+  "diagram_description": null,
+  "choices": [
+   "1,735",
+   "1,835",
+   "1,935",
+   "2,835"
+  ],
+  "correct_letter": "B",
+  "correct_pct": 86.9,
+  "is_wrong": false,
+  "strip_wrong": [
+   15,
+   21,
+   22
+  ],
+  "topic_broad": "arithmetic",
+  "topic_specific": "subtraction across zeros",
+  "exercise_title": "Follow-Up Exercise: Adding and Subtracting Integers",
+  "is_timing_chart": false,
+  "notes": "Green B only."
+ },
+ {
+  "source_file": "Screenshot 2026-10-06 at 10.25.49 AM.png",
+  "type": "question",
+  "test_set": null,
+  "question_number": 11,
+  "question_text": "If 2 \u00d7 ( [blank] + 4) = 22, what number does [blank] stand for?",
+  "diagram_description": null,
+  "choices": [
+   "7",
+   "9",
+   "11",
+   "15"
+  ],
+  "correct_letter": "A",
+  "correct_pct": 89.2,
+  "is_wrong": false,
+  "strip_wrong": [
+   15,
+   21,
+   22
+  ],
+  "topic_broad": "algebra-equations",
+  "topic_specific": "solving a one-variable equation with a blank",
+  "exercise_title": "Follow-Up Exercise: Solving 1 Variable Equations",
+  "is_timing_chart": false,
+  "notes": "The blank symbol does not render in the screenshot, so it is shown as [blank]. Green A only."
+ },
+ {
+  "source_file": "Screenshot 2026-10-06 at 10.25.53 AM.png",
+  "type": "question",
+  "test_set": null,
+  "question_number": 12,
+  "question_text": "Chris buys five items costing $3.49, $11.99, $0.50, $2.99, and $16.99. What is the estimated total cost of Chris\u2019 items?",
+  "diagram_description": null,
+  "choices": [
+   "between $20 and $25",
+   "between $25 and $30",
+   "between $30 and $35",
+   "between $35 and $40"
+  ],
+  "correct_letter": "D",
+  "correct_pct": 66.5,
+  "is_wrong": false,
+  "strip_wrong": [
+   15,
+   21,
+   22
+  ],
+  "topic_broad": "estimation",
+  "topic_specific": "estimating decimal money sums",
+  "exercise_title": "Follow-Up Exercise: Estimating Sums/Differences of Decimal Numbers",
+  "is_timing_chart": false,
+  "notes": "Green D only."
+ },
+ {
+  "source_file": "Screenshot 2026-10-06 at 10.25.57 AM.png",
+  "type": "question",
+  "test_set": null,
+  "question_number": 13,
+  "question_text": "The graph shows the population of four towns. [key shown: human figure = 5,000 people] How many more people live in Southville than live in Eastville?",
+  "diagram_description": "Pictograph key only: one human figure = 5,000 people. The pictograph rows for the four towns are not visible on this screen.",
+  "choices": [
+   "3,000",
+   "5,000",
+   "10,000",
+   "15,000"
+  ],
+  "correct_letter": "D",
+  "correct_pct": 90.5,
+  "is_wrong": false,
+  "strip_wrong": [
+   15,
+   21,
+   22
+  ],
+  "topic_broad": "data-analysis-graphs-tables",
+  "topic_specific": "pictograph with scale",
+  "exercise_title": "Follow-Up Exercise: Interpreting Pictographs",
+  "is_timing_chart": false,
+  "notes": "Green D only. Solution says Southville has 3 more figures than Eastville at 5,000 each."
+ },
+ {
+  "source_file": "Screenshot 2026-10-06 at 10.26.01 AM.png",
+  "type": "question",
+  "test_set": null,
+  "question_number": 14,
+  "question_text": "Lake Superior has an area of about 31,700 mi\u00b2. Which lake has an area closest to 1/3 that of Lake Superior?",
+  "diagram_description": null,
+  "choices": [
+   "Lake Nyasa, which has an area of 11,430 mi\u00b2",
+   "Lake Tanganyika, which has an area of 12,700 mi\u00b2",
+   "Lake Huron, which has an area of 23,000 mi\u00b2",
+   "Lake Victoria, which has an area of 26,828 mi\u00b2"
+  ],
+  "correct_letter": "A",
+  "correct_pct": 75.7,
+  "is_wrong": false,
+  "strip_wrong": [
+   15,
+   21,
+   22
+  ],
+  "topic_broad": "estimation",
+  "topic_specific": "estimating a fraction of a quantity",
+  "exercise_title": "Follow-Up Exercise: Estimating Multiplication & Division",
+  "is_timing_chart": false,
+  "notes": "Green A only. Other percentages: B 12.0, C 6.5, D 5.7."
+ },
+ {
+  "source_file": "Screenshot 2026-10-06 at 10.26.04 AM.png",
+  "type": "question",
+  "test_set": null,
+  "question_number": 15,
+  "question_text": "Use the diagram to answer the question. If one of the cards is picked up at random, what is the chance that it will be a [crossed-box card]?",
+  "diagram_description": "Two rows of six cards. Row 1: dot, X-box, dot, dot, X-box, dot. Row 2: dot, dot, X-box, X-box, dot, dot. Total 12 cards, 4 X-box cards.",
+  "choices": [
+   "1 out of 4",
+   "1 out of 3",
+   "1 out of 2",
+   "2 out of 3"
+  ],
+  "correct_letter": "B",
+  "correct_pct": 61.1,
+  "is_wrong": true,
+  "strip_wrong": [
+   15,
+   21,
+   22
+  ],
+  "topic_broad": "probability",
+  "topic_specific": "probability of one event from a picture set",
+  "exercise_title": "Follow-Up Exercise: Probability of 1 Event, given a List of Items",
+  "is_timing_chart": false,
+  "notes": "Maroon marker on D (2 out of 3, under 5%) confirms wrong pick. Pill 15 is maroon in the strip."
+ },
+ {
+  "source_file": "Screenshot 2026-10-06 at 10.26.08 AM.png",
+  "type": "question",
+  "test_set": null,
+  "question_number": 16,
+  "question_text": "Use the table to answer the question. What is the mode of this set of data?",
+  "diagram_description": "None visible. The question refers to a table that does not appear in the screenshot.",
+  "choices": [
+   "7.6",
+   "7.9",
+   "8.0",
+   "8.3"
+  ],
+  "correct_letter": "B",
+  "correct_pct": 69.4,
+  "is_wrong": false,
+  "strip_wrong": [
+   15,
+   21,
+   22
+  ],
+  "topic_broad": "data-analysis-graphs-tables",
+  "topic_specific": "mode of a data set",
+  "exercise_title": "Follow-Up Exercise: Finding MMMR, given Bar Graph/Data Table of Values",
+  "is_timing_chart": false,
+  "notes": "Green B only. Solution says 7.9 appears four times."
+ },
+ {
+  "source_file": "Screenshot 2026-10-06 at 10.26.12 AM.png",
+  "type": "question",
+  "test_set": null,
+  "question_number": 17,
+  "question_text": "Use the set of numbers shown to answer the question. {2, 3, 5, 7, 11, ...} Which describes this set of numbers?",
+  "diagram_description": null,
+  "choices": [
+   "odd numbers",
+   "even numbers",
+   "prime numbers",
+   "composite numbers"
+  ],
+  "correct_letter": "C",
+  "correct_pct": 81.9,
+  "is_wrong": false,
+  "strip_wrong": [
+   15,
+   21,
+   22
+  ],
+  "topic_broad": "number-theory-divisibility",
+  "topic_specific": "classifying a number set (primes)",
+  "exercise_title": "Follow-Up Exercise: Classification of Numbers, given a Set",
+  "is_timing_chart": false,
+  "notes": "Green C only."
+ },
+ {
+  "source_file": "Screenshot 2026-10-06 at 10.26.16 AM.png",
+  "type": "question",
+  "test_set": null,
+  "question_number": 18,
+  "question_text": "If the area of a rectangle is 20 cm\u00b2, which equation can be used to determine the width of that rectangle? (A = lw, where A = Area, l = length, and w = width.)",
+  "diagram_description": null,
+  "choices": [
+   "w = 20/l",
+   "w = l/20",
+   "w = 20 \u2212 l",
+   "w = 20 + l"
+  ],
+  "correct_letter": "A",
+  "correct_pct": 47.1,
+  "is_wrong": false,
+  "strip_wrong": [
+   15,
+   21,
+   22
+  ],
+  "topic_broad": "algebra-equations",
+  "topic_specific": "rearranging area formula for width",
+  "exercise_title": "Follow-Up Exercise: Matching Stories to Equations",
+  "is_timing_chart": false,
+  "notes": "Green A only. Solution panel shows an embedded video placeholder."
+ },
+ {
+  "source_file": "Screenshot 2026-10-06 at 10.26.20 AM.png",
+  "type": "question",
+  "test_set": null,
+  "question_number": 19,
+  "question_text": "Which fraction is between 1/2 and 9/10?",
+  "diagram_description": null,
+  "choices": [
+   "1/4",
+   "1/3",
+   "2/5",
+   "4/5"
+  ],
+  "correct_letter": "D",
+  "correct_pct": 73.1,
+  "is_wrong": false,
+  "strip_wrong": [
+   15,
+   21,
+   22
+  ],
+  "topic_broad": "fractions",
+  "topic_specific": "fraction between two fractions",
+  "exercise_title": "Follow-Up Exercise: Comparing & Ordering Fractions & Decimals",
+  "is_timing_chart": false,
+  "notes": "Green D only. Other percentages: A under 5, B 5.7, C 16.5."
+ },
+ {
+  "source_file": "Screenshot 2026-10-06 at 10.27.54 AM.png",
+  "type": "question",
+  "test_set": null,
+  "question_number": 20,
+  "question_text": "Use the number sequence to answer the question. 2, 4, 8, 14, 22, 32, ___ What is the next number in the sequence?",
+  "diagram_description": null,
+  "choices": [
+   "34",
+   "44",
+   "54",
+   "64"
+  ],
+  "correct_letter": "B",
+  "correct_pct": 81.4,
+  "is_wrong": false,
+  "strip_wrong": [
+   15,
+   21,
+   22
+  ],
+  "topic_broad": "patterns-sequences",
+  "topic_specific": "increasing difference pattern",
+  "exercise_title": "Follow-Up Exercise: Nth Term, given Arithmetic Sequence, Progressive Pattern, etc.",
+  "is_timing_chart": false,
+  "notes": "Green B only."
+ },
+ {
+  "source_file": "Screenshot 2026-10-06 at 10.27.57 AM.png",
+  "type": "question",
+  "test_set": null,
+  "question_number": 21,
+  "question_text": "Use the Time Zone map to answer the question. An airplane leaves Seattle at 1:00 P.M. and arrives 4 hours later in Detroit. What time is it in Detroit?",
+  "diagram_description": "US map with time zones shaded (Pacific, Mountain, Central, Eastern) and a clock face for each zone; cities labeled include Seattle and Detroit.",
+  "choices": [
+   "10 A.M.",
+   "1 P.M.",
+   "5 P.M.",
+   "8 P.M."
+  ],
+  "correct_letter": "D",
+  "correct_pct": 62.9,
+  "is_wrong": true,
+  "strip_wrong": [
+   15,
+   21,
+   22
+  ],
+  "topic_broad": "measurement-conversion",
+  "topic_specific": "time zones and elapsed time",
+  "exercise_title": "Follow-Up Exercise: Time Zones",
+  "is_timing_chart": false,
+  "notes": "Maroon marker on B (1 P.M., under 5%) confirms wrong pick. Other percentages: A under 5, C 29.4."
+ },
+ {
+  "source_file": "Screenshot 2026-10-06 at 10.28.01 AM.png",
+  "type": "question",
+  "test_set": null,
+  "question_number": 22,
+  "question_text": "What is the sum of 2.9 + 1.7?",
+  "diagram_description": null,
+  "choices": [
+   "3 3/5",
+   "4 1/5",
+   "4 2/5",
+   "4 3/5"
+  ],
+  "correct_letter": "D",
+  "correct_pct": 64.5,
+  "is_wrong": true,
+  "strip_wrong": [
+   15,
+   21,
+   22
+  ],
+  "topic_broad": "decimals",
+  "topic_specific": "adding decimals and writing as mixed number",
+  "exercise_title": "Follow-Up Exercise: Equivalent Fractions, Decimals, and Percents",
+  "is_timing_chart": false,
+  "notes": "Maroon marker on C (4 2/5, 12.7%) confirms wrong pick. Other percentages: A 9.6, B 13.2."
+ },
+ {
+  "source_file": "Screenshot 2026-10-06 at 10.28.06 AM.png",
+  "type": "question",
+  "test_set": null,
+  "question_number": 23,
+  "question_text": "What is the perimeter of a rectangle that has a length of 8 inches and a width of 5 inches? (P = 2l + 2w)",
+  "diagram_description": null,
+  "choices": [
+   "13 inches",
+   "23 inches",
+   "26 inches",
+   "28 inches"
+  ],
+  "correct_letter": "C",
+  "correct_pct": 80.0,
+  "is_wrong": false,
+  "strip_wrong": [
+   15,
+   21,
+   22
+  ],
+  "topic_broad": "geometry-area-perimeter",
+  "topic_specific": "perimeter of a rectangle",
+  "exercise_title": "Follow-Up Exercise: Finding Area/Perimeter of Rectangle, given Length & Width",
+  "is_timing_chart": false,
+  "notes": "Green C only. Other percentages: A 11.7, B 6.0, D under 5."
+ },
+ {
+  "source_file": "Screenshot 2026-10-06 at 10.28.10 AM.png",
+  "type": "question",
+  "test_set": null,
+  "question_number": 24,
+  "question_text": "Use the coordinate grid to answer the question. What are the coordinates of point P in the figure?",
+  "diagram_description": "Coordinate grid with x and y axes from -4 to 4 or more; a dotted path of points through the grid; point P at (8, 1).",
+  "choices": [
+   "(1, 7)",
+   "(1, 8)",
+   "(8, 1)",
+   "(8, 2)"
+  ],
+  "correct_letter": "C",
+  "correct_pct": 63.6,
+  "is_wrong": false,
+  "strip_wrong": [
+   15,
+   21,
+   22
+  ],
+  "topic_broad": "geometry-angles-shapes",
+  "topic_specific": "reading coordinates on a grid",
+  "exercise_title": "Follow-Up Exercise: Identifying Points on a Coordinate Plane",
+  "is_timing_chart": false,
+  "notes": "Green C only. Other percentages: A under 5, B 30.0, D under 5."
+ },
+ {
+  "source_file": "Screenshot 2026-10-06 at 10.28.14 AM.png",
+  "type": "question",
+  "test_set": null,
+  "question_number": 25,
+  "question_text": "Terry had 5 5/8 feet of wire. He used 3 3/4 feet of the wire to make a lamp. How many feet does he have left?",
+  "diagram_description": null,
+  "choices": [
+   "1 7/8",
+   "2 1/8",
+   "2 1/2",
+   "2 7/8"
+  ],
+  "correct_letter": "A",
+  "correct_pct": 62.0,
+  "is_wrong": false,
+  "strip_wrong": [
+   15,
+   21,
+   22
+  ],
+  "topic_broad": "fractions",
+  "topic_specific": "subtracting mixed numbers with regrouping",
+  "exercise_title": "Follow-Up Exercise: Adding and Subtracting Fractions",
+  "is_timing_chart": false,
+  "notes": "Green A only. Other percentages: B 19.7, C 11.0, D 7.2."
+ },
+ {
+  "source_file": "Screenshot 2026-10-06 at 10.28.34 AM.png",
+  "type": "question",
+  "test_set": "ISEE LOWER #1",
+  "question_number": 1,
+  "question_text": "What is the value of the expression 5,377 + 205?",
+  "diagram_description": null,
+  "choices": [
+   "5,572",
+   "5,582",
+   "7,327",
+   "7,427"
+  ],
+  "correct_letter": "B",
+  "correct_pct": 97.2,
+  "is_wrong": false,
+  "strip_wrong": [
+   5,
+   18,
+   21,
+   23,
+   24,
+   25,
+   27,
+   29,
+   30
+  ],
+  "topic_broad": "arithmetic",
+  "topic_specific": "4-digit addition",
+  "exercise_title": "Follow-Up Exercise: Adding and Subtracting Integers",
+  "is_timing_chart": false,
+  "notes": "Header ISEE LOWER #1 (Aug 30, 2026). Pill 1 is the current selection (blue), so its right/wrong status is not visible; no maroon marker on any choice, so is_wrong recorded as false (green only)."
+ },
+ {
+  "source_file": "Screenshot 2026-10-06 at 10.28.53 AM.png",
+  "type": "question",
+  "test_set": "ISEE LOWER #1",
+  "question_number": 2,
+  "question_text": "Sally and Jeffrey each deposit money into their own savings account every week. The amount of money each person has in their account each week is recorded and shown in the table. At week 5, how much more money has Sally saved than Jeffrey?",
+  "diagram_description": "Table titled SAVINGS ACCOUNTS. Week 1: Sally $22, Jeffrey $30. Week 2: Sally $37, Jeffrey $42. Week 3: Sally $52, Jeffrey $54. Week 4: Sally $67, Jeffrey $66. Week 5: Sally $82, Jeffrey $78.",
+  "choices": [
+   "$1",
+   "$2",
+   "$4",
+   "$5"
+  ],
+  "correct_letter": "C",
+  "correct_pct": 93.9,
+  "is_wrong": false,
+  "strip_wrong": [
+   5,
+   18,
+   21,
+   23,
+   24,
+   25,
+   27,
+   29,
+   30
+  ],
+  "topic_broad": "data-analysis-graphs-tables",
+  "topic_specific": "reading table values, difference",
+  "exercise_title": "Follow-Up Exercise: Comparing/Adding/Subtracting Bar Graph/Data Table Values",
+  "is_timing_chart": false,
+  "notes": "Full-screen browser capture. Per-question tile shows Your Time 191 sec, Others (avg.) 36 sec, Subtype Data Analysis & Probability, Difficulty Easy. Green C only. Duplicate in 10.30.10 AM."
+ },
+ {
+  "source_file": "Screenshot 2026-10-06 at 10.30.10 AM.png",
+  "type": "question",
+  "test_set": "ISEE LOWER #1",
+  "question_number": 2,
+  "question_text": "Sally and Jeffrey each deposit money into their own savings account every week. The amount of money each person has in their account each week is recorded and shown in the table. At week 5, how much more money has Sally saved than Jeffrey?",
+  "diagram_description": "Table titled SAVINGS ACCOUNTS (same as 10.28.53 AM).",
+  "choices": [
+   "$1",
+   "$2",
+   "$4",
+   "$5"
+  ],
+  "correct_letter": "C",
+  "correct_pct": 93.9,
+  "is_wrong": false,
+  "strip_wrong": [
+   5,
+   18,
+   21,
+   23,
+   24,
+   25,
+   27,
+   29,
+   30
+  ],
+  "topic_broad": "data-analysis-graphs-tables",
+  "topic_specific": "reading table values, difference",
+  "exercise_title": "Follow-Up Exercise: Comparing/Adding/Subtracting Bar Graph/Data Table Values",
+  "is_timing_chart": false,
+  "notes": "Duplicate of 10.28.53 AM. Green C only."
+ },
+ {
+  "source_file": "Screenshot 2026-10-06 at 10.30.36 AM.png",
+  "type": "question",
+  "test_set": "ISEE LOWER #1",
+  "question_number": 3,
+  "question_text": "If a log that is 54 feet long is cut into thirds, what is the length of each piece, in feet?",
+  "diagram_description": null,
+  "choices": [
+   "13",
+   "18",
+   "21",
+   "27"
+  ],
+  "correct_letter": "B",
+  "correct_pct": 94.6,
+  "is_wrong": false,
+  "strip_wrong": [
+   5,
+   18,
+   21,
+   23,
+   24,
+   25,
+   27,
+   29,
+   30
+  ],
+  "topic_broad": "arithmetic",
+  "topic_specific": "dividing a whole number into equal parts",
+  "exercise_title": "Follow-Up Exercise: Multiplying and Dividing Whole Numbers",
+  "is_timing_chart": false,
+  "notes": "Green B only. Solution shows a bar model (not part of question). Per-question tile: Your Time 47 sec. Duplicate in 10.30.39 AM."
+ },
+ {
+  "source_file": "Screenshot 2026-10-06 at 10.30.39 AM.png",
+  "type": "question",
+  "test_set": "ISEE LOWER #1",
+  "question_number": 3,
+  "question_text": "If a log that is 54 feet long is cut into thirds, what is the length of each piece, in feet?",
+  "diagram_description": null,
+  "choices": [
+   "13",
+   "18",
+   "21",
+   "27"
+  ],
+  "correct_letter": "B",
+  "correct_pct": 94.6,
+  "is_wrong": false,
+  "strip_wrong": [
+   5,
+   18,
+   21,
+   23,
+   24,
+   25,
+   27,
+   29,
+   30
+  ],
+  "topic_broad": "arithmetic",
+  "topic_specific": "dividing a whole number into equal parts",
+  "exercise_title": "Follow-Up Exercise: Multiplying and Dividing Whole Numbers",
+  "is_timing_chart": false,
+  "notes": "Duplicate of 10.30.36 AM. Green B only."
+ },
+ {
+  "source_file": "Screenshot 2026-10-06 at 10.31.06 AM.png",
+  "type": "question",
+  "test_set": "ISEE LOWER #1",
+  "question_number": 4,
+  "question_text": "What is 3.3 \u2212 2.6?",
+  "diagram_description": null,
+  "choices": [
+   "0.7",
+   "1.3",
+   "1.7",
+   "5.9"
+  ],
+  "correct_letter": "A",
+  "correct_pct": 91.1,
+  "is_wrong": false,
+  "strip_wrong": [
+   5,
+   18,
+   21,
+   23,
+   24,
+   25,
+   27,
+   29,
+   30
+  ],
+  "topic_broad": "decimals",
+  "topic_specific": "subtracting decimals",
+  "exercise_title": "Follow-Up Exercise: Adding and Subtracting Decimals",
+  "is_timing_chart": false,
+  "notes": "Green A only. Other percentages: B 5.8, C under 5, D under 5. Tile: Your Time 35 sec."
+ },
+ {
+  "source_file": "Screenshot 2026-10-06 at 10.31.08 AM.png",
+  "type": "question",
+  "test_set": "ISEE LOWER #1",
+  "question_number": 5,
+  "question_text": "A number machine uses a rule to change numbers. The table shows what happened when four different numbers went into the same number machine. Which of these tables could result from the same number machine?",
+  "diagram_description": "NUMBER MACHINE table: Input 3, 4, 9, 15 map to Output 6, 8, 18, 30. Each answer choice is a small number-machine table with 4 input/output rows.",
+  "choices": [
+   "Table A: inputs 5, 6, 7, 8 map to outputs 8, 9, 10, 11",
+   "Table B: inputs 5, 6, 7, 8 map to outputs 8, 10, 12, 14",
+   "Table C: inputs 5, 6, 7, 8 map to outputs 10, 12, 14, 16",
+   "Table D: inputs 5, 6, 7, 8 map to outputs 10, 20, 30, 40"
+  ],
+  "correct_letter": "C",
+  "correct_pct": 86.4,
+  "is_wrong": true,
+  "strip_wrong": [
+   5,
+   18,
+   21,
+   23,
+   24,
+   25,
+   27,
+   29,
+   30
+  ],
+  "topic_broad": "patterns-sequences",
+  "topic_specific": "function machine rule (output = 2 x input)",
+  "exercise_title": "Follow-Up Exercise: not visible in screenshot",
+  "is_timing_chart": false,
+  "notes": "Maroon marker on B (6.9%) confirms wrong pick. Other percentages: A under 5, D under 5. Pill 5 is maroon in the strip."
+ },
+ {
+  "source_file": "Screenshot 2026-10-06 at 10.31.11 AM.png",
+  "type": "question",
+  "test_set": "ISEE LOWER #1",
+  "question_number": 6,
+  "question_text": "There are three different colors of fidget spinners in a bag: 4 red, 6 blue, and 3 yellow. What is the probability of randomly choosing a blue fidget spinner from the bag?",
+  "diagram_description": null,
+  "choices": [
+   "6/13",
+   "6/7",
+   "7/6",
+   "13/6"
+  ],
+  "correct_letter": "A",
+  "correct_pct": 89.0,
+  "is_wrong": false,
+  "strip_wrong": [
+   5,
+   18,
+   21,
+   23,
+   24,
+   25,
+   27,
+   29,
+   30
+  ],
+  "topic_broad": "probability",
+  "topic_specific": "probability of one color from a count",
+  "exercise_title": "Follow-Up Exercise: Probability of 1 Event, given a List of Items",
+  "is_timing_chart": false,
+  "notes": "Green A only. Other percentages: B 7.3, C and D under 5. Tile: Your Time 163 sec."
+ },
+ {
+  "source_file": "Screenshot 2026-10-06 at 10.31.25 AM.png",
+  "type": "question",
+  "test_set": "ISEE LOWER #1",
+  "question_number": 7,
+  "question_text": "If one of these shapes is selected at random, what is the probability that it will be a square?",
+  "diagram_description": "3 rows of 4 shapes: row 1 gray square, dark circle, triangle, gray square; row 2 dark circle, gray square, dark circle, triangle; row 3 triangle, gray square, triangle, gray square. 5 squares out of 12 shapes.",
+  "choices": [
+   "1 out of 5",
+   "1 out of 3",
+   "5 out of 7",
+   "5 out of 12"
+  ],
+  "correct_letter": "D",
+  "correct_pct": 87.3,
+  "is_wrong": false,
+  "strip_wrong": [
+   5,
+   18,
+   21,
+   23,
+   24,
+   25,
+   27,
+   29,
+   30
+  ],
+  "topic_broad": "probability",
+  "topic_specific": "probability from a picture set (shapes)",
+  "exercise_title": "Follow-Up Exercise: Probability of 1 Event, given a List of Items",
+  "is_timing_chart": false,
+  "notes": "Green D only. Other percentages: A and B under 5, C 5.7. Duplicate in 10.31.31 AM."
+ },
+ {
+  "source_file": "Screenshot 2026-10-06 at 10.31.31 AM.png",
+  "type": "question",
+  "test_set": "ISEE LOWER #1",
+  "question_number": 7,
+  "question_text": "If one of these shapes is selected at random, what is the probability that it will be a square?",
+  "diagram_description": "Same shape grid as 10.31.25 AM: 5 squares out of 12 shapes.",
+  "choices": [
+   "1 out of 5",
+   "1 out of 3",
+   "5 out of 7",
+   "5 out of 12"
+  ],
+  "correct_letter": "D",
+  "correct_pct": 87.3,
+  "is_wrong": false,
+  "strip_wrong": [
+   5,
+   18,
+   21,
+   23,
+   24,
+   25,
+   27,
+   29,
+   30
+  ],
+  "topic_broad": "probability",
+  "topic_specific": "probability from a picture set (shapes)",
+  "exercise_title": "Follow-Up Exercise: Probability of 1 Event, given a List of Items",
+  "is_timing_chart": false,
+  "notes": "Duplicate of 10.31.25 AM. Green D only."
+ },
+ {
+  "source_file": "Screenshot 2026-10-06 at 10.31.34 AM.png",
+  "type": "question",
+  "test_set": "ISEE LOWER #1",
+  "question_number": 8,
+  "question_text": "Shari wrote two equations. x \u00d7 y = 60; 3 \u00d7 5 = x. What is the value of y?",
+  "diagram_description": null,
+  "choices": [
+   "3",
+   "4",
+   "5",
+   "6"
+  ],
+  "correct_letter": "B",
+  "correct_pct": 87.9,
+  "is_wrong": false,
+  "strip_wrong": [
+   5,
+   18,
+   21,
+   23,
+   24,
+   25,
+   27,
+   29,
+   30
+  ],
+  "topic_broad": "algebra-equations",
+  "topic_specific": "substitution in two equations",
+  "exercise_title": "Follow-Up Exercise: Solving 1 Variable Equations",
+  "is_timing_chart": false,
+  "notes": "Green B only. Other percentages: A and C under 5, D 5.4. Tile: Your Time 120 sec."
+ },
+ {
+  "source_file": "Screenshot 2026-10-06 at 10.31.37 AM.png",
+  "type": "question",
+  "test_set": "ISEE LOWER #1",
+  "question_number": 9,
+  "question_text": "The side length of a square is 10 millimeters. Which equation can be used to find the perimeter of the square in millimeters?",
+  "diagram_description": null,
+  "choices": [
+   "perimeter = 10 \u00d7 10",
+   "perimeter = 10 \u00d7 6",
+   "perimeter = 10 \u00d7 4",
+   "perimeter = 10 \u00d7 2"
+  ],
+  "correct_letter": "C",
+  "correct_pct": 86.1,
+  "is_wrong": false,
+  "strip_wrong": [
+   5,
+   18,
+   21,
+   23,
+   24,
+   25,
+   27,
+   29,
+   30
+  ],
+  "topic_broad": "geometry-area-perimeter",
+  "topic_specific": "perimeter of a square equation",
+  "exercise_title": "Follow-Up Exercise: Algebra with Geometric Shapes",
+  "is_timing_chart": false,
+  "notes": "Green C only. Other percentages: A 9.2, B and D under 5. Tile: Your Time 72 sec."
+ },
+ {
+  "source_file": "Screenshot 2026-10-06 at 10.31.40 AM.png",
+  "type": "question",
+  "test_set": "ISEE LOWER #1",
+  "question_number": 10,
+  "question_text": "What is the value of the expression 1,500 \u2212 347?",
+  "diagram_description": null,
+  "choices": [
+   "1,153",
+   "1,163",
+   "1,253",
+   "1,263"
+  ],
+  "correct_letter": "A",
+  "correct_pct": 87.1,
+  "is_wrong": false,
+  "strip_wrong": [
+   5,
+   18,
+   21,
+   23,
+   24,
+   25,
+   27,
+   29,
+   30
+  ],
+  "topic_broad": "arithmetic",
+  "topic_specific": "subtraction across zeros",
+  "exercise_title": "Follow-Up Exercise: Adding and Subtracting Integers",
+  "is_timing_chart": false,
+  "notes": "Green A only. Other percentages: B and D under 5, C 6.7. Tile: Your Time 49 sec."
+ },
+ {
+  "source_file": "Screenshot 2026-10-06 at 10.31.43 AM.png",
+  "type": "question",
+  "test_set": "ISEE LOWER #1",
+  "question_number": 11,
+  "question_text": "Which number is divisible by both 4 and 7?",
+  "diagram_description": null,
+  "choices": [
+   "55",
+   "63",
+   "72",
+   "84"
+  ],
+  "correct_letter": "D",
+  "correct_pct": 84.0,
+  "is_wrong": false,
+  "strip_wrong": [
+   5,
+   18,
+   21,
+   23,
+   24,
+   25,
+   27,
+   29,
+   30
+  ],
+  "topic_broad": "number-theory-divisibility",
+  "topic_specific": "common multiple / divisibility by 4 and 7",
+  "exercise_title": "Follow-Up Exercise: No Remainder when Divided by two given Numbers",
+  "is_timing_chart": false,
+  "notes": "Green D only. Other percentages: A under 5, B 6.4, C 7.6. Tile: Your Time 99 sec."
+ },
+ {
+  "source_file": "Screenshot 2026-10-06 at 10.31.46 AM.png",
+  "type": "question",
+  "test_set": "ISEE LOWER #1",
+  "question_number": 12,
+  "question_text": "Drew worked on homework for 2 1/4 hours on Thursday and 1 1/2 hours on Friday. How many hours did he work on Thursday and Friday?",
+  "diagram_description": "none in question area; solution panel shows fraction-model drawing",
+  "choices": [
+   "1 3/4",
+   "2 3/4",
+   "3 2/3",
+   "3 3/4"
+  ],
+  "correct_letter": "D",
+  "correct_pct": "86.2%",
+  "is_wrong": false,
+  "strip_wrong": [
+   5,
+   18,
+   21,
+   23,
+   24,
+   25,
+   27,
+   29,
+   30
+  ],
+  "topic_broad": "fractions",
+  "topic_specific": "adding mixed numbers (word problem)",
+  "exercise_title": "Adding and Subtracting Mixed Numbers",
+  "notes": "Difficulty Medium; Hannah time 90 sec, others 34 sec."
+ },
+ {
+  "source_file": "Screenshot 2026-10-06 at 10.31.48 AM.png",
+  "type": "question",
+  "test_set": "ISEE LOWER #1",
+  "question_number": 13,
+  "question_text": "Hallie leaves for work at 7:00 a.m. and arrives at work 30 minutes later. She works for 5 hours then takes a 1-hour lunch break. After lunch, Hallie works for 2 more hours, then arrives at home 30 minutes later. What time is it when Hallie arrives at home?",
+  "diagram_description": "none",
+  "choices": [
+   "3:30 p.m.",
+   "4:00 p.m.",
+   "4:30 p.m.",
+   "5:00 p.m."
+  ],
+  "correct_letter": "B",
+  "correct_pct": "84.2%",
+  "is_wrong": false,
+  "strip_wrong": [
+   5,
+   18,
+   21,
+   23,
+   24,
+   25,
+   27,
+   29,
+   30
+  ],
+  "topic_broad": "measurement-conversion",
+  "topic_specific": "elapsed time with multiple intervals",
+  "exercise_title": "Determining The Final Time",
+  "notes": "Difficulty Medium; Hannah time 28 sec."
+ },
+ {
+  "source_file": "Screenshot 2026-10-06 at 10.31.50 AM.png",
+  "type": "question",
+  "test_set": "ISEE LOWER #1",
+  "question_number": 14,
+  "question_text": "A computer technician repaired 28 tablets and 46 computers last month. She spent 2 hours repairing each of these devices. Which equation can be used to find h, the total number of hours the technician spent repairing these devices?",
+  "diagram_description": "none",
+  "choices": [
+   "h = (28 + 46) \u00f7 2",
+   "h = (28 + 46) + 2",
+   "h = (28 + 46) \u00d7 2",
+   "h = (28 + 46) \u2212 2"
+  ],
+  "correct_letter": "C",
+  "correct_pct": "81.7%",
+  "is_wrong": false,
+  "strip_wrong": [
+   5,
+   18,
+   21,
+   23,
+   24,
+   25,
+   27,
+   29,
+   30
+  ],
+  "topic_broad": "algebra-equations",
+  "topic_specific": "write equation from word problem (total hours)",
+  "exercise_title": "Interpreting Linear Equations from Word Problems",
+  "notes": ""
+ },
+ {
+  "source_file": "Screenshot 2026-10-06 at 10.31.53 AM.png",
+  "type": "question",
+  "test_set": "ISEE LOWER #1",
+  "question_number": 15,
+  "question_text": "Cecelia earned $768. She plans to save one-fourth of the money. How much money does Cecelia plan to save?",
+  "diagram_description": "solution bar model: $768 split into four $192 parts (solution panel only)",
+  "choices": [
+   "$142",
+   "$192",
+   "$242",
+   "$256"
+  ],
+  "correct_letter": "B",
+  "correct_pct": "83.9%",
+  "is_wrong": false,
+  "strip_wrong": [
+   5,
+   18,
+   21,
+   23,
+   24,
+   25,
+   27,
+   29,
+   30
+  ],
+  "topic_broad": "fractions",
+  "topic_specific": "unit fraction of a whole (division)",
+  "exercise_title": "Remaining Amount after Reducing by Fractions",
+  "notes": "Time shown partly cut off in screenshot."
+ },
+ {
+  "source_file": "Screenshot 2026-10-06 at 10.31.56 AM.png",
+  "type": "question",
+  "test_set": "ISEE LOWER #1",
+  "question_number": 16,
+  "question_text": "3 3/5 hours is how many minutes more than 2 hours?",
+  "diagram_description": "none in question area; solution shows fraction-model subtraction",
+  "choices": [
+   "60",
+   "96",
+   "110",
+   "136"
+  ],
+  "correct_letter": "B",
+  "correct_pct": "77.3%",
+  "is_wrong": false,
+  "strip_wrong": [
+   5,
+   18,
+   21,
+   23,
+   24,
+   25,
+   27,
+   29,
+   30
+  ],
+  "topic_broad": "measurement-conversion",
+  "topic_specific": "hours to minutes with fractional hours",
+  "exercise_title": "Computation with Time",
+  "notes": ""
+ },
+ {
+  "source_file": "Screenshot 2026-10-06 at 10.31.58 AM.png",
+  "type": "question",
+  "test_set": "ISEE LOWER #1",
+  "question_number": 17,
+  "question_text": "Amanda would like to measure the weight of a cereal box. Which unit of measurement would be best?",
+  "diagram_description": "none",
+  "choices": [
+   "cup",
+   "pint",
+   "ounce",
+   "ton"
+  ],
+  "correct_letter": "C",
+  "correct_pct": "73.5%",
+  "is_wrong": false,
+  "strip_wrong": [
+   5,
+   18,
+   21,
+   23,
+   24,
+   25,
+   27,
+   29,
+   30
+  ],
+  "topic_broad": "measurement-conversion",
+  "topic_specific": "choose best unit of weight",
+  "exercise_title": "Best Unit of Measure",
+  "notes": "Difficulty Medium."
+ },
+ {
+  "source_file": "Screenshot 2026-10-06 at 10.32.00 AM.png",
+  "type": "question",
+  "test_set": "ISEE LOWER #1",
+  "question_number": 18,
+  "question_text": "The table shows the number of tickets sold to a movie viewing during one week. [TICKETS SOLD table: Sunday 510, Monday 270, Tuesday 650, Wednesday 320, Thursday 380, Friday 740, Saturday 470] What is the median number of tickets sold to the movie viewing during that week?",
+  "diagram_description": "two-column table of tickets sold by day, Sunday to Saturday",
+  "choices": [
+   "380",
+   "450",
+   "470",
+   "510"
+  ],
+  "correct_letter": "C",
+  "correct_pct": "72.1%",
+  "is_wrong": true,
+  "strip_wrong": [
+   5,
+   18,
+   21,
+   23,
+   24,
+   25,
+   27,
+   29,
+   30
+  ],
+  "topic_broad": "data-analysis-graphs-tables",
+  "topic_specific": "median from table of values",
+  "exercise_title": "Finding MMMR, given Bar Graph/Data Table of Values",
+  "notes": "Hannah wrong pick B (450, 8.5%). Time 66 sec."
+ },
+ {
+  "source_file": "Screenshot 2026-10-06 at 10.32.04 AM.png",
+  "type": "question",
+  "test_set": "ISEE LOWER #1",
+  "question_number": 19,
+  "question_text": "What is the distance from Arrow A to Arrow B?",
+  "diagram_description": "number line 0 to 10 with ticks in quarters; Arrow A at 1.5, Arrow B at 3.25, Arrow C at about 7.75",
+  "choices": [
+   "1.30",
+   "1.75",
+   "5.50",
+   "6.25"
+  ],
+  "correct_letter": "B",
+  "correct_pct": "69.3%",
+  "is_wrong": false,
+  "strip_wrong": [
+   5,
+   18,
+   21,
+   23,
+   24,
+   25,
+   27,
+   29,
+   30
+  ],
+  "topic_broad": "decimals",
+  "topic_specific": "distance on number line with decimal tick marks",
+  "exercise_title": "Determining Points on Number Lines",
+  "notes": ""
+ },
+ {
+  "source_file": "Screenshot 2026-10-06 at 10.32.06 AM.png",
+  "type": "question",
+  "test_set": "ISEE LOWER #1",
+  "question_number": 20,
+  "question_text": "Lou measures and records the mass in grams of six items. 1.40, 2.67, 8.12, 10.84, 4.88, 9.75. What is the estimated total weight of these six items?",
+  "diagram_description": "none",
+  "choices": [
+   "between 25 and 30 grams",
+   "between 30 and 35 grams",
+   "between 35 and 40 grams",
+   "between 40 and 45 grams"
+  ],
+  "correct_letter": "C",
+  "correct_pct": "74.3%",
+  "is_wrong": false,
+  "strip_wrong": [
+   5,
+   18,
+   21,
+   23,
+   24,
+   25,
+   27,
+   29,
+   30
+  ],
+  "topic_broad": "estimation",
+  "topic_specific": "estimate sum of decimals by rounding",
+  "exercise_title": "Estimating Sums/Differences of Decimal Numbers",
+  "notes": ""
+ },
+ {
+  "source_file": "Screenshot 2026-10-06 at 10.32.08 AM.png",
+  "type": "question",
+  "test_set": "ISEE LOWER #1",
+  "question_number": 21,
+  "question_text": "Use the number pattern to answer the question. 2 3 5 9 17 _ What is the next number in the pattern?",
+  "diagram_description": "none",
+  "choices": [
+   "21",
+   "27",
+   "30",
+   "33"
+  ],
+  "correct_letter": "D",
+  "correct_pct": "67.1%",
+  "is_wrong": true,
+  "strip_wrong": [
+   5,
+   18,
+   21,
+   23,
+   24,
+   25,
+   27,
+   29,
+   30
+  ],
+  "topic_broad": "patterns-sequences",
+  "topic_specific": "difference pattern (increasing differences)",
+  "exercise_title": "Numerical Patterns",
+  "notes": "Hannah wrong pick B (27, 17.0%). Subtype Algebraic Concepts, Hard."
+ },
+ {
+  "source_file": "Screenshot 2026-10-06 at 10.32.10 AM.png",
+  "type": "question",
+  "test_set": "ISEE LOWER #1",
+  "question_number": 22,
+  "question_text": "Death Valley has an area of 13,647.6 km^2. Which location has an area approximately 1/3 that of Death Valley?",
+  "diagram_description": "none",
+  "choices": [
+   "The Redwood Forest, with an area of 455.3 km^2",
+   "The Zion National Park, with an area of 593.3 km^2",
+   "The Grand Canyon, with an area of 4,927.7 km^2",
+   "The Everglades, with an area of 6,104.8 km^2"
+  ],
+  "correct_letter": "C",
+  "correct_pct": "67.4%",
+  "is_wrong": false,
+  "strip_wrong": [
+   5,
+   18,
+   21,
+   23,
+   24,
+   25,
+   27,
+   29,
+   30
+  ],
+  "topic_broad": "estimation",
+  "topic_specific": "estimate one-third of a large number (division)",
+  "exercise_title": "Estimating Multiplication & Division",
+  "notes": "Superscript 2 transcribed as km^2."
+ },
+ {
+  "source_file": "Screenshot 2026-10-06 at 10.32.13 AM.png",
+  "type": "question",
+  "test_set": "ISEE LOWER #1",
+  "question_number": 23,
+  "question_text": "Which statement is true?",
+  "diagram_description": "none",
+  "choices": [
+   "A square is always a rectangle.",
+   "A rectangle is always a square.",
+   "A rhombus is always a rectangle.",
+   "A rectangle is always a rhombus."
+  ],
+  "correct_letter": "A",
+  "correct_pct": "67.3%",
+  "is_wrong": true,
+  "strip_wrong": [
+   5,
+   18,
+   21,
+   23,
+   24,
+   25,
+   27,
+   29,
+   30
+  ],
+  "topic_broad": "logic-always-true",
+  "topic_specific": "true/false statements about quadrilateral classes",
+  "exercise_title": "Identifying Shapes",
+  "notes": "Hannah wrong pick B (19.9%)."
+ },
+ {
+  "source_file": "Screenshot 2026-10-06 at 10.32.15 AM.png",
+  "type": "question",
+  "test_set": "ISEE LOWER #1",
+  "question_number": 24,
+  "question_text": "Which whole number is divisible by 9?",
+  "diagram_description": "none in question area; solution shows digit-sum table",
+  "choices": [
+   "2,047",
+   "2,109",
+   "2,403",
+   "2,909"
+  ],
+  "correct_letter": "C",
+  "correct_pct": "68.1%",
+  "is_wrong": true,
+  "strip_wrong": [
+   5,
+   18,
+   21,
+   23,
+   24,
+   25,
+   27,
+   29,
+   30
+  ],
+  "topic_broad": "number-theory-divisibility",
+  "topic_specific": "divisibility rule for 9 (digit sum)",
+  "exercise_title": "No Remainder when Divided by a given Number",
+  "notes": "Hannah wrong pick B (2,109, 11.3%)."
+ },
+ {
+  "source_file": "Screenshot 2026-10-06 at 10.32.18 AM.png",
+  "type": "question",
+  "test_set": "ISEE LOWER #1",
+  "question_number": 25,
+  "question_text": "Lois had 4 pencils and 6 pens. She lost half of her pencils and a third of her pens. How many pencils and pens does she have remaining?",
+  "diagram_description": "none",
+  "choices": [
+   "3",
+   "5",
+   "6",
+   "9"
+  ],
+  "correct_letter": "C",
+  "correct_pct": "64.9%",
+  "is_wrong": true,
+  "strip_wrong": [
+   5,
+   18,
+   21,
+   23,
+   24,
+   25,
+   27,
+   29,
+   30
+  ],
+  "topic_broad": "word-problem-other",
+  "topic_specific": "fraction of a group lost, then total remaining",
+  "exercise_title": "Remaining Amount after Reducing by Fractions",
+  "notes": "Hannah wrong pick B (5, 26.4%)."
+ },
+ {
+  "source_file": "Screenshot 2026-10-06 at 10.32.22 AM.png",
+  "type": "question",
+  "test_set": "ISEE LOWER #1",
+  "question_number": 26,
+  "question_text": "The thickness of Edan's computer screen is 3/8 inch. The thickness of Lynn's computer screen is less than Edan's. Which measurement could be the thickness of Lynn's computer screen?",
+  "diagram_description": "solution shows fraction bar models for 3/8, 2/5, 1/3",
+  "choices": [
+   "2/5 inch",
+   "1/3 inch",
+   "4/7 inch",
+   "5/6 inch"
+  ],
+  "correct_letter": "B",
+  "correct_pct": "58.7%",
+  "is_wrong": false,
+  "strip_wrong": [
+   5,
+   18,
+   21,
+   23,
+   24,
+   25,
+   27,
+   29,
+   30
+  ],
+  "topic_broad": "fractions",
+  "topic_specific": "compare fractions using benchmarks",
+  "exercise_title": "Comparing & Ordering Fractions & Decimals",
+  "notes": ""
+ },
+ {
+  "source_file": "Screenshot 2026-10-06 at 10.32.24 AM.png",
+  "type": "question",
+  "test_set": "ISEE LOWER #1",
+  "question_number": 27,
+  "question_text": "Use the figure to answer the question. If the same pattern continues, how many squares would the fifth object have?",
+  "diagram_description": "three figures of connected unit squares (cross-like shapes) with 5, 9, and 13 squares; pattern adds 4 squares each step",
+  "choices": [
+   "17",
+   "20",
+   "21",
+   "25"
+  ],
+  "correct_letter": "C",
+  "correct_pct": "50.9%",
+  "is_wrong": true,
+  "strip_wrong": [
+   5,
+   18,
+   21,
+   23,
+   24,
+   25,
+   27,
+   29,
+   30
+  ],
+  "topic_broad": "patterns-sequences",
+  "topic_specific": "shape pattern counting (adds 4 each step)",
+  "exercise_title": "Predicting the Next Shapes, given Progressive Pattern",
+  "notes": "Hannah wrong pick B (20, 7.8%). Hard."
+ },
+ {
+  "source_file": "Screenshot 2026-10-06 at 10.32.27 AM.png",
+  "type": "question",
+  "test_set": "ISEE LOWER #1",
+  "question_number": 28,
+  "question_text": "A coordinate grid is shown. The points A(1, 5), B(5, 5), C(5, 2), and D(1, 2) are the vertices of a quadrilateral. Which term best describes the shape of the quadrilateral?",
+  "diagram_description": "coordinate grid, x and y axes 0 to 7, no points plotted in screenshot",
+  "choices": [
+   "square",
+   "rhombus",
+   "rectangle",
+   "trapezoid"
+  ],
+  "correct_letter": "C",
+  "correct_pct": "53.5%",
+  "is_wrong": false,
+  "strip_wrong": [
+   5,
+   18,
+   21,
+   23,
+   24,
+   25,
+   27,
+   29,
+   30
+  ],
+  "topic_broad": "geometry-angles-shapes",
+  "topic_specific": "classify quadrilateral from coordinates",
+  "exercise_title": "Vertices Forming Right Angles & Quadrilaterals on a Coordinate Plane",
+  "notes": "Question text has no space after 'The points' in source; transcribed with space."
+ },
+ {
+  "source_file": "Screenshot 2026-10-06 at 10.32.30 AM.png",
+  "type": "question",
+  "test_set": "ISEE LOWER #1",
+  "question_number": 29,
+  "question_text": "Lillian and 7 other students have each earned an equal number of bonus points for student achievement. Which number could represent the total number of bonus points that the students have received?",
+  "diagram_description": "none",
+  "choices": [
+   "1,100",
+   "1,420",
+   "1,610",
+   "1,920"
+  ],
+  "correct_letter": "D",
+  "correct_pct": "39.1%",
+  "is_wrong": true,
+  "strip_wrong": [
+   5,
+   18,
+   21,
+   23,
+   24,
+   25,
+   27,
+   29,
+   30
+  ],
+  "topic_broad": "number-theory-divisibility",
+  "topic_specific": "divisibility by 8 (last three digits)",
+  "exercise_title": "No Remainder when Divided by a given Number",
+  "notes": "Hannah wrong pick B (1,420, 22.7%). Hard."
+ },
+ {
+  "source_file": "Screenshot 2026-10-06 at 10.32.32 AM.png",
+  "type": "question",
+  "test_set": "ISEE LOWER #1",
+  "question_number": 30,
+  "question_text": "The perimeter of a square is 24 centimeters. If a rectangle with a width of 3 centimeters has the same area as the square, what is the length of the rectangle in centimeters?",
+  "diagram_description": "none",
+  "choices": [
+   "6",
+   "8",
+   "9",
+   "12"
+  ],
+  "correct_letter": "D",
+  "correct_pct": "35.9%",
+  "is_wrong": true,
+  "strip_wrong": [
+   5,
+   18,
+   21,
+   23,
+   24,
+   25,
+   27,
+   29,
+   30
+  ],
+  "topic_broad": "geometry-area-perimeter",
+  "topic_specific": "square perimeter to area, then rectangle length",
+  "exercise_title": "Finding Area/Perimeter of Rectangle, given Length & Width",
+  "notes": "Hannah wrong pick B (8, 41.7%). Hard."
+ },
+ {
+  "source_file": "Screenshot 2026-10-06 at 10.36.04 AM.png",
+  "type": "question",
+  "test_set": "ISEE LOWER #2",
+  "question_number": 1,
+  "question_text": "Which describes the set of numbers shown? 3 6 9 12 15",
+  "diagram_description": "none",
+  "choices": [
+   "prime numbers",
+   "composite numbers",
+   "numbers divisible by 3",
+   "numbers divisible by 9"
+  ],
+  "correct_letter": "C",
+  "correct_pct": "96.9%",
+  "is_wrong": false,
+  "strip_wrong": [
+   15,
+   24,
+   26,
+   27,
+   29,
+   30
+  ],
+  "topic_broad": "number-theory-divisibility",
+  "topic_specific": "classify a set of numbers (prime/composite/divisible)",
+  "exercise_title": "Classification of Numbers, given a Set",
+  "notes": "Easy. Hannah time 10 sec."
+ },
+ {
+  "source_file": "Screenshot 2026-10-06 at 10.36.08 AM.png",
+  "type": "question",
+  "test_set": "ISEE LOWER #2",
+  "question_number": 2,
+  "question_text": "What is the value of the expression 1,032 - 65?",
+  "diagram_description": "none",
+  "choices": [
+   "948",
+   "967",
+   "1,045",
+   "1,097"
+  ],
+  "correct_letter": "B",
+  "correct_pct": "97.3%",
+  "is_wrong": false,
+  "strip_wrong": [
+   15,
+   24,
+   26,
+   27,
+   29,
+   30
+  ],
+  "topic_broad": "arithmetic",
+  "topic_specific": "subtract whole numbers",
+  "exercise_title": "Adding and Subtracting Integers",
+  "notes": "Easy. Hannah time 56 sec."
+ },
+ {
+  "source_file": "Screenshot 2026-10-06 at 10.36.11 AM.png",
+  "type": "question",
+  "test_set": "ISEE LOWER #2",
+  "question_number": 3,
+  "question_text": "What is the perimeter of the trapezoid?",
+  "diagram_description": "trapezoid with sides labeled 21 inches (top), 15 inches (right), 27 inches (bottom), 18 inches (left)",
+  "choices": [
+   "45 inches",
+   "54 inches",
+   "81 inches",
+   "84 inches"
+  ],
+  "correct_letter": "C",
+  "correct_pct": "96.5%",
+  "is_wrong": false,
+  "strip_wrong": [
+   15,
+   24,
+   26,
+   27,
+   29,
+   30
+  ],
+  "topic_broad": "geometry-area-perimeter",
+  "topic_specific": "perimeter of a polygon (add sides)",
+  "exercise_title": "Perimeter",
+  "notes": "Easy."
+ },
+ {
+  "source_file": "Screenshot 2026-10-06 at 10.36.17 AM.png",
+  "type": "question",
+  "test_set": "ISEE LOWER #2",
+  "question_number": 4,
+  "question_text": "The table shows the amounts of money saved by four people. Michelle has how much more money than Paul?",
+  "diagram_description": "table referenced in question but not visible in screenshot; solution text gives Michelle = 4 x $25 = $100 and Paul = 2 x $25 = $50",
+  "choices": [
+   "$20",
+   "$25",
+   "$40",
+   "$50"
+  ],
+  "correct_letter": "D",
+  "correct_pct": "96.5%",
+  "is_wrong": false,
+  "strip_wrong": [
+   15,
+   24,
+   26,
+   27,
+   29,
+   30
+  ],
+  "topic_broad": "data-analysis-graphs-tables",
+  "topic_specific": "compare values from a pictograph/table",
+  "exercise_title": "Interpreting Pictographs",
+  "notes": "Table itself not visible in this image; Easy."
+ },
+ {
+  "source_file": "Screenshot 2026-10-06 at 10.36.19 AM.png",
+  "type": "question",
+  "test_set": "ISEE LOWER #2",
+  "question_number": 5,
+  "question_text": "Ada took a two-day driving trip. She drove 473 miles the second day. On the first day, she drove one-third of the distance she drove on the second day. About how many miles did Ada drive on the first day?",
+  "diagram_description": "none",
+  "choices": [
+   "100",
+   "160",
+   "1,000",
+   "1,600"
+  ],
+  "correct_letter": "B",
+  "correct_pct": "93.9%",
+  "is_wrong": false,
+  "strip_wrong": [
+   15,
+   24,
+   26,
+   27,
+   29,
+   30
+  ],
+  "topic_broad": "estimation",
+  "topic_specific": "round then divide by 3",
+  "exercise_title": "Multiplying and Dividing Whole Numbers",
+  "notes": "Easy. Subtype Decimals, Percents, Fractions per platform."
+ },
+ {
+  "source_file": "Screenshot 2026-10-06 at 10.36.21 AM.png",
+  "type": "question",
+  "test_set": "ISEE LOWER #2",
+  "question_number": 6,
+  "question_text": "The same operation is performed on each input number to create an output number as shown in the table. Which output number will result from an input number of 24?",
+  "diagram_description": "input/output table: 16->4, 24->?, 32->8, 48->12",
+  "choices": [
+   "4",
+   "6",
+   "8",
+   "12"
+  ],
+  "correct_letter": "B",
+  "correct_pct": "95.4%",
+  "is_wrong": false,
+  "strip_wrong": [
+   15,
+   24,
+   26,
+   27,
+   29,
+   30
+  ],
+  "topic_broad": "patterns-sequences",
+  "topic_specific": "input-output rule (divide by 4)",
+  "exercise_title": "Input/Output Tables",
+  "notes": "Easy."
+ },
+ {
+  "source_file": "Screenshot 2026-10-06 at 10.36.23 AM.png",
+  "type": "question",
+  "test_set": "ISEE LOWER #2",
+  "question_number": 7,
+  "question_text": "Marti wrote two equations. f \u00f7 g = 8, 8 \u00d7 7 = f. What is the value of g?",
+  "diagram_description": "none",
+  "choices": [
+   "6",
+   "7",
+   "8",
+   "9"
+  ],
+  "correct_letter": "B",
+  "correct_pct": "93.2%",
+  "is_wrong": false,
+  "strip_wrong": [
+   15,
+   24,
+   26,
+   27,
+   29,
+   30
+  ],
+  "topic_broad": "algebra-equations",
+  "topic_specific": "solve linear equations in two variables (chain)",
+  "exercise_title": "Algebraic Equations with Symbol Variables",
+  "notes": "Easy."
+ },
+ {
+  "source_file": "Screenshot 2026-10-06 at 10.36.25 AM.png",
+  "type": "question",
+  "test_set": "ISEE LOWER #2",
+  "question_number": 8,
+  "question_text": "There are 12 boxes that each contain 9 watches. Which equation can be used to find y, the total number of watches in all of the boxes?",
+  "diagram_description": "none",
+  "choices": [
+   "9 \u00f7 y = 12",
+   "y - 9 = 12",
+   "y = 12 + 9",
+   "y = 12 \u00d7 9"
+  ],
+  "correct_letter": "D",
+  "correct_pct": "94.5%",
+  "is_wrong": false,
+  "strip_wrong": [
+   15,
+   24,
+   26,
+   27,
+   29,
+   30
+  ],
+  "topic_broad": "algebra-equations",
+  "topic_specific": "write equation from equal groups",
+  "exercise_title": "Interpreting Linear Equations from Word Problems",
+  "notes": "Easy. Hannah time 250 sec (long)."
+ },
+ {
+  "source_file": "Screenshot 2026-10-06 at 10.36.27 AM.png",
+  "type": "question",
+  "test_set": "ISEE LOWER #2",
+  "question_number": 9,
+  "question_text": "If (\u0394 + 1) \u00d7 4 = 20, what is the value of \u0394?",
+  "diagram_description": "none",
+  "choices": [
+   "3",
+   "4",
+   "5",
+   "6"
+  ],
+  "correct_letter": "B",
+  "correct_pct": "92.5%",
+  "is_wrong": false,
+  "strip_wrong": [
+   15,
+   24,
+   26,
+   27,
+   29,
+   30
+  ],
+  "topic_broad": "algebra-equations",
+  "topic_specific": "solve one-variable equation with unknown symbol",
+  "exercise_title": "Solving 1 Variable Equations",
+  "notes": "Easy. Hannah time 171 sec."
+ },
+ {
+  "source_file": "Screenshot 2026-10-06 at 10.36.29 AM.png",
+  "type": "question",
+  "test_set": "ISEE LOWER #2",
+  "question_number": 10,
+  "question_text": "If 1 yard (yd) is equivalent to 3 feet, which is equivalent to 75 feet?",
+  "diagram_description": "none",
+  "choices": [
+   "15 yd",
+   "25 yd",
+   "28 yd",
+   "30 yd"
+  ],
+  "correct_letter": "B",
+  "correct_pct": "92.8%",
+  "is_wrong": false,
+  "strip_wrong": [
+   15,
+   24,
+   26,
+   27,
+   29,
+   30
+  ],
+  "topic_broad": "measurement-conversion",
+  "topic_specific": "feet to yards conversion",
+  "exercise_title": "English Unit Conversions",
+  "notes": "Easy."
+ },
+ {
+  "source_file": "Screenshot 2026-10-06 at 10.36.31 AM.png",
+  "type": "question",
+  "test_set": "ISEE LOWER #2",
+  "question_number": 11,
+  "question_text": "Which expression is equal to 35?",
+  "diagram_description": "none",
+  "choices": [
+   "6 \u00d7 4 + (3 \u2212 7)",
+   "(6 \u00d7 4) + 3 \u2212 7",
+   "6 \u00d7 (4 + 3 \u2212 7)",
+   "6 \u00d7 (4 + 3) \u2212 7"
+  ],
+  "correct_letter": "D",
+  "correct_pct": "88.2%",
+  "is_wrong": false,
+  "strip_wrong": [
+   15,
+   24,
+   26,
+   27,
+   29,
+   30
+  ],
+  "topic_broad": "arithmetic",
+  "topic_specific": "order of operations (equivalent expressions)",
+  "exercise_title": "Order of Operations and Equivalence",
+  "notes": "Medium."
+ },
+ {
+  "source_file": "Screenshot 2026-10-06 at 10.36.33 AM.png",
+  "type": "question",
+  "test_set": "ISEE LOWER #2",
+  "question_number": 12,
+  "question_text": "How many hours are in 660 minutes?",
+  "diagram_description": "none",
+  "choices": [
+   "10",
+   "11",
+   "12",
+   "13"
+  ],
+  "correct_letter": "B",
+  "correct_pct": "90.4%",
+  "is_wrong": false,
+  "strip_wrong": [
+   15,
+   24,
+   26,
+   27,
+   29,
+   30
+  ],
+  "topic_broad": "measurement-conversion",
+  "topic_specific": "minutes to hours conversion",
+  "exercise_title": "Computation with Time",
+  "notes": "Medium."
+ },
+ {
+  "source_file": "Screenshot 2026-10-06 at 10.36.35 AM.png",
+  "type": "question",
+  "test_set": "ISEE LOWER #2",
+  "question_number": 13,
+  "question_text": "The graph shows the different amounts of time Jacob spent watching television each day in one week. How many more hours did Jacob spend watching television on Monday than on Thursday?",
+  "diagram_description": "bar graph referenced in question but not visible in screenshot; solution says Monday = 4 hours, Thursday = 2 hours",
+  "choices": [
+   "1",
+   "2",
+   "3",
+   "4"
+  ],
+  "correct_letter": "B",
+  "correct_pct": "87.2%",
+  "is_wrong": false,
+  "strip_wrong": [
+   15,
+   24,
+   26,
+   27,
+   29,
+   30
+  ],
+  "topic_broad": "data-analysis-graphs-tables",
+  "topic_specific": "difference between two bars on a bar graph",
+  "exercise_title": "Comparing/Adding/Subtracting Bar Graph/Data Table Values",
+  "notes": "Graph not visible in this image; Medium."
+ },
+ {
+  "source_file": "Screenshot 2026-10-06 at 10.36.37 AM.png",
+  "type": "question",
+  "test_set": "ISEE LOWER #2",
+  "question_number": 14,
+  "question_text": "Which set of fractions is ordered from least to greatest?",
+  "diagram_description": "solution panel shows fraction bar models for 1/4, 1/3, 1/2",
+  "choices": [
+   "1/4, 1/3, 1/2, 3/4",
+   "1/4, 3/4, 1/3, 1/2",
+   "3/4, 1/2, 1/3, 1/4",
+   "1/2, 1/3, 3/4, 1/4"
+  ],
+  "correct_letter": "A",
+  "correct_pct": "86.8%",
+  "is_wrong": false,
+  "strip_wrong": [
+   15,
+   24,
+   26,
+   27,
+   29,
+   30
+  ],
+  "topic_broad": "fractions",
+  "topic_specific": "order fractions from least to greatest",
+  "exercise_title": "Comparing & Ordering Fractions & Decimals",
+  "notes": ""
+ },
+ {
+  "source_file": "Screenshot 2026-10-06 at 10.36.39 AM.png",
+  "type": "question",
+  "test_set": "ISEE LOWER #2",
+  "question_number": 15,
+  "question_text": "A recipe uses 864 milliliters of milk. Patrick wants to make 1/3 of the recipe. If he cuts the recipe in thirds, how many milliliters of milk should he use?",
+  "diagram_description": "solution bar model: 864 split into three 288 parts",
+  "choices": [
+   "216 milliliters",
+   "221 milliliters",
+   "288 milliliters",
+   "321 milliliters"
+  ],
+  "correct_letter": "C",
+  "correct_pct": "89.3%",
+  "is_wrong": true,
+  "strip_wrong": [
+   15,
+   24,
+   26,
+   27,
+   29,
+   30
+  ],
+  "topic_broad": "fractions",
+  "topic_specific": "fraction of a quantity (divide by 3)",
+  "exercise_title": "Multiplying and Dividing Whole Numbers",
+  "notes": "Hannah wrong pick B (221, 6.4%). Pill 15 maroon."
+ },
+ {
+  "source_file": "Screenshot 2026-10-06 at 10.36.41 AM.png",
+  "type": "question",
+  "test_set": "ISEE LOWER #2",
+  "question_number": 16,
+  "question_text": "Brenna and Edan each draw a rectangle with an area of 36 cm^2 but with different dimensions. Brenna draws a 4 cm x 9 cm rectangle. Which could be the possible dimensions of the rectangle Edan draws?",
+  "diagram_description": "none",
+  "choices": [
+   "1 cm x 17 cm",
+   "4 cm x 9 cm",
+   "6 cm x 6 cm",
+   "8 cm x 28 cm"
+  ],
+  "correct_letter": "C",
+  "correct_pct": "82.8%",
+  "is_wrong": false,
+  "strip_wrong": [
+   15,
+   24,
+   26,
+   27,
+   29,
+   30
+  ],
+  "topic_broad": "geometry-area-perimeter",
+  "topic_specific": "rectangle dimensions with given area (factor pairs)",
+  "exercise_title": "Finding Area/Perimeter of Rectangle, given Length & Width",
+  "notes": "Medium."
+ },
+ {
+  "source_file": "Screenshot 2026-10-06 at 10.36.44 AM.png",
+  "type": "question",
+  "test_set": "ISEE LOWER #2",
+  "question_number": 17,
+  "question_text": "Mrs. Bentley collected pennies for a fundraiser throughout the school year. The model is shaded to show the fraction of the total amount of money collected in each of the three months. What fraction of the total amount of money Mrs. Bentley collected was given during these three months?",
+  "diagram_description": "MRS. BENTLEY'S FUNDRAISER: three bar models, first month 1 of 8 shaded, second month 1 of 4 shaded (= 2/8), third month 1/2 shaded (= 4/8)",
+  "choices": [
+   "1/8",
+   "3/14",
+   "3/8",
+   "7/8"
+  ],
+  "correct_letter": "D",
+  "correct_pct": "82.1%",
+  "is_wrong": false,
+  "strip_wrong": [
+   15,
+   24,
+   26,
+   27,
+   29,
+   30
+  ],
+  "topic_broad": "fractions",
+  "topic_specific": "add fractions from bar models (common denominator 8)",
+  "exercise_title": "Adding and Subtracting Fractions",
+  "notes": "Medium."
+ },
+ {
+  "source_file": "Screenshot 2026-10-06 at 10.36.47 AM.png",
+  "type": "question",
+  "test_set": "ISEE LOWER #2",
+  "question_number": 18,
+  "question_text": "How many prime numbers are there which are greater than 6 and less than 15?",
+  "diagram_description": "none",
+  "choices": [
+   "2",
+   "3",
+   "4",
+   "5"
+  ],
+  "correct_letter": "B",
+  "correct_pct": "76.3%",
+  "is_wrong": false,
+  "strip_wrong": [
+   15,
+   24,
+   26,
+   27,
+   29,
+   30
+  ],
+  "topic_broad": "number-theory-divisibility",
+  "topic_specific": "count primes in a range (7, 11, 13)",
+  "exercise_title": "Prime Numbers",
+  "notes": "Medium."
+ },
+ {
+  "source_file": "Screenshot 2026-10-06 at 10.36.49 AM.png",
+  "type": "question",
+  "test_set": "ISEE LOWER #2",
+  "question_number": 19,
+  "question_text": "Use the diagram to answer the question. If one of these shapes is selected at random, what is the probability that it will be a [crossed-box shape]?",
+  "diagram_description": "row of 8 shapes: boxes with mixed patterns; 2 of 8 are the crossed-box shape",
+  "choices": [
+   "1 out of 2",
+   "1 out of 3",
+   "1 out of 4",
+   "1 out of 8"
+  ],
+  "correct_letter": "C",
+  "correct_pct": "78.6%",
+  "is_wrong": false,
+  "strip_wrong": [
+   15,
+   24,
+   26,
+   27,
+   29,
+   30
+  ],
+  "topic_broad": "probability",
+  "topic_specific": "probability of one shape from a set of 8",
+  "exercise_title": "Probability of 1 Event, given a List of Items",
+  "notes": "Medium."
+ },
+ {
+  "source_file": "Screenshot 2026-10-06 at 10.36.51 AM.png",
+  "type": "question",
+  "test_set": "ISEE LOWER #2",
+  "question_number": 20,
+  "question_text": "The set of numbers shows the number of miles Oliver ran during a 7-day period. 4.4 3.1 4.8 3.9 5.2 4.8 4.2. What is the median of this set of data?",
+  "diagram_description": "none",
+  "choices": [
+   "3.1",
+   "4.2",
+   "4.4",
+   "4.8"
+  ],
+  "correct_letter": "C",
+  "correct_pct": "74.6%",
+  "is_wrong": false,
+  "strip_wrong": [
+   15,
+   24,
+   26,
+   27,
+   29,
+   30
+  ],
+  "topic_broad": "data-analysis-graphs-tables",
+  "topic_specific": "median of a data set",
+  "exercise_title": "Finding Median, given Sets of Numbers",
+  "notes": "Medium."
+ },
+ {
+  "source_file": "Screenshot 2026-10-06 at 10.36.53 AM.png",
+  "type": "question",
+  "test_set": "ISEE LOWER #2",
+  "question_number": 21,
+  "question_text": "A box contains 6 blue pens, 4 red pens, and 8 black pens. If one of the pens is randomly selected, what is the probability that it will be a red pen?",
+  "diagram_description": "none",
+  "choices": [
+   "1/18",
+   "1/14",
+   "2/9",
+   "2/7"
+  ],
+  "correct_letter": "C",
+  "correct_pct": "78.0%",
+  "is_wrong": false,
+  "strip_wrong": [
+   15,
+   24,
+   26,
+   27,
+   29,
+   30
+  ],
+  "topic_broad": "probability",
+  "topic_specific": "probability from total count (4 of 18)",
+  "exercise_title": "Probability of 1 Event, given a List of Items",
+  "notes": "Hard. Hannah time 31 sec."
+ },
+ {
+  "source_file": "Screenshot 2026-10-06 at 10.36.55 AM.png",
+  "type": "question",
+  "test_set": "ISEE LOWER #2",
+  "question_number": 22,
+  "question_text": "Use the coordinate grid to answer the question. What are the coordinates of point P?",
+  "diagram_description": "Coordinate grid referenced by the question; the grid area is blank in the screenshot (not rendered), so point P position is unclear from the image. Solution text says P is 3 units right and 4 units down from (0,0).",
+  "choices": [
+   "A: (-4, -3)",
+   "B: (-3, -4)",
+   "C: (-4, 3)",
+   "D: (3, -4)"
+  ],
+  "correct_letter": "D",
+  "correct_pct": "71.4%",
+  "is_wrong": false,
+  "strip_wrong": [
+   15,
+   24,
+   26,
+   27,
+   29,
+   30
+  ],
+  "topic_broad": "geometry-angles-shapes",
+  "topic_specific": "points on coordinate plane",
+  "exercise_title": "Identifying Points on a Coordinate Plane",
+  "notes": "Subtype Geometry, difficulty Hard. Green only, no maroon marker. Time 19 sec."
+ },
+ {
+  "source_file": "Screenshot 2026-10-06 at 10.36.57 AM.png",
+  "type": "question",
+  "test_set": "ISEE LOWER #2",
+  "question_number": 23,
+  "question_text": "The 16 students in a class were surveyed about the types of books they read in their free time. The options on the survey for types of books were fantasy and science fiction. The list shows the results of the survey. 9 students responded that they only read fantasy, 5 students said they read both fantasy and science fiction, and 2 students said they do not read either type of book. What number of students do NOT read science fiction?",
+  "diagram_description": "None (bulleted list of survey results).",
+  "choices": [
+   "A: 1",
+   "B: 4",
+   "C: 9",
+   "D: 11"
+  ],
+  "correct_letter": "D",
+  "correct_pct": "85.9%",
+  "is_wrong": false,
+  "strip_wrong": [
+   15,
+   24,
+   26,
+   27,
+   29,
+   30
+  ],
+  "topic_broad": "data-analysis-graphs-tables",
+  "topic_specific": "survey counts / complement",
+  "exercise_title": null,
+  "notes": "Subtype Data Analysis & Probability, difficulty Hard. Time 29 sec. Follow-up exercise not shown in screenshot."
+ },
+ {
+  "source_file": "Screenshot 2026-10-06 at 10.36.59 AM.png",
+  "type": "question",
+  "test_set": "ISEE LOWER #2",
+  "question_number": 24,
+  "question_text": "Which number is divisible by 8?",
+  "diagram_description": "None.",
+  "choices": [
+   "A: 113",
+   "B: 221",
+   "C: 324",
+   "D: 352"
+  ],
+  "correct_letter": "D",
+  "correct_pct": "73.3%",
+  "is_wrong": true,
+  "strip_wrong": [
+   15,
+   24,
+   26,
+   27,
+   29,
+   30
+  ],
+  "topic_broad": "number-theory-divisibility",
+  "topic_specific": "divisibility by 8",
+  "exercise_title": "No Remainder when Divided by a given Number",
+  "notes": "Maroon marker on C (324, 21.7%), Hannah's wrong pick. A and B under 5%."
+ },
+ {
+  "source_file": "Screenshot 2026-10-06 at 10.37.01 AM.png",
+  "type": "question",
+  "test_set": "ISEE LOWER #2",
+  "question_number": 25,
+  "question_text": "Phil divided his rectangular garden into three sections, as shown in the diagram. The corn section is a square with a side length of 7 meters (m). The potato section is a square with a side length of 5 meters. What is the area of the carrots section of Phil's garden?",
+  "diagram_description": "Question refers to a diagram of the garden in three sections, but no diagram is rendered in the screenshot (blank space).",
+  "choices": [
+   "A: 10 m^2",
+   "B: 14 m^2",
+   "C: 35 m^2",
+   "D: 84 m^2"
+  ],
+  "correct_letter": "A",
+  "correct_pct": "66.2%",
+  "is_wrong": false,
+  "strip_wrong": [
+   15,
+   24,
+   26,
+   27,
+   29,
+   30
+  ],
+  "topic_broad": "geometry-area-perimeter",
+  "topic_specific": "area of rectangle from side lengths",
+  "exercise_title": "Finding Area/Perimeter of Rectangle, given Length & Width",
+  "notes": "Subtype Decimals, Percents, Fractions shown in Q27 only; this screen shows no subtype. Green only. Time not visible (solution panel cut off)."
+ },
+ {
+  "source_file": "Screenshot 2026-10-06 at 10.37.03 AM.png",
+  "type": "question",
+  "test_set": "ISEE LOWER #2",
+  "question_number": 26,
+  "question_text": "Which expression is equivalent to 16 \u00d7 (13 + 19)?",
+  "diagram_description": "No diagram in the question area. Solution panel has a distributive-property arrow diagram (16 \u00d7 (13 + 19) = (16 \u00d7 13) + (16 \u00d7 19)).",
+  "choices": [
+   "A: (16 \u00d7 13) + 19",
+   "B: (16 \u00d7 13) + (16 \u00d7 19)",
+   "C: (13 \u00d7 19) + 16",
+   "D: (16 + 13) + (16 + 19)"
+  ],
+  "correct_letter": "B",
+  "correct_pct": "69.1%",
+  "is_wrong": true,
+  "strip_wrong": [
+   15,
+   24,
+   26,
+   27,
+   29,
+   30
+  ],
+  "topic_broad": "arithmetic",
+  "topic_specific": "distributive property",
+  "exercise_title": "Identifying Number Properties",
+  "notes": "Maroon marker on A (14.8%), Hannah's wrong pick. D under 5%."
+ },
+ {
+  "source_file": "Screenshot 2026-10-06 at 10.37.05 AM.png",
+  "type": "question",
+  "test_set": "ISEE LOWER #2",
+  "question_number": 27,
+  "question_text": "During a 5-month period, Anna's water bills were $31.76, $46.22, $38.45, $51.98, and $45.62. What is the closest approximation of the total cost of Anna's combined water bills during the 5-month period?",
+  "diagram_description": "None.",
+  "choices": [
+   "A: $205",
+   "B: $210",
+   "C: $220",
+   "D: $225"
+  ],
+  "correct_letter": "B",
+  "correct_pct": "55.3%",
+  "is_wrong": true,
+  "strip_wrong": [
+   15,
+   24,
+   26,
+   27,
+   29,
+   30
+  ],
+  "topic_broad": "estimation",
+  "topic_specific": "estimating decimal sum by rounding to nearest $5",
+  "exercise_title": "Estimating Sums/Differences of Decimal Numbers",
+  "notes": "Subtype Decimals, Percents, Fractions; difficulty Hard. Maroon marker on D (225, 10.2%), Hannah's wrong pick. A 7.7%, C 26.8%. Time 69 sec."
+ },
+ {
+  "source_file": "Screenshot 2026-10-06 at 10.37.07 AM.png",
+  "type": "question",
+  "test_set": "ISEE LOWER #2",
+  "question_number": 28,
+  "question_text": "What value is equivalent to 12.5%?",
+  "diagram_description": "None.",
+  "choices": [
+   "A: 1/12",
+   "B: 0.125",
+   "C: 125",
+   "D: 12.5"
+  ],
+  "correct_letter": "B",
+  "correct_pct": "52.2%",
+  "is_wrong": false,
+  "strip_wrong": [
+   15,
+   24,
+   26,
+   27,
+   29,
+   30
+  ],
+  "topic_broad": "percents",
+  "topic_specific": "percent to decimal / fraction equivalence",
+  "exercise_title": "Equivalent Fractions, Decimals, and Percents",
+  "notes": "No maroon marker, though D (12.5, 39.8%) may be the pick; strip shows 28 green, so D is not marked as wrong. Subtype Decimals, Percents, Fractions; Hard. Time 18 sec."
+ },
+ {
+  "source_file": "Screenshot 2026-10-06 at 10.37.09 AM.png",
+  "type": "question",
+  "test_set": "ISEE LOWER #2",
+  "question_number": 29,
+  "question_text": "Two numbers are greater than 1. One is a prime number and the other is an odd number. What will always describe the product of the two numbers?",
+  "diagram_description": "None.",
+  "choices": [
+   "A: odd number",
+   "B: even number",
+   "C: prime number",
+   "D: composite number"
+  ],
+  "correct_letter": "D",
+  "correct_pct": "34.4%",
+  "is_wrong": true,
+  "strip_wrong": [
+   15,
+   24,
+   26,
+   27,
+   29,
+   30
+  ],
+  "topic_broad": "logic-always-true",
+  "topic_specific": "always-true statement about product of prime and odd",
+  "exercise_title": "Classification of Numbers, given a Set",
+  "notes": "Maroon marker on A (odd number, 31.8%), Hannah's wrong pick. Subtype Whole-number classification; Hard. Time 68 sec (not confirmed)."
+ },
+ {
+  "source_file": "Screenshot 2026-10-06 at 10.37.11 AM.png",
+  "type": "question",
+  "test_set": "ISEE LOWER #2",
+  "question_number": 30,
+  "question_text": "The base of a triangle is 6 meters (m). Which statement correctly compares the value of A to the base and height of the triangle? (A = 1/2 \u00d7 base \u00d7 height)",
+  "diagram_description": "None in question area. Solution panel shows triangle area formula with base 6 m.",
+  "choices": [
+   "A: The value of A is always 1/2 the value of the height.",
+   "B: The value of A is always 3 times the value of the height.",
+   "C: The value of A is always 2 times the value of the height.",
+   "D: The value of A can be the same as the value of the height."
+  ],
+  "correct_letter": "B",
+  "correct_pct": "32.1%",
+  "is_wrong": true,
+  "strip_wrong": [
+   15,
+   24,
+   26,
+   27,
+   29,
+   30
+  ],
+  "topic_broad": "geometry-area-perimeter",
+  "topic_specific": "triangle area formula comparison",
+  "exercise_title": "Area of Triangles",
+  "notes": "Maroon marker on D (18.6%), Hannah's wrong pick. A 28.8%, C 20.4%."
+ },
+ {
+  "source_file": "Screenshot 2026-10-06 at 10.38.12 AM.png",
+  "type": "question",
+  "test_set": "ISEE LOWER #3",
+  "question_number": 1,
+  "question_text": "What is the value of 318 + 293?",
+  "diagram_description": "None; vertical addition shown only in solution panel.",
+  "choices": [
+   "A: 501",
+   "B: 511",
+   "C: 601",
+   "D: 611"
+  ],
+  "correct_letter": "D",
+  "correct_pct": "96.4%",
+  "is_wrong": false,
+  "strip_wrong": [
+   5,
+   16,
+   21
+  ],
+  "topic_broad": "arithmetic",
+  "topic_specific": "3-digit addition with regrouping",
+  "exercise_title": "Adding and Subtracting Integers",
+  "notes": "Subtype Whole Numbers; Easy. Green only. Time 22 sec."
+ },
+ {
+  "source_file": "Screenshot 2026-10-06 at 10.38.15 AM.png",
+  "type": "question",
+  "test_set": "ISEE LOWER #3",
+  "question_number": 2,
+  "question_text": "Sean is counting the number of cars that drive on each of the city's four main roads. His observations are shown in this graph. How many more cars traveled down North Highway than Lake Drive?",
+  "diagram_description": "Pictograph titled NUMBER OF CARS ON CITY ROADS. Rows: Main Street 3 car icons; Park Avenue 3 car icons; North Highway 5 car icons; Lake Drive 2 car icons. Key: one car icon = 20 cars.",
+  "choices": [
+   "A: 3",
+   "B: 12",
+   "C: 60",
+   "D: 100"
+  ],
+  "correct_letter": "C",
+  "correct_pct": "95.3%",
+  "is_wrong": false,
+  "strip_wrong": [
+   5,
+   16,
+   21
+  ],
+  "topic_broad": "data-analysis-graphs-tables",
+  "topic_specific": "reading pictograph with key",
+  "exercise_title": "Interpreting Pictographs",
+  "notes": "Subtype Data Analysis & Probability; Easy. Green only. Time 29 sec."
+ },
+ {
+  "source_file": "Screenshot 2026-10-06 at 10.38.17 AM.png",
+  "type": "question",
+  "test_set": "ISEE LOWER #3",
+  "question_number": 3,
+  "question_text": "What is the standard form for four hundred seven thousand sixty-three?",
+  "diagram_description": "None.",
+  "choices": [
+   "A: 400,763",
+   "B: 407,063",
+   "C: 407,603",
+   "D: 470,630"
+  ],
+  "correct_letter": "B",
+  "correct_pct": "96.5%",
+  "is_wrong": false,
+  "strip_wrong": [
+   5,
+   16,
+   21
+  ],
+  "topic_broad": "arithmetic",
+  "topic_specific": "number words to standard form (place value)",
+  "exercise_title": "Identifying Numbers, Standard Form <> Word Form",
+  "notes": "Subtype Whole Numbers; Easy. Green only. Time 26 sec."
+ },
+ {
+  "source_file": "Screenshot 2026-10-06 at 10.38.19 AM.png",
+  "type": "question",
+  "test_set": "ISEE LOWER #3",
+  "question_number": 4,
+  "question_text": "If (\u0394 + 5) \u00d7 3 = 30, what is the value of \u0394?",
+  "diagram_description": "None.",
+  "choices": [
+   "A: 3",
+   "B: 5",
+   "C: 10",
+   "D: 15"
+  ],
+  "correct_letter": "B",
+  "correct_pct": "96.8%",
+  "is_wrong": false,
+  "strip_wrong": [
+   5,
+   16,
+   21
+  ],
+  "topic_broad": "algebra-equations",
+  "topic_specific": "solve one-step equation with parentheses",
+  "exercise_title": "Solving 1 Variable Equations",
+  "notes": "Subtype Algebraic Concepts; Easy. Green only. Time 84 sec."
+ },
+ {
+  "source_file": "Screenshot 2026-10-06 at 10.38.22 AM.png",
+  "type": "question",
+  "test_set": "ISEE LOWER #3",
+  "question_number": 5,
+  "question_text": "The table shows the number of people who attended a concert on four nights. Which graph represents the data in the table?",
+  "diagram_description": "Table PEOPLE AT A CONCERT: Night 1 = 175, Night 2 = 125, Night 3 = 200, Night 4 = 75. Choices A and B are horizontal bar graphs titled PEOPLE AT A CONCERT, nights 1-4, x-axis 0-250 Number of People. Choices C and D are pictographs (each icon = 50 people) with rows Night 1-4 and different icon counts. Bar lengths not verified.",
+  "choices": [
+   "A: bar graph, PEOPLE AT A CONCERT (nights 1-4, axis 0-250)",
+   "B: bar graph, PEOPLE AT A CONCERT (nights 1-4, axis 0-250)",
+   "C: pictograph, each icon = 50 people",
+   "D: pictograph, each icon = 50 people"
+  ],
+  "correct_letter": "B",
+  "correct_pct": "95.5%",
+  "is_wrong": true,
+  "strip_wrong": [
+   5,
+   16,
+   21
+  ],
+  "topic_broad": "data-analysis-graphs-tables",
+  "topic_specific": "matching table data to graph",
+  "exercise_title": null,
+  "notes": "Maroon marker on A (<5%), Hannah's wrong pick. Solution panel not visible, so subtype and time unknown."
+ },
+ {
+  "source_file": "Screenshot 2026-10-06 at 10.38.26 AM.png",
+  "type": "question",
+  "test_set": "ISEE LOWER #3",
+  "question_number": 6,
+  "question_text": "What is the next number in this sequence? 128, 64, 32, 16, 8...",
+  "diagram_description": "None.",
+  "choices": [
+   "A: 1",
+   "B: 2",
+   "C: 4",
+   "D: 6"
+  ],
+  "correct_letter": "C",
+  "correct_pct": "96.3%",
+  "is_wrong": false,
+  "strip_wrong": [
+   5,
+   16,
+   21
+  ],
+  "topic_broad": "patterns-sequences",
+  "topic_specific": "halving sequence (geometric)",
+  "exercise_title": "Nth Term, given Arithmetic Sequence, Progressive Pattern, etc.",
+  "notes": "Subtype Algebraic Concepts; Easy. Green only. Time 46 sec. Sequence is geometric (halving), not arithmetic."
+ },
+ {
+  "source_file": "Screenshot 2026-10-06 at 10.38.29 AM.png",
+  "type": "question",
+  "test_set": "ISEE LOWER #3",
+  "question_number": 7,
+  "question_text": "Three trains leave the station at the same time. The distance each train travels from the station is recorded every 30 minutes and is shown in the table. At 120 minutes, how much further has Train A traveled from the station than Train C?",
+  "diagram_description": "Table DISTANCE FROM TRAIN STATION (miles): 30 min: A 8, B 13, C 14; 60 min: A 20, B 26, C 26; 90 min: A 34, B 39, C 36; 120 min: A 50, B 52, C 44.",
+  "choices": [
+   "A: 2 miles",
+   "B: 6 miles",
+   "C: 8 miles",
+   "D: 16 miles"
+  ],
+  "correct_letter": "B",
+  "correct_pct": "94.0%",
+  "is_wrong": false,
+  "strip_wrong": [
+   5,
+   16,
+   21
+  ],
+  "topic_broad": "data-analysis-graphs-tables",
+  "topic_specific": "reading table values and finding difference",
+  "exercise_title": "Comparing/Adding/Subtracting Bar Graph/Data Table Values",
+  "notes": "Subtype Data Analysis & Probability; Easy. Green only. Time 31 sec."
+ },
+ {
+  "source_file": "Screenshot 2026-10-06 at 10.38.31 AM.png",
+  "type": "question",
+  "test_set": "ISEE LOWER #3",
+  "question_number": 8,
+  "question_text": "What is the closest sum for 0.505 + 0.315?",
+  "diagram_description": "None.",
+  "choices": [
+   "A: 0.6",
+   "B: 0.7",
+   "C: 0.8",
+   "D: 0.9"
+  ],
+  "correct_letter": "C",
+  "correct_pct": "93.6%",
+  "is_wrong": false,
+  "strip_wrong": [
+   5,
+   16,
+   21
+  ],
+  "topic_broad": "decimals",
+  "topic_specific": "estimating decimal sum by rounding to tenths",
+  "exercise_title": "Adding and Subtracting Decimals",
+  "notes": "Subtype Decimals, Percents, Fractions; Easy. Green only. Time 72 sec."
+ },
+ {
+  "source_file": "Screenshot 2026-10-06 at 10.38.33 AM.png",
+  "type": "question",
+  "test_set": "ISEE LOWER #3",
+  "question_number": 9,
+  "question_text": "Use the rectangle to answer the question. What is the area of the rectangle in inches^2 (in^2)?",
+  "diagram_description": "Rectangle with width labeled 8 in (bottom) and height labeled 3 in (right side).",
+  "choices": [
+   "A: 11 in^2",
+   "B: 12 in^2",
+   "C: 22 in^2",
+   "D: 24 in^2"
+  ],
+  "correct_letter": "D",
+  "correct_pct": "93.0%",
+  "is_wrong": false,
+  "strip_wrong": [
+   5,
+   16,
+   21
+  ],
+  "topic_broad": "geometry-area-perimeter",
+  "topic_specific": "area of rectangle from labeled sides",
+  "exercise_title": "Finding Area/Perimeter of Rectangle, given Length & Width",
+  "notes": "Subtype Measurement; Easy. Green only. Time 55 sec."
+ },
+ {
+  "source_file": "Screenshot 2026-10-06 at 10.38.35 AM.png",
+  "type": "question",
+  "test_set": "ISEE LOWER #3",
+  "question_number": 10,
+  "question_text": "The table shows the number of coins counted at a store during one week. [COINS COUNTED table: Monday 640; Tuesday 280; Wednesday 400; Thursday 300; Friday 450; Saturday 750; Sunday 520] What was the median number of coins counted at the store during that week?",
+  "diagram_description": "Table COINS COUNTED (Day of Week / Number of Coins), 7 rows as listed.",
+  "choices": [
+   "A: 280",
+   "B: 300",
+   "C: 450",
+   "D: 477"
+  ],
+  "correct_letter": "C",
+  "correct_pct": "86.7%",
+  "is_wrong": false,
+  "strip_wrong": [
+   5,
+   16,
+   21
+  ],
+  "topic_broad": "data-analysis-graphs-tables",
+  "topic_specific": "median of data set from table",
+  "exercise_title": "Finding Median, given Sets of Numbers",
+  "notes": "Subtype not visible (solution cut off). Green only. Time not visible."
+ },
+ {
+  "source_file": "Screenshot 2026-10-06 at 10.38.37 AM.png",
+  "type": "question",
+  "test_set": "ISEE LOWER #3",
+  "question_number": 11,
+  "question_text": "Which fraction is equivalent to 0.09?",
+  "diagram_description": "None.",
+  "choices": [
+   "A: 1/90",
+   "B: 9/100",
+   "C: 1/9",
+   "D: 9/10"
+  ],
+  "correct_letter": "B",
+  "correct_pct": "93.0%",
+  "is_wrong": false,
+  "strip_wrong": [
+   5,
+   16,
+   21
+  ],
+  "topic_broad": "decimals",
+  "topic_specific": "decimal to fraction (hundredths place)",
+  "exercise_title": "Equivalent Fractions, Decimals, and Percents",
+  "notes": "Subtype Decimals, Percents, Fractions; Medium. Green only. Time 40 sec."
+ },
+ {
+  "source_file": "Screenshot 2026-10-06 at 10.38.39 AM.png",
+  "type": "question",
+  "test_set": "ISEE LOWER #3",
+  "question_number": 12,
+  "question_text": "Use the number line to answer the question. Which number is represented by point D?",
+  "diagram_description": "Number line with labeled points 40 and 50; point D is marked above a tick about 3 spaces left of the midpoint area (tick spacing skip-counts by 2 per space per solution).",
+  "choices": [
+   "A: 30",
+   "B: 34",
+   "C: 35",
+   "D: 37"
+  ],
+  "correct_letter": "B",
+  "correct_pct": "87.3%",
+  "is_wrong": false,
+  "strip_wrong": [
+   5,
+   16,
+   21
+  ],
+  "topic_broad": "arithmetic",
+  "topic_specific": "number line point value with skip counting",
+  "exercise_title": "Determining Points on Number Lines",
+  "notes": "Subtype not visible. Green only. Time not visible."
+ },
+ {
+  "source_file": "Screenshot 2026-10-06 at 10.38.40 AM.png",
+  "type": "question",
+  "test_set": "ISEE LOWER #3",
+  "question_number": 13,
+  "question_text": "The picture show a quadrilateral. Which term best describes the quadrilateral shown?",
+  "diagram_description": "Rhombus (diamond shape, four equal sides), each side labeled 12 ft.",
+  "choices": [
+   "A: pentagon",
+   "B: rectangle",
+   "C: rhombus",
+   "D: square"
+  ],
+  "correct_letter": "C",
+  "correct_pct": "85.7%",
+  "is_wrong": false,
+  "strip_wrong": [
+   5,
+   16,
+   21
+  ],
+  "topic_broad": "geometry-angles-shapes",
+  "topic_specific": "classify quadrilateral (rhombus)",
+  "exercise_title": "Identifying Shapes",
+  "notes": "Subtype Geometry; Medium. Green only. Time 145 sec."
+ },
+ {
+  "source_file": "Screenshot 2026-10-06 at 10.38.42 AM.png",
+  "type": "question",
+  "test_set": "ISEE LOWER #3",
+  "question_number": 14,
+  "question_text": "Manny has a total of 228 eggs. Using these eggs, he will fill empty egg cartons that each hold 12 eggs. What is the greatest number of egg cartons that Manny can fill completely?",
+  "diagram_description": "None.",
+  "choices": [
+   "A: 18",
+   "B: 19",
+   "C: 240",
+   "D: 2,736"
+  ],
+  "correct_letter": "B",
+  "correct_pct": "87.0%",
+  "is_wrong": false,
+  "strip_wrong": [
+   5,
+   16,
+   21
+  ],
+  "topic_broad": "arithmetic",
+  "topic_specific": "whole-number division word problem",
+  "exercise_title": "Dividing Equally From a Total",
+  "notes": "Subtype Whole Numbers; Medium. Green only. Time 39 sec."
+ },
+ {
+  "source_file": "Screenshot 2026-10-06 at 10.38.44 AM.png",
+  "type": "question",
+  "test_set": "ISEE LOWER #3",
+  "question_number": 15,
+  "question_text": "Use the set of numbers shown to answer the question. 3, 5, 7, 11, 17. Which does NOT describe this set of numbers?",
+  "diagram_description": "Set of numbers displayed in a row: 3 5 7 11 17.",
+  "choices": [
+   "A: composite numbers",
+   "B: odd numbers",
+   "C: prime numbers",
+   "D: whole numbers"
+  ],
+  "correct_letter": "A",
+  "correct_pct": "85.7%",
+  "is_wrong": false,
+  "strip_wrong": [
+   5,
+   16,
+   21
+  ],
+  "topic_broad": "number-theory-divisibility",
+  "topic_specific": "classify a set of numbers (prime/odd/whole)",
+  "exercise_title": "Classification of Numbers, given a Set",
+  "notes": "Subtype Whole Numbers; Medium. Green only. Time 44 sec. Solution says all listed numbers are odd, prime, and whole."
+ },
+ {
+  "source_file": "Screenshot 2026-10-06 at 10.38.45 AM.png",
+  "type": "question",
+  "test_set": "ISEE LOWER #3",
+  "question_number": 16,
+  "question_text": "Which number leaves a remainder of 2 when divided by both 5 and 8?",
+  "diagram_description": "None.",
+  "choices": [
+   "A: 37",
+   "B: 38",
+   "C: 40",
+   "D: 42"
+  ],
+  "correct_letter": "D",
+  "correct_pct": "86.0%",
+  "is_wrong": true,
+  "strip_wrong": [
+   5,
+   16,
+   21
+  ],
+  "topic_broad": "number-theory-divisibility",
+  "topic_specific": "remainder with divisors 5 and 8 (LCM + remainder)",
+  "exercise_title": "Remainder when Divided by a given Number",
+  "notes": "Maroon marker on B (38, under 5%), Hannah's wrong pick. Subtype Algebraic Concepts; Medium. Time 10 sec."
+ },
+ {
+  "source_file": "Screenshot 2026-10-06 at 10.38.47 AM.png",
+  "type": "question",
+  "test_set": "ISEE LOWER #3",
+  "question_number": 17,
+  "question_text": "Point Q is graphed on the coordinate plane. What are the coordinates of point Q?",
+  "diagram_description": "Coordinate plane x and y from -6 to 6; point Q plotted at (5, -2), labeled Q.",
+  "choices": [
+   "A: (-2, 5)",
+   "B: (2, 5)",
+   "C: (5, -2)",
+   "D: (5, 2)"
+  ],
+  "correct_letter": "C",
+  "correct_pct": "82.8%",
+  "is_wrong": false,
+  "strip_wrong": [
+   5,
+   16,
+   21
+  ],
+  "topic_broad": "geometry-angles-shapes",
+  "topic_specific": "read point on coordinate plane",
+  "exercise_title": "Identifying Points on a Coordinate Plane",
+  "notes": "Green only. Subtype and time not visible (solution cut off)."
+ },
+ {
+  "source_file": "Screenshot 2026-10-06 at 10.38.49 AM.png",
+  "type": "question",
+  "test_set": "ISEE LOWER #3",
+  "question_number": 18,
+  "question_text": "This list of numbers is in order from least to greatest. A fraction is missing in the list. 1/4, 0.3, ?, 2/3. Which fraction goes in the blank?",
+  "diagram_description": "None; list shown as 1/4, 0.3, ?, 2/3.",
+  "choices": [
+   "A: 1/5",
+   "B: 1/2",
+   "C: 5/6",
+   "D: 3/4"
+  ],
+  "correct_letter": "B",
+  "correct_pct": "83.2%",
+  "is_wrong": false,
+  "strip_wrong": [
+   5,
+   16,
+   21
+  ],
+  "topic_broad": "fractions",
+  "topic_specific": "order fractions and decimals",
+  "exercise_title": "Comparing & Ordering Fractions & Decimals",
+  "notes": "Subtype Decimals, Percents, Fractions; Medium. Green only. Time 81 sec."
+ },
+ {
+  "source_file": "Screenshot 2026-10-06 at 10.38.51 AM.png",
+  "type": "question",
+  "test_set": "ISEE LOWER #3",
+  "question_number": 19,
+  "question_text": "The table gives the predicted daily snowfall totals and high temperatures, in degrees Fahrenheit, for the first week of January. What is the median predicted high temperature, in degrees Fahrenheit?",
+  "diagram_description": "Table JANUARY SNOWFALL TOTALS & HIGH TEMPERATURES (inches / degrees F): Sunday 0.95 / 25.2; Monday 0.00 / 34.9; Tuesday 0.15 / 28.4; Wednesday 1.18 / 24.9; Thursday 1.44 / 31.3; Friday 2.95 / 22.9; Saturday 1.44 / 22.5.",
+  "choices": [
+   "A: 28.4",
+   "B: 25.2",
+   "C: 24.9",
+   "D: 22.9"
+  ],
+  "correct_letter": "B",
+  "correct_pct": "74.9%",
+  "is_wrong": false,
+  "strip_wrong": [
+   5,
+   16,
+   21
+  ],
+  "topic_broad": "data-analysis-graphs-tables",
+  "topic_specific": "median of table column (decimals)",
+  "exercise_title": "Finding MMMR, given Bar Graph/Data Table of Values",
+  "notes": "Green only. Subtype not visible. Time not visible."
+ },
+ {
+  "source_file": "Screenshot 2026-10-06 at 10.38.52 AM.png",
+  "type": "question",
+  "test_set": "ISEE LOWER #3",
+  "question_number": 20,
+  "question_text": "Use the coordinate grid to answer the question. If points A, B, C, and D form a square, what are the coordinates of point D (not shown)?",
+  "diagram_description": "Coordinate grid with labeled points A at (-4, 3), B at (-4, -2), C at (1, -2); D not shown.",
+  "choices": [
+   "A: (1, 3)",
+   "B: (1, 4)",
+   "C: (3, 1)",
+   "D: (4, 1)"
+  ],
+  "correct_letter": "A",
+  "correct_pct": "80.6%",
+  "is_wrong": false,
+  "strip_wrong": [
+   5,
+   16,
+   21
+  ],
+  "topic_broad": "geometry-angles-shapes",
+  "topic_specific": "fourth vertex of square on coordinate plane",
+  "exercise_title": "Vertices Forming Right Angles & Quadrilaterals on a Coordinate Plane",
+  "notes": "Green only. Subtype and time not visible (solution cut off)."
+ },
+ {
+  "source_file": "Screenshot 2026-10-06 at 10.38.54 AM.png",
+  "type": "question",
+  "test_set": "ISEE LOWER #3",
+  "question_number": 21,
+  "question_text": "Use the number pattern to answer the question. 1, 3, 9, 27, ?, ? What is the sixth number in the pattern?",
+  "diagram_description": "None; pattern shown as 1 3 9 27 ? ?.",
+  "choices": [
+   "A: 54",
+   "B: 81",
+   "C: 243",
+   "D: 729"
+  ],
+  "correct_letter": "C",
+  "correct_pct": "80.0%",
+  "is_wrong": true,
+  "strip_wrong": [
+   5,
+   16,
+   21
+  ],
+  "topic_broad": "patterns-sequences",
+  "topic_specific": "geometric sequence (x3), nth term",
+  "exercise_title": "Nth Term, given Arithmetic Sequence, Progressive Pattern, etc.",
+  "notes": "Maroon marker on A (54, under 5%), Hannah's wrong pick. Subtype Algebraic Concepts; Hard. Time 76 sec."
+ },
+ {
+  "source_file": "Screenshot 2026-10-06 at 10.38.56 AM.png",
+  "type": "question",
+  "test_set": "ISEE LOWER #3",
+  "question_number": 22,
+  "question_text": "What is the value of the expression 1/4 + 7/12?",
+  "diagram_description": "None (fractions shown inline; bar-model diagram appears only in solution panel).",
+  "choices": [
+   "A: 1/3",
+   "B: 1/2",
+   "C: 3/4",
+   "D: 5/6"
+  ],
+  "correct_letter": "D",
+  "correct_pct": "86.7%",
+  "is_wrong": false,
+  "strip_wrong": [
+   5,
+   16,
+   21
+  ],
+  "topic_broad": "fractions",
+  "topic_specific": "add unlike fractions",
+  "exercise_title": "Adding and Subtracting Fractions",
+  "notes": "Green only. Time not visible (solution panel for subtype cut off)."
+ },
+ {
+  "source_file": "Screenshot 2026-10-06 at 10.38.57 AM.png",
+  "type": "question",
+  "test_set": "ISEE LOWER #3",
+  "question_number": 23,
+  "question_text": "Which number is NOT a multiple of 4?",
+  "diagram_description": "None.",
+  "choices": [
+   "A: 92",
+   "B: 124",
+   "C: 144",
+   "D: 162"
+  ],
+  "correct_letter": "D",
+  "correct_pct": "80.9%",
+  "is_wrong": false,
+  "strip_wrong": [
+   5,
+   16,
+   21
+  ],
+  "topic_broad": "number-theory-divisibility",
+  "topic_specific": "divisibility by 4 (last two digits)",
+  "exercise_title": "Identifying Multiples",
+  "notes": "Green only. Subtype and time not visible."
+ },
+ {
+  "source_file": "Screenshot 2026-10-06 at 10.38.59 AM.png",
+  "type": "question",
+  "test_set": "ISEE LOWER #3",
+  "question_number": 24,
+  "question_text": "A piece of material forms a rectangle with the length and width shown. When pulling the material in one direction, the length is increased by 2 inches. What is the perimeter of the stretched piece of material?",
+  "diagram_description": "Rectangle with right side labeled 6 inches and bottom labeled 2 inches.",
+  "choices": [
+   "A: 10 inches",
+   "B: 20 inches",
+   "C: 24 inches",
+   "D: 48 inches"
+  ],
+  "correct_letter": "B",
+  "correct_pct": "74.8%",
+  "is_wrong": false,
+  "strip_wrong": [
+   5,
+   16,
+   21
+  ],
+  "topic_broad": "geometry-area-perimeter",
+  "topic_specific": "perimeter of rectangle after length change",
+  "exercise_title": "Perimeter",
+  "notes": "Subtype Measurement; Hard. Green only. Time 38 sec."
+ },
+ {
+  "source_file": "Screenshot 2026-10-06 at 10.39.01 AM.png",
+  "type": "question",
+  "test_set": "ISEE LOWER #3",
+  "question_number": 25,
+  "question_text": "Justin ran 5/6 of a mile. Jocelyn ran 2/3 of a mile less than Justin ran. What fraction of a mile did Jocelyn run?",
+  "diagram_description": "None.",
+  "choices": [
+   "A: 1/6",
+   "B: 3/6",
+   "C: 2/3",
+   "D: 3/3"
+  ],
+  "correct_letter": "A",
+  "correct_pct": "82.5%",
+  "is_wrong": false,
+  "strip_wrong": [
+   5,
+   16,
+   21
+  ],
+  "topic_broad": "fractions",
+  "topic_specific": "subtract unlike fractions (word problem)",
+  "exercise_title": "Adding and Subtracting Fractions",
+  "notes": "Subtype Decimals, Percents, Fractions; Hard. Green only. Time 231 sec."
+ },
+ {
+  "source_file": "Screenshot 2026-10-06 at 10.39.02 AM.png",
+  "type": "question",
+  "test_set": "ISEE LOWER #3",
+  "question_number": 26,
+  "question_text": "The table shows the ticket prices to The Amusement Park. How much money does it cost for 2 adults and 1 child to buy general admission tickets and special event tickets combined?",
+  "diagram_description": "Table THE AMUSEMENT PARK (Adults / Children): General Admission $80 / $50; Advance Purchase Ticket $55 / $25; Special Event Ticket $48 / $30.",
+  "choices": [
+   "A: $84",
+   "B: $126",
+   "C: $210",
+   "D: $336"
+  ],
+  "correct_letter": "D",
+  "correct_pct": "76.2%",
+  "is_wrong": false,
+  "strip_wrong": [
+   5,
+   16,
+   21
+  ],
+  "topic_broad": "word-problem-other",
+  "topic_specific": "multi-step cost from price table",
+  "exercise_title": "Determining Total Cost",
+  "notes": "Green only. Subtype and time not visible."
+ },
+ {
+  "source_file": "Screenshot 2026-10-06 at 10.39.04 AM.png",
+  "type": "question",
+  "test_set": "ISEE LOWER #3",
+  "question_number": 27,
+  "question_text": "Jimmy fills an empty sandbox with 150 bags of sand in total. Each bag of sand weighs 50 pounds. How many pounds of sand did Jimmy use to fill the sandbox?",
+  "diagram_description": "None.",
+  "choices": [
+   "A: 3",
+   "B: 30",
+   "C: 750",
+   "D: 7,500"
+  ],
+  "correct_letter": "D",
+  "correct_pct": "74.7%",
+  "is_wrong": false,
+  "strip_wrong": [
+   5,
+   16,
+   21
+  ],
+  "topic_broad": "arithmetic",
+  "topic_specific": "multiplication word problem (whole numbers)",
+  "exercise_title": null,
+  "notes": "Subtype Whole Numbers; Hard. Green only. Time 34 sec."
+ },
+ {
+  "source_file": "Screenshot 2026-10-06 at 10.39.07 AM.png",
+  "type": "question",
+  "test_set": "ISEE LOWER #3",
+  "question_number": 28,
+  "question_text": "The table shows the results of 6 teams that each played 2 games of softball. If a team is selected at random, what is the probability that it is a team which won both games?",
+  "diagram_description": "Table SOFTBALL GAME RESULTS (Team / 1st Game / 2nd Game): Team 1 Win/Win; Team 2 Win/Win; Team 3 Loss/Win; Team 4 Win/Win; Team 5 Loss/Win; Team 6 Loss/Loss.",
+  "choices": [
+   "A: 1/12",
+   "B: 1/6",
+   "C: 1/3",
+   "D: 1/2"
+  ],
+  "correct_letter": "D",
+  "correct_pct": "68.9%",
+  "is_wrong": false,
+  "strip_wrong": [
+   5,
+   16,
+   21
+  ],
+  "topic_broad": "probability",
+  "topic_specific": "probability from table of outcomes",
+  "exercise_title": "Probability of 1 Event, given a List of Items",
+  "notes": "Subtype Data Analysis & Probability; Hard. Green only. Time 55 sec."
+ },
+ {
+  "source_file": "Screenshot 2026-10-06 at 10.39.18 AM.png",
+  "type": "question",
+  "test_set": "ISEE LOWER #3",
+  "question_number": 29,
+  "question_text": "Which expression is equal to (2 + 8) \u00d7 7?",
+  "diagram_description": "None.",
+  "choices": [
+   "A: 2 + 8 \u00d7 7",
+   "B: 2 \u00d7 7 + 8",
+   "C: 2 \u00d7 8 + 8 \u00d7 7",
+   "D: 2 \u00d7 7 + 8 \u00d7 7"
+  ],
+  "correct_letter": "D",
+  "correct_pct": "65.8%",
+  "is_wrong": false,
+  "strip_wrong": [
+   5,
+   16,
+   21
+  ],
+  "topic_broad": "arithmetic",
+  "topic_specific": "distributive property / order of operations",
+  "exercise_title": "Order of Operations and Equivalence",
+  "notes": "Subtype Whole Numbers; Hard. Green only. Time 68 sec. A 24.6% (not marked maroon)."
+ },
+ {
+  "source_file": "Screenshot 2026-10-06 at 10.39.20 AM.png",
+  "type": "question",
+  "test_set": "ISEE LOWER #3",
+  "question_number": 30,
+  "question_text": "What is the area of the triangle shown?",
+  "diagram_description": "Triangle with base 35 cm (bottom) and height 20 cm drawn dashed from apex to base with right-angle mark.",
+  "choices": [
+   "A: 75 cm^2",
+   "B: 105 cm^2",
+   "C: 350 cm^2",
+   "D: 700 cm^2"
+  ],
+  "correct_letter": "C",
+  "correct_pct": "52.8%",
+  "is_wrong": false,
+  "strip_wrong": [
+   5,
+   16,
+   21
+  ],
+  "topic_broad": "geometry-area-perimeter",
+  "topic_specific": "area of triangle (base x height / 2)",
+  "exercise_title": "Area of Triangles",
+  "notes": "Subtype Measurement; Hard. Green only. Time 31 sec. D 30.5%, B 9.9%, A 6.8%."
+ },
+ {
+  "source_file": "Screenshot 2026-10-06 at 10.39.28 AM.png",
+  "type": "question",
+  "test_set": "ISEE LOWER #4",
+  "question_number": 1,
+  "question_text": "Use the number pattern to answer the question. 12, 16, 20, 24, ?, 32. What is the missing number in the pattern?",
+  "diagram_description": "None; pattern shown inline.",
+  "choices": [
+   "A: 26",
+   "B: 28",
+   "C: 29",
+   "D: 30"
+  ],
+  "correct_letter": "B",
+  "correct_pct": "98.7%",
+  "is_wrong": false,
+  "strip_wrong": [
+   5,
+   16,
+   18
+  ],
+  "topic_broad": "patterns-sequences",
+  "topic_specific": "arithmetic sequence (+4) missing term",
+  "exercise_title": "Nth Term, given Arithmetic Sequence, Progressive Pattern, etc.",
+  "notes": "Subtype Algebraic Concepts; Easy. Green only. Time 17 sec. Strip for this test read from pill row: 5, 16, 18 maroon; only this question was screenshotted."
+ },
+ {
+  "source_file": "Screenshot 2026-10-06 at 10.39.30 AM.png",
+  "type": "question",
+  "test_set": "ISEE LOWER #4",
+  "question_number": 2,
+  "question_text": "What is the standard form for three thousand two hundred nine?",
+  "diagram_description": "Place value chart with columns Thousands, Hundreds, Tens, Ones showing 3,209 (digits 3, 2, 0, 9).",
+  "choices": [
+   "3,029",
+   "3,092",
+   "3,209",
+   "3,290"
+  ],
+  "correct_letter": "C",
+  "correct_pct": 99.1,
+  "is_wrong": false,
+  "strip_wrong": [
+   5,
+   16,
+   18
+  ],
+  "topic_broad": "arithmetic",
+  "topic_specific": "place value, standard form from word form",
+  "exercise_title": null,
+  "is_timing_chart": false,
+  "notes": "Follow-up: Identifying Numbers, Standard Form <-> Word Form. Subtype/time not visible."
+ },
+ {
+  "source_file": "Screenshot 2026-10-06 at 10.39.33 AM.png",
+  "type": "question",
+  "test_set": "ISEE LOWER #4",
+  "question_number": 3,
+  "question_text": "What number is represented by point G on the number line?",
+  "diagram_description": "Number line from 0 to 8 (labeled 0 and 8) with four equal spaces between them; point G is one space past 8.",
+  "choices": [
+   "9",
+   "10",
+   "12",
+   "14"
+  ],
+  "correct_letter": "B",
+  "correct_pct": 95.3,
+  "is_wrong": false,
+  "strip_wrong": [
+   5,
+   16,
+   18
+  ],
+  "topic_broad": "arithmetic",
+  "topic_specific": "reading a number line with equal intervals",
+  "exercise_title": null,
+  "is_timing_chart": false,
+  "notes": "Subtype Measurement, Easy; her time 39 sec (others 14 sec)."
+ },
+ {
+  "source_file": "Screenshot 2026-10-06 at 10.39.35 AM.png",
+  "type": "question",
+  "test_set": "ISEE LOWER #4",
+  "question_number": 4,
+  "question_text": "If 96 \u00f7 n = 12, what is the value of n?",
+  "diagram_description": "none",
+  "choices": [
+   "6",
+   "8",
+   "9",
+   "12"
+  ],
+  "correct_letter": "B",
+  "correct_pct": 97.3,
+  "is_wrong": false,
+  "strip_wrong": [
+   5,
+   16,
+   18
+  ],
+  "topic_broad": "algebra-equations",
+  "topic_specific": "solving one-variable division equation",
+  "exercise_title": null,
+  "is_timing_chart": false,
+  "notes": "Subtype Algebraic Concepts, Easy; her time 124 sec (others 20 sec)."
+ },
+ {
+  "source_file": "Screenshot 2026-10-06 at 10.39.37 AM.png",
+  "type": "question",
+  "test_set": "ISEE LOWER #4",
+  "question_number": 5,
+  "question_text": "The table shows the meal prices at The Beach Restaurant. How much will it cost 3 adults and 2 children to eat lunch on a weekday?",
+  "diagram_description": "Table titled THE BEACH RESTAURANT. Columns: Adults, Children. Rows: Weekday Lunch $9 / $6; Weekday Dinner $12 / $8; Weekend Lunch $15 / $10.",
+  "choices": [
+   "$28",
+   "$35",
+   "$39",
+   "$42"
+  ],
+  "correct_letter": "C",
+  "correct_pct": 96.0,
+  "is_wrong": true,
+  "strip_wrong": [
+   5,
+   16,
+   18
+  ],
+  "topic_broad": "word-problem-other",
+  "topic_specific": "table lookup and multi-item total cost",
+  "exercise_title": null,
+  "is_timing_chart": false,
+  "notes": "Maroon marker on D ($42), Hannah's wrong pick. Subtype Algebraic Concepts, Easy; her time 84 sec (others 45 sec)."
+ },
+ {
+  "source_file": "Screenshot 2026-10-06 at 10.39.39 AM.png",
+  "type": "question",
+  "test_set": "ISEE LOWER #4",
+  "question_number": 6,
+  "question_text": "What is the perimeter of a square with a side length of 4 centimeters?",
+  "diagram_description": "none",
+  "choices": [
+   "4 centimeters",
+   "8 centimeters",
+   "12 centimeters",
+   "16 centimeters"
+  ],
+  "correct_letter": "D",
+  "correct_pct": 96.3,
+  "is_wrong": false,
+  "strip_wrong": [
+   5,
+   16,
+   18
+  ],
+  "topic_broad": "geometry-area-perimeter",
+  "topic_specific": "perimeter of a square",
+  "exercise_title": null,
+  "is_timing_chart": false,
+  "notes": "Subtype Measurement, Easy; her time 15 sec."
+ },
+ {
+  "source_file": "Screenshot 2026-10-06 at 10.39.41 AM.png",
+  "type": "question",
+  "test_set": "ISEE LOWER #4",
+  "question_number": 7,
+  "question_text": "The graph shows the number of calories in each of four meal options. How many more calories are in Meal 4 than in Meal 2?",
+  "diagram_description": "Vertical bar graph titled CALORIES IN MEALS. y-axis Calories 0-900 in steps of 100; x-axis Meals 1-4. Approximate bar heights: Meal 1 about 400, Meal 2 about 700, Meal 3 about 500, Meal 4 about 800.",
+  "choices": [
+   "100",
+   "200",
+   "300",
+   "400"
+  ],
+  "correct_letter": "A",
+  "correct_pct": 96.6,
+  "is_wrong": false,
+  "strip_wrong": [
+   5,
+   16,
+   18
+  ],
+  "topic_broad": "data-analysis-graphs-tables",
+  "topic_specific": "difference between two bars in a bar graph",
+  "exercise_title": null,
+  "is_timing_chart": false,
+  "notes": "Bar heights are approximate readings from the image; the solution text states Meal 4 = 800 and Meal 2 = 700."
+ },
+ {
+  "source_file": "Screenshot 2026-10-06 at 10.39.43 AM.png",
+  "type": "question",
+  "test_set": "ISEE LOWER #4",
+  "question_number": 8,
+  "question_text": "Shari wrote two equations. p \u00d7 q = 80; 2 \u00d7 5 = q. What is the value of p?",
+  "diagram_description": "none (two equations displayed in text: p \u00d7 q = 80 and 2 \u00d7 5 = q)",
+  "choices": [
+   "2",
+   "5",
+   "8",
+   "10"
+  ],
+  "correct_letter": "C",
+  "correct_pct": 91.2,
+  "is_wrong": false,
+  "strip_wrong": [
+   5,
+   16,
+   18
+  ],
+  "topic_broad": "algebra-equations",
+  "topic_specific": "two-step substitution with multiplication equations",
+  "exercise_title": null,
+  "is_timing_chart": false,
+  "notes": "Subtype Algebraic Concepts; her time 52 sec (others 18 sec)."
+ },
+ {
+  "source_file": "Screenshot 2026-10-06 at 10.39.44 AM.png",
+  "type": "question",
+  "test_set": "ISEE LOWER #4",
+  "question_number": 9,
+  "question_text": "What is the value of the expression [36 + (3 \u00d7 2)] \u00f7 6?",
+  "diagram_description": "none",
+  "choices": [
+   "7",
+   "13",
+   "37",
+   "42"
+  ],
+  "correct_letter": "A",
+  "correct_pct": 91.8,
+  "is_wrong": false,
+  "strip_wrong": [
+   5,
+   16,
+   18
+  ],
+  "topic_broad": "arithmetic",
+  "topic_specific": "order of operations with brackets",
+  "exercise_title": null,
+  "is_timing_chart": false,
+  "notes": "Subtype Whole Numbers, Easy; her time 74 sec (others 26 sec)."
+ },
+ {
+  "source_file": "Screenshot 2026-10-06 at 10.39.46 AM.png",
+  "type": "question",
+  "test_set": "ISEE LOWER #4",
+  "question_number": 10,
+  "question_text": "The graph shows the number of pizzas of each brand in stock at a grocery store. Which statement about the number of pizzas of each brand is true?",
+  "diagram_description": "Pictograph titled PIZZA BRANDS with key: one pizza symbol = 5 pizzas. Rows: Dannio's 2 symbols; Pizza King about 5 symbols; The Slice 3 symbols; Italian Pie about 7 symbols.",
+  "choices": [
+   "The Slice has 5 more pizzas in stock than Dannio's.",
+   "Pizza King has 10 more pizzas in stock than Italian Pie.",
+   "Italian Pie has 3 times the number of pizzas in stock as compared to The Slice.",
+   "Combined, Dannio's and The Slice have more pizza in stock than Italian Pie."
+  ],
+  "correct_letter": "A",
+  "correct_pct": 93.0,
+  "is_wrong": false,
+  "strip_wrong": [
+   5,
+   16,
+   18
+  ],
+  "topic_broad": "data-analysis-graphs-tables",
+  "topic_specific": "reading a pictograph with a key",
+  "exercise_title": null,
+  "is_timing_chart": false,
+  "notes": "Solution text confirms Slice = 3 symbols (15 pizzas) and Dannio's = 2 symbols (10 pizzas). Pizza King and Italian Pie symbol counts are read from the image."
+ },
+ {
+  "source_file": "Screenshot 2026-10-06 at 10.39.48 AM.png",
+  "type": "question",
+  "test_set": "ISEE LOWER #4",
+  "question_number": 11,
+  "question_text": "What is the area, in centimeters\u00b2, of a rectangle with a length of 20 centimeters and a width of 15 centimeters? (A = lw)",
+  "diagram_description": "none",
+  "choices": [
+   "30",
+   "35",
+   "225",
+   "300"
+  ],
+  "correct_letter": "D",
+  "correct_pct": 94.0,
+  "is_wrong": false,
+  "strip_wrong": [
+   5,
+   16,
+   18
+  ],
+  "topic_broad": "geometry-area-perimeter",
+  "topic_specific": "area of a rectangle",
+  "exercise_title": null,
+  "is_timing_chart": false,
+  "notes": "Follow-up: Finding Area/Perimeter of Rectangle. Subtype Measurement, Medium; her time 25 sec (others 37 sec)."
+ },
+ {
+  "source_file": "Screenshot 2026-10-06 at 10.39.49 AM.png",
+  "type": "question",
+  "test_set": "ISEE LOWER #4",
+  "question_number": 12,
+  "question_text": "Michael had $46.97. He spent $5.12 on lunch. Approximately how much money does Michael have left?",
+  "diagram_description": "none",
+  "choices": [
+   "$36",
+   "$38",
+   "$40",
+   "$42"
+  ],
+  "correct_letter": "D",
+  "correct_pct": 89.1,
+  "is_wrong": false,
+  "strip_wrong": [
+   5,
+   16,
+   18
+  ],
+  "topic_broad": "decimals",
+  "topic_specific": "estimating decimal subtraction by rounding",
+  "exercise_title": null,
+  "is_timing_chart": false,
+  "notes": "Subtype Whole Numbers, Medium; her time 67 sec (others 34 sec)."
+ },
+ {
+  "source_file": "Screenshot 2026-10-06 at 10.39.51 AM.png",
+  "type": "question",
+  "test_set": "ISEE LOWER #4",
+  "question_number": 13,
+  "question_text": "A bus leaves Boston at 9:00 a.m. and arrives in New York City 4 hours later. The bus stops in New York City for 1 hour, then travels for 7 hours to Washington, D.C. What time is it when the bus arrives in Washington, D.C.?",
+  "diagram_description": "none",
+  "choices": [
+   "9:00 p.m.",
+   "8:00 p.m.",
+   "7:00 p.m.",
+   "6:00 p.m."
+  ],
+  "correct_letter": "A",
+  "correct_pct": 90.1,
+  "is_wrong": false,
+  "strip_wrong": [
+   5,
+   16,
+   18
+  ],
+  "topic_broad": "measurement-conversion",
+  "topic_specific": "elapsed time with a stop",
+  "exercise_title": null,
+  "is_timing_chart": false,
+  "notes": "Subtype Measurement, Medium; her time 44 sec (others 48 sec)."
+ },
+ {
+  "source_file": "Screenshot 2026-10-06 at 10.39.53 AM.png",
+  "type": "question",
+  "test_set": "ISEE LOWER #4",
+  "question_number": 14,
+  "question_text": "Which expression is equal to 6 \u00d7 (3 + 1) \u2212 5?",
+  "diagram_description": "none",
+  "choices": [
+   "(6 \u00d7 3) + 1 \u2212 5",
+   "(6 + 3) + (6 + 1) \u2212 5",
+   "(6 \u00d7 3) + (6 \u00d7 1) \u2212 5",
+   "(6 \u00d7 3) + (6 \u00d7 1) \u2212 (6 \u00d7 5)"
+  ],
+  "correct_letter": "C",
+  "correct_pct": 88.7,
+  "is_wrong": false,
+  "strip_wrong": [
+   5,
+   16,
+   18
+  ],
+  "topic_broad": "arithmetic",
+  "topic_specific": "distributive property, equivalent expressions",
+  "exercise_title": null,
+  "is_timing_chart": false,
+  "notes": "Subtype Whole Numbers, Medium; her time 39 sec (others 54 sec)."
+ },
+ {
+  "source_file": "Screenshot 2026-10-06 at 10.39.54 AM.png",
+  "type": "question",
+  "test_set": "ISEE LOWER #4",
+  "question_number": 15,
+  "question_text": "Use the coordinate grid to answer the question. If points A, B, C, and D form a rectangle, what are the coordinates of point D?",
+  "diagram_description": "Coordinate grid, x and y from -6 to 6. Point A at about (-1, 3); point B at about (-1, -1); point C at about (4, -1).",
+  "choices": [
+   "(3, 3)",
+   "(3, 4)",
+   "(4, 3)",
+   "(4, 4)"
+  ],
+  "correct_letter": "C",
+  "correct_pct": 87.9,
+  "is_wrong": false,
+  "strip_wrong": [
+   5,
+   16,
+   18
+  ],
+  "topic_broad": "geometry-angles-shapes",
+  "topic_specific": "rectangle vertex on coordinate plane",
+  "exercise_title": null,
+  "is_timing_chart": false,
+  "notes": "Follow-up: Vertices Forming Right Angles & Quadrilaterals on a Coordinate Plane. Subtype/time not visible."
+ },
+ {
+  "source_file": "Screenshot 2026-10-06 at 10.39.56 AM.png",
+  "type": "question",
+  "test_set": "ISEE LOWER #4",
+  "question_number": 16,
+  "question_text": "Which fraction is more than 0.6?",
+  "diagram_description": "none (solution shows fraction-bar models for 6/10 and 1/3)",
+  "choices": [
+   "1/3",
+   "1/6",
+   "2/5",
+   "3/4"
+  ],
+  "correct_letter": "D",
+  "correct_pct": 90.2,
+  "is_wrong": true,
+  "strip_wrong": [
+   5,
+   16,
+   18
+  ],
+  "topic_broad": "fractions",
+  "topic_specific": "comparing a fraction to a decimal",
+  "exercise_title": null,
+  "is_timing_chart": false,
+  "notes": "Maroon marker on C (2/5), Hannah's wrong pick. Follow-up: Comparing & Ordering Fractions & Decimals."
+ },
+ {
+  "source_file": "Screenshot 2026-10-06 at 10.39.58 AM.png",
+  "type": "question",
+  "test_set": "ISEE LOWER #4",
+  "question_number": 17,
+  "question_text": "The set of numbers shows the number of points Hadley scored in her last 7 basketball games. 12 7 7 14 5 11 9 What is the median of this set of data?",
+  "diagram_description": "none (data set displayed inline: 12, 7, 7, 14, 5, 11, 9)",
+  "choices": [
+   "7",
+   "9",
+   "11",
+   "12"
+  ],
+  "correct_letter": "B",
+  "correct_pct": 86.7,
+  "is_wrong": false,
+  "strip_wrong": [
+   5,
+   16,
+   18
+  ],
+  "topic_broad": "data-analysis-graphs-tables",
+  "topic_specific": "median of a data set",
+  "exercise_title": null,
+  "is_timing_chart": false,
+  "notes": "Subtype Data Analysis & Probability, Medium; her time 21 sec (others 43 sec)."
+ },
+ {
+  "source_file": "Screenshot 2026-10-06 at 10.40.00 AM.png",
+  "type": "question",
+  "test_set": "ISEE LOWER #4",
+  "question_number": 18,
+  "question_text": "What is the value of the expression 6.5 + 1.25?",
+  "diagram_description": "none",
+  "choices": [
+   "7.25",
+   "7.30",
+   "7.70",
+   "7.75"
+  ],
+  "correct_letter": "D",
+  "correct_pct": 89.5,
+  "is_wrong": true,
+  "strip_wrong": [
+   5,
+   16,
+   18
+  ],
+  "topic_broad": "decimals",
+  "topic_specific": "adding decimals with different place values",
+  "exercise_title": null,
+  "is_timing_chart": false,
+  "notes": "Maroon marker on B (7.30), Hannah's wrong pick. Follow-up: Adding and Subtracting Decimals. Subtype Decimals, Percents, Fractions, Medium; her time 17 sec (others 20 sec)."
+ },
+ {
+  "source_file": "Screenshot 2026-10-06 at 10.40.01 AM.png",
+  "type": "question",
+  "test_set": "ISEE LOWER #4",
+  "question_number": 19,
+  "question_text": "Which expression is equivalent to (10 + 7) \u00d7 3?",
+  "diagram_description": "Arrow diagram showing the 3 distributed to 10 and 7 in (10 + 7) \u00d7 3 to give (10 \u00d7 3) + (7 \u00d7 3).",
+  "choices": [
+   "10 + (7 \u00d7 3)",
+   "(10 \u00d7 3) + 7",
+   "(10 + 3) \u00d7 (7 + 3)",
+   "(10 \u00d7 3) + (7 \u00d7 3)"
+  ],
+  "correct_letter": "D",
+  "correct_pct": 89.8,
+  "is_wrong": false,
+  "strip_wrong": [
+   5,
+   16,
+   18
+  ],
+  "topic_broad": "arithmetic",
+  "topic_specific": "distributive property",
+  "exercise_title": null,
+  "is_timing_chart": false,
+  "notes": "Follow-up: Identifying Number Properties. Subtype/time not visible."
+ },
+ {
+  "source_file": "Screenshot 2026-10-06 at 10.40.04 AM.png",
+  "type": "question",
+  "test_set": "ISEE LOWER #4",
+  "question_number": 20,
+  "question_text": "Which fraction is between 1/4 and 3/4 in value?",
+  "diagram_description": "none (solution shows fraction bar models for 1/4, 3/4, 1/10, 1/5, 1/3, 4/5)",
+  "choices": [
+   "1/10",
+   "1/5",
+   "1/3",
+   "4/5"
+  ],
+  "correct_letter": "C",
+  "correct_pct": 88.0,
+  "is_wrong": false,
+  "strip_wrong": [
+   5,
+   16,
+   18
+  ],
+  "topic_broad": "fractions",
+  "topic_specific": "fraction between two fractions",
+  "exercise_title": null,
+  "is_timing_chart": false,
+  "notes": "Follow-up: Comparing & Ordering Fractions & Decimals. Subtype/time not visible."
+ },
+ {
+  "source_file": "Screenshot 2026-10-06 at 10.40.07 AM.png",
+  "type": "question",
+  "test_set": "ISEE LOWER #4",
+  "question_number": 21,
+  "question_text": "What is the sum of 1/4 and 7/8?",
+  "diagram_description": "none (solution shows fraction bar models for 1/4 and 7/8)",
+  "choices": [
+   "8/12",
+   "9/8",
+   "3/2",
+   "8/4"
+  ],
+  "correct_letter": "B",
+  "correct_pct": 90.5,
+  "is_wrong": false,
+  "strip_wrong": [
+   5,
+   16,
+   18
+  ],
+  "topic_broad": "fractions",
+  "topic_specific": "adding unlike fractions",
+  "exercise_title": null,
+  "is_timing_chart": false,
+  "notes": "Follow-up: Adding and Subtracting Fractions. Subtype/time not visible."
+ },
+ {
+  "source_file": "Screenshot 2026-10-06 at 10.40.09 AM.png",
+  "type": "question",
+  "test_set": "ISEE LOWER #4",
+  "question_number": 22,
+  "question_text": "The table shows the ticket prices at a movie theater. How much more would it cost 1 adult and 2 children to buy tickets on a weekend than to buy tickets for a matinee?",
+  "diagram_description": "Table titled THE MOVIE THEATER. Columns: Adults, Children. Rows: Matinee $13 / $10; Tuesday $8 / $6; Weekend $16 / $13.",
+  "choices": [
+   "$3",
+   "$6",
+   "$7",
+   "$9"
+  ],
+  "correct_letter": "D",
+  "correct_pct": 83.2,
+  "is_wrong": false,
+  "strip_wrong": [
+   5,
+   16,
+   18
+  ],
+  "topic_broad": "word-problem-other",
+  "topic_specific": "table lookup and comparing two total costs",
+  "exercise_title": null,
+  "is_timing_chart": false,
+  "notes": "Solution: weekend total $42, matinee total $33, difference $9. Subtype/time not visible."
+ },
+ {
+  "source_file": "Screenshot 2026-10-06 at 10.40.11 AM.png",
+  "type": "question",
+  "test_set": "ISEE LOWER #4",
+  "question_number": 23,
+  "question_text": "Mattie has 15 5/6 yards of rope. She cuts off 4 2/3 yards to tie a boat to a dock. How many yards of rope does she have left?",
+  "diagram_description": "none",
+  "choices": [
+   "11 1/6",
+   "11 1/3",
+   "11 1/2",
+   "11 2/3"
+  ],
+  "correct_letter": "A",
+  "correct_pct": 86.8,
+  "is_wrong": false,
+  "strip_wrong": [
+   5,
+   16,
+   18
+  ],
+  "topic_broad": "fractions",
+  "topic_specific": "subtracting mixed numbers with regrouping",
+  "exercise_title": null,
+  "is_timing_chart": false,
+  "notes": "Follow-up: Adding and Subtracting Mixed Numbers. Subtype Decimals, Percents, Fractions, Hard; her time 31 sec (others 40 sec)."
+ },
+ {
+  "source_file": "Screenshot 2026-10-06 at 10.40.12 AM.png",
+  "type": "question",
+  "test_set": "ISEE LOWER #4",
+  "question_number": 24,
+  "question_text": "The graph shows the number of pages Jackie read each day for seven days. What is the median number of pages in this set of data?",
+  "diagram_description": "Horizontal bar graph titled PAGES READ. Days Saturday, Friday, Thursday, Wednesday, Tuesday, Monday, Sunday (top to bottom). x-axis Number of Pages 0-120 in steps of 20. Approximate bar lengths: Saturday 40, Friday 20, Thursday 30, Wednesday 20, Tuesday 50, Monday 60, Sunday 100.",
+  "choices": [
+   "20",
+   "40",
+   "50",
+   "60"
+  ],
+  "correct_letter": "B",
+  "correct_pct": 84.9,
+  "is_wrong": false,
+  "strip_wrong": [
+   5,
+   16,
+   18
+  ],
+  "topic_broad": "data-analysis-graphs-tables",
+  "topic_specific": "median from a bar graph",
+  "exercise_title": null,
+  "is_timing_chart": false,
+  "notes": "Solution lists sorted values 20, 20, 30, 40, 50, 60, 100 (median 40). Bar values are approximate readings from the image. Subtype Data Analysis & Probability, Hard; her time 123 sec (others 60 sec)."
+ },
+ {
+  "source_file": "Screenshot 2026-10-06 at 10.40.14 AM.png",
+  "type": "question",
+  "test_set": "ISEE LOWER #4",
+  "question_number": 25,
+  "question_text": "Amy spent $17.82 buying coffee. Each cup of coffee she bought cost $1.62. Which expression would best estimate how many cups of coffee Amy bought?",
+  "diagram_description": "none",
+  "choices": [
+   "$18 \u00f7 $2",
+   "$17 \u00f7 $2",
+   "$1 \u00d7 $2",
+   "$17 \u00d7 $2"
+  ],
+  "correct_letter": "A",
+  "correct_pct": 90.6,
+  "is_wrong": false,
+  "strip_wrong": [
+   5,
+   16,
+   18
+  ],
+  "topic_broad": "estimation",
+  "topic_specific": "estimating division with money",
+  "exercise_title": null,
+  "is_timing_chart": false,
+  "notes": "Subtype Decimals, Percents, Fractions, Hard; her time 56 sec (others 32 sec)."
+ },
+ {
+  "source_file": "Screenshot 2026-10-06 at 10.40.16 AM.png",
+  "type": "question",
+  "test_set": "ISEE LOWER #4",
+  "question_number": 26,
+  "question_text": "What is the range of the data shown? 5, 6, 2, 9, 13",
+  "diagram_description": "none (data set displayed inline: 5, 6, 2, 9, 13)",
+  "choices": [
+   "6",
+   "11",
+   "13",
+   "15"
+  ],
+  "correct_letter": "B",
+  "correct_pct": 80.0,
+  "is_wrong": false,
+  "strip_wrong": [
+   5,
+   16,
+   18
+  ],
+  "topic_broad": "data-analysis-graphs-tables",
+  "topic_specific": "range of a data set",
+  "exercise_title": null,
+  "is_timing_chart": false,
+  "notes": "Follow-up: Finding Range, given Sets of Numbers, Data Tables or Graphs. Subtype Data Analysis & Probability, Hard; her time 18 sec (others 22 sec)."
+ },
+ {
+  "source_file": "Screenshot 2026-10-06 at 10.40.18 AM.png",
+  "type": "question",
+  "test_set": "ISEE LOWER #4",
+  "question_number": 27,
+  "question_text": "Mr. Roberts has 19 students in his class. About 3/5 of the students have brown eyes. Approximately how many students in Mr. Roberts class have brown eyes?",
+  "diagram_description": "none",
+  "choices": [
+   "2",
+   "6",
+   "8",
+   "12"
+  ],
+  "correct_letter": "D",
+  "correct_pct": 71.9,
+  "is_wrong": false,
+  "strip_wrong": [
+   5,
+   16,
+   18
+  ],
+  "topic_broad": "estimation",
+  "topic_specific": "estimating a fraction of a group",
+  "exercise_title": null,
+  "is_timing_chart": false,
+  "notes": "Solution: 19 rounds to 20, 4 groups of 5, 4 x 3 = 12. Follow-up: Estimating Multiplication & Division. Subtype Decimals, Percents, Fractions, Hard; her time 26 sec (others 40 sec)."
+ },
+ {
+  "source_file": "Screenshot 2026-10-06 at 10.40.20 AM.png",
+  "type": "question",
+  "test_set": "ISEE LOWER #4",
+  "question_number": 28,
+  "question_text": "What name best describes a triangle with exactly two sides of equal length?",
+  "diagram_description": "none",
+  "choices": [
+   "isosceles triangle",
+   "equilateral triangle",
+   "right triangle",
+   "acute triangle"
+  ],
+  "correct_letter": "A",
+  "correct_pct": 71.3,
+  "is_wrong": false,
+  "strip_wrong": [
+   5,
+   16,
+   18
+  ],
+  "topic_broad": "geometry-angles-shapes",
+  "topic_specific": "classifying triangles by sides",
+  "exercise_title": null,
+  "is_timing_chart": false,
+  "notes": "Follow-up: Identifying Shapes. Subtype Geometry, Hard; her time 8 sec (others 19 sec)."
+ },
+ {
+  "source_file": "Screenshot 2026-10-06 at 10.40.22 AM.png",
+  "type": "question",
+  "test_set": "ISEE LOWER #4",
+  "question_number": 29,
+  "question_text": "Which equation can be used to find the width, w, of a rectangle that has a perimeter of 94 centimeters and a length of 28 centimeters?",
+  "diagram_description": "none",
+  "choices": [
+   "w = 2 \u00d7 28 + 2 \u00d7 94",
+   "94 = 2 \u00d7 28 + 2 \u00d7 w",
+   "w = 28 \u00d7 94",
+   "94 = 28 \u00d7 w"
+  ],
+  "correct_letter": "B",
+  "correct_pct": 67.8,
+  "is_wrong": false,
+  "strip_wrong": [
+   5,
+   16,
+   18
+  ],
+  "topic_broad": "algebra-equations",
+  "topic_specific": "perimeter equation for a missing side",
+  "exercise_title": null,
+  "is_timing_chart": false,
+  "notes": "Follow-up: Finding Missing Side Length. Subtype Algebraic Concepts, Hard; her time 21 sec (others 58 sec)."
+ },
+ {
+  "source_file": "Screenshot 2026-10-06 at 10.40.24 AM.png",
+  "type": "question",
+  "test_set": "ISEE LOWER #4",
+  "question_number": 30,
+  "question_text": "Ms. Anderson has 10 electronic devices in her room. She has 3 Chromebooks, 5 tablets, and 2 other. Which number represents the part of Ms. Anderson's electronic devices that are other?",
+  "diagram_description": "none",
+  "choices": [
+   "0.02",
+   "0.2",
+   "2",
+   "20"
+  ],
+  "correct_letter": "B",
+  "correct_pct": 60.9,
+  "is_wrong": false,
+  "strip_wrong": [
+   5,
+   16,
+   18
+  ],
+  "topic_broad": "fractions",
+  "topic_specific": "part-whole fraction written as a decimal",
+  "exercise_title": null,
+  "is_timing_chart": false,
+  "notes": "Solution: 2/10 = 0.2. Follow-up: Equivalent Fractions, Decimals, and Percents. Subtype Decimals, Percents, Fractions, Hard; her time 31 sec (others 33 sec)."
+ },
+ {
+  "source_file": "Screenshot 2026-10-06 at 10.41.14 AM.png",
+  "type": "timing",
+  "test_set": "ISEE LOWER #4",
+  "question_number": null,
+  "question_text": null,
+  "diagram_description": "Mathematics Achievement Summary page: 'How you allocated your time' timing chart (detailed timing graph toggle off); x-axis Time (minutes) 0-30, y-axis Question Intro-30.",
+  "choices": null,
+  "correct_letter": null,
+  "correct_pct": null,
+  "is_wrong": null,
+  "strip_wrong": null,
+  "topic_broad": null,
+  "topic_specific": null,
+  "exercise_title": null,
+  "is_timing_chart": true,
+  "notes": "Completed on 09/27/2026. Difficulty: Easy 9 correct / 1 incorrect; Medium 8 / 2; Hard 10 / 0 (27 correct, 3 incorrect). Subtypes: Algebraic Concepts 5/1, Data Analysis & Probability 5/0, Decimals Percents Fractions 6/2, Geometry 2/0, Measurement 4/0, Whole Numbers 5/0. Red bars in timing chart at Q5, Q16, Q18 (matches confirmed wrong). No tooltip text visible."
+ },
+ {
+  "source_file": "Screenshot 2026-10-06 at 10.41.27 AM.png",
+  "type": "timing",
+  "test_set": "ISEE LOWER #4",
+  "question_number": null,
+  "question_text": null,
+  "diagram_description": "Zoomed view of the Mathematics Achievement Summary timing chart (same data as prior screenshot); x-axis Time (minutes) 0-30.",
+  "choices": null,
+  "correct_letter": null,
+  "correct_pct": null,
+  "is_wrong": null,
+  "strip_wrong": null,
+  "topic_broad": null,
+  "topic_specific": null,
+  "exercise_title": null,
+  "is_timing_chart": true,
+  "notes": "Completed on 09/27/2026. Same summary as the prior screenshot: 27 correct, 3 incorrect. Red bars at Q5, Q16, Q18. No tooltip text visible."
+ },
+ {
+  "source_file": "Screenshot 2026-10-06 at 10.41.35 AM.png",
+  "type": "timing",
+  "test_set": "ISEE LOWER #3",
+  "question_number": null,
+  "question_text": null,
+  "diagram_description": "Mathematics Achievement Summary page with timing chart (detailed graph toggle off); black line marks when paused at about 4 minutes.",
+  "choices": null,
+  "correct_letter": null,
+  "correct_pct": null,
+  "is_wrong": null,
+  "strip_wrong": null,
+  "topic_broad": null,
+  "topic_specific": null,
+  "exercise_title": null,
+  "is_timing_chart": true,
+  "notes": "Header reads ISEE LOWER #3 (Sep 25, 2026), but the footer says Completed on 09/20/2026; the dates disagree. Difficulty: Easy 9/1, Medium 9/1, Hard 9/1 (27 correct, 3 incorrect). Red bars in the timing chart at about Q5, Q16, Q21 (count matches 3 incorrect; numbers read from chart colors, not the pill strip). Subtypes: Algebraic Concepts 3/2, Data Analysis 5/1, Decimals 5/0, Geometry 3/0, Measurement 4/0, Whole Numbers 7/0. No tooltip text visible."
+ },
+ {
+  "source_file": "Screenshot 2026-10-06 at 10.41.42 AM.png",
+  "type": "timing",
+  "test_set": "ISEE LOWER #2",
+  "question_number": null,
+  "question_text": null,
+  "diagram_description": "Mathematics Achievement Summary page with timing chart (detailed graph toggle off); x-axis Time (minutes) 0-30.",
+  "choices": null,
+  "correct_letter": null,
+  "correct_pct": null,
+  "is_wrong": null,
+  "strip_wrong": null,
+  "topic_broad": null,
+  "topic_specific": null,
+  "exercise_title": null,
+  "is_timing_chart": true,
+  "notes": "Completed on 09/13/2026. Difficulty: Easy 10/0, Medium 9/1, Hard 5/5 (24 correct, 6 incorrect). Subtypes: Algebraic Concepts 4/1, Data Analysis 6/0, Decimals Percents Fractions 4/2, Geometry 1/0, Measurement 5/0, Number Sense and Operations 0/1, Whole Numbers 4/2. Red bars in the timing chart at about Q15, Q24, Q26, Q27, Q29, Q30 (count matches 6 incorrect; read from chart colors). No tooltip text visible."
+ },
+ {
+  "source_file": "Screenshot 2026-10-06 at 10.41.50 AM.png",
+  "type": "timing",
+  "test_set": null,
+  "question_number": null,
+  "question_text": null,
+  "diagram_description": "Mathematics Achievement Summary page with header 'WHAT TO EXPECT (Sep 5, 2026)'; timing chart (detailed graph toggle off), 25 questions; black line marks pause at about 2.5 minutes.",
+  "choices": null,
+  "correct_letter": null,
+  "correct_pct": null,
+  "is_wrong": null,
+  "strip_wrong": null,
+  "topic_broad": null,
+  "topic_specific": null,
+  "exercise_title": null,
+  "is_timing_chart": true,
+  "notes": "Header is not an ISEE LOWER #N label, so test_set is null. Completed on 09/05/2026. Difficulty: Easy 8/0, Medium 8/1, Hard 6/2 (22 correct, 3 incorrect, 25 questions). Subtypes: Algebraic Concepts 4/0, Data Analysis 4/1, Decimals Percents Fractions 4/1, Geometry 2/0, Measurement 2/1, Whole Numbers 6/0. Red bars in the timing chart at about Q15, Q21, Q22 (count matches 3 incorrect). No tooltip text visible."
+ },
+ {
+  "source_file": "Screenshot 2026-10-06 at 10.41.57 AM.png",
+  "type": "timing",
+  "test_set": "ISEE LOWER #1",
+  "question_number": null,
+  "question_text": null,
+  "diagram_description": "Mathematics Achievement Summary page with timing chart (detailed graph toggle off); black lines mark pauses at about 12, 14.5 and 18 minutes.",
+  "choices": null,
+  "correct_letter": null,
+  "correct_pct": null,
+  "is_wrong": null,
+  "strip_wrong": null,
+  "topic_broad": null,
+  "topic_specific": null,
+  "exercise_title": null,
+  "is_timing_chart": true,
+  "notes": "Completed on 08/30/2026. Difficulty: Easy 9/1, Medium 9/1, Hard 3/7 (21 correct, 9 incorrect). Subtypes: Algebraic Concepts 3/3, Data Analysis 2/1, Decimals Percents Fractions 6/1, Geometry 1/1, Measurement 4/1, Whole Numbers 5/2. Individual wrong question numbers are not reliably readable from this chart (small red marks overlap), so none are confirmed. No tooltip text visible."
+ }
+]
