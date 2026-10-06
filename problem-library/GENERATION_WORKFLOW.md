@@ -40,3 +40,7 @@ Purpose: generate 38-problem Quantitative Reasoning practice sets (matched to th
 ## Caveats
 - Tier labels come from topic-to-bank matching, so they are estimates.
 - Some platform banks have no real examples yet (for example, Unit Conversion with Made Up Units); their problems are generated, not copied.
+
+## Selection criteria (required for every set)
+1. **Coverage:** every topic in the tracker should appear across recent sets. Use the planner's rotation so no topic goes unpractised for long, and include the new topics (net type, estimation banks, remaining-amount fractions).
+2. **Focus on weak spots:** prioritise topics she gets wrong and problems that took her longer (from the tracker, the timing charts, and her CSV times). Multi-step, constraint-based, fraction-comparison, pattern, and relationship problems come first. Her late-test pacing is handled by timed sections, not by excluding topics.

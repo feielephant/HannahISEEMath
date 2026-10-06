@@ -30,3 +30,7 @@ Use this every time a new speed set is built, so every set has the same features
 2. Write the problems (build_set1.py pattern), check letters, and fix the order.
 3. Render (render_set1.py pattern), then copy both HTML files to worksheets/ and push.
 4. After she takes the set, get the CSV and her answers, grade against the key, update student-tracker.json, and record the set in practice-log.json.
+
+## Selection criteria (required for every set)
+1. **Coverage:** every topic in the tracker should appear across recent sets. Use the planner's rotation so no topic goes unpractised for long, and include the new topics (net type, estimation banks, remaining-amount fractions).
+2. **Focus on weak spots:** prioritise topics she gets wrong and problems that took her longer (from the tracker, the timing charts, and her CSV times). Multi-step, constraint-based, fraction-comparison, pattern, and relationship problems come first. Her late-test pacing is handled by timed sections, not by excluding topics.
