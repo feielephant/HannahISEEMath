@@ -27,6 +27,11 @@ Purpose: generate 38-problem Quantitative Reasoning practice sets (matched to th
 - Diagrams: about 55% of real questions include a diagram, chart, or table, so ~21 of 38 slots are diagram slots. Build the diagram as an inline SVG or table in the same style as the real test (bar graph, number line, shaded figure, composite shape), not as a text description.
 - Each slot carries a reference (wrong_so_far, graded_so_far, times_practised_before, last_practised_set). Mention the relevant habit and gap in the answer key so she sees why each problem is there.
 
+## Pacing rule (added 2026-10-06)
+- Questions 31–38 of the official 38-question tests are pacing-affected (rushed answers, error rate 41% vs 10% for Q1–30). The library marks these pacing_affected=true.
+- Exclude pacing-affected items from topic gap counts. Track pacing separately (tracker "pacing" block).
+- Speed sets: include full timed sections, and practise the last third under time pressure.
+
 ## Targeting rule
 - High-priority topics appear more often; "maintain" topics appear at least once every 3 sets so strong skills don't fade.
 - No topic appears more than 3 times in one set.

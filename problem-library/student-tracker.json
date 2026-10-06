@@ -1,6 +1,6 @@
 {
  "student": "Hannah",
- "updated": "2026-10-04",
+ "updated": "2026-10-06",
  "test_format": {
   "problems": 38,
   "minutes": 35,
@@ -293,5 +293,13 @@
    "priority": "high",
    "note": "not practised before; on real test (ISEE Lower #3 cube-net) and book sets; enhancement type"
   }
- ]
+ ],
+ "pacing": {
+  "rule": "Questions 31-38 of the 38-question official tests are pacing-affected: timing charts show rushed answers (very short bars) starting around Q31-33. Items with pacing_affected=true are kept out of topic gap counts and reported as a separate pacing signal.",
+  "evidence": {
+   "Q1-30 wrong": "12 of 120 (10%)",
+   "Q31-38 wrong": "13 of 32 (41%)"
+  },
+  "use": "Speed sets should include full timed sections; the last third of each set practised under time pressure. Gap counts use only non-pacing-affected items."
+ }
 }
