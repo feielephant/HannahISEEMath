@@ -24,7 +24,8 @@
   "topic_specific": "perimeter of a triangle",
   "exercise_title": "Follow-Up Exercise: Perimeter",
   "is_timing_chart": false,
-  "notes": "Header reads WHAT TO EXPECT (Sep 5, 2026); not an ISEE LOWER #N header, so test_set null. Green B only."
+  "notes": "Header reads WHAT TO EXPECT (Sep 5, 2026); not an ISEE LOWER #N header, so test_set null. Green B only.",
+  "status": "done"
  },
  {
   "source_file": "Screenshot 2026-10-06 at 10.24.38 AM.png",
@@ -51,7 +52,8 @@
   "topic_specific": "subtraction word problem (total minus two categories)",
   "exercise_title": "Follow-Up Exercise: Adding and Subtracting Integers",
   "is_timing_chart": false,
-  "notes": "Green A only."
+  "notes": "Green A only.",
+  "status": "done"
  },
  {
   "source_file": "Screenshot 2026-10-06 at 10.24.42 AM.png",
@@ -78,7 +80,8 @@
   "topic_specific": "identifying shapes (square)",
   "exercise_title": "Follow-Up Exercise: Identifying Shapes",
   "is_timing_chart": false,
-  "notes": "Green D only."
+  "notes": "Green D only.",
+  "status": "done"
  },
  {
   "source_file": "Screenshot 2026-10-06 at 10.24.46 AM.png",
@@ -105,7 +108,8 @@
   "topic_specific": "number words to standard form (place value)",
   "exercise_title": "Follow-Up Exercise: Identifying Numbers, Standard Form <> Word Form",
   "is_timing_chart": false,
-  "notes": "Same question appears again in 10.25.22 AM (different crop). Green A only."
+  "notes": "Same question appears again in 10.25.22 AM (different crop). Green A only.",
+  "status": "done"
  },
  {
   "source_file": "Screenshot 2026-10-06 at 10.25.22 AM.png",
@@ -132,7 +136,8 @@
   "topic_specific": "number words to standard form (place value)",
   "exercise_title": "Follow-Up Exercise: Identifying Numbers, Standard Form <> Word Form",
   "is_timing_chart": false,
-  "notes": "Duplicate screenshot of Q4 (same content as 10.24.46 AM). Green A only."
+  "notes": "Duplicate screenshot of Q4 (same content as 10.24.46 AM). Green A only.",
+  "status": "done"
  },
  {
   "source_file": "Screenshot 2026-10-06 at 10.25.26 AM.png",
@@ -159,7 +164,8 @@
   "topic_specific": "reading points on a number line",
   "exercise_title": "Follow-Up Exercise: Determining Points on Number Lines",
   "is_timing_chart": false,
-  "notes": "Green B only."
+  "notes": "Green B only.",
+  "status": "done"
  },
  {
   "source_file": "Screenshot 2026-10-06 at 10.25.30 AM.png",
@@ -186,7 +192,8 @@
   "topic_specific": "3-digit addition with regrouping",
   "exercise_title": "Follow-Up Exercise: Adding and Subtracting Integers",
   "is_timing_chart": false,
-  "notes": "Green C only. Solution shows a place-value regrouping grid."
+  "notes": "Green C only. Solution shows a place-value regrouping grid.",
+  "status": "done"
  },
  {
   "source_file": "Screenshot 2026-10-06 at 10.25.34 AM.png",
@@ -213,7 +220,8 @@
   "topic_specific": "order of operations",
   "exercise_title": "Follow-Up Exercise: Order of Operations and Equivalence",
   "is_timing_chart": false,
-  "notes": "Green B only."
+  "notes": "Green B only.",
+  "status": "done"
  },
  {
   "source_file": "Screenshot 2026-10-06 at 10.25.38 AM.png",
@@ -240,7 +248,8 @@
   "topic_specific": "reading table values, temperature difference",
   "exercise_title": "Follow-Up Exercise: Comparing/Adding/Subtracting Bar Graph/Data Table Values",
   "is_timing_chart": false,
-  "notes": "Green D only. Solution text gives black can 75\u00b0F and white can 52\u00b0F at 50 min. The data table itself is not in the screenshot."
+  "notes": "Green D only. Solution text gives black can 75\u00b0F and white can 52\u00b0F at 50 min. The data table itself is not in the screenshot.",
+  "status": "done"
  },
  {
   "source_file": "Screenshot 2026-10-06 at 10.25.41 AM.png",
@@ -267,7 +276,8 @@
   "topic_specific": "decimal to fraction equivalence",
   "exercise_title": "Follow-Up Exercise: Equivalent Fractions, Decimals, and Percents",
   "is_timing_chart": false,
-  "notes": "Green C only. Choice A and B percentages shown on screen were 9.8 and 5.4; recorded in choice text for reference."
+  "notes": "Green C only. Choice A and B percentages shown on screen were 9.8 and 5.4; recorded in choice text for reference.",
+  "status": "done"
  },
  {
   "source_file": "Screenshot 2026-10-06 at 10.25.45 AM.png",
@@ -294,7 +304,8 @@
   "topic_specific": "subtraction across zeros",
   "exercise_title": "Follow-Up Exercise: Adding and Subtracting Integers",
   "is_timing_chart": false,
-  "notes": "Green B only."
+  "notes": "Green B only.",
+  "status": "done"
  },
  {
   "source_file": "Screenshot 2026-10-06 at 10.25.49 AM.png",
@@ -321,7 +332,8 @@
   "topic_specific": "solving a one-variable equation with a blank",
   "exercise_title": "Follow-Up Exercise: Solving 1 Variable Equations",
   "is_timing_chart": false,
-  "notes": "The blank symbol does not render in the screenshot, so it is shown as [blank]. Green A only."
+  "notes": "The blank symbol does not render in the screenshot, so it is shown as [blank]. Green A only.",
+  "status": "done"
  },
  {
   "source_file": "Screenshot 2026-10-06 at 10.25.53 AM.png",
@@ -348,7 +360,8 @@
   "topic_specific": "estimating decimal money sums",
   "exercise_title": "Follow-Up Exercise: Estimating Sums/Differences of Decimal Numbers",
   "is_timing_chart": false,
-  "notes": "Green D only."
+  "notes": "Green D only.",
+  "status": "done"
  },
  {
   "source_file": "Screenshot 2026-10-06 at 10.25.57 AM.png",
@@ -375,7 +388,8 @@
   "topic_specific": "pictograph with scale",
   "exercise_title": "Follow-Up Exercise: Interpreting Pictographs",
   "is_timing_chart": false,
-  "notes": "Green D only. Solution says Southville has 3 more figures than Eastville at 5,000 each."
+  "notes": "Green D only. Solution says Southville has 3 more figures than Eastville at 5,000 each.",
+  "status": "done"
  },
  {
   "source_file": "Screenshot 2026-10-06 at 10.26.01 AM.png",
@@ -402,7 +416,8 @@
   "topic_specific": "estimating a fraction of a quantity",
   "exercise_title": "Follow-Up Exercise: Estimating Multiplication & Division",
   "is_timing_chart": false,
-  "notes": "Green A only. Other percentages: B 12.0, C 6.5, D 5.7."
+  "notes": "Green A only. Other percentages: B 12.0, C 6.5, D 5.7.",
+  "status": "done"
  },
  {
   "source_file": "Screenshot 2026-10-06 at 10.26.04 AM.png",
@@ -429,7 +444,8 @@
   "topic_specific": "probability of one event from a picture set",
   "exercise_title": "Follow-Up Exercise: Probability of 1 Event, given a List of Items",
   "is_timing_chart": false,
-  "notes": "Maroon marker on D (2 out of 3, under 5%) confirms wrong pick. Pill 15 is maroon in the strip."
+  "notes": "Maroon marker on D (2 out of 3, under 5%) confirms wrong pick. Pill 15 is maroon in the strip.",
+  "status": "done"
  },
  {
   "source_file": "Screenshot 2026-10-06 at 10.26.08 AM.png",
@@ -456,7 +472,8 @@
   "topic_specific": "mode of a data set",
   "exercise_title": "Follow-Up Exercise: Finding MMMR, given Bar Graph/Data Table of Values",
   "is_timing_chart": false,
-  "notes": "Green B only. Solution says 7.9 appears four times."
+  "notes": "Green B only. Solution says 7.9 appears four times.",
+  "status": "done"
  },
  {
   "source_file": "Screenshot 2026-10-06 at 10.26.12 AM.png",
@@ -483,7 +500,8 @@
   "topic_specific": "classifying a number set (primes)",
   "exercise_title": "Follow-Up Exercise: Classification of Numbers, given a Set",
   "is_timing_chart": false,
-  "notes": "Green C only."
+  "notes": "Green C only.",
+  "status": "done"
  },
  {
   "source_file": "Screenshot 2026-10-06 at 10.26.16 AM.png",
@@ -510,7 +528,8 @@
   "topic_specific": "rearranging area formula for width",
   "exercise_title": "Follow-Up Exercise: Matching Stories to Equations",
   "is_timing_chart": false,
-  "notes": "Green A only. Solution panel shows an embedded video placeholder."
+  "notes": "Green A only. Solution panel shows an embedded video placeholder.",
+  "status": "done"
  },
  {
   "source_file": "Screenshot 2026-10-06 at 10.26.20 AM.png",
@@ -537,7 +556,8 @@
   "topic_specific": "fraction between two fractions",
   "exercise_title": "Follow-Up Exercise: Comparing & Ordering Fractions & Decimals",
   "is_timing_chart": false,
-  "notes": "Green D only. Other percentages: A under 5, B 5.7, C 16.5."
+  "notes": "Green D only. Other percentages: A under 5, B 5.7, C 16.5.",
+  "status": "done"
  },
  {
   "source_file": "Screenshot 2026-10-06 at 10.27.54 AM.png",
@@ -564,7 +584,8 @@
   "topic_specific": "increasing difference pattern",
   "exercise_title": "Follow-Up Exercise: Nth Term, given Arithmetic Sequence, Progressive Pattern, etc.",
   "is_timing_chart": false,
-  "notes": "Green B only."
+  "notes": "Green B only.",
+  "status": "done"
  },
  {
   "source_file": "Screenshot 2026-10-06 at 10.27.57 AM.png",
@@ -591,7 +612,8 @@
   "topic_specific": "time zones and elapsed time",
   "exercise_title": "Follow-Up Exercise: Time Zones",
   "is_timing_chart": false,
-  "notes": "Maroon marker on B (1 P.M., under 5%) confirms wrong pick. Other percentages: A under 5, C 29.4."
+  "notes": "Maroon marker on B (1 P.M., under 5%) confirms wrong pick. Other percentages: A under 5, C 29.4.",
+  "status": "done"
  },
  {
   "source_file": "Screenshot 2026-10-06 at 10.28.01 AM.png",
@@ -618,7 +640,8 @@
   "topic_specific": "adding decimals and writing as mixed number",
   "exercise_title": "Follow-Up Exercise: Equivalent Fractions, Decimals, and Percents",
   "is_timing_chart": false,
-  "notes": "Maroon marker on C (4 2/5, 12.7%) confirms wrong pick. Other percentages: A 9.6, B 13.2."
+  "notes": "Maroon marker on C (4 2/5, 12.7%) confirms wrong pick. Other percentages: A 9.6, B 13.2.",
+  "status": "done"
  },
  {
   "source_file": "Screenshot 2026-10-06 at 10.28.06 AM.png",
@@ -645,7 +668,8 @@
   "topic_specific": "perimeter of a rectangle",
   "exercise_title": "Follow-Up Exercise: Finding Area/Perimeter of Rectangle, given Length & Width",
   "is_timing_chart": false,
-  "notes": "Green C only. Other percentages: A 11.7, B 6.0, D under 5."
+  "notes": "Green C only. Other percentages: A 11.7, B 6.0, D under 5.",
+  "status": "done"
  },
  {
   "source_file": "Screenshot 2026-10-06 at 10.28.10 AM.png",
@@ -672,7 +696,8 @@
   "topic_specific": "reading coordinates on a grid",
   "exercise_title": "Follow-Up Exercise: Identifying Points on a Coordinate Plane",
   "is_timing_chart": false,
-  "notes": "Green C only. Other percentages: A under 5, B 30.0, D under 5."
+  "notes": "Green C only. Other percentages: A under 5, B 30.0, D under 5.",
+  "status": "done"
  },
  {
   "source_file": "Screenshot 2026-10-06 at 10.28.14 AM.png",
@@ -699,7 +724,8 @@
   "topic_specific": "subtracting mixed numbers with regrouping",
   "exercise_title": "Follow-Up Exercise: Adding and Subtracting Fractions",
   "is_timing_chart": false,
-  "notes": "Green A only. Other percentages: B 19.7, C 11.0, D 7.2."
+  "notes": "Green A only. Other percentages: B 19.7, C 11.0, D 7.2.",
+  "status": "done"
  },
  {
   "source_file": "Screenshot 2026-10-06 at 10.28.34 AM.png",
@@ -732,7 +758,8 @@
   "topic_specific": "4-digit addition",
   "exercise_title": "Follow-Up Exercise: Adding and Subtracting Integers",
   "is_timing_chart": false,
-  "notes": "Header ISEE LOWER #1 (Aug 30, 2026). Pill 1 is the current selection (blue), so its right/wrong status is not visible; no maroon marker on any choice, so is_wrong recorded as false (green only)."
+  "notes": "Header ISEE LOWER #1 (Aug 30, 2026). Pill 1 is the current selection (blue), so its right/wrong status is not visible; no maroon marker on any choice, so is_wrong recorded as false (green only).",
+  "status": "done"
  },
  {
   "source_file": "Screenshot 2026-10-06 at 10.28.53 AM.png",
@@ -765,7 +792,8 @@
   "topic_specific": "reading table values, difference",
   "exercise_title": "Follow-Up Exercise: Comparing/Adding/Subtracting Bar Graph/Data Table Values",
   "is_timing_chart": false,
-  "notes": "Full-screen browser capture. Per-question tile shows Your Time 191 sec, Others (avg.) 36 sec, Subtype Data Analysis & Probability, Difficulty Easy. Green C only. Duplicate in 10.30.10 AM."
+  "notes": "Full-screen browser capture. Per-question tile shows Your Time 191 sec, Others (avg.) 36 sec, Subtype Data Analysis & Probability, Difficulty Easy. Green C only. Duplicate in 10.30.10 AM.",
+  "status": "done"
  },
  {
   "source_file": "Screenshot 2026-10-06 at 10.30.10 AM.png",
@@ -798,7 +826,8 @@
   "topic_specific": "reading table values, difference",
   "exercise_title": "Follow-Up Exercise: Comparing/Adding/Subtracting Bar Graph/Data Table Values",
   "is_timing_chart": false,
-  "notes": "Duplicate of 10.28.53 AM. Green C only."
+  "notes": "Duplicate of 10.28.53 AM. Green C only.",
+  "status": "done"
  },
  {
   "source_file": "Screenshot 2026-10-06 at 10.30.36 AM.png",
@@ -831,7 +860,8 @@
   "topic_specific": "dividing a whole number into equal parts",
   "exercise_title": "Follow-Up Exercise: Multiplying and Dividing Whole Numbers",
   "is_timing_chart": false,
-  "notes": "Green B only. Solution shows a bar model (not part of question). Per-question tile: Your Time 47 sec. Duplicate in 10.30.39 AM."
+  "notes": "Green B only. Solution shows a bar model (not part of question). Per-question tile: Your Time 47 sec. Duplicate in 10.30.39 AM.",
+  "status": "done"
  },
  {
   "source_file": "Screenshot 2026-10-06 at 10.30.39 AM.png",
@@ -864,7 +894,8 @@
   "topic_specific": "dividing a whole number into equal parts",
   "exercise_title": "Follow-Up Exercise: Multiplying and Dividing Whole Numbers",
   "is_timing_chart": false,
-  "notes": "Duplicate of 10.30.36 AM. Green B only."
+  "notes": "Duplicate of 10.30.36 AM. Green B only.",
+  "status": "done"
  },
  {
   "source_file": "Screenshot 2026-10-06 at 10.31.06 AM.png",
@@ -897,7 +928,8 @@
   "topic_specific": "subtracting decimals",
   "exercise_title": "Follow-Up Exercise: Adding and Subtracting Decimals",
   "is_timing_chart": false,
-  "notes": "Green A only. Other percentages: B 5.8, C under 5, D under 5. Tile: Your Time 35 sec."
+  "notes": "Green A only. Other percentages: B 5.8, C under 5, D under 5. Tile: Your Time 35 sec.",
+  "status": "done"
  },
  {
   "source_file": "Screenshot 2026-10-06 at 10.31.08 AM.png",
@@ -930,7 +962,8 @@
   "topic_specific": "function machine rule (output = 2 x input)",
   "exercise_title": "Follow-Up Exercise: not visible in screenshot",
   "is_timing_chart": false,
-  "notes": "Maroon marker on B (6.9%) confirms wrong pick. Other percentages: A under 5, D under 5. Pill 5 is maroon in the strip."
+  "notes": "Maroon marker on B (6.9%) confirms wrong pick. Other percentages: A under 5, D under 5. Pill 5 is maroon in the strip.",
+  "status": "done"
  },
  {
   "source_file": "Screenshot 2026-10-06 at 10.31.11 AM.png",
@@ -963,7 +996,8 @@
   "topic_specific": "probability of one color from a count",
   "exercise_title": "Follow-Up Exercise: Probability of 1 Event, given a List of Items",
   "is_timing_chart": false,
-  "notes": "Green A only. Other percentages: B 7.3, C and D under 5. Tile: Your Time 163 sec."
+  "notes": "Green A only. Other percentages: B 7.3, C and D under 5. Tile: Your Time 163 sec.",
+  "status": "done"
  },
  {
   "source_file": "Screenshot 2026-10-06 at 10.31.25 AM.png",
@@ -996,7 +1030,8 @@
   "topic_specific": "probability from a picture set (shapes)",
   "exercise_title": "Follow-Up Exercise: Probability of 1 Event, given a List of Items",
   "is_timing_chart": false,
-  "notes": "Green D only. Other percentages: A and B under 5, C 5.7. Duplicate in 10.31.31 AM."
+  "notes": "Green D only. Other percentages: A and B under 5, C 5.7. Duplicate in 10.31.31 AM.",
+  "status": "done"
  },
  {
   "source_file": "Screenshot 2026-10-06 at 10.31.31 AM.png",
@@ -1029,7 +1064,8 @@
   "topic_specific": "probability from a picture set (shapes)",
   "exercise_title": "Follow-Up Exercise: Probability of 1 Event, given a List of Items",
   "is_timing_chart": false,
-  "notes": "Duplicate of 10.31.25 AM. Green D only."
+  "notes": "Duplicate of 10.31.25 AM. Green D only.",
+  "status": "done"
  },
  {
   "source_file": "Screenshot 2026-10-06 at 10.31.34 AM.png",
@@ -1062,7 +1098,8 @@
   "topic_specific": "substitution in two equations",
   "exercise_title": "Follow-Up Exercise: Solving 1 Variable Equations",
   "is_timing_chart": false,
-  "notes": "Green B only. Other percentages: A and C under 5, D 5.4. Tile: Your Time 120 sec."
+  "notes": "Green B only. Other percentages: A and C under 5, D 5.4. Tile: Your Time 120 sec.",
+  "status": "done"
  },
  {
   "source_file": "Screenshot 2026-10-06 at 10.31.37 AM.png",
@@ -1095,7 +1132,8 @@
   "topic_specific": "perimeter of a square equation",
   "exercise_title": "Follow-Up Exercise: Algebra with Geometric Shapes",
   "is_timing_chart": false,
-  "notes": "Green C only. Other percentages: A 9.2, B and D under 5. Tile: Your Time 72 sec."
+  "notes": "Green C only. Other percentages: A 9.2, B and D under 5. Tile: Your Time 72 sec.",
+  "status": "done"
  },
  {
   "source_file": "Screenshot 2026-10-06 at 10.31.40 AM.png",
@@ -1128,7 +1166,8 @@
   "topic_specific": "subtraction across zeros",
   "exercise_title": "Follow-Up Exercise: Adding and Subtracting Integers",
   "is_timing_chart": false,
-  "notes": "Green A only. Other percentages: B and D under 5, C 6.7. Tile: Your Time 49 sec."
+  "notes": "Green A only. Other percentages: B and D under 5, C 6.7. Tile: Your Time 49 sec.",
+  "status": "done"
  },
  {
   "source_file": "Screenshot 2026-10-06 at 10.31.43 AM.png",
@@ -1161,7 +1200,8 @@
   "topic_specific": "common multiple / divisibility by 4 and 7",
   "exercise_title": "Follow-Up Exercise: No Remainder when Divided by two given Numbers",
   "is_timing_chart": false,
-  "notes": "Green D only. Other percentages: A under 5, B 6.4, C 7.6. Tile: Your Time 99 sec."
+  "notes": "Green D only. Other percentages: A under 5, B 6.4, C 7.6. Tile: Your Time 99 sec.",
+  "status": "done"
  },
  {
   "source_file": "Screenshot 2026-10-06 at 10.31.46 AM.png",
@@ -1193,7 +1233,8 @@
   "topic_broad": "fractions",
   "topic_specific": "adding mixed numbers (word problem)",
   "exercise_title": "Adding and Subtracting Mixed Numbers",
-  "notes": "Difficulty Medium; Hannah time 90 sec, others 34 sec."
+  "notes": "Difficulty Medium; Hannah time 90 sec, others 34 sec.",
+  "status": "done"
  },
  {
   "source_file": "Screenshot 2026-10-06 at 10.31.48 AM.png",
@@ -1225,7 +1266,8 @@
   "topic_broad": "measurement-conversion",
   "topic_specific": "elapsed time with multiple intervals",
   "exercise_title": "Determining The Final Time",
-  "notes": "Difficulty Medium; Hannah time 28 sec."
+  "notes": "Difficulty Medium; Hannah time 28 sec.",
+  "status": "done"
  },
  {
   "source_file": "Screenshot 2026-10-06 at 10.31.50 AM.png",
@@ -1257,7 +1299,8 @@
   "topic_broad": "algebra-equations",
   "topic_specific": "write equation from word problem (total hours)",
   "exercise_title": "Interpreting Linear Equations from Word Problems",
-  "notes": ""
+  "notes": "",
+  "status": "done"
  },
  {
   "source_file": "Screenshot 2026-10-06 at 10.31.53 AM.png",
@@ -1289,7 +1332,8 @@
   "topic_broad": "fractions",
   "topic_specific": "unit fraction of a whole (division)",
   "exercise_title": "Remaining Amount after Reducing by Fractions",
-  "notes": "Time shown partly cut off in screenshot."
+  "notes": "Time shown partly cut off in screenshot.",
+  "status": "done"
  },
  {
   "source_file": "Screenshot 2026-10-06 at 10.31.56 AM.png",
@@ -1321,7 +1365,8 @@
   "topic_broad": "measurement-conversion",
   "topic_specific": "hours to minutes with fractional hours",
   "exercise_title": "Computation with Time",
-  "notes": ""
+  "notes": "",
+  "status": "done"
  },
  {
   "source_file": "Screenshot 2026-10-06 at 10.31.58 AM.png",
@@ -1353,7 +1398,8 @@
   "topic_broad": "measurement-conversion",
   "topic_specific": "choose best unit of weight",
   "exercise_title": "Best Unit of Measure",
-  "notes": "Difficulty Medium."
+  "notes": "Difficulty Medium.",
+  "status": "done"
  },
  {
   "source_file": "Screenshot 2026-10-06 at 10.32.00 AM.png",
@@ -1385,7 +1431,8 @@
   "topic_broad": "data-analysis-graphs-tables",
   "topic_specific": "median from table of values",
   "exercise_title": "Finding MMMR, given Bar Graph/Data Table of Values",
-  "notes": "Hannah wrong pick B (450, 8.5%). Time 66 sec."
+  "notes": "Hannah wrong pick B (450, 8.5%). Time 66 sec.",
+  "status": "done"
  },
  {
   "source_file": "Screenshot 2026-10-06 at 10.32.04 AM.png",
@@ -1417,7 +1464,8 @@
   "topic_broad": "decimals",
   "topic_specific": "distance on number line with decimal tick marks",
   "exercise_title": "Determining Points on Number Lines",
-  "notes": ""
+  "notes": "",
+  "status": "done"
  },
  {
   "source_file": "Screenshot 2026-10-06 at 10.32.06 AM.png",
@@ -1449,7 +1497,8 @@
   "topic_broad": "estimation",
   "topic_specific": "estimate sum of decimals by rounding",
   "exercise_title": "Estimating Sums/Differences of Decimal Numbers",
-  "notes": ""
+  "notes": "",
+  "status": "done"
  },
  {
   "source_file": "Screenshot 2026-10-06 at 10.32.08 AM.png",
@@ -1481,7 +1530,8 @@
   "topic_broad": "patterns-sequences",
   "topic_specific": "difference pattern (increasing differences)",
   "exercise_title": "Numerical Patterns",
-  "notes": "Hannah wrong pick B (27, 17.0%). Subtype Algebraic Concepts, Hard."
+  "notes": "Hannah wrong pick B (27, 17.0%). Subtype Algebraic Concepts, Hard.",
+  "status": "done"
  },
  {
   "source_file": "Screenshot 2026-10-06 at 10.32.10 AM.png",
@@ -1513,7 +1563,8 @@
   "topic_broad": "estimation",
   "topic_specific": "estimate one-third of a large number (division)",
   "exercise_title": "Estimating Multiplication & Division",
-  "notes": "Superscript 2 transcribed as km^2."
+  "notes": "Superscript 2 transcribed as km^2.",
+  "status": "done"
  },
  {
   "source_file": "Screenshot 2026-10-06 at 10.32.13 AM.png",
@@ -1545,7 +1596,8 @@
   "topic_broad": "logic-always-true",
   "topic_specific": "true/false statements about quadrilateral classes",
   "exercise_title": "Identifying Shapes",
-  "notes": "Hannah wrong pick B (19.9%)."
+  "notes": "Hannah wrong pick B (19.9%).",
+  "status": "done"
  },
  {
   "source_file": "Screenshot 2026-10-06 at 10.32.15 AM.png",
@@ -1577,7 +1629,8 @@
   "topic_broad": "number-theory-divisibility",
   "topic_specific": "divisibility rule for 9 (digit sum)",
   "exercise_title": "No Remainder when Divided by a given Number",
-  "notes": "Hannah wrong pick B (2,109, 11.3%)."
+  "notes": "Hannah wrong pick B (2,109, 11.3%).",
+  "status": "done"
  },
  {
   "source_file": "Screenshot 2026-10-06 at 10.32.18 AM.png",
@@ -1609,7 +1662,8 @@
   "topic_broad": "word-problem-other",
   "topic_specific": "fraction of a group lost, then total remaining",
   "exercise_title": "Remaining Amount after Reducing by Fractions",
-  "notes": "Hannah wrong pick B (5, 26.4%)."
+  "notes": "Hannah wrong pick B (5, 26.4%).",
+  "status": "done"
  },
  {
   "source_file": "Screenshot 2026-10-06 at 10.32.22 AM.png",
@@ -1641,7 +1695,8 @@
   "topic_broad": "fractions",
   "topic_specific": "compare fractions using benchmarks",
   "exercise_title": "Comparing & Ordering Fractions & Decimals",
-  "notes": ""
+  "notes": "",
+  "status": "done"
  },
  {
   "source_file": "Screenshot 2026-10-06 at 10.32.24 AM.png",
@@ -1673,7 +1728,8 @@
   "topic_broad": "patterns-sequences",
   "topic_specific": "shape pattern counting (adds 4 each step)",
   "exercise_title": "Predicting the Next Shapes, given Progressive Pattern",
-  "notes": "Hannah wrong pick B (20, 7.8%). Hard."
+  "notes": "Hannah wrong pick B (20, 7.8%). Hard.",
+  "status": "done"
  },
  {
   "source_file": "Screenshot 2026-10-06 at 10.32.27 AM.png",
@@ -1705,7 +1761,8 @@
   "topic_broad": "geometry-angles-shapes",
   "topic_specific": "classify quadrilateral from coordinates",
   "exercise_title": "Vertices Forming Right Angles & Quadrilaterals on a Coordinate Plane",
-  "notes": "Question text has no space after 'The points' in source; transcribed with space."
+  "notes": "Question text has no space after 'The points' in source; transcribed with space.",
+  "status": "done"
  },
  {
   "source_file": "Screenshot 2026-10-06 at 10.32.30 AM.png",
@@ -1737,7 +1794,8 @@
   "topic_broad": "number-theory-divisibility",
   "topic_specific": "divisibility by 8 (last three digits)",
   "exercise_title": "No Remainder when Divided by a given Number",
-  "notes": "Hannah wrong pick B (1,420, 22.7%). Hard."
+  "notes": "Hannah wrong pick B (1,420, 22.7%). Hard.",
+  "status": "done"
  },
  {
   "source_file": "Screenshot 2026-10-06 at 10.32.32 AM.png",
@@ -1769,7 +1827,8 @@
   "topic_broad": "geometry-area-perimeter",
   "topic_specific": "square perimeter to area, then rectangle length",
   "exercise_title": "Finding Area/Perimeter of Rectangle, given Length & Width",
-  "notes": "Hannah wrong pick B (8, 41.7%). Hard."
+  "notes": "Hannah wrong pick B (8, 41.7%). Hard.",
+  "status": "done"
  },
  {
   "source_file": "Screenshot 2026-10-06 at 10.36.04 AM.png",
@@ -1798,7 +1857,8 @@
   "topic_broad": "number-theory-divisibility",
   "topic_specific": "classify a set of numbers (prime/composite/divisible)",
   "exercise_title": "Classification of Numbers, given a Set",
-  "notes": "Easy. Hannah time 10 sec."
+  "notes": "Easy. Hannah time 10 sec.",
+  "status": "done"
  },
  {
   "source_file": "Screenshot 2026-10-06 at 10.36.08 AM.png",
@@ -1827,7 +1887,8 @@
   "topic_broad": "arithmetic",
   "topic_specific": "subtract whole numbers",
   "exercise_title": "Adding and Subtracting Integers",
-  "notes": "Easy. Hannah time 56 sec."
+  "notes": "Easy. Hannah time 56 sec.",
+  "status": "done"
  },
  {
   "source_file": "Screenshot 2026-10-06 at 10.36.11 AM.png",
@@ -1856,7 +1917,8 @@
   "topic_broad": "geometry-area-perimeter",
   "topic_specific": "perimeter of a polygon (add sides)",
   "exercise_title": "Perimeter",
-  "notes": "Easy."
+  "notes": "Easy.",
+  "status": "done"
  },
  {
   "source_file": "Screenshot 2026-10-06 at 10.36.17 AM.png",
@@ -1885,7 +1947,8 @@
   "topic_broad": "data-analysis-graphs-tables",
   "topic_specific": "compare values from a pictograph/table",
   "exercise_title": "Interpreting Pictographs",
-  "notes": "Table itself not visible in this image; Easy."
+  "notes": "Table itself not visible in this image; Easy.",
+  "status": "done"
  },
  {
   "source_file": "Screenshot 2026-10-06 at 10.36.19 AM.png",
@@ -1914,7 +1977,8 @@
   "topic_broad": "estimation",
   "topic_specific": "round then divide by 3",
   "exercise_title": "Multiplying and Dividing Whole Numbers",
-  "notes": "Easy. Subtype Decimals, Percents, Fractions per platform."
+  "notes": "Easy. Subtype Decimals, Percents, Fractions per platform.",
+  "status": "done"
  },
  {
   "source_file": "Screenshot 2026-10-06 at 10.36.21 AM.png",
@@ -1943,7 +2007,8 @@
   "topic_broad": "patterns-sequences",
   "topic_specific": "input-output rule (divide by 4)",
   "exercise_title": "Input/Output Tables",
-  "notes": "Easy."
+  "notes": "Easy.",
+  "status": "done"
  },
  {
   "source_file": "Screenshot 2026-10-06 at 10.36.23 AM.png",
@@ -1972,7 +2037,8 @@
   "topic_broad": "algebra-equations",
   "topic_specific": "solve linear equations in two variables (chain)",
   "exercise_title": "Algebraic Equations with Symbol Variables",
-  "notes": "Easy."
+  "notes": "Easy.",
+  "status": "done"
  },
  {
   "source_file": "Screenshot 2026-10-06 at 10.36.25 AM.png",
@@ -2001,7 +2067,8 @@
   "topic_broad": "algebra-equations",
   "topic_specific": "write equation from equal groups",
   "exercise_title": "Interpreting Linear Equations from Word Problems",
-  "notes": "Easy. Hannah time 250 sec (long)."
+  "notes": "Easy. Hannah time 250 sec (long).",
+  "status": "done"
  },
  {
   "source_file": "Screenshot 2026-10-06 at 10.36.27 AM.png",
@@ -2030,7 +2097,8 @@
   "topic_broad": "algebra-equations",
   "topic_specific": "solve one-variable equation with unknown symbol",
   "exercise_title": "Solving 1 Variable Equations",
-  "notes": "Easy. Hannah time 171 sec."
+  "notes": "Easy. Hannah time 171 sec.",
+  "status": "done"
  },
  {
   "source_file": "Screenshot 2026-10-06 at 10.36.29 AM.png",
@@ -2059,7 +2127,8 @@
   "topic_broad": "measurement-conversion",
   "topic_specific": "feet to yards conversion",
   "exercise_title": "English Unit Conversions",
-  "notes": "Easy."
+  "notes": "Easy.",
+  "status": "done"
  },
  {
   "source_file": "Screenshot 2026-10-06 at 10.36.31 AM.png",
@@ -2088,7 +2157,8 @@
   "topic_broad": "arithmetic",
   "topic_specific": "order of operations (equivalent expressions)",
   "exercise_title": "Order of Operations and Equivalence",
-  "notes": "Medium."
+  "notes": "Medium.",
+  "status": "done"
  },
  {
   "source_file": "Screenshot 2026-10-06 at 10.36.33 AM.png",
@@ -2117,7 +2187,8 @@
   "topic_broad": "measurement-conversion",
   "topic_specific": "minutes to hours conversion",
   "exercise_title": "Computation with Time",
-  "notes": "Medium."
+  "notes": "Medium.",
+  "status": "done"
  },
  {
   "source_file": "Screenshot 2026-10-06 at 10.36.35 AM.png",
@@ -2146,7 +2217,8 @@
   "topic_broad": "data-analysis-graphs-tables",
   "topic_specific": "difference between two bars on a bar graph",
   "exercise_title": "Comparing/Adding/Subtracting Bar Graph/Data Table Values",
-  "notes": "Graph not visible in this image; Medium."
+  "notes": "Graph not visible in this image; Medium.",
+  "status": "done"
  },
  {
   "source_file": "Screenshot 2026-10-06 at 10.36.37 AM.png",
@@ -2175,7 +2247,8 @@
   "topic_broad": "fractions",
   "topic_specific": "order fractions from least to greatest",
   "exercise_title": "Comparing & Ordering Fractions & Decimals",
-  "notes": ""
+  "notes": "",
+  "status": "done"
  },
  {
   "source_file": "Screenshot 2026-10-06 at 10.36.39 AM.png",
@@ -2204,7 +2277,8 @@
   "topic_broad": "fractions",
   "topic_specific": "fraction of a quantity (divide by 3)",
   "exercise_title": "Multiplying and Dividing Whole Numbers",
-  "notes": "Hannah wrong pick B (221, 6.4%). Pill 15 maroon."
+  "notes": "Hannah wrong pick B (221, 6.4%). Pill 15 maroon.",
+  "status": "done"
  },
  {
   "source_file": "Screenshot 2026-10-06 at 10.36.41 AM.png",
@@ -2233,7 +2307,8 @@
   "topic_broad": "geometry-area-perimeter",
   "topic_specific": "rectangle dimensions with given area (factor pairs)",
   "exercise_title": "Finding Area/Perimeter of Rectangle, given Length & Width",
-  "notes": "Medium."
+  "notes": "Medium.",
+  "status": "done"
  },
  {
   "source_file": "Screenshot 2026-10-06 at 10.36.44 AM.png",
@@ -2262,7 +2337,8 @@
   "topic_broad": "fractions",
   "topic_specific": "add fractions from bar models (common denominator 8)",
   "exercise_title": "Adding and Subtracting Fractions",
-  "notes": "Medium."
+  "notes": "Medium.",
+  "status": "done"
  },
  {
   "source_file": "Screenshot 2026-10-06 at 10.36.47 AM.png",
@@ -2291,7 +2367,8 @@
   "topic_broad": "number-theory-divisibility",
   "topic_specific": "count primes in a range (7, 11, 13)",
   "exercise_title": "Prime Numbers",
-  "notes": "Medium."
+  "notes": "Medium.",
+  "status": "done"
  },
  {
   "source_file": "Screenshot 2026-10-06 at 10.36.49 AM.png",
@@ -2320,7 +2397,8 @@
   "topic_broad": "probability",
   "topic_specific": "probability of one shape from a set of 8",
   "exercise_title": "Probability of 1 Event, given a List of Items",
-  "notes": "Medium."
+  "notes": "Medium.",
+  "status": "done"
  },
  {
   "source_file": "Screenshot 2026-10-06 at 10.36.51 AM.png",
@@ -2349,7 +2427,8 @@
   "topic_broad": "data-analysis-graphs-tables",
   "topic_specific": "median of a data set",
   "exercise_title": "Finding Median, given Sets of Numbers",
-  "notes": "Medium."
+  "notes": "Medium.",
+  "status": "done"
  },
  {
   "source_file": "Screenshot 2026-10-06 at 10.36.53 AM.png",
@@ -2378,7 +2457,8 @@
   "topic_broad": "probability",
   "topic_specific": "probability from total count (4 of 18)",
   "exercise_title": "Probability of 1 Event, given a List of Items",
-  "notes": "Hard. Hannah time 31 sec."
+  "notes": "Hard. Hannah time 31 sec.",
+  "status": "done"
  },
  {
   "source_file": "Screenshot 2026-10-06 at 10.36.55 AM.png",
@@ -2407,7 +2487,8 @@
   "topic_broad": "geometry-angles-shapes",
   "topic_specific": "points on coordinate plane",
   "exercise_title": "Identifying Points on a Coordinate Plane",
-  "notes": "Subtype Geometry, difficulty Hard. Green only, no maroon marker. Time 19 sec."
+  "notes": "Subtype Geometry, difficulty Hard. Green only, no maroon marker. Time 19 sec.",
+  "status": "done"
  },
  {
   "source_file": "Screenshot 2026-10-06 at 10.36.57 AM.png",
@@ -2436,7 +2517,8 @@
   "topic_broad": "data-analysis-graphs-tables",
   "topic_specific": "survey counts / complement",
   "exercise_title": null,
-  "notes": "Subtype Data Analysis & Probability, difficulty Hard. Time 29 sec. Follow-up exercise not shown in screenshot."
+  "notes": "Subtype Data Analysis & Probability, difficulty Hard. Time 29 sec. Follow-up exercise not shown in screenshot.",
+  "status": "done"
  },
  {
   "source_file": "Screenshot 2026-10-06 at 10.36.59 AM.png",
@@ -2465,7 +2547,8 @@
   "topic_broad": "number-theory-divisibility",
   "topic_specific": "divisibility by 8",
   "exercise_title": "No Remainder when Divided by a given Number",
-  "notes": "Maroon marker on C (324, 21.7%), Hannah's wrong pick. A and B under 5%."
+  "notes": "Maroon marker on C (324, 21.7%), Hannah's wrong pick. A and B under 5%.",
+  "status": "done"
  },
  {
   "source_file": "Screenshot 2026-10-06 at 10.37.01 AM.png",
@@ -2494,7 +2577,8 @@
   "topic_broad": "geometry-area-perimeter",
   "topic_specific": "area of rectangle from side lengths",
   "exercise_title": "Finding Area/Perimeter of Rectangle, given Length & Width",
-  "notes": "Subtype Decimals, Percents, Fractions shown in Q27 only; this screen shows no subtype. Green only. Time not visible (solution panel cut off)."
+  "notes": "Subtype Decimals, Percents, Fractions shown in Q27 only; this screen shows no subtype. Green only. Time not visible (solution panel cut off).",
+  "status": "done"
  },
  {
   "source_file": "Screenshot 2026-10-06 at 10.37.03 AM.png",
@@ -2523,7 +2607,8 @@
   "topic_broad": "arithmetic",
   "topic_specific": "distributive property",
   "exercise_title": "Identifying Number Properties",
-  "notes": "Maroon marker on A (14.8%), Hannah's wrong pick. D under 5%."
+  "notes": "Maroon marker on A (14.8%), Hannah's wrong pick. D under 5%.",
+  "status": "done"
  },
  {
   "source_file": "Screenshot 2026-10-06 at 10.37.05 AM.png",
@@ -2552,7 +2637,8 @@
   "topic_broad": "estimation",
   "topic_specific": "estimating decimal sum by rounding to nearest $5",
   "exercise_title": "Estimating Sums/Differences of Decimal Numbers",
-  "notes": "Subtype Decimals, Percents, Fractions; difficulty Hard. Maroon marker on D (225, 10.2%), Hannah's wrong pick. A 7.7%, C 26.8%. Time 69 sec."
+  "notes": "Subtype Decimals, Percents, Fractions; difficulty Hard. Maroon marker on D (225, 10.2%), Hannah's wrong pick. A 7.7%, C 26.8%. Time 69 sec.",
+  "status": "done"
  },
  {
   "source_file": "Screenshot 2026-10-06 at 10.37.07 AM.png",
@@ -2581,7 +2667,8 @@
   "topic_broad": "percents",
   "topic_specific": "percent to decimal / fraction equivalence",
   "exercise_title": "Equivalent Fractions, Decimals, and Percents",
-  "notes": "No maroon marker, though D (12.5, 39.8%) may be the pick; strip shows 28 green, so D is not marked as wrong. Subtype Decimals, Percents, Fractions; Hard. Time 18 sec."
+  "notes": "No maroon marker, though D (12.5, 39.8%) may be the pick; strip shows 28 green, so D is not marked as wrong. Subtype Decimals, Percents, Fractions; Hard. Time 18 sec.",
+  "status": "done"
  },
  {
   "source_file": "Screenshot 2026-10-06 at 10.37.09 AM.png",
@@ -2610,7 +2697,8 @@
   "topic_broad": "logic-always-true",
   "topic_specific": "always-true statement about product of prime and odd",
   "exercise_title": "Classification of Numbers, given a Set",
-  "notes": "Maroon marker on A (odd number, 31.8%), Hannah's wrong pick. Subtype Whole-number classification; Hard. Time 68 sec (not confirmed)."
+  "notes": "Maroon marker on A (odd number, 31.8%), Hannah's wrong pick. Subtype Whole-number classification; Hard. Time 68 sec (not confirmed).",
+  "status": "done"
  },
  {
   "source_file": "Screenshot 2026-10-06 at 10.37.11 AM.png",
@@ -2639,7 +2727,8 @@
   "topic_broad": "geometry-area-perimeter",
   "topic_specific": "triangle area formula comparison",
   "exercise_title": "Area of Triangles",
-  "notes": "Maroon marker on D (18.6%), Hannah's wrong pick. A 28.8%, C 20.4%."
+  "notes": "Maroon marker on D (18.6%), Hannah's wrong pick. A 28.8%, C 20.4%.",
+  "status": "done"
  },
  {
   "source_file": "Screenshot 2026-10-06 at 10.38.12 AM.png",
@@ -2665,7 +2754,8 @@
   "topic_broad": "arithmetic",
   "topic_specific": "3-digit addition with regrouping",
   "exercise_title": "Adding and Subtracting Integers",
-  "notes": "Subtype Whole Numbers; Easy. Green only. Time 22 sec."
+  "notes": "Subtype Whole Numbers; Easy. Green only. Time 22 sec.",
+  "status": "done"
  },
  {
   "source_file": "Screenshot 2026-10-06 at 10.38.15 AM.png",
@@ -2691,7 +2781,8 @@
   "topic_broad": "data-analysis-graphs-tables",
   "topic_specific": "reading pictograph with key",
   "exercise_title": "Interpreting Pictographs",
-  "notes": "Subtype Data Analysis & Probability; Easy. Green only. Time 29 sec."
+  "notes": "Subtype Data Analysis & Probability; Easy. Green only. Time 29 sec.",
+  "status": "done"
  },
  {
   "source_file": "Screenshot 2026-10-06 at 10.38.17 AM.png",
@@ -2717,7 +2808,8 @@
   "topic_broad": "arithmetic",
   "topic_specific": "number words to standard form (place value)",
   "exercise_title": "Identifying Numbers, Standard Form <> Word Form",
-  "notes": "Subtype Whole Numbers; Easy. Green only. Time 26 sec."
+  "notes": "Subtype Whole Numbers; Easy. Green only. Time 26 sec.",
+  "status": "done"
  },
  {
   "source_file": "Screenshot 2026-10-06 at 10.38.19 AM.png",
@@ -2743,7 +2835,8 @@
   "topic_broad": "algebra-equations",
   "topic_specific": "solve one-step equation with parentheses",
   "exercise_title": "Solving 1 Variable Equations",
-  "notes": "Subtype Algebraic Concepts; Easy. Green only. Time 84 sec."
+  "notes": "Subtype Algebraic Concepts; Easy. Green only. Time 84 sec.",
+  "status": "done"
  },
  {
   "source_file": "Screenshot 2026-10-06 at 10.38.22 AM.png",
@@ -2769,7 +2862,8 @@
   "topic_broad": "data-analysis-graphs-tables",
   "topic_specific": "matching table data to graph",
   "exercise_title": null,
-  "notes": "Maroon marker on A (<5%), Hannah's wrong pick. Solution panel not visible, so subtype and time unknown."
+  "notes": "Maroon marker on A (<5%), Hannah's wrong pick. Solution panel not visible, so subtype and time unknown.",
+  "status": "done"
  },
  {
   "source_file": "Screenshot 2026-10-06 at 10.38.26 AM.png",
@@ -2795,7 +2889,8 @@
   "topic_broad": "patterns-sequences",
   "topic_specific": "halving sequence (geometric)",
   "exercise_title": "Nth Term, given Arithmetic Sequence, Progressive Pattern, etc.",
-  "notes": "Subtype Algebraic Concepts; Easy. Green only. Time 46 sec. Sequence is geometric (halving), not arithmetic."
+  "notes": "Subtype Algebraic Concepts; Easy. Green only. Time 46 sec. Sequence is geometric (halving), not arithmetic.",
+  "status": "done"
  },
  {
   "source_file": "Screenshot 2026-10-06 at 10.38.29 AM.png",
@@ -2821,7 +2916,8 @@
   "topic_broad": "data-analysis-graphs-tables",
   "topic_specific": "reading table values and finding difference",
   "exercise_title": "Comparing/Adding/Subtracting Bar Graph/Data Table Values",
-  "notes": "Subtype Data Analysis & Probability; Easy. Green only. Time 31 sec."
+  "notes": "Subtype Data Analysis & Probability; Easy. Green only. Time 31 sec.",
+  "status": "done"
  },
  {
   "source_file": "Screenshot 2026-10-06 at 10.38.31 AM.png",
@@ -2847,7 +2943,8 @@
   "topic_broad": "decimals",
   "topic_specific": "estimating decimal sum by rounding to tenths",
   "exercise_title": "Adding and Subtracting Decimals",
-  "notes": "Subtype Decimals, Percents, Fractions; Easy. Green only. Time 72 sec."
+  "notes": "Subtype Decimals, Percents, Fractions; Easy. Green only. Time 72 sec.",
+  "status": "done"
  },
  {
   "source_file": "Screenshot 2026-10-06 at 10.38.33 AM.png",
@@ -2873,7 +2970,8 @@
   "topic_broad": "geometry-area-perimeter",
   "topic_specific": "area of rectangle from labeled sides",
   "exercise_title": "Finding Area/Perimeter of Rectangle, given Length & Width",
-  "notes": "Subtype Measurement; Easy. Green only. Time 55 sec."
+  "notes": "Subtype Measurement; Easy. Green only. Time 55 sec.",
+  "status": "done"
  },
  {
   "source_file": "Screenshot 2026-10-06 at 10.38.35 AM.png",
@@ -2899,7 +2997,8 @@
   "topic_broad": "data-analysis-graphs-tables",
   "topic_specific": "median of data set from table",
   "exercise_title": "Finding Median, given Sets of Numbers",
-  "notes": "Subtype not visible (solution cut off). Green only. Time not visible."
+  "notes": "Subtype not visible (solution cut off). Green only. Time not visible.",
+  "status": "done"
  },
  {
   "source_file": "Screenshot 2026-10-06 at 10.38.37 AM.png",
@@ -2925,7 +3024,8 @@
   "topic_broad": "decimals",
   "topic_specific": "decimal to fraction (hundredths place)",
   "exercise_title": "Equivalent Fractions, Decimals, and Percents",
-  "notes": "Subtype Decimals, Percents, Fractions; Medium. Green only. Time 40 sec."
+  "notes": "Subtype Decimals, Percents, Fractions; Medium. Green only. Time 40 sec.",
+  "status": "done"
  },
  {
   "source_file": "Screenshot 2026-10-06 at 10.38.39 AM.png",
@@ -2951,7 +3051,8 @@
   "topic_broad": "arithmetic",
   "topic_specific": "number line point value with skip counting",
   "exercise_title": "Determining Points on Number Lines",
-  "notes": "Subtype not visible. Green only. Time not visible."
+  "notes": "Subtype not visible. Green only. Time not visible.",
+  "status": "done"
  },
  {
   "source_file": "Screenshot 2026-10-06 at 10.38.40 AM.png",
@@ -2977,7 +3078,8 @@
   "topic_broad": "geometry-angles-shapes",
   "topic_specific": "classify quadrilateral (rhombus)",
   "exercise_title": "Identifying Shapes",
-  "notes": "Subtype Geometry; Medium. Green only. Time 145 sec."
+  "notes": "Subtype Geometry; Medium. Green only. Time 145 sec.",
+  "status": "done"
  },
  {
   "source_file": "Screenshot 2026-10-06 at 10.38.42 AM.png",
@@ -3003,7 +3105,8 @@
   "topic_broad": "arithmetic",
   "topic_specific": "whole-number division word problem",
   "exercise_title": "Dividing Equally From a Total",
-  "notes": "Subtype Whole Numbers; Medium. Green only. Time 39 sec."
+  "notes": "Subtype Whole Numbers; Medium. Green only. Time 39 sec.",
+  "status": "done"
  },
  {
   "source_file": "Screenshot 2026-10-06 at 10.38.44 AM.png",
@@ -3029,7 +3132,8 @@
   "topic_broad": "number-theory-divisibility",
   "topic_specific": "classify a set of numbers (prime/odd/whole)",
   "exercise_title": "Classification of Numbers, given a Set",
-  "notes": "Subtype Whole Numbers; Medium. Green only. Time 44 sec. Solution says all listed numbers are odd, prime, and whole."
+  "notes": "Subtype Whole Numbers; Medium. Green only. Time 44 sec. Solution says all listed numbers are odd, prime, and whole.",
+  "status": "done"
  },
  {
   "source_file": "Screenshot 2026-10-06 at 10.38.45 AM.png",
@@ -3055,7 +3159,8 @@
   "topic_broad": "number-theory-divisibility",
   "topic_specific": "remainder with divisors 5 and 8 (LCM + remainder)",
   "exercise_title": "Remainder when Divided by a given Number",
-  "notes": "Maroon marker on B (38, under 5%), Hannah's wrong pick. Subtype Algebraic Concepts; Medium. Time 10 sec."
+  "notes": "Maroon marker on B (38, under 5%), Hannah's wrong pick. Subtype Algebraic Concepts; Medium. Time 10 sec.",
+  "status": "done"
  },
  {
   "source_file": "Screenshot 2026-10-06 at 10.38.47 AM.png",
@@ -3081,7 +3186,8 @@
   "topic_broad": "geometry-angles-shapes",
   "topic_specific": "read point on coordinate plane",
   "exercise_title": "Identifying Points on a Coordinate Plane",
-  "notes": "Green only. Subtype and time not visible (solution cut off)."
+  "notes": "Green only. Subtype and time not visible (solution cut off).",
+  "status": "done"
  },
  {
   "source_file": "Screenshot 2026-10-06 at 10.38.49 AM.png",
@@ -3107,7 +3213,8 @@
   "topic_broad": "fractions",
   "topic_specific": "order fractions and decimals",
   "exercise_title": "Comparing & Ordering Fractions & Decimals",
-  "notes": "Subtype Decimals, Percents, Fractions; Medium. Green only. Time 81 sec."
+  "notes": "Subtype Decimals, Percents, Fractions; Medium. Green only. Time 81 sec.",
+  "status": "done"
  },
  {
   "source_file": "Screenshot 2026-10-06 at 10.38.51 AM.png",
@@ -3133,7 +3240,8 @@
   "topic_broad": "data-analysis-graphs-tables",
   "topic_specific": "median of table column (decimals)",
   "exercise_title": "Finding MMMR, given Bar Graph/Data Table of Values",
-  "notes": "Green only. Subtype not visible. Time not visible."
+  "notes": "Green only. Subtype not visible. Time not visible.",
+  "status": "done"
  },
  {
   "source_file": "Screenshot 2026-10-06 at 10.38.52 AM.png",
@@ -3159,7 +3267,8 @@
   "topic_broad": "geometry-angles-shapes",
   "topic_specific": "fourth vertex of square on coordinate plane",
   "exercise_title": "Vertices Forming Right Angles & Quadrilaterals on a Coordinate Plane",
-  "notes": "Green only. Subtype and time not visible (solution cut off)."
+  "notes": "Green only. Subtype and time not visible (solution cut off).",
+  "status": "done"
  },
  {
   "source_file": "Screenshot 2026-10-06 at 10.38.54 AM.png",
@@ -3185,7 +3294,8 @@
   "topic_broad": "patterns-sequences",
   "topic_specific": "geometric sequence (x3), nth term",
   "exercise_title": "Nth Term, given Arithmetic Sequence, Progressive Pattern, etc.",
-  "notes": "Maroon marker on A (54, under 5%), Hannah's wrong pick. Subtype Algebraic Concepts; Hard. Time 76 sec."
+  "notes": "Maroon marker on A (54, under 5%), Hannah's wrong pick. Subtype Algebraic Concepts; Hard. Time 76 sec.",
+  "status": "done"
  },
  {
   "source_file": "Screenshot 2026-10-06 at 10.38.56 AM.png",
@@ -3211,7 +3321,8 @@
   "topic_broad": "fractions",
   "topic_specific": "add unlike fractions",
   "exercise_title": "Adding and Subtracting Fractions",
-  "notes": "Green only. Time not visible (solution panel for subtype cut off)."
+  "notes": "Green only. Time not visible (solution panel for subtype cut off).",
+  "status": "done"
  },
  {
   "source_file": "Screenshot 2026-10-06 at 10.38.57 AM.png",
@@ -3237,7 +3348,8 @@
   "topic_broad": "number-theory-divisibility",
   "topic_specific": "divisibility by 4 (last two digits)",
   "exercise_title": "Identifying Multiples",
-  "notes": "Green only. Subtype and time not visible."
+  "notes": "Green only. Subtype and time not visible.",
+  "status": "done"
  },
  {
   "source_file": "Screenshot 2026-10-06 at 10.38.59 AM.png",
@@ -3263,7 +3375,8 @@
   "topic_broad": "geometry-area-perimeter",
   "topic_specific": "perimeter of rectangle after length change",
   "exercise_title": "Perimeter",
-  "notes": "Subtype Measurement; Hard. Green only. Time 38 sec."
+  "notes": "Subtype Measurement; Hard. Green only. Time 38 sec.",
+  "status": "done"
  },
  {
   "source_file": "Screenshot 2026-10-06 at 10.39.01 AM.png",
@@ -3289,7 +3402,8 @@
   "topic_broad": "fractions",
   "topic_specific": "subtract unlike fractions (word problem)",
   "exercise_title": "Adding and Subtracting Fractions",
-  "notes": "Subtype Decimals, Percents, Fractions; Hard. Green only. Time 231 sec."
+  "notes": "Subtype Decimals, Percents, Fractions; Hard. Green only. Time 231 sec.",
+  "status": "done"
  },
  {
   "source_file": "Screenshot 2026-10-06 at 10.39.02 AM.png",
@@ -3315,7 +3429,8 @@
   "topic_broad": "word-problem-other",
   "topic_specific": "multi-step cost from price table",
   "exercise_title": "Determining Total Cost",
-  "notes": "Green only. Subtype and time not visible."
+  "notes": "Green only. Subtype and time not visible.",
+  "status": "done"
  },
  {
   "source_file": "Screenshot 2026-10-06 at 10.39.04 AM.png",
@@ -3341,7 +3456,8 @@
   "topic_broad": "arithmetic",
   "topic_specific": "multiplication word problem (whole numbers)",
   "exercise_title": null,
-  "notes": "Subtype Whole Numbers; Hard. Green only. Time 34 sec."
+  "notes": "Subtype Whole Numbers; Hard. Green only. Time 34 sec.",
+  "status": "done"
  },
  {
   "source_file": "Screenshot 2026-10-06 at 10.39.07 AM.png",
@@ -3367,7 +3483,8 @@
   "topic_broad": "probability",
   "topic_specific": "probability from table of outcomes",
   "exercise_title": "Probability of 1 Event, given a List of Items",
-  "notes": "Subtype Data Analysis & Probability; Hard. Green only. Time 55 sec."
+  "notes": "Subtype Data Analysis & Probability; Hard. Green only. Time 55 sec.",
+  "status": "done"
  },
  {
   "source_file": "Screenshot 2026-10-06 at 10.39.18 AM.png",
@@ -3393,7 +3510,8 @@
   "topic_broad": "arithmetic",
   "topic_specific": "distributive property / order of operations",
   "exercise_title": "Order of Operations and Equivalence",
-  "notes": "Subtype Whole Numbers; Hard. Green only. Time 68 sec. A 24.6% (not marked maroon)."
+  "notes": "Subtype Whole Numbers; Hard. Green only. Time 68 sec. A 24.6% (not marked maroon).",
+  "status": "done"
  },
  {
   "source_file": "Screenshot 2026-10-06 at 10.39.20 AM.png",
@@ -3419,7 +3537,8 @@
   "topic_broad": "geometry-area-perimeter",
   "topic_specific": "area of triangle (base x height / 2)",
   "exercise_title": "Area of Triangles",
-  "notes": "Subtype Measurement; Hard. Green only. Time 31 sec. D 30.5%, B 9.9%, A 6.8%."
+  "notes": "Subtype Measurement; Hard. Green only. Time 31 sec. D 30.5%, B 9.9%, A 6.8%.",
+  "status": "done"
  },
  {
   "source_file": "Screenshot 2026-10-06 at 10.39.28 AM.png",
@@ -3445,7 +3564,8 @@
   "topic_broad": "patterns-sequences",
   "topic_specific": "arithmetic sequence (+4) missing term",
   "exercise_title": "Nth Term, given Arithmetic Sequence, Progressive Pattern, etc.",
-  "notes": "Subtype Algebraic Concepts; Easy. Green only. Time 17 sec. Strip for this test read from pill row: 5, 16, 18 maroon; only this question was screenshotted."
+  "notes": "Subtype Algebraic Concepts; Easy. Green only. Time 17 sec. Strip for this test read from pill row: 5, 16, 18 maroon; only this question was screenshotted.",
+  "status": "done"
  },
  {
   "source_file": "Screenshot 2026-10-06 at 10.39.30 AM.png",
@@ -3472,7 +3592,8 @@
   "topic_specific": "place value, standard form from word form",
   "exercise_title": null,
   "is_timing_chart": false,
-  "notes": "Follow-up: Identifying Numbers, Standard Form <-> Word Form. Subtype/time not visible."
+  "notes": "Follow-up: Identifying Numbers, Standard Form <-> Word Form. Subtype/time not visible.",
+  "status": "done"
  },
  {
   "source_file": "Screenshot 2026-10-06 at 10.39.33 AM.png",
@@ -3499,7 +3620,8 @@
   "topic_specific": "reading a number line with equal intervals",
   "exercise_title": null,
   "is_timing_chart": false,
-  "notes": "Subtype Measurement, Easy; her time 39 sec (others 14 sec)."
+  "notes": "Subtype Measurement, Easy; her time 39 sec (others 14 sec).",
+  "status": "done"
  },
  {
   "source_file": "Screenshot 2026-10-06 at 10.39.35 AM.png",
@@ -3526,7 +3648,8 @@
   "topic_specific": "solving one-variable division equation",
   "exercise_title": null,
   "is_timing_chart": false,
-  "notes": "Subtype Algebraic Concepts, Easy; her time 124 sec (others 20 sec)."
+  "notes": "Subtype Algebraic Concepts, Easy; her time 124 sec (others 20 sec).",
+  "status": "done"
  },
  {
   "source_file": "Screenshot 2026-10-06 at 10.39.37 AM.png",
@@ -3553,7 +3676,8 @@
   "topic_specific": "table lookup and multi-item total cost",
   "exercise_title": null,
   "is_timing_chart": false,
-  "notes": "Maroon marker on D ($42), Hannah's wrong pick. Subtype Algebraic Concepts, Easy; her time 84 sec (others 45 sec)."
+  "notes": "Maroon marker on D ($42), Hannah's wrong pick. Subtype Algebraic Concepts, Easy; her time 84 sec (others 45 sec).",
+  "status": "done"
  },
  {
   "source_file": "Screenshot 2026-10-06 at 10.39.39 AM.png",
@@ -3580,7 +3704,8 @@
   "topic_specific": "perimeter of a square",
   "exercise_title": null,
   "is_timing_chart": false,
-  "notes": "Subtype Measurement, Easy; her time 15 sec."
+  "notes": "Subtype Measurement, Easy; her time 15 sec.",
+  "status": "done"
  },
  {
   "source_file": "Screenshot 2026-10-06 at 10.39.41 AM.png",
@@ -3607,7 +3732,8 @@
   "topic_specific": "difference between two bars in a bar graph",
   "exercise_title": null,
   "is_timing_chart": false,
-  "notes": "Bar heights are approximate readings from the image; the solution text states Meal 4 = 800 and Meal 2 = 700."
+  "notes": "Bar heights are approximate readings from the image; the solution text states Meal 4 = 800 and Meal 2 = 700.",
+  "status": "done"
  },
  {
   "source_file": "Screenshot 2026-10-06 at 10.39.43 AM.png",
@@ -3634,7 +3760,8 @@
   "topic_specific": "two-step substitution with multiplication equations",
   "exercise_title": null,
   "is_timing_chart": false,
-  "notes": "Subtype Algebraic Concepts; her time 52 sec (others 18 sec)."
+  "notes": "Subtype Algebraic Concepts; her time 52 sec (others 18 sec).",
+  "status": "done"
  },
  {
   "source_file": "Screenshot 2026-10-06 at 10.39.44 AM.png",
@@ -3661,7 +3788,8 @@
   "topic_specific": "order of operations with brackets",
   "exercise_title": null,
   "is_timing_chart": false,
-  "notes": "Subtype Whole Numbers, Easy; her time 74 sec (others 26 sec)."
+  "notes": "Subtype Whole Numbers, Easy; her time 74 sec (others 26 sec).",
+  "status": "done"
  },
  {
   "source_file": "Screenshot 2026-10-06 at 10.39.46 AM.png",
@@ -3688,7 +3816,8 @@
   "topic_specific": "reading a pictograph with a key",
   "exercise_title": null,
   "is_timing_chart": false,
-  "notes": "Solution text confirms Slice = 3 symbols (15 pizzas) and Dannio's = 2 symbols (10 pizzas). Pizza King and Italian Pie symbol counts are read from the image."
+  "notes": "Solution text confirms Slice = 3 symbols (15 pizzas) and Dannio's = 2 symbols (10 pizzas). Pizza King and Italian Pie symbol counts are read from the image.",
+  "status": "done"
  },
  {
   "source_file": "Screenshot 2026-10-06 at 10.39.48 AM.png",
@@ -3715,7 +3844,8 @@
   "topic_specific": "area of a rectangle",
   "exercise_title": null,
   "is_timing_chart": false,
-  "notes": "Follow-up: Finding Area/Perimeter of Rectangle. Subtype Measurement, Medium; her time 25 sec (others 37 sec)."
+  "notes": "Follow-up: Finding Area/Perimeter of Rectangle. Subtype Measurement, Medium; her time 25 sec (others 37 sec).",
+  "status": "done"
  },
  {
   "source_file": "Screenshot 2026-10-06 at 10.39.49 AM.png",
@@ -3742,7 +3872,8 @@
   "topic_specific": "estimating decimal subtraction by rounding",
   "exercise_title": null,
   "is_timing_chart": false,
-  "notes": "Subtype Whole Numbers, Medium; her time 67 sec (others 34 sec)."
+  "notes": "Subtype Whole Numbers, Medium; her time 67 sec (others 34 sec).",
+  "status": "done"
  },
  {
   "source_file": "Screenshot 2026-10-06 at 10.39.51 AM.png",
@@ -3769,7 +3900,8 @@
   "topic_specific": "elapsed time with a stop",
   "exercise_title": null,
   "is_timing_chart": false,
-  "notes": "Subtype Measurement, Medium; her time 44 sec (others 48 sec)."
+  "notes": "Subtype Measurement, Medium; her time 44 sec (others 48 sec).",
+  "status": "done"
  },
  {
   "source_file": "Screenshot 2026-10-06 at 10.39.53 AM.png",
@@ -3796,7 +3928,8 @@
   "topic_specific": "distributive property, equivalent expressions",
   "exercise_title": null,
   "is_timing_chart": false,
-  "notes": "Subtype Whole Numbers, Medium; her time 39 sec (others 54 sec)."
+  "notes": "Subtype Whole Numbers, Medium; her time 39 sec (others 54 sec).",
+  "status": "done"
  },
  {
   "source_file": "Screenshot 2026-10-06 at 10.39.54 AM.png",
@@ -3823,7 +3956,8 @@
   "topic_specific": "rectangle vertex on coordinate plane",
   "exercise_title": null,
   "is_timing_chart": false,
-  "notes": "Follow-up: Vertices Forming Right Angles & Quadrilaterals on a Coordinate Plane. Subtype/time not visible."
+  "notes": "Follow-up: Vertices Forming Right Angles & Quadrilaterals on a Coordinate Plane. Subtype/time not visible.",
+  "status": "done"
  },
  {
   "source_file": "Screenshot 2026-10-06 at 10.39.56 AM.png",
@@ -3850,7 +3984,8 @@
   "topic_specific": "comparing a fraction to a decimal",
   "exercise_title": null,
   "is_timing_chart": false,
-  "notes": "Maroon marker on C (2/5), Hannah's wrong pick. Follow-up: Comparing & Ordering Fractions & Decimals."
+  "notes": "Maroon marker on C (2/5), Hannah's wrong pick. Follow-up: Comparing & Ordering Fractions & Decimals.",
+  "status": "done"
  },
  {
   "source_file": "Screenshot 2026-10-06 at 10.39.58 AM.png",
@@ -3877,7 +4012,8 @@
   "topic_specific": "median of a data set",
   "exercise_title": null,
   "is_timing_chart": false,
-  "notes": "Subtype Data Analysis & Probability, Medium; her time 21 sec (others 43 sec)."
+  "notes": "Subtype Data Analysis & Probability, Medium; her time 21 sec (others 43 sec).",
+  "status": "done"
  },
  {
   "source_file": "Screenshot 2026-10-06 at 10.40.00 AM.png",
@@ -3904,7 +4040,8 @@
   "topic_specific": "adding decimals with different place values",
   "exercise_title": null,
   "is_timing_chart": false,
-  "notes": "Maroon marker on B (7.30), Hannah's wrong pick. Follow-up: Adding and Subtracting Decimals. Subtype Decimals, Percents, Fractions, Medium; her time 17 sec (others 20 sec)."
+  "notes": "Maroon marker on B (7.30), Hannah's wrong pick. Follow-up: Adding and Subtracting Decimals. Subtype Decimals, Percents, Fractions, Medium; her time 17 sec (others 20 sec).",
+  "status": "done"
  },
  {
   "source_file": "Screenshot 2026-10-06 at 10.40.01 AM.png",
@@ -3931,7 +4068,8 @@
   "topic_specific": "distributive property",
   "exercise_title": null,
   "is_timing_chart": false,
-  "notes": "Follow-up: Identifying Number Properties. Subtype/time not visible."
+  "notes": "Follow-up: Identifying Number Properties. Subtype/time not visible.",
+  "status": "done"
  },
  {
   "source_file": "Screenshot 2026-10-06 at 10.40.04 AM.png",
@@ -3958,7 +4096,8 @@
   "topic_specific": "fraction between two fractions",
   "exercise_title": null,
   "is_timing_chart": false,
-  "notes": "Follow-up: Comparing & Ordering Fractions & Decimals. Subtype/time not visible."
+  "notes": "Follow-up: Comparing & Ordering Fractions & Decimals. Subtype/time not visible.",
+  "status": "done"
  },
  {
   "source_file": "Screenshot 2026-10-06 at 10.40.07 AM.png",
@@ -3985,7 +4124,8 @@
   "topic_specific": "adding unlike fractions",
   "exercise_title": null,
   "is_timing_chart": false,
-  "notes": "Follow-up: Adding and Subtracting Fractions. Subtype/time not visible."
+  "notes": "Follow-up: Adding and Subtracting Fractions. Subtype/time not visible.",
+  "status": "done"
  },
  {
   "source_file": "Screenshot 2026-10-06 at 10.40.09 AM.png",
@@ -4012,7 +4152,8 @@
   "topic_specific": "table lookup and comparing two total costs",
   "exercise_title": null,
   "is_timing_chart": false,
-  "notes": "Solution: weekend total $42, matinee total $33, difference $9. Subtype/time not visible."
+  "notes": "Solution: weekend total $42, matinee total $33, difference $9. Subtype/time not visible.",
+  "status": "done"
  },
  {
   "source_file": "Screenshot 2026-10-06 at 10.40.11 AM.png",
@@ -4039,7 +4180,8 @@
   "topic_specific": "subtracting mixed numbers with regrouping",
   "exercise_title": null,
   "is_timing_chart": false,
-  "notes": "Follow-up: Adding and Subtracting Mixed Numbers. Subtype Decimals, Percents, Fractions, Hard; her time 31 sec (others 40 sec)."
+  "notes": "Follow-up: Adding and Subtracting Mixed Numbers. Subtype Decimals, Percents, Fractions, Hard; her time 31 sec (others 40 sec).",
+  "status": "done"
  },
  {
   "source_file": "Screenshot 2026-10-06 at 10.40.12 AM.png",
@@ -4066,7 +4208,8 @@
   "topic_specific": "median from a bar graph",
   "exercise_title": null,
   "is_timing_chart": false,
-  "notes": "Solution lists sorted values 20, 20, 30, 40, 50, 60, 100 (median 40). Bar values are approximate readings from the image. Subtype Data Analysis & Probability, Hard; her time 123 sec (others 60 sec)."
+  "notes": "Solution lists sorted values 20, 20, 30, 40, 50, 60, 100 (median 40). Bar values are approximate readings from the image. Subtype Data Analysis & Probability, Hard; her time 123 sec (others 60 sec).",
+  "status": "done"
  },
  {
   "source_file": "Screenshot 2026-10-06 at 10.40.14 AM.png",
@@ -4093,7 +4236,8 @@
   "topic_specific": "estimating division with money",
   "exercise_title": null,
   "is_timing_chart": false,
-  "notes": "Subtype Decimals, Percents, Fractions, Hard; her time 56 sec (others 32 sec)."
+  "notes": "Subtype Decimals, Percents, Fractions, Hard; her time 56 sec (others 32 sec).",
+  "status": "done"
  },
  {
   "source_file": "Screenshot 2026-10-06 at 10.40.16 AM.png",
@@ -4120,7 +4264,8 @@
   "topic_specific": "range of a data set",
   "exercise_title": null,
   "is_timing_chart": false,
-  "notes": "Follow-up: Finding Range, given Sets of Numbers, Data Tables or Graphs. Subtype Data Analysis & Probability, Hard; her time 18 sec (others 22 sec)."
+  "notes": "Follow-up: Finding Range, given Sets of Numbers, Data Tables or Graphs. Subtype Data Analysis & Probability, Hard; her time 18 sec (others 22 sec).",
+  "status": "done"
  },
  {
   "source_file": "Screenshot 2026-10-06 at 10.40.18 AM.png",
@@ -4147,7 +4292,8 @@
   "topic_specific": "estimating a fraction of a group",
   "exercise_title": null,
   "is_timing_chart": false,
-  "notes": "Solution: 19 rounds to 20, 4 groups of 5, 4 x 3 = 12. Follow-up: Estimating Multiplication & Division. Subtype Decimals, Percents, Fractions, Hard; her time 26 sec (others 40 sec)."
+  "notes": "Solution: 19 rounds to 20, 4 groups of 5, 4 x 3 = 12. Follow-up: Estimating Multiplication & Division. Subtype Decimals, Percents, Fractions, Hard; her time 26 sec (others 40 sec).",
+  "status": "done"
  },
  {
   "source_file": "Screenshot 2026-10-06 at 10.40.20 AM.png",
@@ -4174,7 +4320,8 @@
   "topic_specific": "classifying triangles by sides",
   "exercise_title": null,
   "is_timing_chart": false,
-  "notes": "Follow-up: Identifying Shapes. Subtype Geometry, Hard; her time 8 sec (others 19 sec)."
+  "notes": "Follow-up: Identifying Shapes. Subtype Geometry, Hard; her time 8 sec (others 19 sec).",
+  "status": "done"
  },
  {
   "source_file": "Screenshot 2026-10-06 at 10.40.22 AM.png",
@@ -4201,7 +4348,8 @@
   "topic_specific": "perimeter equation for a missing side",
   "exercise_title": null,
   "is_timing_chart": false,
-  "notes": "Follow-up: Finding Missing Side Length. Subtype Algebraic Concepts, Hard; her time 21 sec (others 58 sec)."
+  "notes": "Follow-up: Finding Missing Side Length. Subtype Algebraic Concepts, Hard; her time 21 sec (others 58 sec).",
+  "status": "done"
  },
  {
   "source_file": "Screenshot 2026-10-06 at 10.40.24 AM.png",
@@ -4228,7 +4376,8 @@
   "topic_specific": "part-whole fraction written as a decimal",
   "exercise_title": null,
   "is_timing_chart": false,
-  "notes": "Solution: 2/10 = 0.2. Follow-up: Equivalent Fractions, Decimals, and Percents. Subtype Decimals, Percents, Fractions, Hard; her time 31 sec (others 33 sec)."
+  "notes": "Solution: 2/10 = 0.2. Follow-up: Equivalent Fractions, Decimals, and Percents. Subtype Decimals, Percents, Fractions, Hard; her time 31 sec (others 33 sec).",
+  "status": "done"
  },
  {
   "source_file": "Screenshot 2026-10-06 at 10.41.14 AM.png",
@@ -4337,5 +4486,1860 @@
   "exercise_title": null,
   "is_timing_chart": true,
   "notes": "Completed on 08/30/2026. Difficulty: Easy 9/1, Medium 9/1, Hard 3/7 (21 correct, 9 incorrect). Subtypes: Algebraic Concepts 3/3, Data Analysis 2/1, Decimals Percents Fractions 6/1, Geometry 1/1, Measurement 4/1, Whole Numbers 5/2. Individual wrong question numbers are not reliably readable from this chart (small red marks overlap), so none are confirmed. No tooltip text visible."
+ },
+ {
+  "source_file": "Screenshot 2026-10-06 at 3.07.17 PM.png",
+  "exercise_title": "not an exercise",
+  "question_number": null,
+  "question_text": "unclear",
+  "diagram_description": "Screenshot of a PowerPoint window titled 'Timeline diagram for SCC Add' showing a timeline/Gantt-style diagram with slide thumbnails. Not an ISEE Math exercise.",
+  "choices": [],
+  "correct_letter": null,
+  "correct_pct": null,
+  "is_wrong": null,
+  "strip_wrong": [],
+  "topic_broad": null,
+  "topic_specific": null,
+  "notes": "Off-topic screenshot (PowerPoint, not a test-bank item). Excluded from exercise counts. Probably should be removed from the batch.",
+  "type": "question",
+  "source": "ma_exercise_screenshot",
+  "set_name": "not an exercise",
+  "status": "not_done"
+ },
+ {
+  "source_file": "Screenshot 2026-10-06 at 6.13.07 PM.png",
+  "exercise_title": "Identifying Multiples #1",
+  "question_number": 1,
+  "question_text": "Which number is NOT a multiple of 3?",
+  "diagram_description": "none (text-only question)",
+  "choices": [
+   {
+    "letter": "A",
+    "text": "92"
+   },
+   {
+    "letter": "B",
+    "text": "123"
+   },
+   {
+    "letter": "C",
+    "text": "144"
+   },
+   {
+    "letter": "D",
+    "text": "162"
+   }
+  ],
+  "correct_letter": null,
+  "correct_pct": null,
+  "is_wrong": null,
+  "strip_wrong": [],
+  "topic_broad": "number-theory-divisibility",
+  "topic_specific": "multiples of a given number (identify non-multiple)",
+  "notes": "Header shows 'IDENTIFYING MULTIPLES #1'. No green or maroon marker. Gray x marks beside choices are elimination toggles, not correctness marks. My check: 92 is the only non-multiple of 3, so A would be the answer.",
+  "type": "question",
+  "source": "ma_exercise_screenshot",
+  "set_name": "Identifying Multiples #1",
+  "status": "not_done"
+ },
+ {
+  "source_file": "Screenshot 2026-10-06 at 6.13.11 PM.png",
+  "exercise_title": "Identifying Multiples #1",
+  "question_number": 2,
+  "question_text": "Which number is NOT a multiple of 3?",
+  "diagram_description": "none (text-only question)",
+  "choices": [
+   {
+    "letter": "A",
+    "text": "57"
+   },
+   {
+    "letter": "B",
+    "text": "93"
+   },
+   {
+    "letter": "C",
+    "text": "135"
+   },
+   {
+    "letter": "D",
+    "text": "157"
+   }
+  ],
+  "correct_letter": null,
+  "correct_pct": null,
+  "is_wrong": null,
+  "strip_wrong": [],
+  "topic_broad": "number-theory-divisibility",
+  "topic_specific": "multiples of a given number (identify non-multiple)",
+  "notes": "Header shows 'IDENTIFYING MULTIPLES #1'. No green or maroon marker. My check: 157 is the only non-multiple of 3, so D would be the answer.",
+  "type": "question",
+  "source": "ma_exercise_screenshot",
+  "set_name": "Identifying Multiples #1",
+  "status": "not_done"
+ },
+ {
+  "source_file": "Screenshot 2026-10-06 at 6.13.15 PM.png",
+  "exercise_title": "Identifying Multiples #1",
+  "question_number": 3,
+  "question_text": "Which number is NOT a multiple of 4?",
+  "diagram_description": "none (text-only question)",
+  "choices": [
+   {
+    "letter": "A",
+    "text": "44"
+   },
+   {
+    "letter": "B",
+    "text": "104"
+   },
+   {
+    "letter": "C",
+    "text": "134"
+   },
+   {
+    "letter": "D",
+    "text": "164"
+   }
+  ],
+  "correct_letter": null,
+  "correct_pct": null,
+  "is_wrong": null,
+  "strip_wrong": [],
+  "topic_broad": "number-theory-divisibility",
+  "topic_specific": "multiples of a given number (identify non-multiple)",
+  "notes": "Header shows 'IDENTIFYING MULTIPLES #1'. No green or maroon marker. My check: 134 is the only non-multiple of 4, so C would be the answer.",
+  "type": "question",
+  "source": "ma_exercise_screenshot",
+  "set_name": "Identifying Multiples #1",
+  "status": "not_done"
+ },
+ {
+  "source_file": "Screenshot 2026-10-06 at 6.13.19 PM.png",
+  "exercise_title": "Identifying Multiples #1",
+  "question_number": 4,
+  "question_text": "Which number is NOT a multiple of 4?",
+  "diagram_description": "none (text-only question)",
+  "choices": [
+   {
+    "letter": "A",
+    "text": "108"
+   },
+   {
+    "letter": "B",
+    "text": "126"
+   },
+   {
+    "letter": "C",
+    "text": "256"
+   },
+   {
+    "letter": "D",
+    "text": "288"
+   }
+  ],
+  "correct_letter": null,
+  "correct_pct": null,
+  "is_wrong": null,
+  "strip_wrong": [],
+  "topic_broad": "number-theory-divisibility",
+  "topic_specific": "multiples of a given number (identify non-multiple)",
+  "notes": "Header shows 'IDENTIFYING MULTIPLES #1'. No green or maroon marker. My check: 126 is the only non-multiple of 4, so B would be the answer.",
+  "type": "question",
+  "source": "ma_exercise_screenshot",
+  "set_name": "Identifying Multiples #1",
+  "status": "not_done"
+ },
+ {
+  "source_file": "Screenshot 2026-10-06 at 6.13.29 PM.png",
+  "exercise_title": "Identifying Multiples #1",
+  "question_number": 5,
+  "question_text": "Which number is NOT a multiple of 6?",
+  "diagram_description": "none (text-only question)",
+  "choices": [
+   {
+    "letter": "A",
+    "text": "92"
+   },
+   {
+    "letter": "B",
+    "text": "114"
+   },
+   {
+    "letter": "C",
+    "text": "144"
+   },
+   {
+    "letter": "D",
+    "text": "162"
+   }
+  ],
+  "correct_letter": null,
+  "correct_pct": null,
+  "is_wrong": null,
+  "strip_wrong": [],
+  "topic_broad": "number-theory-divisibility",
+  "topic_specific": "multiples of a given number (identify non-multiple)",
+  "notes": "Header shows 'IDENTIFYING MULTIPLES #1'. No green or maroon marker. My check: 92 is the only non-multiple of 6, so A would be the answer.",
+  "type": "question",
+  "source": "ma_exercise_screenshot",
+  "set_name": "Identifying Multiples #1",
+  "status": "not_done"
+ },
+ {
+  "source_file": "Screenshot 2026-10-06 at 6.13.51 PM.png",
+  "exercise_title": "Identifying Multiples #2",
+  "question_number": 1,
+  "question_text": "Which number is NOT a multiple of 6?",
+  "diagram_description": "none (text-only question)",
+  "choices": [
+   {
+    "letter": "A",
+    "text": "72"
+   },
+   {
+    "letter": "B",
+    "text": "112"
+   },
+   {
+    "letter": "C",
+    "text": "132"
+   },
+   {
+    "letter": "D",
+    "text": "156"
+   }
+  ],
+  "correct_letter": null,
+  "correct_pct": null,
+  "is_wrong": null,
+  "strip_wrong": [],
+  "topic_broad": "number-theory-divisibility",
+  "topic_specific": "multiples of a given number (identify non-multiple)",
+  "notes": "Header shows 'IDENTIFYING MULTIPLES #2'. No green or maroon marker. My check: 112 is the only non-multiple of 6, so B would be the answer.",
+  "type": "question",
+  "source": "ma_exercise_screenshot",
+  "set_name": "Identifying Multiples #2",
+  "status": "not_done"
+ },
+ {
+  "source_file": "Screenshot 2026-10-06 at 6.13.55 PM.png",
+  "exercise_title": "Identifying Multiples #2",
+  "question_number": 2,
+  "question_text": "Which number is NOT a multiple of 8?",
+  "diagram_description": "none (text-only question)",
+  "choices": [
+   {
+    "letter": "A",
+    "text": "108"
+   },
+   {
+    "letter": "B",
+    "text": "136"
+   },
+   {
+    "letter": "C",
+    "text": "144"
+   },
+   {
+    "letter": "D",
+    "text": "192"
+   }
+  ],
+  "correct_letter": null,
+  "correct_pct": null,
+  "is_wrong": null,
+  "strip_wrong": [],
+  "topic_broad": "number-theory-divisibility",
+  "topic_specific": "multiples of a given number (identify non-multiple)",
+  "notes": "Header shows 'IDENTIFYING MULTIPLES #2'. No green or maroon marker. My check: 108 is the only non-multiple of 8, so A would be the answer.",
+  "type": "question",
+  "source": "ma_exercise_screenshot",
+  "set_name": "Identifying Multiples #2",
+  "status": "not_done"
+ },
+ {
+  "source_file": "Screenshot 2026-10-06 at 6.13.59 PM.png",
+  "exercise_title": "Identifying Multiples #2",
+  "question_number": 3,
+  "question_text": "Which number is NOT a multiple of 9?",
+  "diagram_description": "none (text-only question)",
+  "choices": [
+   {
+    "letter": "A",
+    "text": "81"
+   },
+   {
+    "letter": "B",
+    "text": "135"
+   },
+   {
+    "letter": "C",
+    "text": "144"
+   },
+   {
+    "letter": "D",
+    "text": "164"
+   }
+  ],
+  "correct_letter": null,
+  "correct_pct": null,
+  "is_wrong": null,
+  "strip_wrong": [],
+  "topic_broad": "number-theory-divisibility",
+  "topic_specific": "multiples of a given number (identify non-multiple)",
+  "notes": "Header shows 'IDENTIFYING MULTIPLES #2'. No green or maroon marker. My check: 164 is the only non-multiple of 9, so D would be the answer.",
+  "type": "question",
+  "source": "ma_exercise_screenshot",
+  "set_name": "Identifying Multiples #2",
+  "status": "not_done"
+ },
+ {
+  "source_file": "Screenshot 2026-10-06 at 6.14.03 PM.png",
+  "exercise_title": "Identifying Multiples #2",
+  "question_number": 4,
+  "question_text": "Which number is NOT a multiple of 7?",
+  "diagram_description": "none (text-only question)",
+  "choices": [
+   {
+    "letter": "A",
+    "text": "84"
+   },
+   {
+    "letter": "B",
+    "text": "105"
+   },
+   {
+    "letter": "C",
+    "text": "117"
+   },
+   {
+    "letter": "D",
+    "text": "126"
+   }
+  ],
+  "correct_letter": null,
+  "correct_pct": null,
+  "is_wrong": null,
+  "strip_wrong": [],
+  "topic_broad": "number-theory-divisibility",
+  "topic_specific": "multiples of a given number (identify non-multiple)",
+  "notes": "Header shows 'IDENTIFYING MULTIPLES #2'. No green or maroon marker. My check: 117 is the only non-multiple of 7, so C would be the answer.",
+  "type": "question",
+  "source": "ma_exercise_screenshot",
+  "set_name": "Identifying Multiples #2",
+  "status": "not_done"
+ },
+ {
+  "source_file": "Screenshot 2026-10-06 at 6.14.06 PM.png",
+  "exercise_title": "Identifying Multiples #2",
+  "question_number": 5,
+  "question_text": "Which number is NOT a multiple of 12?",
+  "diagram_description": "none (text-only question)",
+  "choices": [
+   {
+    "letter": "A",
+    "text": "96"
+   },
+   {
+    "letter": "B",
+    "text": "124"
+   },
+   {
+    "letter": "C",
+    "text": "144"
+   },
+   {
+    "letter": "D",
+    "text": "156"
+   }
+  ],
+  "correct_letter": null,
+  "correct_pct": null,
+  "is_wrong": null,
+  "strip_wrong": [],
+  "topic_broad": "number-theory-divisibility",
+  "topic_specific": "multiples of a given number (identify non-multiple)",
+  "notes": "Header shows 'IDENTIFYING MULTIPLES #2'. No green or maroon marker. My check: 124 is the only non-multiple of 12, so B would be the answer.",
+  "type": "question",
+  "source": "ma_exercise_screenshot",
+  "set_name": "Identifying Multiples #2",
+  "status": "not_done"
+ },
+ {
+  "source_file": "Screenshot 2026-10-06 at 6.14.56 PM.png",
+  "exercise_title": "No Remainder when Divided by two given Numbers #2",
+  "question_number": 1,
+  "question_text": "If x can be divided by both 7 and 10 without leaving a remainder, then x can also be divided by which number without leaving a remainder?",
+  "diagram_description": "none (text-only question)",
+  "choices": [
+   {
+    "letter": "A",
+    "text": "60"
+   },
+   {
+    "letter": "B",
+    "text": "70"
+   },
+   {
+    "letter": "C",
+    "text": "84"
+   },
+   {
+    "letter": "D",
+    "text": "100"
+   }
+  ],
+  "correct_letter": null,
+  "correct_pct": null,
+  "is_wrong": null,
+  "strip_wrong": [],
+  "topic_broad": "number-theory-divisibility",
+  "topic_specific": "divisibility by two numbers (LCM of given divisors)",
+  "notes": "Header shows 'NO REMAINDER WHEN DIVIDED BY TWO GIVEN NUMBERS #2'. No green or maroon marker. My check: LCM(7,10)=70, so B is the only choice that must divide x.",
+  "type": "question",
+  "source": "ma_exercise_screenshot",
+  "set_name": "No Remainder when Divided by two given Numbers #2",
+  "status": "not_done"
+ },
+ {
+  "source_file": "Screenshot 2026-10-06 at 6.15.00 PM.png",
+  "exercise_title": "No Remainder when Divided by two given Numbers #2",
+  "question_number": 2,
+  "question_text": "If x can be divided by both 5 and 9 without leaving a remainder, then x can also be divided by which number without leaving a remainder?",
+  "diagram_description": "none (text-only question)",
+  "choices": [
+   {
+    "letter": "A",
+    "text": "15"
+   },
+   {
+    "letter": "B",
+    "text": "25"
+   },
+   {
+    "letter": "C",
+    "text": "36"
+   },
+   {
+    "letter": "D",
+    "text": "45"
+   }
+  ],
+  "correct_letter": null,
+  "correct_pct": null,
+  "is_wrong": null,
+  "strip_wrong": [],
+  "topic_broad": "number-theory-divisibility",
+  "topic_specific": "divisibility by two numbers (LCM of given divisors)",
+  "notes": "Header shows 'NO REMAINDER WHEN DIVIDED BY TWO GIVEN NUMBERS #2'. No green or maroon marker. My check: LCM(5,9)=45. Both A (15) and D (45) divide every multiple of 45, so this item may have two defensible answers. Flag for review.",
+  "type": "question",
+  "source": "ma_exercise_screenshot",
+  "set_name": "No Remainder when Divided by two given Numbers #2",
+  "status": "not_done"
+ },
+ {
+  "source_file": "Screenshot 2026-10-06 at 6.15.02 PM.png",
+  "exercise_title": "No Remainder when Divided by two given Numbers #2",
+  "question_number": 3,
+  "question_text": "If x can be divided by both 5 and 7 without leaving a remainder, then x can also be divided by which number without leaving a remainder?",
+  "diagram_description": "none (text-only question)",
+  "choices": [
+   {
+    "letter": "A",
+    "text": "25"
+   },
+   {
+    "letter": "B",
+    "text": "30"
+   },
+   {
+    "letter": "C",
+    "text": "34"
+   },
+   {
+    "letter": "D",
+    "text": "35"
+   }
+  ],
+  "correct_letter": null,
+  "correct_pct": null,
+  "is_wrong": null,
+  "strip_wrong": [],
+  "topic_broad": "number-theory-divisibility",
+  "topic_specific": "divisibility by two numbers (LCM of given divisors)",
+  "notes": "Header shows 'NO REMAINDER WHEN DIVIDED BY TWO GIVEN NUMBERS #2'. No green or maroon marker. My check: LCM(5,7)=35, so D is the answer.",
+  "type": "question",
+  "source": "ma_exercise_screenshot",
+  "set_name": "No Remainder when Divided by two given Numbers #2",
+  "status": "not_done"
+ },
+ {
+  "source_file": "Screenshot 2026-10-06 at 6.15.08 PM.png",
+  "exercise_title": "No Remainder when Divided by two given Numbers #2",
+  "question_number": 4,
+  "question_text": "If x can be divided by both 8 and 10 without leaving a remainder, then x can also be divided by which number without leaving a remainder?",
+  "diagram_description": "none (text-only question)",
+  "choices": [
+   {
+    "letter": "A",
+    "text": "30"
+   },
+   {
+    "letter": "B",
+    "text": "32"
+   },
+   {
+    "letter": "C",
+    "text": "35"
+   },
+   {
+    "letter": "D",
+    "text": "40"
+   }
+  ],
+  "correct_letter": null,
+  "correct_pct": null,
+  "is_wrong": null,
+  "strip_wrong": [],
+  "topic_broad": "number-theory-divisibility",
+  "topic_specific": "divisibility by two numbers (LCM of given divisors)",
+  "notes": "Header shows 'NO REMAINDER WHEN DIVIDED BY TWO GIVEN NUMBERS #2'. No green or maroon marker. My check: LCM(8,10)=40, so D is the answer.",
+  "type": "question",
+  "source": "ma_exercise_screenshot",
+  "set_name": "No Remainder when Divided by two given Numbers #2",
+  "status": "not_done"
+ },
+ {
+  "source_file": "Screenshot 2026-10-06 at 6.15.12 PM.png",
+  "exercise_title": "No Remainder when Divided by two given Numbers #2",
+  "question_number": 5,
+  "question_text": "If x can be divided by both 5 and 13 without leaving a remainder, then x can also be divided by which number without leaving a remainder?",
+  "diagram_description": "none (text-only question)",
+  "choices": [
+   {
+    "letter": "A",
+    "text": "25"
+   },
+   {
+    "letter": "B",
+    "text": "65"
+   },
+   {
+    "letter": "C",
+    "text": "75"
+   },
+   {
+    "letter": "D",
+    "text": "81"
+   }
+  ],
+  "correct_letter": null,
+  "correct_pct": null,
+  "is_wrong": null,
+  "strip_wrong": [],
+  "topic_broad": "number-theory-divisibility",
+  "topic_specific": "divisibility by two numbers (LCM of given divisors)",
+  "notes": "Header shows 'NO REMAINDER WHEN DIVIDED BY TWO GIVEN NUMBERS #2'. No green or maroon marker. My check: LCM(5,13)=65, so B is the answer.",
+  "type": "question",
+  "source": "ma_exercise_screenshot",
+  "set_name": "No Remainder when Divided by two given Numbers #2",
+  "status": "not_done"
+ },
+ {
+  "source_file": "Screenshot 2026-10-06 at 6.15.56 PM.png",
+  "exercise_title": "Remainder when Divided by a given Number",
+  "question_number": 1,
+  "question_text": "Which expression results in a remainder of 3?",
+  "diagram_description": "none (text-only question; choices are division expressions)",
+  "choices": [
+   {
+    "letter": "A",
+    "text": "22 \u00f7 4"
+   },
+   {
+    "letter": "B",
+    "text": "23 \u00f7 4"
+   },
+   {
+    "letter": "C",
+    "text": "24 \u00f7 4"
+   },
+   {
+    "letter": "D",
+    "text": "25 \u00f7 4"
+   }
+  ],
+  "correct_letter": null,
+  "correct_pct": null,
+  "is_wrong": null,
+  "strip_wrong": [],
+  "topic_broad": "number-theory-divisibility",
+  "topic_specific": "remainder when divided by a given number",
+  "notes": "Header shows 'REMAINDER WHEN DIVIDED BY A GIVEN NUMBER'. No green or maroon marker. My check: 23 = 4*5 + 3, so B is the answer.",
+  "type": "question",
+  "source": "ma_exercise_screenshot",
+  "set_name": "Remainder when Divided by a given Number",
+  "status": "not_done"
+ },
+ {
+  "source_file": "Screenshot 2026-10-06 at 6.16.00 PM.png",
+  "exercise_title": "Remainder when Divided by a given Number",
+  "question_number": 2,
+  "question_text": "Which expression results in a remainder of 6?",
+  "diagram_description": "none (text-only question; choices are division expressions)",
+  "choices": [
+   {
+    "letter": "A",
+    "text": "84 \u00f7 9"
+   },
+   {
+    "letter": "B",
+    "text": "85 \u00f7 9"
+   },
+   {
+    "letter": "C",
+    "text": "86 \u00f7 9"
+   },
+   {
+    "letter": "D",
+    "text": "87 \u00f7 9"
+   }
+  ],
+  "correct_letter": null,
+  "correct_pct": null,
+  "is_wrong": null,
+  "strip_wrong": [],
+  "topic_broad": "number-theory-divisibility",
+  "topic_specific": "remainder when divided by a given number",
+  "notes": "Header shows 'REMAINDER WHEN DIVIDED BY A GIVEN NUMBER'. No green or maroon marker. My check: 87 = 9*9 + 6, so D is the answer.",
+  "type": "question",
+  "source": "ma_exercise_screenshot",
+  "set_name": "Remainder when Divided by a given Number",
+  "status": "not_done"
+ },
+ {
+  "source_file": "Screenshot 2026-10-06 at 6.16.05 PM.png",
+  "exercise_title": "Remainder when Divided by a given Number",
+  "question_number": 3,
+  "question_text": "Which expression results in a remainder of 5?",
+  "diagram_description": "none (text-only question; choices are division expressions)",
+  "choices": [
+   {
+    "letter": "A",
+    "text": "32 \u00f7 6"
+   },
+   {
+    "letter": "B",
+    "text": "33 \u00f7 6"
+   },
+   {
+    "letter": "C",
+    "text": "34 \u00f7 6"
+   },
+   {
+    "letter": "D",
+    "text": "35 \u00f7 6"
+   }
+  ],
+  "correct_letter": null,
+  "correct_pct": null,
+  "is_wrong": null,
+  "strip_wrong": [],
+  "topic_broad": "number-theory-divisibility",
+  "topic_specific": "remainder when divided by a given number",
+  "notes": "Header shows 'REMAINDER WHEN DIVIDED BY A GIVEN NUMBER'. No green or maroon marker. My check: 35 = 6*5 + 5, so D is the answer.",
+  "type": "question",
+  "source": "ma_exercise_screenshot",
+  "set_name": "Remainder when Divided by a given Number",
+  "status": "not_done"
+ },
+ {
+  "source_file": "Screenshot 2026-10-06 at 6.16.08 PM.png",
+  "exercise_title": "Remainder when Divided by a given Number",
+  "question_number": 4,
+  "question_text": "Which expression results in a remainder of 2?",
+  "diagram_description": "none (text-only question; choices are division expressions)",
+  "choices": [
+   {
+    "letter": "A",
+    "text": "22 \u00f7 3"
+   },
+   {
+    "letter": "B",
+    "text": "23 \u00f7 3"
+   },
+   {
+    "letter": "C",
+    "text": "24 \u00f7 3"
+   },
+   {
+    "letter": "D",
+    "text": "25 \u00f7 3"
+   }
+  ],
+  "correct_letter": null,
+  "correct_pct": null,
+  "is_wrong": null,
+  "strip_wrong": [],
+  "topic_broad": "number-theory-divisibility",
+  "topic_specific": "remainder when divided by a given number",
+  "notes": "Header shows 'REMAINDER WHEN DIVIDED BY A GIVEN NUMBER'. No green or maroon marker. My check: 23 = 3*7 + 2, so B is the answer.",
+  "type": "question",
+  "source": "ma_exercise_screenshot",
+  "set_name": "Remainder when Divided by a given Number",
+  "status": "not_done"
+ },
+ {
+  "source_file": "Screenshot 2026-10-06 at 6.16.12 PM.png",
+  "exercise_title": "Remainder when Divided by a given Number",
+  "question_number": 5,
+  "question_text": "Which expression results in a remainder of 7?",
+  "diagram_description": "none (text-only question; choices are division expressions)",
+  "choices": [
+   {
+    "letter": "A",
+    "text": "86 \u00f7 9"
+   },
+   {
+    "letter": "B",
+    "text": "87 \u00f7 9"
+   },
+   {
+    "letter": "C",
+    "text": "88 \u00f7 9"
+   },
+   {
+    "letter": "D",
+    "text": "89 \u00f7 9"
+   }
+  ],
+  "correct_letter": null,
+  "correct_pct": null,
+  "is_wrong": null,
+  "strip_wrong": [],
+  "topic_broad": "number-theory-divisibility",
+  "topic_specific": "remainder when divided by a given number",
+  "notes": "Header shows 'REMAINDER WHEN DIVIDED BY A GIVEN NUMBER'. No green or maroon marker. My check: 88 = 9*9 + 7, so C is the answer.",
+  "type": "question",
+  "source": "ma_exercise_screenshot",
+  "set_name": "Remainder when Divided by a given Number",
+  "status": "not_done"
+ },
+ {
+  "source_file": "Screenshot 2026-10-06 at 6.17.15 PM.png",
+  "exercise_title": "Finding Median, given Sets of Numbers #1",
+  "question_number": 1,
+  "question_text": "What is the median of the data set?",
+  "diagram_description": "No figure. The data set is displayed centered beneath the question: 12, 14, 14, 15, 17, 18, 18, 19, 19, 21, 22, 23, 23 (13 values).",
+  "choices": [
+   {
+    "letter": "A",
+    "text": "17"
+   },
+   {
+    "letter": "B",
+    "text": "17.5"
+   },
+   {
+    "letter": "C",
+    "text": "18"
+   },
+   {
+    "letter": "D",
+    "text": "18.5"
+   }
+  ],
+  "correct_letter": null,
+  "correct_pct": null,
+  "is_wrong": null,
+  "strip_wrong": [],
+  "topic_broad": "data-analysis-graphs-tables",
+  "topic_specific": "median of a data set",
+  "notes": "Header shows 'FINDING MEDIAN, GIVEN SETS OF NUMBERS #1'. No green or maroon marker. My check: 13 values, 7th value is 18, so C is the answer.",
+  "type": "question",
+  "source": "ma_exercise_screenshot",
+  "set_name": "Finding Median, given Sets of Numbers #1",
+  "status": "not_done"
+ },
+ {
+  "source_file": "Screenshot 2026-10-06 at 6.17.19 PM.png",
+  "exercise_title": "Finding Median, given Sets of Numbers #1",
+  "question_number": 2,
+  "question_text": "What is the median of the data set?",
+  "diagram_description": "No figure. The data set is displayed centered beneath the question: 20, 20, 20, 21, 21, 21, 23, 23, 23, 24, 24, 24 (12 values).",
+  "choices": [
+   {
+    "letter": "A",
+    "text": "20"
+   },
+   {
+    "letter": "B",
+    "text": "21"
+   },
+   {
+    "letter": "C",
+    "text": "22"
+   },
+   {
+    "letter": "D",
+    "text": "23"
+   }
+  ],
+  "correct_letter": null,
+  "correct_pct": null,
+  "is_wrong": null,
+  "strip_wrong": [],
+  "topic_broad": "data-analysis-graphs-tables",
+  "topic_specific": "median of a data set",
+  "notes": "Header shows 'FINDING MEDIAN, GIVEN SETS OF NUMBERS #1'. No green or maroon marker. My check: 12 values, 6th and 7th are 21 and 23, median 22, so C is the answer.",
+  "type": "question",
+  "source": "ma_exercise_screenshot",
+  "set_name": "Finding Median, given Sets of Numbers #1",
+  "status": "not_done"
+ },
+ {
+  "source_file": "Screenshot 2026-10-06 at 6.17.22 PM.png",
+  "exercise_title": "Finding Median, given Sets of Numbers #1",
+  "question_number": 3,
+  "question_text": "What is the median of the data set?",
+  "diagram_description": "No figure. The data set is displayed centered beneath the question: 17, 12, 16, 9, 21, 18, 20 (7 values, unsorted).",
+  "choices": [
+   {
+    "letter": "A",
+    "text": "9"
+   },
+   {
+    "letter": "B",
+    "text": "17"
+   },
+   {
+    "letter": "C",
+    "text": "18"
+   },
+   {
+    "letter": "D",
+    "text": "21"
+   }
+  ],
+  "correct_letter": null,
+  "correct_pct": null,
+  "is_wrong": null,
+  "strip_wrong": [],
+  "topic_broad": "data-analysis-graphs-tables",
+  "topic_specific": "median of a data set",
+  "notes": "Header shows 'FINDING MEDIAN, GIVEN SETS OF NUMBERS #1'. No green or maroon marker. My check: sorted 9, 12, 16, 17, 18, 20, 21, median 17, so B is the answer.",
+  "type": "question",
+  "source": "ma_exercise_screenshot",
+  "set_name": "Finding Median, given Sets of Numbers #1",
+  "status": "not_done"
+ },
+ {
+  "source_file": "Screenshot 2026-10-06 at 6.17.26 PM.png",
+  "exercise_title": "Finding Median, given Sets of Numbers #1",
+  "question_number": 4,
+  "question_text": "What is the median of the data set?",
+  "diagram_description": "No figure. The data set is displayed centered beneath the question: 4, 8, 9, 12, 11, 16, 20 (7 values, unsorted).",
+  "choices": [
+   {
+    "letter": "A",
+    "text": "11"
+   },
+   {
+    "letter": "B",
+    "text": "11.5"
+   },
+   {
+    "letter": "C",
+    "text": "12"
+   },
+   {
+    "letter": "D",
+    "text": "12.5"
+   }
+  ],
+  "correct_letter": null,
+  "correct_pct": null,
+  "is_wrong": null,
+  "strip_wrong": [],
+  "topic_broad": "data-analysis-graphs-tables",
+  "topic_specific": "median of a data set",
+  "notes": "Header shows 'FINDING MEDIAN, GIVEN SETS OF NUMBERS #1'. No green or maroon marker. My check: sorted 4, 8, 9, 11, 12, 16, 20, median 11, so A is the answer.",
+  "type": "question",
+  "source": "ma_exercise_screenshot",
+  "set_name": "Finding Median, given Sets of Numbers #1",
+  "status": "not_done"
+ },
+ {
+  "source_file": "Screenshot 2026-10-06 at 6.17.30 PM.png",
+  "exercise_title": "Finding Median, given Sets of Numbers #1",
+  "question_number": 5,
+  "question_text": "What is the median of the data set?",
+  "diagram_description": "No figure. The data set is displayed centered beneath the question: 15, 19, 21, 20, 23, 25, 24, 28 (8 values, unsorted).",
+  "choices": [
+   {
+    "letter": "A",
+    "text": "21"
+   },
+   {
+    "letter": "B",
+    "text": "21.5"
+   },
+   {
+    "letter": "C",
+    "text": "22"
+   },
+   {
+    "letter": "D",
+    "text": "22.5"
+   }
+  ],
+  "correct_letter": null,
+  "correct_pct": null,
+  "is_wrong": null,
+  "strip_wrong": [],
+  "topic_broad": "data-analysis-graphs-tables",
+  "topic_specific": "median of a data set",
+  "notes": "Header shows 'FINDING MEDIAN, GIVEN SETS OF NUMBERS #1'. No green or maroon marker. My check: sorted 15, 19, 20, 21, 23, 24, 25, 28, median (21+23)/2 = 22, so C is the answer.",
+  "type": "question",
+  "source": "ma_exercise_screenshot",
+  "set_name": "Finding Median, given Sets of Numbers #1",
+  "status": "not_done"
+ },
+ {
+  "source_file": "Screenshot 2026-10-06 at 6.17.45 PM.png",
+  "exercise_title": "FINDING MEDIAN, GIVEN SETS OF NUMBERS #2",
+  "question_number": 1,
+  "question_text": "What is the median of the data set?",
+  "diagram_description": "No figure. Data set shown centered under the question: 5, 9, 10, 12, 14, 15",
+  "choices": [
+   {
+    "letter": "A",
+    "text": "10"
+   },
+   {
+    "letter": "B",
+    "text": "11"
+   },
+   {
+    "letter": "C",
+    "text": "12"
+   },
+   {
+    "letter": "D",
+    "text": "13"
+   }
+  ],
+  "correct_letter": null,
+  "correct_pct": null,
+  "is_wrong": null,
+  "strip_wrong": [],
+  "topic_broad": "data-analysis-graphs-tables",
+  "topic_specific": "median of a data set",
+  "notes": "No green or maroon marker visible. Gray x icons beside choices are eliminators, not answer markers. Pill strip shows Intro, 1-5, none maroon. Same question as 6.20.47 PM.",
+  "type": "question",
+  "source": "ma_exercise_screenshot",
+  "set_name": "FINDING MEDIAN, GIVEN SETS OF NUMBERS #2",
+  "status": "not_done"
+ },
+ {
+  "source_file": "Screenshot 2026-10-06 at 6.17.49 PM.png",
+  "exercise_title": "FINDING MEDIAN, GIVEN SETS OF NUMBERS #2",
+  "question_number": 2,
+  "question_text": "What is the median of the data set?",
+  "diagram_description": "No figure. Data set shown centered under the question: 9, 4, 7, 6, 2",
+  "choices": [
+   {
+    "letter": "A",
+    "text": "4"
+   },
+   {
+    "letter": "B",
+    "text": "6"
+   },
+   {
+    "letter": "C",
+    "text": "7"
+   },
+   {
+    "letter": "D",
+    "text": "9"
+   }
+  ],
+  "correct_letter": null,
+  "correct_pct": null,
+  "is_wrong": null,
+  "strip_wrong": [],
+  "topic_broad": "data-analysis-graphs-tables",
+  "topic_specific": "median of a data set",
+  "notes": "No green or maroon marker visible. Pill strip none maroon. Same question as 6.20.50 PM.",
+  "type": "question",
+  "source": "ma_exercise_screenshot",
+  "set_name": "FINDING MEDIAN, GIVEN SETS OF NUMBERS #2",
+  "status": "not_done"
+ },
+ {
+  "source_file": "Screenshot 2026-10-06 at 6.17.52 PM.png",
+  "exercise_title": "FINDING MEDIAN, GIVEN SETS OF NUMBERS #2",
+  "question_number": 3,
+  "question_text": "What is the median of the data set?",
+  "diagram_description": "No figure. Data set shown centered under the question: 12, 4, 14, 20, 7, 18",
+  "choices": [
+   {
+    "letter": "A",
+    "text": "13"
+   },
+   {
+    "letter": "B",
+    "text": "14"
+   },
+   {
+    "letter": "C",
+    "text": "17"
+   },
+   {
+    "letter": "D",
+    "text": "20"
+   }
+  ],
+  "correct_letter": null,
+  "correct_pct": null,
+  "is_wrong": null,
+  "strip_wrong": [],
+  "topic_broad": "data-analysis-graphs-tables",
+  "topic_specific": "median of a data set (even count)",
+  "notes": "No green or maroon marker visible. Pill strip none maroon. Same question as 6.20.54 PM.",
+  "type": "question",
+  "source": "ma_exercise_screenshot",
+  "set_name": "FINDING MEDIAN, GIVEN SETS OF NUMBERS #2",
+  "status": "not_done"
+ },
+ {
+  "source_file": "Screenshot 2026-10-06 at 6.17.56 PM.png",
+  "exercise_title": "FINDING MEDIAN, GIVEN SETS OF NUMBERS #2",
+  "question_number": 4,
+  "question_text": "What is the median of the data set?",
+  "diagram_description": "No figure. Data set shown centered under the question: 18, 3, 5, 21, 16, 24",
+  "choices": [
+   {
+    "letter": "A",
+    "text": "5"
+   },
+   {
+    "letter": "B",
+    "text": "13"
+   },
+   {
+    "letter": "C",
+    "text": "17"
+   },
+   {
+    "letter": "D",
+    "text": "21"
+   }
+  ],
+  "correct_letter": null,
+  "correct_pct": null,
+  "is_wrong": null,
+  "strip_wrong": [],
+  "topic_broad": "data-analysis-graphs-tables",
+  "topic_specific": "median of a data set (even count)",
+  "notes": "No green or maroon marker visible. Pill strip none maroon. Same question as 6.20.58 PM.",
+  "type": "question",
+  "source": "ma_exercise_screenshot",
+  "set_name": "FINDING MEDIAN, GIVEN SETS OF NUMBERS #2",
+  "status": "not_done"
+ },
+ {
+  "source_file": "Screenshot 2026-10-06 at 6.18.00 PM.png",
+  "exercise_title": "FINDING MEDIAN, GIVEN SETS OF NUMBERS #2",
+  "question_number": 5,
+  "question_text": "What number can be added to the data set so that the median is 7?",
+  "diagram_description": "No figure. Data set shown centered under the question: 4, 6, 8",
+  "choices": [
+   {
+    "letter": "A",
+    "text": "4"
+   },
+   {
+    "letter": "B",
+    "text": "6"
+   },
+   {
+    "letter": "C",
+    "text": "7"
+   },
+   {
+    "letter": "D",
+    "text": "9"
+   }
+  ],
+  "correct_letter": null,
+  "correct_pct": null,
+  "is_wrong": null,
+  "strip_wrong": [],
+  "topic_broad": "data-analysis-graphs-tables",
+  "topic_specific": "median, missing value to hit target median",
+  "notes": "No green or maroon marker visible. Pill strip none maroon. Same question as 6.21.01 PM. Target 7 is rendered in a larger font inside the question text.",
+  "type": "question",
+  "source": "ma_exercise_screenshot",
+  "set_name": "FINDING MEDIAN, GIVEN SETS OF NUMBERS #2",
+  "status": "not_done"
+ },
+ {
+  "source_file": "Screenshot 2026-10-06 at 6.20.47 PM.png",
+  "exercise_title": "FINDING MEDIAN, GIVEN SETS OF NUMBERS #2",
+  "question_number": 1,
+  "question_text": "What is the median of the data set?",
+  "diagram_description": "No figure. Data set shown centered under the question: 5, 9, 10, 12, 14, 15",
+  "choices": [
+   {
+    "letter": "A",
+    "text": "10"
+   },
+   {
+    "letter": "B",
+    "text": "11"
+   },
+   {
+    "letter": "C",
+    "text": "12"
+   },
+   {
+    "letter": "D",
+    "text": "13"
+   }
+  ],
+  "correct_letter": null,
+  "correct_pct": null,
+  "is_wrong": null,
+  "strip_wrong": [],
+  "topic_broad": "data-analysis-graphs-tables",
+  "topic_specific": "median of a data set",
+  "notes": "Duplicate capture of question 1 (see 6.17.45 PM). No green or maroon marker visible.",
+  "type": "question",
+  "source": "ma_exercise_screenshot",
+  "set_name": "FINDING MEDIAN, GIVEN SETS OF NUMBERS #2",
+  "status": "not_done"
+ },
+ {
+  "source_file": "Screenshot 2026-10-06 at 6.20.50 PM.png",
+  "exercise_title": "FINDING MEDIAN, GIVEN SETS OF NUMBERS #2",
+  "question_number": 2,
+  "question_text": "What is the median of the data set?",
+  "diagram_description": "No figure. Data set shown centered under the question: 9, 4, 7, 6, 2",
+  "choices": [
+   {
+    "letter": "A",
+    "text": "4"
+   },
+   {
+    "letter": "B",
+    "text": "6"
+   },
+   {
+    "letter": "C",
+    "text": "7"
+   },
+   {
+    "letter": "D",
+    "text": "9"
+   }
+  ],
+  "correct_letter": null,
+  "correct_pct": null,
+  "is_wrong": null,
+  "strip_wrong": [],
+  "topic_broad": "data-analysis-graphs-tables",
+  "topic_specific": "median of a data set",
+  "notes": "Duplicate capture of question 2 (see 6.17.49 PM). No green or maroon marker visible.",
+  "type": "question",
+  "source": "ma_exercise_screenshot",
+  "set_name": "FINDING MEDIAN, GIVEN SETS OF NUMBERS #2",
+  "status": "not_done"
+ },
+ {
+  "source_file": "Screenshot 2026-10-06 at 6.20.54 PM.png",
+  "exercise_title": "FINDING MEDIAN, GIVEN SETS OF NUMBERS #2",
+  "question_number": 3,
+  "question_text": "What is the median of the data set?",
+  "diagram_description": "No figure. Data set shown centered under the question: 12, 4, 14, 20, 7, 18",
+  "choices": [
+   {
+    "letter": "A",
+    "text": "13"
+   },
+   {
+    "letter": "B",
+    "text": "14"
+   },
+   {
+    "letter": "C",
+    "text": "17"
+   },
+   {
+    "letter": "D",
+    "text": "20"
+   }
+  ],
+  "correct_letter": null,
+  "correct_pct": null,
+  "is_wrong": null,
+  "strip_wrong": [],
+  "topic_broad": "data-analysis-graphs-tables",
+  "topic_specific": "median of a data set (even count)",
+  "notes": "Duplicate capture of question 3 (see 6.17.52 PM). No green or maroon marker visible.",
+  "type": "question",
+  "source": "ma_exercise_screenshot",
+  "set_name": "FINDING MEDIAN, GIVEN SETS OF NUMBERS #2",
+  "status": "not_done"
+ },
+ {
+  "source_file": "Screenshot 2026-10-06 at 6.20.58 PM.png",
+  "exercise_title": "FINDING MEDIAN, GIVEN SETS OF NUMBERS #2",
+  "question_number": 4,
+  "question_text": "What is the median of the data set?",
+  "diagram_description": "No figure. Data set shown centered under the question: 18, 3, 5, 21, 16, 24",
+  "choices": [
+   {
+    "letter": "A",
+    "text": "5"
+   },
+   {
+    "letter": "B",
+    "text": "13"
+   },
+   {
+    "letter": "C",
+    "text": "17"
+   },
+   {
+    "letter": "D",
+    "text": "21"
+   }
+  ],
+  "correct_letter": null,
+  "correct_pct": null,
+  "is_wrong": null,
+  "strip_wrong": [],
+  "topic_broad": "data-analysis-graphs-tables",
+  "topic_specific": "median of a data set (even count)",
+  "notes": "Duplicate capture of question 4 (see 6.17.56 PM). No green or maroon marker visible.",
+  "type": "question",
+  "source": "ma_exercise_screenshot",
+  "set_name": "FINDING MEDIAN, GIVEN SETS OF NUMBERS #2",
+  "status": "not_done"
+ },
+ {
+  "source_file": "Screenshot 2026-10-06 at 6.21.01 PM.png",
+  "exercise_title": "FINDING MEDIAN, GIVEN SETS OF NUMBERS #2",
+  "question_number": 5,
+  "question_text": "What number can be added to the data set so that the median is 7?",
+  "diagram_description": "No figure. Data set shown centered under the question: 4, 6, 8",
+  "choices": [
+   {
+    "letter": "A",
+    "text": "4"
+   },
+   {
+    "letter": "B",
+    "text": "6"
+   },
+   {
+    "letter": "C",
+    "text": "7"
+   },
+   {
+    "letter": "D",
+    "text": "9"
+   }
+  ],
+  "correct_letter": null,
+  "correct_pct": null,
+  "is_wrong": null,
+  "strip_wrong": [],
+  "topic_broad": "data-analysis-graphs-tables",
+  "topic_specific": "median, missing value to hit target median",
+  "notes": "Duplicate capture of question 5 (see 6.18.00 PM). No green or maroon marker visible.",
+  "type": "question",
+  "source": "ma_exercise_screenshot",
+  "set_name": "FINDING MEDIAN, GIVEN SETS OF NUMBERS #2",
+  "status": "not_done"
+ },
+ {
+  "source_file": "Screenshot 2026-10-06 at 6.21.30 PM.png",
+  "exercise_title": "ORDER OF OPERATIONS & EQUIVALENCE #1",
+  "question_number": 1,
+  "question_text": "Which is equal to 3(3 + 3 + 3)?",
+  "diagram_description": "No figure. Expression shown in question text.",
+  "choices": [
+   {
+    "letter": "A",
+    "text": "3^3"
+   },
+   {
+    "letter": "B",
+    "text": "2 \u00d7 3^2"
+   },
+   {
+    "letter": "C",
+    "text": "3(3^2 + 3)"
+   },
+   {
+    "letter": "D",
+    "text": "3 + 3 + 3^2"
+   }
+  ],
+  "correct_letter": null,
+  "correct_pct": null,
+  "is_wrong": null,
+  "strip_wrong": [],
+  "topic_broad": "arithmetic",
+  "topic_specific": "equivalent expressions, exponents",
+  "notes": "Exponents shown as superscripts in the screenshot, written here with ^. No green or maroon marker visible. Pill strip none maroon.",
+  "type": "question",
+  "source": "ma_exercise_screenshot",
+  "set_name": "ORDER OF OPERATIONS & EQUIVALENCE #1",
+  "status": "not_done"
+ },
+ {
+  "source_file": "Screenshot 2026-10-06 at 6.21.34 PM.png",
+  "exercise_title": "ORDER OF OPERATIONS & EQUIVALENCE #1",
+  "question_number": 2,
+  "question_text": "Which is equal to 4(2 + 2)?",
+  "diagram_description": "No figure. Expression shown in question text.",
+  "choices": [
+   {
+    "letter": "A",
+    "text": "2^3"
+   },
+   {
+    "letter": "B",
+    "text": "2^2 \u00d7 2^2"
+   },
+   {
+    "letter": "C",
+    "text": "4^2 + 4"
+   },
+   {
+    "letter": "D",
+    "text": "4^2 + 2^4"
+   }
+  ],
+  "correct_letter": null,
+  "correct_pct": null,
+  "is_wrong": null,
+  "strip_wrong": [],
+  "topic_broad": "arithmetic",
+  "topic_specific": "equivalent expressions, exponents",
+  "notes": "Exponents shown as superscripts, written with ^. No green or maroon marker visible. Pill strip none maroon.",
+  "type": "question",
+  "source": "ma_exercise_screenshot",
+  "set_name": "ORDER OF OPERATIONS & EQUIVALENCE #1",
+  "status": "not_done"
+ },
+ {
+  "source_file": "Screenshot 2026-10-06 at 6.21.37 PM.png",
+  "exercise_title": "ORDER OF OPERATIONS & EQUIVALENCE #1",
+  "question_number": 3,
+  "question_text": "Which is equal to 2(2 + 2)?",
+  "diagram_description": "No figure. Expression shown in question text.",
+  "choices": [
+   {
+    "letter": "A",
+    "text": "2^3"
+   },
+   {
+    "letter": "B",
+    "text": "3 \u00d7 2"
+   },
+   {
+    "letter": "C",
+    "text": "2 + 2^2"
+   },
+   {
+    "letter": "D",
+    "text": "2^3 + 2"
+   }
+  ],
+  "correct_letter": null,
+  "correct_pct": null,
+  "is_wrong": null,
+  "strip_wrong": [],
+  "topic_broad": "arithmetic",
+  "topic_specific": "equivalent expressions, exponents",
+  "notes": "Exponents shown as superscripts, written with ^. No green or maroon marker visible. Pill strip none maroon.",
+  "type": "question",
+  "source": "ma_exercise_screenshot",
+  "set_name": "ORDER OF OPERATIONS & EQUIVALENCE #1",
+  "status": "not_done"
+ },
+ {
+  "source_file": "Screenshot 2026-10-06 at 6.21.41 PM.png",
+  "exercise_title": "ORDER OF OPERATIONS & EQUIVALENCE #1",
+  "question_number": 4,
+  "question_text": "Which is equal to 6 \u00d7 3^2?",
+  "diagram_description": "No figure. Expression shown in question text.",
+  "choices": [
+   {
+    "letter": "A",
+    "text": "6^2"
+   },
+   {
+    "letter": "B",
+    "text": "2 \u00d7 6"
+   },
+   {
+    "letter": "C",
+    "text": "2 \u00d7 3^3"
+   },
+   {
+    "letter": "D",
+    "text": "6 \u00d7 2^3"
+   }
+  ],
+  "correct_letter": null,
+  "correct_pct": null,
+  "is_wrong": null,
+  "strip_wrong": [],
+  "topic_broad": "arithmetic",
+  "topic_specific": "equivalent expressions, exponents",
+  "notes": "Exponents shown as superscripts, written with ^. No green or maroon marker visible. Pill strip none maroon.",
+  "type": "question",
+  "source": "ma_exercise_screenshot",
+  "set_name": "ORDER OF OPERATIONS & EQUIVALENCE #1",
+  "status": "not_done"
+ },
+ {
+  "source_file": "Screenshot 2026-10-06 at 6.21.44 PM.png",
+  "exercise_title": "ORDER OF OPERATIONS & EQUIVALENCE #1",
+  "question_number": 5,
+  "question_text": "Which is equal to 2(2 + 2) + 2(2 + 2)?",
+  "diagram_description": "No figure. Expression shown in question text.",
+  "choices": [
+   {
+    "letter": "A",
+    "text": "2 \u00d7 2^2"
+   },
+   {
+    "letter": "B",
+    "text": "4 \u00d7 2^2"
+   },
+   {
+    "letter": "C",
+    "text": "6 \u00d7 2^2"
+   },
+   {
+    "letter": "D",
+    "text": "2 \u00d7 24"
+   }
+  ],
+  "correct_letter": null,
+  "correct_pct": null,
+  "is_wrong": null,
+  "strip_wrong": [],
+  "topic_broad": "arithmetic",
+  "topic_specific": "equivalent expressions, exponents",
+  "notes": "Exponents shown as superscripts, written with ^. No green or maroon marker visible. Pill strip none maroon.",
+  "type": "question",
+  "source": "ma_exercise_screenshot",
+  "set_name": "ORDER OF OPERATIONS & EQUIVALENCE #1",
+  "status": "not_done"
+ },
+ {
+  "source_file": "Screenshot 2026-10-06 at 6.21.57 PM.png",
+  "exercise_title": "ORDER OF OPERATIONS & EQUIVALENCE #3",
+  "question_number": 1,
+  "question_text": "Which expression is equal to 5 \u00d7 (5 \u2212 2) \u2212 3?",
+  "diagram_description": "No figure. Expression shown in question text.",
+  "choices": [
+   {
+    "letter": "A",
+    "text": "(5 \u00d7 2) \u2212 (5 \u00d7 \u22121)"
+   },
+   {
+    "letter": "B",
+    "text": "(5 \u00d7 5) \u2212 (5 \u00d7 2) \u2212 3"
+   },
+   {
+    "letter": "C",
+    "text": "(5 + 5) \u2212 (5 + 2) \u2212 3"
+   },
+   {
+    "letter": "D",
+    "text": "(5 \u00d7 5) + (5 \u2212 2) \u2212 3"
+   }
+  ],
+  "correct_letter": null,
+  "correct_pct": null,
+  "is_wrong": null,
+  "strip_wrong": [],
+  "topic_broad": "arithmetic",
+  "topic_specific": "equivalent expressions, distributive property",
+  "notes": "No green or maroon marker visible. Pill strip none maroon.",
+  "type": "question",
+  "source": "ma_exercise_screenshot",
+  "set_name": "ORDER OF OPERATIONS & EQUIVALENCE #3",
+  "status": "not_done"
+ },
+ {
+  "source_file": "Screenshot 2026-10-06 at 6.22.00 PM.png",
+  "exercise_title": "ORDER OF OPERATIONS & EQUIVALENCE #3",
+  "question_number": 2,
+  "question_text": "Which expression is equal to 4 \u00d7 (3 \u2212 1) \u2212 8?",
+  "diagram_description": "No figure. Expression shown in question text.",
+  "choices": [
+   {
+    "letter": "A",
+    "text": "(4 \u00d7 \u22125) \u2212 (4 \u00d7 \u22127)"
+   },
+   {
+    "letter": "B",
+    "text": "(4 + 3) \u2212 (4 + 1) \u2212 8"
+   },
+   {
+    "letter": "C",
+    "text": "(4 \u2212 3) \u00d7 (4 \u2212 1) \u2212 8"
+   },
+   {
+    "letter": "D",
+    "text": "(4 \u00d7 3) \u2212 (4 \u00d7 1) \u2212 8"
+   }
+  ],
+  "correct_letter": null,
+  "correct_pct": null,
+  "is_wrong": null,
+  "strip_wrong": [],
+  "topic_broad": "arithmetic",
+  "topic_specific": "equivalent expressions, distributive property",
+  "notes": "Choice A value shows '\u22127' in bold in the screenshot; transcribed as shown. No green or maroon marker visible. Pill strip none maroon.",
+  "type": "question",
+  "source": "ma_exercise_screenshot",
+  "set_name": "ORDER OF OPERATIONS & EQUIVALENCE #3",
+  "status": "not_done"
+ },
+ {
+  "source_file": "Screenshot 2026-10-06 at 6.22.03 PM.png",
+  "exercise_title": "ORDER OF OPERATIONS & EQUIVALENCE #3",
+  "question_number": 3,
+  "question_text": "Which expression is equal to 8 \u00d7 (6 + 3) \u2212 4?",
+  "diagram_description": "No figure. Expression shown in question text.",
+  "choices": [
+   {
+    "letter": "A",
+    "text": "(8 \u00d7 6 + 3) \u2212 4"
+   },
+   {
+    "letter": "B",
+    "text": "(8 \u00d7 6) + (8 \u00d7 3)"
+   },
+   {
+    "letter": "C",
+    "text": "(8 \u00d7 2) + (8 \u00d7 \u22121)"
+   },
+   {
+    "letter": "D",
+    "text": "(8 \u00d7 6) + (8 \u00d7 3) \u2212 4"
+   }
+  ],
+  "correct_letter": null,
+  "correct_pct": null,
+  "is_wrong": null,
+  "strip_wrong": [],
+  "topic_broad": "arithmetic",
+  "topic_specific": "equivalent expressions, distributive property",
+  "notes": "No green or maroon marker visible. Pill strip none maroon.",
+  "type": "question",
+  "source": "ma_exercise_screenshot",
+  "set_name": "ORDER OF OPERATIONS & EQUIVALENCE #3",
+  "status": "not_done"
+ },
+ {
+  "source_file": "Screenshot 2026-10-06 at 6.22.06 PM.png",
+  "exercise_title": "ORDER OF OPERATIONS & EQUIVALENCE #3",
+  "question_number": 4,
+  "question_text": "Which expression is equal to 4(6 + 10) \u2212 5(6)?",
+  "diagram_description": "No figure. Expression shown in question text.",
+  "choices": [
+   {
+    "letter": "A",
+    "text": "4(16) \u2212 5(6)"
+   },
+   {
+    "letter": "B",
+    "text": "(4 \u2212 5)(6) + 10"
+   },
+   {
+    "letter": "C",
+    "text": "(4 \u00d7 5)(6) + 10"
+   },
+   {
+    "letter": "D",
+    "text": "(4)(6 + 10 \u2212 30)"
+   }
+  ],
+  "correct_letter": null,
+  "correct_pct": null,
+  "is_wrong": null,
+  "strip_wrong": [],
+  "topic_broad": "arithmetic",
+  "topic_specific": "equivalent expressions, distributive property",
+  "notes": "No green or maroon marker visible. Pill strip none maroon. Duplicate capture: see 6.22.10 PM.",
+  "type": "question",
+  "source": "ma_exercise_screenshot",
+  "set_name": "ORDER OF OPERATIONS & EQUIVALENCE #3",
+  "status": "not_done"
+ },
+ {
+  "source_file": "Screenshot 2026-10-06 at 6.22.10 PM.png",
+  "exercise_title": "ORDER OF OPERATIONS & EQUIVALENCE #3",
+  "question_number": 4,
+  "question_text": "Which expression is equal to 4(6 + 10) \u2212 5(6)?",
+  "diagram_description": "No figure. Expression shown in question text.",
+  "choices": [
+   {
+    "letter": "A",
+    "text": "4(16) \u2212 5(6)"
+   },
+   {
+    "letter": "B",
+    "text": "(4 \u2212 5)(6) + 10"
+   },
+   {
+    "letter": "C",
+    "text": "(4 \u00d7 5)(6) + 10"
+   },
+   {
+    "letter": "D",
+    "text": "(4)(6 + 10 \u2212 30)"
+   }
+  ],
+  "correct_letter": null,
+  "correct_pct": null,
+  "is_wrong": null,
+  "strip_wrong": [],
+  "topic_broad": "arithmetic",
+  "topic_specific": "equivalent expressions, distributive property",
+  "notes": "Duplicate capture of question 4 (see 6.22.06 PM). No green or maroon marker visible.",
+  "type": "question",
+  "source": "ma_exercise_screenshot",
+  "set_name": "ORDER OF OPERATIONS & EQUIVALENCE #3",
+  "status": "not_done"
+ },
+ {
+  "source_file": "Screenshot 2026-10-06 at 6.22.14 PM.png",
+  "exercise_title": "ORDER OF OPERATIONS & EQUIVALENCE #3",
+  "question_number": 5,
+  "question_text": "Which expression is equal to 4(5 + 8) \u2212 4(2 + 1)?",
+  "diagram_description": "No figure. Expression shown in question text.",
+  "choices": [
+   {
+    "letter": "A",
+    "text": "4(13 \u2212 3)"
+   },
+   {
+    "letter": "B",
+    "text": "0(13 \u2212 3)"
+   },
+   {
+    "letter": "C",
+    "text": "4(13 + 3)"
+   },
+   {
+    "letter": "D",
+    "text": "4(13) \u00d7 4(3)"
+   }
+  ],
+  "correct_letter": null,
+  "correct_pct": null,
+  "is_wrong": null,
+  "strip_wrong": [],
+  "topic_broad": "arithmetic",
+  "topic_specific": "equivalent expressions, distributive property",
+  "notes": "No green or maroon marker visible. Pill strip none maroon.",
+  "type": "question",
+  "source": "ma_exercise_screenshot",
+  "set_name": "ORDER OF OPERATIONS & EQUIVALENCE #3",
+  "status": "not_done"
+ },
+ {
+  "source_file": "Screenshot 2026-10-06 at 6.22.52 PM.png",
+  "exercise_title": "ORDER OF OPERATIONS & EQUIVALENCE #4",
+  "question_number": 1,
+  "question_text": "Which expression is equal to 10(6 \u2212 2) + 10(21)?",
+  "diagram_description": "No figure. Expression shown in question text.",
+  "choices": [
+   {
+    "letter": "A",
+    "text": "10(4 + 21)"
+   },
+   {
+    "letter": "B",
+    "text": "10(4 \u2212 21)"
+   },
+   {
+    "letter": "C",
+    "text": "10(4 + 10)"
+   },
+   {
+    "letter": "D",
+    "text": "10(6 + 21) \u2212 2"
+   }
+  ],
+  "correct_letter": null,
+  "correct_pct": null,
+  "is_wrong": null,
+  "strip_wrong": [],
+  "topic_broad": "arithmetic",
+  "topic_specific": "equivalent expressions, distributive property",
+  "notes": "Question text as shown: '10(6 \u2212 2) + 10(21)'. No green or maroon marker visible. Pill strip none maroon.",
+  "type": "question",
+  "source": "ma_exercise_screenshot",
+  "set_name": "ORDER OF OPERATIONS & EQUIVALENCE #4",
+  "status": "not_done"
+ },
+ {
+  "source_file": "Screenshot 2026-10-06 at 6.22.56 PM.png",
+  "exercise_title": "ORDER OF OPERATIONS & EQUIVALENCE #4",
+  "question_number": 2,
+  "question_text": "Which expression is equal to 5(2 + 4) + 10(4 \u2212 2)?",
+  "diagram_description": "No figure. Expression shown in question text.",
+  "choices": [
+   {
+    "letter": "A",
+    "text": "5(6 + 20)"
+   },
+   {
+    "letter": "B",
+    "text": "5(6 + 10)(2)"
+   },
+   {
+    "letter": "C",
+    "text": "5(6) + 10(2)"
+   },
+   {
+    "letter": "D",
+    "text": "5(6 + 10) \u2212 2"
+   }
+  ],
+  "correct_letter": null,
+  "correct_pct": null,
+  "is_wrong": null,
+  "strip_wrong": [],
+  "topic_broad": "arithmetic",
+  "topic_specific": "equivalent expressions, distributive property",
+  "notes": "No green or maroon marker visible. Pill strip none maroon.",
+  "type": "question",
+  "source": "ma_exercise_screenshot",
+  "set_name": "ORDER OF OPERATIONS & EQUIVALENCE #4",
+  "status": "not_done"
+ },
+ {
+  "source_file": "Screenshot 2026-10-06 at 6.23.00 PM.png",
+  "exercise_title": "ORDER OF OPERATIONS & EQUIVALENCE #4",
+  "question_number": 3,
+  "question_text": "Which expression is equal to 7 \u00d7 (9 + 5) \u2212 12?",
+  "diagram_description": "No figure. Expression shown in question text.",
+  "choices": [
+   {
+    "letter": "A",
+    "text": "7 \u00d7 (9 + 5 \u2212 12)"
+   },
+   {
+    "letter": "B",
+    "text": "(7 \u00d7 9 \u00d7 5) \u2212 12"
+   },
+   {
+    "letter": "C",
+    "text": "(7 \u00d7 9) + (7 \u00d7 \u22127)"
+   },
+   {
+    "letter": "D",
+    "text": "(7 \u00d7 9) + (7 \u00d7 5) \u2212 12"
+   }
+  ],
+  "correct_letter": null,
+  "correct_pct": null,
+  "is_wrong": null,
+  "strip_wrong": [],
+  "topic_broad": "arithmetic",
+  "topic_specific": "equivalent expressions, distributive property",
+  "notes": "No green or maroon marker visible. Pill strip none maroon.",
+  "type": "question",
+  "source": "ma_exercise_screenshot",
+  "set_name": "ORDER OF OPERATIONS & EQUIVALENCE #4",
+  "status": "not_done"
+ },
+ {
+  "source_file": "Screenshot 2026-10-06 at 6.23.04 PM.png",
+  "exercise_title": "ORDER OF OPERATIONS & EQUIVALENCE #4",
+  "question_number": 4,
+  "question_text": "Which expression is equal to 11 \u00d7 (4 + 8) \u2212 23?",
+  "diagram_description": "No figure. Expression shown in question text.",
+  "choices": [
+   {
+    "letter": "A",
+    "text": "11(12 \u2212 23)"
+   },
+   {
+    "letter": "B",
+    "text": "(11 \u00d7 12) \u2212 (11 \u00d7 23)"
+   },
+   {
+    "letter": "C",
+    "text": "(11 \u00d7 4) \u2212 (11 \u00d7 8) \u2212 23"
+   },
+   {
+    "letter": "D",
+    "text": "(11 \u00d7 4) + (11 \u00d7 8) \u2212 23"
+   }
+  ],
+  "correct_letter": null,
+  "correct_pct": null,
+  "is_wrong": null,
+  "strip_wrong": [],
+  "topic_broad": "arithmetic",
+  "topic_specific": "equivalent expressions, distributive property",
+  "notes": "No green or maroon marker visible. Pill strip none maroon.",
+  "type": "question",
+  "source": "ma_exercise_screenshot",
+  "set_name": "ORDER OF OPERATIONS & EQUIVALENCE #4",
+  "status": "not_done"
+ },
+ {
+  "source_file": "Screenshot 2026-10-06 at 6.23.07 PM.png",
+  "exercise_title": "ORDER OF OPERATIONS & EQUIVALENCE #4",
+  "question_number": 5,
+  "question_text": "Which expression is equal to 9 \u00d7 (5 + 2) \u2212 18?",
+  "diagram_description": "No figure. Expression shown in question text.",
+  "choices": [
+   {
+    "letter": "A",
+    "text": "(9 \u00d7 5 + 2) \u2212 18"
+   },
+   {
+    "letter": "B",
+    "text": "(9 \u00d7 5) + 9 \u00d7 (2 \u2212 18)"
+   },
+   {
+    "letter": "C",
+    "text": "(9 \u00d7 5) + (9 \u00d7 2) \u2212 18"
+   },
+   {
+    "letter": "D",
+    "text": "(9 \u00d7 5) \u2212 (9 \u00d7 2) \u2212 18"
+   }
+  ],
+  "correct_letter": null,
+  "correct_pct": null,
+  "is_wrong": null,
+  "strip_wrong": [],
+  "topic_broad": "arithmetic",
+  "topic_specific": "equivalent expressions, distributive property",
+  "notes": "No green or maroon marker visible. Pill strip none maroon.",
+  "type": "question",
+  "source": "ma_exercise_screenshot",
+  "set_name": "ORDER OF OPERATIONS & EQUIVALENCE #4",
+  "status": "not_done"
  }
 ]
