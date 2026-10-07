@@ -1,0 +1,131 @@
+{
+ "sets": [
+  {
+   "set_no": 1,
+   "topics": [
+    "Divisibility / number constraints (Serena/Who am I style)",
+    "Random Landing Probability",
+    "Key-word NOT in equivalence questions",
+    "Determining Fraction Percent of Shaded Area given Figure",
+    "Multi-step unit conversion (off-by-10, multi-step)",
+    "Key-word NOT in equivalence questions",
+    "Translating Math Expressions",
+    "Solving for Missing Sides given Similar Figures",
+    "Determining Fraction Percent of Shaded Area given Figure",
+    "Estimation (sums, products, money, ranges)",
+    "Solving for Missing Sides given Similar Figures",
+    "Divisibility / number constraints (Serena/Who am I style)",
+    "Determining Fraction Percent of Shaded Area given Figure",
+    "Translating Math Expressions",
+    "Estimation (sums, products, money, ranges)",
+    "Multi-step Word Problems",
+    "Multiplying and Dividing Integers",
+    "Multi-step unit conversion (off-by-10, multi-step)",
+    "Estimation (sums, products, money, ranges)",
+    "Solving for Missing Sides given Similar Figures",
+    "Word Problems with Ratios",
+    "Remaining Amount after Reducing by Fractions",
+    "Translating Math Expressions",
+    "Key-word NOT in equivalence questions",
+    "Multiplying and Dividing Integers",
+    "Area and Perimeter of Complex Polygons",
+    "Divisibility / number constraints (Serena/Who am I style)",
+    "Area and Perimeter of Complex Polygons",
+    "Area and Perimeter of Complex Polygons",
+    "Multi-step Word Problems",
+    "Multi-step unit conversion (off-by-10, multi-step)",
+    "Remaining Amount after Reducing by Fractions",
+    "Multi-step Word Problems",
+    "Word Problems with Ratios",
+    "Random Landing Probability",
+    "Random Landing Probability",
+    "Remaining Amount after Reducing by Fractions",
+    "Percent Word Problems"
+   ],
+   "feedback": {
+    "percent_too_easy": "Set 1 #38 (price +20% then -20%) gave the 240 intermediate step, which removed the work. Real test (ISEE Lower #4 #38) gives no intermediate value and asks for percent increase/decrease. Use no-intermediate, net-percent-change framing in later sets.",
+    "diagrams": "Labeled diagrams are fine (real tests label dimensions). Similar-figure and cut-out problems should show labels and mark the cut on the figure. Diagrams that only restate the setup make the problem too easy (e.g. 8 ft by 3 ft).",
+    "median_mean": "Median/mean belong to Math Achievement, not QR. Keep them out of QR sets; put them in MA sets.",
+    "not_overuse": "NOT-type equivalence drills appeared 4 times in set 1 and she got those right; limit to 1 per set."
+   },
+   "click_results": {
+    "first_wrong_then_fixed": [
+     2,
+     11,
+     23,
+     34
+    ],
+    "final_wrong": [
+     8,
+     21,
+     38
+    ],
+    "slow_and_wrong": {
+     "8": 123,
+     "21": 85,
+     "29": 81,
+     "38": 59
+    },
+    "slow_but_right": {
+     "16": 148,
+     "20": 126
+    },
+    "note": "Times from the buggy formula (before the 2026-10-06 timer fix); first-answer column is first click, not final."
+   }
+  },
+  {
+   "set_no": 2,
+   "topics": [
+    "Comparing & Ordering Fractions & Decimals",
+    "Percent Word Problems",
+    "Estimating Multiplication & Division",
+    "Estimating Sums/Differences of Decimal Numbers",
+    "Estimating Division with Money",
+    "Estimating Sums/Differences of Decimal Numbers",
+    "Estimating Multiplication & Division",
+    "Multi-step unit conversion (off-by-10, multi-step)",
+    "Percent Word Problems",
+    "Interpreting Pictographs",
+    "Adding and Subtracting Decimals",
+    "3D shape from its net (unfolding a solid)",
+    "Divisibility / number constraints (Serena/Who am I style)",
+    "Multi-step unit conversion (off-by-10, multi-step)",
+    "Key-word NOT in equivalence questions",
+    "Solving for Missing Sides given Similar Figures",
+    "Divisibility / number constraints (Serena/Who am I style)",
+    "Comparing & Ordering Fractions & Decimals",
+    "Dividing Equally From a Total",
+    "3D shape from its net (unfolding a solid)",
+    "Dividing Equally From a Total",
+    "Dividing Equally From a Total",
+    "Translating Math Expressions",
+    "Measurement Scaling",
+    "Measurement Scaling",
+    "Adding and Subtracting Decimals",
+    "Measurement Scaling",
+    "Estimating Division with Money",
+    "Interpreting Pictographs",
+    "3D shape from its net (unfolding a solid)",
+    "Probability (simple, equally likely outcomes)",
+    "Multi-step unit conversion (off-by-10, multi-step)",
+    "Estimating Multiplication & Division",
+    "Word Problems with Ratios",
+    "Divisibility / number constraints (Serena/Who am I style)",
+    "Interpreting Pictographs",
+    "Area and Perimeter of Complex Polygons",
+    "Comparing & Ordering Fractions & Decimals"
+   ],
+   "built_with": {
+    "changes_from_planner": "Swapped 7 slots to cover set 1 misses (similar figures, ratio word problem, probability, remaining area) and to cut NOT drills to 1 and estimation to 7.",
+    "feedback_applied": [
+     "percent problems give no intermediate value (2, 9)",
+     "similar figures and cut-out problems are labeled and the cut is marked (16, 37)",
+     "no median/mean (MA only)",
+     "NOT-type drills limited to 1 (15)"
+    ],
+    "diagram_count": 23,
+    "library_check": "Fresh numbers and wording written for every slot. Not-done library originals were not substituted."
+   }
+  }
+ ]
+}
