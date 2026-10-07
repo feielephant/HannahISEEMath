@@ -7,9 +7,10 @@ def table(headers, rows):
     trs = ''.join('<tr>' + ''.join(f'<td>{c}</td>' for c in r) + '</tr>' for r in rows)
     return f'<table class="data"><tr>{th}</tr>{trs}</table>'
 
-def numberline(lo, hi, step, marks):
-    # evenly spaced ticks from lo to hi; only the two ends are numbered; marks is a list of (tick_index, label)
-    n = (hi - lo) // step
+def numberline(n, marks, show_ends=None):
+    # n evenly spaced ticks (n+1 marks, index 0..n); marks is a list of (tick_index, label) printed above the tick.
+    # show_ends=(lo,hi) optionally numbers the two end ticks; default None leaves them unlabeled (scale is unknown
+    # until the student works it out from two interior labeled ticks, matching the real test's harder style).
     w, pad = 320, 20
     cell = (w - 2*pad) / n
     out = [f'<svg viewBox="0 0 {w} 60" width="{w}" height="60" role="img">']
@@ -18,8 +19,8 @@ def numberline(lo, hi, step, marks):
     for i in range(n+1):
         x = pad + i*cell
         out.append(f'<line x1="{x}" y1="22" x2="{x}" y2="38" stroke="currentColor" stroke-width="1.5"/>')
-        if i == 0: out.append(f'<text x="{x}" y="52" font-size="12" text-anchor="middle" fill="currentColor">{lo}</text>')
-        if i == n: out.append(f'<text x="{x}" y="52" font-size="12" text-anchor="middle" fill="currentColor">{hi}</text>')
+        if show_ends and i == 0: out.append(f'<text x="{x}" y="52" font-size="12" text-anchor="middle" fill="currentColor">{show_ends[0]}</text>')
+        if show_ends and i == n: out.append(f'<text x="{x}" y="52" font-size="12" text-anchor="middle" fill="currentColor">{show_ends[1]}</text>')
         if i in mark_map: out.append(f'<text x="{x}" y="14" font-size="13" text-anchor="middle" fill="currentColor">{mark_map[i]}</text>')
     out.append('</svg>'); return ''.join(out)
 
@@ -56,15 +57,15 @@ def barchart(labels, values):
 
 # (question, correct, [d1,d2,d3], tier, topic, diagram_html_or_None, why)
 P = [
-("Use the number line. The hash marks are evenly spaced. What number does M stand for?", "40", ["35","45","30"], "Easy", "number line (evenly spaced marks)", numberline(20,50,5,[(4,"M")]), "6 equal steps of 5 from 20 to 50. M is the 4th mark after 20: 20 + 4×5 = 40."),
+("Use the number line. The hash marks are evenly spaced, but only two of them are labeled. What number does M stand for?", "20", ["16","24","18"], "Easy", "number line (step from two interior marks)", numberline(8,[(2,"12"),(6,"28"),(4,"M")]), "From 12 to 28 is 4 ticks, so each tick is (28 − 12) ÷ 4 = 4. M is 2 ticks after 12: 12 + 2×4 = 20. Trap: 16 and 24 come from counting one tick off."),
 ("Which number is divisible by 7?", "77", ["74","81","92"], "Easy", "divisibility by 7", None, "77 ÷ 7 = 11. The others leave a remainder."),
 ("A machine changes numbers by one rule. Input 2 gives output 9, and input 5 gives output 18. What is the output for input 8?", "27", ["24","30","21"], "Medium", "function machine rule (output = 3 × input + 3)", table(["Input","Output"],[["2","9"],["5","18"],["8","?"]]), "Rule: output = 3 × input + 3. 3 × 8 + 3 = 27."),
 ("Find the mode of 5, 12, 8, 12, 19, 3, 12.", "12", ["5","19","8"], "Easy", "mode", None, "12 appears three times, more than any other value."),
 ("The range of a set of numbers is 34. The smallest number is 9. What is the largest number?", "43", ["25","34","52"], "Medium", "range (missing value)", None, "Range = largest − smallest, so largest = 34 + 9 = 43."),
 ("What is the median of 6, 10, 3, 15, 8, 12?", "9", ["8","10","11"], "Medium", "median (even count)", None, "In order: 3, 6, 8, 10, 12, 15. With six numbers, average the two middle values: (8 + 10) ÷ 2 = 9."),
 ("The average of four numbers is 15. Three of the numbers are 10, 18, and 20. What is the fourth number?", "12", ["8","18","22"], "Medium", "average (missing value)", None, "Four numbers averaging 15 sum to 60. 60 − (10 + 18 + 20) = 12."),
-("Points P, Q, R, and S are plotted on the grid. If all four points are connected in order, what shape do they form?", "rectangle", ["square","trapezoid","rhombus"], "Hard", "classifying a quadrilateral from coordinates", coordplane(-3,4,-2,4,[(-2,-1,"P"),(-2,3,"Q"),(3,3,"R"),(3,-1,"S")]), "P to Q is 4 units up, Q to R is 5 units right: the sides are not equal, but opposite sides are equal and all angles are right angles, so it is a rectangle."),
-("Points P, Q, R, and S are plotted on the grid. What is the perimeter of quadrilateral PQRS?", "24 units", ["35 units","12 units","17 units"], "Medium", "perimeter from coordinates", coordplane(0,10,0,7,[(2,1,"P"),(2,6,"Q"),(9,6,"R"),(9,1,"S")]), "The sides are 5 units and 7 units. Perimeter = 2 × (5 + 7) = 24 units. Trap: 35 is the area, not the perimeter."),
+("Each grid square is 1 unit. Points P, Q, R, and S are plotted on the grid. If all four points are connected in order, what shape do they form?", "rectangle", ["square","trapezoid","rhombus"], "Hard", "classifying a quadrilateral from coordinates", coordplane(-3,4,-2,4,[(-2,-1,"P"),(-2,3,"Q"),(3,3,"R"),(3,-1,"S")]), "P to Q is 4 units up, Q to R is 5 units right: the sides are not equal, but opposite sides are equal and all angles are right angles, so it is a rectangle."),
+("Each grid square is 1 unit. Points P, Q, R, and S are plotted on the grid. What is the perimeter of quadrilateral PQRS?", "24 units", ["35 units","12 units","17 units"], "Medium", "perimeter from coordinates", coordplane(0,10,0,7,[(2,1,"P"),(2,6,"Q"),(9,6,"R"),(9,1,"S")]), "The sides are 5 units and 7 units. Perimeter = 2 × (5 + 7) = 24 units. Trap: 35 is the area, not the perimeter."),
 ("What value is equivalent to 35%?", "7/20", ["3/5","0.035","3.5"], "Medium", "percent equivalence", None, "35% = 35/100 = 7/20. Trap: 0.035 (moved the decimal the wrong way)."),
 ("A hiker starts at an elevation of −45 m. She climbs up 120 m, then climbs down 30 m. What is her new elevation?", "45 m", ["−75 m","15 m","195 m"], "Hard", "signed numbers (elevation, multi-step)", None, "−45 + 120 = 75. 75 − 30 = 45."),
 ("Which number is divisible by both 6 and 8?", "48", ["36","32","54"], "Medium", "divisibility by 6 and 8", None, "48 ÷ 6 = 8 and 48 ÷ 8 = 6. Each other choice fails one of the two conditions."),
@@ -83,7 +84,7 @@ P = [
 ("On Monday, Elena read 84 pages. On Tuesday, she read one third as many pages as Monday. How many pages did she read over the two days?", "112", ["28","56","140"], "Hard", "multi-step word problem (fraction then sum)", None, "Tuesday: 84 ÷ 3 = 28 pages. Total: 84 + 28 = 112 pages. Trap: 28 is only Tuesday's pages."),
 ("What is the standard form for four hundred twelve thousand, seven?", "412,007", ["412,700","421,007","412,070"], "Easy", "number words to standard form", None, "Four hundred twelve thousand is 412,000. Plus seven ones: 412,007."),
 ("A quadrilateral has exactly one pair of parallel sides. What is it called?", "trapezoid", ["parallelogram","rhombus","pentagon"], "Easy", "identifying shapes by properties", None, "A parallelogram and rhombus both have two pairs of parallel sides; a trapezoid has only one."),
-("Use the number line. P is the average of Q and another number R. What is R?", "32", ["24","40","16"], "Medium", "average using a number line (missing point)", numberline(0,40,4,[(2,"Q"),(5,"P")]), "Q = 8, P = 20 (read from the marks). Average of Q and R equals P, so R = 2 × 20 − 8 = 32."),
+("Use the number line. P is the average of Q and another number R. What is R?", "32", ["24","40","16"], "Medium", "average using a number line (missing point)", numberline(10,[(2,"Q"),(5,"P")],show_ends=(0,40)), "Q = 8, P = 20 (read from the marks). Average of Q and R equals P, so R = 2 × 20 − 8 = 32."),
 ("A board that is 72 inches long is cut into sixths. What is the length of each piece, in inches?", "12", ["6","18","24"], "Easy", "dividing a whole number into equal parts", None, "72 ÷ 6 = 12 inches per piece."),
 ("A pattern of square tiles: Figure 1 has 1 tile, Figure 2 has 4 tiles, Figure 3 has 9 tiles. If the pattern continues, how many tiles will Figure 6 have?", "36", ["25","49","30"], "Hard", "pattern (square numbers)", None, "Figure n has n² tiles. Figure 6: 6² = 36."),
 ]
