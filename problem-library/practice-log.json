@@ -129,5 +129,26 @@
     "estimation_pass": "2026-10-06: estimation items rewritten to the real format: (a \u00d7 b) \u00f7 c with 'between X and Y' answers (3, 7, 33), range sum of four prices (4), and 'which expression best estimates' money-division items (5, 21, 28). Real examples are two products over a third value, often with ranges."
    }
   }
- ]
+ ],
+ "rotation_notes": {
+  "source": "Set topic lists above are what plan_set.py reads for rotation (last_seen, times). Keep topic names exact to the planner bank names.",
+  "dropped_after_set_2": [
+   "Determining Fraction Percent of Shaded Area given Figure",
+   "Multi-step Word Problems",
+   "Multiplying and Dividing Integers",
+   "Remaining Amount after Reducing by Fractions",
+   "Random Landing Probability"
+  ],
+  "label_aliases": {
+   "Estimation (sums, products, money, ranges)": "split in set 2 into Estimating Multiplication & Division / Estimating Sums/Differences of Decimal Numbers / Estimating Division with Money"
+  },
+  "not_yet_practised": [
+   "Multiplying and Dividing Integers (set 3 should include one)",
+   "Converting to a Decimal",
+   "Translating Math Expressions (only 1 in set 2)",
+   "Angles in Triangles",
+   "Area of Triangles"
+  ],
+  "set_3_priority": "Include the dropped topics and the not-yet-practised list before repeating set 2 topics."
+ }
 }
