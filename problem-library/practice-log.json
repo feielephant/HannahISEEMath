@@ -150,5 +150,90 @@
    "Area of Triangles"
   ],
   "set_3_priority": "Include the dropped topics and the not-yet-practised list before repeating set 2 topics."
+ },
+ "ma_sets": [
+  {
+   "set_no": 1,
+   "topics": [
+    "patterns: add 3",
+    "divisibility by 8",
+    "divisibility by 9 (digit sum)",
+    "remainders",
+    "function machine rule (output = 3 \u00d7 input + 1)",
+    "difference pattern (differences 1, 2, 4, 8, ...)",
+    "geometric pattern (\u00d7 3)",
+    "adding decimals",
+    "adding decimals with different place values",
+    "comparing fraction to decimal",
+    "median",
+    "range",
+    "divisibility by 4 and 6",
+    "always-true statement about shapes",
+    "distributive property",
+    "square area from perimeter",
+    "fraction of a quantity",
+    "probability of one event",
+    "time zones",
+    "multiples",
+    "estimating a sum of money",
+    "table total",
+    "remainders with two divisors",
+    "decimal place value",
+    "ordering fractions",
+    "patterns: doubling",
+    "true/false statements about numbers",
+    "average (mean)",
+    "figure pattern (linear)"
+   ]
+  },
+  {
+   "set_no": 2,
+   "topics": [
+    "number line (evenly spaced marks)",
+    "divisibility by 7",
+    "function machine rule (output = 3 \u00d7 input + 3)",
+    "mode",
+    "range (missing value)",
+    "median (even count)",
+    "average (missing value)",
+    "classifying a quadrilateral from coordinates",
+    "perimeter from coordinates",
+    "percent equivalence",
+    "signed numbers (elevation, multi-step)",
+    "divisibility by 6 and 8",
+    "multiples (common multiple)",
+    "comparing fraction to decimal",
+    "decimal place value",
+    "ordering fractions (unlike denominators)",
+    "perimeter from area",
+    "fraction of a quantity",
+    "probability of one event",
+    "time zones (ahead)",
+    "estimating with money (expression)",
+    "reading a bar graph (difference)",
+    "always-true statement about shapes",
+    "distributive property (subtraction)",
+    "multi-step word problem (fraction then sum)",
+    "number words to standard form",
+    "identifying shapes by properties",
+    "average using a number line (missing point)",
+    "dividing a whole number into equal parts",
+    "pattern (square numbers)"
+   ]
+  }
+ ],
+ "ma_notes": {
+  "median_mean_range_clarification": "2026-10-07: these topics belong to Math Achievement, not QR (established 2026-10-06). MA set 1 already had median (#12), range (#13), and average/mean (#29). The parent's question about 'no mean/median/average/range' was about the QR sets (speed-set-1, speed-set-2), which correctly exclude them by design. MA set 2 adds a second median (even-count), a second average (missing-value form), and a range (missing-value form), all with different numbers/scenario than set 1.",
+  "fix_applied_2026-10-06": "MA set 1 item 22 rewritten from a single-product estimate to the real sum-of-money range format.",
+  "new_in_set_2": [
+   "number line (point)",
+   "mode",
+   "coordinate geometry (classify shape, perimeter)",
+   "percent equivalence",
+   "signed numbers / elevation",
+   "number words to standard form",
+   "identifying shapes by properties",
+   "bar graph reading"
+  ]
  }
 }
