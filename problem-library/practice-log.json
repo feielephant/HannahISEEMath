@@ -123,9 +123,10 @@
      "no median/mean (MA only)",
      "NOT-type drills limited to 1 (15)"
     ],
-    "diagram_count": 21,
+    "diagram_count": 20,
     "library_check": "Difficulty compared against real examples (official and book). Not-done originals still not substituted.",
-    "difficulty_pass": "2026-10-06 second pass: items 1,3,4,5,7,10,11,18,19,21,22,26,28,29,33,36,38 rewritten to match or exceed real-test difficulty (multi-step, unlike denominators, multi-digit estimation, decimals with more places). All answers checked with exact arithmetic."
+    "difficulty_pass": "2026-10-06 second pass: items 1,3,4,5,7,10,11,18,19,21,22,26,28,29,33,36,38 rewritten to match or exceed real-test difficulty (multi-step, unlike denominators, multi-digit estimation, decimals with more places). All answers checked with exact arithmetic.",
+    "estimation_pass": "2026-10-06: estimation items rewritten to the real format: (a \u00d7 b) \u00f7 c with 'between X and Y' answers (3, 7, 33), range sum of four prices (4), and 'which expression best estimates' money-division items (5, 21, 28). Real examples are two products over a third value, often with ranges."
    }
   }
  ]
