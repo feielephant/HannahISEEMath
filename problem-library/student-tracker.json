@@ -19,7 +19,7 @@
    "tier": "Hard",
    "real_tests": 6,
    "wrong": 8,
-   "graded": 25,
+   "graded": 27,
    "habits": [
     "check-every-condition",
     "exact-thing-asked"
@@ -31,7 +31,7 @@
    "tier": "Hard",
    "real_tests": 6,
    "wrong": 4,
-   "graded": 10,
+   "graded": 11,
    "habits": [
     "check-every-condition"
    ],
@@ -41,12 +41,14 @@
    "topic": "Translating Math Expressions",
    "tier": "Hard",
    "real_tests": 8,
-   "wrong": 5,
-   "graded": 23,
+   "wrong": 6,
+   "graded": 24,
    "habits": [
-    "key-word-watch"
+    "key-word-watch",
+    "simplify-constants"
    ],
-   "priority": "high"
+   "priority": "high",
+   "evidence_2026-10-07": "Set 2 (2026-10-06): real gap confirmed, 1/1 wrong \u2014 see reviews/speed-set-2-review-2026-10-07.html"
   },
   {
    "topic": "Solving Problems with Geometric Formulas",
@@ -103,10 +105,11 @@
    "topic": "Measurement Scaling",
    "tier": "Hard",
    "real_tests": 6,
-   "wrong": 2,
-   "graded": 17,
+   "wrong": 3,
+   "graded": 20,
    "habits": [],
-   "priority": "medium"
+   "priority": "medium",
+   "evidence_2026-10-07": "Set 2 (2026-10-06): missed converting the final unit (inches to feet), not a method problem (#25)"
   },
   {
    "topic": "Determining Averages between Points on Number Lines",
@@ -181,13 +184,14 @@
    "topic": "Multi-step unit conversion (off-by-10, multi-step)",
    "tier": "Medium",
    "real_tests": null,
-   "wrong": null,
-   "graded": null,
+   "wrong": 1,
+   "graded": 3,
    "habits": [
     "exact-thing-asked"
    ],
    "priority": "high",
-   "note": "7/10 multi-step wrong on Elevate Prep drill p.144; off-by-10 confirmed"
+   "note": "7/10 multi-step wrong on Elevate Prep drill p.144; off-by-10 confirmed",
+   "evidence_2026-10-07": "Set 2 (2026-10-06): miscounted a zero \u2014 matches the existing off-by-10 habit, not a new issue (#32)"
   },
   {
    "topic": "Estimation (sums, products, money, ranges)",
@@ -206,7 +210,7 @@
    "tier": "Medium",
    "real_tests": null,
    "wrong": 4,
-   "graded": 12,
+   "graded": 15,
    "habits": [
     "check-every-condition",
     "use-all-data"
@@ -230,7 +234,7 @@
    "tier": "Easy",
    "real_tests": null,
    "wrong": 4,
-   "graded": 4,
+   "graded": 5,
    "habits": [
     "key-word-watch"
    ],
@@ -241,20 +245,22 @@
    "topic": "Estimating Multiplication & Division",
    "tier": "Medium",
    "real_tests": null,
-   "wrong": 0,
-   "graded": 0,
+   "wrong": 2,
+   "graded": 3,
    "habits": [
-    "compute-both-sides"
+    "compute-both-sides",
+    "estimation-division-number-sense"
    ],
    "priority": "high",
-   "note": "estimation group: largest real gap; examples added 2026-10-03, no graded results yet"
+   "note": "estimation group: largest real gap; examples added 2026-10-03, no graded results yet",
+   "evidence_2026-10-07": "Set 2 (2026-10-06): real gap confirmed, 2/3 wrong \u2014 see reviews/speed-set-2-review-2026-10-07.html"
   },
   {
    "topic": "Estimating Sums/Differences of Decimal Numbers",
    "tier": "Medium",
    "real_tests": null,
    "wrong": 0,
-   "graded": 0,
+   "graded": 2,
    "habits": [
     "compute-both-sides"
    ],
@@ -266,7 +272,7 @@
    "tier": "Easy",
    "real_tests": null,
    "wrong": 0,
-   "graded": 0,
+   "graded": 3,
    "habits": [
     "compute-both-sides"
    ],
@@ -287,11 +293,86 @@
    "topic": "3D shape from its net (unfolding a solid)",
    "tier": "Medium",
    "real_tests": null,
-   "wrong": 0,
-   "graded": 0,
+   "wrong": 1,
+   "graded": 3,
    "habits": [],
    "priority": "high",
-   "note": "not practised before; on real test (ISEE Lower #3 cube-net) and book sets; enhancement type"
+   "note": "not practised before; on real test (ISEE Lower #3 cube-net) and book sets; enhancement type",
+   "evidence_2026-10-07": "Set 2 (2026-10-06): looked like a rushed/random pick on review, not a missing concept (#12)"
+  },
+  {
+   "topic": "Comparing & Ordering Fractions & Decimals",
+   "tier": "Medium",
+   "real_tests": null,
+   "wrong": 2,
+   "graded": 3,
+   "habits": [
+    "decimal-vs-nonnice-fraction"
+   ],
+   "priority": "high",
+   "evidence_2026-10-07": "Set 2 (2026-10-06): real gap, 2/3 wrong \u2014 see reviews/speed-set-2-review-2026-10-07.html"
+  },
+  {
+   "topic": "Interpreting Pictographs",
+   "tier": "Easy",
+   "real_tests": null,
+   "wrong": 1,
+   "graded": 3,
+   "habits": [],
+   "priority": "medium",
+   "evidence_2026-10-07": "Set 2 (2026-10-06): one miss (#36), not reviewed in detail with Hannah; no diagnosis yet"
+  },
+  {
+   "topic": "Adding and Subtracting Decimals",
+   "tier": "Easy",
+   "real_tests": null,
+   "wrong": 1,
+   "graded": 2,
+   "habits": [],
+   "priority": "medium",
+   "evidence_2026-10-07": "Set 2 (2026-10-06): single-digit addition slip on review, not a method problem (#26)"
+  },
+  {
+   "topic": "Solving for Missing Sides given Similar Figures",
+   "tier": "Medium",
+   "real_tests": null,
+   "wrong": 0,
+   "graded": 1,
+   "habits": [],
+   "priority": "medium"
+  },
+  {
+   "topic": "Dividing Equally From a Total",
+   "tier": "Medium",
+   "real_tests": null,
+   "wrong": 1,
+   "graded": 2,
+   "habits": [
+    "stops-after-first-step"
+   ],
+   "priority": "high",
+   "evidence_2026-10-07": "Set 2 (2026-10-06): real gap, 1/2 wrong \u2014 see reviews/speed-set-2-review-2026-10-07.html"
+  },
+  {
+   "topic": "Probability (simple, equally likely outcomes)",
+   "tier": "Medium",
+   "real_tests": null,
+   "wrong": 0,
+   "graded": 1,
+   "habits": [],
+   "priority": "medium"
+  },
+  {
+   "topic": "Word Problems with Ratios",
+   "tier": "Medium",
+   "real_tests": null,
+   "wrong": 1,
+   "graded": 1,
+   "habits": [
+    "ratio-partition-forgotten"
+   ],
+   "priority": "high",
+   "evidence_2026-10-07": "Set 2 (2026-10-06): real gap, 1/1 wrong \u2014 see reviews/speed-set-2-review-2026-10-07.html"
   }
  ],
  "pacing": {
