@@ -304,7 +304,7 @@
     "Estimating Division with Money",
     "Comparing & Ordering Fractions & Decimals",
     "Estimating Division with Money",
-    "Estimating Division with Money",
+    "Multiplying and Dividing Integers",
     "Value of Digits",
     "Multi-step unit conversion (off-by-10, multi-step)",
     "Identifying Correct Conclusions from Bar Graph Data Table",
@@ -354,7 +354,8 @@
     ],
     "diagram_count": 22,
     "difficulty": "Same rules as set 2's final corrected version: no easier than real, estimation in (a\u00d7b)\u00f7c range format, diagrams label only given sides, no intermediate percent values, every answer checked with exact arithmetic (not by hand).",
-    "net_trim_2026-10-07": "Trimmed 3D-net from 3 slots to 1 (kept #5, swapped #16 and #36). Its tracker priority was 'high' from before any evidence existed; now downgraded to 'maintain' given she's shown to be fine on it. #16 -> Multi-step unit conversion (off-by-10 habit, confirmed gap, absent from set 3 until now). #36 -> Divisibility (high priority, absent from set 3 until now)."
+    "net_trim_2026-10-07": "Trimmed 3D-net from 3 slots to 1 (kept #5, swapped #16 and #36). Its tracker priority was 'high' from before any evidence existed; now downgraded to 'maintain' given she's shown to be fine on it. #16 -> Multi-step unit conversion (off-by-10 habit, confirmed gap, absent from set 3 until now). #36 -> Divisibility (high priority, absent from set 3 until now).",
+    "second_pass_2026-10-07": "Estimating Division with Money had the same stale-high-priority-then-3x pattern as the net topic (3 instances in set 2, all correct; 3 instances in set 3). Downgraded priority (see tracker) and trimmed set 3 from 3 to 2 (#11, #13 kept; #14 swapped). #14 -> Multiplying and Dividing Integers, restoring coverage of a topic dropped from the tracker entirely after set 1."
    }
   }
  ],

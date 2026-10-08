@@ -373,6 +373,16 @@
    ],
    "priority": "high",
    "evidence_2026-10-07": "Set 2 (2026-10-06): real gap, 1/1 wrong \u2014 see reviews/speed-set-2-review-2026-10-07.html"
+  },
+  {
+   "topic": "Multiplying and Dividing Integers",
+   "tier": "Easy",
+   "real_tests": null,
+   "wrong": null,
+   "graded": null,
+   "habits": [],
+   "priority": "medium",
+   "note": "Dropped from the tracker after set 1 (never formally added); re-added 2026-10-07 in set 3 to restore coverage."
   }
  ],
  "pacing": {
