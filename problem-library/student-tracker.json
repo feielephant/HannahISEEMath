@@ -350,11 +350,9 @@
    "real_tests": null,
    "wrong": 1,
    "graded": 2,
-   "habits": [
-    "stops-after-first-step"
-   ],
-   "priority": "high",
-   "evidence_2026-10-07": "Set 2 (2026-10-06): real gap, 1/2 wrong \u2014 see reviews/speed-set-2-review-2026-10-07.html"
+   "habits": [],
+   "priority": "medium",
+   "evidence_2026-10-07": "CORRECTED 2026-10-07: her wrong answer on #22 was 115, which is exactly 23\u00d75 (252\u00f712 miscounted as 23 instead of 21) or a miscarried 21\u00d75. Either way that number proves she DID both steps (divide, then multiply by 5) and slipped on one digit \u2014 if she'd really stopped after dividing she couldn't have landed on 115 at all. Reclassified from 'real gap, stops after first step' to a plain calculation slip, same bucket as #26. Recalculating fixed it without re-teaching, which is the clearest sign it wasn't a missing method."
   },
   {
    "topic": "Probability (simple, equally likely outcomes)",

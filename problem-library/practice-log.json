@@ -159,7 +159,6 @@
     "real_gaps_confirmed": [
      "Estimating Multiplication & Division (sticky, #3 and #33)",
      "Comparing & Ordering Fractions & Decimals (decimal vs non-nice fraction)",
-     "Dividing Equally From a Total (stops after first step)",
      "Translating Math Expressions (phrase-order + simplifying constants)",
      "Word Problems with Ratios (forgot partition method)"
     ],
@@ -167,7 +166,8 @@
      "3D shape from its net (#12, rushed pick)",
      "Measurement Scaling (#25, missed final unit)",
      "Multi-step unit conversion (#32, matches existing off-by-10 habit)",
-     "Adding and Subtracting Decimals (#26, digit slip)"
+     "Adding and Subtracting Decimals (#26, digit slip)",
+     "Dividing Equally From a Total (#22, calculation slip: 115 = 23\u00d75, proves both steps were done)"
     ],
     "unconfirmed_needs_retest": {
      "36": "gave the right final answer on review (54) but only after narrowing to 2 choices; may have been elimination, not recall. Set 3 should include a fresh-numbers version of 'whole number times a quantity with a half/fraction' to confirm. Timing now confirms genuine deliberation (27.3s, 3 changes), not a snap guess \u2014 consistent with partial understanding rather than zero understanding, but still not proof she can produce the answer from scratch."
@@ -283,7 +283,8 @@
     },
     "revised_notes_2026-10-07": {
      "23": "9.8s, single click, no revision \u2014 fast and confident, not struggling with phrasing. Real gap is simplifying 3n+8-5 to 3n+3; absent that, she scans choices for a literal trailing '-5' and picks C, which happens to have that surface feature despite being wrong for a different reason (wrong grouping). New habit: scans-for-surface-match, distinct from the simplification gap.",
-     "36": "27.3s across 4 clicks (chose C [correct] -> A -> B -> A [final, wrong]). Her first instinct was right; she talked herself out of a correct answer, flipping rapidly (A/B/A within 1.5s) near the very end \u2014 looks like confidence/overthinking under time pressure, not a missing concept. Same bidirectional pattern as #9 (wrong->right): she second-guesses in both directions."
+     "36": "27.3s across 4 clicks (chose C [correct] -> A -> B -> A [final, wrong]). Her first instinct was right; she talked herself out of a correct answer, flipping rapidly (A/B/A within 1.5s) near the very end \u2014 looks like confidence/overthinking under time pressure, not a missing concept. Same bidirectional pattern as #9 (wrong->right): she second-guesses in both directions.",
+     "22": "Her wrong answer 115 = 23\u00d75 or a miscarried 21\u00d75 \u2014 proves both steps were done, one digit slipped. Not a gap; reclassified from 'stops after first step' to calculation slip, same bucket as #26."
     }
    }
   }
