@@ -318,9 +318,11 @@
    "real_tests": null,
    "wrong": 1,
    "graded": 3,
-   "habits": [],
+   "habits": [
+    "unconfirmed-fractional-multiplier"
+   ],
    "priority": "medium",
-   "evidence_2026-10-07": "Set 2 (2026-10-06): one miss (#36), not reviewed in detail with Hannah; no diagnosis yet"
+   "evidence_2026-10-07": "Set 2 #36: on review she immediately gave the right answer (54), but only after narrowing to '48 or 54' \u2014 can't rule out she just picked the other option by elimination rather than actually computing 4.5 \u00d7 12. Needs a differently-worded retest (different numbers/scenario, same skill: whole number \u00d7 a quantity with a half or fraction in it) before treating this as resolved."
   },
   {
    "topic": "Adding and Subtracting Decimals",

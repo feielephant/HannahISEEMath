@@ -168,7 +168,10 @@
      "Measurement Scaling (#25, missed final unit)",
      "Multi-step unit conversion (#32, matches existing off-by-10 habit)",
      "Adding and Subtracting Decimals (#26, digit slip)"
-    ]
+    ],
+    "unconfirmed_needs_retest": {
+     "36": "gave the right final answer on review (54) but only after narrowing to 2 choices; may have been elimination, not recall. Set 3 should include a fresh-numbers version of 'whole number times a quantity with a half/fraction' to confirm."
+    }
    }
   }
  ],
