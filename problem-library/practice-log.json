@@ -170,9 +170,117 @@
      "Adding and Subtracting Decimals (#26, digit slip)"
     ],
     "unconfirmed_needs_retest": {
-     "36": "gave the right final answer on review (54) but only after narrowing to 2 choices; may have been elimination, not recall. Set 3 should include a fresh-numbers version of 'whole number times a quantity with a half/fraction' to confirm."
+     "36": "gave the right final answer on review (54) but only after narrowing to 2 choices; may have been elimination, not recall. Set 3 should include a fresh-numbers version of 'whole number times a quantity with a half/fraction' to confirm. Timing now confirms genuine deliberation (27.3s, 3 changes), not a snap guess \u2014 consistent with partial understanding rather than zero understanding, but still not proof she can produce the answer from scratch."
     },
-    "timing_caveat_2026-10-07": "The per-problem times used for the fast/slow analysis came from the pre-fix formula, which folded revision time into the NEXT problem instead of the one being revised (fixed 2026-10-07, commit a5e9a1c). Only have the summary CSV for this attempt, not the raw click log, so this can't be recomputed after the fact. Treat the #3/#22 'genuinely slow' and 'most misses were fast' conclusions as provisional, not re-verified under the fix."
+    "timing_recomputed_2026-10-07": {
+     "source": "full click log (speed-set-2-click-log.csv), recomputed with the fixed attribution formula",
+     "correlation": "still weak/near-zero: r=-0.109 (was -0.08 under the old formula) \u2014 time spent is not a strong predictor of right/wrong",
+     "slowest_10": [
+      [
+       4,
+       330.7,
+       "right"
+      ],
+      [
+       10,
+       254.4,
+       "right"
+      ],
+      [
+       22,
+       249.2,
+       "wrong"
+      ],
+      [
+       5,
+       241.7,
+       "right"
+      ],
+      [
+       11,
+       170.3,
+       "right"
+      ],
+      [
+       37,
+       154.1,
+       "right"
+      ],
+      [
+       19,
+       147.6,
+       "right"
+      ],
+      [
+       3,
+       144.0,
+       "wrong"
+      ],
+      [
+       13,
+       111.2,
+       "right"
+      ],
+      [
+       29,
+       85.9,
+       "right"
+      ]
+     ],
+     "fastest_10": [
+      [
+       18,
+       11.9,
+       "wrong"
+      ],
+      [
+       6,
+       11.8,
+       "right"
+      ],
+      [
+       38,
+       10.6,
+       "wrong"
+      ],
+      [
+       23,
+       9.8,
+       "wrong"
+      ],
+      [
+       12,
+       9.3,
+       "wrong"
+      ],
+      [
+       35,
+       7.3,
+       "right"
+      ],
+      [
+       20,
+       6.8,
+       "right"
+      ],
+      [
+       15,
+       6.3,
+       "right"
+      ],
+      [
+       33,
+       3.9,
+       "wrong"
+      ],
+      [
+       1,
+       0.0,
+       "right"
+      ]
+     ],
+     "correction": "Problem #36 moved OUT of the fast group under the fix: old formula showed 4s (looked like a rushed guess), real accumulated time is 27.3s (three changes at the end: C to A to B to A). This matches Hannah's own account of wavering between two values, not a snap pick."
+    }
    }
   }
  ],
