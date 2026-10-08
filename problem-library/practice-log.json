@@ -464,5 +464,11 @@
    "identifying shapes by properties",
    "bar graph reading"
   ]
- }
+ },
+ "integrity_notes": [
+  {
+   "date": "2026-10-08",
+   "finding": "Every 'divisible by both X and Y' diagram table in sets 1-2 had the correct answer as the only all-yes row, visible on the worksheet (not just the key) -- answerable by pattern-matching rather than real reasoning. Affected: set 1 #27, set 2 #13, set 2 #35 (all answered correctly). Fixed in set 3 and confirmed absent from all other live worksheets (checked all 5)."
+  }
+ ]
 }

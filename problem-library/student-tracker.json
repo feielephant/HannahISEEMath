@@ -216,7 +216,8 @@
     "check-every-condition",
     "use-all-data"
    ],
-   "priority": "high"
+   "priority": "high",
+   "evidence_2026-10-08": "INTEGRITY CAVEAT: found 2026-10-08 that every 'divisible by both X and Y' table in sets 1 and 2 had a design flaw -- the table showed yes/no checks for all 4 choices, and the correct answer was always the only all-yes row, visible on the worksheet itself (not just the key). That makes the table answerable by pattern-matching ('find the row with two yeses') without real divisibility reasoning. Affected: set 1 #27, set 2 #13, set 2 #35 -- she answered all three correctly, which is consistent with (but not proof of) the leak helping. Her 4/15 historical wrong-rate on this topic may be somewhat better than her real understanding. Fixed in set 3 (#36, diagram removed entirely) and will not recur -- checked all 5 live worksheets, no other table has this pattern."
   },
   {
    "topic": "Cryptarithm / digit substitution",
