@@ -352,7 +352,7 @@
    "graded": 2,
    "habits": [],
    "priority": "medium",
-   "evidence_2026-10-07": "CORRECTED 2026-10-07: her wrong answer on #22 was 115, which is exactly 23\u00d75 (252\u00f712 miscounted as 23 instead of 21) or a miscarried 21\u00d75. Either way that number proves she DID both steps (divide, then multiply by 5) and slipped on one digit \u2014 if she'd really stopped after dividing she couldn't have landed on 115 at all. Reclassified from 'real gap, stops after first step' to a plain calculation slip, same bucket as #26. Recalculating fixed it without re-teaching, which is the clearest sign it wasn't a missing method."
+   "evidence_2026-10-07": "CORRECTED 2026-10-07: her wrong answer on #22 was 115, which is exactly 23\u00d75 (252\u00f712 miscounted as 23 instead of 21) or a miscarried 21\u00d75. Either way that number proves she DID both steps (divide, then multiply by 5) and slipped on one digit \u2014 if she'd really stopped after dividing she couldn't have landed on 115 at all. Reclassified from 'real gap, stops after first step' to a plain calculation slip, same bucket as #26. Recalculating fixed it without re-teaching, which is the clearest sign it wasn't a missing method. CONFIRMED by Hannah directly: she did 252\u00f712 in her head the first time and got it wrong; redoing it with long division gave the correct 21. Fix is a habit (use long division for this kind of multi-digit division, not mental math under time pressure), not re-teaching a method."
   },
   {
    "topic": "Probability (simple, equally likely outcomes)",

@@ -284,7 +284,7 @@
     "revised_notes_2026-10-07": {
      "23": "9.8s, single click, no revision \u2014 fast and confident, not struggling with phrasing. Real gap is simplifying 3n+8-5 to 3n+3; absent that, she scans choices for a literal trailing '-5' and picks C, which happens to have that surface feature despite being wrong for a different reason (wrong grouping). New habit: scans-for-surface-match, distinct from the simplification gap.",
      "36": "27.3s across 4 clicks (chose C [correct] -> A -> B -> A [final, wrong]). Her first instinct was right; she talked herself out of a correct answer, flipping rapidly (A/B/A within 1.5s) near the very end \u2014 looks like confidence/overthinking under time pressure, not a missing concept. Same bidirectional pattern as #9 (wrong->right): she second-guesses in both directions.",
-     "22": "Her wrong answer 115 = 23\u00d75 or a miscarried 21\u00d75 \u2014 proves both steps were done, one digit slipped. Not a gap; reclassified from 'stops after first step' to calculation slip, same bucket as #26."
+     "22": "Her wrong answer 115 = 23\u00d75 or a miscarried 21\u00d75 \u2014 proves both steps were done, one digit slipped. Not a gap; reclassified from 'stops after first step' to calculation slip, same bucket as #26. Confirmed directly by Hannah: skipped long division first time (did it in her head), got it wrong; used long division on redo, got 21 correctly. Fix = habit (write out long division for multi-digit division), not re-teaching."
     }
    }
   }
