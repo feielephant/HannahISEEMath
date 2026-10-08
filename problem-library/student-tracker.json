@@ -319,11 +319,9 @@
    "real_tests": null,
    "wrong": 1,
    "graded": 3,
-   "habits": [
-    "unconfirmed-fractional-multiplier"
-   ],
+   "habits": [],
    "priority": "medium",
-   "evidence_2026-10-07": "Set 2 #36: on review she immediately gave the right answer (54), but only after narrowing to '48 or 54' \u2014 can't rule out she just picked the other option by elimination rather than actually computing 4.5 \u00d7 12. Needs a differently-worded retest (different numbers/scenario, same skill: whole number \u00d7 a quantity with a half or fraction in it) before treating this as resolved. Recomputed timing (2026-10-07, real click log): she spent 27.3s changing her answer 3 times at the end (C\u2192A\u2192B\u2192A), not a 4s snap guess as first measured. She was genuinely torn between two values, which fits 'partially knows the idea' better than 'has no idea' \u2014 still needs the retest to confirm she can compute it, not just narrow it down."
+   "evidence_2026-10-07": "CORRECTED 2026-10-07: #36 is not a pictograph/fractional-multiplier gap. Her first instinct on the real test was C = 54, the correct answer \u2014 she computed 4.5\u00d712 right the first time, then talked herself out of it (changed to A, then B, then back to A) in the last 1.5 seconds. This is the confidence/second-guessing habit also seen on #9 (in the opposite direction), not a gap in this topic. Removed the unconfirmed-fractional-multiplier habit and the retest flag \u2014 she knows this."
   },
   {
    "topic": "Adding and Subtracting Decimals",
