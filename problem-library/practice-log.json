@@ -171,7 +171,8 @@
     ],
     "unconfirmed_needs_retest": {
      "36": "gave the right final answer on review (54) but only after narrowing to 2 choices; may have been elimination, not recall. Set 3 should include a fresh-numbers version of 'whole number times a quantity with a half/fraction' to confirm."
-    }
+    },
+    "timing_caveat_2026-10-07": "The per-problem times used for the fast/slow analysis came from the pre-fix formula, which folded revision time into the NEXT problem instead of the one being revised (fixed 2026-10-07, commit a5e9a1c). Only have the summary CSV for this attempt, not the raw click log, so this can't be recomputed after the fact. Treat the #3/#22 'genuinely slow' and 'most misses were fast' conclusions as provisional, not re-verified under the fix."
    }
   }
  ],
