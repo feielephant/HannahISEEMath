@@ -277,8 +277,9 @@
    "habits": [
     "compute-both-sides"
    ],
-   "priority": "high",
-   "note": "estimation group: largest real gap; examples added 2026-10-03, no graded results yet"
+   "priority": "medium",
+   "note": "estimation group: largest real gap; examples added 2026-10-03, no graded results yet",
+   "evidence_2026-10-07": "Caught by check_priority_staleness.py: 'high' priority but 0/3 wrong in actually-graded set 2 (#5, #21, #28, all correct). Downgraded to medium -- real evidence shows strong performance."
   },
   {
    "topic": "Remaining Amount after Reducing by Fractions",
