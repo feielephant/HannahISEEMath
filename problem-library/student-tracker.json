@@ -45,10 +45,11 @@
    "graded": 24,
    "habits": [
     "key-word-watch",
-    "simplify-constants"
+    "simplify-constants",
+    "scans-for-surface-match"
    ],
    "priority": "high",
-   "evidence_2026-10-07": "Set 2 (2026-10-06): real gap confirmed, 1/1 wrong \u2014 see reviews/speed-set-2-review-2026-10-07.html"
+   "evidence_2026-10-07": "Set 2 #23 revised 2026-10-07: she answered in 9.8s with a single confident click, no revision \u2014 fast, not laboring over phrasing. She correctly understands 'five less than X' means 'X \u2212 5' (not a comprehension gap). The real gap: she can't simplify 3n + 8 \u2212 5 down to 3n + 3 herself, so she scans the choices for one that visibly shows a trailing '\u2212 5' instead of deriving and matching her own simplified expression. C (3(n + 8) \u2212 5) is the only choice with that literal surface feature, which is exactly why it's such an effective trap for her \u2014 the correct answer (3n + 3) has already absorbed the \u22125, so it doesn't 'look like' what she's hunting for. 'scans-for-surface-match' is a separate, nameable habit from the simplification gap \u2014 it would mislead her on other problems too, even ones she partly understands."
   },
   {
    "topic": "Solving Problems with Geometric Formulas",

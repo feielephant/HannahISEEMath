@@ -280,6 +280,10 @@
       ]
      ],
      "correction": "Problem #36 moved OUT of the fast group under the fix: old formula showed 4s (looked like a rushed guess), real accumulated time is 27.3s (three changes at the end: C to A to B to A). This matches Hannah's own account of wavering between two values, not a snap pick."
+    },
+    "revised_notes_2026-10-07": {
+     "23": "9.8s, single click, no revision \u2014 fast and confident, not struggling with phrasing. Real gap is simplifying 3n+8-5 to 3n+3; absent that, she scans choices for a literal trailing '-5' and picks C, which happens to have that surface feature despite being wrong for a different reason (wrong grouping). New habit: scans-for-surface-match, distinct from the simplification gap.",
+     "36": "27.3s across 4 clicks (chose C [correct] -> A -> B -> A [final, wrong]). Her first instinct was right; she talked herself out of a correct answer, flipping rapidly (A/B/A within 1.5s) near the very end \u2014 looks like confidence/overthinking under time pressure, not a missing concept. Same bidirectional pattern as #9 (wrong->right): she second-guesses in both directions."
     }
    }
   }
