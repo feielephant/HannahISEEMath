@@ -287,6 +287,74 @@
      "22": "Her wrong answer 115 = 23\u00d75 or a miscarried 21\u00d75 \u2014 proves both steps were done, one digit slipped. Not a gap; reclassified from 'stops after first step' to calculation slip, same bucket as #26. Confirmed directly by Hannah: skipped long division first time (did it in her head), got it wrong; used long division on redo, got 21 correctly. Fix = habit (write out long division for multi-digit division), not re-teaching."
     }
    }
+  },
+  {
+   "set_no": 3,
+   "topics": [
+    "Value of Digits",
+    "Comparing & Ordering Fractions & Decimals",
+    "Estimating Multiplication & Division",
+    "Equivalent Fractions, Decimals, and Percents",
+    "3D shape from its net (unfolding a solid)",
+    "Numerical Patterns",
+    "Identifying Correct Conclusions from Bar Graph Data Table",
+    "Identifying Correct Conclusions from Bar Graph Data Table",
+    "Finding Perimeter and Area of a Square",
+    "Finding Perimeter and Area of a Square",
+    "Estimating Division with Money",
+    "Comparing & Ordering Fractions & Decimals",
+    "Estimating Division with Money",
+    "Estimating Division with Money",
+    "Value of Digits",
+    "3D shape from its net (unfolding a solid)",
+    "Identifying Correct Conclusions from Bar Graph Data Table",
+    "Numerical Patterns",
+    "Equivalent Fractions, Decimals, and Percents",
+    "Numerical Patterns",
+    "Total Shaded Area given Figure with Equal Divisions",
+    "Total Shaded Area given Figure with Equal Divisions",
+    "Split Line Segments",
+    "Finding Perimeter and Area of a Square",
+    "Finding Unit Price",
+    "Estimating Multiplication & Division",
+    "Angles in Triangles",
+    "Estimating Sums/Differences of Decimal Numbers",
+    "Finding Unit Price",
+    "Translating Math Expressions",
+    "Comparing & Ordering Fractions & Decimals",
+    "Translating Math Expressions",
+    "Word Problems with Ratios",
+    "Cryptarithm / digit substitution",
+    "Value of Digits",
+    "3D shape from its net (unfolding a solid)",
+    "Split Line Segments",
+    "Converting to a Decimal"
+   ],
+   "built_with": {
+    "confirmed_gaps_targeted": {
+     "Estimating Multiplication & Division": "2 slots (#3, #26) -- sticky gap, wrong on both #3/#33 in set 2",
+     "Comparing & Ordering Fractions & Decimals": "3 slots (#2, #12, #31) -- decimal vs non-nice-fraction gap from set 2 #18/#38",
+     "Translating Math Expressions": "2 slots (#30, #31... (#30,#32)) -- simplify-constants gap; #32 specifically rebuilt with the same '-4 surface match' trap she fell for on set 2 #23, as a direct, deliberate retest of that exact habit",
+     "Word Problems with Ratios": "1 slot (#33) -- ratio-partition method she'd forgotten on set 2 #34"
+    },
+    "not_inflated": "Dividing Equally From a Total (#22's real topic, calculation slip not a gap) and Interpreting Pictographs (#36, confidence habit not a gap) were NOT given extra weight -- normal rotation only.",
+    "new_coverage": [
+     "Angles in Triangles (never used in set 1 or 2, appears on 7/8 real tests)",
+     "Value of Digits",
+     "Finding Perimeter and Area of a Square",
+     "Finding Unit Price",
+     "Numerical Patterns",
+     "Identifying Correct Conclusions from Bar Graph Data Table",
+     "Total Shaded Area given Figure with Equal Divisions",
+     "Split Line Segments"
+    ],
+    "still_open_for_set_4": [
+     "Multiplying and Dividing Integers (dropped after set 1, not in tracker yet)",
+     "Area of Triangles (deferred in favor of Angles in Triangles this round)"
+    ],
+    "diagram_count": 22,
+    "difficulty": "Same rules as set 2's final corrected version: no easier than real, estimation in (a\u00d7b)\u00f7c range format, diagrams label only given sides, no intermediate percent values, every answer checked with exact arithmetic (not by hand)."
+   }
   }
  ],
  "rotation_notes": {
