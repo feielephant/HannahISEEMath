@@ -352,10 +352,12 @@
      "Multiplying and Dividing Integers (dropped after set 1, not in tracker yet)",
      "Area of Triangles (deferred in favor of Angles in Triangles this round)"
     ],
-    "diagram_count": 22,
+    "diagram_count": 9,
     "difficulty": "Same rules as set 2's final corrected version: no easier than real, estimation in (a\u00d7b)\u00f7c range format, diagrams label only given sides, no intermediate percent values, every answer checked with exact arithmetic (not by hand).",
     "net_trim_2026-10-07": "Trimmed 3D-net from 3 slots to 1 (kept #5, swapped #16 and #36). Its tracker priority was 'high' from before any evidence existed; now downgraded to 'maintain' given she's shown to be fine on it. #16 -> Multi-step unit conversion (off-by-10 habit, confirmed gap, absent from set 3 until now). #36 -> Divisibility (high priority, absent from set 3 until now).",
-    "second_pass_2026-10-07": "Estimating Division with Money had the same stale-high-priority-then-3x pattern as the net topic (3 instances in set 2, all correct; 3 instances in set 3). Downgraded priority (see tracker) and trimmed set 3 from 3 to 2 (#11, #13 kept; #14 swapped). #14 -> Multiplying and Dividing Integers, restoring coverage of a topic dropped from the tracker entirely after set 1."
+    "second_pass_2026-10-07": "Estimating Division with Money had the same stale-high-priority-then-3x pattern as the net topic (3 instances in set 2, all correct; 3 instances in set 3). Downgraded priority (see tracker) and trimmed set 3 from 3 to 2 (#11, #13 kept; #14 swapped). #14 -> Multiplying and Dividing Integers, restoring coverage of a topic dropped from the tracker entirely after set 1.",
+    "nondiag_trim_2026-10-10": "Several diagrams that only restated given text without adding structure were removed between build and this pass, bringing the live count from 22 down to 9 (see integrity_notes for the 2026-10-10 round-to-table leak, the last of these fixes).",
+    "fix_2026-10-10": "#3 and #26 (both Estimating Multiplication & Division) swapped to fresh numbers -- (73 x 289) / 19 and (46 x 227) / 23 -- for two reasons: #26's diagram leaked the full rounding (83->80, 196->200, 21->20) directly on the question sheet (same bug class as the 2026-10-08 divisibility leak), and both #3's and #26's original numbers had their exact rounding solutions worked through in chat with the parent before the set was taken. Diagram removed from #26 entirely, matching #3's no-diagram format -- real-test estimation items don't scaffold the rounding step."
    }
   }
  ],
@@ -473,6 +475,10 @@
   {
    "date": "2026-10-09",
    "finding": "Real-test (a x b)-over-c estimation items always use a slash (e.g. '(51 x 743) / 25'), never a division sign -- checked all 9 real examples in the library. Set 2's #3/#33 (already taken) and set 3's original #3/#26 used \u00f7. Fixed in set 3 (now /); can't change set 2. Doesn't change the math or the gap finding, just a minor notation mismatch worth knowing about."
+  },
+  {
+   "date": "2026-10-10",
+   "finding": "Same bug class as the 2026-10-08 divisibility leak: set 2 #6 and set 3's original #26 both had a 'Number / Round to' diagram table printed directly on the question sheet (not just the key), handing over the entire estimation step before she'd attempted it. Set 2 #6 was already taken and answered correctly (consistent with the leak making it trivial) -- can't fix retroactively, documented here. Set 3 #26 fixed: diagram removed, numbers swapped to (46 x 227) / 23. Caught by the parent noticing the table I'd described as a teaching aid was actually already live on the question sheet, not just something I was proposing."
   }
  ]
 }
