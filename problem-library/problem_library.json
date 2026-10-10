@@ -417,7 +417,9 @@
   "recapture_source_images": [
    "Screenshot 2026-10-09 at 6.56.50 PM.png"
   ],
-  "recapture_nav_color_read": "wrong"
+  "recapture_nav_color_read": "wrong",
+  "her_selected_letter": "B",
+  "her_selected_percentage": "6.0%"
  },
  {
   "source_file": "Screenshot 2026-10-02 at 11.20.16 AM.png",
@@ -753,7 +755,9 @@
   "recapture_source_images": [
    "Screenshot 2026-10-09 at 6.57.06 PM.png"
   ],
-  "recapture_nav_color_read": "wrong"
+  "recapture_nav_color_read": "wrong",
+  "her_selected_letter": "B",
+  "her_selected_percentage": "20.8%"
  },
  {
   "source_file": "Screenshot 2026-10-02 at 11.21.03 AM.png",
@@ -795,7 +799,9 @@
   "recapture_source_images": [
    "Screenshot 2026-10-09 at 6.57.08 PM.png"
   ],
-  "recapture_nav_color_read": "wrong"
+  "recapture_nav_color_read": "wrong",
+  "her_selected_letter": "B",
+  "her_selected_percentage": "9.9%"
  },
  {
   "source_file": "Screenshot 2026-10-02 at 11.21.10 AM.png",
@@ -1091,7 +1097,9 @@
   "recapture_source_images": [
    "Screenshot 2026-10-09 at 6.57.20 PM.png"
   ],
-  "recapture_nav_color_read": "wrong"
+  "recapture_nav_color_read": "wrong",
+  "her_selected_letter": "B",
+  "her_selected_percentage": "11.8%"
  },
  {
   "source_file": "Screenshot 2026-10-02 at 11.21.56 AM.png",
@@ -1217,7 +1225,9 @@
   "recapture_source_images": [
    "Screenshot 2026-10-09 at 6.57.25 PM.png"
   ],
-  "recapture_nav_color_read": "wrong"
+  "recapture_nav_color_read": "wrong",
+  "her_selected_letter": "D",
+  "her_selected_percentage": "21.2%"
  },
  {
   "source_file": "Screenshot 2026-10-02 at 11.22.09 AM.png",
@@ -1427,7 +1437,9 @@
   "recapture_source_images": [
    "Screenshot 2026-10-09 at 6.57.43 PM.png"
   ],
-  "recapture_nav_color_read": "wrong"
+  "recapture_nav_color_read": "wrong",
+  "her_selected_letter": "C",
+  "her_selected_percentage": "17.4%"
  },
  {
   "source_file": "Screenshot 2026-10-02 at 11.22.42 AM.png",
@@ -2366,7 +2378,9 @@
   "recapture_source_images": [
    "Screenshot 2026-10-09 at 7.02.04 PM.png"
   ],
-  "recapture_nav_color_read": "wrong"
+  "recapture_nav_color_read": "wrong",
+  "her_selected_letter": "A",
+  "her_selected_percentage": "17.8%"
  },
  {
   "source_file": "Screenshot 2026-10-02 at 11.25.08 AM.png",
@@ -2450,7 +2464,9 @@
   "recapture_source_images": [
    "Screenshot 2026-10-09 at 7.02.07 PM.png"
   ],
-  "recapture_nav_color_read": "wrong"
+  "recapture_nav_color_read": "wrong",
+  "her_selected_letter": "D",
+  "her_selected_percentage": "15.2%"
  },
  {
   "source_file": "Screenshot 2026-10-02 at 11.25.19 AM.png",
@@ -2744,7 +2760,9 @@
   "recapture_source_images": [
    "Screenshot 2026-10-09 at 7.02.18 PM.png"
   ],
-  "recapture_nav_color_read": "wrong"
+  "recapture_nav_color_read": "wrong",
+  "her_selected_letter": "A",
+  "her_selected_percentage": "9.5%"
  },
  {
   "source_file": "Screenshot 2026-10-02 at 11.25.59 AM.png",
@@ -2913,7 +2931,9 @@
    "Screenshot 2026-10-09 at 7.02.25 PM.png"
   ],
   "integrity_note_2026-10-10": "Subagent read her_status as \"correct\" from the navigator-row color, but personal verification against the source screenshot (Screenshot 2026-10-09 at 7.02.25 PM.png) shows she picked B (pink, 20.0%) while the correct answer is C (green, 54.4%) -- she was actually wrong, matching the original is_wrong=True record. No change made. Kept as a documented example of why her_status was not trusted as automatically authoritative.",
-  "recapture_nav_color_read": "correct"
+  "recapture_nav_color_read": "correct",
+  "her_selected_letter": "B",
+  "her_selected_percentage": "20.0%"
  },
  {
   "source_file": "Screenshot 2026-10-02 at 11.26.17 AM.png",
@@ -3039,7 +3059,9 @@
   "recapture_source_images": [
    "Screenshot 2026-10-09 at 7.02.29 PM.png"
   ],
-  "recapture_nav_color_read": "wrong"
+  "recapture_nav_color_read": "wrong",
+  "her_selected_letter": "C",
+  "her_selected_percentage": "23.8%"
  },
  {
   "source_file": "Screenshot 2026-10-02 at 11.26.36 AM.png",
@@ -3123,7 +3145,9 @@
   "recapture_source_images": [
    "Screenshot 2026-10-09 at 7.02.32 PM.png"
   ],
-  "recapture_nav_color_read": "wrong"
+  "recapture_nav_color_read": "wrong",
+  "her_selected_letter": "B",
+  "her_selected_percentage": "24.6%"
  },
  {
   "source_file": "Screenshot 2026-10-02 at 11.26.50 AM.png",
@@ -4157,7 +4181,9 @@
   "recapture_source_images": [
    "Screenshot 2026-10-09 at 7.04.03 PM.png"
   ],
-  "recapture_nav_color_read": "wrong"
+  "recapture_nav_color_read": "wrong",
+  "her_selected_letter": "B",
+  "her_selected_percentage": "18.3%"
  },
  {
   "source_file": "Screenshot 2026-10-02 at 11.32.32 AM.png",
@@ -4199,7 +4225,9 @@
   "recapture_source_images": [
    "Screenshot 2026-10-09 at 7.04.04 PM.png"
   ],
-  "recapture_nav_color_read": "wrong"
+  "recapture_nav_color_read": "wrong",
+  "her_selected_letter": "B",
+  "her_selected_percentage": "9.6%"
  },
  {
   "source_file": "Screenshot 2026-10-02 at 11.32.38 AM.png",
@@ -4241,7 +4269,9 @@
   "recapture_source_images": [
    "Screenshot 2026-10-09 at 7.04.06 PM.png"
   ],
-  "recapture_nav_color_read": "wrong"
+  "recapture_nav_color_read": "wrong",
+  "her_selected_letter": "D",
+  "her_selected_percentage": "10.3%"
  },
  {
   "source_file": "Screenshot 2026-10-02 at 11.32.43 AM.png",
@@ -4367,7 +4397,9 @@
   "recapture_source_images": [
    "Screenshot 2026-10-09 at 7.04.11 PM.png"
   ],
-  "recapture_nav_color_read": "wrong"
+  "recapture_nav_color_read": "wrong",
+  "her_selected_letter": "C",
+  "her_selected_percentage": "10.2%"
  },
  {
   "source_file": "Screenshot 2026-10-02 at 11.32.59 AM.png",
@@ -4523,7 +4555,9 @@
   "recapture_source_images": [
    "Screenshot 2026-10-09 at 7.04.15 PM.png"
   ],
-  "recapture_nav_color_read": "wrong"
+  "recapture_nav_color_read": "wrong",
+  "her_selected_letter": "A",
+  "her_selected_percentage": "7.4%"
  },
  {
   "source_file": "Screenshot 2026-10-02 at 11.33.27 AM.png",
@@ -4607,7 +4641,9 @@
   "recapture_source_images": [
    "Screenshot 2026-10-09 at 7.04.18 PM.png"
   ],
-  "recapture_nav_color_read": "wrong"
+  "recapture_nav_color_read": "wrong",
+  "her_selected_letter": "C",
+  "her_selected_percentage": "25.1%"
  },
  {
   "source_file": "Screenshot 2026-10-02 at 11.33.39 AM.png",
@@ -4691,7 +4727,9 @@
   "recapture_source_images": [
    "Screenshot 2026-10-09 at 7.04.21 PM.png"
   ],
-  "recapture_nav_color_read": "wrong"
+  "recapture_nav_color_read": "wrong",
+  "her_selected_letter": "C",
+  "her_selected_percentage": "16.9%"
  },
  {
   "source_file": "Screenshot 2026-10-02 at 11.33.54 AM.png",
@@ -4733,7 +4771,9 @@
   "recapture_source_images": [
    "Screenshot 2026-10-09 at 7.04.23 PM.png"
   ],
-  "recapture_nav_color_read": "wrong"
+  "recapture_nav_color_read": "wrong",
+  "her_selected_letter": "C",
+  "her_selected_percentage": "20.2%"
  },
  {
   "source_file": "Screenshot 2026-10-02 at 11.34.00 AM.png",
@@ -4775,7 +4815,9 @@
   "recapture_source_images": [
    "Screenshot 2026-10-09 at 7.04.24 PM.png"
   ],
-  "recapture_nav_color_read": "wrong"
+  "recapture_nav_color_read": "wrong",
+  "her_selected_letter": "C",
+  "her_selected_percentage": "27.7%"
  },
  {
   "source_file": "Screenshot 2026-10-02 at 11.34.05 AM.png",
@@ -5272,7 +5314,9 @@
   },
   "recapture_source_images": [
    "Screenshot 2026-10-09 at 8.53.35 PM.png"
-  ]
+  ],
+  "her_selected_letter": "C",
+  "her_selected_percentage": "7.1%"
  },
  {
   "source_file": "Screenshot 2026-10-02 at 11.35.39 AM.png",
@@ -5650,7 +5694,9 @@
   },
   "recapture_source_images": [
    "Screenshot 2026-10-09 at 8.53.53 PM.png"
-  ]
+  ],
+  "her_selected_letter": "D",
+  "her_selected_percentage": "9.9%"
  },
  {
   "source_file": "Screenshot 2026-10-02 at 11.36.32 AM.png",
@@ -5818,7 +5864,9 @@
   },
   "recapture_source_images": [
    "Screenshot 2026-10-09 at 8.54.00 PM.png"
-  ]
+  ],
+  "her_selected_letter": "B",
+  "her_selected_percentage": "23.5%"
  },
  {
   "source_file": "Screenshot 2026-10-02 at 11.36.53 AM.png",
@@ -6017,7 +6065,9 @@
   },
   "recapture_source_images": [
    "Screenshot 2026-10-09 at 8.54.10 PM.png"
-  ]
+  ],
+  "her_selected_letter": "B",
+  "her_selected_percentage": "16.2%"
  },
  {
   "source_file": "Screenshot 2026-10-02 at 11.37.17 AM.png",
@@ -6090,7 +6140,9 @@
   },
   "recapture_source_images": [
    "Screenshot 2026-10-09 at 8.54.13 PM.png"
-  ]
+  ],
+  "her_selected_letter": "B",
+  "her_selected_percentage": "12.9%"
  },
  {
   "source_file": "Screenshot 2026-10-02 at 11.37.27 AM.png",
@@ -6342,7 +6394,9 @@
   },
   "recapture_source_images": [
    "Screenshot 2026-10-09 at 8.54.25 PM.png"
-  ]
+  ],
+  "her_selected_letter": "C",
+  "her_selected_percentage": "42.1%"
  },
  {
   "source_file": "Screenshot 2026-10-02 at 11.37.59 AM.png",
@@ -7445,7 +7499,9 @@
   "recapture_source_images": [
    "Screenshot 2026-10-09 at 8.55.46 PM.png"
   ],
-  "recapture_nav_color_read": "wrong"
+  "recapture_nav_color_read": "wrong",
+  "her_selected_letter": "B",
+  "her_selected_percentage": "21.0%"
  },
  {
   "source_file": "Screenshot 2026-10-02 at 11.40.57 AM.png",
@@ -7489,7 +7545,9 @@
    "Screenshot 2026-10-09 at 8.55.48 PM.png"
   ],
   "integrity_correction_2026-10-10": "Original record said is_wrong=False. Personally verified against the recapture screenshot (Screenshot 2026-10-09 at 8.55.48 PM.png): she picked A (pink, 21.2%), correct is C (green, 70.9%). Corrected to is_wrong=True.",
-  "recapture_nav_color_read": "wrong"
+  "recapture_nav_color_read": "wrong",
+  "her_selected_letter": "A",
+  "her_selected_percentage": "21.2%"
  },
  {
   "source_file": "Screenshot 2026-10-02 at 11.41.02 AM.png",
@@ -7919,7 +7977,9 @@
   "recapture_source_images": [
    "Screenshot 2026-10-09 at 8.56.05 PM.png"
   ],
-  "recapture_nav_color_read": "wrong"
+  "recapture_nav_color_read": "wrong",
+  "her_selected_letter": "B",
+  "her_selected_percentage": "24.9%"
  },
  {
   "source_file": "Screenshot 2026-10-02 at 11.41.49 AM.png",
@@ -7962,7 +8022,9 @@
   "recapture_source_images": [
    "Screenshot 2026-10-09 at 8.56.06 PM.png"
   ],
-  "recapture_nav_color_read": "wrong"
+  "recapture_nav_color_read": "wrong",
+  "her_selected_letter": "D",
+  "her_selected_percentage": "5.4%"
  },
  {
   "source_file": "Screenshot 2026-10-02 at 11.41.54 AM.png",
@@ -8048,7 +8110,9 @@
   "recapture_source_images": [
    "Screenshot 2026-10-09 at 8.56.10 PM.png"
   ],
-  "recapture_nav_color_read": "wrong"
+  "recapture_nav_color_read": "wrong",
+  "her_selected_letter": "C",
+  "her_selected_percentage": "22.9%"
  },
  {
   "source_file": "Screenshot 2026-10-02 at 11.42.05 AM.png",

@@ -76,3 +76,15 @@ Every cataloging pass (5 for the official tests, 2 for the books, 1 for the new 
 **One real correction this did make:** ISEE Lower #4 Q25 was recorded `is_wrong: false` in the original catalog. The recapture's navigator read said "wrong," and direct inspection confirmed it (she picked A at 21.2%, correct was C at 70.9%) — the original record was the one that was wrong. Corrected, with the correction documented on the entry itself (`integrity_correction_2026-10-10`).
 
 Fields added by this pass: `official_topic`, `official_solution`, `choice_percentages`, `recapture_nav_color_read` (informational only, see caveat above — not a substitute for `is_wrong`), `recapture_source_images`.
+
+**Follow-up (2026-10-10):** re-read the 32 questions she got wrong specifically for `her_selected_letter` (which exact wrong choice, not just right/wrong), using choice-level coloring from the start this time. 32/32 clear reads, personally spot-checked against source images.
+
+## ISEEMathAchievement enrichment (2026-10-10)
+
+The MA screenshots folder (208 images, captured 2026-10-06) turned out to already contain the same rich format as `recaptureQR` — Solution box, Follow-Up Exercise topic, per-choice percentages — it just hadn't been extracted when `ma_library.json` was first built. No new screenshots were needed; the existing folder was re-catalogued by 6 parallel subagents with `her_selected_letter` built into the schema from the start (learning from the QR pass).
+
+**146 of 207 existing MA entries enriched** with `official_topic`, `official_solution`, `choice_percentages`, and `her_selected_letter`. 143 matched by question text automatically, 3 by manual resolution (minor transcription variants, e.g. "[blank]" vs "□").
+
+**One real subagent error, caught and fixed:** one entry (ISEE Lower #1 #27) was attributed to the wrong source image — a filename-adjacency mixup (its question content, solution, and topic were all correctly transcribed, but `her_selected_letter`/`her_status` came from a *different* question's screenshot). Direct inspection of the real Q27 image showed she picked B (pink, 7.8%), not C — matching the original `is_wrong: true` record, which needed no change. Documented on the entry (`integrity_note_2026-10-10`). Two further spot-checks (Lower #2 #24, Lower #4 #16) confirmed correct.
+
+**61 screenshots were a different content type** — in-progress "Practice Exercises" topic drills (e.g. "Finding Median, Given Sets of Numbers," "Order of Operations & Equivalence," "Remainder When Divided By A Given Number"), not graded MA test results. The cataloguing prompt only had a schema for graded results, so every subagent correctly skipped these rather than force-fitting them — same anti-fabrication behavior as the QR pass, just revealing a prompt-design gap rather than a subagent error. These still need a follow-up pass with a second schema (same two-type approach `recaptureQR` used) to bring that content in.

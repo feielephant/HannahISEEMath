@@ -25,7 +25,19 @@
   "exercise_title": "Follow-Up Exercise: Perimeter",
   "is_timing_chart": false,
   "notes": "Header reads WHAT TO EXPECT (Sep 5, 2026); not an ISEE LOWER #N header, so test_set null. Green B only.",
-  "status": "done"
+  "status": "done",
+  "official_topic": "Perimeter",
+  "official_solution": "The correct answer to the question is answer choice (B), 36 feet. The perimeter of a shape is the sum of all of its sides. Adding the sides shown in the figure, the perimeter of the triangle is 9 feet + 12 feet + 15 feet = 36 feet.",
+  "choice_percentages": {
+   "A": "<5.0%",
+   "B": "98.1%",
+   "C": "<5.0%",
+   "D": "<5.0%"
+  },
+  "her_selected_letter": "B",
+  "recapture_source_images": [
+   "Screenshot 2026-10-06 at 10.24.33 AM.png"
+  ]
  },
  {
   "source_file": "Screenshot 2026-10-06 at 10.24.38 AM.png",
@@ -53,7 +65,19 @@
   "exercise_title": "Follow-Up Exercise: Adding and Subtracting Integers",
   "is_timing_chart": false,
   "notes": "Green A only.",
-  "status": "done"
+  "status": "done",
+  "official_topic": "Adding and Subtracting Integers",
+  "official_solution": "The correct answer to the question is answer choice (A), 7. To find the number of students who preferred frozen yogurt, subtract the number of students who preferred ice cream and the number of students who preferred popsicles from the total number of students: 28 \u2212 17 \u2212 4 = 7.",
+  "choice_percentages": {
+   "A": "96.5%",
+   "B": "<5.0%",
+   "C": "<5.0%",
+   "D": "<5.0%"
+  },
+  "her_selected_letter": "A",
+  "recapture_source_images": [
+   "Screenshot 2026-10-06 at 10.24.38 AM.png"
+  ]
  },
  {
   "source_file": "Screenshot 2026-10-06 at 10.24.42 AM.png",
@@ -81,7 +105,19 @@
   "exercise_title": "Follow-Up Exercise: Identifying Shapes",
   "is_timing_chart": false,
   "notes": "Green D only.",
-  "status": "done"
+  "status": "done",
+  "official_topic": "Identifying Shapes",
+  "official_solution": "The correct answer to the question is answer choice (D), square. A rectangle is a four-sided shape with all angles being the same measure. A square is a four-sided shape with all angles being the same measure and all sides being the same length. So, a rectangle with all sides the same length is a square.",
+  "choice_percentages": {
+   "A": "<5.0%",
+   "B": "<5.0%",
+   "C": "<5.0%",
+   "D": "97.2%"
+  },
+  "her_selected_letter": "D",
+  "recapture_source_images": [
+   "Screenshot 2026-10-06 at 10.24.42 AM.png"
+  ]
  },
  {
   "source_file": "Screenshot 2026-10-06 at 10.24.46 AM.png",
@@ -109,7 +145,19 @@
   "exercise_title": "Follow-Up Exercise: Identifying Numbers, Standard Form <> Word Form",
   "is_timing_chart": false,
   "notes": "Same question appears again in 10.25.22 AM (different crop). Green A only.",
-  "status": "done"
+  "status": "done",
+  "official_topic": "Identifying Numbers, Standard Form <> Word Form",
+  "official_solution": "The correct answer to the question is answer choice (A), 203,049. Reading the words by place value, two hundred three thousand means 203,000, and forty-nine means 49. So altogether, two hundred three thousand forty-nine means 203,049.",
+  "choice_percentages": {
+   "A": "97.2%",
+   "B": "<5.0%",
+   "C": "<5.0%",
+   "D": "<5.0%"
+  },
+  "her_selected_letter": "A",
+  "recapture_source_images": [
+   "Screenshot 2026-10-06 at 10.24.46 AM.png"
+  ]
  },
  {
   "source_file": "Screenshot 2026-10-06 at 10.25.22 AM.png",
@@ -165,7 +213,19 @@
   "exercise_title": "Follow-Up Exercise: Determining Points on Number Lines",
   "is_timing_chart": false,
   "notes": "Green B only.",
-  "status": "done"
+  "status": "done",
+  "official_topic": "Determining Points on Number Lines",
+  "official_solution": "The correct answer to the question is answer choice (B), 77. Use the tick marks between 80 and 85 to determine that each tick mark represents 1 unit. Since P is three tick marks less than 80, P is 80 \u2212 3 = 77.",
+  "choice_percentages": {
+   "A": "<5.0%",
+   "B": "93.8%",
+   "C": "<5.0%",
+   "D": "<5.0%"
+  },
+  "her_selected_letter": "B",
+  "recapture_source_images": [
+   "Screenshot 2026-10-06 at 10.25.26 AM.png"
+  ]
  },
  {
   "source_file": "Screenshot 2026-10-06 at 10.25.30 AM.png",
@@ -193,7 +253,19 @@
   "exercise_title": "Follow-Up Exercise: Adding and Subtracting Integers",
   "is_timing_chart": false,
   "notes": "Green C only. Solution shows a place-value regrouping grid.",
-  "status": "done"
+  "status": "done",
+  "official_topic": "Adding and Subtracting Integers",
+  "official_solution": "The correct answer to the question is answer choice (C), 505. By lining up the place values and add: (regrouping addition table shown: 308 + 197 = 505).",
+  "choice_percentages": {
+   "A": "<5.0%",
+   "B": "<5.0%",
+   "C": "92.3%",
+   "D": "<5.0%"
+  },
+  "her_selected_letter": "C",
+  "recapture_source_images": [
+   "Screenshot 2026-10-06 at 10.25.30 AM.png"
+  ]
  },
  {
   "source_file": "Screenshot 2026-10-06 at 10.25.34 AM.png",
@@ -221,7 +293,19 @@
   "exercise_title": "Follow-Up Exercise: Order of Operations and Equivalence",
   "is_timing_chart": false,
   "notes": "Green B only.",
-  "status": "done"
+  "status": "done",
+  "official_topic": "Order of Operations and Equivalence",
+  "official_solution": "The correct answer to the question is answer choice (B), 3 \u00d7 (5+4) \u2212 7. Following the order of operations, simplify the expressions to determine which one is equal to 20. Choice A: (3\u00d75)+4\u22127=15+4\u22127=19\u22127=12 \u2717. Choice B: 3\u00d7(5+4)\u22127=3\u00d79\u22127=27\u22127=20 \u2713. Choice C: 3\u00d75+(4\u22127)=3\u00d75\u22123=15\u22123=12 \u2717. [Choice D explanation was cut off / not visible in screenshot.]",
+  "choice_percentages": {
+   "A": "<5.0%",
+   "B": "91.9%",
+   "C": "<5.0%",
+   "D": "<5.0%"
+  },
+  "her_selected_letter": "B",
+  "recapture_source_images": [
+   "Screenshot 2026-10-06 at 10.25.34 AM.png"
+  ]
  },
  {
   "source_file": "Screenshot 2026-10-06 at 10.25.38 AM.png",
@@ -249,7 +333,19 @@
   "exercise_title": "Follow-Up Exercise: Comparing/Adding/Subtracting Bar Graph/Data Table Values",
   "is_timing_chart": false,
   "notes": "Green D only. Solution text gives black can 75\u00b0F and white can 52\u00b0F at 50 min. The data table itself is not in the screenshot.",
-  "status": "done"
+  "status": "done",
+  "official_topic": "Comparing/Adding/Subtracting Bar Graph/Data Table Values",
+  "official_solution": "The correct answer to the question is answer choice (D), 23\u00b0F. At 50 minutes, the water in the black can has a temperature of 75\u00b0F and the water in the white can has a temperature of 52\u00b0F. So, the water in the black is 75\u00b0F \u2212 52\u00b0F = 23\u00b0F warmer than the water in the white can.",
+  "choice_percentages": {
+   "A": "<5.0%",
+   "B": "<5.0%",
+   "C": "<5.0%",
+   "D": "91.1%"
+  },
+  "her_selected_letter": "D",
+  "recapture_source_images": [
+   "Screenshot 2026-10-06 at 10.25.38 AM.png"
+  ]
  },
  {
   "source_file": "Screenshot 2026-10-06 at 10.25.41 AM.png",
@@ -277,7 +373,19 @@
   "exercise_title": "Follow-Up Exercise: Equivalent Fractions, Decimals, and Percents",
   "is_timing_chart": false,
   "notes": "Green C only. Choice A and B percentages shown on screen were 9.8 and 5.4; recorded in choice text for reference.",
-  "status": "done"
+  "status": "done",
+  "official_topic": "Equivalent Fractions, Decimals, and Percents",
+  "official_solution": "The correct answer to the question is answer choice (C), 4/10. To convert a fraction to a decimal, take the decimal and divide it by 10 for each decimal point in the number. Since 0.4 has one decimal point, 0.4 as a fraction is 4/10.",
+  "choice_percentages": {
+   "A": "9.8%",
+   "B": "5.4%",
+   "C": "82.0%",
+   "D": "<5.0%"
+  },
+  "her_selected_letter": "C",
+  "recapture_source_images": [
+   "Screenshot 2026-10-06 at 10.25.41 AM.png"
+  ]
  },
  {
   "source_file": "Screenshot 2026-10-06 at 10.25.45 AM.png",
@@ -305,7 +413,19 @@
   "exercise_title": "Follow-Up Exercise: Adding and Subtracting Integers",
   "is_timing_chart": false,
   "notes": "Green B only.",
-  "status": "done"
+  "status": "done",
+  "official_topic": "Adding and Subtracting Integers",
+  "official_solution": "The correct answer to the question is answer choice (B), 1,835. Lining up the place values to subtract the numbers: (regrouping subtraction table shown: 2,000 \u2212 165 = 1,835).",
+  "choice_percentages": {
+   "A": "<5.0%",
+   "B": "86.9%",
+   "C": "8.3%",
+   "D": "<5.0%"
+  },
+  "her_selected_letter": "B",
+  "recapture_source_images": [
+   "Screenshot 2026-10-06 at 10.25.45 AM.png"
+  ]
  },
  {
   "source_file": "Screenshot 2026-10-06 at 10.25.49 AM.png",
@@ -333,7 +453,19 @@
   "exercise_title": "Follow-Up Exercise: Solving 1 Variable Equations",
   "is_timing_chart": false,
   "notes": "The blank symbol does not render in the screenshot, so it is shown as [blank]. Green A only.",
-  "status": "done"
+  "status": "done",
+  "official_topic": "Solving 1 Variable Equations",
+  "official_solution": "The correct answer to the question is answer choice (A), 7. One way to solve this problem is to work backward to solve for \u25a1. We can start by recognizing that 2\u00d711=22, so (\u25a1+4)=11. Then, since 7+4=11, \u25a1=7.",
+  "choice_percentages": {
+   "A": "89.2%",
+   "B": "5.4%",
+   "C": "<5.0%",
+   "D": "<5.0%"
+  },
+  "her_selected_letter": "A",
+  "recapture_source_images": [
+   "Screenshot 2026-10-06 at 10.25.49 AM.png"
+  ]
  },
  {
   "source_file": "Screenshot 2026-10-06 at 10.25.53 AM.png",
@@ -361,7 +493,19 @@
   "exercise_title": "Follow-Up Exercise: Estimating Sums/Differences of Decimal Numbers",
   "is_timing_chart": false,
   "notes": "Green D only.",
-  "status": "done"
+  "status": "done",
+  "official_topic": "Estimating Sums/Differences of Decimal Numbers",
+  "official_solution": "The correct answer is (D), between $35 and $40. Round the cost of each of the five items, if necessary: $3.49 \u2192 $3.50, $11.99 \u2192 $12.00, $0.50 (not rounded), $2.99 \u2192 $3.00, and $16.99 \u2192 $17.00. [Remaining text cut off at bottom of screenshot \u2014 solution appeared to continue summing these rounded values.]",
+  "choice_percentages": {
+   "A": "6.3%",
+   "B": "6.5%",
+   "C": "20.7%",
+   "D": "66.5%"
+  },
+  "her_selected_letter": "D",
+  "recapture_source_images": [
+   "Screenshot 2026-10-06 at 10.25.53 AM.png"
+  ]
  },
  {
   "source_file": "Screenshot 2026-10-06 at 10.25.57 AM.png",
@@ -389,7 +533,19 @@
   "exercise_title": "Follow-Up Exercise: Interpreting Pictographs",
   "is_timing_chart": false,
   "notes": "Green D only. Solution says Southville has 3 more figures than Eastville at 5,000 each.",
-  "status": "done"
+  "status": "done",
+  "official_topic": "Interpreting Pictographs",
+  "official_solution": "The correct answer to the question is answer choice (D), 15,000. Southville has 3 more human shapes than Eastville. Since each human shape represents 5,000 people, that means Southville has 3\u00d75,000=15,000 more people than Eastville.",
+  "choice_percentages": {
+   "A": "<5.0%",
+   "B": "<5.0%",
+   "C": "<5.0%",
+   "D": "90.5%"
+  },
+  "her_selected_letter": "D",
+  "recapture_source_images": [
+   "Screenshot 2026-10-06 at 10.25.57 AM.png"
+  ]
  },
  {
   "source_file": "Screenshot 2026-10-06 at 10.26.01 AM.png",
@@ -417,7 +573,19 @@
   "exercise_title": "Follow-Up Exercise: Estimating Multiplication & Division",
   "is_timing_chart": false,
   "notes": "Green A only. Other percentages: B 12.0, C 6.5, D 5.7.",
-  "status": "done"
+  "status": "done",
+  "official_topic": "Estimating Multiplication & Division",
+  "official_solution": "The correct answer to the question is answer choice (A), Lake Nyasa, which has an area of 11,430 mi\u00b2. Lake Superior's area can be rounded to be about 30,000 mi\u00b2. Finding 1/3 of 30,000 mi\u00b2, results in 10,000 mi\u00b2. The closest lake to this estimate is Lake Nyasa.",
+  "choice_percentages": {
+   "A": "75.7%",
+   "B": "12.0%",
+   "C": "6.5%",
+   "D": "5.7%"
+  },
+  "her_selected_letter": "A",
+  "recapture_source_images": [
+   "Screenshot 2026-10-06 at 10.26.01 AM.png"
+  ]
  },
  {
   "source_file": "Screenshot 2026-10-06 at 10.26.04 AM.png",
@@ -445,7 +613,19 @@
   "exercise_title": "Follow-Up Exercise: Probability of 1 Event, given a List of Items",
   "is_timing_chart": false,
   "notes": "Maroon marker on D (2 out of 3, under 5%) confirms wrong pick. Pill 15 is maroon in the strip.",
-  "status": "done"
+  "status": "done",
+  "official_topic": "Probability of 1 Event, given a List of Items",
+  "official_solution": "The correct answer to the question is answer choice (B), 1 out of 3. The chance of something happening is the number of successes out of the total number of options to choose from. There are 4 [X-in-box] cards, and a total of 12 cards in the pile. That means the chance is 4 out of 12, which can be reduced to 1 out of 3.",
+  "choice_percentages": {
+   "A": "27.2%",
+   "B": "61.1%",
+   "C": "7.3%",
+   "D": "<5.0%"
+  },
+  "her_selected_letter": "D",
+  "recapture_source_images": [
+   "Screenshot 2026-10-06 at 10.26.04 AM.png"
+  ]
  },
  {
   "source_file": "Screenshot 2026-10-06 at 10.26.08 AM.png",
@@ -473,7 +653,19 @@
   "exercise_title": "Follow-Up Exercise: Finding MMMR, given Bar Graph/Data Table of Values",
   "is_timing_chart": false,
   "notes": "Green B only. Solution says 7.9 appears four times.",
-  "status": "done"
+  "status": "done",
+  "official_topic": "Finding MMMR, given Bar Graph/Data Table of Values",
+  "official_solution": "The correct answer to the question is answer choice (B), 7.9. The mode is the number that appears most often in a data set. In this data set, 7.9 appears four times, which is the most of any number. So, the mode of this data set is 7.9.",
+  "choice_percentages": {
+   "A": "7.1%",
+   "B": "69.4%",
+   "C": "14.6%",
+   "D": "8.9%"
+  },
+  "her_selected_letter": "B",
+  "recapture_source_images": [
+   "Screenshot 2026-10-06 at 10.26.08 AM.png"
+  ]
  },
  {
   "source_file": "Screenshot 2026-10-06 at 10.26.12 AM.png",
@@ -501,7 +693,19 @@
   "exercise_title": "Follow-Up Exercise: Classification of Numbers, given a Set",
   "is_timing_chart": false,
   "notes": "Green C only.",
-  "status": "done"
+  "status": "done",
+  "official_topic": "Classification of Numbers, given a Set",
+  "official_solution": "The correct answer to the question is answer choice (C), prime numbers. All the numbers in the set can be divided, without a remainder, only by itself and by 1. Thus, prime numbers are what describes this set of numbers.",
+  "choice_percentages": {
+   "A": "5.6%",
+   "B": "<5.0%",
+   "C": "81.9%",
+   "D": "11.2%"
+  },
+  "her_selected_letter": "C",
+  "recapture_source_images": [
+   "Screenshot 2026-10-06 at 10.26.12 AM.png"
+  ]
  },
  {
   "source_file": "Screenshot 2026-10-06 at 10.26.16 AM.png",
@@ -529,7 +733,19 @@
   "exercise_title": "Follow-Up Exercise: Matching Stories to Equations",
   "is_timing_chart": false,
   "notes": "Green A only. Solution panel shows an embedded video placeholder.",
-  "status": "done"
+  "status": "done",
+  "official_topic": "Matching Stories to Equations",
+  "official_solution": "The correct answer to the question is answer choice (A), w = 20/l. The area of a rectangle is A = lw. To find the width, divide both sides by l, which gives A/l = w. Since the area, A is 20, the equation to determine the width is 20/l = w. (An image/diagram further down in the solution box failed to load in this screenshot \u2014 shown only as a broken-image icon.)",
+  "choice_percentages": {
+   "A": "47.1%",
+   "B": "24.9%",
+   "C": "21.4%",
+   "D": "6.5%"
+  },
+  "her_selected_letter": "A",
+  "recapture_source_images": [
+   "Screenshot 2026-10-06 at 10.26.16 AM.png"
+  ]
  },
  {
   "source_file": "Screenshot 2026-10-06 at 10.26.20 AM.png",
@@ -557,7 +773,19 @@
   "exercise_title": "Follow-Up Exercise: Comparing & Ordering Fractions & Decimals",
   "is_timing_chart": false,
   "notes": "Green D only. Other percentages: A under 5, B 5.7, C 16.5.",
-  "status": "done"
+  "status": "done",
+  "official_topic": "Comparing & Ordering Fractions & Decimals",
+  "official_solution": "The correct answer to the question is answer choice (D), 4/5. One way to solve this problem is to convert each fraction to a decimal. Then, determine which decimal number is between 1/2 and 9/10. 1/2=0.5 and 9/10=0.9. 1/4=0.25 \u2717. 1/3=0.3\u03053\u0305 \u2717. 2/5=0.40 \u2717. 4/5=0.80 \u2713.",
+  "choice_percentages": {
+   "A": "<5.0%",
+   "B": "5.7%",
+   "C": "16.5%",
+   "D": "73.1%"
+  },
+  "her_selected_letter": "D",
+  "recapture_source_images": [
+   "Screenshot 2026-10-06 at 10.26.20 AM.png"
+  ]
  },
  {
   "source_file": "Screenshot 2026-10-06 at 10.27.54 AM.png",
@@ -585,7 +813,19 @@
   "exercise_title": "Follow-Up Exercise: Nth Term, given Arithmetic Sequence, Progressive Pattern, etc.",
   "is_timing_chart": false,
   "notes": "Green B only.",
-  "status": "done"
+  "status": "done",
+  "official_topic": "Nth Term, given Arithmetic Sequence, Progressive Pattern, etc.",
+  "official_solution": "The correct answer to the question is answer choice (B), 44. To go from 2 to 4, add 2. To go from 4 to 8, add 4. To go from 8 to 14, add 6. To go from 14 to 22, add 8. To go from 22 to 32, add 10. So, the pattern is to add the next even number in the list. Continuing the pattern, [text cut off at bottom of screenshot].",
+  "choice_percentages": {
+   "A": "8.4%",
+   "B": "81.4%",
+   "C": "<5.0%",
+   "D": "6.3%"
+  },
+  "her_selected_letter": "B",
+  "recapture_source_images": [
+   "Screenshot 2026-10-06 at 10.27.54 AM.png"
+  ]
  },
  {
   "source_file": "Screenshot 2026-10-06 at 10.27.57 AM.png",
@@ -613,7 +853,19 @@
   "exercise_title": "Follow-Up Exercise: Time Zones",
   "is_timing_chart": false,
   "notes": "Maroon marker on B (1 P.M., under 5%) confirms wrong pick. Other percentages: A under 5, C 29.4.",
-  "status": "done"
+  "status": "done",
+  "official_topic": "Time Zones",
+  "official_solution": "The correct answer to the question is answer choice (D), 8 P.M. If the plane takes 4 hours to land, then that means the plane lands at 5 P.M. in Seattle time. Detroit's time zone is 3 hours ahead of Seattle, so the plane lands at 8 P.M. in Detroit time.",
+  "choice_percentages": {
+   "A": "<5.0%",
+   "B": "<5.0%",
+   "C": "29.4%",
+   "D": "62.9%"
+  },
+  "her_selected_letter": "B",
+  "recapture_source_images": [
+   "Screenshot 2026-10-06 at 10.27.57 AM.png"
+  ]
  },
  {
   "source_file": "Screenshot 2026-10-06 at 10.28.01 AM.png",
@@ -641,7 +893,19 @@
   "exercise_title": "Follow-Up Exercise: Equivalent Fractions, Decimals, and Percents",
   "is_timing_chart": false,
   "notes": "Maroon marker on C (4 2/5, 12.7%) confirms wrong pick. Other percentages: A 9.6, B 13.2.",
-  "status": "done"
+  "status": "done",
+  "official_topic": "Equivalent Fractions, Decimals, and Percents",
+  "official_solution": "The correct answer to the question is answer choice (D), 4 3/5. If we line up the decimal points, we can add the decimals together. (regrouping addition table shown: 2.9 + 1.7 = 4.6). 4.6 written as a fraction is 4 6/10 = 4 3/5.",
+  "choice_percentages": {
+   "A": "9.6%",
+   "B": "13.2%",
+   "C": "12.7%",
+   "D": "64.5%"
+  },
+  "her_selected_letter": "C",
+  "recapture_source_images": [
+   "Screenshot 2026-10-06 at 10.28.01 AM.png"
+  ]
  },
  {
   "source_file": "Screenshot 2026-10-06 at 10.28.06 AM.png",
@@ -669,7 +933,19 @@
   "exercise_title": "Follow-Up Exercise: Finding Area/Perimeter of Rectangle, given Length & Width",
   "is_timing_chart": false,
   "notes": "Green C only. Other percentages: A 11.7, B 6.0, D under 5.",
-  "status": "done"
+  "status": "done",
+  "official_topic": "Finding Area/Perimeter of Rectangle, given Length & Width",
+  "official_solution": "The correct answer to the question is answer choice (C), 26 inches. The formula for the perimeter of a rectangle is P=2l+2w. Since the length is 8 inches and the width is 5 inches, the perimeter is P=2(8)+2(5)=16+10=26 inches.",
+  "choice_percentages": {
+   "A": "11.7%",
+   "B": "6.0%",
+   "C": "80.0%",
+   "D": "<5.0%"
+  },
+  "her_selected_letter": "C",
+  "recapture_source_images": [
+   "Screenshot 2026-10-06 at 10.28.06 AM.png"
+  ]
  },
  {
   "source_file": "Screenshot 2026-10-06 at 10.28.10 AM.png",
@@ -697,7 +973,19 @@
   "exercise_title": "Follow-Up Exercise: Identifying Points on a Coordinate Plane",
   "is_timing_chart": false,
   "notes": "Green C only. Other percentages: A under 5, B 30.0, D under 5.",
-  "status": "done"
+  "status": "done",
+  "official_topic": "Identifying Points on a Coordinate Plane",
+  "official_solution": "The correct answer to the question is answer choice (C), (8,1). To get to Point P from the origin, go right 8 units and up 1 unit. This means that the coordinate is (8,1).",
+  "choice_percentages": {
+   "A": "<5.0%",
+   "B": "30.0%",
+   "C": "63.6%",
+   "D": "<5.0%"
+  },
+  "her_selected_letter": "C",
+  "recapture_source_images": [
+   "Screenshot 2026-10-06 at 10.28.10 AM.png"
+  ]
  },
  {
   "source_file": "Screenshot 2026-10-06 at 10.28.14 AM.png",
@@ -725,7 +1013,19 @@
   "exercise_title": "Follow-Up Exercise: Adding and Subtracting Fractions",
   "is_timing_chart": false,
   "notes": "Green A only. Other percentages: B 19.7, C 11.0, D 7.2.",
-  "status": "done"
+  "status": "done",
+  "official_topic": "Adding and Subtracting Fractions",
+  "official_solution": "The correct answer to the question is answer choice (A), 1 7/8. To find how much wire is left, subtract the fractions: 5 5/8 \u2212 3 3/4 = 5 5/8 \u2212 3 6/8 = 1 7/8.",
+  "choice_percentages": {
+   "A": "62.0%",
+   "B": "19.7%",
+   "C": "11.0%",
+   "D": "7.2%"
+  },
+  "her_selected_letter": "A",
+  "recapture_source_images": [
+   "Screenshot 2026-10-06 at 10.28.14 AM.png"
+  ]
  },
  {
   "source_file": "Screenshot 2026-10-06 at 10.28.34 AM.png",
@@ -759,7 +1059,19 @@
   "exercise_title": "Follow-Up Exercise: Adding and Subtracting Integers",
   "is_timing_chart": false,
   "notes": "Header ISEE LOWER #1 (Aug 30, 2026). Pill 1 is the current selection (blue), so its right/wrong status is not visible; no maroon marker on any choice, so is_wrong recorded as false (green only).",
-  "status": "done"
+  "status": "done",
+  "official_topic": "Adding and Subtracting Integers",
+  "official_solution": "The correct answer to the question is answer choice (B), 5,582. Add: 5,377 + 205 = 5,582.",
+  "choice_percentages": {
+   "A": "<5.0%",
+   "B": "97.2%",
+   "C": "<5.0%",
+   "D": "<5.0%"
+  },
+  "her_selected_letter": "B",
+  "recapture_source_images": [
+   "Screenshot 2026-10-06 at 10.28.34 AM.png"
+  ]
  },
  {
   "source_file": "Screenshot 2026-10-06 at 10.28.53 AM.png",
@@ -793,7 +1105,19 @@
   "exercise_title": "Follow-Up Exercise: Comparing/Adding/Subtracting Bar Graph/Data Table Values",
   "is_timing_chart": false,
   "notes": "Full-screen browser capture. Per-question tile shows Your Time 191 sec, Others (avg.) 36 sec, Subtype Data Analysis & Probability, Difficulty Easy. Green C only. Duplicate in 10.30.10 AM.",
-  "status": "done"
+  "status": "done",
+  "official_topic": "Comparing/Adding/Subtracting Bar Graph/Data Table Values",
+  "official_solution": "The correct answer to the question is answer choice (C), $4. According to the table, at the end of Week 5 Sally has saved $82 while Jeffrey has saved $78. To find how much more Sally has saved than Jeffrey, subtract: $82 \u2212 $78 = $4. Sally has saved $4 more than Jeffery.",
+  "choice_percentages": {
+   "A": "<5.0%",
+   "B": "<5.0%",
+   "C": "93.9%",
+   "D": "<5.0%"
+  },
+  "her_selected_letter": "C",
+  "recapture_source_images": [
+   "Screenshot 2026-10-06 at 10.28.53 AM.png"
+  ]
  },
  {
   "source_file": "Screenshot 2026-10-06 at 10.30.10 AM.png",
@@ -861,7 +1185,19 @@
   "exercise_title": "Follow-Up Exercise: Multiplying and Dividing Whole Numbers",
   "is_timing_chart": false,
   "notes": "Green B only. Solution shows a bar model (not part of question). Per-question tile: Your Time 47 sec. Duplicate in 10.30.39 AM.",
-  "status": "done"
+  "status": "done",
+  "official_topic": "Multiplying and Dividing Whole Numbers",
+  "official_solution": "The correct answer to the question is answer choice (B), 18. One way the answer can be found is by 1. recognizing that the number to be portioned is 54, and 2. since the problem says the log is cut into thirds, understanding that we can divide 54 feet by 3 (54 feet \u00f73=18 feet).",
+  "choice_percentages": {
+   "A": "<5.0%",
+   "B": "94.6%",
+   "C": "<5.0%",
+   "D": "<5.0%"
+  },
+  "her_selected_letter": "B",
+  "recapture_source_images": [
+   "Screenshot 2026-10-06 at 10.30.36 AM.png"
+  ]
  },
  {
   "source_file": "Screenshot 2026-10-06 at 10.30.39 AM.png",
@@ -929,7 +1265,19 @@
   "exercise_title": "Follow-Up Exercise: Adding and Subtracting Decimals",
   "is_timing_chart": false,
   "notes": "Green A only. Other percentages: B 5.8, C under 5, D under 5. Tile: Your Time 35 sec.",
-  "status": "done"
+  "status": "done",
+  "official_topic": "Adding and Subtracting Decimals",
+  "official_solution": "The correct answer to the question is answer choice (A), 0.7. When subtracting decimals, write down the two numbers, one under the other, with the decimal points lined up. Then subtract normally, remembering to put the decimal point in the answer. (regrouping subtraction table shown: 3.3 \u2212 2.6 = 0.7).",
+  "choice_percentages": {
+   "A": "91.1%",
+   "B": "5.8%",
+   "C": "<5.0%",
+   "D": "<5.0%"
+  },
+  "her_selected_letter": "A",
+  "recapture_source_images": [
+   "Screenshot 2026-10-06 at 10.31.06 AM.png"
+  ]
  },
  {
   "source_file": "Screenshot 2026-10-06 at 10.31.08 AM.png",
@@ -963,7 +1311,19 @@
   "exercise_title": "Follow-Up Exercise: not visible in screenshot",
   "is_timing_chart": false,
   "notes": "Maroon marker on B (6.9%) confirms wrong pick. Other percentages: A under 5, D under 5. Pill 5 is maroon in the strip.",
-  "status": "done"
+  "status": "done",
+  "official_topic": null,
+  "official_solution": "not shown (solution box was not visible/captured in this screenshot)",
+  "choice_percentages": {
+   "A": "<5.0%",
+   "B": "6.9%",
+   "C": "86.4%",
+   "D": "<5.0%"
+  },
+  "her_selected_letter": "B",
+  "recapture_source_images": [
+   "Screenshot 2026-10-06 at 10.31.08 AM.png"
+  ]
  },
  {
   "source_file": "Screenshot 2026-10-06 at 10.31.11 AM.png",
@@ -997,7 +1357,19 @@
   "exercise_title": "Follow-Up Exercise: Probability of 1 Event, given a List of Items",
   "is_timing_chart": false,
   "notes": "Green A only. Other percentages: B 7.3, C and D under 5. Tile: Your Time 163 sec.",
-  "status": "done"
+  "status": "done",
+  "official_topic": "Probability of 1 Event, given a List of Items",
+  "official_solution": "The correct answer to the question is answer choice (A), 6/13. The probability of randomly choosing a blue fidget spinner from the bag is (number of blue fidget spinners)/(total number of fidget spinners) = 6/(6+4+3) = 6/13.",
+  "choice_percentages": {
+   "A": "89.0%",
+   "B": "7.3%",
+   "C": "<5.0%",
+   "D": "<5.0%"
+  },
+  "her_selected_letter": "A",
+  "recapture_source_images": [
+   "Screenshot 2026-10-06 at 10.31.11 AM.png"
+  ]
  },
  {
   "source_file": "Screenshot 2026-10-06 at 10.31.25 AM.png",
@@ -1031,7 +1403,19 @@
   "exercise_title": "Follow-Up Exercise: Probability of 1 Event, given a List of Items",
   "is_timing_chart": false,
   "notes": "Green D only. Other percentages: A and B under 5, C 5.7. Duplicate in 10.31.31 AM.",
-  "status": "done"
+  "status": "done",
+  "official_topic": "Probability of 1 Event, given a List of Items",
+  "official_solution": "The correct answer to the question is answer choice (D), 5 out of 12.\n\nThere are 5 squares out of 12 total figures.",
+  "choice_percentages": {
+   "A": "<5.0%",
+   "B": "<5.0%",
+   "C": "5.7%",
+   "D": "87.3%"
+  },
+  "her_selected_letter": "D",
+  "recapture_source_images": [
+   "Screenshot 2026-10-06 at 10.31.31 AM.png"
+  ]
  },
  {
   "source_file": "Screenshot 2026-10-06 at 10.31.31 AM.png",
@@ -1099,7 +1483,19 @@
   "exercise_title": "Follow-Up Exercise: Solving 1 Variable Equations",
   "is_timing_chart": false,
   "notes": "Green B only. Other percentages: A and C under 5, D 5.4. Tile: Your Time 120 sec.",
-  "status": "done"
+  "status": "done",
+  "official_topic": "Solving 1 Variable Equations",
+  "official_solution": "The correct answer to the question is answer choice (B), 4.\n\nOne way the answer can be found is by\n1. recognizing the information given:\nx = 3 \u00d7 5 = 15\n2. finding the value of y:\nx \u00d7 y = 60\n15 \u00d7 y = 60   substituting in 15 for x\ny = 4   solving for y",
+  "choice_percentages": {
+   "A": "<5.0%",
+   "B": "87.9%",
+   "C": "<5.0%",
+   "D": "5.4%"
+  },
+  "her_selected_letter": "B",
+  "recapture_source_images": [
+   "Screenshot 2026-10-06 at 10.31.34 AM.png"
+  ]
  },
  {
   "source_file": "Screenshot 2026-10-06 at 10.31.37 AM.png",
@@ -1133,7 +1529,19 @@
   "exercise_title": "Follow-Up Exercise: Algebra with Geometric Shapes",
   "is_timing_chart": false,
   "notes": "Green C only. Other percentages: A 9.2, B and D under 5. Tile: Your Time 72 sec.",
-  "status": "done"
+  "status": "done",
+  "official_topic": "Algebra with Geometric Shapes",
+  "official_solution": "The correct answer to the question is answer choice (C), perimeter = 10 \u00d7 4.\n\nOne way the answer can be found is by\n1. knowing that the all sides of a square are equal; and\n2. recalling how to find the perimeter of a square.\nperimeter of a square = 4\u00d7 length of a side\nperimeter of a square = 4 \u00d7 10 millimeters",
+  "choice_percentages": {
+   "A": "9.2%",
+   "B": "<5.0%",
+   "C": "86.1%",
+   "D": "<5.0%"
+  },
+  "her_selected_letter": "C",
+  "recapture_source_images": [
+   "Screenshot 2026-10-06 at 10.31.37 AM.png"
+  ]
  },
  {
   "source_file": "Screenshot 2026-10-06 at 10.31.40 AM.png",
@@ -1167,7 +1575,19 @@
   "exercise_title": "Follow-Up Exercise: Adding and Subtracting Integers",
   "is_timing_chart": false,
   "notes": "Green A only. Other percentages: B and D under 5, C 6.7. Tile: Your Time 49 sec.",
-  "status": "done"
+  "status": "done",
+  "official_topic": "Adding and Subtracting Integers",
+  "official_solution": "The correct answer to the question is answer choice (A), 1,153.\n\nLine up the digits in each place value position when subtracting:\n1,500\n\u2212347\n1,153",
+  "choice_percentages": {
+   "A": "87.1%",
+   "B": "<5.0%",
+   "C": "6.7%",
+   "D": "<5.0%"
+  },
+  "her_selected_letter": "A",
+  "recapture_source_images": [
+   "Screenshot 2026-10-06 at 10.31.40 AM.png"
+  ]
  },
  {
   "source_file": "Screenshot 2026-10-06 at 10.31.43 AM.png",
@@ -1201,7 +1621,19 @@
   "exercise_title": "Follow-Up Exercise: No Remainder when Divided by two given Numbers",
   "is_timing_chart": false,
   "notes": "Green D only. Other percentages: A under 5, B 6.4, C 7.6. Tile: Your Time 99 sec.",
-  "status": "done"
+  "status": "done",
+  "official_topic": "No Remainder when Divided by two given Numbers",
+  "official_solution": "The correct answer to the question is answer choice (D), 84.\n\nThere is no divisibility rule for 7. You can, however, eliminate any odd answers from consideration because they cannot be divisible by 4. So, answer choices A and B can be eliminated. By testing the remaining 2 even possibilities, only 84 is evenly divisible by both 4 and 7.",
+  "choice_percentages": {
+   "A": "<5.0%",
+   "B": "6.4%",
+   "C": "7.6%",
+   "D": "84.0%"
+  },
+  "her_selected_letter": "D",
+  "recapture_source_images": [
+   "Screenshot 2026-10-06 at 10.31.43 AM.png"
+  ]
  },
  {
   "source_file": "Screenshot 2026-10-06 at 10.31.46 AM.png",
@@ -1234,7 +1666,19 @@
   "topic_specific": "adding mixed numbers (word problem)",
   "exercise_title": "Adding and Subtracting Mixed Numbers",
   "notes": "Difficulty Medium; Hannah time 90 sec, others 34 sec.",
-  "status": "done"
+  "status": "done",
+  "official_topic": "Adding and Subtracting Mixed Numbers",
+  "official_solution": "The correct answer to the question is answer choice (D), 3 3/4.\n\nOne way the answer can be found is by drawing and shading fractions models to find the sum.\n[fraction circle diagram showing 2 1/4 + 1 1/2 = 3 3/4]",
+  "choice_percentages": {
+   "A": "<5.0%",
+   "B": "<5.0%",
+   "C": "8.0%",
+   "D": "86.2%"
+  },
+  "her_selected_letter": "D",
+  "recapture_source_images": [
+   "Screenshot 2026-10-06 at 10.31.46 AM.png"
+  ]
  },
  {
   "source_file": "Screenshot 2026-10-06 at 10.31.48 AM.png",
@@ -1267,7 +1711,19 @@
   "topic_specific": "elapsed time with multiple intervals",
   "exercise_title": "Determining The Final Time",
   "notes": "Difficulty Medium; Hannah time 28 sec.",
-  "status": "done"
+  "status": "done",
+  "official_topic": "Determining The Final Time",
+  "official_solution": "The correct answer to the question is answer choice (B), 4:00 p.m.\n\nAdd the given times together to find the total time since 7:00 a.m. that she was out (rewrite 30 minutes as 0.5 hours):\n30 minutes + 5 hours + 1 hour + 2 hours + 30 minutes = 9 hours\n\nSo, 9 hours after 7:00 a.m. is 4:00 p.m.",
+  "choice_percentages": {
+   "A": "7.4%",
+   "B": "84.2%",
+   "C": "<5.0%",
+   "D": "5.3%"
+  },
+  "her_selected_letter": "B",
+  "recapture_source_images": [
+   "Screenshot 2026-10-06 at 10.31.48 AM.png"
+  ]
  },
  {
   "source_file": "Screenshot 2026-10-06 at 10.31.50 AM.png",
@@ -1300,7 +1756,19 @@
   "topic_specific": "write equation from word problem (total hours)",
   "exercise_title": "Interpreting Linear Equations from Word Problems",
   "notes": "",
-  "status": "done"
+  "status": "done",
+  "official_topic": "Interpreting Linear Equations from Word Problems",
+  "official_solution": "The correct answer to the question is answer choice (C), h = (28 + 46) \u00d7 2.\n\nOne way the answer can be found is by\n1. recognizing the information given:\n(28 tablets + 46 computers) = number of devices repaired\n2. recognizing that since the technician spent 2 hours repairing each of the devices, you must multiply:\n(28 tablets + 46 computers) \u00d7 2 hours\n3. recognizing that h represents the total number of hours the technician spent repairing these devices, so h = (28 tablets + 46 computers) \u00d7 2 hours, or h = (28+46) \u00d7 2.",
+  "choice_percentages": {
+   "A": "13.7%",
+   "B": "<5.0%",
+   "C": "81.7%",
+   "D": "<5.0%"
+  },
+  "her_selected_letter": "C",
+  "recapture_source_images": [
+   "Screenshot 2026-10-06 at 10.31.50 AM.png"
+  ]
  },
  {
   "source_file": "Screenshot 2026-10-06 at 10.31.53 AM.png",
@@ -1333,7 +1801,19 @@
   "topic_specific": "unit fraction of a whole (division)",
   "exercise_title": "Remaining Amount after Reducing by Fractions",
   "notes": "Time shown partly cut off in screenshot.",
-  "status": "done"
+  "status": "done",
+  "official_topic": "Remaining Amount after Reducing by Fractions",
+  "official_solution": "The correct answer to the question is answer choice (B), $192.\n\nOne way the answer can be found is by\n1. recognizing that the number to be portioned is $768, and\n2. since the problem says that Cecelia plans to save 1/4 of it, understanding that we can divide $768 by 4 ($768 \u00f7 4 = $192).\n[bar model diagram: $768 split into four $192 segments]",
+  "choice_percentages": {
+   "A": "6.3%",
+   "B": "83.9%",
+   "C": "6.3%",
+   "D": "<5.0%"
+  },
+  "her_selected_letter": "B",
+  "recapture_source_images": [
+   "Screenshot 2026-10-06 at 10.31.53 AM.png"
+  ]
  },
  {
   "source_file": "Screenshot 2026-10-06 at 10.31.56 AM.png",
@@ -1366,7 +1846,20 @@
   "topic_specific": "hours to minutes with fractional hours",
   "exercise_title": "Computation with Time",
   "notes": "",
-  "status": "done"
+  "status": "done",
+  "official_topic": "Computation with Time",
+  "official_solution": "NOTE: solution box extended below the visible/scrolled area in the captured screenshots and was not fully captured. Visible text: \"The correct answer to the question is answer choice (B), 96.\n\nOne way the answer can be found is by\n1. drawing and shading fractions models to find the difference in hours (3 3/5 \u2212 2);\n[fraction circle diagram]\n2. recognizing that the number to be portioned is 60 (minutes) and since the models are partitioned into fifths, understanding that we can divide 60 minutes by 5 (60 minutes \u00f7 5 = 12 minutes); and\" -- text continues past this point but was not shown in the available screenshots.",
+  "choice_percentages": {
+   "A": "<5.0%",
+   "B": "77.3%",
+   "C": "10.4%",
+   "D": "7.5%"
+  },
+  "her_selected_letter": "B",
+  "recapture_source_images": [
+   "Screenshot 2026-10-06 at 10.31.56 AM.png",
+   "Screenshot 2026-10-06 at 10.31.58 AM.png"
+  ]
  },
  {
   "source_file": "Screenshot 2026-10-06 at 10.31.58 AM.png",
@@ -1399,7 +1892,19 @@
   "topic_specific": "choose best unit of weight",
   "exercise_title": "Best Unit of Measure",
   "notes": "Difficulty Medium.",
-  "status": "done"
+  "status": "done",
+  "official_topic": "Best Unit of Measure",
+  "official_solution": "The correct answer to this question is answer choice (C), ounce.\n\nCups and pints are used to measure volume, not weight. Tons measure weight but are too large to use for cereal boxes. An ounce is the best measurement.",
+  "choice_percentages": {
+   "A": "12.9%",
+   "B": "10.3%",
+   "C": "73.5%",
+   "D": "<5.0%"
+  },
+  "her_selected_letter": "C",
+  "recapture_source_images": [
+   "Screenshot 2026-10-06 at 10.32.00 AM.png"
+  ]
  },
  {
   "source_file": "Screenshot 2026-10-06 at 10.32.00 AM.png",
@@ -1432,7 +1937,19 @@
   "topic_specific": "median from table of values",
   "exercise_title": "Finding MMMR, given Bar Graph/Data Table of Values",
   "notes": "Hannah wrong pick B (450, 8.5%). Time 66 sec.",
-  "status": "done"
+  "status": "done",
+  "official_topic": "Finding MMMR, given Bar Graph/Data Table of Values",
+  "official_solution": "NOTE: last line of solution may be cut off in the captured screenshot. Visible text: \"The correct answer to the question is answer choice (C), 470.\n\nOne way the answer can be found is\n1. understanding that the median is the middle number of a data set;\n2. arranging data points from smallest to largest; and\n270, 320, 380, 470, 510, 650, 740\n3. locating the middle number.\n270, 320, 380, [470 boxed], 510, 650, 740\"",
+  "choice_percentages": {
+   "A": "12.6%",
+   "B": "8.5%",
+   "C": "72.1%",
+   "D": "6.8%"
+  },
+  "her_selected_letter": "B",
+  "recapture_source_images": [
+   "Screenshot 2026-10-06 at 10.32.04 AM.png"
+  ]
  },
  {
   "source_file": "Screenshot 2026-10-06 at 10.32.04 AM.png",
@@ -1465,7 +1982,19 @@
   "topic_specific": "distance on number line with decimal tick marks",
   "exercise_title": "Determining Points on Number Lines",
   "notes": "",
-  "status": "done"
+  "status": "done",
+  "official_topic": "Determining Points on Number Lines",
+  "official_solution": "The correct answer to the question is answer choice (B), 1.75.\n\nThe distance between each whole number on the number line is divided into 4 equal pieces. Each tick mark represents a length of 0.25.\n\nArrow A is located 2 tick marks to the right of 1, so it represents 1.5.\n1 + 0.25 + 0.25 = 1.5\n\nArrow B is located 1 tick mark to the right of 2, so it represents 3.25.\n3 + 0.25 = 3.25\n\nTo find the difference from Point A to Point B, subtract 1.5 from 3.25.\n3.25 \u2212 1.5 = 1.75",
+  "choice_percentages": {
+   "A": "20.1%",
+   "B": "69.3%",
+   "C": "<5.0%",
+   "D": "6.9%"
+  },
+  "her_selected_letter": "B",
+  "recapture_source_images": [
+   "Screenshot 2026-10-06 at 10.32.06 AM.png"
+  ]
  },
  {
   "source_file": "Screenshot 2026-10-06 at 10.32.06 AM.png",
@@ -1498,7 +2027,19 @@
   "topic_specific": "estimate sum of decimals by rounding",
   "exercise_title": "Estimating Sums/Differences of Decimal Numbers",
   "notes": "",
-  "status": "done"
+  "status": "done",
+  "official_topic": "Estimating Sums/Differences of Decimal Numbers",
+  "official_solution": "The correct answer to the question is answer choice (C), between 35 and 40 grams.\n\nRound each number to the nearest whole number and then add.\n1.40 rounds down to 1;\n2.67 rounds up to 3;\n8.12 rounds down to 8;\n10.84 rounds up to 11;\n4.88 rounds up to 5; and\n9.75 rounds up to 10;\n\nTo get the estimated total, add:\n1 + 3 + 8 + 11 + 5 + 10 = 38",
+  "choice_percentages": {
+   "A": "6.9%",
+   "B": "12.9%",
+   "C": "74.3%",
+   "D": "5.9%"
+  },
+  "her_selected_letter": "C",
+  "recapture_source_images": [
+   "Screenshot 2026-10-06 at 10.32.08 AM.png"
+  ]
  },
  {
   "source_file": "Screenshot 2026-10-06 at 10.32.08 AM.png",
@@ -1531,7 +2072,19 @@
   "topic_specific": "difference pattern (increasing differences)",
   "exercise_title": "Numerical Patterns",
   "notes": "Hannah wrong pick B (27, 17.0%). Subtype Algebraic Concepts, Hard.",
-  "status": "done"
+  "status": "done",
+  "official_topic": "Numerical Patterns",
+  "official_solution": "The correct answer to the question is answer choice (D), 33.\n\nFind the differences between every two consecutive numbers: 3\u22122, 5\u22123, 9\u22125, etc. The pattern increases by 1, then 2, then 4, and then 8. Following the pattern, the pattern should next increase by 16:\n17 + 16 = 33",
+  "choice_percentages": {
+   "A": "11.3%",
+   "B": "17.0%",
+   "C": "<5.0%",
+   "D": "67.1%"
+  },
+  "her_selected_letter": "B",
+  "recapture_source_images": [
+   "Screenshot 2026-10-06 at 10.32.10 AM.png"
+  ]
  },
  {
   "source_file": "Screenshot 2026-10-06 at 10.32.10 AM.png",
@@ -1564,7 +2117,19 @@
   "topic_specific": "estimate one-third of a large number (division)",
   "exercise_title": "Estimating Multiplication & Division",
   "notes": "Superscript 2 transcribed as km^2.",
-  "status": "done"
+  "status": "done",
+  "official_topic": "Estimating Multiplication & Division",
+  "official_solution": "The correct answer to the question is answer choice (C), The Grand Canyon, with an area of 4,927.7 km\u00b2.\n\nOne way the answer can be found is by\n1. rounding the large number to an easier number to estimate; 13,647.6 can round down to 13,500 to be divisible by 3.\n2. recognizing that the number to be portioned is 13,500;\n3. since the problem says the area is approximately one-third, understanding that we can divide 13,500 by 3 (13,500 \u00f7 3 = 4,500); and\n4. using process of elimination, realize that The Grand Canyon has an area that is approximately 1/3 that of Death Valley.",
+  "choice_percentages": {
+   "A": "19.2%",
+   "B": "8.6%",
+   "C": "67.4%",
+   "D": "<5.0%"
+  },
+  "her_selected_letter": "C",
+  "recapture_source_images": [
+   "Screenshot 2026-10-06 at 10.32.13 AM.png"
+  ]
  },
  {
   "source_file": "Screenshot 2026-10-06 at 10.32.13 AM.png",
@@ -1597,7 +2162,19 @@
   "topic_specific": "true/false statements about quadrilateral classes",
   "exercise_title": "Identifying Shapes",
   "notes": "Hannah wrong pick B (19.9%).",
-  "status": "done"
+  "status": "done",
+  "official_topic": "Identifying Shapes",
+  "official_solution": "The correct answer to the question is answer choice (A), A square is always a rectangle. The only answer that is true is A.\n\nA square is a rectangle with equal sides. Thus, ALL squares are rectangles, making answer choice A true.\n\nThe reverse cannot be true, as only some rectangles are squares, and so answer choice B is false.\n\nA rhombus is a parallelogram with opposite equal angles, but not right angles (all rectangles have right angles). Therefore, answer choice C is false.\n\nFor similar reasons, answer choice D cannot be true; rectangles must have right angles, and rhombi cannot.",
+  "choice_percentages": {
+   "A": "67.3%",
+   "B": "19.9%",
+   "C": "7.2%",
+   "D": "5.7%"
+  },
+  "her_selected_letter": "B",
+  "recapture_source_images": [
+   "Screenshot 2026-10-06 at 10.32.15 AM.png"
+  ]
  },
  {
   "source_file": "Screenshot 2026-10-06 at 10.32.15 AM.png",
@@ -1630,7 +2207,19 @@
   "topic_specific": "divisibility rule for 9 (digit sum)",
   "exercise_title": "No Remainder when Divided by a given Number",
   "notes": "Hannah wrong pick B (2,109, 11.3%).",
-  "status": "done"
+  "status": "done",
+  "official_topic": "No Remainder when Divided by a given Number",
+  "official_solution": "NOTE: solution table is cut off at the bottom of the captured screenshot and was not fully shown. Visible text: \"The correct answer to the question is answer choice (C), 2,403.\n\nOne way the answer can be found is by\n1. recognizing that the whole number must be divisible by 9; and\n2. applying the rule for divisibility by 9.\n\nThe rule for 9: a number is divisible by 9, if the sum is a multiple of 9 or if the sum of its digits is divisible by 9.\n\nFind the sum of the digits.\n[table, partially visible] Number: 2,049 | Explanation: 2+4+9=13 (marked with a red X), Since 13 is not evenly divisible by 9, 2,049 is NOT evenly divisible by 9.\" -- table rows for the actual answer choices were not visible in the captured screenshot.",
+  "choice_percentages": {
+   "A": "6.8%",
+   "B": "11.3%",
+   "C": "68.1%",
+   "D": "13.9%"
+  },
+  "her_selected_letter": "B",
+  "recapture_source_images": [
+   "Screenshot 2026-10-06 at 10.32.18 AM.png"
+  ]
  },
  {
   "source_file": "Screenshot 2026-10-06 at 10.32.18 AM.png",
@@ -1663,7 +2252,19 @@
   "topic_specific": "fraction of a group lost, then total remaining",
   "exercise_title": "Remaining Amount after Reducing by Fractions",
   "notes": "Hannah wrong pick B (5, 26.4%).",
-  "status": "done"
+  "status": "done",
+  "official_topic": "Remaining Amount after Reducing by Fractions",
+  "official_solution": "The correct answer to the question is answer choice (C), 6.\n\nCalculate how many pencils and pens she has remaining, and then combine the two together.\n\nSince Lois lost 1/2 of her pencils, to find the number of pencils she has remaining, divide the number of pencils (4) by 2, since (4 \u00f7 2 = 2). That means she lost 2 pencils. So, she has 4 \u2212 2 = 2 pencils left.\n\nSince Lois lost 1/3 of her pens, to find the number of pens remaining, first divide the number of pens (6) by 3, since (6 \u00f7 3 = 2). That means she lost 2 pens. So, she has 6 \u2212 2 = 4 pens left.\n\nTo find how many pencils and pens she has remaining, add (2 + 4 = 6). Louis has 6 pencils and pens remaining.",
+  "choice_percentages": {
+   "A": "7.8%",
+   "B": "26.4%",
+   "C": "64.9%",
+   "D": "<5.0%"
+  },
+  "her_selected_letter": "B",
+  "recapture_source_images": [
+   "Screenshot 2026-10-06 at 10.32.22 AM.png"
+  ]
  },
  {
   "source_file": "Screenshot 2026-10-06 at 10.32.22 AM.png",
@@ -1696,7 +2297,19 @@
   "topic_specific": "compare fractions using benchmarks",
   "exercise_title": "Comparing & Ordering Fractions & Decimals",
   "notes": "",
-  "status": "done"
+  "status": "done",
+  "official_topic": "Comparing & Ordering Fractions & Decimals",
+  "official_solution": "NOTE: solution/diagram is cut off at the bottom of the captured screenshot and was not fully shown. Visible text: \"The correct answer to the question is (B), 1/3 inch.\n\n3/8 is less than 1/2 but greater than 1/4.\n\nOne way the answer can be found is by drawing and shading fractions models to correctly compare.\" followed by a partially-visible diagram comparing 3/8, 2/5 (marked wrong), and 1/3 (marked correct).",
+  "choice_percentages": {
+   "A": "25.8%",
+   "B": "58.7%",
+   "C": "11.3%",
+   "D": "<5.0%"
+  },
+  "her_selected_letter": "B",
+  "recapture_source_images": [
+   "Screenshot 2026-10-06 at 10.32.24 AM.png"
+  ]
  },
  {
   "source_file": "Screenshot 2026-10-06 at 10.32.24 AM.png",
@@ -1729,7 +2342,20 @@
   "topic_specific": "shape pattern counting (adds 4 each step)",
   "exercise_title": "Predicting the Next Shapes, given Progressive Pattern",
   "notes": "Hannah wrong pick B (20, 7.8%). Hard.",
-  "status": "done"
+  "status": "done",
+  "official_topic": "Predicting the Next Shapes, given Progressive Pattern",
+  "official_solution": "The correct answer to the question is answer choice (C), 21.\n\nEach object adds 4 squares. So the first object has 5 squares, the second object has 9 squares (4+5), and the third object has 13 squares (9+4). The fourth object will have 17 squares (13+4), and the fifth will have 21 squares (17+4).",
+  "choice_percentages": {
+   "A": "32.4%",
+   "B": "7.8%",
+   "C": "50.9%",
+   "D": "8.9%"
+  },
+  "her_selected_letter": "B",
+  "recapture_source_images": [
+   "Screenshot 2026-10-06 at 10.32.24 AM.png"
+  ],
+  "integrity_note_2026-10-10": "Subagent attributed the wrong source filename to this entry (10.32.27 AM.png, which is actually Q28) and reported her_status=\"correct\" based on that mismatched image. The real Q27 screenshot (10.32.24 AM.png) shows she picked B (pink, 7.8%), correct is C (green, 50.9%) -- she was wrong, matching the original is_wrong=true record. The question text, choices, solution, and topic the subagent transcribed were all independently verified correct against the real Q27 image; only the filename and her_status/her_selected_letter were wrong. No change to is_wrong (already correct)."
  },
  {
   "source_file": "Screenshot 2026-10-06 at 10.32.27 AM.png",
@@ -1762,7 +2388,19 @@
   "topic_specific": "classify quadrilateral from coordinates",
   "exercise_title": "Vertices Forming Right Angles & Quadrilaterals on a Coordinate Plane",
   "notes": "Question text has no space after 'The points' in source; transcribed with space.",
-  "status": "done"
+  "status": "done",
+  "official_topic": "Vertices Forming Right Angles & Quadrilaterals on a Coordinate Plane",
+  "official_solution": "NOTE: solution may be cut off at the bottom of the captured screenshot. Visible text: \"The correct answer to the question is answer choice (C), rectangle.\n\nWhen plotting all four points, you see that 4 right angles are formed, so you can eliminate answer choices B and D.\n\nThe shape is either a rectangle or square. If you count to measure side lengths, you see that the length is 4 and the width is 3.\"",
+  "choice_percentages": {
+   "A": "31.3%",
+   "B": "7.9%",
+   "C": "53.5%",
+   "D": "7.3%"
+  },
+  "her_selected_letter": "C",
+  "recapture_source_images": [
+   "Screenshot 2026-10-06 at 10.32.30 AM.png"
+  ]
  },
  {
   "source_file": "Screenshot 2026-10-06 at 10.32.30 AM.png",
@@ -1795,7 +2433,19 @@
   "topic_specific": "divisibility by 8 (last three digits)",
   "exercise_title": "No Remainder when Divided by a given Number",
   "notes": "Hannah wrong pick B (1,420, 22.7%). Hard.",
-  "status": "done"
+  "status": "done",
+  "official_topic": "No Remainder when Divided by a given Number",
+  "official_solution": "The correct answer to the question is answer choice (D), 1,920.\n\nOne way the answer can be found is by\n1. recognizing that the total number of bonus points must be divisible by 8, and\n2. applying the rule for divisibility by 8.\n\nThe Rule for 8: a number is divisible by 8 if the last three digits are evenly divisible by 8.\n\nFor choice (D), the last three digits of 1,920 are 920, and 920 is divisible by 8, so 1,920 is divisible by 8.",
+  "choice_percentages": {
+   "A": "12.4%",
+   "B": "22.7%",
+   "C": "25.8%",
+   "D": "39.1%"
+  },
+  "her_selected_letter": "B",
+  "recapture_source_images": [
+   "Screenshot 2026-10-06 at 10.32.32 AM.png"
+  ]
  },
  {
   "source_file": "Screenshot 2026-10-06 at 10.32.32 AM.png",
@@ -1828,7 +2478,19 @@
   "topic_specific": "square perimeter to area, then rectangle length",
   "exercise_title": "Finding Area/Perimeter of Rectangle, given Length & Width",
   "notes": "Hannah wrong pick B (8, 41.7%). Hard.",
-  "status": "done"
+  "status": "done",
+  "official_topic": "Finding Area/Perimeter of Rectangle, given Length & Width",
+  "official_solution": "The correct answer to the question is answer choice (D), 12.\n\nIf the perimeter of the square is 24 centimeters, its side length is 6 centimeters since 6+6+6+6=24.\n\nIts area is 36 square centimeters since 6\u00d76=36.\n\nTo have the same area, a rectangle with a width of 3 centimeters must have a length of 12 centimeters since 36\u00f73=12.",
+  "choice_percentages": {
+   "A": "7.1%",
+   "B": "41.7%",
+   "C": "15.3%",
+   "D": "35.9%"
+  },
+  "her_selected_letter": "B",
+  "recapture_source_images": [
+   "Screenshot 2026-10-06 at 10.32.32 AM.png"
+  ]
  },
  {
   "source_file": "Screenshot 2026-10-06 at 10.36.04 AM.png",
@@ -1858,7 +2520,19 @@
   "topic_specific": "classify a set of numbers (prime/composite/divisible)",
   "exercise_title": "Classification of Numbers, given a Set",
   "notes": "Easy. Hannah time 10 sec.",
-  "status": "done"
+  "status": "done",
+  "official_topic": "Classification of Numbers, given a Set",
+  "official_solution": "The correct answer to the question is answer choice (C), numbers divisible by 3.\n\nPrime numbers are only divisible by 1 and themselves.\nComposite numbers are numbers that are not prime numbers.\n\nTherefore, 3 is prime (divisible by only 1 and 3), but 6 (divisible by 1, 2, and 3) is not prime; the answer CANNOT be only prime OR only composite, so answer choices A and B can be eliminated.\n\nALL of the numbers are multiples of 3: 1\u00d73, 2\u00d73, 3\u00d73, 4\u00d73 and therefore divisible by 3. So, answer choice C is true.",
+  "choice_percentages": {
+   "A": "<5.0%",
+   "B": "<5.0%",
+   "C": "96.9%",
+   "D": "<5.0%"
+  },
+  "her_selected_letter": "C",
+  "recapture_source_images": [
+   "Screenshot 2026-10-06 at 10.36.04 AM.png"
+  ]
  },
  {
   "source_file": "Screenshot 2026-10-06 at 10.36.08 AM.png",
@@ -1888,7 +2562,19 @@
   "topic_specific": "subtract whole numbers",
   "exercise_title": "Adding and Subtracting Integers",
   "notes": "Easy. Hannah time 56 sec.",
-  "status": "done"
+  "status": "done",
+  "official_topic": "Adding and Subtracting Integers",
+  "official_solution": "The correct answer to the question is answer choice (B), 967.",
+  "choice_percentages": {
+   "A": "<5.0%",
+   "B": "97.3%",
+   "C": "<5.0%",
+   "D": "<5.0%"
+  },
+  "her_selected_letter": "B",
+  "recapture_source_images": [
+   "Screenshot 2026-10-06 at 10.36.08 AM.png"
+  ]
  },
  {
   "source_file": "Screenshot 2026-10-06 at 10.36.11 AM.png",
@@ -1918,7 +2604,19 @@
   "topic_specific": "perimeter of a polygon (add sides)",
   "exercise_title": "Perimeter",
   "notes": "Easy.",
-  "status": "done"
+  "status": "done",
+  "official_topic": "Perimeter",
+  "official_solution": "The correct answer to the question is answer choice (C), 81 inches.\n\nPerimeter is distance around the outside of the figure.\nYou can simply add up the side lengths 18 + 21 + 15 + 27 = 81 inches.",
+  "choice_percentages": {
+   "A": "<5.0%",
+   "B": "<5.0%",
+   "C": "96.5%",
+   "D": "<5.0%"
+  },
+  "her_selected_letter": "C",
+  "recapture_source_images": [
+   "Screenshot 2026-10-06 at 10.36.11 AM.png"
+  ]
  },
  {
   "source_file": "Screenshot 2026-10-06 at 10.36.17 AM.png",
@@ -1948,7 +2646,19 @@
   "topic_specific": "compare values from a pictograph/table",
   "exercise_title": "Interpreting Pictographs",
   "notes": "Table itself not visible in this image; Easy.",
-  "status": "done"
+  "status": "done",
+  "official_topic": "Interpreting Pictographs",
+  "official_solution": "The correct answer to the question is answer choice (D), $50.\n\nCompare the amounts that Michelle and Paul have.\nAmount Michelle has = 4 \u00d7 $25 = $100\nAmount Paul has = 2 \u00d7 $25 = $50\nDifference = $100 \u2212 $50 = $50",
+  "choice_percentages": {
+   "A": "<5.0%",
+   "B": "<5.0%",
+   "C": "<5.0%",
+   "D": "96.5%"
+  },
+  "her_selected_letter": "D",
+  "recapture_source_images": [
+   "Screenshot 2026-10-06 at 10.36.17 AM.png"
+  ]
  },
  {
   "source_file": "Screenshot 2026-10-06 at 10.36.19 AM.png",
@@ -1978,7 +2688,19 @@
   "topic_specific": "round then divide by 3",
   "exercise_title": "Multiplying and Dividing Whole Numbers",
   "notes": "Easy. Subtype Decimals, Percents, Fractions per platform.",
-  "status": "done"
+  "status": "done",
+  "official_topic": "Multiplying and Dividing Whole Numbers",
+  "official_solution": "The correct answer to the question is answer choice (B), 160.\n\nRound 475 to the nearest ten: 480\n\nYou may draw a model as a strategy to help find about how many miles Ada drove on the first day.\n\n(Note: the solution text says \"Round 475\" even though the question states Ada drove 473 miles on the second day; this discrepancy appears in the original solution text as displayed and was not altered.)",
+  "choice_percentages": {
+   "A": "<5.0%",
+   "B": "93.9%",
+   "C": "<5.0%",
+   "D": "<5.0%"
+  },
+  "her_selected_letter": "B",
+  "recapture_source_images": [
+   "Screenshot 2026-10-06 at 10.36.19 AM.png"
+  ]
  },
  {
   "source_file": "Screenshot 2026-10-06 at 10.36.21 AM.png",
@@ -2008,7 +2730,19 @@
   "topic_specific": "input-output rule (divide by 4)",
   "exercise_title": "Input/Output Tables",
   "notes": "Easy.",
-  "status": "done"
+  "status": "done",
+  "official_topic": "Input/Output Tables",
+  "official_solution": "NOTE: solution is cut off at the bottom of the captured screenshot before reaching the final (24\u00f74)=6 conclusion line, though that line is implied by the stated rule. Visible text: \"The correct answer to the question is answer choice (B), 6.\n\nOne way the answer can be found is by\n1. finding the rule: 'What output number will result from an input number of 24?'\n- Notice that each input number is an even number and is smaller than its output number.\n- Try to find the relationship between the input and output numbers. Try dividing input 16 by 4 (16\u00f74=4),\n- If this relationship is true for all input and output numbers, then you have the rule. The rule is (input number \u00f7 4) = output number.\n2. using the rule:\n(input number \u00f7 4 = output number\n(16\u00f74) = 4 [checkmark]\n(32\u00f74) = 8 [checkmark]\n(48\u00f74) = 12 [checkmark]\"",
+  "choice_percentages": {
+   "A": "<5.0%",
+   "B": "95.4%",
+   "C": "<5.0%",
+   "D": "<5.0%"
+  },
+  "her_selected_letter": "B",
+  "recapture_source_images": [
+   "Screenshot 2026-10-06 at 10.36.21 AM.png"
+  ]
  },
  {
   "source_file": "Screenshot 2026-10-06 at 10.36.23 AM.png",
@@ -2038,7 +2772,19 @@
   "topic_specific": "solve linear equations in two variables (chain)",
   "exercise_title": "Algebraic Equations with Symbol Variables",
   "notes": "Easy.",
-  "status": "done"
+  "status": "done",
+  "official_topic": "Algebraic Equations with Symbol Variables",
+  "official_solution": "The correct answer to the question is answer choice (B), 7.\n\nWe know that 8 \u00d7 7 = f, so f = 56.\nSince 56 \u00f7 g = 8, it follows that g = 7.",
+  "choice_percentages": {
+   "A": "<5.0%",
+   "B": "93.2%",
+   "C": "<5.0%",
+   "D": "<5.0%"
+  },
+  "her_selected_letter": "B",
+  "recapture_source_images": [
+   "Screenshot 2026-10-06 at 10.36.23 AM.png"
+  ]
  },
  {
   "source_file": "Screenshot 2026-10-06 at 10.36.25 AM.png",
@@ -2068,7 +2814,19 @@
   "topic_specific": "write equation from equal groups",
   "exercise_title": "Interpreting Linear Equations from Word Problems",
   "notes": "Easy. Hannah time 250 sec (long).",
-  "status": "done"
+  "status": "done",
+  "official_topic": "Interpreting Linear Equations from Word Problems",
+  "official_solution": "The correct answer to the question is answer choice (D), y = 12 \u00d7 9.\n\nThere are 12 boxes, and each box contains 9 watches, so the total number of watches would be 9 for each box or 12 \u00d7 9.\n\nAnother way to count the watches would be 9+9+9... and you would need to do this 12 times, indicating that you multiply 12 \u00d7 9 to get the total number of watches.",
+  "choice_percentages": {
+   "A": "<5.0%",
+   "B": "<5.0%",
+   "C": "<5.0%",
+   "D": "94.5%"
+  },
+  "her_selected_letter": "D",
+  "recapture_source_images": [
+   "Screenshot 2026-10-06 at 10.36.25 AM.png"
+  ]
  },
  {
   "source_file": "Screenshot 2026-10-06 at 10.36.27 AM.png",
@@ -2098,7 +2856,19 @@
   "topic_specific": "solve one-variable equation with unknown symbol",
   "exercise_title": "Solving 1 Variable Equations",
   "notes": "Easy. Hannah time 171 sec.",
-  "status": "done"
+  "status": "done",
+  "official_topic": "Solving 1 Variable Equations",
+  "official_solution": "The correct answer to the question is answer choice (B), 4.\n\n5 \u00d7 4 = 20, so the number in the parentheses must add up to 5.\nIf \u0394 + 1 = 5, \u0394 = 4.",
+  "choice_percentages": {
+   "A": "<5.0%",
+   "B": "92.5%",
+   "C": "6.3%",
+   "D": "<5.0%"
+  },
+  "her_selected_letter": "B",
+  "recapture_source_images": [
+   "Screenshot 2026-10-06 at 10.36.27 AM.png"
+  ]
  },
  {
   "source_file": "Screenshot 2026-10-06 at 10.36.29 AM.png",
@@ -2128,7 +2898,19 @@
   "topic_specific": "feet to yards conversion",
   "exercise_title": "English Unit Conversions",
   "notes": "Easy.",
-  "status": "done"
+  "status": "done",
+  "official_topic": "English Unit Conversions",
+  "official_solution": "The correct answer to the question is answer choice (B), 25 yd.\n\nTo determine the number of yards in 75 feet, divide 75 by 3.\n75 \u00f7 3 = 25\n\nThere are 25 yards in 75 feet.",
+  "choice_percentages": {
+   "A": "<5.0%",
+   "B": "92.8%",
+   "C": "<5.0%",
+   "D": "<5.0%"
+  },
+  "her_selected_letter": "B",
+  "recapture_source_images": [
+   "Screenshot 2026-10-06 at 10.36.29 AM.png"
+  ]
  },
  {
   "source_file": "Screenshot 2026-10-06 at 10.36.31 AM.png",
@@ -2158,7 +2940,19 @@
   "topic_specific": "order of operations (equivalent expressions)",
   "exercise_title": "Order of Operations and Equivalence",
   "notes": "Medium.",
-  "status": "done"
+  "status": "done",
+  "official_topic": "Order of Operations and Equivalence",
+  "official_solution": "The correct answer to the question is answer choice (D), 6 \u00d7 (4 + 3) \u2212 7.\n\nUsing order of operations:\n6 \u00d7 (4 + 3) \u2212 7   Add 4 and 3.\n6 \u00d7 7 \u2212 7   Multiply 6 and 7.\n42 \u2212 7   Subtract 7 from 42.\n35",
+  "choice_percentages": {
+   "A": "<5.0%",
+   "B": "<5.0%",
+   "C": "<5.0%",
+   "D": "88.2%"
+  },
+  "her_selected_letter": "D",
+  "recapture_source_images": [
+   "Screenshot 2026-10-06 at 10.36.31 AM.png"
+  ]
  },
  {
   "source_file": "Screenshot 2026-10-06 at 10.36.33 AM.png",
@@ -2188,7 +2982,19 @@
   "topic_specific": "minutes to hours conversion",
   "exercise_title": "Computation with Time",
   "notes": "Medium.",
-  "status": "done"
+  "status": "done",
+  "official_topic": "Computation with Time",
+  "official_solution": "The correct answer to the question is answer choice (B), 11.\n\nThere are 60 minutes in 1 hour.\nThere are 600 minutes in 10 hours.\nSo, there are 660 minutes in 10 + 1 = 11 hours.",
+  "choice_percentages": {
+   "A": "<5.0%",
+   "B": "90.4%",
+   "C": "<5.0%",
+   "D": "<5.0%"
+  },
+  "her_selected_letter": "B",
+  "recapture_source_images": [
+   "Screenshot 2026-10-06 at 10.36.33 AM.png"
+  ]
  },
  {
   "source_file": "Screenshot 2026-10-06 at 10.36.35 AM.png",
@@ -2218,7 +3024,19 @@
   "topic_specific": "difference between two bars on a bar graph",
   "exercise_title": "Comparing/Adding/Subtracting Bar Graph/Data Table Values",
   "notes": "Graph not visible in this image; Medium.",
-  "status": "done"
+  "status": "done",
+  "official_topic": "Comparing/Adding/Subtracting Bar Graph/Data Table Values",
+  "official_solution": "The correct answer to the question is answer choice (B), 2.\n\nOn Monday, Jacob watched television for 4 hours. On Thursday, Jacob watched television for 2 hours. So, on Monday, he watched television for (4 - 2) hours, which equals 2 more hours than what he watched on Thursday.",
+  "choice_percentages": {
+   "A": "<5.0%",
+   "B": "87.2%",
+   "C": "6.9%",
+   "D": "<5.0%"
+  },
+  "her_selected_letter": "B",
+  "recapture_source_images": [
+   "Screenshot 2026-10-06 at 10.36.35 AM.png"
+  ]
  },
  {
   "source_file": "Screenshot 2026-10-06 at 10.36.37 AM.png",
@@ -2248,7 +3066,19 @@
   "topic_specific": "order fractions from least to greatest",
   "exercise_title": "Comparing & Ordering Fractions & Decimals",
   "notes": "",
-  "status": "done"
+  "status": "done",
+  "official_topic": "Comparing & Ordering Fractions & Decimals",
+  "official_solution": "The correct answer to the question is answer choice (A), 1/4, 1/3, 1/2, 3/4.\n\nOne way the answer can be found is by drawing and shading parts of a whole to represent each fraction. Then order the set of fractions from least to greatest. [NOTE: solution text/diagram was cut off at the bottom of the screenshot -- only the shaded bar models for 1/4 and 1/3 and the start of a 1/2 bar were visible; the rest of the explanation was not captured.]",
+  "choice_percentages": {
+   "A": "86.8%",
+   "B": "<5.0%",
+   "C": "5.4%",
+   "D": "<5.0%"
+  },
+  "her_selected_letter": "A",
+  "recapture_source_images": [
+   "Screenshot 2026-10-06 at 10.36.37 AM.png"
+  ]
  },
  {
   "source_file": "Screenshot 2026-10-06 at 10.36.39 AM.png",
@@ -2278,7 +3108,19 @@
   "topic_specific": "fraction of a quantity (divide by 3)",
   "exercise_title": "Multiplying and Dividing Whole Numbers",
   "notes": "Hannah wrong pick B (221, 6.4%). Pill 15 maroon.",
-  "status": "done"
+  "status": "done",
+  "official_topic": "Multiplying and Dividing Whole Numbers",
+  "official_solution": "The correct answer to the question is answer choice (C), 288 millimeters.\n\nOne way the answer can be found is by\n1. recognizing that the number to be portioned is 864, and\n2. since the problem says the recipe is cut into thirds, understanding that we can divide 864 milliliters by 3 (864 milliliters \u00f7 3 = 288 milliliters). [NOTE: the official solution text itself says \"288 millimeters\" -- transcribed exactly as written, appears to be a unit typo in the source.]",
+  "choice_percentages": {
+   "A": "<5.0%",
+   "B": "6.4%",
+   "C": "89.3%",
+   "D": "<5.0%"
+  },
+  "her_selected_letter": "B",
+  "recapture_source_images": [
+   "Screenshot 2026-10-06 at 10.36.39 AM.png"
+  ]
  },
  {
   "source_file": "Screenshot 2026-10-06 at 10.36.41 AM.png",
@@ -2308,7 +3150,19 @@
   "topic_specific": "rectangle dimensions with given area (factor pairs)",
   "exercise_title": "Finding Area/Perimeter of Rectangle, given Length & Width",
   "notes": "Medium.",
-  "status": "done"
+  "status": "done",
+  "official_topic": "Finding Area/Perimeter of Rectangle, given Length & Width",
+  "official_solution": "The correct answer to the question is answer choice (C), 6 cm \u00d7 6 cm.\n\nLook for factors, other than 4 and 9, that have a product of 36.\n6 cm \u00d7 6 cm = 36 cm\u00b2",
+  "choice_percentages": {
+   "A": "<5.0%",
+   "B": "12.8%",
+   "C": "82.8%",
+   "D": "<5.0%"
+  },
+  "her_selected_letter": "C",
+  "recapture_source_images": [
+   "Screenshot 2026-10-06 at 10.36.41 AM.png"
+  ]
  },
  {
   "source_file": "Screenshot 2026-10-06 at 10.36.44 AM.png",
@@ -2338,7 +3192,19 @@
   "topic_specific": "add fractions from bar models (common denominator 8)",
   "exercise_title": "Adding and Subtracting Fractions",
   "notes": "Medium.",
-  "status": "done"
+  "status": "done",
+  "official_topic": "Adding and Subtracting Fractions",
+  "official_solution": "The correct answer to the question is answer choice (D), 7/8.\n- The first month 1/8 of the money was given.\n- The second month 1/4 of the money was given. As you can see from the model, this is equivalent to 2/8.\n- The third month 1/2 of the money was given. As you can see from the model, this is equivalent to 4/8.\nNow, find the sum.\n1/8 + 2/8 + 4/8 = 7/8",
+  "choice_percentages": {
+   "A": "<5.0%",
+   "B": "8.4%",
+   "C": "7.1%",
+   "D": "82.1%"
+  },
+  "her_selected_letter": "D",
+  "recapture_source_images": [
+   "Screenshot 2026-10-06 at 10.36.44 AM.png"
+  ]
  },
  {
   "source_file": "Screenshot 2026-10-06 at 10.36.47 AM.png",
@@ -2368,7 +3234,19 @@
   "topic_specific": "count primes in a range (7, 11, 13)",
   "exercise_title": "Prime Numbers",
   "notes": "Medium.",
-  "status": "done"
+  "status": "done",
+  "official_topic": "Prime Numbers",
+  "official_solution": "The correct answer to the question is answer choice (B), 3.\n\nA number is prime if it is divisible by only 1 and itself. The only prime numbers between 6 and 15 are 7, 11, and 13.",
+  "choice_percentages": {
+   "A": "6.5%",
+   "B": "76.3%",
+   "C": "12.1%",
+   "D": "5.0%"
+  },
+  "her_selected_letter": "B",
+  "recapture_source_images": [
+   "Screenshot 2026-10-06 at 10.36.47 AM.png"
+  ]
  },
  {
   "source_file": "Screenshot 2026-10-06 at 10.36.49 AM.png",
@@ -2398,7 +3276,19 @@
   "topic_specific": "probability of one shape from a set of 8",
   "exercise_title": "Probability of 1 Event, given a List of Items",
   "notes": "Medium.",
-  "status": "done"
+  "status": "done",
+  "official_topic": "Probability of 1 Event, given a List of Items",
+  "official_solution": "The correct answer to the question is answer choice (C), 1 out of 4.\n\nThere are 8 shapes in total, and 2 out of the 8 have the shape [X icon]. So, the probability of selecting [X icon] is 2 out of 8, which is equivalent to 1 out of 4.",
+  "choice_percentages": {
+   "A": "<5.0%",
+   "B": "<5.0%",
+   "C": "78.6%",
+   "D": "12.9%"
+  },
+  "her_selected_letter": "C",
+  "recapture_source_images": [
+   "Screenshot 2026-10-06 at 10.36.49 AM.png"
+  ]
  },
  {
   "source_file": "Screenshot 2026-10-06 at 10.36.51 AM.png",
@@ -2428,7 +3318,19 @@
   "topic_specific": "median of a data set",
   "exercise_title": "Finding Median, given Sets of Numbers",
   "notes": "Medium.",
-  "status": "done"
+  "status": "done",
+  "official_topic": "Finding Median, given Sets of Numbers",
+  "official_solution": "The correct answer to the question is answer choice (C), 4.4.\n\nThe median is the middle piece of data in an ordered set.\n1. Write the set in order from least to greatest.\n3.1, 3.9, 4.2, 4.4, 4.8, 4.8, 5.2\n2. The middle number in this set is 4.4.\n3.1, 3.9, 4.2, [4.4], 4.8, 4.8, 5.2",
+  "choice_percentages": {
+   "A": "<5.0%",
+   "B": "10.5%",
+   "C": "74.6%",
+   "D": "12.2%"
+  },
+  "her_selected_letter": "C",
+  "recapture_source_images": [
+   "Screenshot 2026-10-06 at 10.36.51 AM.png"
+  ]
  },
  {
   "source_file": "Screenshot 2026-10-06 at 10.36.53 AM.png",
@@ -2458,7 +3360,19 @@
   "topic_specific": "probability from total count (4 of 18)",
   "exercise_title": "Probability of 1 Event, given a List of Items",
   "notes": "Hard. Hannah time 31 sec.",
-  "status": "done"
+  "status": "done",
+  "official_topic": "Probability of 1 Event, given a List of Items",
+  "official_solution": "The correct answer to the question is answer choice (C), 2/9.\n\nThere are a total of 18 pens, so your denominator for your probability will be 18.\n4 pens are red, so you have a probability of selecting a red pen 4 out of 18 times, or 4/18.\n4/18 is equivalent to 2/9.\n4/18 \u00f7 2/2 = 2/9",
+  "choice_percentages": {
+   "A": "11.2%",
+   "B": "<5.0%",
+   "C": "78.0%",
+   "D": "6.1%"
+  },
+  "her_selected_letter": "C",
+  "recapture_source_images": [
+   "Screenshot 2026-10-06 at 10.36.53 AM.png"
+  ]
  },
  {
   "source_file": "Screenshot 2026-10-06 at 10.36.55 AM.png",
@@ -2488,7 +3402,19 @@
   "topic_specific": "points on coordinate plane",
   "exercise_title": "Identifying Points on a Coordinate Plane",
   "notes": "Subtype Geometry, difficulty Hard. Green only, no maroon marker. Time 19 sec.",
-  "status": "done"
+  "status": "done",
+  "official_topic": "Identifying Points on a Coordinate Plane",
+  "official_solution": "The correct answer to the question is answer choice (D), (3, -4).\n\nFor a coordinate (x, y), x represents the horizontal distance from the origin, and y represents the vertical distance. From (0, 0), you have to move 3 units to the right and then 4 units down to reach coordinate P, so the answer is (3, -4).",
+  "choice_percentages": {
+   "A": "<5.0%",
+   "B": "7.2%",
+   "C": "18.1%",
+   "D": "71.4%"
+  },
+  "her_selected_letter": "D",
+  "recapture_source_images": [
+   "Screenshot 2026-10-06 at 10.36.55 AM.png"
+  ]
  },
  {
   "source_file": "Screenshot 2026-10-06 at 10.36.57 AM.png",
@@ -2518,7 +3444,19 @@
   "topic_specific": "survey counts / complement",
   "exercise_title": null,
   "notes": "Subtype Data Analysis & Probability, difficulty Hard. Time 29 sec. Follow-up exercise not shown in screenshot.",
-  "status": "done"
+  "status": "done",
+  "official_topic": null,
+  "official_solution": "The correct answer to the question is answer choice (D), 11.\n\nThe students who do not read science fiction are the students who read neither type of book, or who read only fantasy. Thus, 2 + 9 = 11 students do NOT read science fiction.",
+  "choice_percentages": {
+   "A": "<5.0%",
+   "B": "5.2%",
+   "C": "6.4%",
+   "D": "85.9%"
+  },
+  "her_selected_letter": "D",
+  "recapture_source_images": [
+   "Screenshot 2026-10-06 at 10.36.57 AM.png"
+  ]
  },
  {
   "source_file": "Screenshot 2026-10-06 at 10.36.59 AM.png",
@@ -2548,7 +3486,19 @@
   "topic_specific": "divisibility by 8",
   "exercise_title": "No Remainder when Divided by a given Number",
   "notes": "Maroon marker on C (324, 21.7%), Hannah's wrong pick. A and B under 5%.",
-  "status": "done"
+  "status": "done",
+  "official_topic": "No Remainder when Divided by a given Number",
+  "official_solution": "[INCOMPLETE - solution box was cut off at the bottom of the screenshot; only the following portion was visible] The correct answer to the question is answer choice (D), 352.\n\nIf you divide a number by 8 and you get a whole number as an answer (quotient), then that number is divisible by 8.\n\nInstead of simply dividing each number by 8 to see if you get a whole number, you can use what we call the Divisibility Rule for 8.\n- A number is divisible by 8 if the hundreds digit is even and the last two digits form a number that is divisible by 8.\n221 has an even number in the hundreds place, but 21 is not divisible by 8. Answer choice B can be eliminated. (X)\n- A number is also divisible by 8 if the hundreds digit is odd and the number formed by the last two digits plus 4 is divisible by 8.\n113, 324, and 352 all have odd numbers in the hundreds place.\n13 + 4 = 17, which is not divisible by 8. Answer choice A can be eliminated. [text cut off here, remainder of explanation for choices C and D not captured in screenshot]",
+  "choice_percentages": {
+   "A": "<5.0%",
+   "B": "<5.0%",
+   "C": "21.7%",
+   "D": "73.3%"
+  },
+  "her_selected_letter": "C",
+  "recapture_source_images": [
+   "Screenshot 2026-10-06 at 10.36.59 AM.png"
+  ]
  },
  {
   "source_file": "Screenshot 2026-10-06 at 10.37.01 AM.png",
@@ -2578,7 +3528,19 @@
   "topic_specific": "area of rectangle from side lengths",
   "exercise_title": "Finding Area/Perimeter of Rectangle, given Length & Width",
   "notes": "Subtype Decimals, Percents, Fractions shown in Q27 only; this screen shows no subtype. Green only. Time not visible (solution panel cut off).",
-  "status": "done"
+  "status": "done",
+  "official_topic": "Finding Area/Perimeter of Rectangle, given Length & Width",
+  "official_solution": "The correct answer to the question is answer choice (A), 10 m\u00b2.\n\nThe area of the corn section is 7 meters long by 7 meters wide. The area of the potatoes section is 5 meters long by 5 meters wide.\n\nTo find the length of the carrots section, subtract 5 from 7. The length of the carrots section is 2 meters.\n\nTo width of the carrots section is the same as the width of the potatoes section. So, the width of the carrots section is 5 meters.\n\nTo find the area, in square meters, of the carrots section, multiply the length and width: 2 meters \u00d7 5 meters = 10 square meters.",
+  "choice_percentages": {
+   "A": "66.2%",
+   "B": "17.3%",
+   "C": "12.8%",
+   "D": "<5.0%"
+  },
+  "her_selected_letter": "A",
+  "recapture_source_images": [
+   "Screenshot 2026-10-06 at 10.37.01 AM.png"
+  ]
  },
  {
   "source_file": "Screenshot 2026-10-06 at 10.37.03 AM.png",
@@ -2608,7 +3570,19 @@
   "topic_specific": "distributive property",
   "exercise_title": "Identifying Number Properties",
   "notes": "Maroon marker on A (14.8%), Hannah's wrong pick. D under 5%.",
-  "status": "done"
+  "status": "done",
+  "official_topic": "Identifying Number Properties",
+  "official_solution": "The correct answer is to the question is answer choice (B), (16 \u00d7 13) + (16 \u00d7 19).\n\nWith the Distributive Property, we can distribute the 16 being multiplied to each term in the parentheses.",
+  "choice_percentages": {
+   "A": "14.8%",
+   "B": "69.1%",
+   "C": "11.4%",
+   "D": "<5.0%"
+  },
+  "her_selected_letter": "A",
+  "recapture_source_images": [
+   "Screenshot 2026-10-06 at 10.37.03 AM.png"
+  ]
  },
  {
   "source_file": "Screenshot 2026-10-06 at 10.37.05 AM.png",
@@ -2638,7 +3612,19 @@
   "topic_specific": "estimating decimal sum by rounding to nearest $5",
   "exercise_title": "Estimating Sums/Differences of Decimal Numbers",
   "notes": "Subtype Decimals, Percents, Fractions; difficulty Hard. Maroon marker on D (225, 10.2%), Hannah's wrong pick. A 7.7%, C 26.8%. Time 69 sec.",
-  "status": "done"
+  "status": "done",
+  "official_topic": "Estimating Sums/Differences of Decimal Numbers",
+  "official_solution": "The correct answer to the problem is answer choice (B), $210.\n\nBy rounding to the nearest $5, you can say the bills were approximately 30, 45, 40, 50, and 45. If you add up all of these values you will get 210. Since all of the answers are listed as multiples of $5, you should round to the nearest $5 rather than the nearest $1.",
+  "choice_percentages": {
+   "A": "7.7%",
+   "B": "55.3%",
+   "C": "26.8%",
+   "D": "10.2%"
+  },
+  "her_selected_letter": "D",
+  "recapture_source_images": [
+   "Screenshot 2026-10-06 at 10.37.05 AM.png"
+  ]
  },
  {
   "source_file": "Screenshot 2026-10-06 at 10.37.07 AM.png",
@@ -2668,7 +3654,19 @@
   "topic_specific": "percent to decimal / fraction equivalence",
   "exercise_title": "Equivalent Fractions, Decimals, and Percents",
   "notes": "No maroon marker, though D (12.5, 39.8%) may be the pick; strip shows 28 green, so D is not marked as wrong. Subtype Decimals, Percents, Fractions; Hard. Time 18 sec.",
-  "status": "done"
+  "status": "done",
+  "official_topic": "Equivalent Fractions, Decimals, and Percents",
+  "official_solution": "The correct answer to the question is answer choice (B), 0.125.\n\nOne way to find the value that is equivalent is to convert the percent to a decimal.\n\nThe easy way to convert from percent to decimal is to move the decimal 2 places to the left.\n12.5% = 0.125",
+  "choice_percentages": {
+   "A": "<5.0%",
+   "B": "52.2%",
+   "C": "<5.0%",
+   "D": "39.8%"
+  },
+  "her_selected_letter": "B",
+  "recapture_source_images": [
+   "Screenshot 2026-10-06 at 10.37.07 AM.png"
+  ]
  },
  {
   "source_file": "Screenshot 2026-10-06 at 10.37.09 AM.png",
@@ -2698,7 +3696,19 @@
   "topic_specific": "always-true statement about product of prime and odd",
   "exercise_title": "Classification of Numbers, given a Set",
   "notes": "Maroon marker on A (odd number, 31.8%), Hannah's wrong pick. Subtype Whole-number classification; Hard. Time 68 sec (not confirmed).",
-  "status": "done"
+  "status": "done",
+  "official_topic": "Classification of Numbers, given a Set",
+  "official_solution": "The correct answer to the question is answer choice (D), composite number.\n\nA prime number is a number that only has two different factors, 1 and itself. If it is multiplied by another number, then that means the number will have more than two different factors. Any number with more than two different factors is a composite number. So, a prime number times an odd number is a composite number.\n\nAnother way to solve this problem is to pick a prime number and an odd number and multiply them together. Let's have the prime number be 2 and the odd number by 5. The product is 2 \u00d7 5 = 10, and 10 is an even and a composite number, so one of those must be the correct answer. Choosing a different pair of numbers, let the prime number be 5 and the odd number be 7. The product is 5 \u00d7 7 = 35, and 35 is an odd number and a composite number. The only kind of number that is the same in both examples is composite, so all products must be composite numbers.",
+  "choice_percentages": {
+   "A": "31.8%",
+   "B": "21.4%",
+   "C": "12.4%",
+   "D": "34.4%"
+  },
+  "her_selected_letter": "A",
+  "recapture_source_images": [
+   "Screenshot 2026-10-06 at 10.37.09 AM.png"
+  ]
  },
  {
   "source_file": "Screenshot 2026-10-06 at 10.37.11 AM.png",
@@ -2728,7 +3738,19 @@
   "topic_specific": "triangle area formula comparison",
   "exercise_title": "Area of Triangles",
   "notes": "Maroon marker on D (18.6%), Hannah's wrong pick. A 28.8%, C 20.4%.",
-  "status": "done"
+  "status": "done",
+  "official_topic": "Area of Triangles",
+  "official_solution": "The correct answer to the question is answer choice (B), The value of A is always 3 times the value of the height.\n\nTo find the area of a triangle, use the formula\nArea of a triangle = 1/2 \u00d7 base \u00d7 height.\nA = 1/2 \u00d7 b \u00d7 h\nbase = 6 m\nA = 1/2 \u00d7 6 m \u00d7 h\nA = 3 m \u00d7 h",
+  "choice_percentages": {
+   "A": "28.8%",
+   "B": "32.1%",
+   "C": "20.4%",
+   "D": "18.6%"
+  },
+  "her_selected_letter": "D",
+  "recapture_source_images": [
+   "Screenshot 2026-10-06 at 10.37.11 AM.png"
+  ]
  },
  {
   "source_file": "Screenshot 2026-10-06 at 10.38.12 AM.png",
@@ -2755,7 +3777,19 @@
   "topic_specific": "3-digit addition with regrouping",
   "exercise_title": "Adding and Subtracting Integers",
   "notes": "Subtype Whole Numbers; Easy. Green only. Time 22 sec.",
-  "status": "done"
+  "status": "done",
+  "official_topic": "Adding and Subtracting Integers",
+  "official_solution": "The correct answer to the question is answer choice (D), 611.",
+  "choice_percentages": {
+   "A": "<5.0%",
+   "B": "<5.0%",
+   "C": "<5.0%",
+   "D": "96.4%"
+  },
+  "her_selected_letter": "D",
+  "recapture_source_images": [
+   "Screenshot 2026-10-06 at 10.38.12 AM.png"
+  ]
  },
  {
   "source_file": "Screenshot 2026-10-06 at 10.38.15 AM.png",
@@ -2782,7 +3816,19 @@
   "topic_specific": "reading pictograph with key",
   "exercise_title": "Interpreting Pictographs",
   "notes": "Subtype Data Analysis & Probability; Easy. Green only. Time 29 sec.",
-  "status": "done"
+  "status": "done",
+  "official_topic": "Interpreting Pictographs",
+  "official_solution": "The correct answer to the question is answer choice (C), 60.\n\nThere are 3 more cars on North Highway than Lake Drive. Each car in the diagram represents 20 cars that drove by. So, 3 \u00d7 20 = 60 more cars traveled down North Highway than Lake Drive.",
+  "choice_percentages": {
+   "A": "<5.0%",
+   "B": "<5.0%",
+   "C": "95.3%",
+   "D": "<5.0%"
+  },
+  "her_selected_letter": "C",
+  "recapture_source_images": [
+   "Screenshot 2026-10-06 at 10.38.15 AM.png"
+  ]
  },
  {
   "source_file": "Screenshot 2026-10-06 at 10.38.17 AM.png",
@@ -2809,7 +3855,19 @@
   "topic_specific": "number words to standard form (place value)",
   "exercise_title": "Identifying Numbers, Standard Form <> Word Form",
   "notes": "Subtype Whole Numbers; Easy. Green only. Time 26 sec.",
-  "status": "done"
+  "status": "done",
+  "official_topic": "Identifying Numbers, Standard Form <> Word Form",
+  "official_solution": "The correct answer to the question is answer choice (B), 407,063.\n\nThe part before the word \"thousand\" indicates the number before the comma. \"Four hundred seven\" is 407. \"Sixty-three\" is written as 63. Placing a 0 to fill the missing hundreds digit would make the number \"four hundred seven thousand sixty-three\" written as 407,063.",
+  "choice_percentages": {
+   "A": "<5.0%",
+   "B": "96.5%",
+   "C": "<5.0%",
+   "D": "<5.0%"
+  },
+  "her_selected_letter": "B",
+  "recapture_source_images": [
+   "Screenshot 2026-10-06 at 10.38.17 AM.png"
+  ]
  },
  {
   "source_file": "Screenshot 2026-10-06 at 10.38.19 AM.png",
@@ -2836,7 +3894,19 @@
   "topic_specific": "solve one-step equation with parentheses",
   "exercise_title": "Solving 1 Variable Equations",
   "notes": "Subtype Algebraic Concepts; Easy. Green only. Time 84 sec.",
-  "status": "done"
+  "status": "done",
+  "official_topic": "Solving 1 Variable Equations",
+  "official_solution": "The correct answer to the question is answer choice (B), 5.\n\nSince 3 times 10 is 30, \u0394 + 5 must equal 10.\nThe number 5 is added to 5 to get 10 inside the parentheses.\n\nAnother way to solve this problem is to substitute each value for the \u0394 to find the answer that makes the statement true.",
+  "choice_percentages": {
+   "A": "<5.0%",
+   "B": "96.8%",
+   "C": "<5.0%",
+   "D": "<5.0%"
+  },
+  "her_selected_letter": "B",
+  "recapture_source_images": [
+   "Screenshot 2026-10-06 at 10.38.19 AM.png"
+  ]
  },
  {
   "source_file": "Screenshot 2026-10-06 at 10.38.22 AM.png",
@@ -2863,7 +3933,19 @@
   "topic_specific": "matching table data to graph",
   "exercise_title": null,
   "notes": "Maroon marker on A (<5%), Hannah's wrong pick. Solution panel not visible, so subtype and time unknown.",
-  "status": "done"
+  "status": "done",
+  "official_topic": null,
+  "official_solution": "not shown (screenshot only captured the question and answer choices; the Solution box was below the visible area and not captured)",
+  "choice_percentages": {
+   "A": "<5.0%",
+   "B": "95.5%",
+   "C": "<5.0%",
+   "D": "<5.0%"
+  },
+  "her_selected_letter": "A",
+  "recapture_source_images": [
+   "Screenshot 2026-10-06 at 10.38.22 AM.png"
+  ]
  },
  {
   "source_file": "Screenshot 2026-10-06 at 10.38.26 AM.png",
@@ -2890,7 +3972,19 @@
   "topic_specific": "halving sequence (geometric)",
   "exercise_title": "Nth Term, given Arithmetic Sequence, Progressive Pattern, etc.",
   "notes": "Subtype Algebraic Concepts; Easy. Green only. Time 46 sec. Sequence is geometric (halving), not arithmetic.",
-  "status": "done"
+  "status": "done",
+  "official_topic": "Nth Term, given Arithmetic Sequence, Progressive Pattern, etc.",
+  "official_solution": "The correct answer to the question is answer choice (C), 4.\n\nEach number that follows is half the value of the number preceding it. So to get the next number in the sequence, divide 8 by 2.\n8 \u00f7 2 = 4",
+  "choice_percentages": {
+   "A": "<5.0%",
+   "B": "<5.0%",
+   "C": "96.3%",
+   "D": "<5.0%"
+  },
+  "her_selected_letter": "C",
+  "recapture_source_images": [
+   "Screenshot 2026-10-06 at 10.38.26 AM.png"
+  ]
  },
  {
   "source_file": "Screenshot 2026-10-06 at 10.38.29 AM.png",
@@ -2917,7 +4011,19 @@
   "topic_specific": "reading table values and finding difference",
   "exercise_title": "Comparing/Adding/Subtracting Bar Graph/Data Table Values",
   "notes": "Subtype Data Analysis & Probability; Easy. Green only. Time 31 sec.",
-  "status": "done"
+  "status": "done",
+  "official_topic": "Comparing/Adding/Subtracting Bar Graph/Data Table Values",
+  "official_solution": "The correct answer to the question is answer choice (B), 6 miles.\n\nUse the table to find 120 minutes, then look in that row for the distances traveled by Trains A and C. Train A traveled 50 miles and Train C traveled 44 miles.\n50 - 44 = 6, so Train A traveled 6 more miles than Train C at 120 minutes.",
+  "choice_percentages": {
+   "A": "<5.0%",
+   "B": "94.0%",
+   "C": "<5.0%",
+   "D": "<5.0%"
+  },
+  "her_selected_letter": "B",
+  "recapture_source_images": [
+   "Screenshot 2026-10-06 at 10.38.29 AM.png"
+  ]
  },
  {
   "source_file": "Screenshot 2026-10-06 at 10.38.31 AM.png",
@@ -2944,7 +4050,19 @@
   "topic_specific": "estimating decimal sum by rounding to tenths",
   "exercise_title": "Adding and Subtracting Decimals",
   "notes": "Subtype Decimals, Percents, Fractions; Easy. Green only. Time 72 sec.",
-  "status": "done"
+  "status": "done",
+  "official_topic": "Adding and Subtracting Decimals",
+  "official_solution": "The correct answer to the question is answer choice (C), 0.8.\n\nLook at the answer choices. Notice that each answer choice has a decimal number with digits in the ones and tenths place. So, to find the closest sum, round each number in the sum to the nearest tenth, and then add.\n- round 0.505 to the nearest tenth: 0.5\n- round 0.315 to the nearest tenth: 0.3\n- add: 0.5 + 0.3 = 0.8",
+  "choice_percentages": {
+   "A": "<5.0%",
+   "B": "<5.0%",
+   "C": "93.6%",
+   "D": "<5.0%"
+  },
+  "her_selected_letter": "C",
+  "recapture_source_images": [
+   "Screenshot 2026-10-06 at 10.38.31 AM.png"
+  ]
  },
  {
   "source_file": "Screenshot 2026-10-06 at 10.38.33 AM.png",
@@ -2971,7 +4089,19 @@
   "topic_specific": "area of rectangle from labeled sides",
   "exercise_title": "Finding Area/Perimeter of Rectangle, given Length & Width",
   "notes": "Subtype Measurement; Easy. Green only. Time 55 sec.",
-  "status": "done"
+  "status": "done",
+  "official_topic": "Finding Area/Perimeter of Rectangle, given Length & Width",
+  "official_solution": "The correct answer to the question is answer choice (D) 24 in\u00b2.\n\nArea of a rectangle is found by multiplying its length and width: 8 \u00d7 3 = 24.",
+  "choice_percentages": {
+   "A": "<5.0%",
+   "B": "<5.0%",
+   "C": "<5.0%",
+   "D": "93.0%"
+  },
+  "her_selected_letter": "D",
+  "recapture_source_images": [
+   "Screenshot 2026-10-06 at 10.38.33 AM.png"
+  ]
  },
  {
   "source_file": "Screenshot 2026-10-06 at 10.38.35 AM.png",
@@ -2998,7 +4128,19 @@
   "topic_specific": "median of data set from table",
   "exercise_title": "Finding Median, given Sets of Numbers",
   "notes": "Subtype not visible (solution cut off). Green only. Time not visible.",
-  "status": "done"
+  "status": "done",
+  "official_topic": "Finding Median, given Sets of Numbers",
+  "official_solution": "The correct answer to the question is answer choice (C), 450.\n\nOne way the answer can be found is by\n1. placing the numbers in order by value;\n280, 300, 400, 450, 520, 640, 750\n2. finding the middle number.\n280, 300, 400, [450], 520, 640, 750",
+  "choice_percentages": {
+   "A": "<5.0%",
+   "B": "7.2%",
+   "C": "86.7%",
+   "D": "5.0%"
+  },
+  "her_selected_letter": "C",
+  "recapture_source_images": [
+   "Screenshot 2026-10-06 at 10.38.35 AM.png"
+  ]
  },
  {
   "source_file": "Screenshot 2026-10-06 at 10.38.37 AM.png",
@@ -3025,7 +4167,19 @@
   "topic_specific": "decimal to fraction (hundredths place)",
   "exercise_title": "Equivalent Fractions, Decimals, and Percents",
   "notes": "Subtype Decimals, Percents, Fractions; Medium. Green only. Time 40 sec.",
-  "status": "done"
+  "status": "done",
+  "official_topic": "Equivalent Fractions, Decimals, and Percents",
+  "official_solution": "The correct answer to the question is answer choice (B), 9/100.\n\nEach number in a decimal can be converted to a fraction based on its place in the decimal. The 9 is in the hundredths place, meaning that 0.09 is equivalent to 9/100.",
+  "choice_percentages": {
+   "A": "<5.0%",
+   "B": "93.0%",
+   "C": "<5.0%",
+   "D": "<5.0%"
+  },
+  "her_selected_letter": "B",
+  "recapture_source_images": [
+   "Screenshot 2026-10-06 at 10.38.37 AM.png"
+  ]
  },
  {
   "source_file": "Screenshot 2026-10-06 at 10.38.39 AM.png",
@@ -3052,7 +4206,19 @@
   "topic_specific": "number line point value with skip counting",
   "exercise_title": "Determining Points on Number Lines",
   "notes": "Subtype not visible. Green only. Time not visible.",
-  "status": "done"
+  "status": "done",
+  "official_topic": "Determining Points on Number Lines",
+  "official_solution": "The correct answer to the question is answer choice (B), 34.\n\nDetermine the value of each space using the given numbers of 40 and 50. The common difference between them is 10, and there are 5 spaces between them. Skip count by twos from 40 to 50, so each space is worth 2.\nPoint D is located 3 spaces before, so skip count backwards by 2.\n[diagram: number line relabeled 34, 36, 38, 40 ... 50]\nThe number 28 is represented by point D. [NOTE: transcribed exactly as written in the source -- this final sentence says \"28\" even though the stated correct answer/choice and the relabeled diagram both indicate 34; this appears to be an inconsistency/typo in the original material, not something this catalog is correcting.]",
+  "choice_percentages": {
+   "A": "<5.0%",
+   "B": "87.3%",
+   "C": "5.2%",
+   "D": "<5.0%"
+  },
+  "her_selected_letter": "B",
+  "recapture_source_images": [
+   "Screenshot 2026-10-06 at 10.38.39 AM.png"
+  ]
  },
  {
   "source_file": "Screenshot 2026-10-06 at 10.38.40 AM.png",
@@ -3079,7 +4245,19 @@
   "topic_specific": "classify quadrilateral (rhombus)",
   "exercise_title": "Identifying Shapes",
   "notes": "Subtype Geometry; Medium. Green only. Time 145 sec.",
-  "status": "done"
+  "status": "done",
+  "official_topic": "Identifying Shapes",
+  "official_solution": "The correct answer to the question is answer choice (C), rhombus.\n- A pentagon has 5 sides. (X)\n- A square must have equal sides and equal angles, which makes every angle be 90\u00b0. (X)\n- A rectangle has 90\u00b0 angles, as well. (X)\n- A rhombus is a figure with 4 equal sides, but not necessarily 4 equal angles. (checkmark)",
+  "choice_percentages": {
+   "A": "<5.0%",
+   "B": "<5.0%",
+   "C": "85.7%",
+   "D": "11.5%"
+  },
+  "her_selected_letter": "C",
+  "recapture_source_images": [
+   "Screenshot 2026-10-06 at 10.38.40 AM.png"
+  ]
  },
  {
   "source_file": "Screenshot 2026-10-06 at 10.38.42 AM.png",
@@ -3106,7 +4284,19 @@
   "topic_specific": "whole-number division word problem",
   "exercise_title": "Dividing Equally From a Total",
   "notes": "Subtype Whole Numbers; Medium. Green only. Time 39 sec.",
-  "status": "done"
+  "status": "done",
+  "official_topic": "Dividing Equally From a Total",
+  "official_solution": "The correct answer to the question is answer choice (B), 19.\n\nOne way the answer can be found is by recognizing that, since Manny is filling the empty cartons with 12 eggs each, that he will have to divide the total number of eggs (228) by 12. So, 228 \u00f7 12 = 19.",
+  "choice_percentages": {
+   "A": "7.8%",
+   "B": "87.0%",
+   "C": "<5.0%",
+   "D": "<5.0%"
+  },
+  "her_selected_letter": "B",
+  "recapture_source_images": [
+   "Screenshot 2026-10-06 at 10.38.42 AM.png"
+  ]
  },
  {
   "source_file": "Screenshot 2026-10-06 at 10.38.44 AM.png",
@@ -3133,7 +4323,19 @@
   "topic_specific": "classify a set of numbers (prime/odd/whole)",
   "exercise_title": "Classification of Numbers, given a Set",
   "notes": "Subtype Whole Numbers; Medium. Green only. Time 44 sec. Solution says all listed numbers are odd, prime, and whole.",
-  "status": "done"
+  "status": "done",
+  "official_topic": "Classification of Numbers, given a Set",
+  "official_solution": "The correct answer to the question is answer choice (A), composite numbers.\n\nLooking at the set of numbers:\n- 3, 5, 7, 11, and 17 are all odd, so answer choice B is incorrect. (X)\n- These listed numbers are also all prime numbers, so answer choice C is incorrect. (X)\n- They are all whole numbers, so answer choice D is incorrect. (X)\nThis means, by process of elimination, these numbers are not composite numbers, so answer choice A is correct. (checkmark)\n(Composite numbers have more factors than 1 and the number itself.)",
+  "choice_percentages": {
+   "A": "85.7%",
+   "B": "<5.0%",
+   "C": "8.9%",
+   "D": "<5.0%"
+  },
+  "her_selected_letter": "A",
+  "recapture_source_images": [
+   "Screenshot 2026-10-06 at 10.38.44 AM.png"
+  ]
  },
  {
   "source_file": "Screenshot 2026-10-06 at 10.38.45 AM.png",
@@ -3160,7 +4362,19 @@
   "topic_specific": "remainder with divisors 5 and 8 (LCM + remainder)",
   "exercise_title": "Remainder when Divided by a given Number",
   "notes": "Maroon marker on B (38, under 5%), Hannah's wrong pick. Subtype Algebraic Concepts; Medium. Time 10 sec.",
-  "status": "done"
+  "status": "done",
+  "official_topic": "Remainder when Divided by a given Number",
+  "official_solution": "The correct answer to the question is answer choice (D), 42.\n\nMultiply 5 by 8 and then add 2.\n(5 \u00d7 8) + 2 = 40 + 2 = 42",
+  "choice_percentages": {
+   "A": "5.9%",
+   "B": "<5.0%",
+   "C": "<5.0%",
+   "D": "86.0%"
+  },
+  "her_selected_letter": "B",
+  "recapture_source_images": [
+   "Screenshot 2026-10-06 at 10.38.45 AM.png"
+  ]
  },
  {
   "source_file": "Screenshot 2026-10-06 at 10.38.47 AM.png",
@@ -3187,7 +4401,19 @@
   "topic_specific": "read point on coordinate plane",
   "exercise_title": "Identifying Points on a Coordinate Plane",
   "notes": "Green only. Subtype and time not visible (solution cut off).",
-  "status": "done"
+  "status": "done",
+  "official_topic": "Identifying Points on a Coordinate Plane",
+  "official_solution": "The correct answer to the question is answer choice (C), (5,\u22122). Coordinates are written as (x,y), with x representing horizontal distance from the origin (0,0), and y representing vertical distance. Point Q is 5 units to the right of the origin and 2 units down.",
+  "choice_percentages": {
+   "A": "14.6%",
+   "B": "<5.0%",
+   "C": "82.8%",
+   "D": "<5.0%"
+  },
+  "her_selected_letter": "C",
+  "recapture_source_images": [
+   "Screenshot 2026-10-06 at 10.38.47 AM.png"
+  ]
  },
  {
   "source_file": "Screenshot 2026-10-06 at 10.38.49 AM.png",
@@ -3214,7 +4440,19 @@
   "topic_specific": "order fractions and decimals",
   "exercise_title": "Comparing & Ordering Fractions & Decimals",
   "notes": "Subtype Decimals, Percents, Fractions; Medium. Green only. Time 81 sec.",
-  "status": "done"
+  "status": "done",
+  "official_topic": "Comparing & Ordering Fractions & Decimals",
+  "official_solution": "The correct answer to the question is answer choice (B), 1/2. One way the answer can be found is by using process of elimination. 1/5 is less than 1/4, so answer choice A can be eliminated. 1/2 is between 0.3 and 2/3, so 1/2 is the fraction missing in the list. Answer choice B is the correct answer. 5/6 is greater than 2/3, so answer choice C can be eliminated. 3/4 is greater than 2/3, so answer choice D can be eliminated.",
+  "choice_percentages": {
+   "A": "<5.0%",
+   "B": "83.2%",
+   "C": "<5.0%",
+   "D": "7.1%"
+  },
+  "her_selected_letter": "B",
+  "recapture_source_images": [
+   "Screenshot 2026-10-06 at 10.38.49 AM.png"
+  ]
  },
  {
   "source_file": "Screenshot 2026-10-06 at 10.38.51 AM.png",
@@ -3241,7 +4479,19 @@
   "topic_specific": "median of table column (decimals)",
   "exercise_title": "Finding MMMR, given Bar Graph/Data Table of Values",
   "notes": "Green only. Subtype not visible. Time not visible.",
-  "status": "done"
+  "status": "done",
+  "official_topic": "Finding MMMR, given Bar Graph/Data Table of Values",
+  "official_solution": "The correct answer to the question is answer choice (B), 25.2. One way the answer can be found is 1. understanding that the median is the middle number of a data set; 2. arranging data points from smallest to largest; and 22.5, 22.9, 24.9, 25.2, 28.4, 31.3, 34.9 3. locating the middle number. 22.5, 22.9, 24.9, [25.2], 28.4, 31.3, 34.9",
+  "choice_percentages": {
+   "A": "8.4%",
+   "B": "74.9%",
+   "C": "14.4%",
+   "D": "<5.0%"
+  },
+  "her_selected_letter": "B",
+  "recapture_source_images": [
+   "Screenshot 2026-10-06 at 10.38.51 AM.png"
+  ]
  },
  {
   "source_file": "Screenshot 2026-10-06 at 10.38.52 AM.png",
@@ -3268,7 +4518,19 @@
   "topic_specific": "fourth vertex of square on coordinate plane",
   "exercise_title": "Vertices Forming Right Angles & Quadrilaterals on a Coordinate Plane",
   "notes": "Green only. Subtype and time not visible (solution cut off).",
-  "status": "done"
+  "status": "done",
+  "official_topic": "Vertices Forming Right Angles & Quadrilaterals on a Coordinate Plane",
+  "official_solution": "The correct answer is to the question answer choice (A), (1,3). Coordinates are written as (x,y), with x representing horizontal distance from the origin (0,0), and y representing vertical distance. Since the figure is a square, point D will match the vertical y coordinate of point A (\u22124,3) and the horizontal... [solution text is cut off at the bottom of the screenshot; remainder not visible/not captured]",
+  "choice_percentages": {
+   "A": "80.6%",
+   "B": "<5.0%",
+   "C": "14.7%",
+   "D": "<5.0%"
+  },
+  "her_selected_letter": "A",
+  "recapture_source_images": [
+   "Screenshot 2026-10-06 at 10.38.52 AM.png"
+  ]
  },
  {
   "source_file": "Screenshot 2026-10-06 at 10.38.54 AM.png",
@@ -3295,7 +4557,19 @@
   "topic_specific": "geometric sequence (x3), nth term",
   "exercise_title": "Nth Term, given Arithmetic Sequence, Progressive Pattern, etc.",
   "notes": "Maroon marker on A (54, under 5%), Hannah's wrong pick. Subtype Algebraic Concepts; Hard. Time 76 sec.",
-  "status": "done"
+  "status": "done",
+  "official_topic": "Nth Term, given Arithmetic Sequence, Progressive Pattern, etc.",
+  "official_solution": "The correct answer to the question is answer choice (C), 243. The pattern is to multiply each number by 3 to get the next number in the sequence. The fifth number in the pattern is 27\u00d73=81. The sixth number in the pattern is 81\u00d73=243.",
+  "choice_percentages": {
+   "A": "<5.0%",
+   "B": "11.7%",
+   "C": "80.0%",
+   "D": "<5.0%"
+  },
+  "her_selected_letter": "A",
+  "recapture_source_images": [
+   "Screenshot 2026-10-06 at 10.38.54 AM.png"
+  ]
  },
  {
   "source_file": "Screenshot 2026-10-06 at 10.38.56 AM.png",
@@ -3322,7 +4596,19 @@
   "topic_specific": "add unlike fractions",
   "exercise_title": "Adding and Subtracting Fractions",
   "notes": "Green only. Time not visible (solution panel for subtype cut off).",
-  "status": "done"
+  "status": "done",
+  "official_topic": "Adding and Subtracting Fractions",
+  "official_solution": "The correct answer to the question is answer choice (D), 5/6. One way the answer can be found is by 1. knowing that 1/4 is equivalent to 3/12, and 2. determining the sum of 3/12 and 7/12 as 10/12. Then, (10\u00f72)/(12\u00f72) = 5/6. Alternatively, drawing a model can be used to find the sum. [solution includes a fraction bar-model diagram]",
+  "choice_percentages": {
+   "A": "<5.0%",
+   "B": "<5.0%",
+   "C": "8.1%",
+   "D": "86.7%"
+  },
+  "her_selected_letter": "D",
+  "recapture_source_images": [
+   "Screenshot 2026-10-06 at 10.38.56 AM.png"
+  ]
  },
  {
   "source_file": "Screenshot 2026-10-06 at 10.38.57 AM.png",
@@ -3349,7 +4635,19 @@
   "topic_specific": "divisibility by 4 (last two digits)",
   "exercise_title": "Identifying Multiples",
   "notes": "Green only. Subtype and time not visible.",
-  "status": "done"
+  "status": "done",
+  "official_topic": "Identifying Multiples",
+  "official_solution": "The correct answer to the question is answer choice (D), 162. The basic rule for divisibility by 4 is that if the last two digits of a number are zero or is divisible by 4, the original number is divisible by 4; this is because 100 is divisible by 4 and so adding hundreds, thousands, etc. is simply adding another number that is divisible by 4. The number 92 is divisible by 4. So, answer choice A can be eliminated. The last two digits of 124 are 24, which is divisible by 4. So, answer choice B can be eliminated. The last two digits of 144 are 44, which is divisible by 4. So, answer choice C can be eliminated. The last two digits of 162 are not divisible by 4, so it is not a multiple of 4. So, answer choice D is the correct answer.",
+  "choice_percentages": {
+   "A": "9.7%",
+   "B": "<5.0%",
+   "C": "5.7%",
+   "D": "80.9%"
+  },
+  "her_selected_letter": "D",
+  "recapture_source_images": [
+   "Screenshot 2026-10-06 at 10.38.57 AM.png"
+  ]
  },
  {
   "source_file": "Screenshot 2026-10-06 at 10.38.59 AM.png",
@@ -3376,7 +4674,19 @@
   "topic_specific": "perimeter of rectangle after length change",
   "exercise_title": "Perimeter",
   "notes": "Subtype Measurement; Hard. Green only. Time 38 sec.",
-  "status": "done"
+  "status": "done",
+  "official_topic": "Perimeter",
+  "official_solution": "The correct answer to the question is (B), 20 inches. Each length is 2 inches and is increased by 2 inches from stretching, so the length of the stretched piece of material is 4 inches. The width of the sides are both 6 inches. The perimeter of a rectangle is found by adding up the length of all four sides. Perimeter = 6+6+4+4=20. The perimeter of the stretched piece of material is 20 inches.",
+  "choice_percentages": {
+   "A": "5.3%",
+   "B": "74.8%",
+   "C": "17.9%",
+   "D": "<5.0%"
+  },
+  "her_selected_letter": "B",
+  "recapture_source_images": [
+   "Screenshot 2026-10-06 at 10.38.59 AM.png"
+  ]
  },
  {
   "source_file": "Screenshot 2026-10-06 at 10.39.01 AM.png",
@@ -3403,7 +4713,19 @@
   "topic_specific": "subtract unlike fractions (word problem)",
   "exercise_title": "Adding and Subtracting Fractions",
   "notes": "Subtype Decimals, Percents, Fractions; Hard. Green only. Time 231 sec.",
-  "status": "done"
+  "status": "done",
+  "official_topic": "Adding and Subtracting Fractions",
+  "official_solution": "The correct answer to the question is answer choice (A), 1/6. One way the answer can be found is by 1. knowing that 2/3 is equivalent to 4/6; and 2. determining the difference between 5/6 and 4/6 as 1/6. 5/6 \u2212 4/6 = 1/6.",
+  "choice_percentages": {
+   "A": "82.5%",
+   "B": "7.6%",
+   "C": "6.3%",
+   "D": "<5.0%"
+  },
+  "her_selected_letter": "A",
+  "recapture_source_images": [
+   "Screenshot 2026-10-06 at 10.39.01 AM.png"
+  ]
  },
  {
   "source_file": "Screenshot 2026-10-06 at 10.39.02 AM.png",
@@ -3430,7 +4752,19 @@
   "topic_specific": "multi-step cost from price table",
   "exercise_title": "Determining Total Cost",
   "notes": "Green only. Subtype and time not visible.",
-  "status": "done"
+  "status": "done",
+  "official_topic": "Determining Total Cost",
+  "official_solution": "The correct answer to the question is answer choice (D), $336. Find out how much each admission costs the 2 adults and 1 child, and then add them together. General Admission: 2 adults = $80\u00d72=$160; 1 child = $50; Total = $160+$50=$210. Special Event: 2 adults = $48\u00d72=$96; 1 child = $30; Total = $96+$30=$126. Combined total of both admissions: $210+$126=$336.",
+  "choice_percentages": {
+   "A": "<5.0%",
+   "B": "<5.0%",
+   "C": "18.6%",
+   "D": "76.2%"
+  },
+  "her_selected_letter": "D",
+  "recapture_source_images": [
+   "Screenshot 2026-10-06 at 10.39.02 AM.png"
+  ]
  },
  {
   "source_file": "Screenshot 2026-10-06 at 10.39.04 AM.png",
@@ -3457,7 +4791,19 @@
   "topic_specific": "multiplication word problem (whole numbers)",
   "exercise_title": null,
   "notes": "Subtype Whole Numbers; Hard. Green only. Time 34 sec.",
-  "status": "done"
+  "status": "done",
+  "official_topic": null,
+  "official_solution": "The correct answer to the question is answer choice (D), 7,500. One way the answer can be found is by recognizing that since Jimmy fills the empty sandbox with 150 bags of sand that each weighs 50 pounds, to determine the number of pounds of sand he used, you must multiply 150 by 50. So, 150\u00d750=7,500.",
+  "choice_percentages": {
+   "A": "16.2%",
+   "B": "<5.0%",
+   "C": "6.5%",
+   "D": "74.7%"
+  },
+  "her_selected_letter": "D",
+  "recapture_source_images": [
+   "Screenshot 2026-10-06 at 10.39.04 AM.png"
+  ]
  },
  {
   "source_file": "Screenshot 2026-10-06 at 10.39.07 AM.png",
@@ -3484,7 +4830,19 @@
   "topic_specific": "probability from table of outcomes",
   "exercise_title": "Probability of 1 Event, given a List of Items",
   "notes": "Subtype Data Analysis & Probability; Hard. Green only. Time 55 sec.",
-  "status": "done"
+  "status": "done",
+  "official_topic": "Probability of 1 Event, given a List of Items",
+  "official_solution": "The correct answer to the question is answer choice (D), 1/2. Out of the 6 teams, only 3 won both games (Teams 1, 2, & 4). To calculate the probability, we use: Number of ways it can happen / Total number of outcomes = 3 teams won both games / 6 teams total = 3/6 = 1/2.",
+  "choice_percentages": {
+   "A": "5.6%",
+   "B": "10.7%",
+   "C": "14.7%",
+   "D": "68.9%"
+  },
+  "her_selected_letter": "D",
+  "recapture_source_images": [
+   "Screenshot 2026-10-06 at 10.39.07 AM.png"
+  ]
  },
  {
   "source_file": "Screenshot 2026-10-06 at 10.39.18 AM.png",
@@ -3511,7 +4869,19 @@
   "topic_specific": "distributive property / order of operations",
   "exercise_title": "Order of Operations and Equivalence",
   "notes": "Subtype Whole Numbers; Hard. Green only. Time 68 sec. A 24.6% (not marked maroon).",
-  "status": "done"
+  "status": "done",
+  "official_topic": "Order of Operations and Equivalence",
+  "official_solution": "The correct answer to the question is answer choice (D), 2\u00d77+8\u00d77. Use the distributive property, which states a(b+c)=(a\u00d7b)+(a\u00d7c), to rewrite (2+8)\u00d77 as 2\u00d77+8\u00d77. Alternatively, evaluate the expression by following the order of operations. Doing the part inside the parentheses first gives 10\u00d77=70. Following the order of operations in the answer choices, the only one that equals 70 is choice (D).",
+  "choice_percentages": {
+   "A": "24.6%",
+   "B": "<5.0%",
+   "C": "7.4%",
+   "D": "65.8%"
+  },
+  "her_selected_letter": "D",
+  "recapture_source_images": [
+   "Screenshot 2026-10-06 at 10.39.18 AM.png"
+  ]
  },
  {
   "source_file": "Screenshot 2026-10-06 at 10.39.20 AM.png",
@@ -3538,7 +4908,19 @@
   "topic_specific": "area of triangle (base x height / 2)",
   "exercise_title": "Area of Triangles",
   "notes": "Subtype Measurement; Hard. Green only. Time 31 sec. D 30.5%, B 9.9%, A 6.8%.",
-  "status": "done"
+  "status": "done",
+  "official_topic": "Area of Triangles",
+  "official_solution": "The correct answer to the question is answer choice (C), 350 cm\u00b2. The formula for area of a triangle is 1/2 of the base \u00d7 the height, or A=1/2bh. The base is 35 cm and the height is 20 cm. So, 1/2\u00d735\u00d720=350.",
+  "choice_percentages": {
+   "A": "6.8%",
+   "B": "9.9%",
+   "C": "52.8%",
+   "D": "30.5%"
+  },
+  "her_selected_letter": "C",
+  "recapture_source_images": [
+   "Screenshot 2026-10-06 at 10.39.20 AM.png"
+  ]
  },
  {
   "source_file": "Screenshot 2026-10-06 at 10.39.28 AM.png",
@@ -3565,7 +4947,19 @@
   "topic_specific": "arithmetic sequence (+4) missing term",
   "exercise_title": "Nth Term, given Arithmetic Sequence, Progressive Pattern, etc.",
   "notes": "Subtype Algebraic Concepts; Easy. Green only. Time 17 sec. Strip for this test read from pill row: 5, 16, 18 maroon; only this question was screenshotted.",
-  "status": "done"
+  "status": "done",
+  "official_topic": "Nth Term, given Arithmetic Sequence, Progressive Pattern, etc.",
+  "official_solution": "The correct answer to the question is answer choice (B), 28. One way the answer can be found is by looking at the numbers and seeing a pattern. 16 is 4 more than 12, 20 is 4 more than 16, and 24 is 4 more than 20. Since the number pattern continues, the next number in the pattern, the missing number is 4 more than 24, or 28.",
+  "choice_percentages": {
+   "A": "<5.0%",
+   "B": "98.7%",
+   "C": "<5.0%",
+   "D": "<5.0%"
+  },
+  "her_selected_letter": "B",
+  "recapture_source_images": [
+   "Screenshot 2026-10-06 at 10.39.28 AM.png"
+  ]
  },
  {
   "source_file": "Screenshot 2026-10-06 at 10.39.30 AM.png",
@@ -3593,7 +4987,19 @@
   "exercise_title": null,
   "is_timing_chart": false,
   "notes": "Follow-up: Identifying Numbers, Standard Form <-> Word Form. Subtype/time not visible.",
-  "status": "done"
+  "status": "done",
+  "official_topic": "Identifying Numbers, Standard Form <> Word Form",
+  "official_solution": "The correct answer to the question is answer choice (C), 3,209. Use a place value chart to write the number.",
+  "choice_percentages": {
+   "A": "<5.0%",
+   "B": "<5.0%",
+   "C": "99.1%",
+   "D": "<5.0%"
+  },
+  "her_selected_letter": "C",
+  "recapture_source_images": [
+   "Screenshot 2026-10-06 at 10.39.30 AM.png"
+  ]
  },
  {
   "source_file": "Screenshot 2026-10-06 at 10.39.33 AM.png",
@@ -3621,7 +5027,19 @@
   "exercise_title": null,
   "is_timing_chart": false,
   "notes": "Subtype Measurement, Easy; her time 39 sec (others 14 sec).",
-  "status": "done"
+  "status": "done",
+  "official_topic": "Determining Points on Number Lines",
+  "official_solution": "The correct answer to the question is answer choice (B), 10. There are four spaces between 0 and 8 on the number line, indicating that each space is worth 2 since 8\u00f74=2. G is one space past 8, so G represents the number 8+2=10 on the number line.",
+  "choice_percentages": {
+   "A": "<5.0%",
+   "B": "95.3%",
+   "C": "<5.0%",
+   "D": "<5.0%"
+  },
+  "her_selected_letter": "B",
+  "recapture_source_images": [
+   "Screenshot 2026-10-06 at 10.39.33 AM.png"
+  ]
  },
  {
   "source_file": "Screenshot 2026-10-06 at 10.39.35 AM.png",
@@ -3649,7 +5067,19 @@
   "exercise_title": null,
   "is_timing_chart": false,
   "notes": "Subtype Algebraic Concepts, Easy; her time 124 sec (others 20 sec).",
-  "status": "done"
+  "status": "done",
+  "official_topic": "Solving 1 Variable Equations",
+  "official_solution": "The correct answer to the question is answer choice (B), 8. Since the answer to the division problem is 12, use multiplication as a strategy to solve. Since 12\u00d78=96, n=8 satisfies the equation.",
+  "choice_percentages": {
+   "A": "<5.0%",
+   "B": "97.3%",
+   "C": "<5.0%",
+   "D": "<5.0%"
+  },
+  "her_selected_letter": "B",
+  "recapture_source_images": [
+   "Screenshot 2026-10-06 at 10.39.35 AM.png"
+  ]
  },
  {
   "source_file": "Screenshot 2026-10-06 at 10.39.37 AM.png",
@@ -3677,7 +5107,19 @@
   "exercise_title": null,
   "is_timing_chart": false,
   "notes": "Maroon marker on D ($42), Hannah's wrong pick. Subtype Algebraic Concepts, Easy; her time 84 sec (others 45 sec).",
-  "status": "done"
+  "status": "done",
+  "official_topic": "Determining Total Cost",
+  "official_solution": "The correct answer to the question is answer choice (C), $39. Amount it costs for 3 adults = 3\u00d7$9=$27. Amount it costs for 2 children = 2\u00d7$6=$12. Total=$27+$12=$39.",
+  "choice_percentages": {
+   "A": "<5.0%",
+   "B": "<5.0%",
+   "C": "96.0%",
+   "D": "<5.0%"
+  },
+  "her_selected_letter": "D",
+  "recapture_source_images": [
+   "Screenshot 2026-10-06 at 10.39.37 AM.png"
+  ]
  },
  {
   "source_file": "Screenshot 2026-10-06 at 10.39.39 AM.png",
@@ -3705,7 +5147,19 @@
   "exercise_title": null,
   "is_timing_chart": false,
   "notes": "Subtype Measurement, Easy; her time 15 sec.",
-  "status": "done"
+  "status": "done",
+  "official_topic": "Perimeter",
+  "official_solution": "The correct answer to the question is answer choice (D), 16 centimeters. Perimeter is the distance around an object. A square is an object with 4 equal sides. One side is 4 centimeters. Therefore, 4\u00d74 will give the total length of all 4 sides, which is 16 centimeters.",
+  "choice_percentages": {
+   "A": "<5.0%",
+   "B": "<5.0%",
+   "C": "<5.0%",
+   "D": "96.3%"
+  },
+  "her_selected_letter": "D",
+  "recapture_source_images": [
+   "Screenshot 2026-10-06 at 10.39.39 AM.png"
+  ]
  },
  {
   "source_file": "Screenshot 2026-10-06 at 10.39.41 AM.png",
@@ -3733,7 +5187,19 @@
   "exercise_title": null,
   "is_timing_chart": false,
   "notes": "Bar heights are approximate readings from the image; the solution text states Meal 4 = 800 and Meal 2 = 700.",
-  "status": "done"
+  "status": "done",
+  "official_topic": "Comparing/Adding/Subtracting Bar Graph/Data Table Values",
+  "official_solution": "The correct answer to the question is answer choice (A), 100. Meal 4 has 800 calories. Meal 2 has 700 calories. To find how many more calories are in Meal 4 than in Meal 2, subtract 800 - 700 = 100. [last line of solution was at the very bottom edge of the screenshot and not fully confirmed legible]",
+  "choice_percentages": {
+   "A": "96.6%",
+   "B": "<5.0%",
+   "C": "<5.0%",
+   "D": "<5.0%"
+  },
+  "her_selected_letter": "A",
+  "recapture_source_images": [
+   "Screenshot 2026-10-06 at 10.39.41 AM.png"
+  ]
  },
  {
   "source_file": "Screenshot 2026-10-06 at 10.39.43 AM.png",
@@ -3761,7 +5227,19 @@
   "exercise_title": null,
   "is_timing_chart": false,
   "notes": "Subtype Algebraic Concepts; her time 52 sec (others 18 sec).",
-  "status": "done"
+  "status": "done",
+  "official_topic": "Solving 1 Variable Equations",
+  "official_solution": "The correct answer to the question is answer choice (C), 8. One way the answer can be found is by 1. recognizing the information given: q=2\u00d75=10. 2. finding the value of p: p\u00d7q=80, p\u00d710=80 substituting in 10 for q, p=8 solving for p.",
+  "choice_percentages": {
+   "A": "<5.0%",
+   "B": "<5.0%",
+   "C": "91.2%",
+   "D": "8.4%"
+  },
+  "her_selected_letter": "C",
+  "recapture_source_images": [
+   "Screenshot 2026-10-06 at 10.39.43 AM.png"
+  ]
  },
  {
   "source_file": "Screenshot 2026-10-06 at 10.39.44 AM.png",
@@ -3789,7 +5267,19 @@
   "exercise_title": null,
   "is_timing_chart": false,
   "notes": "Subtype Whole Numbers, Easy; her time 74 sec (others 26 sec).",
-  "status": "done"
+  "status": "done",
+  "official_topic": "Order of Operations and Equivalence",
+  "official_solution": "The correct answer to the question is answer choice (A), 7. Using order of operations, begin by multiplying 3 and 2. [36+6]\u00f76. Next, add 36 and 6. 42\u00f76. Last, divide. 7.",
+  "choice_percentages": {
+   "A": "91.8%",
+   "B": "<5.0%",
+   "C": "6.2%",
+   "D": "<5.0%"
+  },
+  "her_selected_letter": "A",
+  "recapture_source_images": [
+   "Screenshot 2026-10-06 at 10.39.44 AM.png"
+  ]
  },
  {
   "source_file": "Screenshot 2026-10-06 at 10.39.46 AM.png",
@@ -3817,7 +5307,19 @@
   "exercise_title": null,
   "is_timing_chart": false,
   "notes": "Solution text confirms Slice = 3 symbols (15 pizzas) and Dannio's = 2 symbols (10 pizzas). Pizza King and Italian Pie symbol counts are read from the image.",
-  "status": "done"
+  "status": "done",
+  "official_topic": "Interpreting Pictographs",
+  "official_solution": "The correct answer to the question is answer choice (A), The Slice has 5 more pizzas in stock than Dannio's. One pizza symbol equals 5 pizzas. The Slice has 3 pizza symbols, which means it has 15 pizzas total (3\u00d75=15). Dannio's has 2 pizza symbols, which means it has 10 pizzas total (2\u00d75=10). So, The Slice has 5 more pizzas than Dannio's.",
+  "choice_percentages": {
+   "A": "93.0%",
+   "B": "<5.0%",
+   "C": "<5.0%",
+   "D": "<5.0%"
+  },
+  "her_selected_letter": "A",
+  "recapture_source_images": [
+   "Screenshot 2026-10-06 at 10.39.46 AM.png"
+  ]
  },
  {
   "source_file": "Screenshot 2026-10-06 at 10.39.48 AM.png",
@@ -3845,7 +5347,19 @@
   "exercise_title": null,
   "is_timing_chart": false,
   "notes": "Follow-up: Finding Area/Perimeter of Rectangle. Subtype Measurement, Medium; her time 25 sec (others 37 sec).",
-  "status": "done"
+  "status": "done",
+  "official_topic": "Finding Area/Perimeter of Rectangle, given Length & Width",
+  "official_solution": "The correct answer to the question is answer choice (D), 300. Since area is length multiplied by width, multiply: 20\u00d715=300.",
+  "choice_percentages": {
+   "A": "<5.0%",
+   "B": "<5.0%",
+   "C": "<5.0%",
+   "D": "94.0%"
+  },
+  "her_selected_letter": "D",
+  "recapture_source_images": [
+   "Screenshot 2026-10-06 at 10.39.48 AM.png"
+  ]
  },
  {
   "source_file": "Screenshot 2026-10-06 at 10.39.49 AM.png",
@@ -3873,7 +5387,19 @@
   "exercise_title": null,
   "is_timing_chart": false,
   "notes": "Subtype Whole Numbers, Medium; her time 67 sec (others 34 sec).",
-  "status": "done"
+  "status": "done",
+  "official_topic": "Estimating Sums/Differences of Decimal Numbers",
+  "official_solution": "The correct answer to the question is answer choice (D), $42. Round the amounts to the nearest dollar, and then subtract. $46.97 rounds up to $47. $5.12 rounds down to $5. So, $47 \u2212 $5 = $42.",
+  "choice_percentages": {
+   "A": "<5.0%",
+   "B": "<5.0%",
+   "C": "10.2%",
+   "D": "89.1%"
+  },
+  "her_selected_letter": "D",
+  "recapture_source_images": [
+   "Screenshot 2026-10-06 at 10.39.49 AM.png"
+  ]
  },
  {
   "source_file": "Screenshot 2026-10-06 at 10.39.51 AM.png",
@@ -3901,7 +5427,19 @@
   "exercise_title": null,
   "is_timing_chart": false,
   "notes": "Subtype Measurement, Medium; her time 44 sec (others 48 sec).",
-  "status": "done"
+  "status": "done",
+  "official_topic": "Determining The Final Time",
+  "official_solution": "The correct answer to the question is answer choice (A), 9:00 p.m. The bus leaves Boston at 9:00 a.m. and travels for 4 hours, arriving in NYC at 1:00 p.m. It waits there for an hour, until 2:00 p.m. Then it travels for 7 hours, arriving in Washington at 9:00 p.m.",
+  "choice_percentages": {
+   "A": "90.1%",
+   "B": "7.3%",
+   "C": "<5.0%",
+   "D": "<5.0%"
+  },
+  "her_selected_letter": "A",
+  "recapture_source_images": [
+   "Screenshot 2026-10-06 at 10.39.51 AM.png"
+  ]
  },
  {
   "source_file": "Screenshot 2026-10-06 at 10.39.53 AM.png",
@@ -3929,7 +5467,19 @@
   "exercise_title": null,
   "is_timing_chart": false,
   "notes": "Subtype Whole Numbers, Medium; her time 39 sec (others 54 sec).",
-  "status": "done"
+  "status": "done",
+  "official_topic": "Order of Operations and Equivalence",
+  "official_solution": "The correct answer to the question is answer choice (C), (6\u00d73)+(6\u00d71)\u22125. Apply the distributive property a(b+c)=ba+ca. So, 6\u00d7(3+1)\u22125=(6\u00d73)+(6\u00d71)\u22125. Alternatively, applying the order of operations would have the given expression be equal to 6\u00d7(4)\u22125=19. Evaluating all of the answer choices, only choice C will equal the same value, since (6\u00d73)+(6\u00d71)\u22125 equals 18+6\u22125=19.",
+  "choice_percentages": {
+   "A": "<5.0%",
+   "B": "<5.0%",
+   "C": "88.7%",
+   "D": "<5.0%"
+  },
+  "her_selected_letter": "C",
+  "recapture_source_images": [
+   "Screenshot 2026-10-06 at 10.39.53 AM.png"
+  ]
  },
  {
   "source_file": "Screenshot 2026-10-06 at 10.39.54 AM.png",
@@ -3957,7 +5507,19 @@
   "exercise_title": null,
   "is_timing_chart": false,
   "notes": "Follow-up: Vertices Forming Right Angles & Quadrilaterals on a Coordinate Plane. Subtype/time not visible.",
-  "status": "done"
+  "status": "done",
+  "official_topic": "Vertices Forming Right Angles & Quadrilaterals on a Coordinate Plane",
+  "official_solution": "The correct answer to the question is answer choice (C), (4,3). Point D must have the same x-coordinate (x=4) as point C AND the same y-coordinate (y=3) as point A in order to form a rectangle. [text may be cut off at the bottom of the screenshot; no additional text was visible]",
+  "choice_percentages": {
+   "A": "<5.0%",
+   "B": "9.8%",
+   "C": "87.9%",
+   "D": "<5.0%"
+  },
+  "her_selected_letter": "C",
+  "recapture_source_images": [
+   "Screenshot 2026-10-06 at 10.39.54 AM.png"
+  ]
  },
  {
   "source_file": "Screenshot 2026-10-06 at 10.39.56 AM.png",
@@ -3985,7 +5547,19 @@
   "exercise_title": null,
   "is_timing_chart": false,
   "notes": "Maroon marker on C (2/5), Hannah's wrong pick. Follow-up: Comparing & Ordering Fractions & Decimals.",
-  "status": "done"
+  "status": "done",
+  "official_topic": "Comparing & Ordering Fractions & Decimals",
+  "official_solution": "The correct answer to the question is (D), 3/4. 0.6 is the same as 6/10. One way the answer can be found is by drawing and shading fractions models to correctly compare. [solution text and diagram were cut off at the bottom of the screenshot; only the 6/10, 1/3, and partial 1/6 rows of the model were visible]",
+  "choice_percentages": {
+   "A": "<5.0%",
+   "B": "<5.0%",
+   "C": "<5.0%",
+   "D": "90.2%"
+  },
+  "her_selected_letter": "C",
+  "recapture_source_images": [
+   "Screenshot 2026-10-06 at 10.39.56 AM.png"
+  ]
  },
  {
   "source_file": "Screenshot 2026-10-06 at 10.39.58 AM.png",
@@ -4013,7 +5587,19 @@
   "exercise_title": null,
   "is_timing_chart": false,
   "notes": "Subtype Data Analysis & Probability, Medium; her time 21 sec (others 43 sec).",
-  "status": "done"
+  "status": "done",
+  "official_topic": "Finding Median, given Sets of Numbers",
+  "official_solution": "The correct answer to the question is answer choice (B), 9. One way the answer can be found is by 1. placing the numbers in order from smallest to largest; and 5, 7, 7, 9, 11, 12, 14. 2. finding the middle number. 5, 7, 7, [9], 11, 12, 14.",
+  "choice_percentages": {
+   "A": "7.5%",
+   "B": "86.7%",
+   "C": "<5.0%",
+   "D": "<5.0%"
+  },
+  "her_selected_letter": "B",
+  "recapture_source_images": [
+   "Screenshot 2026-10-06 at 10.39.58 AM.png"
+  ]
  },
  {
   "source_file": "Screenshot 2026-10-06 at 10.40.00 AM.png",
@@ -4041,7 +5627,19 @@
   "exercise_title": null,
   "is_timing_chart": false,
   "notes": "Maroon marker on B (7.30), Hannah's wrong pick. Follow-up: Adding and Subtracting Decimals. Subtype Decimals, Percents, Fractions, Medium; her time 17 sec (others 20 sec).",
-  "status": "done"
+  "status": "done",
+  "official_topic": "Adding and Subtracting Decimals",
+  "official_solution": "The correct answer to the question is answer choice (D), 7.75. Add 6.5 and 1.25 to get 7.75.",
+  "choice_percentages": {
+   "A": "<5.0%",
+   "B": "8.6%",
+   "C": "<5.0%",
+   "D": "89.5%"
+  },
+  "her_selected_letter": "B",
+  "recapture_source_images": [
+   "Screenshot 2026-10-06 at 10.40.00 AM.png"
+  ]
  },
  {
   "source_file": "Screenshot 2026-10-06 at 10.40.01 AM.png",
@@ -4069,7 +5667,19 @@
   "exercise_title": null,
   "is_timing_chart": false,
   "notes": "Follow-up: Identifying Number Properties. Subtype/time not visible.",
-  "status": "done"
+  "status": "done",
+  "official_topic": "Identifying Number Properties",
+  "official_solution": "The correct answer to the question is answer choice (D), (10\u00d73)+(7\u00d73). Use the distributive property to distribute the 3 being multiplied to each term in the parentheses.",
+  "choice_percentages": {
+   "A": "<5.0%",
+   "B": "<5.0%",
+   "C": "<5.0%",
+   "D": "89.8%"
+  },
+  "her_selected_letter": "D",
+  "recapture_source_images": [
+   "Screenshot 2026-10-06 at 10.40.01 AM.png"
+  ]
  },
  {
   "source_file": "Screenshot 2026-10-06 at 10.40.04 AM.png",
@@ -4097,7 +5707,19 @@
   "exercise_title": null,
   "is_timing_chart": false,
   "notes": "Follow-up: Comparing & Ordering Fractions & Decimals. Subtype/time not visible.",
-  "status": "done"
+  "status": "done",
+  "official_topic": "Comparing & Ordering Fractions & Decimals",
+  "official_solution": "The correct answer to the question is answer choice (C), 1/3. You may draw models as a strategy to help find which fraction is between 1/4 and 3/4 in value. [solution diagram showed 1/4, 3/4, 1/10 (marked wrong), 1/5 (marked wrong), 1/3 (marked correct), and a partial row for 4/5 that was cut off at the bottom of the screenshot]",
+  "choice_percentages": {
+   "A": "<5.0%",
+   "B": "5.3%",
+   "C": "88.0%",
+   "D": "5.1%"
+  },
+  "her_selected_letter": "C",
+  "recapture_source_images": [
+   "Screenshot 2026-10-06 at 10.40.04 AM.png"
+  ]
  },
  {
   "source_file": "Screenshot 2026-10-06 at 10.40.07 AM.png",
@@ -4125,7 +5747,19 @@
   "exercise_title": null,
   "is_timing_chart": false,
   "notes": "Follow-up: Adding and Subtracting Fractions. Subtype/time not visible.",
-  "status": "done"
+  "status": "done",
+  "official_topic": "Adding and Subtracting Fractions",
+  "official_solution": "The correct answer to the question is answer choice (B), 9/8. Drawing models is a strategy to help find the sum. Another way the answer can be found is by finding a common denominator, since 1/4 is equivalent to 2/8. The sum of 2/8 and 7/8 is 9/8.",
+  "choice_percentages": {
+   "A": "6.0%",
+   "B": "90.5%",
+   "C": "<5.0%",
+   "D": "<5.0%"
+  },
+  "her_selected_letter": "B",
+  "recapture_source_images": [
+   "Screenshot 2026-10-06 at 10.40.07 AM.png"
+  ]
  },
  {
   "source_file": "Screenshot 2026-10-06 at 10.40.09 AM.png",
@@ -4153,7 +5787,19 @@
   "exercise_title": null,
   "is_timing_chart": false,
   "notes": "Solution: weekend total $42, matinee total $33, difference $9. Subtype/time not visible.",
-  "status": "done"
+  "status": "done",
+  "official_topic": "Determining Total Cost",
+  "official_solution": "The correct answer to the equation is answer choice (D), $9. We will compare how much it costs for 1 adult and 2 children to buy tickets to a movie on the weekend versus for a matinee. Weekend: 1 adult = $16, 2 children = 2 \u00d7 $13 = $26. Total = $16 + $26 = $42. Matinee: 1 adult = $13, 2 children = 2 \u00d7 $10 = $20. Total = $13 + $20 = $33. [Final line is cut off at the bottom edge of the screenshot -- partially visible text appears to read 'Difference: $42 ... $9' but the exact wording/operator is not fully legible, so not transcribed as exact.]",
+  "choice_percentages": {
+   "A": "<5.0%",
+   "B": "9.2%",
+   "C": "<5.0%",
+   "D": "83.2%"
+  },
+  "her_selected_letter": "D",
+  "recapture_source_images": [
+   "Screenshot 2026-10-06 at 10.40.09 AM.png"
+  ]
  },
  {
   "source_file": "Screenshot 2026-10-06 at 10.40.11 AM.png",
@@ -4181,7 +5827,19 @@
   "exercise_title": null,
   "is_timing_chart": false,
   "notes": "Follow-up: Adding and Subtracting Mixed Numbers. Subtype Decimals, Percents, Fractions, Hard; her time 31 sec (others 40 sec).",
-  "status": "done"
+  "status": "done",
+  "official_topic": "Adding and Subtracting Mixed Numbers",
+  "official_solution": "The correct answer to the question is answer choice (A), 11 1/6. One way the answer can be found is by 1. knowing that 2/3 is equivalent to 4/6, and 2. determining the difference of 15 5/6 \u2212 4 4/6 as 11 1/6.",
+  "choice_percentages": {
+   "A": "86.8%",
+   "B": "5.4%",
+   "C": "<5.0%",
+   "D": "<5.0%"
+  },
+  "her_selected_letter": "A",
+  "recapture_source_images": [
+   "Screenshot 2026-10-06 at 10.40.11 AM.png"
+  ]
  },
  {
   "source_file": "Screenshot 2026-10-06 at 10.40.12 AM.png",
@@ -4209,7 +5867,19 @@
   "exercise_title": null,
   "is_timing_chart": false,
   "notes": "Solution lists sorted values 20, 20, 30, 40, 50, 60, 100 (median 40). Bar values are approximate readings from the image. Subtype Data Analysis & Probability, Hard; her time 123 sec (others 60 sec).",
-  "status": "done"
+  "status": "done",
+  "official_topic": "Finding MMMR, given Bar Graph/Data Table of Values",
+  "official_solution": "The correct answer to the question is answer choice (B), 40. One way the answer can be found is by 1. understanding that the median is the middle number of a data set; 2. arranging data points from smallest to largest; and 20, 20, 30, 40, 50, 60, 100 3. locating the middle number. 20, 20, 30, 40, 50, 60, 100 (40 is underlined as the middle number)",
+  "choice_percentages": {
+   "A": "<5.0%",
+   "B": "84.9%",
+   "C": "5.6%",
+   "D": "<5.0%"
+  },
+  "her_selected_letter": "B",
+  "recapture_source_images": [
+   "Screenshot 2026-10-06 at 10.40.12 AM.png"
+  ]
  },
  {
   "source_file": "Screenshot 2026-10-06 at 10.40.14 AM.png",
@@ -4237,7 +5907,19 @@
   "exercise_title": null,
   "is_timing_chart": false,
   "notes": "Subtype Decimals, Percents, Fractions, Hard; her time 56 sec (others 32 sec).",
-  "status": "done"
+  "status": "done",
+  "official_topic": "Estimating Division with Money",
+  "official_solution": "The correct answer to the question is answer choice (A), $18 \u00f7 $2. This is a division problem using estimation. First round $17.82 to $18. Then round $1.62 to $2. Now you are looking for how many cups of coffee could be bought with approximately $18 if each cup costs about $2. $18 \u00f7 $2 represents how many cups of $2 coffee can be purchased with $18.",
+  "choice_percentages": {
+   "A": "90.6%",
+   "B": "6.1%",
+   "C": "<5.0%",
+   "D": "<5.0%"
+  },
+  "her_selected_letter": "A",
+  "recapture_source_images": [
+   "Screenshot 2026-10-06 at 10.40.14 AM.png"
+  ]
  },
  {
   "source_file": "Screenshot 2026-10-06 at 10.40.16 AM.png",
@@ -4265,7 +5947,19 @@
   "exercise_title": null,
   "is_timing_chart": false,
   "notes": "Follow-up: Finding Range, given Sets of Numbers, Data Tables or Graphs. Subtype Data Analysis & Probability, Hard; her time 18 sec (others 22 sec).",
-  "status": "done"
+  "status": "done",
+  "official_topic": "Finding Range, given Sets of Numbers, Data Tables or Graphs",
+  "official_solution": "The correct answer to the question is answer choice (B), 11. The range is the largest number minus the smallest number. In the data, the largest number is 13 and the smallest number is 2, so the range is 13 \u2212 2 = 11.",
+  "choice_percentages": {
+   "A": "10.4%",
+   "B": "80.0%",
+   "C": "6.3%",
+   "D": "<5.0%"
+  },
+  "her_selected_letter": "B",
+  "recapture_source_images": [
+   "Screenshot 2026-10-06 at 10.40.16 AM.png"
+  ]
  },
  {
   "source_file": "Screenshot 2026-10-06 at 10.40.18 AM.png",
@@ -4293,7 +5987,19 @@
   "exercise_title": null,
   "is_timing_chart": false,
   "notes": "Solution: 19 rounds to 20, 4 groups of 5, 4 x 3 = 12. Follow-up: Estimating Multiplication & Division. Subtype Decimals, Percents, Fractions, Hard; her time 26 sec (others 40 sec).",
-  "status": "done"
+  "status": "done",
+  "official_topic": "Estimating Multiplication & Division",
+  "official_solution": "The correct answer to the question is answer choice (D), 12. Since 3/5 of the students have brown eyes, that means that 3 out of every 5 students have brown eyes. Since 19 rounds to 20, there are approximately 4 groups of 5 students. Then, since 3 out of every 5 students have brown eyes, multiply the number of groups of 5 (4) by 3: 4 \u00d7 3 = 12.",
+  "choice_percentages": {
+   "A": "<5.0%",
+   "B": "13.0%",
+   "C": "13.5%",
+   "D": "71.9%"
+  },
+  "her_selected_letter": "D",
+  "recapture_source_images": [
+   "Screenshot 2026-10-06 at 10.40.18 AM.png"
+  ]
  },
  {
   "source_file": "Screenshot 2026-10-06 at 10.40.20 AM.png",
@@ -4321,7 +6027,19 @@
   "exercise_title": null,
   "is_timing_chart": false,
   "notes": "Follow-up: Identifying Shapes. Subtype Geometry, Hard; her time 8 sec (others 19 sec).",
-  "status": "done"
+  "status": "done",
+  "official_topic": "Identifying Shapes",
+  "official_solution": "The correct answer to the question is answer choice (A), isosceles triangle. A triangle that has two sides that are of equal length is called an isosceles triangle.",
+  "choice_percentages": {
+   "A": "71.3%",
+   "B": "12.0%",
+   "C": "11.1%",
+   "D": "5.6%"
+  },
+  "her_selected_letter": "A",
+  "recapture_source_images": [
+   "Screenshot 2026-10-06 at 10.40.20 AM.png"
+  ]
  },
  {
   "source_file": "Screenshot 2026-10-06 at 10.40.22 AM.png",
@@ -4349,7 +6067,19 @@
   "exercise_title": null,
   "is_timing_chart": false,
   "notes": "Follow-up: Finding Missing Side Length. Subtype Algebraic Concepts, Hard; her time 21 sec (others 58 sec).",
-  "status": "done"
+  "status": "done",
+  "official_topic": "Finding Missing Side Length",
+  "official_solution": "The correct answer to the question is answer choice (B), 94 = 2 \u00d7 28 + 2 \u00d7 w. The perimeter of a rectangle is the total length of all the sides of the rectangle. P = l + l + w + w. Substituting 94 for P and 28 for l, you get: 94 = 28 + 28 + w + w. Simplifying, you get: 94 = 2 \u00d7 28 + 2 \u00d7 w.",
+  "choice_percentages": {
+   "A": "11.4%",
+   "B": "67.8%",
+   "C": "5.7%",
+   "D": "15.1%"
+  },
+  "her_selected_letter": "B",
+  "recapture_source_images": [
+   "Screenshot 2026-10-06 at 10.40.22 AM.png"
+  ]
  },
  {
   "source_file": "Screenshot 2026-10-06 at 10.40.24 AM.png",
@@ -4377,7 +6107,19 @@
   "exercise_title": null,
   "is_timing_chart": false,
   "notes": "Solution: 2/10 = 0.2. Follow-up: Equivalent Fractions, Decimals, and Percents. Subtype Decimals, Percents, Fractions, Hard; her time 31 sec (others 33 sec).",
-  "status": "done"
+  "status": "done",
+  "official_topic": "Equivalent Fractions, Decimals, and Percents",
+  "official_solution": "The correct answer to the question is answer choice (B), 0.2. The number that represents the part of Ms. Anderson's electronic devices is part/whole = 2/10. Written as a decimal, 2/10 = 0.2.",
+  "choice_percentages": {
+   "A": "<5.0%",
+   "B": "60.9%",
+   "C": "30.6%",
+   "D": "<5.0%"
+  },
+  "her_selected_letter": "B",
+  "recapture_source_images": [
+   "Screenshot 2026-10-06 at 10.40.24 AM.png"
+  ]
  },
  {
   "source_file": "Screenshot 2026-10-06 at 10.41.14 AM.png",
