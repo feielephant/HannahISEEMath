@@ -57,3 +57,22 @@ Official-test entries use `matches_known_gap`, `is_wrong`, `possible_habit_trigg
 ## Integrity note
 
 Every cataloging pass (5 for the official tests, 2 for the books, 1 for the new exercises) was explicitly instructed to report "unclear" rather than invent content, following an earlier incident in this project where a research pass fabricated plausible-sounding content it couldn't verify. Samples from each pass were personally spot-checked against the original images and matched exactly, including cross-validating several entries against problems already independently confirmed earlier in this project (e.g., the page-143 "200cm" off-by-10 instance, the page-144 Unit Conversions Practice Set 2 pages).
+
+**Note (2026-10-10):** counts above predate several later additions (MA screenshots, speed-set build scripts, the recapture batch below) and are out of date. The library has 1,211 entries as of 2026-10-10; this README's numbers are kept for historical context rather than corrected in place.
+
+## recaptureQR batch (2026-10-09/10)
+
+638 new screenshots (folder `recaptureQR`, re-captured from the practice platform) were catalogued by 16 parallel subagents, 40 screenshots each, under the same "report unclear, never invent" instructions as every prior pass. Every subagent independently found and flagged a stray personal photo interleaved throughout the folder (224 total skipped) rather than forcing it into the schema — a good sign the anti-fabrication instructions held.
+
+**What came out of it, after matching against the existing library and merging:**
+- **181 existing official-test entries enriched** with the platform's own topic tag, full official solution text, and per-choice answer percentages (e.g., "93.8% picked the correct answer") — data we never had before, sourced from the exercise "Follow-Up Exercise" box and the completed-test review view.
+- **220 genuinely new problems added**, spanning 30 topic banks, several previously flagged in this README as "not yet attempted" (e.g., Equilateral Triangles, Split Line Segments). All unanswered drills (`status: not_done`), 0 overlap with existing entries after a text-match check.
+- **6 real test questions added separately**, flagged `needs_dedup_review: true` — shape-variable puzzles ("if △×○=24...") that couldn't be confidently text-matched to an existing entry even after normalizing the shape glyphs to words; possibly a genuine near-duplicate phrasing, possibly a question the original 5-test pass missed. Not merged in case they're duplicates; worth a manual look.
+
+**Verification done before trusting any of this:** personally re-opened and compared 5 source screenshots against subagent output across different batches/agents/content types (a full test-review page with percentages, an equation question, a coordinate-plane point-reading question, and the two discrepancies below) — all matched exactly except one specific field, caught below.
+
+**One real subagent error, caught and fixed:** subagents were instructed to read correct/wrong status only from the top navigator bar's cell color per question, explicitly avoiding other cues. For a question's own *currently active* cell, that color is sometimes unreadable (most subagents correctly reported "unclear" in that case) — but on ISEE Lower #1 Q33, one subagent reported "correct" anyway. Direct inspection of the source screenshot showed the real signal: the *choice-level* coloring (her picked choice circled pink, the correct choice circled green) clearly showed she was **wrong**, matching the original record. No change was needed there, but this is a documented case of the subagent being wrong despite instructions, not just appropriately cautious — don't treat `recapture_nav_color_read` as authoritative on its own.
+
+**One real correction this did make:** ISEE Lower #4 Q25 was recorded `is_wrong: false` in the original catalog. The recapture's navigator read said "wrong," and direct inspection confirmed it (she picked A at 21.2%, correct was C at 70.9%) — the original record was the one that was wrong. Corrected, with the correction documented on the entry itself (`integrity_correction_2026-10-10`).
+
+Fields added by this pass: `official_topic`, `official_solution`, `choice_percentages`, `recapture_nav_color_read` (informational only, see caveat above — not a substitute for `is_wrong`), `recapture_source_images`.
