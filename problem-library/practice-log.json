@@ -469,6 +469,10 @@
   {
    "date": "2026-10-08",
    "finding": "Every 'divisible by both X and Y' diagram table in sets 1-2 had the correct answer as the only all-yes row, visible on the worksheet (not just the key) -- answerable by pattern-matching rather than real reasoning. Affected: set 1 #27, set 2 #13, set 2 #35 (all answered correctly). Fixed in set 3 and confirmed absent from all other live worksheets (checked all 5)."
+  },
+  {
+   "date": "2026-10-09",
+   "finding": "Real-test (a x b)-over-c estimation items always use a slash (e.g. '(51 x 743) / 25'), never a division sign -- checked all 9 real examples in the library. Set 2's #3/#33 (already taken) and set 3's original #3/#26 used \u00f7. Fixed in set 3 (now /); can't change set 2. Doesn't change the math or the gap finding, just a minor notation mismatch worth knowing about."
   }
  ]
 }
