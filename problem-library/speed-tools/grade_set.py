@@ -242,6 +242,7 @@ def build_review_html(problems, grading, notes, title, out_path, flagged=None):
         is_blank = n in grading['blank']
         badge = 'blank' if is_blank else ('wrong' if is_wrong else 'right')
         card_cls = f'card {badge}'
+        change_badge = ''
         if is_blank:
             meta = 'Left blank'
             final = None
@@ -249,11 +250,17 @@ def build_review_html(problems, grading, notes, title, out_path, flagged=None):
             meta = f'{float(r["seconds"]):.1f}s on this problem'
             if r['first_answer'] != r['final_answer']:
                 meta += f' · first picked {r["first_answer"]}, changed to {r["final_answer"]}'
+                if n in grading['wrong_to_right']:
+                    change_badge = '<span class="chg chg-good">↻ self-corrected (wrong→right)</span>'
+                elif n in grading['right_to_wrong']:
+                    change_badge = '<span class="chg chg-bad">↻ talked out of correct (right→wrong)</span>'
+                elif n in grading['wrong_to_wrong']:
+                    change_badge = '<span class="chg chg-neutral">↻ reconsidered, still wrong</span>'
             final = r['final_answer']
         card = (f'<div class="{card_cls}" id="q{n}">'
                 f'<div class="row1"><span class="num">#{n} · {p["topic"]} · {p["tier"]}</span>'
                 f'<span class="badge {badge}">{badge.capitalize()}</span></div>'
-                f'<div class="meta">{meta}</div>'
+                f'<div class="meta">{meta}{" " + change_badge if change_badge else ""}</div>'
                 f'<div class="q">{p["q"]}</div>{p["diag"]}'
                 f'<div class="choices">{_choices_html(p, final)}</div>'
                 f'<div class="why"><b>Why {p["ans"]} is correct:</b> {p["why"]}</div>')
@@ -332,6 +339,10 @@ h2{font-size:1.2rem;margin:28px 0 10px;font-family:system-ui,sans-serif;}
 .badge.wrong{background:var(--wrong-soft);color:var(--wrong);}
 .badge.blank{background:var(--blank-soft);color:var(--blank);}
 .meta{font-family:system-ui,sans-serif;font-size:0.78rem;color:var(--ink-muted);}
+.chg{display:inline-block;font-size:0.72rem;font-weight:700;padding:1px 8px;border-radius:999px;margin-left:6px;}
+.chg-good{background:var(--right-soft);color:var(--right);}
+.chg-bad{background:var(--wrong-soft);color:var(--wrong);}
+.chg-neutral{background:var(--blank-soft);color:var(--blank);}
 .q{margin:8px 0 10px;font-size:1.05rem;}
 .diag{margin:8px 0 12px;}
 table.data{border-collapse:collapse;font-size:0.85rem;font-family:system-ui,sans-serif;}
