@@ -77,13 +77,15 @@
    "real_tests": 8,
    "wrong": 6,
    "graded": 32,
-   "habits": ["proper-fraction-long-division"],
+   "habits": [
+    "proper-fraction-long-division"
+   ],
    "priority": "high",
    "hypothesis_2026-10-11": "Possibly the same 'decimal-vs-nonnice-fraction' mechanism confirmed on Total Shaded Area #21 and already tagged on Comparing & Ordering Fractions & Decimals (same cluster, same skill: scaling the original denominator straight to 100/a power of 10 instead of simplifying first or using long division when it doesn't divide cleanly). Not yet directly observed on this specific topic -- when grading the next wrong answer here, check whether her work shows this exact pattern before confirming it.",
-   "mechanism_2026-10-11_q38": "CONFIRMED, and this refines the hypothesis above rather than just supporting it. Set 3 #38 ('What is 7/16 as a decimal?', answer 0.4375 = 7 ÷ 16) is pure proper-fraction long division (numerator < denominator, result < 1) -- no shortcut/benchmark involved at all, just the mechanics of dividing a smaller number by a larger one and carrying the decimal through. Parent's assessment: she is 'not secured at all' on this specific computation. This means the long-division FALLBACK itself (the thing she's supposed to default to when the 'scale to 100' shortcut breaks on a non-nice denominator -- see Comparing & Ordering Fractions & Decimals mechanism_2026-10-11) isn't solid yet either. Fix target: standalone drill on long division of proper fractions (part/whole, part<whole) specifically, independent of the percent-conversion context -- this is the more foundational of the two gaps and probably needs to be solid before the benchmark/shortcut-fallback coaching will stick."
+   "mechanism_2026-10-11_q38": "CONFIRMED, and this refines the hypothesis above rather than just supporting it. Set 3 #38 ('What is 7/16 as a decimal?', answer 0.4375 = 7 \u00f7 16) is pure proper-fraction long division (numerator < denominator, result < 1) -- no shortcut/benchmark involved at all, just the mechanics of dividing a smaller number by a larger one and carrying the decimal through. Parent's assessment: she is 'not secured at all' on this specific computation. This means the long-division FALLBACK itself (the thing she's supposed to default to when the 'scale to 100' shortcut breaks on a non-nice denominator -- see Comparing & Ordering Fractions & Decimals mechanism_2026-10-11) isn't solid yet either. Fix target: standalone drill on long division of proper fractions (part/whole, part<whole) specifically, independent of the percent-conversion context -- this is the more foundational of the two gaps and probably needs to be solid before the benchmark/shortcut-fallback coaching will stick."
   },
   {
-   "topic": "Equivalent Fractions, Decimals, and Percents",
+   "topic": "Equivalent Fractions Decimals and Percents",
    "tier": "Hard",
    "real_tests": 6,
    "wrong": 3,
@@ -97,7 +99,7 @@
    "mechanism_2026-10-11_q19": "CONFIRMED on set 3 #19 ('Which value is equivalent to 0.045?', answer 9/200): the trap answers 9/20 and 45% both equal 0.45, not 0.045 -- exactly one decimal place / one zero off. This matches the EXISTING 'off-by-10' habit already tracked under 'Multi-step unit conversion (off-by-10, multi-step)' (confirmed set 2 #32, originally from an Elevate Prep drill) -- same cross-topic zero-miscounting pattern, new context, not a new issue. Not a fraction-conversion concept gap. Parent taught a general verification technique: to check if a decimal equals a candidate fraction, multiply the decimal by the denominator and see if it lands on the numerator (e.g. 0.045 x 200 = 9, confirms C; 0.045 x 20 = 0.9, not 9, rules out A) -- a good general cross-check that catches zero-count slips a surface eyeball comparison misses."
   },
   {
-   "topic": "Finding Ratios, given Probability",
+   "topic": "Finding Ratios given Probability",
    "tier": "Hard",
    "real_tests": 6,
    "wrong": 2,
@@ -130,7 +132,7 @@
    "evidence_2026-10-04": "Determining Averages #2: Q1 marked wrong (picked C, correct D)"
   },
   {
-   "topic": "Number of Unique Paths, Diagonals",
+   "topic": "Number of Unique Paths Diagonals",
    "tier": "Hard",
    "real_tests": 3,
    "wrong": 0,
@@ -267,7 +269,7 @@
    "evidence_2026-10-07": "Set 2 (2026-10-06): real gap confirmed, 2/3 wrong \u2014 see reviews/speed-set-2-review-2026-10-07.html"
   },
   {
-   "topic": "Estimating Sums/Differences of Decimal Numbers",
+   "topic": "Estimating Sums Differences of Decimal Numbers",
    "tier": "Medium",
    "real_tests": null,
    "wrong": 0,
@@ -415,7 +417,9 @@
    "real_tests_note": "not yet cross-checked against official-test tagging as of 2026-10-11; introduced via set 3 (book/platform-sourced)",
    "wrong": 1,
    "graded": 3,
-   "habits": ["first-order-only pattern reading"],
+   "habits": [
+    "first-order-only pattern reading"
+   ],
    "priority": "medium",
    "mechanism_2026-10-11": "Parent discussed set 3 #6 with her directly (5, 11, 23, 47, ___; differences double 6,12,24,48; answer 95; she picked 94 = just doubling the last term). Diagnosis: she's solid on FIRST-ORDER patterns -- where the terms themselves have a constant gap, or the terms themselves double/follow an obvious rule. She struggles when the pattern lives in the SECOND ORDER -- i.e. when the DIFFERENCES between terms are what's changing at a steady pace or doubling, not the terms directly. On #6 specifically she fell for exactly this: doubled the term (47->94) instead of checking the differences first. Fix target: practice explicitly computing the difference sequence as a first step on any pattern problem, before trying to spot a rule in the raw terms -- a specific strategy gap, not vague 'needs more practice with patterns.'"
   },
@@ -443,9 +447,11 @@
    "real_tests_note": "not yet cross-checked against official-test tagging as of 2026-10-11; introduced via set 3 (book/platform-sourced)",
    "wrong": 1,
    "graded": 2,
-   "habits": ["decimal-vs-nonnice-fraction"],
+   "habits": [
+    "decimal-vs-nonnice-fraction"
+   ],
    "priority": "high",
-   "mechanism_2026-10-11": "CONFIRMED (parent watched her work #21 directly, 9/15 shaded): her default fraction-to-percent method is 'find x so that denominator x x = 100, then numerator x x' -- i.e. scale the ORIGINAL denominator straight to 100. This only produces a clean answer when the denominator is already a factor of 100 (2,4,5,10,20,25,50...). 15 is not (100/15 isn't a whole number), so the method breaks down and she mis-converts (landed on 90% instead of 60%). She has two reliable fallbacks available but doesn't default to either: (1) simplify the fraction FIRST, then scale -- 9/15 -> 3/5, and 5 IS a factor of 100 (x20), giving 3x20=60% cleanly; (2) direct long division, 9÷15=0.6=60%, which always works regardless of the denominator. This is the actual mechanism behind the existing 'decimal-vs-nonnice-fraction' habit tag (flagged in set 2 but never written up with a cause) -- not a concept gap (she understands fraction=percent equivalence fine), a PROCEDURE gap: no reliable fallback when the quick mental shortcut doesn't land on a whole number.",
+   "mechanism_2026-10-11": "CONFIRMED (parent watched her work #21 directly, 9/15 shaded): her default fraction-to-percent method is 'find x so that denominator x x = 100, then numerator x x' -- i.e. scale the ORIGINAL denominator straight to 100. This only produces a clean answer when the denominator is already a factor of 100 (2,4,5,10,20,25,50...). 15 is not (100/15 isn't a whole number), so the method breaks down and she mis-converts (landed on 90% instead of 60%). She has two reliable fallbacks available but doesn't default to either: (1) simplify the fraction FIRST, then scale -- 9/15 -> 3/5, and 5 IS a factor of 100 (x20), giving 3x20=60% cleanly; (2) direct long division, 9\u00f715=0.6=60%, which always works regardless of the denominator. This is the actual mechanism behind the existing 'decimal-vs-nonnice-fraction' habit tag (flagged in set 2 but never written up with a cause) -- not a concept gap (she understands fraction=percent equivalence fine), a PROCEDURE gap: no reliable fallback when the quick mental shortcut doesn't land on a whole number.",
    "note": "underlying skill is the same fraction-to-percent conversion as [[decimal-fraction-percent cluster]] -- the question literally asks 'what percent of the figure is shaded,' method is count shaded/total then simplify and convert (set 3 #21: 9/15 -> 3/5 -> 60%, she answered 90%). Only a 1-item sample so far, but ties this topic to the broader recurring cluster (Comparing & Ordering Fractions & Decimals, Equivalent Fractions/Decimals/Percents, Converting to a Decimal) rather than treating it as an isolated geometry miss.",
    "format_note_2026-10-11": "Found by the same new automated check that caught #23/#37's format issue: set 3's other slot for this topic, #22, had NO diagram either -- it stated the fraction directly in text ('if 5/8 of the figure is shaded...') instead of showing a figure for her to read the fraction off of, unlike every real-test example of this topic which always shows a figure. She answered #22 correctly, so the graded outcome doesn't change, but the problem wasn't testing the real skill (just 5/8 x 24, no figure-reading). Fixed live worksheet: now shows an 8-section grid with 5 shaded, same convention as #21."
   },
@@ -455,7 +461,9 @@
    "real_tests_note": "not yet cross-checked against official-test tagging as of 2026-10-11; introduced via set 3 (book/platform-sourced)",
    "wrong": 2,
    "graded": 2,
-   "habits": ["distance-vs-midpoint confusion on #23/#37 now looks bug-caused, not a real habit -- see evidence_note"],
+   "habits": [
+    "distance-vs-midpoint confusion on #23/#37 now looks bug-caused, not a real habit -- see evidence_note"
+   ],
    "priority": "low",
    "evidence_note": "set 3 had 2 slots (#23, #37), and NEITHER was a clean data point (caught 2026-10-11): #37's diagram had a confirmed bug (no numeric scale), and #23 skipped the diagram entirely, stating point values directly in the text instead of having her read them off a number line like every real 'X is the midpoint of Y and Z' problem does. Both fixed on the live worksheet same day. Retest (2026-10-11, informal -- parent had her redo both directly, not inside a new timed set): correct on both, each in under 1.5 minutes. Consistent with the format bugs causing the original misses rather than a genuine gap, though not fully conclusive since it was a repeat of problems she'd just missed, not fresh ones. Downgraded from needs-retest to low priority; reopen if a *new* Split Line Segments problem produces another miss in a future set. Raw wrong/graded left as 2/2 since that's what happened on set 3."
   },
