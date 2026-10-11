@@ -436,11 +436,11 @@
    "topic": "Split Line Segments",
    "tier": "Medium",
    "real_tests_note": "not yet cross-checked against official-test tagging as of 2026-10-11; introduced via set 3 (book/platform-sourced)",
-   "wrong": 1,
-   "graded": 1,
+   "wrong": 2,
+   "graded": 2,
    "habits": ["distance-vs-midpoint confusion (first answer on #23 was the raw A-to-C distance, not the midpoint)"],
-   "priority": "unknown",
-   "evidence_note": "set 3 had 2 slots (#23, #37) but #37's diagram was broken (no numeric scale, unsolvable as shown) -- excluded from wrong/graded here, see practice-log.json integrity_notes 2026-10-11. Only #23 counts as real evidence."
+   "priority": "needs-retest",
+   "evidence_note": "set 3 had 2 slots (#23, #37). #37's diagram had a confirmed bug (no numeric scale, see practice-log.json integrity_notes 2026-10-11) but she never flagged it as confusing, so whether the bug or a real gap caused that miss is unconfirmed -- kept in the raw count rather than discarded, since we can't actually rule it out. #23 alone is unconfounded: real distance-vs-midpoint confusion. Retest this topic in set 4 on a correctly-specified diagram before drawing a firm conclusion either way."
   },
   {
    "topic": "Finding Unit Price",
