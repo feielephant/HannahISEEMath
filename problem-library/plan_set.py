@@ -24,16 +24,36 @@ for tier in ["Easy", "Medium", "Hard"]:
 
 MIX = {"Easy": 11, "Medium": 20, "Hard": 7}
 def pick(tier, n):
+    # Coverage-first: walk the ranked list top-to-bottom picking each DISTINCT
+    # topic once per pass, so a strong-scoring topic can't claim multiple slots
+    # while others (incl. equally-relevant ones just below it) get none. Only
+    # loops back for a second pass -- allowing repeats, up to the 3-per-set cap
+    # -- if a tier's pool has fewer distinct topics than slots to fill, which
+    # doesn't happen with the current banks (Easy 29, Medium 68, Hard 32
+    # distinct vs. 11/20/7 needed).
     def score(t):
         gap = set_no - last_seen.get(t["topic"], 0)
-        return WEIGHT[t["priority"]] * (1 + min(gap, 3) * 0.5) * random.uniform(0.8, 1.2) / (1 + times[t["topic"]] * 0.2)
+        # Usage-decay ("don't repeat a topic too soon") is appropriate for
+        # medium/low/unknown topics, but for "high" priority it was backwards:
+        # a confirmed real gap gets *more* practice, which made it accrue a
+        # bigger decay penalty over time, slowly crowding it out of its own
+        # remediation. High-priority topics are a deliberate, evidence-based
+        # call (someone looked at real wrong answers), so they're exempted
+        # from the decay and compete on WEIGHT + gap-since-last-seen alone --
+        # they keep showing up until a human downgrades the priority because
+        # she's actually improved, not because the algorithm got bored of them.
+        decay = 1 if t["priority"] == "high" else (1 + times[t["topic"]] * 0.2)
+        return WEIGHT[t["priority"]] * (1 + min(gap, 3) * 0.5) * random.uniform(0.8, 1.2) / decay
     ranked = sorted(pools[tier], key=score, reverse=True)
     counts, out = Counter(), []
     while len(out) < n:
+        progressed = False
         for t in ranked:
+            if len(out) >= n:
+                break
             if counts[t["topic"]] < 3:
-                counts[t["topic"]] += 1; out.append(t); break
-        else:
+                counts[t["topic"]] += 1; out.append(t); progressed = True
+        if not progressed:
             break
     return out
 
