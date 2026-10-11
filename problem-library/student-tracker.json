@@ -367,13 +367,15 @@
    "topic": "Word Problems with Ratios",
    "tier": "Medium",
    "real_tests": null,
-   "wrong": 2,
-   "graded": 2,
+   "wrong": 3,
+   "graded": 3,
    "habits": [
-    "ratio-partition-forgotten"
+    "ratio-partition-forgotten (set 2 only)",
+    "answers-wrong-quantity-after-correct-method (set 3 #33 -- her answer 21 = 3x7, the cats count via a correctly-run partition method, but the question asked for dogs)"
    ],
    "priority": "high",
-   "evidence_2026-10-07": "Set 2 (2026-10-06): real gap, 1/1 wrong \u2014 see reviews/speed-set-2-review-2026-10-07.html"
+   "evidence_2026-10-07": "Set 2 (2026-10-06): real gap, 1/1 wrong \u2014 see reviews/speed-set-2-review-2026-10-07.html",
+   "evidence_2026-10-11": "Set 3 #33: wrong again, 21s, no reconsideration -- but the wrong number (21) could only come from a correctly-run partition method, so this looks like a different failure mode than set 2's (reading/attention on which quantity was asked, not the method itself). Flagged to confirm directly with her which it actually was."
   },
   {
    "topic": "Multiplying and Dividing Integers",
@@ -434,10 +436,11 @@
    "topic": "Split Line Segments",
    "tier": "Medium",
    "real_tests_note": "not yet cross-checked against official-test tagging as of 2026-10-11; introduced via set 3 (book/platform-sourced)",
-   "wrong": 2,
-   "graded": 2,
-   "habits": [],
-   "priority": "unknown"
+   "wrong": 1,
+   "graded": 1,
+   "habits": ["distance-vs-midpoint confusion (first answer on #23 was the raw A-to-C distance, not the midpoint)"],
+   "priority": "unknown",
+   "evidence_note": "set 3 had 2 slots (#23, #37) but #37's diagram was broken (no numeric scale, unsolvable as shown) -- excluded from wrong/graded here, see practice-log.json integrity_notes 2026-10-11. Only #23 counts as real evidence."
   },
   {
    "topic": "Finding Unit Price",

@@ -363,6 +363,7 @@
     "score": "29/38",
     "wrong": [6, 12, 19, 21, 23, 33, 34, 37, 38],
     "blank": [],
+    "score_caveat": "#37 was unsolvable as administered -- its number-line diagram had no numeric scale (see integrity_notes). Real, diagnosable misses are 8 of 37 answerable problems, not 9 of 38. Not correcting the historical score/wrong list itself (that's what actually happened when she took it), just flagging that #37 isn't evidence of anything about her.",
     "total_elapsed_minutes": 34.75,
     "timing_note": "Finished within the 35-min budget this time (set 2 had exceeded it).",
     "first_then_changed": {
@@ -375,18 +376,18 @@
      "Estimating Multiplication & Division (#3, #26)": "BOTH CORRECT -- the set 2 sticky gap (#3/#33 wrong) is resolved on accuracy. Not resolved on speed: #3 took 230s, the single slowest problem of the whole test, well past what 35 problems in 35 minutes allows per problem.",
      "Comparing & Ordering Fractions & Decimals (#2, #12, #31)": "2 of 3 right (#2 and #31 both recovered via reconsideration). #12 (the 5/9 vs 0.52 vs 7/15 ordering problem) still wrong, single-shot, 81s -- slow AND wrong, suggests the three-way decimal/fraction comparison itself is still shaky, not a rushed guess.",
      "Translating Math Expressions (#30, #32)": "BOTH CORRECT. #32 was deliberately rebuilt with the exact same '-4 surface-match' trap from set 2 #23 -- she did not fall for it this time. Real, confirmed fix, not just no-evidence-of-recurrence.",
-     "Word Problems with Ratios (#33)": "STILL WRONG. 21s, no reconsideration -- answered fast and moved on, which does not look like she attempted the partition method at all. This is the one previously-targeted gap that did not improve; worth a direct conversation about the method rather than more blind rotation."
+     "Word Problems with Ratios (#33)": "STILL WRONG, but the diagnosis in-chat right after grading was wrong and got corrected on closer look: her answer (21) is exactly 3x7 -- the cats count, not the dogs count asked for. That number only exists if she actually ran the partition method correctly (56/8=7 per part, 3x7=21) and then answered the wrong group. So this isn't 'forgot the method' as originally targeted from set 2 -- it's 'solved it, then answered what wasn't asked.' Different problem than previously believed; worth confirming directly which it was (method or misread) rather than re-teaching partitioning she may already have."
     },
     "new_topic_first_exposure": {
-     "Split Line Segments (#23, #37)": "0/2 -- both wrong. Only one data point existed before (1 library entry), so this is effectively her first real exposure, and she missed both. Strongest new-gap signal in this set.",
+     "Split Line Segments (#23, #37)": "0/2 on paper, but #37 doesn't count as real evidence -- see integrity_notes 2026-10-11: its number-line diagram had no numeric scale at all, so it was unsolvable as administered. #23 alone (wrong, first answer 36 = the raw A-to-C distance, not the midpoint) is a real, specific signal: she substituted 'distance between the points' for 'midpoint of the points' at least once. One clean data point, not two.",
      "Total Shaded Area given Figure with Equal Divisions (#21, #22)": "1/2. #21 was wrong AND the slowest-but-one problem in the set (171s) with no reconsideration -- long deliberation, still wrong, looks like a real conceptual gap rather than a rushed miss. #22 (same topic) correct.",
      "Cryptarithm / digit substitution (#34)": "Wrong, 17s, no reconsideration, Hard tier. The real solving method (PP+QQ=11x(P+Q), bounding the max sum) takes longer than 17s to work through from scratch -- looks more like a guess/pattern-match than an attempted solve. Small sample (this is only the 2nd time this topic has ever been graded; 1/2 wrong overall per tracker).",
      "Numerical Patterns (#6, #18, #20)": "2/3 (#6 wrong, reconsidered but still wrong, 40s). Mixed so far, no strong signal yet.",
      "Value of Digits / Finding Perimeter and Area of a Square / Finding Unit Price / Identifying Correct Conclusions from Bar Graph Data Table": "clean sweep, all correct across their slots -- no concern."
     },
     "other_wrong": {
-     "Equivalent Fractions, Decimals, and Percents (#19)": "wrong, reconsidered (D->A) but still wrong, correct was C, 44s.",
-     "Converting to a Decimal (#38)": "wrong, reconsidered (A->C) but still wrong, correct was D, 20s -- new topic, single data point."
+     "Equivalent Fractions, Decimals, and Percents (#19)": "wrong, reconsidered (D->A) but still wrong, correct was C (0.045 = 9/200). Her final answer A (9/20 = 0.45) is exactly the known off-by-10 decimal-place-value slip already flagged as a habit in her tracker for unit conversion -- same systemic habit showing up in a new context (fraction/percent equivalence, not just unit conversion).",
+     "Converting to a Decimal (#38)": "wrong, reconsidered (A->C) but still wrong, correct was D (7/16=0.4375). Forms a 3-problem cluster with #12 and #19 -- all three wrong answers involve a fraction/decimal conversion not landing cleanly, suggesting the fraction<->decimal conversion itself (not any one topic label) is the common thread worth drilling, more than any single topic name."
     },
     "staleness_flags_2026-10-11": "Running speed-tools/check_priority_staleness.py after this update surfaced: Split Line Segments 2/2 wrong (new, priority still 'unknown' -- consider setting to high once a 2nd data point confirms), Total Shaded Area 1/2 wrong, Cryptarithm 2/3 wrong (consider escalating, currently 'medium'), Estimating Sums/Differences of Decimal Numbers 0/3 wrong across sets 2+3 (currently 'high' -- same stale-high pattern previously found and corrected for the 3D-net and Estimating Division with Money topics; candidate for downgrade). Adding and Subtracting Decimals and Dividing Equally From a Total were also re-flagged at 50% wrong but that's pre-existing set-2 data, not new from this grading -- still open, never actually resolved. Not auto-changed; flagging per the tool's own caveat to check why before touching priorities."
    }
@@ -511,6 +512,10 @@
   {
    "date": "2026-10-10",
    "finding": "Same bug class as the 2026-10-08 divisibility leak: set 2 #6 and set 3's original #26 both had a 'Number / Round to' diagram table printed directly on the question sheet (not just the key), handing over the entire estimation step before she'd attempted it. Set 2 #6 was already taken and answered correctly (consistent with the leak making it trivial) -- can't fix retroactively, documented here. Set 3 #26 fixed: diagram removed, numbers swapped to (46 x 227) / 23. Caught by the parent noticing the table I'd described as a teaching aid was actually already live on the question sheet, not just something I was proposing."
+  },
+  {
+   "date": "2026-10-11",
+   "finding": "Opposite problem from the usual leaks: set 3 #37 (Split Line Segments) under-specified rather than over-specified. Its number-line diagram showed only letter labels 'Q' and 'P' with no numeric scale anywhere -- no origin, no per-tick value -- while the answer key's own explanation assumed 'Q=10, P=30, 5 per tick,' information that was never actually rendered on the page. The problem was unsolvable as administered; already taken and graded wrong (consistent with there being no way to derive the answer from what was shown). Found while building the post-test review and tracing why her wrong pick (60) didn't match any described trap. Fixed going forward: diagram now labels every tick from 0 through P (0,5,10=Q,15,20,25,30=P), establishing the scale, while deliberately leaving ticks past P unlabeled so R's position (the actual answer) still has to be computed, not read off the diagram. #23 (the other Split Line Segments problem) was unaffected -- its values (A=14, C=50) are stated directly in the question text, no diagram needed."
   }
  ]
 }
