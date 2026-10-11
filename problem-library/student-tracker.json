@@ -371,7 +371,7 @@
    "graded": 3,
    "habits": [
     "ratio-partition-forgotten (set 2 only)",
-    "answers-wrong-quantity-after-correct-method (set 3 #33 -- her answer 21 = 3x7, the cats count via a correctly-run partition method, but the question asked for dogs)"
+    "exact-thing-asked (set 3 #33 -- her answer 21 = 3x7, the cats count via a correctly-run partition method, but the question asked for dogs. This is the 6th topic this exact habit has shown up under -- see Percent Word Problems, Fractional Parts Word Problems, Determining Averages between Points on Number Lines, Multi-step unit conversion, and Cryptarithm, all tagged with the same habit. Cross-topic pattern, not specific to ratios -- the fix is a general exam habit (re-read what's actually asked before finalizing), not more ratio practice specifically."
    ],
    "priority": "high",
    "evidence_2026-10-07": "Set 2 (2026-10-06): real gap, 1/1 wrong \u2014 see reviews/speed-set-2-review-2026-10-07.html",
