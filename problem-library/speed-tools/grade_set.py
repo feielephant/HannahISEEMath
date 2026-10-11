@@ -1,0 +1,400 @@
+"""
+Automates grading a taken speed set: pulls the EXACT as-published worksheet
+(via the commit hash recorded by mark_published.py, never the live HEAD file,
+which may have been edited/fixed since she took it), scores it against the
+downloaded times CSV, flags possible unsolvable-diagram bugs, updates
+practice-log.json and student-tracker.json, and renders the local review page.
+
+Hard rule this enforces: the review page must show problems EXACTLY as she saw
+them. If a diagram had a bug, the review shows the buggy diagram too -- never
+a silently-fixed version. That's the whole point of sourcing from the
+published commit instead of the live file.
+
+What this does NOT do: decide whether a wrong answer is a real gap, a slip,
+or inconclusive. That takes actually reading each wrong problem and her
+answer pattern -- real judgment, not boilerplate. Any wrong problem without a
+supplied note renders as "NEEDS DIAGNOSIS" in the review, on purpose, so an
+unreviewed problem can never silently ship.
+
+Typical use (called from a short one-off script, not really a CLI tool,
+since the notes dict naturally wants to be authored alongside the analysis):
+
+    import sys, os
+    sys.path.insert(0, os.path.dirname(__file__))
+    from grade_set import *
+
+    problems = load_published_problems('qr', 4)
+    grading = grade(problems, '/path/to/speed-set-4-times.csv')
+    print(grading['wrong'])  # go look at each one
+
+    flags = sanitize_check(problems)  # cross-check against possible page bugs
+    for f in flags: print(f)
+
+    notes = {
+      6: dict(kind='gap', title='Real gap -- ...', body='...'),
+      12: dict(kind='careless', title='Not a gap -- ...', body='...'),
+      # one entry per wrong problem number; omit one and the review marks it
+      # NEEDS DIAGNOSIS instead of silently leaving it out
+    }
+
+    build_review_html(problems, grading, notes, title='Speed Set 4',
+                       out_path='/Users/kxieztt/Documents/HannahISEEMath/reviews/speed-set-4-review-2026-XX-XX.html')
+    update_tracker_and_log('qr', 4, problems, grading, notes)
+"""
+import json, re, csv, os, subprocess
+
+HERE = os.path.dirname(os.path.abspath(__file__))
+REPO = os.path.join(HERE, '..', '..')
+LOG_PATH = os.path.join(HERE, '..', 'practice-log.json')
+TRACKER_PATH = os.path.join(HERE, '..', 'student-tracker.json')
+
+SLUG = {'qr': 'speed-set-{}', 'ma': 'ma-set-{}'}
+
+
+# ---------- 1. Pull the exact as-published snapshot ----------
+
+def _set_entry(kind, set_no):
+    log = json.load(open(LOG_PATH))
+    key = 'sets' if kind == 'qr' else 'ma_sets'
+    entries = log.get(key, [])
+    target = next((e for e in entries if e.get('set_no') == set_no), None)
+    if target is None:
+        raise SystemExit(f"No entry with set_no={set_no} in '{key}' of practice-log.json.")
+    if 'published_commit' not in target:
+        raise SystemExit(
+            f"No published_commit recorded for {kind} set {set_no}. "
+            f"Run mark_published.py at publish time, before she takes it. "
+            f"(If this set predates that convention, find the right commit by hand via "
+            f"`git log --oneline -- worksheets/{SLUG[kind].format(set_no)}-answer-key.html` "
+            f"and set it manually in practice-log.json.)"
+        )
+    return log, key, target
+
+def load_published_problems(kind, set_no):
+    """Returns {problem_num: {q, diag, choices, ans, why, tier, topic}} from the
+    EXACT commit that was live when the set was published -- not current HEAD."""
+    _, _, target = _set_entry(kind, set_no)
+    commit = target['published_commit']
+    slug = SLUG[kind].format(set_no)
+    path = f'worksheets/{slug}-answer-key.html'
+    html = subprocess.check_output(['git', 'show', f'{commit}:{path}'], cwd=REPO).decode()
+    return _parse_answer_key(html)
+
+def _parse_answer_key(html):
+    cards_raw = html.split('<div class="card">')[1:]
+    problems = {}
+    for chunk in cards_raw:
+        m_num = re.search(r'<div class="num">(\d+)\. ', chunk)
+        if not m_num:
+            continue
+        n = int(m_num.group(1))
+        m_q = re.search(r'<div class="q">(.*?)</div>', chunk, re.S)
+        q = m_q.group(1) if m_q else ''
+        after_q = chunk[m_q.end():] if m_q else chunk
+        diag = ''
+        idx_choices = after_q.find('<div class="choices">')
+        if idx_choices > 0:
+            between = after_q[:idx_choices].strip()
+            if between.startswith('<div class="diag">'):
+                diag = between
+        m_choices = re.search(r'<div class="choices">(.*?)</div><div class="key">', chunk, re.S)
+        choices_html = m_choices.group(1) if m_choices else ''
+        parts = re.split(r'</span><span><b>', choices_html)
+        ch = []
+        for i, part in enumerate(parts):
+            piece = part
+            if i == 0:
+                piece = re.sub(r'^<span><b>', '', piece)
+            if i == len(parts) - 1:
+                piece = re.sub(r'</span>\s*$', '', piece)
+            mm = re.match(r'([A-D])</b>&nbsp; (.*)', piece, re.S)
+            if mm:
+                ch.append((mm.group(1), mm.group(2)))
+        m_key = re.search(r'<div class="key"><b>Answer: ([A-D])\.</b> (.*?)</div>', chunk, re.S)
+        ans, why = (m_key.group(1), m_key.group(2)) if m_key else (None, '')
+        m_ref = re.search(r'Tier: (\w+) · Topic: ([^<·]+)', chunk)
+        tier, topic = (m_ref.group(1), m_ref.group(2).strip().replace('&amp;', '&')) if m_ref else ('', '')
+        problems[n] = dict(q=q, diag=diag, choices=ch, ans=ans, why=why, tier=tier, topic=topic)
+    return problems
+
+
+# ---------- 2. Grade against the downloaded times CSV ----------
+
+def grade(problems, times_csv_path):
+    rows = {int(r['problem']): r for r in csv.DictReader(open(times_csv_path))}
+    n_total = len(problems)
+    wrong, blank = [], []
+    wrong_to_right, wrong_to_wrong, right_to_wrong = [], [], []
+    for n in range(1, n_total + 1):
+        r = rows.get(n)
+        if r is None:
+            blank.append(n)
+            continue
+        ans = problems[n]['ans']
+        first_ok = r['first_answer'] == ans
+        final_ok = r['final_answer'] == ans
+        if not final_ok:
+            wrong.append(n)
+        if r['first_answer'] != r['final_answer']:
+            if not first_ok and final_ok:
+                wrong_to_right.append(n)
+            elif not first_ok and not final_ok:
+                wrong_to_wrong.append(n)
+            elif first_ok and not final_ok:
+                right_to_wrong.append(n)
+    total_sec = sum(float(r['seconds']) for r in rows.values())
+    by_time = sorted(((n, float(r['seconds'])) for n, r in rows.items()), key=lambda x: -x[1])
+    return dict(
+        rows=rows, n_total=n_total, n_correct=n_total - len(wrong) - len(blank),
+        wrong=wrong, blank=blank,
+        total_minutes=round(total_sec / 60, 2),
+        wrong_to_right=wrong_to_right, wrong_to_wrong=wrong_to_wrong, right_to_wrong=right_to_wrong,
+        slowest=by_time[:8], fastest=by_time[-8:],
+    )
+
+
+# ---------- 3. Flag possible unsolvable-diagram bugs (same heuristic as sanitize_diagrams.py) ----------
+
+GIVEN_RE = re.compile(r'(?<!to )\b([A-Z])\s*(?:=|is)\s*(-?\d[\d,]*(?:\.\d+)?)\b(?!\s*(?:units?|ticks?|marks?|×|\*))')
+NUM_TOKEN_RE = re.compile(r'-?\d[\d,]*(?:\.\d+)?')
+
+def sanitize_check(problems):
+    """Returns [(n, letter, number, why_text)] for explanations that state a
+    specific point value not found anywhere in that problem's own question/diagram.
+    Heuristic -- review each by hand, same caveats as sanitize_diagrams.py."""
+    flags = []
+    for n, p in problems.items():
+        if not p['diag']:
+            continue
+        pool = set()
+        for blob in (p['q'], p['diag']):
+            for m in NUM_TOKEN_RE.finditer(re.sub(r'<[^>]+>', ' ', blob)):
+                pool.add(m.group(0).replace(',', ''))
+        why_plain = re.sub(r'<[^>]+>', ' ', p['why'])
+        for letter, num in GIVEN_RE.findall(why_plain):
+            if num.replace(',', '') not in pool:
+                flags.append((n, letter, num, why_plain.strip()[:160]))
+    return flags
+
+
+# ---------- 4. Render the review HTML ----------
+
+_CSS = open(os.path.join(HERE, 'review_template.css')).read() if os.path.exists(os.path.join(HERE, 'review_template.css')) else None
+
+def _choices_html(p, her_final):
+    out = []
+    for L, c in p['choices']:
+        cls, tags = 'choice', ''
+        if L == p['ans']:
+            cls += ' correct'
+            tags += '<span class="tag c">✓ correct</span>'
+        if L == her_final:
+            cls += ' herpick'
+            tags += f'<span class="tag {"c" if L==p["ans"] else "h"}">← her answer</span>'
+        out.append(f'<div class="{cls}"><b>{L}</b>&nbsp; {c}{tags}</div>')
+    return ''.join(out)
+
+def build_review_html(problems, grading, notes, title, out_path, flagged=None):
+    """notes: {problem_num: dict(kind='gap'|'careless'|'uncertain', title=.., body=..)}
+    One entry expected per wrong problem. Missing ones render as NEEDS DIAGNOSIS,
+    on purpose -- this is the safety net against shipping an unreviewed problem."""
+    flagged = flagged or set()
+    wrong = grading['wrong']
+    rows_data = grading['rows']
+    n_total = grading['n_total']
+
+    missing_notes = [n for n in wrong if n not in notes]
+
+    gap_rows, careless_rows, uncertain_rows = '', '', ''
+    for n in wrong:
+        topic = problems[n]['topic']
+        if n not in notes:
+            row = f'<tr><td>#{n}</td><td>{topic}</td><td><b>⚠ NEEDS DIAGNOSIS</b> — not yet reviewed.</td></tr>'
+            uncertain_rows += row
+            continue
+        note = notes[n]
+        row = f'<tr><td>#{n}</td><td>{topic}</td><td>{note["body"]}</td></tr>'
+        if note['kind'] == 'gap':
+            gap_rows += row
+        elif note['kind'] == 'careless':
+            careless_rows += row
+        else:
+            uncertain_rows += row
+
+    tables = ''
+    if gap_rows:
+        tables += (f'<h2><span class="pill gap">Real gaps</span> — worth a closer look</h2>'
+                   f'<table class="gaptable"><tr><th>#</th><th>Topic</th><th>What\'s going on</th></tr>{gap_rows}</table>')
+    if careless_rows:
+        tables += (f'<h2><span class="pill careless">Not a gap</span></h2>'
+                   f'<table class="gaptable"><tr><th>#</th><th>Topic</th><th>What\'s going on</th></tr>{careless_rows}</table>')
+    if uncertain_rows:
+        tables += (f'<h2>Uncertain / needs follow-up</h2>'
+                   f'<table class="gaptable"><tr><th>#</th><th>Topic</th><th>What\'s going on</th></tr>{uncertain_rows}</table>')
+
+    jumplist = ' '.join(f'<a href="#q{n}">#{n}</a>' for n in wrong)
+
+    cards = []
+    for n in range(1, n_total + 1):
+        p = problems[n]
+        r = rows_data.get(n)
+        is_wrong = n in wrong
+        is_blank = n in grading['blank']
+        badge = 'blank' if is_blank else ('wrong' if is_wrong else 'right')
+        card_cls = f'card {badge}'
+        if is_blank:
+            meta = 'Left blank'
+            final = None
+        else:
+            meta = f'{float(r["seconds"]):.1f}s on this problem'
+            if r['first_answer'] != r['final_answer']:
+                meta += f' · first picked {r["first_answer"]}, changed to {r["final_answer"]}'
+            final = r['final_answer']
+        card = (f'<div class="{card_cls}" id="q{n}">'
+                f'<div class="row1"><span class="num">#{n} · {p["topic"]} · {p["tier"]}</span>'
+                f'<span class="badge {badge}">{badge.capitalize()}</span></div>'
+                f'<div class="meta">{meta}</div>'
+                f'<div class="q">{p["q"]}</div>{p["diag"]}'
+                f'<div class="choices">{_choices_html(p, final)}</div>'
+                f'<div class="why"><b>Why {p["ans"]} is correct:</b> {p["why"]}</div>')
+        if n in flagged:
+            card += ('<div class="note gap"><b>⚠ Automated check flagged this diagram</b>'
+                     'The explanation references a specific value not found in the question or diagram text. '
+                     'Review by hand before trusting this card -- see sanitize_check() output.</div>')
+        if is_wrong and n in notes:
+            note = notes[n]
+            card += f'<div class="note {note["kind"] if note["kind"]!="uncertain" else "careless"}"><b>Parent\'s note — {note["title"]}</b>{note["body"]}</div>'
+        elif is_wrong:
+            card += '<div class="note careless"><b>⚠ NEEDS DIAGNOSIS</b>This wrong answer has not been reviewed yet.</div>'
+        card += '</div>'
+        cards.append(card)
+
+    summary = (f'<h1>{title} — What Hannah Got Wrong</h1>'
+               f'<p class="lede">{n_total} problems, graded against the exact worksheet she took '
+               f'(pulled from its published commit, not the live file). {grading["total_minutes"]} minutes elapsed.</p>'
+               f'<div class="summary">'
+               f'<div class="stat right"><b>{grading["n_correct"]}</b><span>Correct</span></div>'
+               f'<div class="stat wrong"><b>{len(wrong)}</b><span>Wrong</span></div>'
+               f'<div class="stat blank"><b>{len(grading["blank"])}</b><span>Blank</span></div>'
+               f'<div class="stat"><b>{grading["n_correct"]}/{n_total}</b><span>Score</span></div>'
+               f'</div>')
+    if missing_notes:
+        summary += (f'<p class="lede" style="color:var(--wrong);font-weight:600;">'
+                    f'⚠ {len(missing_notes)} wrong problem(s) have no diagnosis yet: {missing_notes}. '
+                    f'This review is incomplete.</p>')
+
+    body = summary + tables + f'<div class="jumplist">Jump to a missed problem: {jumplist}</div>' + ''.join(cards)
+
+    css = _CSS or _DEFAULT_CSS
+    full = f'<!doctype html><html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>{title} — Review</title><style>{css}</style></head><body><div class="wrap">{body}</div></body></html>'
+    os.makedirs(os.path.dirname(out_path), exist_ok=True)
+    open(out_path, 'w').write(full)
+    return out_path, missing_notes
+
+
+_DEFAULT_CSS = '''
+:root{--bg:#F3F1EC;--surface:#FFFFFF;--surface-alt:#EDEAE2;--ink:#2A2521;--ink-muted:#6B6358;--border:#DAD4C8;
+--accent:#8A5A3B;--accent-ink:#6B4428;--accent-soft:#F1E3D6;--right:#2E7D5B;--right-soft:#E3F1EA;--wrong:#B5452E;--wrong-soft:#FBE7E1;--blank:#9A6B1F;--blank-soft:#FBF0DD;
+--gap:#7A3B8C;--gap-soft:#F1E3F5;--careless:#2E6B8C;--careless-soft:#E3EEF5;}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){--bg:#1C1815;--surface:#262220;--surface-alt:#2E2925;--ink:#EDE7DF;--ink-muted:#AFA596;--border:#3B352F;
+--accent:#D79A6E;--accent-ink:#E8B98F;--accent-soft:rgba(215,154,110,0.14);--right:#6FCBA0;--right-soft:rgba(111,203,160,0.12);--wrong:#E58A74;--wrong-soft:rgba(229,138,116,0.14);--blank:#E0B45A;--blank-soft:rgba(224,180,90,0.14);
+--gap:#C98FDA;--gap-soft:rgba(201,143,218,0.14);--careless:#7FB8E0;--careless-soft:rgba(127,184,224,0.14);color-scheme:dark;}}
+:root[data-theme="dark"]{--bg:#1C1815;--surface:#262220;--surface-alt:#2E2925;--ink:#EDE7DF;--ink-muted:#AFA596;--border:#3B352F;
+--accent:#D79A6E;--accent-ink:#E8B98F;--accent-soft:rgba(215,154,110,0.14);--right:#6FCBA0;--right-soft:rgba(111,203,160,0.12);--wrong:#E58A74;--wrong-soft:rgba(229,138,116,0.14);--blank:#E0B45A;--blank-soft:rgba(224,180,90,0.14);
+--gap:#C98FDA;--gap-soft:rgba(201,143,218,0.14);--careless:#7FB8E0;--careless-soft:rgba(127,184,224,0.14);color-scheme:dark;}
+*{box-sizing:border-box;}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:"Iowan Old Style","Palatino",Georgia,serif;line-height:1.5;}
+.wrap{max-width:860px;margin:0 auto;padding:28px 18px 64px;}
+h1{font-size:1.7rem;margin:0 0 4px;}
+h2{font-size:1.2rem;margin:28px 0 10px;font-family:system-ui,sans-serif;}
+.lede{color:var(--ink-muted);margin:0 0 20px;font-family:system-ui,sans-serif;font-size:0.95rem;}
+.summary{display:flex;gap:14px;flex-wrap:wrap;margin-bottom:22px;font-family:system-ui,sans-serif;}
+.stat{background:var(--surface);border:1px solid var(--border);border-radius:10px;padding:10px 16px;min-width:110px;}
+.stat b{display:block;font-size:1.5rem;font-variant-numeric:tabular-nums;}
+.stat.right b{color:var(--right);} .stat.wrong b{color:var(--wrong);} .stat.blank b{color:var(--blank);}
+.stat span{font-size:0.78rem;color:var(--ink-muted);text-transform:uppercase;letter-spacing:0.04em;}
+.jumplist{font-family:system-ui,sans-serif;font-size:0.9rem;margin-bottom:10px;color:var(--ink-muted);}
+.jumplist a{color:var(--wrong);text-decoration:none;font-weight:600;margin-right:4px;}
+.gaptable{width:100%;border-collapse:collapse;font-family:system-ui,sans-serif;font-size:0.88rem;margin-bottom:10px;}
+.gaptable th,.gaptable td{border:1px solid var(--border);padding:7px 10px;text-align:left;vertical-align:top;}
+.gaptable th{background:var(--surface-alt);font-size:0.75rem;text-transform:uppercase;letter-spacing:0.03em;color:var(--ink-muted);}
+.pill{display:inline-block;font-size:0.72rem;font-weight:700;padding:2px 8px;border-radius:999px;white-space:nowrap;}
+.pill.gap{background:var(--gap-soft);color:var(--gap);}
+.pill.careless{background:var(--careless-soft);color:var(--careless);}
+.card{background:var(--surface);border:1px solid var(--border);border-radius:12px;padding:16px 18px;margin:0 0 14px;scroll-margin-top:12px;}
+.card.wrong{border-color:var(--wrong);box-shadow:inset 3px 0 0 var(--wrong);}
+.card.blank{border-color:var(--blank);box-shadow:inset 3px 0 0 var(--blank);}
+.card.right{box-shadow:inset 3px 0 0 var(--right);}
+.row1{display:flex;justify-content:space-between;align-items:baseline;gap:10px;font-family:system-ui,sans-serif;}
+.num{font-weight:700;color:var(--ink-muted);}
+.badge{font-size:0.72rem;font-weight:700;text-transform:uppercase;letter-spacing:0.04em;padding:2px 9px;border-radius:999px;}
+.badge.right{background:var(--right-soft);color:var(--right);}
+.badge.wrong{background:var(--wrong-soft);color:var(--wrong);}
+.badge.blank{background:var(--blank-soft);color:var(--blank);}
+.meta{font-family:system-ui,sans-serif;font-size:0.78rem;color:var(--ink-muted);}
+.q{margin:8px 0 10px;font-size:1.05rem;}
+.diag{margin:8px 0 12px;}
+table.data{border-collapse:collapse;font-size:0.85rem;font-family:system-ui,sans-serif;}
+table.data th,table.data td{border:1px solid var(--border);padding:3px 8px;text-align:left;}
+.choices{display:grid;grid-template-columns:1fr 1fr;gap:6px 14px;margin-bottom:8px;font-family:system-ui,sans-serif;font-size:0.95rem;}
+.choice{padding:6px 10px;border:1px solid var(--border);border-radius:6px;background:var(--surface-alt);}
+.choice.correct{border-color:var(--right);background:var(--right-soft);font-weight:700;}
+.choice.herpick{outline:2px solid var(--wrong);outline-offset:-1px;}
+.choice .tag{font-size:0.7rem;font-weight:700;margin-left:6px;}
+.choice .tag.c{color:var(--right);} .choice .tag.h{color:var(--wrong);}
+.why{font-family:system-ui,sans-serif;font-size:0.85rem;color:var(--ink-muted);border-left:3px solid var(--accent);padding:4px 10px;margin-top:4px;}
+.note{font-family:system-ui,sans-serif;font-size:0.85rem;margin-top:8px;padding:8px 10px;border-radius:8px;}
+.note.gap{background:var(--gap-soft);border-left:3px solid var(--gap);}
+.note.careless{background:var(--careless-soft);border-left:3px solid var(--careless);}
+.note b{display:block;margin-bottom:2px;}
+.frac{display:inline-flex;flex-direction:column;vertical-align:middle;text-align:center;line-height:1;font-size:0.82em;margin:0 1px;}
+.frac .n{border-bottom:2px solid currentColor;padding:0 3px 2px;}
+.frac .d{padding:2px 3px 0;}
+.colsum{display:inline-block;text-align:right;font-variant-numeric:tabular-nums;font-family:system-ui,sans-serif;}
+.colsum div{padding:1px 4px;}
+.colsum .total{border-top:2px solid currentColor;margin-top:2px;}
+@media (max-width:480px){.choices{grid-template-columns:1fr;}}
+'''
+
+
+# ---------- 5. Update practice-log.json and student-tracker.json ----------
+
+def update_tracker_and_log(kind, set_no, problems, grading, notes, date_str):
+    log, key, target = _set_entry(kind, set_no)
+    gkey = f'graded_{date_str}'
+    target[gkey] = dict(
+        score=f'{grading["n_correct"]}/{grading["n_total"]}',
+        wrong=grading['wrong'], blank=grading['blank'],
+        total_elapsed_minutes=grading['total_minutes'],
+        first_then_changed=dict(
+            wrong_to_right=grading['wrong_to_right'],
+            wrong_to_wrong=grading['wrong_to_wrong'],
+            right_to_wrong=grading['right_to_wrong'],
+        ),
+        notes_summary={str(n): notes[n]['title'] for n in grading['wrong'] if n in notes},
+    )
+    json.dump(log, open(LOG_PATH, 'w'), indent=1)
+
+    tracker = json.load(open(TRACKER_PATH))
+    by_topic = {}
+    for n in range(1, grading['n_total'] + 1):
+        if n in grading['blank']:
+            continue
+        topic = problems[n]['topic']
+        by_topic.setdefault(topic, dict(wrong=0, graded=0, tier=problems[n]['tier']))
+        by_topic[topic]['graded'] += 1
+        if n in grading['wrong']:
+            by_topic[topic]['wrong'] += 1
+    existing = {x['topic']: x for x in tracker['topics']}
+    for topic, d in by_topic.items():
+        if topic in existing:
+            existing[topic]['wrong'] = (existing[topic].get('wrong') or 0) + d['wrong']
+            existing[topic]['graded'] = (existing[topic].get('graded') or 0) + d['graded']
+        else:
+            tracker['topics'].append(dict(
+                topic=topic, tier=d['tier'], wrong=d['wrong'], graded=d['graded'],
+                habits=[], priority='unknown',
+                real_tests_note=f'not yet cross-checked against official-test tagging as of {date_str}',
+            ))
+    tracker['updated'] = date_str
+    json.dump(tracker, open(TRACKER_PATH, 'w'), indent=1)

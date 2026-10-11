@@ -361,14 +361,36 @@
    },
    "graded_2026-10-11": {
     "score": "29/38",
-    "wrong": [6, 12, 19, 21, 23, 33, 34, 37, 38],
+    "wrong": [
+     6,
+     12,
+     19,
+     21,
+     23,
+     33,
+     34,
+     37,
+     38
+    ],
     "blank": [],
     "score_caveat": "#37's number-line diagram had no numeric scale (see integrity_notes) -- a confirmed, objective bug in the page. That does NOT mean #37 is proven unrelated to her understanding: she never flagged it as confusing/impossible, so causality is unconfirmed either way. Treat it as uncertain, not as excluded evidence -- needs a retest on a properly-specified version of this topic (set 4) to tell whether the diagram or a real gap was the cause. Not correcting the historical score/wrong list itself (that's what actually happened when she took it).",
     "total_elapsed_minutes": 34.75,
     "timing_note": "Finished within the 35-min budget this time (set 2 had exceeded it).",
     "first_then_changed": {
-     "wrong_to_right": [2, 25, 27, 29, 31, 36],
-     "wrong_to_wrong": [6, 19, 23, 38],
+     "wrong_to_right": [
+      2,
+      25,
+      27,
+      29,
+      31,
+      36
+     ],
+     "wrong_to_wrong": [
+      6,
+      19,
+      23,
+      38
+     ],
      "right_to_wrong": [],
      "note": "6 of 10 reconsiderations flipped wrong->right and zero flipped right->wrong -- a clean contrast with set 2, where #36 was talked out of a correct first answer. Her self-checking instinct was net-positive this time, not a liability."
     },
@@ -390,7 +412,9 @@
      "Converting to a Decimal (#38)": "wrong, reconsidered (A->C) but still wrong, correct was D (7/16=0.4375). Forms a 3-problem cluster with #12 and #19 -- all three wrong answers involve a fraction/decimal conversion not landing cleanly, suggesting the fraction<->decimal conversion itself (not any one topic label) is the common thread worth drilling, more than any single topic name."
     },
     "staleness_flags_2026-10-11": "Running speed-tools/check_priority_staleness.py after this update surfaced: Split Line Segments 2/2 wrong (new, priority still 'unknown' -- consider setting to high once a 2nd data point confirms), Total Shaded Area 1/2 wrong, Cryptarithm 2/3 wrong (consider escalating, currently 'medium'), Estimating Sums/Differences of Decimal Numbers 0/3 wrong across sets 2+3 (currently 'high' -- same stale-high pattern previously found and corrected for the 3D-net and Estimating Division with Money topics; candidate for downgrade). Adding and Subtracting Decimals and Dividing Equally From a Total were also re-flagged at 50% wrong but that's pre-existing set-2 data, not new from this grading -- still open, never actually resolved. Not auto-changed; flagging per the tool's own caveat to check why before touching priorities."
-   }
+   },
+   "published_commit": "a84d34e",
+   "published_commit_note": "Stamped retroactively 2026-10-11 after reconstructing from git log which commit was live when she took it -- going forward, speed-tools/mark_published.py does this automatically at publish time instead."
   }
  ],
  "rotation_notes": {
