@@ -380,7 +380,8 @@
    "Angles in Triangles",
    "Area of Triangles"
   ],
-  "set_3_priority": "Include the dropped topics and the not-yet-practised list before repeating set 2 topics."
+  "set_3_priority": "Include the dropped topics and the not-yet-practised list before repeating set 2 topics.",
+  "mental_math_simplify_2026-10-10": "Not a real-test topic on its own (no 'simplify before you compute' category exists in the official material), so it's not in student-tracker.json's topics list -- it's a cross-cutting technique (rewrite division as a fraction and cancel a shared factor; cross-cancel between a whole number and a fraction's denominator before multiplying) that applies inside several existing real topics (Estimating Multiplication & Division, Word Problems with Ratios, Comparing & Ordering Fractions & Decimals, Dividing Equally From a Total). Standalone drill built: worksheets/mental-math-simplify.html (16 problems, open-answer, exact integer answers so cancelling-first is actually faster than brute force, not just equally valid). Going forward: when authoring exact-value (non-estimation-range) division or fraction-multiplication problems in future sets, prefer number pairs with an obvious shared factor so the technique is exercisable, and periodically re-offer the standalone drill rather than a one-time thing."
  },
  "ma_sets": [
   {
