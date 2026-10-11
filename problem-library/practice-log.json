@@ -358,6 +358,37 @@
     "second_pass_2026-10-07": "Estimating Division with Money had the same stale-high-priority-then-3x pattern as the net topic (3 instances in set 2, all correct; 3 instances in set 3). Downgraded priority (see tracker) and trimmed set 3 from 3 to 2 (#11, #13 kept; #14 swapped). #14 -> Multiplying and Dividing Integers, restoring coverage of a topic dropped from the tracker entirely after set 1.",
     "nondiag_trim_2026-10-10": "Several diagrams that only restated given text without adding structure were removed between build and this pass, bringing the live count from 22 down to 9 (see integrity_notes for the 2026-10-10 round-to-table leak, the last of these fixes).",
     "fix_2026-10-10": "#3 and #26 (both Estimating Multiplication & Division) swapped to fresh numbers -- (73 x 289) / 19 and (46 x 227) / 23 -- for two reasons: #26's diagram leaked the full rounding (83->80, 196->200, 21->20) directly on the question sheet (same bug class as the 2026-10-08 divisibility leak), and both #3's and #26's original numbers had their exact rounding solutions worked through in chat with the parent before the set was taken. Diagram removed from #26 entirely, matching #3's no-diagram format -- real-test estimation items don't scaffold the rounding step."
+   },
+   "graded_2026-10-11": {
+    "score": "29/38",
+    "wrong": [6, 12, 19, 21, 23, 33, 34, 37, 38],
+    "blank": [],
+    "total_elapsed_minutes": 34.75,
+    "timing_note": "Finished within the 35-min budget this time (set 2 had exceeded it).",
+    "first_then_changed": {
+     "wrong_to_right": [2, 25, 27, 29, 31, 36],
+     "wrong_to_wrong": [6, 19, 23, 38],
+     "right_to_wrong": [],
+     "note": "6 of 10 reconsiderations flipped wrong->right and zero flipped right->wrong -- a clean contrast with set 2, where #36 was talked out of a correct first answer. Her self-checking instinct was net-positive this time, not a liability."
+    },
+    "confirmed_gaps_targeted_outcome": {
+     "Estimating Multiplication & Division (#3, #26)": "BOTH CORRECT -- the set 2 sticky gap (#3/#33 wrong) is resolved on accuracy. Not resolved on speed: #3 took 230s, the single slowest problem of the whole test, well past what 35 problems in 35 minutes allows per problem.",
+     "Comparing & Ordering Fractions & Decimals (#2, #12, #31)": "2 of 3 right (#2 and #31 both recovered via reconsideration). #12 (the 5/9 vs 0.52 vs 7/15 ordering problem) still wrong, single-shot, 81s -- slow AND wrong, suggests the three-way decimal/fraction comparison itself is still shaky, not a rushed guess.",
+     "Translating Math Expressions (#30, #32)": "BOTH CORRECT. #32 was deliberately rebuilt with the exact same '-4 surface-match' trap from set 2 #23 -- she did not fall for it this time. Real, confirmed fix, not just no-evidence-of-recurrence.",
+     "Word Problems with Ratios (#33)": "STILL WRONG. 21s, no reconsideration -- answered fast and moved on, which does not look like she attempted the partition method at all. This is the one previously-targeted gap that did not improve; worth a direct conversation about the method rather than more blind rotation."
+    },
+    "new_topic_first_exposure": {
+     "Split Line Segments (#23, #37)": "0/2 -- both wrong. Only one data point existed before (1 library entry), so this is effectively her first real exposure, and she missed both. Strongest new-gap signal in this set.",
+     "Total Shaded Area given Figure with Equal Divisions (#21, #22)": "1/2. #21 was wrong AND the slowest-but-one problem in the set (171s) with no reconsideration -- long deliberation, still wrong, looks like a real conceptual gap rather than a rushed miss. #22 (same topic) correct.",
+     "Cryptarithm / digit substitution (#34)": "Wrong, 17s, no reconsideration, Hard tier. The real solving method (PP+QQ=11x(P+Q), bounding the max sum) takes longer than 17s to work through from scratch -- looks more like a guess/pattern-match than an attempted solve. Small sample (this is only the 2nd time this topic has ever been graded; 1/2 wrong overall per tracker).",
+     "Numerical Patterns (#6, #18, #20)": "2/3 (#6 wrong, reconsidered but still wrong, 40s). Mixed so far, no strong signal yet.",
+     "Value of Digits / Finding Perimeter and Area of a Square / Finding Unit Price / Identifying Correct Conclusions from Bar Graph Data Table": "clean sweep, all correct across their slots -- no concern."
+    },
+    "other_wrong": {
+     "Equivalent Fractions, Decimals, and Percents (#19)": "wrong, reconsidered (D->A) but still wrong, correct was C, 44s.",
+     "Converting to a Decimal (#38)": "wrong, reconsidered (A->C) but still wrong, correct was D, 20s -- new topic, single data point."
+    },
+    "staleness_flags_2026-10-11": "Running speed-tools/check_priority_staleness.py after this update surfaced: Split Line Segments 2/2 wrong (new, priority still 'unknown' -- consider setting to high once a 2nd data point confirms), Total Shaded Area 1/2 wrong, Cryptarithm 2/3 wrong (consider escalating, currently 'medium'), Estimating Sums/Differences of Decimal Numbers 0/3 wrong across sets 2+3 (currently 'high' -- same stale-high pattern previously found and corrected for the 3D-net and Estimating Division with Money topics; candidate for downgrade). Adding and Subtracting Decimals and Dividing Equally From a Total were also re-flagged at 50% wrong but that's pre-existing set-2 data, not new from this grading -- still open, never actually resolved. Not auto-changed; flagging per the tool's own caveat to check why before touching priorities."
    }
   }
  ],
