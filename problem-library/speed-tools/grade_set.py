@@ -232,7 +232,7 @@ def build_review_html(problems, grading, notes, title, out_path, flagged=None):
         tables += (f'<h2>Uncertain / needs follow-up</h2>'
                    f'<table class="gaptable"><tr><th>#</th><th>Topic</th><th>What\'s going on</th></tr>{uncertain_rows}</table>')
 
-    jumplist = ' '.join(f'<a href="#q{n}">#{n}</a>' for n in wrong)
+    jumplist_links = ' '.join(f'<a href="#q{n}">#{n}</a>' for n in wrong)
 
     cards = []
     for n in range(1, n_total + 1):
@@ -251,15 +251,16 @@ def build_review_html(problems, grading, notes, title, out_path, flagged=None):
             if r['first_answer'] != r['final_answer']:
                 meta += f' · first picked {r["first_answer"]}, changed to {r["final_answer"]}'
                 if n in grading['wrong_to_right']:
-                    change_badge = '<span class="chg chg-good">↻ self-corrected (wrong→right)</span>'
+                    change_badge = '<span class="chg chg-good">self-corrected</span>'
                 elif n in grading['right_to_wrong']:
-                    change_badge = '<span class="chg chg-bad">↻ talked out of correct (right→wrong)</span>'
+                    change_badge = '<span class="chg chg-bad">flipped to wrong</span>'
                 elif n in grading['wrong_to_wrong']:
-                    change_badge = '<span class="chg chg-neutral">↻ reconsidered, still wrong</span>'
+                    change_badge = '<span class="chg chg-neutral">still wrong</span>'
             final = r['final_answer']
+        backlink = '<a class="backlink" href="#wronglist">↑ back to list</a>' if is_wrong else ''
         card = (f'<div class="{card_cls}" id="q{n}">'
                 f'<div class="row1"><span class="num">#{n} · {p["topic"]} · {p["tier"]}</span>'
-                f'<span class="badge {badge}">{badge.capitalize()}</span></div>'
+                f'<span class="row1-right">{backlink}<span class="badge {badge}">{badge.capitalize()}</span></span></div>'
                 f'<div class="meta">{meta}{" " + change_badge if change_badge else ""}</div>'
                 f'<div class="q">{p["q"]}</div>{p["diag"]}'
                 f'<div class="choices">{_choices_html(p, final)}</div>'
@@ -290,7 +291,7 @@ def build_review_html(problems, grading, notes, title, out_path, flagged=None):
                     f'⚠ {len(missing_notes)} wrong problem(s) have no diagnosis yet: {missing_notes}. '
                     f'This review is incomplete.</p>')
 
-    body = summary + tables + f'<div class="jumplist">Jump to a missed problem: {jumplist}</div>' + ''.join(cards)
+    body = summary + tables + f'<div class="jumplist" id="wronglist">Jump to a missed problem: {jumplist_links}</div>' + ''.join(cards)
 
     css = _CSS or _DEFAULT_CSS
     full = f'<!doctype html><html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>{title} — Review</title><style>{css}</style></head><body><div class="wrap">{body}</div></body></html>'
@@ -339,10 +340,14 @@ h2{font-size:1.2rem;margin:28px 0 10px;font-family:system-ui,sans-serif;}
 .badge.wrong{background:var(--wrong-soft);color:var(--wrong);}
 .badge.blank{background:var(--blank-soft);color:var(--blank);}
 .meta{font-family:system-ui,sans-serif;font-size:0.78rem;color:var(--ink-muted);}
-.chg{display:inline-block;font-size:0.72rem;font-weight:700;padding:1px 8px;border-radius:999px;margin-left:6px;}
-.chg-good{background:var(--right-soft);color:var(--right);}
-.chg-bad{background:var(--wrong-soft);color:var(--wrong);}
-.chg-neutral{background:var(--blank-soft);color:var(--blank);}
+.chg{font-size:0.78rem;margin-left:4px;}
+.chg::before{content:"· ";}
+.chg-good{color:var(--right);}
+.chg-bad{color:var(--wrong);}
+.chg-neutral{color:var(--ink-muted);}
+.row1-right{display:flex;align-items:baseline;gap:10px;}
+.backlink{font-size:0.75rem;color:var(--ink-muted);text-decoration:none;}
+.backlink:hover{text-decoration:underline;}
 .q{margin:8px 0 10px;font-size:1.05rem;}
 .diag{margin:8px 0 12px;}
 table.data{border-collapse:collapse;font-size:0.85rem;font-family:system-ui,sans-serif;}
