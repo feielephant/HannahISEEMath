@@ -446,20 +446,37 @@ def update_tracker_and_log(kind, set_no, problems, grading, notes, date_str):
         if n in grading['blank']:
             continue
         topic = problems[n]['topic']
-        by_topic.setdefault(topic, dict(wrong=0, graded=0, tier=problems[n]['tier']))
+        by_topic.setdefault(topic, dict(wrong=0, graded=0, tier=problems[n]['tier'], sec_total=0.0, sec_n=0))
         by_topic[topic]['graded'] += 1
         if n in grading['wrong']:
             by_topic[topic]['wrong'] += 1
+        r = grading['rows'].get(n)
+        if r is not None:
+            by_topic[topic]['sec_total'] += float(r['seconds'])
+            by_topic[topic]['sec_n'] += 1
     existing = {x['topic']: x for x in tracker['topics']}
     for topic, d in by_topic.items():
         if topic in existing:
-            existing[topic]['wrong'] = (existing[topic].get('wrong') or 0) + d['wrong']
-            existing[topic]['graded'] = (existing[topic].get('graded') or 0) + d['graded']
+            e = existing[topic]
+            e['wrong'] = (e.get('wrong') or 0) + d['wrong']
+            e['graded'] = (e.get('graded') or 0) + d['graded']
+            # avg_seconds is a running average across every graded set, tracked via
+            # hidden accumulator fields (_sec_total/_sec_n) so a slow or fast set
+            # doesn't overwrite history -- see plan_set.py's SLOW_SECONDS bonus.
+            e['_sec_total'] = (e.get('_sec_total') or 0.0) + d['sec_total']
+            e['_sec_n'] = (e.get('_sec_n') or 0) + d['sec_n']
+            if e['_sec_n']:
+                e['avg_seconds'] = round(e['_sec_total'] / e['_sec_n'], 1)
         else:
-            tracker['topics'].append(dict(
+            entry = dict(
                 topic=topic, tier=d['tier'], wrong=d['wrong'], graded=d['graded'],
                 habits=[], priority='unknown',
                 real_tests_note=f'not yet cross-checked against official-test tagging as of {date_str}',
-            ))
+            )
+            if d['sec_n']:
+                entry['_sec_total'] = d['sec_total']
+                entry['_sec_n'] = d['sec_n']
+                entry['avg_seconds'] = round(d['sec_total'] / d['sec_n'], 1)
+            tracker['topics'].append(entry)
     tracker['updated'] = date_str
     json.dump(tracker, open(TRACKER_PATH, 'w'), indent=1)

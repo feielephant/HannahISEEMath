@@ -8,6 +8,14 @@ log = json.load(open(log_path)) if os.path.exists(log_path) else {"sets": []}
 
 WEIGHT = {"high": 3, "medium": 2, "low": 1, "maintain": 1, "unknown": 1}
 RANK = {"Easy": 1, "Medium": 2, "Hard": 3}
+# A topic averaging more than this many seconds (from grade_set.py's running
+# avg_seconds, built from real per-problem timing CSVs) gets extra selection
+# pressure -- slow-but-not-yet-wrong is a real signal worth surfacing before
+# it becomes a wrong answer, not just something the priority field captures
+# after the fact. Added 2026-10-11; only ~20 topics have timing data so far
+# (from set 3), so this mostly starts mattering as more sets get graded.
+SLOW_SECONDS = 90
+SLOW_BONUS = 1.4
 set_no = len(log["sets"]) + 1
 random.seed(set_no)
 
@@ -43,7 +51,15 @@ def pick(tier, n):
         # they keep showing up until a human downgrades the priority because
         # she's actually improved, not because the algorithm got bored of them.
         decay = 1 if t["priority"] == "high" else (1 + times[t["topic"]] * 0.2)
-        return WEIGHT[t["priority"]] * (1 + min(gap, 3) * 0.5) * random.uniform(0.8, 1.2) / decay
+        # Deliberately one-directional: a slow average is worth flagging even
+        # before it's shown up as a wrong answer, but a FAST average is not
+        # treated as evidence of mastery on its own -- a topic can be fast and
+        # still have a real wrong-rate (e.g. Converting to a Decimal: 20s avg
+        # from a single set-3 sample, but 18.8% wrong over 32 graded overall).
+        # Accuracy evidence (the priority field, set by a human) stays the
+        # authority on "she's doing well"; speed only ever adds pressure.
+        slow_bonus = SLOW_BONUS if (t.get("avg_seconds") or 0) > SLOW_SECONDS else 1
+        return WEIGHT[t["priority"]] * (1 + min(gap, 3) * 0.5) * slow_bonus * random.uniform(0.8, 1.2) / decay
     ranked = sorted(pools[tier], key=score, reverse=True)
     counts, out = Counter(), []
     while len(out) < n:
