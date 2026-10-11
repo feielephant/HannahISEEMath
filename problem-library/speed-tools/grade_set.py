@@ -29,6 +29,11 @@ since the notes dict naturally wants to be authored alongside the analysis):
 
     flags = sanitize_check(problems)  # cross-check against possible page bugs
     for f in flags: print(f)
+    missing_diag = check_missing_diagram(problems)  # diagram-shaped topics with no diagram
+    for f in missing_diag: print(f)
+    flagged = {n: f"References {l}={v}, not shown on the page." for n, l, v, _ in flags}
+    for n, topic in missing_diag:
+        flagged[n] = f"Topic '{topic}' usually needs a diagram by real-test convention, but this has none."
 
     notes = {
       6: dict(kind='gap', title='Real gap -- ...', body='...'),
@@ -38,7 +43,8 @@ since the notes dict naturally wants to be authored alongside the analysis):
     }
 
     build_review_html(problems, grading, notes, title='Speed Set 4',
-                       out_path='/Users/kxieztt/Documents/HannahISEEMath/reviews/speed-set-4-review-2026-XX-XX.html')
+                       out_path='/Users/kxieztt/Documents/HannahISEEMath/reviews/speed-set-4-review-2026-XX-XX.html',
+                       flagged=flagged)
     update_tracker_and_log('qr', 4, problems, grading, notes)
 """
 import json, re, csv, os, subprocess
@@ -176,6 +182,32 @@ def sanitize_check(problems):
                 flags.append((n, letter, num, why_plain.strip()[:160]))
     return flags
 
+# Topics where the real test's own convention is to show a diagram and have
+# her read values off it, never state them directly in the question text.
+# Added 2026-10-11 after set 3 #23 (Split Line Segments / midpoint) shipped
+# with values stated in plain text instead of a number-line diagram --
+# sanitize_check() can't catch this class of bug because it only looks at
+# problems that ALREADY have a diagram (`if not p['diag']: continue`); this
+# one is the opposite case, a diagram-shaped topic missing its diagram.
+DIAGRAM_EXPECTED_KEYWORDS = [
+    'number line', 'line segment', 'midpoint', 'bar graph', 'shaded',
+    'composite shape', 'pictograph', 'coordinate',
+]
+
+def check_missing_diagram(problems):
+    """Returns [(n, topic)] for problems whose topic is one of the real test's
+    diagram-convention topics (number line, shaded figure, bar graph, etc.)
+    but which has no <div class="diag"> on the page. Heuristic by topic name,
+    same caveats as sanitize_check() -- review each by hand, don't auto-fix."""
+    flags = []
+    for n, p in problems.items():
+        if p['diag']:
+            continue
+        topic_lower = p['topic'].lower()
+        if any(kw in topic_lower for kw in DIAGRAM_EXPECTED_KEYWORDS):
+            flags.append((n, p['topic']))
+    return flags
+
 
 # ---------- 4. Render the review HTML ----------
 
@@ -199,8 +231,20 @@ def build_review_html(problems, grading, notes, title, out_path, flagged=None):
     One entry expected per wrong problem. Missing ones render as NEEDS DIAGNOSIS,
     on purpose -- this is the safety net against shipping an unreviewed problem.
     Each wrong-problem card links to the NEXT wrong problem (wrapping around),
-    not back to the top jumplist -- lets you review misses one after another."""
-    flagged = flagged or set()
+    not back to the top jumplist -- lets you review misses one after another.
+
+    flagged: {problem_num: message} from sanitize_check()/check_missing_diagram()
+    results -- build it like:
+        flagged = {}
+        for n, letter, num, why in sanitize_check(problems):
+            flagged[n] = f"References {letter}={num}, which doesn't appear in the question or diagram."
+        for n, topic in check_missing_diagram(problems):
+            flagged[n] = f"Topic '{topic}' usually needs a diagram by real-test convention, but this has none."
+    A bare set/list of problem numbers also works (uses a generic message), for
+    backward compatibility."""
+    flagged = flagged or {}
+    if not isinstance(flagged, dict):
+        flagged = {n: 'The explanation references a specific value not found in the question or diagram text.' for n in flagged}
     wrong = grading['wrong']
     rows_data = grading['rows']
     n_total = grading['n_total']
@@ -272,9 +316,8 @@ def build_review_html(problems, grading, notes, title, out_path, flagged=None):
                 f'<div class="choices">{_choices_html(p, final)}</div>'
                 f'<div class="why"><b>Why {p["ans"]} is correct:</b> {p["why"]}</div>')
         if n in flagged:
-            card += ('<div class="note gap"><b>⚠ Automated check flagged this diagram</b>'
-                     'The explanation references a specific value not found in the question or diagram text. '
-                     'Review by hand before trusting this card -- see sanitize_check() output.</div>')
+            card += (f'<div class="note gap"><b>⚠ Automated check flagged this problem</b>'
+                     f'{flagged[n]} Review by hand before trusting this card.</div>')
         if is_wrong and n in notes:
             note = notes[n]
             card += f'<div class="note {note["kind"] if note["kind"]!="uncertain" else "careless"}"><b>Parent\'s note — {note["title"]}</b>{note["body"]}</div>'
