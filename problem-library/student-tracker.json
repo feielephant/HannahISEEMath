@@ -77,9 +77,10 @@
    "real_tests": 8,
    "wrong": 6,
    "graded": 32,
-   "habits": [],
-   "priority": "medium",
-   "hypothesis_2026-10-11": "Possibly the same 'decimal-vs-nonnice-fraction' mechanism confirmed on Total Shaded Area #21 and already tagged on Comparing & Ordering Fractions & Decimals (same cluster, same skill: scaling the original denominator straight to 100/a power of 10 instead of simplifying first or using long division when it doesn't divide cleanly). Not yet directly observed on this specific topic -- when grading the next wrong answer here, check whether her work shows this exact pattern before confirming it."
+   "habits": ["proper-fraction-long-division"],
+   "priority": "high",
+   "hypothesis_2026-10-11": "Possibly the same 'decimal-vs-nonnice-fraction' mechanism confirmed on Total Shaded Area #21 and already tagged on Comparing & Ordering Fractions & Decimals (same cluster, same skill: scaling the original denominator straight to 100/a power of 10 instead of simplifying first or using long division when it doesn't divide cleanly). Not yet directly observed on this specific topic -- when grading the next wrong answer here, check whether her work shows this exact pattern before confirming it.",
+   "mechanism_2026-10-11_q38": "CONFIRMED, and this refines the hypothesis above rather than just supporting it. Set 3 #38 ('What is 7/16 as a decimal?', answer 0.4375 = 7 ÷ 16) is pure proper-fraction long division (numerator < denominator, result < 1) -- no shortcut/benchmark involved at all, just the mechanics of dividing a smaller number by a larger one and carrying the decimal through. Parent's assessment: she is 'not secured at all' on this specific computation. This means the long-division FALLBACK itself (the thing she's supposed to default to when the 'scale to 100' shortcut breaks on a non-nice denominator -- see Comparing & Ordering Fractions & Decimals mechanism_2026-10-11) isn't solid yet either. Fix target: standalone drill on long division of proper fractions (part/whole, part<whole) specifically, independent of the percent-conversion context -- this is the more foundational of the two gaps and probably needs to be solid before the benchmark/shortcut-fallback coaching will stick."
   },
   {
    "topic": "Equivalent Fractions, Decimals, and Percents",
@@ -88,10 +89,12 @@
    "wrong": 3,
    "graded": 13,
    "habits": [
-    "key-word-watch"
+    "key-word-watch",
+    "off-by-10 (same tag as Multi-step unit conversion)"
    ],
-   "priority": "medium",
-   "hypothesis_2026-10-11": "Possibly also the 'decimal-vs-nonnice-fraction' mechanism confirmed on Total Shaded Area #21 (scaling the original denominator straight to 100 instead of simplifying first or using long division when it doesn't divide cleanly) -- same cluster, same conversion skill. Not yet directly observed here; existing 'key-word-watch' habit is a separate, already-confirmed issue -- both could be in play. Check her work on the next wrong answer here before confirming."
+   "priority": "high",
+   "hypothesis_2026-10-11": "Possibly also the 'decimal-vs-nonnice-fraction' mechanism confirmed on Total Shaded Area #21 (scaling the original denominator straight to 100 instead of simplifying first or using long division when it doesn't divide cleanly) -- same cluster, same conversion skill. Not yet directly observed here; existing 'key-word-watch' habit is a separate, already-confirmed issue -- both could be in play. Check her work on the next wrong answer here before confirming.",
+   "mechanism_2026-10-11_q19": "CONFIRMED on set 3 #19 ('Which value is equivalent to 0.045?', answer 9/200): the trap answers 9/20 and 45% both equal 0.45, not 0.045 -- exactly one decimal place / one zero off. This matches the EXISTING 'off-by-10' habit already tracked under 'Multi-step unit conversion (off-by-10, multi-step)' (confirmed set 2 #32, originally from an Elevate Prep drill) -- same cross-topic zero-miscounting pattern, new context, not a new issue. Not a fraction-conversion concept gap. Parent taught a general verification technique: to check if a decimal equals a candidate fraction, multiply the decimal by the denominator and see if it lands on the numerator (e.g. 0.045 x 200 = 9, confirms C; 0.045 x 20 = 0.9, not 9, rules out A) -- a good general cross-check that catches zero-count slips a surface eyeball comparison misses."
   },
   {
    "topic": "Finding Ratios, given Probability",
@@ -194,7 +197,8 @@
    ],
    "priority": "high",
    "note": "7/10 multi-step wrong on Elevate Prep drill p.144; off-by-10 confirmed",
-   "evidence_2026-10-07": "Set 2 (2026-10-06): miscounted a zero \u2014 matches the existing off-by-10 habit, not a new issue (#32)"
+   "evidence_2026-10-07": "Set 2 (2026-10-06): miscounted a zero \u2014 matches the existing off-by-10 habit, not a new issue (#32)",
+   "cross_reference_2026-10-11": "Same off-by-10 pattern confirmed again on set 3 #19 (Equivalent Fractions, Decimals, and Percents: 0.045 misread/treated as 0.45) -- see that topic's mechanism_2026-10-11_q19 note. Third confirmed instance of this habit now, across three different topics -- genuinely cross-topic, not tied to unit conversion specifically."
   },
   {
    "topic": "Estimation (sums, products, money, ranges)",
@@ -228,10 +232,13 @@
    "wrong": 2,
    "graded": 3,
    "habits": [
-    "exact-thing-asked"
+    "exact-thing-asked",
+    "no-bounding-strategy"
    ],
    "priority": "medium",
-   "note": "platform links this to Interpreting Pictographs"
+   "note": "platform links this to Interpreting Pictographs",
+   "mechanism_2026-10-11": "Parent discussed set 3 #34 (PP+QQ=RST, 'what digit does R represent', answer A=1) with her directly. Her gap: she doesn't spontaneously think to BOUND the problem -- i.e. reason 'PP and QQ are each at most 99 and 88 (different repeated digits), so the sum can't exceed 187, which is under 200, so R must be 1.' This bounding-the-extremes strategy is the standard approach for 'what digit must this be' cryptarithm questions and she doesn't reach for it on her own yet. Real strategy gap, worth walking through explicitly as a named technique ('when a digit question asks what MUST be true, try bounding the max/min first') rather than just re-explaining this one problem.",
+   "parent_flagged_ambiguity_2026-10-11": "Parent raised a concern that the question wording ('what digit does R represent') isn't deterministic without the real original's 'PP and QQ need to be as large as possible' constraint, since R could in principle be 0. Checked this carefully: it does NOT hold up -- the question explicitly states 'each letter represents a different digit from 1 through 9,' which excludes 0 as a possible value for ANY letter including R, by the problem's own stated domain. Separately, since PP+QQ maxes out at 187 and must be >=100 for the sum to display as a 3-digit RST at all, R is forced to be 1 for every valid assignment (not just the 'largest possible' one) -- confirmed by construction with a concrete valid solution (P=8,Q=5,R=1,S=4,T=3: 88+55=143, all 5 digits distinct, none zero). The 'as large as possible' phrase in the real original problem was likely needed to pin down a UNIQUE value of S or T (which DO vary across valid P,Q choices), not R, which is invariant. So this problem's phrasing is fine as published -- no live-worksheet fix made. Documenting the reasoning here in case it needs revisiting."
   },
   {
    "topic": "Key-word NOT in equivalence questions",
@@ -312,11 +319,13 @@
    "wrong": 3,
    "graded": 6,
    "habits": [
-    "decimal-vs-nonnice-fraction"
+    "decimal-vs-nonnice-fraction",
+    "benchmark-0.5-fluency"
    ],
    "priority": "high",
    "evidence_2026-10-07": "Set 2 (2026-10-06): real gap, 2/3 wrong \u2014 see reviews/speed-set-2-review-2026-10-07.html",
-   "mechanism_2026-10-11": "This tag was flagged in set 2 but never had a documented cause -- the mechanism was confirmed 2026-10-11 by watching her work set 3 #21 (a different topic, Total Shaded Area, same tag -- see that topic's mechanism_2026-10-11 note for the full writeup). Short version: her go-to fraction-to-percent method scales the ORIGINAL denominator straight to 100, which only works cleanly when that denominator is already a factor of 100. She doesn't reliably fall back to simplifying first or long division when it isn't. Likely the same mechanism behind the misses on Equivalent Fractions/Decimals/Percents and Converting to a Decimal (same cluster, same conversion skill) -- hypothesis, not yet directly observed on those two specifically."
+   "mechanism_2026-10-11": "This tag was flagged in set 2 but never had a documented cause -- the mechanism was confirmed 2026-10-11 by watching her work set 3 #21 (a different topic, Total Shaded Area, same tag -- see that topic's mechanism_2026-10-11 note for the full writeup). Short version: her go-to fraction-to-percent method scales the ORIGINAL denominator straight to 100, which only works cleanly when that denominator is already a factor of 100. She doesn't reliably fall back to simplifying first or long division when it isn't. Likely the same mechanism behind the misses on Equivalent Fractions/Decimals/Percents and Converting to a Decimal (same cluster, same conversion skill) -- hypothesis, not yet directly observed on those two specifically.",
+   "benchmark_mechanism_2026-10-11": "Separate, more specific issue confirmed on set 3 #12 (order 5/9, 0.52, 7/15 least to greatest): parent told her 7/15 < 0.5 because 7/14 = 0.5 exactly and 15 > 14, so 7/15 is a touch less. Once given that comparison-to-0.5 technique, she could apply it fine -- so this is NOT a conceptual gap in benchmark comparison. The gap is that she isn't automatically reaching for 0.5 as a benchmark unless it's a 'well-known' near-half (8/16, 3/6, 4/8 -- numerator obviously close to half the denominator by inspection). A less common pairing like 7/15 (needs a quick check: is 15 even? half of 15 is 7.5, so 7 < 7.5 means <0.5) doesn't trigger the same instinct. Fix target: practice the 0.5-benchmark technique specifically on less-obvious/odd-denominator fractions, not just the easy-to-spot ones -- fluency/automaticity gap, not understanding gap."
   },
   {
    "topic": "Interpreting Pictographs",
@@ -406,8 +415,9 @@
    "real_tests_note": "not yet cross-checked against official-test tagging as of 2026-10-11; introduced via set 3 (book/platform-sourced)",
    "wrong": 1,
    "graded": 3,
-   "habits": [],
-   "priority": "unknown"
+   "habits": ["first-order-only pattern reading"],
+   "priority": "medium",
+   "mechanism_2026-10-11": "Parent discussed set 3 #6 with her directly (5, 11, 23, 47, ___; differences double 6,12,24,48; answer 95; she picked 94 = just doubling the last term). Diagnosis: she's solid on FIRST-ORDER patterns -- where the terms themselves have a constant gap, or the terms themselves double/follow an obvious rule. She struggles when the pattern lives in the SECOND ORDER -- i.e. when the DIFFERENCES between terms are what's changing at a steady pace or doubling, not the terms directly. On #6 specifically she fell for exactly this: doubled the term (47->94) instead of checking the differences first. Fix target: practice explicitly computing the difference sequence as a first step on any pattern problem, before trying to spot a rule in the raw terms -- a specific strategy gap, not vague 'needs more practice with patterns.'"
   },
   {
    "topic": "Identifying Correct Conclusions from Bar Graph Data Table",
