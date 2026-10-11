@@ -78,7 +78,8 @@
    "wrong": 6,
    "graded": 32,
    "habits": [],
-   "priority": "medium"
+   "priority": "medium",
+   "hypothesis_2026-10-11": "Possibly the same 'decimal-vs-nonnice-fraction' mechanism confirmed on Total Shaded Area #21 and already tagged on Comparing & Ordering Fractions & Decimals (same cluster, same skill: scaling the original denominator straight to 100/a power of 10 instead of simplifying first or using long division when it doesn't divide cleanly). Not yet directly observed on this specific topic -- when grading the next wrong answer here, check whether her work shows this exact pattern before confirming it."
   },
   {
    "topic": "Equivalent Fractions, Decimals, and Percents",
@@ -89,7 +90,8 @@
    "habits": [
     "key-word-watch"
    ],
-   "priority": "medium"
+   "priority": "medium",
+   "hypothesis_2026-10-11": "Possibly also the 'decimal-vs-nonnice-fraction' mechanism confirmed on Total Shaded Area #21 (scaling the original denominator straight to 100 instead of simplifying first or using long division when it doesn't divide cleanly) -- same cluster, same conversion skill. Not yet directly observed here; existing 'key-word-watch' habit is a separate, already-confirmed issue -- both could be in play. Check her work on the next wrong answer here before confirming."
   },
   {
    "topic": "Finding Ratios, given Probability",
@@ -313,7 +315,8 @@
     "decimal-vs-nonnice-fraction"
    ],
    "priority": "high",
-   "evidence_2026-10-07": "Set 2 (2026-10-06): real gap, 2/3 wrong \u2014 see reviews/speed-set-2-review-2026-10-07.html"
+   "evidence_2026-10-07": "Set 2 (2026-10-06): real gap, 2/3 wrong \u2014 see reviews/speed-set-2-review-2026-10-07.html",
+   "mechanism_2026-10-11": "This tag was flagged in set 2 but never had a documented cause -- the mechanism was confirmed 2026-10-11 by watching her work set 3 #21 (a different topic, Total Shaded Area, same tag -- see that topic's mechanism_2026-10-11 note for the full writeup). Short version: her go-to fraction-to-percent method scales the ORIGINAL denominator straight to 100, which only works cleanly when that denominator is already a factor of 100. She doesn't reliably fall back to simplifying first or long division when it isn't. Likely the same mechanism behind the misses on Equivalent Fractions/Decimals/Percents and Converting to a Decimal (same cluster, same conversion skill) -- hypothesis, not yet directly observed on those two specifically."
   },
   {
    "topic": "Interpreting Pictographs",
@@ -430,8 +433,9 @@
    "real_tests_note": "not yet cross-checked against official-test tagging as of 2026-10-11; introduced via set 3 (book/platform-sourced)",
    "wrong": 1,
    "graded": 2,
-   "habits": [],
-   "priority": "unknown",
+   "habits": ["decimal-vs-nonnice-fraction"],
+   "priority": "high",
+   "mechanism_2026-10-11": "CONFIRMED (parent watched her work #21 directly, 9/15 shaded): her default fraction-to-percent method is 'find x so that denominator x x = 100, then numerator x x' -- i.e. scale the ORIGINAL denominator straight to 100. This only produces a clean answer when the denominator is already a factor of 100 (2,4,5,10,20,25,50...). 15 is not (100/15 isn't a whole number), so the method breaks down and she mis-converts (landed on 90% instead of 60%). She has two reliable fallbacks available but doesn't default to either: (1) simplify the fraction FIRST, then scale -- 9/15 -> 3/5, and 5 IS a factor of 100 (x20), giving 3x20=60% cleanly; (2) direct long division, 9÷15=0.6=60%, which always works regardless of the denominator. This is the actual mechanism behind the existing 'decimal-vs-nonnice-fraction' habit tag (flagged in set 2 but never written up with a cause) -- not a concept gap (she understands fraction=percent equivalence fine), a PROCEDURE gap: no reliable fallback when the quick mental shortcut doesn't land on a whole number.",
    "note": "underlying skill is the same fraction-to-percent conversion as [[decimal-fraction-percent cluster]] -- the question literally asks 'what percent of the figure is shaded,' method is count shaded/total then simplify and convert (set 3 #21: 9/15 -> 3/5 -> 60%, she answered 90%). Only a 1-item sample so far, but ties this topic to the broader recurring cluster (Comparing & Ordering Fractions & Decimals, Equivalent Fractions/Decimals/Percents, Converting to a Decimal) rather than treating it as an isolated geometry miss.",
    "format_note_2026-10-11": "Found by the same new automated check that caught #23/#37's format issue: set 3's other slot for this topic, #22, had NO diagram either -- it stated the fraction directly in text ('if 5/8 of the figure is shaded...') instead of showing a figure for her to read the fraction off of, unlike every real-test example of this topic which always shows a figure. She answered #22 correctly, so the graded outcome doesn't change, but the problem wasn't testing the real skill (just 5/8 x 24, no figure-reading). Fixed live worksheet: now shows an 8-section grid with 5 shaded, same convention as #21."
   },
