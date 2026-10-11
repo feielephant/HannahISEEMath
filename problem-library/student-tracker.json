@@ -430,7 +430,8 @@
    "wrong": 1,
    "graded": 2,
    "habits": [],
-   "priority": "unknown"
+   "priority": "unknown",
+   "note": "underlying skill is the same fraction-to-percent conversion as [[decimal-fraction-percent cluster]] -- the question literally asks 'what percent of the figure is shaded,' method is count shaded/total then simplify and convert (set 3 #21: 9/15 -> 3/5 -> 60%, she answered 90%). Only a 1-item sample so far, but ties this topic to the broader recurring cluster (Comparing & Ordering Fractions & Decimals, Equivalent Fractions/Decimals/Percents, Converting to a Decimal) rather than treating it as an isolated geometry miss."
   },
   {
    "topic": "Split Line Segments",
@@ -438,9 +439,9 @@
    "real_tests_note": "not yet cross-checked against official-test tagging as of 2026-10-11; introduced via set 3 (book/platform-sourced)",
    "wrong": 2,
    "graded": 2,
-   "habits": ["possible distance-vs-midpoint confusion (first answer on #23 was the raw A-to-C distance, not the midpoint) -- unconfirmed, see evidence_note"],
-   "priority": "needs-retest",
-   "evidence_note": "set 3 had 2 slots (#23, #37), and NEITHER is a clean data point (caught 2026-10-11). #37's diagram had a confirmed bug (no numeric scale). #23 isn't in the real test's actual format for this content: every real 'X is the midpoint between Y and Z' problem in the library shows a diagram and has the student read the point values off it -- #23 instead stated them directly in the text ('A is at 14'), skipping that step, a different and likely easier task than the authentic one. Her first answer (36 = raw distance) still looks like a real mix-up, but since the task wasn't authentic we can't be confident it predicts how she'd do on a real, diagrammed version. Kept both in the raw wrong/graded count rather than discarding either -- retest this topic in set 4 with a correctly-formatted, diagrammed problem before drawing any conclusion."
+   "habits": ["distance-vs-midpoint confusion on #23/#37 now looks bug-caused, not a real habit -- see evidence_note"],
+   "priority": "low",
+   "evidence_note": "set 3 had 2 slots (#23, #37), and NEITHER was a clean data point (caught 2026-10-11): #37's diagram had a confirmed bug (no numeric scale), and #23 skipped the diagram entirely, stating point values directly in the text instead of having her read them off a number line like every real 'X is the midpoint of Y and Z' problem does. Both fixed on the live worksheet same day. Retest (2026-10-11, informal -- parent had her redo both directly, not inside a new timed set): correct on both, each in under 1.5 minutes. Consistent with the format bugs causing the original misses rather than a genuine gap, though not fully conclusive since it was a repeat of problems she'd just missed, not fresh ones. Downgraded from needs-retest to low priority; reopen if a *new* Split Line Segments problem produces another miss in a future set. Raw wrong/graded left as 2/2 since that's what happened on set 3."
   },
   {
    "topic": "Finding Unit Price",

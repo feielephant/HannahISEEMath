@@ -197,7 +197,9 @@ def _choices_html(p, her_final):
 def build_review_html(problems, grading, notes, title, out_path, flagged=None):
     """notes: {problem_num: dict(kind='gap'|'careless'|'uncertain', title=.., body=..)}
     One entry expected per wrong problem. Missing ones render as NEEDS DIAGNOSIS,
-    on purpose -- this is the safety net against shipping an unreviewed problem."""
+    on purpose -- this is the safety net against shipping an unreviewed problem.
+    Each wrong-problem card links to the NEXT wrong problem (wrapping around),
+    not back to the top jumplist -- lets you review misses one after another."""
     flagged = flagged or set()
     wrong = grading['wrong']
     rows_data = grading['rows']
@@ -257,7 +259,11 @@ def build_review_html(problems, grading, notes, title, out_path, flagged=None):
                 elif n in grading['wrong_to_wrong']:
                     change_badge = '<span class="chg chg-neutral">still wrong</span>'
             final = r['final_answer']
-        backlink = '<a class="backlink" href="#wronglist">↑ back to list</a>' if is_wrong else ''
+        if is_wrong:
+            next_wrong = wrong[(wrong.index(n) + 1) % len(wrong)]
+            backlink = f'<a class="backlink" href="#q{next_wrong}">next missed →</a>'
+        else:
+            backlink = ''
         card = (f'<div class="{card_cls}" id="q{n}">'
                 f'<div class="row1"><span class="num">#{n} · {p["topic"]} · {p["tier"]}</span>'
                 f'<span class="row1-right">{backlink}<span class="badge {badge}">{badge.capitalize()}</span></span></div>'
