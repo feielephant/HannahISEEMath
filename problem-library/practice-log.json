@@ -419,7 +419,7 @@
   {
    "set_no": 4,
    "topics": [
-    "Determining The Final Time",
+    "Finding Unit Price",
     "Comparing & Ordering Fractions & Decimals",
     "Remainder when Divided by a given Number",
     "Estimating Sums Differences of Decimal Numbers",
@@ -457,8 +457,7 @@
     "Divisibility / number constraints (Serena/Who am I style)",
     "Solving Problems with Geometric Formulas",
     "Data Collection & Random Sampling"
-   ],
-   "published_commit": "2c097c1dccac464afd8d204b33323b9420da737c"
+   ]
   }
  ],
  "rotation_notes": {
@@ -518,41 +517,6 @@
     "figure pattern (linear)"
    ],
    "published_commit": "0cedc5247326844fa1f5814aa519be3c0f7bb7ec"
-  },
-  {
-   "set_no": 2,
-   "topics": [
-    "number line (evenly spaced marks)",
-    "divisibility by 7",
-    "function machine rule (output = 3 \u00d7 input + 3)",
-    "mode",
-    "range (missing value)",
-    "median (even count)",
-    "average (missing value)",
-    "classifying a quadrilateral from coordinates",
-    "perimeter from coordinates",
-    "percent equivalence",
-    "signed numbers (elevation, multi-step)",
-    "divisibility by 6 and 8",
-    "multiples (common multiple)",
-    "comparing fraction to decimal",
-    "decimal place value",
-    "ordering fractions (unlike denominators)",
-    "perimeter from area",
-    "fraction of a quantity",
-    "probability of one event",
-    "time zones (ahead)",
-    "estimating with money (expression)",
-    "reading a bar graph (difference)",
-    "always-true statement about shapes",
-    "distributive property (subtraction)",
-    "multi-step word problem (fraction then sum)",
-    "number words to standard form",
-    "identifying shapes by properties",
-    "average using a number line (missing point)",
-    "dividing a whole number into equal parts",
-    "pattern (square numbers)"
-   ]
   }
  ],
  "ma_notes": {
