@@ -59,6 +59,10 @@ function goTo(n){
 }
 document.getElementById("prev").addEventListener("click",function(){ goTo(idx-1); });
 document.getElementById("next").addEventListener("click",function(){ goTo(idx+1); });
+document.addEventListener("keydown",function(e){
+  if(e.key==="ArrowLeft"){ e.preventDefault(); goTo(idx-1); }
+  else if(e.key==="ArrowRight"){ e.preventDefault(); goTo(idx+1); }
+});
 document.addEventListener("click",function(e){
   if(e.target.id==="clr"){
     if(confirm("Clear all answers, times, and the timer?")){
