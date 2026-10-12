@@ -18,7 +18,7 @@ Purpose: generate 38-problem Quantitative Reasoning practice sets (matched to th
 1. Run `python3 plan_set.py` in problem-library/ — it prints the 38-slot plan and appends to practice-log.json.
 2. For each slot, write one NEW problem on that topic and tier. Use real examples from problem_library.json as the model (same wording style, same number of steps), but fresh numbers and scenario. Never copy a real question verbatim.
 3. Check every problem by solving it. Build the answer key from the solved values, not from memory. Make distractors reflect her habit traps (for example, a "NOT" question with an equivalent answer as the trap; a percent-change question with the +10%/−10% cancel trap).
-4. Build the worksheet (no answers shown) and a separate answer key. Add a 35-minute timer.
+4. Build the worksheet (no answers shown) and a separate answer key. Add a 35-minute timer. The live worksheet must use `speed-tools/harness_v2_template.js` (one problem per page, index nav, timer top-right) -- see that file's README entry for why and how. The answer key stays full-page/scrollable, for quick parent review.
 5. After she takes the set, grade it and update student-tracker.json: wrong counts per topic, last practiced, and any new habit evidence.
 
 ## Set-shape rules (added 2026-10-02)
