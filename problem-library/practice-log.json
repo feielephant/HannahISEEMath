@@ -517,37 +517,7 @@
     "average (mean)",
     "figure pattern (linear)"
    ],
-   "published_commit": "47bc62634393675f5c39f497d8c3358a26267c91",
-   "graded_2026-10-11": {
-    "score": "23/30",
-    "wrong": [
-     8,
-     14,
-     15,
-     24,
-     28,
-     29,
-     30
-    ],
-    "blank": [],
-    "total_elapsed_minutes": 12.58,
-    "first_then_changed": {
-     "wrong_to_right": [],
-     "wrong_to_wrong": [
-      15
-     ],
-     "right_to_wrong": []
-    },
-    "notes_summary": {
-     "8": "Off-by-one position count on Nth-term pattern",
-     "14": "CONFOUNDED -- bar graph had no value labels as administered",
-     "15": "Multiplication fact slip, not a method gap",
-     "24": "CONFOUNDED -- bar graph had no value labels as administered",
-     "28": "Pictograph half-icon -- reading slip or genuinely ambiguous, unclear",
-     "29": "Place-value reading slip on word form, not a gap",
-     "30": "Only rounded one of the two numbers in an estimate"
-    }
-   }
+   "published_commit": "47bc62634393675f5c39f497d8c3358a26267c91"
   }
  ],
  "ma_notes": {
