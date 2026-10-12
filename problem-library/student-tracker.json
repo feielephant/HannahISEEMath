@@ -582,7 +582,7 @@
    "real_tests_note": "From ma_library.json: 1 real questions from past screenshots (What to Expect + ISEE Lower #1-4), 1 confirmed wrong. Not yet re-tested via our own MA practice sets (MA1 regenerated 2026-10-11, not yet taken)."
   },
   {
-   "topic": "Predicting the Next Shapes, given Progressive Pattern",
+   "topic": "Predicting the Next Shapes given Progressive Pattern",
    "tier": "Hard",
    "subject": "MA",
    "real_tests": 1,
@@ -593,7 +593,7 @@
    "real_tests_note": "From ma_library.json: 1 real questions from past screenshots (What to Expect + ISEE Lower #1-4), 1 confirmed wrong. Not yet re-tested via our own MA practice sets (MA1 regenerated 2026-10-11, not yet taken)."
   },
   {
-   "topic": "Equivalent Fractions, Decimals, and Percents",
+   "topic": "Equivalent Fractions Decimals and Percents",
    "tier": "Medium",
    "subject": "MA",
    "real_tests": 5,
@@ -648,7 +648,7 @@
    "real_tests_note": "From ma_library.json: 3 real questions from past screenshots (What to Expect + ISEE Lower #1-4), 1 confirmed wrong. Not yet re-tested via our own MA practice sets (MA1 regenerated 2026-10-11, not yet taken)."
   },
   {
-   "topic": "Finding MMMR, given Bar Graph/Data Table of Values",
+   "topic": "Finding MMMR given Bar Graph Data Table",
    "tier": "Medium",
    "subject": "MA",
    "real_tests": 4,
@@ -681,7 +681,7 @@
    "real_tests_note": "From ma_library.json: 4 real questions from past screenshots (What to Expect + ISEE Lower #1-4), 1 confirmed wrong. Not yet re-tested via our own MA practice sets (MA1 regenerated 2026-10-11, not yet taken)."
   },
   {
-   "topic": "Estimating Sums/Differences of Decimal Numbers",
+   "topic": "Estimating Sums Differences of Decimal Numbers",
    "tier": "Medium",
    "subject": "MA",
    "real_tests": 4,
@@ -747,7 +747,7 @@
    "real_tests_note": "From ma_library.json: 5 real questions from past screenshots (What to Expect + ISEE Lower #1-4), 0 confirmed wrong. Not yet re-tested via our own MA practice sets (MA1 regenerated 2026-10-11, not yet taken)."
   },
   {
-   "topic": "Comparing/Adding/Subtracting Bar Graph/Data Table Values",
+   "topic": "Comparing Adding Subtracting Bar Graph Data Table Values",
    "tier": "Easy",
    "subject": "MA",
    "real_tests": 5,
@@ -791,7 +791,7 @@
    "real_tests_note": "From ma_library.json: 4 real questions from past screenshots (What to Expect + ISEE Lower #1-4), 0 confirmed wrong. Not yet re-tested via our own MA practice sets (MA1 regenerated 2026-10-11, not yet taken)."
   },
   {
-   "topic": "Identifying Numbers, Standard Form <> Word Form",
+   "topic": "Identifying Numbers, Standard Form Word Form",
    "tier": "Easy",
    "subject": "MA",
    "real_tests": 3,
