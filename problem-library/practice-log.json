@@ -518,7 +518,72 @@
     "Identifying Numbers, Standard Form Word Form",
     "Estimating Multiplication & Division"
    ],
-   "published_commit": "93461a01ba90feb08d05acecf2a10c01afb47715"
+   "published_commit": "93461a01ba90feb08d05acecf2a10c01afb47715",
+   "graded_2026-10-13": {
+    "score": "25/30",
+    "wrong": [
+     1,
+     2,
+     4,
+     8,
+     13
+    ],
+    "blank": [],
+    "total_elapsed_minutes": 29.98,
+    "first_then_changed": {
+     "wrong_to_right": [
+      10,
+      12,
+      30
+     ],
+     "wrong_to_wrong": [],
+     "right_to_wrong": [
+      1
+     ]
+    },
+    "notes_summary": {
+     "1": "Real gap -- no quick-filter strategy for multi-condition divisibility",
+     "2": "Real gap -- estimating the remainder mentally instead of dividing it out",
+     "4": "Real gap -- did not derive the pattern from successive differences",
+     "8": "Real gap -- wrong nth-term formula, missing the (n-1) offset",
+     "13": "Real gap -- missed the word 'left' in the question"
+    }
+   }
+  },
+  {
+   "set_no": 2,
+   "topics": [
+    "Adding and Subtracting Decimals",
+    "Estimating Multiplication & Division",
+    "Determining Points on Number Lines",
+    "Comparing Adding Subtracting Bar Graph Data Table Values",
+    "Dividing Equally From a Total",
+    "Identifying Numbers, Standard Form Word Form",
+    "Finding MMMR given Bar Graph Data Table",
+    "Adding and Subtracting Integers",
+    "Nth Term, given Arithmetic Sequence, Progressive Pattern, etc.",
+    "Solving 1 Variable Equations",
+    "Identifying Number Properties",
+    "Interpreting Pictographs",
+    "Identifying Shapes",
+    "No Remainder when Divided by a given Number",
+    "Classification of Numbers, given a Set",
+    "Numerical Patterns",
+    "Determining Averages between Points on Number Lines",
+    "Remainder when Divided by a given Number",
+    "Multiplying and Dividing Whole Numbers",
+    "Estimating Sums Differences of Decimal Numbers",
+    "Finding Area/Perimeter of Rectangle, given Length & Width",
+    "Remaining Amount after Reducing by Fractions",
+    "Estimating Division with Money",
+    "Comparing & Ordering Fractions & Decimals",
+    "Equivalent Fractions Decimals and Percents",
+    "Adding and Subtracting Fractions",
+    "Determining Total Cost",
+    "Probability of 1 Event, given a List of Items",
+    "Time Zones",
+    "Order of Operations and Equivalence"
+   ]
   }
  ],
  "ma_notes": {

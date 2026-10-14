@@ -1,6 +1,6 @@
 {
  "student": "Hannah",
- "updated": "2026-10-11",
+ "updated": "2026-10-13",
  "test_format": {
   "problems": 38,
   "minutes": 35,
@@ -91,23 +91,6 @@
    "avg_seconds": 20.0
   },
   {
-   "topic": "Equivalent Fractions Decimals and Percents",
-   "tier": "Hard",
-   "real_tests": 6,
-   "wrong": 3,
-   "graded": 13,
-   "habits": [
-    "key-word-watch",
-    "off-by-10 (same tag as Multi-step unit conversion)"
-   ],
-   "priority": "high",
-   "hypothesis_2026-10-11": "Possibly also the 'decimal-vs-nonnice-fraction' mechanism confirmed on Total Shaded Area #21 (scaling the original denominator straight to 100 instead of simplifying first or using long division when it doesn't divide cleanly) -- same cluster, same conversion skill. Not yet directly observed here; existing 'key-word-watch' habit is a separate, already-confirmed issue -- both could be in play. Check her work on the next wrong answer here before confirming.",
-   "mechanism_2026-10-11_q19": "CONFIRMED on set 3 #19 ('Which value is equivalent to 0.045?', answer 9/200): the trap answers 9/20 and 45% both equal 0.45, not 0.045 -- exactly one decimal place / one zero off. This matches the EXISTING 'off-by-10' habit already tracked under 'Multi-step unit conversion (off-by-10, multi-step)' (confirmed set 2 #32, originally from an Elevate Prep drill) -- same cross-topic zero-miscounting pattern, new context, not a new issue. Not a fraction-conversion concept gap. Parent taught a general verification technique: to check if a decimal equals a candidate fraction, multiply the decimal by the denominator and see if it lands on the numerator (e.g. 0.045 x 200 = 9, confirms C; 0.045 x 20 = 0.9, not 9, rules out A) -- a good general cross-check that catches zero-count slips a surface eyeball comparison misses.",
-   "_sec_total": 71.0,
-   "_sec_n": 2,
-   "avg_seconds": 35.5
-  },
-  {
    "topic": "Finding Ratios given Probability",
    "tier": "Hard",
    "real_tests": 6,
@@ -196,10 +179,13 @@
    "tier": "Hard",
    "real_tests": 7,
    "wrong": 2,
-   "graded": 13,
+   "graded": 14,
    "habits": [],
    "priority": "maintain",
-   "ma_real_test_note": "Also has real MA-section evidence from ma_library.json: 1/2 wrong on actual past screenshots (pre-tutoring). Merged into this topic's combined QR+MA counts above."
+   "ma_real_test_note": "Also has real MA-section evidence from ma_library.json: 1/2 wrong on actual past screenshots (pre-tutoring). Merged into this topic's combined QR+MA counts above.",
+   "_sec_total": 49.0,
+   "_sec_n": 1,
+   "avg_seconds": 49.0
   },
   {
    "topic": "Multi-step unit conversion (off-by-10, multi-step)",
@@ -281,7 +267,7 @@
    "tier": "Medium",
    "real_tests": null,
    "wrong": 2,
-   "graded": 8,
+   "graded": 9,
    "habits": [
     "compute-both-sides",
     "estimation-division-number-sense"
@@ -289,25 +275,10 @@
    "priority": "high",
    "note": "estimation group: largest real gap; examples added 2026-10-03, no graded results yet",
    "evidence_2026-10-07": "Set 2 (2026-10-06): real gap confirmed, 2/3 wrong \u2014 see reviews/speed-set-2-review-2026-10-07.html",
-   "_sec_total": 279.0,
-   "_sec_n": 2,
-   "avg_seconds": 139.5,
+   "_sec_total": 419.0,
+   "_sec_n": 3,
+   "avg_seconds": 139.7,
    "ma_real_test_note": "Also has real MA-section evidence from ma_library.json: 0/3 wrong on actual past screenshots (pre-tutoring). Merged into this topic's combined QR+MA counts above."
-  },
-  {
-   "topic": "Estimating Sums Differences of Decimal Numbers",
-   "tier": "Medium",
-   "real_tests": null,
-   "wrong": 0,
-   "graded": 3,
-   "habits": [
-    "compute-both-sides"
-   ],
-   "priority": "high",
-   "note": "estimation group: largest real gap; examples added 2026-10-03, no graded results yet",
-   "_sec_total": 176.0,
-   "_sec_n": 1,
-   "avg_seconds": 176.0
   },
   {
    "topic": "Estimating Division with Money",
@@ -329,12 +300,16 @@
    "topic": "Remaining Amount after Reducing by Fractions",
    "tier": "Medium",
    "real_tests": null,
-   "wrong": 1,
-   "graded": 2,
+   "wrong": 2,
+   "graded": 3,
    "habits": [],
-   "priority": "medium",
+   "priority": "high",
    "note": "examples added 2026-10-03; no graded results yet",
-   "ma_real_test_note": "Also has real MA-section evidence from ma_library.json: 1/2 wrong on actual past screenshots (pre-tutoring). Merged into this topic's combined QR+MA counts above."
+   "ma_real_test_note": "Also has real MA-section evidence from ma_library.json: 1/2 wrong on actual past screenshots (pre-tutoring). Merged into this topic's combined QR+MA counts above.",
+   "_sec_total": 53.0,
+   "_sec_n": 1,
+   "avg_seconds": 53.0,
+   "habit_2026-10-13": "Confirmed MA1 #13 (2026-10-13): computes the intermediate value correctly but reports it instead of finishing the question (missed keyword \"left\"). Keyword-reading gap, not a computation gap."
   },
   {
    "topic": "3D shape from its net (unfolding a solid)",
@@ -355,7 +330,7 @@
    "tier": "Medium",
    "real_tests": null,
    "wrong": 4,
-   "graded": 12,
+   "graded": 13,
    "habits": [
     "decimal-vs-nonnice-fraction",
     "benchmark-0.5-fluency"
@@ -364,9 +339,9 @@
    "evidence_2026-10-07": "Set 2 (2026-10-06): real gap, 2/3 wrong \u2014 see reviews/speed-set-2-review-2026-10-07.html",
    "mechanism_2026-10-11": "This tag was flagged in set 2 but never had a documented cause -- the mechanism was confirmed 2026-10-11 by watching her work set 3 #21 (a different topic, Total Shaded Area, same tag -- see that topic's mechanism_2026-10-11 note for the full writeup). Short version: her go-to fraction-to-percent method scales the ORIGINAL denominator straight to 100, which only works cleanly when that denominator is already a factor of 100. She doesn't reliably fall back to simplifying first or long division when it isn't. Likely the same mechanism behind the misses on Equivalent Fractions/Decimals/Percents and Converting to a Decimal (same cluster, same conversion skill) -- hypothesis, not yet directly observed on those two specifically.",
    "benchmark_mechanism_2026-10-11": "Separate, more specific issue confirmed on set 3 #12 (order 5/9, 0.52, 7/15 least to greatest): parent told her 7/15 < 0.5 because 7/14 = 0.5 exactly and 15 > 14, so 7/15 is a touch less. Once given that comparison-to-0.5 technique, she could apply it fine -- so this is NOT a conceptual gap in benchmark comparison. The gap is that she isn't automatically reaching for 0.5 as a benchmark unless it's a 'well-known' near-half (8/16, 3/6, 4/8 -- numerator obviously close to half the denominator by inspection). A less common pairing like 7/15 (needs a quick check: is 15 even? half of 15 is 7.5, so 7 < 7.5 means <0.5) doesn't trigger the same instinct. Fix target: practice the 0.5-benchmark technique specifically on less-obvious/odd-denominator fractions, not just the easy-to-spot ones -- fluency/automaticity gap, not understanding gap.",
-   "_sec_total": 151.0,
-   "_sec_n": 3,
-   "avg_seconds": 50.3,
+   "_sec_total": 176.0,
+   "_sec_n": 4,
+   "avg_seconds": 44.0,
    "ma_real_test_note": "Also has real MA-section evidence from ma_library.json: 1/6 wrong on actual past screenshots (pre-tutoring). Merged into this topic's combined QR+MA counts above."
   },
   {
@@ -374,23 +349,29 @@
    "tier": "Easy",
    "real_tests": null,
    "wrong": 1,
-   "graded": 7,
+   "graded": 8,
    "habits": [],
    "priority": "medium",
    "evidence_2026-10-07": "CORRECTED 2026-10-07: #36 is not a pictograph/fractional-multiplier gap. Her first instinct on the real test was C = 54, the correct answer \u2014 she computed 4.5\u00d712 right the first time, then talked herself out of it (changed to A, then B, then back to A) in the last 1.5 seconds. This is the confidence/second-guessing habit also seen on #9 (in the opposite direction), not a gap in this topic. Removed the unconfirmed-fractional-multiplier habit and the retest flag \u2014 she knows this.",
    "format_note_2026-10-11": "Found by a new automated check (sanitize_diagrams.py's check_missing_diagram): all 3 set-2 slots for this topic (#10, #29, #36) had NO actual pictograph -- every value was stated directly in the question text ('Green got 7 stars', 'pizza got 16 votes', 'the chart shows 4\u00bd stickers'), which isn't how any real 'Interpreting Pictographs' example in the library does it (they all say 'the chart/graph below shows...' and expect her to read values off it). Set 2 was already taken, so this can't be fixed retroactively -- but it does mean #36's evidence above was gathered on a text-only version that never actually tested pictograph-reading, just mixed-number multiplication. The 2026-10-07 conclusion (confidence habit, not a gap) still stands on its own evidence (the flip-flop pattern), but genuine pictograph-interpretation itself remains untested. Fixed live worksheet (speed-set-2.html/-answer-key.html) with real star/dot pictographs so future reuse of this topic is authentic.",
-   "ma_real_test_note": "Also has real MA-section evidence from ma_library.json: 0/4 wrong on actual past screenshots (pre-tutoring). Merged into this topic's combined QR+MA counts above."
+   "ma_real_test_note": "Also has real MA-section evidence from ma_library.json: 0/4 wrong on actual past screenshots (pre-tutoring). Merged into this topic's combined QR+MA counts above.",
+   "_sec_total": 14.0,
+   "_sec_n": 1,
+   "avg_seconds": 14.0
   },
   {
    "topic": "Adding and Subtracting Decimals",
    "tier": "Easy",
    "real_tests": null,
    "wrong": 2,
-   "graded": 5,
+   "graded": 6,
    "habits": [],
    "priority": "medium",
    "evidence_2026-10-07": "Set 2 (2026-10-06): single-digit addition slip on review, not a method problem (#26)",
-   "ma_real_test_note": "Also has real MA-section evidence from ma_library.json: 1/3 wrong on actual past screenshots (pre-tutoring). Merged into this topic's combined QR+MA counts above."
+   "ma_real_test_note": "Also has real MA-section evidence from ma_library.json: 1/3 wrong on actual past screenshots (pre-tutoring). Merged into this topic's combined QR+MA counts above.",
+   "_sec_total": 175.0,
+   "_sec_n": 1,
+   "avg_seconds": 175.0
   },
   {
    "topic": "Solving for Missing Sides given Similar Figures",
@@ -466,17 +447,18 @@
    "topic": "Numerical Patterns",
    "tier": "Medium",
    "real_tests_note": "not yet cross-checked against official-test tagging as of 2026-10-11; introduced via set 3 (book/platform-sourced)",
-   "wrong": 2,
-   "graded": 4,
+   "wrong": 3,
+   "graded": 5,
    "habits": [
     "first-order-only pattern reading"
    ],
-   "priority": "medium",
+   "priority": "high",
    "mechanism_2026-10-11": "Parent discussed set 3 #6 with her directly (5, 11, 23, 47, ___; differences double 6,12,24,48; answer 95; she picked 94 = just doubling the last term). Diagnosis: she's solid on FIRST-ORDER patterns -- where the terms themselves have a constant gap, or the terms themselves double/follow an obvious rule. She struggles when the pattern lives in the SECOND ORDER -- i.e. when the DIFFERENCES between terms are what's changing at a steady pace or doubling, not the terms directly. On #6 specifically she fell for exactly this: doubled the term (47->94) instead of checking the differences first. Fix target: practice explicitly computing the difference sequence as a first step on any pattern problem, before trying to spot a rule in the raw terms -- a specific strategy gap, not vague 'needs more practice with patterns.'",
-   "_sec_total": 153.0,
-   "_sec_n": 3,
-   "avg_seconds": 51.0,
-   "ma_real_test_note": "Also has real MA-section evidence from ma_library.json: 1/1 wrong on actual past screenshots (pre-tutoring). Merged into this topic's combined QR+MA counts above."
+   "_sec_total": 245.0,
+   "_sec_n": 4,
+   "avg_seconds": 61.2,
+   "ma_real_test_note": "Also has real MA-section evidence from ma_library.json: 1/1 wrong on actual past screenshots (pre-tutoring). Merged into this topic's combined QR+MA counts above.",
+   "habit_2026-10-13": "Confirmed MA1 #4 (2026-10-13): did not derive the rule from successive differences (5,10,20 doubling); answered off-pattern. Fix: write out differences between given terms before extending."
   },
   {
    "topic": "Identifying Correct Conclusions from Bar Graph Data Table",
@@ -553,22 +535,29 @@
    "tier": "Hard",
    "subject": "MA",
    "real_tests": 3,
-   "wrong": 3,
-   "graded": 3,
+   "wrong": 4,
+   "graded": 4,
    "habits": [],
    "priority": "high",
-   "real_tests_note": "From ma_library.json: 3 real questions from past screenshots (What to Expect + ISEE Lower #1-4), 3 confirmed wrong. Not yet re-tested via our own MA practice sets (MA1 regenerated 2026-10-11, not yet taken)."
+   "real_tests_note": "From ma_library.json: 3 real questions from past screenshots (What to Expect + ISEE Lower #1-4), 3 confirmed wrong. Not yet re-tested via our own MA practice sets (MA1 regenerated 2026-10-11, not yet taken).",
+   "_sec_total": 8.0,
+   "_sec_n": 1,
+   "avg_seconds": 8.0
   },
   {
    "topic": "Remainder when Divided by a given Number",
    "tier": "Easy",
    "subject": "MA",
    "real_tests": 1,
-   "wrong": 1,
-   "graded": 1,
+   "wrong": 2,
+   "graded": 2,
    "habits": [],
-   "priority": "medium",
-   "real_tests_note": "From ma_library.json: 1 real questions from past screenshots (What to Expect + ISEE Lower #1-4), 1 confirmed wrong. Not yet re-tested via our own MA practice sets (MA1 regenerated 2026-10-11, not yet taken)."
+   "priority": "high",
+   "real_tests_note": "From ma_library.json: 1 real questions from past screenshots (What to Expect + ISEE Lower #1-4), 1 confirmed wrong. Not yet re-tested via our own MA practice sets (MA1 regenerated 2026-10-11, not yet taken).",
+   "_sec_total": 24.0,
+   "_sec_n": 1,
+   "avg_seconds": 24.0,
+   "habit_2026-10-13": "Confirmed MA1 #2 (2026-10-13): tries to guess the remainder mentally instead of dividing it out. Fix: default to working the division."
   },
   {
    "topic": "Time Zones",
@@ -576,10 +565,13 @@
    "subject": "MA",
    "real_tests": 1,
    "wrong": 1,
-   "graded": 1,
+   "graded": 2,
    "habits": [],
    "priority": "medium",
-   "real_tests_note": "From ma_library.json: 1 real questions from past screenshots (What to Expect + ISEE Lower #1-4), 1 confirmed wrong. Not yet re-tested via our own MA practice sets (MA1 regenerated 2026-10-11, not yet taken)."
+   "real_tests_note": "From ma_library.json: 1 real questions from past screenshots (What to Expect + ISEE Lower #1-4), 1 confirmed wrong. Not yet re-tested via our own MA practice sets (MA1 regenerated 2026-10-11, not yet taken).",
+   "_sec_total": 102.0,
+   "_sec_n": 1,
+   "avg_seconds": 102.0
   },
   {
    "topic": "Predicting the Next Shapes given Progressive Pattern",
@@ -587,32 +579,28 @@
    "subject": "MA",
    "real_tests": 1,
    "wrong": 1,
-   "graded": 1,
+   "graded": 2,
    "habits": [],
    "priority": "medium",
-   "real_tests_note": "From ma_library.json: 1 real questions from past screenshots (What to Expect + ISEE Lower #1-4), 1 confirmed wrong. Not yet re-tested via our own MA practice sets (MA1 regenerated 2026-10-11, not yet taken)."
-  },
-  {
-   "topic": "Equivalent Fractions Decimals and Percents",
-   "tier": "Medium",
-   "subject": "MA",
-   "real_tests": 5,
-   "wrong": 1,
-   "graded": 5,
-   "habits": [],
-   "priority": "medium",
-   "real_tests_note": "From ma_library.json: 5 real questions from past screenshots (What to Expect + ISEE Lower #1-4), 1 confirmed wrong. Not yet re-tested via our own MA practice sets (MA1 regenerated 2026-10-11, not yet taken)."
+   "real_tests_note": "From ma_library.json: 1 real questions from past screenshots (What to Expect + ISEE Lower #1-4), 1 confirmed wrong. Not yet re-tested via our own MA practice sets (MA1 regenerated 2026-10-11, not yet taken).",
+   "_sec_total": 22.0,
+   "_sec_n": 1,
+   "avg_seconds": 22.0
   },
   {
    "topic": "Nth Term, given Arithmetic Sequence, Progressive Pattern, etc.",
    "tier": "Easy",
    "subject": "MA",
    "real_tests": 4,
-   "wrong": 1,
-   "graded": 4,
+   "wrong": 2,
+   "graded": 5,
    "habits": [],
-   "priority": "medium",
-   "real_tests_note": "From ma_library.json: 4 real questions from past screenshots (What to Expect + ISEE Lower #1-4), 1 confirmed wrong. Not yet re-tested via our own MA practice sets (MA1 regenerated 2026-10-11, not yet taken)."
+   "priority": "high",
+   "real_tests_note": "From ma_library.json: 4 real questions from past screenshots (What to Expect + ISEE Lower #1-4), 1 confirmed wrong. Not yet re-tested via our own MA practice sets (MA1 regenerated 2026-10-11, not yet taken).",
+   "_sec_total": 33.0,
+   "_sec_n": 1,
+   "avg_seconds": 33.0,
+   "habit_2026-10-13": "Confirmed MA1 #8 (2026-10-13): uses n*step+first instead of (n-1)*step+first -- consistently one term ahead. A formula gap, needs direct nth-term-formula practice."
   },
   {
    "topic": "Classification of Numbers, given a Set",
@@ -620,10 +608,13 @@
    "subject": "MA",
    "real_tests": 4,
    "wrong": 1,
-   "graded": 4,
+   "graded": 5,
    "habits": [],
    "priority": "medium",
-   "real_tests_note": "From ma_library.json: 4 real questions from past screenshots (What to Expect + ISEE Lower #1-4), 1 confirmed wrong. Not yet re-tested via our own MA practice sets (MA1 regenerated 2026-10-11, not yet taken)."
+   "real_tests_note": "From ma_library.json: 4 real questions from past screenshots (What to Expect + ISEE Lower #1-4), 1 confirmed wrong. Not yet re-tested via our own MA practice sets (MA1 regenerated 2026-10-11, not yet taken).",
+   "_sec_total": 8.0,
+   "_sec_n": 1,
+   "avg_seconds": 8.0
   },
   {
    "topic": "Identifying Number Properties",
@@ -631,10 +622,13 @@
    "subject": "MA",
    "real_tests": 2,
    "wrong": 1,
-   "graded": 2,
+   "graded": 3,
    "habits": [],
    "priority": "high",
-   "real_tests_note": "From ma_library.json: 2 real questions from past screenshots (What to Expect + ISEE Lower #1-4), 1 confirmed wrong. Not yet re-tested via our own MA practice sets (MA1 regenerated 2026-10-11, not yet taken)."
+   "real_tests_note": "From ma_library.json: 2 real questions from past screenshots (What to Expect + ISEE Lower #1-4), 1 confirmed wrong. Not yet re-tested via our own MA practice sets (MA1 regenerated 2026-10-11, not yet taken).",
+   "_sec_total": 44.0,
+   "_sec_n": 1,
+   "avg_seconds": 44.0
   },
   {
    "topic": "Determining Total Cost",
@@ -642,10 +636,13 @@
    "subject": "MA",
    "real_tests": 3,
    "wrong": 1,
-   "graded": 3,
+   "graded": 4,
    "habits": [],
    "priority": "medium",
-   "real_tests_note": "From ma_library.json: 3 real questions from past screenshots (What to Expect + ISEE Lower #1-4), 1 confirmed wrong. Not yet re-tested via our own MA practice sets (MA1 regenerated 2026-10-11, not yet taken)."
+   "real_tests_note": "From ma_library.json: 3 real questions from past screenshots (What to Expect + ISEE Lower #1-4), 1 confirmed wrong. Not yet re-tested via our own MA practice sets (MA1 regenerated 2026-10-11, not yet taken).",
+   "_sec_total": 119.0,
+   "_sec_n": 1,
+   "avg_seconds": 119.0
   },
   {
    "topic": "Finding MMMR given Bar Graph Data Table",
@@ -653,10 +650,13 @@
    "subject": "MA",
    "real_tests": 4,
    "wrong": 1,
-   "graded": 4,
+   "graded": 5,
    "habits": [],
    "priority": "medium",
-   "real_tests_note": "From ma_library.json: 4 real questions from past screenshots (What to Expect + ISEE Lower #1-4), 1 confirmed wrong. Not yet re-tested via our own MA practice sets (MA1 regenerated 2026-10-11, not yet taken)."
+   "real_tests_note": "From ma_library.json: 4 real questions from past screenshots (What to Expect + ISEE Lower #1-4), 1 confirmed wrong. Not yet re-tested via our own MA practice sets (MA1 regenerated 2026-10-11, not yet taken).",
+   "_sec_total": 215.0,
+   "_sec_n": 1,
+   "avg_seconds": 215.0
   },
   {
    "topic": "Multiplying and Dividing Whole Numbers",
@@ -664,10 +664,13 @@
    "subject": "MA",
    "real_tests": 3,
    "wrong": 1,
-   "graded": 3,
+   "graded": 4,
    "habits": [],
    "priority": "medium",
-   "real_tests_note": "From ma_library.json: 3 real questions from past screenshots (What to Expect + ISEE Lower #1-4), 1 confirmed wrong. Not yet re-tested via our own MA practice sets (MA1 regenerated 2026-10-11, not yet taken)."
+   "real_tests_note": "From ma_library.json: 3 real questions from past screenshots (What to Expect + ISEE Lower #1-4), 1 confirmed wrong. Not yet re-tested via our own MA practice sets (MA1 regenerated 2026-10-11, not yet taken).",
+   "_sec_total": 58.0,
+   "_sec_n": 1,
+   "avg_seconds": 58.0
   },
   {
    "topic": "Identifying Shapes",
@@ -675,21 +678,13 @@
    "subject": "MA",
    "real_tests": 4,
    "wrong": 1,
-   "graded": 4,
+   "graded": 5,
    "habits": [],
    "priority": "medium",
-   "real_tests_note": "From ma_library.json: 4 real questions from past screenshots (What to Expect + ISEE Lower #1-4), 1 confirmed wrong. Not yet re-tested via our own MA practice sets (MA1 regenerated 2026-10-11, not yet taken)."
-  },
-  {
-   "topic": "Estimating Sums Differences of Decimal Numbers",
-   "tier": "Medium",
-   "subject": "MA",
-   "real_tests": 4,
-   "wrong": 1,
-   "graded": 4,
-   "habits": [],
-   "priority": "medium",
-   "real_tests_note": "From ma_library.json: 4 real questions from past screenshots (What to Expect + ISEE Lower #1-4), 1 confirmed wrong. Not yet re-tested via our own MA practice sets (MA1 regenerated 2026-10-11, not yet taken)."
+   "real_tests_note": "From ma_library.json: 4 real questions from past screenshots (What to Expect + ISEE Lower #1-4), 1 confirmed wrong. Not yet re-tested via our own MA practice sets (MA1 regenerated 2026-10-11, not yet taken).",
+   "_sec_total": 16.0,
+   "_sec_n": 1,
+   "avg_seconds": 16.0
   },
   {
    "topic": "Finding Area/Perimeter of Rectangle, given Length & Width",
@@ -697,10 +692,13 @@
    "subject": "MA",
    "real_tests": 6,
    "wrong": 1,
-   "graded": 6,
+   "graded": 7,
    "habits": [],
    "priority": "medium",
-   "real_tests_note": "From ma_library.json: 6 real questions from past screenshots (What to Expect + ISEE Lower #1-4), 1 confirmed wrong. Not yet re-tested via our own MA practice sets (MA1 regenerated 2026-10-11, not yet taken)."
+   "real_tests_note": "From ma_library.json: 6 real questions from past screenshots (What to Expect + ISEE Lower #1-4), 1 confirmed wrong. Not yet re-tested via our own MA practice sets (MA1 regenerated 2026-10-11, not yet taken).",
+   "_sec_total": 11.0,
+   "_sec_n": 1,
+   "avg_seconds": 11.0
   },
   {
    "topic": "Probability of 1 Event, given a List of Items",
@@ -708,10 +706,13 @@
    "subject": "MA",
    "real_tests": 6,
    "wrong": 1,
-   "graded": 6,
+   "graded": 7,
    "habits": [],
    "priority": "medium",
-   "real_tests_note": "From ma_library.json: 6 real questions from past screenshots (What to Expect + ISEE Lower #1-4), 1 confirmed wrong. Not yet re-tested via our own MA practice sets (MA1 regenerated 2026-10-11, not yet taken)."
+   "real_tests_note": "From ma_library.json: 6 real questions from past screenshots (What to Expect + ISEE Lower #1-4), 1 confirmed wrong. Not yet re-tested via our own MA practice sets (MA1 regenerated 2026-10-11, not yet taken).",
+   "_sec_total": 16.0,
+   "_sec_n": 1,
+   "avg_seconds": 16.0
   },
   {
    "topic": "Adding and Subtracting Integers",
@@ -719,10 +720,13 @@
    "subject": "MA",
    "real_tests": 7,
    "wrong": 0,
-   "graded": 7,
+   "graded": 8,
    "habits": [],
    "priority": "maintain",
-   "real_tests_note": "From ma_library.json: 7 real questions from past screenshots (What to Expect + ISEE Lower #1-4), 0 confirmed wrong. Not yet re-tested via our own MA practice sets (MA1 regenerated 2026-10-11, not yet taken)."
+   "real_tests_note": "From ma_library.json: 7 real questions from past screenshots (What to Expect + ISEE Lower #1-4), 0 confirmed wrong. Not yet re-tested via our own MA practice sets (MA1 regenerated 2026-10-11, not yet taken).",
+   "_sec_total": 47.0,
+   "_sec_n": 1,
+   "avg_seconds": 47.0
   },
   {
    "topic": "Solving 1 Variable Equations",
@@ -730,10 +734,13 @@
    "subject": "MA",
    "real_tests": 6,
    "wrong": 0,
-   "graded": 6,
+   "graded": 7,
    "habits": [],
    "priority": "maintain",
-   "real_tests_note": "From ma_library.json: 6 real questions from past screenshots (What to Expect + ISEE Lower #1-4), 0 confirmed wrong. Not yet re-tested via our own MA practice sets (MA1 regenerated 2026-10-11, not yet taken)."
+   "real_tests_note": "From ma_library.json: 6 real questions from past screenshots (What to Expect + ISEE Lower #1-4), 0 confirmed wrong. Not yet re-tested via our own MA practice sets (MA1 regenerated 2026-10-11, not yet taken).",
+   "_sec_total": 110.0,
+   "_sec_n": 1,
+   "avg_seconds": 110.0
   },
   {
    "topic": "Order of Operations and Equivalence",
@@ -741,10 +748,13 @@
    "subject": "MA",
    "real_tests": 5,
    "wrong": 0,
-   "graded": 5,
+   "graded": 6,
    "habits": [],
    "priority": "maintain",
-   "real_tests_note": "From ma_library.json: 5 real questions from past screenshots (What to Expect + ISEE Lower #1-4), 0 confirmed wrong. Not yet re-tested via our own MA practice sets (MA1 regenerated 2026-10-11, not yet taken)."
+   "real_tests_note": "From ma_library.json: 5 real questions from past screenshots (What to Expect + ISEE Lower #1-4), 0 confirmed wrong. Not yet re-tested via our own MA practice sets (MA1 regenerated 2026-10-11, not yet taken).",
+   "_sec_total": 80.0,
+   "_sec_n": 1,
+   "avg_seconds": 80.0
   },
   {
    "topic": "Comparing Adding Subtracting Bar Graph Data Table Values",
@@ -752,10 +762,13 @@
    "subject": "MA",
    "real_tests": 5,
    "wrong": 0,
-   "graded": 5,
+   "graded": 6,
    "habits": [],
    "priority": "maintain",
-   "real_tests_note": "From ma_library.json: 5 real questions from past screenshots (What to Expect + ISEE Lower #1-4), 0 confirmed wrong. Not yet re-tested via our own MA practice sets (MA1 regenerated 2026-10-11, not yet taken)."
+   "real_tests_note": "From ma_library.json: 5 real questions from past screenshots (What to Expect + ISEE Lower #1-4), 0 confirmed wrong. Not yet re-tested via our own MA practice sets (MA1 regenerated 2026-10-11, not yet taken).",
+   "_sec_total": 15.0,
+   "_sec_n": 1,
+   "avg_seconds": 15.0
   },
   {
    "topic": "Adding and Subtracting Fractions",
@@ -763,10 +776,13 @@
    "subject": "MA",
    "real_tests": 5,
    "wrong": 0,
-   "graded": 5,
+   "graded": 6,
    "habits": [],
    "priority": "maintain",
-   "real_tests_note": "From ma_library.json: 5 real questions from past screenshots (What to Expect + ISEE Lower #1-4), 0 confirmed wrong. Not yet re-tested via our own MA practice sets (MA1 regenerated 2026-10-11, not yet taken)."
+   "real_tests_note": "From ma_library.json: 5 real questions from past screenshots (What to Expect + ISEE Lower #1-4), 0 confirmed wrong. Not yet re-tested via our own MA practice sets (MA1 regenerated 2026-10-11, not yet taken).",
+   "_sec_total": 118.0,
+   "_sec_n": 1,
+   "avg_seconds": 118.0
   },
   {
    "topic": "Perimeter",
@@ -774,10 +790,13 @@
    "subject": "MA",
    "real_tests": 4,
    "wrong": 0,
-   "graded": 4,
+   "graded": 5,
    "habits": [],
    "priority": "maintain",
-   "real_tests_note": "From ma_library.json: 4 real questions from past screenshots (What to Expect + ISEE Lower #1-4), 0 confirmed wrong. Not yet re-tested via our own MA practice sets (MA1 regenerated 2026-10-11, not yet taken)."
+   "real_tests_note": "From ma_library.json: 4 real questions from past screenshots (What to Expect + ISEE Lower #1-4), 0 confirmed wrong. Not yet re-tested via our own MA practice sets (MA1 regenerated 2026-10-11, not yet taken).",
+   "_sec_total": 30.0,
+   "_sec_n": 1,
+   "avg_seconds": 30.0
   },
   {
    "topic": "Determining Points on Number Lines",
@@ -785,10 +804,13 @@
    "subject": "MA",
    "real_tests": 4,
    "wrong": 0,
-   "graded": 4,
+   "graded": 5,
    "habits": [],
    "priority": "maintain",
-   "real_tests_note": "From ma_library.json: 4 real questions from past screenshots (What to Expect + ISEE Lower #1-4), 0 confirmed wrong. Not yet re-tested via our own MA practice sets (MA1 regenerated 2026-10-11, not yet taken)."
+   "real_tests_note": "From ma_library.json: 4 real questions from past screenshots (What to Expect + ISEE Lower #1-4), 0 confirmed wrong. Not yet re-tested via our own MA practice sets (MA1 regenerated 2026-10-11, not yet taken).",
+   "_sec_total": 97.0,
+   "_sec_n": 1,
+   "avg_seconds": 97.0
   },
   {
    "topic": "Identifying Numbers, Standard Form Word Form",
@@ -796,10 +818,46 @@
    "subject": "MA",
    "real_tests": 3,
    "wrong": 0,
-   "graded": 3,
+   "graded": 4,
    "habits": [],
    "priority": "maintain",
-   "real_tests_note": "From ma_library.json: 3 real questions from past screenshots (What to Expect + ISEE Lower #1-4), 0 confirmed wrong. Not yet re-tested via our own MA practice sets (MA1 regenerated 2026-10-11, not yet taken)."
+   "real_tests_note": "From ma_library.json: 3 real questions from past screenshots (What to Expect + ISEE Lower #1-4), 0 confirmed wrong. Not yet re-tested via our own MA practice sets (MA1 regenerated 2026-10-11, not yet taken).",
+   "_sec_total": 12.0,
+   "_sec_n": 1,
+   "avg_seconds": 12.0
+  },
+  {
+   "topic": "Equivalent Fractions Decimals and Percents",
+   "tier": "Hard",
+   "real_tests": 6,
+   "wrong": 4,
+   "graded": 19,
+   "habits": [
+    "key-word-watch",
+    "off-by-10 (same tag as Multi-step unit conversion)"
+   ],
+   "priority": "high",
+   "hypothesis_2026-10-11": "Possibly also the 'decimal-vs-nonnice-fraction' mechanism confirmed on Total Shaded Area #21 (scaling the original denominator straight to 100 instead of simplifying first or using long division when it doesn't divide cleanly) -- same cluster, same conversion skill. Not yet directly observed here; existing 'key-word-watch' habit is a separate, already-confirmed issue -- both could be in play. Check her work on the next wrong answer here before confirming.",
+   "mechanism_2026-10-11_q19": "CONFIRMED on set 3 #19 ('Which value is equivalent to 0.045?', answer 9/200): the trap answers 9/20 and 45% both equal 0.45, not 0.045 -- exactly one decimal place / one zero off. This matches the EXISTING 'off-by-10' habit already tracked under 'Multi-step unit conversion (off-by-10, multi-step)' (confirmed set 2 #32, originally from an Elevate Prep drill) -- same cross-topic zero-miscounting pattern, new context, not a new issue. Not a fraction-conversion concept gap. Parent taught a general verification technique: to check if a decimal equals a candidate fraction, multiply the decimal by the denominator and see if it lands on the numerator (e.g. 0.045 x 200 = 9, confirms C; 0.045 x 20 = 0.9, not 9, rules out A) -- a good general cross-check that catches zero-count slips a surface eyeball comparison misses.",
+   "_sec_total": 101.0,
+   "_sec_n": 3,
+   "avg_seconds": 33.7,
+   "ma_real_tests_note": "From ma_library.json: 5 real questions from past screenshots (What to Expect + ISEE Lower #1-4), 1 confirmed wrong. Not yet re-tested via our own MA practice sets (MA1 regenerated 2026-10-11, not yet taken)."
+  },
+  {
+   "topic": "Estimating Sums Differences of Decimal Numbers",
+   "tier": "Medium",
+   "real_tests": 4,
+   "wrong": 1,
+   "graded": 8,
+   "habits": [
+    "compute-both-sides"
+   ],
+   "priority": "medium",
+   "real_tests_note": "From ma_library.json: 4 real questions from past screenshots (What to Expect + ISEE Lower #1-4), 1 confirmed wrong. Not yet re-tested via our own MA practice sets (MA1 regenerated 2026-10-11, not yet taken).",
+   "_sec_total": 212.0,
+   "_sec_n": 2,
+   "avg_seconds": 106.0
   }
  ],
  "pacing": {

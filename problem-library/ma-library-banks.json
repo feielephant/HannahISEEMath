@@ -1,0 +1,41 @@
+{
+ "Easy": [
+  "Adding and Subtracting Decimals",
+  "Adding and Subtracting Integers",
+  "Comparing Adding Subtracting Bar Graph Data Table Values",
+  "Determining Total Cost",
+  "Estimating Division with Money",
+  "Identifying Numbers, Standard Form Word Form",
+  "Interpreting Pictographs",
+  "Multiplying and Dividing Whole Numbers",
+  "Nth Term, given Arithmetic Sequence, Progressive Pattern, etc.",
+  "Perimeter",
+  "Remainder when Divided by a given Number",
+  "Solving 1 Variable Equations"
+ ],
+ "Medium": [
+  "Adding and Subtracting Fractions",
+  "Classification of Numbers, given a Set",
+  "Comparing & Ordering Fractions & Decimals",
+  "Determining Points on Number Lines",
+  "Dividing Equally From a Total",
+  "Estimating Multiplication & Division",
+  "Estimating Sums Differences of Decimal Numbers",
+  "Finding Area/Perimeter of Rectangle, given Length & Width",
+  "Finding MMMR given Bar Graph Data Table",
+  "Identifying Number Properties",
+  "Identifying Shapes",
+  "Numerical Patterns",
+  "Order of Operations and Equivalence",
+  "Probability of 1 Event, given a List of Items",
+  "Remaining Amount after Reducing by Fractions"
+ ],
+ "Hard": [
+  "Area of Triangles",
+  "Determining Averages between Points on Number Lines",
+  "Equivalent Fractions Decimals and Percents",
+  "No Remainder when Divided by a given Number",
+  "Predicting the Next Shapes given Progressive Pattern",
+  "Time Zones"
+ ]
+}
