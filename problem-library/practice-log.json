@@ -458,7 +458,89 @@
     "Solving Problems with Geometric Formulas",
     "Data Collection & Random Sampling"
    ],
-   "published_commit": "67c35f2c0d27b67703091d559dc3967908a0216f"
+   "published_commit": "67c35f2c0d27b67703091d559dc3967908a0216f",
+   "graded_2026-10-14": {
+    "score": "29/38",
+    "wrong": [
+     1,
+     3,
+     4,
+     6,
+     9,
+     11,
+     24,
+     26,
+     30
+    ],
+    "blank": [],
+    "total_elapsed_minutes": 34.95,
+    "first_then_changed": {
+     "wrong_to_right": [
+      10,
+      17,
+      37,
+      38
+     ],
+     "wrong_to_wrong": [
+      6
+     ],
+     "right_to_wrong": []
+    },
+    "notes_summary": {
+     "1": "Real gap -- division done in her head instead of on scratch paper",
+     "3": "Real gap -- same mechanism as MA1 #2, one day later",
+     "4": "Not a gap -- a real bug in the problem's own answer key",
+     "6": "First miss on this topic -- watch, do not raise priority yet",
+     "9": "Real gap -- same mechanism as MA1 #13, one day later",
+     "11": "Uncertain -- distractor not diagnostic, ask her to talk it through",
+     "24": "Voided -- known diagram bug, not counted as a gap",
+     "26": "Real gap -- assumed the number line started at 0",
+     "30": "Real gap -- same high-priority topic, same specific mistake again"
+    }
+   }
+  },
+  {
+   "set_no": 5,
+   "topics": [
+    "Area and Perimeter of Complex Polygons",
+    "Multi-step unit conversion (off-by-10, multi-step)",
+    "Determining Total Cost",
+    "Classification of Numbers, given a Set",
+    "Classification of Numbers, given a Set",
+    "Word Problems with Ratios",
+    "Numerical Patterns",
+    "Probability of 1 Event, given a List of Items",
+    "Best Unit of Measure",
+    "Comparing Adding Subtracting Bar Graph Data Table Values",
+    "Determining Total Cost",
+    "Identifying Shapes",
+    "Comparing & Ordering Fractions & Decimals",
+    "Total Shaded Area given Figure with Equal Divisions",
+    "Key-word NOT in equivalence questions",
+    "Remaining Amount after Reducing by Fractions",
+    "Nth Term, given Arithmetic Sequence, Progressive Pattern, etc.",
+    "No Remainder when Divided by a given Number",
+    "Converting to a Decimal",
+    "Multiplying and Dividing Whole Numbers",
+    "Identifying Number Properties",
+    "Probability (simple, equally likely outcomes)",
+    "Estimation (sums, products, money, ranges)",
+    "Estimating Multiplication & Division",
+    "Finding Area/Perimeter of Rectangle, given Length & Width",
+    "Divisibility / number constraints (Serena/Who am I style)",
+    "Multiplying and Dividing Whole Numbers",
+    "Translating Math Expressions",
+    "Adding and Subtracting Fractions",
+    "Predicting the Next Shapes given Progressive Pattern",
+    "Determining The Final Time",
+    "Finding MMMR given Bar Graph Data Table",
+    "Predicting the Next Shapes given Progressive Pattern",
+    "Remainder when Divided by a given Number",
+    "Percent Word Problems",
+    "Determining Points on Number Lines",
+    "Fractional Parts Word Problems",
+    "Equivalent Fractions Decimals and Percents"
+   ]
   }
  ],
  "rotation_notes": {

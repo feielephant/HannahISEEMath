@@ -1,6 +1,6 @@
 {
  "student": "Hannah",
- "updated": "2026-10-13",
+ "updated": "2026-10-14",
  "test_format": {
   "problems": 38,
   "minutes": 35,
@@ -18,24 +18,30 @@
    "topic": "Percent Word Problems",
    "tier": "Hard",
    "real_tests": 6,
-   "wrong": 8,
-   "graded": 27,
+   "wrong": 9,
+   "graded": 28,
    "habits": [
     "check-every-condition",
     "exact-thing-asked"
    ],
-   "priority": "high"
+   "priority": "high",
+   "_sec_total": 37.0,
+   "_sec_n": 1,
+   "avg_seconds": 37.0
   },
   {
    "topic": "Area and Perimeter of Complex Polygons",
    "tier": "Hard",
    "real_tests": 6,
-   "wrong": 4,
-   "graded": 11,
+   "wrong": 5,
+   "graded": 12,
    "habits": [
     "check-every-condition"
    ],
-   "priority": "high"
+   "priority": "high",
+   "_sec_total": 285.0,
+   "_sec_n": 1,
+   "avg_seconds": 285.0
   },
   {
    "topic": "Translating Math Expressions",
@@ -59,9 +65,12 @@
    "tier": "Hard",
    "real_tests": 4,
    "wrong": 2,
-   "graded": 5,
+   "graded": 6,
    "habits": [],
-   "priority": "medium"
+   "priority": "medium",
+   "_sec_total": 36.0,
+   "_sec_n": 1,
+   "avg_seconds": 36.0
   },
   {
    "topic": "Fractional Parts Word Problems",
@@ -95,11 +104,14 @@
    "tier": "Hard",
    "real_tests": 6,
    "wrong": 2,
-   "graded": 12,
+   "graded": 13,
    "habits": [
     "check-every-condition"
    ],
-   "priority": "medium"
+   "priority": "medium",
+   "_sec_total": 25.0,
+   "_sec_n": 1,
+   "avg_seconds": 25.0
   },
   {
    "topic": "Measurement Scaling",
@@ -115,13 +127,16 @@
    "topic": "Determining Averages between Points on Number Lines",
    "tier": "Hard",
    "real_tests": 3,
-   "wrong": 2,
-   "graded": 13,
+   "wrong": 3,
+   "graded": 14,
    "habits": [
     "exact-thing-asked"
    ],
    "priority": "medium",
-   "evidence_2026-10-04": "Determining Averages #2: Q1 marked wrong (picked C, correct D)"
+   "evidence_2026-10-04": "Determining Averages #2: Q1 marked wrong (picked C, correct D)",
+   "_sec_total": 79.0,
+   "_sec_n": 1,
+   "avg_seconds": 79.0
   },
   {
    "topic": "Number of Unique Paths Diagonals",
@@ -137,12 +152,15 @@
    "tier": "Hard",
    "real_tests": 2,
    "wrong": 0,
-   "graded": 3,
+   "graded": 4,
    "habits": [
     "check-every-condition",
     "use-all-data"
    ],
-   "priority": "medium"
+   "priority": "medium",
+   "_sec_total": 8.0,
+   "_sec_n": 1,
+   "avg_seconds": 8.0
   },
   {
    "topic": "Equilateral Triangles",
@@ -191,8 +209,8 @@
    "topic": "Multi-step unit conversion (off-by-10, multi-step)",
    "tier": "Medium",
    "real_tests": null,
-   "wrong": 1,
-   "graded": 4,
+   "wrong": 2,
+   "graded": 5,
    "habits": [
     "exact-thing-asked"
    ],
@@ -200,37 +218,40 @@
    "note": "7/10 multi-step wrong on Elevate Prep drill p.144; off-by-10 confirmed",
    "evidence_2026-10-07": "Set 2 (2026-10-06): miscounted a zero \u2014 matches the existing off-by-10 habit, not a new issue (#32)",
    "cross_reference_2026-10-11": "Same off-by-10 pattern confirmed again on set 3 #19 (Equivalent Fractions, Decimals, and Percents: 0.045 misread/treated as 0.45) -- see that topic's mechanism_2026-10-11_q19 note. Third confirmed instance of this habit now, across three different topics -- genuinely cross-topic, not tied to unit conversion specifically.",
-   "_sec_total": 24.0,
-   "_sec_n": 1,
-   "avg_seconds": 24.0
+   "_sec_total": 98.0,
+   "_sec_n": 2,
+   "avg_seconds": 49.0
   },
   {
    "topic": "Estimation (sums, products, money, ranges)",
    "tier": "Medium",
    "real_tests": null,
    "wrong": 4,
-   "graded": 10,
+   "graded": 11,
    "habits": [
     "compute-both-sides"
    ],
    "priority": "high",
-   "note": "biggest gap by count on official tests"
+   "note": "biggest gap by count on official tests",
+   "_sec_total": 59.0,
+   "_sec_n": 1,
+   "avg_seconds": 59.0
   },
   {
    "topic": "Divisibility / number constraints (Serena/Who am I style)",
    "tier": "Medium",
    "real_tests": null,
    "wrong": 4,
-   "graded": 16,
+   "graded": 17,
    "habits": [
     "check-every-condition",
     "use-all-data"
    ],
    "priority": "high",
    "evidence_2026-10-08": "INTEGRITY CAVEAT: found 2026-10-08 that every 'divisible by both X and Y' table in sets 1 and 2 had a design flaw -- the table showed yes/no checks for all 4 choices, and the correct answer was always the only all-yes row, visible on the worksheet itself (not just the key). That makes the table answerable by pattern-matching ('find the row with two yeses') without real divisibility reasoning. Affected: set 1 #27, set 2 #13, set 2 #35 -- she answered all three correctly, which is consistent with (but not proof of) the leak helping. Her 4/15 historical wrong-rate on this topic may be somewhat better than her real understanding. Fixed in set 3 (#36, diagram removed entirely) and will not recur -- checked all 5 live worksheets, no other table has this pattern.",
-   "_sec_total": 17.0,
-   "_sec_n": 1,
-   "avg_seconds": 17.0
+   "_sec_total": 44.0,
+   "_sec_n": 2,
+   "avg_seconds": 22.0
   },
   {
    "topic": "Cryptarithm / digit substitution",
@@ -255,19 +276,22 @@
    "tier": "Easy",
    "real_tests": null,
    "wrong": 4,
-   "graded": 5,
+   "graded": 6,
    "habits": [
     "key-word-watch"
    ],
    "priority": "high",
-   "note": "4/4 wrong on 'Which value is NOT equivalent' drill"
+   "note": "4/4 wrong on 'Which value is NOT equivalent' drill",
+   "_sec_total": 12.0,
+   "_sec_n": 1,
+   "avg_seconds": 12.0
   },
   {
    "topic": "Estimating Multiplication & Division",
    "tier": "Medium",
    "real_tests": null,
    "wrong": 2,
-   "graded": 9,
+   "graded": 10,
    "habits": [
     "compute-both-sides",
     "estimation-division-number-sense"
@@ -275,9 +299,9 @@
    "priority": "high",
    "note": "estimation group: largest real gap; examples added 2026-10-03, no graded results yet",
    "evidence_2026-10-07": "Set 2 (2026-10-06): real gap confirmed, 2/3 wrong \u2014 see reviews/speed-set-2-review-2026-10-07.html",
-   "_sec_total": 419.0,
-   "_sec_n": 3,
-   "avg_seconds": 139.7,
+   "_sec_total": 490.0,
+   "_sec_n": 4,
+   "avg_seconds": 122.5,
    "ma_real_test_note": "Also has real MA-section evidence from ma_library.json: 0/3 wrong on actual past screenshots (pre-tutoring). Merged into this topic's combined QR+MA counts above."
   },
   {
@@ -330,7 +354,7 @@
    "tier": "Medium",
    "real_tests": null,
    "wrong": 4,
-   "graded": 13,
+   "graded": 14,
    "habits": [
     "decimal-vs-nonnice-fraction",
     "benchmark-0.5-fluency"
@@ -339,9 +363,9 @@
    "evidence_2026-10-07": "Set 2 (2026-10-06): real gap, 2/3 wrong \u2014 see reviews/speed-set-2-review-2026-10-07.html",
    "mechanism_2026-10-11": "This tag was flagged in set 2 but never had a documented cause -- the mechanism was confirmed 2026-10-11 by watching her work set 3 #21 (a different topic, Total Shaded Area, same tag -- see that topic's mechanism_2026-10-11 note for the full writeup). Short version: her go-to fraction-to-percent method scales the ORIGINAL denominator straight to 100, which only works cleanly when that denominator is already a factor of 100. She doesn't reliably fall back to simplifying first or long division when it isn't. Likely the same mechanism behind the misses on Equivalent Fractions/Decimals/Percents and Converting to a Decimal (same cluster, same conversion skill) -- hypothesis, not yet directly observed on those two specifically.",
    "benchmark_mechanism_2026-10-11": "Separate, more specific issue confirmed on set 3 #12 (order 5/9, 0.52, 7/15 least to greatest): parent told her 7/15 < 0.5 because 7/14 = 0.5 exactly and 15 > 14, so 7/15 is a touch less. Once given that comparison-to-0.5 technique, she could apply it fine -- so this is NOT a conceptual gap in benchmark comparison. The gap is that she isn't automatically reaching for 0.5 as a benchmark unless it's a 'well-known' near-half (8/16, 3/6, 4/8 -- numerator obviously close to half the denominator by inspection). A less common pairing like 7/15 (needs a quick check: is 15 even? half of 15 is 7.5, so 7 < 7.5 means <0.5) doesn't trigger the same instinct. Fix target: practice the 0.5-benchmark technique specifically on less-obvious/odd-denominator fractions, not just the easy-to-spot ones -- fluency/automaticity gap, not understanding gap.",
-   "_sec_total": 176.0,
-   "_sec_n": 4,
-   "avg_seconds": 44.0,
+   "_sec_total": 205.0,
+   "_sec_n": 5,
+   "avg_seconds": 41.0,
    "ma_real_test_note": "Also has real MA-section evidence from ma_library.json: 1/6 wrong on actual past screenshots (pre-tutoring). Merged into this topic's combined QR+MA counts above."
   },
   {
@@ -349,29 +373,29 @@
    "tier": "Easy",
    "real_tests": null,
    "wrong": 1,
-   "graded": 8,
+   "graded": 9,
    "habits": [],
    "priority": "medium",
    "evidence_2026-10-07": "CORRECTED 2026-10-07: #36 is not a pictograph/fractional-multiplier gap. Her first instinct on the real test was C = 54, the correct answer \u2014 she computed 4.5\u00d712 right the first time, then talked herself out of it (changed to A, then B, then back to A) in the last 1.5 seconds. This is the confidence/second-guessing habit also seen on #9 (in the opposite direction), not a gap in this topic. Removed the unconfirmed-fractional-multiplier habit and the retest flag \u2014 she knows this.",
    "format_note_2026-10-11": "Found by a new automated check (sanitize_diagrams.py's check_missing_diagram): all 3 set-2 slots for this topic (#10, #29, #36) had NO actual pictograph -- every value was stated directly in the question text ('Green got 7 stars', 'pizza got 16 votes', 'the chart shows 4\u00bd stickers'), which isn't how any real 'Interpreting Pictographs' example in the library does it (they all say 'the chart/graph below shows...' and expect her to read values off it). Set 2 was already taken, so this can't be fixed retroactively -- but it does mean #36's evidence above was gathered on a text-only version that never actually tested pictograph-reading, just mixed-number multiplication. The 2026-10-07 conclusion (confidence habit, not a gap) still stands on its own evidence (the flip-flop pattern), but genuine pictograph-interpretation itself remains untested. Fixed live worksheet (speed-set-2.html/-answer-key.html) with real star/dot pictographs so future reuse of this topic is authentic.",
    "ma_real_test_note": "Also has real MA-section evidence from ma_library.json: 0/4 wrong on actual past screenshots (pre-tutoring). Merged into this topic's combined QR+MA counts above.",
-   "_sec_total": 14.0,
-   "_sec_n": 1,
-   "avg_seconds": 14.0
+   "_sec_total": 52.0,
+   "_sec_n": 2,
+   "avg_seconds": 26.0
   },
   {
    "topic": "Adding and Subtracting Decimals",
    "tier": "Easy",
    "real_tests": null,
    "wrong": 2,
-   "graded": 6,
+   "graded": 7,
    "habits": [],
    "priority": "medium",
    "evidence_2026-10-07": "Set 2 (2026-10-06): single-digit addition slip on review, not a method problem (#26)",
    "ma_real_test_note": "Also has real MA-section evidence from ma_library.json: 1/3 wrong on actual past screenshots (pre-tutoring). Merged into this topic's combined QR+MA counts above.",
-   "_sec_total": 175.0,
-   "_sec_n": 1,
-   "avg_seconds": 175.0
+   "_sec_total": 232.0,
+   "_sec_n": 2,
+   "avg_seconds": 116.0
   },
   {
    "topic": "Solving for Missing Sides given Similar Figures",
@@ -406,7 +430,7 @@
    "tier": "Medium",
    "real_tests": null,
    "wrong": 3,
-   "graded": 3,
+   "graded": 4,
    "habits": [
     "ratio-partition-forgotten (set 2 only)",
     "exact-thing-asked (set 3 #33 -- her answer 21 = 3x7, the cats count via a correctly-run partition method, but the question asked for dogs. This is the 6th topic this exact habit has shown up under -- see Percent Word Problems, Fractional Parts Word Problems, Determining Averages between Points on Number Lines, Multi-step unit conversion, and Cryptarithm, all tagged with the same habit. Cross-topic pattern, not specific to ratios -- the fix is a general exam habit (re-read what's actually asked before finalizing), not more ratio practice specifically."
@@ -414,9 +438,9 @@
    "priority": "high",
    "evidence_2026-10-07": "Set 2 (2026-10-06): real gap, 1/1 wrong \u2014 see reviews/speed-set-2-review-2026-10-07.html",
    "evidence_2026-10-11": "Set 3 #33: wrong again, 21s, no reconsideration -- but the wrong number (21) could only come from a correctly-run partition method, so this looks like a different failure mode than set 2's (reading/attention on which quantity was asked, not the method itself). Flagged to confirm directly with her which it actually was.",
-   "_sec_total": 21.0,
-   "_sec_n": 1,
-   "avg_seconds": 21.0
+   "_sec_total": 71.0,
+   "_sec_n": 2,
+   "avg_seconds": 35.5
   },
   {
    "topic": "Multiplying and Dividing Integers",
@@ -490,7 +514,7 @@
    "tier": "Medium",
    "real_tests_note": "not yet cross-checked against official-test tagging as of 2026-10-11; introduced via set 3 (book/platform-sourced)",
    "wrong": 1,
-   "graded": 2,
+   "graded": 3,
    "habits": [
     "decimal-vs-nonnice-fraction"
    ],
@@ -498,9 +522,9 @@
    "mechanism_2026-10-11": "CONFIRMED (parent watched her work #21 directly, 9/15 shaded): her default fraction-to-percent method is 'find x so that denominator x x = 100, then numerator x x' -- i.e. scale the ORIGINAL denominator straight to 100. This only produces a clean answer when the denominator is already a factor of 100 (2,4,5,10,20,25,50...). 15 is not (100/15 isn't a whole number), so the method breaks down and she mis-converts (landed on 90% instead of 60%). She has two reliable fallbacks available but doesn't default to either: (1) simplify the fraction FIRST, then scale -- 9/15 -> 3/5, and 5 IS a factor of 100 (x20), giving 3x20=60% cleanly; (2) direct long division, 9\u00f715=0.6=60%, which always works regardless of the denominator. This is the actual mechanism behind the existing 'decimal-vs-nonnice-fraction' habit tag (flagged in set 2 but never written up with a cause) -- not a concept gap (she understands fraction=percent equivalence fine), a PROCEDURE gap: no reliable fallback when the quick mental shortcut doesn't land on a whole number.",
    "note": "underlying skill is the same fraction-to-percent conversion as [[decimal-fraction-percent cluster]] -- the question literally asks 'what percent of the figure is shaded,' method is count shaded/total then simplify and convert (set 3 #21: 9/15 -> 3/5 -> 60%, she answered 90%). Only a 1-item sample so far, but ties this topic to the broader recurring cluster (Comparing & Ordering Fractions & Decimals, Equivalent Fractions/Decimals/Percents, Converting to a Decimal) rather than treating it as an isolated geometry miss.",
    "format_note_2026-10-11": "Found by the same new automated check that caught #23/#37's format issue: set 3's other slot for this topic, #22, had NO diagram either -- it stated the fraction directly in text ('if 5/8 of the figure is shaded...') instead of showing a figure for her to read the fraction off of, unlike every real-test example of this topic which always shows a figure. She answered #22 correctly, so the graded outcome doesn't change, but the problem wasn't testing the real skill (just 5/8 x 24, no figure-reading). Fixed live worksheet: now shows an 8-section grid with 5 shaded, same convention as #21.",
-   "_sec_total": 209.0,
-   "_sec_n": 2,
-   "avg_seconds": 104.5
+   "_sec_total": 261.0,
+   "_sec_n": 3,
+   "avg_seconds": 87.0
   },
   {
    "topic": "Split Line Segments",
@@ -521,14 +545,14 @@
    "topic": "Finding Unit Price",
    "tier": "Easy",
    "real_tests_note": "not yet cross-checked against official-test tagging as of 2026-10-11; introduced via set 3 (book/platform-sourced)",
-   "wrong": 0,
-   "graded": 2,
+   "wrong": 1,
+   "graded": 3,
    "habits": [],
    "priority": "medium",
    "priority_note_2026-10-11": "Bumped from unknown: 0 wrong so far but 117s average (set 3's overall average was 54.9s, over 2x hers here) -- the slowest topic in the whole set by a wide margin. Thin sample (n=2) but worth watching closely next time it comes up.",
-   "_sec_total": 234.0,
-   "_sec_n": 2,
-   "avg_seconds": 117.0
+   "_sec_total": 252.0,
+   "_sec_n": 3,
+   "avg_seconds": 84.0
   },
   {
    "topic": "No Remainder when Divided by a given Number",
@@ -536,27 +560,27 @@
    "subject": "MA",
    "real_tests": 3,
    "wrong": 4,
-   "graded": 4,
+   "graded": 5,
    "habits": [],
    "priority": "high",
    "real_tests_note": "From ma_library.json: 3 real questions from past screenshots (What to Expect + ISEE Lower #1-4), 3 confirmed wrong. Not yet re-tested via our own MA practice sets (MA1 regenerated 2026-10-11, not yet taken).",
-   "_sec_total": 8.0,
-   "_sec_n": 1,
-   "avg_seconds": 8.0
+   "_sec_total": 64.0,
+   "_sec_n": 2,
+   "avg_seconds": 32.0
   },
   {
    "topic": "Remainder when Divided by a given Number",
    "tier": "Easy",
    "subject": "MA",
    "real_tests": 1,
-   "wrong": 2,
-   "graded": 2,
+   "wrong": 3,
+   "graded": 3,
    "habits": [],
    "priority": "high",
    "real_tests_note": "From ma_library.json: 1 real questions from past screenshots (What to Expect + ISEE Lower #1-4), 1 confirmed wrong. Not yet re-tested via our own MA practice sets (MA1 regenerated 2026-10-11, not yet taken).",
-   "_sec_total": 24.0,
-   "_sec_n": 1,
-   "avg_seconds": 24.0,
+   "_sec_total": 166.0,
+   "_sec_n": 2,
+   "avg_seconds": 83.0,
    "habit_2026-10-13": "Confirmed MA1 #2 (2026-10-13): tries to guess the remainder mentally instead of dividing it out. Fix: default to working the division."
   },
   {
@@ -565,13 +589,13 @@
    "subject": "MA",
    "real_tests": 1,
    "wrong": 1,
-   "graded": 2,
+   "graded": 3,
    "habits": [],
    "priority": "medium",
    "real_tests_note": "From ma_library.json: 1 real questions from past screenshots (What to Expect + ISEE Lower #1-4), 1 confirmed wrong. Not yet re-tested via our own MA practice sets (MA1 regenerated 2026-10-11, not yet taken).",
-   "_sec_total": 102.0,
-   "_sec_n": 1,
-   "avg_seconds": 102.0
+   "_sec_total": 129.0,
+   "_sec_n": 2,
+   "avg_seconds": 64.5
   },
   {
    "topic": "Predicting the Next Shapes given Progressive Pattern",
@@ -692,13 +716,13 @@
    "subject": "MA",
    "real_tests": 6,
    "wrong": 1,
-   "graded": 7,
+   "graded": 8,
    "habits": [],
    "priority": "medium",
    "real_tests_note": "From ma_library.json: 6 real questions from past screenshots (What to Expect + ISEE Lower #1-4), 1 confirmed wrong. Not yet re-tested via our own MA practice sets (MA1 regenerated 2026-10-11, not yet taken).",
-   "_sec_total": 11.0,
-   "_sec_n": 1,
-   "avg_seconds": 11.0
+   "_sec_total": 47.0,
+   "_sec_n": 2,
+   "avg_seconds": 23.5
   },
   {
    "topic": "Probability of 1 Event, given a List of Items",
@@ -706,13 +730,13 @@
    "subject": "MA",
    "real_tests": 6,
    "wrong": 1,
-   "graded": 7,
+   "graded": 8,
    "habits": [],
    "priority": "medium",
    "real_tests_note": "From ma_library.json: 6 real questions from past screenshots (What to Expect + ISEE Lower #1-4), 1 confirmed wrong. Not yet re-tested via our own MA practice sets (MA1 regenerated 2026-10-11, not yet taken).",
-   "_sec_total": 16.0,
-   "_sec_n": 1,
-   "avg_seconds": 16.0
+   "_sec_total": 207.0,
+   "_sec_n": 2,
+   "avg_seconds": 103.5
   },
   {
    "topic": "Adding and Subtracting Integers",
@@ -734,27 +758,27 @@
    "subject": "MA",
    "real_tests": 6,
    "wrong": 0,
-   "graded": 7,
+   "graded": 8,
    "habits": [],
    "priority": "maintain",
    "real_tests_note": "From ma_library.json: 6 real questions from past screenshots (What to Expect + ISEE Lower #1-4), 0 confirmed wrong. Not yet re-tested via our own MA practice sets (MA1 regenerated 2026-10-11, not yet taken).",
-   "_sec_total": 110.0,
-   "_sec_n": 1,
-   "avg_seconds": 110.0
+   "_sec_total": 138.0,
+   "_sec_n": 2,
+   "avg_seconds": 69.0
   },
   {
    "topic": "Order of Operations and Equivalence",
    "tier": "Medium",
    "subject": "MA",
    "real_tests": 5,
-   "wrong": 0,
-   "graded": 6,
+   "wrong": 1,
+   "graded": 7,
    "habits": [],
    "priority": "maintain",
    "real_tests_note": "From ma_library.json: 5 real questions from past screenshots (What to Expect + ISEE Lower #1-4), 0 confirmed wrong. Not yet re-tested via our own MA practice sets (MA1 regenerated 2026-10-11, not yet taken).",
-   "_sec_total": 80.0,
-   "_sec_n": 1,
-   "avg_seconds": 80.0
+   "_sec_total": 196.0,
+   "_sec_n": 2,
+   "avg_seconds": 98.0
   },
   {
    "topic": "Comparing Adding Subtracting Bar Graph Data Table Values",
@@ -831,7 +855,7 @@
    "tier": "Hard",
    "real_tests": 6,
    "wrong": 4,
-   "graded": 19,
+   "graded": 20,
    "habits": [
     "key-word-watch",
     "off-by-10 (same tag as Multi-step unit conversion)"
@@ -839,9 +863,9 @@
    "priority": "high",
    "hypothesis_2026-10-11": "Possibly also the 'decimal-vs-nonnice-fraction' mechanism confirmed on Total Shaded Area #21 (scaling the original denominator straight to 100 instead of simplifying first or using long division when it doesn't divide cleanly) -- same cluster, same conversion skill. Not yet directly observed here; existing 'key-word-watch' habit is a separate, already-confirmed issue -- both could be in play. Check her work on the next wrong answer here before confirming.",
    "mechanism_2026-10-11_q19": "CONFIRMED on set 3 #19 ('Which value is equivalent to 0.045?', answer 9/200): the trap answers 9/20 and 45% both equal 0.45, not 0.045 -- exactly one decimal place / one zero off. This matches the EXISTING 'off-by-10' habit already tracked under 'Multi-step unit conversion (off-by-10, multi-step)' (confirmed set 2 #32, originally from an Elevate Prep drill) -- same cross-topic zero-miscounting pattern, new context, not a new issue. Not a fraction-conversion concept gap. Parent taught a general verification technique: to check if a decimal equals a candidate fraction, multiply the decimal by the denominator and see if it lands on the numerator (e.g. 0.045 x 200 = 9, confirms C; 0.045 x 20 = 0.9, not 9, rules out A) -- a good general cross-check that catches zero-count slips a surface eyeball comparison misses.",
-   "_sec_total": 101.0,
-   "_sec_n": 3,
-   "avg_seconds": 33.7,
+   "_sec_total": 166.0,
+   "_sec_n": 4,
+   "avg_seconds": 41.5,
    "ma_real_tests_note": "From ma_library.json: 5 real questions from past screenshots (What to Expect + ISEE Lower #1-4), 1 confirmed wrong. Not yet re-tested via our own MA practice sets (MA1 regenerated 2026-10-11, not yet taken)."
   },
   {
@@ -849,15 +873,158 @@
    "tier": "Medium",
    "real_tests": 4,
    "wrong": 1,
-   "graded": 8,
+   "graded": 9,
    "habits": [
     "compute-both-sides"
    ],
    "priority": "medium",
    "real_tests_note": "From ma_library.json: 4 real questions from past screenshots (What to Expect + ISEE Lower #1-4), 1 confirmed wrong. Not yet re-tested via our own MA practice sets (MA1 regenerated 2026-10-11, not yet taken).",
-   "_sec_total": 212.0,
-   "_sec_n": 2,
-   "avg_seconds": 106.0
+   "_sec_total": 246.0,
+   "_sec_n": 3,
+   "avg_seconds": 82.0
+  },
+  {
+   "topic": "Solving for Remaining Value, given Total & All Other Values",
+   "tier": "Easy",
+   "wrong": 0,
+   "graded": 1,
+   "habits": [],
+   "priority": "unknown",
+   "real_tests_note": "not yet cross-checked against official-test tagging as of 2026-10-14",
+   "_sec_total": 48.0,
+   "_sec_n": 1,
+   "avg_seconds": 48.0
+  },
+  {
+   "topic": "Area of Square Perimeter",
+   "tier": "Medium",
+   "wrong": 0,
+   "graded": 1,
+   "habits": [],
+   "priority": "unknown",
+   "real_tests_note": "not yet cross-checked against official-test tagging as of 2026-10-14",
+   "_sec_total": 9.0,
+   "_sec_n": 1,
+   "avg_seconds": 9.0
+  },
+  {
+   "topic": "Identifying Multiples",
+   "tier": "Medium",
+   "wrong": 0,
+   "graded": 1,
+   "habits": [],
+   "priority": "unknown",
+   "real_tests_note": "not yet cross-checked against official-test tagging as of 2026-10-14",
+   "_sec_total": 8.0,
+   "_sec_n": 1,
+   "avg_seconds": 8.0
+  },
+  {
+   "topic": "Matching Stories to Equations",
+   "tier": "Easy",
+   "wrong": 0,
+   "graded": 1,
+   "habits": [],
+   "priority": "unknown",
+   "real_tests_note": "not yet cross-checked against official-test tagging as of 2026-10-14",
+   "_sec_total": 31.0,
+   "_sec_n": 1,
+   "avg_seconds": 31.0
+  },
+  {
+   "topic": "English Unit Conversions",
+   "tier": "Easy",
+   "wrong": 0,
+   "graded": 1,
+   "habits": [],
+   "priority": "unknown",
+   "real_tests_note": "not yet cross-checked against official-test tagging as of 2026-10-14",
+   "_sec_total": 49.0,
+   "_sec_n": 1,
+   "avg_seconds": 49.0
+  },
+  {
+   "topic": "Volume of Solids",
+   "tier": "Medium",
+   "wrong": 0,
+   "graded": 1,
+   "habits": [],
+   "priority": "unknown",
+   "real_tests_note": "not yet cross-checked against official-test tagging as of 2026-10-14",
+   "_sec_total": 12.0,
+   "_sec_n": 1,
+   "avg_seconds": 12.0
+  },
+  {
+   "topic": "Whole Number Who am I",
+   "tier": "Easy",
+   "wrong": 0,
+   "graded": 1,
+   "habits": [],
+   "priority": "unknown",
+   "real_tests_note": "not yet cross-checked against official-test tagging as of 2026-10-14",
+   "_sec_total": 79.0,
+   "_sec_n": 1,
+   "avg_seconds": 79.0
+  },
+  {
+   "topic": "Vertices Forming Right Angles Quadrilaterals on a Coordinate Plane",
+   "tier": "Medium",
+   "wrong": 0,
+   "graded": 0,
+   "habits": [],
+   "priority": "unknown",
+   "real_tests_note": "not yet cross-checked against official-test tagging as of 2026-10-14",
+   "_sec_total": 0.0,
+   "_sec_n": 0
+  },
+  {
+   "topic": "Comparing Volume of Cubes",
+   "tier": "Medium",
+   "wrong": 0,
+   "graded": 1,
+   "habits": [],
+   "priority": "unknown",
+   "real_tests_note": "not yet cross-checked against official-test tagging as of 2026-10-14",
+   "_sec_total": 36.0,
+   "_sec_n": 1,
+   "avg_seconds": 36.0
+  },
+  {
+   "topic": "Computation with Time",
+   "tier": "Medium",
+   "wrong": 0,
+   "graded": 1,
+   "habits": [],
+   "priority": "unknown",
+   "real_tests_note": "not yet cross-checked against official-test tagging as of 2026-10-14",
+   "_sec_total": 65.0,
+   "_sec_n": 1,
+   "avg_seconds": 65.0
+  },
+  {
+   "topic": "Simplifying Rational Expressions Basic",
+   "tier": "Medium",
+   "wrong": 0,
+   "graded": 1,
+   "habits": [],
+   "priority": "unknown",
+   "real_tests_note": "not yet cross-checked against official-test tagging as of 2026-10-14",
+   "_sec_total": 37.0,
+   "_sec_n": 1,
+   "avg_seconds": 37.0
+  },
+  {
+   "topic": "Data Collection & Random Sampling",
+   "tier": "Medium",
+   "wrong": 0,
+   "graded": 1,
+   "habits": [],
+   "priority": "unknown",
+   "real_tests_note": "not yet cross-checked against official-test tagging as of 2026-10-14",
+   "_sec_total": 40.0,
+   "_sec_n": 1,
+   "avg_seconds": 40.0
   }
  ],
  "pacing": {
