@@ -86,11 +86,11 @@ def joined_prisms_svg(w1, h1, w2, h2, depth, unit='', sc=9, label_depth=True):
     if label_depth:
         Ao = add(A, off)
         mx, my = (A[0] + Ao[0]) / 2, (A[1] + Ao[1]) / 2
-        labels.append(text(mx - 6, my - 5, f'{depth}{u}', anchor='end'))
+        labels.append(text(mx - 1, my - 9, f'{depth}{u}', anchor='end'))
     mx, my = B[0], (B[1] + C[1]) / 2
     labels.append(text(mx - 8, my, f'{h1}{u}', anchor='end'))
     mx, my = D[0], (D[1] + E[1]) / 2
-    labels.append(text(mx + 8, my, f'{h2}{u}', anchor='start'))
+    labels.append(text(mx + 11, my, f'{h2}{u}', anchor='start'))
     mx, my = A[0], (A[1] + F[1]) / 2
     labels.append(text(mx - 8, my, f'{h1 + h2}{u}', anchor='end'))
     mx, my = (F[0] + E[0]) / 2, F[1]
