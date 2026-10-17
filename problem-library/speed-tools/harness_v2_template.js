@@ -136,9 +136,11 @@ function lock(){ var L=!cst.run; document.querySelectorAll("button.choice[data-q
 function show(){
   window.__clockRunning = cst.run;
   var r=Math.max(0,Math.round(cst.rem)); var m=Math.floor(r/60), s=r%60;
-  document.getElementById("clock").textContent=m+":"+("0"+s).slice(-2)+(cst.rem<=0?" — time’s up":(cst.run?"":" — press Start to unlock"));
+  var status = cst.rem<=0 ? " — time’s up" : (cst.submitted ? " — submitted" : (cst.run?"":" — press Start to unlock"));
+  document.getElementById("clock").textContent=m+":"+("0"+s).slice(-2)+status;
   document.getElementById("go").textContent=cst.run?"Running":"Start";
-  document.getElementById("go").disabled=cst.run;
+  document.getElementById("go").disabled=cst.run||cst.submitted;
+  if(endBtn) endBtn.disabled=!cst.run;
   lock();
 }
 function tick(){
@@ -152,12 +154,23 @@ function tick(){
   show(); renderSummary();
 }
 document.getElementById("go").addEventListener("click",function(){
-  if(!cst.run && cst.rem>0){
+  if(!cst.run && cst.rem>0 && !cst.submitted){
     cst.run=true; cst.last=Date.now(); csv2(); show();
     openVisit(Date.now()); sv(); render();
   }
 });
-window.__clockReset=function(){ cst={rem:TOTAL,run:false,last:0}; csv2(); show(); };
+var endBtn=document.getElementById("end");
+if(endBtn){
+  endBtn.addEventListener("click",function(){
+    if(!cst.run) return;
+    if(confirm("Submit now and stop the timer? You can still look back at your answers, but the clock won't run again.")){
+      var now=Date.now();
+      cst.run=false; cst.submitted=true; closeVisit(now); csv2(); show();
+      sv(); render();
+    }
+  });
+}
+window.__clockReset=function(){ cst={rem:TOTAL,run:false,last:0,submitted:false}; csv2(); show(); };
 
 show();
 if(clockRunning() && visitN===null){ openVisit(Date.now()); sv(); }
