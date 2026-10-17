@@ -82,15 +82,15 @@ def joined_prisms_svg(w1, h1, w2, h2, depth, unit='', sc=9, label_depth=True):
     u = f' {unit}' if unit else ''
     labels = []
     mx, my = (A[0] + B[0]) / 2, A[1]
-    labels.append(text(mx, my - 6, f'{w1}{u}'))
+    labels.append(text(mx + 3, my - 3, f'{w1}{u}'))
     if label_depth:
         Ao = add(A, off)
         mx, my = (A[0] + Ao[0]) / 2, (A[1] + Ao[1]) / 2
-        labels.append(text(mx - 1, my - 9, f'{depth}{u}', anchor='end'))
+        labels.append(text(mx + 4, my - 13, f'{depth}{u}', anchor='middle'))
     mx, my = B[0], (B[1] + C[1]) / 2
     labels.append(text(mx - 8, my, f'{h1}{u}', anchor='end'))
     mx, my = D[0], (D[1] + E[1]) / 2
-    labels.append(text(mx + 11, my, f'{h2}{u}', anchor='start'))
+    labels.append(text(mx + 16, my, f'{h2}{u}', anchor='start'))
     mx, my = A[0], (A[1] + F[1]) / 2
     labels.append(text(mx - 8, my, f'{h1 + h2}{u}', anchor='end'))
     mx, my = (F[0] + E[0]) / 2, F[1]
@@ -99,7 +99,7 @@ def joined_prisms_svg(w1, h1, w2, h2, depth, unit='', sc=9, label_depth=True):
     Ao = add(A, off)
     minx = min(p[0] for p in [A, B, C, D, E, F, Ao]) - 30
     maxx = flap2[2][0] + 10
-    miny = min(Ao[1], flap1[2][1]) - 10
+    miny = min(Ao[1], flap1[2][1]) - 18
     maxy = F[1] + 20
     vb_w, vb_h = maxx - minx, maxy - miny
 
