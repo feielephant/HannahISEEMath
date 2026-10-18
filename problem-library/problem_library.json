@@ -31596,11 +31596,12 @@
       "124",
       "128"
     ],
-    "correct_letter": null,
+    "correct_letter": "A",
     "status": "not_done",
     "topic_broad": null,
     "topic_specific": "FINDING MMMR, GIVEN BAR GRAPH/DATA TABLE OF VALUES",
-    "notes": "From recaptureQR 2026-10-09 batch cataloguing (subagent-transcribed, spot-checked). Unanswered drill, correct_letter not determinable from screenshot.",
+    "notes": "From recaptureQR 2026-10-09 batch cataloguing (subagent-transcribed, spot-checked). correct_letter computed 2026-10-19 from the transcribed values (median of the 8 = 119, matches choice A) after a subagent located and confirmed the source screenshot by OCR scan -- the approximate gridline values were exactly right, nothing to correct.",
+    "source_file": "Screenshot 2026-10-09 at 9.01.29 PM.png",
     "source_images": [
       "Screenshot 2026-10-09 at 9.01.29 PM.png"
     ]
@@ -31619,11 +31620,12 @@
       "127",
       "no mode"
     ],
-    "correct_letter": null,
+    "correct_letter": "B",
     "status": "not_done",
     "topic_broad": null,
     "topic_specific": "FINDING MMMR, GIVEN BAR GRAPH/DATA TABLE OF VALUES",
-    "notes": "From recaptureQR 2026-10-09 batch cataloguing (subagent-transcribed, spot-checked). Unanswered drill, correct_letter not determinable from screenshot.",
+    "notes": "From recaptureQR 2026-10-09 batch cataloguing (subagent-transcribed, spot-checked). correct_letter computed 2026-10-19 from the transcribed values (mode of the 8 = 119 (appears twice), matches choice B) after a subagent located and confirmed the source screenshot by OCR scan -- the approximate gridline values were exactly right, nothing to correct.",
+    "source_file": "Screenshot 2026-10-09 at 9.01.31 PM.png",
     "source_images": [
       "Screenshot 2026-10-09 at 9.01.31 PM.png"
     ]
@@ -31642,11 +31644,12 @@
       "101",
       "129"
     ],
-    "correct_letter": null,
+    "correct_letter": "A",
     "status": "not_done",
     "topic_broad": null,
     "topic_specific": "FINDING MMMR, GIVEN BAR GRAPH/DATA TABLE OF VALUES",
-    "notes": "From recaptureQR 2026-10-09 batch cataloguing (subagent-transcribed, spot-checked). Unanswered drill, correct_letter not determinable from screenshot.",
+    "notes": "From recaptureQR 2026-10-09 batch cataloguing (subagent-transcribed, spot-checked). correct_letter computed 2026-10-19 from the transcribed values (range = 129-101 = 28, matches choice A) after a subagent located and confirmed the source screenshot by OCR scan -- the approximate gridline values were exactly right, nothing to correct.",
+    "source_file": "Screenshot 2026-10-09 at 9.01.32 PM.png",
     "source_images": [
       "Screenshot 2026-10-09 at 9.01.32 PM.png"
     ]
@@ -31665,11 +31668,12 @@
       "115",
       "no mode"
     ],
-    "correct_letter": null,
+    "correct_letter": "B",
     "status": "not_done",
     "topic_broad": null,
     "topic_specific": "FINDING MMMR, GIVEN BAR GRAPH/DATA TABLE OF VALUES",
-    "notes": "From recaptureQR 2026-10-09 batch cataloguing (subagent-transcribed, spot-checked). Unanswered drill, correct_letter not determinable from screenshot.",
+    "notes": "From recaptureQR 2026-10-09 batch cataloguing (subagent-transcribed, spot-checked). correct_letter computed 2026-10-19 from the transcribed values (mode of the 8 = 113 (appears twice), matches choice B) after a subagent located and confirmed the source screenshot by OCR scan -- the approximate gridline values were exactly right, nothing to correct.",
+    "source_file": "Screenshot 2026-10-09 at 9.01.34 PM.png",
     "source_images": [
       "Screenshot 2026-10-09 at 9.01.34 PM.png"
     ]
@@ -31688,11 +31692,12 @@
       "121",
       "125"
     ],
-    "correct_letter": null,
+    "correct_letter": "C",
     "status": "not_done",
     "topic_broad": null,
     "topic_specific": "FINDING MMMR, GIVEN BAR GRAPH/DATA TABLE OF VALUES",
-    "notes": "From recaptureQR 2026-10-09 batch cataloguing (subagent-transcribed, spot-checked). Unanswered drill, correct_letter not determinable from screenshot.",
+    "notes": "From recaptureQR 2026-10-09 batch cataloguing (subagent-transcribed, spot-checked). correct_letter computed 2026-10-19 from the transcribed values (mean of the 8 rounds to 121, matches choice C) after a subagent located and confirmed the source screenshot by OCR scan -- the approximate gridline values were exactly right, nothing to correct.",
+    "source_file": "Screenshot 2026-10-09 at 9.01.36 PM.png",
     "source_images": [
       "Screenshot 2026-10-09 at 9.01.36 PM.png"
     ]
