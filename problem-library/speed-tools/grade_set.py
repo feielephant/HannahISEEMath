@@ -168,6 +168,43 @@ def grade(problems, times_csv_path):
     )
 
 
+# ---------- 2b. Indecision from the click log (richer than times.csv) ----------
+
+def changes_from_click_log(click_log_path, problems):
+    """times.csv (and grade()'s wrong_to_right/wrong_to_wrong/right_to_wrong)
+    only compares first_answer vs final_answer -- it's BLIND to a problem she
+    changed and then changed BACK, since first == final looks "unchanged."
+    Found on QR5 #2 (2026-10-18): she picked D, changed to C (the actual
+    correct answer), then changed back to D (wrong) -- invisible to the times
+    CSV, which just shows first=D final=D. The click log has every intermediate
+    pick, so use it when available for the true indecision picture.
+
+    Returns {problem: dict(picks=[letters chosen in order, 'cleared' events
+    excluded], n_changes=int, first=letter, final=letter, self_corrected=bool
+    (final is right, first wasn't), had_correct_then_left=bool (the right
+    answer was picked at some point but NOT kept))} for every problem with 2+
+    picks (i.e. she changed her answer at least once, however it netted out).
+    Problems answered only once, or answered on paper (not in the click log
+    at all), are simply absent from the result."""
+    rows_by_problem = {}
+    for row in csv.DictReader(open(click_log_path)):
+        rows_by_problem.setdefault(int(row['problem']), []).append(row)
+    out = {}
+    for n, rows in rows_by_problem.items():
+        picks = [r['letter'] for r in rows if r['action'] in ('chose', 'changed') and r['letter']]
+        if len(picks) < 2:
+            continue
+        ans = problems.get(n, {}).get('ans')
+        final = picks[-1]
+        first = picks[0]
+        out[n] = dict(
+            picks=picks, n_changes=len(picks) - 1, first=first, final=final,
+            self_corrected=(ans is not None and final == ans and first != ans),
+            had_correct_then_left=(ans is not None and ans in picks[:-1] and final != ans),
+        )
+    return out
+
+
 # ---------- 3. Flag possible unsolvable-diagram bugs (same heuristic as sanitize_diagrams.py) ----------
 
 GIVEN_RE = re.compile(r'(?<!to )\b([A-Z])\s*(?:=|is)\s*(-?\d[\d,]*(?:\.\d+)?)\b(?!\s*(?:units?|ticks?|marks?|×|\*))')
@@ -235,7 +272,7 @@ def _choices_html(p, her_final):
         out.append(f'<div class="{cls}"><b>{L}</b>&nbsp; {c}{tags}</div>')
     return ''.join(out)
 
-def build_review_html(problems, grading, notes, title, out_path, flagged=None, slow_threshold_sec=90):
+def build_review_html(problems, grading, notes, title, out_path, flagged=None, slow_threshold_sec=90, changes=None):
     """notes: {problem_num: dict(kind='gap'|'careless'|'uncertain', title=.., body=..)}
     One entry expected per wrong problem. Missing ones render as NEEDS DIAGNOSIS,
     on purpose -- this is the safety net against shipping an unreviewed problem.
@@ -258,8 +295,20 @@ def build_review_html(problems, grading, notes, title, out_path, flagged=None, s
     time," right or wrong. Separate from the wrong/gap tables on purpose -- a slow
     CORRECT answer is still a pacing signal worth seeing, not just a correctness
     one. Added 2026-10-18 at the parent's request for a second, independently
-    clickable jumplist/table alongside the wrong-problem one."""
+    clickable jumplist/table alongside the wrong-problem one.
+
+    changes: optional result of changes_from_click_log(click_log_path, problems)
+    -- {problem: dict(picks, n_changes, first, final, self_corrected,
+    had_correct_then_left)}. When given, adds a third table + jumplist for
+    every problem she picked more than once (whatever it netted out to), and
+    replaces the per-card "first picked/changed to" line with the full pick
+    sequence. Without it, cards fall back to the simpler first-vs-final
+    comparison from the times CSV, which is blind to a change that nets out
+    unchanged (e.g. picked right, then changed back to wrong). Added
+    2026-10-18 at the parent's request, after QR5 #2 showed exactly that
+    blind spot."""
     flagged = flagged or {}
+    changes = changes or {}
     if not isinstance(flagged, dict):
         flagged = {n: 'The explanation references a specific value not found in the question or diagram text.' for n in flagged}
     wrong = grading['wrong']
@@ -294,6 +343,21 @@ def build_review_html(problems, grading, notes, title, out_path, flagged=None, s
         result = 'wrong' if n in wrong else 'right'
         slow_rows += f'<tr><td>#{n}</td><td>{topic}</td><td>{sec:.0f}s</td><td class="{result}">{result}</td></tr>'
 
+    changed_nums = sorted(changes.keys())
+    changed_rows = ''
+    for n in changed_nums:
+        c = changes[n]
+        topic = problems[n]['topic']
+        path = ' → '.join(c['picks'])
+        result = 'wrong' if n in wrong else 'right'
+        flag = ''
+        if c['self_corrected']:
+            flag = '<span class="pill self-corrected">self-corrected</span>'
+        elif c['had_correct_then_left']:
+            flag = '<span class="pill left-correct">had it right, changed away</span>'
+        changed_rows += (f'<tr><td>#{n}</td><td>{topic}</td><td>{path}</td>'
+                         f'<td>{c["n_changes"]}</td><td class="{result}">{result}</td><td>{flag}</td></tr>')
+
     tables = ''
     if gap_rows:
         tables += (f'<h2><span class="pill gap">Real gaps</span> — worth a closer look</h2>'
@@ -307,9 +371,13 @@ def build_review_html(problems, grading, notes, title, out_path, flagged=None, s
     if slow_rows:
         tables += (f'<h2><span class="pill slow">Took a long time</span> — {slow_threshold_sec}s or more, right or wrong</h2>'
                    f'<table class="gaptable"><tr><th>#</th><th>Topic</th><th>Time</th><th>Result</th></tr>{slow_rows}</table>')
+    if changed_rows:
+        tables += (f'<h2><span class="pill changed">Changed her answer</span> — picked more than once, whatever it netted out to</h2>'
+                   f'<table class="gaptable"><tr><th>#</th><th>Topic</th><th>Picks</th><th>×changed</th><th>Result</th><th></th></tr>{changed_rows}</table>')
 
     jumplist_links = ' '.join(f'<a href="#q{n}">#{n}</a>' for n in wrong)
     slow_jumplist_links = ' '.join(f'<a href="#q{n}">#{n}</a>' for n in slow_nums)
+    changed_jumplist_links = ' '.join(f'<a href="#q{n}">#{n}</a>' for n in changed_nums)
 
     cards = []
     for n in range(1, n_total + 1):
@@ -326,7 +394,16 @@ def build_review_html(problems, grading, notes, title, out_path, flagged=None, s
         else:
             untimed = r.get('seconds', '').strip() == ''
             meta = 'Answered on paper after the digital timer — not individually timed' if untimed else f'{float(r["seconds"]):.1f}s on this problem'
-            if r['first_answer'] != r['final_answer']:
+            c = changes.get(n)
+            if c:
+                meta += f' · picked {" → ".join(c["picks"])} ({c["n_changes"]}×changed)'
+                if c['had_correct_then_left']:
+                    change_badge = '<span class="chg chg-bad">had it right, changed away</span>'
+                elif c['self_corrected']:
+                    change_badge = '<span class="chg chg-good">self-corrected</span>'
+                elif n in grading['wrong_to_wrong']:
+                    change_badge = '<span class="chg chg-neutral">still wrong</span>'
+            elif r['first_answer'] != r['final_answer']:
                 meta += f' · first picked {r["first_answer"]}, changed to {r["final_answer"]}'
                 if n in grading['wrong_to_right']:
                     change_badge = '<span class="chg chg-good">self-corrected</span>'
@@ -335,15 +412,22 @@ def build_review_html(problems, grading, notes, title, out_path, flagged=None, s
                 elif n in grading['wrong_to_wrong']:
                     change_badge = '<span class="chg chg-neutral">still wrong</span>'
             final = r['final_answer']
+        backlinks = []
         if is_wrong:
             next_wrong = wrong[(wrong.index(n) + 1) % len(wrong)]
-            backlink = f'<a class="backlink" href="#q{next_wrong}">next missed →</a>'
-        else:
-            backlink = ''
+            backlinks.append(f'<a class="backlink" href="#q{next_wrong}">next missed →</a>')
+        if n in slow_nums:
+            next_slow = slow_nums[(slow_nums.index(n) + 1) % len(slow_nums)]
+            backlinks.append(f'<a class="backlink slow" href="#q{next_slow}">next slow →</a>')
+        if n in changed_nums:
+            next_changed = changed_nums[(changed_nums.index(n) + 1) % len(changed_nums)]
+            backlinks.append(f'<a class="backlink changed" href="#q{next_changed}">next changed →</a>')
+        backlink = ''.join(backlinks)
         slow_badge = '<span class="badge slow">⏱ Slow</span>' if n in slow_nums else ''
+        changed_badge = '<span class="badge changed">⟲ Changed</span>' if n in changes else ''
         card = (f'<div class="{card_cls}" id="q{n}">'
                 f'<div class="row1"><span class="num">#{n} · {p["topic"]} · {p["tier"]}</span>'
-                f'<span class="row1-right">{backlink}{slow_badge}<span class="badge {badge}">{badge.capitalize()}</span></span></div>'
+                f'<span class="row1-right">{backlink}{slow_badge}{changed_badge}<span class="badge {badge}">{badge.capitalize()}</span></span></div>'
                 f'<div class="meta">{meta}{" " + change_badge if change_badge else ""}</div>'
                 f'<div class="q">{p["q"]}</div>{p["diag"]}'
                 f'<div class="choices">{_choices_html(p, final)}</div>'
@@ -367,6 +451,7 @@ def build_review_html(problems, grading, notes, title, out_path, flagged=None, s
                f'<div class="stat wrong"><b>{len(wrong)}</b><span>Wrong</span></div>'
                f'<div class="stat blank"><b>{len(grading["blank"])}</b><span>Blank</span></div>'
                f'<div class="stat slow"><b>{len(slow_nums)}</b><span>Took long ({slow_threshold_sec}s+)</span></div>'
+               f'<div class="stat changed"><b>{len(changed_nums)}</b><span>Changed answer</span></div>'
                f'<div class="stat"><b>{grading["n_correct"]}/{n_total}</b><span>Score</span></div>'
                f'</div>')
     if missing_notes:
@@ -376,6 +461,7 @@ def build_review_html(problems, grading, notes, title, out_path, flagged=None, s
 
     jumplists = f'<div class="jumplist" id="wronglist">Jump to a missed problem: {jumplist_links}</div>' if jumplist_links else ''
     jumplists += f'<div class="jumplist slow" id="slowlist">Jump to a slow problem: {slow_jumplist_links}</div>' if slow_jumplist_links else ''
+    jumplists += f'<div class="jumplist changed" id="changedlist">Jump to a changed-answer problem: {changed_jumplist_links}</div>' if changed_jumplist_links else ''
 
     body = summary + tables + jumplists + ''.join(cards)
 
@@ -389,13 +475,13 @@ def build_review_html(problems, grading, notes, title, out_path, flagged=None, s
 _DEFAULT_CSS = '''
 :root{--bg:#F3F1EC;--surface:#FFFFFF;--surface-alt:#EDEAE2;--ink:#2A2521;--ink-muted:#6B6358;--border:#DAD4C8;
 --accent:#8A5A3B;--accent-ink:#6B4428;--accent-soft:#F1E3D6;--right:#2E7D5B;--right-soft:#E3F1EA;--wrong:#B5452E;--wrong-soft:#FBE7E1;--blank:#9A6B1F;--blank-soft:#FBF0DD;
---gap:#7A3B8C;--gap-soft:#F1E3F5;--careless:#2E6B8C;--careless-soft:#E3EEF5;--slow:#1E7A8C;--slow-soft:#E1F1F5;}
+--gap:#7A3B8C;--gap-soft:#F1E3F5;--careless:#2E6B8C;--careless-soft:#E3EEF5;--slow:#1E7A8C;--slow-soft:#E1F1F5;--changed:#9B5A1E;--changed-soft:#F5E8D8;}
 @media (prefers-color-scheme: dark){:root:not([data-theme="light"]){--bg:#1C1815;--surface:#262220;--surface-alt:#2E2925;--ink:#EDE7DF;--ink-muted:#AFA596;--border:#3B352F;
 --accent:#D79A6E;--accent-ink:#E8B98F;--accent-soft:rgba(215,154,110,0.14);--right:#6FCBA0;--right-soft:rgba(111,203,160,0.12);--wrong:#E58A74;--wrong-soft:rgba(229,138,116,0.14);--blank:#E0B45A;--blank-soft:rgba(224,180,90,0.14);
---gap:#C98FDA;--gap-soft:rgba(201,143,218,0.14);--careless:#7FB8E0;--careless-soft:rgba(127,184,224,0.14);--slow:#5EC8DD;--slow-soft:rgba(94,200,221,0.14);color-scheme:dark;}}
+--gap:#C98FDA;--gap-soft:rgba(201,143,218,0.14);--careless:#7FB8E0;--careless-soft:rgba(127,184,224,0.14);--slow:#5EC8DD;--slow-soft:rgba(94,200,221,0.14);--changed:#E0A95E;--changed-soft:rgba(224,169,94,0.14);color-scheme:dark;}}
 :root[data-theme="dark"]{--bg:#1C1815;--surface:#262220;--surface-alt:#2E2925;--ink:#EDE7DF;--ink-muted:#AFA596;--border:#3B352F;
 --accent:#D79A6E;--accent-ink:#E8B98F;--accent-soft:rgba(215,154,110,0.14);--right:#6FCBA0;--right-soft:rgba(111,203,160,0.12);--wrong:#E58A74;--wrong-soft:rgba(229,138,116,0.14);--blank:#E0B45A;--blank-soft:rgba(224,180,90,0.14);
---gap:#C98FDA;--gap-soft:rgba(201,143,218,0.14);--careless:#7FB8E0;--careless-soft:rgba(127,184,224,0.14);--slow:#5EC8DD;--slow-soft:rgba(94,200,221,0.14);color-scheme:dark;}
+--gap:#C98FDA;--gap-soft:rgba(201,143,218,0.14);--careless:#7FB8E0;--careless-soft:rgba(127,184,224,0.14);--slow:#5EC8DD;--slow-soft:rgba(94,200,221,0.14);--changed:#E0A95E;--changed-soft:rgba(224,169,94,0.14);color-scheme:dark;}
 *{box-sizing:border-box;}
 body{margin:0;background:var(--bg);color:var(--ink);font-family:"Iowan Old Style","Palatino",Georgia,serif;line-height:1.5;}
 .wrap{max-width:860px;margin:0 auto;padding:28px 18px 64px;}
@@ -405,11 +491,12 @@ h2{font-size:1.2rem;margin:28px 0 10px;font-family:system-ui,sans-serif;}
 .summary{display:flex;gap:14px;flex-wrap:wrap;margin-bottom:22px;font-family:system-ui,sans-serif;}
 .stat{background:var(--surface);border:1px solid var(--border);border-radius:10px;padding:10px 16px;min-width:110px;}
 .stat b{display:block;font-size:1.5rem;font-variant-numeric:tabular-nums;}
-.stat.right b{color:var(--right);} .stat.wrong b{color:var(--wrong);} .stat.blank b{color:var(--blank);} .stat.slow b{color:var(--slow);}
+.stat.right b{color:var(--right);} .stat.wrong b{color:var(--wrong);} .stat.blank b{color:var(--blank);} .stat.slow b{color:var(--slow);} .stat.changed b{color:var(--changed);}
 .stat span{font-size:0.78rem;color:var(--ink-muted);text-transform:uppercase;letter-spacing:0.04em;}
 .jumplist{font-family:system-ui,sans-serif;font-size:0.9rem;margin-bottom:10px;color:var(--ink-muted);}
 .jumplist a{color:var(--wrong);text-decoration:none;font-weight:600;margin-right:4px;}
 .jumplist.slow a{color:var(--slow);}
+.jumplist.changed a{color:var(--changed);}
 .gaptable{width:100%;border-collapse:collapse;font-family:system-ui,sans-serif;font-size:0.88rem;margin-bottom:10px;}
 .gaptable th,.gaptable td{border:1px solid var(--border);padding:7px 10px;text-align:left;vertical-align:top;}
 .gaptable th{background:var(--surface-alt);font-size:0.75rem;text-transform:uppercase;letter-spacing:0.03em;color:var(--ink-muted);}
@@ -419,6 +506,9 @@ h2{font-size:1.2rem;margin:28px 0 10px;font-family:system-ui,sans-serif;}
 .pill.gap{background:var(--gap-soft);color:var(--gap);}
 .pill.careless{background:var(--careless-soft);color:var(--careless);}
 .pill.slow{background:var(--slow-soft);color:var(--slow);}
+.pill.changed{background:var(--changed-soft);color:var(--changed);}
+.pill.self-corrected{background:var(--right-soft);color:var(--right);}
+.pill.left-correct{background:var(--wrong-soft);color:var(--wrong);}
 .card{background:var(--surface);border:1px solid var(--border);border-radius:12px;padding:16px 18px;margin:0 0 14px;scroll-margin-top:12px;}
 .card.wrong{border-color:var(--wrong);box-shadow:inset 3px 0 0 var(--wrong);}
 .card.blank{border-color:var(--blank);box-shadow:inset 3px 0 0 var(--blank);}
@@ -430,6 +520,7 @@ h2{font-size:1.2rem;margin:28px 0 10px;font-family:system-ui,sans-serif;}
 .badge.wrong{background:var(--wrong-soft);color:var(--wrong);}
 .badge.blank{background:var(--blank-soft);color:var(--blank);}
 .badge.slow{background:var(--slow-soft);color:var(--slow);}
+.badge.changed{background:var(--changed-soft);color:var(--changed);}
 .meta{font-family:system-ui,sans-serif;font-size:0.78rem;color:var(--ink-muted);}
 .chg{font-size:0.78rem;margin-left:4px;}
 .chg::before{content:"· ";}
@@ -437,8 +528,11 @@ h2{font-size:1.2rem;margin:28px 0 10px;font-family:system-ui,sans-serif;}
 .chg-bad{color:var(--wrong);}
 .chg-neutral{color:var(--ink-muted);}
 .row1-right{display:flex;align-items:baseline;gap:10px;}
-.backlink{font-size:0.75rem;color:var(--ink-muted);text-decoration:none;}
+.backlink{font-size:0.75rem;color:var(--ink-muted);text-decoration:none;margin-left:10px;}
+.backlink:first-child{margin-left:0;}
 .backlink:hover{text-decoration:underline;}
+.backlink.slow{color:var(--slow);}
+.backlink.changed{color:var(--changed);}
 .q{margin:8px 0 10px;font-size:1.05rem;}
 .diag{margin:8px 0 12px;}
 table.data{border-collapse:collapse;font-size:0.85rem;font-family:system-ui,sans-serif;}
