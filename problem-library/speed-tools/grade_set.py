@@ -235,7 +235,7 @@ def _choices_html(p, her_final):
         out.append(f'<div class="{cls}"><b>{L}</b>&nbsp; {c}{tags}</div>')
     return ''.join(out)
 
-def build_review_html(problems, grading, notes, title, out_path, flagged=None):
+def build_review_html(problems, grading, notes, title, out_path, flagged=None, slow_threshold_sec=90):
     """notes: {problem_num: dict(kind='gap'|'careless'|'uncertain', title=.., body=..)}
     One entry expected per wrong problem. Missing ones render as NEEDS DIAGNOSIS,
     on purpose -- this is the safety net against shipping an unreviewed problem.
@@ -250,7 +250,15 @@ def build_review_html(problems, grading, notes, title, out_path, flagged=None):
         for n, topic in check_missing_diagram(problems):
             flagged[n] = f"Topic '{topic}' usually needs a diagram by real-test convention, but this has none."
     A bare set/list of problem numbers also works (uses a generic message), for
-    backward compatibility."""
+    backward compatibility.
+
+    slow_threshold_sec: any TIMED problem (has a numeric seconds value -- untimed
+    paper-finished rows from grade()'s "answered after the digital timer" support
+    don't count, there's nothing to threshold) at or above this is "took a long
+    time," right or wrong. Separate from the wrong/gap tables on purpose -- a slow
+    CORRECT answer is still a pacing signal worth seeing, not just a correctness
+    one. Added 2026-10-18 at the parent's request for a second, independently
+    clickable jumplist/table alongside the wrong-problem one."""
     flagged = flagged or {}
     if not isinstance(flagged, dict):
         flagged = {n: 'The explanation references a specific value not found in the question or diagram text.' for n in flagged}
@@ -276,6 +284,16 @@ def build_review_html(problems, grading, notes, title, out_path, flagged=None):
         else:
             uncertain_rows += row
 
+    slow = sorted(
+        ((n, float(r['seconds'])) for n, r in rows_data.items() if r.get('seconds', '').strip() != '' and float(r['seconds']) >= slow_threshold_sec),
+        key=lambda x: -x[1])
+    slow_nums = [n for n, _ in slow]
+    slow_rows = ''
+    for n, sec in slow:
+        topic = problems[n]['topic']
+        result = 'wrong' if n in wrong else 'right'
+        slow_rows += f'<tr><td>#{n}</td><td>{topic}</td><td>{sec:.0f}s</td><td class="{result}">{result}</td></tr>'
+
     tables = ''
     if gap_rows:
         tables += (f'<h2><span class="pill gap">Real gaps</span> — worth a closer look</h2>'
@@ -286,8 +304,12 @@ def build_review_html(problems, grading, notes, title, out_path, flagged=None):
     if uncertain_rows:
         tables += (f'<h2>Uncertain / needs follow-up</h2>'
                    f'<table class="gaptable"><tr><th>#</th><th>Topic</th><th>What\'s going on</th></tr>{uncertain_rows}</table>')
+    if slow_rows:
+        tables += (f'<h2><span class="pill slow">Took a long time</span> — {slow_threshold_sec}s or more, right or wrong</h2>'
+                   f'<table class="gaptable"><tr><th>#</th><th>Topic</th><th>Time</th><th>Result</th></tr>{slow_rows}</table>')
 
     jumplist_links = ' '.join(f'<a href="#q{n}">#{n}</a>' for n in wrong)
+    slow_jumplist_links = ' '.join(f'<a href="#q{n}">#{n}</a>' for n in slow_nums)
 
     cards = []
     for n in range(1, n_total + 1):
@@ -318,9 +340,10 @@ def build_review_html(problems, grading, notes, title, out_path, flagged=None):
             backlink = f'<a class="backlink" href="#q{next_wrong}">next missed →</a>'
         else:
             backlink = ''
+        slow_badge = '<span class="badge slow">⏱ Slow</span>' if n in slow_nums else ''
         card = (f'<div class="{card_cls}" id="q{n}">'
                 f'<div class="row1"><span class="num">#{n} · {p["topic"]} · {p["tier"]}</span>'
-                f'<span class="row1-right">{backlink}<span class="badge {badge}">{badge.capitalize()}</span></span></div>'
+                f'<span class="row1-right">{backlink}{slow_badge}<span class="badge {badge}">{badge.capitalize()}</span></span></div>'
                 f'<div class="meta">{meta}{" " + change_badge if change_badge else ""}</div>'
                 f'<div class="q">{p["q"]}</div>{p["diag"]}'
                 f'<div class="choices">{_choices_html(p, final)}</div>'
@@ -343,6 +366,7 @@ def build_review_html(problems, grading, notes, title, out_path, flagged=None):
                f'<div class="stat right"><b>{grading["n_correct"]}</b><span>Correct</span></div>'
                f'<div class="stat wrong"><b>{len(wrong)}</b><span>Wrong</span></div>'
                f'<div class="stat blank"><b>{len(grading["blank"])}</b><span>Blank</span></div>'
+               f'<div class="stat slow"><b>{len(slow_nums)}</b><span>Took long ({slow_threshold_sec}s+)</span></div>'
                f'<div class="stat"><b>{grading["n_correct"]}/{n_total}</b><span>Score</span></div>'
                f'</div>')
     if missing_notes:
@@ -350,7 +374,10 @@ def build_review_html(problems, grading, notes, title, out_path, flagged=None):
                     f'⚠ {len(missing_notes)} wrong problem(s) have no diagnosis yet: {missing_notes}. '
                     f'This review is incomplete.</p>')
 
-    body = summary + tables + f'<div class="jumplist" id="wronglist">Jump to a missed problem: {jumplist_links}</div>' + ''.join(cards)
+    jumplists = f'<div class="jumplist" id="wronglist">Jump to a missed problem: {jumplist_links}</div>' if jumplist_links else ''
+    jumplists += f'<div class="jumplist slow" id="slowlist">Jump to a slow problem: {slow_jumplist_links}</div>' if slow_jumplist_links else ''
+
+    body = summary + tables + jumplists + ''.join(cards)
 
     css = _CSS or _DEFAULT_CSS
     full = f'<!doctype html><html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>{title} — Review</title><style>{css}</style></head><body><div class="wrap">{body}</div></body></html>'
@@ -362,13 +389,13 @@ def build_review_html(problems, grading, notes, title, out_path, flagged=None):
 _DEFAULT_CSS = '''
 :root{--bg:#F3F1EC;--surface:#FFFFFF;--surface-alt:#EDEAE2;--ink:#2A2521;--ink-muted:#6B6358;--border:#DAD4C8;
 --accent:#8A5A3B;--accent-ink:#6B4428;--accent-soft:#F1E3D6;--right:#2E7D5B;--right-soft:#E3F1EA;--wrong:#B5452E;--wrong-soft:#FBE7E1;--blank:#9A6B1F;--blank-soft:#FBF0DD;
---gap:#7A3B8C;--gap-soft:#F1E3F5;--careless:#2E6B8C;--careless-soft:#E3EEF5;}
+--gap:#7A3B8C;--gap-soft:#F1E3F5;--careless:#2E6B8C;--careless-soft:#E3EEF5;--slow:#1E7A8C;--slow-soft:#E1F1F5;}
 @media (prefers-color-scheme: dark){:root:not([data-theme="light"]){--bg:#1C1815;--surface:#262220;--surface-alt:#2E2925;--ink:#EDE7DF;--ink-muted:#AFA596;--border:#3B352F;
 --accent:#D79A6E;--accent-ink:#E8B98F;--accent-soft:rgba(215,154,110,0.14);--right:#6FCBA0;--right-soft:rgba(111,203,160,0.12);--wrong:#E58A74;--wrong-soft:rgba(229,138,116,0.14);--blank:#E0B45A;--blank-soft:rgba(224,180,90,0.14);
---gap:#C98FDA;--gap-soft:rgba(201,143,218,0.14);--careless:#7FB8E0;--careless-soft:rgba(127,184,224,0.14);color-scheme:dark;}}
+--gap:#C98FDA;--gap-soft:rgba(201,143,218,0.14);--careless:#7FB8E0;--careless-soft:rgba(127,184,224,0.14);--slow:#5EC8DD;--slow-soft:rgba(94,200,221,0.14);color-scheme:dark;}}
 :root[data-theme="dark"]{--bg:#1C1815;--surface:#262220;--surface-alt:#2E2925;--ink:#EDE7DF;--ink-muted:#AFA596;--border:#3B352F;
 --accent:#D79A6E;--accent-ink:#E8B98F;--accent-soft:rgba(215,154,110,0.14);--right:#6FCBA0;--right-soft:rgba(111,203,160,0.12);--wrong:#E58A74;--wrong-soft:rgba(229,138,116,0.14);--blank:#E0B45A;--blank-soft:rgba(224,180,90,0.14);
---gap:#C98FDA;--gap-soft:rgba(201,143,218,0.14);--careless:#7FB8E0;--careless-soft:rgba(127,184,224,0.14);color-scheme:dark;}
+--gap:#C98FDA;--gap-soft:rgba(201,143,218,0.14);--careless:#7FB8E0;--careless-soft:rgba(127,184,224,0.14);--slow:#5EC8DD;--slow-soft:rgba(94,200,221,0.14);color-scheme:dark;}
 *{box-sizing:border-box;}
 body{margin:0;background:var(--bg);color:var(--ink);font-family:"Iowan Old Style","Palatino",Georgia,serif;line-height:1.5;}
 .wrap{max-width:860px;margin:0 auto;padding:28px 18px 64px;}
@@ -378,16 +405,20 @@ h2{font-size:1.2rem;margin:28px 0 10px;font-family:system-ui,sans-serif;}
 .summary{display:flex;gap:14px;flex-wrap:wrap;margin-bottom:22px;font-family:system-ui,sans-serif;}
 .stat{background:var(--surface);border:1px solid var(--border);border-radius:10px;padding:10px 16px;min-width:110px;}
 .stat b{display:block;font-size:1.5rem;font-variant-numeric:tabular-nums;}
-.stat.right b{color:var(--right);} .stat.wrong b{color:var(--wrong);} .stat.blank b{color:var(--blank);}
+.stat.right b{color:var(--right);} .stat.wrong b{color:var(--wrong);} .stat.blank b{color:var(--blank);} .stat.slow b{color:var(--slow);}
 .stat span{font-size:0.78rem;color:var(--ink-muted);text-transform:uppercase;letter-spacing:0.04em;}
 .jumplist{font-family:system-ui,sans-serif;font-size:0.9rem;margin-bottom:10px;color:var(--ink-muted);}
 .jumplist a{color:var(--wrong);text-decoration:none;font-weight:600;margin-right:4px;}
+.jumplist.slow a{color:var(--slow);}
 .gaptable{width:100%;border-collapse:collapse;font-family:system-ui,sans-serif;font-size:0.88rem;margin-bottom:10px;}
 .gaptable th,.gaptable td{border:1px solid var(--border);padding:7px 10px;text-align:left;vertical-align:top;}
 .gaptable th{background:var(--surface-alt);font-size:0.75rem;text-transform:uppercase;letter-spacing:0.03em;color:var(--ink-muted);}
+.gaptable td.wrong{color:var(--wrong);font-weight:700;text-transform:capitalize;}
+.gaptable td.right{color:var(--right);font-weight:700;text-transform:capitalize;}
 .pill{display:inline-block;font-size:0.72rem;font-weight:700;padding:2px 8px;border-radius:999px;white-space:nowrap;}
 .pill.gap{background:var(--gap-soft);color:var(--gap);}
 .pill.careless{background:var(--careless-soft);color:var(--careless);}
+.pill.slow{background:var(--slow-soft);color:var(--slow);}
 .card{background:var(--surface);border:1px solid var(--border);border-radius:12px;padding:16px 18px;margin:0 0 14px;scroll-margin-top:12px;}
 .card.wrong{border-color:var(--wrong);box-shadow:inset 3px 0 0 var(--wrong);}
 .card.blank{border-color:var(--blank);box-shadow:inset 3px 0 0 var(--blank);}
@@ -398,6 +429,7 @@ h2{font-size:1.2rem;margin:28px 0 10px;font-family:system-ui,sans-serif;}
 .badge.right{background:var(--right-soft);color:var(--right);}
 .badge.wrong{background:var(--wrong-soft);color:var(--wrong);}
 .badge.blank{background:var(--blank-soft);color:var(--blank);}
+.badge.slow{background:var(--slow-soft);color:var(--slow);}
 .meta{font-family:system-ui,sans-serif;font-size:0.78rem;color:var(--ink-muted);}
 .chg{font-size:0.78rem;margin-left:4px;}
 .chg::before{content:"· ";}
