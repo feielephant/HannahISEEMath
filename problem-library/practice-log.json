@@ -712,6 +712,8 @@
   },
   {
    "set_no": 2,
+   "status": "pending_regen",
+   "status_note": "Built 2026-10-14, never administered. Parent decision 2026-10-18: hold -- do not give this to Hannah as-is. QR and MA topics overlap heavily (see reference_qr_vs_ma_distinction memory), and QR6 (planned 2026-10-18, set_no 6 in `sets`) is about to generate a lot of fresh per-topic data (confirmed recurring gaps, habit notes, reserved-real-item usage). Regenerate MA2 from scratch AFTER QR6 is taken and graded, so it reflects that data, instead of using this now-stale version. Worksheet files (worksheets/ma-set-2.html, ma-set-2-answer-key.html) left in place, not deleted, in case any part of this build is still worth reusing when regenerating.",
    "topics": [
     "Adding and Subtracting Decimals",
     "Estimating Multiplication & Division",

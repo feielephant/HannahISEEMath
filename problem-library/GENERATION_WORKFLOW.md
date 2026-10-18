@@ -2,6 +2,10 @@
 
 Purpose: generate 38-problem Quantitative Reasoning practice sets (matched to the real test's difficulty and topic mix) for Hannah, rotating topics so strong skills keep getting practice and weak ones get targeted.
 
+## Cadence and sequencing (added 2026-10-18)
+- Target cadence: 2 QR sets + 1 MA set per week.
+- **Generate each week's MA set AFTER that week's QR set(s) are taken and graded, not ahead of time.** QR and MA topics overlap heavily, and grading a QR set surfaces fresh per-topic findings (confirmed/recurring gaps, habit notes, which real library items just got used) that should shape the MA set. Check the most recent QR entry in `practice-log.json` for a `graded_*` key before building/administering the next MA set -- if it's missing, hold. (An MA set already built but not yet administered can be marked `"status": "pending_regen"` on its `ma_sets` entry rather than deleted, if a QR set's results mean it should be rebuilt first.)
+
 ## Files (all in problem-library/)
 - `problem_library.json` — ~757 real questions from 8 full tests, drills, and dashboards (source of examples and topic/difficulty context)
 - `student-tracker.json` — Hannah's gaps, habits, wrong-rates, and priorities (update after each set is graded)
