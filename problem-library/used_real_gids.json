@@ -1,0 +1,17 @@
+{
+  "_readme": "Tracks every real problem_library.json/ma_library.json item that has been pulled VERBATIM (not varied) into a generated QR/MA speed set, so a future set's planner never re-offers the same real item even though its 'status' field in the source library never gets updated. Check this file IN ADDITION TO status=='not_done' before selecting a real item for a new slot. Entries are added once a set is published (viewable by her), not only after grading, since publishing is the point of exposure.",
+  "qr": {
+    "5": [
+      {"n": 12, "global_id": 1087, "topic": "Identifying Shapes"},
+      {"n": 14, "global_id": 1184, "topic": "Total Shaded Area given Figure with Equal Divisions"},
+      {"n": 16, "global_id": 817, "topic": "Remaining Amount after Reducing by Fractions"},
+      {"n": 17, "global_id": 905, "topic": "Nth Term, given Arithmetic Sequence, Progressive Pattern"},
+      {"n": 18, "global_id": 902, "topic": "No Remainder when Divided by a given Number"},
+      {"n": 19, "global_id": 963, "topic": "Converting to a Decimal"},
+      {"n": 24, "global_id": 768, "topic": "Estimating Multiplication & Division"},
+      {"n": 30, "global_id": 919, "topic": "Predicting the Next Shapes given Progressive Pattern"},
+      {"n": 38, "global_id": 823, "topic": "Equivalent Fractions Decimals and Percents"}
+    ]
+  },
+  "ma": {}
+}
