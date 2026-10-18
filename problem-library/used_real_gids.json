@@ -24,6 +24,7 @@
       {"n": 10, "global_id": 810, "topic": "Remaining Amount after Reducing by Fractions"},
       {"n": 11, "global_id": 906, "topic": "Nth Term, given Arithmetic Sequence, Progressive Pattern, etc."},
       {"n": 15, "global_id": 885, "topic": "Multiplying and Dividing Whole Numbers"},
+      {"n": 16, "global_id": 1286, "topic": "Perimeter of Equilateral Figure 1 Side", "note": "Topic-bank fit is approximate -- this item is actually 'area from perimeter of a composite figure,' used here because it's real and now-corrected rather than inventing."},
       {"n": 18, "global_id": 889, "topic": "No Remainder when Divided by a given Number"},
       {"n": 19, "global_id": 1101, "topic": "Product of Prime Numbers"},
       {"n": 20, "global_id": 890, "topic": "No Remainder when Divided by a given Number"},
