@@ -11,6 +11,31 @@
       {"n": 24, "global_id": 768, "topic": "Estimating Multiplication & Division"},
       {"n": 30, "global_id": 919, "topic": "Predicting the Next Shapes given Progressive Pattern"},
       {"n": 38, "global_id": 823, "topic": "Equivalent Fractions Decimals and Percents"}
+    ],
+    "6": [
+      {"n": 1, "global_id": 904, "topic": "Nth Term given Arithmetic Sequence Progressive Pattern"},
+      {"n": 2, "global_id": 884, "topic": "Multiplying and Dividing Whole Numbers"},
+      {"n": 3, "global_id": 209, "topic": "Multi-step unit conversion (off-by-10, multi-step)"},
+      {"n": 4, "global_id": 945, "topic": "Word Problems with Ratios"},
+      {"n": 5, "global_id": 734, "topic": "Area and Perimeter of Complex Polygons"},
+      {"n": 6, "global_id": 1117, "topic": "Mixed Fraction Improper Fraction"},
+      {"n": 7, "global_id": 1151, "topic": "Solving for Missing Sides given Similar Figures"},
+      {"n": 9, "global_id": 1182, "topic": "Total Shaded Area given Figure with Equal Divisions"},
+      {"n": 10, "global_id": 810, "topic": "Remaining Amount after Reducing by Fractions"},
+      {"n": 11, "global_id": 906, "topic": "Nth Term, given Arithmetic Sequence, Progressive Pattern, etc."},
+      {"n": 15, "global_id": 885, "topic": "Multiplying and Dividing Whole Numbers"},
+      {"n": 18, "global_id": 889, "topic": "No Remainder when Divided by a given Number"},
+      {"n": 19, "global_id": 1101, "topic": "Product of Prime Numbers"},
+      {"n": 20, "global_id": 890, "topic": "No Remainder when Divided by a given Number"},
+      {"n": 21, "global_id": 770, "topic": "Estimating Multiplication & Division"},
+      {"n": 22, "global_id": 961, "topic": "Converting to a Decimal"},
+      {"n": 24, "global_id": 758, "topic": "Estimating Division with Money"},
+      {"n": 25, "global_id": 656, "topic": "Translating Math Expressions"},
+      {"n": 26, "global_id": 775, "topic": "Estimating Sums Differences of Decimal Numbers"},
+      {"n": 27, "global_id": 803, "topic": "Percent Word Problems"},
+      {"n": 28, "global_id": 974, "topic": "Counting Multiples within a Range"},
+      {"n": 29, "global_id": 675, "topic": "Adding and Subtracting Decimals"},
+      {"n": 38, "global_id": 666, "topic": "Determining Total Cost"}
     ]
   },
   "ma": {}
