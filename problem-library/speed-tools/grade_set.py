@@ -127,6 +127,14 @@ def _parse_answer_key(html):
 # ---------- 2. Grade against the downloaded times CSV ----------
 
 def grade(problems, times_csv_path):
+    """A row's 'seconds' may be empty -- used for a problem she answered on
+    paper after the digital timer ran out (no per-problem timing exists for
+    those, since she wasn't clicking through the UI). Those rows still count
+    for correctness/topic tallies but are excluded from total_minutes and the
+    slowest/fastest lists, so they don't fake a 0-second (or any) pacing
+    number. Added 2026-10-18 for QR5, the first set she didn't finish
+    digitally -- matches her documented real-test pattern of not finishing
+    QR under time pressure, so expect this to recur."""
     rows = {int(r['problem']): r for r in csv.DictReader(open(times_csv_path))}
     n_total = len(problems)
     wrong, blank = [], []
@@ -148,8 +156,9 @@ def grade(problems, times_csv_path):
                 wrong_to_wrong.append(n)
             elif first_ok and not final_ok:
                 right_to_wrong.append(n)
-    total_sec = sum(float(r['seconds']) for r in rows.values())
-    by_time = sorted(((n, float(r['seconds'])) for n, r in rows.items()), key=lambda x: -x[1])
+    timed_rows = {n: r for n, r in rows.items() if r.get('seconds', '').strip() != ''}
+    total_sec = sum(float(r['seconds']) for r in timed_rows.values())
+    by_time = sorted(((n, float(r['seconds'])) for n, r in timed_rows.items()), key=lambda x: -x[1])
     return dict(
         rows=rows, n_total=n_total, n_correct=n_total - len(wrong) - len(blank),
         wrong=wrong, blank=blank,
@@ -293,7 +302,8 @@ def build_review_html(problems, grading, notes, title, out_path, flagged=None):
             meta = 'Left blank'
             final = None
         else:
-            meta = f'{float(r["seconds"]):.1f}s on this problem'
+            untimed = r.get('seconds', '').strip() == ''
+            meta = 'Answered on paper after the digital timer — not individually timed' if untimed else f'{float(r["seconds"]):.1f}s on this problem'
             if r['first_answer'] != r['final_answer']:
                 meta += f' · first picked {r["first_answer"]}, changed to {r["final_answer"]}'
                 if n in grading['wrong_to_right']:
@@ -451,7 +461,7 @@ def update_tracker_and_log(kind, set_no, problems, grading, notes, date_str):
         if n in grading['wrong']:
             by_topic[topic]['wrong'] += 1
         r = grading['rows'].get(n)
-        if r is not None:
+        if r is not None and r.get('seconds', '').strip() != '':
             by_topic[topic]['sec_total'] += float(r['seconds'])
             by_topic[topic]['sec_n'] += 1
     existing = {x['topic']: x for x in tracker['topics']}

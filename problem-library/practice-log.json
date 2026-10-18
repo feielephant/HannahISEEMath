@@ -541,7 +541,39 @@
     "Fractional Parts Word Problems",
     "Equivalent Fractions Decimals and Percents"
    ],
-   "published_commit": "e6c76451207b255ac832d001329c9178f36509f7"
+   "published_commit": "e6c76451207b255ac832d001329c9178f36509f7",
+   "graded_2026-10-18": {
+    "score": "31/38",
+    "wrong": [
+     1,
+     2,
+     7,
+     16,
+     28,
+     35
+    ],
+    "blank": [
+     37
+    ],
+    "total_elapsed_minutes": 33.12,
+    "first_then_changed": {
+     "wrong_to_right": [
+      15,
+      17,
+      22
+     ],
+     "wrong_to_wrong": [],
+     "right_to_wrong": []
+    },
+    "notes_summary": {
+     "1": "Composite-figure perimeter \u2014 same shape as her original real-test miss",
+     "2": "Multi-step unit conversion \u2014 the \"off-by-10\" trap, by name",
+     "7": "Growing-difference pattern \u2014 extended one step too far",
+     "16": "Fast but wrong \u2014 likely an arithmetic slip, not a concept gap",
+     "28": "\"8 more than\" translated with the wrong sign",
+     "35": "Multi-step percent \u2014 likely skipped the markup step entirely"
+    }
+   }
   }
  ],
  "rotation_notes": {
