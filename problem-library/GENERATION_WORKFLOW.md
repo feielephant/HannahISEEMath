@@ -18,6 +18,9 @@ Purpose: generate 38-problem Quantitative Reasoning practice sets (matched to th
 - Difficulty mix (topic-matched): ~28% Easy, ~53% Medium, ~16% Hard (+ ~3% unmatched)
 - Most frequent real topics: Translating Math Expressions (8/8 tests), Converting to a Decimal (8/8), Angles in Triangles (7/8), Area of Triangles (7/8)
 
+## Coverage floor (added 2026-10-19)
+Target: she's testing Dec 10, 2026. Before running `plan_set.py` for a new set, run `python3 speed-tools/check_coverage_pace.py` -- it computes remaining practice weeks to the test (skipping Thanksgiving week), flags any bank topic with literally zero data ever (not even in a queued-but-ungraded set -- the most urgent category, since there's no signal at all to judge it by), and flags tracked topics still under a floor of 4 graded instances by test day. This is a SECONDARY check, not a priority override: the planner's normal wrong-rate/slow-rate weighting stays the primary driver of what gets practiced most. Only use this to make sure a low-weight topic (priority unknown/low/maintain) doesn't keep losing the rotation lottery indefinitely and still have near-zero data when test day arrives -- prefer a flagged topic when it fits naturally alongside the set's real priority picks, don't let it displace a genuinely high-need slot. See also `check_priority_staleness.py`, a related but different check (whether an existing priority LABEL still matches the evidence, not whether a topic has enough data to judge in the first place).
+
 ## Steps for each new set
 1. Run `python3 plan_set.py` in problem-library/ — it prints the 38-slot plan and appends to practice-log.json.
 2. For each slot, write one NEW problem on that topic and tier. Use real examples from problem_library.json as the model (same wording style, same number of steps), but fresh numbers and scenario. Never copy a real question verbatim.
