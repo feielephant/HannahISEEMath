@@ -28,9 +28,9 @@ button.choice{font:inherit;text-align:left;cursor:pointer;color:var(--ink);paddi
 .step-label{color:var(--ink-muted);font-size:0.95rem;min-width:230px;}
 </style></head><body><div class="wrap">
 <h1>Mental Math: Percent &amp; Brackets 1</h1>
-<p class="lede">7 problems (13 blanks) &middot; 10 minutes. Part 1: type just the number. Part 2: work it out your own way &mdash; fill in whatever you calculate first, then next, then the final answer.</p>
-<div class="sticky-top"><div class="timer">Time left: <span id="clock">10:00</span> <button type="button" class="choice" id="go">Start</button></div><div class="progress">Answered: <span id="count">0</span> / 13</div></div>
-<div id="timing" style="display:none"><h2>Timing</h2><p>Total: <span id="total">0:00</span> &middot; Answered: <span id="answered">0</span> / 13</p><table class="data"><tr><th>#</th><th>Time (s)</th><th>First answer</th><th>Final answer</th><th>Edits</th></tr><tbody id="rows"></tbody></table><h3>Change log</h3><div class="logwrap"><table class="data"><tr><th>#</th><th>Elapsed</th><th>Clock</th><th>Problem</th><th>Action</th></tr><tbody id="log"></tbody></table></div><p><button type="button" class="choice" id="dl">Download times (CSV)</button> <button type="button" class="choice" id="dl2">Download change log (CSV)</button> <button type="button" class="choice" id="clr">Clear all answers</button></p></div>
+<p class="lede">7 problems (11 blanks) &middot; 10 minutes. Part 1: type just the number. Part 2: work it out your own way &mdash; fill in whatever you calculate first, then next, then the final answer. (Some problems need fewer steps than others.)</p>
+<div class="sticky-top"><div class="timer">Time left: <span id="clock">10:00</span> <button type="button" class="choice" id="go">Start</button></div><div class="progress">Answered: <span id="count">0</span> / 11</div></div>
+<div id="timing" style="display:none"><h2>Timing</h2><p>Total: <span id="total">0:00</span> &middot; Answered: <span id="answered">0</span> / 11</p><table class="data"><tr><th>#</th><th>Time (s)</th><th>First answer</th><th>Final answer</th><th>Edits</th></tr><tbody id="rows"></tbody></table><h3>Change log</h3><div class="logwrap"><table class="data"><tr><th>#</th><th>Elapsed</th><th>Clock</th><th>Problem</th><th>Action</th></tr><tbody id="log"></tbody></table></div><p><button type="button" class="choice" id="dl">Download times (CSV)</button> <button type="button" class="choice" id="dl2">Download change log (CSV)</button> <button type="button" class="choice" id="clr">Clear all answers</button></p></div>
 
 <div class="section-label">Part 1 &mdash; Percent of a Number</div>
 
@@ -41,22 +41,20 @@ button.choice{font:inherit;text-align:left;cursor:pointer;color:var(--ink);paddi
 
 <div class="section-label">Part 2 &mdash; Order of Operations with Brackets: show your own steps</div>
 
-<div class="card"><div class="num">5. <span class="ptime" id="pt5a"></span></div><div class="q">7 + 4 &times; (10 &minus; 4) &divide; 3</div><div class="steps">
+<div class="card"><div class="num">5. <span class="ptime" id="pt5a"></span></div><div class="q">(12 &minus; 5) &times; 3 + 9</div><div class="steps">
 <div class="step-row"><span class="step-label">Step 1:</span><input type="text" inputmode="decimal" class="ans-input" id="ans5a" data-qid="5a" autocomplete="off"></div>
 <div class="step-row"><span class="step-label">Step 2:</span><input type="text" inputmode="decimal" class="ans-input" id="ans5b" data-qid="5b" autocomplete="off"></div>
 <div class="step-row"><span class="step-label">Final answer:</span><input type="text" inputmode="decimal" class="ans-input" id="ans5c" data-qid="5c" autocomplete="off"></div>
 </div></div>
 
-<div class="card"><div class="num">6. <span class="ptime" id="pt6a"></span></div><div class="q">18 &minus; 2 &times; (9 &minus; 5) &divide; 4</div><div class="steps">
+<div class="card"><div class="num">6. <span class="ptime" id="pt6a"></span></div><div class="q">8 + 12 &divide; 4 &times; 3 &minus; 5</div><div class="steps">
 <div class="step-row"><span class="step-label">Step 1:</span><input type="text" inputmode="decimal" class="ans-input" id="ans6a" data-qid="6a" autocomplete="off"></div>
-<div class="step-row"><span class="step-label">Step 2:</span><input type="text" inputmode="decimal" class="ans-input" id="ans6b" data-qid="6b" autocomplete="off"></div>
-<div class="step-row"><span class="step-label">Final answer:</span><input type="text" inputmode="decimal" class="ans-input" id="ans6c" data-qid="6c" autocomplete="off"></div>
+<div class="step-row"><span class="step-label">Final answer:</span><input type="text" inputmode="decimal" class="ans-input" id="ans6b" data-qid="6b" autocomplete="off"></div>
 </div></div>
 
-<div class="card"><div class="num">7. <span class="ptime" id="pt7a"></span></div><div class="q">9 + 6 &times; (11 &minus; 8) &divide; 2</div><div class="steps">
+<div class="card"><div class="num">7. <span class="ptime" id="pt7a"></span></div><div class="q">15 &minus; 20 &divide; (2 + 3)</div><div class="steps">
 <div class="step-row"><span class="step-label">Step 1:</span><input type="text" inputmode="decimal" class="ans-input" id="ans7a" data-qid="7a" autocomplete="off"></div>
-<div class="step-row"><span class="step-label">Step 2:</span><input type="text" inputmode="decimal" class="ans-input" id="ans7b" data-qid="7b" autocomplete="off"></div>
-<div class="step-row"><span class="step-label">Final answer:</span><input type="text" inputmode="decimal" class="ans-input" id="ans7c" data-qid="7c" autocomplete="off"></div>
+<div class="step-row"><span class="step-label">Final answer:</span><input type="text" inputmode="decimal" class="ans-input" id="ans7b" data-qid="7b" autocomplete="off"></div>
 </div></div>
 
 </div>
