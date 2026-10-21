@@ -771,7 +771,8 @@
     "Input Output Tables",
     "Finding Missing Side Length"
    ],
-   "status_note_history": "Regenerated 2026-10-20 from scratch after QR6 graded, per the pending_regen hold from 2026-10-18. #1/#2 are deliberate retests of QR6 #33 (drops an intermediate given value) and #32 (fraction comparison, no method) in new scenarios/numbers. #13 retests the QR4 #6 order-of-operations miss in its original harder equivalence format."
+   "status_note_history": "Regenerated 2026-10-20 from scratch after QR6 graded, per the pending_regen hold from 2026-10-18. #1/#2 are deliberate retests of QR6 #33 (drops an intermediate given value) and #32 (fraction comparison, no method) in new scenarios/numbers. #13 retests the QR4 #6 order-of-operations miss in its original harder equivalence format.",
+   "published_commit": "e2b799e140c5486262eebb66c8c0c4b2135c7b71"
   }
  ],
  "ma_notes": {
