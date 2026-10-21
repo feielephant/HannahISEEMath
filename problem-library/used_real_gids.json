@@ -255,6 +255,18 @@
     "n": 28,
     "global_id": 1086,
     "topic": "Identifying Shapes"
+   },
+   {
+    "n": 15,
+    "global_id": 818,
+    "topic": "Determining Averages between Points on Number Lines",
+    "note": "verified directly against source screenshot, not just notes"
+   },
+   {
+    "n": 16,
+    "global_id": 948,
+    "topic": "Interpreting Pictographs",
+    "note": "verified directly against source screenshot; uses real half-symbol glyph (triangle), not CSS clip"
    }
   ]
  }
