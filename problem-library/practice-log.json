@@ -619,7 +619,33 @@
     "Multiplying and Dividing Integers",
     "Determining Total Cost"
    ],
-   "published_commit": "06e3c0dbe04092b2b7a3b7c9f8e5116ba217fa06"
+   "published_commit": "06e3c0dbe04092b2b7a3b7c9f8e5116ba217fa06",
+   "graded_2026-10-20": {
+    "score": "33/38",
+    "wrong": [
+     3,
+     28,
+     32,
+     33,
+     34
+    ],
+    "blank": [],
+    "total_elapsed_minutes": 35.32,
+    "first_then_changed": {
+     "wrong_to_right": [
+      25
+     ],
+     "wrong_to_wrong": [],
+     "right_to_wrong": []
+    },
+    "notes_summary": {
+     "3": "Real gap -- wrong quart-to-pint conversion factor",
+     "28": "Real gap -- dropped both boundary multiples when listing by hand",
+     "32": "Real gap -- fraction-to-decimal conversion, same habit as before",
+     "33": "Real gap -- used the full goal instead of the remaining amount (confirmed recurring pattern)",
+     "34": "Uncertain -- same guess-like pattern as before on this topic"
+    }
+   }
   }
  ],
  "rotation_notes": {
