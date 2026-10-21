@@ -1,43 +1,204 @@
 {
-  "_readme": "Tracks every real problem_library.json/ma_library.json item that has been pulled VERBATIM (not varied) into a generated QR/MA speed set, so a future set's planner never re-offers the same real item even though its 'status' field in the source library never gets updated. Check this file IN ADDITION TO status=='not_done' before selecting a real item for a new slot. Entries are added once a set is published (viewable by her), not only after grading, since publishing is the point of exposure.",
-  "qr": {
-    "5": [
-      {"n": 12, "global_id": 1087, "topic": "Identifying Shapes"},
-      {"n": 14, "global_id": 1184, "topic": "Total Shaded Area given Figure with Equal Divisions"},
-      {"n": 16, "global_id": 817, "topic": "Remaining Amount after Reducing by Fractions"},
-      {"n": 17, "global_id": 905, "topic": "Nth Term, given Arithmetic Sequence, Progressive Pattern"},
-      {"n": 18, "global_id": 902, "topic": "No Remainder when Divided by a given Number"},
-      {"n": 19, "global_id": 963, "topic": "Converting to a Decimal"},
-      {"n": 24, "global_id": 768, "topic": "Estimating Multiplication & Division"},
-      {"n": 30, "global_id": 919, "topic": "Predicting the Next Shapes given Progressive Pattern"},
-      {"n": 38, "global_id": 823, "topic": "Equivalent Fractions Decimals and Percents"}
-    ],
-    "6": [
-      {"n": 1, "global_id": 763, "topic": "Fractional Parts Word Problems"},
-      {"n": 2, "global_id": 884, "topic": "Multiplying and Dividing Whole Numbers"},
-      {"n": 3, "global_id": 209, "topic": "Multi-step unit conversion (off-by-10, multi-step)", "provenance_note": "NOT official ISEE material -- source_file is a photographed page from the third-party 'Elevate Prep' book (page 143), confirmed by parent 2026-10-19. Still a real, never-seen problem, just not from an ISEE-published source like the other 22 real items in this set."},
-      {"n": 4, "global_id": 945, "topic": "Word Problems with Ratios"},
-      {"n": 5, "global_id": 734, "topic": "Area and Perimeter of Complex Polygons"},
-      {"n": 7, "global_id": 1151, "topic": "Solving for Missing Sides given Similar Figures"},
-      {"n": 8, "global_id": 1018, "topic": "Finding MMMR given Bar Graph Data Table"},
-      {"n": 9, "global_id": 1182, "topic": "Total Shaded Area given Figure with Equal Divisions"},
-      {"n": 10, "global_id": 810, "topic": "Remaining Amount after Reducing by Fractions"},
-      {"n": 11, "global_id": 906, "topic": "Nth Term, given Arithmetic Sequence, Progressive Pattern, etc."},
-      {"n": 15, "global_id": 885, "topic": "Multiplying and Dividing Whole Numbers"},
-      {"n": 16, "global_id": 1286, "topic": "Perimeter of Equilateral Figure 1 Side", "note": "Topic-bank fit is approximate -- this item is actually 'area from perimeter of a composite figure,' used here because it's real and now-corrected rather than inventing."},
-      {"n": 18, "global_id": 889, "topic": "No Remainder when Divided by a given Number"},
-      {"n": 19, "global_id": 1101, "topic": "Product of Prime Numbers"},
-      {"n": 20, "global_id": 890, "topic": "No Remainder when Divided by a given Number"},
-      {"n": 21, "global_id": 770, "topic": "Estimating Multiplication & Division"},
-      {"n": 22, "global_id": 961, "topic": "Converting to a Decimal"},
-      {"n": 24, "global_id": 824, "topic": "Equivalent Fractions Decimals and Percents"},
-      {"n": 26, "global_id": 775, "topic": "Estimating Sums Differences of Decimal Numbers"},
-      {"n": 27, "global_id": 803, "topic": "Percent Word Problems"},
-      {"n": 28, "global_id": 974, "topic": "Counting Multiples within a Range"},
-      {"n": 29, "global_id": 675, "topic": "Adding and Subtracting Decimals"},
-      {"n": 33, "global_id": 1305, "topic": "Comparing Adding Subtracting Bar Graph Data Table Values"},
-      {"n": 38, "global_id": 666, "topic": "Determining Total Cost"}
-    ]
-  },
-  "ma": {}
+ "_readme": "Tracks every real problem_library.json/ma_library.json item that has been pulled VERBATIM (not varied) into a generated QR/MA speed set, so a future set's planner never re-offers the same real item even though its 'status' field in the source library never gets updated. Check this file IN ADDITION TO status=='not_done' before selecting a real item for a new slot. Entries are added once a set is published (viewable by her), not only after grading, since publishing is the point of exposure.",
+ "qr": {
+  "5": [
+   {
+    "n": 12,
+    "global_id": 1087,
+    "topic": "Identifying Shapes"
+   },
+   {
+    "n": 14,
+    "global_id": 1184,
+    "topic": "Total Shaded Area given Figure with Equal Divisions"
+   },
+   {
+    "n": 16,
+    "global_id": 817,
+    "topic": "Remaining Amount after Reducing by Fractions"
+   },
+   {
+    "n": 17,
+    "global_id": 905,
+    "topic": "Nth Term, given Arithmetic Sequence, Progressive Pattern"
+   },
+   {
+    "n": 18,
+    "global_id": 902,
+    "topic": "No Remainder when Divided by a given Number"
+   },
+   {
+    "n": 19,
+    "global_id": 963,
+    "topic": "Converting to a Decimal"
+   },
+   {
+    "n": 24,
+    "global_id": 768,
+    "topic": "Estimating Multiplication & Division"
+   },
+   {
+    "n": 30,
+    "global_id": 919,
+    "topic": "Predicting the Next Shapes given Progressive Pattern"
+   },
+   {
+    "n": 38,
+    "global_id": 823,
+    "topic": "Equivalent Fractions Decimals and Percents"
+   }
+  ],
+  "6": [
+   {
+    "n": 1,
+    "global_id": 763,
+    "topic": "Fractional Parts Word Problems"
+   },
+   {
+    "n": 2,
+    "global_id": 884,
+    "topic": "Multiplying and Dividing Whole Numbers"
+   },
+   {
+    "n": 3,
+    "global_id": 209,
+    "topic": "Multi-step unit conversion (off-by-10, multi-step)",
+    "provenance_note": "NOT official ISEE material -- source_file is a photographed page from the third-party 'Elevate Prep' book (page 143), confirmed by parent 2026-10-19. Still a real, never-seen problem, just not from an ISEE-published source like the other 22 real items in this set."
+   },
+   {
+    "n": 4,
+    "global_id": 945,
+    "topic": "Word Problems with Ratios"
+   },
+   {
+    "n": 5,
+    "global_id": 734,
+    "topic": "Area and Perimeter of Complex Polygons"
+   },
+   {
+    "n": 7,
+    "global_id": 1151,
+    "topic": "Solving for Missing Sides given Similar Figures"
+   },
+   {
+    "n": 8,
+    "global_id": 1018,
+    "topic": "Finding MMMR given Bar Graph Data Table"
+   },
+   {
+    "n": 9,
+    "global_id": 1182,
+    "topic": "Total Shaded Area given Figure with Equal Divisions"
+   },
+   {
+    "n": 10,
+    "global_id": 810,
+    "topic": "Remaining Amount after Reducing by Fractions"
+   },
+   {
+    "n": 11,
+    "global_id": 906,
+    "topic": "Nth Term, given Arithmetic Sequence, Progressive Pattern, etc."
+   },
+   {
+    "n": 15,
+    "global_id": 885,
+    "topic": "Multiplying and Dividing Whole Numbers"
+   },
+   {
+    "n": 16,
+    "global_id": 1286,
+    "topic": "Perimeter of Equilateral Figure 1 Side",
+    "note": "Topic-bank fit is approximate -- this item is actually 'area from perimeter of a composite figure,' used here because it's real and now-corrected rather than inventing."
+   },
+   {
+    "n": 18,
+    "global_id": 889,
+    "topic": "No Remainder when Divided by a given Number"
+   },
+   {
+    "n": 19,
+    "global_id": 1101,
+    "topic": "Product of Prime Numbers"
+   },
+   {
+    "n": 20,
+    "global_id": 890,
+    "topic": "No Remainder when Divided by a given Number"
+   },
+   {
+    "n": 21,
+    "global_id": 770,
+    "topic": "Estimating Multiplication & Division"
+   },
+   {
+    "n": 22,
+    "global_id": 961,
+    "topic": "Converting to a Decimal"
+   },
+   {
+    "n": 24,
+    "global_id": 824,
+    "topic": "Equivalent Fractions Decimals and Percents"
+   },
+   {
+    "n": 26,
+    "global_id": 775,
+    "topic": "Estimating Sums Differences of Decimal Numbers"
+   },
+   {
+    "n": 27,
+    "global_id": 803,
+    "topic": "Percent Word Problems"
+   },
+   {
+    "n": 28,
+    "global_id": 974,
+    "topic": "Counting Multiples within a Range"
+   },
+   {
+    "n": 29,
+    "global_id": 675,
+    "topic": "Adding and Subtracting Decimals"
+   },
+   {
+    "n": 33,
+    "global_id": 1305,
+    "topic": "Comparing Adding Subtracting Bar Graph Data Table Values"
+   },
+   {
+    "n": 38,
+    "global_id": 666,
+    "topic": "Determining Total Cost"
+   }
+  ]
+ },
+ "ma": {
+  "2": [
+   {
+    "n": 5,
+    "global_id": null,
+    "exercise_title": "No Remainder when Divided by two given Numbers #2",
+    "question_text": "If x can be divided by both 8 and 10 without leaving a remainder, then x can also be divided by which number without leaving a remainder?",
+    "topic": "No Remainder when Divided by a given Number",
+    "note": "global_id is null on this ma_library.json item (not_done items from this capture batch never got one assigned) -- identified by exercise_title + question_text instead."
+   },
+   {
+    "n": 6,
+    "global_id": null,
+    "exercise_title": "Remainder when Divided by a given Number",
+    "question_text": "Which expression results in a remainder of 6?",
+    "topic": "Remainder when Divided by a given Number",
+    "note": "global_id is null on this ma_library.json item -- identified by exercise_title + question_text instead."
+   },
+   {
+    "n": 13,
+    "global_id": null,
+    "exercise_title": "ORDER OF OPERATIONS & EQUIVALENCE #4",
+    "question_text": "Which expression is equal to 9 \u00d7 (5 + 2) \u2212 18?",
+    "topic": "Order of Operations and Equivalence",
+    "note": "global_id is null on this ma_library.json item -- identified by exercise_title + question_text instead."
+   }
+  ]
+ }
 }
