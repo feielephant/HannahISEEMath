@@ -279,6 +279,12 @@
     "global_id": 1027,
     "topic": "Finding Missing Side Length",
     "note": "found during earlier cross-library check but not swapped in until a follow-up pass"
+   },
+   {
+    "n": 27,
+    "global_id": 656,
+    "topic": "Translating Math Expressions",
+    "note": "QR-only topic, deliberately included as an exception (confirmed real weak spot, swapped in for a topic she is solid on)"
    }
   ]
  }
