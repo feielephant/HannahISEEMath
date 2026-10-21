@@ -1,5 +1,5 @@
 {
- "_readme": "Tracks every real problem_library.json/ma_library.json item that has been pulled VERBATIM (not varied) into a generated QR/MA speed set, so a future set's planner never re-offers the same real item even though its 'status' field in the source library never gets updated. Check this file IN ADDITION TO status=='not_done' before selecting a real item for a new slot. Entries are added once a set is published (viewable by her), not only after grading, since publishing is the point of exposure.",
+ "_readme": "Tracks every real problem_library.json/ma_library.json item that has been pulled VERBATIM (not varied) into a generated QR/MA speed set, so a future set's planner never re-offers the same real item even though its 'status' field in the source library never gets updated. Check this file IN ADDITION TO status=='not_done' before selecting a real item for a new slot. Entries are added once a set is published (viewable by her), not only after grading, since publishing is the point of exposure. NOTE 2026-10-21: an MA set can also legitimately pull from problem_library.json (the QR library), not only ma_library.json -- the two libraries are filed by capture-time judgment call, not a hard content boundary, and many exercise names/formats overlap. Check both before inventing. Entries from the QR library used in an MA set are tracked under a \"_from_qr_library\" suffixed key so it is clear which library the global_id belongs to.",
  "qr": {
   "5": [
    {
@@ -198,6 +198,63 @@
     "question_text": "Which expression is equal to 9 \u00d7 (5 + 2) \u2212 18?",
     "topic": "Order of Operations and Equivalence",
     "note": "global_id is null on this ma_library.json item -- identified by exercise_title + question_text instead."
+   }
+  ],
+  "2_from_qr_library": [
+   {
+    "n": 3,
+    "global_id": 817,
+    "topic": "Remaining Amount after Reducing by Fractions"
+   },
+   {
+    "n": 7,
+    "global_id": 903,
+    "topic": "Nth Term, given Arithmetic Sequence"
+   },
+   {
+    "n": 9,
+    "global_id": 828,
+    "topic": "Equivalent Fractions Decimals and Percents"
+   },
+   {
+    "n": 10,
+    "global_id": 768,
+    "topic": "Estimating Multiplication & Division"
+   },
+   {
+    "n": 11,
+    "global_id": 758,
+    "topic": "Estimating Division with Money"
+   },
+   {
+    "n": 12,
+    "global_id": 773,
+    "topic": "Estimating Sums Differences of Decimal Numbers"
+   },
+   {
+    "n": 14,
+    "global_id": 1017,
+    "topic": "Finding MMMR given Bar Graph Data Table"
+   },
+   {
+    "n": 20,
+    "global_id": 665,
+    "topic": "Determining Total Cost"
+   },
+   {
+    "n": 22,
+    "global_id": 912,
+    "topic": "Predicting the Next Shapes given Progressive Pattern"
+   },
+   {
+    "n": 26,
+    "global_id": 1171,
+    "topic": "Vertices Forming Right Angles Quadrilaterals on a Coordinate Plane"
+   },
+   {
+    "n": 28,
+    "global_id": 1086,
+    "topic": "Identifying Shapes"
    }
   ]
  }
