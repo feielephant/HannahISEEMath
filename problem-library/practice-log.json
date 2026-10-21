@@ -772,7 +772,27 @@
     "Finding Missing Side Length"
    ],
    "status_note_history": "Regenerated 2026-10-20 from scratch after QR6 graded, per the pending_regen hold from 2026-10-18. #1/#2 are deliberate retests of QR6 #33 (drops an intermediate given value) and #32 (fraction comparison, no method) in new scenarios/numbers. #13 retests the QR4 #6 order-of-operations miss in its original harder equivalence format.",
-   "published_commit": "afc6a81b4a17b306d65dabfcc8a84bb4ffa2331f"
+   "published_commit": "afc6a81b4a17b306d65dabfcc8a84bb4ffa2331f",
+   "graded_2026-10-21": {
+    "score": "28/30",
+    "wrong": [
+     2,
+     29
+    ],
+    "blank": [],
+    "total_elapsed_minutes": 30.0,
+    "first_then_changed": {
+     "wrong_to_right": [
+      30
+     ],
+     "wrong_to_wrong": [],
+     "right_to_wrong": []
+    },
+    "notes_summary": {
+     "2": "Real gap, CONFIRMED STILL OPEN -- the QR6 #32 fix did not hold",
+     "29": "Uncertain -- picked an answer consistent with an off-by-one rule application"
+    }
+   }
   }
  ],
  "ma_notes": {

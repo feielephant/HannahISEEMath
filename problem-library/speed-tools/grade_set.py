@@ -87,7 +87,10 @@ def load_published_problems(kind, set_no):
     return _parse_answer_key(html)
 
 def _parse_answer_key(html):
-    cards_raw = html.split('<div class="card">')[1:]
+    # split on the opening card tag, tolerating an optional data-n="N" attribute
+    # (added once MA sets moved to the paginated one-problem-per-page harness, which
+    # stamps every card with data-n for its prev/next nav -- plain QR cards have none)
+    cards_raw = re.split(r'<div class="card"(?: data-n="\d+")?>', html)[1:]
     problems = {}
     for chunk in cards_raw:
         m_num = re.search(r'<div class="num">(\d+)\. ', chunk)
@@ -118,7 +121,8 @@ def _parse_answer_key(html):
                 ch.append((mm.group(1), mm.group(2)))
         m_key = re.search(r'<div class="key"><b>Answer: ([A-D])\.</b> (.*?)</div>', chunk, re.S)
         ans, why = (m_key.group(1), m_key.group(2)) if m_key else (None, '')
-        m_ref = re.search(r'Tier: (\w+) · Topic: ([^<·]+)', chunk)
+        # accept either the literal middle-dot or its HTML entity as the separator
+        m_ref = re.search(r'Tier: (\w+) (?:·|&middot;) Topic: ([^<·]+?)(?:&middot;| ·|<)', chunk)
         tier, topic = (m_ref.group(1), m_ref.group(2).strip().replace('&amp;', '&')) if m_ref else ('', '')
         problems[n] = dict(q=q, diag=diag, choices=ch, ans=ans, why=why, tier=tier, topic=topic)
     return problems
