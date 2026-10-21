@@ -639,11 +639,11 @@
      "right_to_wrong": []
     },
     "notes_summary": {
-     "3": "Real gap -- wrong quart-to-pint conversion factor",
-     "28": "Real gap -- dropped both boundary multiples when listing by hand",
-     "32": "Real gap -- fraction-to-decimal conversion, same habit as before",
+     "3": "Not a concept gap -- misread 6 quarts as 9 (confirmed with her directly)",
+     "28": "Real gap -- no method yet for the two-sided \"between A and B\" variant",
+     "32": "Real gap, broader than first diagnosed -- no fraction-to-fraction OR fraction-to-decimal comparison method",
      "33": "Real gap -- used the full goal instead of the remaining amount (confirmed recurring pattern)",
-     "34": "Uncertain -- same guess-like pattern as before on this topic"
+     "34": "Uncertain -- same guess-like pattern as before, but now has a taught method"
     }
    }
   }
