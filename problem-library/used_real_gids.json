@@ -267,6 +267,18 @@
     "global_id": 948,
     "topic": "Interpreting Pictographs",
     "note": "verified directly against source screenshot; uses real half-symbol glyph (triangle), not CSS clip"
+   },
+   {
+    "n": 24,
+    "global_id": 1058,
+    "topic": "Perimeter",
+    "note": "found during earlier cross-library check but not swapped in until a follow-up pass"
+   },
+   {
+    "n": 30,
+    "global_id": 1027,
+    "topic": "Finding Missing Side Length",
+    "note": "found during earlier cross-library check but not swapped in until a follow-up pass"
    }
   ]
  }
