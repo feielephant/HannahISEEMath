@@ -1122,6 +1122,13 @@
    "_sec_total": 80.0,
    "_sec_n": 1,
    "avg_seconds": 80.0
+  },
+  {
+   "topic": "Finding Median, given Sets of Numbers",
+   "tier": "unknown",
+   "subject": "QR",
+   "priority": "unknown",
+   "real_tests_note": "First exposure via QR7 slot 31, pulled as a real not_done item from ma_library.json (cross-library pull into a QR set). Not yet cross-checked against official-test tagging frequency."
   }
  ],
  "pacing": {

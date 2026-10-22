@@ -202,6 +202,24 @@
     "n": 37,
     "global_id": 797,
     "topic": "Solving Problems with Geometric Formulas"
+   },
+   {
+    "n": 14,
+    "global_id": 910,
+    "topic": "Input Output Tables",
+    "note": "swapped in to replace an invented item after audit found this real not_done item was available and unused"
+   },
+   {
+    "n": 22,
+    "global_id": 1024,
+    "topic": "Finding Missing Side Length",
+    "note": "swapped in to replace an invented item after audit found this real not_done item was available and unused"
+   },
+   {
+    "n": 23,
+    "global_id": 1183,
+    "topic": "Total Shaded Area given Figure with Equal Divisions",
+    "note": "swapped in to replace an invented item after audit found this real not_done item was available and unused (gid 1181/1185 also checked -- 1185 rejected, its math does not reconcile with its own answer choices, a likely transcription bug)"
    }
   ],
   "7_from_ma_library": [
@@ -228,6 +246,13 @@
     "question_text": "Which expression results in a remainder of 5?",
     "topic": "Remainder when Divided by a given Number",
     "note": "global_id is null on this ma_library.json not_done item -- identified by exercise_title + question_text instead."
+   },
+   {
+    "n": 31,
+    "global_id": null,
+    "exercise_title": "Finding Median, given Sets of Numbers",
+    "question_text": "What is the median of the data set?",
+    "note": "global_id is null and question_text is generic/shared across all 9 not_done items under this topic -- identified uniquely by its diagram data set \"17, 12, 16, 9, 21, 18, 20\" (the unsorted one, hardest of the 9 available). Replaces an invented \"Converting to a Decimal\" item that had zero real evidence anywhere in either library."
    }
   ]
  },
