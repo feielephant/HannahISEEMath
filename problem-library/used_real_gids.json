@@ -171,6 +171,64 @@
     "global_id": 666,
     "topic": "Determining Total Cost"
    }
+  ],
+  "7": [
+   {
+    "n": 5,
+    "global_id": 1055,
+    "topic": "Word Problems Linear Relationships"
+   },
+   {
+    "n": 27,
+    "global_id": 881,
+    "topic": "Multiplying and Dividing Decimals"
+   },
+   {
+    "n": 30,
+    "global_id": 774,
+    "topic": "Estimation (sums, products, money, ranges)"
+   },
+   {
+    "n": 33,
+    "global_id": 1126,
+    "topic": "Mixture Problems"
+   },
+   {
+    "n": 36,
+    "global_id": 802,
+    "topic": "Percent Word Problems"
+   },
+   {
+    "n": 37,
+    "global_id": 797,
+    "topic": "Solving Problems with Geometric Formulas"
+   }
+  ],
+  "7_from_ma_library": [
+   {
+    "n": 9,
+    "global_id": null,
+    "exercise_title": "No Remainder when Divided by two given Numbers #2",
+    "question_text": "If x can be divided by both 7 and 10 without leaving a remainder, then x can also be divided by which number without leaving a remainder?",
+    "topic": "No Remainder when Divided by a given Number",
+    "note": "global_id is null on this ma_library.json not_done item -- identified by exercise_title + question_text instead. A QR set legitimately pulling from the MA library too, the reverse direction of the _from_qr_library pattern already used in ma.2_from_qr_library."
+   },
+   {
+    "n": 16,
+    "global_id": null,
+    "exercise_title": "No Remainder when Divided by two given Numbers #2",
+    "question_text": "If x can be divided by both 5 and 9 without leaving a remainder, then x can also be divided by which number without leaving a remainder?",
+    "topic": "No Remainder when Divided by a given Number",
+    "note": "global_id is null on this ma_library.json not_done item -- identified by exercise_title + question_text instead."
+   },
+   {
+    "n": 29,
+    "global_id": null,
+    "exercise_title": "Remainder when Divided by a given Number",
+    "question_text": "Which expression results in a remainder of 5?",
+    "topic": "Remainder when Divided by a given Number",
+    "note": "global_id is null on this ma_library.json not_done item -- identified by exercise_title + question_text instead."
+   }
   ]
  },
  "ma": {
