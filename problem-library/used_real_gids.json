@@ -243,6 +243,12 @@
         "global_id": 957,
         "topic": "Averaging Mixed Numbers",
         "note": "swapped out Multiplying and Dividing Decimals -- parent recalled averaging mixed numbers as a confirmed weak spot; verified against real gid18 (done, is_wrong:true)"
+      },
+      {
+        "n": 1,
+        "global_id": 791,
+        "topic": "Solving Problems with Geometric Formulas",
+        "note": "swapped out English Unit Conversions -- too close in skill to #10; kept #10 as the harder item. Doubles up this topic with #37 (different real item), intentional given confirmed 33% wrong rate"
       }
     ],
     "7_from_ma_library": [
