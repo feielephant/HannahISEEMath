@@ -27546,11 +27546,11 @@
     "status": "not_done"
   },
   {
-    "source_file": "Screenshot 2026-10-04 at 11.10.35 AM.png",
+    "source_file": "mathspeed test/by-topic/Identifying Correct Conclusions from Bar Graph-Data Table Values/Screenshot 2026-10-04 at 11.10.35 AM.png",
     "exercise_topic_guess": "IDENTIFYING CORRECT CONCLUSIONS FROM BAR GRAPH/DATA TABLE VALUES #1",
     "question_number": "1",
     "question_text": "A sculptor logged the number of minutes he worked on a particular sculpture during a week. Based on the graph, which conclusion is true?",
-    "diagram_description": "Bar graph titled 'MINUTES SPENT SCULPTING'. Y-axis 'Time (minutes)', 0 to 60 in steps of 5. X-axis 'Day'. Bars (approx., read from gridlines): Monday ~30, Tuesday ~30, Wednesday ~45, Thursday ~55, Friday ~40. Gray bars.",
+    "diagram_description": "Bar graph titled 'MINUTES SPENT SCULPTING'. Y-axis 'Time (minutes)', 0 to 60 in steps of 5. X-axis 'Day'. Bars (exact, confirmed via gridline read and cross-checked against answer choices): Monday ~30, Tuesday ~30, Wednesday ~45, Thursday ~55, Friday ~40. Gray bars.",
     "choices": [
       {
         "letter": "A",
@@ -27569,7 +27569,7 @@
         "text": "The time spent sculpting on Monday and Tuesday combined is twice the time spent sculpting on Friday."
       }
     ],
-    "correct_letter": null,
+    "correct_letter": "C",
     "correct_pct": null,
     "is_wrong": null,
     "topic_broad": "data-analysis-graphs-tables",
@@ -27580,14 +27580,15 @@
     "type": "question",
     "set_name": "IDENTIFYING CORRECT CONCLUSIONS FROM BAR GRAPH/DATA TABLE VALUES #1",
     "pacing_affected": false,
-    "status": "not_done"
+    "status": "not_done",
+    "diagram_image": "problem-library-diagrams/gid868_bargraph.png"
   },
   {
-    "source_file": "Screenshot 2026-10-04 at 11.10.40 AM.png",
+    "source_file": "mathspeed test/by-topic/Identifying Correct Conclusions from Bar Graph-Data Table Values/Screenshot 2026-10-04 at 11.10.40 AM.png",
     "exercise_topic_guess": "IDENTIFYING CORRECT CONCLUSIONS FROM BAR GRAPH/DATA TABLE VALUES #1",
     "question_number": "2",
     "question_text": "A scientist recorded the number of hours he observed a Koala named Masubi sleeping during a given week. Based on the graph, which conclusion is true?",
-    "diagram_description": "Bar graph titled 'HOURS MASUBI SLEPT'. Y-axis 'Time (hours)', 0 to 24 in steps of 2. X-axis 'Day'. Bars (approx.): Monday ~8, Tuesday ~14, Wednesday ~14, Thursday ~14, Friday ~22. Gray bars.",
+    "diagram_description": "Bar graph titled 'HOURS MASUBI SLEPT'. Y-axis 'Time (hours)', 0 to 24 in steps of 2. X-axis 'Day'. Bars (exact, confirmed via gridline read and cross-checked against answer choices): Monday ~8, Tuesday ~14, Wednesday ~14, Thursday ~14, Friday ~22. Gray bars.",
     "choices": [
       {
         "letter": "A",
@@ -27606,7 +27607,7 @@
         "text": "The range is equal to the largest value."
       }
     ],
-    "correct_letter": null,
+    "correct_letter": "B",
     "correct_pct": null,
     "is_wrong": null,
     "topic_broad": "data-analysis-graphs-tables",
@@ -27617,14 +27618,15 @@
     "type": "question",
     "set_name": "IDENTIFYING CORRECT CONCLUSIONS FROM BAR GRAPH/DATA TABLE VALUES #1",
     "pacing_affected": false,
-    "status": "not_done"
+    "status": "not_done",
+    "diagram_image": "problem-library-diagrams/gid869_bargraph.png"
   },
   {
-    "source_file": "Screenshot 2026-10-04 at 11.10.46 AM.png",
+    "source_file": "mathspeed test/by-topic/Identifying Correct Conclusions from Bar Graph-Data Table Values/Screenshot 2026-10-04 at 11.10.46 AM.png",
     "exercise_topic_guess": "IDENTIFYING CORRECT CONCLUSIONS FROM BAR GRAPH/DATA TABLE VALUES #1",
     "question_number": "3",
     "question_text": "A scientist recorded the number of hours she observed a volcano actively erupting during a given week. Based on this graph, which conclusion is true?",
-    "diagram_description": "Bar graph titled 'HOURS OF ACTIVE ERUPTION'. Y-axis 'Time (Hours)', 0 to 24 in steps of 2. X-axis 'Day'. Bars (approx.): Monday ~12, Tuesday ~22, Wednesday ~18, Thursday ~14, Friday ~10. Gray bars.",
+    "diagram_description": "Bar graph titled 'HOURS OF ACTIVE ERUPTION'. Y-axis 'Time (Hours)', 0 to 24 in steps of 2. X-axis 'Day'. Bars (exact, confirmed via gridline read and cross-checked against answer choices): Monday ~12, Tuesday ~22, Wednesday ~18, Thursday ~14, Friday ~10. Gray bars.",
     "choices": [
       {
         "letter": "A",
@@ -27643,7 +27645,7 @@
         "text": "Monday's hours and Thursday's hours combined equal one day."
       }
     ],
-    "correct_letter": null,
+    "correct_letter": "C",
     "correct_pct": null,
     "is_wrong": null,
     "topic_broad": "data-analysis-graphs-tables",
@@ -27654,14 +27656,15 @@
     "type": "question",
     "set_name": "IDENTIFYING CORRECT CONCLUSIONS FROM BAR GRAPH/DATA TABLE VALUES #1",
     "pacing_affected": false,
-    "status": "not_done"
+    "status": "not_done",
+    "diagram_image": "problem-library-diagrams/gid870_bargraph.png"
   },
   {
-    "source_file": "Screenshot 2026-10-04 at 11.10.50 AM.png",
+    "source_file": "mathspeed test/by-topic/Identifying Correct Conclusions from Bar Graph-Data Table Values/Screenshot 2026-10-04 at 11.10.50 AM.png",
     "exercise_topic_guess": "IDENTIFYING CORRECT CONCLUSIONS FROM BAR GRAPH/DATA TABLE VALUES #1",
     "question_number": "4",
     "question_text": "The Greene's recorded how many hours they kept their air conditioning on in their house during the week. Based on this graph, which conclusion is true?",
-    "diagram_description": "Bar graph titled 'HOURS THE AIR CONDITIONING WAS ACTIVE'. Y-axis 'Time (Hours)', 0 to 24 in steps of 2. X-axis 'Day'. Bars (approx.): Monday ~10, Tuesday ~14, Wednesday ~22, Thursday ~18, Friday ~12. Gray bars.",
+    "diagram_description": "Bar graph titled 'HOURS THE AIR CONDITIONING WAS ACTIVE'. Y-axis 'Time (Hours)', 0 to 24 in steps of 2. X-axis 'Day'. Bars (exact, confirmed via gridline read and cross-checked against answer choices): Monday ~10, Tuesday ~14, Wednesday ~22, Thursday ~18, Friday ~12. Gray bars.",
     "choices": [
       {
         "letter": "A",
@@ -27680,7 +27683,7 @@
         "text": "Tuesday's hours are twice as much as Monday's hours."
       }
     ],
-    "correct_letter": null,
+    "correct_letter": "A",
     "correct_pct": null,
     "is_wrong": null,
     "topic_broad": "data-analysis-graphs-tables",
@@ -27691,14 +27694,15 @@
     "type": "question",
     "set_name": "IDENTIFYING CORRECT CONCLUSIONS FROM BAR GRAPH/DATA TABLE VALUES #1",
     "pacing_affected": false,
-    "status": "not_done"
+    "status": "not_done",
+    "diagram_image": "problem-library-diagrams/gid871_bargraph.png"
   },
   {
-    "source_file": "Screenshot 2026-10-04 at 11.10.55 AM.png",
+    "source_file": "mathspeed test/by-topic/Identifying Correct Conclusions from Bar Graph-Data Table Values/Screenshot 2026-10-04 at 11.10.55 AM.png",
     "exercise_topic_guess": "IDENTIFYING CORRECT CONCLUSIONS FROM BAR GRAPH/DATA TABLE VALUES #1",
     "question_number": "5",
     "question_text": "The graph shows the number of hours a novelist spent writing during a given week. Based on this graph, which conclusion is true?",
-    "diagram_description": "Bar graph titled 'HOURS SPENT WRITING'. Y-axis 'Time (Hours)', 0 to 24 in steps of 2. X-axis 'Day'. Bars (approx.): Monday ~8, Tuesday ~10, Wednesday ~6, Thursday ~16, Friday ~12. Gray bars.",
+    "diagram_description": "Bar graph titled 'HOURS SPENT WRITING'. Y-axis 'Time (Hours)', 0 to 24 in steps of 2. X-axis 'Day'. Bars (exact, confirmed via gridline read and cross-checked against answer choices): Monday ~8, Tuesday ~10, Wednesday ~6, Thursday ~16, Friday ~12. Gray bars.",
     "choices": [
       {
         "letter": "A",
@@ -27717,7 +27721,7 @@
         "text": "Monday's hours and Wednesday's hours combine to make a half day."
       }
     ],
-    "correct_letter": null,
+    "correct_letter": "B",
     "correct_pct": null,
     "is_wrong": null,
     "topic_broad": "data-analysis-graphs-tables",
@@ -27728,14 +27732,15 @@
     "type": "question",
     "set_name": "IDENTIFYING CORRECT CONCLUSIONS FROM BAR GRAPH/DATA TABLE VALUES #1",
     "pacing_affected": false,
-    "status": "not_done"
+    "status": "not_done",
+    "diagram_image": "problem-library-diagrams/gid872_bargraph.png"
   },
   {
-    "source_file": "Screenshot 2026-10-04 at 11.11.13 AM.png",
+    "source_file": "mathspeed test/by-topic/Identifying Correct Conclusions from Bar Graph-Data Table Values/Screenshot 2026-10-04 at 11.11.13 AM.png",
     "exercise_topic_guess": "IDENTIFYING CORRECT CONCLUSIONS FROM BAR GRAPH/DATA TABLE VALUES #2",
     "question_number": "1",
     "question_text": "The following graph displays how many babies were born per weeks at a hospital. Based on the graph, which conclusion is true?",
-    "diagram_description": "Bar graph titled 'BABIES BORN'. Y-axis 'Number of Babies', 0 to 24 in steps of 2. X-axis 'Week' with ticks 1-5. Bars (approx.): Week 1 ~12, Week 2 ~14, Week 3 ~10, Week 4 ~14, Week 5 ~12. Gray bars.",
+    "diagram_description": "Bar graph titled 'BABIES BORN'. Y-axis 'Number of Babies', 0 to 24 in steps of 2. X-axis 'Week' with ticks 1-5. Bars (exact, confirmed via gridline read and cross-checked against answer choices): Week 1 ~12, Week 2 ~14, Week 3 ~10, Week 4 ~14, Week 5 ~12. Gray bars.",
     "choices": [
       {
         "letter": "A",
@@ -27754,7 +27759,7 @@
         "text": "Weeks 1 and 4 had more babies born than Weeks 3 and 5."
       }
     ],
-    "correct_letter": null,
+    "correct_letter": "D",
     "correct_pct": null,
     "is_wrong": null,
     "topic_broad": "data-analysis-graphs-tables",
@@ -27765,14 +27770,15 @@
     "type": "question",
     "set_name": "IDENTIFYING CORRECT CONCLUSIONS FROM BAR GRAPH/DATA TABLE VALUES #2",
     "pacing_affected": false,
-    "status": "not_done"
+    "status": "not_done",
+    "diagram_image": "problem-library-diagrams/gid873_bargraph.png"
   },
   {
-    "source_file": "Screenshot 2026-10-04 at 11.11.17 AM.png",
+    "source_file": "mathspeed test/by-topic/Identifying Correct Conclusions from Bar Graph-Data Table Values/Screenshot 2026-10-04 at 11.11.17 AM.png",
     "exercise_topic_guess": "IDENTIFYING CORRECT CONCLUSIONS FROM BAR GRAPH/DATA TABLE VALUES #2",
     "question_number": "2",
     "question_text": "The graph shows the number of cars that were sold per week at an auto dealership. Based on the graph, which conclusion is true?",
-    "diagram_description": "Bar graph titled 'CARS SOLD'. Y-axis 'Number of Cars', 0 to 24 in steps of 2. X-axis 'Week' with ticks 1-5. Bars (approx.): Week 1 ~18, Week 2 ~22, Week 3 ~20, Week 4 ~16, Week 5 ~24. Gray bars.",
+    "diagram_description": "Bar graph titled 'CARS SOLD'. Y-axis 'Number of Cars', 0 to 24 in steps of 2. X-axis 'Week' with ticks 1-5. Bars (exact, confirmed via gridline read and cross-checked against answer choices): Week 1 ~18, Week 2 ~22, Week 3 ~20, Week 4 ~16, Week 5 ~24. Gray bars.",
     "choices": [
       {
         "letter": "A",
@@ -27791,7 +27797,7 @@
         "text": "Week 5 sales are 4/5 the Week 2 sales."
       }
     ],
-    "correct_letter": null,
+    "correct_letter": "C",
     "correct_pct": null,
     "is_wrong": null,
     "topic_broad": "data-analysis-graphs-tables",
@@ -27802,14 +27808,15 @@
     "type": "question",
     "set_name": "IDENTIFYING CORRECT CONCLUSIONS FROM BAR GRAPH/DATA TABLE VALUES #2",
     "pacing_affected": false,
-    "status": "not_done"
+    "status": "not_done",
+    "diagram_image": "problem-library-diagrams/gid874_bargraph.png"
   },
   {
-    "source_file": "Screenshot 2026-10-04 at 11.11.22 AM.png",
+    "source_file": "mathspeed test/by-topic/Identifying Correct Conclusions from Bar Graph-Data Table Values/Screenshot 2026-10-04 at 11.11.22 AM.png",
     "exercise_topic_guess": "IDENTIFYING CORRECT CONCLUSIONS FROM BAR GRAPH/DATA TABLE VALUES #2",
     "question_number": "3",
     "question_text": "The graph shows the number of monster costumes that were sold during one week at a costume company. Based on the graph, which conclusion is true?",
-    "diagram_description": "Bar graph titled 'MONSTER COSTUME SALES'. Y-axis 'Number of Costumes Sold', 0 to 24 in steps of 2. X-axis 'Day'. Bars (approx.): Monday ~6, Tuesday ~20, Wednesday ~18, Thursday ~16, Friday ~22. Gray bars.",
+    "diagram_description": "Bar graph titled 'MONSTER COSTUME SALES'. Y-axis 'Number of Costumes Sold', 0 to 24 in steps of 2. X-axis 'Day'. Bars (exact, confirmed via gridline read and cross-checked against answer choices): Monday ~6, Tuesday ~20, Wednesday ~18, Thursday ~16, Friday ~22. Gray bars.",
     "choices": [
       {
         "letter": "A",
@@ -27828,7 +27835,7 @@
         "text": "The range is equal to Wednesday's number of sales."
       }
     ],
-    "correct_letter": null,
+    "correct_letter": "C",
     "correct_pct": null,
     "is_wrong": null,
     "topic_broad": "data-analysis-graphs-tables",
@@ -27839,14 +27846,15 @@
     "type": "question",
     "set_name": "IDENTIFYING CORRECT CONCLUSIONS FROM BAR GRAPH/DATA TABLE VALUES #2",
     "pacing_affected": false,
-    "status": "not_done"
+    "status": "not_done",
+    "diagram_image": "problem-library-diagrams/gid875_bargraph.png"
   },
   {
-    "source_file": "Screenshot 2026-10-04 at 11.11.26 AM.png",
+    "source_file": "mathspeed test/by-topic/Identifying Correct Conclusions from Bar Graph-Data Table Values/Screenshot 2026-10-04 at 11.11.26 AM.png",
     "exercise_topic_guess": "IDENTIFYING CORRECT CONCLUSIONS FROM BAR GRAPH/DATA TABLE VALUES #2",
     "question_number": "4",
     "question_text": "The graph shows the number of cell phones that were sold during one week at a phone store. Based on the graph, which conclusion is true?",
-    "diagram_description": "Bar graph titled 'CELL PHONES SOLD'. Y-axis 'Number Sold', 0 to 60 in steps of 5. X-axis 'Day'. Bars (approx.): Monday ~40, Tuesday ~40, Wednesday ~40, Thursday ~60 (top of axis), Friday ~60 (top of axis). Gray bars.",
+    "diagram_description": "Bar graph titled 'CELL PHONES SOLD'. Y-axis 'Number Sold', 0 to 60 in steps of 5. X-axis 'Day'. Bars (exact, confirmed via gridline read and cross-checked against answer choices): Monday ~40, Tuesday ~40, Wednesday ~40, Thursday ~60 (top of axis), Friday ~60 (top of axis). Gray bars.",
     "choices": [
       {
         "letter": "A",
@@ -27865,7 +27873,7 @@
         "text": "The value of the mode is twice that of the range."
       }
     ],
-    "correct_letter": null,
+    "correct_letter": "D",
     "correct_pct": null,
     "is_wrong": null,
     "topic_broad": "data-analysis-graphs-tables",
@@ -27876,14 +27884,15 @@
     "type": "question",
     "set_name": "IDENTIFYING CORRECT CONCLUSIONS FROM BAR GRAPH/DATA TABLE VALUES #2",
     "pacing_affected": false,
-    "status": "not_done"
+    "status": "not_done",
+    "diagram_image": "problem-library-diagrams/gid876_bargraph.png"
   },
   {
-    "source_file": "Screenshot 2026-10-04 at 11.11.30 AM.png",
+    "source_file": "mathspeed test/by-topic/Identifying Correct Conclusions from Bar Graph-Data Table Values/Screenshot 2026-10-04 at 11.11.30 AM.png",
     "exercise_topic_guess": "IDENTIFYING CORRECT CONCLUSIONS FROM BAR GRAPH/DATA TABLE VALUES #2",
     "question_number": "5",
     "question_text": "The graph shows the number of items sold during one week in a pawn shop. Based on the graph, which conclusion is true?",
-    "diagram_description": "Bar graph titled 'ITEMS SOLD'. Y-axis 'Number Sold', 0 to 120 in steps of 10. X-axis 'Day'. Bars (approx.): Monday ~60, Tuesday ~100, Wednesday ~80, Thursday ~100, Friday ~120. Gray bars.",
+    "diagram_description": "Bar graph titled 'ITEMS SOLD'. Y-axis 'Number Sold', 0 to 120 in steps of 10. X-axis 'Day'. Bars (exact, confirmed via gridline read and cross-checked against answer choices): Monday ~60, Tuesday ~100, Wednesday ~80, Thursday ~100, Friday ~120. Gray bars.",
     "choices": [
       {
         "letter": "A",
@@ -27902,7 +27911,7 @@
         "text": "The largest difference in items sold is between Friday and Monday."
       }
     ],
-    "correct_letter": null,
+    "correct_letter": "D",
     "correct_pct": null,
     "is_wrong": null,
     "topic_broad": "data-analysis-graphs-tables",
@@ -27913,10 +27922,11 @@
     "type": "question",
     "set_name": "IDENTIFYING CORRECT CONCLUSIONS FROM BAR GRAPH/DATA TABLE VALUES #2",
     "pacing_affected": false,
-    "status": "not_done"
+    "status": "not_done",
+    "diagram_image": "problem-library-diagrams/gid877_bargraph.png"
   },
   {
-    "source_file": "Screenshot 2026-10-04 at 11.12.12 AM.png",
+    "source_file": "mathspeed test/by-topic/Multiplying and Dividing Decimals/Screenshot 2026-10-04 at 11.12.12 AM.png",
     "exercise_topic_guess": "MULTIPLYING AND DIVIDING DECIMALS",
     "question_number": "1",
     "question_text": "75.4 × 6 =",
@@ -27953,7 +27963,7 @@
     "status": "not_done"
   },
   {
-    "source_file": "Screenshot 2026-10-04 at 11.12.15 AM.png",
+    "source_file": "mathspeed test/by-topic/Multiplying and Dividing Decimals/Screenshot 2026-10-04 at 11.12.15 AM.png",
     "exercise_topic_guess": "MULTIPLYING AND DIVIDING DECIMALS",
     "question_number": "2",
     "question_text": "33.7 × 6 =",
@@ -27990,7 +28000,7 @@
     "status": "not_done"
   },
   {
-    "source_file": "Screenshot 2026-10-04 at 11.12.19 AM.png",
+    "source_file": "mathspeed test/by-topic/Multiplying and Dividing Decimals/Screenshot 2026-10-04 at 11.12.19 AM.png",
     "exercise_topic_guess": "MULTIPLYING AND DIVIDING DECIMALS",
     "question_number": "3",
     "question_text": "75.4 ÷ 5 =",
@@ -28027,7 +28037,7 @@
     "status": "not_done"
   },
   {
-    "source_file": "Screenshot 2026-10-04 at 11.12.22 AM.png",
+    "source_file": "mathspeed test/by-topic/Multiplying and Dividing Decimals/Screenshot 2026-10-04 at 11.12.22 AM.png",
     "exercise_topic_guess": "MULTIPLYING AND DIVIDING DECIMALS",
     "question_number": "4",
     "question_text": "116.8 ÷ 4 =",
@@ -28064,7 +28074,7 @@
     "status": "not_done"
   },
   {
-    "source_file": "Screenshot 2026-10-04 at 11.12.26 AM.png",
+    "source_file": "mathspeed test/by-topic/Multiplying and Dividing Decimals/Screenshot 2026-10-04 at 11.12.26 AM.png",
     "exercise_topic_guess": "MULTIPLYING AND DIVIDING DECIMALS",
     "question_number": "5",
     "question_text": "(75.4 × 6) ÷ 3 =",
@@ -28101,7 +28111,7 @@
     "status": "not_done"
   },
   {
-    "source_file": "Screenshot 2026-10-04 at 11.12.55 AM.png",
+    "source_file": "mathspeed test/by-topic/Multiplying and Dividing Whole Numbers/Screenshot 2026-10-04 at 11.12.55 AM.png",
     "exercise_topic_guess": "MULTIPLYING AND DIVIDING WHOLE NUMBERS #1",
     "question_number": "1",
     "question_text": "If a log that is 45 feet long is cut into thirds, what is the length of each piece in feet?",
@@ -28138,7 +28148,7 @@
     "status": "not_done"
   },
   {
-    "source_file": "Screenshot 2026-10-04 at 11.12.57 AM.png",
+    "source_file": "mathspeed test/by-topic/Multiplying and Dividing Whole Numbers/Screenshot 2026-10-04 at 11.12.57 AM.png",
     "exercise_topic_guess": "MULTIPLYING AND DIVIDING WHOLE NUMBERS #1",
     "question_number": "2",
     "question_text": "If a log that is 51 feet long is cut into thirds, what is the length of each piece in feet?",
@@ -28175,7 +28185,7 @@
     "status": "not_done"
   },
   {
-    "source_file": "Screenshot 2026-10-04 at 11.13.03 AM.png",
+    "source_file": "mathspeed test/by-topic/Multiplying and Dividing Whole Numbers/Screenshot 2026-10-04 at 11.13.03 AM.png",
     "exercise_topic_guess": "MULTIPLYING AND DIVIDING WHOLE NUMBERS #1",
     "question_number": "3",
     "question_text": "If a string that is 54 feet long is cut into sixths, what is the length of each piece in feet?",
@@ -28212,7 +28222,7 @@
     "status": "not_done"
   },
   {
-    "source_file": "Screenshot 2026-10-04 at 11.13.07 AM.png",
+    "source_file": "mathspeed test/by-topic/Multiplying and Dividing Whole Numbers/Screenshot 2026-10-04 at 11.13.07 AM.png",
     "exercise_topic_guess": "MULTIPLYING AND DIVIDING WHOLE NUMBERS #1",
     "question_number": "4",
     "question_text": "If a string that is 60 feet long is cut into fifths, what is the length of each piece in feet?",
@@ -28249,7 +28259,7 @@
     "status": "not_done"
   },
   {
-    "source_file": "Screenshot 2026-10-04 at 11.13.11 AM.png",
+    "source_file": "mathspeed test/by-topic/Multiplying and Dividing Whole Numbers/Screenshot 2026-10-04 at 11.13.11 AM.png",
     "exercise_topic_guess": "MULTIPLYING AND DIVIDING WHOLE NUMBERS #1",
     "question_number": "5",
     "question_text": "If a string that is 72 feet long is cut into thirds, what is the length of each piece in feet?",
@@ -28286,7 +28296,7 @@
     "status": "not_done"
   },
   {
-    "source_file": "Screenshot 2026-10-04 at 11.13.32 AM.png",
+    "source_file": "mathspeed test/by-topic/No Remainder When Divided by a Given Number/Screenshot 2026-10-04 at 11.13.32 AM.png",
     "exercise_topic_guess": "NO REMAINDER WHEN DIVIDED BY A GIVEN NUMBER #2",
     "question_number": "1",
     "question_text": "Which whole number is divisible by 14?",
@@ -28323,7 +28333,7 @@
     "status": "not_done"
   },
   {
-    "source_file": "Screenshot 2026-10-04 at 11.13.36 AM.png",
+    "source_file": "mathspeed test/by-topic/No Remainder When Divided by a Given Number/Screenshot 2026-10-04 at 11.13.36 AM.png",
     "exercise_topic_guess": "NO REMAINDER WHEN DIVIDED BY A GIVEN NUMBER #2",
     "question_number": "2",
     "question_text": "Which whole number is divisible by 15?",
@@ -28360,7 +28370,7 @@
     "status": "not_done"
   },
   {
-    "source_file": "Screenshot 2026-10-04 at 11.13.40 AM.png",
+    "source_file": "mathspeed test/by-topic/No Remainder When Divided by a Given Number/Screenshot 2026-10-04 at 11.13.40 AM.png",
     "exercise_topic_guess": "NO REMAINDER WHEN DIVIDED BY A GIVEN NUMBER #2",
     "question_number": "3",
     "question_text": "Which whole number is divisible by 21?",
@@ -28397,7 +28407,7 @@
     "status": "not_done"
   },
   {
-    "source_file": "Screenshot 2026-10-04 at 11.13.44 AM.png",
+    "source_file": "mathspeed test/by-topic/No Remainder When Divided by a Given Number/Screenshot 2026-10-04 at 11.13.44 AM.png",
     "exercise_topic_guess": "NO REMAINDER WHEN DIVIDED BY A GIVEN NUMBER #2",
     "question_number": "4",
     "question_text": "Which whole number is divisible by 23?",
@@ -28434,7 +28444,7 @@
     "status": "not_done"
   },
   {
-    "source_file": "Screenshot 2026-10-04 at 11.13.48 AM.png",
+    "source_file": "mathspeed test/by-topic/No Remainder When Divided by a Given Number/Screenshot 2026-10-04 at 11.13.48 AM.png",
     "exercise_topic_guess": "NO REMAINDER WHEN DIVIDED BY A GIVEN NUMBER #2",
     "question_number": "5",
     "question_text": "Which whole number is divisible by 31?",
@@ -28471,7 +28481,7 @@
     "status": "not_done"
   },
   {
-    "source_file": "Screenshot 2026-10-04 at 11.14.04 AM.png",
+    "source_file": "mathspeed test/by-topic/No Remainder When Divided by a Given Number/Screenshot 2026-10-04 at 11.14.04 AM.png",
     "exercise_topic_guess": "NO REMAINDER WHEN DIVIDED BY A GIVEN NUMBER #1",
     "question_number": "1",
     "question_text": "Which whole number is divisible by 7?",
@@ -28508,7 +28518,7 @@
     "status": "not_done"
   },
   {
-    "source_file": "Screenshot 2026-10-04 at 11.14.07 AM.png",
+    "source_file": "mathspeed test/by-topic/No Remainder When Divided by a Given Number/Screenshot 2026-10-04 at 11.14.07 AM.png",
     "exercise_topic_guess": "NO REMAINDER WHEN DIVIDED BY A GIVEN NUMBER #1",
     "question_number": "2",
     "question_text": "Which whole number is divisible by 6?",
@@ -28545,7 +28555,7 @@
     "status": "not_done"
   },
   {
-    "source_file": "Screenshot 2026-10-04 at 11.14.11 AM.png",
+    "source_file": "mathspeed test/by-topic/No Remainder When Divided by a Given Number/Screenshot 2026-10-04 at 11.14.11 AM.png",
     "exercise_topic_guess": "NO REMAINDER WHEN DIVIDED BY A GIVEN NUMBER #1",
     "question_number": "3",
     "question_text": "Which whole number is divisible by 13?",
@@ -28582,7 +28592,7 @@
     "status": "not_done"
   },
   {
-    "source_file": "Screenshot 2026-10-04 at 11.14.15 AM.png",
+    "source_file": "mathspeed test/by-topic/No Remainder When Divided by a Given Number/Screenshot 2026-10-04 at 11.14.15 AM.png",
     "exercise_topic_guess": "NO REMAINDER WHEN DIVIDED BY A GIVEN NUMBER #1",
     "question_number": "4",
     "question_text": "Which whole number is divisible by 9?",
@@ -28619,7 +28629,7 @@
     "status": "not_done"
   },
   {
-    "source_file": "Screenshot 2026-10-04 at 11.14.19 AM.png",
+    "source_file": "mathspeed test/by-topic/No Remainder When Divided by a Given Number/Screenshot 2026-10-04 at 11.14.19 AM.png",
     "exercise_topic_guess": "NO REMAINDER WHEN DIVIDED BY A GIVEN NUMBER #1",
     "question_number": "5",
     "question_text": "Which whole number is divisible by 11?",
