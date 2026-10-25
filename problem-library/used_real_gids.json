@@ -225,6 +225,12 @@
         "n": 4,
         "global_id": 157,
         "topic": "Cryptarithm / digit substitution"
+      },
+      {
+        "n": 10,
+        "global_id": 861,
+        "topic": "Multi-step unit conversion (off-by-10, multi-step)",
+        "note": "swapped in to replace Identifying Number Properties -- she tested secure on that topic (1/6 wrong, 28s); this chained-conversion gap was not yet covered in this set"
       }
     ],
     "7_from_ma_library": [
