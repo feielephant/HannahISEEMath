@@ -41,6 +41,22 @@ Also found and cleaned one stray reference: gid184 had a `recapture_source_image
 - **`needs_dedup_review: True`** is the breadcrumb from the earlier ad-hoc recaptureQR cataloging pass — any remaining items with this flag (search the full `problem_library.json`) are candidates for the same merge-and-delete treatment described above. Worth a full-library sweep for this flag before considering the recaptureQR consolidation fully done.
 - Validate JSON + verify files exist on disk before every commit; commit scoped to one logical unit (one batch, one test, one fix) with a descriptive message; push after each commit, same pattern as `feedback_worksheet_qa` memory's "push both repos" habit.
 
-## Next step when resuming
+## Session 2 findings (2026-10-25, after grading speed-set-7)
 
-User was about to choose between: (a) scan the 14 new `recaptureQR` files (small, recent, Oct 10-24 — likely tied to ongoing QR review work), (b) investigate what `ISEEcomputer/` actually is before committing to scanning its 274 files, or (c) both. No decision was made before pausing — ask again when resuming, the `ISEEcomputer` folder in particular needs a "what is this and is it still relevant" check before diving in.
+Investigated the 14 unscanned `recaptureQR` files (dated Oct 10, 17, 18, 24). Findings:
+- **5 are our own dev/QA screenshots** (joined-prism volume diagram, an unlabeled grid/U-shape figure, a live-site zoom of speed-set-3.html) — not real content, nothing to catalog. Destination undecided — leave in place, move to a dev-screenshots holding folder, or delete (ask the user).
+- **8 are "How you allocated your time" timing graphs**, captured Oct 18 ~8:51-8:53 PM in one browsing session going through all 4 ISEE Lower tests in order. One per test's QR section (38 questions) plus — for #1, #2, #4 — a second 30-question section (not yet confirmed which, but an already-cataloged item elsewhere labels a matching one "Mathematics Achievement Summary page", so probably MA). None found for "What to Expect" or Lower #3's 30q section in this particular 8-file batch.
+  - **Important correction to this doc's earlier claim**: "no timeline screenshot was ever captured for any of the 5 tests" is WRONG for Lower #1/#2/#3/#4 — these 8 files are exactly that, just captured later (Oct 18) in a separate session, not during the original Oct 9 recapture. Only "What to Expect" still has no timeline screenshot found anywhere.
+  - **Sep 20 vs Sep 25 red herring, resolved**: two of the 8 files show "Completed on 09/20/2026" with no visible header, which looked like a never-cataloged 6th test. It isn't — an already-cataloged item (`Screenshot 2026-10-06 at 10.41.35 AM.png`, `"type": "timing"`, `"test_set": "ISEE LOWER #3"`) already documented that this test's header reads "Sep 25, 2026" but its footer reads "Completed on 09/20/2026" — a platform date discrepancy, not a different test. So both Sep-20 files are Lower #3's QR section.
+  - That Oct-6 item is evidence of a **different existing cataloging pattern** worth reusing: `"type": "timing"` entries with `test_set`, `is_timing_chart: true`, and a `diagram_description` summarizing the chart (pause point, red-bar positions, subtype breakdown) instead of the normal question/choices/answer schema. Follow this pattern when cataloging the 8 new timing screenshots, not the standard question-item schema.
+  - Not yet done: actually write the 8 new catalog entries and move all 8 files into the correct `actual-practice-tests/<test>/` folders.
+
+## Agreed plan for resuming (confirmed with user 2026-10-25)
+
+1. **Finish the 14-file batch**: decide + execute destination for the 5 dev/QA screenshots; catalog (via the `"type": "timing"` pattern above) and move the 8 timing-graph screenshots into their correct `actual-practice-tests/<test>/` folders.
+2. **Full-library sweep for `needs_dedup_review: True`** — not yet done since resuming; see the dedup pattern described above (6 pairs already fixed this way: gid84/1206, gid145/1207, gid149/1208, gid157/1209, gid162/1210, gid167/1211).
+3. **Organize `recaptureQR`'s ~224 already-cataloged-but-unmoved items** into `by-topic/` folders — same 30-at-a-time batch pattern as the `mathspeed test` reorg (13 batches, see above).
+4. **`ISEEMathAchievement/`**: organize its 206 already-cataloged items into folders, scan the 2 genuinely unscanned ones.
+5. **`ISEEcomputer/`**: 274 files, completely untouched — investigate what this folder actually is (subfolders `0913ISEE`, `0905ISEE`, `ISEEMathAll`, dated Aug 30 — earliest of all 4 folders) before committing to a full scan.
+
+This cleanup is explicitly a prerequisite the user wants finished before building QR8 — see `QR8_PLAN.md`, which has the readiness-check findings (coverage-pace gaps, priority-staleness flags, fresh findings from speed-set-7's grading) and is waiting on this cleanup to potentially surface more real `not_done` items or fix more mistagged topics first.
