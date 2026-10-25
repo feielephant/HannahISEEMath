@@ -231,6 +231,12 @@
         "global_id": 861,
         "topic": "Multi-step unit conversion (off-by-10, multi-step)",
         "note": "swapped in to replace Identifying Number Properties -- she tested secure on that topic (1/6 wrong, 28s); this chained-conversion gap was not yet covered in this set"
+      },
+      {
+        "n": 17,
+        "global_id": 1427,
+        "topic": "Views of 3D Figures",
+        "note": "replaced invented version (missing Front label, unverified axis convention) with real not_done item from Views of 3D Figures #1 Q1; correct answer D is a derived read of the diagram, not confirmed from a source answer key"
       }
     ],
     "7_from_ma_library": [
