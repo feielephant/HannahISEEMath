@@ -1014,7 +1014,7 @@
     "recapture_nav_color_read": "correct"
   },
   {
-    "source_file": "Screenshot 2026-10-02 at 11.21.40 AM.png",
+    "source_file": "mathspeed test/actual-practice-tests/What to Expect/Screenshot 2026-10-02 at 11.21.40 AM.png",
     "type": "meta",
     "question_number": null,
     "notes": "Extremely small/cropped screenshot (only 3.7KB) showing just a tiny green square icon with the number '1' on it, with no surrounding context visible. Likely an accidental or stray screenshot (e.g., a partial capture of a browser tab favicon/badge or a loading artifact). Cannot identify any test content from this image. Not a timing chart.",
@@ -1028,7 +1028,7 @@
     "pacing_affected": false
   },
   {
-    "source_file": "Screenshot 2026-10-02 at 11.21.42 AM.png",
+    "source_file": "mathspeed test/by-topic/Shape Construction and Symmetry in 2D Figures/Screenshot 2026-10-02 at 11.21.42 AM.png",
     "type": "question",
     "question_number": 24,
     "question_text": "The figure shown may be folded along one or more of the dotted lines. Which line or pair of lines, when folded, will allow the semicircles to exactly match the original figure?",
@@ -1526,7 +1526,7 @@
     "recapture_nav_color_read": "correct"
   },
   {
-    "source_file": "Screenshot 2026-10-02 at 11.23.04 AM.png",
+    "source_file": "mathspeed test/actual-practice-tests/What to Expect/Screenshot 2026-10-02 at 11.23.04 AM.png",
     "type": "meta",
     "test_name": "WHAT TO EXPECT",
     "date": "Sep 5, 2026",
@@ -3150,7 +3150,7 @@
     "her_selected_percentage": "24.6%"
   },
   {
-    "source_file": "Screenshot 2026-10-02 at 11.26.50 AM.png",
+    "source_file": "mathspeed test/actual-practice-tests/ISEE Lower #1/Screenshot 2026-10-02 at 11.26.50 AM.png",
     "type": "meta",
     "test_name": "ISEE LOWER #1",
     "date": "Aug 30, 2026",
@@ -3170,7 +3170,7 @@
     "pacing_affected": false
   },
   {
-    "source_file": "Screenshot 2026-10-02 at 11.27.15 AM.png",
+    "source_file": "mathspeed test/actual-practice-tests/ISEE Lower #1/Screenshot 2026-10-02 at 11.27.15 AM.png",
     "type": "meta",
     "is_timing_chart": true,
     "test_name": "ISEE LOWER #1 (inferred from preceding meta screenshot)",
@@ -3398,7 +3398,7 @@
     "recapture_nav_color_read": "correct"
   },
   {
-    "source_file": "Screenshot 2026-10-02 at 11.30.12 AM.png",
+    "source_file": "mathspeed test/by-topic/Fact Family Relationships/Screenshot 2026-10-02 at 11.30.12 AM.png",
     "type": "question",
     "question_number": 6,
     "question_text": "In the equation △×○ = 24, the △ and the ○ represent different numbers. Which equation is in the same fact family?",
@@ -4444,7 +4444,7 @@
     "recapture_nav_color_read": "correct"
   },
   {
-    "source_file": "Screenshot 2026-10-02 at 11.33.09 AM.png",
+    "source_file": "mathspeed test/by-topic/Adding and Subtracting Fractions/Screenshot 2026-10-02 at 11.33.09 AM.png",
     "type": "question",
     "question_number": 30,
     "question_text": "What is 2/3 + 6/2?",
@@ -4820,7 +4820,7 @@
     "her_selected_percentage": "27.7%"
   },
   {
-    "source_file": "Screenshot 2026-10-02 at 11.34.05 AM.png",
+    "source_file": "mathspeed test/actual-practice-tests/ISEE Lower #2/Screenshot 2026-10-02 at 11.34.05 AM.png",
     "type": "meta",
     "notes": "Header bar for test review interface: 'ISEE LOWER #2 (Sep 13, 2026)' with a dropdown arrow, and a 'DOWNLOAD SCORES PDF' button at top right. Tab row below: 'SUMMARY / TEST OVERVIEW', 'VIEW RESULTS / VERBAL REASONING', 'VIEW RESULTS / QUANTITATIVE REASONING' (this tab appears currently selected/bold), 'VIEW RESULTS / READING COMPREHENSION', 'VIEW RESULTS / MATHEMATICS ACHIEVEMENT', 'VIEW RESULTS / ESSAY'. Below that: a 'Filter by' dropdown, 'Hide Answer' toggle, 'Hide Choices' toggle, and a 'VIEW YOUR SUMMARY' button. Confirms the preceding 38 questions (Q1-Q38) in this chunk belong to the Quantitative Reasoning section of 'ISEE LOWER #2', dated Sep 13, 2026.",
     "global_id": 118,
@@ -4833,7 +4833,7 @@
     "pacing_affected": false
   },
   {
-    "source_file": "Screenshot 2026-10-02 at 11.34.13 AM.png",
+    "source_file": "mathspeed test/actual-practice-tests/ISEE Lower #2/Screenshot 2026-10-02 at 11.34.13 AM.png",
     "type": "meta",
     "is_timing_chart": true,
     "notes": "'How you allocated your time' step-chart (title partially cut off at top of screenshot) with a 'Show detailed timing graph' toggle, shown OFF - no hover-tooltip text visible/readable in this screenshot. Y-axis 'Question' 1-38, X-axis 'Time (minutes)' 0-~35. No tooltip text captured.",
@@ -7489,7 +7489,7 @@
     "pacing_affected": false,
     "status": "done",
     "official_topic": "Interpreting Pictographs",
-    "official_solution": "The correct answer to the question is answer choice (A), 1. If the sum of 2 two-digit numbers results in a three-digit number, then that means the hundreds place of the result must be 1. Even if each letter could be the same digit, the largest possible sum would be 99 + 99 = 198, and so the value of C [TEXT CUT OFF at bottom of screenshot]",
+    "official_solution": "The correct answer to the question is answer choice (A), 1. If the sum of 2 two-digit numbers results in a three-digit number, then that means the hundreds place of the result must be 1. Even if each letter could be the same digit, the largest possible sum would be 99 + 99 = 198, and so the value of C would still be 1. Alternatively, one possible value of the sum of 2 two-digit numbers is (77 + 55) = 132. In this case, the sum is of the form CDE, i.e. a three-digit number whose first digit cannot be any number other than 1.",
     "choice_percentages": {
       "A": "66.7%",
       "B": "21.0%",
@@ -7497,6 +7497,7 @@
       "D": "<5.0%"
     },
     "recapture_source_images": [
+      "mathspeed test/superseded-by-recapture/Screenshot 2026-10-02 at 10.20.14 PM.png",
       "Screenshot 2026-10-09 at 8.55.46 PM.png"
     ],
     "recapture_nav_color_read": "wrong",
@@ -22772,10 +22773,10 @@
     "pacing_affected": false
   },
   {
-    "source_file": "Screenshot 2026-10-02 at 1.28.45 PM.png",
+    "source_file": "mathspeed test/by-topic/Determining Averages between Points on Number Lines/Screenshot 2026-10-02 at 1.28.45 PM.png",
     "question_number": 1,
     "question_text": "Use the number line shown to answer the question. G is the average of L and another number. What is the other number?",
-    "diagram_description": "Horizontal number line with evenly spaced tick marks and arrowheads on both ends. Ticks labeled '0' and '2' beneath the line. Point 'L' is marked above a tick to the left of 0; point 'G' is marked above a tick to the right, roughly at/near the '2' label. Exact tick-to-value spacing not fully legible from the screenshot.",
+    "diagram_description": "Number line, evenly spaced ticks, each tick = 0.5 units. L is marked at the far-left tick (value -2.5). '0' and '2' are labeled below their respective ticks. G is marked directly above the tick labeled '2' (value 2). Verified precisely via pixel measurement of tick spacing (confirmed 2026-10-25).",
     "choices": [
       "2.5",
       "4.5",
@@ -22796,13 +22797,14 @@
     "set_name": "Does not match any of the 4 named banks. This cluster's in-app content is a different exercise (titled 'Determining Averages between Points on Number Lines' per screenshot 3 of this cluster).",
     "type": "question",
     "pacing_affected": false,
-    "status": "done"
+    "status": "done",
+    "diagram_image": "problem-library/diagrams/gid683_numberline.png"
   },
   {
-    "source_file": "Screenshot 2026-10-02 at 1.28.52 PM.png",
+    "source_file": "mathspeed test/by-topic/Determining Averages between Points on Number Lines/Screenshot 2026-10-02 at 1.28.52 PM.png",
     "question_number": 2,
     "question_text": "Use the number line shown to answer the question. G is the average of L and another number. What is the other number?",
-    "diagram_description": "Horizontal number line with tick marks and arrowheads on both ends, labeled '0' and '2'. 'L' is marked above a tick slightly left of 0; 'G' is marked above a tick between 0 and 2.",
+    "diagram_description": "Number line, evenly spaced ticks, each tick = 0.5 units. L is at value -0.5, G is at value 1.0 (both pixel-verified via tick measurement, 2026-10-25, cross-checked against the confirmed correct answer B=2.5).",
     "choices": [
       "1.5",
       "2.5",
@@ -22823,13 +22825,14 @@
     "set_name": "Does not match any of the 4 named banks; 'Determining Averages between Points on Number Lines' exercise.",
     "type": "question",
     "pacing_affected": false,
-    "status": "done"
+    "status": "done",
+    "diagram_image": "problem-library/diagrams/gid684_numberline.png"
   },
   {
-    "source_file": "Screenshot 2026-10-02 at 1.28.56 PM.png",
+    "source_file": "mathspeed test/by-topic/Determining Averages between Points on Number Lines/Screenshot 2026-10-02 at 1.28.56 PM.png",
     "question_number": 3,
     "question_text": "Use the number line shown to answer the question. P is the average of E and another number. What is the other number?",
-    "diagram_description": "Page title visible above the question: 'Determining Averages between Points on Number Lines #2'. Number line with tick marks and arrowheads, labeled '0' and '2'. 'E' marked above a tick left of 0; 'P' marked above a tick near/at 2.",
+    "diagram_description": "Number line, evenly spaced ticks, each tick = 0.5 units. E is at value -2.0, P is at value 2.0 (both pixel-verified via tick measurement, 2026-10-25, cross-checked against the confirmed correct answer D=6).",
     "choices": [
       "-2",
       "4",
@@ -22850,13 +22853,14 @@
     "set_name": "Does not match any of the 4 named banks; confirmed title is 'Determining Averages between Points on Number Lines #2'.",
     "type": "question",
     "pacing_affected": false,
-    "status": "done"
+    "status": "done",
+    "diagram_image": "problem-library/diagrams/gid685_numberline.png"
   },
   {
-    "source_file": "Screenshot 2026-10-02 at 1.29.02 PM.png",
+    "source_file": "mathspeed test/by-topic/Determining Averages between Points on Number Lines/Screenshot 2026-10-02 at 1.29.02 PM.png",
     "question_number": 4,
     "question_text": "Use the number line shown to answer the question. P is the average of E and another number. What is the other number?",
-    "diagram_description": "Number line with tick marks and arrowheads, labeled '0' and '2'. 'E' marked above a tick left of 0; 'P' marked above a tick near/at 2.",
+    "diagram_description": "Number line, evenly spaced ticks, each tick = 0.5 units. E is at value -1.5, P is at value 3.0 (both pixel-verified via tick measurement, 2026-10-25, cross-checked against the confirmed correct answer C=7.5).",
     "choices": [
       "4.5",
       "6",
@@ -22877,13 +22881,14 @@
     "set_name": "Does not match any of the 4 named banks; 'Determining Averages between Points on Number Lines' exercise.",
     "type": "question",
     "pacing_affected": false,
-    "status": "done"
+    "status": "done",
+    "diagram_image": "problem-library/diagrams/gid686_numberline.png"
   },
   {
-    "source_file": "Screenshot 2026-10-02 at 1.29.06 PM.png",
+    "source_file": "mathspeed test/by-topic/Determining Averages between Points on Number Lines/Screenshot 2026-10-02 at 1.29.06 PM.png",
     "question_number": 5,
     "question_text": "Use the number line shown to answer the question. P is the average of E and another number. What is the other number?",
-    "diagram_description": "Number line with tick marks and arrowheads, labeled '0' and '2'. 'E' marked above a tick left of 0; 'P' marked above a tick near/at 2.",
+    "diagram_description": "Number line, evenly spaced ticks, each tick = 0.5 units. E is at value -3.0, P is at value 1.0 (both pixel-verified via tick measurement, 2026-10-25, cross-checked against the confirmed correct answer C=5).",
     "choices": [
       "3",
       "4",
@@ -22904,10 +22909,11 @@
     "set_name": "Does not match any of the 4 named banks; 'Determining Averages between Points on Number Lines' exercise.",
     "type": "question",
     "pacing_affected": false,
-    "status": "done"
+    "status": "done",
+    "diagram_image": "problem-library/diagrams/gid687_numberline.png"
   },
   {
-    "source_file": "Screenshot 2026-10-02 at 1.29.42 PM.png",
+    "source_file": "mathspeed test/by-topic/Equivalent Fractions Decimals and Percents/Screenshot 2026-10-02 at 1.29.42 PM.png",
     "question_number": 1,
     "question_text": "Which value is NOT equivalent to 7/28?",
     "diagram_description": "No diagram.",
@@ -22934,7 +22940,7 @@
     "status": "done"
   },
   {
-    "source_file": "Screenshot 2026-10-02 at 1.29.47 PM.png",
+    "source_file": "mathspeed test/by-topic/Equivalent Fractions Decimals and Percents/Screenshot 2026-10-02 at 1.29.47 PM.png",
     "question_number": 2,
     "question_text": "Which value is NOT equivalent to 45/90?",
     "diagram_description": "No diagram.",
@@ -22961,7 +22967,7 @@
     "status": "done"
   },
   {
-    "source_file": "Screenshot 2026-10-02 at 1.29.52 PM.png",
+    "source_file": "mathspeed test/by-topic/Equivalent Fractions Decimals and Percents/Screenshot 2026-10-02 at 1.29.52 PM.png",
     "question_number": 3,
     "question_text": "Which value is equivalent to 63/72?",
     "diagram_description": "No diagram.",
@@ -22988,7 +22994,7 @@
     "status": "done"
   },
   {
-    "source_file": "Screenshot 2026-10-02 at 1.29.56 PM.png",
+    "source_file": "mathspeed test/by-topic/Equivalent Fractions Decimals and Percents/Screenshot 2026-10-02 at 1.29.56 PM.png",
     "question_number": 4,
     "question_text": "Which value is equivalent to 69/102?",
     "diagram_description": "No diagram.",
@@ -23015,7 +23021,7 @@
     "status": "done"
   },
   {
-    "source_file": "Screenshot 2026-10-02 at 1.30.01 PM.png",
+    "source_file": "mathspeed test/by-topic/Equivalent Fractions Decimals and Percents/Screenshot 2026-10-02 at 1.30.01 PM.png",
     "question_number": 5,
     "question_text": "Which value is equivalent to 0.455?",
     "diagram_description": "No diagram.",
@@ -23042,7 +23048,7 @@
     "status": "done"
   },
   {
-    "source_file": "Screenshot 2026-10-02 at 1.30.53 PM.png",
+    "source_file": "mathspeed test/by-topic/Scale Ratio Conversion/Screenshot 2026-10-02 at 1.30.53 PM.png",
     "question_number": 1,
     "question_text": "An architect is looking at a blueprint. The blueprint says that 3 1/2 inches represent 12 feet. How many inches on the blueprint would represent 48 feet?",
     "diagram_description": "No diagram.",
@@ -23069,7 +23075,7 @@
     "status": "done"
   },
   {
-    "source_file": "Screenshot 2026-10-02 at 1.30.58 PM.png",
+    "source_file": "mathspeed test/by-topic/Scale Ratio Conversion/Screenshot 2026-10-02 at 1.30.58 PM.png",
     "question_number": 2,
     "question_text": "An architect is looking at a blueprint. The blueprint says that 5 1/4 inches represent 12 feet. How many inches on the blueprint would represent 48 feet?",
     "diagram_description": "No diagram.",
@@ -23096,7 +23102,7 @@
     "status": "done"
   },
   {
-    "source_file": "Screenshot 2026-10-02 at 1.31.03 PM.png",
+    "source_file": "mathspeed test/by-topic/Scale Ratio Conversion/Screenshot 2026-10-02 at 1.31.03 PM.png",
     "question_number": 3,
     "question_text": "An architect is looking at a blueprint. The blueprint says that 1 1/4 inches represent 12 feet. How many inches on the blueprint would represent 48 feet?",
     "diagram_description": "No diagram.",
@@ -23123,7 +23129,7 @@
     "status": "done"
   },
   {
-    "source_file": "Screenshot 2026-10-02 at 1.31.06 PM.png",
+    "source_file": "mathspeed test/by-topic/Scale Ratio Conversion/Screenshot 2026-10-02 at 1.31.06 PM.png",
     "question_number": 4,
     "question_text": "An architect is looking at a blueprint. The blueprint says that 1/4 inches represent 10 feet. How many inches on the blueprint would represent 40 feet?",
     "diagram_description": "No diagram.",
@@ -23150,7 +23156,7 @@
     "status": "done"
   },
   {
-    "source_file": "Screenshot 2026-10-02 at 1.31.11 PM.png",
+    "source_file": "mathspeed test/by-topic/Scale Ratio Conversion/Screenshot 2026-10-02 at 1.31.11 PM.png",
     "question_number": 5,
     "question_text": "An architect is looking at a blueprint. The blueprint says that 3/4 inches represent 10 feet. How many inches on the blueprint would represent 40 feet?",
     "diagram_description": "No diagram.",
@@ -23177,7 +23183,7 @@
     "status": "done"
   },
   {
-    "source_file": "Screenshot 2026-10-02 at 1.31.32 PM.png",
+    "source_file": "mathspeed test/by-topic/Finding Ratios given Probability/Screenshot 2026-10-02 at 1.31.32 PM.png",
     "question_number": 1,
     "question_text": "Wendy likes only blue, green, and red blocks. The probability of choosing a green block is 3 out of 10. Which combination of blocks reflects this probability?",
     "diagram_description": "No diagram.",
@@ -23204,7 +23210,7 @@
     "status": "done"
   },
   {
-    "source_file": "Screenshot 2026-10-02 at 1.31.36 PM.png",
+    "source_file": "mathspeed test/by-topic/Finding Ratios given Probability/Screenshot 2026-10-02 at 1.31.36 PM.png",
     "question_number": 2,
     "question_text": "Jamal has cherry, blueberry, and grapes in a bag, all of them are the same size and shape. The probability of choosing a grape is 4 out of 7. Which combination of fruits reflects this probability?",
     "diagram_description": "Page title visible: 'Finding Ratios, given Probability #4'. No other diagram.",
@@ -23231,7 +23237,7 @@
     "status": "done"
   },
   {
-    "source_file": "Screenshot 2026-10-02 at 1.31.40 PM.png",
+    "source_file": "mathspeed test/by-topic/Finding Ratios given Probability/Screenshot 2026-10-02 at 1.31.40 PM.png",
     "question_number": 3,
     "question_text": "Jamie has drink packets to make lemonade, limeade, and pink lemonade. The probability of choosing a limeade packet is 2 out of 11. What combination of drink packets reflects this probability?",
     "diagram_description": "No diagram.",
@@ -23258,7 +23264,7 @@
     "status": "done"
   },
   {
-    "source_file": "Screenshot 2026-10-02 at 1.31.44 PM.png",
+    "source_file": "mathspeed test/by-topic/Finding Ratios given Probability/Screenshot 2026-10-02 at 1.31.44 PM.png",
     "question_number": 4,
     "question_text": "Julian has red, green, and purple gumballs. The probability of choosing a purple gumball is 4 out of 13. What combination of gumballs reflects this probability?",
     "diagram_description": "No diagram.",
@@ -23285,7 +23291,7 @@
     "status": "done"
   },
   {
-    "source_file": "Screenshot 2026-10-02 at 1.31.47 PM.png",
+    "source_file": "mathspeed test/by-topic/Finding Ratios given Probability/Screenshot 2026-10-02 at 1.31.47 PM.png",
     "question_number": 5,
     "question_text": "Max has small, medium, and large shirts. The probability of choosing a small is 1/7. What combination of shirts reflects this probability?",
     "diagram_description": "No diagram.",
