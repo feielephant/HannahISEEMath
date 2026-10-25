@@ -1,6 +1,6 @@
 # Screenshot Reorg — Handoff (paused 2026-10-25)
 
-Paused to grade Hannah's latest QR test. This doc has everything needed to resume the screenshot-organization project without re-deriving context.
+**Current pause point: steps 1-4 of the 5-step plan are DONE. Step 5 (`ISEEcomputer/` investigation) is next and has not been started.** This doc has everything needed to resume the screenshot-organization project without re-deriving context.
 
 ## What this project is
 
