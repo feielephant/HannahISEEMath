@@ -6554,7 +6554,7 @@
       "D": null
     },
     "recapture_source_images": [
-      "Screenshot 2026-10-09 at 8.55.00 PM.png"
+      "mathspeed test/actual-practice-tests/ISEE Lower #4/Screenshot 2026-10-09 at 8.55.00 PM.png"
     ]
   },
   {
@@ -6596,7 +6596,7 @@
       "D": null
     },
     "recapture_source_images": [
-      "Screenshot 2026-10-09 at 8.55.02 PM.png"
+      "mathspeed test/actual-practice-tests/ISEE Lower #4/Screenshot 2026-10-09 at 8.55.02 PM.png"
     ]
   },
   {
@@ -6618,7 +6618,7 @@
     "topic_specific": "solving a symbolic system of two equations",
     "matches_known_gap": null,
     "possible_habit_trigger": null,
-    "notes": null,
+    "notes": "Merged duplicate gid1210 (recaptureQR 10/9 re-catalog of this same question) into this entry; recapture_source_images added from it.",
     "global_id": 162,
     "set_name": "ISEE Lower #4",
     "set_date": "2026-09-27",
@@ -6628,7 +6628,17 @@
     "source": "isee_official_screenshot",
     "is_full_test": true,
     "pacing_affected": false,
-    "status": "done"
+    "status": "done",
+    "official_solution": "The correct answer to the question is answer choice (A), 2. Since square + square = 10, we can conclude that square = 5. Next, since circle x square = 15 and square = 5, circle x 5 = 15. (remainder of solution cut off at bottom of screenshot, not fully captured).",
+    "choice_percentages": {
+      "A": null,
+      "B": null,
+      "C": null,
+      "D": null
+    },
+    "recapture_source_images": [
+      "mathspeed test/actual-practice-tests/ISEE Lower #4/Screenshot 2026-10-09 at 8.55.03 PM.png"
+    ]
   },
   {
     "source_file": "mathspeed test/superseded-by-recapture/Screenshot 2026-10-02 at 11.38.59 AM.png",
@@ -6669,7 +6679,7 @@
       "D": null
     },
     "recapture_source_images": [
-      "Screenshot 2026-10-09 at 8.55.05 PM.png"
+      "mathspeed test/actual-practice-tests/ISEE Lower #4/Screenshot 2026-10-09 at 8.55.05 PM.png"
     ]
   },
   {
@@ -6711,7 +6721,7 @@
       "D": null
     },
     "recapture_source_images": [
-      "Screenshot 2026-10-09 at 8.55.06 PM.png"
+      "mathspeed test/actual-practice-tests/ISEE Lower #4/Screenshot 2026-10-09 at 8.55.06 PM.png"
     ]
   },
   {
@@ -6753,7 +6763,7 @@
       "D": null
     },
     "recapture_source_images": [
-      "Screenshot 2026-10-09 at 8.55.08 PM.png"
+      "mathspeed test/actual-practice-tests/ISEE Lower #4/Screenshot 2026-10-09 at 8.55.08 PM.png"
     ]
   },
   {
@@ -6795,7 +6805,7 @@
       "D": null
     },
     "recapture_source_images": [
-      "Screenshot 2026-10-09 at 8.55.09 PM.png"
+      "mathspeed test/actual-practice-tests/ISEE Lower #4/Screenshot 2026-10-09 at 8.55.09 PM.png"
     ]
   },
   {
@@ -6817,7 +6827,7 @@
     "topic_specific": "solving a symbolic system of two equations",
     "matches_known_gap": null,
     "possible_habit_trigger": null,
-    "notes": null,
+    "notes": "Merged duplicate gid1211 (recaptureQR 10/9 re-catalog of this same question) into this entry; recapture_source_images added from it.",
     "global_id": 167,
     "set_name": "ISEE Lower #4",
     "set_date": "2026-09-27",
@@ -6827,7 +6837,17 @@
     "source": "isee_official_screenshot",
     "is_full_test": true,
     "pacing_affected": false,
-    "status": "done"
+    "status": "done",
+    "official_solution": "The correct answer to the question is answer choice (A), 2. Since 5 x 4 = 20, and (triangle - 1) x 4 = 20, we know (triangle - 1) = 5. So, it follows that triangle = 6.",
+    "choice_percentages": {
+      "A": null,
+      "B": null,
+      "C": null,
+      "D": null
+    },
+    "recapture_source_images": [
+      "mathspeed test/actual-practice-tests/ISEE Lower #4/Screenshot 2026-10-09 at 8.55.11 PM.png"
+    ]
   },
   {
     "source_file": "mathspeed test/superseded-by-recapture/Screenshot 2026-10-02 at 11.39.24 AM.png",
@@ -6868,7 +6888,7 @@
       "D": null
     },
     "recapture_source_images": [
-      "Screenshot 2026-10-09 at 8.55.12 PM.png"
+      "mathspeed test/actual-practice-tests/ISEE Lower #4/Screenshot 2026-10-09 at 8.55.12 PM.png"
     ]
   },
   {
@@ -6910,7 +6930,7 @@
       "D": "<5.0%"
     },
     "recapture_source_images": [
-      "Screenshot 2026-10-09 at 8.55.14 PM.png"
+      "mathspeed test/actual-practice-tests/ISEE Lower #4/Screenshot 2026-10-09 at 8.55.14 PM.png"
     ],
     "recapture_nav_color_read": "correct"
   },
@@ -6953,7 +6973,7 @@
       "D": "<5.0%"
     },
     "recapture_source_images": [
-      "Screenshot 2026-10-09 at 8.55.16 PM.png"
+      "mathspeed test/actual-practice-tests/ISEE Lower #4/Screenshot 2026-10-09 at 8.55.16 PM.png"
     ],
     "recapture_nav_color_read": "correct"
   },
@@ -6996,7 +7016,7 @@
       "D": "<5.0%"
     },
     "recapture_source_images": [
-      "Screenshot 2026-10-09 at 8.55.17 PM.png"
+      "mathspeed test/actual-practice-tests/ISEE Lower #4/Screenshot 2026-10-09 at 8.55.17 PM.png"
     ],
     "recapture_nav_color_read": "correct"
   },
@@ -7039,7 +7059,7 @@
       "D": "<5.0%"
     },
     "recapture_source_images": [
-      "Screenshot 2026-10-09 at 8.55.19 PM.png"
+      "mathspeed test/actual-practice-tests/ISEE Lower #4/Screenshot 2026-10-09 at 8.55.19 PM.png"
     ],
     "recapture_nav_color_read": "correct"
   },
@@ -7082,7 +7102,7 @@
       "D": "91.6%"
     },
     "recapture_source_images": [
-      "Screenshot 2026-10-09 at 8.55.21 PM.png"
+      "mathspeed test/actual-practice-tests/ISEE Lower #4/Screenshot 2026-10-09 at 8.55.21 PM.png"
     ],
     "recapture_nav_color_read": "correct"
   },
@@ -7125,7 +7145,7 @@
       "D": "<5.0%"
     },
     "recapture_source_images": [
-      "Screenshot 2026-10-09 at 8.55.22 PM.png"
+      "mathspeed test/actual-practice-tests/ISEE Lower #4/Screenshot 2026-10-09 at 8.55.22 PM.png"
     ],
     "recapture_nav_color_read": "correct"
   },
@@ -7168,7 +7188,7 @@
       "D": "92.4%"
     },
     "recapture_source_images": [
-      "Screenshot 2026-10-09 at 8.55.24 PM.png"
+      "mathspeed test/actual-practice-tests/ISEE Lower #4/Screenshot 2026-10-09 at 8.55.24 PM.png"
     ],
     "recapture_nav_color_read": "correct"
   },
@@ -7211,7 +7231,7 @@
       "D": "10.8%"
     },
     "recapture_source_images": [
-      "Screenshot 2026-10-09 at 8.55.26 PM.png"
+      "mathspeed test/actual-practice-tests/ISEE Lower #4/Screenshot 2026-10-09 at 8.55.26 PM.png"
     ],
     "recapture_nav_color_read": "correct"
   },
@@ -7254,7 +7274,7 @@
       "D": "<5.0%"
     },
     "recapture_source_images": [
-      "Screenshot 2026-10-09 at 8.55.28 PM.png"
+      "mathspeed test/actual-practice-tests/ISEE Lower #4/Screenshot 2026-10-09 at 8.55.28 PM.png"
     ],
     "recapture_nav_color_read": "correct"
   },
@@ -7297,7 +7317,7 @@
       "D": "<5.0%"
     },
     "recapture_source_images": [
-      "Screenshot 2026-10-09 at 8.55.29 PM.png"
+      "mathspeed test/actual-practice-tests/ISEE Lower #4/Screenshot 2026-10-09 at 8.55.29 PM.png"
     ],
     "recapture_nav_color_read": "correct"
   },
@@ -7340,7 +7360,7 @@
       "D": "8.3%"
     },
     "recapture_source_images": [
-      "Screenshot 2026-10-09 at 8.55.31 PM.png"
+      "mathspeed test/actual-practice-tests/ISEE Lower #4/Screenshot 2026-10-09 at 8.55.31 PM.png"
     ],
     "recapture_nav_color_read": "correct"
   },
@@ -7383,7 +7403,7 @@
       "D": "20.3%"
     },
     "recapture_source_images": [
-      "Screenshot 2026-10-09 at 8.55.33 PM.png"
+      "mathspeed test/actual-practice-tests/ISEE Lower #4/Screenshot 2026-10-09 at 8.55.33 PM.png"
     ],
     "recapture_nav_color_read": "correct"
   },
@@ -7448,8 +7468,8 @@
       "D": "10.4%"
     },
     "recapture_source_images": [
-      "Screenshot 2026-10-09 at 8.55.34 PM.png",
-      "Screenshot 2026-10-09 at 8.55.43 PM.png"
+      "mathspeed test/actual-practice-tests/ISEE Lower #4/Screenshot 2026-10-09 at 8.55.34 PM.png",
+      "mathspeed test/actual-practice-tests/ISEE Lower #4/Screenshot 2026-10-09 at 8.55.43 PM.png"
     ],
     "recapture_nav_color_read": "correct"
   },
@@ -7492,7 +7512,7 @@
       "D": "<5.0%"
     },
     "recapture_source_images": [
-      "Screenshot 2026-10-09 at 8.55.44 PM.png"
+      "mathspeed test/actual-practice-tests/ISEE Lower #4/Screenshot 2026-10-09 at 8.55.44 PM.png"
     ],
     "recapture_nav_color_read": "correct"
   },
@@ -7515,7 +7535,7 @@
     "topic_specific": "alphametic/cryptarithm addition puzzle (digit substitution)",
     "matches_known_gap": null,
     "possible_habit_trigger": "GUESS: exact-thing-asked -- the puzzle has five unknowns (A,B,C,D,E) and asks specifically for digit C; Hannah may have correctly worked out the addition but reported the value of a different letter, or lost track of which letter was asked for.",
-    "notes": "Confirmed wrong answer (maroon marker on choice B).",
+    "notes": "Confirmed wrong answer (maroon marker on choice B). A second, redundant full-recapture screenshot of this same question (Oct 2 10:20:14 PM, in superseded-by-recapture/) also exists on disk but was dropped from recapture_source_images as redundant with the Oct 9 recapture.",
     "global_id": 184,
     "set_name": "ISEE Lower #4",
     "set_date": "2026-09-27",
@@ -7537,8 +7557,7 @@
       "D": "<5.0%"
     },
     "recapture_source_images": [
-      "mathspeed test/superseded-by-recapture/Screenshot 2026-10-02 at 10.20.14 PM.png",
-      "Screenshot 2026-10-09 at 8.55.46 PM.png"
+      "mathspeed test/actual-practice-tests/ISEE Lower #4/Screenshot 2026-10-09 at 8.55.46 PM.png"
     ],
     "recapture_nav_color_read": "wrong",
     "her_selected_letter": "B",
@@ -7583,7 +7602,7 @@
       "D": "<5.0%"
     },
     "recapture_source_images": [
-      "Screenshot 2026-10-09 at 8.55.48 PM.png"
+      "mathspeed test/actual-practice-tests/ISEE Lower #4/Screenshot 2026-10-09 at 8.55.48 PM.png"
     ],
     "integrity_correction_2026-10-10": "Original record said is_wrong=False. Personally verified against the recapture screenshot (Screenshot 2026-10-09 at 8.55.48 PM.png): she picked A (pink, 21.2%), correct is C (green, 70.9%). Corrected to is_wrong=True.",
     "recapture_nav_color_read": "wrong",
@@ -7629,7 +7648,7 @@
       "D": "70.1%"
     },
     "recapture_source_images": [
-      "Screenshot 2026-10-09 at 8.55.50 PM.png"
+      "mathspeed test/actual-practice-tests/ISEE Lower #4/Screenshot 2026-10-09 at 8.55.50 PM.png"
     ],
     "recapture_nav_color_read": "correct"
   },
@@ -7672,7 +7691,7 @@
       "D": "8.1%"
     },
     "recapture_source_images": [
-      "Screenshot 2026-10-09 at 8.55.52 PM.png"
+      "mathspeed test/actual-practice-tests/ISEE Lower #4/Screenshot 2026-10-09 at 8.55.52 PM.png"
     ],
     "recapture_nav_color_read": "correct"
   },
@@ -7715,7 +7734,7 @@
       "D": "65.1%"
     },
     "recapture_source_images": [
-      "Screenshot 2026-10-09 at 8.55.53 PM.png"
+      "mathspeed test/actual-practice-tests/ISEE Lower #4/Screenshot 2026-10-09 at 8.55.53 PM.png"
     ],
     "recapture_nav_color_read": "correct"
   },
@@ -7758,7 +7777,7 @@
       "D": "6.4%"
     },
     "recapture_source_images": [
-      "Screenshot 2026-10-09 at 8.55.55 PM.png"
+      "mathspeed test/actual-practice-tests/ISEE Lower #4/Screenshot 2026-10-09 at 8.55.55 PM.png"
     ],
     "recapture_nav_color_read": "correct"
   },
@@ -7801,7 +7820,7 @@
       "D": "12.4%"
     },
     "recapture_source_images": [
-      "Screenshot 2026-10-09 at 8.55.57 PM.png"
+      "mathspeed test/actual-practice-tests/ISEE Lower #4/Screenshot 2026-10-09 at 8.55.57 PM.png"
     ],
     "recapture_nav_color_read": "correct"
   },
@@ -7844,7 +7863,7 @@
       "D": "13.0%"
     },
     "recapture_source_images": [
-      "Screenshot 2026-10-09 at 8.55.58 PM.png"
+      "mathspeed test/actual-practice-tests/ISEE Lower #4/Screenshot 2026-10-09 at 8.55.58 PM.png"
     ],
     "recapture_nav_color_read": "correct"
   },
@@ -7887,7 +7906,7 @@
       "D": "<5.0%"
     },
     "recapture_source_images": [
-      "Screenshot 2026-10-09 at 8.56.00 PM.png"
+      "mathspeed test/actual-practice-tests/ISEE Lower #4/Screenshot 2026-10-09 at 8.56.00 PM.png"
     ],
     "recapture_nav_color_read": "correct"
   },
@@ -7930,7 +7949,7 @@
       "D": "6.5%"
     },
     "recapture_source_images": [
-      "Screenshot 2026-10-09 at 8.56.01 PM.png"
+      "mathspeed test/actual-practice-tests/ISEE Lower #4/Screenshot 2026-10-09 at 8.56.01 PM.png"
     ],
     "recapture_nav_color_read": "correct"
   },
@@ -7973,7 +7992,7 @@
       "D": "7.2%"
     },
     "recapture_source_images": [
-      "Screenshot 2026-10-09 at 8.56.03 PM.png"
+      "mathspeed test/actual-practice-tests/ISEE Lower #4/Screenshot 2026-10-09 at 8.56.03 PM.png"
     ],
     "recapture_nav_color_read": "correct"
   },
@@ -8016,7 +8035,7 @@
       "D": "47.4%"
     },
     "recapture_source_images": [
-      "Screenshot 2026-10-09 at 8.56.05 PM.png"
+      "mathspeed test/actual-practice-tests/ISEE Lower #4/Screenshot 2026-10-09 at 8.56.05 PM.png"
     ],
     "recapture_nav_color_read": "wrong",
     "her_selected_letter": "B",
@@ -8061,7 +8080,7 @@
       "D": "5.4%"
     },
     "recapture_source_images": [
-      "Screenshot 2026-10-09 at 8.56.06 PM.png"
+      "mathspeed test/actual-practice-tests/ISEE Lower #4/Screenshot 2026-10-09 at 8.56.06 PM.png"
     ],
     "recapture_nav_color_read": "wrong",
     "her_selected_letter": "D",
@@ -8106,7 +8125,7 @@
       "D": "47.3%"
     },
     "recapture_source_images": [
-      "Screenshot 2026-10-09 at 8.56.08 PM.png"
+      "mathspeed test/actual-practice-tests/ISEE Lower #4/Screenshot 2026-10-09 at 8.56.08 PM.png"
     ],
     "recapture_nav_color_read": "correct"
   },
@@ -8149,7 +8168,7 @@
       "D": "11.6%"
     },
     "recapture_source_images": [
-      "Screenshot 2026-10-09 at 8.56.10 PM.png"
+      "mathspeed test/actual-practice-tests/ISEE Lower #4/Screenshot 2026-10-09 at 8.56.10 PM.png"
     ],
     "recapture_nav_color_read": "wrong",
     "her_selected_letter": "C",
@@ -36011,66 +36030,6 @@
     "source_images": [
       "Screenshot 2026-10-09 at 9.18.36 PM.png"
     ]
-  },
-  {
-    "global_id": 1210,
-    "source": "isee_official_screenshot",
-    "type": "question",
-    "set_name": "ISEE Lower #4",
-    "question_number": "3",
-    "question_text": "If square + square = 10 and circle x square = 15, what is the value of square - circle?",
-    "diagram_description": "none (question uses square/circle symbols in place of numbers)",
-    "choices": [
-      "2",
-      "3",
-      "5",
-      "8"
-    ],
-    "correct_letter": "A",
-    "is_wrong": null,
-    "official_topic": "Interpreting Pictographs",
-    "official_solution": "The correct answer to the question is answer choice (A), 2. Since square + square = 10, we can conclude that square = 5. Next, since circle x square = 15 and square = 5, circle x 5 = 15. (remainder of solution cut off at bottom of screenshot, not fully captured).",
-    "choice_percentages": {
-      "A": null,
-      "B": null,
-      "C": null,
-      "D": null
-    },
-    "notes": "From recaptureQR 2026-10-09 cataloguing. Could not be confidently text-matched to an existing library entry (shape-variable puzzle, possible near-duplicate wording) -- added as a separate entry rather than merged. May duplicate an existing entry under different phrasing; flagged for manual review.",
-    "source_images": [
-      "Screenshot 2026-10-09 at 8.55.03 PM.png"
-    ],
-    "needs_dedup_review": true
-  },
-  {
-    "global_id": 1211,
-    "source": "isee_official_screenshot",
-    "type": "question",
-    "set_name": "ISEE Lower #4",
-    "question_number": "8",
-    "question_text": "If (triangle - 1) x 4 = 20 and triangle x circle = 12, what is the value of circle?",
-    "diagram_description": "none (question uses triangle/circle symbols in place of numbers)",
-    "choices": [
-      "2",
-      "3",
-      "5",
-      "6"
-    ],
-    "correct_letter": "A",
-    "is_wrong": null,
-    "official_topic": "Algebra with Geometric Shapes",
-    "official_solution": "The correct answer to the question is answer choice (A), 2. Since 5 x 4 = 20, and (triangle - 1) x 4 = 20, we know (triangle - 1) = 5. So, it follows that triangle = 6.",
-    "choice_percentages": {
-      "A": null,
-      "B": null,
-      "C": null,
-      "D": null
-    },
-    "notes": "From recaptureQR 2026-10-09 cataloguing. Could not be confidently text-matched to an existing library entry (shape-variable puzzle, possible near-duplicate wording) -- added as a separate entry rather than merged. May duplicate an existing entry under different phrasing; flagged for manual review.",
-    "source_images": [
-      "Screenshot 2026-10-09 at 8.55.11 PM.png"
-    ],
-    "needs_dedup_review": true
   },
   {
     "source_file": "Screenshot 2026-10-09 at 9.02.38 PM.png",
