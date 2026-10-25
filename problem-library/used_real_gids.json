@@ -1,374 +1,379 @@
 {
- "_readme": "Tracks every real problem_library.json/ma_library.json item that has been pulled VERBATIM (not varied) into a generated QR/MA speed set, so a future set's planner never re-offers the same real item even though its 'status' field in the source library never gets updated. Check this file IN ADDITION TO status=='not_done' before selecting a real item for a new slot. Entries are added once a set is published (viewable by her), not only after grading, since publishing is the point of exposure. NOTE 2026-10-21: an MA set can also legitimately pull from problem_library.json (the QR library), not only ma_library.json -- the two libraries are filed by capture-time judgment call, not a hard content boundary, and many exercise names/formats overlap. Check both before inventing. Entries from the QR library used in an MA set are tracked under a \"_from_qr_library\" suffixed key so it is clear which library the global_id belongs to.",
- "qr": {
-  "5": [
-   {
-    "n": 12,
-    "global_id": 1087,
-    "topic": "Identifying Shapes"
-   },
-   {
-    "n": 14,
-    "global_id": 1184,
-    "topic": "Total Shaded Area given Figure with Equal Divisions"
-   },
-   {
-    "n": 16,
-    "global_id": 817,
-    "topic": "Remaining Amount after Reducing by Fractions"
-   },
-   {
-    "n": 17,
-    "global_id": 905,
-    "topic": "Nth Term, given Arithmetic Sequence, Progressive Pattern"
-   },
-   {
-    "n": 18,
-    "global_id": 902,
-    "topic": "No Remainder when Divided by a given Number"
-   },
-   {
-    "n": 19,
-    "global_id": 963,
-    "topic": "Converting to a Decimal"
-   },
-   {
-    "n": 24,
-    "global_id": 768,
-    "topic": "Estimating Multiplication & Division"
-   },
-   {
-    "n": 30,
-    "global_id": 919,
-    "topic": "Predicting the Next Shapes given Progressive Pattern"
-   },
-   {
-    "n": 38,
-    "global_id": 823,
-    "topic": "Equivalent Fractions Decimals and Percents"
-   }
-  ],
-  "6": [
-   {
-    "n": 1,
-    "global_id": 763,
-    "topic": "Fractional Parts Word Problems"
-   },
-   {
-    "n": 2,
-    "global_id": 884,
-    "topic": "Multiplying and Dividing Whole Numbers"
-   },
-   {
-    "n": 3,
-    "global_id": 209,
-    "topic": "Multi-step unit conversion (off-by-10, multi-step)",
-    "provenance_note": "NOT official ISEE material -- source_file is a photographed page from the third-party 'Elevate Prep' book (page 143), confirmed by parent 2026-10-19. Still a real, never-seen problem, just not from an ISEE-published source like the other 22 real items in this set."
-   },
-   {
-    "n": 4,
-    "global_id": 945,
-    "topic": "Word Problems with Ratios"
-   },
-   {
-    "n": 5,
-    "global_id": 734,
-    "topic": "Area and Perimeter of Complex Polygons"
-   },
-   {
-    "n": 7,
-    "global_id": 1151,
-    "topic": "Solving for Missing Sides given Similar Figures"
-   },
-   {
-    "n": 8,
-    "global_id": 1018,
-    "topic": "Finding MMMR given Bar Graph Data Table"
-   },
-   {
-    "n": 9,
-    "global_id": 1182,
-    "topic": "Total Shaded Area given Figure with Equal Divisions"
-   },
-   {
-    "n": 10,
-    "global_id": 810,
-    "topic": "Remaining Amount after Reducing by Fractions"
-   },
-   {
-    "n": 11,
-    "global_id": 906,
-    "topic": "Nth Term, given Arithmetic Sequence, Progressive Pattern, etc."
-   },
-   {
-    "n": 15,
-    "global_id": 885,
-    "topic": "Multiplying and Dividing Whole Numbers"
-   },
-   {
-    "n": 16,
-    "global_id": 1286,
-    "topic": "Perimeter of Equilateral Figure 1 Side",
-    "note": "Topic-bank fit is approximate -- this item is actually 'area from perimeter of a composite figure,' used here because it's real and now-corrected rather than inventing."
-   },
-   {
-    "n": 18,
-    "global_id": 889,
-    "topic": "No Remainder when Divided by a given Number"
-   },
-   {
-    "n": 19,
-    "global_id": 1101,
-    "topic": "Product of Prime Numbers"
-   },
-   {
-    "n": 20,
-    "global_id": 890,
-    "topic": "No Remainder when Divided by a given Number"
-   },
-   {
-    "n": 21,
-    "global_id": 770,
-    "topic": "Estimating Multiplication & Division"
-   },
-   {
-    "n": 22,
-    "global_id": 961,
-    "topic": "Converting to a Decimal"
-   },
-   {
-    "n": 24,
-    "global_id": 824,
-    "topic": "Equivalent Fractions Decimals and Percents"
-   },
-   {
-    "n": 26,
-    "global_id": 775,
-    "topic": "Estimating Sums Differences of Decimal Numbers"
-   },
-   {
-    "n": 27,
-    "global_id": 803,
-    "topic": "Percent Word Problems"
-   },
-   {
-    "n": 28,
-    "global_id": 974,
-    "topic": "Counting Multiples within a Range"
-   },
-   {
-    "n": 29,
-    "global_id": 675,
-    "topic": "Adding and Subtracting Decimals"
-   },
-   {
-    "n": 33,
-    "global_id": 1305,
-    "topic": "Comparing Adding Subtracting Bar Graph Data Table Values"
-   },
-   {
-    "n": 38,
-    "global_id": 666,
-    "topic": "Determining Total Cost"
-   }
-  ],
-  "7": [
-   {
-    "n": 5,
-    "global_id": 1055,
-    "topic": "Word Problems Linear Relationships"
-   },
-   {
-    "n": 27,
-    "global_id": 881,
-    "topic": "Multiplying and Dividing Decimals"
-   },
-   {
-    "n": 30,
-    "global_id": 774,
-    "topic": "Estimation (sums, products, money, ranges)"
-   },
-   {
-    "n": 33,
-    "global_id": 1126,
-    "topic": "Mixture Problems"
-   },
-   {
-    "n": 36,
-    "global_id": 802,
-    "topic": "Percent Word Problems"
-   },
-   {
-    "n": 37,
-    "global_id": 797,
-    "topic": "Solving Problems with Geometric Formulas"
-   },
-   {
-    "n": 14,
-    "global_id": 910,
-    "topic": "Input Output Tables",
-    "note": "swapped in to replace an invented item after audit found this real not_done item was available and unused"
-   },
-   {
-    "n": 22,
-    "global_id": 1024,
-    "topic": "Finding Missing Side Length",
-    "note": "swapped in to replace an invented item after audit found this real not_done item was available and unused"
-   },
-   {
-    "n": 23,
-    "global_id": 1183,
-    "topic": "Total Shaded Area given Figure with Equal Divisions",
-    "note": "swapped in to replace an invented item after audit found this real not_done item was available and unused (gid 1181/1185 also checked -- 1185 rejected, its math does not reconcile with its own answer choices, a likely transcription bug)"
-   }
-  ],
-  "7_from_ma_library": [
-   {
-    "n": 9,
-    "global_id": null,
-    "exercise_title": "No Remainder when Divided by two given Numbers #2",
-    "question_text": "If x can be divided by both 7 and 10 without leaving a remainder, then x can also be divided by which number without leaving a remainder?",
-    "topic": "No Remainder when Divided by a given Number",
-    "note": "global_id is null on this ma_library.json not_done item -- identified by exercise_title + question_text instead. A QR set legitimately pulling from the MA library too, the reverse direction of the _from_qr_library pattern already used in ma.2_from_qr_library."
-   },
-   {
-    "n": 16,
-    "global_id": null,
-    "exercise_title": "No Remainder when Divided by two given Numbers #2",
-    "question_text": "If x can be divided by both 5 and 9 without leaving a remainder, then x can also be divided by which number without leaving a remainder?",
-    "topic": "No Remainder when Divided by a given Number",
-    "note": "global_id is null on this ma_library.json not_done item -- identified by exercise_title + question_text instead."
-   },
-   {
-    "n": 29,
-    "global_id": null,
-    "exercise_title": "Remainder when Divided by a given Number",
-    "question_text": "Which expression results in a remainder of 5?",
-    "topic": "Remainder when Divided by a given Number",
-    "note": "global_id is null on this ma_library.json not_done item -- identified by exercise_title + question_text instead."
-   },
-   {
-    "n": 31,
-    "global_id": null,
-    "exercise_title": "Finding Median, given Sets of Numbers",
-    "question_text": "What is the median of the data set?",
-    "note": "global_id is null and question_text is generic/shared across all 9 not_done items under this topic -- identified uniquely by its diagram data set \"17, 12, 16, 9, 21, 18, 20\" (the unsorted one, hardest of the 9 available). Replaces an invented \"Converting to a Decimal\" item that had zero real evidence anywhere in either library."
-   }
-  ]
- },
- "ma": {
-  "2": [
-   {
-    "n": 5,
-    "global_id": null,
-    "exercise_title": "No Remainder when Divided by two given Numbers #2",
-    "question_text": "If x can be divided by both 8 and 10 without leaving a remainder, then x can also be divided by which number without leaving a remainder?",
-    "topic": "No Remainder when Divided by a given Number",
-    "note": "global_id is null on this ma_library.json item (not_done items from this capture batch never got one assigned) -- identified by exercise_title + question_text instead."
-   },
-   {
-    "n": 6,
-    "global_id": null,
-    "exercise_title": "Remainder when Divided by a given Number",
-    "question_text": "Which expression results in a remainder of 6?",
-    "topic": "Remainder when Divided by a given Number",
-    "note": "global_id is null on this ma_library.json item -- identified by exercise_title + question_text instead."
-   },
-   {
-    "n": 13,
-    "global_id": null,
-    "exercise_title": "ORDER OF OPERATIONS & EQUIVALENCE #4",
-    "question_text": "Which expression is equal to 9 \u00d7 (5 + 2) \u2212 18?",
-    "topic": "Order of Operations and Equivalence",
-    "note": "global_id is null on this ma_library.json item -- identified by exercise_title + question_text instead."
-   }
-  ],
-  "2_from_qr_library": [
-   {
-    "n": 3,
-    "global_id": 817,
-    "topic": "Remaining Amount after Reducing by Fractions"
-   },
-   {
-    "n": 7,
-    "global_id": 903,
-    "topic": "Nth Term, given Arithmetic Sequence"
-   },
-   {
-    "n": 9,
-    "global_id": 828,
-    "topic": "Equivalent Fractions Decimals and Percents"
-   },
-   {
-    "n": 10,
-    "global_id": 768,
-    "topic": "Estimating Multiplication & Division"
-   },
-   {
-    "n": 11,
-    "global_id": 758,
-    "topic": "Estimating Division with Money"
-   },
-   {
-    "n": 12,
-    "global_id": 773,
-    "topic": "Estimating Sums Differences of Decimal Numbers"
-   },
-   {
-    "n": 14,
-    "global_id": 1017,
-    "topic": "Finding MMMR given Bar Graph Data Table"
-   },
-   {
-    "n": 20,
-    "global_id": 665,
-    "topic": "Determining Total Cost"
-   },
-   {
-    "n": 22,
-    "global_id": 912,
-    "topic": "Predicting the Next Shapes given Progressive Pattern"
-   },
-   {
-    "n": 26,
-    "global_id": 1171,
-    "topic": "Vertices Forming Right Angles Quadrilaterals on a Coordinate Plane"
-   },
-   {
-    "n": 28,
-    "global_id": 1086,
-    "topic": "Identifying Shapes"
-   },
-   {
-    "n": 15,
-    "global_id": 818,
-    "topic": "Determining Averages between Points on Number Lines",
-    "note": "verified directly against source screenshot, not just notes"
-   },
-   {
-    "n": 16,
-    "global_id": 948,
-    "topic": "Interpreting Pictographs",
-    "note": "verified directly against source screenshot; uses real half-symbol glyph (triangle), not CSS clip"
-   },
-   {
-    "n": 24,
-    "global_id": 1058,
-    "topic": "Perimeter",
-    "note": "found during earlier cross-library check but not swapped in until a follow-up pass"
-   },
-   {
-    "n": 30,
-    "global_id": 1027,
-    "topic": "Finding Missing Side Length",
-    "note": "found during earlier cross-library check but not swapped in until a follow-up pass"
-   },
-   {
-    "n": 27,
-    "global_id": 656,
-    "topic": "Translating Math Expressions",
-    "note": "QR-only topic, deliberately included as an exception (confirmed real weak spot, swapped in for a topic she is solid on)"
-   }
-  ]
- }
+  "_readme": "Tracks every real problem_library.json/ma_library.json item that has been pulled VERBATIM (not varied) into a generated QR/MA speed set, so a future set's planner never re-offers the same real item even though its 'status' field in the source library never gets updated. Check this file IN ADDITION TO status=='not_done' before selecting a real item for a new slot. Entries are added once a set is published (viewable by her), not only after grading, since publishing is the point of exposure. NOTE 2026-10-21: an MA set can also legitimately pull from problem_library.json (the QR library), not only ma_library.json -- the two libraries are filed by capture-time judgment call, not a hard content boundary, and many exercise names/formats overlap. Check both before inventing. Entries from the QR library used in an MA set are tracked under a \"_from_qr_library\" suffixed key so it is clear which library the global_id belongs to.",
+  "qr": {
+    "5": [
+      {
+        "n": 12,
+        "global_id": 1087,
+        "topic": "Identifying Shapes"
+      },
+      {
+        "n": 14,
+        "global_id": 1184,
+        "topic": "Total Shaded Area given Figure with Equal Divisions"
+      },
+      {
+        "n": 16,
+        "global_id": 817,
+        "topic": "Remaining Amount after Reducing by Fractions"
+      },
+      {
+        "n": 17,
+        "global_id": 905,
+        "topic": "Nth Term, given Arithmetic Sequence, Progressive Pattern"
+      },
+      {
+        "n": 18,
+        "global_id": 902,
+        "topic": "No Remainder when Divided by a given Number"
+      },
+      {
+        "n": 19,
+        "global_id": 963,
+        "topic": "Converting to a Decimal"
+      },
+      {
+        "n": 24,
+        "global_id": 768,
+        "topic": "Estimating Multiplication & Division"
+      },
+      {
+        "n": 30,
+        "global_id": 919,
+        "topic": "Predicting the Next Shapes given Progressive Pattern"
+      },
+      {
+        "n": 38,
+        "global_id": 823,
+        "topic": "Equivalent Fractions Decimals and Percents"
+      }
+    ],
+    "6": [
+      {
+        "n": 1,
+        "global_id": 763,
+        "topic": "Fractional Parts Word Problems"
+      },
+      {
+        "n": 2,
+        "global_id": 884,
+        "topic": "Multiplying and Dividing Whole Numbers"
+      },
+      {
+        "n": 3,
+        "global_id": 209,
+        "topic": "Multi-step unit conversion (off-by-10, multi-step)",
+        "provenance_note": "NOT official ISEE material -- source_file is a photographed page from the third-party 'Elevate Prep' book (page 143), confirmed by parent 2026-10-19. Still a real, never-seen problem, just not from an ISEE-published source like the other 22 real items in this set."
+      },
+      {
+        "n": 4,
+        "global_id": 945,
+        "topic": "Word Problems with Ratios"
+      },
+      {
+        "n": 5,
+        "global_id": 734,
+        "topic": "Area and Perimeter of Complex Polygons"
+      },
+      {
+        "n": 7,
+        "global_id": 1151,
+        "topic": "Solving for Missing Sides given Similar Figures"
+      },
+      {
+        "n": 8,
+        "global_id": 1018,
+        "topic": "Finding MMMR given Bar Graph Data Table"
+      },
+      {
+        "n": 9,
+        "global_id": 1182,
+        "topic": "Total Shaded Area given Figure with Equal Divisions"
+      },
+      {
+        "n": 10,
+        "global_id": 810,
+        "topic": "Remaining Amount after Reducing by Fractions"
+      },
+      {
+        "n": 11,
+        "global_id": 906,
+        "topic": "Nth Term, given Arithmetic Sequence, Progressive Pattern, etc."
+      },
+      {
+        "n": 15,
+        "global_id": 885,
+        "topic": "Multiplying and Dividing Whole Numbers"
+      },
+      {
+        "n": 16,
+        "global_id": 1286,
+        "topic": "Perimeter of Equilateral Figure 1 Side",
+        "note": "Topic-bank fit is approximate -- this item is actually 'area from perimeter of a composite figure,' used here because it's real and now-corrected rather than inventing."
+      },
+      {
+        "n": 18,
+        "global_id": 889,
+        "topic": "No Remainder when Divided by a given Number"
+      },
+      {
+        "n": 19,
+        "global_id": 1101,
+        "topic": "Product of Prime Numbers"
+      },
+      {
+        "n": 20,
+        "global_id": 890,
+        "topic": "No Remainder when Divided by a given Number"
+      },
+      {
+        "n": 21,
+        "global_id": 770,
+        "topic": "Estimating Multiplication & Division"
+      },
+      {
+        "n": 22,
+        "global_id": 961,
+        "topic": "Converting to a Decimal"
+      },
+      {
+        "n": 24,
+        "global_id": 824,
+        "topic": "Equivalent Fractions Decimals and Percents"
+      },
+      {
+        "n": 26,
+        "global_id": 775,
+        "topic": "Estimating Sums Differences of Decimal Numbers"
+      },
+      {
+        "n": 27,
+        "global_id": 803,
+        "topic": "Percent Word Problems"
+      },
+      {
+        "n": 28,
+        "global_id": 974,
+        "topic": "Counting Multiples within a Range"
+      },
+      {
+        "n": 29,
+        "global_id": 675,
+        "topic": "Adding and Subtracting Decimals"
+      },
+      {
+        "n": 33,
+        "global_id": 1305,
+        "topic": "Comparing Adding Subtracting Bar Graph Data Table Values"
+      },
+      {
+        "n": 38,
+        "global_id": 666,
+        "topic": "Determining Total Cost"
+      }
+    ],
+    "7": [
+      {
+        "n": 5,
+        "global_id": 1055,
+        "topic": "Word Problems Linear Relationships"
+      },
+      {
+        "n": 27,
+        "global_id": 881,
+        "topic": "Multiplying and Dividing Decimals"
+      },
+      {
+        "n": 30,
+        "global_id": 774,
+        "topic": "Estimation (sums, products, money, ranges)"
+      },
+      {
+        "n": 33,
+        "global_id": 1126,
+        "topic": "Mixture Problems"
+      },
+      {
+        "n": 36,
+        "global_id": 802,
+        "topic": "Percent Word Problems"
+      },
+      {
+        "n": 37,
+        "global_id": 797,
+        "topic": "Solving Problems with Geometric Formulas"
+      },
+      {
+        "n": 14,
+        "global_id": 910,
+        "topic": "Input Output Tables",
+        "note": "swapped in to replace an invented item after audit found this real not_done item was available and unused"
+      },
+      {
+        "n": 22,
+        "global_id": 1024,
+        "topic": "Finding Missing Side Length",
+        "note": "swapped in to replace an invented item after audit found this real not_done item was available and unused"
+      },
+      {
+        "n": 23,
+        "global_id": 1183,
+        "topic": "Total Shaded Area given Figure with Equal Divisions",
+        "note": "swapped in to replace an invented item after audit found this real not_done item was available and unused (gid 1181/1185 also checked -- 1185 rejected, its math does not reconcile with its own answer choices, a likely transcription bug)"
+      },
+      {
+        "n": 4,
+        "global_id": 157,
+        "topic": "Cryptarithm / digit substitution"
+      }
+    ],
+    "7_from_ma_library": [
+      {
+        "n": 9,
+        "global_id": null,
+        "exercise_title": "No Remainder when Divided by two given Numbers #2",
+        "question_text": "If x can be divided by both 7 and 10 without leaving a remainder, then x can also be divided by which number without leaving a remainder?",
+        "topic": "No Remainder when Divided by a given Number",
+        "note": "global_id is null on this ma_library.json not_done item -- identified by exercise_title + question_text instead. A QR set legitimately pulling from the MA library too, the reverse direction of the _from_qr_library pattern already used in ma.2_from_qr_library."
+      },
+      {
+        "n": 16,
+        "global_id": null,
+        "exercise_title": "No Remainder when Divided by two given Numbers #2",
+        "question_text": "If x can be divided by both 5 and 9 without leaving a remainder, then x can also be divided by which number without leaving a remainder?",
+        "topic": "No Remainder when Divided by a given Number",
+        "note": "global_id is null on this ma_library.json not_done item -- identified by exercise_title + question_text instead."
+      },
+      {
+        "n": 29,
+        "global_id": null,
+        "exercise_title": "Remainder when Divided by a given Number",
+        "question_text": "Which expression results in a remainder of 5?",
+        "topic": "Remainder when Divided by a given Number",
+        "note": "global_id is null on this ma_library.json not_done item -- identified by exercise_title + question_text instead."
+      },
+      {
+        "n": 31,
+        "global_id": null,
+        "exercise_title": "Finding Median, given Sets of Numbers",
+        "question_text": "What is the median of the data set?",
+        "note": "global_id is null and question_text is generic/shared across all 9 not_done items under this topic -- identified uniquely by its diagram data set \"17, 12, 16, 9, 21, 18, 20\" (the unsorted one, hardest of the 9 available). Replaces an invented \"Converting to a Decimal\" item that had zero real evidence anywhere in either library."
+      }
+    ]
+  },
+  "ma": {
+    "2": [
+      {
+        "n": 5,
+        "global_id": null,
+        "exercise_title": "No Remainder when Divided by two given Numbers #2",
+        "question_text": "If x can be divided by both 8 and 10 without leaving a remainder, then x can also be divided by which number without leaving a remainder?",
+        "topic": "No Remainder when Divided by a given Number",
+        "note": "global_id is null on this ma_library.json item (not_done items from this capture batch never got one assigned) -- identified by exercise_title + question_text instead."
+      },
+      {
+        "n": 6,
+        "global_id": null,
+        "exercise_title": "Remainder when Divided by a given Number",
+        "question_text": "Which expression results in a remainder of 6?",
+        "topic": "Remainder when Divided by a given Number",
+        "note": "global_id is null on this ma_library.json item -- identified by exercise_title + question_text instead."
+      },
+      {
+        "n": 13,
+        "global_id": null,
+        "exercise_title": "ORDER OF OPERATIONS & EQUIVALENCE #4",
+        "question_text": "Which expression is equal to 9 × (5 + 2) − 18?",
+        "topic": "Order of Operations and Equivalence",
+        "note": "global_id is null on this ma_library.json item -- identified by exercise_title + question_text instead."
+      }
+    ],
+    "2_from_qr_library": [
+      {
+        "n": 3,
+        "global_id": 817,
+        "topic": "Remaining Amount after Reducing by Fractions"
+      },
+      {
+        "n": 7,
+        "global_id": 903,
+        "topic": "Nth Term, given Arithmetic Sequence"
+      },
+      {
+        "n": 9,
+        "global_id": 828,
+        "topic": "Equivalent Fractions Decimals and Percents"
+      },
+      {
+        "n": 10,
+        "global_id": 768,
+        "topic": "Estimating Multiplication & Division"
+      },
+      {
+        "n": 11,
+        "global_id": 758,
+        "topic": "Estimating Division with Money"
+      },
+      {
+        "n": 12,
+        "global_id": 773,
+        "topic": "Estimating Sums Differences of Decimal Numbers"
+      },
+      {
+        "n": 14,
+        "global_id": 1017,
+        "topic": "Finding MMMR given Bar Graph Data Table"
+      },
+      {
+        "n": 20,
+        "global_id": 665,
+        "topic": "Determining Total Cost"
+      },
+      {
+        "n": 22,
+        "global_id": 912,
+        "topic": "Predicting the Next Shapes given Progressive Pattern"
+      },
+      {
+        "n": 26,
+        "global_id": 1171,
+        "topic": "Vertices Forming Right Angles Quadrilaterals on a Coordinate Plane"
+      },
+      {
+        "n": 28,
+        "global_id": 1086,
+        "topic": "Identifying Shapes"
+      },
+      {
+        "n": 15,
+        "global_id": 818,
+        "topic": "Determining Averages between Points on Number Lines",
+        "note": "verified directly against source screenshot, not just notes"
+      },
+      {
+        "n": 16,
+        "global_id": 948,
+        "topic": "Interpreting Pictographs",
+        "note": "verified directly against source screenshot; uses real half-symbol glyph (triangle), not CSS clip"
+      },
+      {
+        "n": 24,
+        "global_id": 1058,
+        "topic": "Perimeter",
+        "note": "found during earlier cross-library check but not swapped in until a follow-up pass"
+      },
+      {
+        "n": 30,
+        "global_id": 1027,
+        "topic": "Finding Missing Side Length",
+        "note": "found during earlier cross-library check but not swapped in until a follow-up pass"
+      },
+      {
+        "n": 27,
+        "global_id": 656,
+        "topic": "Translating Math Expressions",
+        "note": "QR-only topic, deliberately included as an exception (confirmed real weak spot, swapped in for a topic she is solid on)"
+      }
+    ]
+  }
 }
