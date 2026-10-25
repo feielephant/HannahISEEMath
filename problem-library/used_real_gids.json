@@ -237,6 +237,12 @@
         "global_id": 1427,
         "topic": "Views of 3D Figures",
         "note": "replaced invented version (missing Front label, unverified axis convention) with real not_done item from Views of 3D Figures #1 Q1; correct answer D is a derived read of the diagram, not confirmed from a source answer key"
+      },
+      {
+        "n": 27,
+        "global_id": 957,
+        "topic": "Averaging Mixed Numbers",
+        "note": "swapped out Multiplying and Dividing Decimals -- parent recalled averaging mixed numbers as a confirmed weak spot; verified against real gid18 (done, is_wrong:true)"
       }
     ],
     "7_from_ma_library": [

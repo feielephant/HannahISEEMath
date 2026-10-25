@@ -1,886 +1,886 @@
 {
- "sets": [
-  {
-   "set_no": 1,
-   "topics": [
-    "Divisibility / number constraints (Serena/Who am I style)",
-    "Random Landing Probability",
-    "Key-word NOT in equivalence questions",
-    "Determining Fraction Percent of Shaded Area given Figure",
-    "Multi-step unit conversion (off-by-10, multi-step)",
-    "Key-word NOT in equivalence questions",
-    "Translating Math Expressions",
-    "Solving for Missing Sides given Similar Figures",
-    "Determining Fraction Percent of Shaded Area given Figure",
-    "Estimation (sums, products, money, ranges)",
-    "Solving for Missing Sides given Similar Figures",
-    "Divisibility / number constraints (Serena/Who am I style)",
-    "Determining Fraction Percent of Shaded Area given Figure",
-    "Translating Math Expressions",
-    "Estimation (sums, products, money, ranges)",
-    "Multi-step Word Problems",
-    "Multiplying and Dividing Integers",
-    "Multi-step unit conversion (off-by-10, multi-step)",
-    "Estimation (sums, products, money, ranges)",
-    "Solving for Missing Sides given Similar Figures",
-    "Word Problems with Ratios",
-    "Remaining Amount after Reducing by Fractions",
-    "Translating Math Expressions",
-    "Key-word NOT in equivalence questions",
-    "Multiplying and Dividing Integers",
-    "Area and Perimeter of Complex Polygons",
-    "Divisibility / number constraints (Serena/Who am I style)",
-    "Area and Perimeter of Complex Polygons",
-    "Area and Perimeter of Complex Polygons",
-    "Multi-step Word Problems",
-    "Multi-step unit conversion (off-by-10, multi-step)",
-    "Remaining Amount after Reducing by Fractions",
-    "Multi-step Word Problems",
-    "Word Problems with Ratios",
-    "Random Landing Probability",
-    "Random Landing Probability",
-    "Remaining Amount after Reducing by Fractions",
-    "Percent Word Problems"
-   ],
-   "feedback": {
-    "percent_too_easy": "Set 1 #38 (price +20% then -20%) gave the 240 intermediate step, which removed the work. Real test (ISEE Lower #4 #38) gives no intermediate value and asks for percent increase/decrease. Use no-intermediate, net-percent-change framing in later sets.",
-    "diagrams": "Labeled diagrams are fine (real tests label dimensions). Similar-figure and cut-out problems should show labels and mark the cut on the figure. Diagrams that only restate the setup make the problem too easy (e.g. 8 ft by 3 ft).",
-    "median_mean": "Median/mean belong to Math Achievement, not QR. Keep them out of QR sets; put them in MA sets.",
-    "not_overuse": "NOT-type equivalence drills appeared 4 times in set 1 and she got those right; limit to 1 per set."
-   },
-   "click_results": {
-    "first_wrong_then_fixed": [
-     2,
-     11,
-     23,
-     34
-    ],
-    "final_wrong": [
-     8,
-     21,
-     38
-    ],
-    "slow_and_wrong": {
-     "8": 123,
-     "21": 85,
-     "29": 81,
-     "38": 59
+  "sets": [
+    {
+      "set_no": 1,
+      "topics": [
+        "Divisibility / number constraints (Serena/Who am I style)",
+        "Random Landing Probability",
+        "Key-word NOT in equivalence questions",
+        "Determining Fraction Percent of Shaded Area given Figure",
+        "Multi-step unit conversion (off-by-10, multi-step)",
+        "Key-word NOT in equivalence questions",
+        "Translating Math Expressions",
+        "Solving for Missing Sides given Similar Figures",
+        "Determining Fraction Percent of Shaded Area given Figure",
+        "Estimation (sums, products, money, ranges)",
+        "Solving for Missing Sides given Similar Figures",
+        "Divisibility / number constraints (Serena/Who am I style)",
+        "Determining Fraction Percent of Shaded Area given Figure",
+        "Translating Math Expressions",
+        "Estimation (sums, products, money, ranges)",
+        "Multi-step Word Problems",
+        "Multiplying and Dividing Integers",
+        "Multi-step unit conversion (off-by-10, multi-step)",
+        "Estimation (sums, products, money, ranges)",
+        "Solving for Missing Sides given Similar Figures",
+        "Word Problems with Ratios",
+        "Remaining Amount after Reducing by Fractions",
+        "Translating Math Expressions",
+        "Key-word NOT in equivalence questions",
+        "Multiplying and Dividing Integers",
+        "Area and Perimeter of Complex Polygons",
+        "Divisibility / number constraints (Serena/Who am I style)",
+        "Area and Perimeter of Complex Polygons",
+        "Area and Perimeter of Complex Polygons",
+        "Multi-step Word Problems",
+        "Multi-step unit conversion (off-by-10, multi-step)",
+        "Remaining Amount after Reducing by Fractions",
+        "Multi-step Word Problems",
+        "Word Problems with Ratios",
+        "Random Landing Probability",
+        "Random Landing Probability",
+        "Remaining Amount after Reducing by Fractions",
+        "Percent Word Problems"
+      ],
+      "feedback": {
+        "percent_too_easy": "Set 1 #38 (price +20% then -20%) gave the 240 intermediate step, which removed the work. Real test (ISEE Lower #4 #38) gives no intermediate value and asks for percent increase/decrease. Use no-intermediate, net-percent-change framing in later sets.",
+        "diagrams": "Labeled diagrams are fine (real tests label dimensions). Similar-figure and cut-out problems should show labels and mark the cut on the figure. Diagrams that only restate the setup make the problem too easy (e.g. 8 ft by 3 ft).",
+        "median_mean": "Median/mean belong to Math Achievement, not QR. Keep them out of QR sets; put them in MA sets.",
+        "not_overuse": "NOT-type equivalence drills appeared 4 times in set 1 and she got those right; limit to 1 per set."
+      },
+      "click_results": {
+        "first_wrong_then_fixed": [
+          2,
+          11,
+          23,
+          34
+        ],
+        "final_wrong": [
+          8,
+          21,
+          38
+        ],
+        "slow_and_wrong": {
+          "8": 123,
+          "21": 85,
+          "29": 81,
+          "38": 59
+        },
+        "slow_but_right": {
+          "16": 148,
+          "20": 126
+        },
+        "note": "Times from the buggy formula (before the 2026-10-06 timer fix); first-answer column is first click, not final."
+      }
     },
-    "slow_but_right": {
-     "16": 148,
-     "20": 126
+    {
+      "set_no": 2,
+      "topics": [
+        "Comparing & Ordering Fractions & Decimals",
+        "Percent Word Problems",
+        "Estimating Multiplication & Division",
+        "Estimating Sums/Differences of Decimal Numbers",
+        "Estimating Division with Money",
+        "Estimating Sums/Differences of Decimal Numbers",
+        "Estimating Multiplication & Division",
+        "Multi-step unit conversion (off-by-10, multi-step)",
+        "Percent Word Problems",
+        "Interpreting Pictographs",
+        "Adding and Subtracting Decimals",
+        "3D shape from its net (unfolding a solid)",
+        "Divisibility / number constraints (Serena/Who am I style)",
+        "Multi-step unit conversion (off-by-10, multi-step)",
+        "Key-word NOT in equivalence questions",
+        "Solving for Missing Sides given Similar Figures",
+        "Divisibility / number constraints (Serena/Who am I style)",
+        "Comparing & Ordering Fractions & Decimals",
+        "Dividing Equally From a Total",
+        "3D shape from its net (unfolding a solid)",
+        "Dividing Equally From a Total",
+        "Dividing Equally From a Total",
+        "Translating Math Expressions",
+        "Measurement Scaling",
+        "Measurement Scaling",
+        "Adding and Subtracting Decimals",
+        "Measurement Scaling",
+        "Estimating Division with Money",
+        "Interpreting Pictographs",
+        "3D shape from its net (unfolding a solid)",
+        "Probability (simple, equally likely outcomes)",
+        "Multi-step unit conversion (off-by-10, multi-step)",
+        "Estimating Multiplication & Division",
+        "Word Problems with Ratios",
+        "Divisibility / number constraints (Serena/Who am I style)",
+        "Interpreting Pictographs",
+        "Area and Perimeter of Complex Polygons",
+        "Comparing & Ordering Fractions & Decimals"
+      ],
+      "built_with": {
+        "changes_from_planner": "Swapped 7 slots to cover set 1 misses (similar figures, ratio word problem, probability, remaining area) and to cut NOT drills to 1 and estimation to 7.",
+        "feedback_applied": [
+          "percent problems give no intermediate value (2, 9)",
+          "similar figures and cut-out problems are labeled and the cut is marked (16, 37)",
+          "no median/mean (MA only)",
+          "NOT-type drills limited to 1 (15)"
+        ],
+        "diagram_count": 20,
+        "library_check": "Difficulty compared against real examples (official and book). Not-done originals still not substituted.",
+        "difficulty_pass": "2026-10-06 second pass: items 1,3,4,5,7,10,11,18,19,21,22,26,28,29,33,36,38 rewritten to match or exceed real-test difficulty (multi-step, unlike denominators, multi-digit estimation, decimals with more places). All answers checked with exact arithmetic.",
+        "estimation_pass": "2026-10-06: estimation items rewritten to the real format: (a × b) ÷ c with 'between X and Y' answers (3, 7, 33), range sum of four prices (4), and 'which expression best estimates' money-division items (5, 21, 28). Real examples are two products over a third value, often with ranges."
+      },
+      "graded_2026-10-06": {
+        "score": "26/38",
+        "wrong": [
+          3,
+          12,
+          18,
+          22,
+          23,
+          25,
+          26,
+          32,
+          33,
+          36,
+          38
+        ],
+        "blank": [
+          34
+        ],
+        "first_then_fixed_correct": [
+          9
+        ],
+        "first_then_changed_to_wrong": [
+          36
+        ],
+        "total_elapsed_minutes": 41.4,
+        "timing_note": "Elapsed time exceeded the 35-min budget; could not confirm whether the lock (pushed 2026-10-07) was active during this attempt, or whether Reset was used mid-test (both since fixed — Reset removed, Clear now resets the timer too).",
+        "time_vs_wrong_correlation": "Weak/near-zero (Pearson r=-0.08). Most wrong answers were fast (<15s, likely rushed/guessed), not slow. Two exceptions genuinely slow+wrong: #3 (144s), #22 (249s).",
+        "review_file": "reviews/speed-set-2-review-2026-10-07.html (local only, not in git) — has Hannah/parent diagnosis per missed problem",
+        "real_gaps_confirmed": [
+          "Estimating Multiplication & Division (sticky, #3 and #33)",
+          "Comparing & Ordering Fractions & Decimals (decimal vs non-nice fraction)",
+          "Translating Math Expressions (phrase-order + simplifying constants)",
+          "Word Problems with Ratios (forgot partition method)"
+        ],
+        "careless_not_gaps": [
+          "3D shape from its net (#12, rushed pick)",
+          "Measurement Scaling (#25, missed final unit)",
+          "Multi-step unit conversion (#32, matches existing off-by-10 habit)",
+          "Adding and Subtracting Decimals (#26, digit slip)",
+          "Dividing Equally From a Total (#22, calculation slip: 115 = 23×5, proves both steps were done)"
+        ],
+        "unconfirmed_needs_retest": {
+          "36": "gave the right final answer on review (54) but only after narrowing to 2 choices; may have been elimination, not recall. Set 3 should include a fresh-numbers version of 'whole number times a quantity with a half/fraction' to confirm. Timing now confirms genuine deliberation (27.3s, 3 changes), not a snap guess — consistent with partial understanding rather than zero understanding, but still not proof she can produce the answer from scratch."
+        },
+        "timing_recomputed_2026-10-07": {
+          "source": "full click log (speed-set-2-click-log.csv), recomputed with the fixed attribution formula",
+          "correlation": "still weak/near-zero: r=-0.109 (was -0.08 under the old formula) — time spent is not a strong predictor of right/wrong",
+          "slowest_10": [
+            [
+              4,
+              330.7,
+              "right"
+            ],
+            [
+              10,
+              254.4,
+              "right"
+            ],
+            [
+              22,
+              249.2,
+              "wrong"
+            ],
+            [
+              5,
+              241.7,
+              "right"
+            ],
+            [
+              11,
+              170.3,
+              "right"
+            ],
+            [
+              37,
+              154.1,
+              "right"
+            ],
+            [
+              19,
+              147.6,
+              "right"
+            ],
+            [
+              3,
+              144.0,
+              "wrong"
+            ],
+            [
+              13,
+              111.2,
+              "right"
+            ],
+            [
+              29,
+              85.9,
+              "right"
+            ]
+          ],
+          "fastest_10": [
+            [
+              18,
+              11.9,
+              "wrong"
+            ],
+            [
+              6,
+              11.8,
+              "right"
+            ],
+            [
+              38,
+              10.6,
+              "wrong"
+            ],
+            [
+              23,
+              9.8,
+              "wrong"
+            ],
+            [
+              12,
+              9.3,
+              "wrong"
+            ],
+            [
+              35,
+              7.3,
+              "right"
+            ],
+            [
+              20,
+              6.8,
+              "right"
+            ],
+            [
+              15,
+              6.3,
+              "right"
+            ],
+            [
+              33,
+              3.9,
+              "wrong"
+            ],
+            [
+              1,
+              0.0,
+              "right"
+            ]
+          ],
+          "correction": "Problem #36 moved OUT of the fast group under the fix: old formula showed 4s (looked like a rushed guess), real accumulated time is 27.3s (three changes at the end: C to A to B to A). This matches Hannah's own account of wavering between two values, not a snap pick."
+        },
+        "revised_notes_2026-10-07": {
+          "23": "9.8s, single click, no revision — fast and confident, not struggling with phrasing. Real gap is simplifying 3n+8-5 to 3n+3; absent that, she scans choices for a literal trailing '-5' and picks C, which happens to have that surface feature despite being wrong for a different reason (wrong grouping). New habit: scans-for-surface-match, distinct from the simplification gap.",
+          "36": "27.3s across 4 clicks (chose C [correct] -> A -> B -> A [final, wrong]). Her first instinct was right; she talked herself out of a correct answer, flipping rapidly (A/B/A within 1.5s) near the very end — looks like confidence/overthinking under time pressure, not a missing concept. Same bidirectional pattern as #9 (wrong->right): she second-guesses in both directions.",
+          "22": "Her wrong answer 115 = 23×5 or a miscarried 21×5 — proves both steps were done, one digit slipped. Not a gap; reclassified from 'stops after first step' to calculation slip, same bucket as #26. Confirmed directly by Hannah: skipped long division first time (did it in her head), got it wrong; used long division on redo, got 21 correctly. Fix = habit (write out long division for multi-digit division), not re-teaching."
+        }
+      }
     },
-    "note": "Times from the buggy formula (before the 2026-10-06 timer fix); first-answer column is first click, not final."
-   }
-  },
-  {
-   "set_no": 2,
-   "topics": [
-    "Comparing & Ordering Fractions & Decimals",
-    "Percent Word Problems",
-    "Estimating Multiplication & Division",
-    "Estimating Sums/Differences of Decimal Numbers",
-    "Estimating Division with Money",
-    "Estimating Sums/Differences of Decimal Numbers",
-    "Estimating Multiplication & Division",
-    "Multi-step unit conversion (off-by-10, multi-step)",
-    "Percent Word Problems",
-    "Interpreting Pictographs",
-    "Adding and Subtracting Decimals",
-    "3D shape from its net (unfolding a solid)",
-    "Divisibility / number constraints (Serena/Who am I style)",
-    "Multi-step unit conversion (off-by-10, multi-step)",
-    "Key-word NOT in equivalence questions",
-    "Solving for Missing Sides given Similar Figures",
-    "Divisibility / number constraints (Serena/Who am I style)",
-    "Comparing & Ordering Fractions & Decimals",
-    "Dividing Equally From a Total",
-    "3D shape from its net (unfolding a solid)",
-    "Dividing Equally From a Total",
-    "Dividing Equally From a Total",
-    "Translating Math Expressions",
-    "Measurement Scaling",
-    "Measurement Scaling",
-    "Adding and Subtracting Decimals",
-    "Measurement Scaling",
-    "Estimating Division with Money",
-    "Interpreting Pictographs",
-    "3D shape from its net (unfolding a solid)",
-    "Probability (simple, equally likely outcomes)",
-    "Multi-step unit conversion (off-by-10, multi-step)",
-    "Estimating Multiplication & Division",
-    "Word Problems with Ratios",
-    "Divisibility / number constraints (Serena/Who am I style)",
-    "Interpreting Pictographs",
-    "Area and Perimeter of Complex Polygons",
-    "Comparing & Ordering Fractions & Decimals"
-   ],
-   "built_with": {
-    "changes_from_planner": "Swapped 7 slots to cover set 1 misses (similar figures, ratio word problem, probability, remaining area) and to cut NOT drills to 1 and estimation to 7.",
-    "feedback_applied": [
-     "percent problems give no intermediate value (2, 9)",
-     "similar figures and cut-out problems are labeled and the cut is marked (16, 37)",
-     "no median/mean (MA only)",
-     "NOT-type drills limited to 1 (15)"
-    ],
-    "diagram_count": 20,
-    "library_check": "Difficulty compared against real examples (official and book). Not-done originals still not substituted.",
-    "difficulty_pass": "2026-10-06 second pass: items 1,3,4,5,7,10,11,18,19,21,22,26,28,29,33,36,38 rewritten to match or exceed real-test difficulty (multi-step, unlike denominators, multi-digit estimation, decimals with more places). All answers checked with exact arithmetic.",
-    "estimation_pass": "2026-10-06: estimation items rewritten to the real format: (a \u00d7 b) \u00f7 c with 'between X and Y' answers (3, 7, 33), range sum of four prices (4), and 'which expression best estimates' money-division items (5, 21, 28). Real examples are two products over a third value, often with ranges."
-   },
-   "graded_2026-10-06": {
-    "score": "26/38",
-    "wrong": [
-     3,
-     12,
-     18,
-     22,
-     23,
-     25,
-     26,
-     32,
-     33,
-     36,
-     38
-    ],
-    "blank": [
-     34
-    ],
-    "first_then_fixed_correct": [
-     9
-    ],
-    "first_then_changed_to_wrong": [
-     36
-    ],
-    "total_elapsed_minutes": 41.4,
-    "timing_note": "Elapsed time exceeded the 35-min budget; could not confirm whether the lock (pushed 2026-10-07) was active during this attempt, or whether Reset was used mid-test (both since fixed \u2014 Reset removed, Clear now resets the timer too).",
-    "time_vs_wrong_correlation": "Weak/near-zero (Pearson r=-0.08). Most wrong answers were fast (<15s, likely rushed/guessed), not slow. Two exceptions genuinely slow+wrong: #3 (144s), #22 (249s).",
-    "review_file": "reviews/speed-set-2-review-2026-10-07.html (local only, not in git) \u2014 has Hannah/parent diagnosis per missed problem",
-    "real_gaps_confirmed": [
-     "Estimating Multiplication & Division (sticky, #3 and #33)",
-     "Comparing & Ordering Fractions & Decimals (decimal vs non-nice fraction)",
-     "Translating Math Expressions (phrase-order + simplifying constants)",
-     "Word Problems with Ratios (forgot partition method)"
-    ],
-    "careless_not_gaps": [
-     "3D shape from its net (#12, rushed pick)",
-     "Measurement Scaling (#25, missed final unit)",
-     "Multi-step unit conversion (#32, matches existing off-by-10 habit)",
-     "Adding and Subtracting Decimals (#26, digit slip)",
-     "Dividing Equally From a Total (#22, calculation slip: 115 = 23\u00d75, proves both steps were done)"
-    ],
-    "unconfirmed_needs_retest": {
-     "36": "gave the right final answer on review (54) but only after narrowing to 2 choices; may have been elimination, not recall. Set 3 should include a fresh-numbers version of 'whole number times a quantity with a half/fraction' to confirm. Timing now confirms genuine deliberation (27.3s, 3 changes), not a snap guess \u2014 consistent with partial understanding rather than zero understanding, but still not proof she can produce the answer from scratch."
+    {
+      "set_no": 3,
+      "topics": [
+        "Value of Digits",
+        "Comparing & Ordering Fractions & Decimals",
+        "Estimating Multiplication & Division",
+        "Equivalent Fractions, Decimals, and Percents",
+        "3D shape from its net (unfolding a solid)",
+        "Numerical Patterns",
+        "Identifying Correct Conclusions from Bar Graph Data Table",
+        "Identifying Correct Conclusions from Bar Graph Data Table",
+        "Finding Perimeter and Area of a Square",
+        "Finding Perimeter and Area of a Square",
+        "Estimating Division with Money",
+        "Comparing & Ordering Fractions & Decimals",
+        "Estimating Division with Money",
+        "Multiplying and Dividing Integers",
+        "Value of Digits",
+        "Multi-step unit conversion (off-by-10, multi-step)",
+        "Identifying Correct Conclusions from Bar Graph Data Table",
+        "Numerical Patterns",
+        "Equivalent Fractions, Decimals, and Percents",
+        "Numerical Patterns",
+        "Total Shaded Area given Figure with Equal Divisions",
+        "Total Shaded Area given Figure with Equal Divisions",
+        "Split Line Segments",
+        "Finding Perimeter and Area of a Square",
+        "Finding Unit Price",
+        "Estimating Multiplication & Division",
+        "Angles in Triangles",
+        "Estimating Sums/Differences of Decimal Numbers",
+        "Finding Unit Price",
+        "Translating Math Expressions",
+        "Comparing & Ordering Fractions & Decimals",
+        "Translating Math Expressions",
+        "Word Problems with Ratios",
+        "Cryptarithm / digit substitution",
+        "Value of Digits",
+        "Divisibility / number constraints (Serena/Who am I style)",
+        "Split Line Segments",
+        "Converting to a Decimal"
+      ],
+      "built_with": {
+        "confirmed_gaps_targeted": {
+          "Estimating Multiplication & Division": "2 slots (#3, #26) -- sticky gap, wrong on both #3/#33 in set 2",
+          "Comparing & Ordering Fractions & Decimals": "3 slots (#2, #12, #31) -- decimal vs non-nice-fraction gap from set 2 #18/#38",
+          "Translating Math Expressions": "2 slots (#30, #31... (#30,#32)) -- simplify-constants gap; #32 specifically rebuilt with the same '-4 surface match' trap she fell for on set 2 #23, as a direct, deliberate retest of that exact habit",
+          "Word Problems with Ratios": "1 slot (#33) -- ratio-partition method she'd forgotten on set 2 #34"
+        },
+        "not_inflated": "Dividing Equally From a Total (#22's real topic, calculation slip not a gap) and Interpreting Pictographs (#36, confidence habit not a gap) were NOT given extra weight -- normal rotation only.",
+        "new_coverage": [
+          "Angles in Triangles (never used in set 1 or 2, appears on 7/8 real tests)",
+          "Value of Digits",
+          "Finding Perimeter and Area of a Square",
+          "Finding Unit Price",
+          "Numerical Patterns",
+          "Identifying Correct Conclusions from Bar Graph Data Table",
+          "Total Shaded Area given Figure with Equal Divisions",
+          "Split Line Segments"
+        ],
+        "still_open_for_set_4": [
+          "Multiplying and Dividing Integers (dropped after set 1, not in tracker yet)",
+          "Area of Triangles (deferred in favor of Angles in Triangles this round)"
+        ],
+        "diagram_count": 9,
+        "difficulty": "Same rules as set 2's final corrected version: no easier than real, estimation in (a×b)÷c range format, diagrams label only given sides, no intermediate percent values, every answer checked with exact arithmetic (not by hand).",
+        "net_trim_2026-10-07": "Trimmed 3D-net from 3 slots to 1 (kept #5, swapped #16 and #36). Its tracker priority was 'high' from before any evidence existed; now downgraded to 'maintain' given she's shown to be fine on it. #16 -> Multi-step unit conversion (off-by-10 habit, confirmed gap, absent from set 3 until now). #36 -> Divisibility (high priority, absent from set 3 until now).",
+        "second_pass_2026-10-07": "Estimating Division with Money had the same stale-high-priority-then-3x pattern as the net topic (3 instances in set 2, all correct; 3 instances in set 3). Downgraded priority (see tracker) and trimmed set 3 from 3 to 2 (#11, #13 kept; #14 swapped). #14 -> Multiplying and Dividing Integers, restoring coverage of a topic dropped from the tracker entirely after set 1.",
+        "nondiag_trim_2026-10-10": "Several diagrams that only restated given text without adding structure were removed between build and this pass, bringing the live count from 22 down to 9 (see integrity_notes for the 2026-10-10 round-to-table leak, the last of these fixes).",
+        "fix_2026-10-10": "#3 and #26 (both Estimating Multiplication & Division) swapped to fresh numbers -- (73 x 289) / 19 and (46 x 227) / 23 -- for two reasons: #26's diagram leaked the full rounding (83->80, 196->200, 21->20) directly on the question sheet (same bug class as the 2026-10-08 divisibility leak), and both #3's and #26's original numbers had their exact rounding solutions worked through in chat with the parent before the set was taken. Diagram removed from #26 entirely, matching #3's no-diagram format -- real-test estimation items don't scaffold the rounding step."
+      },
+      "graded_2026-10-11": {
+        "score": "29/38",
+        "wrong": [
+          6,
+          12,
+          19,
+          21,
+          23,
+          33,
+          34,
+          37,
+          38
+        ],
+        "blank": [],
+        "score_caveat": "#37's number-line diagram had no numeric scale (see integrity_notes) -- a confirmed, objective bug in the page. That does NOT mean #37 is proven unrelated to her understanding: she never flagged it as confusing/impossible, so causality is unconfirmed either way. Treat it as uncertain, not as excluded evidence -- needs a retest on a properly-specified version of this topic (set 4) to tell whether the diagram or a real gap was the cause. Not correcting the historical score/wrong list itself (that's what actually happened when she took it).",
+        "total_elapsed_minutes": 34.75,
+        "timing_note": "Finished within the 35-min budget this time (set 2 had exceeded it).",
+        "first_then_changed": {
+          "wrong_to_right": [
+            2,
+            25,
+            27,
+            29,
+            31,
+            36
+          ],
+          "wrong_to_wrong": [
+            6,
+            19,
+            23,
+            38
+          ],
+          "right_to_wrong": [],
+          "note": "6 of 10 reconsiderations flipped wrong->right and zero flipped right->wrong -- a clean contrast with set 2, where #36 was talked out of a correct first answer. Her self-checking instinct was net-positive this time, not a liability."
+        },
+        "confirmed_gaps_targeted_outcome": {
+          "Estimating Multiplication & Division (#3, #26)": "BOTH CORRECT -- the set 2 sticky gap (#3/#33 wrong) is resolved on accuracy. Not resolved on speed: #3 took 230s, the single slowest problem of the whole test, well past what 35 problems in 35 minutes allows per problem.",
+          "Comparing & Ordering Fractions & Decimals (#2, #12, #31)": "2 of 3 right (#2 and #31 both recovered via reconsideration). #12 (the 5/9 vs 0.52 vs 7/15 ordering problem) still wrong, single-shot, 81s -- slow AND wrong, suggests the three-way decimal/fraction comparison itself is still shaky, not a rushed guess.",
+          "Translating Math Expressions (#30, #32)": "BOTH CORRECT. #32 was deliberately rebuilt with the exact same '-4 surface-match' trap from set 2 #23 -- she did not fall for it this time. Real, confirmed fix, not just no-evidence-of-recurrence.",
+          "Word Problems with Ratios (#33)": "STILL WRONG, but the diagnosis in-chat right after grading was wrong and got corrected on closer look: her answer (21) is exactly 3x7 -- the cats count, not the dogs count asked for. That number only exists if she actually ran the partition method correctly (56/8=7 per part, 3x7=21) and then answered the wrong group. So this isn't 'forgot the method' as originally targeted from set 2 -- it's 'solved it, then answered what wasn't asked.' Different problem than previously believed; worth confirming directly which it was (method or misread) rather than re-teaching partitioning she may already have."
+        },
+        "new_topic_first_exposure": {
+          "Split Line Segments (#23, #37)": "0/2 on paper, and NEITHER is a clean data point (caught 2026-10-11, parent flagged it). #37's diagram had a confirmed bug (no numeric scale). #23 is a different problem: it's not actually in the format the real test uses for this content -- every real 'X is the midpoint between Y and Z' problem in the library says 'the number line shown' and gives a diagram, with point values read off it, never stated directly in the question text like '#23 did ('A is at 14'). #23 skipped the diagram-reading step entirely, a different (likely easier) task than the real one. Her first answer (36 = raw distance, not midpoint) still LOOKS like a real distance-vs-midpoint mix-up, but since the task itself wasn't authentic, we can't be confident it transfers to how she'd do on a real, diagrammed version. Both need a retest with a correctly-formatted, diagrammed problem before concluding anything.",
+          "Total Shaded Area given Figure with Equal Divisions (#21, #22)": "1/2. #21 was wrong AND the slowest-but-one problem in the set (171s) with no reconsideration -- long deliberation, still wrong, looks like a real conceptual gap rather than a rushed miss. #22 (same topic) correct.",
+          "Cryptarithm / digit substitution (#34)": "Wrong, 17s, no reconsideration, Hard tier. The real solving method (PP+QQ=11x(P+Q), bounding the max sum) takes longer than 17s to work through from scratch -- looks more like a guess/pattern-match than an attempted solve. Small sample (this is only the 2nd time this topic has ever been graded; 1/2 wrong overall per tracker).",
+          "Numerical Patterns (#6, #18, #20)": "2/3 (#6 wrong, reconsidered but still wrong, 40s). Mixed so far, no strong signal yet.",
+          "Value of Digits / Finding Perimeter and Area of a Square / Finding Unit Price / Identifying Correct Conclusions from Bar Graph Data Table": "clean sweep, all correct across their slots -- no concern."
+        },
+        "other_wrong": {
+          "Equivalent Fractions, Decimals, and Percents (#19)": "wrong, reconsidered (D->A) but still wrong, correct was C (0.045 = 9/200). Her final answer A (9/20 = 0.45) is exactly the known off-by-10 decimal-place-value slip already flagged as a habit in her tracker for unit conversion -- same systemic habit showing up in a new context (fraction/percent equivalence, not just unit conversion).",
+          "Converting to a Decimal (#38)": "wrong, reconsidered (A->C) but still wrong, correct was D (7/16=0.4375). Forms a 3-problem cluster with #12 and #19 -- all three wrong answers involve a fraction/decimal conversion not landing cleanly, suggesting the fraction<->decimal conversion itself (not any one topic label) is the common thread worth drilling, more than any single topic name."
+        },
+        "staleness_flags_2026-10-11": "Running speed-tools/check_priority_staleness.py after this update surfaced: Split Line Segments 2/2 wrong (new, priority still 'unknown' -- consider setting to high once a 2nd data point confirms), Total Shaded Area 1/2 wrong, Cryptarithm 2/3 wrong (consider escalating, currently 'medium'), Estimating Sums/Differences of Decimal Numbers 0/3 wrong across sets 2+3 (currently 'high' -- same stale-high pattern previously found and corrected for the 3D-net and Estimating Division with Money topics; candidate for downgrade). Adding and Subtracting Decimals and Dividing Equally From a Total were also re-flagged at 50% wrong but that's pre-existing set-2 data, not new from this grading -- still open, never actually resolved. Not auto-changed; flagging per the tool's own caveat to check why before touching priorities."
+      },
+      "published_commit": "a84d34e",
+      "published_commit_note": "Stamped retroactively 2026-10-11 after reconstructing from git log which commit was live when she took it -- going forward, speed-tools/mark_published.py does this automatically at publish time instead."
     },
-    "timing_recomputed_2026-10-07": {
-     "source": "full click log (speed-set-2-click-log.csv), recomputed with the fixed attribution formula",
-     "correlation": "still weak/near-zero: r=-0.109 (was -0.08 under the old formula) \u2014 time spent is not a strong predictor of right/wrong",
-     "slowest_10": [
-      [
-       4,
-       330.7,
-       "right"
+    {
+      "set_no": 4,
+      "topics": [
+        "Finding Unit Price",
+        "Comparing & Ordering Fractions & Decimals",
+        "Remainder when Divided by a given Number",
+        "Estimating Sums Differences of Decimal Numbers",
+        "Estimating Multiplication & Division",
+        "Order of Operations and Equivalence",
+        "Solving for Remaining Value, given Total & All Other Values",
+        "Estimation (sums, products, money, ranges)",
+        "Multi-step unit conversion (off-by-10, multi-step)",
+        "Equivalent Fractions Decimals and Percents",
+        "Percent Word Problems",
+        "Area of Square Perimeter",
+        "Adding and Subtracting Decimals",
+        "Identifying Multiples",
+        "Key-word NOT in equivalence questions",
+        "Matching Stories to Equations",
+        "English Unit Conversions",
+        "Solving 1 Variable Equations",
+        "Volume of Solids",
+        "Time Zones",
+        "No Remainder when Divided by a given Number",
+        "Word Problems with Ratios",
+        "Whole Number Who am I",
+        "Vertices Forming Right Angles Quadrilaterals on a Coordinate Plane",
+        "Probability of 1 Event, given a List of Items",
+        "Determining Averages between Points on Number Lines",
+        "Comparing Volume of Cubes",
+        "Interpreting Pictographs",
+        "Computation with Time",
+        "Area and Perimeter of Complex Polygons",
+        "Total Shaded Area given Figure with Equal Divisions",
+        "Finding Area/Perimeter of Rectangle, given Length & Width",
+        "Finding Ratios given Probability",
+        "Simplifying Rational Expressions Basic",
+        "Counting Multiples within a Range",
+        "Divisibility / number constraints (Serena/Who am I style)",
+        "Solving Problems with Geometric Formulas",
+        "Data Collection & Random Sampling"
       ],
-      [
-       10,
-       254.4,
-       "right"
-      ],
-      [
-       22,
-       249.2,
-       "wrong"
-      ],
-      [
-       5,
-       241.7,
-       "right"
-      ],
-      [
-       11,
-       170.3,
-       "right"
-      ],
-      [
-       37,
-       154.1,
-       "right"
-      ],
-      [
-       19,
-       147.6,
-       "right"
-      ],
-      [
-       3,
-       144.0,
-       "wrong"
-      ],
-      [
-       13,
-       111.2,
-       "right"
-      ],
-      [
-       29,
-       85.9,
-       "right"
-      ]
-     ],
-     "fastest_10": [
-      [
-       18,
-       11.9,
-       "wrong"
-      ],
-      [
-       6,
-       11.8,
-       "right"
-      ],
-      [
-       38,
-       10.6,
-       "wrong"
-      ],
-      [
-       23,
-       9.8,
-       "wrong"
-      ],
-      [
-       12,
-       9.3,
-       "wrong"
-      ],
-      [
-       35,
-       7.3,
-       "right"
-      ],
-      [
-       20,
-       6.8,
-       "right"
-      ],
-      [
-       15,
-       6.3,
-       "right"
-      ],
-      [
-       33,
-       3.9,
-       "wrong"
-      ],
-      [
-       1,
-       0.0,
-       "right"
-      ]
-     ],
-     "correction": "Problem #36 moved OUT of the fast group under the fix: old formula showed 4s (looked like a rushed guess), real accumulated time is 27.3s (three changes at the end: C to A to B to A). This matches Hannah's own account of wavering between two values, not a snap pick."
+      "published_commit": "67c35f2c0d27b67703091d559dc3967908a0216f",
+      "graded_2026-10-14": {
+        "score": "29/38",
+        "wrong": [
+          1,
+          3,
+          4,
+          6,
+          9,
+          11,
+          24,
+          26,
+          30
+        ],
+        "blank": [],
+        "total_elapsed_minutes": 34.95,
+        "first_then_changed": {
+          "wrong_to_right": [
+            10,
+            17,
+            37,
+            38
+          ],
+          "wrong_to_wrong": [
+            6
+          ],
+          "right_to_wrong": []
+        },
+        "notes_summary": {
+          "1": "Real gap -- division done in her head instead of on scratch paper",
+          "3": "Real gap -- same mechanism as MA1 #2, one day later",
+          "4": "Not a gap -- a real bug in the problem's own answer key",
+          "6": "First miss on this topic -- watch, do not raise priority yet",
+          "9": "Real gap -- same mechanism as MA1 #13, one day later",
+          "11": "Uncertain -- distractor not diagnostic, ask her to talk it through",
+          "24": "Voided -- known diagram bug, not counted as a gap",
+          "26": "Real gap -- assumed the number line started at 0",
+          "30": "Real gap -- same high-priority topic, same specific mistake again"
+        }
+      }
     },
-    "revised_notes_2026-10-07": {
-     "23": "9.8s, single click, no revision \u2014 fast and confident, not struggling with phrasing. Real gap is simplifying 3n+8-5 to 3n+3; absent that, she scans choices for a literal trailing '-5' and picks C, which happens to have that surface feature despite being wrong for a different reason (wrong grouping). New habit: scans-for-surface-match, distinct from the simplification gap.",
-     "36": "27.3s across 4 clicks (chose C [correct] -> A -> B -> A [final, wrong]). Her first instinct was right; she talked herself out of a correct answer, flipping rapidly (A/B/A within 1.5s) near the very end \u2014 looks like confidence/overthinking under time pressure, not a missing concept. Same bidirectional pattern as #9 (wrong->right): she second-guesses in both directions.",
-     "22": "Her wrong answer 115 = 23\u00d75 or a miscarried 21\u00d75 \u2014 proves both steps were done, one digit slipped. Not a gap; reclassified from 'stops after first step' to calculation slip, same bucket as #26. Confirmed directly by Hannah: skipped long division first time (did it in her head), got it wrong; used long division on redo, got 21 correctly. Fix = habit (write out long division for multi-digit division), not re-teaching."
+    {
+      "set_no": 5,
+      "topics": [
+        "Area and Perimeter of Complex Polygons",
+        "Multi-step unit conversion (off-by-10, multi-step)",
+        "Determining Total Cost",
+        "Classification of Numbers, given a Set",
+        "Classification of Numbers, given a Set",
+        "Word Problems with Ratios",
+        "Numerical Patterns",
+        "Probability of 1 Event, given a List of Items",
+        "Best Unit of Measure",
+        "Comparing Adding Subtracting Bar Graph Data Table Values",
+        "Determining Total Cost",
+        "Identifying Shapes",
+        "Comparing & Ordering Fractions & Decimals",
+        "Total Shaded Area given Figure with Equal Divisions",
+        "Key-word NOT in equivalence questions",
+        "Remaining Amount after Reducing by Fractions",
+        "Nth Term, given Arithmetic Sequence, Progressive Pattern, etc.",
+        "No Remainder when Divided by a given Number",
+        "Converting to a Decimal",
+        "Volume of Solids",
+        "Identifying Number Properties",
+        "Probability (simple, equally likely outcomes)",
+        "Estimation (sums, products, money, ranges)",
+        "Estimating Multiplication & Division",
+        "Finding Area/Perimeter of Rectangle, given Length & Width",
+        "Divisibility / number constraints (Serena/Who am I style)",
+        "Multiplying and Dividing Whole Numbers",
+        "Translating Math Expressions",
+        "Adding and Subtracting Fractions",
+        "Predicting the Next Shapes given Progressive Pattern",
+        "Determining The Final Time",
+        "Finding MMMR given Bar Graph Data Table",
+        "Predicting the Next Shapes given Progressive Pattern",
+        "Remainder when Divided by a given Number",
+        "Percent Word Problems",
+        "Determining Points on Number Lines",
+        "Fractional Parts Word Problems",
+        "Equivalent Fractions Decimals and Percents"
+      ],
+      "published_commit": "e6c76451207b255ac832d001329c9178f36509f7",
+      "graded_2026-10-18": {
+        "score": "31/38",
+        "wrong": [
+          1,
+          2,
+          7,
+          16,
+          28,
+          35
+        ],
+        "blank": [
+          37
+        ],
+        "total_elapsed_minutes": 33.12,
+        "first_then_changed": {
+          "wrong_to_right": [
+            15,
+            17,
+            22
+          ],
+          "wrong_to_wrong": [],
+          "right_to_wrong": []
+        },
+        "notes_summary": {
+          "1": "Real gap, unconfirmed mechanism -- she can't reconstruct her own reasoning; her best guess is she mixed up adding vs. subtracting the shared 6cm side at the last step (correct: 24+6=30; her answer 36 doesn't match a subtract-6 slip either, so this stays open)",
+          "2": "Real gap, confirmed -- tries to track the zeros of a multi-step unit conversion in her head instead of writing it out; this IS the named off-by-10 trap. Needs scratch paper by default whenever a conversion has 3+ zeros.",
+          "7": "Real gap, confirmed RECURRING -- same mechanism as MA1 #4 (2026-10-13, see project_ma1_oct13_skill_gaps memory): resists writing out the difference sequence, so she naturally stops one term short. Once she lists the differences she gets it immediately -- the gap is the habit, not the math. Different numbers/phrasing from MA1 #4 per the 10/13 instruction to vary format, and it recurred anyway.",
+          "16": "Real gap, confirmed RECURRING -- same mechanism as MA1 #13 (2026-10-13): correctly computes the intermediate value (3/8 of 64 = 24, the amount given away) but the question asks what's left (40), not phrased with the word 'left' this time -- confirms it's a keyword/question-reading gap, not a one-off wording fluke. NEW finding: 24 isn't among the answer choices, and instead of treating that as a signal to re-read the question, she just guessed randomly. The auto-grader's heuristic had flagged this as 'not a gap' (looked like a fast careless slip) -- that read was wrong; this is the most concerning item on the set.",
+          "28": "Not a durable gap -- got it right immediately on retry right after. One-off warm-up miss / under-practiced topic, not a pattern to drill. The auto-grader's heuristic had flagged this as a 'real gap' -- that read was also wrong, in the opposite direction from #16.",
+          "35": "Real gap, confirmed mechanism -- two-step percent (markup then discount); defaults to converting the second percent to a fraction instead of multiplying by the decimal (0.90), which is slow, and also skips scratch paper. Once reminded to multiply by decimals sequentially she did it fast and correctly -- method/habit gap, not a percent-concept gap.",
+          "37": "Blank = she genuinely could not work out where to start on her own, NOT a concept gap -- this is a 3-step fraction word problem (bus riders, then remaining, then walkers). Correction 2026-10-19: scratch paper alone was not what fixed this -- the parent actively taught/walked her through it, and only with that live guidance did she complete it step by step (correctly, once walked through). The gap is the autonomous strategy for decomposing an unfamiliar multi-step word problem, not just a missing scratch-paper habit."
+        },
+        "parent_debrief_2026-10-18": "Hannah talked through each miss (and the blank) with the parent after grading; see project_qr5_oct18_skill_gaps memory for the full writeup, including that 2 of 6 wrong-list items (#7 pattern-via-differences, #16 keyword-reading) are confirmed RECURRENCES of specific gaps first flagged on MA1 (2026-10-13) despite varied phrasing/numbers in between."
+      }
+    },
+    {
+      "set_no": 6,
+      "topics": [
+        "Nth Term given Arithmetic Sequence Progressive Pattern",
+        "Multiplying and Dividing Whole Numbers",
+        "Multi-step unit conversion (off-by-10, multi-step)",
+        "Word Problems with Ratios",
+        "Area and Perimeter of Complex Polygons",
+        "Mixed Fraction Improper Fraction",
+        "Solving for Missing Sides given Similar Figures",
+        "Finding MMMR given Bar Graph Data Table",
+        "Total Shaded Area given Figure with Equal Divisions",
+        "Remaining Amount after Reducing by Fractions",
+        "Nth Term, given Arithmetic Sequence, Progressive Pattern, etc.",
+        "Finding Range, given Sets of Numbers, Data Tables or Graphs",
+        "Dividing Equally From a Total",
+        "Time Zones",
+        "Multiplying and Dividing Whole Numbers",
+        "Perimeter of Equilateral Figure 1 Side",
+        "Numerical Patterns",
+        "No Remainder when Divided by a given Number",
+        "Product of Prime Numbers",
+        "No Remainder when Divided by a given Number",
+        "Estimating Multiplication & Division",
+        "Converting to a Decimal",
+        "Determining Averages between Points on Number Lines",
+        "Estimating Division with Money",
+        "Translating Math Expressions",
+        "Estimating Sums Differences of Decimal Numbers",
+        "Percent Word Problems",
+        "Counting Multiples within a Range",
+        "Adding and Subtracting Decimals",
+        "Identifying Number Properties",
+        "Estimation (sums, products, money, ranges)",
+        "Comparing & Ordering Fractions & Decimals",
+        "Remainder when Divided by a given Number",
+        "Cryptarithm / digit substitution",
+        "Divisibility / number constraints (Serena/Who am I style)",
+        "Adding and Subtracting Integers",
+        "Multiplying and Dividing Integers",
+        "Determining Total Cost"
+      ],
+      "published_commit": "06e3c0dbe04092b2b7a3b7c9f8e5116ba217fa06",
+      "graded_2026-10-20": {
+        "score": "33/38",
+        "wrong": [
+          3,
+          28,
+          32,
+          33,
+          34
+        ],
+        "blank": [],
+        "total_elapsed_minutes": 35.32,
+        "first_then_changed": {
+          "wrong_to_right": [
+            25
+          ],
+          "wrong_to_wrong": [],
+          "right_to_wrong": []
+        },
+        "notes_summary": {
+          "3": "Not a concept gap -- misread 6 quarts as 9 (confirmed with her directly)",
+          "28": "Real gap -- no method yet for the two-sided \"between A and B\" variant",
+          "32": "Real gap, broader than first diagnosed -- no fraction-to-fraction OR fraction-to-decimal comparison method",
+          "33": "Real gap -- used the full goal instead of the remaining amount (confirmed recurring pattern)",
+          "34": "Uncertain -- same guess-like pattern as before, but now has a taught method"
+        }
+      }
+    },
+    {
+      "set_no": 7,
+      "topics": [
+        "English Unit Conversions",
+        "Determining Total Cost",
+        "Area and Perimeter of Complex Polygons",
+        "Cryptarithm / digit substitution",
+        "Word Problems Linear Relationships",
+        "Nth Term, given Arithmetic Sequence, Progressive Pattern, etc.",
+        "Comparing & Ordering Fractions & Decimals",
+        "Estimating Multiplication & Division",
+        "No Remainder when Divided by a given Number",
+        "Multi-step unit conversion (off-by-10, multi-step)",
+        "Adding and Subtracting Decimals",
+        "Probability of 1 Event, given a List of Items",
+        "Remaining Amount after Reducing by Fractions",
+        "Input Output Tables",
+        "Algebraic Equations with Symbol Variables",
+        "No Remainder when Divided by a given Number",
+        "Views of 3D Figures",
+        "Dividing Equally From a Total",
+        "Identifying Correct Conclusions from Bar Graph Data Table",
+        "Classification of Numbers, given a Set",
+        "Determining Averages between Points on Number Lines",
+        "Finding Missing Side Length",
+        "Total Shaded Area given Figure with Equal Divisions",
+        "Identifying Shapes",
+        "Equivalent Fractions Decimals and Percents",
+        "Time Zones",
+        "Averaging Mixed Numbers",
+        "Determining Total Cost",
+        "Remainder when Divided by a given Number",
+        "Estimation (sums, products, money, ranges)",
+        "Finding Median, given Sets of Numbers",
+        "Translating Math Expressions",
+        "Mixture Problems",
+        "Word Problems with Ratios",
+        "Numerical Patterns",
+        "Percent Word Problems",
+        "Solving Problems with Geometric Formulas",
+        "Interpreting Pictographs"
+      ],
+      "published_commit": "8cd2e2757af04c36407847a7453ea93046742932"
     }
-   }
-  },
-  {
-   "set_no": 3,
-   "topics": [
-    "Value of Digits",
-    "Comparing & Ordering Fractions & Decimals",
-    "Estimating Multiplication & Division",
-    "Equivalent Fractions, Decimals, and Percents",
-    "3D shape from its net (unfolding a solid)",
-    "Numerical Patterns",
-    "Identifying Correct Conclusions from Bar Graph Data Table",
-    "Identifying Correct Conclusions from Bar Graph Data Table",
-    "Finding Perimeter and Area of a Square",
-    "Finding Perimeter and Area of a Square",
-    "Estimating Division with Money",
-    "Comparing & Ordering Fractions & Decimals",
-    "Estimating Division with Money",
-    "Multiplying and Dividing Integers",
-    "Value of Digits",
-    "Multi-step unit conversion (off-by-10, multi-step)",
-    "Identifying Correct Conclusions from Bar Graph Data Table",
-    "Numerical Patterns",
-    "Equivalent Fractions, Decimals, and Percents",
-    "Numerical Patterns",
-    "Total Shaded Area given Figure with Equal Divisions",
-    "Total Shaded Area given Figure with Equal Divisions",
-    "Split Line Segments",
-    "Finding Perimeter and Area of a Square",
-    "Finding Unit Price",
-    "Estimating Multiplication & Division",
-    "Angles in Triangles",
-    "Estimating Sums/Differences of Decimal Numbers",
-    "Finding Unit Price",
-    "Translating Math Expressions",
-    "Comparing & Ordering Fractions & Decimals",
-    "Translating Math Expressions",
-    "Word Problems with Ratios",
-    "Cryptarithm / digit substitution",
-    "Value of Digits",
-    "Divisibility / number constraints (Serena/Who am I style)",
-    "Split Line Segments",
-    "Converting to a Decimal"
-   ],
-   "built_with": {
-    "confirmed_gaps_targeted": {
-     "Estimating Multiplication & Division": "2 slots (#3, #26) -- sticky gap, wrong on both #3/#33 in set 2",
-     "Comparing & Ordering Fractions & Decimals": "3 slots (#2, #12, #31) -- decimal vs non-nice-fraction gap from set 2 #18/#38",
-     "Translating Math Expressions": "2 slots (#30, #31... (#30,#32)) -- simplify-constants gap; #32 specifically rebuilt with the same '-4 surface match' trap she fell for on set 2 #23, as a direct, deliberate retest of that exact habit",
-     "Word Problems with Ratios": "1 slot (#33) -- ratio-partition method she'd forgotten on set 2 #34"
-    },
-    "not_inflated": "Dividing Equally From a Total (#22's real topic, calculation slip not a gap) and Interpreting Pictographs (#36, confidence habit not a gap) were NOT given extra weight -- normal rotation only.",
-    "new_coverage": [
-     "Angles in Triangles (never used in set 1 or 2, appears on 7/8 real tests)",
-     "Value of Digits",
-     "Finding Perimeter and Area of a Square",
-     "Finding Unit Price",
-     "Numerical Patterns",
-     "Identifying Correct Conclusions from Bar Graph Data Table",
-     "Total Shaded Area given Figure with Equal Divisions",
-     "Split Line Segments"
-    ],
-    "still_open_for_set_4": [
-     "Multiplying and Dividing Integers (dropped after set 1, not in tracker yet)",
-     "Area of Triangles (deferred in favor of Angles in Triangles this round)"
-    ],
-    "diagram_count": 9,
-    "difficulty": "Same rules as set 2's final corrected version: no easier than real, estimation in (a\u00d7b)\u00f7c range format, diagrams label only given sides, no intermediate percent values, every answer checked with exact arithmetic (not by hand).",
-    "net_trim_2026-10-07": "Trimmed 3D-net from 3 slots to 1 (kept #5, swapped #16 and #36). Its tracker priority was 'high' from before any evidence existed; now downgraded to 'maintain' given she's shown to be fine on it. #16 -> Multi-step unit conversion (off-by-10 habit, confirmed gap, absent from set 3 until now). #36 -> Divisibility (high priority, absent from set 3 until now).",
-    "second_pass_2026-10-07": "Estimating Division with Money had the same stale-high-priority-then-3x pattern as the net topic (3 instances in set 2, all correct; 3 instances in set 3). Downgraded priority (see tracker) and trimmed set 3 from 3 to 2 (#11, #13 kept; #14 swapped). #14 -> Multiplying and Dividing Integers, restoring coverage of a topic dropped from the tracker entirely after set 1.",
-    "nondiag_trim_2026-10-10": "Several diagrams that only restated given text without adding structure were removed between build and this pass, bringing the live count from 22 down to 9 (see integrity_notes for the 2026-10-10 round-to-table leak, the last of these fixes).",
-    "fix_2026-10-10": "#3 and #26 (both Estimating Multiplication & Division) swapped to fresh numbers -- (73 x 289) / 19 and (46 x 227) / 23 -- for two reasons: #26's diagram leaked the full rounding (83->80, 196->200, 21->20) directly on the question sheet (same bug class as the 2026-10-08 divisibility leak), and both #3's and #26's original numbers had their exact rounding solutions worked through in chat with the parent before the set was taken. Diagram removed from #26 entirely, matching #3's no-diagram format -- real-test estimation items don't scaffold the rounding step."
-   },
-   "graded_2026-10-11": {
-    "score": "29/38",
-    "wrong": [
-     6,
-     12,
-     19,
-     21,
-     23,
-     33,
-     34,
-     37,
-     38
-    ],
-    "blank": [],
-    "score_caveat": "#37's number-line diagram had no numeric scale (see integrity_notes) -- a confirmed, objective bug in the page. That does NOT mean #37 is proven unrelated to her understanding: she never flagged it as confusing/impossible, so causality is unconfirmed either way. Treat it as uncertain, not as excluded evidence -- needs a retest on a properly-specified version of this topic (set 4) to tell whether the diagram or a real gap was the cause. Not correcting the historical score/wrong list itself (that's what actually happened when she took it).",
-    "total_elapsed_minutes": 34.75,
-    "timing_note": "Finished within the 35-min budget this time (set 2 had exceeded it).",
-    "first_then_changed": {
-     "wrong_to_right": [
-      2,
-      25,
-      27,
-      29,
-      31,
-      36
-     ],
-     "wrong_to_wrong": [
-      6,
-      19,
-      23,
-      38
-     ],
-     "right_to_wrong": [],
-     "note": "6 of 10 reconsiderations flipped wrong->right and zero flipped right->wrong -- a clean contrast with set 2, where #36 was talked out of a correct first answer. Her self-checking instinct was net-positive this time, not a liability."
-    },
-    "confirmed_gaps_targeted_outcome": {
-     "Estimating Multiplication & Division (#3, #26)": "BOTH CORRECT -- the set 2 sticky gap (#3/#33 wrong) is resolved on accuracy. Not resolved on speed: #3 took 230s, the single slowest problem of the whole test, well past what 35 problems in 35 minutes allows per problem.",
-     "Comparing & Ordering Fractions & Decimals (#2, #12, #31)": "2 of 3 right (#2 and #31 both recovered via reconsideration). #12 (the 5/9 vs 0.52 vs 7/15 ordering problem) still wrong, single-shot, 81s -- slow AND wrong, suggests the three-way decimal/fraction comparison itself is still shaky, not a rushed guess.",
-     "Translating Math Expressions (#30, #32)": "BOTH CORRECT. #32 was deliberately rebuilt with the exact same '-4 surface-match' trap from set 2 #23 -- she did not fall for it this time. Real, confirmed fix, not just no-evidence-of-recurrence.",
-     "Word Problems with Ratios (#33)": "STILL WRONG, but the diagnosis in-chat right after grading was wrong and got corrected on closer look: her answer (21) is exactly 3x7 -- the cats count, not the dogs count asked for. That number only exists if she actually ran the partition method correctly (56/8=7 per part, 3x7=21) and then answered the wrong group. So this isn't 'forgot the method' as originally targeted from set 2 -- it's 'solved it, then answered what wasn't asked.' Different problem than previously believed; worth confirming directly which it was (method or misread) rather than re-teaching partitioning she may already have."
-    },
-    "new_topic_first_exposure": {
-     "Split Line Segments (#23, #37)": "0/2 on paper, and NEITHER is a clean data point (caught 2026-10-11, parent flagged it). #37's diagram had a confirmed bug (no numeric scale). #23 is a different problem: it's not actually in the format the real test uses for this content -- every real 'X is the midpoint between Y and Z' problem in the library says 'the number line shown' and gives a diagram, with point values read off it, never stated directly in the question text like '#23 did ('A is at 14'). #23 skipped the diagram-reading step entirely, a different (likely easier) task than the real one. Her first answer (36 = raw distance, not midpoint) still LOOKS like a real distance-vs-midpoint mix-up, but since the task itself wasn't authentic, we can't be confident it transfers to how she'd do on a real, diagrammed version. Both need a retest with a correctly-formatted, diagrammed problem before concluding anything.",
-     "Total Shaded Area given Figure with Equal Divisions (#21, #22)": "1/2. #21 was wrong AND the slowest-but-one problem in the set (171s) with no reconsideration -- long deliberation, still wrong, looks like a real conceptual gap rather than a rushed miss. #22 (same topic) correct.",
-     "Cryptarithm / digit substitution (#34)": "Wrong, 17s, no reconsideration, Hard tier. The real solving method (PP+QQ=11x(P+Q), bounding the max sum) takes longer than 17s to work through from scratch -- looks more like a guess/pattern-match than an attempted solve. Small sample (this is only the 2nd time this topic has ever been graded; 1/2 wrong overall per tracker).",
-     "Numerical Patterns (#6, #18, #20)": "2/3 (#6 wrong, reconsidered but still wrong, 40s). Mixed so far, no strong signal yet.",
-     "Value of Digits / Finding Perimeter and Area of a Square / Finding Unit Price / Identifying Correct Conclusions from Bar Graph Data Table": "clean sweep, all correct across their slots -- no concern."
-    },
-    "other_wrong": {
-     "Equivalent Fractions, Decimals, and Percents (#19)": "wrong, reconsidered (D->A) but still wrong, correct was C (0.045 = 9/200). Her final answer A (9/20 = 0.45) is exactly the known off-by-10 decimal-place-value slip already flagged as a habit in her tracker for unit conversion -- same systemic habit showing up in a new context (fraction/percent equivalence, not just unit conversion).",
-     "Converting to a Decimal (#38)": "wrong, reconsidered (A->C) but still wrong, correct was D (7/16=0.4375). Forms a 3-problem cluster with #12 and #19 -- all three wrong answers involve a fraction/decimal conversion not landing cleanly, suggesting the fraction<->decimal conversion itself (not any one topic label) is the common thread worth drilling, more than any single topic name."
-    },
-    "staleness_flags_2026-10-11": "Running speed-tools/check_priority_staleness.py after this update surfaced: Split Line Segments 2/2 wrong (new, priority still 'unknown' -- consider setting to high once a 2nd data point confirms), Total Shaded Area 1/2 wrong, Cryptarithm 2/3 wrong (consider escalating, currently 'medium'), Estimating Sums/Differences of Decimal Numbers 0/3 wrong across sets 2+3 (currently 'high' -- same stale-high pattern previously found and corrected for the 3D-net and Estimating Division with Money topics; candidate for downgrade). Adding and Subtracting Decimals and Dividing Equally From a Total were also re-flagged at 50% wrong but that's pre-existing set-2 data, not new from this grading -- still open, never actually resolved. Not auto-changed; flagging per the tool's own caveat to check why before touching priorities."
-   },
-   "published_commit": "a84d34e",
-   "published_commit_note": "Stamped retroactively 2026-10-11 after reconstructing from git log which commit was live when she took it -- going forward, speed-tools/mark_published.py does this automatically at publish time instead."
-  },
-  {
-   "set_no": 4,
-   "topics": [
-    "Finding Unit Price",
-    "Comparing & Ordering Fractions & Decimals",
-    "Remainder when Divided by a given Number",
-    "Estimating Sums Differences of Decimal Numbers",
-    "Estimating Multiplication & Division",
-    "Order of Operations and Equivalence",
-    "Solving for Remaining Value, given Total & All Other Values",
-    "Estimation (sums, products, money, ranges)",
-    "Multi-step unit conversion (off-by-10, multi-step)",
-    "Equivalent Fractions Decimals and Percents",
-    "Percent Word Problems",
-    "Area of Square Perimeter",
-    "Adding and Subtracting Decimals",
-    "Identifying Multiples",
-    "Key-word NOT in equivalence questions",
-    "Matching Stories to Equations",
-    "English Unit Conversions",
-    "Solving 1 Variable Equations",
-    "Volume of Solids",
-    "Time Zones",
-    "No Remainder when Divided by a given Number",
-    "Word Problems with Ratios",
-    "Whole Number Who am I",
-    "Vertices Forming Right Angles Quadrilaterals on a Coordinate Plane",
-    "Probability of 1 Event, given a List of Items",
-    "Determining Averages between Points on Number Lines",
-    "Comparing Volume of Cubes",
-    "Interpreting Pictographs",
-    "Computation with Time",
-    "Area and Perimeter of Complex Polygons",
-    "Total Shaded Area given Figure with Equal Divisions",
-    "Finding Area/Perimeter of Rectangle, given Length & Width",
-    "Finding Ratios given Probability",
-    "Simplifying Rational Expressions Basic",
-    "Counting Multiples within a Range",
-    "Divisibility / number constraints (Serena/Who am I style)",
-    "Solving Problems with Geometric Formulas",
-    "Data Collection & Random Sampling"
-   ],
-   "published_commit": "67c35f2c0d27b67703091d559dc3967908a0216f",
-   "graded_2026-10-14": {
-    "score": "29/38",
-    "wrong": [
-     1,
-     3,
-     4,
-     6,
-     9,
-     11,
-     24,
-     26,
-     30
-    ],
-    "blank": [],
-    "total_elapsed_minutes": 34.95,
-    "first_then_changed": {
-     "wrong_to_right": [
-      10,
-      17,
-      37,
-      38
-     ],
-     "wrong_to_wrong": [
-      6
-     ],
-     "right_to_wrong": []
-    },
-    "notes_summary": {
-     "1": "Real gap -- division done in her head instead of on scratch paper",
-     "3": "Real gap -- same mechanism as MA1 #2, one day later",
-     "4": "Not a gap -- a real bug in the problem's own answer key",
-     "6": "First miss on this topic -- watch, do not raise priority yet",
-     "9": "Real gap -- same mechanism as MA1 #13, one day later",
-     "11": "Uncertain -- distractor not diagnostic, ask her to talk it through",
-     "24": "Voided -- known diagram bug, not counted as a gap",
-     "26": "Real gap -- assumed the number line started at 0",
-     "30": "Real gap -- same high-priority topic, same specific mistake again"
-    }
-   }
-  },
-  {
-   "set_no": 5,
-   "topics": [
-    "Area and Perimeter of Complex Polygons",
-    "Multi-step unit conversion (off-by-10, multi-step)",
-    "Determining Total Cost",
-    "Classification of Numbers, given a Set",
-    "Classification of Numbers, given a Set",
-    "Word Problems with Ratios",
-    "Numerical Patterns",
-    "Probability of 1 Event, given a List of Items",
-    "Best Unit of Measure",
-    "Comparing Adding Subtracting Bar Graph Data Table Values",
-    "Determining Total Cost",
-    "Identifying Shapes",
-    "Comparing & Ordering Fractions & Decimals",
-    "Total Shaded Area given Figure with Equal Divisions",
-    "Key-word NOT in equivalence questions",
-    "Remaining Amount after Reducing by Fractions",
-    "Nth Term, given Arithmetic Sequence, Progressive Pattern, etc.",
-    "No Remainder when Divided by a given Number",
-    "Converting to a Decimal",
-    "Volume of Solids",
-    "Identifying Number Properties",
-    "Probability (simple, equally likely outcomes)",
-    "Estimation (sums, products, money, ranges)",
-    "Estimating Multiplication & Division",
-    "Finding Area/Perimeter of Rectangle, given Length & Width",
-    "Divisibility / number constraints (Serena/Who am I style)",
-    "Multiplying and Dividing Whole Numbers",
-    "Translating Math Expressions",
-    "Adding and Subtracting Fractions",
-    "Predicting the Next Shapes given Progressive Pattern",
-    "Determining The Final Time",
-    "Finding MMMR given Bar Graph Data Table",
-    "Predicting the Next Shapes given Progressive Pattern",
-    "Remainder when Divided by a given Number",
-    "Percent Word Problems",
-    "Determining Points on Number Lines",
-    "Fractional Parts Word Problems",
-    "Equivalent Fractions Decimals and Percents"
-   ],
-   "published_commit": "e6c76451207b255ac832d001329c9178f36509f7",
-   "graded_2026-10-18": {
-    "score": "31/38",
-    "wrong": [
-     1,
-     2,
-     7,
-     16,
-     28,
-     35
-    ],
-    "blank": [
-     37
-    ],
-    "total_elapsed_minutes": 33.12,
-    "first_then_changed": {
-     "wrong_to_right": [
-      15,
-      17,
-      22
-     ],
-     "wrong_to_wrong": [],
-     "right_to_wrong": []
-    },
-    "notes_summary": {
-     "1": "Real gap, unconfirmed mechanism -- she can't reconstruct her own reasoning; her best guess is she mixed up adding vs. subtracting the shared 6cm side at the last step (correct: 24+6=30; her answer 36 doesn't match a subtract-6 slip either, so this stays open)",
-     "2": "Real gap, confirmed -- tries to track the zeros of a multi-step unit conversion in her head instead of writing it out; this IS the named off-by-10 trap. Needs scratch paper by default whenever a conversion has 3+ zeros.",
-     "7": "Real gap, confirmed RECURRING -- same mechanism as MA1 #4 (2026-10-13, see project_ma1_oct13_skill_gaps memory): resists writing out the difference sequence, so she naturally stops one term short. Once she lists the differences she gets it immediately -- the gap is the habit, not the math. Different numbers/phrasing from MA1 #4 per the 10/13 instruction to vary format, and it recurred anyway.",
-     "16": "Real gap, confirmed RECURRING -- same mechanism as MA1 #13 (2026-10-13): correctly computes the intermediate value (3/8 of 64 = 24, the amount given away) but the question asks what's left (40), not phrased with the word 'left' this time -- confirms it's a keyword/question-reading gap, not a one-off wording fluke. NEW finding: 24 isn't among the answer choices, and instead of treating that as a signal to re-read the question, she just guessed randomly. The auto-grader's heuristic had flagged this as 'not a gap' (looked like a fast careless slip) -- that read was wrong; this is the most concerning item on the set.",
-     "28": "Not a durable gap -- got it right immediately on retry right after. One-off warm-up miss / under-practiced topic, not a pattern to drill. The auto-grader's heuristic had flagged this as a 'real gap' -- that read was also wrong, in the opposite direction from #16.",
-     "35": "Real gap, confirmed mechanism -- two-step percent (markup then discount); defaults to converting the second percent to a fraction instead of multiplying by the decimal (0.90), which is slow, and also skips scratch paper. Once reminded to multiply by decimals sequentially she did it fast and correctly -- method/habit gap, not a percent-concept gap.",
-     "37": "Blank = she genuinely could not work out where to start on her own, NOT a concept gap -- this is a 3-step fraction word problem (bus riders, then remaining, then walkers). Correction 2026-10-19: scratch paper alone was not what fixed this -- the parent actively taught/walked her through it, and only with that live guidance did she complete it step by step (correctly, once walked through). The gap is the autonomous strategy for decomposing an unfamiliar multi-step word problem, not just a missing scratch-paper habit."
-    },
-    "parent_debrief_2026-10-18": "Hannah talked through each miss (and the blank) with the parent after grading; see project_qr5_oct18_skill_gaps memory for the full writeup, including that 2 of 6 wrong-list items (#7 pattern-via-differences, #16 keyword-reading) are confirmed RECURRENCES of specific gaps first flagged on MA1 (2026-10-13) despite varied phrasing/numbers in between."
-   }
-  },
-  {
-   "set_no": 6,
-   "topics": [
-    "Nth Term given Arithmetic Sequence Progressive Pattern",
-    "Multiplying and Dividing Whole Numbers",
-    "Multi-step unit conversion (off-by-10, multi-step)",
-    "Word Problems with Ratios",
-    "Area and Perimeter of Complex Polygons",
-    "Mixed Fraction Improper Fraction",
-    "Solving for Missing Sides given Similar Figures",
-    "Finding MMMR given Bar Graph Data Table",
-    "Total Shaded Area given Figure with Equal Divisions",
-    "Remaining Amount after Reducing by Fractions",
-    "Nth Term, given Arithmetic Sequence, Progressive Pattern, etc.",
-    "Finding Range, given Sets of Numbers, Data Tables or Graphs",
-    "Dividing Equally From a Total",
-    "Time Zones",
-    "Multiplying and Dividing Whole Numbers",
-    "Perimeter of Equilateral Figure 1 Side",
-    "Numerical Patterns",
-    "No Remainder when Divided by a given Number",
-    "Product of Prime Numbers",
-    "No Remainder when Divided by a given Number",
-    "Estimating Multiplication & Division",
-    "Converting to a Decimal",
-    "Determining Averages between Points on Number Lines",
-    "Estimating Division with Money",
-    "Translating Math Expressions",
-    "Estimating Sums Differences of Decimal Numbers",
-    "Percent Word Problems",
-    "Counting Multiples within a Range",
-    "Adding and Subtracting Decimals",
-    "Identifying Number Properties",
-    "Estimation (sums, products, money, ranges)",
-    "Comparing & Ordering Fractions & Decimals",
-    "Remainder when Divided by a given Number",
-    "Cryptarithm / digit substitution",
-    "Divisibility / number constraints (Serena/Who am I style)",
-    "Adding and Subtracting Integers",
-    "Multiplying and Dividing Integers",
-    "Determining Total Cost"
-   ],
-   "published_commit": "06e3c0dbe04092b2b7a3b7c9f8e5116ba217fa06",
-   "graded_2026-10-20": {
-    "score": "33/38",
-    "wrong": [
-     3,
-     28,
-     32,
-     33,
-     34
-    ],
-    "blank": [],
-    "total_elapsed_minutes": 35.32,
-    "first_then_changed": {
-     "wrong_to_right": [
-      25
-     ],
-     "wrong_to_wrong": [],
-     "right_to_wrong": []
-    },
-    "notes_summary": {
-     "3": "Not a concept gap -- misread 6 quarts as 9 (confirmed with her directly)",
-     "28": "Real gap -- no method yet for the two-sided \"between A and B\" variant",
-     "32": "Real gap, broader than first diagnosed -- no fraction-to-fraction OR fraction-to-decimal comparison method",
-     "33": "Real gap -- used the full goal instead of the remaining amount (confirmed recurring pattern)",
-     "34": "Uncertain -- same guess-like pattern as before, but now has a taught method"
-    }
-   }
-  },
-  {
-   "set_no": 7,
-   "topics": [
-    "English Unit Conversions",
-    "Determining Total Cost",
-    "Area and Perimeter of Complex Polygons",
-    "Cryptarithm / digit substitution",
-    "Word Problems Linear Relationships",
-    "Nth Term, given Arithmetic Sequence, Progressive Pattern, etc.",
-    "Comparing & Ordering Fractions & Decimals",
-    "Estimating Multiplication & Division",
-    "No Remainder when Divided by a given Number",
-    "Multi-step unit conversion (off-by-10, multi-step)",
-    "Adding and Subtracting Decimals",
-    "Probability of 1 Event, given a List of Items",
-    "Remaining Amount after Reducing by Fractions",
-    "Input Output Tables",
-    "Algebraic Equations with Symbol Variables",
-    "No Remainder when Divided by a given Number",
-    "Views of 3D Figures",
-    "Dividing Equally From a Total",
-    "Identifying Correct Conclusions from Bar Graph Data Table",
-    "Classification of Numbers, given a Set",
-    "Determining Averages between Points on Number Lines",
-    "Finding Missing Side Length",
-    "Total Shaded Area given Figure with Equal Divisions",
-    "Identifying Shapes",
-    "Equivalent Fractions Decimals and Percents",
-    "Time Zones",
-    "Multiplying and Dividing Decimals",
-    "Determining Total Cost",
-    "Remainder when Divided by a given Number",
-    "Estimation (sums, products, money, ranges)",
-    "Finding Median, given Sets of Numbers",
-    "Translating Math Expressions",
-    "Mixture Problems",
-    "Word Problems with Ratios",
-    "Numerical Patterns",
-    "Percent Word Problems",
-    "Solving Problems with Geometric Formulas",
-    "Interpreting Pictographs"
-   ],
-   "published_commit": "8cd2e2757af04c36407847a7453ea93046742932"
-  }
- ],
- "rotation_notes": {
-  "source": "Set topic lists above are what plan_set.py reads for rotation (last_seen, times). Keep topic names exact to the planner bank names.",
-  "dropped_after_set_2": [
-   "Determining Fraction Percent of Shaded Area given Figure",
-   "Multi-step Word Problems",
-   "Multiplying and Dividing Integers",
-   "Remaining Amount after Reducing by Fractions",
-   "Random Landing Probability"
   ],
-  "label_aliases": {
-   "Estimation (sums, products, money, ranges)": "split in set 2 into Estimating Multiplication & Division / Estimating Sums/Differences of Decimal Numbers / Estimating Division with Money"
+  "rotation_notes": {
+    "source": "Set topic lists above are what plan_set.py reads for rotation (last_seen, times). Keep topic names exact to the planner bank names.",
+    "dropped_after_set_2": [
+      "Determining Fraction Percent of Shaded Area given Figure",
+      "Multi-step Word Problems",
+      "Multiplying and Dividing Integers",
+      "Remaining Amount after Reducing by Fractions",
+      "Random Landing Probability"
+    ],
+    "label_aliases": {
+      "Estimation (sums, products, money, ranges)": "split in set 2 into Estimating Multiplication & Division / Estimating Sums/Differences of Decimal Numbers / Estimating Division with Money"
+    },
+    "not_yet_practised": [
+      "Multiplying and Dividing Integers (set 3 should include one)",
+      "Converting to a Decimal",
+      "Translating Math Expressions (only 1 in set 2)",
+      "Angles in Triangles",
+      "Area of Triangles"
+    ],
+    "set_3_priority": "Include the dropped topics and the not-yet-practised list before repeating set 2 topics.",
+    "mental_math_simplify_2026-10-10": "Not a real-test topic on its own (no 'simplify before you compute' category exists in the official material), so it's not in student-tracker.json's topics list -- it's a cross-cutting technique (rewrite division as a fraction and cancel a shared factor; cross-cancel between a whole number and a fraction's denominator before multiplying) that applies inside several existing real topics (Estimating Multiplication & Division, Word Problems with Ratios, Comparing & Ordering Fractions & Decimals, Dividing Equally From a Total). Standalone drill built: worksheets/mental-math-simplify.html (16 problems, open-answer, exact integer answers so cancelling-first is actually faster than brute force, not just equally valid). Going forward: when authoring exact-value (non-estimation-range) division or fraction-multiplication problems in future sets, prefer number pairs with an obvious shared factor so the technique is exercisable, and periodically re-offer the standalone drill rather than a one-time thing."
   },
-  "not_yet_practised": [
-   "Multiplying and Dividing Integers (set 3 should include one)",
-   "Converting to a Decimal",
-   "Translating Math Expressions (only 1 in set 2)",
-   "Angles in Triangles",
-   "Area of Triangles"
+  "ma_sets": [
+    {
+      "set_no": 1,
+      "topics": [
+        "No Remainder when Divided by a given Number",
+        "Remainder when Divided by a given Number",
+        "Time Zones",
+        "Numerical Patterns",
+        "Predicting the Next Shapes given Progressive Pattern",
+        "Equivalent Fractions Decimals and Percents",
+        "Comparing & Ordering Fractions & Decimals",
+        "Nth Term, given Arithmetic Sequence, Progressive Pattern, etc.",
+        "Classification of Numbers, given a Set",
+        "Identifying Number Properties",
+        "Determining Total Cost",
+        "Area of Triangles",
+        "Remaining Amount after Reducing by Fractions",
+        "Finding MMMR given Bar Graph Data Table",
+        "Multiplying and Dividing Whole Numbers",
+        "Adding and Subtracting Decimals",
+        "Identifying Shapes",
+        "Estimating Sums Differences of Decimal Numbers",
+        "Finding Area/Perimeter of Rectangle, given Length & Width",
+        "Probability of 1 Event, given a List of Items",
+        "Adding and Subtracting Integers",
+        "Solving 1 Variable Equations",
+        "Order of Operations and Equivalence",
+        "Comparing Adding Subtracting Bar Graph Data Table Values",
+        "Adding and Subtracting Fractions",
+        "Perimeter",
+        "Determining Points on Number Lines",
+        "Interpreting Pictographs",
+        "Identifying Numbers, Standard Form Word Form",
+        "Estimating Multiplication & Division"
+      ],
+      "published_commit": "93461a01ba90feb08d05acecf2a10c01afb47715",
+      "graded_2026-10-13": {
+        "score": "25/30",
+        "wrong": [
+          1,
+          2,
+          4,
+          8,
+          13
+        ],
+        "blank": [],
+        "total_elapsed_minutes": 29.98,
+        "first_then_changed": {
+          "wrong_to_right": [
+            10,
+            12,
+            30
+          ],
+          "wrong_to_wrong": [],
+          "right_to_wrong": [
+            1
+          ]
+        },
+        "notes_summary": {
+          "1": "Real gap -- no quick-filter strategy for multi-condition divisibility",
+          "2": "Real gap -- estimating the remainder mentally instead of dividing it out",
+          "4": "Real gap -- did not derive the pattern from successive differences",
+          "8": "Real gap -- wrong nth-term formula, missing the (n-1) offset",
+          "13": "Real gap -- missed the word 'left' in the question"
+        }
+      }
+    },
+    {
+      "set_no": 2,
+      "topics": [
+        "Comparing Adding Subtracting Bar Graph Data Table Values",
+        "Comparing & Ordering Fractions & Decimals",
+        "Remaining Amount after Reducing by Fractions",
+        "Numerical Patterns",
+        "No Remainder when Divided by a given Number",
+        "Remainder when Divided by a given Number",
+        "Nth Term, given Arithmetic Sequence, Progressive Pattern, etc.",
+        "Identifying Number Properties",
+        "Equivalent Fractions Decimals and Percents",
+        "Estimating Multiplication & Division",
+        "Estimating Division with Money",
+        "Estimating Sums Differences of Decimal Numbers",
+        "Order of Operations and Equivalence",
+        "Finding MMMR given Bar Graph Data Table",
+        "Determining Averages between Points on Number Lines",
+        "Interpreting Pictographs",
+        "Adding and Subtracting Decimals",
+        "Dividing Equally From a Total",
+        "Classification of Numbers, given a Set",
+        "Determining Total Cost",
+        "Time Zones",
+        "Predicting the Next Shapes given Progressive Pattern",
+        "Identifying Numbers, Standard Form Word Form",
+        "Perimeter",
+        "Finding Area/Perimeter of Rectangle, given Length & Width",
+        "Vertices Forming Right Angles Quadrilaterals on a Coordinate Plane",
+        "Translating Math Expressions",
+        "Identifying Shapes",
+        "Input Output Tables",
+        "Finding Missing Side Length"
+      ],
+      "status_note_history": "Regenerated 2026-10-20 from scratch after QR6 graded, per the pending_regen hold from 2026-10-18. #1/#2 are deliberate retests of QR6 #33 (drops an intermediate given value) and #32 (fraction comparison, no method) in new scenarios/numbers. #13 retests the QR4 #6 order-of-operations miss in its original harder equivalence format.",
+      "published_commit": "afc6a81b4a17b306d65dabfcc8a84bb4ffa2331f",
+      "graded_2026-10-21": {
+        "score": "28/30",
+        "wrong": [
+          2,
+          29
+        ],
+        "blank": [],
+        "total_elapsed_minutes": 30.0,
+        "first_then_changed": {
+          "wrong_to_right": [
+            30
+          ],
+          "wrong_to_wrong": [],
+          "right_to_wrong": []
+        },
+        "notes_summary": {
+          "2": "Real gap, CONFIRMED STILL OPEN -- the QR6 #32 fix did not hold",
+          "29": "Uncertain -- picked an answer consistent with an off-by-one rule application"
+        }
+      }
+    }
   ],
-  "set_3_priority": "Include the dropped topics and the not-yet-practised list before repeating set 2 topics.",
-  "mental_math_simplify_2026-10-10": "Not a real-test topic on its own (no 'simplify before you compute' category exists in the official material), so it's not in student-tracker.json's topics list -- it's a cross-cutting technique (rewrite division as a fraction and cancel a shared factor; cross-cancel between a whole number and a fraction's denominator before multiplying) that applies inside several existing real topics (Estimating Multiplication & Division, Word Problems with Ratios, Comparing & Ordering Fractions & Decimals, Dividing Equally From a Total). Standalone drill built: worksheets/mental-math-simplify.html (16 problems, open-answer, exact integer answers so cancelling-first is actually faster than brute force, not just equally valid). Going forward: when authoring exact-value (non-estimation-range) division or fraction-multiplication problems in future sets, prefer number pairs with an obvious shared factor so the technique is exercisable, and periodically re-offer the standalone drill rather than a one-time thing."
- },
- "ma_sets": [
-  {
-   "set_no": 1,
-   "topics": [
-    "No Remainder when Divided by a given Number",
-    "Remainder when Divided by a given Number",
-    "Time Zones",
-    "Numerical Patterns",
-    "Predicting the Next Shapes given Progressive Pattern",
-    "Equivalent Fractions Decimals and Percents",
-    "Comparing & Ordering Fractions & Decimals",
-    "Nth Term, given Arithmetic Sequence, Progressive Pattern, etc.",
-    "Classification of Numbers, given a Set",
-    "Identifying Number Properties",
-    "Determining Total Cost",
-    "Area of Triangles",
-    "Remaining Amount after Reducing by Fractions",
-    "Finding MMMR given Bar Graph Data Table",
-    "Multiplying and Dividing Whole Numbers",
-    "Adding and Subtracting Decimals",
-    "Identifying Shapes",
-    "Estimating Sums Differences of Decimal Numbers",
-    "Finding Area/Perimeter of Rectangle, given Length & Width",
-    "Probability of 1 Event, given a List of Items",
-    "Adding and Subtracting Integers",
-    "Solving 1 Variable Equations",
-    "Order of Operations and Equivalence",
-    "Comparing Adding Subtracting Bar Graph Data Table Values",
-    "Adding and Subtracting Fractions",
-    "Perimeter",
-    "Determining Points on Number Lines",
-    "Interpreting Pictographs",
-    "Identifying Numbers, Standard Form Word Form",
-    "Estimating Multiplication & Division"
-   ],
-   "published_commit": "93461a01ba90feb08d05acecf2a10c01afb47715",
-   "graded_2026-10-13": {
-    "score": "25/30",
-    "wrong": [
-     1,
-     2,
-     4,
-     8,
-     13
-    ],
-    "blank": [],
-    "total_elapsed_minutes": 29.98,
-    "first_then_changed": {
-     "wrong_to_right": [
-      10,
-      12,
-      30
-     ],
-     "wrong_to_wrong": [],
-     "right_to_wrong": [
-      1
-     ]
-    },
-    "notes_summary": {
-     "1": "Real gap -- no quick-filter strategy for multi-condition divisibility",
-     "2": "Real gap -- estimating the remainder mentally instead of dividing it out",
-     "4": "Real gap -- did not derive the pattern from successive differences",
-     "8": "Real gap -- wrong nth-term formula, missing the (n-1) offset",
-     "13": "Real gap -- missed the word 'left' in the question"
-    }
-   }
+  "ma_notes": {
+    "median_mean_range_clarification": "2026-10-07: these topics belong to Math Achievement, not QR (established 2026-10-06). MA set 1 already had median (#12), range (#13), and average/mean (#29). The parent's question about 'no mean/median/average/range' was about the QR sets (speed-set-1, speed-set-2), which correctly exclude them by design. MA set 2 adds a second median (even-count), a second average (missing-value form), and a range (missing-value form), all with different numbers/scenario than set 1.",
+    "fix_applied_2026-10-06": "MA set 1 item 22 rewritten from a single-product estimate to the real sum-of-money range format.",
+    "new_in_set_2": [
+      "number line (point)",
+      "mode",
+      "coordinate geometry (classify shape, perimeter)",
+      "percent equivalence",
+      "signed numbers / elevation",
+      "number words to standard form",
+      "identifying shapes by properties",
+      "bar graph reading"
+    ]
   },
-  {
-   "set_no": 2,
-   "topics": [
-    "Comparing Adding Subtracting Bar Graph Data Table Values",
-    "Comparing & Ordering Fractions & Decimals",
-    "Remaining Amount after Reducing by Fractions",
-    "Numerical Patterns",
-    "No Remainder when Divided by a given Number",
-    "Remainder when Divided by a given Number",
-    "Nth Term, given Arithmetic Sequence, Progressive Pattern, etc.",
-    "Identifying Number Properties",
-    "Equivalent Fractions Decimals and Percents",
-    "Estimating Multiplication & Division",
-    "Estimating Division with Money",
-    "Estimating Sums Differences of Decimal Numbers",
-    "Order of Operations and Equivalence",
-    "Finding MMMR given Bar Graph Data Table",
-    "Determining Averages between Points on Number Lines",
-    "Interpreting Pictographs",
-    "Adding and Subtracting Decimals",
-    "Dividing Equally From a Total",
-    "Classification of Numbers, given a Set",
-    "Determining Total Cost",
-    "Time Zones",
-    "Predicting the Next Shapes given Progressive Pattern",
-    "Identifying Numbers, Standard Form Word Form",
-    "Perimeter",
-    "Finding Area/Perimeter of Rectangle, given Length & Width",
-    "Vertices Forming Right Angles Quadrilaterals on a Coordinate Plane",
-    "Translating Math Expressions",
-    "Identifying Shapes",
-    "Input Output Tables",
-    "Finding Missing Side Length"
-   ],
-   "status_note_history": "Regenerated 2026-10-20 from scratch after QR6 graded, per the pending_regen hold from 2026-10-18. #1/#2 are deliberate retests of QR6 #33 (drops an intermediate given value) and #32 (fraction comparison, no method) in new scenarios/numbers. #13 retests the QR4 #6 order-of-operations miss in its original harder equivalence format.",
-   "published_commit": "afc6a81b4a17b306d65dabfcc8a84bb4ffa2331f",
-   "graded_2026-10-21": {
-    "score": "28/30",
-    "wrong": [
-     2,
-     29
-    ],
-    "blank": [],
-    "total_elapsed_minutes": 30.0,
-    "first_then_changed": {
-     "wrong_to_right": [
-      30
-     ],
-     "wrong_to_wrong": [],
-     "right_to_wrong": []
+  "integrity_notes": [
+    {
+      "date": "2026-10-08",
+      "finding": "Every 'divisible by both X and Y' diagram table in sets 1-2 had the correct answer as the only all-yes row, visible on the worksheet (not just the key) -- answerable by pattern-matching rather than real reasoning. Affected: set 1 #27, set 2 #13, set 2 #35 (all answered correctly). Fixed in set 3 and confirmed absent from all other live worksheets (checked all 5)."
     },
-    "notes_summary": {
-     "2": "Real gap, CONFIRMED STILL OPEN -- the QR6 #32 fix did not hold",
-     "29": "Uncertain -- picked an answer consistent with an off-by-one rule application"
+    {
+      "date": "2026-10-09",
+      "finding": "Real-test (a x b)-over-c estimation items always use a slash (e.g. '(51 x 743) / 25'), never a division sign -- checked all 9 real examples in the library. Set 2's #3/#33 (already taken) and set 3's original #3/#26 used ÷. Fixed in set 3 (now /); can't change set 2. Doesn't change the math or the gap finding, just a minor notation mismatch worth knowing about."
+    },
+    {
+      "date": "2026-10-10",
+      "finding": "Same bug class as the 2026-10-08 divisibility leak: set 2 #6 and set 3's original #26 both had a 'Number / Round to' diagram table printed directly on the question sheet (not just the key), handing over the entire estimation step before she'd attempted it. Set 2 #6 was already taken and answered correctly (consistent with the leak making it trivial) -- can't fix retroactively, documented here. Set 3 #26 fixed: diagram removed, numbers swapped to (46 x 227) / 23. Caught by the parent noticing the table I'd described as a teaching aid was actually already live on the question sheet, not just something I was proposing."
+    },
+    {
+      "date": "2026-10-11",
+      "finding": "Opposite problem from the usual leaks: set 3 #37 (Split Line Segments) under-specified rather than over-specified. Its number-line diagram showed only letter labels 'Q' and 'P' with no numeric scale anywhere -- no origin, no per-tick value -- while the answer key's own explanation assumed 'Q=10, P=30, 5 per tick,' information that was never actually rendered on the page. The problem was unsolvable as administered; already taken and graded wrong (consistent with there being no way to derive the answer from what was shown). Found while building the post-test review and tracing why her wrong pick (60) didn't match any described trap. First fix (2026-10-11) labeled every tick from 0 through P, but that doesn't match real ISEE style, so it was superseded same day: cross-checked against an actual official-test screenshot of an equivalent midpoint problem, which labels only the two visible line endpoints (never the lettered points) and stops the line short of the answer's position. Final diagram: arrowed line from 0 to 35 (only those two endpoints numbered), Q and P shown as bare letters, R (=50) off the visible line entirely. CORRECTION, same day: #23 was NOT actually unaffected as originally claimed here -- see the next entry."
+    },
+    {
+      "date": "2026-10-11 #2",
+      "finding": "#23 (the other Split Line Segments problem) also didn't match the real-test format, caught later the same session: it stated the point values directly in the question text ('A is at 14 and C is at 50') instead of showing them on a diagram for her to read off, which is how every real 'X is the midpoint of Y and Z' problem in the library presents this content. Fixed on the live worksheet: question now reads 'Use the number line...' with a proper diagram (line from 2 to 56, only endpoints 2/56 labeled, A and C shown as bare letters), matching the same convention used for #37's fix above."
+    },
+    {
+      "date": "2026-10-11 #3",
+      "finding": "Informal retest: after #23 and #37 were both fixed on the live worksheet, the parent had Hannah redo both problems directly (not inside a new timed set). She answered both correctly, each in under 1.5 minutes. This is consistent with the two format bugs being the actual cause of the original misses rather than a genuine midpoint-vs-distance gap -- but isn't fully conclusive, since she was redoing problems she'd just missed rather than fresh ones, so some of the speed/accuracy could reflect having already worked through the method once. Treating Split Line Segments as provisionally resolved (bug-caused, not a gap) unless a *new* problem on this topic in a future set produces another miss, which would reopen it. Tracker priority downgraded from needs-retest to low; raw wrong/graded counts on set 3 left unchanged since they reflect what actually happened."
+    },
+    {
+      "date": "2026-10-11 #4",
+      "finding": "Built a second automated check (sanitize_diagrams.py's check_missing_diagram(), also added to grade_set.py's sanitize_check workflow) that flags problems whose topic is one of the real test's diagram-convention topics (number line, shaded figure, bar graph, pictograph, ...) but which has no diagram at all -- the opposite case from the original value-mismatch check, covering the #23 bug class generally instead of relying on catching it by hand each time. First run immediately found 4 more instances beyond #23/#37: set 2 #10, #29, #36 (Interpreting Pictographs -- all 3 slots for this topic stated the chart's values directly in text, no pictograph shown) and set 3 #22 (Total Shaded Area -- stated the fraction 5/8 directly instead of showing a figure to read it from). Set 2 is already taken and can't be retroactively fixed; #10 and #29 were answered correctly, #36 was wrong but already had a separate, still-valid explanation (confidence/second-guessing, not a gap -- see student-tracker.json 'Interpreting Pictographs' format_note_2026-10-11). #22 (set 3) was answered correctly. Fixed all 4 on the live worksheets with real pictographs (star/dot icons with a legend, half-icons for fractional counts) and a proper 8-section grid for #22, so future reuse of these topics is authentic. Also added a 'Known format conventions' section to GENERATION_WORKFLOW.md so new problems on these topics are built correctly from the start instead of needing a later catch."
     }
-   }
-  }
- ],
- "ma_notes": {
-  "median_mean_range_clarification": "2026-10-07: these topics belong to Math Achievement, not QR (established 2026-10-06). MA set 1 already had median (#12), range (#13), and average/mean (#29). The parent's question about 'no mean/median/average/range' was about the QR sets (speed-set-1, speed-set-2), which correctly exclude them by design. MA set 2 adds a second median (even-count), a second average (missing-value form), and a range (missing-value form), all with different numbers/scenario than set 1.",
-  "fix_applied_2026-10-06": "MA set 1 item 22 rewritten from a single-product estimate to the real sum-of-money range format.",
-  "new_in_set_2": [
-   "number line (point)",
-   "mode",
-   "coordinate geometry (classify shape, perimeter)",
-   "percent equivalence",
-   "signed numbers / elevation",
-   "number words to standard form",
-   "identifying shapes by properties",
-   "bar graph reading"
   ]
- },
- "integrity_notes": [
-  {
-   "date": "2026-10-08",
-   "finding": "Every 'divisible by both X and Y' diagram table in sets 1-2 had the correct answer as the only all-yes row, visible on the worksheet (not just the key) -- answerable by pattern-matching rather than real reasoning. Affected: set 1 #27, set 2 #13, set 2 #35 (all answered correctly). Fixed in set 3 and confirmed absent from all other live worksheets (checked all 5)."
-  },
-  {
-   "date": "2026-10-09",
-   "finding": "Real-test (a x b)-over-c estimation items always use a slash (e.g. '(51 x 743) / 25'), never a division sign -- checked all 9 real examples in the library. Set 2's #3/#33 (already taken) and set 3's original #3/#26 used \u00f7. Fixed in set 3 (now /); can't change set 2. Doesn't change the math or the gap finding, just a minor notation mismatch worth knowing about."
-  },
-  {
-   "date": "2026-10-10",
-   "finding": "Same bug class as the 2026-10-08 divisibility leak: set 2 #6 and set 3's original #26 both had a 'Number / Round to' diagram table printed directly on the question sheet (not just the key), handing over the entire estimation step before she'd attempted it. Set 2 #6 was already taken and answered correctly (consistent with the leak making it trivial) -- can't fix retroactively, documented here. Set 3 #26 fixed: diagram removed, numbers swapped to (46 x 227) / 23. Caught by the parent noticing the table I'd described as a teaching aid was actually already live on the question sheet, not just something I was proposing."
-  },
-  {
-   "date": "2026-10-11",
-   "finding": "Opposite problem from the usual leaks: set 3 #37 (Split Line Segments) under-specified rather than over-specified. Its number-line diagram showed only letter labels 'Q' and 'P' with no numeric scale anywhere -- no origin, no per-tick value -- while the answer key's own explanation assumed 'Q=10, P=30, 5 per tick,' information that was never actually rendered on the page. The problem was unsolvable as administered; already taken and graded wrong (consistent with there being no way to derive the answer from what was shown). Found while building the post-test review and tracing why her wrong pick (60) didn't match any described trap. First fix (2026-10-11) labeled every tick from 0 through P, but that doesn't match real ISEE style, so it was superseded same day: cross-checked against an actual official-test screenshot of an equivalent midpoint problem, which labels only the two visible line endpoints (never the lettered points) and stops the line short of the answer's position. Final diagram: arrowed line from 0 to 35 (only those two endpoints numbered), Q and P shown as bare letters, R (=50) off the visible line entirely. CORRECTION, same day: #23 was NOT actually unaffected as originally claimed here -- see the next entry."
-  },
-  {
-   "date": "2026-10-11 #2",
-   "finding": "#23 (the other Split Line Segments problem) also didn't match the real-test format, caught later the same session: it stated the point values directly in the question text ('A is at 14 and C is at 50') instead of showing them on a diagram for her to read off, which is how every real 'X is the midpoint of Y and Z' problem in the library presents this content. Fixed on the live worksheet: question now reads 'Use the number line...' with a proper diagram (line from 2 to 56, only endpoints 2/56 labeled, A and C shown as bare letters), matching the same convention used for #37's fix above."
-  },
-  {
-   "date": "2026-10-11 #3",
-   "finding": "Informal retest: after #23 and #37 were both fixed on the live worksheet, the parent had Hannah redo both problems directly (not inside a new timed set). She answered both correctly, each in under 1.5 minutes. This is consistent with the two format bugs being the actual cause of the original misses rather than a genuine midpoint-vs-distance gap -- but isn't fully conclusive, since she was redoing problems she'd just missed rather than fresh ones, so some of the speed/accuracy could reflect having already worked through the method once. Treating Split Line Segments as provisionally resolved (bug-caused, not a gap) unless a *new* problem on this topic in a future set produces another miss, which would reopen it. Tracker priority downgraded from needs-retest to low; raw wrong/graded counts on set 3 left unchanged since they reflect what actually happened."
-  },
-  {
-   "date": "2026-10-11 #4",
-   "finding": "Built a second automated check (sanitize_diagrams.py's check_missing_diagram(), also added to grade_set.py's sanitize_check workflow) that flags problems whose topic is one of the real test's diagram-convention topics (number line, shaded figure, bar graph, pictograph, ...) but which has no diagram at all -- the opposite case from the original value-mismatch check, covering the #23 bug class generally instead of relying on catching it by hand each time. First run immediately found 4 more instances beyond #23/#37: set 2 #10, #29, #36 (Interpreting Pictographs -- all 3 slots for this topic stated the chart's values directly in text, no pictograph shown) and set 3 #22 (Total Shaded Area -- stated the fraction 5/8 directly instead of showing a figure to read it from). Set 2 is already taken and can't be retroactively fixed; #10 and #29 were answered correctly, #36 was wrong but already had a separate, still-valid explanation (confidence/second-guessing, not a gap -- see student-tracker.json 'Interpreting Pictographs' format_note_2026-10-11). #22 (set 3) was answered correctly. Fixed all 4 on the live worksheets with real pictographs (star/dot icons with a legend, half-icons for fractional counts) and a proper 8-section grid for #22, so future reuse of these topics is authentic. Also added a 'Known format conventions' section to GENERATION_WORKFLOW.md so new problems on these topics are built correctly from the start instead of needing a later catch."
-  }
- ]
 }
