@@ -3224,7 +3224,7 @@
       "D": "<5.0%"
     },
     "recapture_source_images": [
-      "Screenshot 2026-10-09 at 7.03.18 PM.png"
+      "mathspeed test/actual-practice-tests/ISEE Lower #2/Screenshot 2026-10-09 at 7.03.18 PM.png"
     ],
     "recapture_nav_color_read": "correct"
   },
@@ -3266,7 +3266,7 @@
       "D": "<5.0%"
     },
     "recapture_source_images": [
-      "Screenshot 2026-10-09 at 7.03.19 PM.png"
+      "mathspeed test/actual-practice-tests/ISEE Lower #2/Screenshot 2026-10-09 at 7.03.19 PM.png"
     ],
     "recapture_nav_color_read": "correct"
   },
@@ -3308,7 +3308,7 @@
       "D": "<5.0%"
     },
     "recapture_source_images": [
-      "Screenshot 2026-10-09 at 7.03.21 PM.png"
+      "mathspeed test/actual-practice-tests/ISEE Lower #2/Screenshot 2026-10-09 at 7.03.21 PM.png"
     ],
     "recapture_nav_color_read": "correct"
   },
@@ -3350,7 +3350,7 @@
       "D": "<5.0%"
     },
     "recapture_source_images": [
-      "Screenshot 2026-10-09 at 7.03.23 PM.png"
+      "mathspeed test/actual-practice-tests/ISEE Lower #2/Screenshot 2026-10-09 at 7.03.23 PM.png"
     ],
     "recapture_nav_color_read": "correct"
   },
@@ -3392,8 +3392,8 @@
       "D": "<5.0%"
     },
     "recapture_source_images": [
-      "Screenshot 2026-10-09 at 7.03.25 PM.png",
-      "Screenshot 2026-10-09 at 7.03.32 PM.png"
+      "mathspeed test/actual-practice-tests/ISEE Lower #2/Screenshot 2026-10-09 at 7.03.25 PM.png",
+      "mathspeed test/actual-practice-tests/ISEE Lower #2/Screenshot 2026-10-09 at 7.03.32 PM.png"
     ],
     "recapture_nav_color_read": "correct"
   },
@@ -3415,7 +3415,7 @@
     "topic_specific": "fact family relationships with symbolic variables (multiplication/division)",
     "matches_known_gap": null,
     "possible_habit_trigger": null,
-    "notes": "",
+    "notes": "Merged duplicate gid1206 (recaptureQR 10/9 re-catalog of this same question) into this entry; recapture_source_images added from it.",
     "global_id": 84,
     "set_name": "ISEE Lower #2",
     "set_date": "2026-09-13",
@@ -3425,7 +3425,17 @@
     "source": "isee_official_screenshot",
     "is_full_test": true,
     "pacing_affected": false,
-    "status": "done"
+    "status": "done",
+    "official_solution": "The correct answer to the question is answer choice (C), 24 / triangle = circle. Recall that when dividing the product by one of the factors, the other factor is the result.",
+    "choice_percentages": {
+      "A": "<5.0%",
+      "B": "<5.0%",
+      "C": "94.5%",
+      "D": "<5.0%"
+    },
+    "recapture_source_images": [
+      "mathspeed test/actual-practice-tests/ISEE Lower #2/Screenshot 2026-10-09 at 7.03.35 PM.png"
+    ]
   },
   {
     "source_file": "mathspeed test/superseded-by-recapture/Screenshot 2026-10-02 at 11.30.14 AM.png",
@@ -3465,7 +3475,7 @@
       "D": null
     },
     "recapture_source_images": [
-      "Screenshot 2026-10-09 at 7.03.36 PM.png"
+      "mathspeed test/actual-practice-tests/ISEE Lower #2/Screenshot 2026-10-09 at 7.03.36 PM.png"
     ],
     "recapture_nav_color_read": "correct"
   },
@@ -3507,7 +3517,7 @@
       "D": null
     },
     "recapture_source_images": [
-      "Screenshot 2026-10-09 at 7.03.38 PM.png"
+      "mathspeed test/actual-practice-tests/ISEE Lower #2/Screenshot 2026-10-09 at 7.03.38 PM.png"
     ],
     "recapture_nav_color_read": "correct"
   },
@@ -3549,7 +3559,7 @@
       "D": null
     },
     "recapture_source_images": [
-      "Screenshot 2026-10-09 at 7.03.39 PM.png"
+      "mathspeed test/actual-practice-tests/ISEE Lower #2/Screenshot 2026-10-09 at 7.03.39 PM.png"
     ],
     "recapture_nav_color_read": "correct"
   },
@@ -3591,7 +3601,7 @@
       "D": null
     },
     "recapture_source_images": [
-      "Screenshot 2026-10-09 at 7.03.40 PM.png"
+      "mathspeed test/actual-practice-tests/ISEE Lower #2/Screenshot 2026-10-09 at 7.03.40 PM.png"
     ],
     "recapture_nav_color_read": "correct"
   },
@@ -3633,7 +3643,7 @@
       "D": null
     },
     "recapture_source_images": [
-      "Screenshot 2026-10-09 at 7.03.42 PM.png"
+      "mathspeed test/actual-practice-tests/ISEE Lower #2/Screenshot 2026-10-09 at 7.03.42 PM.png"
     ],
     "recapture_nav_color_read": "correct"
   },
@@ -3675,7 +3685,7 @@
       "D": null
     },
     "recapture_source_images": [
-      "Screenshot 2026-10-09 at 7.03.43 PM.png"
+      "mathspeed test/actual-practice-tests/ISEE Lower #2/Screenshot 2026-10-09 at 7.03.43 PM.png"
     ],
     "recapture_nav_color_read": "correct"
   },
@@ -3717,7 +3727,7 @@
       "D": null
     },
     "recapture_source_images": [
-      "Screenshot 2026-10-09 at 7.03.45 PM.png"
+      "mathspeed test/actual-practice-tests/ISEE Lower #2/Screenshot 2026-10-09 at 7.03.45 PM.png"
     ],
     "recapture_nav_color_read": "correct"
   },
@@ -3759,7 +3769,7 @@
       "D": null
     },
     "recapture_source_images": [
-      "Screenshot 2026-10-09 at 7.03.47 PM.png"
+      "mathspeed test/actual-practice-tests/ISEE Lower #2/Screenshot 2026-10-09 at 7.03.47 PM.png"
     ],
     "recapture_nav_color_read": "correct"
   },
@@ -3801,7 +3811,7 @@
       "D": null
     },
     "recapture_source_images": [
-      "Screenshot 2026-10-09 at 7.03.48 PM.png"
+      "mathspeed test/actual-practice-tests/ISEE Lower #2/Screenshot 2026-10-09 at 7.03.48 PM.png"
     ],
     "recapture_nav_color_read": "correct"
   },
@@ -3843,7 +3853,7 @@
       "D": null
     },
     "recapture_source_images": [
-      "Screenshot 2026-10-09 at 7.03.50 PM.png"
+      "mathspeed test/actual-practice-tests/ISEE Lower #2/Screenshot 2026-10-09 at 7.03.50 PM.png"
     ],
     "recapture_nav_color_read": "correct"
   },
@@ -3885,7 +3895,7 @@
       "D": null
     },
     "recapture_source_images": [
-      "Screenshot 2026-10-09 at 7.03.52 PM.png"
+      "mathspeed test/actual-practice-tests/ISEE Lower #2/Screenshot 2026-10-09 at 7.03.52 PM.png"
     ],
     "recapture_nav_color_read": "correct"
   },
@@ -3927,7 +3937,7 @@
       "D": null
     },
     "recapture_source_images": [
-      "Screenshot 2026-10-09 at 7.03.53 PM.png"
+      "mathspeed test/actual-practice-tests/ISEE Lower #2/Screenshot 2026-10-09 at 7.03.53 PM.png"
     ],
     "recapture_nav_color_read": "correct"
   },
@@ -3969,7 +3979,7 @@
       "D": null
     },
     "recapture_source_images": [
-      "Screenshot 2026-10-09 at 7.03.55 PM.png"
+      "mathspeed test/actual-practice-tests/ISEE Lower #2/Screenshot 2026-10-09 at 7.03.55 PM.png"
     ],
     "recapture_nav_color_read": "correct"
   },
@@ -4011,7 +4021,7 @@
       "D": null
     },
     "recapture_source_images": [
-      "Screenshot 2026-10-09 at 7.03.56 PM.png"
+      "mathspeed test/actual-practice-tests/ISEE Lower #2/Screenshot 2026-10-09 at 7.03.56 PM.png"
     ],
     "recapture_nav_color_read": "correct"
   },
@@ -4053,7 +4063,7 @@
       "D": null
     },
     "recapture_source_images": [
-      "Screenshot 2026-10-09 at 7.03.58 PM.png"
+      "mathspeed test/actual-practice-tests/ISEE Lower #2/Screenshot 2026-10-09 at 7.03.58 PM.png"
     ],
     "recapture_nav_color_read": "correct"
   },
@@ -4095,7 +4105,7 @@
       "D": null
     },
     "recapture_source_images": [
-      "Screenshot 2026-10-09 at 7.04.00 PM.png"
+      "mathspeed test/actual-practice-tests/ISEE Lower #2/Screenshot 2026-10-09 at 7.04.00 PM.png"
     ],
     "recapture_nav_color_read": "correct"
   },
@@ -4137,7 +4147,7 @@
       "D": null
     },
     "recapture_source_images": [
-      "Screenshot 2026-10-09 at 7.04.01 PM.png"
+      "mathspeed test/actual-practice-tests/ISEE Lower #2/Screenshot 2026-10-09 at 7.04.01 PM.png"
     ],
     "recapture_nav_color_read": "correct"
   },
@@ -4179,7 +4189,7 @@
       "D": null
     },
     "recapture_source_images": [
-      "Screenshot 2026-10-09 at 7.04.03 PM.png"
+      "mathspeed test/actual-practice-tests/ISEE Lower #2/Screenshot 2026-10-09 at 7.04.03 PM.png"
     ],
     "recapture_nav_color_read": "wrong",
     "her_selected_letter": "B",
@@ -4223,7 +4233,7 @@
       "D": null
     },
     "recapture_source_images": [
-      "Screenshot 2026-10-09 at 7.04.04 PM.png"
+      "mathspeed test/actual-practice-tests/ISEE Lower #2/Screenshot 2026-10-09 at 7.04.04 PM.png"
     ],
     "recapture_nav_color_read": "wrong",
     "her_selected_letter": "B",
@@ -4267,7 +4277,7 @@
       "D": null
     },
     "recapture_source_images": [
-      "Screenshot 2026-10-09 at 7.04.06 PM.png"
+      "mathspeed test/actual-practice-tests/ISEE Lower #2/Screenshot 2026-10-09 at 7.04.06 PM.png"
     ],
     "recapture_nav_color_read": "wrong",
     "her_selected_letter": "D",
@@ -4311,7 +4321,7 @@
       "D": null
     },
     "recapture_source_images": [
-      "Screenshot 2026-10-09 at 7.04.08 PM.png"
+      "mathspeed test/actual-practice-tests/ISEE Lower #2/Screenshot 2026-10-09 at 7.04.08 PM.png"
     ],
     "recapture_nav_color_read": "correct"
   },
@@ -4353,7 +4363,7 @@
       "D": null
     },
     "recapture_source_images": [
-      "Screenshot 2026-10-09 at 7.04.09 PM.png"
+      "mathspeed test/actual-practice-tests/ISEE Lower #2/Screenshot 2026-10-09 at 7.04.09 PM.png"
     ],
     "recapture_nav_color_read": "correct"
   },
@@ -4395,7 +4405,7 @@
       "D": null
     },
     "recapture_source_images": [
-      "Screenshot 2026-10-09 at 7.04.11 PM.png"
+      "mathspeed test/actual-practice-tests/ISEE Lower #2/Screenshot 2026-10-09 at 7.04.11 PM.png"
     ],
     "recapture_nav_color_read": "wrong",
     "her_selected_letter": "C",
@@ -4439,7 +4449,7 @@
       "D": null
     },
     "recapture_source_images": [
-      "Screenshot 2026-10-09 at 7.04.12 PM.png"
+      "mathspeed test/actual-practice-tests/ISEE Lower #2/Screenshot 2026-10-09 at 7.04.12 PM.png"
     ],
     "recapture_nav_color_read": "correct"
   },
@@ -4511,7 +4521,7 @@
       "D": null
     },
     "recapture_source_images": [
-      "Screenshot 2026-10-09 at 7.04.14 PM.png"
+      "mathspeed test/actual-practice-tests/ISEE Lower #2/Screenshot 2026-10-09 at 7.04.14 PM.png"
     ],
     "recapture_nav_color_read": "correct"
   },
@@ -4553,7 +4563,7 @@
       "D": null
     },
     "recapture_source_images": [
-      "Screenshot 2026-10-09 at 7.04.15 PM.png"
+      "mathspeed test/actual-practice-tests/ISEE Lower #2/Screenshot 2026-10-09 at 7.04.15 PM.png"
     ],
     "recapture_nav_color_read": "wrong",
     "her_selected_letter": "A",
@@ -4597,7 +4607,7 @@
       "D": null
     },
     "recapture_source_images": [
-      "Screenshot 2026-10-09 at 7.04.17 PM.png"
+      "mathspeed test/actual-practice-tests/ISEE Lower #2/Screenshot 2026-10-09 at 7.04.17 PM.png"
     ],
     "recapture_nav_color_read": "correct"
   },
@@ -4639,7 +4649,7 @@
       "D": null
     },
     "recapture_source_images": [
-      "Screenshot 2026-10-09 at 7.04.18 PM.png"
+      "mathspeed test/actual-practice-tests/ISEE Lower #2/Screenshot 2026-10-09 at 7.04.18 PM.png"
     ],
     "recapture_nav_color_read": "wrong",
     "her_selected_letter": "C",
@@ -4683,7 +4693,7 @@
       "D": null
     },
     "recapture_source_images": [
-      "Screenshot 2026-10-09 at 7.04.20 PM.png"
+      "mathspeed test/actual-practice-tests/ISEE Lower #2/Screenshot 2026-10-09 at 7.04.20 PM.png"
     ],
     "recapture_nav_color_read": "correct"
   },
@@ -4725,7 +4735,7 @@
       "D": null
     },
     "recapture_source_images": [
-      "Screenshot 2026-10-09 at 7.04.21 PM.png"
+      "mathspeed test/actual-practice-tests/ISEE Lower #2/Screenshot 2026-10-09 at 7.04.21 PM.png"
     ],
     "recapture_nav_color_read": "wrong",
     "her_selected_letter": "C",
@@ -4769,7 +4779,7 @@
       "D": null
     },
     "recapture_source_images": [
-      "Screenshot 2026-10-09 at 7.04.23 PM.png"
+      "mathspeed test/actual-practice-tests/ISEE Lower #2/Screenshot 2026-10-09 at 7.04.23 PM.png"
     ],
     "recapture_nav_color_read": "wrong",
     "her_selected_letter": "C",
@@ -4813,7 +4823,7 @@
       "D": null
     },
     "recapture_source_images": [
-      "Screenshot 2026-10-09 at 7.04.24 PM.png"
+      "mathspeed test/actual-practice-tests/ISEE Lower #2/Screenshot 2026-10-09 at 7.04.24 PM.png"
     ],
     "recapture_nav_color_read": "wrong",
     "her_selected_letter": "C",
@@ -35971,36 +35981,6 @@
     "source_images": [
       "Screenshot 2026-10-09 at 9.18.36 PM.png"
     ]
-  },
-  {
-    "global_id": 1206,
-    "source": "isee_official_screenshot",
-    "type": "question",
-    "set_name": "ISEE Lower #2",
-    "question_number": "6",
-    "question_text": "In the equation triangle x circle = 24, the triangle and the circle represent different numbers. Which equation is in the same fact family?",
-    "diagram_description": "none (symbols triangle and circle used as variables)",
-    "choices": [
-      "24 x circle = triangle",
-      "triangle x 24 = circle",
-      "24 / triangle = circle",
-      "circle / triangle = 24"
-    ],
-    "correct_letter": "C",
-    "is_wrong": false,
-    "official_topic": "Algebra with Geometric Shapes",
-    "official_solution": "The correct answer to the question is answer choice (C), 24 / triangle = circle. Recall that when dividing the product by one of the factors, the other factor is the result.",
-    "choice_percentages": {
-      "A": "<5.0%",
-      "B": "<5.0%",
-      "C": "94.5%",
-      "D": "<5.0%"
-    },
-    "notes": "From recaptureQR 2026-10-09 cataloguing. Could not be confidently text-matched to an existing library entry (shape-variable puzzle, possible near-duplicate wording) -- added as a separate entry rather than merged. May duplicate an existing entry under different phrasing; flagged for manual review.",
-    "source_images": [
-      "Screenshot 2026-10-09 at 7.03.35 PM.png"
-    ],
-    "needs_dedup_review": true
   },
   {
     "global_id": 1207,
