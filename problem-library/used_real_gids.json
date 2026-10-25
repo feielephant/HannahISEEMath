@@ -249,6 +249,12 @@
         "global_id": 791,
         "topic": "Solving Problems with Geometric Formulas",
         "note": "swapped out English Unit Conversions -- too close in skill to #10; kept #10 as the harder item. Doubles up this topic with #37 (different real item), intentional given confirmed 33% wrong rate"
+      },
+      {
+        "n": 8,
+        "global_id": 657,
+        "topic": "Matching Stories to Equations",
+        "note": "swapped out Estimating Multiplication and Division -- that topic is accurate-but-slow and fine on its own, but parent prioritized this genuinely under-covered topic (1 graded instance ever vs 6 real items, 2/6 wrong on real tests)"
       }
     ],
     "7_from_ma_library": [
