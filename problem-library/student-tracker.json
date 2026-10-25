@@ -1,6 +1,6 @@
 {
  "student": "Hannah",
- "updated": "2026-10-21",
+ "updated": "2026-10-25",
  "test_format": {
   "problems": 38,
   "minutes": 35,
@@ -19,36 +19,36 @@
    "tier": "Hard",
    "real_tests": 6,
    "wrong": 10,
-   "graded": 30,
+   "graded": 31,
    "habits": [
     "check-every-condition",
     "exact-thing-asked"
    ],
    "priority": "high",
-   "_sec_total": 116.0,
-   "_sec_n": 2,
-   "avg_seconds": 58.0
+   "_sec_total": 123.0,
+   "_sec_n": 3,
+   "avg_seconds": 41.0
   },
   {
    "topic": "Area and Perimeter of Complex Polygons",
    "tier": "Hard",
    "real_tests": 6,
    "wrong": 6,
-   "graded": 14,
+   "graded": 15,
    "habits": [
     "check-every-condition"
    ],
    "priority": "high",
-   "_sec_total": 398.0,
-   "_sec_n": 3,
-   "avg_seconds": 132.7
+   "_sec_total": 464.0,
+   "_sec_n": 4,
+   "avg_seconds": 116.0
   },
   {
    "topic": "Translating Math Expressions",
    "tier": "Hard",
    "real_tests": 8,
    "wrong": 7,
-   "graded": 29,
+   "graded": 30,
    "habits": [
     "key-word-watch",
     "simplify-constants",
@@ -56,21 +56,21 @@
    ],
    "priority": "high",
    "evidence_2026-10-07": "Set 2 #23 revised 2026-10-07: she answered in 9.8s with a single confident click, no revision \u2014 fast, not laboring over phrasing. She correctly understands 'five less than X' means 'X \u2212 5' (not a comprehension gap). The real gap: she can't simplify 3n + 8 \u2212 5 down to 3n + 3 herself, so she scans the choices for one that visibly shows a trailing '\u2212 5' instead of deriving and matching her own simplified expression. C (3(n + 8) \u2212 5) is the only choice with that literal surface feature, which is exactly why it's such an effective trap for her \u2014 the correct answer (3n + 3) has already absorbed the \u22125, so it doesn't 'look like' what she's hunting for. 'scans-for-surface-match' is a separate, nameable habit from the simplification gap \u2014 it would mislead her on other problems too, even ones she partly understands.",
-   "_sec_total": 235.0,
-   "_sec_n": 5,
-   "avg_seconds": 47.0
+   "_sec_total": 256.0,
+   "_sec_n": 6,
+   "avg_seconds": 42.7
   },
   {
    "topic": "Solving Problems with Geometric Formulas",
    "tier": "Hard",
    "real_tests": 4,
-   "wrong": 2,
-   "graded": 6,
+   "wrong": 4,
+   "graded": 8,
    "habits": [],
    "priority": "medium",
-   "_sec_total": 36.0,
-   "_sec_n": 1,
-   "avg_seconds": 36.0
+   "_sec_total": 76.0,
+   "_sec_n": 3,
+   "avg_seconds": 25.3
   },
   {
    "topic": "Fractional Parts Word Problems",
@@ -131,15 +131,15 @@
    "tier": "Hard",
    "real_tests": 3,
    "wrong": 3,
-   "graded": 16,
+   "graded": 17,
    "habits": [
     "exact-thing-asked"
    ],
    "priority": "medium",
    "evidence_2026-10-04": "Determining Averages #2: Q1 marked wrong (picked C, correct D)",
-   "_sec_total": 282.0,
-   "_sec_n": 3,
-   "avg_seconds": 94.0
+   "_sec_total": 414.0,
+   "_sec_n": 4,
+   "avg_seconds": 103.5
   },
   {
    "topic": "Number of Unique Paths Diagonals",
@@ -212,8 +212,8 @@
    "topic": "Multi-step unit conversion (off-by-10, multi-step)",
    "tier": "Medium",
    "real_tests": null,
-   "wrong": 4,
-   "graded": 7,
+   "wrong": 5,
+   "graded": 8,
    "habits": [
     "exact-thing-asked"
    ],
@@ -221,24 +221,24 @@
    "note": "7/10 multi-step wrong on Elevate Prep drill p.144; off-by-10 confirmed",
    "evidence_2026-10-07": "Set 2 (2026-10-06): miscounted a zero \u2014 matches the existing off-by-10 habit, not a new issue (#32)",
    "cross_reference_2026-10-11": "Same off-by-10 pattern confirmed again on set 3 #19 (Equivalent Fractions, Decimals, and Percents: 0.045 misread/treated as 0.45) -- see that topic's mechanism_2026-10-11_q19 note. Third confirmed instance of this habit now, across three different topics -- genuinely cross-topic, not tied to unit conversion specifically.",
-   "_sec_total": 395.0,
-   "_sec_n": 4,
-   "avg_seconds": 98.8
+   "_sec_total": 455.0,
+   "_sec_n": 5,
+   "avg_seconds": 91.0
   },
   {
    "topic": "Estimation (sums, products, money, ranges)",
    "tier": "Medium",
    "real_tests": null,
    "wrong": 4,
-   "graded": 13,
+   "graded": 14,
    "habits": [
     "compute-both-sides"
    ],
    "priority": "high",
    "note": "biggest gap by count on official tests",
-   "_sec_total": 132.0,
-   "_sec_n": 3,
-   "avg_seconds": 44.0
+   "_sec_total": 281.0,
+   "_sec_n": 4,
+   "avg_seconds": 70.2
   },
   {
    "topic": "Divisibility / number constraints (Serena/Who am I style)",
@@ -260,8 +260,8 @@
    "topic": "Cryptarithm / digit substitution",
    "tier": "Hard",
    "real_tests": null,
-   "wrong": 3,
-   "graded": 4,
+   "wrong": 4,
+   "graded": 5,
    "habits": [
     "exact-thing-asked",
     "no-bounding-strategy"
@@ -270,9 +270,9 @@
    "note": "platform links this to Interpreting Pictographs",
    "mechanism_2026-10-11": "Parent discussed set 3 #34 (PP+QQ=RST, 'what digit does R represent', answer A=1) with her directly. Her gap: she doesn't spontaneously think to BOUND the problem -- i.e. reason 'PP and QQ are each at most 99 and 88 (different repeated digits), so the sum can't exceed 187, which is under 200, so R must be 1.' This bounding-the-extremes strategy is the standard approach for 'what digit must this be' cryptarithm questions and she doesn't reach for it on her own yet. Real strategy gap, worth walking through explicitly as a named technique ('when a digit question asks what MUST be true, try bounding the max/min first') rather than just re-explaining this one problem.",
    "parent_flagged_ambiguity_2026-10-11": "Parent raised a concern that the question wording ('what digit does R represent') isn't deterministic without the real original's 'PP and QQ need to be as large as possible' constraint, since R could in principle be 0. Checked this carefully: it does NOT hold up -- the question explicitly states 'each letter represents a different digit from 1 through 9,' which excludes 0 as a possible value for ANY letter including R, by the problem's own stated domain. Separately, since PP+QQ maxes out at 187 and must be >=100 for the sum to display as a 3-digit RST at all, R is forced to be 1 for every valid assignment (not just the 'largest possible' one) -- confirmed by construction with a concrete valid solution (P=8,Q=5,R=1,S=4,T=3: 88+55=143, all 5 digits distinct, none zero). The 'as large as possible' phrase in the real original problem was likely needed to pin down a UNIQUE value of S or T (which DO vary across valid P,Q choices), not R, which is invariant. So this problem's phrasing is fine as published -- no live-worksheet fix made. Documenting the reasoning here in case it needs revisiting.",
-   "_sec_total": 39.0,
-   "_sec_n": 2,
-   "avg_seconds": 19.5
+   "_sec_total": 74.0,
+   "_sec_n": 3,
+   "avg_seconds": 24.7
   },
   {
    "topic": "Key-word NOT in equivalence questions",
@@ -328,14 +328,14 @@
    "tier": "Medium",
    "real_tests": null,
    "wrong": 3,
-   "graded": 6,
+   "graded": 7,
    "habits": [],
    "priority": "high",
    "note": "examples added 2026-10-03; no graded results yet",
    "ma_real_test_note": "Also has real MA-section evidence from ma_library.json: 1/2 wrong on actual past screenshots (pre-tutoring). Merged into this topic's combined QR+MA counts above.",
-   "_sec_total": 233.0,
-   "_sec_n": 4,
-   "avg_seconds": 58.2,
+   "_sec_total": 278.0,
+   "_sec_n": 5,
+   "avg_seconds": 55.6,
    "habit_2026-10-13": "Confirmed MA1 #13 (2026-10-13): computes the intermediate value correctly but reports it instead of finishing the question (missed keyword \"left\"). Keyword-reading gap, not a computation gap."
   },
   {
@@ -356,8 +356,8 @@
    "topic": "Comparing & Ordering Fractions & Decimals",
    "tier": "Medium",
    "real_tests": null,
-   "wrong": 6,
-   "graded": 17,
+   "wrong": 7,
+   "graded": 18,
    "habits": [
     "decimal-vs-nonnice-fraction",
     "benchmark-0.5-fluency"
@@ -366,9 +366,9 @@
    "evidence_2026-10-07": "Set 2 (2026-10-06): real gap, 2/3 wrong \u2014 see reviews/speed-set-2-review-2026-10-07.html",
    "mechanism_2026-10-11": "This tag was flagged in set 2 but never had a documented cause -- the mechanism was confirmed 2026-10-11 by watching her work set 3 #21 (a different topic, Total Shaded Area, same tag -- see that topic's mechanism_2026-10-11 note for the full writeup). Short version: her go-to fraction-to-percent method scales the ORIGINAL denominator straight to 100, which only works cleanly when that denominator is already a factor of 100. She doesn't reliably fall back to simplifying first or long division when it isn't. Likely the same mechanism behind the misses on Equivalent Fractions/Decimals/Percents and Converting to a Decimal (same cluster, same conversion skill) -- hypothesis, not yet directly observed on those two specifically.",
    "benchmark_mechanism_2026-10-11": "Separate, more specific issue confirmed on set 3 #12 (order 5/9, 0.52, 7/15 least to greatest): parent told her 7/15 < 0.5 because 7/14 = 0.5 exactly and 15 > 14, so 7/15 is a touch less. Once given that comparison-to-0.5 technique, she could apply it fine -- so this is NOT a conceptual gap in benchmark comparison. The gap is that she isn't automatically reaching for 0.5 as a benchmark unless it's a 'well-known' near-half (8/16, 3/6, 4/8 -- numerator obviously close to half the denominator by inspection). A less common pairing like 7/15 (needs a quick check: is 15 even? half of 15 is 7.5, so 7 < 7.5 means <0.5) doesn't trigger the same instinct. Fix target: practice the 0.5-benchmark technique specifically on less-obvious/odd-denominator fractions, not just the easy-to-spot ones -- fluency/automaticity gap, not understanding gap.",
-   "_sec_total": 262.0,
-   "_sec_n": 8,
-   "avg_seconds": 32.8,
+   "_sec_total": 346.0,
+   "_sec_n": 9,
+   "avg_seconds": 38.4,
    "ma_real_test_note": "Also has real MA-section evidence from ma_library.json: 1/6 wrong on actual past screenshots (pre-tutoring). Merged into this topic's combined QR+MA counts above."
   },
   {
@@ -376,29 +376,29 @@
    "tier": "Easy",
    "real_tests": null,
    "wrong": 1,
-   "graded": 10,
+   "graded": 11,
    "habits": [],
    "priority": "medium",
    "evidence_2026-10-07": "CORRECTED 2026-10-07: #36 is not a pictograph/fractional-multiplier gap. Her first instinct on the real test was C = 54, the correct answer \u2014 she computed 4.5\u00d712 right the first time, then talked herself out of it (changed to A, then B, then back to A) in the last 1.5 seconds. This is the confidence/second-guessing habit also seen on #9 (in the opposite direction), not a gap in this topic. Removed the unconfirmed-fractional-multiplier habit and the retest flag \u2014 she knows this.",
    "format_note_2026-10-11": "Found by a new automated check (sanitize_diagrams.py's check_missing_diagram): all 3 set-2 slots for this topic (#10, #29, #36) had NO actual pictograph -- every value was stated directly in the question text ('Green got 7 stars', 'pizza got 16 votes', 'the chart shows 4\u00bd stickers'), which isn't how any real 'Interpreting Pictographs' example in the library does it (they all say 'the chart/graph below shows...' and expect her to read values off it). Set 2 was already taken, so this can't be fixed retroactively -- but it does mean #36's evidence above was gathered on a text-only version that never actually tested pictograph-reading, just mixed-number multiplication. The 2026-10-07 conclusion (confidence habit, not a gap) still stands on its own evidence (the flip-flop pattern), but genuine pictograph-interpretation itself remains untested. Fixed live worksheet (speed-set-2.html/-answer-key.html) with real star/dot pictographs so future reuse of this topic is authentic.",
    "ma_real_test_note": "Also has real MA-section evidence from ma_library.json: 0/4 wrong on actual past screenshots (pre-tutoring). Merged into this topic's combined QR+MA counts above.",
-   "_sec_total": 88.0,
-   "_sec_n": 3,
-   "avg_seconds": 29.3
+   "_sec_total": 110.0,
+   "_sec_n": 4,
+   "avg_seconds": 27.5
   },
   {
    "topic": "Adding and Subtracting Decimals",
    "tier": "Easy",
    "real_tests": null,
    "wrong": 2,
-   "graded": 9,
+   "graded": 10,
    "habits": [],
    "priority": "medium",
    "evidence_2026-10-07": "Set 2 (2026-10-06): single-digit addition slip on review, not a method problem (#26)",
    "ma_real_test_note": "Also has real MA-section evidence from ma_library.json: 1/3 wrong on actual past screenshots (pre-tutoring). Merged into this topic's combined QR+MA counts above.",
-   "_sec_total": 322.0,
-   "_sec_n": 4,
-   "avg_seconds": 80.5
+   "_sec_total": 366.0,
+   "_sec_n": 5,
+   "avg_seconds": 73.2
   },
   {
    "topic": "Solving for Missing Sides given Similar Figures",
@@ -417,13 +417,13 @@
    "tier": "Medium",
    "real_tests": null,
    "wrong": 1,
-   "graded": 4,
+   "graded": 5,
    "habits": [],
    "priority": "medium",
    "evidence_2026-10-07": "CORRECTED 2026-10-07: her wrong answer on #22 was 115, which is exactly 23\u00d75 (252\u00f712 miscounted as 23 instead of 21) or a miscarried 21\u00d75. Either way that number proves she DID both steps (divide, then multiply by 5) and slipped on one digit \u2014 if she'd really stopped after dividing she couldn't have landed on 115 at all. Reclassified from 'real gap, stops after first step' to a plain calculation slip, same bucket as #26. Recalculating fixed it without re-teaching, which is the clearest sign it wasn't a missing method. CONFIRMED by Hannah directly: she did 252\u00f712 in her head the first time and got it wrong; redoing it with long division gave the correct 21. Fix is a habit (use long division for this kind of multi-digit division, not mental math under time pressure), not re-teaching a method.",
-   "_sec_total": 217.0,
-   "_sec_n": 2,
-   "avg_seconds": 108.5
+   "_sec_total": 308.0,
+   "_sec_n": 3,
+   "avg_seconds": 102.7
   },
   {
    "topic": "Probability (simple, equally likely outcomes)",
@@ -442,7 +442,7 @@
    "tier": "Medium",
    "real_tests": null,
    "wrong": 3,
-   "graded": 6,
+   "graded": 7,
    "habits": [
     "ratio-partition-forgotten (set 2 only)",
     "exact-thing-asked (set 3 #33 -- her answer 21 = 3x7, the cats count via a correctly-run partition method, but the question asked for dogs. This is the 6th topic this exact habit has shown up under -- see Percent Word Problems, Fractional Parts Word Problems, Determining Averages between Points on Number Lines, Multi-step unit conversion, and Cryptarithm, all tagged with the same habit. Cross-topic pattern, not specific to ratios -- the fix is a general exam habit (re-read what's actually asked before finalizing), not more ratio practice specifically."
@@ -450,9 +450,9 @@
    "priority": "high",
    "evidence_2026-10-07": "Set 2 (2026-10-06): real gap, 1/1 wrong \u2014 see reviews/speed-set-2-review-2026-10-07.html",
    "evidence_2026-10-11": "Set 3 #33: wrong again, 21s, no reconsideration -- but the wrong number (21) could only come from a correctly-run partition method, so this looks like a different failure mode than set 2's (reading/attention on which quantity was asked, not the method itself). Flagged to confirm directly with her which it actually was.",
-   "_sec_total": 146.0,
-   "_sec_n": 4,
-   "avg_seconds": 36.5
+   "_sec_total": 328.0,
+   "_sec_n": 5,
+   "avg_seconds": 65.6
   },
   {
    "topic": "Multiplying and Dividing Integers",
@@ -484,15 +484,15 @@
    "tier": "Medium",
    "real_tests_note": "not yet cross-checked against official-test tagging as of 2026-10-11; introduced via set 3 (book/platform-sourced)",
    "wrong": 4,
-   "graded": 8,
+   "graded": 9,
    "habits": [
     "first-order-only pattern reading"
    ],
    "priority": "high",
    "mechanism_2026-10-11": "Parent discussed set 3 #6 with her directly (5, 11, 23, 47, ___; differences double 6,12,24,48; answer 95; she picked 94 = just doubling the last term). Diagnosis: she's solid on FIRST-ORDER patterns -- where the terms themselves have a constant gap, or the terms themselves double/follow an obvious rule. She struggles when the pattern lives in the SECOND ORDER -- i.e. when the DIFFERENCES between terms are what's changing at a steady pace or doubling, not the terms directly. On #6 specifically she fell for exactly this: doubled the term (47->94) instead of checking the differences first. Fix target: practice explicitly computing the difference sequence as a first step on any pattern problem, before trying to spot a rule in the raw terms -- a specific strategy gap, not vague 'needs more practice with patterns.'",
-   "_sec_total": 683.0,
-   "_sec_n": 7,
-   "avg_seconds": 97.6,
+   "_sec_total": 1021.0,
+   "_sec_n": 8,
+   "avg_seconds": 127.6,
    "ma_real_test_note": "Also has real MA-section evidence from ma_library.json: 1/1 wrong on actual past screenshots (pre-tutoring). Merged into this topic's combined QR+MA counts above.",
    "habit_2026-10-13": "Confirmed MA1 #4 (2026-10-13): did not derive the rule from successive differences (5,10,20 doubling); answered off-pattern. Fix: write out differences between given terms before extending."
   },
@@ -501,13 +501,13 @@
    "tier": "Medium",
    "real_tests_note": "not yet cross-checked against official-test tagging as of 2026-10-11; introduced via set 3 (book/platform-sourced)",
    "wrong": 0,
-   "graded": 3,
+   "graded": 4,
    "habits": [],
    "priority": "medium",
    "priority_note_2026-10-11": "Bumped from unknown: 0 wrong so far but 74.7s average (set 3's overall average was 54.9s) -- slow-but-correct can mean fragile understanding before it shows up as a wrong answer. Worth watching.",
-   "_sec_total": 224.0,
-   "_sec_n": 3,
-   "avg_seconds": 74.7
+   "_sec_total": 259.0,
+   "_sec_n": 4,
+   "avg_seconds": 64.8
   },
   {
    "topic": "Finding Perimeter and Area of a Square",
@@ -526,7 +526,7 @@
    "tier": "Medium",
    "real_tests_note": "not yet cross-checked against official-test tagging as of 2026-10-11; introduced via set 3 (book/platform-sourced)",
    "wrong": 1,
-   "graded": 5,
+   "graded": 6,
    "habits": [
     "decimal-vs-nonnice-fraction"
    ],
@@ -534,9 +534,9 @@
    "mechanism_2026-10-11": "CONFIRMED (parent watched her work #21 directly, 9/15 shaded): her default fraction-to-percent method is 'find x so that denominator x x = 100, then numerator x x' -- i.e. scale the ORIGINAL denominator straight to 100. This only produces a clean answer when the denominator is already a factor of 100 (2,4,5,10,20,25,50...). 15 is not (100/15 isn't a whole number), so the method breaks down and she mis-converts (landed on 90% instead of 60%). She has two reliable fallbacks available but doesn't default to either: (1) simplify the fraction FIRST, then scale -- 9/15 -> 3/5, and 5 IS a factor of 100 (x20), giving 3x20=60% cleanly; (2) direct long division, 9\u00f715=0.6=60%, which always works regardless of the denominator. This is the actual mechanism behind the existing 'decimal-vs-nonnice-fraction' habit tag (flagged in set 2 but never written up with a cause) -- not a concept gap (she understands fraction=percent equivalence fine), a PROCEDURE gap: no reliable fallback when the quick mental shortcut doesn't land on a whole number.",
    "note": "underlying skill is the same fraction-to-percent conversion as [[decimal-fraction-percent cluster]] -- the question literally asks 'what percent of the figure is shaded,' method is count shaded/total then simplify and convert (set 3 #21: 9/15 -> 3/5 -> 60%, she answered 90%). Only a 1-item sample so far, but ties this topic to the broader recurring cluster (Comparing & Ordering Fractions & Decimals, Equivalent Fractions/Decimals/Percents, Converting to a Decimal) rather than treating it as an isolated geometry miss.",
    "format_note_2026-10-11": "Found by the same new automated check that caught #23/#37's format issue: set 3's other slot for this topic, #22, had NO diagram either -- it stated the fraction directly in text ('if 5/8 of the figure is shaded...') instead of showing a figure for her to read the fraction off of, unlike every real-test example of this topic which always shows a figure. She answered #22 correctly, so the graded outcome doesn't change, but the problem wasn't testing the real skill (just 5/8 x 24, no figure-reading). Fixed live worksheet: now shows an 8-section grid with 5 shaded, same convention as #21.",
-   "_sec_total": 358.0,
-   "_sec_n": 5,
-   "avg_seconds": 71.6
+   "_sec_total": 382.0,
+   "_sec_n": 6,
+   "avg_seconds": 63.7
   },
   {
    "topic": "Split Line Segments",
@@ -572,13 +572,13 @@
    "subject": "MA",
    "real_tests": 3,
    "wrong": 4,
-   "graded": 9,
+   "graded": 11,
    "habits": [],
    "priority": "high",
    "real_tests_note": "From ma_library.json: 3 real questions from past screenshots (What to Expect + ISEE Lower #1-4), 3 confirmed wrong. Not yet re-tested via our own MA practice sets (MA1 regenerated 2026-10-11, not yet taken).",
-   "_sec_total": 270.0,
-   "_sec_n": 6,
-   "avg_seconds": 45.0
+   "_sec_total": 325.0,
+   "_sec_n": 8,
+   "avg_seconds": 40.6
   },
   {
    "topic": "Remainder when Divided by a given Number",
@@ -586,13 +586,13 @@
    "subject": "MA",
    "real_tests": 1,
    "wrong": 3,
-   "graded": 5,
+   "graded": 6,
    "habits": [],
    "priority": "high",
    "real_tests_note": "From ma_library.json: 1 real questions from past screenshots (What to Expect + ISEE Lower #1-4), 1 confirmed wrong. Not yet re-tested via our own MA practice sets (MA1 regenerated 2026-10-11, not yet taken).",
-   "_sec_total": 187.0,
-   "_sec_n": 3,
-   "avg_seconds": 62.3,
+   "_sec_total": 225.0,
+   "_sec_n": 4,
+   "avg_seconds": 56.2,
    "habit_2026-10-13": "Confirmed MA1 #2 (2026-10-13): tries to guess the remainder mentally instead of dividing it out. Fix: default to working the division."
   },
   {
@@ -601,13 +601,13 @@
    "subject": "MA",
    "real_tests": 1,
    "wrong": 1,
-   "graded": 5,
+   "graded": 6,
    "habits": [],
    "priority": "medium",
    "real_tests_note": "From ma_library.json: 1 real questions from past screenshots (What to Expect + ISEE Lower #1-4), 1 confirmed wrong. Not yet re-tested via our own MA practice sets (MA1 regenerated 2026-10-11, not yet taken).",
-   "_sec_total": 191.0,
-   "_sec_n": 4,
-   "avg_seconds": 47.8
+   "_sec_total": 251.0,
+   "_sec_n": 5,
+   "avg_seconds": 50.2
   },
   {
    "topic": "Predicting the Next Shapes given Progressive Pattern",
@@ -629,13 +629,13 @@
    "subject": "MA",
    "real_tests": 4,
    "wrong": 2,
-   "graded": 8,
+   "graded": 9,
    "habits": [],
    "priority": "high",
    "real_tests_note": "From ma_library.json: 4 real questions from past screenshots (What to Expect + ISEE Lower #1-4), 1 confirmed wrong. Not yet re-tested via our own MA practice sets (MA1 regenerated 2026-10-11, not yet taken).",
-   "_sec_total": 191.0,
-   "_sec_n": 4,
-   "avg_seconds": 47.8,
+   "_sec_total": 230.0,
+   "_sec_n": 5,
+   "avg_seconds": 46.0,
    "habit_2026-10-13": "Confirmed MA1 #8 (2026-10-13): uses n*step+first instead of (n-1)*step+first -- consistently one term ahead. A formula gap, needs direct nth-term-formula practice."
   },
   {
@@ -644,13 +644,13 @@
    "subject": "MA",
    "real_tests": 4,
    "wrong": 1,
-   "graded": 8,
+   "graded": 9,
    "habits": [],
    "priority": "medium",
    "real_tests_note": "From ma_library.json: 4 real questions from past screenshots (What to Expect + ISEE Lower #1-4), 1 confirmed wrong. Not yet re-tested via our own MA practice sets (MA1 regenerated 2026-10-11, not yet taken).",
-   "_sec_total": 120.0,
-   "_sec_n": 4,
-   "avg_seconds": 30.0
+   "_sec_total": 140.0,
+   "_sec_n": 5,
+   "avg_seconds": 28.0
   },
   {
    "topic": "Identifying Number Properties",
@@ -672,13 +672,13 @@
    "subject": "MA",
    "real_tests": 3,
    "wrong": 1,
-   "graded": 8,
+   "graded": 10,
    "habits": [],
    "priority": "medium",
    "real_tests_note": "From ma_library.json: 3 real questions from past screenshots (What to Expect + ISEE Lower #1-4), 1 confirmed wrong. Not yet re-tested via our own MA practice sets (MA1 regenerated 2026-10-11, not yet taken).",
-   "_sec_total": 607.0,
-   "_sec_n": 5,
-   "avg_seconds": 121.4
+   "_sec_total": 690.0,
+   "_sec_n": 7,
+   "avg_seconds": 98.6
   },
   {
    "topic": "Finding MMMR given Bar Graph Data Table",
@@ -714,13 +714,13 @@
    "subject": "MA",
    "real_tests": 4,
    "wrong": 1,
-   "graded": 7,
+   "graded": 8,
    "habits": [],
    "priority": "medium",
    "real_tests_note": "From ma_library.json: 4 real questions from past screenshots (What to Expect + ISEE Lower #1-4), 1 confirmed wrong. Not yet re-tested via our own MA practice sets (MA1 regenerated 2026-10-11, not yet taken).",
-   "_sec_total": 63.0,
-   "_sec_n": 3,
-   "avg_seconds": 21.0
+   "_sec_total": 81.0,
+   "_sec_n": 4,
+   "avg_seconds": 20.2
   },
   {
    "topic": "Finding Area/Perimeter of Rectangle, given Length & Width",
@@ -742,13 +742,13 @@
    "subject": "MA",
    "real_tests": 6,
    "wrong": 1,
-   "graded": 9,
+   "graded": 10,
    "habits": [],
    "priority": "medium",
    "real_tests_note": "From ma_library.json: 6 real questions from past screenshots (What to Expect + ISEE Lower #1-4), 1 confirmed wrong. Not yet re-tested via our own MA practice sets (MA1 regenerated 2026-10-11, not yet taken).",
-   "_sec_total": 260.0,
-   "_sec_n": 3,
-   "avg_seconds": 86.7
+   "_sec_total": 343.0,
+   "_sec_n": 4,
+   "avg_seconds": 85.8
   },
   {
    "topic": "Adding and Subtracting Integers",
@@ -867,7 +867,7 @@
    "tier": "Hard",
    "real_tests": 6,
    "wrong": 4,
-   "graded": 23,
+   "graded": 24,
    "habits": [
     "key-word-watch",
     "off-by-10 (same tag as Multi-step unit conversion)"
@@ -875,9 +875,9 @@
    "priority": "high",
    "hypothesis_2026-10-11": "Possibly also the 'decimal-vs-nonnice-fraction' mechanism confirmed on Total Shaded Area #21 (scaling the original denominator straight to 100 instead of simplifying first or using long division when it doesn't divide cleanly) -- same cluster, same conversion skill. Not yet directly observed here; existing 'key-word-watch' habit is a separate, already-confirmed issue -- both could be in play. Check her work on the next wrong answer here before confirming.",
    "mechanism_2026-10-11_q19": "CONFIRMED on set 3 #19 ('Which value is equivalent to 0.045?', answer 9/200): the trap answers 9/20 and 45% both equal 0.45, not 0.045 -- exactly one decimal place / one zero off. This matches the EXISTING 'off-by-10' habit already tracked under 'Multi-step unit conversion (off-by-10, multi-step)' (confirmed set 2 #32, originally from an Elevate Prep drill) -- same cross-topic zero-miscounting pattern, new context, not a new issue. Not a fraction-conversion concept gap. Parent taught a general verification technique: to check if a decimal equals a candidate fraction, multiply the decimal by the denominator and see if it lands on the numerator (e.g. 0.045 x 200 = 9, confirms C; 0.045 x 20 = 0.9, not 9, rules out A) -- a good general cross-check that catches zero-count slips a surface eyeball comparison misses.",
-   "_sec_total": 207.0,
-   "_sec_n": 6,
-   "avg_seconds": 34.5,
+   "_sec_total": 237.0,
+   "_sec_n": 7,
+   "avg_seconds": 33.9,
    "ma_real_tests_note": "From ma_library.json: 5 real questions from past screenshots (What to Expect + ISEE Lower #1-4), 1 confirmed wrong. Not yet re-tested via our own MA practice sets (MA1 regenerated 2026-10-11, not yet taken)."
   },
   {
@@ -935,13 +935,13 @@
    "topic": "Matching Stories to Equations",
    "tier": "Easy",
    "wrong": 0,
-   "graded": 1,
+   "graded": 2,
    "habits": [],
    "priority": "unknown",
    "real_tests_note": "not yet cross-checked against official-test tagging as of 2026-10-14",
-   "_sec_total": 31.0,
-   "_sec_n": 1,
-   "avg_seconds": 31.0
+   "_sec_total": 49.0,
+   "_sec_n": 2,
+   "avg_seconds": 24.5
   },
   {
    "topic": "English Unit Conversions",
@@ -1103,32 +1103,97 @@
    "topic": "Input Output Tables",
    "tier": "Medium",
    "wrong": 1,
-   "graded": 1,
+   "graded": 2,
    "habits": [],
    "priority": "unknown",
    "real_tests_note": "not yet cross-checked against official-test tagging as of 2026-10-21",
-   "_sec_total": 93.0,
-   "_sec_n": 1,
-   "avg_seconds": 93.0
+   "_sec_total": 105.0,
+   "_sec_n": 2,
+   "avg_seconds": 52.5
   },
   {
    "topic": "Finding Missing Side Length",
    "tier": "Medium",
    "wrong": 0,
-   "graded": 1,
+   "graded": 2,
    "habits": [],
    "priority": "unknown",
    "real_tests_note": "not yet cross-checked against official-test tagging as of 2026-10-21",
-   "_sec_total": 80.0,
-   "_sec_n": 1,
-   "avg_seconds": 80.0
+   "_sec_total": 126.0,
+   "_sec_n": 2,
+   "avg_seconds": 63.0
   },
   {
    "topic": "Finding Median, given Sets of Numbers",
    "tier": "unknown",
    "subject": "QR",
    "priority": "unknown",
-   "real_tests_note": "First exposure via QR7 slot 31, pulled as a real not_done item from ma_library.json (cross-library pull into a QR set). Not yet cross-checked against official-test tagging frequency."
+   "real_tests_note": "First exposure via QR7 slot 31, pulled as a real not_done item from ma_library.json (cross-library pull into a QR set). Not yet cross-checked against official-test tagging frequency.",
+   "wrong": 0,
+   "graded": 1,
+   "_sec_total": 33.0,
+   "_sec_n": 1,
+   "avg_seconds": 33.0
+  },
+  {
+   "topic": "Word Problems Linear Relationships",
+   "tier": "Medium",
+   "wrong": 0,
+   "graded": 1,
+   "habits": [],
+   "priority": "unknown",
+   "real_tests_note": "not yet cross-checked against official-test tagging as of 2026-10-25",
+   "_sec_total": 39.0,
+   "_sec_n": 1,
+   "avg_seconds": 39.0
+  },
+  {
+   "topic": "Algebraic Equations with Symbol Variables",
+   "tier": "Easy",
+   "wrong": 1,
+   "graded": 1,
+   "habits": [],
+   "priority": "unknown",
+   "real_tests_note": "not yet cross-checked against official-test tagging as of 2026-10-25",
+   "_sec_total": 35.0,
+   "_sec_n": 1,
+   "avg_seconds": 35.0
+  },
+  {
+   "topic": "Views of 3D Figures",
+   "tier": "unknown",
+   "wrong": 0,
+   "graded": 1,
+   "habits": [],
+   "priority": "unknown",
+   "real_tests_note": "not yet cross-checked against official-test tagging as of 2026-10-25",
+   "_sec_total": 18.0,
+   "_sec_n": 1,
+   "avg_seconds": 18.0
+  },
+  {
+   "topic": "Averaging Mixed Numbers",
+   "tier": "Hard",
+   "wrong": 0,
+   "graded": 1,
+   "habits": [],
+   "priority": "unknown",
+   "real_tests_note": "not yet cross-checked against official-test tagging as of 2026-10-25",
+   "_sec_total": 50.0,
+   "_sec_n": 1,
+   "avg_seconds": 50.0
+  },
+  {
+   "topic": "Mixture Problems",
+   "tier": "Medium",
+   "wrong": 0,
+   "graded": 1,
+   "habits": [],
+   "priority": "unknown",
+   "real_tests_note": "not yet cross-checked against official-test tagging as of 2026-10-25",
+   "_sec_total": 48.0,
+   "_sec_n": 1,
+   "avg_seconds": 48.0
   }
  ],
  "pacing": {

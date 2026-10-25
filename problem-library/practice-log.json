@@ -689,7 +689,35 @@
     "Solving Problems with Geometric Formulas",
     "Interpreting Pictographs"
    ],
-   "published_commit": "091c2a6ab755eff7896257dadeca1370c4b4f88d"
+   "published_commit": "091c2a6ab755eff7896257dadeca1370c4b4f88d",
+   "graded_2026-10-25": {
+    "score": "32/38",
+    "wrong": [
+     1,
+     4,
+     7,
+     10,
+     15,
+     37
+    ],
+    "blank": [],
+    "total_elapsed_minutes": 35.0,
+    "first_then_changed": {
+     "wrong_to_right": [
+      13
+     ],
+     "wrong_to_wrong": [],
+     "right_to_wrong": []
+    },
+    "notes_summary": {
+     "1": "Did not write the equation out \u2014 mental-math gap",
+     "4": "Letter misread, plus a real borrowing/regrouping gap",
+     "7": "Ordering more than 2 numbers \u2014 confirmed, number-line technique works",
+     "10": "Did multi-step conversion mentally instead of on paper",
+     "15": "Worksheet formatting bug, not a skill gap \u2014 flagging for the template",
+     "37": "Same mental-math gap as #1, not pacing"
+    }
+   }
   }
  ],
  "rotation_notes": {
