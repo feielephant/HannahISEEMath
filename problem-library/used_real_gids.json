@@ -255,6 +255,12 @@
         "global_id": 657,
         "topic": "Matching Stories to Equations",
         "note": "swapped out Estimating Multiplication and Division -- that topic is accurate-but-slow and fine on its own, but parent prioritized this genuinely under-covered topic (1 graded instance ever vs 6 real items, 2/6 wrong on real tests)"
+      },
+      {
+        "n": 7,
+        "global_id": 672,
+        "topic": "Comparing & Ordering Fractions & Decimals",
+        "note": "swapped at parent request -- same topic (3-value fraction/decimal ordering -> 4-value pure-fraction ordering), both testing the confirmed order-three/order-four gap"
       }
     ],
     "7_from_ma_library": [
