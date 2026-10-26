@@ -220,10 +220,10 @@ add(7, "Medium", "Predicting the Next Shapes given Progressive Pattern",
     diagram=plus_pattern())
 
 add(8, "Medium", "Identifying Number Properties",
-    "Priya is solving 7 &times; 13. She breaks it into (7 &times; 10) + ( ? ) to make the multiplication easier. What is the missing part of Priya's expression?",
-    {"A": "3", "B": "10", "C": "(7 + 3)", "D": "(7 &times; 3)"}, "D",
-    "<b>Answer: D.</b> 13 = 10 + 3, so 7 &times; 13 = (7&times;10) + (7&times;3). The missing part must still be multiplied by 7, not left as a bare 3 -- that's the trap in A.",
-    None, "Tier: Medium &middot; Topic: Identifying Number Properties &middot; Diagram: no &middot; Wrong so far: 1/6 &middot; Times practised before: 2 (last: set 6) &middot; Fixed 2026-10-26: matched to the real item's exact text-only format (no diagram) and restored the re-multiply trap (she went 14s/correct on this trap on set 6 -- an earlier draft of this problem had pre-written the ×7 into the blank, which accidentally removed the one trap she's already proven solid on.)")
+    "Which expression is equivalent to 12 &times; (15 + 8)?",
+    {"A": "(12 &times; 15) + 8", "B": "(15 &times; 8) + 12", "C": "(12 + 15) + (12 + 8)", "D": "(12 &times; 15) + (12 &times; 8)"}, "D",
+    "<b>Answer: D.</b> Distribute the 12 into BOTH terms: 12 &times; (15 + 8) = (12&times;15) + (12&times;8). (A distributes into only the first term and leaves the second term bare -- this is her exact real-test error, ISEE Lower #2 Q26: 'Which expression is equivalent to 16 &times; (13 + 19)?', she picked (16&times;13)+19 instead of (16&times;13)+(16&times;19).)",
+    None, "Tier: Medium &middot; Topic: Identifying Number Properties &middot; Diagram: no &middot; Wrong so far: 1/6 (tracker figure; a fuller history check found 4 generated-set instances all right plus a real-test miss on ISEE Lower #2, not yet reconciled into this count) &middot; Times practised before: 2 (last: set 6) &middot; Swapped 2026-10-26 to the harder real-test format (identify the fully-expanded equivalent expression, no fill-in-blank scaffold) after a full history check found she's 4/4 on the EASIER fill-in-blank version across 4 practice sets but has never been retested on this exact harder format since missing it for real on 9/13 -- the two formats test a meaningfully different level of independence (supplying one missing piece vs. remembering to distribute into both terms unprompted).")
 
 add(9, "Easy", "Finding Area/Perimeter of Rectangle, given Length & Width",
     "The perimeter of the rectangle shown is 78 cm. What is the area of the rectangle?",
