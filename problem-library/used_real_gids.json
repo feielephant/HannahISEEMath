@@ -340,6 +340,16 @@
     "global_id": 589,
     "topic": "Remainder when Divided by a given Number",
     "note": "done item, fresh numbers, reverse-division variant"
+   },
+   {
+    "n": 24,
+    "global_id": 896,
+    "topic": "No Remainder when Divided by a given Number"
+   },
+   {
+    "n": 37,
+    "global_id": 892,
+    "topic": "No Remainder when Divided by a given Number"
    }
   ]
  },

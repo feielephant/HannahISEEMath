@@ -334,11 +334,11 @@ add(23, "Easy", "Nth Term, given Arithmetic Sequence, Progressive Pattern, etc."
     None, "Tier: Easy &middot; Topic: Nth Term, given Arithmetic Sequence, Progressive Pattern, etc. &middot; Diagram: no &middot; Wrong so far: 2/9 &middot; Times practised before: 3 (last: set 7)")
 
 add(24, "Medium", "No Remainder when Divided by a given Number",
-    "Which whole number is divisible by both 4 and 5 without leaving a remainder?",
-    {"A": "60", "B": "45", "C": "32", "D": "50"}, "A",
-    "<b>Answer: A.</b> 60 &divide; 4 = 15 and 60 &divide; 5 = 12, both whole numbers. 45 is divisible by 5 but not 4. 32 is divisible by 4 but not 5. 50 is divisible by 5 but not 4. Only 60 satisfies BOTH conditions.",
+    "Which whole number is divisible by 9?",
+    {"A": "396", "B": "399", "C": "393", "D": "390"}, "A",
+    "<b>Answer: A.</b> 396 &divide; 9 = 44, a whole number. (Digit-sum check: 3+9+6=18, divisible by 9.) The others: 399 (digit sum 21, not divisible by 9), 393 (digit sum 15), 390 (digit sum 12) -- none divisible by 9.",
     "check-every-condition",
-    "Tier: Medium &middot; Topic: No Remainder when Divided by a given Number &middot; Diagram: no &middot; Wrong so far: 4/11 &middot; Times practised before: 6 (last: set 7) &middot; Fixed 2026-10-26: real model item (gid58) is plain text, no diagram.")
+    "Tier: Medium &middot; Topic: No Remainder when Divided by a given Number &middot; Diagram: no &middot; Wrong so far: 4/11 &middot; Times practised before: 6 (last: set 7) &middot; Real, unused not_done library item (global_id 896), used verbatim. Rebuilt 2026-10-26 (2nd pass): checked her 3 real-test misses on this topic -- all 3 are SINGLE-divisor, large-number items ('Which whole number is divisible by 9? [2,047/2,109/2,403/2,909]' etc.), not the compound 'divisible by both X and Y' format this item and #37 were both using. The compound format is a different, easier-for-her mechanism (7/8 right in practice) that doesn't match what's actually failing (0/3 on real tests) -- switched to the real single-divisor-large-number format.")
 
 add(25, "Medium", "Multi-step unit conversion (off-by-10, multi-step)",
     "How many pints are in 2.5 gallons? (1 gallon = 4 quarts, 1 quart = 2 pints)",
@@ -426,10 +426,10 @@ add(36, "Easy", "Key-word NOT in equivalence questions",
     "Tier: Easy &middot; Topic: Key-word NOT in equivalence questions &middot; Diagram: no &middot; Wrong so far: 4/7 &middot; Times practised before: 6 (last: set 5) &middot; Real official item (global_id 651, DONE and confirmed wrong -- this IS the actual source of the '4/4 wrong' drill note, found 2026-10-26: 6 real items with this exact phrasing exist, 5 marked wrong). Fresh numbers used per the done-item rule, but the real trap mechanism is preserved exactly: one choice is worded as 'X% of Y' (a computed result) instead of staying in percent/fraction/decimal form -- that's the actual thing she's missed, not a magnitude/reciprocal trick like earlier invented drafts of this slot used.")
 
 add(37, "Hard", "No Remainder when Divided by a given Number",
-    "A number is divisible by both 6 and 8 without a remainder. Which of the following must also divide that number without a remainder?",
-    {"A": "16", "B": "9", "C": "18", "D": "12"}, "D",
-    "<b>Answer: D.</b> The smallest number divisible by both 6 and 8 is their LCM, 24 -- so the number is a multiple of 24. 12 divides 24 evenly (24 &divide; 12 = 2), so 12 always divides a multiple of 24. 16, 9, and 18 do not divide 24 evenly, so they are not guaranteed to work.",
-    None, "Tier: Hard &middot; Topic: No Remainder when Divided by a given Number &middot; Diagram: no &middot; Wrong so far: 4/11 &middot; Times practised before: 6 (last: set 7) &middot; Fixed 2026-10-26: real model item (gid58-family) is plain text, no diagram.")
+    "Which whole number is divisible by 31?",
+    {"A": "255", "B": "265", "C": "277", "D": "217"}, "D",
+    "<b>Answer: D.</b> 217 &divide; 31 = 7, a whole number. 255 &divide; 31 &asymp; 8.2, 265 &divide; 31 &asymp; 8.5, 277 &divide; 31 &asymp; 8.9 -- none are whole numbers. 31 has no easy digit-sum shortcut, so this has to be checked by actual division.",
+    None, "Tier: Hard &middot; Topic: No Remainder when Divided by a given Number &middot; Diagram: no &middot; Wrong so far: 4/11 &middot; Times practised before: 6 (last: set 7) &middot; Real, unused not_done library item (global_id 892), used verbatim. Rebuilt 2026-10-26 (2nd pass), same reason as #24: her 3 real-test misses on this topic are all single-divisor, large-number items, not the 'divisible by both X and Y' compound format this item was using -- that format tests a different, easier-for-her mechanism (she was 7/8 right on it in practice despite 0/3 on the real format). Used a harder divisor (31, no quick digit-sum rule) than #24's 9, matching this slot's Hard tier.")
 
 add(38, "Medium", "Estimating Sums Differences of Decimal Numbers",
     "Michael had $58.85. He spent $7.24 on a snack. Approximately how much money does Michael have left?",
