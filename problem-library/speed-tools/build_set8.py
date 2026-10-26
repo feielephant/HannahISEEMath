@@ -296,10 +296,10 @@ add(17, "Easy", "Perimeter",
     None, "Tier: Easy &middot; Topic: Perimeter &middot; Diagram: no &middot; Wrong so far: 0/6 &middot; Maintain priority (keep this skill fresh).")
 
 add(18, "Easy", "Averaging Mixed Numbers",
-    "What is the average of " + "6 "+frac(1,8) + ", " + "3 "+frac(1,4) + ", " + frac(3,2) + ", " + "2 "+frac(1,2) + ", and " + "2 "+frac(5,8) + "?",
-    {"A": "2 "+frac(4,5), "B": "3 "+frac(1,5), "C": "3 "+frac(1,4), "D": "3 "+frac(1,2)}, "B",
-    f"<b>Answer: B.</b> Convert all to eighths: 6{frac(1,8)}=49/8, 3{frac(1,4)}=26/8, {frac(3,2)}=12/8, 2{frac(1,2)}=20/8, 2{frac(5,8)}=21/8. Sum = 128/8 = 16. Average = 16 &divide; 5 = 3{frac(1,5)}.",
-    None, "Tier: Easy &middot; Topic: Averaging Mixed Numbers &middot; Diagram: no &middot; Real, unused not_done library item (global_id 334), used verbatim. Swapped 2026-10-26 at the user's request, for a 2nd confirmation data point: her only prior evidence on this exact skill is one real confirmed miss (gid18, picked 2&frac34; instead of the correct mean 3) and one QR7 right answer (#27, 50s) -- one right isn't enough to call it resolved. This item is genuinely harder than QR7's version: 5 terms instead of 5-act-but-fewer-distinct-values, includes an improper fraction (3/2) mixed in with proper fractions, and needs the LCD (8) worked out across all 5 terms rather than just halves.")
+    "Poe has four rocks. One weighs 4 " + frac(1,2) + " ounces, two weigh 1 " + frac(1,2) + " ounces, and one weighs " + frac(1,2) + " an ounce. What is the mean weight of the rocks, in ounces?",
+    {"A": "1", "B": "2", "C": "1 " + frac(1,2), "D": "2 " + frac(1,6)}, "B",
+    f"<b>Answer: B.</b> Sum: 4{frac(1,2)} + 1{frac(1,2)} + 1{frac(1,2)} + {frac(1,2)} = 8 ounces. Divide by 4 rocks: 8 &divide; 4 = 2 ounces.",
+    None, "Tier: Easy &middot; Topic: Averaging Mixed Numbers &middot; Diagram: no &middot; Real, unused not_done library item (global_id 954), used verbatim -- visually confirmed clean/unattempted (digital platform screenshot, no marks). Swapped 2026-10-26 (2nd pass) at the user's specific request: the prior swap (gid334) turned out to be a photographed BOOK page with visible pencil circles already on the answer choices, so it couldn't be trusted as genuinely unseen -- this one is a clean platform screenshot instead. For a 2nd confirmation data point on this skill: her only prior evidence is one real confirmed miss (gid18, picked 2&frac34; instead of the correct mean 3) and one QR7 right answer (#27, 50s) -- one right isn't enough to call it resolved.")
 
 add(19, "Medium", "Estimation (sums, products, money, ranges)",
     "Nina tracked her weekly grocery spending for four weeks: $62.80, $47.15, $71.40, and $55.90. Which is the best estimate of her total spending?",
