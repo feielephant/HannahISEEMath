@@ -399,7 +399,7 @@ add(33, "Hard", "Fractional Parts Word Problems",
     {"A": "12", "B": "24", "C": "36", "D": "20"}, "A",
     f"<b>Answer: A.</b> Altos: {frac(2,5)} of 60 = 24. Remaining: 60 &minus; 24 = 36. Sopranos: {frac(1,3)} of 36 = 12. (B=24 is the number of ALTOS, not sopranos.)",
     "exact-thing-asked",
-    "Tier: Hard &middot; Topic: Fractional Parts Word Problems &middot; Diagram: no &middot; Restored here 2026-10-26 at the user's request. Full real history on this exact mechanic (fraction, then a fraction of the remainder): Set 6 #6 -- right, 37s; Set 5 #37 -- LEFT BLANK (it was #37, near the pacing-affected tail, so unclear if that was a real gap or just running out of time). Never confirmed wrong outright, but also never confirmed solid -- the blank is the open question this retest is meant to resolve, placed well before the pacing-affected zone this time.")
+    "Tier: Hard &middot; Topic: Fractional Parts Word Problems &middot; Diagram: no &middot; Restored here 2026-10-26 at the user's request. Full real history on this exact mechanic (fraction, then a fraction of the remainder): Set 6 #6 -- right, 37s; Set 5 #37 -- left blank. Parent confirmed directly (2026-10-26, remembers this problem): the blank meant she genuinely could not figure out how to start it, not a pacing/ran-out-of-time issue -- this IS a real, confirmed gap, not an ambiguous data point. Placed at #33 (not near the pacing-affected tail this time) so a clean solve/fail reading isn't confounded by time pressure.")
 
 add(34, "Medium", "Total Shaded Area given Figure with Equal Divisions",
     "Each section of the triangle shown is the same size. The area of the shaded region is 24 in&sup2;. What is the area of the whole triangle?",

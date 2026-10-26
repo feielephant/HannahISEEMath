@@ -80,12 +80,14 @@
    "wrong": 1,
    "graded": 7,
    "habits": [
+    "sequential-fraction-of-remainder",
     "exact-thing-asked"
    ],
-   "priority": "medium",
+   "priority": "high",
    "_sec_total": 47.0,
    "_sec_n": 2,
-   "avg_seconds": 23.5
+   "avg_seconds": 23.5,
+   "mechanism_2026-10-26": "Parent confirmed directly: the blank on Set 5 #37 (3/8 ride bus, 1/3 of remaining walk) meant she genuinely could not figure out how to start the problem, NOT a pacing/ran-out-of-time issue (it had looked ambiguous from the numbers alone -- #37 is in the pacing-affected tail). This is specifically the sequential fraction-of-remainder mechanic (take a fraction of a total, then a fraction of what remains) -- same mechanic as Remaining Amount after Reducing by Fractions, worth checking that topic too if this keeps showing up. Escalated medium->high. Retested at QR8 #33, away from the pacing zone, to get a clean read."
   },
   {
    "topic": "Converting to a Decimal",
