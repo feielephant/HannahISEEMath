@@ -524,18 +524,18 @@
  {
   "n": 30,
   "tier": "Hard",
-  "topic": "Finding Ratios given Probability",
-  "q": "A bag contains only red and green marbles. The probability of picking a red marble at random is <span class=\"frac\"><span class=\"n\">3</span><span class=\"d\">7</span></span>. If there are 12 red marbles, how many green marbles are in the bag?",
+  "topic": "Cryptarithm / digit substitution",
+  "q": "P and Q are different digits from 1 through 9.<div>PQQ &minus; PQ = 570</div>What digit does P represent?",
   "choices": {
-   "A": "7",
-   "B": "12",
+   "A": "3",
+   "B": "4",
    "C": "9",
-   "D": "16"
+   "D": "6"
   },
   "correct": "D",
-  "key": "<b>Answer: D.</b> If <span class=\"frac\"><span class=\"n\">3</span><span class=\"d\">7</span></span> of the marbles are red and there are 12 red marbles, the total is 12 &divide; <span class=\"frac\"><span class=\"n\">3</span><span class=\"d\">7</span></span> = 12 &times; <span class=\"frac\"><span class=\"n\">7</span><span class=\"d\">3</span></span> = 28 marbles. Green = 28 &minus; 12 = 16.",
-  "habit_note": "check-every-condition",
-  "ref": "Tier: Hard &middot; Topic: Finding Ratios given Probability &middot; Diagram: no &middot; Wrong so far: 2/13 &middot; Times practised before: 1 (last: set 4)",
+  "key": "<b>Answer: D.</b> PQQ = 100P + 11Q, and PQ = 10P + Q, so PQQ &minus; PQ = 90P + 10Q = 570, which means 9P + Q = 57. Testing valid digits: P=6 gives Q=3 (both valid, 1-9, distinct) -- this is the only solution that works. Checking the actual subtraction: 633 &minus; 63 = 570, and the tens column needs a borrow (3 &minus; 6), which is exactly the step she's shown she doesn't reliably reach for on her own.",
+  "habit_note": "exact-thing-asked / no-bounding-strategy",
+  "ref": "Tier: Hard &middot; Topic: Cryptarithm / digit substitution &middot; Diagram: no &middot; Wrong so far: 4/5 (80%) &middot; Swapped in 2026-10-26, replacing Finding Ratios given Probability -- this topic was confirmed wrong 4/5 on QR7 (10/25) and flagged by check_priority_staleness.py at the start of this build, but was left out of QR8's original plan because its priority was never actually escalated before planning. No real unused not_done SUBTRACTION cryptarithm exists in the library (the only unused real item, gid184, is an ADDITION cryptarithm testing carrying, not the confirmed borrow/regroup gap) -- this one is invented, same algebraic shape as QR7's real #4 (gid157, MNN-MM=745) but with different letters/subtrahend structure (PQQ-PQ, distinct letters throughout) and a fresh target, specifically requiring the same borrow step.",
   "diagram": null,
   "needs_diagram": false
  },
@@ -578,18 +578,18 @@
  {
   "n": 33,
   "tier": "Hard",
-  "topic": "Fractional Parts Word Problems",
-  "q": "A choir has 60 members. <span class=\"frac\"><span class=\"n\">2</span><span class=\"d\">5</span></span> of the members are altos, and <span class=\"frac\"><span class=\"n\">1</span><span class=\"d\">3</span></span> of the remaining members are sopranos. How many members are sopranos?",
+  "topic": "Solving Problems with Geometric Formulas",
+  "q": "If the volume of a cylinder is 72&pi; in&sup3;, which is equivalent to the radius of the cylinder if the height is 8? (V = hr&sup2;&pi;, where V = volume, h = height, r = radius.)",
   "choices": {
-   "A": "12",
-   "B": "24",
-   "C": "36",
-   "D": "20"
+   "A": "3",
+   "B": "2",
+   "C": "4",
+   "D": "5"
   },
   "correct": "A",
-  "key": "<b>Answer: A.</b> Altos: <span class=\"frac\"><span class=\"n\">2</span><span class=\"d\">5</span></span> of 60 = 24. Remaining: 60 &minus; 24 = 36. Sopranos: <span class=\"frac\"><span class=\"n\">1</span><span class=\"d\">3</span></span> of 36 = 12. (B=24 is the number of ALTOS, not sopranos.)",
-  "habit_note": "exact-thing-asked",
-  "ref": "Tier: Hard &middot; Topic: Fractional Parts Word Problems &middot; Diagram: no &middot; Wrong so far: 1/7 &middot; Times practised before: 1 (last: set 5)",
+  "key": "<b>Answer: A.</b> 72&pi; = 8 &times; r&sup2; &times; &pi;, so 72 = 8r&sup2;, r&sup2; = 9, r = 3.",
+  "habit_note": null,
+  "ref": "Tier: Hard &middot; Topic: Solving Problems with Geometric Formulas &middot; Diagram: no &middot; Wrong so far: 4/8 (50%) &middot; Real, unused not_done library item (global_id 751), used verbatim per the done/not-done rule. Swapped in 2026-10-26, replacing Fractional Parts Word Problems -- same root cause as #30's swap: confirmed wrong 4/8 (2 wrong on QR7 alone, 10/25) and flagged by check_priority_staleness.py at the start of this build, but left out of QR8's original plan because priority was never actually escalated before planning. QR7 used cone (gid791) and prism (gid797) items for this topic; this is a cylinder, for format variety.",
   "diagram": null,
   "needs_diagram": false
  },

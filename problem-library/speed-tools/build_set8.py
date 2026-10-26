@@ -374,12 +374,12 @@ add(29, "Medium", "Probability (simple, equally likely outcomes)",
     f"<b>Answer: B.</b> 2 blue sections out of 8 total = {frac(2,8)} = {frac(1,4)}.",
     None, "Tier: Medium &middot; Topic: Probability (simple, equally likely outcomes) &middot; Diagram: no &middot; Wrong so far: 0/2 &middot; Times practised before: 2 (last: set 5)")
 
-add(30, "Hard", "Finding Ratios given Probability",
-    "A bag contains only red and green marbles. The probability of picking a red marble at random is " + frac(3,7) + ". If there are 12 red marbles, how many green marbles are in the bag?",
-    {"A": "7", "B": "12", "C": "9", "D": "16"}, "D",
-    f"<b>Answer: D.</b> If {frac(3,7)} of the marbles are red and there are 12 red marbles, the total is 12 &divide; {frac(3,7)} = 12 &times; {frac(7,3)} = 28 marbles. Green = 28 &minus; 12 = 16.",
-    "check-every-condition",
-    "Tier: Hard &middot; Topic: Finding Ratios given Probability &middot; Diagram: no &middot; Wrong so far: 2/13 &middot; Times practised before: 1 (last: set 4)")
+add(30, "Hard", "Cryptarithm / digit substitution",
+    "P and Q are different digits from 1 through 9.<div>PQQ &minus; PQ = 570</div>What digit does P represent?",
+    {"A": "3", "B": "4", "C": "9", "D": "6"}, "D",
+    "<b>Answer: D.</b> PQQ = 100P + 11Q, and PQ = 10P + Q, so PQQ &minus; PQ = 90P + 10Q = 570, which means 9P + Q = 57. Testing valid digits: P=6 gives Q=3 (both valid, 1-9, distinct) -- this is the only solution that works. Checking the actual subtraction: 633 &minus; 63 = 570, and the tens column needs a borrow (3 &minus; 6), which is exactly the step she's shown she doesn't reliably reach for on her own.",
+    "exact-thing-asked / no-bounding-strategy",
+    "Tier: Hard &middot; Topic: Cryptarithm / digit substitution &middot; Diagram: no &middot; Wrong so far: 4/5 (80%) &middot; Swapped in 2026-10-26, replacing Finding Ratios given Probability -- this topic was confirmed wrong 4/5 on QR7 (10/25) and flagged by check_priority_staleness.py at the start of this build, but was left out of QR8's original plan because its priority was never actually escalated before planning. No real unused not_done SUBTRACTION cryptarithm exists in the library (the only unused real item, gid184, is an ADDITION cryptarithm testing carrying, not the confirmed borrow/regroup gap) -- this one is invented, same algebraic shape as QR7's real #4 (gid157, MNN-MM=745) but with different letters/subtrahend structure (PQQ-PQ, distinct letters throughout) and a fresh target, specifically requiring the same borrow step.")
 
 add(31, "Hard", "Percent Word Problems",
     "A bookstore had 240 novels in stock. During a sale, 35% of the novels were sold. Of the novels that were NOT sold, " + frac(1,4) + " were paperbacks. How many of the unsold novels were paperbacks?",
@@ -394,12 +394,11 @@ add(32, "Medium", "Comparing Areas",
     "<b>Answer: C.</b> Room B's area = 10 &times; 22 = 220 ft&sup2;. Room A's area = 196 ft&sup2; (since 14 &times; 14 = 196). 220 &minus; 196 = 24 ft&sup2; -- Room B is larger by 24 ft&sup2;.",
     None, "Tier: Medium &middot; Topic: Comparing Areas &middot; Diagram: no &middot; Never tracked before (0 graded instances) &middot; Coverage-floor pick.")
 
-add(33, "Hard", "Fractional Parts Word Problems",
-    "A choir has 60 members. " + frac(2,5) + " of the members are altos, and " + frac(1,3) + " of the remaining members are sopranos. How many members are sopranos?",
-    {"A": "12", "B": "24", "C": "36", "D": "20"}, "A",
-    f"<b>Answer: A.</b> Altos: {frac(2,5)} of 60 = 24. Remaining: 60 &minus; 24 = 36. Sopranos: {frac(1,3)} of 36 = 12. (B=24 is the number of ALTOS, not sopranos.)",
-    "exact-thing-asked",
-    "Tier: Hard &middot; Topic: Fractional Parts Word Problems &middot; Diagram: no &middot; Wrong so far: 1/7 &middot; Times practised before: 1 (last: set 5)")
+add(33, "Hard", "Solving Problems with Geometric Formulas",
+    "If the volume of a cylinder is 72&pi; in&sup3;, which is equivalent to the radius of the cylinder if the height is 8? (V = hr&sup2;&pi;, where V = volume, h = height, r = radius.)",
+    {"A": "3", "B": "2", "C": "4", "D": "5"}, "A",
+    "<b>Answer: A.</b> 72&pi; = 8 &times; r&sup2; &times; &pi;, so 72 = 8r&sup2;, r&sup2; = 9, r = 3.",
+    None, "Tier: Hard &middot; Topic: Solving Problems with Geometric Formulas &middot; Diagram: no &middot; Wrong so far: 4/8 (50%) &middot; Real, unused not_done library item (global_id 751), used verbatim per the done/not-done rule. Swapped in 2026-10-26, replacing Fractional Parts Word Problems -- same root cause as #30's swap: confirmed wrong 4/8 (2 wrong on QR7 alone, 10/25) and flagged by check_priority_staleness.py at the start of this build, but left out of QR8's original plan because priority was never actually escalated before planning. QR7 used cone (gid791) and prism (gid797) items for this topic; this is a cylinder, for format variety.")
 
 add(34, "Medium", "Total Shaded Area given Figure with Equal Divisions",
     "Each section of the triangle shown is the same size. The area of the shaded region is 24 in&sup2;. What is the area of the whole triangle?",
