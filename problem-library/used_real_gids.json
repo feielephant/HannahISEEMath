@@ -362,6 +362,11 @@
     "question_text": "Which expression is equal to 5(2 + 4) + 10(4 − 2)?",
     "topic": "Order of Operations and Equivalence",
     "note": "global_id is null on this ma_library.json not_done item -- identified by exercise_title + question_text instead."
+   },
+   {
+    "n": 13,
+    "global_id": 980,
+    "topic": "Counting Multiples within a Range"
    }
   ]
  },

@@ -264,11 +264,12 @@ add(12, "Easy", "Finding Unit Price",
     "<b>Answer: B.</b> Pack A: $4.00 &divide; 8 = $0.50 per box. Pack B: $5.40 &divide; 12 = $0.45 per box. Difference: $0.50 &minus; $0.45 = $0.05. (A and C are each pack's own unit price, not the difference between them -- a common stop-early trap when both given values matter.)",
     None, "Tier: Easy &middot; Topic: Finding Unit Price &middot; Diagram: no &middot; Wrong so far: 1/4 &middot; Times practised before: 3 (last: set 4) &middot; Fixed 2026-10-26 (2nd pass): the previous version asked only about Pack B, leaving Pack A's numbers entirely unused -- not a deliberate decoy, just leftover from editing. Now both given conditions are genuinely required, a real 2-step comparison instead of one computation plus dead data.")
 
-add(13, "Medium", "No Remainder when Divided by two given Numbers",
-    "If z can be divided by both 4 and 9 without leaving a remainder, then 2z can also be divided by which number without leaving a remainder?",
-    {"A": "24", "B": "16", "C": "27", "D": "20"}, "A",
-    "<b>Answer: A.</b> z must be a multiple of 36 (since 4 and 9 share no common factor, the smallest number divisible by both is 4&times;9=36). So 2z is a multiple of 72. 24 divides 72 evenly (72 &divide; 24 = 3), so 24 always divides 2z. 16, 27, and 20 do not divide 72 evenly.",
-    None, "Tier: Medium &middot; Topic: No Remainder when Divided by two given Numbers &middot; Diagram: no &middot; Never tracked before (0 graded instances) &middot; Coverage-floor pick.")
+add(13, "Medium", "Counting Multiples within a Range",
+    "How many numbers between 83 and 99 are divisible by 4?",
+    {"A": "4", "B": "3", "C": "5", "D": "6"}, "A",
+    "<b>Answer: A.</b> Multiples of 4 in that range: 84, 88, 92, 96 -- that's 4 numbers.",
+    "check-every-condition / use-all-data",
+    "Tier: Medium &middot; Topic: Counting Multiples within a Range &middot; Diagram: no &middot; Wrong so far: 1/5 (real tests: 2, 1 confirmed wrong -- not yet re-verified against screenshots) &middot; Swapped 2026-10-26 for 'No Remainder when Divided by two given Numbers' (a zero-evidence coverage-floor pick, redundant with #24/#37's divisibility cluster anyway). Her only real evidence on this exact two-boundary mechanic: Set 4 #35 (single-boundary, easier, right) and Set 6 #28 (two-boundary, same mechanic as this item, WRONG -- she had no real strategy, had to be walked through it). This is a clean, fresh retest with different numbers (83-99/div-4, not the 67-91/div-3 she already saw and was taught) -- real, unused library item (global_id 980), used verbatim, visually confirmed clean.")
 
 add(14, "Medium", "Evaluating Percents of Numbers",
     "A bar of soap originally costs $3.60. Then the price decreased by 30%. What is the price of the bar of soap now?",
