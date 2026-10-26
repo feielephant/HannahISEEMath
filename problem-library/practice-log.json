@@ -718,6 +718,49 @@
      "37": "Same mental-math gap as #1, not pacing"
     }
    }
+  },
+  {
+   "set_no": 8,
+   "topics": [
+    "Tools for Measuring",
+    "Estimating Multiplication & Division",
+    "Converting to a Decimal",
+    "Remainder when Divided by a given Number",
+    "Numerical Patterns",
+    "English Unit Conversions",
+    "Predicting the Next Shapes given Progressive Pattern",
+    "Identifying Number Properties",
+    "Finding Area/Perimeter of Rectangle, given Length & Width",
+    "Area and Perimeter of Complex Polygons",
+    "Percent Increase Decrease basic",
+    "Finding Unit Price",
+    "No Remainder when Divided by two given Numbers",
+    "Evaluating Percents of Numbers",
+    "Word Problems with Ratios",
+    "Multiplying and Dividing Whole Numbers",
+    "Perimeter",
+    "Adding and Subtracting Integers",
+    "Estimation (sums, products, money, ranges)",
+    "Identifying Numbers, Standard Form Word Form",
+    "Remaining Amount after Reducing by Fractions",
+    "Algebra with Geometric Shapes",
+    "Nth Term, given Arithmetic Sequence, Progressive Pattern, etc.",
+    "No Remainder when Divided by a given Number",
+    "Multi-step unit conversion (off-by-10, multi-step)",
+    "Divisibility / number constraints (Serena/Who am I style)",
+    "Comparing & Ordering Fractions & Decimals",
+    "Equivalent Fractions Decimals and Percents",
+    "Probability (simple, equally likely outcomes)",
+    "Finding Ratios given Probability",
+    "Percent Word Problems",
+    "Comparing Areas",
+    "Fractional Parts Word Problems",
+    "Total Shaded Area given Figure with Equal Divisions",
+    "Finding Area/Perimeter of Rectangle, given Length & Width",
+    "Key-word NOT in equivalence questions",
+    "No Remainder when Divided by a given Number",
+    "Estimating Sums Differences of Decimal Numbers"
+   ]
   }
  ],
  "rotation_notes": {
