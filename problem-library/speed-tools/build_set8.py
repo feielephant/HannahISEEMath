@@ -329,10 +329,10 @@ add(22, "Medium", "Algebra with Geometric Shapes",
     needs_diagram=True)
 
 add(23, "Easy", "Nth Term, given Arithmetic Sequence, Progressive Pattern, etc.",
-    "An arithmetic sequence begins 9, 14, 19, 24, .... What is the 15th term?",
-    {"A": "74", "B": "75", "C": "79", "D": "84"}, "C",
-    "<b>Answer: C.</b> Common difference = 5. 15th term = 9 + (15&minus;1)&times;5 = 9 + 70 = 79. (D=84 comes from using 15&times;5 instead of (15&minus;1)&times;5 -- an off-by-one error in the term count.)",
-    None, "Tier: Easy &middot; Topic: Nth Term, given Arithmetic Sequence, Progressive Pattern, etc. &middot; Diagram: no &middot; Wrong so far: 2/9 &middot; Times practised before: 3 (last: set 7)")
+    "The 2nd number in a pattern is 14, the 3rd number is 23, and the 4th number is 32. What is the 1st number in the pattern?",
+    {"A": "13", "B": "6", "C": "5", "D": "23"}, "C",
+    "<b>Answer: C.</b> The common difference is 9 (23&minus;14=9, 32&minus;23=9). Working backward: 1st number = 14 &minus; 9 = 5.",
+    None, "Tier: Easy &middot; Topic: Nth Term, given Arithmetic Sequence, Progressive Pattern, etc. &middot; Diagram: no &middot; Wrong so far: 2/9 &middot; Times practised before: 3 (last: set 7) &middot; Swapped 2026-10-26: real official item (global_id 44, DONE), fresh numbers used -- the real test's 'work backward to find an earlier term' mechanic, matching QR7 #35's format, which she's never been retested on since the only other library example (this one) had sat unused. Trade-off: this drops the forward-extrapolation off-by-one trap this slot previously tested (confirmed gap, see project_ma1_oct13_skill_gaps) -- #5 and #7 remain as the set's forward-pattern coverage, but none currently retest the off-by-one trap specifically; worth a slot in a future set if it resurfaces.")
 
 add(24, "Medium", "Input Output Tables",
     "A set of input and output values is shown. If the output value is 15, what is the input value?",
