@@ -1,6 +1,8 @@
 # QR8 Planning Notes (written 2026-10-25, before building)
 
-Not yet built — `plan_set.py` has NOT been run (practice-log.json still has 7 QR sets). Sequencing per parent's instruction: finish the library cleanup first (see `SCREENSHOT_REORG_HANDOFF.md`), since it may surface more real `not_done` items or fix mistagged `official_topic`s that would directly improve QR8's slot-filling — then come back and build with the updated library.
+**STATUS: built and published 2026-10-25** — `worksheets/speed-set-8.html` / `-answer-key.html`. See the `project_qr8_built` memory for what shaped the final set. This file is kept as the pre-build research record, not an active to-do.
+
+~~Not yet built — `plan_set.py` has NOT been run (practice-log.json still has 7 QR sets). Sequencing per parent's instruction: finish the library cleanup first (see `SCREENSHOT_REORG_HANDOFF.md`), since it may surface more real `not_done` items or fix mistagged `official_topic`s that would directly improve QR8's slot-filling — then come back and build with the updated library.~~ (done)
 
 ## Readiness check run 2026-10-25 (before pausing)
 
