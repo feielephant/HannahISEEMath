@@ -390,12 +390,12 @@ add(33, "Hard", "Fractional Parts Word Problems",
     "Tier: Hard &middot; Topic: Fractional Parts Word Problems &middot; Diagram: no &middot; Wrong so far: 1/7 &middot; Times practised before: 1 (last: set 5)")
 
 add(34, "Medium", "Total Shaded Area given Figure with Equal Divisions",
-    "The grid shown is divided into equal squares. What fraction of the grid, in lowest terms, is shaded?",
-    {"A": frac(5,16), "B": frac(3,4), "C": frac(5,8), "D": frac(3,8)}, "C",
-    f"<b>Answer: C.</b> 10 of the 16 squares are shaded: {frac(10,16)} = {frac(5,8)} in lowest terms. (D={frac(3,8)} is the UNshaded fraction -- 6 of 16 squares.)",
+    "Each section of the triangle shown is the same size. The area of the shaded region is 24 in&sup2;. What is the area of the whole triangle?",
+    {"A": "12 in&sup2;", "B": "20 in&sup2;", "C": "36 in&sup2;", "D": "48 in&sup2;"}, "C",
+    "<b>Answer: C.</b> The triangle is split into 3 equal sections, and 2 of the 3 are shaded. If 2 equal sections = 24 in&sup2;, then 1 section = 12 in&sup2;, and the whole triangle (3 sections) = 36 in&sup2;.",
     "decimal-vs-nonnice-fraction",
-    "Tier: Medium &middot; Topic: Total Shaded Area given Figure with Equal Divisions &middot; Diagram: yes &middot; Wrong so far: 1/6 &middot; Times practised before: 6 (last: set 7)",
-    diagram=shaded_grid(4,4,10))
+    "Tier: Medium &middot; Topic: Total Shaded Area given Figure with Equal Divisions &middot; Diagram: yes &middot; Wrong so far: 1/6 &middot; Times practised before: 6 (last: set 7) &middot; Real, unused library item (global_id 1198) -- swapped in for an invented grid after a fuller not_done sweep turned up 15 unused real items for this exact topic.",
+    diagram='<svg viewBox="0 0 120 100" width="120" height="100" role="img"><polygon points="60,10 10,90 60,63" fill="var(--accent-soft)" stroke="currentColor" stroke-width="1.5"/><polygon points="10,90 110,90 60,63" fill="var(--accent-soft)" stroke="currentColor" stroke-width="1.5"/><polygon points="110,90 60,10 60,63" fill="var(--surface)" stroke="currentColor" stroke-width="1.5"/></svg>')
 
 add(35, "Medium", "Finding Area/Perimeter of Rectangle, given Length & Width",
     "The diagram shows a rectangular patio made of square tiles, each tile 1 meter by 1 meter. What is the perimeter of the patio, in meters?",

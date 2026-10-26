@@ -597,18 +597,18 @@
   "n": 34,
   "tier": "Medium",
   "topic": "Total Shaded Area given Figure with Equal Divisions",
-  "q": "The grid shown is divided into equal squares. What fraction of the grid, in lowest terms, is shaded?",
+  "q": "Each section of the triangle shown is the same size. The area of the shaded region is 24 in&sup2;. What is the area of the whole triangle?",
   "choices": {
-   "A": "<span class=\"frac\"><span class=\"n\">5</span><span class=\"d\">16</span></span>",
-   "B": "<span class=\"frac\"><span class=\"n\">3</span><span class=\"d\">4</span></span>",
-   "C": "<span class=\"frac\"><span class=\"n\">5</span><span class=\"d\">8</span></span>",
-   "D": "<span class=\"frac\"><span class=\"n\">3</span><span class=\"d\">8</span></span>"
+   "A": "12 in&sup2;",
+   "B": "20 in&sup2;",
+   "C": "36 in&sup2;",
+   "D": "48 in&sup2;"
   },
   "correct": "C",
-  "key": "<b>Answer: C.</b> 10 of the 16 squares are shaded: <span class=\"frac\"><span class=\"n\">10</span><span class=\"d\">16</span></span> = <span class=\"frac\"><span class=\"n\">5</span><span class=\"d\">8</span></span> in lowest terms. (D=<span class=\"frac\"><span class=\"n\">3</span><span class=\"d\">8</span></span> is the UNshaded fraction -- 6 of 16 squares.)",
+  "key": "<b>Answer: C.</b> The triangle is split into 3 equal sections, and 2 of the 3 are shaded. If 2 equal sections = 24 in&sup2;, then 1 section = 12 in&sup2;, and the whole triangle (3 sections) = 36 in&sup2;.",
   "habit_note": "decimal-vs-nonnice-fraction",
-  "ref": "Tier: Medium &middot; Topic: Total Shaded Area given Figure with Equal Divisions &middot; Diagram: yes &middot; Wrong so far: 1/6 &middot; Times practised before: 6 (last: set 7)",
-  "diagram": "<svg viewBox=\"0 0 128 128\" width=\"128\" height=\"128\" role=\"img\"><rect x=\"0\" y=\"0\" width=\"32\" height=\"32\" fill=\"var(--accent-soft)\" stroke=\"currentColor\" stroke-width=\"1.5\"/><rect x=\"32\" y=\"0\" width=\"32\" height=\"32\" fill=\"var(--accent-soft)\" stroke=\"currentColor\" stroke-width=\"1.5\"/><rect x=\"64\" y=\"0\" width=\"32\" height=\"32\" fill=\"var(--accent-soft)\" stroke=\"currentColor\" stroke-width=\"1.5\"/><rect x=\"96\" y=\"0\" width=\"32\" height=\"32\" fill=\"var(--accent-soft)\" stroke=\"currentColor\" stroke-width=\"1.5\"/><rect x=\"0\" y=\"32\" width=\"32\" height=\"32\" fill=\"var(--accent-soft)\" stroke=\"currentColor\" stroke-width=\"1.5\"/><rect x=\"32\" y=\"32\" width=\"32\" height=\"32\" fill=\"var(--accent-soft)\" stroke=\"currentColor\" stroke-width=\"1.5\"/><rect x=\"64\" y=\"32\" width=\"32\" height=\"32\" fill=\"var(--accent-soft)\" stroke=\"currentColor\" stroke-width=\"1.5\"/><rect x=\"96\" y=\"32\" width=\"32\" height=\"32\" fill=\"var(--accent-soft)\" stroke=\"currentColor\" stroke-width=\"1.5\"/><rect x=\"0\" y=\"64\" width=\"32\" height=\"32\" fill=\"var(--accent-soft)\" stroke=\"currentColor\" stroke-width=\"1.5\"/><rect x=\"32\" y=\"64\" width=\"32\" height=\"32\" fill=\"var(--accent-soft)\" stroke=\"currentColor\" stroke-width=\"1.5\"/><rect x=\"64\" y=\"64\" width=\"32\" height=\"32\" fill=\"var(--surface)\" stroke=\"currentColor\" stroke-width=\"1.5\"/><rect x=\"96\" y=\"64\" width=\"32\" height=\"32\" fill=\"var(--surface)\" stroke=\"currentColor\" stroke-width=\"1.5\"/><rect x=\"0\" y=\"96\" width=\"32\" height=\"32\" fill=\"var(--surface)\" stroke=\"currentColor\" stroke-width=\"1.5\"/><rect x=\"32\" y=\"96\" width=\"32\" height=\"32\" fill=\"var(--surface)\" stroke=\"currentColor\" stroke-width=\"1.5\"/><rect x=\"64\" y=\"96\" width=\"32\" height=\"32\" fill=\"var(--surface)\" stroke=\"currentColor\" stroke-width=\"1.5\"/><rect x=\"96\" y=\"96\" width=\"32\" height=\"32\" fill=\"var(--surface)\" stroke=\"currentColor\" stroke-width=\"1.5\"/></svg>",
+  "ref": "Tier: Medium &middot; Topic: Total Shaded Area given Figure with Equal Divisions &middot; Diagram: yes &middot; Wrong so far: 1/6 &middot; Times practised before: 6 (last: set 7) &middot; Real, unused library item (global_id 1198) -- swapped in for an invented grid after a fuller not_done sweep turned up 15 unused real items for this exact topic.",
+  "diagram": "<svg viewBox=\"0 0 120 100\" width=\"120\" height=\"100\" role=\"img\"><polygon points=\"60,10 10,90 60,63\" fill=\"var(--accent-soft)\" stroke=\"currentColor\" stroke-width=\"1.5\"/><polygon points=\"10,90 110,90 60,63\" fill=\"var(--accent-soft)\" stroke=\"currentColor\" stroke-width=\"1.5\"/><polygon points=\"110,90 60,10 60,63\" fill=\"var(--surface)\" stroke=\"currentColor\" stroke-width=\"1.5\"/></svg>",
   "needs_diagram": true
  },
  {
