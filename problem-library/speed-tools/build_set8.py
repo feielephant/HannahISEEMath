@@ -432,11 +432,11 @@ add(37, "Hard", "No Remainder when Divided by a given Number",
     None, "Tier: Hard &middot; Topic: No Remainder when Divided by a given Number &middot; Diagram: no &middot; Wrong so far: 4/11 &middot; Times practised before: 6 (last: set 7) &middot; Fixed 2026-10-26: real model item (gid58-family) is plain text, no diagram.")
 
 add(38, "Medium", "Estimating Sums Differences of Decimal Numbers",
-    "Which expression gives the best estimate of 38.7 &minus; 11.2?",
-    {"A": "30 &minus; 10", "B": "40 &minus; 10", "C": "40 &minus; 20", "D": "30 &minus; 20"}, "B",
-    "<b>Answer: B.</b> Rounding to the nearest ten: 38.7 rounds up to 40 (since .7 rounds up), and 11.2 rounds down to 10 (since .2 rounds down). 40 &minus; 10 is the best estimate. The other choices round at least one number the wrong direction.",
+    "Michael had $58.85. He spent $7.24 on a snack. Approximately how much money does Michael have left?",
+    {"A": "$48", "B": "$52", "C": "$50", "D": "$54"}, "B",
+    "<b>Answer: B.</b> Round to the nearest dollar: $58.85 rounds up to $59. $7.24 rounds down to $7. $59 &minus; $7 = $52.",
     "compute-both-sides",
-    "Tier: Medium &middot; Topic: Estimating Sums Differences of Decimal Numbers &middot; Diagram: no &middot; Wrong so far: 1/11 &middot; Times practised before: 2 (last: set 6)")
+    "Tier: Medium &middot; Topic: Estimating Sums Differences of Decimal Numbers &middot; Diagram: no &middot; Wrong so far: 1/11 &middot; Times practised before: 2 (last: set 6) &middot; Real official item, DONE -- she already answered this exact official_topic on ISEE Lower #4 (Michael/$46.97/$5.12), got it RIGHT but slow (67s vs others' 34s). Fresh numbers used per the done-item rule. The previous version ('which expression gives the best estimate') was invented, not from any real screenshot -- this one directly matches the real presentation (round each amount, subtract, pick the resulting dollar value from choices), which she's shown she can do correctly just not quickly.")
 
 assert len(P) == 38
 letters = [p["correct"] for p in P]
