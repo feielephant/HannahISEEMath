@@ -42,16 +42,23 @@ def shaded_grid(cols, rows, shaded_n):
     w, h = cols*cw, rows*ch
     return f'<svg viewBox="0 0 {w} {h}" width="{w}" height="{h}" role="img">' + ''.join(cells) + '</svg>'
 
-def tile_grid(cols, rows):
-    cw, ch = 28, 28
-    cells = []
-    for r in range(rows):
-        for c in range(cols):
-            cells.append(f'<rect x="{c*cw}" y="{r*ch}" width="{cw}" height="{ch}" fill="none" stroke="currentColor" stroke-width="1.5"/>')
+def l_shape_outline(cols, rows, unit_label="m&sup2;"):
+    # Matches the real item's actual presentation (gid163, verified against the
+    # source screenshot): NOT a fully-filled grid -- only the top row (cols unit
+    # cells) and left column (rows unit cells) are subdivided, with a bare outer
+    # rectangle everywhere else, plus a small separate legend square. She reads
+    # the two edge counts off the tick marks and multiplies -- a filled grid lets
+    # her just count cells instead, which is a different and easier task.
+    cw, ch = 24, 24
     w, h = cols*cw, rows*ch
-    label = (f'<text x="{w/2}" y="-8" font-size="12" text-anchor="middle" fill="currentColor">{cols} m</text>'
-             f'<text x="-10" y="{h/2}" font-size="12" text-anchor="middle" fill="currentColor" transform="rotate(-90,-10,{h/2})">{rows} m</text>')
-    return f'<svg viewBox="-30 -24 {w+30} {h+24}" width="{w+40}" height="{h+34}" role="img">' + ''.join(cells) + label + '</svg>'
+    lines = [f'<rect x="0" y="0" width="{w}" height="{h}" fill="none" stroke="currentColor" stroke-width="2"/>']
+    for c in range(1, cols):
+        lines.append(f'<line x1="{c*cw}" y1="0" x2="{c*cw}" y2="{ch}" stroke="currentColor" stroke-width="1.5"/>')
+    for r in range(1, rows):
+        lines.append(f'<line x1="0" y1="{r*ch}" x2="{cw}" y2="{r*ch}" stroke="currentColor" stroke-width="1.5"/>')
+    legend = (f'<rect x="0" y="{h+14}" width="{cw}" height="{ch}" fill="none" stroke="currentColor" stroke-width="1.5"/>'
+              f'<text x="{cw+10}" y="{h+14+ch/2+4}" font-size="13" fill="currentColor">= 1 {unit_label}</text>')
+    return f'<svg viewBox="-4 -4 {w+90} {h+ch+28}" width="{w+90}" height="{h+ch+28}" role="img">' + ''.join(lines) + legend + '</svg>'
 
 def array_split(a, b1, b2):
     # a x (b1+b2) split rectangle, unit=14px. The second (unknown) part is
@@ -398,11 +405,11 @@ add(34, "Medium", "Total Shaded Area given Figure with Equal Divisions",
     diagram='<svg viewBox="0 0 120 100" width="120" height="100" role="img"><polygon points="60,10 10,90 60,63" fill="var(--accent-soft)" stroke="currentColor" stroke-width="1.5"/><polygon points="10,90 110,90 60,63" fill="var(--accent-soft)" stroke="currentColor" stroke-width="1.5"/><polygon points="110,90 60,10 60,63" fill="var(--surface)" stroke="currentColor" stroke-width="1.5"/></svg>')
 
 add(35, "Medium", "Finding Area/Perimeter of Rectangle, given Length & Width",
-    "The diagram shows a rectangular patio made of square tiles, each tile 1 meter by 1 meter. What is the perimeter of the patio, in meters?",
-    {"A": "24", "B": "20", "C": "10", "D": "16"}, "B",
-    "<b>Answer: B.</b> The patio is 6 m by 4 m. Perimeter = 2 &times; (6 + 4) = 20 m. (A=24 is the AREA, not the perimeter.)",
-    None, "Tier: Medium &middot; Topic: Finding Area/Perimeter of Rectangle, given Length &amp; Width &middot; Diagram: yes &middot; Wrong so far: 1/10 &middot; Times practised before: 2 (last: set 5)",
-    diagram=tile_grid(6,4))
+    "The model represents the length and width of a rectangular patio.<br>What is the area, in meters&sup2;, of this patio? (A = l &times; w)",
+    {"A": "13 m&sup2;", "B": "40 m&sup2;", "C": "26 m&sup2;", "D": "64 m&sup2;"}, "B",
+    "<b>Answer: B.</b> Counting the tick marks: the top edge shows 8 unit squares (length = 8 m), the left edge shows 5 unit squares (width = 5 m). Area = 8 &times; 5 = 40 m&sup2;. (A=13 adds the two sides instead of multiplying. C=26 computes the PERIMETER, 2&times;(8+5), instead of the area. D=64 wrongly assumes a square, 8&times;8.)",
+    None, "Tier: Medium &middot; Topic: Finding Area/Perimeter of Rectangle, given Length &amp; Width &middot; Diagram: yes &middot; Wrong so far: 1/10 &middot; Times practised before: 2 (last: set 5) &middot; Real official item (global_id 163, ISEE Lower #4 Q4, DONE -- fresh numbers used per the done-item rule, same 7m/6m=42 real scenario rebuilt as 8m/5m=40). Fixed 2026-10-26: the first draft fully filled the grid (lets her just count cells, a different/easier task) and restated both dimensions AND the 1-unit-square fact in the question text, when the real diagram is an L-shaped outline (only the top row and left column subdivided) that carries ALL the numeric information by itself -- checked directly against the source screenshot. Also switched from perimeter back to area, matching what the real item actually asks for; the distractor pattern (sum / perimeter-confusion / square-guess) mirrors the real item's own choice set (13/26/42/64) almost exactly.",
+    diagram=l_shape_outline(8,5))
 
 add(36, "Easy", "Key-word NOT in equivalence questions",
     "Which of the following is <b>NOT</b> equivalent to " + frac(3,4) + "?",
