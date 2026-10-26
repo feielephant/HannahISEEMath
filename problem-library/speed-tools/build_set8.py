@@ -170,6 +170,11 @@ def grouping_diagram(total, group_size):
         x += rem*s+6
     return f'<svg viewBox="0 0 {x+4} 26" width="{min(x+4,560)}" height="26" role="img">{boxes}</svg>'
 
+IMG_163_B64 = open(os.path.join(HERE, 'gid163_b64.txt')).read().strip()
+img_tag = ('<img src="data:image/png;base64,' + IMG_163_B64 + '" '
+           'alt="L-shaped unit grid showing a rectangle\'s length and width, with a legend square = 1 square meter" '
+           'style="max-width:220px;display:block;" />')
+
 # ---- problem data ----
 P = []
 def add(n, tier, topic, q, choices, correct, key, habit_note, ref, diagram=None, needs_diagram=False):
@@ -406,10 +411,10 @@ add(34, "Medium", "Total Shaded Area given Figure with Equal Divisions",
 
 add(35, "Medium", "Finding Area/Perimeter of Rectangle, given Length & Width",
     "The model represents the length and width of a rectangular patio.<br>What is the area, in meters&sup2;, of this patio? (A = l &times; w)",
-    {"A": "13 m&sup2;", "B": "40 m&sup2;", "C": "26 m&sup2;", "D": "64 m&sup2;"}, "B",
-    "<b>Answer: B.</b> Counting the tick marks: the top edge shows 8 unit squares (length = 8 m), the left edge shows 5 unit squares (width = 5 m). Area = 8 &times; 5 = 40 m&sup2;. (A=13 adds the two sides instead of multiplying. C=26 computes the PERIMETER, 2&times;(8+5), instead of the area. D=64 wrongly assumes a square, 8&times;8.)",
-    None, "Tier: Medium &middot; Topic: Finding Area/Perimeter of Rectangle, given Length &amp; Width &middot; Diagram: yes &middot; Wrong so far: 1/10 &middot; Times practised before: 2 (last: set 5) &middot; Real official item (global_id 163, ISEE Lower #4 Q4, DONE -- fresh numbers used per the done-item rule, same 7m/6m=42 real scenario rebuilt as 8m/5m=40). Fixed 2026-10-26: the first draft fully filled the grid (lets her just count cells, a different/easier task) and restated both dimensions AND the 1-unit-square fact in the question text, when the real diagram is an L-shaped outline (only the top row and left column subdivided) that carries ALL the numeric information by itself -- checked directly against the source screenshot. Also switched from perimeter back to area, matching what the real item actually asks for; the distractor pattern (sum / perimeter-confusion / square-guess) mirrors the real item's own choice set (13/26/42/64) almost exactly.",
-    diagram=l_shape_outline(8,5))
+    {"A": "13 m&sup2;", "B": "42 m&sup2;", "C": "26 m&sup2;", "D": "64 m&sup2;"}, "B",
+    "<b>Answer: B.</b> Counting the tick marks: the top edge shows 7 unit squares (length = 7 m), the left edge shows 6 unit squares (width = 6 m). Area = 7 &times; 6 = 42 m&sup2;. (A=13 adds the two sides instead of multiplying. C=26 computes the PERIMETER, 2&times;(7+6), instead of the area. D=64 is an unrelated distractor.)",
+    None, "Tier: Medium &middot; Topic: Finding Area/Perimeter of Rectangle, given Length &amp; Width &middot; Diagram: yes &middot; Wrong so far: 1/10 &middot; Times practised before: 2 (last: set 5) &middot; Real official item (global_id 163, ISEE Lower #4 Q4, DONE). Fixed 2026-10-26 (2nd pass): at the user's explicit request, the original real diagram is cropped directly from the source screenshot and embedded as-is, rather than hand-recreated as an SVG -- a hand-built recreation kept introducing subtle errors (first a fully-filled grid, this fixes that risk entirely by using the real image). Since the diagram itself is now the verbatim original, the numbers (7/6/42) are the real item's own numbers too, not fresh ones -- an explicit, deliberate exception to the usual done-item fresh-numbers rule for this one slot. Choices are the real item's own four values (13/26/42/64), just reordered so the correct one lands at the required letter B.",
+    diagram=img_tag)
 
 add(36, "Easy", "Key-word NOT in equivalence questions",
     "Which of the following is <b>NOT</b> equivalent to " + frac(3,4) + "?",
