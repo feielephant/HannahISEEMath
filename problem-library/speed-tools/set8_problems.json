@@ -147,18 +147,18 @@
   "n": 9,
   "tier": "Easy",
   "topic": "Finding Area/Perimeter of Rectangle, given Length & Width",
-  "q": "The perimeter of the rectangle shown is 30 cm. What is the area of the rectangle?",
+  "q": "The perimeter of the rectangle shown is 78 cm. What is the area of the rectangle?",
   "choices": {
-   "A": "54 cm&sup2;",
-   "B": "108 cm&sup2;",
-   "C": "135 cm&sup2;",
-   "D": "45 cm&sup2;"
+   "A": "380 cm&sup2;",
+   "B": "760 cm&sup2;",
+   "C": "741 cm&sup2;",
+   "D": "399 cm&sup2;"
   },
   "correct": "A",
-  "key": "<b>Answer: A.</b> Step 1: find the missing side. Perimeter = 2(9 + width) = 30, so 9 + width = 15, width = 6. Step 2: area = 9 &times; 6 = 54 cm&sup2;. (B=108 skips the final halving step -- it uses 30&minus;18=12 as the side directly instead of 12&divide;2=6. C=135 skips subtracting the given side -- it uses half the perimeter, 15, as the other side directly. D=45 is a computed-side slip, 9&times;5 instead of 9&times;6.)",
+  "key": "<b>Answer: A.</b> Step 1: find the missing side. Perimeter = 2(19 + width) = 78, so 19 + width = 39, width = 20. Step 2: area = 19 &times; 20 = 380 cm&sup2;. (B=760 skips the final halving step -- it uses 78&minus;38=40 as the side directly instead of 40&divide;2=20. C=741 skips subtracting the given side -- it uses half the perimeter, 39, as the other side directly. D=399 is a computed-side slip, 19&times;21 instead of 19&times;20.)",
   "habit_note": null,
-  "ref": "Tier: Easy &middot; Topic: Finding Area/Perimeter of Rectangle, given Length &amp; Width &middot; Diagram: yes &middot; Wrong so far: 1/10 &middot; Times practised before: 2 (last: set 5) &middot; Real official item (gid367/gid431, both DONE -- she answered this exact scenario, 8cm/24cm, on a real test, so used fresh numbers per the done-item rule, not verbatim). Her real answer was circled correctly both times. This is a genuinely stronger real-item match than the 2026-10-26 earlier draft (which had to extend an unrelated not_done item -- gid1025 only asked for the missing side, not area -- this one asks for the area directly, exactly as administered).",
-  "diagram": "<svg viewBox=\"-10 0 150 70\" width=\"150\" height=\"70\" role=\"img\"><rect x=\"10\" y=\"10\" width=\"120\" height=\"40\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"/><text x=\"70\" y=\"7\" font-size=\"11\" text-anchor=\"middle\" fill=\"currentColor\">9 cm</text></svg>",
+  "ref": "Tier: Easy &middot; Topic: Finding Area/Perimeter of Rectangle, given Length &amp; Width &middot; Diagram: yes &middot; Wrong so far: 1/10 &middot; Times practised before: 2 (last: set 5) &middot; Real official item (gid367/gid431, both DONE -- she answered this exact scenario, 8cm/24cm, on a real test, so used fresh (and, at the user's request, bigger) numbers per the done-item rule, not verbatim). Her real answer was circled correctly both times.",
+  "diagram": "<svg viewBox=\"-10 0 150 70\" width=\"150\" height=\"70\" role=\"img\"><rect x=\"10\" y=\"10\" width=\"120\" height=\"40\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"/><text x=\"70\" y=\"7\" font-size=\"11\" text-anchor=\"middle\" fill=\"currentColor\">19 cm</text></svg>",
   "needs_diagram": true
  },
  {
