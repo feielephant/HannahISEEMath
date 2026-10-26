@@ -341,11 +341,11 @@ add(24, "Medium", "No Remainder when Divided by a given Number",
     "Tier: Medium &middot; Topic: No Remainder when Divided by a given Number &middot; Diagram: no &middot; Wrong so far: 4/11 &middot; Times practised before: 6 (last: set 7) &middot; Fixed 2026-10-26: real model item (gid58) is plain text, no diagram.")
 
 add(25, "Medium", "Multi-step unit conversion (off-by-10, multi-step)",
-    '<div>4 zips = 6 bons.</div><div>1 bon = 5 crons.</div>How many crons equal 10 zips?',
+    "Mia invented a made-up unit system for her science fair project. 4 zips = 6 bons. 1 bon = 5 crons. Based on the equations above, how many crons equal 10 zips?",
     {"A": "60", "B": "75", "C": "90", "D": "50"}, "B",
     "<b>Answer: B.</b> 4 zips = 6 bons, so 1 zip = 1.5 bons. 10 zips = 15 bons. Each bon = 5 crons, so 15 bons = 75 crons.",
     "exact-thing-asked",
-    "Tier: Medium &middot; Topic: Multi-step unit conversion (off-by-10, multi-step) &middot; Diagram: no &middot; Wrong so far: 5/8 &middot; Times practised before: 11 (last: set 7) &middot; Fixed 2026-10-26: real model item (gid861) has no figure -- just the two given equations on their own lines above the question (matches this exact convention now instead of the invented arrow-chain graphic).")
+    "Tier: Medium &middot; Topic: Multi-step unit conversion (off-by-10, multi-step) &middot; Diagram: no &middot; Wrong so far: 5/8 &middot; Times practised before: 11 (last: set 7) &middot; Fixed 2026-10-26 (2nd pass): the real model item (gid861, used verbatim in set 7 #10) has a narrative wrapper sentence ('Bruce created a made-up currency system for his class store...') and ends with 'Based on the equations above...' -- the previous version was bare equations with no framing, missing that wrapper. Rendered as flowing prose (matching how set 7 #10 actually renders this same real item), not stacked lines -- the earlier 'separate lines' fix was based on a misreading of the diagram_description field (which describes the platform's visual centering, not the question text itself).")
 
 add(26, "Medium", "Divisibility / number constraints (Serena/Who am I style)",
     "Felix picked a whole number greater than 60 but less than 75. The number is even and is divisible by 7. What is Felix's number?",
