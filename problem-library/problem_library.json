@@ -35830,5 +35830,14 @@
     "is_timing_chart": true,
     "notes": "Recaptured Oct 18 2026 in a browsing session that went through all 4 ISEE Lower tests' results pages; not part of the original Oct 9 recapture batch.",
     "global_id": 1444
+  },
+  {
+    "global_id": 1445,
+    "type": "timing",
+    "set_name": "What to Expect",
+    "set_date": "2026-09-05",
+    "is_timing_chart": true,
+    "source_file": "mathspeed test/actual-practice-tests/What to Expect/Screenshot 2026-10-25 at 6.28.08 PM.png",
+    "diagram_description": "Quantitative Reasoning timing chart for 'What to Expect', 35 questions (fewer than a normal QR section's 38). Completed on 09/05/2026. URL section 2 (QR)."
   }
 ]
