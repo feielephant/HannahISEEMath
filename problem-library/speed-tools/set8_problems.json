@@ -75,17 +75,17 @@
   "n": 5,
   "tier": "Medium",
   "topic": "Numerical Patterns",
-  "q": "A number pattern begins 2, 5, 10, 17, 26, .... What is the 6th number in the pattern?",
+  "q": "A number pattern begins 2, 5, 10, 17, 26, .... What is the 7th number in the pattern?",
   "choices": {
-   "A": "35",
-   "B": "36",
-   "C": "37",
-   "D": "38"
+   "A": "44",
+   "B": "48",
+   "C": "50",
+   "D": "53"
   },
   "correct": "C",
-  "key": "<b>Answer: C.</b> The differences between terms are 3, 5, 7, 9 -- each difference is 2 more than the last (not constant). The next difference is 11, so the 6th term is 26 + 11 = 37. Checking only the first difference (3) and assuming it stays constant is the trap here.",
+  "key": "<b>Answer: C.</b> The differences between terms are 3, 5, 7, 9 -- each difference is 2 more than the last (not constant), so the next two differences are 11 and 13: 6th term = 26 + 11 = 37, 7th term = 37 + 13 = 50. (A=44 comes from wrongly reusing the LAST given difference, 9, for both remaining steps -- 26+9+9=44 -- instead of letting the differences keep growing by 2.)",
   "habit_note": "first-order-only pattern reading",
-  "ref": "Tier: Medium &middot; Topic: Numerical Patterns &middot; Diagram: no &middot; Wrong so far: 4/9 &middot; Times practised before: 6 (last: set 7)",
+  "ref": "Tier: Medium &middot; Topic: Numerical Patterns &middot; Diagram: no &middot; Wrong so far: 4/9 &middot; Times practised before: 6 (last: set 7) &middot; Extended to the 7th term 2026-10-26 (one extra extrapolation step past the 5 given terms) at the user's request.",
   "diagram": null,
   "needs_diagram": false
  },
@@ -165,18 +165,18 @@
   "n": 10,
   "tier": "Hard",
   "topic": "Area and Perimeter of Complex Polygons",
-  "q": "The figure shown is not drawn to scale. A rectangle is joined to a right triangle along one side; the triangle's height, measured from that shared side, is also labeled. What is the total area of the figure? (Area of a triangle = (base &times; height) &divide; 2)",
+  "q": "The figure is composed of a rectangle and a triangle. The side lengths are measured in feet (ft). What is the perimeter of the figure?",
   "choices": {
-   "A": "102",
-   "B": "30",
-   "C": "78",
-   "D": "54"
+   "A": "30 ft",
+   "B": "34 ft",
+   "C": "40 ft",
+   "D": "44 ft"
   },
   "correct": "C",
-  "key": "<b>Answer: C.</b> Rectangle area = 9 &times; 6 = 54. The triangle's base is the shared 6 cm side, and its height is 8 cm: (6 &times; 8) &divide; 2 = 24. Total area = 54 + 24 = 78. (A forgets to divide the triangle by 2; D only counts the rectangle.)",
+  "key": "<b>Answer: C.</b> The dashed 4 ft segment is the triangle's base, shared with the rectangle's bottom edge -- it's internal, not part of the outer perimeter. The rectangle's full bottom width is 3 + 4 + 3 = 10 ft, which equals its top edge too (also unlabeled but equal, since it's a rectangle). Add up only the OUTER edges: top (10) + left side (4) + right side (4) + the two exposed 3 ft bottom segments (3 + 3 = 6) + the two triangle slant sides (8 + 8 = 16) = 10 + 4 + 4 + 6 + 16 = 40 ft.",
   "habit_note": "check-every-condition",
-  "ref": "Tier: Hard &middot; Topic: Area and Perimeter of Complex Polygons &middot; Diagram: yes &middot; Wrong so far: 6/15 &middot; Times practised before: 8 (last: set 7) &middot; Redesigned 2026-10-26: the original draft was a near-exact repeat of set 7 #3 (same square+triangle shared-perimeter scenario, same diagram, only the numbers changed). Switched to a rectangle+triangle AREA scenario (modeled on gid191) so it's a genuinely different composite-figure problem, not a 4th reskin of the same perimeter trap (also used in QR4/QR5).",
-  "diagram": "<svg viewBox=\"0 0 200 110\" width=\"200\" height=\"110\" role=\"img\"><rect x=\"20\" y=\"15\" width=\"90\" height=\"60\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"/><polygon points=\"110,15 180,45 110,75\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"/><text x=\"65\" y=\"12\" font-size=\"11\" text-anchor=\"middle\" fill=\"currentColor\">9 cm</text><text x=\"12\" y=\"48\" font-size=\"11\" text-anchor=\"middle\" fill=\"currentColor\">6</text><text x=\"150\" y=\"38\" font-size=\"11\" text-anchor=\"middle\" fill=\"currentColor\">h = 8 cm</text></svg>",
+  "ref": "Tier: Hard &middot; Topic: Area and Perimeter of Complex Polygons &middot; Diagram: yes &middot; Wrong so far: 6/15 &middot; Times practised before: 8 (last: set 7) &middot; Real, unused library item (global_id 736, verified directly against the source screenshot). Redesigned 2026-10-26: the first draft was a near-exact repeat of set 7 #3 (same square+triangle shared-perimeter scenario, same diagram, only the numbers changed -- this scenario had also already recurred across QR4/QR5). A second draft invented a fresh rectangle+triangle AREA problem, but a real official item for this exact topic (gid736, also rectangle+triangle) was sitting unused in the library -- swapped to that instead of inventing, per the done/not-done rule.",
+  "diagram": "<svg viewBox=\"0 0 110 130\" width=\"110\" height=\"130\" role=\"img\"><rect x=\"0\" y=\"0\" width=\"100\" height=\"40\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"/><line x1=\"30\" y1=\"40\" x2=\"70\" y2=\"40\" stroke=\"currentColor\" stroke-width=\"2\" stroke-dasharray=\"4,3\"/><line x1=\"30\" y1=\"40\" x2=\"50\" y2=\"120\" stroke=\"currentColor\" stroke-width=\"2\"/><line x1=\"70\" y1=\"40\" x2=\"50\" y2=\"120\" stroke=\"currentColor\" stroke-width=\"2\"/><text x=\"-9\" y=\"22\" font-size=\"10\" text-anchor=\"middle\" fill=\"currentColor\">4 ft</text><text x=\"109\" y=\"22\" font-size=\"10\" text-anchor=\"middle\" fill=\"currentColor\">4 ft</text><text x=\"50\" y=\"35\" font-size=\"10\" text-anchor=\"middle\" fill=\"currentColor\">4 ft</text><text x=\"16\" y=\"48\" font-size=\"10\" text-anchor=\"middle\" fill=\"currentColor\">3 ft</text><text x=\"84\" y=\"48\" font-size=\"10\" text-anchor=\"middle\" fill=\"currentColor\">3 ft</text><text x=\"32\" y=\"82\" font-size=\"10\" text-anchor=\"middle\" fill=\"currentColor\">8 ft</text><text x=\"68\" y=\"82\" font-size=\"10\" text-anchor=\"middle\" fill=\"currentColor\">8 ft</text></svg>",
   "needs_diagram": true
  },
  {
