@@ -2,6 +2,8 @@
 
 **All 5 steps are now DONE — this project is complete.** This doc is kept as a record of what was found and how, in case it's useful reference later (e.g. the conventions section, or the duplicate-detection patterns if a similar issue shows up again).
 
+**Post-completion fix (same day)**: the user caught that `source_file` on 181 real-test items pointed at the original, lower-quality screenshot while `recapture_source_images` pointed at the richer one -- but the recapture is a strict superset (the original never showed the Solution box; `official_solution`/`choice_percentages`/the correctness marker all came from the recapture, never the original). Swapped `source_file` to the recapture path for all 181 items, then moved the entire `mathspeed test/superseded-by-recapture/` folder (now fully unreferenced, 441 files including the 259 ISEEcomputer ones) out to `~/Documents/HannahISEEMath-dev-screenshots/superseded-originals/`. The `superseded-by-recapture/` folder itself was removed. `mathspeed test/` now contains only actively-referenced content.
+
 ## What this project is
 
 Four folders under `~/Documents/HannahISEEMath/` hold raw screenshots that feed `problem-library/problem_library.json` (and `ma_library.json`). The goal: every screenshot should be (a) cataloged as a library item with real question text/choices/answer, and (b) physically organized into a folder that reflects what it is — not sitting loose in a folder root.
