@@ -271,10 +271,10 @@ add(13, "Medium", "No Remainder when Divided by two given Numbers",
     None, "Tier: Medium &middot; Topic: No Remainder when Divided by two given Numbers &middot; Diagram: no &middot; Never tracked before (0 graded instances) &middot; Coverage-floor pick.")
 
 add(14, "Medium", "Evaluating Percents of Numbers",
-    "What is 30% of 70?",
-    {"A": "21", "B": "23", "C": "24", "D": "18"}, "A",
-    "<b>Answer: A.</b> 30% of 70 = 0.3 &times; 70 = 21. (Deliberately a 20%/30%-type percent, not a 10%/25% shortcut percent -- this is the confirmed slower, more error-prone case.)",
-    None, "Tier: Medium &middot; Topic: Evaluating Percents of Numbers &middot; Diagram: no &middot; Never tracked before (0 graded instances) &middot; Coverage-floor pick; targets the confirmed 20%/30% percent-method gap (see project_percent_calc_method).")
+    "A bar of soap originally costs $3.60. Then the price decreased by 30%. What is the price of the bar of soap now?",
+    {"A": "$2.52", "B": "$1.44", "C": "$2.12", "D": "$3.30"}, "A",
+    "<b>Answer: A.</b> 30% of $3.60 = 0.3 &times; 3.60 = $1.08. New price: $3.60 &minus; $1.08 = $2.52. (B=$1.44 stops after finding the 30% amount instead of subtracting it from the original price.)",
+    None, "Tier: Medium &middot; Topic: Evaluating Percents of Numbers &middot; Diagram: no &middot; Real, unused not_done library item (global_id 1107), used verbatim. Swapped 2026-10-26 for a bare 'What is 30% of 70?' -- at the user's request, this is genuinely 2-step (find the percent amount, then subtract it) instead of one multiplication, while still targeting the confirmed 20%/30% percent-method gap.")
 
 add(15, "Medium", "Word Problems with Ratios",
     "In a parking lot, the ratio of sedans to trucks is 5:3. If there are 48 vehicles total, how many trucks are there?",
