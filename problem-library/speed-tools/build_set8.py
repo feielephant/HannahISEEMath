@@ -259,10 +259,10 @@ add(11, "Medium", "Percent Increase Decrease basic",
     None, "Tier: Medium &middot; Topic: Percent Increase Decrease basic &middot; Diagram: no &middot; Never tracked before (0 graded instances) &middot; Coverage-floor pick. Fixed 2026-10-26: real model items (gid198/711) are plain text, no diagram.")
 
 add(12, "Easy", "Finding Unit Price",
-    "Pack A has 8 juice boxes for $4.00. Pack B has 12 juice boxes for $5.40. What is the unit price of Pack B, in dollars per juice box?",
-    {"A": "$0.40", "B": "$0.45", "C": "$0.50", "D": "$0.54"}, "B",
-    "<b>Answer: B.</b> Pack B: $5.40 &divide; 12 boxes = $0.45 per box. (Pack A is $4.00 &divide; 8 = $0.50 per box, so Pack B is actually the better deal, but the question only asks for Pack B's unit price.)",
-    None, "Tier: Easy &middot; Topic: Finding Unit Price &middot; Diagram: no &middot; Wrong so far: 1/4 &middot; Times practised before: 3 (last: set 4) &middot; Fixed 2026-10-26: real model item (gid230) is plain text, no table -- folded the pack data into the question.")
+    "Pack A has 8 juice boxes for $4.00. Pack B has 12 juice boxes for $5.40. How much more, per juice box, does Pack A cost compared to Pack B?",
+    {"A": "$0.45", "B": "$0.05", "C": "$0.50", "D": "$0.95"}, "B",
+    "<b>Answer: B.</b> Pack A: $4.00 &divide; 8 = $0.50 per box. Pack B: $5.40 &divide; 12 = $0.45 per box. Difference: $0.50 &minus; $0.45 = $0.05. (A and C are each pack's own unit price, not the difference between them -- a common stop-early trap when both given values matter.)",
+    None, "Tier: Easy &middot; Topic: Finding Unit Price &middot; Diagram: no &middot; Wrong so far: 1/4 &middot; Times practised before: 3 (last: set 4) &middot; Fixed 2026-10-26 (2nd pass): the previous version asked only about Pack B, leaving Pack A's numbers entirely unused -- not a deliberate decoy, just leftover from editing. Now both given conditions are genuinely required, a real 2-step comparison instead of one computation plus dead data.")
 
 add(13, "Medium", "No Remainder when Divided by two given Numbers",
     "If z can be divided by both 4 and 9 without leaving a remainder, then 2z can also be divided by which number without leaving a remainder?",
