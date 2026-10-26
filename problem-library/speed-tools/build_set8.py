@@ -296,10 +296,10 @@ add(17, "Easy", "Perimeter",
     None, "Tier: Easy &middot; Topic: Perimeter &middot; Diagram: no &middot; Wrong so far: 0/6 &middot; Maintain priority (keep this skill fresh).")
 
 add(18, "Easy", "Adding and Subtracting Integers",
-    "At 6 a.m., the temperature was &minus;4&deg;F. By noon, it had risen 15&deg;F. What was the temperature at noon?",
-    {"A": "19", "B": "11", "C": "&minus;11", "D": "&minus;19"}, "B",
-    "<b>Answer: B.</b> &minus;4 + 15 = 11&deg;F.",
-    None, "Tier: Easy &middot; Topic: Adding and Subtracting Integers &middot; Diagram: no &middot; Wrong so far: 0/9 &middot; Times practised before: 1 (last: set 6) &middot; Fixed 2026-10-26: no real example anywhere used a diagram for this topic; dropped the invented thermometer graphic.")
+    "What is the value of the expression 3,000 &minus; 1,174?",
+    {"A": "1,836", "B": "1,826", "C": "1,726", "D": "1,924"}, "B",
+    "<b>Answer: B.</b> 3,000 &minus; 1,174 = 1,826.",
+    None, "Tier: Easy &middot; Topic: Adding and Subtracting Integers &middot; Diagram: no &middot; Wrong so far: 0/9 (real tests: 7/7 right) &middot; Times practised before: 1 (last: set 6) &middot; Fixed 2026-10-26 (2nd pass): checked all 7 real items for this topic and NONE involve negative numbers -- despite the bank's name, the real format is plain large-number addition/subtraction (e.g. 'What is the value of 308+197?'), the same misleading-bank-name trap already confirmed for 'Integers' and 'Time Zones' earlier in this project. The previous version (temperature, -4 + 15) tested a different skill (signed-number arithmetic) than what's actually evidenced. This is a priority=maintain topic -- she's 7/7 on the real items -- so the point is to keep the ACTUAL tested skill fresh, not to invent a harder one she hasn't been shown to need.")
 
 add(19, "Medium", "Estimation (sums, products, money, ranges)",
     "Nina tracked her weekly grocery spending for four weeks: $62.80, $47.15, $71.40, and $55.90. Which is the best estimate of her total spending?",
@@ -419,11 +419,11 @@ add(35, "Medium", "Finding Area/Perimeter of Rectangle, given Length & Width",
     diagram=img_tag)
 
 add(36, "Easy", "Key-word NOT in equivalence questions",
-    "Which of the following is <b>NOT</b> equivalent to " + frac(5,8) + "?",
-    {"A": "0.625", "B": "62.5%", "C": frac(15,24), "D": frac(10,15)}, "D",
-    f"<b>Answer: D.</b> {frac(10,15)} simplifies to {frac(2,3)} &asymp; 0.667, which is NOT equal to {frac(5,8)} = 0.625. The other three all equal {frac(5,8)} once simplified/converted: 0.625 and 62.5% directly, and {frac(15,24)} simplifies to {frac(5,8)} (divide by 3).",
+    "Which of the following is <b>NOT</b> equivalent to " + frac(3,5) + "?",
+    {"A": "0.6", "B": frac(6,10), "C": "60%", "D": "60% of 100"}, "D",
+    f"<b>Answer: D.</b> 60% of 100 = 60 (a computed VALUE, not the fraction {frac(3,5)}, which equals 0.6). The 'of 100' turns it into an actual number instead of a percent form, so it's not equivalent. 0.6, {frac(6,10)}, and 60% are all genuinely equal to {frac(3,5)}.",
     "key-word-watch",
-    "Tier: Easy &middot; Topic: Key-word NOT in equivalence questions &middot; Diagram: no &middot; Wrong so far: 4/7 &middot; Times practised before: 6 (last: set 5) &middot; Note: 4/4 wrong on 'Which value is NOT equivalent' drill -- only NOT-style item in this set. Fixed 2026-10-26: no real item exists anywhere in either library for this specific drill format, but the previous version (3/4 vs 75%/0.75/6/8/4/3) was too easy -- every choice was an instantly-recognizable standard form, no real computation needed. Switched to 5/8 with less-obvious equivalents (62.5%, 15/24 simplifying to 5/8) and a NOT-equivalent trap (10/15, which simplifies to 2/3, not 5/8) that requires actually simplifying each choice rather than pattern-matching.")
+    "Tier: Easy &middot; Topic: Key-word NOT in equivalence questions &middot; Diagram: no &middot; Wrong so far: 4/7 &middot; Times practised before: 6 (last: set 5) &middot; Real official item (global_id 651, DONE and confirmed wrong -- this IS the actual source of the '4/4 wrong' drill note, found 2026-10-26: 6 real items with this exact phrasing exist, 5 marked wrong). Fresh numbers used per the done-item rule, but the real trap mechanism is preserved exactly: one choice is worded as 'X% of Y' (a computed result) instead of staying in percent/fraction/decimal form -- that's the actual thing she's missed, not a magnitude/reciprocal trick like earlier invented drafts of this slot used.")
 
 add(37, "Hard", "No Remainder when Divided by a given Number",
     "A number is divisible by both 6 and 8 without a remainder. Which of the following must also divide that number without a remainder?",
