@@ -224,12 +224,11 @@ add(6, "Easy", "English Unit Conversions",
     "Ribbon 2 (145) is longer than Ribbon 1 (100) -- true. The other three statements are all false once everything is converted to the same unit.",
     None, "Tier: Easy &middot; Topic: English Unit Conversions &middot; Diagram: no &middot; Wrong so far: 0/1 &middot; Times practised before: 1 (last: set 4) &middot; Upgraded 2026-10-26 from a single-step multiply -- a real official item for this exact topic (3-way mixed-unit comparison) was available and unused; too easy to waste one of her only 2 data points on this topic.")
 
-add(7, "Medium", "Predicting the Next Shapes given Progressive Pattern",
-    "The figure shows a pattern growing in steps. If the pattern continues, how many small squares will be in Step 4?",
-    {"A": "12", "B": "13", "C": "16", "D": "17"}, "B",
-    "<b>Answer: B.</b> Each step adds 4 squares to the plus-shape: Step 1 = 1, Step 2 = 5, Step 3 = 9, so Step 4 = 9 + 4 = 13.",
-    None, "Tier: Medium &middot; Topic: Predicting the Next Shapes given Progressive Pattern &middot; Diagram: yes &middot; Wrong so far: 1/5 &middot; Times practised before: 2 (last: set 5)",
-    diagram=plus_pattern())
+add(7, "Medium", "Nth Term, given Arithmetic Sequence, Progressive Pattern, etc.",
+    "The 2nd number in a pattern is 14, the 3rd number is 23, and the 4th number is 32. What is the 1st number in the pattern?",
+    {"A": "13", "B": "5", "C": "6", "D": "23"}, "B",
+    "<b>Answer: B.</b> The common difference is 9 (23&minus;14=9, 32&minus;23=9). Working backward: 1st number = 14 &minus; 9 = 5.",
+    None, "Tier: Medium &middot; Topic: Nth Term, given Arithmetic Sequence, Progressive Pattern, etc. &middot; Diagram: no &middot; Real official item (global_id 44, DONE), fresh numbers used. Moved here 2026-10-26, swapped from #23 at the user's request -- #7 was her strongest of the three pattern-type slots (1/5 wrong), recently retested correctly (MA2, 10/21), so this slot moved to the never-retested 'work backward to find an earlier term' mechanic (matching QR7 #35's format) instead, while #23 reverted to its original forward/off-by-one-trap version.")
 
 add(8, "Medium", "Order of Operations and Equivalence",
     "Which expression is equal to 5(2 + 4) + 10(4 &minus; 2)?",
@@ -329,10 +328,10 @@ add(22, "Medium", "Algebra with Geometric Shapes",
     needs_diagram=True)
 
 add(23, "Easy", "Nth Term, given Arithmetic Sequence, Progressive Pattern, etc.",
-    "The 2nd number in a pattern is 14, the 3rd number is 23, and the 4th number is 32. What is the 1st number in the pattern?",
-    {"A": "13", "B": "6", "C": "5", "D": "23"}, "C",
-    "<b>Answer: C.</b> The common difference is 9 (23&minus;14=9, 32&minus;23=9). Working backward: 1st number = 14 &minus; 9 = 5.",
-    None, "Tier: Easy &middot; Topic: Nth Term, given Arithmetic Sequence, Progressive Pattern, etc. &middot; Diagram: no &middot; Wrong so far: 2/9 &middot; Times practised before: 3 (last: set 7) &middot; Swapped 2026-10-26: real official item (global_id 44, DONE), fresh numbers used -- the real test's 'work backward to find an earlier term' mechanic, matching QR7 #35's format, which she's never been retested on since the only other library example (this one) had sat unused. Trade-off: this drops the forward-extrapolation off-by-one trap this slot previously tested (confirmed gap, see project_ma1_oct13_skill_gaps) -- #5 and #7 remain as the set's forward-pattern coverage, but none currently retest the off-by-one trap specifically; worth a slot in a future set if it resurfaces.")
+    "An arithmetic sequence begins 9, 14, 19, 24, .... What is the 15th term?",
+    {"A": "74", "B": "75", "C": "79", "D": "84"}, "C",
+    "<b>Answer: C.</b> Common difference = 5. 15th term = 9 + (15&minus;1)&times;5 = 9 + 70 = 79. (D=84 comes from using 15&times;5 instead of (15&minus;1)&times;5 -- an off-by-one error in the term count.)",
+    None, "Tier: Easy &middot; Topic: Nth Term, given Arithmetic Sequence, Progressive Pattern, etc. &middot; Diagram: no &middot; Wrong so far: 2/9 &middot; Times practised before: 3 (last: set 7) &middot; Reverted 2026-10-26: swapped to the gid44 backward-mechanic version, then reverted at the user's request -- this version explicitly names 'arithmetic sequence' in the question, which the user wants kept as a check that she actually knows the term/concept, not just folded into generic 'pattern' language like gid44 uses.")
 
 add(24, "Medium", "Input Output Tables",
     "A set of input and output values is shown. If the output value is 15, what is the input value?",
