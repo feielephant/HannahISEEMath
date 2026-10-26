@@ -2573,7 +2573,7 @@
     "exercise_title": "Adding and Subtracting Integers",
     "notes": "Easy. Hannah time 56 sec.",
     "status": "done",
-    "official_topic": "Adding and Subtracting Integers",
+    "official_topic": null,
     "official_solution": "The correct answer to the question is answer choice (B), 967.",
     "choice_percentages": {
       "A": "<5.0%",
@@ -2584,7 +2584,8 @@
     "her_selected_letter": "B",
     "recapture_source_images": [
       "mathspeed test/actual-practice-tests/ISEE Lower #2/Screenshot 2026-10-06 at 10.36.08 AM.png"
-    ]
+    ],
+    "official_topic_corrected_2026-10-26": "Previously left as a 'genuine' match -- WRONG. Viewed the actual source screenshot directly: the platform's own 'Subtype' label reads 'Whole Numbers', and 'Adding and Subtracting Integers' only appears as the Follow-Up Exercise suggestion box, identical to the other 5 items already corrected. ALL 7 of this topic's captured items are mistagged this way -- none are genuinely 'Adding and Subtracting Integers' content. Real subtype is 'Whole Numbers'."
   },
   {
     "source_file": "mathspeed test/actual-practice-tests/ISEE Lower #2/Screenshot 2026-10-06 at 10.36.11 AM.png",
@@ -3788,7 +3789,7 @@
     "exercise_title": "Adding and Subtracting Integers",
     "notes": "Subtype Whole Numbers; Easy. Green only. Time 22 sec.",
     "status": "done",
-    "official_topic": "Adding and Subtracting Integers",
+    "official_topic": null,
     "official_solution": "The correct answer to the question is answer choice (D), 611.",
     "choice_percentages": {
       "A": "<5.0%",
@@ -3799,7 +3800,8 @@
     "her_selected_letter": "D",
     "recapture_source_images": [
       "mathspeed test/actual-practice-tests/ISEE Lower #3/Screenshot 2026-10-06 at 10.38.12 AM.png"
-    ]
+    ],
+    "official_topic_corrected_2026-10-26": "Previously left as a 'genuine' match -- WRONG. Viewed the actual source screenshot directly: the platform's own 'Subtype' label reads 'Whole Numbers', and 'Adding and Subtracting Integers' only appears as the Follow-Up Exercise suggestion box, identical to the other 5 items already corrected. ALL 7 of this topic's captured items are mistagged this way -- none are genuinely 'Adding and Subtracting Integers' content. Real subtype is 'Whole Numbers'."
   },
   {
     "source_file": "mathspeed test/actual-practice-tests/ISEE Lower #3/Screenshot 2026-10-06 at 10.38.15 AM.png",
