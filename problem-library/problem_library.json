@@ -1,6 +1,6 @@
 [
   {
-    "source_file": "mathspeed test/superseded-by-recapture/Screenshot 2026-10-02 at 11.19.18 AM.png",
+    "source_file": "mathspeed test/actual-practice-tests/What to Expect/Screenshot 2026-10-09 at 6.56.29 PM.png",
     "type": "question",
     "question_number": 1,
     "question_text": "The largest triangle shown below is divided into small triangles. What fraction of the largest triangle is shaded?",
@@ -36,13 +36,10 @@
       "C": "<5.0%",
       "D": "<5.0%"
     },
-    "recapture_source_images": [
-      "mathspeed test/actual-practice-tests/What to Expect/Screenshot 2026-10-09 at 6.56.29 PM.png"
-    ],
     "recapture_nav_color_read": "correct"
   },
   {
-    "source_file": "mathspeed test/superseded-by-recapture/Screenshot 2026-10-02 at 11.19.24 AM.png",
+    "source_file": "mathspeed test/actual-practice-tests/What to Expect/Screenshot 2026-10-09 at 6.56.33 PM.png",
     "type": "question",
     "question_number": 2,
     "question_text": "Which story best fits the equation 7 × 5 = 35?",
@@ -78,13 +75,10 @@
       "C": "96.6%",
       "D": "<5.0%"
     },
-    "recapture_source_images": [
-      "mathspeed test/actual-practice-tests/What to Expect/Screenshot 2026-10-09 at 6.56.33 PM.png"
-    ],
     "recapture_nav_color_read": "correct"
   },
   {
-    "source_file": "mathspeed test/superseded-by-recapture/Screenshot 2026-10-02 at 11.19.30 AM.png",
+    "source_file": "mathspeed test/actual-practice-tests/What to Expect/Screenshot 2026-10-09 at 6.56.36 PM.png",
     "type": "question",
     "question_number": 3,
     "question_text": "Alice wrote down a whole number greater than 6 and less than 10. When Jim tried to guess the number, Alice told him it was greater than 8 and less than 12. What is Alice's number?",
@@ -120,13 +114,10 @@
       "C": "<5.0%",
       "D": "<5.0%"
     },
-    "recapture_source_images": [
-      "mathspeed test/actual-practice-tests/What to Expect/Screenshot 2026-10-09 at 6.56.36 PM.png"
-    ],
     "recapture_nav_color_read": "correct"
   },
   {
-    "source_file": "mathspeed test/superseded-by-recapture/Screenshot 2026-10-02 at 11.19.36 AM.png",
+    "source_file": "mathspeed test/actual-practice-tests/What to Expect/Screenshot 2026-10-09 at 6.56.38 PM.png",
     "type": "question",
     "question_number": 4,
     "question_text": "The perimeter of the triangle is 28 centimeters. The lengths of two of the sides are shown. What is the length of the third side?",
@@ -162,13 +153,10 @@
       "C": "<5.0%",
       "D": "<5.0%"
     },
-    "recapture_source_images": [
-      "mathspeed test/actual-practice-tests/What to Expect/Screenshot 2026-10-09 at 6.56.38 PM.png"
-    ],
     "recapture_nav_color_read": "correct"
   },
   {
-    "source_file": "mathspeed test/superseded-by-recapture/Screenshot 2026-10-02 at 11.19.41 AM.png",
+    "source_file": "mathspeed test/actual-practice-tests/What to Expect/Screenshot 2026-10-09 at 6.56.40 PM.png",
     "type": "question",
     "question_number": 5,
     "question_text": "Use the equations to answer the question. 5 + p = 6, 3 + q = 6. What is the sum of p + q?",
@@ -204,13 +192,10 @@
       "C": "<5.0%",
       "D": "<5.0%"
     },
-    "recapture_source_images": [
-      "mathspeed test/actual-practice-tests/What to Expect/Screenshot 2026-10-09 at 6.56.40 PM.png"
-    ],
     "recapture_nav_color_read": "correct"
   },
   {
-    "source_file": "mathspeed test/superseded-by-recapture/Screenshot 2026-10-02 at 11.19.47 AM.png",
+    "source_file": "mathspeed test/actual-practice-tests/What to Expect/Screenshot 2026-10-09 at 6.56.43 PM.png",
     "type": "question",
     "question_number": 6,
     "question_text": "Use the diagram to answer the question. Which piece would complete the diagram to make a square?",
@@ -246,13 +231,10 @@
       "C": "<5.0%",
       "D": "<5.0%"
     },
-    "recapture_source_images": [
-      "mathspeed test/actual-practice-tests/What to Expect/Screenshot 2026-10-09 at 6.56.43 PM.png"
-    ],
     "recapture_nav_color_read": "correct"
   },
   {
-    "source_file": "mathspeed test/superseded-by-recapture/Screenshot 2026-10-02 at 11.19.53 AM.png",
+    "source_file": "mathspeed test/actual-practice-tests/What to Expect/Screenshot 2026-10-09 at 6.56.44 PM.png",
     "type": "question",
     "question_number": 7,
     "question_text": "Nisha and Alex were riding their bikes at the same speed on a bike path. It took Nisha 20 minutes to ride 4 miles. How long did it take Alex to ride 12 miles?",
@@ -288,13 +270,10 @@
       "C": "<5.0%",
       "D": "<5.0%"
     },
-    "recapture_source_images": [
-      "mathspeed test/actual-practice-tests/What to Expect/Screenshot 2026-10-09 at 6.56.44 PM.png"
-    ],
     "recapture_nav_color_read": "correct"
   },
   {
-    "source_file": "mathspeed test/superseded-by-recapture/Screenshot 2026-10-02 at 11.19.59 AM.png",
+    "source_file": "mathspeed test/actual-practice-tests/What to Expect/Screenshot 2026-10-09 at 6.56.47 PM.png",
     "type": "question",
     "question_number": 8,
     "question_text": "Which is the largest fraction?",
@@ -330,13 +309,10 @@
       "C": "<5.0%",
       "D": "8.5%"
     },
-    "recapture_source_images": [
-      "mathspeed test/actual-practice-tests/What to Expect/Screenshot 2026-10-09 at 6.56.47 PM.png"
-    ],
     "recapture_nav_color_read": "correct"
   },
   {
-    "source_file": "mathspeed test/superseded-by-recapture/Screenshot 2026-10-02 at 11.20.04 AM.png",
+    "source_file": "mathspeed test/actual-practice-tests/What to Expect/Screenshot 2026-10-09 at 6.56.49 PM.png",
     "type": "question",
     "question_number": 9,
     "question_text": "If x can be divided by both 3 and 5 without leaving a remainder, then x can also be divided by which number without leaving a remainder?",
@@ -372,13 +348,10 @@
       "C": "<5.0%",
       "D": "85.2%"
     },
-    "recapture_source_images": [
-      "mathspeed test/actual-practice-tests/What to Expect/Screenshot 2026-10-09 at 6.56.49 PM.png"
-    ],
     "recapture_nav_color_read": "correct"
   },
   {
-    "source_file": "mathspeed test/superseded-by-recapture/Screenshot 2026-10-02 at 11.20.10 AM.png",
+    "source_file": "mathspeed test/actual-practice-tests/What to Expect/Screenshot 2026-10-09 at 6.56.50 PM.png",
     "type": "question",
     "question_number": 10,
     "question_text": "Use the Venn diagram to answer the question. What shapes could be found in the shaded part of the Venn diagram?",
@@ -414,16 +387,12 @@
       "C": "5.4%",
       "D": "84.8%"
     },
-    "recapture_source_images": [
-      "mathspeed test/actual-practice-tests/What to Expect/Screenshot 2026-10-09 at 6.56.50 PM.png",
-      "mathspeed test/actual-practice-tests/What to Expect/Screenshot 2026-09-05 at 3.30.00 PM.png"
-    ],
     "recapture_nav_color_read": "wrong",
     "her_selected_letter": "B",
     "her_selected_percentage": "6.0%"
   },
   {
-    "source_file": "mathspeed test/superseded-by-recapture/Screenshot 2026-10-02 at 11.20.16 AM.png",
+    "source_file": "mathspeed test/actual-practice-tests/What to Expect/Screenshot 2026-10-09 at 6.56.52 PM.png",
     "type": "question",
     "question_number": 11,
     "question_text": "A class put three cans full of water in the sun. Each can was covered and had a thermometer in it to measure the temperature of the water in degrees Fahrenheit. One can was painted black, one can was painted white, and the third can was painted silver. The class collected the data shown below. According to the pattern from these data, what would be the predicted temperature of the water in the black can at 70 minutes?",
@@ -459,13 +428,10 @@
       "C": "23.6%",
       "D": "69.8%"
     },
-    "recapture_source_images": [
-      "mathspeed test/actual-practice-tests/What to Expect/Screenshot 2026-10-09 at 6.56.52 PM.png"
-    ],
     "recapture_nav_color_read": "correct"
   },
   {
-    "source_file": "mathspeed test/superseded-by-recapture/Screenshot 2026-10-02 at 11.20.22 AM.png",
+    "source_file": "mathspeed test/actual-practice-tests/What to Expect/Screenshot 2026-10-09 at 6.56.55 PM.png",
     "type": "question",
     "question_number": 12,
     "question_text": "Use the table to determine the rule.",
@@ -501,13 +467,10 @@
       "C": "5.5%",
       "D": "79.5%"
     },
-    "recapture_source_images": [
-      "mathspeed test/actual-practice-tests/What to Expect/Screenshot 2026-10-09 at 6.56.55 PM.png"
-    ],
     "recapture_nav_color_read": "correct"
   },
   {
-    "source_file": "mathspeed test/superseded-by-recapture/Screenshot 2026-10-02 at 11.20.28 AM.png",
+    "source_file": "mathspeed test/actual-practice-tests/What to Expect/Screenshot 2026-10-09 at 6.56.57 PM.png",
     "type": "question",
     "question_number": 13,
     "question_text": "The perimeter of a square is 8s. What is the length of one side?",
@@ -543,13 +506,10 @@
       "C": "55.8%",
       "D": "7.2%"
     },
-    "recapture_source_images": [
-      "mathspeed test/actual-practice-tests/What to Expect/Screenshot 2026-10-09 at 6.56.57 PM.png"
-    ],
     "recapture_nav_color_read": "correct"
   },
   {
-    "source_file": "mathspeed test/superseded-by-recapture/Screenshot 2026-10-02 at 11.20.35 AM.png",
+    "source_file": "mathspeed test/actual-practice-tests/What to Expect/Screenshot 2026-10-09 at 6.56.58 PM.png",
     "type": "question",
     "question_number": 14,
     "question_text": "Which is a value of x in the math equation 15 = 3x + 3?",
@@ -585,13 +545,10 @@
       "C": "8.4%",
       "D": "80.5%"
     },
-    "recapture_source_images": [
-      "mathspeed test/actual-practice-tests/What to Expect/Screenshot 2026-10-09 at 6.56.58 PM.png"
-    ],
     "recapture_nav_color_read": "correct"
   },
   {
-    "source_file": "mathspeed test/superseded-by-recapture/Screenshot 2026-10-02 at 11.20.40 AM.png",
+    "source_file": "mathspeed test/actual-practice-tests/What to Expect/Screenshot 2026-10-09 at 6.57.00 PM.png",
     "type": "question",
     "question_number": 15,
     "question_text": "Use the figure below to answer the question. If two more rows were added to the figure, how many small triangles would the sixth row have, assuming the same pattern continues?",
@@ -627,13 +584,10 @@
       "C": "16.0%",
       "D": "73.6%"
     },
-    "recapture_source_images": [
-      "mathspeed test/actual-practice-tests/What to Expect/Screenshot 2026-10-09 at 6.57.00 PM.png"
-    ],
     "recapture_nav_color_read": "correct"
   },
   {
-    "source_file": "mathspeed test/superseded-by-recapture/Screenshot 2026-10-02 at 11.20.46 AM.png",
+    "source_file": "mathspeed test/actual-practice-tests/What to Expect/Screenshot 2026-10-09 at 6.57.02 PM.png",
     "type": "question",
     "question_number": 16,
     "question_text": "Use the pattern to help answer the question. 1+3=2², 1+3+5=3², 1+3+5+7=4². What is the solution to 1+3+5+7+9+11+13+15?",
@@ -669,13 +623,10 @@
       "C": "10.9%",
       "D": "9.9%"
     },
-    "recapture_source_images": [
-      "mathspeed test/actual-practice-tests/What to Expect/Screenshot 2026-10-09 at 6.57.02 PM.png"
-    ],
     "recapture_nav_color_read": "correct"
   },
   {
-    "source_file": "mathspeed test/superseded-by-recapture/Screenshot 2026-10-02 at 11.20.52 AM.png",
+    "source_file": "mathspeed test/actual-practice-tests/What to Expect/Screenshot 2026-10-09 at 6.57.04 PM.png",
     "type": "question",
     "question_number": 17,
     "question_text": "A survey of 40 students' favorite ice cream flavors is displayed in the circle graph shown. About what fraction of the students chose strawberry as their favorite flavor?",
@@ -711,13 +662,10 @@
       "C": "<5.0%",
       "D": "<5.0%"
     },
-    "recapture_source_images": [
-      "mathspeed test/actual-practice-tests/What to Expect/Screenshot 2026-10-09 at 6.57.04 PM.png"
-    ],
     "recapture_nav_color_read": "correct"
   },
   {
-    "source_file": "mathspeed test/superseded-by-recapture/Screenshot 2026-10-02 at 11.20.58 AM.png",
+    "source_file": "mathspeed test/actual-practice-tests/What to Expect/Screenshot 2026-10-09 at 6.57.06 PM.png",
     "type": "question",
     "question_number": 18,
     "question_text": "A cat had a litter of 4 kittens. Two of the kittens weighed 2½ ounces each, 1 kitten weighed 3 ounces, and 1 kitten weighed 4 ounces. What is the mean weight of the kittens from the litter?",
@@ -753,16 +701,12 @@
       "C": "53.7%",
       "D": "10.4%"
     },
-    "recapture_source_images": [
-      "mathspeed test/actual-practice-tests/What to Expect/Screenshot 2026-10-09 at 6.57.06 PM.png",
-      "mathspeed test/actual-practice-tests/What to Expect/Screenshot 2026-09-05 at 3.30.12 PM.png"
-    ],
     "recapture_nav_color_read": "wrong",
     "her_selected_letter": "B",
     "her_selected_percentage": "20.8%"
   },
   {
-    "source_file": "mathspeed test/superseded-by-recapture/Screenshot 2026-10-02 at 11.21.03 AM.png",
+    "source_file": "mathspeed test/actual-practice-tests/What to Expect/Screenshot 2026-10-09 at 6.57.08 PM.png",
     "type": "question",
     "question_number": 19,
     "question_text": "Use the number line to answer the question. Which three numbers are the vertical arrows pointing to on the number line?",
@@ -798,16 +742,12 @@
       "C": "55.8%",
       "D": "12.3%"
     },
-    "recapture_source_images": [
-      "mathspeed test/actual-practice-tests/What to Expect/Screenshot 2026-10-09 at 6.57.08 PM.png",
-      "mathspeed test/actual-practice-tests/What to Expect/Screenshot 2026-09-05 at 3.30.19 PM.png"
-    ],
     "recapture_nav_color_read": "wrong",
     "her_selected_letter": "B",
     "her_selected_percentage": "9.9%"
   },
   {
-    "source_file": "mathspeed test/superseded-by-recapture/Screenshot 2026-10-02 at 11.21.10 AM.png",
+    "source_file": "mathspeed test/actual-practice-tests/What to Expect/Screenshot 2026-10-09 at 6.57.10 PM.png",
     "type": "question",
     "question_number": 20,
     "question_text": "The length of RS is x and the length of RT is y. What is the length of ST?",
@@ -843,13 +783,10 @@
       "C": "11.6%",
       "D": "5.1%"
     },
-    "recapture_source_images": [
-      "mathspeed test/actual-practice-tests/What to Expect/Screenshot 2026-10-09 at 6.57.10 PM.png"
-    ],
     "recapture_nav_color_read": "correct"
   },
   {
-    "source_file": "mathspeed test/superseded-by-recapture/Screenshot 2026-10-02 at 11.21.18 AM.png",
+    "source_file": "mathspeed test/actual-practice-tests/What to Expect/Screenshot 2026-10-09 at 6.57.12 PM.png",
     "type": "question",
     "question_number": 21,
     "question_text": "In a warehouse, there are 687 boxes with 36 candles in each box. Which expression gives the best estimate of the total number of candles in the warehouse?",
@@ -885,13 +822,10 @@
       "C": "7.8%",
       "D": "86.1%"
     },
-    "recapture_source_images": [
-      "mathspeed test/actual-practice-tests/What to Expect/Screenshot 2026-10-09 at 6.57.12 PM.png"
-    ],
     "recapture_nav_color_read": "correct"
   },
   {
-    "source_file": "mathspeed test/superseded-by-recapture/Screenshot 2026-10-02 at 11.21.24 AM.png",
+    "source_file": "mathspeed test/actual-practice-tests/What to Expect/Screenshot 2026-10-09 at 6.57.14 PM.png",
     "type": "question",
     "question_number": 22,
     "question_text": "The volume of the small, shaded cube is 1 unit³. What is the volume of the larger cube?",
@@ -927,13 +861,10 @@
       "C": "65.0%",
       "D": "5.5%"
     },
-    "recapture_source_images": [
-      "mathspeed test/actual-practice-tests/What to Expect/Screenshot 2026-10-09 at 6.57.14 PM.png"
-    ],
     "recapture_nav_color_read": "correct"
   },
   {
-    "source_file": "mathspeed test/superseded-by-recapture/Screenshot 2026-10-02 at 11.21.29 AM.png",
+    "source_file": "mathspeed test/actual-practice-tests/What to Expect/Screenshot 2026-10-09 at 6.57.16 PM.png",
     "type": "question",
     "question_number": 23,
     "question_text": "Jar 1 and Jar 2 would each hold 1 cup of liquid when filled to the top. The jars shown are not completely filled to the top. If the liquids in the two jars are combined, approximately how much liquid will there be altogether?",
@@ -969,13 +900,10 @@
       "C": "12.0%",
       "D": "<5.0%"
     },
-    "recapture_source_images": [
-      "mathspeed test/actual-practice-tests/What to Expect/Screenshot 2026-10-09 at 6.57.16 PM.png"
-    ],
     "recapture_nav_color_read": "correct"
   },
   {
-    "source_file": "mathspeed test/superseded-by-recapture/Screenshot 2026-10-02 at 11.21.35 AM.png",
+    "source_file": "mathspeed test/actual-practice-tests/What to Expect/Screenshot 2026-10-09 at 6.57.17 PM.png",
     "type": "question",
     "question_number": 24,
     "question_text": "The figure shown may be folded along one or more of the dotted lines. Which line or pair of lines, when folded, will allow the semicircles to exactly match the original figure?",
@@ -1011,9 +939,6 @@
       "C": "18.1%",
       "D": "41.4%"
     },
-    "recapture_source_images": [
-      "mathspeed test/actual-practice-tests/What to Expect/Screenshot 2026-10-09 at 6.57.17 PM.png"
-    ],
     "recapture_nav_color_read": "correct"
   },
   {
@@ -1061,7 +986,7 @@
     "status": "done"
   },
   {
-    "source_file": "mathspeed test/superseded-by-recapture/Screenshot 2026-10-02 at 11.21.51 AM.png",
+    "source_file": "mathspeed test/actual-practice-tests/What to Expect/Screenshot 2026-10-09 at 6.57.20 PM.png",
     "type": "question",
     "question_number": 25,
     "question_text": "The ingredients in the recipe were evenly mixed and equally divided into 5 bags. RECIPE: 10 cups of crisp corn cereal, 7 cups of pretzel sticks, 2 cups of raisins, 3 cups of chocolate chips, 1 cup of sunflower seeds. Approximately how many cups of the mixture were placed in each bag?",
@@ -1097,16 +1022,12 @@
       "C": "65.6%",
       "D": "10.1%"
     },
-    "recapture_source_images": [
-      "mathspeed test/actual-practice-tests/What to Expect/Screenshot 2026-10-09 at 6.57.20 PM.png",
-      "mathspeed test/actual-practice-tests/What to Expect/Screenshot 2026-09-05 at 3.30.26 PM.png"
-    ],
     "recapture_nav_color_read": "wrong",
     "her_selected_letter": "B",
     "her_selected_percentage": "11.8%"
   },
   {
-    "source_file": "mathspeed test/superseded-by-recapture/Screenshot 2026-10-02 at 11.21.56 AM.png",
+    "source_file": "mathspeed test/actual-practice-tests/What to Expect/Screenshot 2026-10-09 at 6.57.21 PM.png",
     "type": "question",
     "question_number": 26,
     "question_text": "The scale on Tanji's map shows that 1.2 inches represents 10 miles. How many inches would it take to represent 25 miles?",
@@ -1142,13 +1063,10 @@
       "C": "10.4%",
       "D": "5.9%"
     },
-    "recapture_source_images": [
-      "mathspeed test/actual-practice-tests/What to Expect/Screenshot 2026-10-09 at 6.57.21 PM.png"
-    ],
     "recapture_nav_color_read": "correct"
   },
   {
-    "source_file": "mathspeed test/superseded-by-recapture/Screenshot 2026-10-02 at 11.22.01 AM.png",
+    "source_file": "mathspeed test/actual-practice-tests/What to Expect/Screenshot 2026-10-09 at 6.57.23 PM.png",
     "type": "question",
     "question_number": 27,
     "question_text": "Ms. Hammond put the names of all her students in a hat. The probability that she will pull out a boy's name at random is 3 out of 7. There are 12 girls in the class. How many boys are in Ms. Hammond's class?",
@@ -1184,13 +1102,10 @@
       "C": "61.3%",
       "D": "8.8%"
     },
-    "recapture_source_images": [
-      "mathspeed test/actual-practice-tests/What to Expect/Screenshot 2026-10-09 at 6.57.23 PM.png"
-    ],
     "recapture_nav_color_read": "correct"
   },
   {
-    "source_file": "mathspeed test/superseded-by-recapture/Screenshot 2026-10-02 at 11.22.07 AM.png",
+    "source_file": "mathspeed test/actual-practice-tests/What to Expect/Screenshot 2026-10-09 at 6.57.25 PM.png",
     "type": "question",
     "question_number": 28,
     "question_text": "Use the diagram of the cube to answer the question. How many small cubes are being used to build the large cube?",
@@ -1226,16 +1141,12 @@
       "C": "65.1%",
       "D": "21.2%"
     },
-    "recapture_source_images": [
-      "mathspeed test/actual-practice-tests/What to Expect/Screenshot 2026-10-09 at 6.57.25 PM.png",
-      "mathspeed test/actual-practice-tests/What to Expect/Screenshot 2026-09-05 at 3.30.32 PM.png"
-    ],
     "recapture_nav_color_read": "wrong",
     "her_selected_letter": "D",
     "her_selected_percentage": "21.2%"
   },
   {
-    "source_file": "mathspeed test/superseded-by-recapture/Screenshot 2026-10-02 at 11.22.09 AM.png",
+    "source_file": "mathspeed test/actual-practice-tests/What to Expect/Screenshot 2026-10-09 at 6.57.34 PM.png",
     "type": "question",
     "question_number": 29,
     "question_text": "Four students recorded the number of minutes spent reading at home for one night and recorded their data in the graph shown. Based on this graph, which conclusion is true about the number of minutes spent reading?",
@@ -1271,13 +1182,10 @@
       "C": "33.7%",
       "D": "5.4%"
     },
-    "recapture_source_images": [
-      "mathspeed test/actual-practice-tests/What to Expect/Screenshot 2026-10-09 at 6.57.34 PM.png"
-    ],
     "recapture_nav_color_read": "correct"
   },
   {
-    "source_file": "mathspeed test/superseded-by-recapture/Screenshot 2026-10-02 at 11.22.17 AM.png",
+    "source_file": "mathspeed test/actual-practice-tests/What to Expect/Screenshot 2026-10-09 at 6.57.37 PM.png",
     "type": "question",
     "question_number": 30,
     "question_text": "Which equation can be read as \"2 more than 6 times a number is equal to 10 less than the number\"? Let n represent the unknown number.",
@@ -1313,13 +1221,10 @@
       "C": "11.6%",
       "D": "5.9%"
     },
-    "recapture_source_images": [
-      "mathspeed test/actual-practice-tests/What to Expect/Screenshot 2026-10-09 at 6.57.37 PM.png"
-    ],
     "recapture_nav_color_read": "correct"
   },
   {
-    "source_file": "mathspeed test/superseded-by-recapture/Screenshot 2026-10-02 at 11.22.20 AM.png",
+    "source_file": "mathspeed test/actual-practice-tests/What to Expect/Screenshot 2026-10-09 at 6.57.39 PM.png",
     "type": "question",
     "question_number": 31,
     "question_text": "Use the figure shown to answer the question. How many triangular regions can be made in the figure by only drawing line segments from vertex P to the other vertices?",
@@ -1355,13 +1260,10 @@
       "C": "16.4%",
       "D": "21.7%"
     },
-    "recapture_source_images": [
-      "mathspeed test/actual-practice-tests/What to Expect/Screenshot 2026-10-09 at 6.57.39 PM.png"
-    ],
     "recapture_nav_color_read": "correct"
   },
   {
-    "source_file": "mathspeed test/superseded-by-recapture/Screenshot 2026-10-02 at 11.22.31 AM.png",
+    "source_file": "mathspeed test/actual-practice-tests/What to Expect/Screenshot 2026-10-09 at 6.57.41 PM.png",
     "type": "question",
     "question_number": 32,
     "question_text": "Kara has a box of chocolates with different cream fillings: caramel, vanilla, cinnamon, orange, and cocoa. The probability of choosing a chocolate filled with caramel is 4 out of 9. Which combination of chocolates is possible?",
@@ -1397,13 +1299,10 @@
       "C": "9.6%",
       "D": "25.4%"
     },
-    "recapture_source_images": [
-      "mathspeed test/actual-practice-tests/What to Expect/Screenshot 2026-10-09 at 6.57.41 PM.png"
-    ],
     "recapture_nav_color_read": "correct"
   },
   {
-    "source_file": "mathspeed test/superseded-by-recapture/Screenshot 2026-10-02 at 11.22.37 AM.png",
+    "source_file": "mathspeed test/actual-practice-tests/What to Expect/Screenshot 2026-10-09 at 6.57.43 PM.png",
     "type": "question",
     "question_number": 33,
     "question_text": "Josh did the problem shown with his calculator: (51 × 743) / 25. What is a reasonable estimation for his answer?",
@@ -1439,16 +1338,12 @@
       "C": "17.4%",
       "D": "21.7%"
     },
-    "recapture_source_images": [
-      "mathspeed test/actual-practice-tests/What to Expect/Screenshot 2026-10-09 at 6.57.43 PM.png",
-      "mathspeed test/actual-practice-tests/What to Expect/Screenshot 2026-09-05 at 3.30.41 PM.png"
-    ],
     "recapture_nav_color_read": "wrong",
     "her_selected_letter": "C",
     "her_selected_percentage": "17.4%"
   },
   {
-    "source_file": "mathspeed test/superseded-by-recapture/Screenshot 2026-10-02 at 11.22.42 AM.png",
+    "source_file": "mathspeed test/actual-practice-tests/What to Expect/Screenshot 2026-10-09 at 6.57.49 PM.png",
     "type": "question",
     "question_number": 34,
     "question_text": "What is the value of n in the expression 30(15+45)/3 = n?",
@@ -1484,13 +1379,10 @@
       "C": "11.7%",
       "D": "11.2%"
     },
-    "recapture_source_images": [
-      "mathspeed test/actual-practice-tests/What to Expect/Screenshot 2026-10-09 at 6.57.49 PM.png"
-    ],
     "recapture_nav_color_read": "correct"
   },
   {
-    "source_file": "mathspeed test/superseded-by-recapture/Screenshot 2026-10-02 at 11.22.47 AM.png",
+    "source_file": "mathspeed test/actual-practice-tests/What to Expect/Screenshot 2026-10-09 at 6.57.51 PM.png",
     "type": "question",
     "question_number": 35,
     "question_text": "Use the number line shown to answer the question. P is the average of Q and another number. What is the other number?",
@@ -1526,9 +1418,6 @@
       "C": "21.0%",
       "D": "35.3%"
     },
-    "recapture_source_images": [
-      "mathspeed test/actual-practice-tests/What to Expect/Screenshot 2026-10-09 at 6.57.51 PM.png"
-    ],
     "recapture_nav_color_read": "correct"
   },
   {
@@ -1548,7 +1437,7 @@
     "pacing_affected": false
   },
   {
-    "source_file": "mathspeed test/superseded-by-recapture/Screenshot 2026-10-02 at 11.23.18 AM.png",
+    "source_file": "mathspeed test/actual-practice-tests/ISEE Lower #1/Screenshot 2026-10-09 at 7.01.29 PM.png",
     "type": "question",
     "question_number": 1,
     "question_text": "Brandon used a number machine. Each number he put into the machine came out as a different number according to a rule. Some examples are shown. NUMBER MACHINE table. Which statement describes the relationship between the number Brandon put into the machine and the number that came out of it?",
@@ -1584,13 +1473,10 @@
       "C": "<5.0%",
       "D": "<5.0%"
     },
-    "recapture_source_images": [
-      "mathspeed test/actual-practice-tests/ISEE Lower #1/Screenshot 2026-10-09 at 7.01.29 PM.png"
-    ],
     "recapture_nav_color_read": "correct"
   },
   {
-    "source_file": "mathspeed test/superseded-by-recapture/Screenshot 2026-10-02 at 11.23.23 AM.png",
+    "source_file": "mathspeed test/actual-practice-tests/ISEE Lower #1/Screenshot 2026-10-09 at 7.01.32 PM.png",
     "type": "question",
     "question_number": 2,
     "question_text": "Charlie wrote down a number greater than 11 but less than 20. When Sean guessed that the number was 15, Charlie told him the number was greater than 15 and a multiple of 3. What is Charlie's number?",
@@ -1626,13 +1512,10 @@
       "C": "96.1%",
       "D": "<5.0%"
     },
-    "recapture_source_images": [
-      "mathspeed test/actual-practice-tests/ISEE Lower #1/Screenshot 2026-10-09 at 7.01.32 PM.png"
-    ],
     "recapture_nav_color_read": "correct"
   },
   {
-    "source_file": "mathspeed test/superseded-by-recapture/Screenshot 2026-10-02 at 11.23.28 AM.png",
+    "source_file": "mathspeed test/actual-practice-tests/ISEE Lower #1/Screenshot 2026-10-09 at 7.01.34 PM.png",
     "type": "question",
     "question_number": 3,
     "question_text": "A small piece of material is cut into 4 squares. A large piece of material is cut into 3 times as many squares as the small piece of material. How many squares is the large piece of material cut into?",
@@ -1668,13 +1551,10 @@
       "C": "<5.0%",
       "D": "96.3%"
     },
-    "recapture_source_images": [
-      "mathspeed test/actual-practice-tests/ISEE Lower #1/Screenshot 2026-10-09 at 7.01.34 PM.png"
-    ],
     "recapture_nav_color_read": "correct"
   },
   {
-    "source_file": "mathspeed test/superseded-by-recapture/Screenshot 2026-10-02 at 11.23.33 AM.png",
+    "source_file": "mathspeed test/actual-practice-tests/ISEE Lower #1/Screenshot 2026-10-09 at 7.01.36 PM.png",
     "type": "question",
     "question_number": 4,
     "question_text": "Look at the pattern of numbers and words. 2 red, 3 blue, 4 green, 5 red, 6 blue, 7 green. Which number and word continues this pattern?",
@@ -1710,13 +1590,10 @@
       "C": "95.7%",
       "D": "<5.0%"
     },
-    "recapture_source_images": [
-      "mathspeed test/actual-practice-tests/ISEE Lower #1/Screenshot 2026-10-09 at 7.01.36 PM.png"
-    ],
     "recapture_nav_color_read": "correct"
   },
   {
-    "source_file": "mathspeed test/superseded-by-recapture/Screenshot 2026-10-02 at 11.23.39 AM.png",
+    "source_file": "mathspeed test/actual-practice-tests/ISEE Lower #1/Screenshot 2026-10-09 at 7.01.38 PM.png",
     "type": "question",
     "question_number": 5,
     "question_text": "This graph shows the total cost of a large jar of strawberry jam at four different stores. [bar graph 'JAM COSTS']. Based on this graph, which conclusion is true about the cost of strawberry jam in these stores? (bottom of question text cut off at edge of screenshot)",
@@ -1751,13 +1628,10 @@
       "B": "<5.0%",
       "C": "92.5%",
       "D": "<5.0%"
-    },
-    "recapture_source_images": [
-      "mathspeed test/actual-practice-tests/ISEE Lower #1/Screenshot 2026-10-09 at 7.01.38 PM.png"
-    ]
+    }
   },
   {
-    "source_file": "mathspeed test/superseded-by-recapture/Screenshot 2026-10-02 at 11.23.45 AM.png",
+    "source_file": "mathspeed test/actual-practice-tests/ISEE Lower #1/Screenshot 2026-10-09 at 7.01.39 PM.png",
     "type": "question",
     "question_number": 6,
     "question_text": "The second number in a pattern is 11, the third number in the pattern is 19, and the fourth number in the pattern is 27. What is the first number in the pattern?",
@@ -1793,13 +1667,10 @@
       "C": "<5.0%",
       "D": "<5.0%"
     },
-    "recapture_source_images": [
-      "mathspeed test/actual-practice-tests/ISEE Lower #1/Screenshot 2026-10-09 at 7.01.39 PM.png"
-    ],
     "recapture_nav_color_read": "correct"
   },
   {
-    "source_file": "mathspeed test/superseded-by-recapture/Screenshot 2026-10-02 at 11.23.53 AM.png",
+    "source_file": "mathspeed test/actual-practice-tests/ISEE Lower #1/Screenshot 2026-10-09 at 7.01.41 PM.png",
     "type": "question",
     "question_number": 7,
     "question_text": "Which fraction is equivalent to 10%?",
@@ -1835,13 +1706,10 @@
       "C": "8.7%",
       "D": "<5.0%"
     },
-    "recapture_source_images": [
-      "mathspeed test/actual-practice-tests/ISEE Lower #1/Screenshot 2026-10-09 at 7.01.41 PM.png"
-    ],
     "recapture_nav_color_read": "correct"
   },
   {
-    "source_file": "mathspeed test/superseded-by-recapture/Screenshot 2026-10-02 at 11.23.58 AM.png",
+    "source_file": "mathspeed test/actual-practice-tests/ISEE Lower #1/Screenshot 2026-10-09 at 7.01.43 PM.png",
     "type": "question",
     "question_number": 8,
     "question_text": "Brenna is solving the expression 8 x 12. She uses the expression (8 x 10) + ( ? ) to solve the expression. What is the missing part of Brenna's expression?",
@@ -1877,13 +1745,10 @@
       "C": "<5.0%",
       "D": "91.2%"
     },
-    "recapture_source_images": [
-      "mathspeed test/actual-practice-tests/ISEE Lower #1/Screenshot 2026-10-09 at 7.01.43 PM.png"
-    ],
     "recapture_nav_color_read": "correct"
   },
   {
-    "source_file": "mathspeed test/superseded-by-recapture/Screenshot 2026-10-02 at 11.24.02 AM.png",
+    "source_file": "mathspeed test/actual-practice-tests/ISEE Lower #1/Screenshot 2026-10-09 at 7.01.45 PM.png",
     "type": "question",
     "question_number": 9,
     "question_text": "Use the set of numbers to answer the question. {1/2, 2/3, 3/4, 4/5, 5/6}. Which answer choice best describes this set of numbers?",
@@ -1919,13 +1784,10 @@
       "C": "5.8%",
       "D": "87.2%"
     },
-    "recapture_source_images": [
-      "mathspeed test/actual-practice-tests/ISEE Lower #1/Screenshot 2026-10-09 at 7.01.45 PM.png"
-    ],
     "recapture_nav_color_read": "correct"
   },
   {
-    "source_file": "mathspeed test/superseded-by-recapture/Screenshot 2026-10-02 at 11.24.07 AM.png",
+    "source_file": "mathspeed test/actual-practice-tests/ISEE Lower #1/Screenshot 2026-10-09 at 7.01.47 PM.png",
     "type": "question",
     "question_number": 10,
     "question_text": "A number pattern begins with these values. 5, 10, 15, 20, ... According to the pattern, what would be the predicted sixth value in the list?",
@@ -1961,13 +1823,10 @@
       "C": "20.3%",
       "D": "79.1%"
     },
-    "recapture_source_images": [
-      "mathspeed test/actual-practice-tests/ISEE Lower #1/Screenshot 2026-10-09 at 7.01.47 PM.png"
-    ],
     "recapture_nav_color_read": "correct"
   },
   {
-    "source_file": "mathspeed test/superseded-by-recapture/Screenshot 2026-10-02 at 11.24.13 AM.png",
+    "source_file": "mathspeed test/actual-practice-tests/ISEE Lower #1/Screenshot 2026-10-09 at 7.01.49 PM.png",
     "type": "question",
     "question_number": 11,
     "question_text": "Piper and Raelynn went fishing. Piper catches 14 fish, which is twice the number of fish that Raelynn catches. Which model represents the numbers of fish that Piper and Raelynn catch?",
@@ -2003,13 +1862,10 @@
       "C": "<5.0%",
       "D": "5.8%"
     },
-    "recapture_source_images": [
-      "mathspeed test/actual-practice-tests/ISEE Lower #1/Screenshot 2026-10-09 at 7.01.49 PM.png"
-    ],
     "recapture_nav_color_read": "correct"
   },
   {
-    "source_file": "mathspeed test/superseded-by-recapture/Screenshot 2026-10-02 at 11.24.18 AM.png",
+    "source_file": "mathspeed test/actual-practice-tests/ISEE Lower #1/Screenshot 2026-10-09 at 7.01.50 PM.png",
     "type": "question",
     "question_number": 12,
     "question_text": "Which statement is true?",
@@ -2045,13 +1901,10 @@
       "C": "5.4%",
       "D": "<5.0%"
     },
-    "recapture_source_images": [
-      "mathspeed test/actual-practice-tests/ISEE Lower #1/Screenshot 2026-10-09 at 7.01.50 PM.png"
-    ],
     "recapture_nav_color_read": "correct"
   },
   {
-    "source_file": "mathspeed test/superseded-by-recapture/Screenshot 2026-10-02 at 11.24.23 AM.png",
+    "source_file": "mathspeed test/actual-practice-tests/ISEE Lower #1/Screenshot 2026-10-09 at 7.01.52 PM.png",
     "type": "question",
     "question_number": 13,
     "question_text": "Jessica puts the following numbers in a group together. 4  16  64. Which is another number that belongs in this group?",
@@ -2087,13 +1940,10 @@
       "C": "8.0%",
       "D": "80.9%"
     },
-    "recapture_source_images": [
-      "mathspeed test/actual-practice-tests/ISEE Lower #1/Screenshot 2026-10-09 at 7.01.52 PM.png"
-    ],
     "recapture_nav_color_read": "correct"
   },
   {
-    "source_file": "mathspeed test/superseded-by-recapture/Screenshot 2026-10-02 at 11.24.28 AM.png",
+    "source_file": "mathspeed test/actual-practice-tests/ISEE Lower #1/Screenshot 2026-10-09 at 7.01.54 PM.png",
     "type": "question",
     "question_number": 14,
     "question_text": "Use the figure shown to answer the question. How many lines of symmetry does this shape have?",
@@ -2129,13 +1979,10 @@
       "C": "8.9%",
       "D": "<5.0%"
     },
-    "recapture_source_images": [
-      "mathspeed test/actual-practice-tests/ISEE Lower #1/Screenshot 2026-10-09 at 7.01.54 PM.png"
-    ],
     "recapture_nav_color_read": "correct"
   },
   {
-    "source_file": "mathspeed test/superseded-by-recapture/Screenshot 2026-10-02 at 11.24.33 AM.png",
+    "source_file": "mathspeed test/actual-practice-tests/ISEE Lower #1/Screenshot 2026-10-09 at 7.01.56 PM.png",
     "type": "question",
     "question_number": 15,
     "question_text": "Use the number line to answer the question. The hash marks are equally distanced. What is P equal to?",
@@ -2171,13 +2018,10 @@
       "C": "10.5%",
       "D": "77.8%"
     },
-    "recapture_source_images": [
-      "mathspeed test/actual-practice-tests/ISEE Lower #1/Screenshot 2026-10-09 at 7.01.56 PM.png"
-    ],
     "recapture_nav_color_read": "correct"
   },
   {
-    "source_file": "mathspeed test/superseded-by-recapture/Screenshot 2026-10-02 at 11.24.39 AM.png",
+    "source_file": "mathspeed test/actual-practice-tests/ISEE Lower #1/Screenshot 2026-10-09 at 7.01.57 PM.png",
     "type": "question",
     "question_number": 16,
     "question_text": "The bar graph shown represents the distance 5 runners ran in one week. What is the median distance?",
@@ -2213,13 +2057,10 @@
       "C": "17.8%",
       "D": "68.7%"
     },
-    "recapture_source_images": [
-      "mathspeed test/actual-practice-tests/ISEE Lower #1/Screenshot 2026-10-09 at 7.01.57 PM.png"
-    ],
     "recapture_nav_color_read": "correct"
   },
   {
-    "source_file": "mathspeed test/superseded-by-recapture/Screenshot 2026-10-02 at 11.24.46 AM.png",
+    "source_file": "mathspeed test/actual-practice-tests/ISEE Lower #1/Screenshot 2026-10-09 at 7.01.59 PM.png",
     "type": "question",
     "question_number": 17,
     "question_text": "Which expression represents \"9 times n decreased by 16\"?",
@@ -2255,13 +2096,10 @@
       "C": "18.8%",
       "D": "<5.0%"
     },
-    "recapture_source_images": [
-      "mathspeed test/actual-practice-tests/ISEE Lower #1/Screenshot 2026-10-09 at 7.01.59 PM.png"
-    ],
     "recapture_nav_color_read": "correct"
   },
   {
-    "source_file": "mathspeed test/superseded-by-recapture/Screenshot 2026-10-02 at 11.24.51 AM.png",
+    "source_file": "mathspeed test/actual-practice-tests/ISEE Lower #1/Screenshot 2026-10-09 at 7.02.00 PM.png",
     "type": "question",
     "question_number": 18,
     "question_text": "Regan is calculating how much each of her friends should pay for pizza. She knows the number of people eating pizza and she knows the total cost of the pizza. How would she figure out how much each friend should pay (p) for pizza?",
@@ -2297,13 +2135,10 @@
       "C": "9.1%",
       "D": "78.5%"
     },
-    "recapture_source_images": [
-      "mathspeed test/actual-practice-tests/ISEE Lower #1/Screenshot 2026-10-09 at 7.02.00 PM.png"
-    ],
     "recapture_nav_color_read": "correct"
   },
   {
-    "source_file": "mathspeed test/superseded-by-recapture/Screenshot 2026-10-02 at 11.24.56 AM.png",
+    "source_file": "mathspeed test/actual-practice-tests/ISEE Lower #1/Screenshot 2026-10-09 at 7.02.02 PM.png",
     "type": "question",
     "question_number": 19,
     "question_text": "Ms. Hartmann sold 42 notebooks at her store on Saturday. Each of her customers purchased 6 notebooks. How many notebooks would Ms. Hartmann have sold if each customer had purchased 7 notebooks instead of 6 notebooks?",
@@ -2339,13 +2174,10 @@
       "C": "7.4%",
       "D": "69.8%"
     },
-    "recapture_source_images": [
-      "mathspeed test/actual-practice-tests/ISEE Lower #1/Screenshot 2026-10-09 at 7.02.02 PM.png"
-    ],
     "recapture_nav_color_read": "correct"
   },
   {
-    "source_file": "mathspeed test/superseded-by-recapture/Screenshot 2026-10-02 at 11.25.01 AM.png",
+    "source_file": "mathspeed test/actual-practice-tests/ISEE Lower #1/Screenshot 2026-10-09 at 7.02.04 PM.png",
     "type": "question",
     "question_number": 20,
     "question_text": "Which whole number is divisible by both 2 and 3 without leaving a remainder?",
@@ -2381,15 +2213,12 @@
       "C": "7.2%",
       "D": "70.5%"
     },
-    "recapture_source_images": [
-      "mathspeed test/actual-practice-tests/ISEE Lower #1/Screenshot 2026-10-09 at 7.02.04 PM.png"
-    ],
     "recapture_nav_color_read": "wrong",
     "her_selected_letter": "A",
     "her_selected_percentage": "17.8%"
   },
   {
-    "source_file": "mathspeed test/superseded-by-recapture/Screenshot 2026-10-02 at 11.25.08 AM.png",
+    "source_file": "mathspeed test/actual-practice-tests/ISEE Lower #1/Screenshot 2026-10-09 at 7.02.05 PM.png",
     "type": "question",
     "question_number": 21,
     "question_text": "The table shows the number of wristbands sold at an online store during one week. What is the range number of wristbands sold at the online store during that week?",
@@ -2425,13 +2254,10 @@
       "C": "17.3%",
       "D": "56.8%"
     },
-    "recapture_source_images": [
-      "mathspeed test/actual-practice-tests/ISEE Lower #1/Screenshot 2026-10-09 at 7.02.05 PM.png"
-    ],
     "recapture_nav_color_read": "correct"
   },
   {
-    "source_file": "mathspeed test/superseded-by-recapture/Screenshot 2026-10-02 at 11.25.13 AM.png",
+    "source_file": "mathspeed test/actual-practice-tests/ISEE Lower #1/Screenshot 2026-10-09 at 7.02.07 PM.png",
     "type": "question",
     "question_number": 22,
     "question_text": "Tristina walks 3/6 of a mile. Kimi walks 6/10 of a mile. Which statement shows how to find the greater fraction?",
@@ -2467,15 +2293,12 @@
       "C": "8.8%",
       "D": "15.2%"
     },
-    "recapture_source_images": [
-      "mathspeed test/actual-practice-tests/ISEE Lower #1/Screenshot 2026-10-09 at 7.02.07 PM.png"
-    ],
     "recapture_nav_color_read": "wrong",
     "her_selected_letter": "D",
     "her_selected_percentage": "15.2%"
   },
   {
-    "source_file": "mathspeed test/superseded-by-recapture/Screenshot 2026-10-02 at 11.25.19 AM.png",
+    "source_file": "mathspeed test/actual-practice-tests/ISEE Lower #1/Screenshot 2026-10-09 at 7.02.09 PM.png",
     "type": "question",
     "question_number": 23,
     "question_text": "Use the square to answer the question. What is the area of the shaded region?",
@@ -2511,13 +2334,10 @@
       "C": "<5.0%",
       "D": "14.0%"
     },
-    "recapture_source_images": [
-      "mathspeed test/actual-practice-tests/ISEE Lower #1/Screenshot 2026-10-09 at 7.02.09 PM.png"
-    ],
     "recapture_nav_color_read": "correct"
   },
   {
-    "source_file": "mathspeed test/superseded-by-recapture/Screenshot 2026-10-02 at 11.25.24 AM.png",
+    "source_file": "mathspeed test/actual-practice-tests/ISEE Lower #1/Screenshot 2026-10-09 at 7.02.10 PM.png",
     "type": "question",
     "question_number": 24,
     "question_text": "The list shows the number of video games sold at an online store during one week. 49, 47, 48, 33, 51, 38, 47, 42, 34. What is the median number of video games sold at the online store during that week?",
@@ -2553,13 +2373,10 @@
       "C": "63.3%",
       "D": "15.5%"
     },
-    "recapture_source_images": [
-      "mathspeed test/actual-practice-tests/ISEE Lower #1/Screenshot 2026-10-09 at 7.02.10 PM.png"
-    ],
     "recapture_nav_color_read": "correct"
   },
   {
-    "source_file": "mathspeed test/superseded-by-recapture/Screenshot 2026-10-02 at 11.25.30 AM.png",
+    "source_file": "mathspeed test/actual-practice-tests/ISEE Lower #1/Screenshot 2026-10-09 at 7.02.12 PM.png",
     "type": "question",
     "question_number": 25,
     "question_text": "Garden 1 and Garden 2 will each occupy 1 acre of land when they are completely planted. The shaded regions of the gardens show the parts that have already been planted. If the two gardens are combined, approximately how much of the land has been planted altogether?",
@@ -2595,13 +2412,10 @@
       "C": "9.8%",
       "D": "67.8%"
     },
-    "recapture_source_images": [
-      "mathspeed test/actual-practice-tests/ISEE Lower #1/Screenshot 2026-10-09 at 7.02.12 PM.png"
-    ],
     "recapture_nav_color_read": "correct"
   },
   {
-    "source_file": "mathspeed test/superseded-by-recapture/Screenshot 2026-10-02 at 11.25.36 AM.png",
+    "source_file": "mathspeed test/actual-practice-tests/ISEE Lower #1/Screenshot 2026-10-09 at 7.02.14 PM.png",
     "type": "question",
     "question_number": 26,
     "question_text": "Ben has a game board like the one shown. Which expression gives the best estimate of the number of gray squares that are on 185 of these game boards?",
@@ -2637,13 +2451,10 @@
       "C": "65.6%",
       "D": "12.6%"
     },
-    "recapture_source_images": [
-      "mathspeed test/actual-practice-tests/ISEE Lower #1/Screenshot 2026-10-09 at 7.02.14 PM.png"
-    ],
     "recapture_nav_color_read": "correct"
   },
   {
-    "source_file": "mathspeed test/superseded-by-recapture/Screenshot 2026-10-02 at 11.25.45 AM.png",
+    "source_file": "mathspeed test/actual-practice-tests/ISEE Lower #1/Screenshot 2026-10-09 at 7.02.15 PM.png",
     "type": "question",
     "question_number": 27,
     "question_text": "The largest square shown below is divided into smaller, equally-sized squares. The perimeter of the shaded square is 24 inches. What is the length of a side of the largest square?",
@@ -2679,13 +2490,10 @@
       "C": "6.2%",
       "D": "60.8%"
     },
-    "recapture_source_images": [
-      "mathspeed test/actual-practice-tests/ISEE Lower #1/Screenshot 2026-10-09 at 7.02.15 PM.png"
-    ],
     "recapture_nav_color_read": "correct"
   },
   {
-    "source_file": "mathspeed test/superseded-by-recapture/Screenshot 2026-10-02 at 11.25.50 AM.png",
+    "source_file": "mathspeed test/actual-practice-tests/ISEE Lower #1/Screenshot 2026-10-09 at 7.02.17 PM.png",
     "type": "question",
     "question_number": 28,
     "question_text": "Two cubes are shown. Cube A has sides of length 2 units and Cube B has sides of length 4 units. How many Cube As can fit inside of Cube B?",
@@ -2721,13 +2529,10 @@
       "C": "7.2%",
       "D": "7.3%"
     },
-    "recapture_source_images": [
-      "mathspeed test/actual-practice-tests/ISEE Lower #1/Screenshot 2026-10-09 at 7.02.17 PM.png"
-    ],
     "recapture_nav_color_read": "correct"
   },
   {
-    "source_file": "mathspeed test/superseded-by-recapture/Screenshot 2026-10-02 at 11.25.54 AM.png",
+    "source_file": "mathspeed test/actual-practice-tests/ISEE Lower #1/Screenshot 2026-10-09 at 7.02.18 PM.png",
     "type": "question",
     "question_number": 29,
     "question_text": "A carton of milk contains 2.2 liters. Jake pours two glasses of milk, totaling 1/2 liters. How much milk is left in the carton?",
@@ -2763,15 +2568,12 @@
       "C": "56.9%",
       "D": "<5.0%"
     },
-    "recapture_source_images": [
-      "mathspeed test/actual-practice-tests/ISEE Lower #1/Screenshot 2026-10-09 at 7.02.18 PM.png"
-    ],
     "recapture_nav_color_read": "wrong",
     "her_selected_letter": "A",
     "her_selected_percentage": "9.5%"
   },
   {
-    "source_file": "mathspeed test/superseded-by-recapture/Screenshot 2026-10-02 at 11.25.59 AM.png",
+    "source_file": "mathspeed test/actual-practice-tests/ISEE Lower #1/Screenshot 2026-10-09 at 7.02.20 PM.png",
     "type": "question",
     "question_number": 30,
     "question_text": "Which diagram represents the distributive property?",
@@ -2807,13 +2609,10 @@
       "C": "19.3%",
       "D": "53.7%"
     },
-    "recapture_source_images": [
-      "mathspeed test/actual-practice-tests/ISEE Lower #1/Screenshot 2026-10-09 at 7.02.20 PM.png"
-    ],
     "recapture_nav_color_read": "correct"
   },
   {
-    "source_file": "mathspeed test/superseded-by-recapture/Screenshot 2026-10-02 at 11.26.04 AM.png",
+    "source_file": "mathspeed test/actual-practice-tests/ISEE Lower #1/Screenshot 2026-10-09 at 7.02.21 PM.png",
     "type": "question",
     "question_number": 31,
     "question_text": "The graph shows three of the four vertices of trapezoid WXYZ. At which location on the coordinate grid could point Z be located?",
@@ -2849,13 +2648,10 @@
       "C": "10.7%",
       "D": "10.9%"
     },
-    "recapture_source_images": [
-      "mathspeed test/actual-practice-tests/ISEE Lower #1/Screenshot 2026-10-09 at 7.02.21 PM.png"
-    ],
     "recapture_nav_color_read": "correct"
   },
   {
-    "source_file": "mathspeed test/superseded-by-recapture/Screenshot 2026-10-02 at 11.26.09 AM.png",
+    "source_file": "mathspeed test/actual-practice-tests/ISEE Lower #1/Screenshot 2026-10-09 at 7.02.23 PM.png",
     "type": "question",
     "question_number": 32,
     "question_text": "A teacher writes the two decimal numbers shown on the board. First Number: 16.11. Second Number: 5,832.40. Which statement about these two numbers is true?",
@@ -2891,13 +2687,10 @@
       "C": "12.1%",
       "D": "43.7%"
     },
-    "recapture_source_images": [
-      "mathspeed test/actual-practice-tests/ISEE Lower #1/Screenshot 2026-10-09 at 7.02.23 PM.png"
-    ],
     "recapture_nav_color_read": "correct"
   },
   {
-    "source_file": "mathspeed test/superseded-by-recapture/Screenshot 2026-10-02 at 11.26.14 AM.png",
+    "source_file": "mathspeed test/actual-practice-tests/ISEE Lower #1/Screenshot 2026-10-09 at 7.02.25 PM.png",
     "type": "question",
     "question_number": 33,
     "question_text": "A customer support specialist responded to □ telephone calls and ○ emails in one day. He spent △ minutes on each response. Which expression represents the total amount of time the customer support specialist spent on his responses?",
@@ -2933,16 +2726,13 @@
       "C": "54.4%",
       "D": "<5.0%"
     },
-    "recapture_source_images": [
-      "mathspeed test/actual-practice-tests/ISEE Lower #1/Screenshot 2026-10-09 at 7.02.25 PM.png"
-    ],
     "integrity_note_2026-10-10": "Subagent read her_status as \"correct\" from the navigator-row color, but personal verification against the source screenshot (Screenshot 2026-10-09 at 7.02.25 PM.png) shows she picked B (pink, 20.0%) while the correct answer is C (green, 54.4%) -- she was actually wrong, matching the original is_wrong=True record. No change made. Kept as a documented example of why her_status was not trusted as automatically authoritative.",
     "recapture_nav_color_read": "correct",
     "her_selected_letter": "B",
     "her_selected_percentage": "20.0%"
   },
   {
-    "source_file": "mathspeed test/superseded-by-recapture/Screenshot 2026-10-02 at 11.26.17 AM.png",
+    "source_file": "mathspeed test/actual-practice-tests/ISEE Lower #1/Screenshot 2026-10-09 at 7.02.26 PM.png",
     "type": "question",
     "question_number": 34,
     "question_text": "Celena likes to listen to different types of music: country, pop, rock, and classical. The probability of selecting a rock song to listen to is 3 out of 10. What combination of songs reflects this probability?",
@@ -2978,13 +2768,10 @@
       "C": "42.4%",
       "D": "8.6%"
     },
-    "recapture_source_images": [
-      "mathspeed test/actual-practice-tests/ISEE Lower #1/Screenshot 2026-10-09 at 7.02.26 PM.png"
-    ],
     "recapture_nav_color_read": "correct"
   },
   {
-    "source_file": "mathspeed test/superseded-by-recapture/Screenshot 2026-10-02 at 11.26.26 AM.png",
+    "source_file": "mathspeed test/actual-practice-tests/ISEE Lower #1/Screenshot 2026-10-09 at 7.02.28 PM.png",
     "type": "question",
     "question_number": 35,
     "question_text": "Use the figure shown to answer the question. How many paths can be drawn from Point A to Point B if you can only move down or to the right moving along the lines?",
@@ -3020,13 +2807,10 @@
       "C": "42.5%",
       "D": "12.2%"
     },
-    "recapture_source_images": [
-      "mathspeed test/actual-practice-tests/ISEE Lower #1/Screenshot 2026-10-09 at 7.02.28 PM.png"
-    ],
     "recapture_nav_color_read": "correct"
   },
   {
-    "source_file": "mathspeed test/superseded-by-recapture/Screenshot 2026-10-02 at 11.26.31 AM.png",
+    "source_file": "mathspeed test/actual-practice-tests/ISEE Lower #1/Screenshot 2026-10-09 at 7.02.29 PM.png",
     "type": "question",
     "question_number": 36,
     "question_text": "The figure shown was made by joining two rectangular prisms. Which expression can be used to find the total volume of the figure? (V = lwh, where V = volume, l = length, w = width, and h = height.)",
@@ -3062,15 +2846,12 @@
       "C": "23.8%",
       "D": "37.2%"
     },
-    "recapture_source_images": [
-      "mathspeed test/actual-practice-tests/ISEE Lower #1/Screenshot 2026-10-09 at 7.02.29 PM.png"
-    ],
     "recapture_nav_color_read": "wrong",
     "her_selected_letter": "C",
     "her_selected_percentage": "23.8%"
   },
   {
-    "source_file": "mathspeed test/superseded-by-recapture/Screenshot 2026-10-02 at 11.26.36 AM.png",
+    "source_file": "mathspeed test/actual-practice-tests/ISEE Lower #1/Screenshot 2026-10-09 at 7.02.31 PM.png",
     "type": "question",
     "question_number": 37,
     "question_text": "If ◇ x □ = □ and ○ ÷ □ = 0, then which value is lowest?",
@@ -3106,13 +2887,10 @@
       "C": "23.3%",
       "D": "<5.0%"
     },
-    "recapture_source_images": [
-      "mathspeed test/actual-practice-tests/ISEE Lower #1/Screenshot 2026-10-09 at 7.02.31 PM.png"
-    ],
     "recapture_nav_color_read": "correct"
   },
   {
-    "source_file": "mathspeed test/superseded-by-recapture/Screenshot 2026-10-02 at 11.26.43 AM.png",
+    "source_file": "mathspeed test/actual-practice-tests/ISEE Lower #1/Screenshot 2026-10-09 at 7.02.32 PM.png",
     "type": "question",
     "question_number": 38,
     "question_text": "The perimeter of the largest polygon is 20 centimeters. The perimeter of the square is 16 centimeters. What is the perimeter of the triangle?",
@@ -3148,9 +2926,6 @@
       "C": "10.8%",
       "D": "33.8%"
     },
-    "recapture_source_images": [
-      "mathspeed test/actual-practice-tests/ISEE Lower #1/Screenshot 2026-10-09 at 7.02.32 PM.png"
-    ],
     "recapture_nav_color_read": "wrong",
     "her_selected_letter": "B",
     "her_selected_percentage": "24.6%"
@@ -3193,7 +2968,7 @@
     "pacing_affected": false
   },
   {
-    "source_file": "mathspeed test/superseded-by-recapture/Screenshot 2026-10-02 at 11.29.44 AM.png",
+    "source_file": "mathspeed test/actual-practice-tests/ISEE Lower #2/Screenshot 2026-10-09 at 7.03.18 PM.png",
     "type": "question",
     "question_number": 1,
     "question_text": "The bar graph shows the number of bags of two brands of dog food that were sold at a store on each of five days. Which day received the most sales?",
@@ -3229,13 +3004,10 @@
       "C": "<5.0%",
       "D": "<5.0%"
     },
-    "recapture_source_images": [
-      "mathspeed test/actual-practice-tests/ISEE Lower #2/Screenshot 2026-10-09 at 7.03.18 PM.png"
-    ],
     "recapture_nav_color_read": "correct"
   },
   {
-    "source_file": "mathspeed test/superseded-by-recapture/Screenshot 2026-10-02 at 11.29.50 AM.png",
+    "source_file": "mathspeed test/actual-practice-tests/ISEE Lower #2/Screenshot 2026-10-09 at 7.03.19 PM.png",
     "type": "question",
     "question_number": 2,
     "question_text": "The Venn diagram shows students who eat chicken, beef, and/or pork. What do students in part A of the Venn diagram eat?",
@@ -3271,13 +3043,10 @@
       "C": "<5.0%",
       "D": "<5.0%"
     },
-    "recapture_source_images": [
-      "mathspeed test/actual-practice-tests/ISEE Lower #2/Screenshot 2026-10-09 at 7.03.19 PM.png"
-    ],
     "recapture_nav_color_read": "correct"
   },
   {
-    "source_file": "mathspeed test/superseded-by-recapture/Screenshot 2026-10-02 at 11.29.55 AM.png",
+    "source_file": "mathspeed test/actual-practice-tests/ISEE Lower #2/Screenshot 2026-10-09 at 7.03.21 PM.png",
     "type": "question",
     "question_number": 3,
     "question_text": "If □+□+□+□+□ = 45 and 72 = △×□ are both true, what is the value of □+△?",
@@ -3313,13 +3082,10 @@
       "C": "89.6%",
       "D": "<5.0%"
     },
-    "recapture_source_images": [
-      "mathspeed test/actual-practice-tests/ISEE Lower #2/Screenshot 2026-10-09 at 7.03.21 PM.png"
-    ],
     "recapture_nav_color_read": "correct"
   },
   {
-    "source_file": "mathspeed test/superseded-by-recapture/Screenshot 2026-10-02 at 11.30.01 AM.png",
+    "source_file": "mathspeed test/actual-practice-tests/ISEE Lower #2/Screenshot 2026-10-09 at 7.03.23 PM.png",
     "type": "question",
     "question_number": 4,
     "question_text": "Which situation best fits the equation 42 ÷ 6 = 7?",
@@ -3355,13 +3121,10 @@
       "C": "<5.0%",
       "D": "<5.0%"
     },
-    "recapture_source_images": [
-      "mathspeed test/actual-practice-tests/ISEE Lower #2/Screenshot 2026-10-09 at 7.03.23 PM.png"
-    ],
     "recapture_nav_color_read": "correct"
   },
   {
-    "source_file": "mathspeed test/superseded-by-recapture/Screenshot 2026-10-02 at 11.30.06 AM.png",
+    "source_file": "mathspeed test/actual-practice-tests/ISEE Lower #2/Screenshot 2026-10-09 at 7.03.25 PM.png",
     "type": "question",
     "question_number": 5,
     "question_text": "Use the diagram to answer the question. Which piece can be removed from the diagram to leave a rectangle?",
@@ -3398,7 +3161,6 @@
       "D": "<5.0%"
     },
     "recapture_source_images": [
-      "mathspeed test/actual-practice-tests/ISEE Lower #2/Screenshot 2026-10-09 at 7.03.25 PM.png",
       "mathspeed test/actual-practice-tests/ISEE Lower #2/Screenshot 2026-10-09 at 7.03.32 PM.png"
     ],
     "recapture_nav_color_read": "correct"
@@ -3444,7 +3206,7 @@
     ]
   },
   {
-    "source_file": "mathspeed test/superseded-by-recapture/Screenshot 2026-10-02 at 11.30.14 AM.png",
+    "source_file": "mathspeed test/actual-practice-tests/ISEE Lower #2/Screenshot 2026-10-09 at 7.03.36 PM.png",
     "type": "question",
     "question_number": 7,
     "question_text": "Alika is buying 23 shirts that cost $18.99 each. Which expression can be used to find the best estimate of how much it will cost Alika to buy the shirts?",
@@ -3480,13 +3242,10 @@
       "C": null,
       "D": null
     },
-    "recapture_source_images": [
-      "mathspeed test/actual-practice-tests/ISEE Lower #2/Screenshot 2026-10-09 at 7.03.36 PM.png"
-    ],
     "recapture_nav_color_read": "correct"
   },
   {
-    "source_file": "mathspeed test/superseded-by-recapture/Screenshot 2026-10-02 at 11.30.52 AM.png",
+    "source_file": "mathspeed test/actual-practice-tests/ISEE Lower #2/Screenshot 2026-10-09 at 7.03.38 PM.png",
     "type": "question",
     "question_number": 8,
     "question_text": "Neja and Amelia each start walking home from school at the same time. The distance each person has walked is collected every 2 minutes and is shown in the table. According to the pattern from the data, what would be the predicted distance Neja is from school after 14 minutes?",
@@ -3522,13 +3281,10 @@
       "C": null,
       "D": null
     },
-    "recapture_source_images": [
-      "mathspeed test/actual-practice-tests/ISEE Lower #2/Screenshot 2026-10-09 at 7.03.38 PM.png"
-    ],
     "recapture_nav_color_read": "correct"
   },
   {
-    "source_file": "mathspeed test/superseded-by-recapture/Screenshot 2026-10-02 at 11.30.57 AM.png",
+    "source_file": "mathspeed test/actual-practice-tests/ISEE Lower #2/Screenshot 2026-10-09 at 7.03.39 PM.png",
     "type": "question",
     "question_number": 9,
     "question_text": "Ms. Williams sold 54 books at her bookstore on Friday. Each of her customers purchased 6 books. How many books would Ms. Williams have sold if each customer had purchased 7 books instead of 6 books?",
@@ -3564,13 +3320,10 @@
       "C": null,
       "D": null
     },
-    "recapture_source_images": [
-      "mathspeed test/actual-practice-tests/ISEE Lower #2/Screenshot 2026-10-09 at 7.03.39 PM.png"
-    ],
     "recapture_nav_color_read": "correct"
   },
   {
-    "source_file": "mathspeed test/superseded-by-recapture/Screenshot 2026-10-02 at 11.31.03 AM.png",
+    "source_file": "mathspeed test/actual-practice-tests/ISEE Lower #2/Screenshot 2026-10-09 at 7.03.40 PM.png",
     "type": "question",
     "question_number": 10,
     "question_text": "In Becky's suit collection, 7/12 are black. How many suits could there be in Becky's collection?",
@@ -3606,13 +3359,10 @@
       "C": null,
       "D": null
     },
-    "recapture_source_images": [
-      "mathspeed test/actual-practice-tests/ISEE Lower #2/Screenshot 2026-10-09 at 7.03.40 PM.png"
-    ],
     "recapture_nav_color_read": "correct"
   },
   {
-    "source_file": "mathspeed test/superseded-by-recapture/Screenshot 2026-10-02 at 11.31.08 AM.png",
+    "source_file": "mathspeed test/actual-practice-tests/ISEE Lower #2/Screenshot 2026-10-09 at 7.03.42 PM.png",
     "type": "question",
     "question_number": 11,
     "question_text": "The table shows the number of t-shirts made at a factory during three weeks in March. The number of t-shirts made in week 4 is represented by n. The total number of t-shirts made at the factory in March was 65,000. Which equation represents the situation?",
@@ -3648,13 +3398,10 @@
       "C": null,
       "D": null
     },
-    "recapture_source_images": [
-      "mathspeed test/actual-practice-tests/ISEE Lower #2/Screenshot 2026-10-09 at 7.03.42 PM.png"
-    ],
     "recapture_nav_color_read": "correct"
   },
   {
-    "source_file": "mathspeed test/superseded-by-recapture/Screenshot 2026-10-02 at 11.31.13 AM.png",
+    "source_file": "mathspeed test/actual-practice-tests/ISEE Lower #2/Screenshot 2026-10-09 at 7.03.43 PM.png",
     "type": "question",
     "question_number": 12,
     "question_text": "There are 12 inches in 1 foot. The length of one wall in Mr. Jones's class is 29 feet. What is the length of this wall in inches?",
@@ -3690,13 +3437,10 @@
       "C": null,
       "D": null
     },
-    "recapture_source_images": [
-      "mathspeed test/actual-practice-tests/ISEE Lower #2/Screenshot 2026-10-09 at 7.03.43 PM.png"
-    ],
     "recapture_nav_color_read": "correct"
   },
   {
-    "source_file": "mathspeed test/superseded-by-recapture/Screenshot 2026-10-02 at 11.31.19 AM.png",
+    "source_file": "mathspeed test/actual-practice-tests/ISEE Lower #2/Screenshot 2026-10-09 at 7.03.45 PM.png",
     "type": "question",
     "question_number": 13,
     "question_text": "The rule for the pattern of dots shown is to multiply the number of the circle by itself to get the number of dots in the circle. If the pattern continues, how many dots will be in Circle 6?",
@@ -3732,13 +3476,10 @@
       "C": null,
       "D": null
     },
-    "recapture_source_images": [
-      "mathspeed test/actual-practice-tests/ISEE Lower #2/Screenshot 2026-10-09 at 7.03.45 PM.png"
-    ],
     "recapture_nav_color_read": "correct"
   },
   {
-    "source_file": "mathspeed test/superseded-by-recapture/Screenshot 2026-10-02 at 11.31.25 AM.png",
+    "source_file": "mathspeed test/actual-practice-tests/ISEE Lower #2/Screenshot 2026-10-09 at 7.03.47 PM.png",
     "type": "question",
     "question_number": 14,
     "question_text": "Use the equations to answer the question. 2 - a = 1; 3 + b = 9; 4 + c = 7. What is the sum of a + b - c?",
@@ -3774,13 +3515,10 @@
       "C": null,
       "D": null
     },
-    "recapture_source_images": [
-      "mathspeed test/actual-practice-tests/ISEE Lower #2/Screenshot 2026-10-09 at 7.03.47 PM.png"
-    ],
     "recapture_nav_color_read": "correct"
   },
   {
-    "source_file": "mathspeed test/superseded-by-recapture/Screenshot 2026-10-02 at 11.31.30 AM.png",
+    "source_file": "mathspeed test/actual-practice-tests/ISEE Lower #2/Screenshot 2026-10-09 at 7.03.48 PM.png",
     "type": "question",
     "question_number": 15,
     "question_text": "Which is the largest fraction?",
@@ -3816,13 +3554,10 @@
       "C": null,
       "D": null
     },
-    "recapture_source_images": [
-      "mathspeed test/actual-practice-tests/ISEE Lower #2/Screenshot 2026-10-09 at 7.03.48 PM.png"
-    ],
     "recapture_nav_color_read": "correct"
   },
   {
-    "source_file": "mathspeed test/superseded-by-recapture/Screenshot 2026-10-02 at 11.31.35 AM.png",
+    "source_file": "mathspeed test/actual-practice-tests/ISEE Lower #2/Screenshot 2026-10-09 at 7.03.50 PM.png",
     "type": "question",
     "question_number": 16,
     "question_text": "Which decimal has the greatest value?",
@@ -3858,13 +3593,10 @@
       "C": null,
       "D": null
     },
-    "recapture_source_images": [
-      "mathspeed test/actual-practice-tests/ISEE Lower #2/Screenshot 2026-10-09 at 7.03.50 PM.png"
-    ],
     "recapture_nav_color_read": "correct"
   },
   {
-    "source_file": "mathspeed test/superseded-by-recapture/Screenshot 2026-10-02 at 11.31.42 AM.png",
+    "source_file": "mathspeed test/actual-practice-tests/ISEE Lower #2/Screenshot 2026-10-09 at 7.03.52 PM.png",
     "type": "question",
     "question_number": 17,
     "question_text": "The scale is balanced. If 1 more bag of cookies is placed on the left side of the scale, how many cookies would need to be placed on the right side of the scale to make it balanced?",
@@ -3900,13 +3632,10 @@
       "C": null,
       "D": null
     },
-    "recapture_source_images": [
-      "mathspeed test/actual-practice-tests/ISEE Lower #2/Screenshot 2026-10-09 at 7.03.52 PM.png"
-    ],
     "recapture_nav_color_read": "correct"
   },
   {
-    "source_file": "mathspeed test/superseded-by-recapture/Screenshot 2026-10-02 at 11.31.49 AM.png",
+    "source_file": "mathspeed test/actual-practice-tests/ISEE Lower #2/Screenshot 2026-10-09 at 7.03.53 PM.png",
     "type": "question",
     "question_number": 18,
     "question_text": "Julie buys 3 books and 1 magazine at the store. Each book cost $5, and her total cost was $18. Which equation could be used to find the cost of the magazine, m?",
@@ -3942,13 +3671,10 @@
       "C": null,
       "D": null
     },
-    "recapture_source_images": [
-      "mathspeed test/actual-practice-tests/ISEE Lower #2/Screenshot 2026-10-09 at 7.03.53 PM.png"
-    ],
     "recapture_nav_color_read": "correct"
   },
   {
-    "source_file": "mathspeed test/superseded-by-recapture/Screenshot 2026-10-02 at 11.31.54 AM.png",
+    "source_file": "mathspeed test/actual-practice-tests/ISEE Lower #2/Screenshot 2026-10-09 at 7.03.55 PM.png",
     "type": "question",
     "question_number": 19,
     "question_text": "In the figure shown, all angles are right angles. What is the perimeter of the figure, in inches (in)?",
@@ -3984,13 +3710,10 @@
       "C": null,
       "D": null
     },
-    "recapture_source_images": [
-      "mathspeed test/actual-practice-tests/ISEE Lower #2/Screenshot 2026-10-09 at 7.03.55 PM.png"
-    ],
     "recapture_nav_color_read": "correct"
   },
   {
-    "source_file": "mathspeed test/superseded-by-recapture/Screenshot 2026-10-02 at 11.32.03 AM.png",
+    "source_file": "mathspeed test/actual-practice-tests/ISEE Lower #2/Screenshot 2026-10-09 at 7.03.56 PM.png",
     "type": "question",
     "question_number": 20,
     "question_text": "Employees at a company are placed in different tier categories. The bar graph shows the number of employees in each different tier category. Based on the graph, which statement is true?",
@@ -4026,13 +3749,10 @@
       "C": null,
       "D": null
     },
-    "recapture_source_images": [
-      "mathspeed test/actual-practice-tests/ISEE Lower #2/Screenshot 2026-10-09 at 7.03.56 PM.png"
-    ],
     "recapture_nav_color_read": "correct"
   },
   {
-    "source_file": "mathspeed test/superseded-by-recapture/Screenshot 2026-10-02 at 11.32.09 AM.png",
+    "source_file": "mathspeed test/actual-practice-tests/ISEE Lower #2/Screenshot 2026-10-09 at 7.03.58 PM.png",
     "type": "question",
     "question_number": 21,
     "question_text": "Use the number line to answer the question. What fraction is the vertical arrow pointing to on the number line?",
@@ -4068,13 +3788,10 @@
       "C": null,
       "D": null
     },
-    "recapture_source_images": [
-      "mathspeed test/actual-practice-tests/ISEE Lower #2/Screenshot 2026-10-09 at 7.03.58 PM.png"
-    ],
     "recapture_nav_color_read": "correct"
   },
   {
-    "source_file": "mathspeed test/superseded-by-recapture/Screenshot 2026-10-02 at 11.32.15 AM.png",
+    "source_file": "mathspeed test/actual-practice-tests/ISEE Lower #2/Screenshot 2026-10-09 at 7.04.00 PM.png",
     "type": "question",
     "question_number": 22,
     "question_text": "Use the equations to answer the question. c + 7 = 10; d - 1 = 4. What is the value of 2(c + d)?",
@@ -4110,13 +3827,10 @@
       "C": null,
       "D": null
     },
-    "recapture_source_images": [
-      "mathspeed test/actual-practice-tests/ISEE Lower #2/Screenshot 2026-10-09 at 7.04.00 PM.png"
-    ],
     "recapture_nav_color_read": "correct"
   },
   {
-    "source_file": "mathspeed test/superseded-by-recapture/Screenshot 2026-10-02 at 11.32.21 AM.png",
+    "source_file": "mathspeed test/actual-practice-tests/ISEE Lower #2/Screenshot 2026-10-09 at 7.04.01 PM.png",
     "type": "question",
     "question_number": 23,
     "question_text": "The area of the large square is x units². The area of the small square is y units². What is the area of the shaded region?",
@@ -4152,13 +3866,10 @@
       "C": null,
       "D": null
     },
-    "recapture_source_images": [
-      "mathspeed test/actual-practice-tests/ISEE Lower #2/Screenshot 2026-10-09 at 7.04.01 PM.png"
-    ],
     "recapture_nav_color_read": "correct"
   },
   {
-    "source_file": "mathspeed test/superseded-by-recapture/Screenshot 2026-10-02 at 11.32.26 AM.png",
+    "source_file": "mathspeed test/actual-practice-tests/ISEE Lower #2/Screenshot 2026-10-09 at 7.04.03 PM.png",
     "type": "question",
     "question_number": 24,
     "question_text": "Ms. Giroux had 112 milk cartons in a refrigerator in the school cafeteria. She puts 31 more cases of milk cartons in the refrigerator. Each case contained 18 cartons. The expression 112 + (31 × 18) represents the exact number of milk cartons in the refrigerator now. Which of these is the best estimate of the number of milk cartons in the refrigerator in the school cafeteria?",
@@ -4194,15 +3905,12 @@
       "C": null,
       "D": null
     },
-    "recapture_source_images": [
-      "mathspeed test/actual-practice-tests/ISEE Lower #2/Screenshot 2026-10-09 at 7.04.03 PM.png"
-    ],
     "recapture_nav_color_read": "wrong",
     "her_selected_letter": "B",
     "her_selected_percentage": "18.3%"
   },
   {
-    "source_file": "mathspeed test/superseded-by-recapture/Screenshot 2026-10-02 at 11.32.32 AM.png",
+    "source_file": "mathspeed test/actual-practice-tests/ISEE Lower #2/Screenshot 2026-10-09 at 7.04.04 PM.png",
     "type": "question",
     "question_number": 25,
     "question_text": "The width of a rectangle is Y meters. Which statement correctly compares the value of Y to the length of the rectangle, where Y = 1/4 × length?",
@@ -4238,15 +3946,12 @@
       "C": null,
       "D": null
     },
-    "recapture_source_images": [
-      "mathspeed test/actual-practice-tests/ISEE Lower #2/Screenshot 2026-10-09 at 7.04.04 PM.png"
-    ],
     "recapture_nav_color_read": "wrong",
     "her_selected_letter": "B",
     "her_selected_percentage": "9.6%"
   },
   {
-    "source_file": "mathspeed test/superseded-by-recapture/Screenshot 2026-10-02 at 11.32.38 AM.png",
+    "source_file": "mathspeed test/actual-practice-tests/ISEE Lower #2/Screenshot 2026-10-09 at 7.04.06 PM.png",
     "type": "question",
     "question_number": 26,
     "question_text": "The shaded area on the square represents the part of a rectangular floor that has tile already installed. Each small square on the floor has the same dimensions. What percentage of the floor has tile already installed?",
@@ -4282,15 +3987,12 @@
       "C": null,
       "D": null
     },
-    "recapture_source_images": [
-      "mathspeed test/actual-practice-tests/ISEE Lower #2/Screenshot 2026-10-09 at 7.04.06 PM.png"
-    ],
     "recapture_nav_color_read": "wrong",
     "her_selected_letter": "D",
     "her_selected_percentage": "10.3%"
   },
   {
-    "source_file": "mathspeed test/superseded-by-recapture/Screenshot 2026-10-02 at 11.32.43 AM.png",
+    "source_file": "mathspeed test/actual-practice-tests/ISEE Lower #2/Screenshot 2026-10-09 at 7.04.08 PM.png",
     "type": "question",
     "question_number": 27,
     "question_text": "Use the figure to answer the question. How many dots would the sixth object have, assuming the pattern continues?",
@@ -4326,13 +4028,10 @@
       "C": null,
       "D": null
     },
-    "recapture_source_images": [
-      "mathspeed test/actual-practice-tests/ISEE Lower #2/Screenshot 2026-10-09 at 7.04.08 PM.png"
-    ],
     "recapture_nav_color_read": "correct"
   },
   {
-    "source_file": "mathspeed test/superseded-by-recapture/Screenshot 2026-10-02 at 11.32.49 AM.png",
+    "source_file": "mathspeed test/actual-practice-tests/ISEE Lower #2/Screenshot 2026-10-09 at 7.04.09 PM.png",
     "type": "question",
     "question_number": 28,
     "question_text": "Which phrase is represented by the expression (46 − 22) ÷ 2?",
@@ -4368,13 +4067,10 @@
       "C": null,
       "D": null
     },
-    "recapture_source_images": [
-      "mathspeed test/actual-practice-tests/ISEE Lower #2/Screenshot 2026-10-09 at 7.04.09 PM.png"
-    ],
     "recapture_nav_color_read": "correct"
   },
   {
-    "source_file": "mathspeed test/superseded-by-recapture/Screenshot 2026-10-02 at 11.32.51 AM.png",
+    "source_file": "mathspeed test/actual-practice-tests/ISEE Lower #2/Screenshot 2026-10-09 at 7.04.11 PM.png",
     "type": "question",
     "question_number": 29,
     "question_text": "The length and width of the array shown represent two factors of a number. Which array represents two different factors of the same number?",
@@ -4410,15 +4106,12 @@
       "C": null,
       "D": null
     },
-    "recapture_source_images": [
-      "mathspeed test/actual-practice-tests/ISEE Lower #2/Screenshot 2026-10-09 at 7.04.11 PM.png"
-    ],
     "recapture_nav_color_read": "wrong",
     "her_selected_letter": "C",
     "her_selected_percentage": "10.2%"
   },
   {
-    "source_file": "mathspeed test/superseded-by-recapture/Screenshot 2026-10-02 at 11.32.59 AM.png",
+    "source_file": "mathspeed test/actual-practice-tests/ISEE Lower #2/Screenshot 2026-10-09 at 7.04.12 PM.png",
     "type": "question",
     "question_number": 30,
     "question_text": "What is 2/3 + 6/2?",
@@ -4454,9 +4147,6 @@
       "C": null,
       "D": null
     },
-    "recapture_source_images": [
-      "mathspeed test/actual-practice-tests/ISEE Lower #2/Screenshot 2026-10-09 at 7.04.12 PM.png"
-    ],
     "recapture_nav_color_read": "correct"
   },
   {
@@ -4490,7 +4180,7 @@
     "status": "done"
   },
   {
-    "source_file": "mathspeed test/superseded-by-recapture/Screenshot 2026-10-02 at 11.33.16 AM.png",
+    "source_file": "mathspeed test/actual-practice-tests/ISEE Lower #2/Screenshot 2026-10-09 at 7.04.14 PM.png",
     "type": "question",
     "question_number": 31,
     "question_text": "The graph shows three of the four vertices of parallelogram WXYZ. At which location on the coordinate grid could point Z be located?",
@@ -4526,13 +4216,10 @@
       "C": null,
       "D": null
     },
-    "recapture_source_images": [
-      "mathspeed test/actual-practice-tests/ISEE Lower #2/Screenshot 2026-10-09 at 7.04.14 PM.png"
-    ],
     "recapture_nav_color_read": "correct"
   },
   {
-    "source_file": "mathspeed test/superseded-by-recapture/Screenshot 2026-10-02 at 11.33.21 AM.png",
+    "source_file": "mathspeed test/actual-practice-tests/ISEE Lower #2/Screenshot 2026-10-09 at 7.04.15 PM.png",
     "type": "question",
     "question_number": 32,
     "question_text": "Joel wants to cover a sidewalk with pavers. His sidewalk is 144 inches long and 48 inches wide. Each tile is 4 inches long and 3 inches wide. He started to lay the pavers to see how many he would need. If he knows how to find the area of a rectangle, how can Joel determine how many pavers he will need without laying them all on the sidewalk? (A = l×w)",
@@ -4568,15 +4255,12 @@
       "C": null,
       "D": null
     },
-    "recapture_source_images": [
-      "mathspeed test/actual-practice-tests/ISEE Lower #2/Screenshot 2026-10-09 at 7.04.15 PM.png"
-    ],
     "recapture_nav_color_read": "wrong",
     "her_selected_letter": "A",
     "her_selected_percentage": "7.4%"
   },
   {
-    "source_file": "mathspeed test/superseded-by-recapture/Screenshot 2026-10-02 at 11.33.27 AM.png",
+    "source_file": "mathspeed test/actual-practice-tests/ISEE Lower #2/Screenshot 2026-10-09 at 7.04.17 PM.png",
     "type": "question",
     "question_number": 33,
     "question_text": "In the number line shown, D is the midpoint between C and another point E. What is the value of E?",
@@ -4612,13 +4296,10 @@
       "C": null,
       "D": null
     },
-    "recapture_source_images": [
-      "mathspeed test/actual-practice-tests/ISEE Lower #2/Screenshot 2026-10-09 at 7.04.17 PM.png"
-    ],
     "recapture_nav_color_read": "correct"
   },
   {
-    "source_file": "mathspeed test/superseded-by-recapture/Screenshot 2026-10-02 at 11.33.32 AM.png",
+    "source_file": "mathspeed test/actual-practice-tests/ISEE Lower #2/Screenshot 2026-10-09 at 7.04.18 PM.png",
     "type": "question",
     "question_number": 34,
     "question_text": "The table shows the number of votes for different school colors. Based on the information in the table, what is the most reasonable prediction of the number of votes for maroon out of the next 25 votes?",
@@ -4654,15 +4335,12 @@
       "C": null,
       "D": null
     },
-    "recapture_source_images": [
-      "mathspeed test/actual-practice-tests/ISEE Lower #2/Screenshot 2026-10-09 at 7.04.18 PM.png"
-    ],
     "recapture_nav_color_read": "wrong",
     "her_selected_letter": "C",
     "her_selected_percentage": "25.1%"
   },
   {
-    "source_file": "mathspeed test/superseded-by-recapture/Screenshot 2026-10-02 at 11.33.39 AM.png",
+    "source_file": "mathspeed test/actual-practice-tests/ISEE Lower #2/Screenshot 2026-10-09 at 7.04.20 PM.png",
     "type": "question",
     "question_number": 35,
     "question_text": "Belle wrote down a three-digit number. The guidelines for the number she wrote are given: The only digits she can use are 1, 3, 5, 7, 8, and 9. A digit can be used one time only. The number is odd. The number is the largest possible number. What digit is in the tens place for the number Belle wrote?",
@@ -4698,13 +4376,10 @@
       "C": null,
       "D": null
     },
-    "recapture_source_images": [
-      "mathspeed test/actual-practice-tests/ISEE Lower #2/Screenshot 2026-10-09 at 7.04.20 PM.png"
-    ],
     "recapture_nav_color_read": "correct"
   },
   {
-    "source_file": "mathspeed test/superseded-by-recapture/Screenshot 2026-10-02 at 11.33.47 AM.png",
+    "source_file": "mathspeed test/actual-practice-tests/ISEE Lower #2/Screenshot 2026-10-09 at 7.04.21 PM.png",
     "type": "question",
     "question_number": 36,
     "question_text": "Jon has two equal-sized bags of birdseed. The first bag is n/4 full. The second bag is 1/5 full. The birdseed from these bags will be combined by pouring the birdseed from the first bag into the second bag. Which statement best describes the amount of birdseed once the bags are combined?",
@@ -4740,15 +4415,12 @@
       "C": null,
       "D": null
     },
-    "recapture_source_images": [
-      "mathspeed test/actual-practice-tests/ISEE Lower #2/Screenshot 2026-10-09 at 7.04.21 PM.png"
-    ],
     "recapture_nav_color_read": "wrong",
     "her_selected_letter": "C",
     "her_selected_percentage": "16.9%"
   },
   {
-    "source_file": "mathspeed test/superseded-by-recapture/Screenshot 2026-10-02 at 11.33.54 AM.png",
+    "source_file": "mathspeed test/actual-practice-tests/ISEE Lower #2/Screenshot 2026-10-09 at 7.04.23 PM.png",
     "type": "question",
     "question_number": 37,
     "question_text": "The stem-and-leaf plot shows the high temperatures in a town for two weeks, where 6|8 represents 68. Based on the data in the stem-and-leaf plot, which conclusion is true?",
@@ -4784,15 +4456,12 @@
       "C": null,
       "D": null
     },
-    "recapture_source_images": [
-      "mathspeed test/actual-practice-tests/ISEE Lower #2/Screenshot 2026-10-09 at 7.04.23 PM.png"
-    ],
     "recapture_nav_color_read": "wrong",
     "her_selected_letter": "C",
     "her_selected_percentage": "20.2%"
   },
   {
-    "source_file": "mathspeed test/superseded-by-recapture/Screenshot 2026-10-02 at 11.34.00 AM.png",
+    "source_file": "mathspeed test/actual-practice-tests/ISEE Lower #2/Screenshot 2026-10-09 at 7.04.24 PM.png",
     "type": "question",
     "question_number": 38,
     "question_text": "The floor of Room A is in the shape of a square and has an area of 144 feet². The floor of Room B is in the shape of a rectangle and has a length of 9 feet and width of 15 feet. Which statement correctly compares the floors in the two rooms?",
@@ -4828,9 +4497,6 @@
       "C": null,
       "D": null
     },
-    "recapture_source_images": [
-      "mathspeed test/actual-practice-tests/ISEE Lower #2/Screenshot 2026-10-09 at 7.04.24 PM.png"
-    ],
     "recapture_nav_color_read": "wrong",
     "her_selected_letter": "C",
     "her_selected_percentage": "27.7%"
@@ -4863,7 +4529,7 @@
     "pacing_affected": false
   },
   {
-    "source_file": "mathspeed test/superseded-by-recapture/Screenshot 2026-10-02 at 11.34.30 AM.png",
+    "source_file": "mathspeed test/actual-practice-tests/ISEE Lower #3/Screenshot 2026-10-09 at 8.53.05 PM.png",
     "type": "question",
     "question_number": 1,
     "question_text": "Use the table to answer the question. Based on the table, how many miles will Lorna run in Week 5?",
@@ -4900,13 +4566,10 @@
       "C": null,
       "D": null
     },
-    "recapture_source_images": [
-      "mathspeed test/actual-practice-tests/ISEE Lower #3/Screenshot 2026-10-09 at 8.53.05 PM.png"
-    ],
     "recapture_nav_color_read": "correct"
   },
   {
-    "source_file": "mathspeed test/superseded-by-recapture/Screenshot 2026-10-02 at 11.34.39 AM.png",
+    "source_file": "mathspeed test/actual-practice-tests/ISEE Lower #3/Screenshot 2026-10-09 at 8.53.07 PM.png",
     "type": "question",
     "question_number": 2,
     "question_text": "If □ + △ + △ + □ = 24, and □ + □ + □ + □ = 20, then which value is greatest?",
@@ -4943,13 +4606,10 @@
       "C": null,
       "D": null
     },
-    "recapture_source_images": [
-      "mathspeed test/actual-practice-tests/ISEE Lower #3/Screenshot 2026-10-09 at 8.53.07 PM.png"
-    ],
     "recapture_nav_color_read": "correct"
   },
   {
-    "source_file": "mathspeed test/superseded-by-recapture/Screenshot 2026-10-02 at 11.34.47 AM.png",
+    "source_file": "mathspeed test/actual-practice-tests/ISEE Lower #3/Screenshot 2026-10-09 at 8.53.09 PM.png",
     "type": "question",
     "question_number": 3,
     "question_text": "What piece would complete the diagram to make a 3 by 3 square?",
@@ -4987,13 +4647,12 @@
       "D": null
     },
     "recapture_source_images": [
-      "mathspeed test/actual-practice-tests/ISEE Lower #3/Screenshot 2026-10-09 at 8.53.09 PM.png",
       "mathspeed test/actual-practice-tests/ISEE Lower #3/Screenshot 2026-10-09 at 8.53.16 PM.png"
     ],
     "recapture_nav_color_read": "correct"
   },
   {
-    "source_file": "mathspeed test/superseded-by-recapture/Screenshot 2026-10-02 at 11.34.54 AM.png",
+    "source_file": "mathspeed test/actual-practice-tests/ISEE Lower #3/Screenshot 2026-10-09 at 8.53.19 PM.png",
     "type": "question",
     "question_number": 4,
     "question_text": "If □ + □ + □ = 12, and □ × ○ = 20 are both true, what is the value of ○ − □?",
@@ -5030,13 +4689,10 @@
       "C": null,
       "D": null
     },
-    "recapture_source_images": [
-      "mathspeed test/actual-practice-tests/ISEE Lower #3/Screenshot 2026-10-09 at 8.53.19 PM.png"
-    ],
     "recapture_nav_color_read": "correct"
   },
   {
-    "source_file": "mathspeed test/superseded-by-recapture/Screenshot 2026-10-02 at 11.34.59 AM.png",
+    "source_file": "mathspeed test/actual-practice-tests/ISEE Lower #3/Screenshot 2026-10-09 at 8.53.21 PM.png",
     "type": "question",
     "question_number": 5,
     "question_text": "A face cord has 240 pieces of wood. Leonard separates the face cord into thirds for transport. How many pieces of wood are in each load for transport?",
@@ -5073,13 +4729,10 @@
       "C": null,
       "D": null
     },
-    "recapture_source_images": [
-      "mathspeed test/actual-practice-tests/ISEE Lower #3/Screenshot 2026-10-09 at 8.53.21 PM.png"
-    ],
     "recapture_nav_color_read": "correct"
   },
   {
-    "source_file": "mathspeed test/superseded-by-recapture/Screenshot 2026-10-02 at 11.35.04 AM.png",
+    "source_file": "mathspeed test/actual-practice-tests/ISEE Lower #3/Screenshot 2026-10-09 at 8.53.23 PM.png",
     "type": "question",
     "question_number": 6,
     "question_text": "Frank shaded a number pattern on the chart. He missed shading one number in the pattern between 18 and 30. What number did Frank miss shading?",
@@ -5116,13 +4769,10 @@
       "C": null,
       "D": null
     },
-    "recapture_source_images": [
-      "mathspeed test/actual-practice-tests/ISEE Lower #3/Screenshot 2026-10-09 at 8.53.23 PM.png"
-    ],
     "recapture_nav_color_read": "correct"
   },
   {
-    "source_file": "mathspeed test/superseded-by-recapture/Screenshot 2026-10-02 at 11.35.10 AM.png",
+    "source_file": "mathspeed test/actual-practice-tests/ISEE Lower #3/Screenshot 2026-10-09 at 8.53.26 PM.png",
     "type": "question",
     "question_number": 7,
     "question_text": "In Hiromi's school district, there are 41 schools with an average of 337 students in each school. Which expression gives the best estimate of the total number of students in her district?",
@@ -5159,13 +4809,10 @@
       "C": null,
       "D": null
     },
-    "recapture_source_images": [
-      "mathspeed test/actual-practice-tests/ISEE Lower #3/Screenshot 2026-10-09 at 8.53.26 PM.png"
-    ],
     "recapture_nav_color_read": "correct"
   },
   {
-    "source_file": "mathspeed test/superseded-by-recapture/Screenshot 2026-10-02 at 11.35.16 AM.png",
+    "source_file": "mathspeed test/actual-practice-tests/ISEE Lower #3/Screenshot 2026-10-09 at 8.53.29 PM.png",
     "type": "question",
     "question_number": 8,
     "question_text": "Lynn created a solid figure using cubes. Which figure shows Lynn's solid as viewed from the right side?",
@@ -5201,13 +4848,10 @@
       "B": null,
       "C": null,
       "D": null
-    },
-    "recapture_source_images": [
-      "mathspeed test/actual-practice-tests/ISEE Lower #3/Screenshot 2026-10-09 at 8.53.29 PM.png"
-    ]
+    }
   },
   {
-    "source_file": "mathspeed test/superseded-by-recapture/Screenshot 2026-10-02 at 11.35.21 AM.png",
+    "source_file": "mathspeed test/actual-practice-tests/ISEE Lower #3/Screenshot 2026-10-09 at 8.53.31 PM.png",
     "type": "question",
     "question_number": 9,
     "question_text": "Tamara picked 5 tomatoes from her garden. Two tomatoes weighed 3 1/4 ounces each, two tomatoes weighed 4 1/2 ounces each, and the fifth tomato weighed 4 3/4 ounces. What is the median weight of the tomatoes picked?",
@@ -5243,13 +4887,10 @@
       "B": null,
       "C": null,
       "D": null
-    },
-    "recapture_source_images": [
-      "mathspeed test/actual-practice-tests/ISEE Lower #3/Screenshot 2026-10-09 at 8.53.31 PM.png"
-    ]
+    }
   },
   {
-    "source_file": "mathspeed test/superseded-by-recapture/Screenshot 2026-10-02 at 11.35.27 AM.png",
+    "source_file": "mathspeed test/actual-practice-tests/ISEE Lower #3/Screenshot 2026-10-09 at 8.53.33 PM.png",
     "type": "question",
     "question_number": 10,
     "question_text": "The chart shows the number of each color of counter Mr. Mose placed in an empty box. All the counters were the same size and shape. Ben is going to take 4 counters out of the box without looking. Which combination of counters could Ben take from the box?",
@@ -5285,13 +4926,10 @@
       "B": null,
       "C": null,
       "D": null
-    },
-    "recapture_source_images": [
-      "mathspeed test/actual-practice-tests/ISEE Lower #3/Screenshot 2026-10-09 at 8.53.33 PM.png"
-    ]
+    }
   },
   {
-    "source_file": "mathspeed test/superseded-by-recapture/Screenshot 2026-10-02 at 11.35.33 AM.png",
+    "source_file": "mathspeed test/actual-practice-tests/ISEE Lower #3/Screenshot 2026-10-09 at 8.53.35 PM.png",
     "type": "question",
     "question_number": 11,
     "question_text": "Serena picked a number greater than 40 but less than 50. If the number is an odd number that is divisible by 3, what number did Serena pick?",
@@ -5328,14 +4966,11 @@
       "C": null,
       "D": null
     },
-    "recapture_source_images": [
-      "mathspeed test/actual-practice-tests/ISEE Lower #3/Screenshot 2026-10-09 at 8.53.35 PM.png"
-    ],
     "her_selected_letter": "C",
     "her_selected_percentage": "7.1%"
   },
   {
-    "source_file": "mathspeed test/superseded-by-recapture/Screenshot 2026-10-02 at 11.35.39 AM.png",
+    "source_file": "mathspeed test/actual-practice-tests/ISEE Lower #3/Screenshot 2026-10-09 at 8.53.37 PM.png",
     "type": "question",
     "question_number": 12,
     "question_text": "Use the set of numbers shown to answer the question. {3, 9, 15, 24, 27}. Which phrase best describes this set of numbers?",
@@ -5371,13 +5006,10 @@
       "B": null,
       "C": null,
       "D": null
-    },
-    "recapture_source_images": [
-      "mathspeed test/actual-practice-tests/ISEE Lower #3/Screenshot 2026-10-09 at 8.53.37 PM.png"
-    ]
+    }
   },
   {
-    "source_file": "mathspeed test/superseded-by-recapture/Screenshot 2026-10-02 at 11.35.44 AM.png",
+    "source_file": "mathspeed test/actual-practice-tests/ISEE Lower #3/Screenshot 2026-10-09 at 8.53.39 PM.png",
     "type": "question",
     "question_number": 13,
     "question_text": "If y can be divided by both 11 and 2 without leaving a remainder, then 3y can also be divided by which number without leaving a remainder?",
@@ -5413,13 +5045,10 @@
       "B": null,
       "C": null,
       "D": null
-    },
-    "recapture_source_images": [
-      "mathspeed test/actual-practice-tests/ISEE Lower #3/Screenshot 2026-10-09 at 8.53.39 PM.png"
-    ]
+    }
   },
   {
-    "source_file": "mathspeed test/superseded-by-recapture/Screenshot 2026-10-02 at 11.35.50 AM.png",
+    "source_file": "mathspeed test/actual-practice-tests/ISEE Lower #3/Screenshot 2026-10-09 at 8.53.41 PM.png",
     "type": "question",
     "question_number": 14,
     "question_text": "The table shows the number of pages that can print using different numbers of printers. Using the pattern shown in the table, what would be the predicted number of printers it would take to print 5,600 pages?",
@@ -5455,13 +5084,10 @@
       "B": null,
       "C": null,
       "D": null
-    },
-    "recapture_source_images": [
-      "mathspeed test/actual-practice-tests/ISEE Lower #3/Screenshot 2026-10-09 at 8.53.41 PM.png"
-    ]
+    }
   },
   {
-    "source_file": "mathspeed test/superseded-by-recapture/Screenshot 2026-10-02 at 11.35.56 AM.png",
+    "source_file": "mathspeed test/actual-practice-tests/ISEE Lower #3/Screenshot 2026-10-09 at 8.53.43 PM.png",
     "type": "question",
     "question_number": 15,
     "question_text": "What hair colors are found in the shaded part of the Venn diagram?",
@@ -5497,13 +5123,10 @@
       "B": null,
       "C": null,
       "D": null
-    },
-    "recapture_source_images": [
-      "mathspeed test/actual-practice-tests/ISEE Lower #3/Screenshot 2026-10-09 at 8.53.43 PM.png"
-    ]
+    }
   },
   {
-    "source_file": "mathspeed test/superseded-by-recapture/Screenshot 2026-10-02 at 11.36.03 AM.png",
+    "source_file": "mathspeed test/actual-practice-tests/ISEE Lower #3/Screenshot 2026-10-09 at 8.53.45 PM.png",
     "type": "question",
     "question_number": 16,
     "question_text": "Use the model to answer the question. Which multiplication expression does the model represent?",
@@ -5539,13 +5162,10 @@
       "B": null,
       "C": null,
       "D": null
-    },
-    "recapture_source_images": [
-      "mathspeed test/actual-practice-tests/ISEE Lower #3/Screenshot 2026-10-09 at 8.53.45 PM.png"
-    ]
+    }
   },
   {
-    "source_file": "mathspeed test/superseded-by-recapture/Screenshot 2026-10-02 at 11.36.08 AM.png",
+    "source_file": "mathspeed test/actual-practice-tests/ISEE Lower #3/Screenshot 2026-10-09 at 8.53.47 PM.png",
     "type": "question",
     "question_number": 17,
     "question_text": "Haley is filling a cube-shaped box with small cubes. She has already put some of these cubes into the box, as shown. Which expression shows the total number of small cubes that will fit in the box?",
@@ -5581,13 +5201,10 @@
       "B": null,
       "C": null,
       "D": null
-    },
-    "recapture_source_images": [
-      "mathspeed test/actual-practice-tests/ISEE Lower #3/Screenshot 2026-10-09 at 8.53.47 PM.png"
-    ]
+    }
   },
   {
-    "source_file": "mathspeed test/superseded-by-recapture/Screenshot 2026-10-02 at 11.36.14 AM.png",
+    "source_file": "mathspeed test/actual-practice-tests/ISEE Lower #3/Screenshot 2026-10-09 at 8.53.49 PM.png",
     "type": "question",
     "question_number": 18,
     "question_text": "A decimal number is described. There is a 1 in the thousandths place. There is a 2 in the tenths place. There is a 3 in the hundredths place. Which would be the correct order of these digits to the right of the decimal?",
@@ -5623,13 +5240,10 @@
       "B": null,
       "C": null,
       "D": null
-    },
-    "recapture_source_images": [
-      "mathspeed test/actual-practice-tests/ISEE Lower #3/Screenshot 2026-10-09 at 8.53.49 PM.png"
-    ]
+    }
   },
   {
-    "source_file": "mathspeed test/superseded-by-recapture/Screenshot 2026-10-02 at 11.36.20 AM.png",
+    "source_file": "mathspeed test/actual-practice-tests/ISEE Lower #3/Screenshot 2026-10-09 at 8.53.51 PM.png",
     "type": "question",
     "question_number": 19,
     "question_text": "A storage room is divided into sections as shown in the diagram. Approximately what fraction of the storage room is used by books?",
@@ -5665,13 +5279,10 @@
       "B": null,
       "C": null,
       "D": null
-    },
-    "recapture_source_images": [
-      "mathspeed test/actual-practice-tests/ISEE Lower #3/Screenshot 2026-10-09 at 8.53.51 PM.png"
-    ]
+    }
   },
   {
-    "source_file": "mathspeed test/superseded-by-recapture/Screenshot 2026-10-02 at 11.36.23 AM.png",
+    "source_file": "mathspeed test/actual-practice-tests/ISEE Lower #3/Screenshot 2026-10-09 at 8.53.53 PM.png",
     "type": "question",
     "question_number": 20,
     "question_text": "A group of fraction bars is shown. Which list shows fractions 2/3, 3/4, 3/6, 2/5 in order from least to greatest?",
@@ -5708,14 +5319,11 @@
       "C": null,
       "D": null
     },
-    "recapture_source_images": [
-      "mathspeed test/actual-practice-tests/ISEE Lower #3/Screenshot 2026-10-09 at 8.53.53 PM.png"
-    ],
     "her_selected_letter": "D",
     "her_selected_percentage": "9.9%"
   },
   {
-    "source_file": "mathspeed test/superseded-by-recapture/Screenshot 2026-10-02 at 11.36.32 AM.png",
+    "source_file": "mathspeed test/actual-practice-tests/ISEE Lower #3/Screenshot 2026-10-09 at 8.53.55 PM.png",
     "type": "question",
     "question_number": 21,
     "question_text": "Justin had some coins in a bag. He counted 38 coins that were silver and 27 coins that were copper. What fraction of the coins that Justin had were silver?",
@@ -5751,13 +5359,10 @@
       "B": null,
       "C": null,
       "D": null
-    },
-    "recapture_source_images": [
-      "mathspeed test/actual-practice-tests/ISEE Lower #3/Screenshot 2026-10-09 at 8.53.55 PM.png"
-    ]
+    }
   },
   {
-    "source_file": "mathspeed test/superseded-by-recapture/Screenshot 2026-10-02 at 11.36.37 AM.png",
+    "source_file": "mathspeed test/actual-practice-tests/ISEE Lower #3/Screenshot 2026-10-09 at 8.53.57 PM.png",
     "type": "question",
     "question_number": 22,
     "question_text": "Which statement about the sum of 7/8 and 1/4 is true?",
@@ -5793,13 +5398,10 @@
       "B": null,
       "C": null,
       "D": null
-    },
-    "recapture_source_images": [
-      "mathspeed test/actual-practice-tests/ISEE Lower #3/Screenshot 2026-10-09 at 8.53.57 PM.png"
-    ]
+    }
   },
   {
-    "source_file": "mathspeed test/superseded-by-recapture/Screenshot 2026-10-02 at 11.36.42 AM.png",
+    "source_file": "mathspeed test/actual-practice-tests/ISEE Lower #3/Screenshot 2026-10-09 at 8.53.58 PM.png",
     "type": "question",
     "question_number": 23,
     "question_text": "The table shows the math quiz scores of three students. Which statement about the median quiz scores is true?",
@@ -5835,13 +5437,10 @@
       "B": null,
       "C": null,
       "D": null
-    },
-    "recapture_source_images": [
-      "mathspeed test/actual-practice-tests/ISEE Lower #3/Screenshot 2026-10-09 at 8.53.58 PM.png"
-    ]
+    }
   },
   {
-    "source_file": "mathspeed test/superseded-by-recapture/Screenshot 2026-10-02 at 11.36.48 AM.png",
+    "source_file": "mathspeed test/actual-practice-tests/ISEE Lower #3/Screenshot 2026-10-09 at 8.54.00 PM.png",
     "type": "question",
     "question_number": 24,
     "question_text": "Two classes, Class A and Class B, each recorded the eye color of students in the class. The graph shows the results. Which eye color was the most common?",
@@ -5878,14 +5477,11 @@
       "C": null,
       "D": null
     },
-    "recapture_source_images": [
-      "mathspeed test/actual-practice-tests/ISEE Lower #3/Screenshot 2026-10-09 at 8.54.00 PM.png"
-    ],
     "her_selected_letter": "B",
     "her_selected_percentage": "23.5%"
   },
   {
-    "source_file": "mathspeed test/superseded-by-recapture/Screenshot 2026-10-02 at 11.36.53 AM.png",
+    "source_file": "mathspeed test/actual-practice-tests/ISEE Lower #3/Screenshot 2026-10-09 at 8.54.02 PM.png",
     "type": "question",
     "question_number": 25,
     "question_text": "Jeff is practicing his long jumps for the track team. His first jump measured 3 yards, 1 foot, 2 inches. His second jump measured 2 yards, 3 feet, 3 inches. His final jump measured 3 yards, 15 inches. Which statement about these jumps is true? (1 yard = 3 feet; 1 foot = 12 inches)",
@@ -5921,10 +5517,7 @@
       "B": null,
       "C": null,
       "D": null
-    },
-    "recapture_source_images": [
-      "mathspeed test/actual-practice-tests/ISEE Lower #3/Screenshot 2026-10-09 at 8.54.02 PM.png"
-    ]
+    }
   },
   {
     "source_file": "mathspeed test/by-topic/Translating Math Expressions/Screenshot 2026-10-02 at 11.36.58 AM.png",
@@ -5968,7 +5561,7 @@
     ]
   },
   {
-    "source_file": "mathspeed test/superseded-by-recapture/Screenshot 2026-10-02 at 11.37.03 AM.png",
+    "source_file": "mathspeed test/actual-practice-tests/ISEE Lower #3/Screenshot 2026-10-09 at 8.54.06 PM.png",
     "type": "question",
     "question_number": 27,
     "question_text": "The picture shows an equilateral triangle inside a square. In an equilateral triangle, the three sides are the same length. The perimeter of the triangle is 54 centimeters. What is the perimeter of the square?",
@@ -6004,13 +5597,10 @@
       "B": null,
       "C": null,
       "D": null
-    },
-    "recapture_source_images": [
-      "mathspeed test/actual-practice-tests/ISEE Lower #3/Screenshot 2026-10-09 at 8.54.06 PM.png"
-    ]
+    }
   },
   {
-    "source_file": "mathspeed test/superseded-by-recapture/Screenshot 2026-10-02 at 11.37.07 AM.png",
+    "source_file": "mathspeed test/actual-practice-tests/ISEE Lower #3/Screenshot 2026-10-09 at 8.54.08 PM.png",
     "type": "question",
     "question_number": 28,
     "question_text": "Three different basements were each being drained at the same time. The heights, in inches, of each amount of water remaining, were measured and recorded every 5 minutes, as shown. According to the pattern from the data, what would be the predicted height of the second basement at 30 minutes?",
@@ -6046,13 +5636,10 @@
       "B": null,
       "C": null,
       "D": null
-    },
-    "recapture_source_images": [
-      "mathspeed test/actual-practice-tests/ISEE Lower #3/Screenshot 2026-10-09 at 8.54.08 PM.png"
-    ]
+    }
   },
   {
-    "source_file": "mathspeed test/superseded-by-recapture/Screenshot 2026-10-02 at 11.37.12 AM.png",
+    "source_file": "mathspeed test/actual-practice-tests/ISEE Lower #3/Screenshot 2026-10-09 at 8.54.10 PM.png",
     "type": "question",
     "question_number": 29,
     "question_text": "Volume is the space an object takes up. A box contains 27 unit cubes. There are gaps between the cubes contained in the box. Which statement best represents the volume of the box?",
@@ -6089,9 +5676,6 @@
       "C": null,
       "D": null
     },
-    "recapture_source_images": [
-      "mathspeed test/actual-practice-tests/ISEE Lower #3/Screenshot 2026-10-09 at 8.54.10 PM.png"
-    ],
     "her_selected_letter": "B",
     "her_selected_percentage": "16.2%"
   },
@@ -6137,7 +5721,7 @@
     ]
   },
   {
-    "source_file": "mathspeed test/superseded-by-recapture/Screenshot 2026-10-02 at 11.37.22 AM.png",
+    "source_file": "mathspeed test/actual-practice-tests/ISEE Lower #3/Screenshot 2026-10-09 at 8.54.13 PM.png",
     "type": "question",
     "question_number": 31,
     "question_text": "Students were asked to write a new number using all the rules below and the digits 0, 2, 4, 6, and 8. What digit is in the tens place for the new number?",
@@ -6174,14 +5758,11 @@
       "C": null,
       "D": null
     },
-    "recapture_source_images": [
-      "mathspeed test/actual-practice-tests/ISEE Lower #3/Screenshot 2026-10-09 at 8.54.13 PM.png"
-    ],
     "her_selected_letter": "B",
     "her_selected_percentage": "12.9%"
   },
   {
-    "source_file": "mathspeed test/superseded-by-recapture/Screenshot 2026-10-02 at 11.37.27 AM.png",
+    "source_file": "mathspeed test/actual-practice-tests/ISEE Lower #3/Screenshot 2026-10-09 at 8.54.15 PM.png",
     "type": "question",
     "question_number": 32,
     "question_text": "A cube has three colored circles drawn on it. Which diagram could be folded to make this cube if the colored circles are on the outside of the cube and cannot be seen from the other side?",
@@ -6217,13 +5798,10 @@
       "B": null,
       "C": null,
       "D": null
-    },
-    "recapture_source_images": [
-      "mathspeed test/actual-practice-tests/ISEE Lower #3/Screenshot 2026-10-09 at 8.54.15 PM.png"
-    ]
+    }
   },
   {
-    "source_file": "mathspeed test/superseded-by-recapture/Screenshot 2026-10-02 at 11.37.34 AM.png",
+    "source_file": "mathspeed test/actual-practice-tests/ISEE Lower #3/Screenshot 2026-10-09 at 8.54.17 PM.png",
     "type": "question",
     "question_number": 33,
     "question_text": "Mr. Carron lengthened his garden by adding a 2-foot-wide section to the end of it. What will happen to the perimeter (distance around) of Mr. Carron's garden if he adds the 2-foot-wide section to the end?",
@@ -6259,13 +5837,10 @@
       "B": null,
       "C": null,
       "D": null
-    },
-    "recapture_source_images": [
-      "mathspeed test/actual-practice-tests/ISEE Lower #3/Screenshot 2026-10-09 at 8.54.17 PM.png"
-    ]
+    }
   },
   {
-    "source_file": "mathspeed test/superseded-by-recapture/Screenshot 2026-10-02 at 11.37.39 AM.png",
+    "source_file": "mathspeed test/actual-practice-tests/ISEE Lower #3/Screenshot 2026-10-09 at 8.54.19 PM.png",
     "type": "question",
     "question_number": 34,
     "question_text": "In the number line shown, X is the midpoint between Y and another point Z. What is the value of Z?",
@@ -6301,13 +5876,10 @@
       "B": null,
       "C": null,
       "D": null
-    },
-    "recapture_source_images": [
-      "mathspeed test/actual-practice-tests/ISEE Lower #3/Screenshot 2026-10-09 at 8.54.19 PM.png"
-    ]
+    }
   },
   {
-    "source_file": "mathspeed test/superseded-by-recapture/Screenshot 2026-10-02 at 11.37.43 AM.png",
+    "source_file": "mathspeed test/actual-practice-tests/ISEE Lower #3/Screenshot 2026-10-09 at 8.54.21 PM.png",
     "type": "question",
     "question_number": 35,
     "question_text": "Use the figure to answer the question. If three more rows were added to the figure, how many small rectangles would the seventh row have, assuming the same pattern continues?",
@@ -6343,13 +5915,10 @@
       "B": null,
       "C": null,
       "D": null
-    },
-    "recapture_source_images": [
-      "mathspeed test/actual-practice-tests/ISEE Lower #3/Screenshot 2026-10-09 at 8.54.21 PM.png"
-    ]
+    }
   },
   {
-    "source_file": "mathspeed test/superseded-by-recapture/Screenshot 2026-10-02 at 11.37.48 AM.png",
+    "source_file": "mathspeed test/actual-practice-tests/ISEE Lower #3/Screenshot 2026-10-09 at 8.54.23 PM.png",
     "type": "question",
     "question_number": 36,
     "question_text": "Patricia and Cheryl have 18 baskets and 9 boxes to pack with apples. They divide 36 apples equally among the baskets and divide 36 apples equally among the boxes. Which statement is true about how many apples are packed in the baskets and boxes?",
@@ -6385,13 +5954,10 @@
       "B": null,
       "C": null,
       "D": null
-    },
-    "recapture_source_images": [
-      "mathspeed test/actual-practice-tests/ISEE Lower #3/Screenshot 2026-10-09 at 8.54.23 PM.png"
-    ]
+    }
   },
   {
-    "source_file": "mathspeed test/superseded-by-recapture/Screenshot 2026-10-02 at 11.37.53 AM.png",
+    "source_file": "mathspeed test/actual-practice-tests/ISEE Lower #3/Screenshot 2026-10-09 at 8.54.25 PM.png",
     "type": "question",
     "question_number": 37,
     "question_text": "Ron is calculating how much it would cost for each of his friends to go see a movie. They shared the total cost of the tickets equally. The list shows what is known. The number of people attending is □. The total cost of the tickets is ○. Which equation will determine △, the cost for each friend to attend the movie?",
@@ -6428,9 +5994,6 @@
       "C": null,
       "D": null
     },
-    "recapture_source_images": [
-      "mathspeed test/actual-practice-tests/ISEE Lower #3/Screenshot 2026-10-09 at 8.54.25 PM.png"
-    ],
     "her_selected_letter": "C",
     "her_selected_percentage": "42.1%"
   },
@@ -6522,7 +6085,7 @@
     "pacing_affected": false
   },
   {
-    "source_file": "mathspeed test/superseded-by-recapture/Screenshot 2026-10-02 at 11.38.45 AM.png",
+    "source_file": "mathspeed test/actual-practice-tests/ISEE Lower #4/Screenshot 2026-10-09 at 8.55.00 PM.png",
     "type": "question",
     "question_number": 1,
     "question_text": "Use the equations to answer the question.\n6 - s = 4\n5 + t = 9\nWhat is the sum of s + t?",
@@ -6558,13 +6121,10 @@
       "B": null,
       "C": null,
       "D": null
-    },
-    "recapture_source_images": [
-      "mathspeed test/actual-practice-tests/ISEE Lower #4/Screenshot 2026-10-09 at 8.55.00 PM.png"
-    ]
+    }
   },
   {
-    "source_file": "mathspeed test/superseded-by-recapture/Screenshot 2026-10-02 at 11.38.49 AM.png",
+    "source_file": "mathspeed test/actual-practice-tests/ISEE Lower #4/Screenshot 2026-10-09 at 8.55.02 PM.png",
     "type": "question",
     "question_number": 2,
     "question_text": "Monique's box of 54 jelly beans contains 18 red, 9 blue, 6 green, 9 yellow, 6 pink, and 6 purple jelly beans. If she randomly selects a jelly bean without looking, which color has the greatest probability of being selected?",
@@ -6600,10 +6160,7 @@
       "B": null,
       "C": null,
       "D": null
-    },
-    "recapture_source_images": [
-      "mathspeed test/actual-practice-tests/ISEE Lower #4/Screenshot 2026-10-09 at 8.55.02 PM.png"
-    ]
+    }
   },
   {
     "source_file": "mathspeed test/by-topic/Algebraic Equations with Symbol Variables/Screenshot 2026-10-02 at 11.38.54 AM.png",
@@ -6647,7 +6204,7 @@
     ]
   },
   {
-    "source_file": "mathspeed test/superseded-by-recapture/Screenshot 2026-10-02 at 11.38.59 AM.png",
+    "source_file": "mathspeed test/actual-practice-tests/ISEE Lower #4/Screenshot 2026-10-09 at 8.55.05 PM.png",
     "type": "question",
     "question_number": 4,
     "question_text": "The model represents the length and width of a rectangular exercise mat.\n\nWhat is the area, in meters^2, of this mat? (A = l × w)",
@@ -6683,13 +6240,10 @@
       "B": null,
       "C": null,
       "D": null
-    },
-    "recapture_source_images": [
-      "mathspeed test/actual-practice-tests/ISEE Lower #4/Screenshot 2026-10-09 at 8.55.05 PM.png"
-    ]
+    }
   },
   {
-    "source_file": "mathspeed test/superseded-by-recapture/Screenshot 2026-10-02 at 11.39.05 AM.png",
+    "source_file": "mathspeed test/actual-practice-tests/ISEE Lower #4/Screenshot 2026-10-09 at 8.55.06 PM.png",
     "type": "question",
     "question_number": 5,
     "question_text": "The bar graph shows the number of songs downloaded at an online store during one week.\n\nWhat is the median number of songs downloaded at the online store during that week?",
@@ -6725,13 +6279,10 @@
       "B": null,
       "C": null,
       "D": null
-    },
-    "recapture_source_images": [
-      "mathspeed test/actual-practice-tests/ISEE Lower #4/Screenshot 2026-10-09 at 8.55.06 PM.png"
-    ]
+    }
   },
   {
-    "source_file": "mathspeed test/superseded-by-recapture/Screenshot 2026-10-02 at 11.39.10 AM.png",
+    "source_file": "mathspeed test/actual-practice-tests/ISEE Lower #4/Screenshot 2026-10-09 at 8.55.08 PM.png",
     "type": "question",
     "question_number": 6,
     "question_text": "The table shows two related sets of numbers.\n\nWhich equation describes the relationship in the table?",
@@ -6767,13 +6318,10 @@
       "B": null,
       "C": null,
       "D": null
-    },
-    "recapture_source_images": [
-      "mathspeed test/actual-practice-tests/ISEE Lower #4/Screenshot 2026-10-09 at 8.55.08 PM.png"
-    ]
+    }
   },
   {
-    "source_file": "mathspeed test/superseded-by-recapture/Screenshot 2026-10-02 at 11.39.15 AM.png",
+    "source_file": "mathspeed test/actual-practice-tests/ISEE Lower #4/Screenshot 2026-10-09 at 8.55.09 PM.png",
     "type": "question",
     "question_number": 7,
     "question_text": "A group of 25 students goes to a museum. Everyone purchases an admission ticket and a lunch pass.\n\nWhat is the total cost for the group to go to the museum?",
@@ -6809,10 +6357,7 @@
       "B": null,
       "C": null,
       "D": null
-    },
-    "recapture_source_images": [
-      "mathspeed test/actual-practice-tests/ISEE Lower #4/Screenshot 2026-10-09 at 8.55.09 PM.png"
-    ]
+    }
   },
   {
     "source_file": "mathspeed test/by-topic/Algebraic Equations with Symbol Variables/Screenshot 2026-10-02 at 11.39.19 AM.png",
@@ -6856,7 +6401,7 @@
     ]
   },
   {
-    "source_file": "mathspeed test/superseded-by-recapture/Screenshot 2026-10-02 at 11.39.24 AM.png",
+    "source_file": "mathspeed test/actual-practice-tests/ISEE Lower #4/Screenshot 2026-10-09 at 8.55.12 PM.png",
     "type": "question",
     "question_number": 9,
     "question_text": "Simon put 301 song files in 7 different folders in his computer. Each folder had the same number of song files. How many song files did Simon put in each folder?",
@@ -6892,13 +6437,10 @@
       "B": null,
       "C": null,
       "D": null
-    },
-    "recapture_source_images": [
-      "mathspeed test/actual-practice-tests/ISEE Lower #4/Screenshot 2026-10-09 at 8.55.12 PM.png"
-    ]
+    }
   },
   {
-    "source_file": "mathspeed test/superseded-by-recapture/Screenshot 2026-10-02 at 11.39.28 AM.png",
+    "source_file": "mathspeed test/actual-practice-tests/ISEE Lower #4/Screenshot 2026-10-09 at 8.55.14 PM.png",
     "type": "question",
     "question_number": 10,
     "question_text": "Use the number line to answer the question.\n\nWhat fraction is the vertical arrow pointing to on the number line?",
@@ -6935,13 +6477,10 @@
       "C": "94.5%",
       "D": "<5.0%"
     },
-    "recapture_source_images": [
-      "mathspeed test/actual-practice-tests/ISEE Lower #4/Screenshot 2026-10-09 at 8.55.14 PM.png"
-    ],
     "recapture_nav_color_read": "correct"
   },
   {
-    "source_file": "mathspeed test/superseded-by-recapture/Screenshot 2026-10-02 at 11.39.37 AM.png",
+    "source_file": "mathspeed test/actual-practice-tests/ISEE Lower #4/Screenshot 2026-10-09 at 8.55.16 PM.png",
     "type": "question",
     "question_number": 11,
     "question_text": "Zane saw some counters in a box. He counted 37 yellow counters and 54 red counters. What fraction of the counters that Zane saw were yellow?",
@@ -6978,13 +6517,10 @@
       "C": "6.0%",
       "D": "<5.0%"
     },
-    "recapture_source_images": [
-      "mathspeed test/actual-practice-tests/ISEE Lower #4/Screenshot 2026-10-09 at 8.55.16 PM.png"
-    ],
     "recapture_nav_color_read": "correct"
   },
   {
-    "source_file": "mathspeed test/superseded-by-recapture/Screenshot 2026-10-02 at 11.39.41 AM.png",
+    "source_file": "mathspeed test/actual-practice-tests/ISEE Lower #4/Screenshot 2026-10-09 at 8.55.17 PM.png",
     "type": "question",
     "question_number": 12,
     "question_text": "Which comparison is true?",
@@ -7021,13 +6557,10 @@
       "C": "<5.0%",
       "D": "<5.0%"
     },
-    "recapture_source_images": [
-      "mathspeed test/actual-practice-tests/ISEE Lower #4/Screenshot 2026-10-09 at 8.55.17 PM.png"
-    ],
     "recapture_nav_color_read": "correct"
   },
   {
-    "source_file": "mathspeed test/superseded-by-recapture/Screenshot 2026-10-02 at 11.39.55 AM.png",
+    "source_file": "mathspeed test/actual-practice-tests/ISEE Lower #4/Screenshot 2026-10-09 at 8.55.19 PM.png",
     "type": "question",
     "question_number": 13,
     "question_text": "Rose wrote down a whole number less than 30 that is divisible by 4. When Brad guessed that the number was 16, Rose told him the number was greater than 16 and divisible by 3. What is Rose's number?",
@@ -7064,13 +6597,10 @@
       "C": "92.0%",
       "D": "<5.0%"
     },
-    "recapture_source_images": [
-      "mathspeed test/actual-practice-tests/ISEE Lower #4/Screenshot 2026-10-09 at 8.55.19 PM.png"
-    ],
     "recapture_nav_color_read": "correct"
   },
   {
-    "source_file": "mathspeed test/superseded-by-recapture/Screenshot 2026-10-02 at 11.39.59 AM.png",
+    "source_file": "mathspeed test/actual-practice-tests/ISEE Lower #4/Screenshot 2026-10-09 at 8.55.21 PM.png",
     "type": "question",
     "question_number": 14,
     "question_text": "A teacher drew several shapes on the board. The table shows the fraction of each type of shape drawn on the board.\n\nWhich correctly compares two of these fractions?",
@@ -7107,13 +6637,10 @@
       "C": "5.1%",
       "D": "91.6%"
     },
-    "recapture_source_images": [
-      "mathspeed test/actual-practice-tests/ISEE Lower #4/Screenshot 2026-10-09 at 8.55.21 PM.png"
-    ],
     "recapture_nav_color_read": "correct"
   },
   {
-    "source_file": "mathspeed test/superseded-by-recapture/Screenshot 2026-10-02 at 11.40.03 AM.png",
+    "source_file": "mathspeed test/actual-practice-tests/ISEE Lower #4/Screenshot 2026-10-09 at 8.55.22 PM.png",
     "type": "question",
     "question_number": 15,
     "question_text": "Which whole number is divisible by 6 without a remainder?",
@@ -7150,13 +6677,10 @@
       "C": "88.3%",
       "D": "<5.0%"
     },
-    "recapture_source_images": [
-      "mathspeed test/actual-practice-tests/ISEE Lower #4/Screenshot 2026-10-09 at 8.55.22 PM.png"
-    ],
     "recapture_nav_color_read": "correct"
   },
   {
-    "source_file": "mathspeed test/superseded-by-recapture/Screenshot 2026-10-02 at 11.40.10 AM.png",
+    "source_file": "mathspeed test/actual-practice-tests/ISEE Lower #4/Screenshot 2026-10-09 at 8.55.24 PM.png",
     "type": "question",
     "question_number": 16,
     "question_text": "Marti wrote a number. The list shows the digits in each position of the number.\n1 = thousandths\n2 = tenths\n3 = hundredths\nWhich could be the correct order of these numbers to the right of the decimal place?",
@@ -7193,13 +6717,10 @@
       "C": "<5.0%",
       "D": "92.4%"
     },
-    "recapture_source_images": [
-      "mathspeed test/actual-practice-tests/ISEE Lower #4/Screenshot 2026-10-09 at 8.55.24 PM.png"
-    ],
     "recapture_nav_color_read": "correct"
   },
   {
-    "source_file": "mathspeed test/superseded-by-recapture/Screenshot 2026-10-02 at 11.40.16 AM.png",
+    "source_file": "mathspeed test/actual-practice-tests/ISEE Lower #4/Screenshot 2026-10-09 at 8.55.26 PM.png",
     "type": "question",
     "question_number": 17,
     "question_text": "Which figure appears to have exactly four triangular faces?",
@@ -7236,13 +6757,10 @@
       "C": "<5.0%",
       "D": "10.8%"
     },
-    "recapture_source_images": [
-      "mathspeed test/actual-practice-tests/ISEE Lower #4/Screenshot 2026-10-09 at 8.55.26 PM.png"
-    ],
     "recapture_nav_color_read": "correct"
   },
   {
-    "source_file": "mathspeed test/superseded-by-recapture/Screenshot 2026-10-02 at 11.40.21 AM.png",
+    "source_file": "mathspeed test/actual-practice-tests/ISEE Lower #4/Screenshot 2026-10-09 at 8.55.28 PM.png",
     "type": "question",
     "question_number": 18,
     "question_text": "○, △, and □ all represent different numbers.\nIf ○ − △ = ○ and □ × ○ = □, then what is the value of □ × ○?\n(Note: a fourth parallelogram-like symbol also appears as the unknown being solved for in the choices.)",
@@ -7279,13 +6797,10 @@
       "C": "6.1%",
       "D": "<5.0%"
     },
-    "recapture_source_images": [
-      "mathspeed test/actual-practice-tests/ISEE Lower #4/Screenshot 2026-10-09 at 8.55.28 PM.png"
-    ],
     "recapture_nav_color_read": "correct"
   },
   {
-    "source_file": "mathspeed test/superseded-by-recapture/Screenshot 2026-10-02 at 11.40.25 AM.png",
+    "source_file": "mathspeed test/actual-practice-tests/ISEE Lower #4/Screenshot 2026-10-09 at 8.55.29 PM.png",
     "type": "question",
     "question_number": 19,
     "question_text": "Mr. Richards is sorting numbers. He puts the numbers 5, 11, and 18 in a group together. Which is another number that belongs in Mr. Richards' group?",
@@ -7322,13 +6837,10 @@
       "C": "5.7%",
       "D": "<5.0%"
     },
-    "recapture_source_images": [
-      "mathspeed test/actual-practice-tests/ISEE Lower #4/Screenshot 2026-10-09 at 8.55.29 PM.png"
-    ],
     "recapture_nav_color_read": "correct"
   },
   {
-    "source_file": "mathspeed test/superseded-by-recapture/Screenshot 2026-10-02 at 11.40.30 AM.png",
+    "source_file": "mathspeed test/actual-practice-tests/ISEE Lower #4/Screenshot 2026-10-09 at 8.55.31 PM.png",
     "type": "question",
     "question_number": 20,
     "question_text": "Nev will change the shape of his garden from a square to a rectangle. The width of the square is doubled, and the length is halved.\n\nWhat amount will Nev increase the width of his garden?",
@@ -7365,13 +6877,10 @@
       "C": "7.5%",
       "D": "8.3%"
     },
-    "recapture_source_images": [
-      "mathspeed test/actual-practice-tests/ISEE Lower #4/Screenshot 2026-10-09 at 8.55.31 PM.png"
-    ],
     "recapture_nav_color_read": "correct"
   },
   {
-    "source_file": "mathspeed test/superseded-by-recapture/Screenshot 2026-10-02 at 11.40.35 AM.png",
+    "source_file": "mathspeed test/actual-practice-tests/ISEE Lower #4/Screenshot 2026-10-09 at 8.55.33 PM.png",
     "type": "question",
     "question_number": 21,
     "question_text": "A three-dimensional solid is made using cubes.\n\nWhich figure shows the top view of the solid?",
@@ -7408,9 +6917,6 @@
       "C": "<5.0%",
       "D": "20.3%"
     },
-    "recapture_source_images": [
-      "mathspeed test/actual-practice-tests/ISEE Lower #4/Screenshot 2026-10-09 at 8.55.33 PM.png"
-    ],
     "recapture_nav_color_read": "correct"
   },
   {
@@ -7436,7 +6942,7 @@
     "pacing_affected": false
   },
   {
-    "source_file": "mathspeed test/superseded-by-recapture/Screenshot 2026-10-02 at 11.40.43 AM.png",
+    "source_file": "mathspeed test/actual-practice-tests/ISEE Lower #4/Screenshot 2026-10-09 at 8.55.34 PM.png",
     "type": "question",
     "question_number": 22,
     "question_text": "Mrs. Christensen has 6 first graders and 12 second graders in her class. She bought a total of 6 pizzas that were the same size. She divided 3 pizzas equally among the first graders and divided 3 pizzas equally among the second graders. Which statement is true about the amount of pizza the students received?",
@@ -7474,13 +6980,12 @@
       "D": "10.4%"
     },
     "recapture_source_images": [
-      "mathspeed test/actual-practice-tests/ISEE Lower #4/Screenshot 2026-10-09 at 8.55.34 PM.png",
       "mathspeed test/actual-practice-tests/ISEE Lower #4/Screenshot 2026-10-09 at 8.55.43 PM.png"
     ],
     "recapture_nav_color_read": "correct"
   },
   {
-    "source_file": "mathspeed test/superseded-by-recapture/Screenshot 2026-10-02 at 11.40.48 AM.png",
+    "source_file": "mathspeed test/actual-practice-tests/ISEE Lower #4/Screenshot 2026-10-09 at 8.55.44 PM.png",
     "type": "question",
     "question_number": 23,
     "question_text": "A star is worth 40 circles.\nA circle is worth 5 triangles.\nHow many triangles equal one star?",
@@ -7517,13 +7022,10 @@
       "C": "74.1%",
       "D": "<5.0%"
     },
-    "recapture_source_images": [
-      "mathspeed test/actual-practice-tests/ISEE Lower #4/Screenshot 2026-10-09 at 8.55.44 PM.png"
-    ],
     "recapture_nav_color_read": "correct"
   },
   {
-    "source_file": "mathspeed test/superseded-by-recapture/Screenshot 2026-10-02 at 11.40.52 AM.png",
+    "source_file": "mathspeed test/actual-practice-tests/ISEE Lower #4/Screenshot 2026-10-09 at 8.55.46 PM.png",
     "type": "question",
     "question_number": 24,
     "question_text": "Each letter represents a different digit from 1 through 9.\nAA\n+ BB\nCDE\nWhat digit does C represent?",
@@ -7562,15 +7064,12 @@
       "C": "10.0%",
       "D": "<5.0%"
     },
-    "recapture_source_images": [
-      "mathspeed test/actual-practice-tests/ISEE Lower #4/Screenshot 2026-10-09 at 8.55.46 PM.png"
-    ],
     "recapture_nav_color_read": "wrong",
     "her_selected_letter": "B",
     "her_selected_percentage": "21.0%"
   },
   {
-    "source_file": "mathspeed test/superseded-by-recapture/Screenshot 2026-10-02 at 11.40.57 AM.png",
+    "source_file": "mathspeed test/actual-practice-tests/ISEE Lower #4/Screenshot 2026-10-09 at 8.55.48 PM.png",
     "type": "question",
     "question_number": 25,
     "question_text": "Margot has 4 rolls of stretch bandage. Each roll has 63 inches of stretch bandage. Margot uses 42 inches of stretch bandage for an injury.\n\nWhich diagram shows a way to find n, the number of inches of stretch bandage Margot has left?",
@@ -7607,16 +7106,13 @@
       "C": "70.9%",
       "D": "<5.0%"
     },
-    "recapture_source_images": [
-      "mathspeed test/actual-practice-tests/ISEE Lower #4/Screenshot 2026-10-09 at 8.55.48 PM.png"
-    ],
     "integrity_correction_2026-10-10": "Original record said is_wrong=False. Personally verified against the recapture screenshot (Screenshot 2026-10-09 at 8.55.48 PM.png): she picked A (pink, 21.2%), correct is C (green, 70.9%). Corrected to is_wrong=True.",
     "recapture_nav_color_read": "wrong",
     "her_selected_letter": "A",
     "her_selected_percentage": "21.2%"
   },
   {
-    "source_file": "mathspeed test/superseded-by-recapture/Screenshot 2026-10-02 at 11.41.02 AM.png",
+    "source_file": "mathspeed test/actual-practice-tests/ISEE Lower #4/Screenshot 2026-10-09 at 8.55.50 PM.png",
     "type": "question",
     "question_number": 26,
     "question_text": "Amari made a rectangular flag that has a length of 35 inches and a width of 45 inches. Ava made a rectangular flag with the same perimeter as Amari's flag but has an area of 1,500 inches^2. Which length and width could be the measurements of Ava's flag?",
@@ -7653,13 +7149,10 @@
       "C": "17.4%",
       "D": "70.1%"
     },
-    "recapture_source_images": [
-      "mathspeed test/actual-practice-tests/ISEE Lower #4/Screenshot 2026-10-09 at 8.55.50 PM.png"
-    ],
     "recapture_nav_color_read": "correct"
   },
   {
-    "source_file": "mathspeed test/superseded-by-recapture/Screenshot 2026-10-02 at 11.41.06 AM.png",
+    "source_file": "mathspeed test/actual-practice-tests/ISEE Lower #4/Screenshot 2026-10-09 at 8.55.52 PM.png",
     "type": "question",
     "question_number": 27,
     "question_text": "Two baskets of the same size hold apples.\nThe first basket is n/8 full.\nThe second basket is 3/8 full.\nThe apples from these baskets will be combined by pouring the apples from the first basket into the second basket.\nWhich statement best describes the amount of apples once the baskets are combined?",
@@ -7696,13 +7189,10 @@
       "C": "8.8%",
       "D": "8.1%"
     },
-    "recapture_source_images": [
-      "mathspeed test/actual-practice-tests/ISEE Lower #4/Screenshot 2026-10-09 at 8.55.52 PM.png"
-    ],
     "recapture_nav_color_read": "correct"
   },
   {
-    "source_file": "mathspeed test/superseded-by-recapture/Screenshot 2026-10-02 at 11.41.10 AM.png",
+    "source_file": "mathspeed test/actual-practice-tests/ISEE Lower #4/Screenshot 2026-10-09 at 8.55.53 PM.png",
     "type": "question",
     "question_number": 28,
     "question_text": "The figures shown are not drawn to scale.\n\nHow many of the triangles shown can fit in this rectangle?",
@@ -7739,13 +7229,10 @@
       "C": "7.4%",
       "D": "65.1%"
     },
-    "recapture_source_images": [
-      "mathspeed test/actual-practice-tests/ISEE Lower #4/Screenshot 2026-10-09 at 8.55.53 PM.png"
-    ],
     "recapture_nav_color_read": "correct"
   },
   {
-    "source_file": "mathspeed test/superseded-by-recapture/Screenshot 2026-10-02 at 11.41.15 AM.png",
+    "source_file": "mathspeed test/actual-practice-tests/ISEE Lower #4/Screenshot 2026-10-09 at 8.55.55 PM.png",
     "type": "question",
     "question_number": 29,
     "question_text": "There are eight different colors of toy cars in a bag: 8 red, 7 blue, 4 green, 6 yellow, 5 white, 5 black, 10 pink, and 5 purple. If Audrey randomly selects a colored toy car without looking, which color has a 1 out of 5 chance of being selected?",
@@ -7782,13 +7269,10 @@
       "C": "19.4%",
       "D": "6.4%"
     },
-    "recapture_source_images": [
-      "mathspeed test/actual-practice-tests/ISEE Lower #4/Screenshot 2026-10-09 at 8.55.55 PM.png"
-    ],
     "recapture_nav_color_read": "correct"
   },
   {
-    "source_file": "mathspeed test/superseded-by-recapture/Screenshot 2026-10-02 at 11.41.20 AM.png",
+    "source_file": "mathspeed test/actual-practice-tests/ISEE Lower #4/Screenshot 2026-10-09 at 8.55.57 PM.png",
     "type": "question",
     "question_number": 30,
     "question_text": "These figures are in Pattern A: [square with 3 dots, triangle with 2 dots, pentagon with 4 dots]\nThese figures are NOT in Pattern A: [right triangle with 5 dots, heptagon with 6 dots, diamond with 5 dots]\nWhich figure could be in Pattern A?",
@@ -7825,13 +7309,10 @@
       "C": "7.8%",
       "D": "12.4%"
     },
-    "recapture_source_images": [
-      "mathspeed test/actual-practice-tests/ISEE Lower #4/Screenshot 2026-10-09 at 8.55.57 PM.png"
-    ],
     "recapture_nav_color_read": "correct"
   },
   {
-    "source_file": "mathspeed test/superseded-by-recapture/Screenshot 2026-10-02 at 11.41.25 AM.png",
+    "source_file": "mathspeed test/actual-practice-tests/ISEE Lower #4/Screenshot 2026-10-09 at 8.55.58 PM.png",
     "type": "question",
     "question_number": 31,
     "question_text": "The figure is not drawn to scale.\n\nWhat is the area of the figure?\n(Area of a triangle = (base × height) ÷ 2)",
@@ -7868,13 +7349,10 @@
       "C": "65.6%",
       "D": "13.0%"
     },
-    "recapture_source_images": [
-      "mathspeed test/actual-practice-tests/ISEE Lower #4/Screenshot 2026-10-09 at 8.55.58 PM.png"
-    ],
     "recapture_nav_color_read": "correct"
   },
   {
-    "source_file": "mathspeed test/superseded-by-recapture/Screenshot 2026-10-02 at 11.41.30 AM.png",
+    "source_file": "mathspeed test/actual-practice-tests/ISEE Lower #4/Screenshot 2026-10-09 at 8.56.00 PM.png",
     "type": "question",
     "question_number": 32,
     "question_text": "A factory makes 400 stoves every day. The factory makes 100 more microwaves each day than stoves. Which equation can be used to find x, the total number of stoves and microwaves the factory makes in one day?",
@@ -7911,13 +7389,10 @@
       "C": "<5.0%",
       "D": "<5.0%"
     },
-    "recapture_source_images": [
-      "mathspeed test/actual-practice-tests/ISEE Lower #4/Screenshot 2026-10-09 at 8.56.00 PM.png"
-    ],
     "recapture_nav_color_read": "correct"
   },
   {
-    "source_file": "mathspeed test/superseded-by-recapture/Screenshot 2026-10-02 at 11.41.34 AM.png",
+    "source_file": "mathspeed test/actual-practice-tests/ISEE Lower #4/Screenshot 2026-10-09 at 8.56.01 PM.png",
     "type": "question",
     "question_number": 33,
     "question_text": "Tommy plans to buy enough pies so that each family member at the family gathering gets 2 slices. Each pie has 4 slices. How can Tommy find out how many pies to buy for the family gathering?",
@@ -7954,13 +7429,10 @@
       "C": "10.1%",
       "D": "6.5%"
     },
-    "recapture_source_images": [
-      "mathspeed test/actual-practice-tests/ISEE Lower #4/Screenshot 2026-10-09 at 8.56.01 PM.png"
-    ],
     "recapture_nav_color_read": "correct"
   },
   {
-    "source_file": "mathspeed test/superseded-by-recapture/Screenshot 2026-10-02 at 11.41.39 AM.png",
+    "source_file": "mathspeed test/actual-practice-tests/ISEE Lower #4/Screenshot 2026-10-09 at 8.56.03 PM.png",
     "type": "question",
     "question_number": 34,
     "question_text": "Use the number line to answer the question. The hash marks are evenly spaced.\n\nWhat is the mean (average) of A and B?",
@@ -7997,13 +7469,10 @@
       "C": "13.8%",
       "D": "7.2%"
     },
-    "recapture_source_images": [
-      "mathspeed test/actual-practice-tests/ISEE Lower #4/Screenshot 2026-10-09 at 8.56.03 PM.png"
-    ],
     "recapture_nav_color_read": "correct"
   },
   {
-    "source_file": "mathspeed test/superseded-by-recapture/Screenshot 2026-10-02 at 11.41.44 AM.png",
+    "source_file": "mathspeed test/actual-practice-tests/ISEE Lower #4/Screenshot 2026-10-09 at 8.56.05 PM.png",
     "type": "question",
     "question_number": 35,
     "question_text": "Jeremiah had □ pencils and then he gave ○ to Nathaniel. Now, Nathaniel has △ times as many pencils as Jeremiah had. Which expression represents the number of pencils Nathaniel had to begin with?",
@@ -8040,15 +7509,12 @@
       "C": "17.7%",
       "D": "47.4%"
     },
-    "recapture_source_images": [
-      "mathspeed test/actual-practice-tests/ISEE Lower #4/Screenshot 2026-10-09 at 8.56.05 PM.png"
-    ],
     "recapture_nav_color_read": "wrong",
     "her_selected_letter": "B",
     "her_selected_percentage": "24.9%"
   },
   {
-    "source_file": "mathspeed test/superseded-by-recapture/Screenshot 2026-10-02 at 11.41.49 AM.png",
+    "source_file": "mathspeed test/actual-practice-tests/ISEE Lower #4/Screenshot 2026-10-09 at 8.56.06 PM.png",
     "type": "question",
     "question_number": 36,
     "question_text": "Two cubes are shown. Cube A has sides with length 2 millimeters. Cube B is 5 times as wide as Cube A.\n\nHow many Cube A's can fit inside Cube B?",
@@ -8085,15 +7551,12 @@
       "C": "48.2%",
       "D": "5.4%"
     },
-    "recapture_source_images": [
-      "mathspeed test/actual-practice-tests/ISEE Lower #4/Screenshot 2026-10-09 at 8.56.06 PM.png"
-    ],
     "recapture_nav_color_read": "wrong",
     "her_selected_letter": "D",
     "her_selected_percentage": "5.4%"
   },
   {
-    "source_file": "mathspeed test/superseded-by-recapture/Screenshot 2026-10-02 at 11.41.54 AM.png",
+    "source_file": "mathspeed test/actual-practice-tests/ISEE Lower #4/Screenshot 2026-10-09 at 8.56.08 PM.png",
     "type": "question",
     "question_number": 37,
     "question_text": "The shaded area on the grid represents the part of a rectangular floor that has tile already installed. Each small square on the floor has the same dimensions.\n\nWhat percentage of the floor has tile already installed?",
@@ -8130,13 +7593,10 @@
       "C": "11.1%",
       "D": "47.3%"
     },
-    "recapture_source_images": [
-      "mathspeed test/actual-practice-tests/ISEE Lower #4/Screenshot 2026-10-09 at 8.56.08 PM.png"
-    ],
     "recapture_nav_color_read": "correct"
   },
   {
-    "source_file": "mathspeed test/superseded-by-recapture/Screenshot 2026-10-02 at 11.41.59 AM.png",
+    "source_file": "mathspeed test/actual-practice-tests/ISEE Lower #4/Screenshot 2026-10-09 at 8.56.10 PM.png",
     "type": "question",
     "question_number": 38,
     "question_text": "A salary is increased by 20% followed by a 20% decrease. What is the percent increase or percent decrease of the salary?",
@@ -8173,9 +7633,6 @@
       "C": "22.9%",
       "D": "11.6%"
     },
-    "recapture_source_images": [
-      "mathspeed test/actual-practice-tests/ISEE Lower #4/Screenshot 2026-10-09 at 8.56.10 PM.png"
-    ],
     "recapture_nav_color_read": "wrong",
     "her_selected_letter": "C",
     "her_selected_percentage": "22.9%"
