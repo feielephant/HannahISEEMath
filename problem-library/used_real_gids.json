@@ -334,6 +334,12 @@
     "global_id": 651,
     "topic": "Key-word NOT in equivalence questions",
     "note": "done item, fresh numbers (3/5 instead of 1/4), real trap mechanism preserved"
+   },
+   {
+    "n": 4,
+    "global_id": 589,
+    "topic": "Remainder when Divided by a given Number",
+    "note": "done item, fresh numbers, reverse-division variant"
    }
   ]
  },

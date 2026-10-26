@@ -202,10 +202,10 @@ add(3, "Hard", "Converting to a Decimal",
     "Tier: Hard &middot; Topic: Converting to a Decimal &middot; Diagram: no &middot; Wrong so far: 6/34 &middot; Times practised before: 3 (last: set 6)")
 
 add(4, "Easy", "Remainder when Divided by a given Number",
-    "A florist has 53 roses to arrange into bouquets of 6 roses each. After making as many full bouquets as possible, how many roses are left over?",
-    {"A": "5", "B": "6", "C": "3", "D": "2"}, "A",
-    "<b>Answer: A.</b> 53 &divide; 6 = 8 full bouquets (48 roses) with 5 roses left over.",
-    None, "Tier: Easy &middot; Topic: Remainder when Divided by a given Number &middot; Diagram: no &middot; Wrong so far: 3/6 &middot; Times practised before: 4 (last: set 7) &middot; Fixed 2026-10-26: no real example of this topic (in either library) uses a diagram -- dropped the invented grouping graphic.")
+    "Mia bought a box of ribbons. She split them evenly among 7 friends and had 4 ribbons left over for herself. If each friend got 8 ribbons, how many ribbons were in the box?",
+    {"A": "60", "B": "56", "C": "64", "D": "52"}, "A",
+    "<b>Answer: A.</b> 7 friends &times; 8 ribbons each = 56, plus the 4 leftover for Mia = 60 ribbons total.",
+    None, "Tier: Easy &middot; Topic: Remainder when Divided by a given Number &middot; Diagram: no &middot; Wrong so far: 3/6 &middot; Times practised before: 4 (last: set 7) &middot; Real item (global_id 589, DONE), fresh numbers used. Found 2026-10-26: a broader search (not just the narrow topic-tag match that returned zero earlier) turned up this real 'reverse division word problem with a remainder' item -- a harder, more authentic variant than a straightforward forward remainder computation, since it requires reconstructing the total from the per-group amount and the leftover rather than just dividing and reading off the remainder.")
 
 add(5, "Medium", "Numerical Patterns",
     "A number pattern begins 2, 5, 10, 17, 26, .... What is the 7th number in the pattern?",
