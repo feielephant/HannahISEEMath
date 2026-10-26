@@ -231,11 +231,11 @@ add(7, "Medium", "Predicting the Next Shapes given Progressive Pattern",
     None, "Tier: Medium &middot; Topic: Predicting the Next Shapes given Progressive Pattern &middot; Diagram: yes &middot; Wrong so far: 1/5 &middot; Times practised before: 2 (last: set 5)",
     diagram=plus_pattern())
 
-add(8, "Medium", "Identifying Number Properties",
-    "Which expression is equivalent to 12 &times; (15 + 8)?",
-    {"A": "(12 &times; 15) + 8", "B": "(15 &times; 8) + 12", "C": "(12 + 15) + (12 + 8)", "D": "(12 &times; 15) + (12 &times; 8)"}, "D",
-    "<b>Answer: D.</b> Distribute the 12 into BOTH terms: 12 &times; (15 + 8) = (12&times;15) + (12&times;8). (A distributes into only the first term and leaves the second term bare -- this is her exact real-test error, ISEE Lower #2 Q26: 'Which expression is equivalent to 16 &times; (13 + 19)?', she picked (16&times;13)+19 instead of (16&times;13)+(16&times;19).)",
-    None, "Tier: Medium &middot; Topic: Identifying Number Properties &middot; Diagram: no &middot; Wrong so far: 1/6 (tracker figure; a fuller history check found 4 generated-set instances all right plus a real-test miss on ISEE Lower #2, not yet reconciled into this count) &middot; Times practised before: 2 (last: set 6) &middot; Swapped 2026-10-26 to the harder real-test format (identify the fully-expanded equivalent expression, no fill-in-blank scaffold) after a full history check found she's 4/4 on the EASIER fill-in-blank version across 4 practice sets but has never been retested on this exact harder format since missing it for real on 9/13 -- the two formats test a meaningfully different level of independence (supplying one missing piece vs. remembering to distribute into both terms unprompted).")
+add(8, "Medium", "Order of Operations and Equivalence",
+    "Which expression is equal to 5(2 + 4) + 10(4 &minus; 2)?",
+    {"A": "5(6 + 20)", "B": "5(6 + 10)(2)", "C": "5(6 + 10) &minus; 2", "D": "5(6) + 10(2)"}, "D",
+    "<b>Answer: D.</b> 5(2+4) simplifies to 5(6), and 10(4&minus;2) simplifies to 10(2) -- so 5(2+4)+10(4&minus;2) = 5(6)+10(2) = 30+20 = 50. The other choices change the structure of the expression (combining the two groups or multiplying them together), not just simplifying inside each one.",
+    None, "Tier: Medium &middot; Topic: Order of Operations and Equivalence &middot; Diagram: no &middot; Real official item (MA library, not_done), used verbatim -- visually confirmed clean/unattempted. Swapped 2026-10-26 for 'Identifying Number Properties' at the user's direct request.")
 
 add(9, "Easy", "Finding Area/Perimeter of Rectangle, given Length & Width",
     "The perimeter of the rectangle shown is 78 cm. What is the area of the rectangle?",

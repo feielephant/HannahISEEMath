@@ -354,6 +354,14 @@
     "n": 36,
     "global_id": 1446,
     "topic": "Comparing Adding Subtracting Bar Graph Data Table Values"
+   },
+   {
+    "n": 8,
+    "global_id": null,
+    "exercise_title": "ORDER OF OPERATIONS & EQUIVALENCE #4",
+    "question_text": "Which expression is equal to 5(2 + 4) + 10(4 − 2)?",
+    "topic": "Order of Operations and Equivalence",
+    "note": "global_id is null on this ma_library.json not_done item -- identified by exercise_title + question_text instead."
    }
   ]
  },
