@@ -355,11 +355,12 @@ add(26, "Medium", "Divisibility / number constraints (Serena/Who am I style)",
     "Tier: Medium &middot; Topic: Divisibility / number constraints (Serena/Who am I style) &middot; Diagram: no &middot; Wrong so far: 4/19 &middot; Times practised before: 10 (last: set 6) &middot; Fixed 2026-10-26: real model item (gid130) has no diagram.")
 
 add(27, "Medium", "Comparing & Ordering Fractions & Decimals",
-    "Which statement is true?",
-    {"A": frac(5,8) + " &gt; 0.6", "B": frac(3,4) + " &lt; 0.7", "C": frac(2,5) + " &gt; 0.5", "D": frac(7,10) + " &gt; " + frac(3,4)}, "A",
-    f"<b>Answer: A.</b> {frac(5,8)} = 0.625, which is greater than 0.6 -- true. {frac(3,4)} = 0.75, which is NOT less than 0.7. {frac(2,5)} = 0.4, which is NOT greater than 0.5. {frac(7,10)} = 0.7, which is NOT greater than {frac(3,4)} = 0.75.",
+    "Which list shows the fractions " + frac(1,7) + ", " + frac(2,5) + ", " + frac(3,8) + ", and " + frac(5,9) + " ordered from greatest to least?",
+    {"A": frac(5,9)+", "+frac(2,5)+", "+frac(3,8)+", "+frac(1,7), "B": frac(5,9)+", "+frac(3,8)+", "+frac(1,7)+", "+frac(2,5),
+     "C": frac(1,7)+", "+frac(3,8)+", "+frac(2,5)+", "+frac(5,9), "D": frac(5,9)+", "+frac(3,8)+", "+frac(2,5)+", "+frac(1,7)}, "A",
+    f"<b>Answer: A.</b> Converting to decimals: {frac(5,9)}&asymp;0.556, {frac(2,5)}=0.4, {frac(3,8)}=0.375, {frac(1,7)}&asymp;0.143. Greatest to least: {frac(5,9)}, {frac(2,5)}, {frac(3,8)}, {frac(1,7)}.",
     "decimal-vs-nonnice-fraction / benchmark-0.5-fluency",
-    "Tier: Medium &middot; Topic: Comparing &amp; Ordering Fractions &amp; Decimals &middot; Diagram: no &middot; Wrong so far: 7/18 &middot; Times practised before: 10 (last: set 7)")
+    "Tier: Medium &middot; Topic: Comparing &amp; Ordering Fractions &amp; Decimals &middot; Diagram: no &middot; Wrong so far: 7/18 &middot; Times practised before: 10 (last: set 7) &middot; Real, unused not_done library item (global_id 674), used verbatim. Swapped 2026-10-26 -- the previous version was four independent PAIRWISE comparisons bundled as choices, which doesn't test the confirmed order-three-or-more gap at all (too easy). This genuinely orders 4 fractions at once.")
 
 add(28, "Hard", "Equivalent Fractions Decimals and Percents",
     "Which statement is true?",

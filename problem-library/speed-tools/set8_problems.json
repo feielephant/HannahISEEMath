@@ -471,17 +471,17 @@
   "n": 27,
   "tier": "Medium",
   "topic": "Comparing & Ordering Fractions & Decimals",
-  "q": "Which statement is true?",
+  "q": "Which list shows the fractions <span class=\"frac\"><span class=\"n\">1</span><span class=\"d\">7</span></span>, <span class=\"frac\"><span class=\"n\">2</span><span class=\"d\">5</span></span>, <span class=\"frac\"><span class=\"n\">3</span><span class=\"d\">8</span></span>, and <span class=\"frac\"><span class=\"n\">5</span><span class=\"d\">9</span></span> ordered from greatest to least?",
   "choices": {
-   "A": "<span class=\"frac\"><span class=\"n\">5</span><span class=\"d\">8</span></span> &gt; 0.6",
-   "B": "<span class=\"frac\"><span class=\"n\">3</span><span class=\"d\">4</span></span> &lt; 0.7",
-   "C": "<span class=\"frac\"><span class=\"n\">2</span><span class=\"d\">5</span></span> &gt; 0.5",
-   "D": "<span class=\"frac\"><span class=\"n\">7</span><span class=\"d\">10</span></span> &gt; <span class=\"frac\"><span class=\"n\">3</span><span class=\"d\">4</span></span>"
+   "A": "<span class=\"frac\"><span class=\"n\">5</span><span class=\"d\">9</span></span>, <span class=\"frac\"><span class=\"n\">2</span><span class=\"d\">5</span></span>, <span class=\"frac\"><span class=\"n\">3</span><span class=\"d\">8</span></span>, <span class=\"frac\"><span class=\"n\">1</span><span class=\"d\">7</span></span>",
+   "B": "<span class=\"frac\"><span class=\"n\">5</span><span class=\"d\">9</span></span>, <span class=\"frac\"><span class=\"n\">3</span><span class=\"d\">8</span></span>, <span class=\"frac\"><span class=\"n\">1</span><span class=\"d\">7</span></span>, <span class=\"frac\"><span class=\"n\">2</span><span class=\"d\">5</span></span>",
+   "C": "<span class=\"frac\"><span class=\"n\">1</span><span class=\"d\">7</span></span>, <span class=\"frac\"><span class=\"n\">3</span><span class=\"d\">8</span></span>, <span class=\"frac\"><span class=\"n\">2</span><span class=\"d\">5</span></span>, <span class=\"frac\"><span class=\"n\">5</span><span class=\"d\">9</span></span>",
+   "D": "<span class=\"frac\"><span class=\"n\">5</span><span class=\"d\">9</span></span>, <span class=\"frac\"><span class=\"n\">3</span><span class=\"d\">8</span></span>, <span class=\"frac\"><span class=\"n\">2</span><span class=\"d\">5</span></span>, <span class=\"frac\"><span class=\"n\">1</span><span class=\"d\">7</span></span>"
   },
   "correct": "A",
-  "key": "<b>Answer: A.</b> <span class=\"frac\"><span class=\"n\">5</span><span class=\"d\">8</span></span> = 0.625, which is greater than 0.6 -- true. <span class=\"frac\"><span class=\"n\">3</span><span class=\"d\">4</span></span> = 0.75, which is NOT less than 0.7. <span class=\"frac\"><span class=\"n\">2</span><span class=\"d\">5</span></span> = 0.4, which is NOT greater than 0.5. <span class=\"frac\"><span class=\"n\">7</span><span class=\"d\">10</span></span> = 0.7, which is NOT greater than <span class=\"frac\"><span class=\"n\">3</span><span class=\"d\">4</span></span> = 0.75.",
+  "key": "<b>Answer: A.</b> Converting to decimals: <span class=\"frac\"><span class=\"n\">5</span><span class=\"d\">9</span></span>&asymp;0.556, <span class=\"frac\"><span class=\"n\">2</span><span class=\"d\">5</span></span>=0.4, <span class=\"frac\"><span class=\"n\">3</span><span class=\"d\">8</span></span>=0.375, <span class=\"frac\"><span class=\"n\">1</span><span class=\"d\">7</span></span>&asymp;0.143. Greatest to least: <span class=\"frac\"><span class=\"n\">5</span><span class=\"d\">9</span></span>, <span class=\"frac\"><span class=\"n\">2</span><span class=\"d\">5</span></span>, <span class=\"frac\"><span class=\"n\">3</span><span class=\"d\">8</span></span>, <span class=\"frac\"><span class=\"n\">1</span><span class=\"d\">7</span></span>.",
   "habit_note": "decimal-vs-nonnice-fraction / benchmark-0.5-fluency",
-  "ref": "Tier: Medium &middot; Topic: Comparing &amp; Ordering Fractions &amp; Decimals &middot; Diagram: no &middot; Wrong so far: 7/18 &middot; Times practised before: 10 (last: set 7)",
+  "ref": "Tier: Medium &middot; Topic: Comparing &amp; Ordering Fractions &amp; Decimals &middot; Diagram: no &middot; Wrong so far: 7/18 &middot; Times practised before: 10 (last: set 7) &middot; Real, unused not_done library item (global_id 674), used verbatim. Swapped 2026-10-26 -- the previous version was four independent PAIRWISE comparisons bundled as choices, which doesn't test the confirmed order-three-or-more gap at all (too easy). This genuinely orders 4 fractions at once.",
   "diagram": null,
   "needs_diagram": false
  },
