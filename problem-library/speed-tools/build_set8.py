@@ -176,12 +176,11 @@ add(1, "Easy", "Tools for Measuring",
     None, "Tier: Easy &middot; Topic: Tools for Measuring &middot; Diagram: no &middot; Never tracked before (0 graded instances) -- coverage-floor pick, no data yet to judge.")
 
 add(2, "Medium", "Estimating Multiplication & Division",
-    "A charity raised money to split evenly among its volunteers, as shown. Which is the best estimate of how much each volunteer receives?",
+    "A charity raised $7,850 to split evenly among 39 volunteers. Which is the best estimate of how much each volunteer receives?",
     {"A": "$200", "B": "$150", "C": "$175", "D": "$100"}, "A",
     "<b>Answer: A.</b> Round $7,850 to $8,000 and 39 volunteers to 40: $8,000 &divide; 40 = $200. (Exact value is about $201.28, so $200 is the best estimate -- don't compute the exact division when an estimate is asked for.)",
     "compute-both-sides / estimation-division-number-sense",
-    "Tier: Medium &middot; Topic: Estimating Multiplication &amp; Division &middot; Diagram: yes &middot; Wrong so far: 2/13 &middot; Times practised before: 8 (last: set 6)",
-    diagram=table(["Total raised", "Number of volunteers"], [["$7,850", "39"]]))
+    "Tier: Medium &middot; Topic: Estimating Multiplication &amp; Division &middot; Diagram: no &middot; Wrong so far: 2/13 &middot; Times practised before: 8 (last: set 6) &middot; Fixed 2026-10-26: the real model items (gid21/27) are plain text, no table/image -- dropped the invented table and folded the numbers into the question.")
 
 add(3, "Hard", "Converting to a Decimal",
     "Which decimal is equivalent to " + frac(11,16) + "?",
@@ -194,8 +193,7 @@ add(4, "Easy", "Remainder when Divided by a given Number",
     "A florist has 53 roses to arrange into bouquets of 6 roses each. After making as many full bouquets as possible, how many roses are left over?",
     {"A": "5", "B": "6", "C": "3", "D": "2"}, "A",
     "<b>Answer: A.</b> 53 &divide; 6 = 8 full bouquets (48 roses) with 5 roses left over.",
-    None, "Tier: Easy &middot; Topic: Remainder when Divided by a given Number &middot; Diagram: yes &middot; Wrong so far: 3/6 &middot; Times practised before: 4 (last: set 7)",
-    diagram=grouping_diagram(53, 6))
+    None, "Tier: Easy &middot; Topic: Remainder when Divided by a given Number &middot; Diagram: no &middot; Wrong so far: 3/6 &middot; Times practised before: 4 (last: set 7) &middot; Fixed 2026-10-26: no real example of this topic (in either library) uses a diagram -- dropped the invented grouping graphic.")
 
 add(5, "Medium", "Numerical Patterns",
     "A number pattern begins 2, 5, 10, 17, 26, .... What is the 6th number in the pattern?",
@@ -205,11 +203,14 @@ add(5, "Medium", "Numerical Patterns",
     "Tier: Medium &middot; Topic: Numerical Patterns &middot; Diagram: no &middot; Wrong so far: 4/9 &middot; Times practised before: 6 (last: set 7)")
 
 add(6, "Easy", "English Unit Conversions",
-    "A piece of ribbon is 5 feet long. How many inches long is the ribbon?",
-    {"A": "48", "B": "55", "C": "60", "D": "72"}, "C",
-    "<b>Answer: C.</b> 5 feet &times; 12 inches/foot = 60 inches.",
-    None, "Tier: Easy &middot; Topic: English Unit Conversions &middot; Diagram: yes &middot; Wrong so far: 0/1 &middot; Times practised before: 1 (last: set 4)",
-    diagram=table(["Unit", "Equals"], [["1 foot", "12 inches"]]))
+    "Mia cut three lengths of ribbon. Ribbon 1 measured 2 yards, 2 feet, 4 inches. Ribbon 2 measured 4 yards, 1 inch. Ribbon 3 measured 1 yard, 7 feet, 2 inches. Which statement is true? (1 yard = 3 feet; 1 foot = 12 inches)",
+    {"A": "Ribbon 1 is longer than Ribbon 3.", "B": "Ribbon 3 is longer than Ribbon 2.",
+     "C": "Ribbon 2 is longer than Ribbon 1.", "D": "Ribbon 1 and Ribbon 3 are the same length."}, "C",
+    "<b>Answer: C.</b> Convert each to inches. Ribbon 1: 2 yd = 72 in, + 2 ft (24 in) + 4 in = 100 in. "
+    "Ribbon 2: 4 yd = 144 in, + 1 in = 145 in. Ribbon 3: 7 ft = 84 in = 2 yd 1 ft, so 1 yd + 7 ft = 3 yd 1 ft; "
+    "total = 108 in + 12 in + 2 in = 122 in. So Ribbon 1 = 100 in, Ribbon 3 = 122 in, Ribbon 2 = 145 in. "
+    "Ribbon 2 (145) is longer than Ribbon 1 (100) -- true. The other three statements are all false once everything is converted to the same unit.",
+    None, "Tier: Easy &middot; Topic: English Unit Conversions &middot; Diagram: no &middot; Wrong so far: 0/1 &middot; Times practised before: 1 (last: set 4) &middot; Upgraded 2026-10-26 from a single-step multiply -- a real official item for this exact topic (3-way mixed-unit comparison) was available and unused; too easy to waste one of her only 2 data points on this topic.")
 
 add(7, "Medium", "Predicting the Next Shapes given Progressive Pattern",
     "The figure shows a pattern growing in steps. If the pattern continues, how many small squares will be in Step 4?",
@@ -219,11 +220,10 @@ add(7, "Medium", "Predicting the Next Shapes given Progressive Pattern",
     diagram=plus_pattern())
 
 add(8, "Medium", "Identifying Number Properties",
-    "Priya solves 7 &times; 13 using the expression (7 &times; 10) + (7 &times; ?). What number completes the expression?",
-    {"A": "13", "B": "10", "C": "7", "D": "3"}, "D",
-    "<b>Answer: D.</b> 13 = 10 + 3, so (7&times;10) + (7&times;3) = 70 + 21 = 91 = 7&times;13. This is the distributive property.",
-    None, "Tier: Medium &middot; Topic: Identifying Number Properties &middot; Diagram: yes &middot; Wrong so far: 1/6 &middot; Times practised before: 2 (last: set 6)",
-    diagram=array_split(7, 10, 3))
+    "Priya is solving 7 &times; 13. She breaks it into (7 &times; 10) + ( ? ) to make the multiplication easier. What is the missing part of Priya's expression?",
+    {"A": "3", "B": "10", "C": "(7 + 3)", "D": "(7 &times; 3)"}, "D",
+    "<b>Answer: D.</b> 13 = 10 + 3, so 7 &times; 13 = (7&times;10) + (7&times;3). The missing part must still be multiplied by 7, not left as a bare 3 -- that's the trap in A.",
+    None, "Tier: Medium &middot; Topic: Identifying Number Properties &middot; Diagram: no &middot; Wrong so far: 1/6 &middot; Times practised before: 2 (last: set 6) &middot; Fixed 2026-10-26: matched to the real item's exact text-only format (no diagram) and restored the re-multiply trap (she went 14s/correct on this trap on set 6 -- an earlier draft of this problem had pre-written the ×7 into the blank, which accidentally removed the one trap she's already proven solid on.)")
 
 add(9, "Easy", "Finding Area/Perimeter of Rectangle, given Length & Width",
     "A rectangular garden is 14 feet long and 9 feet wide. What is the area of the garden, in square feet?",
@@ -232,26 +232,24 @@ add(9, "Easy", "Finding Area/Perimeter of Rectangle, given Length & Width",
     None, "Tier: Easy &middot; Topic: Finding Area/Perimeter of Rectangle, given Length &amp; Width &middot; Diagram: no &middot; Wrong so far: 1/10 &middot; Times practised before: 2 (last: set 5)")
 
 add(10, "Hard", "Area and Perimeter of Complex Polygons",
-    "The figure is made of a square and a triangle that share one side. The perimeter of the whole figure (the largest polygon) is 40 centimeters. The perimeter of the square alone is 28 centimeters. What is the perimeter of the triangle alone?",
-    {"A": "19", "B": "33", "C": "26", "D": "12"}, "C",
-    "<b>Answer: C.</b> The square's perimeter is 28, so each side is 7 cm. Three of the square's sides are on the outside of the figure (3 &times; 7 = 21 cm); the shared 4th side is internal and NOT part of the whole figure's perimeter. So the triangle's two outer sides total 40 &minus; 21 = 19 cm. The triangle's own perimeter adds back the shared side: 19 + 7 = 26 cm.",
+    "The figure shown is not drawn to scale. A rectangle is joined to a right triangle along one side; the triangle's height, measured from that shared side, is also labeled. What is the total area of the figure? (Area of a triangle = (base &times; height) &divide; 2)",
+    {"A": "102", "B": "30", "C": "78", "D": "54"}, "C",
+    "<b>Answer: C.</b> Rectangle area = 9 &times; 6 = 54. The triangle's base is the shared 6 cm side, and its height is 8 cm: (6 &times; 8) &divide; 2 = 24. Total area = 54 + 24 = 78. (A forgets to divide the triangle by 2; D only counts the rectangle.)",
     "check-every-condition",
-    "Tier: Hard &middot; Topic: Area and Perimeter of Complex Polygons &middot; Diagram: yes &middot; Wrong so far: 6/15 &middot; Times practised before: 8 (last: set 7)",
-    diagram='<svg viewBox="0 0 220 120" width="220" height="120" role="img"><rect x="20" y="20" width="80" height="80" fill="none" stroke="currentColor" stroke-width="2"/><polygon points="100,20 180,60 100,100" fill="none" stroke="currentColor" stroke-width="2"/><text x="60" y="65" font-size="12" text-anchor="middle" fill="currentColor">square</text><text x="128" y="64" font-size="12" text-anchor="middle" fill="currentColor">triangle</text></svg>')
+    "Tier: Hard &middot; Topic: Area and Perimeter of Complex Polygons &middot; Diagram: yes &middot; Wrong so far: 6/15 &middot; Times practised before: 8 (last: set 7) &middot; Redesigned 2026-10-26: the original draft was a near-exact repeat of set 7 #3 (same square+triangle shared-perimeter scenario, same diagram, only the numbers changed). Switched to a rectangle+triangle AREA scenario (modeled on gid191) so it's a genuinely different composite-figure problem, not a 4th reskin of the same perimeter trap (also used in QR4/QR5).",
+    diagram='<svg viewBox="0 0 200 110" width="200" height="110" role="img"><rect x="20" y="15" width="90" height="60" fill="none" stroke="currentColor" stroke-width="2"/><polygon points="110,15 180,45 110,75" fill="none" stroke="currentColor" stroke-width="2"/><text x="65" y="12" font-size="11" text-anchor="middle" fill="currentColor">9 cm</text><text x="12" y="48" font-size="11" text-anchor="middle" fill="currentColor">6</text><text x="150" y="38" font-size="11" text-anchor="middle" fill="currentColor">h = 8 cm</text></svg>')
 
 add(11, "Medium", "Percent Increase Decrease basic",
     "A gym membership fee is increased by 20%, and then the new fee is decreased by 20%. What is the overall percent change from the original fee?",
     {"A": "No change", "B": "4% decrease", "C": "4% increase", "D": "20% decrease"}, "B",
     "<b>Answer: B.</b> Let the original fee be 100. After a 20% increase: 100 &times; 1.2 = 120. After a 20% decrease: 120 &times; 0.8 = 96. That's a net change of 100 &rarr; 96, a 4% decrease. The two 20% changes do NOT cancel out, because the second 20% is taken from a larger (then smaller) base.",
-    None, "Tier: Medium &middot; Topic: Percent Increase Decrease basic &middot; Diagram: yes &middot; Never tracked before (0 graded instances) &middot; Coverage-floor pick.",
-    diagram=pct_chain(["Start", "+20%", "&minus;20%"]))
+    None, "Tier: Medium &middot; Topic: Percent Increase Decrease basic &middot; Diagram: no &middot; Never tracked before (0 graded instances) &middot; Coverage-floor pick. Fixed 2026-10-26: real model items (gid198/711) are plain text, no diagram.")
 
 add(12, "Easy", "Finding Unit Price",
-    "The table shows two juice-box pack options. What is the unit price of Pack B, in dollars per juice box?",
+    "Pack A has 8 juice boxes for $4.00. Pack B has 12 juice boxes for $5.40. What is the unit price of Pack B, in dollars per juice box?",
     {"A": "$0.40", "B": "$0.45", "C": "$0.50", "D": "$0.54"}, "B",
     "<b>Answer: B.</b> Pack B: $5.40 &divide; 12 boxes = $0.45 per box. (Pack A is $4.00 &divide; 8 = $0.50 per box, so Pack B is actually the better deal, but the question only asks for Pack B's unit price.)",
-    None, "Tier: Easy &middot; Topic: Finding Unit Price &middot; Diagram: yes &middot; Wrong so far: 1/4 &middot; Times practised before: 3 (last: set 4)",
-    diagram=table(["", "Juice boxes", "Price"], [["Pack A", "8", "$4.00"], ["Pack B", "12", "$5.40"]]))
+    None, "Tier: Easy &middot; Topic: Finding Unit Price &middot; Diagram: no &middot; Wrong so far: 1/4 &middot; Times practised before: 3 (last: set 4) &middot; Fixed 2026-10-26: real model item (gid230) is plain text, no table -- folded the pack data into the question.")
 
 add(13, "Medium", "No Remainder when Divided by two given Numbers",
     "If z can be divided by both 4 and 9 without leaving a remainder, then 2z can also be divided by which number without leaving a remainder?",
@@ -270,8 +268,7 @@ add(15, "Medium", "Word Problems with Ratios",
     {"A": "30", "B": "6", "C": "18", "D": "48"}, "C",
     "<b>Answer: C.</b> 5 + 3 = 8 parts total. 48 &divide; 8 = 6 vehicles per part. Trucks = 3 parts &times; 6 = 18. (A is the number of sedans -- re-read which group the question asks for before finalizing.)",
     "ratio-partition-forgotten / exact-thing-asked",
-    "Tier: Medium &middot; Topic: Word Problems with Ratios &middot; Diagram: yes &middot; Wrong so far: 3/7 &middot; Times practised before: 8 (last: set 7)",
-    diagram=bar_model(5, 3))
+    "Tier: Medium &middot; Topic: Word Problems with Ratios &middot; Diagram: no &middot; Wrong so far: 3/7 &middot; Times practised before: 8 (last: set 7) &middot; Fixed 2026-10-26: real model items (gid28/88) are plain text, no diagram.")
 
 add(16, "Easy", "Multiplying and Dividing Whole Numbers",
     "A theater has 342 seats arranged into 9 equal sections. How many seats are in each section?",
@@ -289,16 +286,14 @@ add(18, "Easy", "Adding and Subtracting Integers",
     "At 6 a.m., the temperature was &minus;4&deg;F. By noon, it had risen 15&deg;F. What was the temperature at noon?",
     {"A": "19", "B": "11", "C": "&minus;11", "D": "&minus;19"}, "B",
     "<b>Answer: B.</b> &minus;4 + 15 = 11&deg;F.",
-    None, "Tier: Easy &middot; Topic: Adding and Subtracting Integers &middot; Diagram: yes &middot; Wrong so far: 0/9 &middot; Times practised before: 1 (last: set 6)",
-    diagram=thermometer("+15&deg;"))
+    None, "Tier: Easy &middot; Topic: Adding and Subtracting Integers &middot; Diagram: no &middot; Wrong so far: 0/9 &middot; Times practised before: 1 (last: set 6) &middot; Fixed 2026-10-26: no real example anywhere used a diagram for this topic; dropped the invented thermometer graphic.")
 
 add(19, "Medium", "Estimation (sums, products, money, ranges)",
-    "Nina tracked her weekly grocery spending for four weeks, as shown. Which is the best estimate of her total spending?",
+    "Nina tracked her weekly grocery spending for four weeks: $62.80, $47.15, $71.40, and $55.90. Which is the best estimate of her total spending?",
     {"A": "between $190 and $210", "B": "between $215 and $230", "C": "between $260 and $280", "D": "between $230 and $250"}, "D",
     "<b>Answer: D.</b> $62.80 + $47.15 + $71.40 + $55.90 = $237.25, which falls between $230 and $250. Don't compute the exact total when an estimate (rounded range) is asked for -- rounding each amount to the nearest $10 first (63+47+71+56 &asymp; 237) gets there faster.",
     "compute-both-sides",
-    "Tier: Medium &middot; Topic: Estimation (sums, products, money, ranges) &middot; Diagram: yes &middot; Wrong so far: 4/14 &middot; Times practised before: 7 (last: set 7) &middot; Note: biggest gap by count on official tests",
-    diagram=table(["Week 1", "Week 2", "Week 3", "Week 4"], [["$62.80", "$47.15", "$71.40", "$55.90"]]))
+    "Tier: Medium &middot; Topic: Estimation (sums, products, money, ranges) &middot; Diagram: no &middot; Wrong so far: 4/14 &middot; Times practised before: 7 (last: set 7) &middot; Note: biggest gap by count on official tests. Fixed 2026-10-26: real model item (gid774) lists the amounts in plain text, no table.")
 
 add(20, "Easy", "Identifying Numbers, Standard Form Word Form",
     "What is the standard form for four hundred sixteen thousand, seventy-two?",
@@ -310,8 +305,7 @@ add(21, "Medium", "Remaining Amount after Reducing by Fractions",
     "Omar had $240 in savings. He spent " + frac(1,3) + " of it on a bike helmet, then spent " + frac(1,4) + " of what remained on a lock. How much money does Omar have left?",
     {"A": "$160", "B": "$40", "C": "$80", "D": "$120"}, "D",
     f"<b>Answer: D.</b> Helmet: {frac(1,3)} of $240 = $80, leaving $160. Lock: {frac(1,4)} of $160 = $40, leaving $160 &minus; $40 = $120.",
-    None, "Tier: Medium &middot; Topic: Remaining Amount after Reducing by Fractions &middot; Diagram: yes &middot; Wrong so far: 3/7 &middot; Times practised before: 6 (last: set 7)",
-    diagram=bar_model(8,16))
+    None, "Tier: Medium &middot; Topic: Remaining Amount after Reducing by Fractions &middot; Diagram: no &middot; Wrong so far: 3/7 &middot; Times practised before: 6 (last: set 7) &middot; Fixed 2026-10-26: real model item (gid849) is explicitly text-only, no figure.")
 
 add(22, "Medium", "Algebra with Geometric Shapes",
     'Two equations are shown.<div style="margin-top:6px;">&#9651; + &#9651; + &#9675; = 19</div><div>&#9651; + &#9675; + &#9675; = 17</div>What is the value of &#9675;?',
@@ -331,24 +325,21 @@ add(24, "Medium", "No Remainder when Divided by a given Number",
     {"A": "60", "B": "45", "C": "32", "D": "50"}, "A",
     "<b>Answer: A.</b> 60 &divide; 4 = 15 and 60 &divide; 5 = 12, both whole numbers. 45 is divisible by 5 but not 4. 32 is divisible by 4 but not 5. 50 is divisible by 5 but not 4. Only 60 satisfies BOTH conditions.",
     "check-every-condition",
-    "Tier: Medium &middot; Topic: No Remainder when Divided by a given Number &middot; Diagram: yes &middot; Wrong so far: 4/11 &middot; Times practised before: 6 (last: set 7)",
-    diagram=venn("multiples of 4", "multiples of 5"))
+    "Tier: Medium &middot; Topic: No Remainder when Divided by a given Number &middot; Diagram: no &middot; Wrong so far: 4/11 &middot; Times practised before: 6 (last: set 7) &middot; Fixed 2026-10-26: real model item (gid58) is plain text, no diagram.")
 
 add(25, "Medium", "Multi-step unit conversion (off-by-10, multi-step)",
-    "4 zips = 6 bons. 1 bon = 5 crons. How many crons equal 10 zips?",
+    '<div>4 zips = 6 bons.</div><div>1 bon = 5 crons.</div>How many crons equal 10 zips?',
     {"A": "60", "B": "75", "C": "90", "D": "50"}, "B",
     "<b>Answer: B.</b> 4 zips = 6 bons, so 1 zip = 1.5 bons. 10 zips = 15 bons. Each bon = 5 crons, so 15 bons = 75 crons.",
     "exact-thing-asked",
-    "Tier: Medium &middot; Topic: Multi-step unit conversion (off-by-10, multi-step) &middot; Diagram: yes &middot; Wrong so far: 5/8 &middot; Times practised before: 11 (last: set 7)",
-    diagram=arrow_chain(["zips", "bons", "crons"]))
+    "Tier: Medium &middot; Topic: Multi-step unit conversion (off-by-10, multi-step) &middot; Diagram: no &middot; Wrong so far: 5/8 &middot; Times practised before: 11 (last: set 7) &middot; Fixed 2026-10-26: real model item (gid861) has no figure -- just the two given equations on their own lines above the question (matches this exact convention now instead of the invented arrow-chain graphic).")
 
 add(26, "Medium", "Divisibility / number constraints (Serena/Who am I style)",
     "Felix picked a whole number greater than 60 but less than 75. The number is even and is divisible by 7. What is Felix's number?",
     {"A": "63", "B": "66", "C": "70", "D": "72"}, "C",
     "<b>Answer: C.</b> Multiples of 7 between 60 and 75: 63 and 70. 63 is odd, so it fails the 'even' condition. 70 is even and divisible by 7 -- it satisfies every condition. (66 and 72 are even and in range, but neither is divisible by 7.)",
     "check-every-condition / use-all-data",
-    "Tier: Medium &middot; Topic: Divisibility / number constraints (Serena/Who am I style) &middot; Diagram: yes &middot; Wrong so far: 4/19 &middot; Times practised before: 10 (last: set 6)",
-    diagram=numline(60, 75))
+    "Tier: Medium &middot; Topic: Divisibility / number constraints (Serena/Who am I style) &middot; Diagram: no &middot; Wrong so far: 4/19 &middot; Times practised before: 10 (last: set 6) &middot; Fixed 2026-10-26: real model item (gid130) has no diagram.")
 
 add(27, "Medium", "Comparing & Ordering Fractions & Decimals",
     "Which statement is true?",
@@ -362,8 +353,7 @@ add(28, "Hard", "Equivalent Fractions Decimals and Percents",
     {"A": "0.6 = 6%", "B": frac(3,20) + " = 15%", "C": "0.45 = 4.5%", "D": frac(1,8) + " = 1.8%"}, "B",
     f"<b>Answer: B.</b> {frac(3,20)} = 0.15 = 15% -- true. 0.6 = 60% (not 6% -- a decimal-to-percent shift error). 0.45 = 45% (not 4.5%). {frac(1,8)} = 0.125 = 12.5% (not 1.8%). Watch the decimal point when converting between decimals and percents -- it's easy to be off by a factor of 10.",
     "key-word-watch / off-by-10",
-    "Tier: Hard &middot; Topic: Equivalent Fractions Decimals and Percents &middot; Diagram: yes &middot; Wrong so far: 4/24 &middot; Times practised before: 3 (last: set 7)",
-    diagram=frac_pct_dec_diagram())
+    "Tier: Hard &middot; Topic: Equivalent Fractions Decimals and Percents &middot; Diagram: no &middot; Wrong so far: 4/24 &middot; Times practised before: 3 (last: set 7) &middot; Fixed 2026-10-26: real model items (gid45/50) are plain text, no diagram.")
 
 add(29, "Medium", "Probability (simple, equally likely outcomes)",
     "A spinner is divided into 8 equal sections: 3 red, 2 blue, and 3 yellow. If the spinner is spun once, what is the probability it lands on blue?",
@@ -383,8 +373,7 @@ add(31, "Hard", "Percent Word Problems",
     {"A": "39", "B": "84", "C": "60", "D": "21"}, "A",
     f"<b>Answer: A.</b> Sold: 35% of 240 = 84. Unsold: 240 &minus; 84 = 156. Paperbacks (unsold only): {frac(1,4)} of 156 = 39. (B=84 is the number SOLD, not the quantity asked for -- re-read which group the question is about before finalizing.)",
     "check-every-condition / exact-thing-asked",
-    "Tier: Hard &middot; Topic: Percent Word Problems &middot; Diagram: yes &middot; Wrong so far: 10/31 &middot; Times practised before: 7 (last: set 7)",
-    diagram=bar_model(7,13))
+    "Tier: Hard &middot; Topic: Percent Word Problems &middot; Diagram: no &middot; Wrong so far: 10/31 &middot; Times practised before: 7 (last: set 7) &middot; Fixed 2026-10-26: real Percent Word Problems items in the library are plain text, no diagram; dropped the decorative bar.")
 
 add(32, "Medium", "Comparing Areas",
     "The floor of Room A is a square with area 196 ft&sup2;. The floor of Room B is a rectangle that is 10 ft by 22 ft. Which room has the larger floor area, and by how much?",
@@ -425,8 +414,7 @@ add(37, "Hard", "No Remainder when Divided by a given Number",
     "A number is divisible by both 6 and 8 without a remainder. Which of the following must also divide that number without a remainder?",
     {"A": "16", "B": "9", "C": "18", "D": "12"}, "D",
     "<b>Answer: D.</b> The smallest number divisible by both 6 and 8 is their LCM, 24 -- so the number is a multiple of 24. 12 divides 24 evenly (24 &divide; 12 = 2), so 12 always divides a multiple of 24. 16, 9, and 18 do not divide 24 evenly, so they are not guaranteed to work.",
-    None, "Tier: Hard &middot; Topic: No Remainder when Divided by a given Number &middot; Diagram: yes &middot; Wrong so far: 4/11 &middot; Times practised before: 6 (last: set 7)",
-    diagram=venn("multiples of 6", "multiples of 8"))
+    None, "Tier: Hard &middot; Topic: No Remainder when Divided by a given Number &middot; Diagram: no &middot; Wrong so far: 4/11 &middot; Times practised before: 6 (last: set 7) &middot; Fixed 2026-10-26: real model item (gid58-family) is plain text, no diagram.")
 
 add(38, "Medium", "Estimating Sums Differences of Decimal Numbers",
     "Which expression gives the best estimate of 38.7 &minus; 11.2?",
