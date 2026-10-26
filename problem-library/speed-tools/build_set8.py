@@ -295,11 +295,11 @@ add(17, "Easy", "Perimeter",
     "<b>Answer: D.</b> A regular pentagon has 5 equal sides: 5 &times; 11 = 55 cm.",
     None, "Tier: Easy &middot; Topic: Perimeter &middot; Diagram: no &middot; Wrong so far: 0/6 &middot; Maintain priority (keep this skill fresh).")
 
-add(18, "Easy", "Adding and Subtracting Integers",
-    "What is the value of the expression 3,000 &minus; 1,174?",
-    {"A": "1,836", "B": "1,826", "C": "1,726", "D": "1,924"}, "B",
-    "<b>Answer: B.</b> 3,000 &minus; 1,174 = 1,826.",
-    None, "Tier: Easy &middot; Topic: Adding and Subtracting Integers &middot; Diagram: no &middot; Wrong so far: 0/9 &middot; Times practised before: 1 (last: set 6) &middot; CORRECTED 2026-10-26 (3rd pass): the '7 real items, all whole numbers, no negatives' claim was itself wrong -- viewing the actual source screenshots directly showed ALL 7 are really tagged 'Whole Numbers' subtype on the platform, with 'Adding and Subtracting Integers' appearing only as a Follow-Up Exercise suggestion link, never as any captured question's real subtype. The bank itself is confirmed to exist (it's a real clickable link), but zero actual content from inside it has been captured anywhere -- so whether it tests signed numbers (as the name implies) is genuinely unverified, not confirmed either way. This item is effectively back to invented, same as #4/#36 originally were, just no longer falsely claiming real backing. Content left as plain whole-number computation since that's at least evidenced as a real nearby skill (the 'Whole Numbers' items), not because the actual bank's format is known.")
+add(18, "Easy", "Averaging Mixed Numbers",
+    "What is the average of " + "6 "+frac(1,8) + ", " + "3 "+frac(1,4) + ", " + frac(3,2) + ", " + "2 "+frac(1,2) + ", and " + "2 "+frac(5,8) + "?",
+    {"A": "2 "+frac(4,5), "B": "3 "+frac(1,5), "C": "3 "+frac(1,4), "D": "3 "+frac(1,2)}, "B",
+    f"<b>Answer: B.</b> Convert all to eighths: 6{frac(1,8)}=49/8, 3{frac(1,4)}=26/8, {frac(3,2)}=12/8, 2{frac(1,2)}=20/8, 2{frac(5,8)}=21/8. Sum = 128/8 = 16. Average = 16 &divide; 5 = 3{frac(1,5)}.",
+    None, "Tier: Easy &middot; Topic: Averaging Mixed Numbers &middot; Diagram: no &middot; Real, unused not_done library item (global_id 334), used verbatim. Swapped 2026-10-26 at the user's request, for a 2nd confirmation data point: her only prior evidence on this exact skill is one real confirmed miss (gid18, picked 2&frac34; instead of the correct mean 3) and one QR7 right answer (#27, 50s) -- one right isn't enough to call it resolved. This item is genuinely harder than QR7's version: 5 terms instead of 5-act-but-fewer-distinct-values, includes an improper fraction (3/2) mixed in with proper fractions, and needs the LCD (8) worked out across all 5 terms rather than just halves.")
 
 add(19, "Medium", "Estimation (sums, products, money, ranges)",
     "Nina tracked her weekly grocery spending for four weeks: $62.80, $47.15, $71.40, and $55.90. Which is the best estimate of her total spending?",

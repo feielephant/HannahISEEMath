@@ -308,18 +308,18 @@
  {
   "n": 18,
   "tier": "Easy",
-  "topic": "Adding and Subtracting Integers",
-  "q": "What is the value of the expression 3,000 &minus; 1,174?",
+  "topic": "Averaging Mixed Numbers",
+  "q": "What is the average of 6 <span class=\"frac\"><span class=\"n\">1</span><span class=\"d\">8</span></span>, 3 <span class=\"frac\"><span class=\"n\">1</span><span class=\"d\">4</span></span>, <span class=\"frac\"><span class=\"n\">3</span><span class=\"d\">2</span></span>, 2 <span class=\"frac\"><span class=\"n\">1</span><span class=\"d\">2</span></span>, and 2 <span class=\"frac\"><span class=\"n\">5</span><span class=\"d\">8</span></span>?",
   "choices": {
-   "A": "1,836",
-   "B": "1,826",
-   "C": "1,726",
-   "D": "1,924"
+   "A": "2 <span class=\"frac\"><span class=\"n\">4</span><span class=\"d\">5</span></span>",
+   "B": "3 <span class=\"frac\"><span class=\"n\">1</span><span class=\"d\">5</span></span>",
+   "C": "3 <span class=\"frac\"><span class=\"n\">1</span><span class=\"d\">4</span></span>",
+   "D": "3 <span class=\"frac\"><span class=\"n\">1</span><span class=\"d\">2</span></span>"
   },
   "correct": "B",
-  "key": "<b>Answer: B.</b> 3,000 &minus; 1,174 = 1,826.",
+  "key": "<b>Answer: B.</b> Convert all to eighths: 6<span class=\"frac\"><span class=\"n\">1</span><span class=\"d\">8</span></span>=49/8, 3<span class=\"frac\"><span class=\"n\">1</span><span class=\"d\">4</span></span>=26/8, <span class=\"frac\"><span class=\"n\">3</span><span class=\"d\">2</span></span>=12/8, 2<span class=\"frac\"><span class=\"n\">1</span><span class=\"d\">2</span></span>=20/8, 2<span class=\"frac\"><span class=\"n\">5</span><span class=\"d\">8</span></span>=21/8. Sum = 128/8 = 16. Average = 16 &divide; 5 = 3<span class=\"frac\"><span class=\"n\">1</span><span class=\"d\">5</span></span>.",
   "habit_note": null,
-  "ref": "Tier: Easy &middot; Topic: Adding and Subtracting Integers &middot; Diagram: no &middot; Wrong so far: 0/9 &middot; Times practised before: 1 (last: set 6) &middot; CORRECTED 2026-10-26 (3rd pass): the '7 real items, all whole numbers, no negatives' claim was itself wrong -- viewing the actual source screenshots directly showed ALL 7 are really tagged 'Whole Numbers' subtype on the platform, with 'Adding and Subtracting Integers' appearing only as a Follow-Up Exercise suggestion link, never as any captured question's real subtype. The bank itself is confirmed to exist (it's a real clickable link), but zero actual content from inside it has been captured anywhere -- so whether it tests signed numbers (as the name implies) is genuinely unverified, not confirmed either way. This item is effectively back to invented, same as #4/#36 originally were, just no longer falsely claiming real backing. Content left as plain whole-number computation since that's at least evidenced as a real nearby skill (the 'Whole Numbers' items), not because the actual bank's format is known.",
+  "ref": "Tier: Easy &middot; Topic: Averaging Mixed Numbers &middot; Diagram: no &middot; Real, unused not_done library item (global_id 334), used verbatim. Swapped 2026-10-26 at the user's request, for a 2nd confirmation data point: her only prior evidence on this exact skill is one real confirmed miss (gid18, picked 2&frac34; instead of the correct mean 3) and one QR7 right answer (#27, 50s) -- one right isn't enough to call it resolved. This item is genuinely harder than QR7's version: 5 terms instead of 5-act-but-fewer-distinct-values, includes an improper fraction (3/2) mixed in with proper fractions, and needs the LCD (8) worked out across all 5 terms rather than just halves.",
   "diagram": null,
   "needs_diagram": false
  },
