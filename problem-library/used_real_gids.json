@@ -301,6 +301,12 @@
     "n": 10,
     "global_id": 736,
     "topic": "Area and Perimeter of Complex Polygons"
+   },
+   {
+    "n": 9,
+    "global_id": 1025,
+    "topic": "Finding Area/Perimeter of Rectangle, given Length & Width",
+    "note": "real not_done item extended one step further (to area) rather than used purely as-is, since this topic covers both area and perimeter"
    }
   ]
  },

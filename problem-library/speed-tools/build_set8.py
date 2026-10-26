@@ -226,10 +226,11 @@ add(8, "Medium", "Identifying Number Properties",
     None, "Tier: Medium &middot; Topic: Identifying Number Properties &middot; Diagram: no &middot; Wrong so far: 1/6 &middot; Times practised before: 2 (last: set 6) &middot; Fixed 2026-10-26: matched to the real item's exact text-only format (no diagram) and restored the re-multiply trap (she went 14s/correct on this trap on set 6 -- an earlier draft of this problem had pre-written the ×7 into the blank, which accidentally removed the one trap she's already proven solid on.)")
 
 add(9, "Easy", "Finding Area/Perimeter of Rectangle, given Length & Width",
-    "A rectangular garden is 14 feet long and 9 feet wide. What is the area of the garden, in square feet?",
-    {"A": "126", "B": "46", "C": "23", "D": "63"}, "A",
-    "<b>Answer: A.</b> Area = length &times; width = 14 &times; 9 = 126 square feet. (B is the perimeter.)",
-    None, "Tier: Easy &middot; Topic: Finding Area/Perimeter of Rectangle, given Length &amp; Width &middot; Diagram: no &middot; Wrong so far: 1/10 &middot; Times practised before: 2 (last: set 5)")
+    "The perimeter of the rectangle shown is 64 meters. What is the area of the rectangle, in square meters?",
+    {"A": "220", "B": "320", "C": "160", "D": "440"}, "A",
+    "<b>Answer: A.</b> Step 1: find the missing side. Perimeter = 2(length + width), so 64 = 2(10 + width), 32 = 10 + width, width = 22. Step 2: area = 10 &times; 22 = 220. (B=320 skips subtracting the given side -- it treats half the perimeter, 32, as the other side directly. C=160 wrongly assumes a square, 64 &divide; 4 = 16, then 10 &times; 16. D=440 doubles the correct area.)",
+    None, "Tier: Easy &middot; Topic: Finding Area/Perimeter of Rectangle, given Length &amp; Width &middot; Diagram: yes &middot; Wrong so far: 1/10 &middot; Times practised before: 2 (last: set 5) &middot; Upgraded 2026-10-26 from a one-step multiplication -- built on a real, unused not_done library item (global_id 1025, \"perimeter 64 m, one side 10 m, find the other side\") and extended one natural step further to area, since this topic covers both area AND perimeter. Genuinely harder/multi-step now: solve for the missing side first, then multiply.",
+    diagram='<svg viewBox="-25 0 165 70" width="165" height="70" role="img"><rect x="10" y="10" width="120" height="40" fill="none" stroke="currentColor" stroke-width="2"/><text x="-2" y="33" font-size="11" text-anchor="middle" fill="currentColor">10 m</text></svg>')
 
 add(10, "Hard", "Area and Perimeter of Complex Polygons",
     "The figure is composed of a rectangle and a triangle. The side lengths are measured in feet (ft). What is the perimeter of the figure?",
