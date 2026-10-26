@@ -342,14 +342,14 @@
     "note": "done item, fresh numbers, reverse-division variant"
    },
    {
-    "n": 24,
-    "global_id": 896,
-    "topic": "No Remainder when Divided by a given Number"
-   },
-   {
     "n": 37,
     "global_id": 892,
     "topic": "No Remainder when Divided by a given Number"
+   },
+   {
+    "n": 24,
+    "global_id": 911,
+    "topic": "Input Output Tables"
    }
   ]
  },

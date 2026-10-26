@@ -1109,11 +1109,12 @@
    "wrong": 1,
    "graded": 2,
    "habits": [],
-   "priority": "unknown",
+   "priority": "medium",
    "real_tests_note": "not yet cross-checked against official-test tagging as of 2026-10-21",
    "_sec_total": 105.0,
    "_sec_n": 2,
-   "avg_seconds": 52.5
+   "avg_seconds": 52.5,
+   "note_2026-10-26": "Flagged by check_priority_staleness.py (1/2 wrong). Thin data (only 2 instances) so escalated to medium, not high, pending more evidence. Retested at QR8 #24 with a real unused item (gid911, reverse-direction lookup)."
   },
   {
    "topic": "Finding Missing Side Length",

@@ -333,12 +333,12 @@ add(23, "Easy", "Nth Term, given Arithmetic Sequence, Progressive Pattern, etc."
     "<b>Answer: C.</b> Common difference = 5. 15th term = 9 + (15&minus;1)&times;5 = 9 + 70 = 79. (D=84 comes from using 15&times;5 instead of (15&minus;1)&times;5 -- an off-by-one error in the term count.)",
     None, "Tier: Easy &middot; Topic: Nth Term, given Arithmetic Sequence, Progressive Pattern, etc. &middot; Diagram: no &middot; Wrong so far: 2/9 &middot; Times practised before: 3 (last: set 7)")
 
-add(24, "Medium", "No Remainder when Divided by a given Number",
-    "Which whole number is divisible by 9?",
-    {"A": "396", "B": "399", "C": "393", "D": "390"}, "A",
-    "<b>Answer: A.</b> 396 &divide; 9 = 44, a whole number. (Digit-sum check: 3+9+6=18, divisible by 9.) The others: 399 (digit sum 21, not divisible by 9), 393 (digit sum 15), 390 (digit sum 12) -- none divisible by 9.",
-    "check-every-condition",
-    "Tier: Medium &middot; Topic: No Remainder when Divided by a given Number &middot; Diagram: no &middot; Wrong so far: 4/11 &middot; Times practised before: 6 (last: set 7) &middot; Real, unused not_done library item (global_id 896), used verbatim. Rebuilt 2026-10-26 (2nd pass): checked her 3 real-test misses on this topic -- all 3 are SINGLE-divisor, large-number items ('Which whole number is divisible by 9? [2,047/2,109/2,403/2,909]' etc.), not the compound 'divisible by both X and Y' format this item and #37 were both using. The compound format is a different, easier-for-her mechanism (7/8 right in practice) that doesn't match what's actually failing (0/3 on real tests) -- switched to the real single-divisor-large-number format.")
+add(24, "Medium", "Input Output Tables",
+    "A set of input and output values is shown. If the output value is 15, what is the input value?",
+    {"A": "7", "B": "4", "C": "5", "D": "31"}, "A",
+    "<b>Answer: A.</b> The rule is output = 2 &times; input + 1 (check: 0&rarr;1, 1&rarr;3, 2&rarr;5, 3&rarr;7). Working backward: 15 = 2 &times; input + 1, so input = 7.",
+    None, "Tier: Medium &middot; Topic: Input Output Tables &middot; Diagram: yes &middot; Wrong so far: 1/2 &middot; Flagged by check_priority_staleness.py (2026-10-26) -- genuinely still unaddressed, unlike Split Line Segments (also flagged, but already confirmed resolved -- both its misses were format bugs, retested correct). User felt #24 and #37 both testing the identical single-divisor-divisibility mechanism was redundant, so this slot moved to a different real, unused gap instead. Real, unused not_done library item (global_id 911), used verbatim -- the REVERSE direction (given the output, find the input), genuinely harder than a forward table lookup.",
+    diagram=table(["Input", "Output"], [["0","1"],["1","3"],["2","5"],["3","7"]]))
 
 add(25, "Medium", "Multi-step unit conversion (off-by-10, multi-step)",
     "How many pints are in 2.5 gallons? (1 gallon = 4 quarts, 1 quart = 2 pints)",

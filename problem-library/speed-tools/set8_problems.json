@@ -416,20 +416,20 @@
  {
   "n": 24,
   "tier": "Medium",
-  "topic": "No Remainder when Divided by a given Number",
-  "q": "Which whole number is divisible by 9?",
+  "topic": "Input Output Tables",
+  "q": "A set of input and output values is shown. If the output value is 15, what is the input value?",
   "choices": {
-   "A": "396",
-   "B": "399",
-   "C": "393",
-   "D": "390"
+   "A": "7",
+   "B": "4",
+   "C": "5",
+   "D": "31"
   },
   "correct": "A",
-  "key": "<b>Answer: A.</b> 396 &divide; 9 = 44, a whole number. (Digit-sum check: 3+9+6=18, divisible by 9.) The others: 399 (digit sum 21, not divisible by 9), 393 (digit sum 15), 390 (digit sum 12) -- none divisible by 9.",
-  "habit_note": "check-every-condition",
-  "ref": "Tier: Medium &middot; Topic: No Remainder when Divided by a given Number &middot; Diagram: no &middot; Wrong so far: 4/11 &middot; Times practised before: 6 (last: set 7) &middot; Real, unused not_done library item (global_id 896), used verbatim. Rebuilt 2026-10-26 (2nd pass): checked her 3 real-test misses on this topic -- all 3 are SINGLE-divisor, large-number items ('Which whole number is divisible by 9? [2,047/2,109/2,403/2,909]' etc.), not the compound 'divisible by both X and Y' format this item and #37 were both using. The compound format is a different, easier-for-her mechanism (7/8 right in practice) that doesn't match what's actually failing (0/3 on real tests) -- switched to the real single-divisor-large-number format.",
-  "diagram": null,
-  "needs_diagram": false
+  "key": "<b>Answer: A.</b> The rule is output = 2 &times; input + 1 (check: 0&rarr;1, 1&rarr;3, 2&rarr;5, 3&rarr;7). Working backward: 15 = 2 &times; input + 1, so input = 7.",
+  "habit_note": null,
+  "ref": "Tier: Medium &middot; Topic: Input Output Tables &middot; Diagram: yes &middot; Wrong so far: 1/2 &middot; Flagged by check_priority_staleness.py (2026-10-26) -- genuinely still unaddressed, unlike Split Line Segments (also flagged, but already confirmed resolved -- both its misses were format bugs, retested correct). User felt #24 and #37 both testing the identical single-divisor-divisibility mechanism was redundant, so this slot moved to a different real, unused gap instead. Real, unused not_done library item (global_id 911), used verbatim -- the REVERSE direction (given the output, find the input), genuinely harder than a forward table lookup.",
+  "diagram": "<table class=\"data\"><tr><th>Input</th><th>Output</th></tr><tr><td>0</td><td>1</td></tr><tr><td>1</td><td>3</td></tr><tr><td>2</td><td>5</td></tr><tr><td>3</td><td>7</td></tr></table>",
+  "needs_diagram": true
  },
  {
   "n": 25,
