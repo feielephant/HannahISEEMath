@@ -35839,5 +35839,27 @@
     "is_timing_chart": true,
     "source_file": "mathspeed test/actual-practice-tests/What to Expect/Screenshot 2026-10-25 at 6.28.08 PM.png",
     "diagram_description": "Quantitative Reasoning timing chart for 'What to Expect', 35 questions (fewer than a normal QR section's 38). Completed on 09/05/2026. URL section 2 (QR)."
+  },
+  {
+    "global_id": 1446,
+    "type": "question",
+    "source_file": "mathspeed test/by-topic/Comparing-Adding-Subtracting Bar Graph-Data Table Values/Screenshot 2026-10-09 at 9.06.03 PM.png",
+    "source": "isee_official_screenshot",
+    "set_name": "Comparing/Adding/Subtracting Bar Graph/Data Table Values #2",
+    "question_number": 3,
+    "question_text": "Will and Morgan recorded the total number of books they read to their children for four months. The data are shown in the table. How many more books did Will read in month 4 than in month 1?",
+    "diagram_description": "A table with columns Month, Will, Morgan and rows for months 1-4: (1: Will 56, Morgan 63), (2: Will 58, Morgan 67), (3: Will 65, Morgan 69), (4: Will 72, Morgan 73).",
+    "choices": [
+      "2",
+      "10",
+      "16",
+      "17"
+    ],
+    "correct_letter": "C",
+    "topic_broad": "data-tables",
+    "topic_specific": "Comparing Adding Subtracting Bar Graph Data Table Values",
+    "official_topic": "Comparing Adding Subtracting Bar Graph Data Table Values",
+    "status": "not_done",
+    "notes": "Added 2026-10-26 at user request, directly verified against the source screenshot (clean, no marks). 72-56=16, matches choice C."
   }
 ]

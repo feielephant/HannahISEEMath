@@ -418,12 +418,12 @@ add(35, "Medium", "Finding Area/Perimeter of Rectangle, given Length & Width",
     None, "Tier: Medium &middot; Topic: Finding Area/Perimeter of Rectangle, given Length &amp; Width &middot; Diagram: yes &middot; Wrong so far: 1/10 &middot; Times practised before: 2 (last: set 5) &middot; Real official item (global_id 163, ISEE Lower #4 Q4, DONE). Fixed 2026-10-26 (2nd pass): at the user's explicit request, the original real diagram is cropped directly from the source screenshot and embedded as-is, rather than hand-recreated as an SVG -- a hand-built recreation kept introducing subtle errors (first a fully-filled grid, this fixes that risk entirely by using the real image). Since the diagram itself is now the verbatim original, the numbers (7/6/42) are the real item's own numbers too, not fresh ones -- an explicit, deliberate exception to the usual done-item fresh-numbers rule for this one slot. Choices are the real item's own four values (13/26/42/64), just reordered so the correct one lands at the required letter B.",
     diagram=img_tag)
 
-add(36, "Easy", "Key-word NOT in equivalence questions",
-    "Which of the following is <b>NOT</b> equivalent to " + frac(3,5) + "?",
-    {"A": "0.6", "B": frac(6,10), "C": "60%", "D": "60% of 100"}, "D",
-    f"<b>Answer: D.</b> 60% of 100 = 60 (a computed VALUE, not the fraction {frac(3,5)}, which equals 0.6). The 'of 100' turns it into an actual number instead of a percent form, so it's not equivalent. 0.6, {frac(6,10)}, and 60% are all genuinely equal to {frac(3,5)}.",
-    "key-word-watch",
-    "Tier: Easy &middot; Topic: Key-word NOT in equivalence questions &middot; Diagram: no &middot; Wrong so far: 4/7 &middot; Times practised before: 6 (last: set 5) &middot; Real official item (global_id 651, DONE and confirmed wrong -- this IS the actual source of the '4/4 wrong' drill note, found 2026-10-26: 6 real items with this exact phrasing exist, 5 marked wrong). Fresh numbers used per the done-item rule, but the real trap mechanism is preserved exactly: one choice is worded as 'X% of Y' (a computed result) instead of staying in percent/fraction/decimal form -- that's the actual thing she's missed, not a magnitude/reciprocal trick like earlier invented drafts of this slot used.")
+add(36, "Easy", "Comparing Adding Subtracting Bar Graph Data Table Values",
+    "Will and Morgan recorded the total number of books they read to their children for four months. The data are shown in the table. How many more books did Will read in month 4 than in month 1?",
+    {"A": "2", "B": "10", "C": "17", "D": "16"}, "D",
+    "<b>Answer: D.</b> Will read 72 books in month 4 and 56 books in month 1. 72 &minus; 56 = 16.",
+    None, "Tier: Easy &middot; Topic: Comparing Adding Subtracting Bar Graph Data Table Values &middot; Diagram: yes &middot; Real official item (global_id 1446, newly catalogued 2026-10-26 at user request), used verbatim -- visually confirmed clean/unattempted. Swapped 2026-10-26 for 'Key-word NOT in equivalence questions' at the user's direct request, trading the Easy-tier slot for this topic instead.",
+    diagram=table(["Month","Will","Morgan"], [["1","56","63"],["2","58","67"],["3","65","69"],["4","72","73"]]))
 
 add(37, "Hard", "No Remainder when Divided by a given Number",
     "Which whole number is divisible by 31?",

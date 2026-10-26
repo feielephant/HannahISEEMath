@@ -632,20 +632,20 @@
  {
   "n": 36,
   "tier": "Easy",
-  "topic": "Key-word NOT in equivalence questions",
-  "q": "Which of the following is <b>NOT</b> equivalent to <span class=\"frac\"><span class=\"n\">3</span><span class=\"d\">5</span></span>?",
+  "topic": "Comparing Adding Subtracting Bar Graph Data Table Values",
+  "q": "Will and Morgan recorded the total number of books they read to their children for four months. The data are shown in the table. How many more books did Will read in month 4 than in month 1?",
   "choices": {
-   "A": "0.6",
-   "B": "<span class=\"frac\"><span class=\"n\">6</span><span class=\"d\">10</span></span>",
-   "C": "60%",
-   "D": "60% of 100"
+   "A": "2",
+   "B": "10",
+   "C": "17",
+   "D": "16"
   },
   "correct": "D",
-  "key": "<b>Answer: D.</b> 60% of 100 = 60 (a computed VALUE, not the fraction <span class=\"frac\"><span class=\"n\">3</span><span class=\"d\">5</span></span>, which equals 0.6). The 'of 100' turns it into an actual number instead of a percent form, so it's not equivalent. 0.6, <span class=\"frac\"><span class=\"n\">6</span><span class=\"d\">10</span></span>, and 60% are all genuinely equal to <span class=\"frac\"><span class=\"n\">3</span><span class=\"d\">5</span></span>.",
-  "habit_note": "key-word-watch",
-  "ref": "Tier: Easy &middot; Topic: Key-word NOT in equivalence questions &middot; Diagram: no &middot; Wrong so far: 4/7 &middot; Times practised before: 6 (last: set 5) &middot; Real official item (global_id 651, DONE and confirmed wrong -- this IS the actual source of the '4/4 wrong' drill note, found 2026-10-26: 6 real items with this exact phrasing exist, 5 marked wrong). Fresh numbers used per the done-item rule, but the real trap mechanism is preserved exactly: one choice is worded as 'X% of Y' (a computed result) instead of staying in percent/fraction/decimal form -- that's the actual thing she's missed, not a magnitude/reciprocal trick like earlier invented drafts of this slot used.",
-  "diagram": null,
-  "needs_diagram": false
+  "key": "<b>Answer: D.</b> Will read 72 books in month 4 and 56 books in month 1. 72 &minus; 56 = 16.",
+  "habit_note": null,
+  "ref": "Tier: Easy &middot; Topic: Comparing Adding Subtracting Bar Graph Data Table Values &middot; Diagram: yes &middot; Real official item (global_id 1446, newly catalogued 2026-10-26 at user request), used verbatim -- visually confirmed clean/unattempted. Swapped 2026-10-26 for 'Key-word NOT in equivalence questions' at the user's direct request, trading the Easy-tier slot for this topic instead.",
+  "diagram": "<table class=\"data\"><tr><th>Month</th><th>Will</th><th>Morgan</th></tr><tr><td>1</td><td>56</td><td>63</td></tr><tr><td>2</td><td>58</td><td>67</td></tr><tr><td>3</td><td>65</td><td>69</td></tr><tr><td>4</td><td>72</td><td>73</td></tr></table>",
+  "needs_diagram": true
  },
  {
   "n": 37,
