@@ -181,11 +181,11 @@ def add(n, tier, topic, q, choices, correct, key, habit_note, ref, diagram=None,
     P.append(dict(n=n, tier=tier, topic=topic, q=q, choices=choices, correct=correct, key=key,
                    habit_note=habit_note, ref=ref, diagram=diagram, needs_diagram=needs_diagram or (diagram is not None)))
 
-add(1, "Easy", "Prime Numbers",
-    "Which is the product of two prime numbers?",
-    {"A": "12", "B": "13", "C": "16", "D": "14"}, "D",
-    "<b>Answer: D.</b> 14 = 2 &times; 7, both prime. 12 = 2 &times; 2 &times; 3 (three prime factors, not two). 13 is itself prime, not a product. 16 = 2 &times; 2 &times; 2 &times; 2 (four prime factors).",
-    None, "Tier: Easy &middot; Topic: Prime Numbers &middot; Diagram: no &middot; Real, unused not_done library item (global_id 1103), used verbatim. Swapped 2026-10-26 for 'Tools for Measuring' -- that topic had zero real examples in either library, and the invented version (identify which tool measures liquid) was pure vocabulary recall with no actual reasoning in it, not a good use of a coverage-floor slot. This item at least requires checking each choice's prime factorization.")
+add(1, "Hard", "Solving Problems with Geometric Formulas",
+    "If the volume of a cylinder is 72&pi; in&sup3;, which is equivalent to the radius of the cylinder if the height is 8? (V = hr&sup2;&pi;, where V = volume, h = height, r = radius.)",
+    {"A": "2", "B": "4", "C": "5", "D": "3"}, "D",
+    "<b>Answer: D.</b> 72&pi; = 8 &times; r&sup2; &times; &pi;, so 72 = 8r&sup2;, r&sup2; = 9, r = 3.",
+    None, "Topic: Solving Problems with Geometric Formulas &middot; Diagram: no &middot; Wrong so far: 4/8 (50%) &middot; Real, unused not_done library item (global_id 751), used verbatim. Moved here 2026-10-26, from slot 33, at the user's request, to put her worst recent gap earlier in the set rather than near the pacing-affected tail.")
 
 add(2, "Medium", "Estimating Multiplication & Division",
     "A charity raised $7,850 to split evenly among 39 volunteers. Which is the best estimate of how much each volunteer receives?",
@@ -394,11 +394,12 @@ add(32, "Medium", "Comparing Areas",
     "<b>Answer: C.</b> Room B's area = 10 &times; 22 = 220 ft&sup2;. Room A's area = 196 ft&sup2; (since 14 &times; 14 = 196). 220 &minus; 196 = 24 ft&sup2; -- Room B is larger by 24 ft&sup2;.",
     None, "Tier: Medium &middot; Topic: Comparing Areas &middot; Diagram: no &middot; Never tracked before (0 graded instances) &middot; Coverage-floor pick.")
 
-add(33, "Hard", "Solving Problems with Geometric Formulas",
-    "If the volume of a cylinder is 72&pi; in&sup3;, which is equivalent to the radius of the cylinder if the height is 8? (V = hr&sup2;&pi;, where V = volume, h = height, r = radius.)",
-    {"A": "3", "B": "2", "C": "4", "D": "5"}, "A",
-    "<b>Answer: A.</b> 72&pi; = 8 &times; r&sup2; &times; &pi;, so 72 = 8r&sup2;, r&sup2; = 9, r = 3.",
-    None, "Tier: Hard &middot; Topic: Solving Problems with Geometric Formulas &middot; Diagram: no &middot; Wrong so far: 4/8 (50%) &middot; Real, unused not_done library item (global_id 751), used verbatim per the done/not-done rule. Swapped in 2026-10-26, replacing Fractional Parts Word Problems -- same root cause as #30's swap: confirmed wrong 4/8 (2 wrong on QR7 alone, 10/25) and flagged by check_priority_staleness.py at the start of this build, but left out of QR8's original plan because priority was never actually escalated before planning. QR7 used cone (gid791) and prism (gid797) items for this topic; this is a cylinder, for format variety.")
+add(33, "Hard", "Fractional Parts Word Problems",
+    "A choir has 60 members. " + frac(2,5) + " of the members are altos, and " + frac(1,3) + " of the remaining members are sopranos. How many members are sopranos?",
+    {"A": "12", "B": "24", "C": "36", "D": "20"}, "A",
+    f"<b>Answer: A.</b> Altos: {frac(2,5)} of 60 = 24. Remaining: 60 &minus; 24 = 36. Sopranos: {frac(1,3)} of 36 = 12. (B=24 is the number of ALTOS, not sopranos.)",
+    "exact-thing-asked",
+    "Tier: Hard &middot; Topic: Fractional Parts Word Problems &middot; Diagram: no &middot; Restored here 2026-10-26 at the user's request. Full real history on this exact mechanic (fraction, then a fraction of the remainder): Set 6 #6 -- right, 37s; Set 5 #37 -- LEFT BLANK (it was #37, near the pacing-affected tail, so unclear if that was a real gap or just running out of time). Never confirmed wrong outright, but also never confirmed solid -- the blank is the open question this retest is meant to resolve, placed well before the pacing-affected zone this time.")
 
 add(34, "Medium", "Total Shaded Area given Figure with Equal Divisions",
     "Each section of the triangle shown is the same size. The area of the shaded region is 24 in&sup2;. What is the area of the whole triangle?",

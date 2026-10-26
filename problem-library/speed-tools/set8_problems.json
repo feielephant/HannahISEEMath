@@ -1,19 +1,19 @@
 [
  {
   "n": 1,
-  "tier": "Easy",
-  "topic": "Prime Numbers",
-  "q": "Which is the product of two prime numbers?",
+  "tier": "Hard",
+  "topic": "Solving Problems with Geometric Formulas",
+  "q": "If the volume of a cylinder is 72&pi; in&sup3;, which is equivalent to the radius of the cylinder if the height is 8? (V = hr&sup2;&pi;, where V = volume, h = height, r = radius.)",
   "choices": {
-   "A": "12",
-   "B": "13",
-   "C": "16",
-   "D": "14"
+   "A": "2",
+   "B": "4",
+   "C": "5",
+   "D": "3"
   },
   "correct": "D",
-  "key": "<b>Answer: D.</b> 14 = 2 &times; 7, both prime. 12 = 2 &times; 2 &times; 3 (three prime factors, not two). 13 is itself prime, not a product. 16 = 2 &times; 2 &times; 2 &times; 2 (four prime factors).",
+  "key": "<b>Answer: D.</b> 72&pi; = 8 &times; r&sup2; &times; &pi;, so 72 = 8r&sup2;, r&sup2; = 9, r = 3.",
   "habit_note": null,
-  "ref": "Tier: Easy &middot; Topic: Prime Numbers &middot; Diagram: no &middot; Real, unused not_done library item (global_id 1103), used verbatim. Swapped 2026-10-26 for 'Tools for Measuring' -- that topic had zero real examples in either library, and the invented version (identify which tool measures liquid) was pure vocabulary recall with no actual reasoning in it, not a good use of a coverage-floor slot. This item at least requires checking each choice's prime factorization.",
+  "ref": "Topic: Solving Problems with Geometric Formulas &middot; Diagram: no &middot; Wrong so far: 4/8 (50%) &middot; Real, unused not_done library item (global_id 751), used verbatim. Moved here 2026-10-26, from slot 33, at the user's request, to put her worst recent gap earlier in the set rather than near the pacing-affected tail.",
   "diagram": null,
   "needs_diagram": false
  },
@@ -578,18 +578,18 @@
  {
   "n": 33,
   "tier": "Hard",
-  "topic": "Solving Problems with Geometric Formulas",
-  "q": "If the volume of a cylinder is 72&pi; in&sup3;, which is equivalent to the radius of the cylinder if the height is 8? (V = hr&sup2;&pi;, where V = volume, h = height, r = radius.)",
+  "topic": "Fractional Parts Word Problems",
+  "q": "A choir has 60 members. <span class=\"frac\"><span class=\"n\">2</span><span class=\"d\">5</span></span> of the members are altos, and <span class=\"frac\"><span class=\"n\">1</span><span class=\"d\">3</span></span> of the remaining members are sopranos. How many members are sopranos?",
   "choices": {
-   "A": "3",
-   "B": "2",
-   "C": "4",
-   "D": "5"
+   "A": "12",
+   "B": "24",
+   "C": "36",
+   "D": "20"
   },
   "correct": "A",
-  "key": "<b>Answer: A.</b> 72&pi; = 8 &times; r&sup2; &times; &pi;, so 72 = 8r&sup2;, r&sup2; = 9, r = 3.",
-  "habit_note": null,
-  "ref": "Tier: Hard &middot; Topic: Solving Problems with Geometric Formulas &middot; Diagram: no &middot; Wrong so far: 4/8 (50%) &middot; Real, unused not_done library item (global_id 751), used verbatim per the done/not-done rule. Swapped in 2026-10-26, replacing Fractional Parts Word Problems -- same root cause as #30's swap: confirmed wrong 4/8 (2 wrong on QR7 alone, 10/25) and flagged by check_priority_staleness.py at the start of this build, but left out of QR8's original plan because priority was never actually escalated before planning. QR7 used cone (gid791) and prism (gid797) items for this topic; this is a cylinder, for format variety.",
+  "key": "<b>Answer: A.</b> Altos: <span class=\"frac\"><span class=\"n\">2</span><span class=\"d\">5</span></span> of 60 = 24. Remaining: 60 &minus; 24 = 36. Sopranos: <span class=\"frac\"><span class=\"n\">1</span><span class=\"d\">3</span></span> of 36 = 12. (B=24 is the number of ALTOS, not sopranos.)",
+  "habit_note": "exact-thing-asked",
+  "ref": "Tier: Hard &middot; Topic: Fractional Parts Word Problems &middot; Diagram: no &middot; Restored here 2026-10-26 at the user's request. Full real history on this exact mechanic (fraction, then a fraction of the remainder): Set 6 #6 -- right, 37s; Set 5 #37 -- LEFT BLANK (it was #37, near the pacing-affected tail, so unclear if that was a real gap or just running out of time). Never confirmed wrong outright, but also never confirmed solid -- the blank is the open question this retest is meant to resolve, placed well before the pacing-affected zone this time.",
   "diagram": null,
   "needs_diagram": false
  },
