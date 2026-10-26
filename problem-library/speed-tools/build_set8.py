@@ -181,11 +181,11 @@ def add(n, tier, topic, q, choices, correct, key, habit_note, ref, diagram=None,
     P.append(dict(n=n, tier=tier, topic=topic, q=q, choices=choices, correct=correct, key=key,
                    habit_note=habit_note, ref=ref, diagram=diagram, needs_diagram=needs_diagram or (diagram is not None)))
 
-add(1, "Easy", "Tools for Measuring",
-    "Which tool would be the best choice for measuring the amount of liquid in a water bottle?",
-    {"A": "Ruler", "B": "Thermometer", "C": "Scale", "D": "Measuring cup"}, "D",
-    "<b>Answer: D.</b> A measuring cup (or graduated cylinder) measures liquid volume. A ruler measures length, a thermometer measures temperature, and a scale measures weight/mass.",
-    None, "Tier: Easy &middot; Topic: Tools for Measuring &middot; Diagram: no &middot; Never tracked before (0 graded instances) -- coverage-floor pick, no data yet to judge.")
+add(1, "Easy", "Prime Numbers",
+    "Which is the product of two prime numbers?",
+    {"A": "12", "B": "13", "C": "16", "D": "14"}, "D",
+    "<b>Answer: D.</b> 14 = 2 &times; 7, both prime. 12 = 2 &times; 2 &times; 3 (three prime factors, not two). 13 is itself prime, not a product. 16 = 2 &times; 2 &times; 2 &times; 2 (four prime factors).",
+    None, "Tier: Easy &middot; Topic: Prime Numbers &middot; Diagram: no &middot; Real, unused not_done library item (global_id 1103), used verbatim. Swapped 2026-10-26 for 'Tools for Measuring' -- that topic had zero real examples in either library, and the invented version (identify which tool measures liquid) was pure vocabulary recall with no actual reasoning in it, not a good use of a coverage-floor slot. This item at least requires checking each choice's prime factorization.")
 
 add(2, "Medium", "Estimating Multiplication & Division",
     "A charity raised $7,850 to split evenly among 39 volunteers. Which is the best estimate of how much each volunteer receives?",

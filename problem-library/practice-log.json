@@ -126,7 +126,7 @@
     "diagram_count": 20,
     "library_check": "Difficulty compared against real examples (official and book). Not-done originals still not substituted.",
     "difficulty_pass": "2026-10-06 second pass: items 1,3,4,5,7,10,11,18,19,21,22,26,28,29,33,36,38 rewritten to match or exceed real-test difficulty (multi-step, unlike denominators, multi-digit estimation, decimals with more places). All answers checked with exact arithmetic.",
-    "estimation_pass": "2026-10-06: estimation items rewritten to the real format: (a \u00d7 b) \u00f7 c with 'between X and Y' answers (3, 7, 33), range sum of four prices (4), and 'which expression best estimates' money-division items (5, 21, 28). Real examples are two products over a third value, often with ranges."
+    "estimation_pass": "2026-10-06: estimation items rewritten to the real format: (a × b) ÷ c with 'between X and Y' answers (3, 7, 33), range sum of four prices (4), and 'which expression best estimates' money-division items (5, 21, 28). Real examples are two products over a third value, often with ranges."
    },
    "graded_2026-10-06": {
     "score": "26/38",
@@ -153,9 +153,9 @@
      36
     ],
     "total_elapsed_minutes": 41.4,
-    "timing_note": "Elapsed time exceeded the 35-min budget; could not confirm whether the lock (pushed 2026-10-07) was active during this attempt, or whether Reset was used mid-test (both since fixed \u2014 Reset removed, Clear now resets the timer too).",
+    "timing_note": "Elapsed time exceeded the 35-min budget; could not confirm whether the lock (pushed 2026-10-07) was active during this attempt, or whether Reset was used mid-test (both since fixed — Reset removed, Clear now resets the timer too).",
     "time_vs_wrong_correlation": "Weak/near-zero (Pearson r=-0.08). Most wrong answers were fast (<15s, likely rushed/guessed), not slow. Two exceptions genuinely slow+wrong: #3 (144s), #22 (249s).",
-    "review_file": "reviews/speed-set-2-review-2026-10-07.html (local only, not in git) \u2014 has Hannah/parent diagnosis per missed problem",
+    "review_file": "reviews/speed-set-2-review-2026-10-07.html (local only, not in git) — has Hannah/parent diagnosis per missed problem",
     "real_gaps_confirmed": [
      "Estimating Multiplication & Division (sticky, #3 and #33)",
      "Comparing & Ordering Fractions & Decimals (decimal vs non-nice fraction)",
@@ -167,14 +167,14 @@
      "Measurement Scaling (#25, missed final unit)",
      "Multi-step unit conversion (#32, matches existing off-by-10 habit)",
      "Adding and Subtracting Decimals (#26, digit slip)",
-     "Dividing Equally From a Total (#22, calculation slip: 115 = 23\u00d75, proves both steps were done)"
+     "Dividing Equally From a Total (#22, calculation slip: 115 = 23×5, proves both steps were done)"
     ],
     "unconfirmed_needs_retest": {
-     "36": "gave the right final answer on review (54) but only after narrowing to 2 choices; may have been elimination, not recall. Set 3 should include a fresh-numbers version of 'whole number times a quantity with a half/fraction' to confirm. Timing now confirms genuine deliberation (27.3s, 3 changes), not a snap guess \u2014 consistent with partial understanding rather than zero understanding, but still not proof she can produce the answer from scratch."
+     "36": "gave the right final answer on review (54) but only after narrowing to 2 choices; may have been elimination, not recall. Set 3 should include a fresh-numbers version of 'whole number times a quantity with a half/fraction' to confirm. Timing now confirms genuine deliberation (27.3s, 3 changes), not a snap guess — consistent with partial understanding rather than zero understanding, but still not proof she can produce the answer from scratch."
     },
     "timing_recomputed_2026-10-07": {
      "source": "full click log (speed-set-2-click-log.csv), recomputed with the fixed attribution formula",
-     "correlation": "still weak/near-zero: r=-0.109 (was -0.08 under the old formula) \u2014 time spent is not a strong predictor of right/wrong",
+     "correlation": "still weak/near-zero: r=-0.109 (was -0.08 under the old formula) — time spent is not a strong predictor of right/wrong",
      "slowest_10": [
       [
        4,
@@ -282,9 +282,9 @@
      "correction": "Problem #36 moved OUT of the fast group under the fix: old formula showed 4s (looked like a rushed guess), real accumulated time is 27.3s (three changes at the end: C to A to B to A). This matches Hannah's own account of wavering between two values, not a snap pick."
     },
     "revised_notes_2026-10-07": {
-     "23": "9.8s, single click, no revision \u2014 fast and confident, not struggling with phrasing. Real gap is simplifying 3n+8-5 to 3n+3; absent that, she scans choices for a literal trailing '-5' and picks C, which happens to have that surface feature despite being wrong for a different reason (wrong grouping). New habit: scans-for-surface-match, distinct from the simplification gap.",
-     "36": "27.3s across 4 clicks (chose C [correct] -> A -> B -> A [final, wrong]). Her first instinct was right; she talked herself out of a correct answer, flipping rapidly (A/B/A within 1.5s) near the very end \u2014 looks like confidence/overthinking under time pressure, not a missing concept. Same bidirectional pattern as #9 (wrong->right): she second-guesses in both directions.",
-     "22": "Her wrong answer 115 = 23\u00d75 or a miscarried 21\u00d75 \u2014 proves both steps were done, one digit slipped. Not a gap; reclassified from 'stops after first step' to calculation slip, same bucket as #26. Confirmed directly by Hannah: skipped long division first time (did it in her head), got it wrong; used long division on redo, got 21 correctly. Fix = habit (write out long division for multi-digit division), not re-teaching."
+     "23": "9.8s, single click, no revision — fast and confident, not struggling with phrasing. Real gap is simplifying 3n+8-5 to 3n+3; absent that, she scans choices for a literal trailing '-5' and picks C, which happens to have that surface feature despite being wrong for a different reason (wrong grouping). New habit: scans-for-surface-match, distinct from the simplification gap.",
+     "36": "27.3s across 4 clicks (chose C [correct] -> A -> B -> A [final, wrong]). Her first instinct was right; she talked herself out of a correct answer, flipping rapidly (A/B/A within 1.5s) near the very end — looks like confidence/overthinking under time pressure, not a missing concept. Same bidirectional pattern as #9 (wrong->right): she second-guesses in both directions.",
+     "22": "Her wrong answer 115 = 23×5 or a miscarried 21×5 — proves both steps were done, one digit slipped. Not a gap; reclassified from 'stops after first step' to calculation slip, same bucket as #26. Confirmed directly by Hannah: skipped long division first time (did it in her head), got it wrong; used long division on redo, got 21 correctly. Fix = habit (write out long division for multi-digit division), not re-teaching."
     }
    }
   },
@@ -353,7 +353,7 @@
      "Area of Triangles (deferred in favor of Angles in Triangles this round)"
     ],
     "diagram_count": 9,
-    "difficulty": "Same rules as set 2's final corrected version: no easier than real, estimation in (a\u00d7b)\u00f7c range format, diagrams label only given sides, no intermediate percent values, every answer checked with exact arithmetic (not by hand).",
+    "difficulty": "Same rules as set 2's final corrected version: no easier than real, estimation in (a×b)÷c range format, diagrams label only given sides, no intermediate percent values, every answer checked with exact arithmetic (not by hand).",
     "net_trim_2026-10-07": "Trimmed 3D-net from 3 slots to 1 (kept #5, swapped #16 and #36). Its tracker priority was 'high' from before any evidence existed; now downgraded to 'maintain' given she's shown to be fine on it. #16 -> Multi-step unit conversion (off-by-10 habit, confirmed gap, absent from set 3 until now). #36 -> Divisibility (high priority, absent from set 3 until now).",
     "second_pass_2026-10-07": "Estimating Division with Money had the same stale-high-priority-then-3x pattern as the net topic (3 instances in set 2, all correct; 3 instances in set 3). Downgraded priority (see tracker) and trimmed set 3 from 3 to 2 (#11, #13 kept; #14 swapped). #14 -> Multiplying and Dividing Integers, restoring coverage of a topic dropped from the tracker entirely after set 1.",
     "nondiag_trim_2026-10-10": "Several diagrams that only restated given text without adding structure were removed between build and this pass, bringing the live count from 22 down to 9 (see integrity_notes for the 2026-10-10 round-to-table leak, the last of these fixes).",
@@ -710,11 +710,11 @@
      "right_to_wrong": []
     },
     "notes_summary": {
-     "1": "Did not write the equation out \u2014 mental-math gap",
+     "1": "Did not write the equation out — mental-math gap",
      "4": "Letter misread, plus a real borrowing/regrouping gap",
-     "7": "Ordering more than 2 numbers \u2014 confirmed, number-line technique works",
+     "7": "Ordering more than 2 numbers — confirmed, number-line technique works",
      "10": "Did multi-step conversion mentally instead of on paper",
-     "15": "Worksheet formatting bug, not a skill gap \u2014 flagging for the template",
+     "15": "Worksheet formatting bug, not a skill gap — flagging for the template",
      "37": "Same mental-math gap as #1, not pacing"
     }
    }
@@ -722,7 +722,7 @@
   {
    "set_no": 8,
    "topics": [
-    "Tools for Measuring",
+    "Prime Numbers",
     "Estimating Multiplication & Division",
     "Converting to a Decimal",
     "Remainder when Divided by a given Number",
@@ -932,7 +932,7 @@
   },
   {
    "date": "2026-10-09",
-   "finding": "Real-test (a x b)-over-c estimation items always use a slash (e.g. '(51 x 743) / 25'), never a division sign -- checked all 9 real examples in the library. Set 2's #3/#33 (already taken) and set 3's original #3/#26 used \u00f7. Fixed in set 3 (now /); can't change set 2. Doesn't change the math or the gap finding, just a minor notation mismatch worth knowing about."
+   "finding": "Real-test (a x b)-over-c estimation items always use a slash (e.g. '(51 x 743) / 25'), never a division sign -- checked all 9 real examples in the library. Set 2's #3/#33 (already taken) and set 3's original #3/#26 used ÷. Fixed in set 3 (now /); can't change set 2. Doesn't change the math or the gap finding, just a minor notation mismatch worth knowing about."
   },
   {
    "date": "2026-10-10",

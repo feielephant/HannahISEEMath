@@ -2,18 +2,18 @@
  {
   "n": 1,
   "tier": "Easy",
-  "topic": "Tools for Measuring",
-  "q": "Which tool would be the best choice for measuring the amount of liquid in a water bottle?",
+  "topic": "Prime Numbers",
+  "q": "Which is the product of two prime numbers?",
   "choices": {
-   "A": "Ruler",
-   "B": "Thermometer",
-   "C": "Scale",
-   "D": "Measuring cup"
+   "A": "12",
+   "B": "13",
+   "C": "16",
+   "D": "14"
   },
   "correct": "D",
-  "key": "<b>Answer: D.</b> A measuring cup (or graduated cylinder) measures liquid volume. A ruler measures length, a thermometer measures temperature, and a scale measures weight/mass.",
+  "key": "<b>Answer: D.</b> 14 = 2 &times; 7, both prime. 12 = 2 &times; 2 &times; 3 (three prime factors, not two). 13 is itself prime, not a product. 16 = 2 &times; 2 &times; 2 &times; 2 (four prime factors).",
   "habit_note": null,
-  "ref": "Tier: Easy &middot; Topic: Tools for Measuring &middot; Diagram: no &middot; Never tracked before (0 graded instances) -- coverage-floor pick, no data yet to judge.",
+  "ref": "Tier: Easy &middot; Topic: Prime Numbers &middot; Diagram: no &middot; Real, unused not_done library item (global_id 1103), used verbatim. Swapped 2026-10-26 for 'Tools for Measuring' -- that topic had zero real examples in either library, and the invented version (identify which tool measures liquid) was pure vocabulary recall with no actual reasoning in it, not a good use of a coverage-floor slot. This item at least requires checking each choice's prime factorization.",
   "diagram": null,
   "needs_diagram": false
  },
