@@ -633,17 +633,17 @@
   "n": 36,
   "tier": "Easy",
   "topic": "Key-word NOT in equivalence questions",
-  "q": "Which of the following is <b>NOT</b> equivalent to <span class=\"frac\"><span class=\"n\">3</span><span class=\"d\">4</span></span>?",
+  "q": "Which of the following is <b>NOT</b> equivalent to <span class=\"frac\"><span class=\"n\">5</span><span class=\"d\">8</span></span>?",
   "choices": {
-   "A": "75%",
-   "B": "0.75",
-   "C": "<span class=\"frac\"><span class=\"n\">6</span><span class=\"d\">8</span></span>",
-   "D": "<span class=\"frac\"><span class=\"n\">4</span><span class=\"d\">3</span></span>"
+   "A": "0.625",
+   "B": "62.5%",
+   "C": "<span class=\"frac\"><span class=\"n\">15</span><span class=\"d\">24</span></span>",
+   "D": "<span class=\"frac\"><span class=\"n\">10</span><span class=\"d\">15</span></span>"
   },
   "correct": "D",
-  "key": "<b>Answer: D.</b> <span class=\"frac\"><span class=\"n\">4</span><span class=\"d\">3</span></span> is the RECIPROCAL of <span class=\"frac\"><span class=\"n\">3</span><span class=\"d\">4</span></span>, not an equivalent value (1.33 &ne; 0.75). 75%, 0.75, and <span class=\"frac\"><span class=\"n\">6</span><span class=\"d\">8</span></span> are all equal to <span class=\"frac\"><span class=\"n\">3</span><span class=\"d\">4</span></span>.",
+  "key": "<b>Answer: D.</b> <span class=\"frac\"><span class=\"n\">10</span><span class=\"d\">15</span></span> simplifies to <span class=\"frac\"><span class=\"n\">2</span><span class=\"d\">3</span></span> &asymp; 0.667, which is NOT equal to <span class=\"frac\"><span class=\"n\">5</span><span class=\"d\">8</span></span> = 0.625. The other three all equal <span class=\"frac\"><span class=\"n\">5</span><span class=\"d\">8</span></span> once simplified/converted: 0.625 and 62.5% directly, and <span class=\"frac\"><span class=\"n\">15</span><span class=\"d\">24</span></span> simplifies to <span class=\"frac\"><span class=\"n\">5</span><span class=\"d\">8</span></span> (divide by 3).",
   "habit_note": "key-word-watch",
-  "ref": "Tier: Easy &middot; Topic: Key-word NOT in equivalence questions &middot; Diagram: no &middot; Wrong so far: 4/7 &middot; Times practised before: 6 (last: set 5) &middot; Note: 4/4 wrong on 'Which value is NOT equivalent' drill -- only NOT-style item in this set.",
+  "ref": "Tier: Easy &middot; Topic: Key-word NOT in equivalence questions &middot; Diagram: no &middot; Wrong so far: 4/7 &middot; Times practised before: 6 (last: set 5) &middot; Note: 4/4 wrong on 'Which value is NOT equivalent' drill -- only NOT-style item in this set. Fixed 2026-10-26: no real item exists anywhere in either library for this specific drill format, but the previous version (3/4 vs 75%/0.75/6/8/4/3) was too easy -- every choice was an instantly-recognizable standard form, no real computation needed. Switched to 5/8 with less-obvious equivalents (62.5%, 15/24 simplifying to 5/8) and a NOT-equivalent trap (10/15, which simplifies to 2/3, not 5/8) that requires actually simplifying each choice rather than pattern-matching.",
   "diagram": null,
   "needs_diagram": false
  },

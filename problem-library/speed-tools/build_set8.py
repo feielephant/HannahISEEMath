@@ -419,11 +419,11 @@ add(35, "Medium", "Finding Area/Perimeter of Rectangle, given Length & Width",
     diagram=img_tag)
 
 add(36, "Easy", "Key-word NOT in equivalence questions",
-    "Which of the following is <b>NOT</b> equivalent to " + frac(3,4) + "?",
-    {"A": "75%", "B": "0.75", "C": frac(6,8), "D": frac(4,3)}, "D",
-    f"<b>Answer: D.</b> {frac(4,3)} is the RECIPROCAL of {frac(3,4)}, not an equivalent value (1.33 &ne; 0.75). 75%, 0.75, and {frac(6,8)} are all equal to {frac(3,4)}.",
+    "Which of the following is <b>NOT</b> equivalent to " + frac(5,8) + "?",
+    {"A": "0.625", "B": "62.5%", "C": frac(15,24), "D": frac(10,15)}, "D",
+    f"<b>Answer: D.</b> {frac(10,15)} simplifies to {frac(2,3)} &asymp; 0.667, which is NOT equal to {frac(5,8)} = 0.625. The other three all equal {frac(5,8)} once simplified/converted: 0.625 and 62.5% directly, and {frac(15,24)} simplifies to {frac(5,8)} (divide by 3).",
     "key-word-watch",
-    "Tier: Easy &middot; Topic: Key-word NOT in equivalence questions &middot; Diagram: no &middot; Wrong so far: 4/7 &middot; Times practised before: 6 (last: set 5) &middot; Note: 4/4 wrong on 'Which value is NOT equivalent' drill -- only NOT-style item in this set.")
+    "Tier: Easy &middot; Topic: Key-word NOT in equivalence questions &middot; Diagram: no &middot; Wrong so far: 4/7 &middot; Times practised before: 6 (last: set 5) &middot; Note: 4/4 wrong on 'Which value is NOT equivalent' drill -- only NOT-style item in this set. Fixed 2026-10-26: no real item exists anywhere in either library for this specific drill format, but the previous version (3/4 vs 75%/0.75/6/8/4/3) was too easy -- every choice was an instantly-recognizable standard form, no real computation needed. Switched to 5/8 with less-obvious equivalents (62.5%, 15/24 simplifying to 5/8) and a NOT-equivalent trap (10/15, which simplifies to 2/3, not 5/8) that requires actually simplifying each choice rather than pattern-matching.")
 
 add(37, "Hard", "No Remainder when Divided by a given Number",
     "A number is divisible by both 6 and 8 without a remainder. Which of the following must also divide that number without a remainder?",
