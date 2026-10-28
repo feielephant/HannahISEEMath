@@ -86,6 +86,30 @@ def load_published_problems(kind, set_no):
     html = subprocess.check_output(['git', 'show', f'{commit}:{path}'], cwd=REPO).decode()
     return _parse_answer_key(html)
 
+_DIV_TAG_RE = re.compile(r'<div\b[^>]*>|</div>')
+
+def _balanced_div_content(html, start_idx):
+    """start_idx is right after the opening '<div ...>' tag's '>'. Returns
+    (content, end_idx) where end_idx is right after the matching closing
+    '</div>', counting nested <div>s so a question like #22's (two equation
+    lines, each wrapped in its own inner <div>) doesn't get cut off at the
+    first </div) the naive non-greedy regex would have stopped at -- that
+    bug truncated #22's question to just the first equation line and lost
+    the second equation and the actual question text (caught 2026-10-27)."""
+    depth = 1
+    i = start_idx
+    while True:
+        m = _DIV_TAG_RE.search(html, i)
+        if not m:
+            return html[start_idx:], len(html)
+        if m.group(0) == '</div>':
+            depth -= 1
+            if depth == 0:
+                return html[start_idx:m.start()], m.end()
+        else:
+            depth += 1
+        i = m.end()
+
 def _parse_answer_key(html):
     # split on the opening card tag, tolerating an optional data-n="N" attribute
     # (added once MA sets moved to the paginated one-problem-per-page harness, which
@@ -97,9 +121,12 @@ def _parse_answer_key(html):
         if not m_num:
             continue
         n = int(m_num.group(1))
-        m_q = re.search(r'<div class="q">(.*?)</div>', chunk, re.S)
-        q = m_q.group(1) if m_q else ''
-        after_q = chunk[m_q.end():] if m_q else chunk
+        m_qopen = re.search(r'<div class="q">', chunk)
+        if m_qopen:
+            q, q_end = _balanced_div_content(chunk, m_qopen.end())
+            after_q = chunk[q_end:]
+        else:
+            q, after_q = '', chunk
         diag = ''
         idx_choices = after_q.find('<div class="choices">')
         if idx_choices > 0:
