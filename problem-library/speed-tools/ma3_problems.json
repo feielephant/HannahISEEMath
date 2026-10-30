@@ -363,18 +363,18 @@
   "n": 21,
   "tier": "Medium",
   "topic": "Input Output Tables",
-  "q": "The same operation is performed on each input number to create an output number, as shown in the table. Which output number will result from an input number of 24?",
+  "q": "The number machine performs the same operation on each input number to create an output number, as shown in the table. What input gives an output of 12?",
   "choices": {
-   "A": "4",
-   "B": "6",
-   "D": "8",
-   "C": "12"
+   "A": "21",
+   "B": "23",
+   "D": "25",
+   "C": "27"
   },
   "correct": "B",
-  "key": "<b>Answer: B.</b> Use the complete pairs to find the rule: 16&rarr;4 (16&divide;4=4), 32&rarr;8 (32&divide;4=8), 48&rarr;12 (48&divide;4=12) -- the rule is output = input &divide; 4. For an input of 24: 24 &divide; 4 = 6.",
+  "key": "<b>Answer: B.</b> Use the given pairs to find the rule: 19&rarr;10, 13&rarr;7, 9&rarr;5, 5&rarr;3, 3&rarr;2 -- each output is (input+1)&divide;2. Working backward from an output of 12: 12 = (input+1)&divide;2, so input+1 = 24, and input = 23.",
   "habit_note": null,
-  "ref": "Tier: Medium &middot; Topic: Input Output Tables &middot; Diagram: yes &middot; Real, unused library item (ISEE Lower #2 Q6), used verbatim, answered correctly. Swapped in 2026-10-30, replacing gid39's version (4 complete pairs, just describe the already-fully-visible pattern) -- this one gives 3 complete pairs plus one WITH THE OUTPUT MISSING, so she has to find the rule from partial data and then compute a value with it, not just describe a pattern already laid out in full.",
-  "diagram": "<table class=\"data\"><tr><th>Input</th><th>Output</th></tr><tr><td>16</td><td>4</td></tr><tr><td>24</td><td>?</td></tr><tr><td>32</td><td>8</td></tr><tr><td>48</td><td>12</td></tr></table>",
+  "ref": "Tier: Medium &middot; Topic: Input Output Tables &middot; Diagram: yes &middot; Real, unused library item (global_id 492), used verbatim, answered correctly. Swapped in 2026-10-30, replacing the ISEE Lower #2 Q6 version (find a missing OUTPUT) -- this one asks for the INPUT given an output, the reverse direction, which requires inverting the rule rather than just applying it forward. The two confirmed-wrong real items found for this topic (ISEE Lower #1 Q5, and gid609's non-linear rule) are both already used multiple times in pre-pipeline redo-sets.",
+  "diagram": "<table class=\"data\"><tr><th>Input</th><th>Output</th></tr><tr><td>19</td><td>10</td></tr><tr><td>13</td><td>7</td></tr><tr><td>9</td><td>5</td></tr><tr><td>5</td><td>3</td></tr><tr><td>3</td><td>2</td></tr></table>",
   "needs_diagram": true
  },
  {

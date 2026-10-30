@@ -247,12 +247,12 @@ add(20, "Hard", "Finding Area/Perimeter of Rectangle, given Length & Width",
     "Tier: Hard &middot; Topic: Finding Area/Perimeter of Rectangle, given Length &amp; Width &middot; Diagram: no &middot; Real, unused library item (ISEE Lower #1 Q30) -- CONFIRMED WRONG on the real test (she picked B, 8). Swapped in 2026-10-30, replacing gid103's Y=1/4&times;length item -- a difficulty-check comparison found gid103 didn't actually require computing an area or perimeter at all, despite the topic tag. This one genuinely chains perimeter&rarr;side&rarr;area&rarr;length, matching QR8 #9's real historical mechanic (and is harder than it, requiring 3 steps instead of 2).")
 
 add(21, "Medium", "Input Output Tables",
-    "The same operation is performed on each input number to create an output number, as shown in the table. Which output number will result from an input number of 24?",
-    {"A": "4", "B": "6", "C": "8", "D": "12"}, "B",
-    "<<<ANSWERPREFIX>>>Use the complete pairs to find the rule: 16&rarr;4 (16&divide;4=4), 32&rarr;8 (32&divide;4=8), 48&rarr;12 (48&divide;4=12) -- the rule is output = input &divide; 4. For an input of 24: 24 &divide; 4 = 6.",
+    "The number machine performs the same operation on each input number to create an output number, as shown in the table. What input gives an output of 12?",
+    {"A": "21", "B": "23", "C": "25", "D": "27"}, "B",
+    "<<<ANSWERPREFIX>>>Use the given pairs to find the rule: 19&rarr;10, 13&rarr;7, 9&rarr;5, 5&rarr;3, 3&rarr;2 -- each output is (input+1)&divide;2. Working backward from an output of 12: 12 = (input+1)&divide;2, so input+1 = 24, and input = 23.",
     None,
-    "Tier: Medium &middot; Topic: Input Output Tables &middot; Diagram: yes &middot; Real, unused library item (ISEE Lower #2 Q6), used verbatim, answered correctly. Swapped in 2026-10-30, replacing gid39's version (4 complete pairs, just describe the already-fully-visible pattern) -- this one gives 3 complete pairs plus one WITH THE OUTPUT MISSING, so she has to find the rule from partial data and then compute a value with it, not just describe a pattern already laid out in full.",
-    diagram=io_table_machine([["16","4"],["24","?"],["32","8"],["48","12"]]))
+    "Tier: Medium &middot; Topic: Input Output Tables &middot; Diagram: yes &middot; Real, unused library item (global_id 492), used verbatim, answered correctly. Swapped in 2026-10-30, replacing the ISEE Lower #2 Q6 version (find a missing OUTPUT) -- this one asks for the INPUT given an output, the reverse direction, which requires inverting the rule rather than just applying it forward. The two confirmed-wrong real items found for this topic (ISEE Lower #1 Q5, and gid609's non-linear rule) are both already used multiple times in pre-pipeline redo-sets.",
+    diagram=io_table_machine([["19","10"],["13","7"],["9","5"],["5","3"],["3","2"]]))
 
 add(22, "Medium", "Order of Operations and Equivalence",
     "Which expression is equal to (2 + 8) &times; 7?",
