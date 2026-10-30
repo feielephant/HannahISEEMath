@@ -85,11 +85,11 @@ def add(n, tier, topic, q, choices, correct, key, habit_note, ref, diagram=None)
 
 add(1, "Hard", "Cryptarithm / digit substitution",
     "R and S are different digits from 1 through 9. What digit does S represent?",
-    {"A": "2", "B": "5", "C": "7", "D": "9"}, "A",
-    "<<<ANSWERPREFIX>>>RSS = 100R + 11S, and RS = 10R + S, so RSS &minus; RS = 90R + 10S = 650. Testing valid digits: R=7 gives S=2 (both valid, 1-9, distinct) -- this is the only combination that works. Check: 722 &minus; 72 = 650. (7 is the value of R, not S -- the exact-thing-asked trap.)",
+    {"A": "6", "B": "8", "C": "3", "D": "9"}, "B",
+    "<<<ANSWERPREFIX>>>RSS = 100R + 11S, and RS = 10R + S, so RSS &minus; RS = 90R + 10S = 260. Testing valid digits: R=2 gives S=8 (both valid, 1-9, distinct) -- this is the only combination that works. Check: 288 &minus; 28 = 260, and every column subtracts cleanly with NO borrowing needed (8&minus;2=6 in the tens place).",
     "exact-thing-asked / no-bounding-strategy",
-    "Tier: Hard &middot; Topic: Cryptarithm / digit substitution &middot; Diagram: yes &middot; INVENTED -- both known real cryptarithm items in the library are already spent (global_id 157, used in QR7 #4; global_id 184, used in QR3 #34 with different letters/target digit -- confirmed via a direct grep of every published worksheet, not just used_real_gids.json, which was missing that QR3 usage). Same borrow/regroup algebraic shape as QR8 #30's PQQ&minus;PQ puzzle (fresh letters and target so it isn't a repeat of that one either), reinforcing the same digit-testing-with-a-bound method.",
-    diagram='<div style="font-family:ui-monospace,\'SF Mono\',\'Cascadia Mono\',\'Courier New\',monospace;letter-spacing:2px;max-width:140px;margin:0 auto;font-size:1.1em;"><div style="padding:2px 6px;line-height:1.5;text-align:right;">RSS</div><div style="padding:2px 6px;line-height:1.5;text-align:right;">&minus;RS</div><div style="padding:2px 6px;line-height:1.5;text-align:right;border-top:1.5px solid currentColor;margin-top:5px;padding-top:5px;">650</div></div>')
+    "Tier: Hard &middot; Topic: Cryptarithm / digit substitution &middot; Diagram: yes &middot; INVENTED -- both known real cryptarithm items in the library are already spent (global_id 157, used in QR7 #4; global_id 184, used in QR3 #34 with different letters/target digit -- confirmed via a direct grep of every published worksheet, not just used_real_gids.json, which was missing that QR3 usage). Same RSS&minus;RS algebraic shape as QR8 #30's PQQ&minus;PQ puzzle, but target 260 (not 650) is chosen so NO borrow/regroup step is needed -- at the user's request, replacing the earlier borrow-requiring version of this same slot, to isolate the digit-testing/bounding method on its own rather than combine it with the borrow mechanic.",
+    diagram='<div style="font-family:ui-monospace,\'SF Mono\',\'Cascadia Mono\',\'Courier New\',monospace;letter-spacing:2px;max-width:140px;margin:0 auto;font-size:1.1em;"><div style="padding:2px 6px;line-height:1.5;text-align:right;">RSS</div><div style="padding:2px 6px;line-height:1.5;text-align:right;">&minus;RS</div><div style="padding:2px 6px;line-height:1.5;text-align:right;border-top:1.5px solid currentColor;margin-top:5px;padding-top:5px;">260</div></div>')
 
 add(2, "Easy", "Algebraic Equations with Symbol Variables",
     "Marti wrote two equations: f &divide; g = 8, and 8 &times; 7 = f. What is the value of g?",
@@ -309,14 +309,6 @@ add(30, "Hard", "Determining Averages/Points on Number Lines (merged)",
     "Tier: Hard &middot; Topic: Determining Averages/Points on Number Lines (merged) &middot; Diagram: yes &middot; Real, unused library item (global_id 194, ISEE Lower #4), used verbatim, answered correctly -- positions verified directly against the source screenshot (9 ticks from 10 to 37, A at tick 2, B at tick 6), not guessed from the text description alone.",
     diagram=numberline(9, [(2, "A"), (6, "B")], show_ends=(10, 37)))
 
-add(31, "Hard", "Cryptarithm / digit substitution",
-    "R and S are different digits from 1 through 9. What digit does S represent?",
-    {"A": "6", "B": "8", "C": "3", "D": "9"}, "B",
-    "<<<ANSWERPREFIX>>>RSS = 100R + 11S, and RS = 10R + S, so RSS &minus; RS = 90R + 10S = 260. Testing valid digits: R=2 gives S=8 (both valid, 1-9, distinct) -- this is the only combination that works. Check: 288 &minus; 28 = 260, and this time every column subtracts cleanly with NO borrowing (8&minus;2=6 in the tens place, no regrouping needed) -- unlike #1, where the tens column (2&minus;7) forces a borrow from the hundreds digit.",
-    "exact-thing-asked / no-bounding-strategy",
-    "Tier: Hard &middot; Topic: Cryptarithm / digit substitution &middot; Diagram: yes &middot; INVENTED, added at the user's request as a no-borrow companion to #1 -- same RSS&minus;RS shape and solve method (bound R and S with 9R+S=26, then test), but a target (260) where no regrouping step is needed, so it isolates the digit-testing/bounding method from the borrow step #1 specifically targets. Placed at the end of the set (not renumbered to go before #1) to avoid disturbing every other problem's citation numbers -- if she's doing this one for scaffolding, have her do #31 before #1, not in worksheet order.",
-    diagram='<div style="font-family:ui-monospace,\'SF Mono\',\'Cascadia Mono\',\'Courier New\',monospace;letter-spacing:2px;max-width:140px;margin:0 auto;font-size:1.1em;"><div style="padding:2px 6px;line-height:1.5;text-align:right;">RSS</div><div style="padding:2px 6px;line-height:1.5;text-align:right;">&minus;RS</div><div style="padding:2px 6px;line-height:1.5;text-align:right;border-top:1.5px solid currentColor;margin-top:5px;padding-top:5px;">260</div></div>')
-
-assert len(P) == 31, len(P)
+assert len(P) == 30, len(P)
 json.dump(P, open(os.path.join(HERE, 'ma3_problems.json'), 'w'), indent=1)
 print("wrote ma3_problems.json,", len(P), "problems")

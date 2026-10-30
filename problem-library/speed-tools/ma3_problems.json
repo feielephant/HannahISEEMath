@@ -5,16 +5,16 @@
   "topic": "Cryptarithm / digit substitution",
   "q": "R and S are different digits from 1 through 9. What digit does S represent?",
   "choices": {
-   "D": "2",
-   "B": "5",
-   "C": "7",
-   "A": "9"
+   "A": "6",
+   "B": "8",
+   "C": "3",
+   "D": "9"
   },
-  "correct": "D",
-  "key": "<b>Answer: D.</b> RSS = 100R + 11S, and RS = 10R + S, so RSS &minus; RS = 90R + 10S = 650. Testing valid digits: R=7 gives S=2 (both valid, 1-9, distinct) -- this is the only combination that works. Check: 722 &minus; 72 = 650. (7 is the value of R, not S -- the exact-thing-asked trap.)",
+  "correct": "B",
+  "key": "<b>Answer: B.</b> RSS = 100R + 11S, and RS = 10R + S, so RSS &minus; RS = 90R + 10S = 260. Testing valid digits: R=2 gives S=8 (both valid, 1-9, distinct) -- this is the only combination that works. Check: 288 &minus; 28 = 260, and every column subtracts cleanly with NO borrowing needed (8&minus;2=6 in the tens place).",
   "habit_note": "exact-thing-asked / no-bounding-strategy",
-  "ref": "Tier: Hard &middot; Topic: Cryptarithm / digit substitution &middot; Diagram: yes &middot; INVENTED -- both known real cryptarithm items in the library are already spent (global_id 157, used in QR7 #4; global_id 184, used in QR3 #34 with different letters/target digit -- confirmed via a direct grep of every published worksheet, not just used_real_gids.json, which was missing that QR3 usage). Same borrow/regroup algebraic shape as QR8 #30's PQQ&minus;PQ puzzle (fresh letters and target so it isn't a repeat of that one either), reinforcing the same digit-testing-with-a-bound method.",
-  "diagram": "<div style=\"font-family:ui-monospace,'SF Mono','Cascadia Mono','Courier New',monospace;letter-spacing:2px;max-width:140px;margin:0 auto;font-size:1.1em;\"><div style=\"padding:2px 6px;line-height:1.5;text-align:right;\">RSS</div><div style=\"padding:2px 6px;line-height:1.5;text-align:right;\">&minus;RS</div><div style=\"padding:2px 6px;line-height:1.5;text-align:right;border-top:1.5px solid currentColor;margin-top:5px;padding-top:5px;\">650</div></div>",
+  "ref": "Tier: Hard &middot; Topic: Cryptarithm / digit substitution &middot; Diagram: yes &middot; INVENTED -- both known real cryptarithm items in the library are already spent (global_id 157, used in QR7 #4; global_id 184, used in QR3 #34 with different letters/target digit -- confirmed via a direct grep of every published worksheet, not just used_real_gids.json, which was missing that QR3 usage). Same RSS&minus;RS algebraic shape as QR8 #30's PQQ&minus;PQ puzzle, but target 260 (not 650) is chosen so NO borrow/regroup step is needed -- at the user's request, replacing the earlier borrow-requiring version of this same slot, to isolate the digit-testing/bounding method on its own rather than combine it with the borrow mechanic.",
+  "diagram": "<div style=\"font-family:ui-monospace,'SF Mono','Cascadia Mono','Courier New',monospace;letter-spacing:2px;max-width:140px;margin:0 auto;font-size:1.1em;\"><div style=\"padding:2px 6px;line-height:1.5;text-align:right;\">RSS</div><div style=\"padding:2px 6px;line-height:1.5;text-align:right;\">&minus;RS</div><div style=\"padding:2px 6px;line-height:1.5;text-align:right;border-top:1.5px solid currentColor;margin-top:5px;padding-top:5px;\">260</div></div>",
   "needs_diagram": true
  },
  {
@@ -23,13 +23,13 @@
   "topic": "Algebraic Equations with Symbol Variables",
   "q": "Marti wrote two equations: f &divide; g = 8, and 8 &times; 7 = f. What is the value of g?",
   "choices": {
-   "C": "6",
-   "D": "7",
-   "A": "8",
-   "B": "9"
+   "D": "6",
+   "A": "7",
+   "B": "8",
+   "C": "9"
   },
-  "correct": "D",
-  "key": "<b>Answer: D.</b> From the second equation, f = 8 &times; 7 = 56. Substitute into the first equation: 56 &divide; g = 8, so g = 56 &divide; 8 = 7.",
+  "correct": "A",
+  "key": "<b>Answer: A.</b> From the second equation, f = 8 &times; 7 = 56. Substitute into the first equation: 56 &divide; g = 8, so g = 56 &divide; 8 = 7.",
   "habit_note": null,
   "ref": "Tier: Easy &middot; Topic: Algebraic Equations with Symbol Variables &middot; Diagram: no &middot; Real official item (MA library, done/seen on ISEE Lower #2 Q7, answered correctly), used verbatim -- a simpler, 2-step chained-equation warmup for the same symbolic-equation skill family as #4's Algebra with Geometric Shapes.",
   "diagram": null,
@@ -42,12 +42,12 @@
   "q": "A grocery store originally sells a pear for $3.70. The price of a pear decreased by 16%. What is the cost of a pear now, rounded to the nearest cent?",
   "choices": {
    "C": "$3.01",
-   "A": "$3.11",
-   "D": "$3.21",
+   "D": "$3.11",
+   "A": "$3.21",
    "B": "$3.31"
   },
-  "correct": "A",
-  "key": "<b>Answer: A.</b> 16% of $3.70 = 0.16 &times; 3.70 = $0.592. New price: $3.70 &minus; $0.592 = $3.108, which rounds to $3.11.",
+  "correct": "D",
+  "key": "<b>Answer: D.</b> 16% of $3.70 = 0.16 &times; 3.70 = $0.592. New price: $3.70 &minus; $0.592 = $3.108, which rounds to $3.11.",
   "habit_note": null,
   "ref": "Tier: Medium &middot; Topic: Evaluating Percents of Numbers &middot; Diagram: no &middot; Real, unused library item (global_id 1108), used verbatim -- same &quot;price decreased by X%&quot; language/structure as QR8 #14 (the confirmed language gap), fresh numbers, never shown to her before.",
   "diagram": null,
@@ -59,13 +59,13 @@
   "topic": "Algebra with Geometric Shapes",
   "q": "If &#9633; + &#9633; + &#9633; = 12, and &#9633; &times; &#9675; = 20 are both true, what is the value of &#9675; &minus; &#9633;?",
   "choices": {
-   "B": "1",
-   "D": "5",
-   "A": "8",
+   "A": "1",
+   "B": "5",
+   "D": "8",
    "C": "9"
   },
-  "correct": "B",
-  "key": "<b>Answer: B.</b> From the first equation, &#9633; + &#9633; + &#9633; = 12, so &#9633; = 4. Substitute into the second equation: 4 &times; &#9675; = 20, so &#9675; = 5. Then &#9675; &minus; &#9633; = 5 &minus; 4 = 1.",
+  "correct": "A",
+  "key": "<b>Answer: A.</b> From the first equation, &#9633; + &#9633; + &#9633; = 12, so &#9633; = 4. Substitute into the second equation: 4 &times; &#9675; = 20, so &#9675; = 5. Then &#9675; &minus; &#9633; = 5 &minus; 4 = 1.",
   "habit_note": "no-solve-method-for-symbolic-equations",
   "ref": "Tier: Medium &middot; Topic: Algebra with Geometric Shapes &middot; Diagram: no &middot; Real, unused library item (global_id 123, ISEE Lower #3, answered correctly), used verbatim -- exact same 2-equation/2-symbol structure as QR8 #22 (&quot;she has no idea how to solve this&quot;), per the direct request to pull more real items of this exact shape. Solve-one-equation-first-then-substitute is the missing procedure to teach alongside this.",
   "diagram": null,
@@ -78,12 +78,12 @@
   "q": "The floor of Room A is in the shape of a square and has an area of 121 feet&sup2;. The floor of Room B is in the shape of a rectangle and has a length of 7 feet and width of 15 feet. Which statement correctly compares the floors in the two rooms?",
   "choices": {
    "A": "The area of the floor in Room A is the same as the area of the floor in Room B.",
-   "B": "The area of the floor in Room A is less than the area of the floor in Room B.",
+   "C": "The area of the floor in Room A is less than the area of the floor in Room B.",
    "D": "The perimeter of the floor in Room A is less than the perimeter of the floor in Room B.",
-   "C": "The perimeter of the floor in Room A is equal to the perimeter of the floor in Room B."
+   "B": "The perimeter of the floor in Room A is equal to the perimeter of the floor in Room B."
   },
-  "correct": "C",
-  "key": "<b>Answer: C.</b> Room A is a square with area 121 ft&sup2;, so its side length is 11 ft and its perimeter is 4 &times; 11 = 44 ft. Room B's area is 7 &times; 15 = 105 ft&sup2; (not equal to 121, so the two area-comparison choices are both false). Room B's perimeter is 2(7+15) = 44 ft -- the SAME as Room A's perimeter, even though the areas are different. You have to compute both area AND perimeter for both rooms before you can tell which comparison is true.",
+  "correct": "B",
+  "key": "<b>Answer: B.</b> Room A is a square with area 121 ft&sup2;, so its side length is 11 ft and its perimeter is 4 &times; 11 = 44 ft. Room B's area is 7 &times; 15 = 105 ft&sup2; (not equal to 121, so the two area-comparison choices are both false). Room B's perimeter is 2(7+15) = 44 ft -- the SAME as Room A's perimeter, even though the areas are different. You have to compute both area AND perimeter for both rooms before you can tell which comparison is true.",
   "habit_note": "compute-both-sides",
   "ref": "Tier: Medium &middot; Topic: Comparing Areas &middot; Diagram: no &middot; Real item (global_id 117, ISEE Lower #2) -- CONFIRMED WRONG on the real test (she picked C). All 3 real library items for this topic (gid107/117/188) have already been shown to her at least once (redo-set-5/6, predating the current QR/MA pipeline) -- this is gid117's scenario again, but with a 3rd, never-before-used pair of numbers (121/7/15, not the original 144/9/15 or redo-set-6's 100/6/14) so the specific values are still fresh even though the setup is familiar. Same compute-both-sides trap as QR8 #32's invented Room A/B version.",
   "diagram": null,
@@ -95,13 +95,13 @@
   "topic": "Comparing & Ordering Fractions & Decimals",
   "q": "A group of fraction bars is shown. Which list shows the fractions <span class=\"frac\"><span class=\"n\">2</span><span class=\"d\">3</span></span>, <span class=\"frac\"><span class=\"n\">3</span><span class=\"d\">4</span></span>, <span class=\"frac\"><span class=\"n\">3</span><span class=\"d\">6</span></span>, <span class=\"frac\"><span class=\"n\">2</span><span class=\"d\">5</span></span> in order from least to greatest?",
   "choices": {
-   "D": "<span class=\"frac\"><span class=\"n\">2</span><span class=\"d\">3</span></span>, <span class=\"frac\"><span class=\"n\">3</span><span class=\"d\">4</span></span>, <span class=\"frac\"><span class=\"n\">2</span><span class=\"d\">5</span></span>, <span class=\"frac\"><span class=\"n\">3</span><span class=\"d\">6</span></span>",
-   "A": "<span class=\"frac\"><span class=\"n\">2</span><span class=\"d\">5</span></span>, <span class=\"frac\"><span class=\"n\">3</span><span class=\"d\">6</span></span>, <span class=\"frac\"><span class=\"n\">2</span><span class=\"d\">3</span></span>, <span class=\"frac\"><span class=\"n\">3</span><span class=\"d\">4</span></span>",
-   "B": "<span class=\"frac\"><span class=\"n\">2</span><span class=\"d\">5</span></span>, <span class=\"frac\"><span class=\"n\">2</span><span class=\"d\">3</span></span>, <span class=\"frac\"><span class=\"n\">3</span><span class=\"d\">6</span></span>, <span class=\"frac\"><span class=\"n\">3</span><span class=\"d\">4</span></span>",
+   "B": "<span class=\"frac\"><span class=\"n\">2</span><span class=\"d\">3</span></span>, <span class=\"frac\"><span class=\"n\">3</span><span class=\"d\">4</span></span>, <span class=\"frac\"><span class=\"n\">2</span><span class=\"d\">5</span></span>, <span class=\"frac\"><span class=\"n\">3</span><span class=\"d\">6</span></span>",
+   "D": "<span class=\"frac\"><span class=\"n\">2</span><span class=\"d\">5</span></span>, <span class=\"frac\"><span class=\"n\">3</span><span class=\"d\">6</span></span>, <span class=\"frac\"><span class=\"n\">2</span><span class=\"d\">3</span></span>, <span class=\"frac\"><span class=\"n\">3</span><span class=\"d\">4</span></span>",
+   "A": "<span class=\"frac\"><span class=\"n\">2</span><span class=\"d\">5</span></span>, <span class=\"frac\"><span class=\"n\">2</span><span class=\"d\">3</span></span>, <span class=\"frac\"><span class=\"n\">3</span><span class=\"d\">6</span></span>, <span class=\"frac\"><span class=\"n\">3</span><span class=\"d\">4</span></span>",
    "C": "<span class=\"frac\"><span class=\"n\">3</span><span class=\"d\">4</span></span>, <span class=\"frac\"><span class=\"n\">2</span><span class=\"d\">3</span></span>, <span class=\"frac\"><span class=\"n\">3</span><span class=\"d\">6</span></span>, <span class=\"frac\"><span class=\"n\">2</span><span class=\"d\">5</span></span>"
   },
-  "correct": "A",
-  "key": "<b>Answer: A.</b> Using the fraction-bar model: <span class=\"frac\"><span class=\"n\">2</span><span class=\"d\">3</span></span>&asymp;0.667, <span class=\"frac\"><span class=\"n\">3</span><span class=\"d\">4</span></span>=0.75, <span class=\"frac\"><span class=\"n\">3</span><span class=\"d\">6</span></span>=0.5, <span class=\"frac\"><span class=\"n\">2</span><span class=\"d\">5</span></span>=0.4. Least to greatest: <span class=\"frac\"><span class=\"n\">2</span><span class=\"d\">5</span></span>, <span class=\"frac\"><span class=\"n\">3</span><span class=\"d\">6</span></span>, <span class=\"frac\"><span class=\"n\">2</span><span class=\"d\">3</span></span>, <span class=\"frac\"><span class=\"n\">3</span><span class=\"d\">4</span></span>.",
+  "correct": "D",
+  "key": "<b>Answer: D.</b> Using the fraction-bar model: <span class=\"frac\"><span class=\"n\">2</span><span class=\"d\">3</span></span>&asymp;0.667, <span class=\"frac\"><span class=\"n\">3</span><span class=\"d\">4</span></span>=0.75, <span class=\"frac\"><span class=\"n\">3</span><span class=\"d\">6</span></span>=0.5, <span class=\"frac\"><span class=\"n\">2</span><span class=\"d\">5</span></span>=0.4. Least to greatest: <span class=\"frac\"><span class=\"n\">2</span><span class=\"d\">5</span></span>, <span class=\"frac\"><span class=\"n\">3</span><span class=\"d\">6</span></span>, <span class=\"frac\"><span class=\"n\">2</span><span class=\"d\">3</span></span>, <span class=\"frac\"><span class=\"n\">3</span><span class=\"d\">4</span></span>.",
   "habit_note": "key-word-watch (least-to-greatest direction)",
   "ref": "Tier: Medium &middot; Topic: Comparing &amp; Ordering Fractions &amp; Decimals &middot; Diagram: yes &middot; Real, unused library item (global_id 139, ISEE Lower #3) -- CONFIRMED WRONG on the real test. Her wrong pick (D) was the correct order B exactly reversed, suggesting she sized the fractions right but flipped the least-to-greatest direction -- worth a direct check-in on that specific slip.",
   "diagram": "<svg viewBox=\"0 0 300 112\" width=\"300\" height=\"112\" role=\"img\"><g transform=\"translate(0,0)\"><rect x=\"0\" y=\"0\" width=\"220\" height=\"20\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\"/><line x1=\"73.33333333333333\" y1=\"0\" x2=\"73.33333333333333\" y2=\"20\" stroke=\"currentColor\" stroke-width=\"1\" opacity=\"0.6\"/><line x1=\"146.66666666666666\" y1=\"0\" x2=\"146.66666666666666\" y2=\"20\" stroke=\"currentColor\" stroke-width=\"1\" opacity=\"0.6\"/><text x=\"228\" y=\"15\" font-size=\"11\" fill=\"currentColor\">1/3 each</text></g><g transform=\"translate(0,28)\"><rect x=\"0\" y=\"0\" width=\"220\" height=\"20\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\"/><line x1=\"55.0\" y1=\"0\" x2=\"55.0\" y2=\"20\" stroke=\"currentColor\" stroke-width=\"1\" opacity=\"0.6\"/><line x1=\"110.0\" y1=\"0\" x2=\"110.0\" y2=\"20\" stroke=\"currentColor\" stroke-width=\"1\" opacity=\"0.6\"/><line x1=\"165.0\" y1=\"0\" x2=\"165.0\" y2=\"20\" stroke=\"currentColor\" stroke-width=\"1\" opacity=\"0.6\"/><text x=\"228\" y=\"15\" font-size=\"11\" fill=\"currentColor\">1/4 each</text></g><g transform=\"translate(0,56)\"><rect x=\"0\" y=\"0\" width=\"220\" height=\"20\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\"/><line x1=\"44.0\" y1=\"0\" x2=\"44.0\" y2=\"20\" stroke=\"currentColor\" stroke-width=\"1\" opacity=\"0.6\"/><line x1=\"88.0\" y1=\"0\" x2=\"88.0\" y2=\"20\" stroke=\"currentColor\" stroke-width=\"1\" opacity=\"0.6\"/><line x1=\"132.0\" y1=\"0\" x2=\"132.0\" y2=\"20\" stroke=\"currentColor\" stroke-width=\"1\" opacity=\"0.6\"/><line x1=\"176.0\" y1=\"0\" x2=\"176.0\" y2=\"20\" stroke=\"currentColor\" stroke-width=\"1\" opacity=\"0.6\"/><text x=\"228\" y=\"15\" font-size=\"11\" fill=\"currentColor\">1/5 each</text></g><g transform=\"translate(0,84)\"><rect x=\"0\" y=\"0\" width=\"220\" height=\"20\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\"/><line x1=\"36.666666666666664\" y1=\"0\" x2=\"36.666666666666664\" y2=\"20\" stroke=\"currentColor\" stroke-width=\"1\" opacity=\"0.6\"/><line x1=\"73.33333333333333\" y1=\"0\" x2=\"73.33333333333333\" y2=\"20\" stroke=\"currentColor\" stroke-width=\"1\" opacity=\"0.6\"/><line x1=\"110.0\" y1=\"0\" x2=\"110.0\" y2=\"20\" stroke=\"currentColor\" stroke-width=\"1\" opacity=\"0.6\"/><line x1=\"146.66666666666666\" y1=\"0\" x2=\"146.66666666666666\" y2=\"20\" stroke=\"currentColor\" stroke-width=\"1\" opacity=\"0.6\"/><line x1=\"183.33333333333331\" y1=\"0\" x2=\"183.33333333333331\" y2=\"20\" stroke=\"currentColor\" stroke-width=\"1\" opacity=\"0.6\"/><text x=\"228\" y=\"15\" font-size=\"11\" fill=\"currentColor\">1/6 each</text></g></svg>",
@@ -113,13 +113,13 @@
   "topic": "Finding Unit Price",
   "q": "If 6 apples cost $9, what is the cost of 8 apples at the same rate?",
   "choices": {
-   "A": "$11",
-   "C": "$12",
-   "B": "$14",
-   "D": "$16"
+   "B": "$11",
+   "D": "$12",
+   "C": "$14",
+   "A": "$16"
   },
-  "correct": "C",
-  "key": "<b>Answer: C.</b> Unit price: $9 &divide; 6 apples = $1.50 per apple. 8 apples &times; $1.50 = $12.",
+  "correct": "D",
+  "key": "<b>Answer: D.</b> Unit price: $9 &divide; 6 apples = $1.50 per apple. 8 apples &times; $1.50 = $12.",
   "habit_note": null,
   "ref": "Tier: Easy &middot; Topic: Finding Unit Price &middot; Diagram: no &middot; Real, unused library item (global_id 259) -- CONFIRMED WRONG (she circled $11, inconsistent with her own correct scratch work of $3 per 2 apples). Cross-topic real item: catalogued under &quot;unit price scaling&quot; rather than a literal &quot;Finding Unit Price&quot; tag (no item in the library carries that exact tag), but it is the identical find-the-per-unit-rate-then-scale mechanic.",
   "diagram": null,
@@ -131,13 +131,13 @@
   "topic": "English Unit Conversions",
   "q": "There are 12 inches in 1 foot. The length of one wall in Mr. Jones's classroom is 29 feet. What is the length of this wall in inches?",
   "choices": {
-   "B": "242",
-   "A": "248",
-   "C": "338",
-   "D": "348"
+   "A": "242",
+   "D": "248",
+   "B": "338",
+   "C": "348"
   },
-  "correct": "D",
-  "key": "<b>Answer: D.</b> 29 feet &times; 12 inches per foot = 348 inches.",
+  "correct": "C",
+  "key": "<b>Answer: C.</b> 29 feet &times; 12 inches per foot = 348 inches.",
   "habit_note": null,
   "ref": "Tier: Easy &middot; Topic: English Unit Conversions &middot; Diagram: no &middot; Real, unused library item (global_id 90, ISEE Lower #2), used verbatim, answered correctly. A clean single-step conversion -- deliberately NOT the 3-way mixed-unit comparison shape (that one was already used in QR8 #6).",
   "diagram": null,
@@ -151,8 +151,8 @@
   "choices": {
    "D": "12",
    "B": "18",
-   "A": "20",
-   "C": "60"
+   "C": "20",
+   "A": "60"
   },
   "correct": "D",
   "key": "<b>Answer: D.</b> Cars in the lot: <span class=\"frac\"><span class=\"n\">3</span><span class=\"d\">5</span></span> of 100 = 60. Blue cars: 20% of 60 = 0.2 &times; 60 = 12. (20 is 20% of the full 100 spots, not 20% of the 60 actual cars -- using the wrong base.)",
@@ -186,8 +186,8 @@
   "q": "Frank shaded a number pattern on the chart shown. He missed shading one number in the pattern between 18 and 30. What number did Frank miss shading?",
   "choices": {
    "C": "21",
-   "B": "22",
-   "D": "23",
+   "D": "22",
+   "B": "23",
    "A": "24"
   },
   "correct": "A",
@@ -203,13 +203,13 @@
   "topic": "Multi-step unit conversion (off-by-10, multi-step)",
   "q": "4,000 milliliters is equal to how many kiloliters?",
   "choices": {
-   "B": "0.004 kiloliters",
-   "A": "0.04 kiloliters",
-   "C": "40,000 kiloliters",
-   "D": "4,000,000 kiloliters"
+   "D": "0.004 kiloliters",
+   "B": "0.04 kiloliters",
+   "A": "40,000 kiloliters",
+   "C": "4,000,000 kiloliters"
   },
-  "correct": "B",
-  "key": "<b>Answer: B.</b> 1 kiloliter = 1,000,000 milliliters (1 kL = 1,000 L, and 1 L = 1,000 mL). So 4,000 mL &divide; 1,000,000 = 0.004 kL. This is a two-step metric jump (mL &rarr; L &rarr; kL), which is exactly where a factor-of-10 slip creeps in.",
+  "correct": "D",
+  "key": "<b>Answer: D.</b> 1 kiloliter = 1,000,000 milliliters (1 kL = 1,000 L, and 1 L = 1,000 mL). So 4,000 mL &divide; 1,000,000 = 0.004 kL. This is a two-step metric jump (mL &rarr; L &rarr; kL), which is exactly where a factor-of-10 slip creeps in.",
   "habit_note": "off-by-10 (metric prefix jump)",
   "ref": "Tier: Medium &middot; Topic: Multi-step unit conversion (off-by-10, multi-step) &middot; Diagram: no &middot; Real, unused library item (global_id 203) -- CONFIRMED WRONG, and confirmed off by exactly a factor of 10 (she circled 0.04 instead of 0.004) -- a direct, real hit on this exact named gap.",
   "diagram": null,
@@ -221,13 +221,13 @@
   "topic": "Solving Problems with Geometric Formulas",
   "q": "If the volume of a rectangular prism is 72 in&sup3;, which equation can be used to determine the height of the prism if the length is 6? (V = lwh, where V = volume, l = length, w = width, and h = height.)",
   "choices": {
-   "C": "<span class=\"frac\"><span class=\"n\">12</span><span class=\"d\">w</span></span>",
-   "D": "<span class=\"frac\"><span class=\"n\">12</span><span class=\"d\">h</span></span>",
-   "B": "<span class=\"frac\"><span class=\"n\">72</span><span class=\"d\">(6h)</span></span>",
-   "A": "72w"
+   "B": "<span class=\"frac\"><span class=\"n\">12</span><span class=\"d\">w</span></span>",
+   "C": "<span class=\"frac\"><span class=\"n\">12</span><span class=\"d\">h</span></span>",
+   "A": "<span class=\"frac\"><span class=\"n\">72</span><span class=\"d\">(6h)</span></span>",
+   "D": "72w"
   },
-  "correct": "C",
-  "key": "<b>Answer: C.</b> V = lwh, so 72 = 6 &times; w &times; h, which means w &times; h = 12. Solving for h: h = 12/w.",
+  "correct": "B",
+  "key": "<b>Answer: B.</b> V = lwh, so 72 = 6 &times; w &times; h, which means w &times; h = 12. Solving for h: h = 12/w.",
   "habit_note": null,
   "ref": "Tier: Hard &middot; Topic: Solving Problems with Geometric Formulas &middot; Diagram: no &middot; Real, unused library item (global_id 748), used verbatim -- same rearrange-the-volume-formula skill as QR8 #1, different given variable (length instead of height) so it's not a repeat.",
   "diagram": null,
@@ -240,12 +240,12 @@
   "q": "Two numbers are greater than 1. One is a prime number and the other is an odd number. What will always describe the product of the two numbers?",
   "choices": {
    "D": "odd number",
-   "C": "even number",
-   "A": "prime number",
-   "B": "composite number"
+   "A": "even number",
+   "B": "prime number",
+   "C": "composite number"
   },
-  "correct": "B",
-  "key": "<b>Answer: B.</b> A prime number has exactly two factors (1 and itself). Multiplying it by another number greater than 1 always creates a number with MORE than two factors -- which makes it composite, no matter which prime or odd number you pick. Example: prime 2 &times; odd 5 = 10 (composite). Example: prime 5 &times; odd 7 = 35 (odd AND composite) -- the only thing true in both examples is &quot;composite.&quot;",
+  "correct": "C",
+  "key": "<b>Answer: C.</b> A prime number has exactly two factors (1 and itself). Multiplying it by another number greater than 1 always creates a number with MORE than two factors -- which makes it composite, no matter which prime or odd number you pick. Example: prime 2 &times; odd 5 = 10 (composite). Example: prime 5 &times; odd 7 = 35 (odd AND composite) -- the only thing true in both examples is &quot;composite.&quot;",
   "habit_note": "always-true reasoning (test with 2 examples, keep only what matches both)",
   "ref": "Tier: Medium &middot; Topic: Classification of Numbers, given a Set &middot; Diagram: no &middot; Real official item (ISEE Lower #2 Q29), used verbatim -- the user's own pick, direct from Screenshot 2026-10-06 at 10.37.09 AM.png. CONFIRMED WRONG on the real test (she picked A, odd number) -- a genuine &quot;always true&quot; logic gap, replacing Vertices Forming Right Angles Quadrilaterals (only 2 graded instances, both correct, weak evidence either way).",
   "diagram": null,
@@ -257,13 +257,13 @@
   "topic": "Word Problems with Ratios",
   "q": "Justin had some coins in a bag. He counted 38 coins that were silver and 27 coins that were copper. What fraction of the coins that Justin had were silver?",
   "choices": {
-   "B": "<span class=\"frac\"><span class=\"n\">27</span><span class=\"d\">38</span></span>",
-   "A": "<span class=\"frac\"><span class=\"n\">38</span><span class=\"d\">27</span></span>",
-   "D": "<span class=\"frac\"><span class=\"n\">27</span><span class=\"d\">65</span></span>",
-   "C": "<span class=\"frac\"><span class=\"n\">38</span><span class=\"d\">65</span></span>"
+   "C": "<span class=\"frac\"><span class=\"n\">27</span><span class=\"d\">38</span></span>",
+   "D": "<span class=\"frac\"><span class=\"n\">38</span><span class=\"d\">27</span></span>",
+   "B": "<span class=\"frac\"><span class=\"n\">27</span><span class=\"d\">65</span></span>",
+   "A": "<span class=\"frac\"><span class=\"n\">38</span><span class=\"d\">65</span></span>"
   },
-  "correct": "C",
-  "key": "<b>Answer: C.</b> The part is the silver coins (38); the whole is ALL the coins (38 + 27 = 65). Fraction silver = <span class=\"frac\"><span class=\"n\">38</span><span class=\"d\">65</span></span>. (Using 27 as the denominator or numerator instead of the 65 total gives a part-to-part ratio instead of part-to-whole.)",
+  "correct": "A",
+  "key": "<b>Answer: A.</b> The part is the silver coins (38); the whole is ALL the coins (38 + 27 = 65). Fraction silver = <span class=\"frac\"><span class=\"n\">38</span><span class=\"d\">65</span></span>. (Using 27 as the denominator or numerator instead of the 65 total gives a part-to-part ratio instead of part-to-whole.)",
   "habit_note": "part-to-whole vs part-to-part",
   "ref": "Tier: Medium &middot; Topic: Word Problems with Ratios &middot; Diagram: no &middot; Real, unused library item (global_id 140, ISEE Lower #3), used verbatim, answered correctly.",
   "diagram": null,
@@ -275,13 +275,13 @@
   "topic": "Nth Term, Arithmetic Sequence (merged)",
   "q": "Use the pattern to help answer the question: 1+3=2&sup2;, 1+3+5=3&sup2;, 1+3+5+7=4&sup2;. What is the solution to 1+3+5+7+9+11+13+15?",
   "choices": {
-   "C": "5&sup2;",
-   "D": "8&sup2;",
+   "D": "5&sup2;",
+   "C": "8&sup2;",
    "A": "12&sup2;",
    "B": "13&sup2;"
   },
-  "correct": "D",
-  "key": "<b>Answer: D.</b> Each time you add one more odd number, the base number on the right goes up by 1. Continuing: 1+3+5+7+9=5&sup2;, +11=6&sup2;, +13=7&sup2;, +15=8&sup2;. So the full sum 1+3+5+7+9+11+13+15 = 8&sup2;.",
+  "correct": "C",
+  "key": "<b>Answer: C.</b> Each time you add one more odd number, the base number on the right goes up by 1. Continuing: 1+3+5+7+9=5&sup2;, +11=6&sup2;, +13=7&sup2;, +15=8&sup2;. So the full sum 1+3+5+7+9+11+13+15 = 8&sup2;.",
   "habit_note": null,
   "ref": "Tier: Easy &middot; Topic: Nth Term, Arithmetic Sequence (merged) &middot; Diagram: no &middot; Real, unused library item (global_id 16, &quot;What to Expect&quot; set), used verbatim, answered correctly -- a different pattern-recognition flavor (sum of consecutive odds = perfect square) than the usual find-a-missing-term format, for variety within this merged topic.",
   "diagram": null,
@@ -293,13 +293,13 @@
   "topic": "Measurement Scaling",
   "q": "Two cubes are shown. Cube A has sides of length 2 units and Cube B has sides of length 4 units. How many Cube A's can fit inside of Cube B?",
   "choices": {
-   "B": "4",
-   "D": "8",
-   "C": "12",
-   "A": "16"
+   "A": "4",
+   "B": "8",
+   "D": "12",
+   "C": "16"
   },
-  "correct": "D",
-  "key": "<b>Answer: D.</b> Volume of Cube A = 2&times;2&times;2 = 8 cubic units. Volume of Cube B = 4&times;4&times;4 = 64 cubic units. 64 &divide; 8 = 8 Cube A's fit inside Cube B. (Doubling the side length multiplies the VOLUME by 2&sup3;=8, not by 2 -- a very common trap, which is why 4 is also offered as a choice.)",
+  "correct": "B",
+  "key": "<b>Answer: B.</b> Volume of Cube A = 2&times;2&times;2 = 8 cubic units. Volume of Cube B = 4&times;4&times;4 = 64 cubic units. 64 &divide; 8 = 8 Cube A's fit inside Cube B. (Doubling the side length multiplies the VOLUME by 2&sup3;=8, not by 2 -- a very common trap, which is why 4 is also offered as a choice.)",
   "habit_note": "linear-vs-volume scaling",
   "ref": "Tier: Hard &middot; Topic: Measurement Scaling &middot; Diagram: yes &middot; Real, unused library item (global_id 66, ISEE Lower #1), used verbatim, answered correctly.",
   "diagram": "<svg viewBox=\"0 0 134 68.6\" width=\"134\" height=\"68.6\" role=\"img\"><g transform=\"translate(0,0)\"><polygon points=\"6.3,0 24.3,0 18,6.3 0,6.3\" fill=\"var(--surface-alt)\" stroke=\"currentColor\" stroke-width=\"1.5\"/><polygon points=\"18,6.3 24.3,0 24.3,18 18,24.3\" fill=\"var(--accent-soft)\" stroke=\"currentColor\" stroke-width=\"1.5\"/><rect x=\"0\" y=\"6.3\" width=\"18\" height=\"18\" fill=\"var(--surface)\" stroke=\"currentColor\" stroke-width=\"1.5\"/><text x=\"9.0\" y=\"40.3\" font-size=\"12\" text-anchor=\"middle\" fill=\"currentColor\">A (side 2)</text></g><g transform=\"translate(68,0)\"><polygon points=\"12.6,0 48.6,0 36,12.6 0,12.6\" fill=\"var(--surface-alt)\" stroke=\"currentColor\" stroke-width=\"1.5\"/><polygon points=\"36,12.6 48.6,0 48.6,36 36,48.6\" fill=\"var(--accent-soft)\" stroke=\"currentColor\" stroke-width=\"1.5\"/><rect x=\"0\" y=\"12.6\" width=\"36\" height=\"36\" fill=\"var(--surface)\" stroke=\"currentColor\" stroke-width=\"1.5\"/><text x=\"18.0\" y=\"64.6\" font-size=\"12\" text-anchor=\"middle\" fill=\"currentColor\">B (side 4)</text></g></svg>",
@@ -311,13 +311,13 @@
   "topic": "Counting Multiples within a Range",
   "q": "How many numbers between 67 and 85 are divisible by 4?",
   "choices": {
-   "D": "2",
-   "C": "3",
-   "B": "5",
-   "A": "7"
+   "A": "2",
+   "B": "3",
+   "D": "5",
+   "C": "7"
   },
-  "correct": "B",
-  "key": "<b>Answer: B.</b> Multiples of 4 between 67 and 85: 68, 72, 76, 80, 84 -- that's 5 numbers.",
+  "correct": "D",
+  "key": "<b>Answer: D.</b> Multiples of 4 between 67 and 85: 68, 72, 76, 80, 84 -- that's 5 numbers.",
   "habit_note": "check-every-condition / use-all-data",
   "ref": "Tier: Hard &middot; Topic: Counting Multiples within a Range &middot; Diagram: no &middot; Real, unused library item (global_id 725), used verbatim -- source screenshot had no visible answer marker, so the correct letter (C) was independently verified by direct computation.",
   "diagram": null,
@@ -329,13 +329,13 @@
   "topic": "No Remainder when Divided by a given Number",
   "q": "Which whole number is divisible by 6 without a remainder?",
   "choices": {
-   "D": "200",
-   "C": "376",
-   "B": "732",
+   "B": "200",
+   "D": "376",
+   "C": "732",
    "A": "916"
   },
-  "correct": "B",
-  "key": "<b>Answer: B.</b> A number is divisible by 6 if it's divisible by BOTH 2 and 3. 732 is even (divisible by 2), and its digit sum 7+3+2=12 is divisible by 3 -- so 732 is divisible by 6 (732 &divide; 6 = 122). None of the other choices pass both checks.",
+  "correct": "C",
+  "key": "<b>Answer: C.</b> A number is divisible by 6 if it's divisible by BOTH 2 and 3. 732 is even (divisible by 2), and its digit sum 7+3+2=12 is divisible by 3 -- so 732 is divisible by 6 (732 &divide; 6 = 122). None of the other choices pass both checks.",
   "habit_note": "no-remainder divisibility rule, combined 2-and-3 check for 6",
   "ref": "Tier: Hard &middot; Topic: No Remainder when Divided by a given Number &middot; Diagram: no &middot; Real, unused library item (global_id 174, ISEE Lower #4 Q15), used verbatim. Original pick for this slot (the &quot;Lillian and 7 other students&quot; word-problem item, ISEE Lower #1 Q29) was dropped once a grep of every published worksheet -- not just used_real_gids.json -- found it already in rotation twice over: verbatim in an earlier online-set and with fresh numbers in an earlier redo-set, both predating the current QR/MA pipeline.",
   "diagram": null,
@@ -348,9 +348,9 @@
   "q": "The width of a rectangle is Y meters. Which statement correctly compares the value of Y to the length of the rectangle, where Y = <span class=\"frac\"><span class=\"n\">1</span><span class=\"d\">4</span></span> &times; length?",
   "choices": {
    "A": "The value of Y is always <span class=\"frac\"><span class=\"n\">1</span><span class=\"d\">4</span></span> times the value of the length.",
-   "C": "The value of Y is always <span class=\"frac\"><span class=\"n\">3</span><span class=\"d\">4</span></span> times the value of the length.",
+   "D": "The value of Y is always <span class=\"frac\"><span class=\"n\">3</span><span class=\"d\">4</span></span> times the value of the length.",
    "B": "The value of Y is always 3 times the value of the length.",
-   "D": "The value of Y is always 4 times the value of the length."
+   "C": "The value of Y is always 4 times the value of the length."
   },
   "correct": "A",
   "key": "<b>Answer: A.</b> The equation directly states Y = <span class=\"frac\"><span class=\"n\">1</span><span class=\"d\">4</span></span> &times; length -- so Y is always <span class=\"frac\"><span class=\"n\">1</span><span class=\"d\">4</span></span> of the length. (B swaps in the COMPLEMENT, <span class=\"frac\"><span class=\"n\">3</span><span class=\"d\">4</span></span>, instead of the fraction actually given in the equation -- a complement-confusion trap, the same kind of mix-up as the 'decreased by 30%' language gap.)",
@@ -366,8 +366,8 @@
   "q": "Brandon used a number machine. Each number he put in came out as a different number, according to one consistent rule. Some examples are shown in the table. Which statement describes the relationship between the number Brandon put into the machine and the number that came out of it?",
   "choices": {
    "B": "The output was 2 more than the input.",
-   "D": "The output was 2 less than the input.",
-   "A": "The output was 5 more than the input.",
+   "A": "The output was 2 less than the input.",
+   "D": "The output was 5 more than the input.",
    "C": "The output was 5 less than the input."
   },
   "correct": "B",
@@ -383,13 +383,13 @@
   "topic": "Order of Operations and Equivalence",
   "q": "Which expression is equal to (2 + 8) &times; 7?",
   "choices": {
-   "A": "2 + 8 &times; 7",
-   "B": "2 &times; 7 + 8",
-   "D": "2 &times; 8 + 8 &times; 7",
-   "C": "2 &times; 7 + 8 &times; 7"
+   "C": "2 + 8 &times; 7",
+   "A": "2 &times; 7 + 8",
+   "B": "2 &times; 8 + 8 &times; 7",
+   "D": "2 &times; 7 + 8 &times; 7"
   },
-  "correct": "C",
-  "key": "<b>Answer: C.</b> By the distributive property, a(b+c) = ab + ac, so (2+8)&times;7 = 2&times;7 + 8&times;7. (Check directly: (2+8)&times;7 = 10&times;7 = 70, and only this expression also equals 70.)",
+  "correct": "D",
+  "key": "<b>Answer: D.</b> By the distributive property, a(b+c) = ab + ac, so (2+8)&times;7 = 2&times;7 + 8&times;7. (Check directly: (2+8)&times;7 = 10&times;7 = 70, and only this expression also equals 70.)",
   "habit_note": null,
   "ref": "Tier: Medium &middot; Topic: Order of Operations and Equivalence &middot; Diagram: no &middot; Real, unused library item (ISEE Lower #3 Q29), used verbatim, answered correctly -- a distributive-property-equivalence item, different shape than QR8 #8's plain simplify-both-groups version.",
   "diagram": null,
@@ -401,13 +401,13 @@
   "topic": "Remainder when Divided by a given Number",
   "q": "Which expression results in a remainder of 5?",
   "choices": {
-   "C": "32 &divide; 6",
-   "A": "33 &divide; 6",
+   "A": "32 &divide; 6",
+   "D": "33 &divide; 6",
    "B": "34 &divide; 6",
-   "D": "35 &divide; 6"
+   "C": "35 &divide; 6"
   },
-  "correct": "D",
-  "key": "<b>Answer: D.</b> 35 &divide; 6 = 5 remainder 5 (6&times;5=30, 35&minus;30=5). Check the others: 32&divide;6=5 r2, 33&divide;6=5 r3, 34&divide;6=5 r4 -- only D leaves remainder 5.",
+  "correct": "C",
+  "key": "<b>Answer: C.</b> 35 &divide; 6 = 5 remainder 5 (6&times;5=30, 35&minus;30=5). Check the others: 32&divide;6=5 r2, 33&divide;6=5 r3, 34&divide;6=5 r4 -- only D leaves remainder 5.",
   "habit_note": null,
   "ref": "Tier: Easy &middot; Topic: Remainder when Divided by a given Number &middot; Diagram: no &middot; Real, unused library item (MA library, not_done), used verbatim. Original pick for this slot (&quot;leaves a remainder of 2 when divided by both 5 and 8&quot;) was dropped once a grep of every published worksheet found it already used, verbatim, choices and all, in an earlier redo-set predating the current QR/MA pipeline -- used_real_gids.json had no record of it since that set is outside its tracked range.",
   "diagram": null,
@@ -420,9 +420,9 @@
   "q": "The 2nd number in a pattern is 19, the 3rd number is 31, and the 4th number is 43. What is the 1st number in the pattern?",
   "choices": {
    "B": "7",
-   "C": "12",
-   "D": "55",
-   "A": "31"
+   "A": "12",
+   "C": "55",
+   "D": "31"
   },
   "correct": "B",
   "key": "<b>Answer: B.</b> The common difference is 12 (31&minus;19=12, 43&minus;31=12). Working backward: 1st number = 19 &minus; 12 = 7. (12 is the DIFFERENCE, not the 1st term -- the same off-by-one-direction trap as QR7 #35. 55 extends the pattern FORWARD instead of backward, which isn't what's asked.)",
@@ -456,12 +456,12 @@
   "q": "Which phrase is represented by the expression (46 &minus; 22) &divide; 2?",
   "choices": {
    "D": "22 less than the quotient of 46 and 2",
-   "A": "46 more than the quotient of 22 and 2",
-   "C": "half the difference of 46 and 22",
+   "C": "46 more than the quotient of 22 and 2",
+   "A": "half the difference of 46 and 22",
    "B": "twice the difference of 46 and 22"
   },
-  "correct": "C",
-  "key": "<b>Answer: C.</b> (46 &minus; 22) is &quot;the difference of 46 and 22.&quot; Dividing that difference by 2 is the same as taking HALF of it -- so &quot;half the difference of 46 and 22.&quot;",
+  "correct": "A",
+  "key": "<b>Answer: A.</b> (46 &minus; 22) is &quot;the difference of 46 and 22.&quot; Dividing that difference by 2 is the same as taking HALF of it -- so &quot;half the difference of 46 and 22.&quot;",
   "habit_note": null,
   "ref": "Tier: Hard &middot; Topic: Translating Math Expressions &middot; Diagram: no &middot; Real, unused library item (global_id 106, ISEE Lower #2), used verbatim, answered correctly -- the reverse direction (expression &rarr; phrase) from the usual phrase &rarr; expression format, for variety.",
   "diagram": null,
@@ -474,8 +474,8 @@
   "q": "The net shown below will fold up into which shape?",
   "choices": {
    "A": "cylinder",
-   "C": "cone",
-   "B": "cube",
+   "B": "cone",
+   "C": "cube",
    "D": "sphere"
   },
   "correct": "A",
@@ -493,11 +493,11 @@
   "choices": {
    "C": "20 + 20",
    "D": "30 + 20",
-   "A": "20 &times; 20",
-   "B": "30 &times; 20"
+   "B": "20 &times; 20",
+   "A": "30 &times; 20"
   },
-  "correct": "A",
-  "key": "<b>Answer: A.</b> Round each number to the nearest ten: 23 rounds to 20, and $18.99 rounds to $20. Since this is a total COST for many items, you multiply (not add): 20 &times; 20.",
+  "correct": "B",
+  "key": "<b>Answer: B.</b> Round each number to the nearest ten: 23 rounds to 20, and $18.99 rounds to $20. Since this is a total COST for many items, you multiply (not add): 20 &times; 20.",
   "habit_note": null,
   "ref": "Tier: Medium &middot; Topic: Estimating Multiplication &amp; Division &middot; Diagram: no &middot; Real, unused library item (global_id 85, ISEE Lower #2), used verbatim, answered correctly.",
   "diagram": null,
@@ -509,10 +509,10 @@
   "topic": "Dividing Equally From a Total",
   "q": "Manny has a total of 228 eggs. Using these eggs, he will fill empty egg cartons that each hold 12 eggs. What is the greatest number of egg cartons that Manny can fill completely?",
   "choices": {
-   "D": "18",
+   "B": "18",
    "C": "19",
-   "B": "240",
-   "A": "2,736"
+   "A": "240",
+   "D": "2,736"
   },
   "correct": "C",
   "key": "<b>Answer: C.</b> 228 &divide; 12 = 19 full cartons exactly.",
@@ -537,24 +537,6 @@
   "habit_note": null,
   "ref": "Tier: Hard &middot; Topic: Determining Averages/Points on Number Lines (merged) &middot; Diagram: yes &middot; Real, unused library item (global_id 194, ISEE Lower #4), used verbatim, answered correctly -- positions verified directly against the source screenshot (9 ticks from 10 to 37, A at tick 2, B at tick 6), not guessed from the text description alone.",
   "diagram": "<svg viewBox=\"0 0 320 60\" width=\"320\" height=\"60\" role=\"img\"><line x1=\"20\" y1=\"30\" x2=\"300\" y2=\"30\" stroke=\"currentColor\" stroke-width=\"1.5\"/><line x1=\"20.0\" y1=\"22\" x2=\"20.0\" y2=\"38\" stroke=\"currentColor\" stroke-width=\"1.5\"/><text x=\"20.0\" y=\"52\" font-size=\"12\" text-anchor=\"middle\" fill=\"currentColor\">10</text><line x1=\"51.111111111111114\" y1=\"22\" x2=\"51.111111111111114\" y2=\"38\" stroke=\"currentColor\" stroke-width=\"1.5\"/><line x1=\"82.22222222222223\" y1=\"22\" x2=\"82.22222222222223\" y2=\"38\" stroke=\"currentColor\" stroke-width=\"1.5\"/><text x=\"82.22222222222223\" y=\"14\" font-size=\"13\" text-anchor=\"middle\" fill=\"currentColor\">A</text><line x1=\"113.33333333333333\" y1=\"22\" x2=\"113.33333333333333\" y2=\"38\" stroke=\"currentColor\" stroke-width=\"1.5\"/><line x1=\"144.44444444444446\" y1=\"22\" x2=\"144.44444444444446\" y2=\"38\" stroke=\"currentColor\" stroke-width=\"1.5\"/><line x1=\"175.55555555555554\" y1=\"22\" x2=\"175.55555555555554\" y2=\"38\" stroke=\"currentColor\" stroke-width=\"1.5\"/><line x1=\"206.66666666666666\" y1=\"22\" x2=\"206.66666666666666\" y2=\"38\" stroke=\"currentColor\" stroke-width=\"1.5\"/><text x=\"206.66666666666666\" y=\"14\" font-size=\"13\" text-anchor=\"middle\" fill=\"currentColor\">B</text><line x1=\"237.77777777777777\" y1=\"22\" x2=\"237.77777777777777\" y2=\"38\" stroke=\"currentColor\" stroke-width=\"1.5\"/><line x1=\"268.8888888888889\" y1=\"22\" x2=\"268.8888888888889\" y2=\"38\" stroke=\"currentColor\" stroke-width=\"1.5\"/><line x1=\"300.0\" y1=\"22\" x2=\"300.0\" y2=\"38\" stroke=\"currentColor\" stroke-width=\"1.5\"/><text x=\"300.0\" y=\"52\" font-size=\"12\" text-anchor=\"middle\" fill=\"currentColor\">37</text></svg>",
-  "needs_diagram": true
- },
- {
-  "n": 31,
-  "tier": "Hard",
-  "topic": "Cryptarithm / digit substitution",
-  "q": "R and S are different digits from 1 through 9. What digit does S represent?",
-  "choices": {
-   "B": "6",
-   "A": "8",
-   "C": "3",
-   "D": "9"
-  },
-  "correct": "A",
-  "key": "<b>Answer: A.</b> RSS = 100R + 11S, and RS = 10R + S, so RSS &minus; RS = 90R + 10S = 260. Testing valid digits: R=2 gives S=8 (both valid, 1-9, distinct) -- this is the only combination that works. Check: 288 &minus; 28 = 260, and this time every column subtracts cleanly with NO borrowing (8&minus;2=6 in the tens place, no regrouping needed) -- unlike #1, where the tens column (2&minus;7) forces a borrow from the hundreds digit.",
-  "habit_note": "exact-thing-asked / no-bounding-strategy",
-  "ref": "Tier: Hard &middot; Topic: Cryptarithm / digit substitution &middot; Diagram: yes &middot; INVENTED, added at the user's request as a no-borrow companion to #1 -- same RSS&minus;RS shape and solve method (bound R and S with 9R+S=26, then test), but a target (260) where no regrouping step is needed, so it isolates the digit-testing/bounding method from the borrow step #1 specifically targets. Placed at the end of the set (not renumbered to go before #1) to avoid disturbing every other problem's citation numbers -- if she's doing this one for scaffolding, have her do #31 before #1, not in worksheet order.",
-  "diagram": "<div style=\"font-family:ui-monospace,'SF Mono','Cascadia Mono','Courier New',monospace;letter-spacing:2px;max-width:140px;margin:0 auto;font-size:1.1em;\"><div style=\"padding:2px 6px;line-height:1.5;text-align:right;\">RSS</div><div style=\"padding:2px 6px;line-height:1.5;text-align:right;\">&minus;RS</div><div style=\"padding:2px 6px;line-height:1.5;text-align:right;border-top:1.5px solid currentColor;margin-top:5px;padding-top:5px;\">260</div></div>",
   "needs_diagram": true
  }
 ]
