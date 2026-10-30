@@ -95,6 +95,23 @@ def cylinder_net():
             '<ellipse cx="50" cy="130" rx="30" ry="12" fill="var(--surface-alt)" stroke="currentColor" stroke-width="1.5"/>'
             '</svg>')
 
+def coordplane(xmin, xmax, ymin, ymax, points, s=20):
+    pad = 24
+    w = (xmax - xmin) * s + 2*pad; h = (ymax - ymin) * s + 2*pad
+    def px(x): return pad + (x - xmin) * s
+    def py(y): return h - pad - (y - ymin) * s
+    out = [f'<svg viewBox="0 0 {w} {h}" width="{w}" height="{h}" role="img">']
+    for gx in range(xmin, xmax+1):
+        out.append(f'<line x1="{px(gx)}" y1="{py(ymin)}" x2="{px(gx)}" y2="{py(ymax)}" stroke="currentColor" stroke-width="0.5" opacity="0.3"/>')
+    for gy in range(ymin, ymax+1):
+        out.append(f'<line x1="{px(xmin)}" y1="{py(gy)}" x2="{px(xmax)}" y2="{py(gy)}" stroke="currentColor" stroke-width="0.5" opacity="0.3"/>')
+    out.append(f'<line x1="{px(xmin)}" y1="{py(0)}" x2="{px(xmax)}" y2="{py(0)}" stroke="currentColor" stroke-width="1.5"/>')
+    out.append(f'<line x1="{px(0)}" y1="{py(ymin)}" x2="{px(0)}" y2="{py(ymax)}" stroke="currentColor" stroke-width="1.5"/>')
+    for x, y, lab in points:
+        out.append(f'<circle cx="{px(x)}" cy="{py(y)}" r="3.5" fill="var(--accent)"/>')
+        out.append(f'<text x="{px(x)+6}" y="{py(y)-6}" font-size="13" fill="currentColor">{lab}</text>')
+    out.append('</svg>'); return ''.join(out)
+
 def io_table_machine(rows):
     return table(["Input", "Output"], rows)
 
@@ -318,13 +335,13 @@ add(29, "Medium", "Dividing Equally From a Total",
     None,
     "Tier: Medium &middot; Topic: Dividing Equally From a Total &middot; Diagram: no &middot; Real, unused library item (ISEE Lower #3 Q14), used verbatim, answered correctly.")
 
-add(30, "Hard", "Determining Averages/Points on Number Lines (merged)",
-    "Use the number line shown. The hash marks are evenly spaced. What is the mean (average) of A and B?",
-    {"A": "22", "B": "24", "C": "25", "D": "26"}, "A",
-    "<<<ANSWERPREFIX>>>There are 9 equal intervals between 10 and 37, a total span of 27, so each interval = 27 &divide; 9 = 3. A is 2 intervals from 10 (A = 10 + 2&times;3 = 16); B is 6 intervals from 10 (B = 10 + 6&times;3 = 28). Mean of A and B = (16 + 28) &divide; 2 = 22.",
-    None,
-    "Tier: Hard &middot; Topic: Determining Averages/Points on Number Lines (merged) &middot; Diagram: yes &middot; Real, unused library item (global_id 194, ISEE Lower #4), used verbatim, answered correctly -- positions verified directly against the source screenshot (9 ticks from 10 to 37, A at tick 2, B at tick 6), not guessed from the text description alone.",
-    diagram=numberline(9, [(2, "A"), (6, "B")], show_ends=(10, 37)))
+add(30, "Hard", "Minimum Distance on Coordinate Plane / Grid",
+    "Katrina is walking from point X to point Z. If she can only move left, right, up, and down (not diagonally), what is the shortest distance she can travel to get from point X to point Z?",
+    {"A": "7 grid units", "B": "10 grid units", "C": "14 grid units", "D": "16 grid units"}, "C",
+    "<<<ANSWERPREFIX>>>Moving only along grid lines (taxicab distance), the shortest path is the horizontal distance plus the vertical distance: from X(3, &minus;4) to Z(&minus;3, 4), that's |3&minus;(&minus;3)| + |4&minus;(&minus;4)| = 6 + 8 = 14 grid units. (Point Y isn't part of this question -- it's just another labeled point on the same grid.)",
+    "use-all-data (ignoring an irrelevant labeled point) / exact-thing-asked",
+    "Tier: Hard &middot; Topic: Minimum Distance on Coordinate Plane / Grid &middot; Diagram: yes &middot; Real, unused library item (global_id 406, Elevate Prep &quot;Coordinate Geometry Practice Set 2&quot;), used verbatim, answered correctly. New topic 2026-10-30, replacing Determining Averages/Points on Number Lines at the user's request -- that topic is the one most recently confirmed solid (5 straight correct after the tag-fragmentation merge earlier this session), so the safest slot to free up for new, never-tracked content. Picked over the simpler gid394 (2 points only, no distractor) for the extra &quot;which 2 of the 3 labeled points actually matter&quot; layer.",
+    diagram=coordplane(-4, 4, -4, 4, [(3, -4, "X"), (-3, 4, "Z"), (4, 2, "Y")]))
 
 assert len(P) == 30, len(P)
 json.dump(P, open(os.path.join(HERE, 'ma3_problems.json'), 'w'), indent=1)
