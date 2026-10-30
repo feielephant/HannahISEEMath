@@ -989,9 +989,10 @@
     "3D shape from its net (unfolding a solid)",
     "Estimating Multiplication & Division",
     "Dividing Equally From a Total",
-    "Determining Averages/Points on Number Lines (merged)"
+    "Determining Averages/Points on Number Lines (merged)",
+    "Cryptarithm / digit substitution"
    ],
-   "notes": "Manually curated (not plan_set_ma.py auto-selection): top 30 topics from the 2026-10-29 streak-adjusted error-rate ranking, with 2 user-directed swaps (Vertices Forming Right Angles Quadrilaterals -> Classification of Numbers given a Set; Area and Perimeter of Complex Polygons -> a 2nd Numerical Patterns slot in the QR7 #35 backward-anchor style). 29 of 30 problems are real official/library items (one 2nd/3rd/4th-term pattern problem invented, same structure as QR7 #35/QR8 #7). See ma3_SOURCES.md for the full picked-vs-invented table."
+   "notes": "Manually curated (not plan_set_ma.py auto-selection): top 30 topics from the 2026-10-29 streak-adjusted error-rate ranking, with 2 user-directed swaps (Vertices Forming Right Angles Quadrilaterals -> Classification of Numbers given a Set; Area and Perimeter of Complex Polygons -> a 2nd Numerical Patterns slot in the QR7 #35 backward-anchor style). 29 of 30 problems are real official/library items (one 2nd/3rd/4th-term pattern problem invented, same structure as QR7 #35/QR8 #7). See ma3_SOURCES.md for the full picked-vs-invented table. Extended to 31 problems 2026-10-29: added a no-borrow companion cryptarithm (#31) alongside #1 at the user's request."
   }
  ],
  "ma_notes": {
