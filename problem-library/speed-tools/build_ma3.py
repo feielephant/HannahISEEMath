@@ -261,12 +261,12 @@ add(22, "Medium", "Order of Operations and Equivalence",
     None,
     "Tier: Medium &middot; Topic: Order of Operations and Equivalence &middot; Diagram: no &middot; Real, unused library item (ISEE Lower #3 Q29), used verbatim, answered correctly -- a distributive-property-equivalence item, different shape than QR8 #8's plain simplify-both-groups version.")
 
-add(23, "Easy", "Remainder when Divided by a given Number",
-    "Which expression results in a remainder of 5?",
-    {"A": "32 &divide; 6", "B": "33 &divide; 6", "C": "34 &divide; 6", "D": "35 &divide; 6"}, "D",
-    "<<<ANSWERPREFIX>>>35 &divide; 6 = 5 remainder 5 (6&times;5=30, 35&minus;30=5). Check the others: 32&divide;6=5 r2, 33&divide;6=5 r3, 34&divide;6=5 r4 -- only D leaves remainder 5.",
-    None,
-    "Tier: Easy &middot; Topic: Remainder when Divided by a given Number &middot; Diagram: no &middot; Real, unused library item (MA library, not_done), used verbatim. Original pick for this slot (&quot;leaves a remainder of 2 when divided by both 5 and 8&quot;) was dropped once a grep of every published worksheet found it already used, verbatim, choices and all, in an earlier redo-set predating the current QR/MA pipeline -- used_real_gids.json had no record of it since that set is outside its tracked range. NOT further swapped 2026-10-30: the only 5 real items under this exact topic tag are all plain &quot;which expression leaves remainder N&quot; checks -- the real historical error (QR6 #33) only happened to be tagged here, but was actually a dense money/bar-chart word problem (read a shaded scale, subtract from a goal, divide among 25 students). No library item under this tag can replicate that multi-skill complexity; matching it would mean inventing a comparable word problem rather than swapping to another real item.")
+add(23, "Medium", "Remainder when Divided by a given Number",
+    "When 183 is divided by a number, the remainder is 3. Which of the following could be the number?",
+    {"A": "3", "B": "7", "C": "8", "D": "9"}, "D",
+    "<<<ANSWERPREFIX>>>If the remainder is 3, the divisor must evenly divide 183&minus;3=180, and the divisor must be GREATER than the remainder (3). 180&divide;9=20 exactly, and 9&gt;3, so 9 works. 180&divide;7 and 180&divide;8 don't come out even, and the divisor can't be equal to the remainder itself (3) -- a remainder of 3 is only possible when dividing by something bigger than 3.",
+    "no-bounding-strategy",
+    "Tier: Medium &middot; Topic: Remainder when Divided by a given Number &middot; Diagram: no &middot; Real, unused library item (global_id 505), used verbatim, answered correctly. Swapped 2026-10-30 (2nd pass) from the plain &quot;which expression leaves remainder 5&quot; version -- this reverses the task (given the dividend AND remainder, find a possible DIVISOR), a genuine inverse-reasoning upgrade. Still doesn't replicate QR6 #33's full money/chart complexity (confirmed: no word-problem-framed remainder item, and no &quot;opposite face&quot; item for #27, exist anywhere in the library after a full-text search) -- but this is meaningfully harder than the version it replaces.")
 
 add(24, "Medium", "Numerical Patterns",
     "The 2nd number in a pattern is 19, the 3rd number is 31, and the 4th number is 43. What is the 1st number in the pattern?",
