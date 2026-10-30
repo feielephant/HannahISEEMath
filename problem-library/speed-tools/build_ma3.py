@@ -2,6 +2,10 @@ import json, os
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 
+def img_from_b64(name, alt):
+    b64 = open(os.path.join(HERE, f'{name}_b64.txt')).read().strip()
+    return f'<img src="data:image/png;base64,{b64}" alt="{alt}" style="max-width:260px;display:block;" />'
+
 def frac(n, d):
     return f'<span class="frac"><span class="n">{n}</span><span class="d">{d}</span></span>'
 
@@ -289,13 +293,16 @@ add(26, "Hard", "Translating Math Expressions",
     "key-word-watch (order of subtraction)",
     "Tier: Hard &middot; Topic: Translating Math Expressions &middot; Diagram: no &middot; Real, unused library item (global_id 55, ISEE Lower #1), used verbatim, answered correctly. Swapped in 2026-10-30, replacing gid106's expression&rarr;phrase version -- a difficulty-check comparison against the real historical error (QR5 #28, build a 2-unknown equation from a word problem) found gid106 was the easier direction (describe an already-given expression). This one is phrase&rarr;expression, the harder direction that's actually closer to what building an equation from words requires.")
 
-add(27, "Medium", "3D shape from its net (unfolding a solid)",
-    "The net shown below will form which type of shape?",
-    {"A": "square pyramid", "B": "triangular prism", "C": "cube", "D": "cone"}, "A",
-    "<<<ANSWERPREFIX>>>The net is a central square with 4 triangles attached, one to each side. The square folds up to become the base, and the 4 triangles fold up and meet at a point above it -- that's a square pyramid.",
-    None,
-    "Tier: Medium &middot; Topic: 3D shape from its net (unfolding a solid) &middot; Diagram: yes &middot; Real, unused library item (global_id 516), used verbatim, answered correctly. Swapped in 2026-10-30 at the user's request, replacing gid410's cylinder-net version with this one (also from the same 5-item real pool for this topic, 0 prior graded instances). NOT further swapped despite the difficulty-check flag: the real historical error (QR2 #12) tests a DIFFERENT sub-skill -- opposite-face spatial logic on an already-folded cube, not net identification -- and none of this topic's 5 real items test that. Building one would mean inventing a labeled net with per-choice diagrams (4 different face arrangements), which risks exactly the kind of fake-3D/ambiguous-diagram bug this project has been bitten by before -- flagged here rather than risked.",
-    diagram=pyramid_net())
+add(27, "Hard", "3D shape from its net (unfolding a solid)",
+    "A cube has three colored circles drawn on it (shown below). Which diagram could be folded to make this cube, if the colored circles are on the outside of the cube and cannot be seen from the other side?",
+    {"A": img_from_b64('gid151_choice_A', 'Net choice A: diamond net with yellow circle center, blue circle lower-left, orange circle to the right'),
+     "B": img_from_b64('gid151_choice_B', 'Net choice B: diamond net with orange circle upper, yellow circle center, blue circle lower-left'),
+     "C": img_from_b64('gid151_choice_C', 'Net choice C: diamond net with blue circle left, orange circle center, yellow circle far right'),
+     "D": img_from_b64('gid151_choice_D', 'Net choice D: diamond net with yellow circle upper-left, blue circle below it, orange circle center-right')}, "A",
+    "<<<ANSWERPREFIX>>>On the cube, going around from the yellow (top) face: blue (front) is adjacent to yellow, and orange (right) is adjacent to both. The correct net keeps that same adjacency when unfolded -- look for the diagram where yellow sits in the middle with blue directly to its lower-left and orange directly to its right, the same relative arrangement as on the cube. The other three diagrams swap or shift the circles into positions that don't fold back into the cube shown.",
+    "spatial-reasoning (tracking face adjacency through a fold)",
+    "Tier: Hard &middot; Topic: 3D shape from its net (unfolding a solid) &middot; Diagram: yes &middot; Real item (global_id 151, ISEE Lower #3 Q32), answered correctly -- only 60.5% of test-takers got this right, genuinely harder than the topic's other real items (simple name-the-shape questions). Swapped in 2026-10-30 (3rd pass) at the user's request, replacing gid516's pyramid-net version. The real question's answer choices are themselves 4 different net diagrams (not text), and the net is drawn as a skewed diamond/rhombus strip rather than this project's usual plain-square net style -- hand-recreating that risked a subtle transcription error (the exact bug class flagged in feedback_diagram_authenticity.md), so the cube reference and all 4 choice diagrams are cropped directly from the source screenshot and embedded verbatim, the same fix already used for QR8 #35's rectangle diagram.",
+    diagram=img_from_b64('gid151_cube', 'A cube with a yellow circle on top, a blue circle on the front face, and an orange circle on the right face'))
 
 add(28, "Medium", "Estimating Multiplication & Division",
     "Alika is buying 23 shirts that cost $18.99 each. Which expression can be used to find the best estimate of how much it will cost Alika to buy the shirts?",
