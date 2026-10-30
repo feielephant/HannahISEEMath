@@ -761,7 +761,54 @@
     "No Remainder when Divided by a given Number",
     "Estimating Sums Differences of Decimal Numbers"
    ],
-   "published_commit": "22b3bddae28394283bd20745ac1203f9bd7c72e5"
+   "published_commit": "22b3bddae28394283bd20745ac1203f9bd7c72e5",
+   "graded_2026-10-27": {
+    "score": "24/38",
+    "wrong": [
+     3,
+     5,
+     6,
+     9,
+     12,
+     14,
+     15,
+     22,
+     23,
+     27,
+     30,
+     31,
+     32,
+     37
+    ],
+    "blank": [],
+    "total_elapsed_minutes": 35.02,
+    "first_then_changed": {
+     "wrong_to_right": [
+      13,
+      19
+     ],
+     "wrong_to_wrong": [
+      5,
+      15
+     ],
+     "right_to_wrong": [
+      30
+     ]
+    },
+    "notes_summary": {
+     "3": "Long division breaks down by the 3rd digit on non-simplifiable denominators",
+     "5": "Confirmed again -- still not writing out the difference sequence first",
+     "6": "Thinks 7 inches is more than a foot",
+     "9": "Forgot the \u00f72 step converting perimeter to width",
+     "12": "Did not use scratch paper",
+     "14": "\u201cDecreased by 30%\u201d language, not the percent calculation itself",
+     "15": "Stopped at the intermediate value again -- forgot to multiply by 3",
+     "22": "No method yet for solving simultaneous symbolic equations",
+     "23": "Fell for the intended off-by-one trap under time pressure -- but a reframe fixed it",
+     "27": "Still missing the direct comparison step (2/5 vs 3/8)",
+     "30": "Misread the minus as a plus -- the method itself is solid"
+    }
+   }
   }
  ],
  "rotation_notes": {
