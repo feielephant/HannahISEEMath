@@ -140,13 +140,11 @@ add(5, "Medium", "Comparing Areas",
     "Tier: Medium &middot; Topic: Comparing Areas &middot; Diagram: no &middot; Real item (global_id 117, ISEE Lower #2) -- CONFIRMED WRONG on the real test (she picked C). All 3 real library items for this topic (gid107/117/188) have already been shown to her at least once (redo-set-5/6, predating the current QR/MA pipeline) -- this is gid117's scenario again, but with a 3rd, never-before-used pair of numbers (121/7/15, not the original 144/9/15 or redo-set-6's 100/6/14) so the specific values are still fresh even though the setup is familiar. Same compute-both-sides trap as QR8 #32's invented Room A/B version.")
 
 add(6, "Medium", "Comparing & Ordering Fractions & Decimals",
-    "A group of fraction bars is shown. Which list shows the fractions " + frac(2,3) + ", " + frac(3,4) + ", " + frac(3,6) + ", " + frac(2,5) + " in order from least to greatest?",
-    {"A": frac(2,3)+", "+frac(3,4)+", "+frac(2,5)+", "+frac(3,6), "B": frac(2,5)+", "+frac(3,6)+", "+frac(2,3)+", "+frac(3,4),
-     "C": frac(2,5)+", "+frac(2,3)+", "+frac(3,6)+", "+frac(3,4), "D": frac(3,4)+", "+frac(2,3)+", "+frac(3,6)+", "+frac(2,5)}, "B",
-    f"<<<ANSWERPREFIX>>>Using the fraction-bar model: {frac(2,3)}&asymp;0.667, {frac(3,4)}=0.75, {frac(3,6)}=0.5, {frac(2,5)}=0.4. Least to greatest: {frac(2,5)}, {frac(3,6)}, {frac(2,3)}, {frac(3,4)}.",
-    "key-word-watch (least-to-greatest direction)",
-    "Tier: Medium &middot; Topic: Comparing &amp; Ordering Fractions &amp; Decimals &middot; Diagram: yes &middot; Real, unused library item (global_id 139, ISEE Lower #3) -- CONFIRMED WRONG on the real test. Her wrong pick (D) was the correct order B exactly reversed, suggesting she sized the fractions right but flipped the least-to-greatest direction -- worth a direct check-in on that specific slip.",
-    diagram=fraction_bar_stack([3,4,5,6]))
+    "This list of numbers is in order from least to greatest. A fraction is missing in the list.<br>" + frac(1,4) + ", 0.3, ___, " + frac(2,3) + "<br>Which fraction goes in the blank?",
+    {"A": frac(1,5), "B": frac(1,2), "C": frac(5,6), "D": frac(3,4)}, "B",
+    f"<<<ANSWERPREFIX>>>Use process of elimination. {frac(1,5)} is less than {frac(1,4)}, so it can't go after 0.3 in the list. {frac(1,2)} is between 0.3 and {frac(2,3)} (0.5 is between 0.3 and about 0.667), so it fits. {frac(5,6)} and {frac(3,4)} are both greater than {frac(2,3)}, so they can't go before it.",
+    None,
+    "Tier: Medium &middot; Topic: Comparing &amp; Ordering Fractions &amp; Decimals &middot; Diagram: no &middot; Real, unused library item (ISEE Lower #3 Q18), used verbatim, answered correctly. Swapped 2026-10-30 from gid139 -- gid139's real presentation came with a fraction-bar diagram (extra scaffolding the real historical error, gid674, didn't have) and friendlier denominators (3,4,5,6 vs. 1/7,1/8,1/9-style ones). This item preserves the same multi-item ordering complexity (the confirmed order-3-plus gap) but mixes a DECIMAL into the list and asks her to find a missing value by elimination rather than just sort 4 given ones, with no diagram.")
 
 add(7, "Easy", "Finding Unit Price",
     "If 6 apples cost $9, what is the cost of 8 apples at the same rate?",
