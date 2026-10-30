@@ -123,11 +123,11 @@ add(3, "Medium", "Evaluating Percents of Numbers",
     "Tier: Medium &middot; Topic: Evaluating Percents of Numbers &middot; Diagram: no &middot; Real, unused library item (global_id 1108), used verbatim -- same &quot;price decreased by X%&quot; language/structure as QR8 #14 (the confirmed language gap), fresh numbers, never shown to her before.")
 
 add(4, "Medium", "Algebra with Geometric Shapes",
-    "If &#9633; + &#9633; + &#9633; = 12, and &#9633; &times; &#9675; = 20 are both true, what is the value of &#9675; &minus; &#9633;?",
-    {"A": "1", "B": "5", "C": "8", "D": "9"}, "A",
-    "<<<ANSWERPREFIX>>>From the first equation, &#9633; + &#9633; + &#9633; = 12, so &#9633; = 4. Substitute into the second equation: 4 &times; &#9675; = 20, so &#9675; = 5. Then &#9675; &minus; &#9633; = 5 &minus; 4 = 1.",
+    "Two equations are shown.<br>&#9633; + &#9633; + &#9671; = 23<br>&#9633; + &#9671; + &#9671; = 19<br>What is the value of &#9671;?",
+    {"A": "5", "B": "9", "C": "14", "D": "4"}, "A",
+    "<<<ANSWERPREFIX>>>Let &#9633;=x and &#9671;=y. 2x+y=23 and x+2y=19. Double the first equation: 4x+2y=46. Subtract the second equation: 3x=27, so x=9. Then y=23&minus;2(9)=5. (9 is the value of &#9633;, not &#9671; -- the exact-thing-asked trap. 14 is x+y, and 4 is x&minus;y -- neither is what's asked.)",
     "no-solve-method-for-symbolic-equations",
-    "Tier: Medium &middot; Topic: Algebra with Geometric Shapes &middot; Diagram: no &middot; Real, unused library item (global_id 123, ISEE Lower #3, answered correctly), used verbatim -- exact same 2-equation/2-symbol structure as QR8 #22 (&quot;she has no idea how to solve this&quot;), per the direct request to pull more real items of this exact shape. Solve-one-equation-first-then-substitute is the missing procedure to teach alongside this.")
+    "Tier: Medium &middot; Topic: Algebra with Geometric Shapes &middot; Diagram: no &middot; INVENTED, swapped 2026-10-30 after a difficulty-check comparison against the real historical error (QR8 #22: 2&#9651;+&#9675;=19, &#9651;+2&#9675;=17) found the earlier pick (gid123) too easy -- gid123's two equations each have only ONE unknown term that can be isolated directly (&#9633;+&#9633;+&#9633;=12 solves &#9633; alone), so it never required the elimination technique. None of the 5 real library items for this topic (gid75/121/123/177/195) are true simultaneous systems where BOTH unknowns appear in BOTH equations -- all were checked and are either single-unknown-per-equation or expression-building tasks. This is a fresh invented pair, same 2&#9633;+&#9671;=N / &#9633;+2&#9671;=M shape and elimination method as QR8 #22, different symbols (&#9633;/&#9671; instead of &#9651;/&#9675;) and numbers.")
 
 add(5, "Medium", "Comparing Areas",
     "The floor of Room A is in the shape of a square and has an area of 121 feet&sup2;. The floor of Room B is in the shape of a rectangle and has a length of 7 feet and width of 15 feet. Which statement correctly compares the floors in the two rooms?",
@@ -155,12 +155,13 @@ add(7, "Easy", "Finding Unit Price",
     None,
     "Tier: Easy &middot; Topic: Finding Unit Price &middot; Diagram: no &middot; Real, unused library item (global_id 259) -- CONFIRMED WRONG (she circled $11, inconsistent with her own correct scratch work of $3 per 2 apples). Cross-topic real item: catalogued under &quot;unit price scaling&quot; rather than a literal &quot;Finding Unit Price&quot; tag (no item in the library carries that exact tag), but it is the identical find-the-per-unit-rate-then-scale mechanic.")
 
-add(8, "Easy", "English Unit Conversions",
-    "There are 12 inches in 1 foot. The length of one wall in Mr. Jones's classroom is 29 feet. What is the length of this wall in inches?",
-    {"A": "242", "B": "248", "C": "338", "D": "348"}, "D",
-    "<<<ANSWERPREFIX>>>29 feet &times; 12 inches per foot = 348 inches.",
+add(8, "Hard", "English Unit Conversions",
+    "Jeff is practicing his long jumps for the track team. His first jump measured 3 yards, 1 foot, 2 inches. His second jump measured 2 yards, 3 feet, 3 inches. His final jump measured 3 yards, 15 inches. Which statement about these jumps is true? (1 yard = 3 feet; 1 foot = 12 inches)",
+    {"A": "Jeff jumped further in his first jump than in his second.", "B": "Jeff jumped further in his second jump than in his first.",
+     "C": "Jeff jumped the same distance in his first and final jumps.", "D": "Jeff jumped the same distance in his second and final jumps."}, "A",
+    "<<<ANSWERPREFIX>>>Simplify each jump first. Jump 1: 3 yd, 1 ft, 2 in (already simplified). Jump 2: 3 ft = 1 yd, so this is 3 yd, 3 in. Jump 3: 12 in = 1 ft, so this is 3 yd, 1 ft, 3 in. Ordering: Jump 2 (3 yd, 3 in) &lt; Jump 1 (3 yd, 1 ft, 2 in) &lt; Jump 3 (3 yd, 1 ft, 3 in). So Jeff jumped further in his first jump than in his second.",
     None,
-    "Tier: Easy &middot; Topic: English Unit Conversions &middot; Diagram: no &middot; Real, unused library item (global_id 90, ISEE Lower #2), used verbatim, answered correctly. A clean single-step conversion -- deliberately NOT the 3-way mixed-unit comparison shape (that one was already used in QR8 #6).")
+    "Tier: Hard &middot; Topic: English Unit Conversions &middot; Diagram: no &middot; Real, unused library item (global_id 144, ISEE Lower #3), used verbatim, answered correctly. Swapped in 2026-10-30, replacing the earlier single-step version (gid90) -- a difficulty-check comparison against the real historical error (QR8 #6, a 3-way mixed-unit comparison) found gid90 much easier. This item is the same 3-way mixed-unit comparison shape, but a different cover story (long jumps, not ribbons) and different numbers than QR8 #6's own version, so it isn't a repeat.")
 
 add(9, "Hard", "Percent Word Problems",
     "A parking lot is " + frac(3,5) + " full. Of the cars in the parking lot, 20% of them are blue. If the parking lot has 100 total parking spots, how many blue cars are in the parking lot?",
@@ -176,13 +177,12 @@ add(10, "Hard", "Converting to a Decimal",
     None,
     "Tier: Hard &middot; Topic: Converting to a Decimal &middot; Diagram: no &middot; Real, unused library item (global_id 647), used verbatim, answered correctly.")
 
-add(11, "Medium", "Numerical Patterns",
-    "Frank shaded a number pattern on the chart shown. He missed shading one number in the pattern between 18 and 30. What number did Frank miss shading?",
-    {"A": "21", "B": "22", "C": "23", "D": "24"}, "D",
-    "<<<ANSWERPREFIX>>>The shaded numbers are every 6th number: 6, 12, 18, 30, 36 -- a multiples-of-6 pattern. Between 18 and 30, the next multiple of 6 should be 24, but it isn't shaded. Frank missed shading 24.",
+add(11, "Hard", "Numerical Patterns",
+    "Use the number pattern to answer the question.<br>2&nbsp; 3&nbsp; 5&nbsp; 9&nbsp; 17&nbsp; ___<br>What is the next number in the pattern?",
+    {"A": "21", "B": "27", "C": "30", "D": "33"}, "D",
+    "<<<ANSWERPREFIX>>>Find the differences between consecutive numbers: 3&minus;2=1, 5&minus;3=2, 9&minus;5=4, 17&minus;9=8. The differences themselves are DOUBLING each time (1, 2, 4, 8), so the next difference is 16. 17 + 16 = 33.",
     None,
-    "Tier: Medium &middot; Topic: Numerical Patterns &middot; Diagram: yes &middot; Real, unused library item (global_id 125, ISEE Lower #3), used verbatim, answered correctly. A different presentation (spot the missing term in a shaded grid) than the usual extend-the-sequence format, for variety.",
-    diagram=grid_shaded(10, 4, 1, {6,12,18,30,36}))
+    "Tier: Hard &middot; Topic: Numerical Patterns &middot; Diagram: no &middot; Real, unused library item (ISEE Lower #1 Q21), used verbatim -- CONFIRMED WRONG on the real test (she picked 27). Swapped in 2026-10-30, replacing gid125's simpler missing-multiple-of-6 grid -- a difficulty-check comparison against the real historical error (QR8 #5, a growing-difference pattern) found gid125 much easier and over-scaffolded with a diagram. This item is an even harder growing-difference pattern (differences DOUBLE, not just increase by a constant), with no diagram, matching the real confirmed gap directly.")
 
 add(12, "Medium", "Multi-step unit conversion (off-by-10, multi-step)",
     "4,000 milliliters is equal to how many kiloliters?",
@@ -235,30 +235,26 @@ add(18, "Hard", "Counting Multiples within a Range",
     "Tier: Hard &middot; Topic: Counting Multiples within a Range &middot; Diagram: no &middot; Real, unused library item (global_id 725), used verbatim -- source screenshot had no visible answer marker, so the correct letter (C) was independently verified by direct computation.")
 
 add(19, "Hard", "No Remainder when Divided by a given Number",
-    "Which whole number is divisible by 6 without a remainder?",
-    {"A": "200", "B": "376", "C": "732", "D": "916"}, "C",
-    "<<<ANSWERPREFIX>>>A number is divisible by 6 if it's divisible by BOTH 2 and 3. 732 is even (divisible by 2), and its digit sum 7+3+2=12 is divisible by 3 -- so 732 is divisible by 6 (732 &divide; 6 = 122). None of the other choices pass both checks.",
-    "no-remainder divisibility rule, combined 2-and-3 check for 6",
-    "Tier: Hard &middot; Topic: No Remainder when Divided by a given Number &middot; Diagram: no &middot; Real, unused library item (global_id 174, ISEE Lower #4 Q15), used verbatim. Original pick for this slot (the &quot;Lillian and 7 other students&quot; word-problem item, ISEE Lower #1 Q29) was dropped once a grep of every published worksheet -- not just used_real_gids.json -- found it already in rotation twice over: verbatim in an earlier online-set and with fresh numbers in an earlier redo-set, both predating the current QR/MA pipeline.")
+    "Which whole number is divisible by 7?",
+    {"A": "202", "B": "204", "C": "217", "D": "219"}, "C",
+    "<<<ANSWERPREFIX>>>217 &divide; 7 = 31, a whole number. 202 &divide; 7 &asymp; 28.9, 204 &divide; 7 &asymp; 29.1, 219 &divide; 7 &asymp; 31.3 -- none are whole numbers. Like 31, 7 has no quick digit-sum shortcut, so this has to be checked by actual division.",
+    "no-bounding-strategy",
+    "Tier: Hard &middot; Topic: No Remainder when Divided by a given Number &middot; Diagram: no &middot; Real, unused library item (global_id 893), used verbatim. Swapped in 2026-10-30, replacing gid174's divisible-by-6 version -- a difficulty-check comparison against the real historical error (QR8 #37, divisor 31, &quot;no easy digit-sum shortcut&quot;) found gid174 easier, since 6 has quick divisibility rules (even + digit-sum-by-3). Divisor 7 restores that same no-shortcut property without reusing 31 itself (gid892, already used in QR8 #37).")
 
-add(20, "Medium", "Finding Area/Perimeter of Rectangle, given Length & Width",
-    "The width of a rectangle is Y meters. Which statement correctly compares the value of Y to the length of the rectangle, where Y = " + frac(1,4) + " &times; length?",
-    {"A": "The value of Y is always " + frac(1,4) + " times the value of the length.",
-     "B": "The value of Y is always " + frac(3,4) + " times the value of the length.",
-     "C": "The value of Y is always 3 times the value of the length.",
-     "D": "The value of Y is always 4 times the value of the length."}, "A",
-    f"<<<ANSWERPREFIX>>>The equation directly states Y = {frac(1,4)} &times; length -- so Y is always {frac(1,4)} of the length. (B swaps in the COMPLEMENT, {frac(3,4)}, instead of the fraction actually given in the equation -- a complement-confusion trap, the same kind of mix-up as the 'decreased by 30%' language gap.)",
-    "complement-confusion (mixing up a fraction/percent with its complement)",
-    "Tier: Medium &middot; Topic: Finding Area/Perimeter of Rectangle, given Length &amp; Width &middot; Diagram: no &middot; Real, unused library item (global_id 103, ISEE Lower #2) -- CONFIRMED WRONG (she picked the 3/4-complement trap, B), reinforcing the same complement-confusion mechanism flagged in QR8 #14's diagnosis.")
+add(20, "Hard", "Finding Area/Perimeter of Rectangle, given Length & Width",
+    "The perimeter of a square is 24 centimeters. If a rectangle with a width of 3 centimeters has the same area as the square, what is the length of the rectangle in centimeters?",
+    {"A": "6", "B": "8", "C": "9", "D": "12"}, "D",
+    "<<<ANSWERPREFIX>>>If the square's perimeter is 24 cm, its side length is 24 &divide; 4 = 6 cm. Its area is 6 &times; 6 = 36 cm&sup2;. For the rectangle to have the same area (36 cm&sup2;) with a width of 3 cm, its length must be 36 &divide; 3 = 12 cm.",
+    "multi-step geometric formula chaining",
+    "Tier: Hard &middot; Topic: Finding Area/Perimeter of Rectangle, given Length &amp; Width &middot; Diagram: no &middot; Real, unused library item (ISEE Lower #1 Q30) -- CONFIRMED WRONG on the real test (she picked B, 8). Swapped in 2026-10-30, replacing gid103's Y=1/4&times;length item -- a difficulty-check comparison found gid103 didn't actually require computing an area or perimeter at all, despite the topic tag. This one genuinely chains perimeter&rarr;side&rarr;area&rarr;length, matching QR8 #9's real historical mechanic (and is harder than it, requiring 3 steps instead of 2).")
 
 add(21, "Medium", "Input Output Tables",
-    "Brandon used a number machine. Each number he put in came out as a different number, according to one consistent rule. Some examples are shown in the table. Which statement describes the relationship between the number Brandon put into the machine and the number that came out of it?",
-    {"A": "The output was 2 more than the input.", "B": "The output was 2 less than the input.",
-     "C": "The output was 5 more than the input.", "D": "The output was 5 less than the input."}, "A",
-    "<<<ANSWERPREFIX>>>Check each pair: 10&rarr;12, 15&rarr;17, 24&rarr;26, 41&rarr;43 -- every output is exactly 2 more than its input.",
+    "The same operation is performed on each input number to create an output number, as shown in the table. Which output number will result from an input number of 24?",
+    {"A": "4", "B": "6", "C": "8", "D": "12"}, "B",
+    "<<<ANSWERPREFIX>>>Use the complete pairs to find the rule: 16&rarr;4 (16&divide;4=4), 32&rarr;8 (32&divide;4=8), 48&rarr;12 (48&divide;4=12) -- the rule is output = input &divide; 4. For an input of 24: 24 &divide; 4 = 6.",
     None,
-    "Tier: Medium &middot; Topic: Input Output Tables &middot; Diagram: yes &middot; Real, unused library item (global_id 39, ISEE Lower #1), used verbatim, answered correctly.",
-    diagram=io_table_machine([["10","12"],["15","17"],["24","26"],["41","43"]]))
+    "Tier: Medium &middot; Topic: Input Output Tables &middot; Diagram: yes &middot; Real, unused library item (ISEE Lower #2 Q6), used verbatim, answered correctly. Swapped in 2026-10-30, replacing gid39's version (4 complete pairs, just describe the already-fully-visible pattern) -- this one gives 3 complete pairs plus one WITH THE OUTPUT MISSING, so she has to find the rule from partial data and then compute a value with it, not just describe a pattern already laid out in full.",
+    diagram=io_table_machine([["16","4"],["24","?"],["32","8"],["48","12"]]))
 
 add(22, "Medium", "Order of Operations and Equivalence",
     "Which expression is equal to (2 + 8) &times; 7?",
@@ -272,7 +268,7 @@ add(23, "Easy", "Remainder when Divided by a given Number",
     {"A": "32 &divide; 6", "B": "33 &divide; 6", "C": "34 &divide; 6", "D": "35 &divide; 6"}, "D",
     "<<<ANSWERPREFIX>>>35 &divide; 6 = 5 remainder 5 (6&times;5=30, 35&minus;30=5). Check the others: 32&divide;6=5 r2, 33&divide;6=5 r3, 34&divide;6=5 r4 -- only D leaves remainder 5.",
     None,
-    "Tier: Easy &middot; Topic: Remainder when Divided by a given Number &middot; Diagram: no &middot; Real, unused library item (MA library, not_done), used verbatim. Original pick for this slot (&quot;leaves a remainder of 2 when divided by both 5 and 8&quot;) was dropped once a grep of every published worksheet found it already used, verbatim, choices and all, in an earlier redo-set predating the current QR/MA pipeline -- used_real_gids.json had no record of it since that set is outside its tracked range.")
+    "Tier: Easy &middot; Topic: Remainder when Divided by a given Number &middot; Diagram: no &middot; Real, unused library item (MA library, not_done), used verbatim. Original pick for this slot (&quot;leaves a remainder of 2 when divided by both 5 and 8&quot;) was dropped once a grep of every published worksheet found it already used, verbatim, choices and all, in an earlier redo-set predating the current QR/MA pipeline -- used_real_gids.json had no record of it since that set is outside its tracked range. NOT further swapped 2026-10-30: the only 5 real items under this exact topic tag are all plain &quot;which expression leaves remainder N&quot; checks -- the real historical error (QR6 #33) only happened to be tagged here, but was actually a dense money/bar-chart word problem (read a shaded scale, subtract from a goal, divide among 25 students). No library item under this tag can replicate that multi-skill complexity; matching it would mean inventing a comparable word problem rather than swapping to another real item.")
 
 add(24, "Medium", "Numerical Patterns",
     "The 2nd number in a pattern is 19, the 3rd number is 31, and the 4th number is 43. What is the 1st number in the pattern?",
@@ -289,19 +285,18 @@ add(25, "Medium", "Remaining Amount after Reducing by Fractions",
     "Tier: Medium &middot; Topic: Remaining Amount after Reducing by Fractions &middot; Diagram: no &middot; Real, unused library item (ISEE Lower #1 Q25) -- CONFIRMED WRONG on the real test (she picked B, 5) -- two different fractions applied to two different starting amounts in one problem, more demanding than a single-fraction version.")
 
 add(26, "Hard", "Translating Math Expressions",
-    "Which phrase is represented by the expression (46 &minus; 22) &divide; 2?",
-    {"A": "22 less than the quotient of 46 and 2", "B": "46 more than the quotient of 22 and 2",
-     "C": "half the difference of 46 and 22", "D": "twice the difference of 46 and 22"}, "C",
-    "<<<ANSWERPREFIX>>>(46 &minus; 22) is &quot;the difference of 46 and 22.&quot; Dividing that difference by 2 is the same as taking HALF of it -- so &quot;half the difference of 46 and 22.&quot;",
-    None,
-    "Tier: Hard &middot; Topic: Translating Math Expressions &middot; Diagram: no &middot; Real, unused library item (global_id 106, ISEE Lower #2), used verbatim, answered correctly -- the reverse direction (expression &rarr; phrase) from the usual phrase &rarr; expression format, for variety.")
+    "Which expression represents &quot;9 times n decreased by 16&quot;?",
+    {"A": "9n &minus; 16", "B": "16 &minus; 9n", "C": "9(n &minus; 16)", "D": "n(16 &minus; 9)"}, "A",
+    "<<<ANSWERPREFIX>>>&quot;9 times n&quot; is 9n. &quot;Decreased by 16&quot; means subtract 16 AFTER that -- so 9n &minus; 16, not 16 &minus; 9n (which would be &quot;16 decreased by 9n,&quot; the terms in the wrong order).",
+    "key-word-watch (order of subtraction)",
+    "Tier: Hard &middot; Topic: Translating Math Expressions &middot; Diagram: no &middot; Real, unused library item (global_id 55, ISEE Lower #1), used verbatim, answered correctly. Swapped in 2026-10-30, replacing gid106's expression&rarr;phrase version -- a difficulty-check comparison against the real historical error (QR5 #28, build a 2-unknown equation from a word problem) found gid106 was the easier direction (describe an already-given expression). This one is phrase&rarr;expression, the harder direction that's actually closer to what building an equation from words requires.")
 
 add(27, "Medium", "3D shape from its net (unfolding a solid)",
     "The net shown below will form which type of shape?",
     {"A": "square pyramid", "B": "triangular prism", "C": "cube", "D": "cone"}, "A",
     "<<<ANSWERPREFIX>>>The net is a central square with 4 triangles attached, one to each side. The square folds up to become the base, and the 4 triangles fold up and meet at a point above it -- that's a square pyramid.",
     None,
-    "Tier: Medium &middot; Topic: 3D shape from its net (unfolding a solid) &middot; Diagram: yes &middot; Real, unused library item (global_id 516), used verbatim, answered correctly. Swapped in 2026-10-30 at the user's request, replacing gid410's cylinder-net version with this one (also from the same 5-item real pool for this topic, 0 prior graded instances).",
+    "Tier: Medium &middot; Topic: 3D shape from its net (unfolding a solid) &middot; Diagram: yes &middot; Real, unused library item (global_id 516), used verbatim, answered correctly. Swapped in 2026-10-30 at the user's request, replacing gid410's cylinder-net version with this one (also from the same 5-item real pool for this topic, 0 prior graded instances). NOT further swapped despite the difficulty-check flag: the real historical error (QR2 #12) tests a DIFFERENT sub-skill -- opposite-face spatial logic on an already-folded cube, not net identification -- and none of this topic's 5 real items test that. Building one would mean inventing a labeled net with per-choice diagrams (4 different face arrangements), which risks exactly the kind of fake-3D/ambiguous-diagram bug this project has been bitten by before -- flagged here rather than risked.",
     diagram=pyramid_net())
 
 add(28, "Medium", "Estimating Multiplication & Division",
