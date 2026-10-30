@@ -956,6 +956,42 @@
      "29": "Uncertain -- picked an answer consistent with an off-by-one rule application"
     }
    }
+  },
+  {
+   "set_no": 3,
+   "topics": [
+    "Cryptarithm / digit substitution",
+    "Algebraic Equations with Symbol Variables",
+    "Evaluating Percents of Numbers",
+    "Algebra with Geometric Shapes",
+    "Comparing Areas",
+    "Comparing & Ordering Fractions & Decimals",
+    "Finding Unit Price",
+    "English Unit Conversions",
+    "Percent Word Problems",
+    "Converting to a Decimal",
+    "Numerical Patterns",
+    "Multi-step unit conversion (off-by-10, multi-step)",
+    "Solving Problems with Geometric Formulas",
+    "Classification of Numbers, given a Set",
+    "Word Problems with Ratios",
+    "Nth Term, Arithmetic Sequence (merged)",
+    "Measurement Scaling",
+    "Counting Multiples within a Range",
+    "No Remainder when Divided by a given Number",
+    "Finding Area/Perimeter of Rectangle, given Length & Width",
+    "Input Output Tables",
+    "Order of Operations and Equivalence",
+    "Remainder when Divided by a given Number",
+    "Numerical Patterns",
+    "Remaining Amount after Reducing by Fractions",
+    "Translating Math Expressions",
+    "3D shape from its net (unfolding a solid)",
+    "Estimating Multiplication & Division",
+    "Dividing Equally From a Total",
+    "Determining Averages/Points on Number Lines (merged)"
+   ],
+   "notes": "Manually curated (not plan_set_ma.py auto-selection): top 30 topics from the 2026-10-29 streak-adjusted error-rate ranking, with 2 user-directed swaps (Vertices Forming Right Angles Quadrilaterals -> Classification of Numbers given a Set; Area and Perimeter of Complex Polygons -> a 2nd Numerical Patterns slot in the QR7 #35 backward-anchor style). 29 of 30 problems are real official/library items (one 2nd/3rd/4th-term pattern problem invented, same structure as QR7 #35/QR8 #7). See ma3_SOURCES.md for the full picked-vs-invented table."
   }
  ],
  "ma_notes": {
