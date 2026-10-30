@@ -471,18 +471,18 @@
   "n": 27,
   "tier": "Medium",
   "topic": "3D shape from its net (unfolding a solid)",
-  "q": "The net shown below will fold up into which shape?",
+  "q": "The net shown below will form which type of shape?",
   "choices": {
-   "A": "cylinder",
-   "B": "cone",
+   "A": "square pyramid",
+   "B": "triangular prism",
    "C": "cube",
-   "D": "sphere"
+   "D": "cone"
   },
   "correct": "A",
-  "key": "<b>Answer: A.</b> A rectangle with a circle attached at each short end folds up so the circles become the two flat ends and the rectangle wraps around into the curved side -- that's a cylinder.",
+  "key": "<b>Answer: A.</b> The net is a central square with 4 triangles attached, one to each side. The square folds up to become the base, and the 4 triangles fold up and meet at a point above it -- that's a square pyramid.",
   "habit_note": null,
-  "ref": "Tier: Medium &middot; Topic: 3D shape from its net (unfolding a solid) &middot; Diagram: yes &middot; Real, unused library item (global_id 410), used verbatim, answered correctly. Never graded before on this exact topic (0 prior instances) -- first real data point.",
-  "diagram": "<svg viewBox=\"0 0 140 150\" width=\"140\" height=\"150\" role=\"img\"><ellipse cx=\"50\" cy=\"20\" rx=\"30\" ry=\"12\" fill=\"var(--surface-alt)\" stroke=\"currentColor\" stroke-width=\"1.5\"/><rect x=\"20\" y=\"30\" width=\"60\" height=\"90\" fill=\"var(--surface)\" stroke=\"currentColor\" stroke-width=\"1.5\"/><ellipse cx=\"50\" cy=\"130\" rx=\"30\" ry=\"12\" fill=\"var(--surface-alt)\" stroke=\"currentColor\" stroke-width=\"1.5\"/></svg>",
+  "ref": "Tier: Medium &middot; Topic: 3D shape from its net (unfolding a solid) &middot; Diagram: yes &middot; Real, unused library item (global_id 516), used verbatim, answered correctly. Swapped in 2026-10-30 at the user's request, replacing gid410's cylinder-net version with this one (also from the same 5-item real pool for this topic, 0 prior graded instances).",
+  "diagram": "<svg viewBox=\"0 0 180 180\" width=\"180\" height=\"180\" role=\"img\"><polygon points=\"40,40 100,40 70.0,10\" fill=\"var(--surface-alt)\" stroke=\"currentColor\" stroke-width=\"1.5\"/><polygon points=\"40,100 100,100 70.0,170\" fill=\"var(--surface-alt)\" stroke=\"currentColor\" stroke-width=\"1.5\"/><polygon points=\"40,40 40,100 10,70.0\" fill=\"var(--surface-alt)\" stroke=\"currentColor\" stroke-width=\"1.5\"/><polygon points=\"100,40 100,100 170,70.0\" fill=\"var(--surface-alt)\" stroke=\"currentColor\" stroke-width=\"1.5\"/><rect x=\"40\" y=\"40\" width=\"60\" height=\"60\" fill=\"var(--surface)\" stroke=\"currentColor\" stroke-width=\"1.5\"/></svg>",
   "needs_diagram": true
  },
  {

@@ -67,6 +67,23 @@ def two_cubes(sideA, sideB):
     return (f'<svg viewBox="0 0 {sA+sB+80} {maxh}" width="{sA+sB+80}" height="{maxh}" role="img">'
             + cube(sA, 'A', 0) + cube(sB, 'B', sA + 50) + '</svg>')
 
+def pyramid_net():
+    # central square base with a triangle attached outward on each of its 4
+    # sides -- the classic star/pinwheel net for a square pyramid.
+    sq = (40, 40, 100, 100)  # x0,y0,x1,y1
+    x0, y0, x1, y1 = sq
+    cx, cy = (x0 + x1) / 2, (y0 + y1) / 2
+    tris = [
+        f'<polygon points="{x0},{y0} {x1},{y0} {cx},10" fill="var(--surface-alt)" stroke="currentColor" stroke-width="1.5"/>',   # top
+        f'<polygon points="{x0},{y1} {x1},{y1} {cx},170" fill="var(--surface-alt)" stroke="currentColor" stroke-width="1.5"/>',  # bottom
+        f'<polygon points="{x0},{y0} {x0},{y1} 10,{cy}" fill="var(--surface-alt)" stroke="currentColor" stroke-width="1.5"/>',   # left
+        f'<polygon points="{x1},{y0} {x1},{y1} 170,{cy}" fill="var(--surface-alt)" stroke="currentColor" stroke-width="1.5"/>',  # right
+    ]
+    return (f'<svg viewBox="0 0 180 180" width="180" height="180" role="img">'
+            + ''.join(tris)
+            + f'<rect x="{x0}" y="{y0}" width="{x1-x0}" height="{y1-y0}" fill="var(--surface)" stroke="currentColor" stroke-width="1.5"/>'
+            + '</svg>')
+
 def cylinder_net():
     return ('<svg viewBox="0 0 140 150" width="140" height="150" role="img">'
             '<ellipse cx="50" cy="20" rx="30" ry="12" fill="var(--surface-alt)" stroke="currentColor" stroke-width="1.5"/>'
@@ -280,12 +297,12 @@ add(26, "Hard", "Translating Math Expressions",
     "Tier: Hard &middot; Topic: Translating Math Expressions &middot; Diagram: no &middot; Real, unused library item (global_id 106, ISEE Lower #2), used verbatim, answered correctly -- the reverse direction (expression &rarr; phrase) from the usual phrase &rarr; expression format, for variety.")
 
 add(27, "Medium", "3D shape from its net (unfolding a solid)",
-    "The net shown below will fold up into which shape?",
-    {"A": "cylinder", "B": "cone", "C": "cube", "D": "sphere"}, "A",
-    "<<<ANSWERPREFIX>>>A rectangle with a circle attached at each short end folds up so the circles become the two flat ends and the rectangle wraps around into the curved side -- that's a cylinder.",
+    "The net shown below will form which type of shape?",
+    {"A": "square pyramid", "B": "triangular prism", "C": "cube", "D": "cone"}, "A",
+    "<<<ANSWERPREFIX>>>The net is a central square with 4 triangles attached, one to each side. The square folds up to become the base, and the 4 triangles fold up and meet at a point above it -- that's a square pyramid.",
     None,
-    "Tier: Medium &middot; Topic: 3D shape from its net (unfolding a solid) &middot; Diagram: yes &middot; Real, unused library item (global_id 410), used verbatim, answered correctly. Never graded before on this exact topic (0 prior instances) -- first real data point.",
-    diagram=cylinder_net())
+    "Tier: Medium &middot; Topic: 3D shape from its net (unfolding a solid) &middot; Diagram: yes &middot; Real, unused library item (global_id 516), used verbatim, answered correctly. Swapped in 2026-10-30 at the user's request, replacing gid410's cylinder-net version with this one (also from the same 5-item real pool for this topic, 0 prior graded instances).",
+    diagram=pyramid_net())
 
 add(28, "Medium", "Estimating Multiplication & Division",
     "Alika is buying 23 shirts that cost $18.99 each. Which expression can be used to find the best estimate of how much it will cost Alika to buy the shirts?",
