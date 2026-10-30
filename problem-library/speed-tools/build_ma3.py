@@ -275,12 +275,13 @@ add(21, "Medium", "Input Output Tables",
     "Tier: Medium &middot; Topic: Input Output Tables &middot; Diagram: yes &middot; Real, unused library item (global_id 492), used verbatim, answered correctly. Swapped in 2026-10-30, replacing the ISEE Lower #2 Q6 version (find a missing OUTPUT) -- this one asks for the INPUT given an output, the reverse direction, which requires inverting the rule rather than just applying it forward. The two confirmed-wrong real items found for this topic (ISEE Lower #1 Q5, and gid609's non-linear rule) are both already used multiple times in pre-pipeline redo-sets.",
     diagram=io_table_machine([["19","10"],["13","7"],["9","5"],["5","3"],["3","2"]]))
 
-add(22, "Medium", "Order of Operations and Equivalence",
-    "Which expression is equal to (2 + 8) &times; 7?",
-    {"A": "2 + 8 &times; 7", "B": "2 &times; 7 + 8", "C": "2 &times; 8 + 8 &times; 7", "D": "2 &times; 7 + 8 &times; 7"}, "D",
-    "<<<ANSWERPREFIX>>>By the distributive property, a(b+c) = ab + ac, so (2+8)&times;7 = 2&times;7 + 8&times;7. (Check directly: (2+8)&times;7 = 10&times;7 = 70, and only this expression also equals 70.)",
+add(22, "Hard", "Y-Intercepts, Given Graphs",
+    "The graph below shows the money saved by Rufus over a 10-week period. What is the equation for the line above?",
+    {"A": "y = 5x + 30", "B": "y = &minus;5x + 30", "C": "y = 5x &minus; 30", "D": "y = 5x"}, "A",
+    "<<<ANSWERPREFIX>>>Slope-intercept form is y = mx + b, where m is the slope and b is the y-intercept. Reading the graph: the line crosses the y-axis at (0, 30), so b = 30. From (0,30) to (10,80), the slope is (80&minus;30)&divide;(10&minus;0) = 50&divide;10 = 5, so m = 5. Putting both together: y = 5x + 30.",
     None,
-    "Tier: Medium &middot; Topic: Order of Operations and Equivalence &middot; Diagram: no &middot; Real, unused library item (ISEE Lower #3 Q29), used verbatim, answered correctly -- a distributive-property-equivalence item, different shape than QR8 #8's plain simplify-both-groups version.")
+    "Tier: Hard &middot; Topic: Y-Intercepts, Given Graphs &middot; Diagram: yes &middot; Real item (global_id 1450), used verbatim, answered correctly (77.9%). New topic 2026-10-30, replacing Order of Operations and Equivalence at the user's request. Swapped in from a plain y-intercept-only question (the same real set's #1, gid1447) to this equation-form question at the user's request, since the 4 equation choices test slope AND y-intercept together in one question rather than one fact at a time. From a freshly-captured 5-question real exercise set (Test Innovators platform) -- the graph is cropped directly from the source screenshot and embedded verbatim.",
+    diagram=img_from_b64('gid1450_graph', 'Line graph titled Saving Money, y-axis Amount of Money in dollars from 0 to 90, x-axis Time in weeks from 0 to 10, straight line from (0,30) to (10,80)'))
 
 add(23, "Medium", "Remainder when Divided by a given Number",
     "When 183 is divided by a number, the remainder is 3. Which of the following could be the number?",
@@ -336,12 +337,12 @@ add(29, "Medium", "Dividing Equally From a Total",
     "Tier: Medium &middot; Topic: Dividing Equally From a Total &middot; Diagram: no &middot; Real, unused library item (ISEE Lower #3 Q14), used verbatim, answered correctly.")
 
 add(30, "Hard", "Minimum Distance on Coordinate Plane / Grid",
-    "Katrina is walking from point X to point Z. If she can only move left, right, up, and down (not diagonally), what is the shortest distance she can travel to get from point X to point Z?",
-    {"A": "7 grid units", "B": "10 grid units", "C": "14 grid units", "D": "16 grid units"}, "C",
-    "<<<ANSWERPREFIX>>>Moving only along grid lines (taxicab distance), the shortest path is the horizontal distance plus the vertical distance: from X(3, &minus;4) to Z(&minus;3, 4), that's |3&minus;(&minus;3)| + |4&minus;(&minus;4)| = 6 + 8 = 14 grid units. (Point Y isn't part of this question -- it's just another labeled point on the same grid.)",
-    "use-all-data (ignoring an irrelevant labeled point) / exact-thing-asked",
-    "Tier: Hard &middot; Topic: Minimum Distance on Coordinate Plane / Grid &middot; Diagram: yes &middot; Real, unused library item (global_id 406, Elevate Prep &quot;Coordinate Geometry Practice Set 2&quot;), used verbatim, answered correctly. New topic 2026-10-30, replacing Determining Averages/Points on Number Lines at the user's request -- that topic is the one most recently confirmed solid (5 straight correct after the tag-fragmentation merge earlier this session), so the safest slot to free up for new, never-tracked content. Picked over the simpler gid394 (2 points only, no distractor) for the extra &quot;which 2 of the 3 labeled points actually matter&quot; layer. Point positions verified directly against the source photo (IMG_20260823_093839.jpg) rather than the transcription alone -- the real page has handwritten pencil marks scribbled across the grid, so the diagram here is a clean redraw with the same coordinates, not a crop.",
-    diagram=coordplane(-5, 5, -5, 5, [(3, -4, "X"), (-3, 4, "Z"), (4, 2, "Y")]))
+    "Use the figure shown to answer the question. How many units is the shortest distance from point A to point B if you can only move down or to the right?",
+    {"A": "8", "B": "9", "C": "10", "D": "11"}, "A",
+    "<<<ANSWERPREFIX>>>Moving only down or to the right (taxicab distance), the shortest path is the horizontal distance plus the vertical distance: from A(1, 2) to B(4, &minus;3), that's |4&minus;1| + |2&minus;(&minus;3)| = 3 + 5 = 8 units.",
+    None,
+    "Tier: Hard &middot; Topic: Minimum Distance on Coordinate Plane / Grid &middot; Diagram: yes &middot; Real item (global_id 1453), used verbatim. Swapped 2026-10-30 (2nd pass) from gid406 (Elevate Prep book, hand-redrawn since the source photo had pencil marks scribbled on it) to this one -- a freshly-captured real item from the same Test Innovators platform as the official ISEE Lower practice tests, cleanly captured with no clutter, so the grid is cropped directly from the source screenshot and embedded verbatim instead of redrawn.",
+    diagram=img_from_b64('gid1453_grid', 'Coordinate grid from -5 to 5 on both axes, point A at (1,2) and point B at (4,-3)'))
 
 assert len(P) == 30, len(P)
 json.dump(P, open(os.path.join(HERE, 'ma3_problems.json'), 'w'), indent=1)
