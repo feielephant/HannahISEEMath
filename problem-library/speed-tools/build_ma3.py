@@ -84,7 +84,7 @@ def add(n, tier, topic, q, choices, correct, key, habit_note, ref, diagram=None)
                    habit_note=habit_note, ref=ref, diagram=diagram, needs_diagram=diagram is not None))
 
 add(1, "Hard", "Cryptarithm / digit substitution",
-    "R and S are different digits from 1 through 9.<br>RSS<br>&minus; RS<br>650<br>What digit does S represent?",
+    "R and S are different digits from 1 through 9. What digit does S represent?",
     {"A": "2", "B": "5", "C": "7", "D": "9"}, "A",
     "<<<ANSWERPREFIX>>>RSS = 100R + 11S, and RS = 10R + S, so RSS &minus; RS = 90R + 10S = 650. Testing valid digits: R=7 gives S=2 (both valid, 1-9, distinct) -- this is the only combination that works. Check: 722 &minus; 72 = 650. (7 is the value of R, not S -- the exact-thing-asked trap.)",
     "exact-thing-asked / no-bounding-strategy",

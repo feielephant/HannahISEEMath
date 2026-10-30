@@ -3,7 +3,7 @@
   "n": 1,
   "tier": "Hard",
   "topic": "Cryptarithm / digit substitution",
-  "q": "R and S are different digits from 1 through 9.<br>RSS<br>&minus; RS<br>650<br>What digit does S represent?",
+  "q": "R and S are different digits from 1 through 9. What digit does S represent?",
   "choices": {
    "C": "2",
    "A": "5",
