@@ -92,7 +92,7 @@ add(1, "Hard", "Cryptarithm / digit substitution",
     diagram='<div style="font-family:ui-monospace,\'SF Mono\',\'Cascadia Mono\',\'Courier New\',monospace;letter-spacing:2px;max-width:140px;margin:0 auto;font-size:1.1em;"><div style="padding:2px 6px;line-height:1.5;text-align:right;">RSS</div><div style="padding:2px 6px;line-height:1.5;text-align:right;">&minus;RS</div><div style="padding:2px 6px;line-height:1.5;text-align:right;border-top:1.5px solid currentColor;margin-top:5px;padding-top:5px;">260</div></div>')
 
 add(2, "Easy", "Algebraic Equations with Symbol Variables",
-    "Marti wrote two equations: f &divide; g = 8, and 8 &times; 7 = f. What is the value of g?",
+    "Marti wrote two equations.<br>f &divide; g = 8<br>8 &times; 7 = f<br>What is the value of g?",
     {"A": "6", "B": "7", "C": "8", "D": "9"}, "B",
     "<<<ANSWERPREFIX>>>From the second equation, f = 8 &times; 7 = 56. Substitute into the first equation: 56 &divide; g = 8, so g = 56 &divide; 8 = 7.",
     None,

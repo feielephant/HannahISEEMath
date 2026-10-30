@@ -21,7 +21,7 @@
   "n": 2,
   "tier": "Easy",
   "topic": "Algebraic Equations with Symbol Variables",
-  "q": "Marti wrote two equations: f &divide; g = 8, and 8 &times; 7 = f. What is the value of g?",
+  "q": "Marti wrote two equations.<br>f &divide; g = 8<br>8 &times; 7 = f<br>What is the value of g?",
   "choices": {
    "D": "6",
    "A": "7",
