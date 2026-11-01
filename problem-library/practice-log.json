@@ -1091,8 +1091,31 @@
    ],
    "purpose": "Same 9 wrong problems, verbatim, done with her parent with no teaching first, to see where she is missing.",
    "published_commit": "b30daab",
-   "status": "published, not yet taken",
-   "format": "no timer, any order, done together with parent"
+   "status": "taken with parent 2026-11-01; parent read recorded, no CSV saved",
+   "format": "no timer, any order, done together with parent",
+   "parent_read_2026-11-01": {
+    "numbering": "retake numbers 1-9, not original test numbers",
+    "1": "QR#29: did not find the line of symmetry on the test",
+    "2": "QR#33: combo, each step solid",
+    "3": "QR#34: not solid on scale exchange",
+    "4": "QR#38: combo, each step solid",
+    "5": "MA#6: many data values, confused",
+    "6": "MA#17: many data values, confused",
+    "7": "MA#28: does not exactly know rhombus",
+    "8": "MA#29: still a gap",
+    "9": "MA#30: right on second try, language trick"
+   },
+   "next_steps": {
+    "next_mental": [
+     "counting multiples in a range (retake #8)"
+    ],
+    "next_qr_or_ma": [
+     "wide data tables with many values (retake #5, #6)",
+     "find the line of symmetry (retake #1)",
+     "two-scale exchange, fresh items (retake #3)",
+     "stack secure basics into multi-step combos, every future QR and MA set (retake #2, #4)"
+    ]
+   }
   }
  ]
 }

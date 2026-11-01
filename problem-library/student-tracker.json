@@ -163,11 +163,13 @@
     "check-every-condition",
     "use-all-data"
    ],
-   "priority": "medium",
+   "priority": "high",
    "_sec_total": 184.0,
    "_sec_n": 4,
    "avg_seconds": 46.0,
-   "practice_test_5_2026-11-01": "MA#29 WRONG 134s"
+   "practice_test_5_2026-11-01": "MA#29 WRONG 134s",
+   "priority_before_2026-11-01": "medium",
+   "retake_read_2026-11-01": "Retake #8 (MA#29). Still a gap on the retake, parent wants it in mental practice. Unused real items: gid 974, 976, 978, 979, 980 (977 duplicates 976)."
   },
   {
    "topic": "Equilateral Triangles",
@@ -396,7 +398,8 @@
    "_sec_total": 165.0,
    "_sec_n": 5,
    "avg_seconds": 33.0,
-   "practice_test_5_2026-11-01": "MA#3 right 55s"
+   "practice_test_5_2026-11-01": "MA#3 right 55s",
+   "retake_read_2026-11-01": "Retake #3 (QR#34) carries this platform tag but tests balance-scale substitution. Of 11 library items with this tag only 2 are balance scales (QR#17, gid 1490), the rest are not this skill, and parent confirms the platform follow-up is not this type or this hard. Do not use this tag to train scales."
   },
   {
    "topic": "Adding and Subtracting Decimals",
@@ -713,12 +716,14 @@
    "wrong": 2,
    "graded": 10,
    "habits": [],
-   "priority": "medium",
+   "priority": "high",
    "real_tests_note": "From ma_library.json: 4 real questions from past screenshots (What to Expect + ISEE Lower #1-4), 1 confirmed wrong. Not yet re-tested via our own MA practice sets (MA1 regenerated 2026-10-11, not yet taken).",
    "_sec_total": 362.0,
    "_sec_n": 5,
    "avg_seconds": 72.4,
-   "practice_test_5_2026-11-01": "QR#5 right 40s; MA#17 WRONG 57s"
+   "practice_test_5_2026-11-01": "QR#5 right 40s; MA#17 WRONG 57s",
+   "priority_before_2026-11-01": "medium",
+   "retake_read_2026-11-01": "Retake #6 (MA#17). Many data values confused her. Parent asked for this type in the next QR or MA set: wide tables with many values."
   },
   {
    "topic": "Multiplying and Dividing Whole Numbers",
@@ -748,7 +753,8 @@
    "_sec_total": 99.0,
    "_sec_n": 5,
    "avg_seconds": 19.8,
-   "practice_test_5_2026-11-01": "MA#28 WRONG 18s"
+   "practice_test_5_2026-11-01": "MA#28 WRONG 18s",
+   "retake_read_2026-11-01": "Retake #7 (MA#28). She does not seem to know exactly what a rhombus is. Narrow vocabulary fix, priority unchanged at medium."
   },
   {
    "topic": "Finding Area/Perimeter of Rectangle, given Length & Width",
@@ -832,12 +838,14 @@
    "wrong": 2,
    "graded": 11,
    "habits": [],
-   "priority": "maintain",
+   "priority": "high",
    "real_tests_note": "From ma_library.json: 5 real questions from past screenshots (What to Expect + ISEE Lower #1-4), 0 confirmed wrong. Not yet re-tested via our own MA practice sets (MA1 regenerated 2026-10-11, not yet taken).",
    "_sec_total": 453.0,
    "_sec_n": 6,
    "avg_seconds": 75.5,
-   "practice_test_5_2026-11-01": "MA#6 WRONG 18s"
+   "practice_test_5_2026-11-01": "MA#6 WRONG 18s",
+   "priority_before_2026-11-01": "maintain",
+   "retake_read_2026-11-01": "Retake #5 (MA#6). Many data values confused her, on an item 92% got right. Parent asked for this type in the next QR or MA set: wide tables with many values."
   },
   {
    "topic": "Adding and Subtracting Fractions",
@@ -867,7 +875,8 @@
    "_sec_n": 7,
    "avg_seconds": 54.6,
    "practice_test_5_2026-11-01": "QR#18 right 66s; QR#23 right 45s; QR#33 WRONG 145s; MA#2 right 46s",
-   "parent_insight_2026-11-01": "Parent read 2026-11-01 on Practice Test 5 QR #33/#34: a basic idea she knows, built up into a multi-step problem. That is the skill to improve, more than the topic itself."
+   "parent_insight_2026-11-01": "Parent read 2026-11-01 on Practice Test 5, by retake number: #2 (QR#33) and #4 (QR#38) are combo problems with each step solid, the tester builds a multi-step problem. Keep emphasizing this in future QR and MA sets. #3 (QR#34), first grouped with these, is now read as a shaky scale-exchange idea.",
+   "retake_read_2026-11-01": "Retake #2 (QR#33). Combo problem, solid on each step."
   },
   {
    "topic": "Determining Points on Number Lines",
@@ -1036,12 +1045,15 @@
    "wrong": 1,
    "graded": 2,
    "habits": [],
-   "priority": "unknown",
+   "priority": "medium",
    "real_tests_note": "not yet cross-checked against official-test tagging as of 2026-10-14",
    "_sec_total": 102.0,
    "_sec_n": 2,
    "avg_seconds": 51.0,
-   "practice_test_5_2026-11-01": "QR#38 WRONG 66s"
+   "practice_test_5_2026-11-01": "QR#38 WRONG 66s",
+   "priority_before_2026-11-01": "unknown",
+   "retake_read_2026-11-01": "Retake #4 (QR#38). Parent read: combo problem, solid on each step. The need is the multi-step build, not cubes alone, so medium rather than high.",
+   "parent_insight_2026-11-01": "Parent read 2026-11-01 on Practice Test 5, by retake number: #2 (QR#33) and #4 (QR#38) are combo problems with each step solid, the tester builds a multi-step problem. Keep emphasizing this in future QR and MA sets. #3 (QR#34), first grouped with these, is now read as a shaky scale-exchange idea."
   },
   {
    "topic": "Computation with Time",
@@ -1074,12 +1086,14 @@
    "wrong": 1,
    "graded": 2,
    "habits": [],
-   "priority": "unknown",
+   "priority": "maintain",
    "real_tests_note": "not yet cross-checked against official-test tagging as of 2026-10-14",
    "_sec_total": 322.0,
    "_sec_n": 2,
    "avg_seconds": 161.0,
-   "practice_test_5_2026-11-01": "MA#30 WRONG 282s"
+   "practice_test_5_2026-11-01": "MA#30 WRONG 282s",
+   "priority_before_2026-11-01": "unknown",
+   "retake_read_2026-11-01": "Retake #9 (MA#30). Right on the second try. Language trick on an item only 18.8% got right; only one statistical-question item in the library. Staleness flag reviewed: not escalated. Teach the eliminate-the-odd-one-out logic: A, B, D are the same category."
   },
   {
    "topic": "Best Unit of Measure",
@@ -1292,7 +1306,8 @@
    "avg_seconds": 20.0,
    "escalated_2026-10-27": "Escalated from unknown on first grading -- QR8 #22 showed a zero-method gap (no idea how to solve two symbolic equations), not just a wrong answer. Library check: all 5 real items for this topic (gid75,121,123,177,195 + 1 ma_library item) are already-seen (done); no unused real item to swap in, so QR9 needs 2-3 freshly authored items on this exact 2-equation/2-symbol structure, plus direct teaching of the substitution method before more drilling.",
    "practice_test_5_2026-11-01": "QR#34 WRONG 24s",
-   "parent_insight_2026-11-01": "Parent read 2026-11-01 on Practice Test 5 QR #33/#34: a basic idea she knows, built up into a multi-step problem. That is the skill to improve, more than the topic itself."
+   "parent_insight_2026-11-01": "Parent read 2026-11-01 on Practice Test 5, by retake number: #2 (QR#33) and #4 (QR#38) are combo problems with each step solid, the tester builds a multi-step problem. Keep emphasizing this in future QR and MA sets. #3 (QR#34), first grouped with these, is now read as a shaky scale-exchange idea.",
+   "retake_read_2026-11-01": "Retake #3 (QR#34). Not that solid on scale exchange. No unused real balance-scale items, so write fresh two-scale substitution problems at least as hard as QR#34."
   },
   {
    "topic": "Comparing Areas",
@@ -1354,13 +1369,15 @@
    "wrong": 1,
    "graded": 1,
    "habits": [],
-   "priority": "unknown",
+   "priority": "high",
    "real_tests": 1,
    "real_tests_note": "First seen on Practice Test 5, 2026-11-01.",
    "_sec_total": 23.0,
    "_sec_n": 1,
    "avg_seconds": 23.0,
-   "practice_test_5_2026-11-01": "QR#29 WRONG 23s"
+   "practice_test_5_2026-11-01": "QR#29 WRONG 23s",
+   "priority_before_2026-11-01": "unknown",
+   "retake_read_2026-11-01": "Retake #1 (QR#29). She did not find the line of symmetry on the test. Parent asked for more of this in future QR/MA sets. Real tile-completion items are used up (gid 1485 is the only symmetry one); the 11 unused symmetry items give the line or count lines, so write fresh find-the-line items."
   },
   {
    "topic": "Determining Fraction/Percent of Shaded Area, given Figure",
