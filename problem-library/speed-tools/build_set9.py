@@ -139,14 +139,15 @@ u = 34//2 - 12; assert u == 5 and 3*u - u == 10
 add(1, 'Perimeter', 'Mara builds garden beds. The first rectangular bed she builds has a perimeter of 34 feet. The length of one of the sides is shown. If the unknown side length of the next bed she builds is tripled, by what amount will she increase the unknown side length?',
     ['5', '10', '15', '17'], 'B', 'Half the perimeter is 17, so the unknown side is 17 &minus; 12 = 5. Tripled it is 15, so the increase is 15 &minus; 5 = 10. C stops at the new side, A at the old side, D at half the perimeter.',
     'Lower #5 #33', rect_q(150, 70, '12', '?'), 'exact-thing-asked')
-# 2 scales
-S, Tz, C = 1, 3, 5
-assert C+S == 2*Tz and Tz+2*S == C and (C, 2*C, Tz) != (0,0,0)
-assert C == 5*S and C != 2*Tz and Tz != 2*S and 2*C != 3*Tz
+# 2 scales: same difficulty as Lower 5 #34. A shared figure cancels on the first scale, then one substitution.
+# Replaced 2026-11-01 before she took the set: the first version had no shared figure to cancel and was harder than the real item.
+S, Tz, C = 1, 3, 2
+assert Tz+2*C == Tz+4*S and C+S == Tz
+assert Tz == 3*S and Tz != C and C != 3*S and 2*Tz != 2*C
 add(2, 'Algebra with Geometric Shapes', 'The scales shown are balanced. Which set of figures would create a balanced scale?',
-    [scale('C','TT'), scale('T','SS'), scale('CC','TTT'), scale('C','SSSSS')], 'D',
-    'Use the second scale to swap C on the first scale: C is the same as T S S. So T S S S balances T T. Take one T off both sides: S S S balances T. Then C = T S S = S S S S S. Other choices do not hold: if S weighs 1, then T weighs 3 and C weighs 5.',
-    'Lower #5 #34', scales(('CS','TT'), ('TSS','C')))
+    [scale('T','C'), scale('C','SSS'), scale('TT','CC'), scale('T','SSS')], 'D',
+    'Take T off both sides of the first scale: C C balances S S S S, so one C balances S S. The second scale says C S balances T. Swap C for S S: S S S balances T.',
+    'Lower #5 #34', scales(('TCC','TSSSS'), ('CS','T')))
 # 3 wide table
 tb = {'Apr':(12,15,9,14),'May':(18,16,14,11),'Jun':(21,19,17,23),'Jul':(16,24,13,20),'Aug':(22,18,20,15),'Sep':(10,13,11,17)}
 sm = lambda i: sum(tb[m][i] for m in ('Jun','Jul','Aug'))

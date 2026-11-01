@@ -926,7 +926,8 @@
      14
     ]
    },
-   "published_commit": "93633892adddcfa77f715267fb780d5ff805d278"
+   "published_commit": "93633892adddcfa77f715267fb780d5ff805d278",
+   "change_after_publish_2026-11-01": "#2 replaced before she took the set; parent felt it was harder than Lower 5 #34. The first version (C S = T T, T S S = C, answer C = S S S S S) is in git commit 9363389 for later use."
   }
  ],
  "rotation_notes": {
