@@ -373,6 +373,38 @@
     "global_id": 44,
     "topic": "Nth Term, given Arithmetic Sequence, Progressive Pattern, etc."
    }
+  ],
+  "9": [
+   {
+    "n": 4,
+    "global_id": 1114,
+    "topic": "Percent Word Problems",
+    "note": "Used verbatim in QR Set 9"
+   },
+   {
+    "n": 10,
+    "global_id": 1059,
+    "topic": "Area and Perimeter of Complex Polygons",
+    "note": "Used verbatim in QR Set 9"
+   },
+   {
+    "n": 12,
+    "global_id": 1005,
+    "topic": "Multi-step unit conversion (off-by-10, multi-step)",
+    "note": "Used verbatim in QR Set 9"
+   },
+   {
+    "n": 21,
+    "global_id": 862,
+    "topic": "Multi-step unit conversion (off-by-10, multi-step)",
+    "note": "Used verbatim in QR Set 9"
+   },
+   {
+    "n": 32,
+    "global_id": 1140,
+    "topic": "Word Problems with Ratios",
+    "note": "Used verbatim in QR Set 9"
+   }
   ]
  },
  "ma": {

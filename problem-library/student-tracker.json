@@ -83,11 +83,13 @@
     "sequential-fraction-of-remainder",
     "exact-thing-asked"
    ],
-   "priority": "high",
+   "priority": "medium",
    "_sec_total": 130.0,
    "_sec_n": 3,
    "avg_seconds": 43.3,
-   "mechanism_2026-10-26": "Parent confirmed directly: the blank on Set 5 #37 (3/8 ride bus, 1/3 of remaining walk) meant she genuinely could not figure out how to start the problem, NOT a pacing/ran-out-of-time issue (it had looked ambiguous from the numbers alone -- #37 is in the pacing-affected tail). This is specifically the sequential fraction-of-remainder mechanic (take a fraction of a total, then a fraction of what remains) -- same mechanic as Remaining Amount after Reducing by Fractions, worth checking that topic too if this keeps showing up. Escalated medium->high. Retested at QR8 #33, away from the pacing zone, to get a clean read."
+   "mechanism_2026-10-26": "Parent confirmed directly: the blank on Set 5 #37 (3/8 ride bus, 1/3 of remaining walk) meant she genuinely could not figure out how to start the problem, NOT a pacing/ran-out-of-time issue (it had looked ambiguous from the numbers alone -- #37 is in the pacing-affected tail). This is specifically the sequential fraction-of-remainder mechanic (take a fraction of a total, then a fraction of what remains) -- same mechanic as Remaining Amount after Reducing by Fractions, worth checking that topic too if this keeps showing up. Escalated medium->high. Retested at QR8 #33, away from the pacing zone, to get a clean read.",
+   "priority_before_2026-11-01": "high",
+   "staleness_review_2026-11-01": "Staleness flag reviewed 2026-11-01: 1/8 wrong. Lowered from high."
   },
   {
    "topic": "Converting to a Decimal",
@@ -316,7 +318,8 @@
    "_sec_n": 9,
    "avg_seconds": 80.3,
    "ma_real_test_note": "Also has real MA-section evidence from ma_library.json: 0/3 wrong on actual past screenshots (pre-tutoring). Merged into this topic's combined QR+MA counts above.",
-   "practice_test_5_2026-11-01": "MA#25 right 77s"
+   "practice_test_5_2026-11-01": "MA#25 right 77s",
+   "staleness_review_2026-11-01": "Flag reviewed 2026-11-01: 2/15 wrong but stays high, since it appears in the real last third at 44-66% correct."
   },
   {
    "topic": "Estimating Division with Money",
@@ -550,14 +553,16 @@
    "habits": [
     "decimal-vs-nonnice-fraction"
    ],
-   "priority": "high",
+   "priority": "medium",
    "mechanism_2026-10-11": "CONFIRMED (parent watched her work #21 directly, 9/15 shaded): her default fraction-to-percent method is 'find x so that denominator x x = 100, then numerator x x' -- i.e. scale the ORIGINAL denominator straight to 100. This only produces a clean answer when the denominator is already a factor of 100 (2,4,5,10,20,25,50...). 15 is not (100/15 isn't a whole number), so the method breaks down and she mis-converts (landed on 90% instead of 60%). She has two reliable fallbacks available but doesn't default to either: (1) simplify the fraction FIRST, then scale -- 9/15 -> 3/5, and 5 IS a factor of 100 (x20), giving 3x20=60% cleanly; (2) direct long division, 9\u00f715=0.6=60%, which always works regardless of the denominator. This is the actual mechanism behind the existing 'decimal-vs-nonnice-fraction' habit tag (flagged in set 2 but never written up with a cause) -- not a concept gap (she understands fraction=percent equivalence fine), a PROCEDURE gap: no reliable fallback when the quick mental shortcut doesn't land on a whole number.",
    "note": "underlying skill is the same fraction-to-percent conversion as [[decimal-fraction-percent cluster]] -- the question literally asks 'what percent of the figure is shaded,' method is count shaded/total then simplify and convert (set 3 #21: 9/15 -> 3/5 -> 60%, she answered 90%). Only a 1-item sample so far, but ties this topic to the broader recurring cluster (Comparing & Ordering Fractions & Decimals, Equivalent Fractions/Decimals/Percents, Converting to a Decimal) rather than treating it as an isolated geometry miss.",
    "format_note_2026-10-11": "Found by the same new automated check that caught #23/#37's format issue: set 3's other slot for this topic, #22, had NO diagram either -- it stated the fraction directly in text ('if 5/8 of the figure is shaded...') instead of showing a figure for her to read the fraction off of, unlike every real-test example of this topic which always shows a figure. She answered #22 correctly, so the graded outcome doesn't change, but the problem wasn't testing the real skill (just 5/8 x 24, no figure-reading). Fixed live worksheet: now shows an 8-section grid with 5 shaded, same convention as #21.",
    "_sec_total": 453.0,
    "_sec_n": 8,
    "avg_seconds": 56.6,
-   "practice_test_5_2026-11-01": "QR#22 right 47s"
+   "practice_test_5_2026-11-01": "QR#22 right 47s",
+   "priority_before_2026-11-01": "high",
+   "staleness_review_2026-11-01": "Staleness flag reviewed 2026-11-01: 1/8 wrong. Lowered from high."
   },
   {
    "topic": "Split Line Segments",
@@ -568,14 +573,16 @@
    "habits": [
     "distance-vs-midpoint confusion on #23/#37 now looks bug-caused, not a real habit -- see evidence_note"
    ],
-   "priority": "low",
+   "priority": "medium",
    "evidence_note": "set 3 had 2 slots (#23, #37), and NEITHER was a clean data point (caught 2026-10-11): #37's diagram had a confirmed bug (no numeric scale), and #23 skipped the diagram entirely, stating point values directly in the text instead of having her read them off a number line like every real 'X is the midpoint of Y and Z' problem does. Both fixed on the live worksheet same day. Retest (2026-10-11, informal -- parent had her redo both directly, not inside a new timed set): correct on both, each in under 1.5 minutes. Consistent with the format bugs causing the original misses rather than a genuine gap, though not fully conclusive since it was a repeat of problems she'd just missed, not fresh ones. Downgraded from needs-retest to low priority; reopen if a *new* Split Line Segments problem produces another miss in a future set. Raw wrong/graded left as 2/2 since that's what happened on set 3.",
    "_sec_total": 94.0,
    "_sec_n": 3,
    "avg_seconds": 31.3,
    "integrity_caveat_2026-10-29": "Both of her only 2 attempts (QR3 #23, #37, both 2026-10-11) are contaminated by worksheet bugs, not a real skill signal. #23 has NO diagram at all -- diag field is empty, values (A=14, C=50) just stated in plain text despite being a number-line topic. #37 HAS an SVG number-line diagram, but its tick marks carry zero numeric labels (only letter positions Q/P) -- the answer key's own explanation assumes 'Q=10, P=30, 5 per tick' which is nowhere derivable from what's actually shown on the page or in the question text. Both wrong answers are explainable by the problem being unreadable/unsolvable as published, not by a real midpoint-concept gap. 2/2 wrong should NOT be trusted as evidence either way -- needs a clean retest with a properly numbered number line before drawing any conclusion. Do not pick this topic for a future set based on its current 100% error score without fixing the diagram.",
    "tag_fragmentation_note_2026-10-29": "This exact tag only ever covers QR3 #23/#37 (both bug-contaminated, see integrity_caveat_2026-10-29). The SAME skill (midpoint/average-of-two-points on a number line) also appears under 'Determining Averages between Points on Number Lines' and 'Determining Points on Number Lines' -- different tags, same mechanic, confirmed by identical question wording ('P is the average of Q and another point R, find R'). Tracking the real combined history: QR4 #26 (10/14) wrong, then 5 STRAIGHT correct (QR5 #36, MA1 #27, QR6 #23, MA2 #15, QR7 #21, 10/18 through 10/25). She is solid on this skill now -- do not pick 'Split Line Segments' for a future set based on its isolated 2/2 score; the real current picture is 1 miss in 6 clean (non-buggy) attempts, 5 of them the most recent 5 in a row. Future authoring should use ONE consistent topic tag for this mechanic going forward.",
-   "practice_test_5_2026-11-01": "QR#30 right 25s"
+   "practice_test_5_2026-11-01": "QR#30 right 25s",
+   "priority_before_2026-11-01": "low",
+   "staleness_review_2026-11-01": "Staleness flag reviewed 2026-11-01: 2/3 wrong, real last-third item (Lower #5 #30). Raised and put in Set 9 #27."
   },
   {
    "topic": "Finding Unit Price",
@@ -997,11 +1004,13 @@
    "wrong": 1,
    "graded": 2,
    "habits": [],
-   "priority": "unknown",
+   "priority": "medium",
    "real_tests_note": "not yet cross-checked against official-test tagging as of 2026-10-14",
    "_sec_total": 130.0,
    "_sec_n": 2,
-   "avg_seconds": 65.0
+   "avg_seconds": 65.0,
+   "priority_before_2026-11-01": "unknown",
+   "staleness_review_2026-11-01": "Staleness flag reviewed 2026-11-01: 1/2 wrong, QR8 #6 was a real inch vs foot misconception. Raised; unit steps in Set 9 #12, #21."
   },
   {
    "topic": "Volume of Solids",

@@ -809,6 +809,123 @@
      "30": "Misread the minus as a plus -- the method itself is solid"
     }
    }
+  },
+  {
+   "set_no": 9,
+   "topics": [
+    "Perimeter",
+    "Algebra with Geometric Shapes",
+    "Comparing Adding Subtracting Bar Graph Data Table Values",
+    "Percent Word Problems",
+    "Cryptarithm / digit substitution",
+    "Solving Problems with Geometric Formulas",
+    "Finding Ratios given Probability",
+    "Percent Increase Decrease basic",
+    "Algebra with Geometric Shapes",
+    "Area and Perimeter of Complex Polygons",
+    "Identifying Correct Conclusions from Bar Graph Data Table",
+    "Multi-step unit conversion (off-by-10, multi-step)",
+    "Shape Construction & Symmetry in 2-D Figures",
+    "Identifying Shapes",
+    "Probability of 1 Event, given a List of Items",
+    "Percent Increase Decrease basic",
+    "Total Shaded Area given Figure with Equal Divisions",
+    "Cryptarithm / digit substitution",
+    "Translating Math Expressions",
+    "Finding MMMR given Bar Graph Data Table",
+    "Multi-step unit conversion (off-by-10, multi-step)",
+    "Comparing & Ordering Fractions & Decimals",
+    "Translating Math Expressions",
+    "Value of Digits",
+    "Numerical Patterns",
+    "Nth Term, given Arithmetic Sequence, Progressive Pattern, etc.",
+    "Split Line Segments",
+    "Estimating Multiplication & Division",
+    "Comparing Volume of Cubes",
+    "Comparing Areas",
+    "Identifying Correct Conclusions from Bar Graph Data Table",
+    "Word Problems with Ratios",
+    "Shape Construction & Symmetry in 2-D Figures",
+    "Adding and Subtracting Fractions",
+    "Comparing Volume of Cubes",
+    "Algebra with Geometric Shapes",
+    "Determining Averages between Points on Number Lines",
+    "Remaining Amount after Reducing by Fractions"
+   ],
+   "date_built": "2026-11-01",
+   "built_with": "Every problem built like the real last third, per parent 2026-11-01. plan_set.py not used; topics chosen from the retake read, tracker, and staleness review.",
+   "real_verbatim_unused": [
+    1114,
+    1059,
+    1005,
+    862,
+    1140
+   ],
+   "real_repeat_parent_approved": [
+    157,
+    184
+   ],
+   "models_by_problem": {
+    "1": "Lower #5 #33",
+    "2": "Lower #5 #34",
+    "3": "Lower #5 MA #6, parent asked for tables with many numbers",
+    "4": "Lower #4 #38 language: increased by",
+    "5": "Lower #3 #38",
+    "6": "Lower #1 #36",
+    "7": "What to Expect #32",
+    "8": "Lower #4 #38 language plus a second step",
+    "9": "Lower #1 #37",
+    "10": "Lower #1 #38",
+    "11": "Lower #2 #37",
+    "12": "Lower #1 #29",
+    "13": "Lower #5 #29, parent: she did not find the line",
+    "14": "Lower #1 #31 and Lower #5 MA #28",
+    "15": "Lower #5 #37",
+    "16": "Lower #4 #38",
+    "17": "Lower #5 #35 and Lower #4 #37",
+    "18": "Lower #4 #24",
+    "19": "Lower #4 #35",
+    "20": "Lower #5 MA #17, parent asked for tables with many numbers",
+    "21": "Lower #1 #29",
+    "22": "Lower #4 #27 fractions plus her order-three gap",
+    "23": "Lower #4 #33",
+    "24": "Lower #3 #31 and Lower #2 #35",
+    "25": "Lower #3 #35 and Lower #2 #27",
+    "26": "Lower #3 #35, anchored from a later term as in QR8 #23",
+    "27": "Lower #5 #30",
+    "28": "What to Expect #33",
+    "29": "Lower #5 #38",
+    "30": "Lower #2 #38",
+    "31": "Lower #2 #34",
+    "32": "Lower #2 #36",
+    "33": "Lower #5 #29, parent: she did not find the line",
+    "34": "Lower #2 #36",
+    "35": "Lower #4 #36",
+    "36": "Lower #5 #34 and Lower #2 #17",
+    "37": "What to Expect #35",
+    "38": "Lower #5 #33 step chain"
+   },
+   "retake_followups": {
+    "#1": [
+     13,
+     33
+    ],
+    "#2 and #4": [
+     1,
+     29
+    ],
+    "#3": [
+     2,
+     36
+    ],
+    "#5 and #6": [
+     3,
+     20
+    ],
+    "#7": [
+     14
+    ]
+   }
   }
  ],
  "rotation_notes": {
