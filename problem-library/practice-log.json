@@ -991,7 +991,8 @@
     "Dividing Equally From a Total",
     "Minimum Distance on Coordinate Plane / Grid"
    ],
-   "notes": "Manually curated (not plan_set_ma.py auto-selection): top 30 topics from the 2026-10-29 streak-adjusted error-rate ranking, with 2 user-directed swaps (Vertices Forming Right Angles Quadrilaterals -> Classification of Numbers given a Set; Area and Perimeter of Complex Polygons -> a 2nd Numerical Patterns slot in the QR7 #35 backward-anchor style). 29 of 30 problems are real official/library items (one 2nd/3rd/4th-term pattern problem invented, same structure as QR7 #35/QR8 #7). See ma3_SOURCES.md for the full picked-vs-invented table. #1 swapped 2026-10-29 to a no-borrow version (RSS-RS=260, R=2/S=8) at the user's request, replacing the original borrow-requiring version (RSS-RS=650, R=7/S=2) in the same slot -- back to 30 problems, not kept as a 31st. 2026-10-30: swapped 7 problems (#4,#8,#11,#19,#20,#21,#26) to harder real items after a difficulty-check comparison against her actual real-test errors found them undershooting; #23 and #27 flagged but kept (no suitable real alternative exists for the exact mechanic that tripped her up). 2026-10-30 (2nd pass): swapped #6 to a mixed decimal/fraction missing-value item (ISEE Lower #3 Q18) after the user asked for a better pick than gid139 -- preserves the multi-item ordering complexity without the fraction-bar diagram scaffolding. 2026-10-30 (3rd pass): swapped #21 to gid492 (find the input given an output -- the reverse direction) after the user asked for more matching options; the 2 confirmed-wrong real items for this topic are both already used in old redo-sets. 2026-10-30 (4th pass): swapped #23 to gid505 (given dividend+remainder, find the divisor -- inverse reasoning) after a deeper re-search found it; confirmed #27 still has zero real alternative anywhere in the library (full-text search for \"opposite\"). 2026-10-30 (5th pass): swapped #27 to gid151 (ISEE Lower #3 Q32, cube with 3 colored circles, 60.5% correct) -- real answer choices are themselves 4 net diagrams in an unusual skewed-rhombus style; cropped and embedded verbatim from the source screenshot rather than hand-redrawn, to avoid a transcription-error risk. 2026-10-30 (6th pass): swapped #30 from Determining Averages/Points on Number Lines (recently confirmed solid, 5 straight correct) to a new, never-tracked topic, Minimum Distance on Coordinate Plane / Grid (gid406, taxicab/Manhattan distance), at the user's request. 2026-10-30 (7th pass): catalogued 10 freshly-captured real items (gids 1447-1456) from 2 new Test Innovators exercise sets (Y-Intercepts Given Graphs; Minimum Distance on Coordinate Plane/Grid #2). Swapped #22 to Y-Intercepts (equation-of-the-line version, tests slope+intercept together) replacing Order of Operations, and #30 to a cleaner real item from the new Minimum Distance set (gid1453) replacing the hand-redrawn gid406 version."
+   "notes": "Manually curated (not plan_set_ma.py auto-selection): top 30 topics from the 2026-10-29 streak-adjusted error-rate ranking, with 2 user-directed swaps (Vertices Forming Right Angles Quadrilaterals -> Classification of Numbers given a Set; Area and Perimeter of Complex Polygons -> a 2nd Numerical Patterns slot in the QR7 #35 backward-anchor style). 29 of 30 problems are real official/library items (one 2nd/3rd/4th-term pattern problem invented, same structure as QR7 #35/QR8 #7). See ma3_SOURCES.md for the full picked-vs-invented table. #1 swapped 2026-10-29 to a no-borrow version (RSS-RS=260, R=2/S=8) at the user's request, replacing the original borrow-requiring version (RSS-RS=650, R=7/S=2) in the same slot -- back to 30 problems, not kept as a 31st. 2026-10-30: swapped 7 problems (#4,#8,#11,#19,#20,#21,#26) to harder real items after a difficulty-check comparison against her actual real-test errors found them undershooting; #23 and #27 flagged but kept (no suitable real alternative exists for the exact mechanic that tripped her up). 2026-10-30 (2nd pass): swapped #6 to a mixed decimal/fraction missing-value item (ISEE Lower #3 Q18) after the user asked for a better pick than gid139 -- preserves the multi-item ordering complexity without the fraction-bar diagram scaffolding. 2026-10-30 (3rd pass): swapped #21 to gid492 (find the input given an output -- the reverse direction) after the user asked for more matching options; the 2 confirmed-wrong real items for this topic are both already used in old redo-sets. 2026-10-30 (4th pass): swapped #23 to gid505 (given dividend+remainder, find the divisor -- inverse reasoning) after a deeper re-search found it; confirmed #27 still has zero real alternative anywhere in the library (full-text search for \"opposite\"). 2026-10-30 (5th pass): swapped #27 to gid151 (ISEE Lower #3 Q32, cube with 3 colored circles, 60.5% correct) -- real answer choices are themselves 4 net diagrams in an unusual skewed-rhombus style; cropped and embedded verbatim from the source screenshot rather than hand-redrawn, to avoid a transcription-error risk. 2026-10-30 (6th pass): swapped #30 from Determining Averages/Points on Number Lines (recently confirmed solid, 5 straight correct) to a new, never-tracked topic, Minimum Distance on Coordinate Plane / Grid (gid406, taxicab/Manhattan distance), at the user's request. 2026-10-30 (7th pass): catalogued 10 freshly-captured real items (gids 1447-1456) from 2 new Test Innovators exercise sets (Y-Intercepts Given Graphs; Minimum Distance on Coordinate Plane/Grid #2). Swapped #22 to Y-Intercepts (equation-of-the-line version, tests slope+intercept together) replacing Order of Operations, and #30 to a cleaner real item from the new Minimum Distance set (gid1453) replacing the hand-redrawn gid406 version.",
+   "published_commit": "2aae83934dad85db86b9ecf73a1464631250f249"
   }
  ],
  "ma_notes": {
@@ -1036,6 +1037,61 @@
   {
    "date": "2026-10-11 #4",
    "finding": "Built a second automated check (sanitize_diagrams.py's check_missing_diagram(), also added to grade_set.py's sanitize_check workflow) that flags problems whose topic is one of the real test's diagram-convention topics (number line, shaded figure, bar graph, pictograph, ...) but which has no diagram at all -- the opposite case from the original value-mismatch check, covering the #23 bug class generally instead of relying on catching it by hand each time. First run immediately found 4 more instances beyond #23/#37: set 2 #10, #29, #36 (Interpreting Pictographs -- all 3 slots for this topic stated the chart's values directly in text, no pictograph shown) and set 3 #22 (Total Shaded Area -- stated the fraction 5/8 directly instead of showing a figure to read it from). Set 2 is already taken and can't be retroactively fixed; #10 and #29 were answered correctly, #36 was wrong but already had a separate, still-valid explanation (confidence/second-guessing, not a gap -- see student-tracker.json 'Interpreting Pictographs' format_note_2026-10-11). #22 (set 3) was answered correctly. Fixed all 4 on the live worksheets with real pictographs (star/dot icons with a legend, half-icons for fractional counts) and a proper 8-section grid for #22, so future reuse of these topics is authentic. Also added a 'Known format conventions' section to GENERATION_WORKFLOW.md so new problems on these topics are built correctly from the start instead of needing a later catch."
+  }
+ ],
+ "practice_tests": [
+  {
+   "test": "ISEE Lower #5",
+   "result_id": 5053390,
+   "date": "2026-11-01",
+   "qr": {
+    "score": "34/38",
+    "wrong": [
+     29,
+     33,
+     34,
+     38
+    ],
+    "blanks": 0,
+    "first_pass_minutes": 28,
+    "note": "Finished with about 7 minutes to spare; review pass to about 30.5 min, then idle on Q1. Pacing rule for Q31-38 does not apply: not rushed, pacing_affected false."
+   },
+   "ma": {
+    "score": "25/30",
+    "wrong": [
+     6,
+     17,
+     28,
+     29,
+     30
+    ],
+    "note": "Q30 took 282s and ran to the 30-minute limit, so no review pass."
+   },
+   "gids": "problem_library 1457-1494 questions, 1495-1496 timing; ma_library test_set ISEE LOWER #5",
+   "screenshots": "mathspeed test/actual-practice-tests/ISEE Lower #5/"
+  }
+ ],
+ "retake_sets": [
+  {
+   "slug": "practice-test-5-retake",
+   "source_test": "ISEE Lower #5",
+   "date_built": "2026-11-01",
+   "problems": 9,
+   "minutes": 15,
+   "verbatim_of": [
+    "QR29",
+    "QR33",
+    "QR34",
+    "QR38",
+    "MA6",
+    "MA17",
+    "MA28",
+    "MA29",
+    "MA30"
+   ],
+   "purpose": "Same 9 wrong problems, verbatim, no teaching first, to see what is a real gap versus a test-day slip.",
+   "published_commit": "3f3fa95",
+   "status": "published, not yet taken"
   }
  ]
 }

@@ -8076,5 +8076,1454 @@
     "source": "ma_exercise_screenshot",
     "set_name": "ORDER OF OPERATIONS & EQUIVALENCE #4",
     "status": "not_done"
+  },
+  {
+    "source_file": "mathspeed test/actual-practice-tests/ISEE Lower #5/Screenshot 2026-11-01 at 12.23.59 PM.png",
+    "type": "question",
+    "question_number": 1,
+    "question_text": "Jackie has 3 times as many coins as her friend Edan. Edan has 54 coins. How many coins does Jackie have?",
+    "diagram_description": "None.",
+    "choices": [
+      "18",
+      "51",
+      "57",
+      "162"
+    ],
+    "correct_letter": "D",
+    "correct_pct": "95.7%",
+    "topic_broad": "arithmetic",
+    "topic_specific": "times as many",
+    "notes": "Practice Test 5, Mathematics Achievement #1. Answered correctly.",
+    "status": "done",
+    "is_wrong": false,
+    "official_topic": "Word Problems - Linear Relationships",
+    "official_solution": "The correct answer to the question is answer choice (D), 162. Word Problems - Linear Relationships Edan has 54 coins. Jackie has 3 times as many coins as Edan. So, Jackie has 3 x 54, or 3 x 50+ 3 x 4= 1504 12 = 162 coins.",
+    "official_solution_source": "OCR of the review page, unverified: math symbols may be garbled",
+    "choice_percentages": {
+      "A": "<5.0%",
+      "B": "<5.0%",
+      "C": "<5.0%",
+      "D": "95.7%"
+    },
+    "her_selected_letter": "D",
+    "recapture_source_images": [
+      "mathspeed test/actual-practice-tests/ISEE Lower #5/Screenshot 2026-11-01 at 12.23.59 PM.png"
+    ],
+    "her_seconds": 17,
+    "her_seconds_source": "review page",
+    "others_avg_seconds": 21,
+    "difficulty": "Easy",
+    "subtype": "Algebraic Concepts",
+    "test_set": "ISEE LOWER #5",
+    "exercise_title": null,
+    "is_timing_chart": false,
+    "strip_wrong": [
+      6,
+      17,
+      28,
+      29,
+      30
+    ]
+  },
+  {
+    "source_file": "mathspeed test/actual-practice-tests/ISEE Lower #5/Screenshot 2026-11-01 at 12.24.26 PM.png",
+    "type": "question",
+    "question_number": 2,
+    "question_text": "A hexagon is shown, with side lengths measured in meters (m). What is the perimeter of this hexagon?",
+    "diagram_description": "Hexagon with sides 12, 8, 7, 4, 9, 6 m. Not drawn to scale.",
+    "choices": [
+      "46 m",
+      "51 m",
+      "56 m",
+      "65 m"
+    ],
+    "correct_letter": "A",
+    "correct_pct": "96.1%",
+    "topic_broad": "geometry-area-perimeter",
+    "topic_specific": "perimeter by adding sides",
+    "notes": "Practice Test 5, Mathematics Achievement #2. Answered correctly.",
+    "status": "done",
+    "is_wrong": false,
+    "official_topic": "Perimeter",
+    "official_solution": "The correct answer to the question is answer choice (A), 46 m. Perimeter Perimeter is the distance around a figure. Add the length of each side of the hexagon to find the perimeter. i 1 i 12m+8m T T7Tm+4m T 9m T 6m= 46m",
+    "official_solution_source": "OCR of the review page, unverified: math symbols may be garbled",
+    "choice_percentages": {
+      "A": "96.1%",
+      "B": "<5.0%",
+      "C": "<5.0%",
+      "D": "<5.0%"
+    },
+    "her_selected_letter": "A",
+    "recapture_source_images": [
+      "mathspeed test/actual-practice-tests/ISEE Lower #5/Screenshot 2026-11-01 at 12.24.26 PM.png"
+    ],
+    "her_seconds": 46,
+    "her_seconds_source": "review page",
+    "others_avg_seconds": 40,
+    "difficulty": "Easy",
+    "subtype": "Measurement",
+    "test_set": "ISEE LOWER #5",
+    "exercise_title": null,
+    "is_timing_chart": false,
+    "strip_wrong": [
+      6,
+      17,
+      28,
+      29,
+      30
+    ]
+  },
+  {
+    "source_file": "mathspeed test/actual-practice-tests/ISEE Lower #5/Screenshot 2026-11-01 at 12.24.28 PM.png",
+    "type": "question",
+    "question_number": 3,
+    "question_text": "The graph shows the number of houses in each neighborhood. Which statement about the number of houses in each neighborhood is true?",
+    "diagram_description": "Pictograph NEIGHBORHOOD HOUSES. Key: one house = 10 houses. Mill Creek 3, North Bridge 4, Seven Oaks 8, Brookwood 5 icons.",
+    "choices": [
+      "There are 30 more houses in Brookwood than there are in Mill Creek.",
+      "There are twice as many houses in Seven Oaks as there are in North Bridge.",
+      "There are more houses in Seven Oaks than in North Bridge and Brookwood combined.",
+      "There are 20 more houses in Brookwood than in Mill Creek and North Bridge combined."
+    ],
+    "correct_letter": "B",
+    "correct_pct": "95.6%",
+    "topic_broad": "data-analysis-graphs-tables",
+    "topic_specific": "pictograph, statement choices",
+    "notes": "Practice Test 5, Mathematics Achievement #3. Answered correctly.",
+    "status": "done",
+    "is_wrong": false,
+    "official_topic": "Interpreting Pictographs",
+    "official_solution": "The correct answer to the question is answer choice (B), There are twice as many Interpreting Pictographs houses in Seven Oaks as there are in North Bridge. Answer choice A can be eliminated because there are only 20 more houses in Brookwood than in Mill Creek: (50 — 30 = 20). * Answer choice B is correct because there are 80 houses in Seven Oaks and 40 in North Bridge, so there are twice as many. Using the graph, you can see there are 8 house figures in Seven Oaks (OVW AIN ... ON\\ nn A te Ale eth Det tan (AVY AN 0. ANN Th eenleen ee eee Gl Leto r",
+    "official_solution_source": "OCR of the review page, unverified: math symbols may be garbled",
+    "choice_percentages": {
+      "A": "<5.0%",
+      "B": "95.6%",
+      "C": "<5.0%",
+      "D": "<5.0%"
+    },
+    "her_selected_letter": "B",
+    "recapture_source_images": [
+      "mathspeed test/actual-practice-tests/ISEE Lower #5/Screenshot 2026-11-01 at 12.24.28 PM.png"
+    ],
+    "her_seconds": 55,
+    "her_seconds_source": "timing chart bar (estimate, about +/-3s QR, +/-2s MA)",
+    "others_avg_seconds": null,
+    "difficulty": null,
+    "subtype": null,
+    "test_set": "ISEE LOWER #5",
+    "exercise_title": null,
+    "is_timing_chart": false,
+    "strip_wrong": [
+      6,
+      17,
+      28,
+      29,
+      30
+    ]
+  },
+  {
+    "source_file": "mathspeed test/actual-practice-tests/ISEE Lower #5/Screenshot 2026-11-01 at 12.24.30 PM.png",
+    "type": "question",
+    "question_number": 4,
+    "question_text": "If ■ = 3 × (△ + 2), what is the value of ■ if △ = 6?",
+    "diagram_description": "None.",
+    "choices": [
+      "0",
+      "11",
+      "20",
+      "24"
+    ],
+    "correct_letter": "D",
+    "correct_pct": "95.0%",
+    "topic_broad": "algebra-equations",
+    "topic_specific": "substitute into a symbol equation",
+    "notes": "Practice Test 5, Mathematics Achievement #4. Answered correctly.",
+    "status": "done",
+    "is_wrong": false,
+    "official_topic": "Algebraic Equations with Symbol Variables",
+    "official_solution": "The correct answer to the question is answer choice (D), 24. Algebraic Equations with Symbol Variables Substitute 6 for A so that your equation is ll = 3 x (6 + 2). Following order of operations, do the work inside the parentheses first to get Hl = 3 x 8.So, MI = 24.",
+    "official_solution_source": "OCR of the review page, unverified: math symbols may be garbled",
+    "choice_percentages": {
+      "A": "<5.0%",
+      "B": "<5.0%",
+      "C": "<5.0%",
+      "D": "95.0%"
+    },
+    "her_selected_letter": "D",
+    "recapture_source_images": [
+      "mathspeed test/actual-practice-tests/ISEE Lower #5/Screenshot 2026-11-01 at 12.24.30 PM.png"
+    ],
+    "her_seconds": 35,
+    "her_seconds_source": "review page",
+    "others_avg_seconds": 29,
+    "difficulty": "Easy",
+    "subtype": "Algebraic Concepts",
+    "test_set": "ISEE LOWER #5",
+    "exercise_title": null,
+    "is_timing_chart": false,
+    "strip_wrong": [
+      6,
+      17,
+      28,
+      29,
+      30
+    ]
+  },
+  {
+    "source_file": "mathspeed test/actual-practice-tests/ISEE Lower #5/Screenshot 2026-11-01 at 12.24.31 PM.png",
+    "type": "question",
+    "question_number": 5,
+    "question_text": "What is the value of the expression 4,000 − 385?",
+    "diagram_description": "None.",
+    "choices": [
+      "3,625",
+      "3,725",
+      "3,615",
+      "4,715"
+    ],
+    "correct_letter": "C",
+    "correct_pct": "93.2%",
+    "topic_broad": "arithmetic",
+    "topic_specific": "subtraction across zeros",
+    "notes": "Practice Test 5, Mathematics Achievement #5. Answered correctly.",
+    "status": "done",
+    "is_wrong": false,
+    "official_topic": "Adding and Subtracting Integers",
+    "official_solution": "The correct answer to the question is answer choice **(C), 3,615. ** Adding and Subtracting Integers 4,000 — 385 = 3,615",
+    "official_solution_source": "OCR of the review page, unverified: math symbols may be garbled",
+    "choice_percentages": {
+      "A": "<5.0%",
+      "B": "<5.0%",
+      "C": "93.2%",
+      "D": "<5.0%"
+    },
+    "her_selected_letter": "C",
+    "recapture_source_images": [
+      "mathspeed test/actual-practice-tests/ISEE Lower #5/Screenshot 2026-11-01 at 12.24.31 PM.png"
+    ],
+    "her_seconds": 105,
+    "her_seconds_source": "review page",
+    "others_avg_seconds": 31,
+    "difficulty": "Easy",
+    "subtype": "Whole Numbers",
+    "test_set": "ISEE LOWER #5",
+    "exercise_title": null,
+    "is_timing_chart": false,
+    "strip_wrong": [
+      6,
+      17,
+      28,
+      29,
+      30
+    ]
+  },
+  {
+    "source_file": "mathspeed test/actual-practice-tests/ISEE Lower #5/Screenshot 2026-11-01 at 12.24.33 PM.png",
+    "type": "question",
+    "question_number": 6,
+    "question_text": "This table shows the number of books that three friends read last year. How many more books did Megan read than Jacob last August?",
+    "diagram_description": "Table BOOKS READ by month for Jacob, Megan, Patrick. August: Jacob 4, Megan 6, Patrick 5.",
+    "choices": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "correct_letter": "B",
+    "correct_pct": "92.0%",
+    "topic_broad": "data-analysis-graphs-tables",
+    "topic_specific": "difference read from a wide data table",
+    "notes": "Practice Test 5, Mathematics Achievement #6. Wrong (maroon marker on A). Retake pending, mechanism not yet verified with her.",
+    "status": "done",
+    "is_wrong": true,
+    "official_topic": "Comparing/Adding/Subtracting Bar Graph/Data Table Values",
+    "official_solution": "The correct answer to the question is answer choice (B), 2. Comparing/Adding/Subtracting Bar First, find out how many books Megan and Jacob each read, then find the Graph/Data Table Values difference to get the answer. Number of books Megan read = 6 Number of books Jacob read = 4 So, Megan read 6 — 4 = 2 books more than Jacob.",
+    "official_solution_source": "OCR of the review page, unverified: math symbols may be garbled",
+    "choice_percentages": {
+      "A": "5.4%",
+      "B": "92.0%",
+      "C": "<5.0%",
+      "D": "<5.0%"
+    },
+    "her_selected_letter": "A",
+    "recapture_source_images": [
+      "mathspeed test/actual-practice-tests/ISEE Lower #5/Screenshot 2026-11-01 at 12.24.33 PM.png"
+    ],
+    "her_seconds": 18,
+    "her_seconds_source": "review page",
+    "others_avg_seconds": 27,
+    "difficulty": "Easy",
+    "subtype": "Data Analysis",
+    "diagram_image": [
+      "problem-library-diagrams/pt5_ma6_tbl.png"
+    ],
+    "test_set": "ISEE LOWER #5",
+    "exercise_title": null,
+    "is_timing_chart": false,
+    "strip_wrong": [
+      6,
+      17,
+      28,
+      29,
+      30
+    ]
+  },
+  {
+    "source_file": "mathspeed test/actual-practice-tests/ISEE Lower #5/Screenshot 2026-11-01 at 12.24.35 PM.png",
+    "type": "question",
+    "question_number": 7,
+    "question_text": "The number machine performs the same operation on each input to create an output. What is the output for an input of 12?",
+    "diagram_description": "Table Input/Output: 2/4, 4/16, 5/25, 7/49.",
+    "choices": [
+      "24",
+      "48",
+      "120",
+      "144"
+    ],
+    "correct_letter": "D",
+    "correct_pct": "95.3%",
+    "topic_broad": "patterns-sequences",
+    "topic_specific": "input/output rule, squaring",
+    "notes": "Practice Test 5, Mathematics Achievement #7. Answered correctly.",
+    "status": "done",
+    "is_wrong": false,
+    "official_topic": "Input/Output Tables",
+    "official_solution": "The correct answer to the question is answer choice (D), 144. Input/Output Tables The number machine takes an input, multiplies by that same input, and that is the output. Thus, the correct answer is 12 x 12 = 144.",
+    "official_solution_source": "OCR of the review page, unverified: math symbols may be garbled",
+    "choice_percentages": {
+      "A": "<5.0%",
+      "B": "<5.0%",
+      "C": "<5.0%",
+      "D": "95.3%"
+    },
+    "her_selected_letter": "D",
+    "recapture_source_images": [
+      "mathspeed test/actual-practice-tests/ISEE Lower #5/Screenshot 2026-11-01 at 12.24.35 PM.png"
+    ],
+    "her_seconds": 24,
+    "her_seconds_source": "review page",
+    "others_avg_seconds": 23,
+    "difficulty": "Easy",
+    "subtype": "Algebraic Concepts",
+    "test_set": "ISEE LOWER #5",
+    "exercise_title": null,
+    "is_timing_chart": false,
+    "strip_wrong": [
+      6,
+      17,
+      28,
+      29,
+      30
+    ]
+  },
+  {
+    "source_file": "mathspeed test/actual-practice-tests/ISEE Lower #5/Screenshot 2026-11-01 at 12.24.37 PM.png",
+    "type": "question",
+    "question_number": 8,
+    "question_text": "Sal has a pitcher and a jug he can use to measure water. The pitcher holds 2 quarts of water, and the jug holds 3 quarts of water. Which combination of pitchers and jugs can be used to hold exactly 14 quarts of water?",
+    "diagram_description": "None.",
+    "choices": [
+      "3 pitchers and 3 jugs",
+      "3 pitchers and 5 jugs",
+      "4 pitchers and 2 jugs",
+      "4 pitchers and 5 jugs"
+    ],
+    "correct_letter": "C",
+    "correct_pct": "90.5%",
+    "topic_broad": "word-problem-other",
+    "topic_specific": "testing combinations against a total",
+    "notes": "Practice Test 5, Mathematics Achievement #8. Answered correctly.",
+    "status": "done",
+    "is_wrong": false,
+    "official_topic": "Mixture Problems",
+    "official_solution": "The correct answer to the question is answer choice **(C), 4 pitchers and 2 jugs. ** Mixture Problems You are told that a pitcher holds 2 quarts and a jug holds 3 quarts. For each possible answer, multiply the number of quarts the pitcher holds (2) by the number of pitchers. Add that number to the number of quarts the jug holds (3) by the number of jugs. If this totals 14, you have found the correct combination. 4 pitchers and 2 jugs can be expressed as (2 x 4) + (3 x 2), or 8 + 6, which equals 14.",
+    "official_solution_source": "OCR of the review page, unverified: math symbols may be garbled",
+    "choice_percentages": {
+      "A": "<5.0%",
+      "B": "<5.0%",
+      "C": "90.5%",
+      "D": "<5.0%"
+    },
+    "her_selected_letter": "C",
+    "recapture_source_images": [
+      "mathspeed test/actual-practice-tests/ISEE Lower #5/Screenshot 2026-11-01 at 12.24.37 PM.png"
+    ],
+    "her_seconds": 63,
+    "her_seconds_source": "review page",
+    "others_avg_seconds": 64,
+    "difficulty": "Easy",
+    "subtype": "Algebraic Concepts",
+    "test_set": "ISEE LOWER #5",
+    "exercise_title": null,
+    "is_timing_chart": false,
+    "strip_wrong": [
+      6,
+      17,
+      28,
+      29,
+      30
+    ]
+  },
+  {
+    "source_file": "mathspeed test/actual-practice-tests/ISEE Lower #5/Screenshot 2026-11-01 at 12.24.38 PM.png",
+    "type": "question",
+    "question_number": 9,
+    "question_text": "Which number is divisible by 8?",
+    "diagram_description": "None.",
+    "choices": [
+      "4",
+      "26",
+      "42",
+      "64"
+    ],
+    "correct_letter": "D",
+    "correct_pct": "92.9%",
+    "topic_broad": "number-theory-divisibility",
+    "topic_specific": "divisible by 8",
+    "notes": "Practice Test 5, Mathematics Achievement #9. Answered correctly.",
+    "status": "done",
+    "is_wrong": false,
+    "official_topic": "No Remainder when Divided by a given Number",
+    "official_solution": "The correct answer to the question is answer choice (D), 64. No Remainder when Divided by a A multiple of a number is the product of that number and an integer. given Number 8x 8=64 No other answer choice is a multiple of 8.",
+    "official_solution_source": "OCR of the review page, unverified: math symbols may be garbled",
+    "choice_percentages": {
+      "A": "5.2%",
+      "B": "<5.0%",
+      "C": "<5.0%",
+      "D": "92.9%"
+    },
+    "her_selected_letter": "D",
+    "recapture_source_images": [
+      "mathspeed test/actual-practice-tests/ISEE Lower #5/Screenshot 2026-11-01 at 12.24.38 PM.png"
+    ],
+    "her_seconds": 9,
+    "her_seconds_source": "review page",
+    "others_avg_seconds": 10,
+    "difficulty": "Easy",
+    "subtype": "Whole Numbers",
+    "test_set": "ISEE LOWER #5",
+    "exercise_title": null,
+    "is_timing_chart": false,
+    "strip_wrong": [
+      6,
+      17,
+      28,
+      29,
+      30
+    ]
+  },
+  {
+    "source_file": "mathspeed test/actual-practice-tests/ISEE Lower #5/Screenshot 2026-11-01 at 12.24.40 PM.png",
+    "type": "question",
+    "question_number": 10,
+    "question_text": "In a town of 5,620 college graduates, about 1/3 of the college graduates have earned a master's degree. About how many college graduates have earned a master's degree?",
+    "diagram_description": "None.",
+    "choices": [
+      "200",
+      "600",
+      "2,000",
+      "6,000"
+    ],
+    "correct_letter": "C",
+    "correct_pct": "91.4%",
+    "topic_broad": "estimation",
+    "topic_specific": "estimate a fraction of a number",
+    "notes": "Practice Test 5, Mathematics Achievement #10. Answered correctly.",
+    "status": "done",
+    "is_wrong": false,
+    "official_topic": "Multiplying and Dividing Whole Numbers",
+    "official_solution": "The correct answer to the question is answer choice (C), 2,000. Multiplying and Dividing Whole Numbers Round 5,620 to the nearest thousand to get 6,000. Then, to estimate how many college graduates have earned a master's degree, divide by 3 to get 2,000.",
+    "official_solution_source": "OCR of the review page, unverified: math symbols may be garbled",
+    "choice_percentages": {
+      "A": "<5.0%",
+      "B": "<5.0%",
+      "C": "91.4%",
+      "D": "<5.0%"
+    },
+    "her_selected_letter": "C",
+    "recapture_source_images": [
+      "mathspeed test/actual-practice-tests/ISEE Lower #5/Screenshot 2026-11-01 at 12.24.40 PM.png"
+    ],
+    "her_seconds": 186,
+    "her_seconds_source": "review page",
+    "others_avg_seconds": 55,
+    "difficulty": "Easy",
+    "subtype": "Decimals, Percents",
+    "test_set": "ISEE LOWER #5",
+    "exercise_title": null,
+    "is_timing_chart": false,
+    "strip_wrong": [
+      6,
+      17,
+      28,
+      29,
+      30
+    ]
+  },
+  {
+    "source_file": "mathspeed test/actual-practice-tests/ISEE Lower #5/Screenshot 2026-11-01 at 12.24.42 PM.png",
+    "type": "question",
+    "question_number": 11,
+    "question_text": "Marion wants to separate $8,104 evenly into 2 accounts. How much money will she put in each account?",
+    "diagram_description": "None.",
+    "choices": [
+      "$452",
+      "$4,052",
+      "$4,502",
+      "$40,052"
+    ],
+    "correct_letter": "B",
+    "correct_pct": "92.5%",
+    "topic_broad": "arithmetic",
+    "topic_specific": "long division with a zero in the quotient",
+    "notes": "Practice Test 5, Mathematics Achievement #11. Answered correctly.",
+    "status": "done",
+    "is_wrong": false,
+    "official_topic": "Multiplying and Dividing Integers",
+    "official_solution": "The correct answer to the problem is answer choice (B), $4,052. Multiplying and Dividing Integers To determine how much Marion will put in each account, divide. 4/0/5)2 ACEI -|8 — 01 - 0 —. 1/0 -|1/0 — 04 Marion will put $4.052 in each account.",
+    "official_solution_source": "OCR of the review page, unverified: math symbols may be garbled",
+    "choice_percentages": {
+      "A": "<5.0%",
+      "B": "92.5%",
+      "C": "<5.0%",
+      "D": "<5.0%"
+    },
+    "her_selected_letter": "B",
+    "recapture_source_images": [
+      "mathspeed test/actual-practice-tests/ISEE Lower #5/Screenshot 2026-11-01 at 12.24.42 PM.png"
+    ],
+    "her_seconds": 26,
+    "her_seconds_source": "timing chart bar (estimate, about +/-3s QR, +/-2s MA)",
+    "others_avg_seconds": null,
+    "difficulty": null,
+    "subtype": null,
+    "test_set": "ISEE LOWER #5",
+    "exercise_title": null,
+    "is_timing_chart": false,
+    "strip_wrong": [
+      6,
+      17,
+      28,
+      29,
+      30
+    ]
+  },
+  {
+    "source_file": "mathspeed test/actual-practice-tests/ISEE Lower #5/Screenshot 2026-11-01 at 12.24.43 PM.png",
+    "type": "question",
+    "question_number": 12,
+    "question_text": "What are the coordinates of point P in the figure shown?",
+    "diagram_description": "Line graph with x from 2 to 6, y from 0 to 20; point P plotted off the line at (3, 10).",
+    "choices": [
+      "(3, 8)",
+      "(2, 11)",
+      "(3, 10)",
+      "(10, 3)"
+    ],
+    "correct_letter": "C",
+    "correct_pct": "90.8%",
+    "topic_broad": "data-analysis-graphs-tables",
+    "topic_specific": "reading a point on a coordinate graph",
+    "notes": "Practice Test 5, Mathematics Achievement #12. Answered correctly.",
+    "status": "done",
+    "is_wrong": false,
+    "official_topic": "Identifying Points on a Coordinate Plane",
+    "official_solution": "The correct answer to the question is answer choice (C), (3,10) Identifying Points on a Coordinate Plane The 2-coordinate value is 3 and the y-coordinate value is 10. So, the coordinates of point P are (3, 10).",
+    "official_solution_source": "OCR of the review page, unverified: math symbols may be garbled",
+    "choice_percentages": {
+      "A": "<5.0%",
+      "B": "<5.0%",
+      "C": "90.8%",
+      "D": "8.3%"
+    },
+    "her_selected_letter": "C",
+    "recapture_source_images": [
+      "mathspeed test/actual-practice-tests/ISEE Lower #5/Screenshot 2026-11-01 at 12.24.43 PM.png"
+    ],
+    "her_seconds": 47,
+    "her_seconds_source": "review page",
+    "others_avg_seconds": 16,
+    "difficulty": "Medium",
+    "subtype": "Geometry",
+    "test_set": "ISEE LOWER #5",
+    "exercise_title": null,
+    "is_timing_chart": false,
+    "strip_wrong": [
+      6,
+      17,
+      28,
+      29,
+      30
+    ]
+  },
+  {
+    "source_file": "mathspeed test/actual-practice-tests/ISEE Lower #5/Screenshot 2026-11-01 at 12.24.45 PM.png",
+    "type": "question",
+    "question_number": 13,
+    "question_text": "Point A is plotted at 3 on the vertical number line shown. If point B is plotted 6 units below point A, what is the location of point B?",
+    "diagram_description": "Vertical number line from −10 to 10 with A at 3.",
+    "choices": [
+      "−6",
+      "−3",
+      "3",
+      "6"
+    ],
+    "correct_letter": "B",
+    "correct_pct": "86.0%",
+    "topic_broad": "arithmetic",
+    "topic_specific": "moving below zero on a vertical number line",
+    "notes": "Practice Test 5, Mathematics Achievement #13. Answered correctly.",
+    "status": "done",
+    "is_wrong": false,
+    "official_topic": "Determining Points on Number Lines",
+    "official_solution": "The correct answer to the question is answer choice (B), —3. Determining Points on Number Lines Count 6 units below point A located at 3. 10",
+    "official_solution_source": "OCR of the review page, unverified: math symbols may be garbled",
+    "choice_percentages": {
+      "A": "<5.0%",
+      "B": "86.0%",
+      "C": "9.9%",
+      "D": "<5.0%"
+    },
+    "her_selected_letter": "B",
+    "recapture_source_images": [
+      "mathspeed test/actual-practice-tests/ISEE Lower #5/Screenshot 2026-11-01 at 12.24.45 PM.png"
+    ],
+    "her_seconds": 26,
+    "her_seconds_source": "timing chart bar (estimate, about +/-3s QR, +/-2s MA)",
+    "others_avg_seconds": null,
+    "difficulty": null,
+    "subtype": null,
+    "test_set": "ISEE LOWER #5",
+    "exercise_title": null,
+    "is_timing_chart": false,
+    "strip_wrong": [
+      6,
+      17,
+      28,
+      29,
+      30
+    ]
+  },
+  {
+    "source_file": "mathspeed test/actual-practice-tests/ISEE Lower #5/Screenshot 2026-11-01 at 12.24.47 PM.png",
+    "type": "question",
+    "question_number": 14,
+    "question_text": "What is 19/3 expressed as a mixed number?",
+    "diagram_description": "None.",
+    "choices": [
+      "3 1/6",
+      "5 2/3",
+      "6 1/9",
+      "6 1/3"
+    ],
+    "correct_letter": "D",
+    "correct_pct": "92.2%",
+    "topic_broad": "fractions",
+    "topic_specific": "improper fraction to mixed number",
+    "notes": "Practice Test 5, Mathematics Achievement #14. Answered correctly.",
+    "status": "done",
+    "is_wrong": false,
+    "official_topic": "Mixed Fraction <> Improper Fraction",
+    "official_solution": "The correct answer to the question is answer choice (D), 65. Mixed Fraction <> Improper Fraction How to Convert an Improper Fraction to a Mixed Number 1. Divide the numerator by the denominator. 2. Write down the whole number result. 3. Use the remainder as the new numerator over the denominator. This is the fraction part of the mixed number. Dividing 19 by 3 results in a quotient of 6 and a remainder of 1.",
+    "official_solution_source": "OCR of the review page, unverified: math symbols may be garbled",
+    "choice_percentages": {
+      "A": "<5.0%",
+      "B": "<5.0%",
+      "C": "<5.0%",
+      "D": "92.2%"
+    },
+    "her_selected_letter": "D",
+    "recapture_source_images": [
+      "mathspeed test/actual-practice-tests/ISEE Lower #5/Screenshot 2026-11-01 at 12.24.47 PM.png"
+    ],
+    "her_seconds": 58,
+    "her_seconds_source": "review page",
+    "others_avg_seconds": 20,
+    "difficulty": "Medium",
+    "subtype": "Decimals, Percents",
+    "test_set": "ISEE LOWER #5",
+    "exercise_title": null,
+    "is_timing_chart": false,
+    "strip_wrong": [
+      6,
+      17,
+      28,
+      29,
+      30
+    ]
+  },
+  {
+    "source_file": "mathspeed test/actual-practice-tests/ISEE Lower #5/Screenshot 2026-11-01 at 12.24.48 PM.png",
+    "type": "question",
+    "question_number": 15,
+    "question_text": "Which fraction is equivalent to 0.25?",
+    "diagram_description": "None.",
+    "choices": [
+      "1/4",
+      "2/6",
+      "25/10",
+      "100/25"
+    ],
+    "correct_letter": "A",
+    "correct_pct": "85.9%",
+    "topic_broad": "decimals",
+    "topic_specific": "decimal to fraction",
+    "notes": "Practice Test 5, Mathematics Achievement #15. Answered correctly.",
+    "status": "done",
+    "is_wrong": false,
+    "official_topic": "Equivalent Fractions, Decimals, and Percents",
+    "official_solution": "The correct answer to the question is answer choice (A), i Equivalent Fractions, Decimals, and Percents 1+4=0.25",
+    "official_solution_source": "OCR of the review page, unverified: math symbols may be garbled",
+    "choice_percentages": {
+      "A": "85.9%",
+      "B": "<5.0%",
+      "C": "9.5%",
+      "D": "<5.0%"
+    },
+    "her_selected_letter": "A",
+    "recapture_source_images": [
+      "mathspeed test/actual-practice-tests/ISEE Lower #5/Screenshot 2026-11-01 at 12.24.48 PM.png"
+    ],
+    "her_seconds": 13,
+    "her_seconds_source": "review page",
+    "others_avg_seconds": 10,
+    "difficulty": "Medium",
+    "subtype": "Decimals, Percents",
+    "test_set": "ISEE LOWER #5",
+    "exercise_title": null,
+    "is_timing_chart": false,
+    "strip_wrong": [
+      6,
+      17,
+      28,
+      29,
+      30
+    ]
+  },
+  {
+    "source_file": "mathspeed test/actual-practice-tests/ISEE Lower #5/Screenshot 2026-11-01 at 12.24.50 PM.png",
+    "type": "question",
+    "question_number": 16,
+    "question_text": "What is the sum of 3.2 and 1.3?",
+    "diagram_description": "None.",
+    "choices": [
+      "3 1/3",
+      "4 1/4",
+      "4 1/3",
+      "4 1/2"
+    ],
+    "correct_letter": "D",
+    "correct_pct": "86.1%",
+    "topic_broad": "decimals",
+    "topic_specific": "decimal sum as a mixed number",
+    "notes": "Practice Test 5, Mathematics Achievement #16. Answered correctly.",
+    "status": "done",
+    "is_wrong": false,
+    "official_topic": "Adding and Subtracting Decimals",
+    "official_solution": "The correct answer to the question is answer choice (D), 45. Adding and Subtracting Decimals First, add the two decimal numbers. Then convert the answer to a mixed number. 3.24+1.3 = 4.5 Convert 4.5 to a mixed number: 45.",
+    "official_solution_source": "OCR of the review page, unverified: math symbols may be garbled",
+    "choice_percentages": {
+      "A": "<5.0%",
+      "B": "7.1%",
+      "C": "5.1%",
+      "D": "86.1%"
+    },
+    "her_selected_letter": "D",
+    "recapture_source_images": [
+      "mathspeed test/actual-practice-tests/ISEE Lower #5/Screenshot 2026-11-01 at 12.24.50 PM.png"
+    ],
+    "her_seconds": 17,
+    "her_seconds_source": "review page",
+    "others_avg_seconds": 20,
+    "difficulty": "Medium",
+    "subtype": "Decimals, Percents",
+    "test_set": "ISEE LOWER #5",
+    "exercise_title": null,
+    "is_timing_chart": false,
+    "strip_wrong": [
+      6,
+      17,
+      28,
+      29,
+      30
+    ]
+  },
+  {
+    "source_file": "mathspeed test/actual-practice-tests/ISEE Lower #5/Screenshot 2026-11-01 at 12.24.51 PM.png",
+    "type": "question",
+    "question_number": 17,
+    "question_text": "The table shows four test scores of four students. What is the mode of this set of data?",
+    "diagram_description": "Table TEST SCORES. Betty 95, 87, 83, 89; Francis 85, 71, 93, 83; Pualani 75, 95, 91, 93; WeiMing 93, 90, 84, 92.",
+    "choices": [
+      "71",
+      "87",
+      "93",
+      "95"
+    ],
+    "correct_letter": "C",
+    "correct_pct": "82.9%",
+    "topic_broad": "data-analysis-graphs-tables",
+    "topic_specific": "mode from a data table",
+    "notes": "Practice Test 5, Mathematics Achievement #17. Wrong (maroon marker on D). Retake pending, mechanism not yet verified with her.",
+    "status": "done",
+    "is_wrong": true,
+    "official_topic": "Finding MMMR, given Bar Graph/Data Table of Values",
+    "official_solution": "The correct answer to the question is answer choice (C), 93. Finding MMMR, given Bar Graph/Data Table of Values Anumber that appears most often is the mode. 93 appears three times, which is more than any other number, making it the mode.",
+    "official_solution_source": "OCR of the review page, unverified: math symbols may be garbled",
+    "choice_percentages": {
+      "A": "<5.0%",
+      "B": "7.5%",
+      "C": "82.9%",
+      "D": "7.0%"
+    },
+    "her_selected_letter": "D",
+    "recapture_source_images": [
+      "mathspeed test/actual-practice-tests/ISEE Lower #5/Screenshot 2026-11-01 at 12.24.51 PM.png"
+    ],
+    "her_seconds": 57,
+    "her_seconds_source": "review page",
+    "others_avg_seconds": 75,
+    "difficulty": "Medium",
+    "subtype": "Data Analysis",
+    "diagram_image": [
+      "problem-library-diagrams/pt5_ma17_tbl.png"
+    ],
+    "test_set": "ISEE LOWER #5",
+    "exercise_title": null,
+    "is_timing_chart": false,
+    "strip_wrong": [
+      6,
+      17,
+      28,
+      29,
+      30
+    ]
+  },
+  {
+    "source_file": "mathspeed test/actual-practice-tests/ISEE Lower #5/Screenshot 2026-11-01 at 12.24.53 PM.png",
+    "type": "question",
+    "question_number": 18,
+    "question_text": "The figure shows triangle ABC. If the measure of ∠ACB is 60°, what is the measure of angle x?",
+    "diagram_description": "Right triangle with right angle at B, 60° at C, x at A.",
+    "choices": [
+      "15",
+      "25",
+      "30",
+      "35"
+    ],
+    "correct_letter": "C",
+    "correct_pct": "79.7%",
+    "topic_broad": "geometry-angles-shapes",
+    "topic_specific": "missing angle in a right triangle",
+    "notes": "Practice Test 5, Mathematics Achievement #18. Answered correctly.",
+    "status": "done",
+    "is_wrong": false,
+    "official_topic": "Angles in Triangles",
+    "official_solution": "The correct answer to the question is answer choice (C), 30. Angles in Triangles The sum of the angles in a triangle is 180°. x = 180 — (90 + 60) zx = 180 — 150 z = 30",
+    "official_solution_source": "OCR of the review page, unverified: math symbols may be garbled",
+    "choice_percentages": {
+      "A": "7.4%",
+      "B": "8.4%",
+      "C": "79.7%",
+      "D": "<5.0%"
+    },
+    "her_selected_letter": "C",
+    "recapture_source_images": [
+      "mathspeed test/actual-practice-tests/ISEE Lower #5/Screenshot 2026-11-01 at 12.24.53 PM.png"
+    ],
+    "her_seconds": 44,
+    "her_seconds_source": "review page",
+    "others_avg_seconds": 37,
+    "difficulty": "Medium",
+    "subtype": "Measurement",
+    "test_set": "ISEE LOWER #5",
+    "exercise_title": null,
+    "is_timing_chart": false,
+    "strip_wrong": [
+      6,
+      17,
+      28,
+      29,
+      30
+    ]
+  },
+  {
+    "source_file": "mathspeed test/actual-practice-tests/ISEE Lower #5/Screenshot 2026-11-01 at 12.24.55 PM.png",
+    "type": "question",
+    "question_number": 19,
+    "question_text": "Alex has 7 packs of baseball cards, each containing 14 cards, and 7 packs of basketball cards, each containing 15 cards. Which expression could be used to find the total number of cards Alex has?",
+    "diagram_description": "None.",
+    "choices": [
+      "7 × (14 + 15)",
+      "(7 + 7) + 29",
+      "(7 × 7) + 29",
+      "7 × (14 × 15)"
+    ],
+    "correct_letter": "A",
+    "correct_pct": "81.1%",
+    "topic_broad": "algebra-equations",
+    "topic_specific": "matching a story to an expression, distributive",
+    "notes": "Practice Test 5, Mathematics Achievement #19. Answered correctly.",
+    "status": "done",
+    "is_wrong": false,
+    "official_topic": "Matching Stories to Equations",
+    "official_solution": "The correct answer to the question is answer choice (A), 7 X (14 + 15). Matching Stories to Equations One way the answer can be found is by 1. recognizing that total sum means to add the number of cards (14 + 15), and 2. recognizing that to find the total number of cards, you must multiply the sum by the number of packs (7): 7(14 + 15).",
+    "official_solution_source": "OCR of the review page, unverified: math symbols may be garbled",
+    "choice_percentages": {
+      "A": "81.1%",
+      "B": "<5.0%",
+      "C": "5.3%",
+      "D": "11.0%"
+    },
+    "her_selected_letter": "A",
+    "recapture_source_images": [
+      "mathspeed test/actual-practice-tests/ISEE Lower #5/Screenshot 2026-11-01 at 12.24.55 PM.png"
+    ],
+    "her_seconds": 148,
+    "her_seconds_source": "review page",
+    "others_avg_seconds": 44,
+    "difficulty": "Medium",
+    "subtype": "Whole Numbers",
+    "test_set": "ISEE LOWER #5",
+    "exercise_title": null,
+    "is_timing_chart": false,
+    "strip_wrong": [
+      6,
+      17,
+      28,
+      29,
+      30
+    ]
+  },
+  {
+    "source_file": "mathspeed test/actual-practice-tests/ISEE Lower #5/Screenshot 2026-11-01 at 12.24.56 PM.png",
+    "type": "question",
+    "question_number": 20,
+    "question_text": "What is the value of the expression 795/15?",
+    "diagram_description": "None.",
+    "choices": [
+      "50",
+      "51",
+      "52",
+      "53"
+    ],
+    "correct_letter": "D",
+    "correct_pct": "86.1%",
+    "topic_broad": "arithmetic",
+    "topic_specific": "division written as a fraction",
+    "notes": "Practice Test 5, Mathematics Achievement #20. Answered correctly.",
+    "status": "done",
+    "is_wrong": false,
+    "official_topic": "Simplifying Rational Expressions (Basic)",
+    "official_solution": "The correct answer to the question is answer choice (D), 53. Simplifying Rational Expressions 0/5|3 (Basic) 1 s[res -|0 — 7|9 -|7|5 — 45 -|4/5 — 0",
+    "official_solution_source": "OCR of the review page, unverified: math symbols may be garbled",
+    "choice_percentages": {
+      "A": "<5.0%",
+      "B": "6.3%",
+      "C": "5.6%",
+      "D": "86.1%"
+    },
+    "her_selected_letter": "D",
+    "recapture_source_images": [
+      "mathspeed test/actual-practice-tests/ISEE Lower #5/Screenshot 2026-11-01 at 12.24.56 PM.png"
+    ],
+    "her_seconds": 52,
+    "her_seconds_source": "review page",
+    "others_avg_seconds": null,
+    "difficulty": "Medium",
+    "subtype": "Whole Numbers",
+    "test_set": "ISEE LOWER #5",
+    "exercise_title": null,
+    "is_timing_chart": false,
+    "strip_wrong": [
+      6,
+      17,
+      28,
+      29,
+      30
+    ]
+  },
+  {
+    "source_file": "mathspeed test/actual-practice-tests/ISEE Lower #5/Screenshot 2026-11-01 at 12.24.58 PM.png",
+    "type": "question",
+    "question_number": 21,
+    "question_text": "If the area of a square is 49 centimeters², what is its perimeter?",
+    "diagram_description": "None.",
+    "choices": [
+      "7 centimeters",
+      "12 centimeters",
+      "24 centimeters",
+      "28 centimeters"
+    ],
+    "correct_letter": "D",
+    "correct_pct": "78.6%",
+    "topic_broad": "geometry-area-perimeter",
+    "topic_specific": "square perimeter from area",
+    "notes": "Practice Test 5, Mathematics Achievement #21. Answered correctly.",
+    "status": "done",
+    "is_wrong": false,
+    "official_topic": "Area of Square <> Perimeter",
+    "official_solution": "The correct answer to the question is answer choice (D), 28 centimeters. Area of Square <> Perimeter Find the side length of the square and then use the perimeter equation. Area of a square = side length x side length 49=7x7 Therefore, side length = 7 centimeters. Perimeter of a square = 4 x side length Perimeter = 4 x 7 = 28 centimeters",
+    "official_solution_source": "OCR of the review page, unverified: math symbols may be garbled",
+    "choice_percentages": {
+      "A": "10.8%",
+      "B": "5.7%",
+      "C": "<5.0%",
+      "D": "78.6%"
+    },
+    "her_selected_letter": "D",
+    "recapture_source_images": [
+      "mathspeed test/actual-practice-tests/ISEE Lower #5/Screenshot 2026-11-01 at 12.24.58 PM.png"
+    ],
+    "her_seconds": 31,
+    "her_seconds_source": "review page",
+    "others_avg_seconds": 22,
+    "difficulty": "Hard",
+    "subtype": "Measurement",
+    "test_set": "ISEE LOWER #5",
+    "exercise_title": null,
+    "is_timing_chart": false,
+    "strip_wrong": [
+      6,
+      17,
+      28,
+      29,
+      30
+    ]
+  },
+  {
+    "source_file": "mathspeed test/actual-practice-tests/ISEE Lower #5/Screenshot 2026-11-01 at 12.25.00 PM.png",
+    "type": "question",
+    "question_number": 22,
+    "question_text": "In the decimal 0.78234, the digit 3 is equivalent to which value?",
+    "diagram_description": "None.",
+    "choices": [
+      "3/100",
+      "3/1,000",
+      "3/10,000",
+      "3/100,000"
+    ],
+    "correct_letter": "C",
+    "correct_pct": "85.5%",
+    "topic_broad": "decimals",
+    "topic_specific": "value of a digit in a long decimal",
+    "notes": "Practice Test 5, Mathematics Achievement #22. Answered correctly.",
+    "status": "done",
+    "is_wrong": false,
+    "official_topic": "Value of Digits",
+    "official_solution": "The correct answer to the question is answer choice (C), mom Value of Digits The fourth digit to the right of the decimal point indicates the number of ten- thousandths. 0.7823 aor yy ot rs ees Ce 50 af +a as oo fom) cQ +r OO a co vo> 20 Qe",
+    "official_solution_source": "OCR of the review page, unverified: math symbols may be garbled",
+    "choice_percentages": {
+      "A": "<5.0%",
+      "B": "7.4%",
+      "C": "85.5%",
+      "D": "<5.0%"
+    },
+    "her_selected_letter": "C",
+    "recapture_source_images": [
+      "mathspeed test/actual-practice-tests/ISEE Lower #5/Screenshot 2026-11-01 at 12.25.00 PM.png"
+    ],
+    "her_seconds": 16,
+    "her_seconds_source": "timing chart bar (estimate, about +/-3s QR, +/-2s MA)",
+    "others_avg_seconds": null,
+    "difficulty": null,
+    "subtype": null,
+    "test_set": "ISEE LOWER #5",
+    "exercise_title": null,
+    "is_timing_chart": false,
+    "strip_wrong": [
+      6,
+      17,
+      28,
+      29,
+      30
+    ]
+  },
+  {
+    "source_file": "mathspeed test/actual-practice-tests/ISEE Lower #5/Screenshot 2026-11-01 at 12.25.01 PM.png",
+    "type": "question",
+    "question_number": 23,
+    "question_text": "The figure shows a triangle. What is the area of the triangle? (A = (1/2)bh)",
+    "diagram_description": "Right triangle with legs 6 and 4.",
+    "choices": [
+      "10",
+      "12",
+      "24",
+      "48"
+    ],
+    "correct_letter": "B",
+    "correct_pct": "79.5%",
+    "topic_broad": "geometry-area-perimeter",
+    "topic_specific": "area of a right triangle",
+    "notes": "Practice Test 5, Mathematics Achievement #23. Answered correctly.",
+    "status": "done",
+    "is_wrong": false,
+    "official_topic": "Area of Triangles",
+    "official_solution": "The correct answer to the question is answer choice (B), 12. Area of Triangles Sinceb = 4andh=6,A= Fi x 4 x 6. Multiplying from left to right, you get:A = 2x 6.S0,A=12.",
+    "official_solution_source": "OCR of the review page, unverified: math symbols may be garbled",
+    "choice_percentages": {
+      "A": "<5.0%",
+      "B": "79.5%",
+      "C": "16.5%",
+      "D": "<5.0%"
+    },
+    "her_selected_letter": "B",
+    "recapture_source_images": [
+      "mathspeed test/actual-practice-tests/ISEE Lower #5/Screenshot 2026-11-01 at 12.25.01 PM.png"
+    ],
+    "her_seconds": 12,
+    "her_seconds_source": "review page",
+    "others_avg_seconds": 17,
+    "difficulty": "Hard",
+    "subtype": "Measurement",
+    "test_set": "ISEE LOWER #5",
+    "exercise_title": null,
+    "is_timing_chart": false,
+    "strip_wrong": [
+      6,
+      17,
+      28,
+      29,
+      30
+    ]
+  },
+  {
+    "source_file": "mathspeed test/actual-practice-tests/ISEE Lower #5/Screenshot 2026-11-01 at 12.25.03 PM.png",
+    "type": "question",
+    "question_number": 24,
+    "question_text": "A water tank holds 100 liters of water when it is full. Water is released from the tank every 5 minutes and the amount of water remaining in the tank is recorded. The table shows the data collected. According to the pattern from the data, what would be the predicted amount of water remaining in the tank at 30 minutes?",
+    "diagram_description": "Table WATER TANK EXPERIMENT. Minutes/Liters: 0/100, 5/98, 10/94, 15/88, 20/80.",
+    "choices": [
+      "58 liters",
+      "60 liters",
+      "70 liters",
+      "72 liters"
+    ],
+    "correct_letter": "A",
+    "correct_pct": "75.0%",
+    "topic_broad": "patterns-sequences",
+    "topic_specific": "pattern with growing differences in a table",
+    "notes": "Practice Test 5, Mathematics Achievement #24. Answered correctly.",
+    "status": "done",
+    "is_wrong": false,
+    "official_topic": "Patterns in Data Tables and Lists",
+    "official_solution": "The correct answer to the question is answer Choice (A), 58 liters. Patterns in Data Tables and Lists The pattern subtracts 2 additional liters of water every 5 minutes. First, subtract 2 liters, then 4 liters, then 6 liters, then 8 liters, and so on. At 25 minutes, subtract 10 liters from 80 liters, which is 70 liters. At 30 minutes, you would subtract 12 liters from 70 liters, which is 58 liters.",
+    "official_solution_source": "OCR of the review page, unverified: math symbols may be garbled",
+    "choice_percentages": {
+      "A": "75.0%",
+      "B": "7.7%",
+      "C": "10.0%",
+      "D": "7.3%"
+    },
+    "her_selected_letter": "A",
+    "recapture_source_images": [
+      "mathspeed test/actual-practice-tests/ISEE Lower #5/Screenshot 2026-11-01 at 12.25.03 PM.png"
+    ],
+    "her_seconds": 88,
+    "her_seconds_source": "timing chart bar (estimate, about +/-3s QR, +/-2s MA)",
+    "others_avg_seconds": null,
+    "difficulty": null,
+    "subtype": null,
+    "test_set": "ISEE LOWER #5",
+    "exercise_title": null,
+    "is_timing_chart": false,
+    "strip_wrong": [
+      6,
+      17,
+      28,
+      29,
+      30
+    ]
+  },
+  {
+    "source_file": "mathspeed test/actual-practice-tests/ISEE Lower #5/Screenshot 2026-11-01 at 12.25.05 PM.png",
+    "type": "question",
+    "question_number": 25,
+    "question_text": "Ms. Stevens drove through a total of 36 intersections on her way home from class last week. She had to stop for a red light at approximately 4 out of every 16 of the intersections before she could continue on. Approximately how many intersections did Ms. Stevens have to stop for a red light?",
+    "diagram_description": "None.",
+    "choices": [
+      "3",
+      "9",
+      "12",
+      "24"
+    ],
+    "correct_letter": "B",
+    "correct_pct": "75.6%",
+    "topic_broad": "ratios-proportions",
+    "topic_specific": "simplify a rate, then scale",
+    "notes": "Practice Test 5, Mathematics Achievement #25. Answered correctly.",
+    "status": "done",
+    "is_wrong": false,
+    "official_topic": "Estimating Multiplication & Division",
+    "official_solution": "The correct answer to the question is answer choice (B), 9. Estimating Multiplication & Division — We know that 4 out of every 16 is the same as 1 A, and represents that Ms. Stevens had to stop at 4 of every 16 intersections. We also know that4 is equivalent to 4 4 16:4 — i. Thus, Ms. Stevens had to stop at 1 in every 4 intersections before continuing on. Since 36 + 4 = 9, we know that Ms. Stevens had to stop for a red light at 9 intersections.",
+    "official_solution_source": "OCR of the review page, unverified: math symbols may be garbled",
+    "choice_percentages": {
+      "A": "<5.0%",
+      "B": "75.6%",
+      "C": "16.2%",
+      "D": "<5.0%"
+    },
+    "her_selected_letter": "B",
+    "recapture_source_images": [
+      "mathspeed test/actual-practice-tests/ISEE Lower #5/Screenshot 2026-11-01 at 12.25.05 PM.png"
+    ],
+    "her_seconds": 77,
+    "her_seconds_source": "review page",
+    "others_avg_seconds": 49,
+    "difficulty": "Hard",
+    "subtype": "Decimals, Percents",
+    "test_set": "ISEE LOWER #5",
+    "exercise_title": null,
+    "is_timing_chart": false,
+    "strip_wrong": [
+      6,
+      17,
+      28,
+      29,
+      30
+    ]
+  },
+  {
+    "source_file": "mathspeed test/actual-practice-tests/ISEE Lower #5/Screenshot 2026-11-01 at 12.25.06 PM.png",
+    "type": "question",
+    "question_number": 26,
+    "question_text": "Mary has a set of 20 cards that each show a different number, as shown. Mary will randomly select one of these cards. What is the probability that the card she selects will show a prime number?",
+    "diagram_description": "Cards numbered 1 through 20.",
+    "choices": [
+      "8 out of 12",
+      "1 out of 8",
+      "8 out of 20",
+      "10 out of 20"
+    ],
+    "correct_letter": "C",
+    "correct_pct": "76.9%",
+    "topic_broad": "probability",
+    "topic_specific": "probability of a prime",
+    "notes": "Practice Test 5, Mathematics Achievement #26. Answered correctly.",
+    "status": "done",
+    "is_wrong": false,
+    "official_topic": "Probability of 1 Event, given a List of Items",
+    "official_solution": "The correct answer to the question is answer choice (C), 8 out of 20. Probability of 1 Event, given a List of Items Prime numbers are numbers that are whole numbers greater than 1, that have only two factors: 1 and the number itself. There are 8 prime numbers: 2, 3, 5, 7, 11, 13, 17, and 19. So, the probability that the card she selects will show a prime number is 8 prime numbers out of 20 total numbers, or 8 out of 20.",
+    "official_solution_source": "OCR of the review page, unverified: math symbols may be garbled",
+    "choice_percentages": {
+      "A": "<5.0%",
+      "B": "<5.0%",
+      "C": "76.9%",
+      "D": "15.8%"
+    },
+    "her_selected_letter": "C",
+    "recapture_source_images": [
+      "mathspeed test/actual-practice-tests/ISEE Lower #5/Screenshot 2026-11-01 at 12.25.06 PM.png"
+    ],
+    "her_seconds": 49,
+    "her_seconds_source": "review page",
+    "others_avg_seconds": 59,
+    "difficulty": "Hard",
+    "subtype": "Data Analysis",
+    "test_set": "ISEE LOWER #5",
+    "exercise_title": null,
+    "is_timing_chart": false,
+    "strip_wrong": [
+      6,
+      17,
+      28,
+      29,
+      30
+    ]
+  },
+  {
+    "source_file": "mathspeed test/actual-practice-tests/ISEE Lower #5/Screenshot 2026-11-01 at 12.25.08 PM.png",
+    "type": "question",
+    "question_number": 27,
+    "question_text": "When it is 9:00 a.m. in Anchorage, it is 1:00 p.m. in Philadelphia. When it is 6:00 p.m. in Philadelphia, what time is it in Anchorage?",
+    "diagram_description": "None.",
+    "choices": [
+      "1:00 p.m.",
+      "2:00 p.m.",
+      "3:00 p.m.",
+      "10:00 p.m."
+    ],
+    "correct_letter": "B",
+    "correct_pct": "66.4%",
+    "topic_broad": "measurement-conversion",
+    "topic_specific": "time zone difference",
+    "notes": "Practice Test 5, Mathematics Achievement #27. Answered correctly.",
+    "status": "done",
+    "is_wrong": false,
+    "official_topic": "Time Zones",
+    "official_solution": "The correct answer to the question is answer choice (B), 2:00 p.m. Time Zones To find the answer, subtract 4 hours from 6:00 p.m. because Philadelphia is 4 hours ahead of Anchorage: 6:00 p.m. — 4 hours = 2:00 p.m.",
+    "official_solution_source": "OCR of the review page, unverified: math symbols may be garbled",
+    "choice_percentages": {
+      "A": "<5.0%",
+      "B": "66.4%",
+      "C": "7.1%",
+      "D": "23.0%"
+    },
+    "her_selected_letter": "B",
+    "recapture_source_images": [
+      "mathspeed test/actual-practice-tests/ISEE Lower #5/Screenshot 2026-11-01 at 12.25.08 PM.png"
+    ],
+    "her_seconds": 44,
+    "her_seconds_source": "review page",
+    "others_avg_seconds": 36,
+    "difficulty": "Hard",
+    "subtype": "Measurement",
+    "test_set": "ISEE LOWER #5",
+    "exercise_title": null,
+    "is_timing_chart": false,
+    "strip_wrong": [
+      6,
+      17,
+      28,
+      29,
+      30
+    ]
+  },
+  {
+    "source_file": "mathspeed test/actual-practice-tests/ISEE Lower #5/Screenshot 2026-11-01 at 12.25.09 PM.png",
+    "type": "question",
+    "question_number": 28,
+    "question_text": "Which figure best describes a quadrilateral with all its sides equal?",
+    "diagram_description": "None.",
+    "choices": [
+      "parallelogram",
+      "rectangle",
+      "rhombus",
+      "trapezoid"
+    ],
+    "correct_letter": "C",
+    "correct_pct": "62.0%",
+    "topic_broad": "geometry-angles-shapes",
+    "topic_specific": "rhombus definition",
+    "notes": "Practice Test 5, Mathematics Achievement #28. Wrong (maroon marker on A). Retake pending, mechanism not yet verified with her.",
+    "status": "done",
+    "is_wrong": true,
+    "official_topic": "Identifying Shapes",
+    "official_solution": "The correct answer to the question is answer choice (C), rhombus. Identifying Shapes A rhombus is a quadrilateral whose sides are all equal, and whose opposite angles are equal.",
+    "official_solution_source": "OCR of the review page, unverified: math symbols may be garbled",
+    "choice_percentages": {
+      "A": "25.1%",
+      "B": "10.1%",
+      "C": "62.0%",
+      "D": "<5.0%"
+    },
+    "her_selected_letter": "A",
+    "recapture_source_images": [
+      "mathspeed test/actual-practice-tests/ISEE Lower #5/Screenshot 2026-11-01 at 12.25.09 PM.png"
+    ],
+    "her_seconds": 18,
+    "her_seconds_source": "review page",
+    "others_avg_seconds": 20,
+    "difficulty": "Hard",
+    "subtype": "Geometry",
+    "test_set": "ISEE LOWER #5",
+    "exercise_title": null,
+    "is_timing_chart": false,
+    "strip_wrong": [
+      6,
+      17,
+      28,
+      29,
+      30
+    ]
+  },
+  {
+    "source_file": "mathspeed test/actual-practice-tests/ISEE Lower #5/Screenshot 2026-11-01 at 12.25.11 PM.png",
+    "type": "question",
+    "question_number": 29,
+    "question_text": "How many numbers between 65 and 85 are divisible by 3?",
+    "diagram_description": "None.",
+    "choices": [
+      "4",
+      "5",
+      "6",
+      "7"
+    ],
+    "correct_letter": "D",
+    "correct_pct": "63.7%",
+    "topic_broad": "number-theory-divisibility",
+    "topic_specific": "counting multiples in a range",
+    "notes": "Practice Test 5, Mathematics Achievement #29. Wrong (maroon marker on C). Retake pending, mechanism not yet verified with her.",
+    "status": "done",
+    "is_wrong": true,
+    "official_topic": "Counting Multiples within a Range",
+    "official_solution": "The correct answer to the question is answer choice (D), 7. Counting Multiples within a Range A number is divisible by 3 if the sum of its digits is divisible by 3. Between 65 and 85, there are 7 numbers that fit this description. 66 can be looked at as 6 + 6, which is 12, and 12 is divisible by 3. Therefore, 66 is divisible by 3. The same is true for 69, 72, 75, 78, 81, and 84 (by repeatedly adding 3).",
+    "official_solution_source": "OCR of the review page, unverified: math symbols may be garbled",
+    "choice_percentages": {
+      "A": "6.7%",
+      "B": "10.7%",
+      "C": "18.9%",
+      "D": "63.7%"
+    },
+    "her_selected_letter": "C",
+    "recapture_source_images": [
+      "mathspeed test/actual-practice-tests/ISEE Lower #5/Screenshot 2026-11-01 at 12.25.11 PM.png"
+    ],
+    "her_seconds": 134,
+    "her_seconds_source": "review page",
+    "others_avg_seconds": 59,
+    "difficulty": "Hard",
+    "subtype": "Whole Numbers",
+    "test_set": "ISEE LOWER #5",
+    "exercise_title": null,
+    "is_timing_chart": false,
+    "strip_wrong": [
+      6,
+      17,
+      28,
+      29,
+      30
+    ]
+  },
+  {
+    "source_file": "mathspeed test/actual-practice-tests/ISEE Lower #5/Screenshot 2026-11-01 at 12.25.13 PM.png",
+    "type": "question",
+    "question_number": 30,
+    "question_text": "The table shows some of the characteristics and data gathered by a scientist about a particular type of bug. Which question is NOT a valid statistical question based on the data in the table?",
+    "diagram_description": "Table BUG DATA. Length 8 to 10 (mm); Mass 10 to 30 (mg); Number of antennae 2; Number of legs 6.",
+    "choices": [
+      "How long was each bug?",
+      "What mass did each bug have?",
+      "How many legs did each bug have?",
+      "What was the ratio of mass to length for each bug?"
+    ],
+    "correct_letter": "C",
+    "correct_pct": "18.8%",
+    "topic_broad": "data-analysis-graphs-tables",
+    "topic_specific": "statistical question means the data varies, NOT framing",
+    "notes": "Practice Test 5, Mathematics Achievement #30. Wrong (maroon marker on D). Retake pending, mechanism not yet verified with her.",
+    "status": "done",
+    "is_wrong": true,
+    "official_topic": "Data Collection & Random Sampling",
+    "official_solution": "The correct answer to the question is answer choice (C), How many legs did each Data Collection & Random Sampling bug have? A statistical question is one that can be answered by collecting data and where there will be variability in that data. The only question that would not have any variability is \"How many legs did each bug have?\"",
+    "official_solution_source": "OCR of the review page, unverified: math symbols may be garbled",
+    "choice_percentages": {
+      "A": "<5.0%",
+      "B": "<5.0%",
+      "C": "18.8%",
+      "D": "73.2%"
+    },
+    "her_selected_letter": "D",
+    "recapture_source_images": [
+      "mathspeed test/actual-practice-tests/ISEE Lower #5/Screenshot 2026-11-01 at 12.25.13 PM.png"
+    ],
+    "her_seconds": 282,
+    "her_seconds_source": "review page",
+    "others_avg_seconds": 43,
+    "difficulty": "Hard",
+    "subtype": "Data Analysis",
+    "diagram_image": [
+      "problem-library-diagrams/pt5_ma30_tbl.png"
+    ],
+    "test_set": "ISEE LOWER #5",
+    "exercise_title": null,
+    "is_timing_chart": false,
+    "strip_wrong": [
+      6,
+      17,
+      28,
+      29,
+      30
+    ]
   }
 ]
