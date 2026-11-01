@@ -104,4 +104,4 @@ Practice Test 5, Test Innovators result 5053390. All 70 review screenshots are i
 
 New fields on these entries: `her_seconds` with `her_seconds_source` (12 frames had the time box scrolled off, so those times come from the timing chart bars, calibrated against the 55 known times), `others_avg_seconds`, `difficulty`, `subtype`, and `true_topic` where the platform's follow-up tag does not describe the question. `official_solution` here is OCR and unverified.
 
-QR #1's 309 sec is not solving time: it includes the end of the section. It is left out of tracker averages.
+QR #1's 309 sec is not solving time. The chart shows a short first-pass bar, then #1 left open from about 30.4 min to the limit after she had finished. It is left out of tracker averages.

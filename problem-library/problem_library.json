@@ -36128,7 +36128,7 @@
   "correct_pct": "98.3%",
   "topic_broad": "arithmetic",
   "topic_specific": "expression equivalence, NOT framing",
-  "notes": "Practice Test 5, Quantitative Reasoning #1. Answered correctly. Her 309 sec is not time spent solving: the timing chart shows about 20 sec on the first pass, then the last 4.5 minutes of the section spent sitting on this question after she finished reviewing.",
+  "notes": "Practice Test 5, Quantitative Reasoning #1. Answered correctly. Her 309 sec is NOT solving time: the first-pass bar on the timing chart is under 20 sec. The rest is a bar from about 30.4 min to the 35-minute limit, after she had finished the section and flipped back through it, so #1 was just the page left open at the end. What she was doing in that time is unknown.",
   "status": "done",
   "is_wrong": false,
   "official_topic": "Order of Operations and Equivalence",
@@ -38204,7 +38204,7 @@
   "test_set": "ISEE LOWER #5",
   "question_number": null,
   "question_text": null,
-  "diagram_description": "Quantitative Reasoning timing chart, 38 questions, result 5053390. First pass finished at about 28 min with no blanks, review pass to about 30.5 min, then the rest of the section on Q1. Wrong: 29, 33, 34, 38. Slowest first-pass bars: 33, 37, 11, 25. Completed on 11/01/2026.",
+  "diagram_description": "Quantitative Reasoning timing chart, 38 questions, result 5053390. First pass finished at about 28.6 min with no blanks, quick flip-through review to about 30.4 min, then Q1 left open until the 35-minute limit (not solving time). Wrong: 29, 33, 34, 38. Slowest first-pass bars: 33, 37, 11, 25. Completed on 11/01/2026.",
   "choices": null,
   "correct_letter": null,
   "correct_pct": null,
@@ -38215,7 +38215,10 @@
   "exercise_title": null,
   "is_timing_chart": true,
   "notes": "Captured Nov 1 2026 with the review pages. Used to recover per-question times for the frames whose time box was scrolled off.",
-  "global_id": 1495
+  "global_id": 1495,
+  "recapture_source_images": [
+   "mathspeed test/actual-practice-tests/ISEE Lower #5/Screenshot 2026-11-01 at 12.53.06 PM.png"
+  ]
  },
  {
   "source_file": "mathspeed test/actual-practice-tests/ISEE Lower #5/Screenshot 2026-11-01 at 12.27.10 PM.png",
@@ -38233,7 +38236,10 @@
   "topic_specific": null,
   "exercise_title": null,
   "is_timing_chart": true,
-  "notes": "Captured Nov 1 2026 with the review pages. Used to recover per-question times for the frames whose time box was scrolled off.",
-  "global_id": 1496
+  "notes": "Captured Nov 1 2026 with the review pages. Used to recover per-question times for the frames whose time box was scrolled off. Cleaner recapture of the chart added with a Q15 tooltip showing 13 sec, matching the review page.",
+  "global_id": 1496,
+  "recapture_source_images": [
+   "mathspeed test/actual-practice-tests/ISEE Lower #5/Screenshot 2026-11-01 at 12.53.18 PM.png"
+  ]
  }
 ]
