@@ -1489,6 +1489,7 @@
   },
   "caveats": "QR 26-38 is 13/32 wrong on pacing-flagged items and 10/43 on the rest; Practice Test 5 had no pacing problem and still 4/13. MA 21-30 by test is 7, 5, 1, 0, 3 wrong, so it is uneven.",
   "topic_tier_mismatch": "Topic tiers do not predict this: 45 of 75 QR and 35 of 50 MA last-third items are not on Hard-tier topics. Hard comes from how the problem is built, usually combining easy or medium ideas.",
-  "note_on_real_tier_mix_from_8_tests": "That 28/53/16 mix counts topic tiers, not test positions, so it understates hard problems. By position a test is about one third hard."
+  "note_on_real_tier_mix_from_8_tests": "That 28/53/16 mix counts topic tiers, not test positions, so it understates hard problems. By position a test is about one third hard.",
+  "generation_rule": "Parent 2026-11-01: every problem in QR and MA practice sets is built like the real last third; sets do not copy the test's Easy/Medium/Hard shape."
  }
 }
