@@ -36,8 +36,8 @@ for p in P:
                  f'<div class="q">{p["q"]}</div>{diag}{choices_html_live(n, p["choices"])}</div>')
 
 live = head("Practice Test 5 Retake") + '<style>.card{display:none;}.card.active{display:block;}</style><body><div class="wrap">'
-live += f'<h1>Practice Test 5 Retake</h1><p class="lede">{N} problems · 15 minutes · choose one answer (A–D) for each.</p>'
-live += f'<div class="sticky-top"><div class="testbar"><div class="navgrid" id="navgrid"></div><div class="timerbox"><div class="timer">Time left: <span id="clock">15:00</span></div><button type="button" class="bignav" id="go">Start</button><button type="button" class="bignav" id="end" disabled>Submit</button></div></div><div class="navcontrols"><button type="button" class="bignav" id="prev">← Back</button><span class="progress">Answered: <span id="count">0</span> / {N}</span><button type="button" class="bignav" id="next">Next →</button></div><p><button type="button" class="timingtoggle" id="toggletiming">Show timing details (parent)</button></p></div>'
+live += f'<h1>Practice Test 5 Retake</h1><p class="lede">{N} problems · no timer · go in any order · choose one answer (A–D) for each.</p>'
+live += f'<div class="sticky-top"><div class="testbar"><div class="navgrid" id="navgrid"></div></div><div class="navcontrols"><button type="button" class="bignav" id="prev">← Back</button><span class="progress">Answered: <span id="count">0</span> / {N}</span><button type="button" class="bignav" id="next">Next →</button></div><p><button type="button" class="timingtoggle" id="toggletiming">Show timing details (parent)</button></p></div>'
 live += f'<div id="timing" style="display:none"><p>Total: <span id="total">0:00</span> · Answered: <span id="answered">0</span> / {N}</p><table class="data"><tr><th>#</th><th>Time (s)</th><th>First answer</th><th>Final answer</th></tr><tbody id="rows"></tbody></table><p><button type="button" class="bignav" id="dl">Download times (CSV)</button> <button type="button" class="bignav" id="dl2">Download click log (CSV)</button> <button type="button" class="bignav" id="clr">Clear all answers</button></p></div>'
 live += ''.join(cards)
 live += '</div>'
@@ -171,58 +171,15 @@ function renderSummary(){
   document.getElementById("total").textContent = fmt(totalSec);
 }
 
-// ---- timer ----
-var CK="%s-clock", TOTAL=900;
-var cst={rem:TOTAL,run:false,last:0};
-try{var x=JSON.parse(localStorage.getItem(CK)||"null"); if(x) cst=x;}catch(e){}
-function csv2(){try{localStorage.setItem(CK,JSON.stringify(cst));}catch(e){}}
-function lock(){ var L=!cst.run; document.querySelectorAll("button.choice[data-qid]").forEach(function(b){b.disabled=L;}); }
-function show(){
-  window.__clockRunning = cst.run;
-  var r=Math.max(0,Math.round(cst.rem)); var m=Math.floor(r/60), s=r%%60;
-  var status = cst.rem<=0 ? " — time\\u2019s up" : (cst.submitted ? " — submitted" : (cst.run?"":" — press Start to unlock"));
-  document.getElementById("clock").textContent=m+":"+("0"+s).slice(-2)+status;
-  document.getElementById("go").textContent=cst.run?"Running":"Start";
-  document.getElementById("go").disabled=cst.run||cst.submitted;
-  if(endBtn) endBtn.disabled=!cst.run;
-  lock();
-}
-function tick(){
-  if(cst.run){
-    var now=Date.now();
-    cst.rem=Math.max(0,cst.rem-(now-cst.last)/1000);
-    cst.last=now;
-    if(cst.rem<=0){ cst.run=false; closeVisit(now); sv(); }
-    csv2();
-  }
-  show(); renderSummary();
-}
-document.getElementById("go").addEventListener("click",function(){
-  if(!cst.run && cst.rem>0 && !cst.submitted){
-    cst.run=true; cst.last=Date.now(); csv2(); show();
-    openVisit(Date.now()); sv(); render();
-  }
-});
-var endBtn=document.getElementById("end");
-if(endBtn){
-  endBtn.addEventListener("click",function(){
-    if(!cst.run) return;
-    if(confirm("Submit now and stop the timer? You can still look back at your answers, but the clock won\\'t run again.")){
-      var now=Date.now();
-      cst.run=false; cst.submitted=true; closeVisit(now); csv2(); show();
-      sv(); render();
-    }
-  });
-}
-window.__clockReset=function(){ cst={rem:TOTAL,run:false,last:0,submitted:false}; csv2(); show(); };
-
-show();
-if(clockRunning() && visitN===null){ openVisit(Date.now()); sv(); }
+// no timer on this page: answers stay unlocked, time per problem still logs quietly
+window.__clockRunning=true;
+window.__clockReset=function(){};
+openVisit(Date.now());
 render();
-setInterval(tick,500);
+setInterval(renderSummary,1000);
 })();
 </script><script>document.getElementById("toggletiming").addEventListener("click",function(){var b=document.getElementById("timing");var showing=b.style.display!=="none";b.style.display=showing?"none":"block";this.textContent=showing?"Show timing details (parent)":"Hide timing details";});</script></body></html>'''
-          % (N, SLUG, SLUG, SLUG, SLUG, SLUG, SLUG))
+          % (N, SLUG, SLUG, SLUG, SLUG, SLUG))
 
 live += SCRIPT
 open(os.path.join(WS, f'{SLUG}.html'), 'w').write(live)

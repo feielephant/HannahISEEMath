@@ -866,7 +866,8 @@
    "_sec_total": 382.0,
    "_sec_n": 7,
    "avg_seconds": 54.6,
-   "practice_test_5_2026-11-01": "QR#18 right 66s; QR#23 right 45s; QR#33 WRONG 145s; MA#2 right 46s"
+   "practice_test_5_2026-11-01": "QR#18 right 66s; QR#23 right 45s; QR#33 WRONG 145s; MA#2 right 46s",
+   "parent_insight_2026-11-01": "Parent read 2026-11-01 on Practice Test 5 QR #33/#34: a basic idea she knows, built up into a multi-step problem. That is the skill to improve, more than the topic itself."
   },
   {
    "topic": "Determining Points on Number Lines",
@@ -1290,7 +1291,8 @@
    "_sec_n": 2,
    "avg_seconds": 20.0,
    "escalated_2026-10-27": "Escalated from unknown on first grading -- QR8 #22 showed a zero-method gap (no idea how to solve two symbolic equations), not just a wrong answer. Library check: all 5 real items for this topic (gid75,121,123,177,195 + 1 ma_library item) are already-seen (done); no unused real item to swap in, so QR9 needs 2-3 freshly authored items on this exact 2-equation/2-symbol structure, plus direct teaching of the substitution method before more drilling.",
-   "practice_test_5_2026-11-01": "QR#34 WRONG 24s"
+   "practice_test_5_2026-11-01": "QR#34 WRONG 24s",
+   "parent_insight_2026-11-01": "Parent read 2026-11-01 on Practice Test 5 QR #33/#34: a basic idea she knows, built up into a multi-step problem. That is the skill to improve, more than the topic itself."
   },
   {
    "topic": "Comparing Areas",

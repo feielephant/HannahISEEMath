@@ -1077,7 +1077,7 @@
    "source_test": "ISEE Lower #5",
    "date_built": "2026-11-01",
    "problems": 9,
-   "minutes": 15,
+   "minutes": null,
    "verbatim_of": [
     "QR29",
     "QR33",
@@ -1089,9 +1089,10 @@
     "MA29",
     "MA30"
    ],
-   "purpose": "Same 9 wrong problems, verbatim, no teaching first, to see what is a real gap versus a test-day slip.",
+   "purpose": "Same 9 wrong problems, verbatim, done with her parent with no teaching first, to see where she is missing.",
    "published_commit": "3f3fa95",
-   "status": "published, not yet taken"
+   "status": "published, not yet taken",
+   "format": "no timer, any order, done together with parent"
   }
  ]
 }
