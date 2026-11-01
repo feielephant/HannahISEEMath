@@ -1454,5 +1454,41 @@
    "decimal and fraction place value and comparison"
   ],
   "timing": "Math Achievement timing charts show fewer slow problems than QR; not measured carefully yet"
+ },
+ "real_structure_by_position": {
+  "source": "Difficulty labels seen on Practice Test 5; error rates from What to Expect + ISEE Lower #1-5 (QR), ISEE Lower #1-5 (MA), computed 2026-11-01.",
+  "qr": {
+   "easy": "1-12",
+   "medium": "13-25",
+   "hard": "26-38",
+   "her_wrong_rate": {
+    "1-12": "2/72",
+    "13-25": "11/78",
+    "26-38": "23/75"
+   },
+   "others_avg_correct_pct": {
+    "1-12": 92,
+    "13-25": 77,
+    "26-38": 58
+   }
+  },
+  "ma": {
+   "easy": "1-10",
+   "medium": "11-20",
+   "hard": "21-30",
+   "her_wrong_rate": {
+    "1-10": "4/50",
+    "11-20": "6/50",
+    "21-30": "16/50"
+   },
+   "others_avg_correct_pct": {
+    "1-10": 94,
+    "11-20": 85,
+    "21-30": 68
+   }
+  },
+  "caveats": "QR 26-38 is 13/32 wrong on pacing-flagged items and 10/43 on the rest; Practice Test 5 had no pacing problem and still 4/13. MA 21-30 by test is 7, 5, 1, 0, 3 wrong, so it is uneven.",
+  "topic_tier_mismatch": "Topic tiers do not predict this: 45 of 75 QR and 35 of 50 MA last-third items are not on Hard-tier topics. Hard comes from how the problem is built, usually combining easy or medium ideas.",
+  "note_on_real_tier_mix_from_8_tests": "That 28/53/16 mix counts topic tiers, not test positions, so it understates hard problems. By position a test is about one third hard."
  }
 }
