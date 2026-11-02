@@ -148,12 +148,15 @@ add(2, 'Algebra with Geometric Shapes', 'The scales shown are balanced. Which se
     [scale('T','C'), scale('C','SSS'), scale('TT','CC'), scale('T','SSS')], 'D',
     'Take T off both sides of the first scale: C C balances S S S S, so one C balances S S. The second scale says C S balances T. Swap C for S S: S S S balances T.',
     'Lower #5 #34', scales(('TCC','TSSSS'), ('CS','T')))
-# 3 wide table
-tb = {'Apr':(12,15,9,14),'May':(18,16,14,11),'Jun':(21,19,17,23),'Jul':(16,24,13,20),'Aug':(22,18,20,15),'Sep':(10,13,11,17)}
-sm = lambda i: sum(tb[m][i] for m in ('Jun','Jul','Aug'))
-assert sm(1) - sm(2) == 11 and sm(1)-sm(0) == 2 and sum(v[1] for v in tb.values())-sum(v[2] for v in tb.values()) == 21 and tb['Jun'][1]-tb['Jun'][2] == 2
-add(3, 'Comparing Adding Subtracting Bar Graph Data Table Values', 'The table shows the number of miles four friends biked each month. How many more miles did Noor bike than Owen in June, July, and August combined?',
-    ['2', '9', '11', '21'], 'C', 'Noor: 19 + 24 + 18 = 61. Owen: 17 + 13 + 20 = 50. 61 &minus; 50 = 11. A uses only June (or the Lena column), D uses all six months.',
+# 3 wide table: parent asked for April, June, and September so the rows are not next to each other.
+tb = {'Apr':(12,15,9,14),'May':(18,18,14,11),'Jun':(21,19,17,23),'Jul':(16,24,13,20),'Aug':(22,18,20,15),'Sep':(10,13,11,17)}
+MS = ('Apr','Jun','Sep')
+sm = lambda i, ms=MS: sum(tb[m][i] for m in ms)
+assert sm(1) - sm(2) == 10 and sm(1) - sm(0) == 4 and tb['Jun'][1]-tb['Jun'][2] == 2
+assert sum(v[1] for v in tb.values()) - sum(v[2] for v in tb.values()) == 23
+assert sm(1, ('Apr','May','Jun')) - sm(2, ('Apr','May','Jun')) != 10  # the first three rows must not give the right answer by accident
+add(3, 'Comparing Adding Subtracting Bar Graph Data Table Values', 'The table shows the number of miles four friends biked each month. How many more miles did Noor bike than Owen in April, June, and September combined?',
+    ['2', '4', '10', '23'], 'C', 'Noor: 15 + 19 + 13 = 47. Owen: 9 + 17 + 11 = 37. 47 &minus; 37 = 10. A uses only June, B compares Noor with Lena, and D uses all six months.',
     'Lower #5 MA #6, parent asked for tables with many numbers', table(['Month','Lena','Noor','Owen','Priya'], [[m,*v] for m,v in tb.items()], 'MILES BIKED'))
 # 4 real
 assert F(90)/F(25,100) == 360
