@@ -38241,5 +38241,110 @@
   "recapture_source_images": [
    "mathspeed test/actual-practice-tests/ISEE Lower #5/Screenshot 2026-11-01 at 12.53.18 PM.png"
   ]
+ },
+ {
+  "source_file": "recaptureQR/Screenshot 2026-11-01 at 3.06.40 PM.png",
+  "type": "question",
+  "question_number": 1,
+  "question_text": "Sally chooses a number at random from a hat containing integers from 10 - 20. The number is prime. When this number is subtracted from 20, the result is also prime. The largest number in the hat is divisible by the sum of the chosen number's digits. What is the number that Sally chose?",
+  "diagram_description": "None.",
+  "choices": [
+   "11",
+   "13",
+   "17",
+   "19"
+  ],
+  "correct_letter": null,
+  "topic_broad": "number-theory-divisibility",
+  "topic_specific": "who am I with prime and digit conditions",
+  "notes": "Captured 2026-11-01, no answer selected, choice D struck out in the elimination tool.",
+  "status": "not_done",
+  "global_id": 1497,
+  "set_name": "WHOLE NUMBER \"WHO AM I?\" #2",
+  "source": "individual_exercise_screenshot"
+ },
+ {
+  "source_file": "recaptureQR/Screenshot 2026-11-01 at 3.06.47 PM.png",
+  "type": "question",
+  "question_number": 2,
+  "question_text": "Sarah picks a number at random from 10 - 20. The number is prime. When this number is subtracted from 20, the result is also prime. The sum of its digits is NOT a factor of the largest or the smallest number in the hat. What is the number Sarah picked?",
+  "diagram_description": "None.",
+  "choices": [
+   "13",
+   "15",
+   "17",
+   "19"
+  ],
+  "correct_letter": null,
+  "topic_broad": "number-theory-divisibility",
+  "topic_specific": "who am I with prime and digit conditions",
+  "notes": "Captured 2026-11-01, no answer selected.",
+  "status": "not_done",
+  "global_id": 1498,
+  "set_name": "WHOLE NUMBER \"WHO AM I?\" #2",
+  "source": "individual_exercise_screenshot"
+ },
+ {
+  "source_file": "recaptureQR/Screenshot 2026-11-01 at 3.06.53 PM.png",
+  "type": "question",
+  "question_number": 3,
+  "question_text": "Sanjay has a hat containing the prime numbers from 15 - 30. He selects a two-digit number from the hat and notices that 30 is divisible by both the sum and the product of this number's digits. What is the number that Sanjay selected?",
+  "diagram_description": "None.",
+  "choices": [
+   "19",
+   "21",
+   "23",
+   "29"
+  ],
+  "correct_letter": null,
+  "topic_broad": "number-theory-divisibility",
+  "topic_specific": "who am I with prime and digit conditions",
+  "notes": "Captured 2026-11-01, no answer selected.",
+  "status": "not_done",
+  "global_id": 1499,
+  "set_name": "WHOLE NUMBER \"WHO AM I?\" #2",
+  "source": "individual_exercise_screenshot"
+ },
+ {
+  "source_file": "recaptureQR/Screenshot 2026-11-01 at 3.06.58 PM.png",
+  "type": "question",
+  "question_number": 4,
+  "question_text": "Jason picks a number at random that is greater than 30 but less than 60. The number he chooses is not prime, but switching the order of the digits makes a prime number. The difference between these two numbers is greater than 30 but less than 60. What is the number Jason picked?",
+  "diagram_description": "None.",
+  "choices": [
+   "38",
+   "39",
+   "49",
+   "59"
+  ],
+  "correct_letter": null,
+  "topic_broad": "number-theory-divisibility",
+  "topic_specific": "who am I with prime and digit conditions",
+  "notes": "Captured 2026-11-01, no answer selected.",
+  "status": "not_done",
+  "global_id": 1500,
+  "set_name": "WHOLE NUMBER \"WHO AM I?\" #2",
+  "source": "individual_exercise_screenshot"
+ },
+ {
+  "source_file": "recaptureQR/Screenshot 2026-11-01 at 3.07.04 PM.png",
+  "type": "question",
+  "question_number": 5,
+  "question_text": "Ted picks a two-digit prime number where the first digit is less than the second digit. The difference of its digits is also prime and is a factor of the sum of its digits. Both of these results are less than 6. What is the two-digit prime that Ted chose?",
+  "diagram_description": "None.",
+  "choices": [
+   "11",
+   "13",
+   "23",
+   "31"
+  ],
+  "correct_letter": null,
+  "topic_broad": "number-theory-divisibility",
+  "topic_specific": "who am I with prime and digit conditions",
+  "notes": "Captured 2026-11-01, no answer selected.",
+  "status": "not_done",
+  "global_id": 1501,
+  "set_name": "WHOLE NUMBER \"WHO AM I?\" #2",
+  "source": "individual_exercise_screenshot"
  }
 ]

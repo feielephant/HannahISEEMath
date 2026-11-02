@@ -122,6 +122,7 @@ def colsum(rows):
     r = ''.join(f'<div style="padding:2px 6px;line-height:1.5">{x}</div>' for x in rows[:-1])
     return f'<div style="{style}">{r}<div style="padding:7px 6px 2px;margin-top:5px;line-height:1.5;border-top:2px solid currentColor">{rows[-1]}</div></div>'
 
+WHO = next(k for k in T if 'who am' in k.lower())
 P = []
 def add(n, topic, q, ch, ans, key, model, diagram=None, habit=None, tier='Hard', verbatim=None):
     assert topic in T, topic
@@ -221,23 +222,15 @@ for z,ok in [((1,2),False),((4,2),True),((4,3),False),((7,2),False)]:
 add(14, 'Identifying Shapes', 'The graph shows three of the four vertices of rhombus WXYZ. At which location on the coordinate grid could point Z be located?',
     ['(1, 2)','(4, 2)','(4, 3)','(7, 2)'], 'B', 'A rhombus has four equal sides. From X to W and from X to Y is 3 across and 2 up or down. So Z must also be 3 across and 2 down from W, which is (4, 2).',
     'Lower #1 #31 and Lower #5 MA #28', coord({'W':W,'X':X,'Y':Y}))
-# 15 builds gid 1450 and gid 1451 into one problem, on a new graph so #7 does not give it away
-def pool_graph():
-    u, v, o, top = 30, 5, 44, 24   # 30 px per hour, 5 px per inch
-    bot = top + 60*v
-    p = txt(o+150, 15, 'Filling a Pool', 15)
-    for i in range(0, 11): p += f'<line x1="{o+i*u}" y1="{top}" x2="{o+i*u}" y2="{bot}" stroke="currentColor" stroke-width="{1.8 if i==0 else .4}"/>' + txt(o+i*u, bot+16, i, 11)
-    for j in range(0, 61, 5):
-        p += f'<line x1="{o}" y1="{bot-j*v}" x2="{o+10*u}" y2="{bot-j*v}" stroke="currentColor" stroke-width="{1.8 if j==0 else .4}"/>'
-        if j % 10 == 0: p += txt(o-8, bot-j*v+4, j, 11, 'end')
-    p += f'<line x1="{o}" y1="{bot-20*v}" x2="{o+10*u}" y2="{bot-50*v}" stroke="currentColor" stroke-width="2.6"/>'
-    p += txt(o+150, bot+34, 'Time (hours)', 12) + f'<text x="12" y="{top+150}" font-size="12" text-anchor="middle" fill="currentColor" transform="rotate(-90 12 {top+150})">Water Depth (inches)</text>'
-    return svg(o+10*u+14, bot+42, p)
-assert F(50-20, 10) == 3
-add(15, 'Y-Intercepts, Given Graphs', 'The graph shows the depth of the water in a pool as it fills. A second line is parallel to the line shown and crosses the y-axis at 5. What is the equation of the second line?',
-    ['y = 3x + 20','y = 5x + 3','y = &minus;3x + 5','y = 3x + 5'], 'D',
-    'The line goes from 20 to 50 in 10 hours, so its slope is 30 &divide; 10 = 3. Parallel lines have the same slope, so the second line also has slope 3. It crosses the y-axis at 5, so y = 3x + 5. A is the line shown. B swaps the slope and the y-intercept. C has the wrong sign.',
-    'gid 1450 and gid 1451 built into one problem, new graph', pool_graph())
+# 15 real unused, Who Am I #2 problem 4, parent 2026-11-01: keep only one y-intercept problem (#7).
+# Choices are reversed from the original so the set's A/B/C/D balance holds. Wording is unchanged.
+isp = lambda n: n > 1 and all(n % i for i in range(2, int(n**.5)+1))
+rev = lambda n: int(str(n)[::-1])
+ok = [n for n in (38,39,49,59) if not isp(n) and isp(rev(n)) and 30 < abs(n-rev(n)) < 60]
+assert ok == [38]
+add(15, WHO, 'Jason picks a number at random that is greater than 30 but less than 60. The number he chooses is not prime, but switching the order of the digits makes a prime number. The difference between these two numbers is greater than 30 but less than 60. What is the number Jason picked?',
+    ['59','49','39','38'], 'D', '59 is prime, so it is out. 49 flips to 94, which is even, so it is not prime. 39 flips to 93 = 3 &times; 31, so it is not prime. 38 is not prime, it flips to 83, which is prime, and 83 &minus; 38 = 45, which is between 30 and 60.',
+    'Real drill problem with several conditions, same idea as Lower 2 #35', None, 'check-every-condition', verbatim='gid 1500, choices reversed')
 # 16
 assert F(75,100)*F(120,100)==F(9,10)
 add(16, 'Percent Increase Decrease basic' if 'Percent Increase Decrease basic' in T else 'Percent Word Problems', 'The price of a bike is decreased by 25%. The new price is then increased by 20%. What is the overall percent increase or percent decrease from the original price?',

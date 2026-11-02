@@ -827,7 +827,7 @@
     "Multi-step unit conversion (off-by-10, multi-step)",
     "Shape Construction & Symmetry in 2-D Figures",
     "Identifying Shapes",
-    "Y-Intercepts, Given Graphs",
+    "Divisibility / number constraints (Serena/Who am I style)",
     "Percent Increase Decrease basic",
     "Total Shaded Area given Figure with Equal Divisions",
     "Cryptarithm / digit substitution",
@@ -859,7 +859,8 @@
     1059,
     1005,
     862,
-    1140
+    1140,
+    1500
    ],
    "real_repeat_parent_approved": [
     157,
@@ -881,7 +882,7 @@
     "12": "Lower #1 #29",
     "13": "Lower #5 #29, parent: she did not find the line",
     "14": "Lower #1 #31 and Lower #5 MA #28",
-    "15": "gid 1450 and gid 1451 built into one problem, new graph",
+    "15": "Real drill problem with several conditions, same idea as Lower 2 #35",
     "16": "Lower #4 #38",
     "17": "Lower #5 #35 and Lower #4 #37",
     "18": "Lower #4 #24",
@@ -931,7 +932,8 @@
    "change_after_publish_2026-11-01": "#2 replaced before she took the set; parent felt it was harder than Lower 5 #34. The first version (C S = T T, T S S = C, answer C = S S S S S) is in git commit 9363389 for later use.",
    "change_after_publish_2_2026-11-01": "#3 changed at parent's request to April, June, and September; answer now 10. May for Noor changed from 16 to 18 so the first three rows do not also give 10.",
    "change_after_publish_3_2026-11-01": "#3 choices now 2, 4, 10, 19. 2 = August read for April, 19 = July read for June. Parent chose April, June, and September so her reported April/August mix-up can show.",
-   "change_after_publish_4_2026-11-01": "#7 and #15 had never been wrong, so at parent's request they became y-intercept problems: #7 repeats MA3 #22 (gid 1450) word for word; #15 is new, built from gid 1450 and 1451 on a new graph."
+   "change_after_publish_4_2026-11-01": "#7 and #15 had never been wrong, so at parent's request they became y-intercept problems: #7 repeats MA3 #22 (gid 1450) word for word; #15 is new, built from gid 1450 and 1451 on a new graph.",
+   "change_after_publish_5_2026-11-01": "Parent kept one y-intercept problem (#7). #15 replaced with Who Am I #2 problem 4 (gid 1500), choices reversed. The pool graph problem is in commit f7acd10 for later use."
   }
  ],
  "rotation_notes": {
