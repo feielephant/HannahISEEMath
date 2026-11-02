@@ -819,7 +819,7 @@
     "Percent Word Problems",
     "Cryptarithm / digit substitution",
     "Solving Problems with Geometric Formulas",
-    "Finding Ratios given Probability",
+    "Y-Intercepts, Given Graphs",
     "Percent Increase Decrease basic",
     "Algebra with Geometric Shapes",
     "Area and Perimeter of Complex Polygons",
@@ -827,7 +827,7 @@
     "Multi-step unit conversion (off-by-10, multi-step)",
     "Shape Construction & Symmetry in 2-D Figures",
     "Identifying Shapes",
-    "Probability of 1 Event, given a List of Items",
+    "Y-Intercepts, Given Graphs",
     "Percent Increase Decrease basic",
     "Total Shaded Area given Figure with Equal Divisions",
     "Cryptarithm / digit substitution",
@@ -863,7 +863,8 @@
    ],
    "real_repeat_parent_approved": [
     157,
-    184
+    184,
+    1450
    ],
    "models_by_problem": {
     "1": "Lower #5 #33",
@@ -872,7 +873,7 @@
     "4": "Lower #4 #38 language: increased by",
     "5": "Lower #3 #38",
     "6": "Lower #1 #36",
-    "7": "What to Expect #32",
+    "7": "MA3 #22, parent asked for this repeat",
     "8": "Lower #4 #38 language plus a second step",
     "9": "Lower #1 #37",
     "10": "Lower #1 #38",
@@ -880,7 +881,7 @@
     "12": "Lower #1 #29",
     "13": "Lower #5 #29, parent: she did not find the line",
     "14": "Lower #1 #31 and Lower #5 MA #28",
-    "15": "Lower #5 #37",
+    "15": "gid 1450 and gid 1451 built into one problem, new graph",
     "16": "Lower #4 #38",
     "17": "Lower #5 #35 and Lower #4 #37",
     "18": "Lower #4 #24",
@@ -929,7 +930,8 @@
    "published_commit": "9a3aa314afe97f9de48ac8de69413905367219b9",
    "change_after_publish_2026-11-01": "#2 replaced before she took the set; parent felt it was harder than Lower 5 #34. The first version (C S = T T, T S S = C, answer C = S S S S S) is in git commit 9363389 for later use.",
    "change_after_publish_2_2026-11-01": "#3 changed at parent's request to April, June, and September; answer now 10. May for Noor changed from 16 to 18 so the first three rows do not also give 10.",
-   "change_after_publish_3_2026-11-01": "#3 choices now 2, 4, 10, 19. 2 = August read for April, 19 = July read for June. Parent chose April, June, and September so her reported April/August mix-up can show."
+   "change_after_publish_3_2026-11-01": "#3 choices now 2, 4, 10, 19. 2 = August read for April, 19 = July read for June. Parent chose April, June, and September so her reported April/August mix-up can show.",
+   "change_after_publish_4_2026-11-01": "#7 and #15 had never been wrong, so at parent's request they became y-intercept problems: #7 repeats MA3 #22 (gid 1450) word for word; #15 is new, built from gid 1450 and 1451 on a new graph."
   }
  ],
  "rotation_notes": {

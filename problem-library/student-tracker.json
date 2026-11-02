@@ -1430,6 +1430,17 @@
    "_sec_n": 1,
    "avg_seconds": 88.0,
    "practice_test_5_2026-11-01": "MA#24 right 88s"
+  },
+  {
+   "topic": "Y-Intercepts, Given Graphs",
+   "tier": "Medium",
+   "wrong": 1,
+   "graded": 1,
+   "habits": [],
+   "priority": "high",
+   "real_tests": 0,
+   "real_tests_note": "No item in What to Expect or ISEE Lower #1-5; only the 5-problem platform drill, gid 1447-1451.",
+   "evidence_2026-11-01": "MA3 #22 wrong 10/30: picked y = -5x + 30, changed to y = 5x - 30, correct y = 5x + 30. Mechanism not diagnosed. Parent asked for this topic in Set 9."
   }
  ],
  "pacing": {

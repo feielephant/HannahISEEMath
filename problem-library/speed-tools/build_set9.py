@@ -175,12 +175,14 @@ add(6, 'Solving Problems with Geometric Formulas', 'The figure shown was made by
     ['(3 &times; 5 &times; 6) + (8 &times; 5 &times; 4)','(3 &times; 5 &times; 10) + (8 &times; 5 &times; 4)','(3 &times; 5 &times; 6) + (5 &times; 5 &times; 4)','8 &times; 5 &times; 10'], 'A',
     'Top prism: 3 by 5 by 6. Bottom prism: 8 by 5 by 4. B uses the total height 10 for the top prism, which counts the bottom part twice. C uses the step width 5 instead of the full 8. D treats the shape as one full box.',
     'Lower #1 #36', joined_prisms_svg(3, 6, 8, 4, 5))
-# 7
-for a,b,ok in [(2,7,False),(14,49,False),(18,7,False),(10,25,True)]: assert (F(a,a+b)==F(2,7)) == ok
-add(7, 'Finding Ratios given Probability' if 'Finding Ratios given Probability' in T else 'Word Problems with Ratios', 'Omar has a bag of red, blue, green, and white marbles. The probability of choosing a red marble is 2 out of 7. Which combination of marbles is possible?',
-    ['2 red marbles and 7 others','14 red marbles and 49 others','18 red marbles and 7 others','10 red marbles and 25 others'], 'D',
-    '2 out of 7 compares red to the WHOLE bag, not red to the others. 10 red out of 10 + 25 = 35 total is 2/7. A is 2 out of 9, and B is 14 out of 63.',
-    'What to Expect #32', None, 'verbose-choices')
+# 7 parent asked 2026-11-01: repeat the MA3 y-intercept problem she missed (gid 1450, same graph, same choices)
+g1450 = open(os.path.join(HERE, 'gid1450_graph_b64.txt')).read().strip()
+assert 5*10 + 30 == 80
+add(7, 'Y-Intercepts, Given Graphs', 'The graph below shows the money saved by Rufus over a 10-week period. What is the equation for the line above?',
+    ['y = 5x &minus; 30','y = 5x','y = &minus;5x + 30','y = 5x + 30'], 'D',
+    'The line starts at 30 on the y-axis, so b = 30, and it adds, because the start is above 0. It goes up 50 in 10 weeks, so the slope is 5 and it is positive, because the line goes up. y = 5x + 30. Test it at week 10: 5 &times; 10 + 30 = 80.',
+    'MA3 #22, parent asked for this repeat', f'<img src="data:image/png;base64,{g1450}" alt="Line graph titled Saving Money, y-axis Amount of Money in dollars from 0 to 90, x-axis Time in weeks from 0 to 10, straight line from (0,30) to (10,80)" style="max-width:340px;width:100%;height:auto">',
+    verbatim='gid 1450, parent approved repeat')
 # 8
 assert 80*F(85,100)-5 == 63
 add(8, 'Percent Increase Decrease basic' if 'Percent Increase Decrease basic' in T else 'Percent Word Problems', 'A jacket cost $80. The price was decreased by 15%. Then Priya used a $5 coupon on the new price. How much did Priya pay for the jacket?',
@@ -219,11 +221,23 @@ for z,ok in [((1,2),False),((4,2),True),((4,3),False),((7,2),False)]:
 add(14, 'Identifying Shapes', 'The graph shows three of the four vertices of rhombus WXYZ. At which location on the coordinate grid could point Z be located?',
     ['(1, 2)','(4, 2)','(4, 3)','(7, 2)'], 'B', 'A rhombus has four equal sides. From X to W and from X to Y is 3 across and 2 up or down. So Z must also be 3 across and 2 down from W, which is (4, 2).',
     'Lower #1 #31 and Lower #5 MA #28', coord({'W':W,'X':X,'Y':Y}))
-# 15
-assert F(15,30+15)==F(1,3)
-add(15, 'Probability of 1 Event, given a List of Items', f'The table shows the number of each color of bead in a box. If the probability of randomly taking a purple bead out of the box on the first try is {frac(1,3)}, how many purple beads are in the box?',
-    ['3','5','10','15'], 'D', 'The other beads total 5 &times; 6 = 30, and those are 2/3 of the box. So 1/3 of the box is 15. C takes 1/3 of 30, but 1/3 is of the whole box, purple included.',
-    'Lower #5 #37', table(['Color','red','orange','yellow','green','blue','pink','purple'],[['Beads',5,5,5,5,5,5,'?']],"LUCY'S BOX OF BEADS"))
+# 15 builds gid 1450 and gid 1451 into one problem, on a new graph so #7 does not give it away
+def pool_graph():
+    u, v, o, top = 30, 5, 44, 24   # 30 px per hour, 5 px per inch
+    bot = top + 60*v
+    p = txt(o+150, 15, 'Filling a Pool', 15)
+    for i in range(0, 11): p += f'<line x1="{o+i*u}" y1="{top}" x2="{o+i*u}" y2="{bot}" stroke="currentColor" stroke-width="{1.8 if i==0 else .4}"/>' + txt(o+i*u, bot+16, i, 11)
+    for j in range(0, 61, 5):
+        p += f'<line x1="{o}" y1="{bot-j*v}" x2="{o+10*u}" y2="{bot-j*v}" stroke="currentColor" stroke-width="{1.8 if j==0 else .4}"/>'
+        if j % 10 == 0: p += txt(o-8, bot-j*v+4, j, 11, 'end')
+    p += f'<line x1="{o}" y1="{bot-20*v}" x2="{o+10*u}" y2="{bot-50*v}" stroke="currentColor" stroke-width="2.6"/>'
+    p += txt(o+150, bot+34, 'Time (hours)', 12) + f'<text x="12" y="{top+150}" font-size="12" text-anchor="middle" fill="currentColor" transform="rotate(-90 12 {top+150})">Water Depth (inches)</text>'
+    return svg(o+10*u+14, bot+42, p)
+assert F(50-20, 10) == 3
+add(15, 'Y-Intercepts, Given Graphs', 'The graph shows the depth of the water in a pool as it fills. A second line is parallel to the line shown and crosses the y-axis at 5. What is the equation of the second line?',
+    ['y = 3x + 20','y = 5x + 3','y = &minus;3x + 5','y = 3x + 5'], 'D',
+    'The line goes from 20 to 50 in 10 hours, so its slope is 30 &divide; 10 = 3. Parallel lines have the same slope, so the second line also has slope 3. It crosses the y-axis at 5, so y = 3x + 5. A is the line shown. B swaps the slope and the y-intercept. C has the wrong sign.',
+    'gid 1450 and gid 1451 built into one problem, new graph', pool_graph())
 # 16
 assert F(75,100)*F(120,100)==F(9,10)
 add(16, 'Percent Increase Decrease basic' if 'Percent Increase Decrease basic' in T else 'Percent Word Problems', 'The price of a bike is decreased by 25%. The new price is then increased by 20%. What is the overall percent increase or percent decrease from the original price?',
