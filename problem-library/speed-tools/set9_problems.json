@@ -44,10 +44,10 @@
    "A": "2",
    "B": "4",
    "C": "10",
-   "D": "23"
+   "D": "19"
   },
   "correct": "C",
-  "key": "<b>Answer: C.</b> Noor: 15 + 19 + 13 = 47. Owen: 9 + 17 + 11 = 37. 47 &minus; 37 = 10. A uses only June, B compares Noor with Lena, and D uses all six months.",
+  "key": "<b>Answer: C.</b> Noor: 15 + 19 + 13 = 47. Owen: 9 + 17 + 11 = 37. 47 &minus; 37 = 10. A comes from reading August instead of April, the mix-up she reported on Lower 5 MA #6. D comes from reading July instead of June. B compares Noor with Lena.",
   "habit_note": null,
   "ref": "Tier: Hard &middot; Topic: Comparing Adding Subtracting Bar Graph Data Table Values &middot; Diagram: yes &middot; Wrong so far: 2/11 &middot; New problem &middot; Built like: Lower #5 MA #6, parent asked for tables with many numbers",
   "diagram": "<div style=\"font-weight:600;margin-bottom:4px\">MILES BIKED</div><table class=\"data\"><tr><th>Month</th><th>Lena</th><th>Noor</th><th>Owen</th><th>Priya</th></tr><tr><td>Apr</td><td>12</td><td>15</td><td>9</td><td>14</td></tr><tr><td>May</td><td>18</td><td>18</td><td>14</td><td>11</td></tr><tr><td>Jun</td><td>21</td><td>19</td><td>17</td><td>23</td></tr><tr><td>Jul</td><td>16</td><td>24</td><td>13</td><td>20</td></tr><tr><td>Aug</td><td>22</td><td>18</td><td>20</td><td>15</td></tr><tr><td>Sep</td><td>10</td><td>13</td><td>11</td><td>17</td></tr></table>",

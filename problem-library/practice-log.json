@@ -928,7 +928,8 @@
    },
    "published_commit": "e7d13eb925a1afdb0c2a885bded1d8049995b912",
    "change_after_publish_2026-11-01": "#2 replaced before she took the set; parent felt it was harder than Lower 5 #34. The first version (C S = T T, T S S = C, answer C = S S S S S) is in git commit 9363389 for later use.",
-   "change_after_publish_2_2026-11-01": "#3 changed at parent's request to April, June, and September; answer now 10. May for Noor changed from 16 to 18 so the first three rows do not also give 10."
+   "change_after_publish_2_2026-11-01": "#3 changed at parent's request to April, June, and September; answer now 10. May for Noor changed from 16 to 18 so the first three rows do not also give 10.",
+   "change_after_publish_3_2026-11-01": "#3 choices now 2, 4, 10, 19. 2 = August read for April, 19 = July read for June. Parent chose April, June, and September so her reported April/August mix-up can show."
   }
  ],
  "rotation_notes": {
@@ -1219,7 +1220,7 @@
     "2": "QR#33: combo, each step solid",
     "3": "QR#34: not solid on scale exchange",
     "4": "QR#38: combo, each step solid",
-    "5": "MA#6: many data values, confused",
+    "5": "MA#6: she said she mixed up April and August; reading April gives her answer 1",
     "6": "MA#17: many data values, confused",
     "7": "MA#28: does not exactly know rhombus",
     "8": "MA#29: still a gap",

@@ -153,10 +153,10 @@ tb = {'Apr':(12,15,9,14),'May':(18,18,14,11),'Jun':(21,19,17,23),'Jul':(16,24,13
 MS = ('Apr','Jun','Sep')
 sm = lambda i, ms=MS: sum(tb[m][i] for m in ms)
 assert sm(1) - sm(2) == 10 and sm(1) - sm(0) == 4 and tb['Jun'][1]-tb['Jun'][2] == 2
-assert sum(v[1] for v in tb.values()) - sum(v[2] for v in tb.values()) == 23
+assert sm(1, ('Aug','Jun','Sep')) - sm(2, ('Aug','Jun','Sep')) == 2 and sm(1, ('Apr','Jul','Sep')) - sm(2, ('Apr','Jul','Sep')) == 19
 assert sm(1, ('Apr','May','Jun')) - sm(2, ('Apr','May','Jun')) != 10  # the first three rows must not give the right answer by accident
 add(3, 'Comparing Adding Subtracting Bar Graph Data Table Values', 'The table shows the number of miles four friends biked each month. How many more miles did Noor bike than Owen in April, June, and September combined?',
-    ['2', '4', '10', '23'], 'C', 'Noor: 15 + 19 + 13 = 47. Owen: 9 + 17 + 11 = 37. 47 &minus; 37 = 10. A uses only June, B compares Noor with Lena, and D uses all six months.',
+    ['2', '4', '10', '19'], 'C', 'Noor: 15 + 19 + 13 = 47. Owen: 9 + 17 + 11 = 37. 47 &minus; 37 = 10. A comes from reading August instead of April, the mix-up she reported on Lower 5 MA #6. D comes from reading July instead of June. B compares Noor with Lena.',
     'Lower #5 MA #6, parent asked for tables with many numbers', table(['Month','Lena','Noor','Owen','Priya'], [[m,*v] for m,v in tb.items()], 'MILES BIKED'))
 # 4 real
 assert F(90)/F(25,100) == 360
