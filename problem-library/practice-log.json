@@ -926,7 +926,7 @@
      14
     ]
    },
-   "published_commit": "600e98da27064f3cd398f91acb03937c5589e0c7",
+   "published_commit": "373ae10284446dfbae2e4da68a07adee2df7db75",
    "change_after_publish_2026-11-01": "#2 replaced before she took the set; parent felt it was harder than Lower 5 #34. The first version (C S = T T, T S S = C, answer C = S S S S S) is in git commit 9363389 for later use.",
    "change_after_publish_2_2026-11-01": "#3 changed at parent's request to April, June, and September; answer now 10. May for Noor changed from 16 to 18 so the first three rows do not also give 10.",
    "change_after_publish_3_2026-11-01": "#3 choices now 2, 4, 10, 19. 2 = August read for April, 19 = July read for June. Parent chose April, June, and September so her reported April/August mix-up can show.",
