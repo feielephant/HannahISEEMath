@@ -185,13 +185,13 @@
   "topic": "Identifying Correct Conclusions from Bar Graph Data Table",
   "q": "The stem-and-leaf plot shows the points a basketball team scored in 15 games, where 5|3 represents 53. Based on the data in the stem-and-leaf plot, which conclusion is true?",
   "choices": {
-   "A": "The team scored 53 points in exactly 2 games.",
-   "B": "The team scored at least 45 points in every game.",
-   "C": "The team scored 70 points or more in exactly 3 games.",
+   "A": "The team scored 70 points or more in exactly 3 games.",
+   "B": "The team scored 53 points in exactly 2 games.",
+   "C": "The team scored at least 45 points in every game.",
    "D": "The team scored 64 points in 2 games."
   },
-  "correct": "C",
-  "key": "<b>Answer: C.</b> 70, 72, and 76 are the 3 scores of 70 or more. A: 53 appears 3 times. B: the lowest score is 42. D: 64 appears once.",
+  "correct": "A",
+  "key": "<b>Answer: A.</b> 70, 72, and 76 are the 3 scores of 70 or more. B: 53 appears 3 times. C: the lowest score is 42. D: 64 appears once.",
   "habit_note": "verbose-choices",
   "ref": "Tier: Hard &middot; Topic: Identifying Correct Conclusions from Bar Graph Data Table &middot; Diagram: yes &middot; Wrong so far: 0/4 &middot; New problem &middot; Built like: Lower #2 #37",
   "diagram": "<div style=\"font-weight:600;margin-bottom:4px\">POINTS SCORED</div><table style=\"border-collapse:collapse\"><tr><td style=\"text-align:right;border-right:2px solid currentColor;padding:2px 10px\">4</td><td style=\"padding:2px 10px;letter-spacing:6px;font-family:ui-monospace,Menlo,monospace\">2 5 5 8</td></tr><tr><td style=\"text-align:right;border-right:2px solid currentColor;padding:2px 10px\">5</td><td style=\"padding:2px 10px;letter-spacing:6px;font-family:ui-monospace,Menlo,monospace\">0 3 3 3 7</td></tr><tr><td style=\"text-align:right;border-right:2px solid currentColor;padding:2px 10px\">6</td><td style=\"padding:2px 10px;letter-spacing:6px;font-family:ui-monospace,Menlo,monospace\">1 4 9</td></tr><tr><td style=\"text-align:right;border-right:2px solid currentColor;padding:2px 10px\">7</td><td style=\"padding:2px 10px;letter-spacing:6px;font-family:ui-monospace,Menlo,monospace\">0 2 6</td></tr></table>",
@@ -632,20 +632,20 @@
  {
   "n": 36,
   "tier": "Hard",
-  "topic": "Algebra with Geometric Shapes",
-  "q": "The scales shown are balanced. How many C figures would balance 4 T figures?",
+  "topic": "Counting Multiples within a Range",
+  "q": "How many numbers between 46 and 89 are divisible by 3?",
   "choices": {
    "A": "12",
-   "B": "16",
-   "C": "18",
-   "D": "24"
+   "B": "13",
+   "C": "14",
+   "D": "15"
   },
-  "correct": "A",
-  "key": "<b>Answer: A.</b> T T balances S S S, so T T T T balances S S S S S S. Each S S balances C C C C, so 6 S is three of those groups: 3 &times; 4 = 12 C.",
-  "habit_note": null,
-  "ref": "Tier: Hard &middot; Topic: Algebra with Geometric Shapes &middot; Diagram: yes &middot; Wrong so far: 2/2 &middot; New problem &middot; Built like: Lower #5 #34 and Lower #2 #17",
-  "diagram": "<div style=\"display:flex;gap:26px;flex-wrap:wrap\"><svg viewBox=\"0 0 211 70\" width=\"211\" height=\"70\" role=\"img\"><polygon points=\"15,7 31,7 37,35 9,35\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\"/><text x=\"23\" y=\"26\" font-size=\"13\" text-anchor=\"middle\" fill=\"currentColor\">T</text><polygon points=\"48,7 64,7 70,35 42,35\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\"/><text x=\"56\" y=\"26\" font-size=\"13\" text-anchor=\"middle\" fill=\"currentColor\">T</text><text x=\"86\" y=\"27\" font-size=\"20\" text-anchor=\"middle\" fill=\"currentColor\">=</text><rect x=\"105\" y=\"7\" width=\"28\" height=\"28\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\"/><text x=\"119\" y=\"26\" font-size=\"13\" text-anchor=\"middle\" fill=\"currentColor\">S</text><rect x=\"138\" y=\"7\" width=\"28\" height=\"28\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\"/><text x=\"152\" y=\"26\" font-size=\"13\" text-anchor=\"middle\" fill=\"currentColor\">S</text><rect x=\"171\" y=\"7\" width=\"28\" height=\"28\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\"/><text x=\"185\" y=\"26\" font-size=\"13\" text-anchor=\"middle\" fill=\"currentColor\">S</text><line x1=\"2\" y1=\"44\" x2=\"209\" y2=\"44\" stroke=\"currentColor\" stroke-width=\"3\"/><polygon points=\"105.5,46 92.5,68 118.5,68\" fill=\"currentColor\"/></svg><svg viewBox=\"0 0 244 70\" width=\"244\" height=\"70\" role=\"img\"><rect x=\"9\" y=\"7\" width=\"28\" height=\"28\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\"/><text x=\"23\" y=\"26\" font-size=\"13\" text-anchor=\"middle\" fill=\"currentColor\">S</text><rect x=\"42\" y=\"7\" width=\"28\" height=\"28\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\"/><text x=\"56\" y=\"26\" font-size=\"13\" text-anchor=\"middle\" fill=\"currentColor\">S</text><text x=\"86\" y=\"27\" font-size=\"20\" text-anchor=\"middle\" fill=\"currentColor\">=</text><circle cx=\"119\" cy=\"21\" r=\"14\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\"/><text x=\"119\" y=\"26\" font-size=\"13\" text-anchor=\"middle\" fill=\"currentColor\">C</text><circle cx=\"152\" cy=\"21\" r=\"14\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\"/><text x=\"152\" y=\"26\" font-size=\"13\" text-anchor=\"middle\" fill=\"currentColor\">C</text><circle cx=\"185\" cy=\"21\" r=\"14\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\"/><text x=\"185\" y=\"26\" font-size=\"13\" text-anchor=\"middle\" fill=\"currentColor\">C</text><circle cx=\"218\" cy=\"21\" r=\"14\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\"/><text x=\"218\" y=\"26\" font-size=\"13\" text-anchor=\"middle\" fill=\"currentColor\">C</text><line x1=\"2\" y1=\"44\" x2=\"242\" y2=\"44\" stroke=\"currentColor\" stroke-width=\"3\"/><polygon points=\"122.0,46 109.0,68 135.0,68\" fill=\"currentColor\"/></svg></div>",
-  "needs_diagram": true
+  "correct": "C",
+  "key": "<b>Answer: C.</b> The first multiple of 3 after 46 is 48, and the last before 89 is 87. Count the jumps of 3: (87 &minus; 48) &divide; 3 = 13 jumps. The count of numbers is one more than the jumps: 13 + 1 = 14. B forgets the +1, which matches her answer on Lower 5 MA #29.",
+  "habit_note": "off-by-one",
+  "ref": "Tier: Hard &middot; Topic: Counting Multiples within a Range &middot; Diagram: no &middot; Wrong so far: 2/7 &middot; New problem &middot; Built like: Lower 5 MA #29",
+  "diagram": null,
+  "needs_diagram": false
  },
  {
   "n": 37,

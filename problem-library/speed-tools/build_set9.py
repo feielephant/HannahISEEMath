@@ -202,8 +202,8 @@ add(10, 'Area and Perimeter of Complex Polygons', 'The L-shaped figure is made u
 vals=[42,45,45,48,50,53,53,53,57,61,64,69,70,72,76]
 assert vals.count(53)==3 and min(vals)==42 and sum(v>=70 for v in vals)==3 and vals.count(64)==1
 add(11, 'Identifying Correct Conclusions from Bar Graph Data Table', 'The stem-and-leaf plot shows the points a basketball team scored in 15 games, where 5|3 represents 53. Based on the data in the stem-and-leaf plot, which conclusion is true?',
-    ['The team scored 53 points in exactly 2 games.','The team scored at least 45 points in every game.','The team scored 70 points or more in exactly 3 games.','The team scored 64 points in 2 games.'], 'C',
-    '70, 72, and 76 are the 3 scores of 70 or more. A: 53 appears 3 times. B: the lowest score is 42. D: 64 appears once.',
+    ['The team scored 70 points or more in exactly 3 games.','The team scored 53 points in exactly 2 games.','The team scored at least 45 points in every game.','The team scored 64 points in 2 games.'], 'A',
+    '70, 72, and 76 are the 3 scores of 70 or more. B: 53 appears 3 times. C: the lowest score is 42. D: 64 appears once.',
     'Lower #2 #37', stem([(4,[2,5,5,8]),(5,[0,3,3,3,7]),(6,[1,4,9]),(7,[0,2,6])],'POINTS SCORED'), 'verbose-choices')
 # 12 real
 assert (F(19,6)-F(5,4))*60 == 115
@@ -346,11 +346,13 @@ assert (3*4)**3//3**3==64
 add(35, 'Comparing Volume of Cubes', 'Two cubes are shown. Cube A has sides with length 3 centimeters. Cube B is 4 times as wide as Cube A. How many Cube A\'s can fit inside Cube B?',
     ['12','16','27','64'], 'D', '4 cubes fit along each edge of B, so 4 &times; 4 &times; 4 = 64. A multiplies 3 by 4 and C is the volume of Cube A.',
     'Lower #4 #36', svg(230,172, cube(6,146,34,'A') + cube(70,146,104,'B')))
-# 36 scales 2
-Cc=1; Ss=2*Cc; Tt=F(3,2)*Ss; assert 2*Tt==3*Ss and 2*Ss==4*Cc and 4*Tt==12
-add(36, 'Algebra with Geometric Shapes', 'The scales shown are balanced. How many C figures would balance 4 T figures?',
-    ['12','16','18','24'], 'A', 'T T balances S S S, so T T T T balances S S S S S S. Each S S balances C C C C, so 6 S is three of those groups: 3 &times; 4 = 12 C.',
-    'Lower #5 #34 and Lower #2 #17', scales(('TT','SSS'),('SS','CCCC')))
+# 36 parent 2026-11-02: replaces the second scales problem (#2 keeps scales). Same type as Lower 5 MA #29, retake #8 still a gap.
+# Divisible by 3, the kind she missed twice; endpoints are not multiples of 3 so "between" is not ambiguous.
+m = [n for n in range(47, 89) if n % 3 == 0]
+assert 46 % 3 and 89 % 3 and len(m) == 14 and (m[-1]-m[0])//3 == 13
+add(36, 'Counting Multiples within a Range', 'How many numbers between 46 and 89 are divisible by 3?',
+    ['12','13','14','15'], 'C', 'The first multiple of 3 after 46 is 48, and the last before 89 is 87. Count the jumps of 3: (87 &minus; 48) &divide; 3 = 13 jumps. The count of numbers is one more than the jumps: 13 + 1 = 14. B forgets the +1, which matches her answer on Lower 5 MA #29.',
+    'Lower 5 MA #29', None, 'off-by-one')
 # 37
 assert 2*10-2==18
 add(37, 'Determining Averages between Points on Number Lines' if 'Determining Averages between Points on Number Lines' in T else 'Numerical Patterns', 'Use the number line shown to answer the question. P is the average of Q and another number. What is the other number?',

@@ -848,7 +848,7 @@
     "Shape Construction & Symmetry in 2-D Figures",
     "Adding and Subtracting Fractions",
     "Comparing Volume of Cubes",
-    "Algebra with Geometric Shapes",
+    "Counting Multiples within a Range",
     "Determining Averages between Points on Number Lines",
     "Remaining Amount after Reducing by Fractions"
    ],
@@ -902,7 +902,7 @@
     "33": "Lower #5 #29, parent: she did not find the line",
     "34": "Lower #2 #36",
     "35": "Lower #4 #36",
-    "36": "Lower #5 #34 and Lower #2 #17",
+    "36": "Lower 5 MA #29",
     "37": "What to Expect #35",
     "38": "Lower #5 #33 step chain"
    },
@@ -915,8 +915,7 @@
      29
     ],
     "#3": [
-     2,
-     36
+     2
     ],
     "#5 and #6": [
      3,
@@ -924,6 +923,9 @@
     ],
     "#7": [
      14
+    ],
+    "#8": [
+     36
     ]
    },
    "published_commit": "373ae10284446dfbae2e4da68a07adee2df7db75",
@@ -933,7 +935,8 @@
    "change_after_publish_4_2026-11-01": "#7 and #15 had never been wrong, so at parent's request they became y-intercept problems: #7 repeats MA3 #22 (gid 1450) word for word; #15 is new, built from gid 1450 and 1451 on a new graph.",
    "change_after_publish_5_2026-11-01": "Parent kept one y-intercept problem (#7). #15 replaced with Who Am I #2 problem 4 (gid 1500), choices reversed. The pool graph problem is in commit f7acd10 for later use.",
    "change_after_publish_6_2026-11-02": "Parent approved: #13 symmetry grid (made-up format, duplicate of #33's skill) replaced by a decimal problem built on Lower 1 #29 (5/8 to 0.625, then place 0.975 between 3/4 and 1). #22 choices reordered so its answer is D, for letter balance.",
-   "change_after_publish_7_2026-11-02": "Parent: #18 (Lower 4 #24 repeat, easier than #5) replaced by a number-only pattern 3, 4, 7, 12, 19 to target writing differences. #22 choices reordered so its answer is A, for letter balance."
+   "change_after_publish_7_2026-11-02": "Parent: #18 (Lower 4 #24 repeat, easier than #5) replaced by a number-only pattern 3, 4, 7, 12, 19 to target writing differences. #22 choices reordered so its answer is A, for letter balance.",
+   "change_after_publish_8_2026-11-02": "Parent: #36 (second scales problem, same as #2) replaced by counting multiples of 3 between 46 and 89 (answer 14), since she takes Set 9 before any mental practice. #11 choices reordered so its answer is A, for letter balance."
   }
  ],
  "rotation_notes": {
