@@ -341,11 +341,13 @@ add(34, 'Adding and Subtracting Fractions' if 'Adding and Subtracting Fractions'
     [f'If n = 1, then the amount of water is less than {frac(1,3)} of a jug.',f'If n = 2, then the amount of water is less than {frac(1,2)} of a jug.','If n = 4, then the water will not all fit in 1 jug.','If n = 5, then the water will not all fit in 1 jug.'], 'D',
     'In twelfths, the total is (2n + 3)/12. n = 1 gives 5/12, more than 4/12. n = 2 gives 7/12, more than 6/12. n = 4 gives 11/12, which fits. n = 5 gives 13/12, which does not fit.',
     'Lower #2 #36', None, 'verbose-choices')
-# 35 cube
-assert (3*4)**3//3**3==64
-add(35, 'Comparing Volume of Cubes', 'Two cubes are shown. Cube A has sides with length 3 centimeters. Cube B is 4 times as wide as Cube A. How many Cube A\'s can fit inside Cube B?',
-    ['12','16','27','64'], 'D', '4 cubes fit along each edge of B, so 4 &times; 4 &times; 4 = 64. A multiplies 3 by 4 and C is the volume of Cube A.',
-    'Lower #4 #36', svg(230,172, cube(6,146,34,'A') + cube(70,146,104,'B')))
+# 35 parent 2026-11-03: replaces the cube count (#29 keeps volume of cubes). Square perimeter -> area -> rectangle -> perimeter,
+# the chain she missed on Lower 1 MA #30 and its copy MA3 #20 (perimeter 24, width 3). New numbers.
+side = 36 // 4; area = side * side; length = area // 3; per = 2 * (length + 3)
+assert (side, area, length, per) == (9, 81, 27, 60) and area % 3 == 0
+add(35, 'Finding Area/Perimeter of Rectangle, given Length & Width', 'The perimeter of a square is 36 centimeters. If a rectangle with a width of 3 centimeters has the same area as the square, what is the perimeter of the rectangle?',
+    ['27 centimeters','30 centimeters','54 centimeters','60 centimeters'], 'D', 'Square: side 36 &divide; 4 = 9, area 9 &times; 9 = 81. Rectangle: 81 &divide; 3 = 27 long. Perimeter 2 &times; (27 + 3) = 60. A stops at the length, B adds only one length and one width, C doubles the length and leaves out the widths.',
+    'Lower 1 MA #30 (and its copy MA3 #20)', None, 'exact-thing-asked')
 # 36 parent 2026-11-02: replaces the second scales problem (#2 keeps scales). Same type as Lower 5 MA #29, retake #8 still a gap.
 # Parent: her method is (end - start) / 3, dropping the decimal. Numbers chosen so that method gives the wrong count,
 # the same way it did on Lower 5 MA #29 ((85 - 65) / 3 -> 6, answer 7). Endpoints are not multiples of 3.

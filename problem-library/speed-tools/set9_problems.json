@@ -614,20 +614,20 @@
  {
   "n": 35,
   "tier": "Hard",
-  "topic": "Comparing Volume of Cubes",
-  "q": "Two cubes are shown. Cube A has sides with length 3 centimeters. Cube B is 4 times as wide as Cube A. How many Cube A's can fit inside Cube B?",
+  "topic": "Finding Area/Perimeter of Rectangle, given Length & Width",
+  "q": "The perimeter of a square is 36 centimeters. If a rectangle with a width of 3 centimeters has the same area as the square, what is the perimeter of the rectangle?",
   "choices": {
-   "A": "12",
-   "B": "16",
-   "C": "27",
-   "D": "64"
+   "A": "27 centimeters",
+   "B": "30 centimeters",
+   "C": "54 centimeters",
+   "D": "60 centimeters"
   },
   "correct": "D",
-  "key": "<b>Answer: D.</b> 4 cubes fit along each edge of B, so 4 &times; 4 &times; 4 = 64. A multiplies 3 by 4 and C is the volume of Cube A.",
-  "habit_note": null,
-  "ref": "Tier: Hard &middot; Topic: Comparing Volume of Cubes &middot; Diagram: yes &middot; Wrong so far: 1/2 &middot; New problem &middot; Built like: Lower #4 #36",
-  "diagram": "<svg viewBox=\"0 0 230 172\" width=\"230\" height=\"172\" role=\"img\"><rect x=\"6\" y=\"112\" width=\"34\" height=\"34\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\"/><polygon points=\"6,112 17.9,100.1 51.9,100.1 40,112\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\"/><polygon points=\"40,112 51.9,100.1 51.9,134.1 40,146\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\"/><text x=\"23.0\" y=\"162\" font-size=\"13\" text-anchor=\"middle\" fill=\"currentColor\">A</text><rect x=\"70\" y=\"42\" width=\"104\" height=\"104\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\"/><polygon points=\"70,42 106.4,5.600000000000001 210.4,5.600000000000001 174,42\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\"/><polygon points=\"174,42 210.4,5.600000000000001 210.4,109.6 174,146\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\"/><text x=\"122.0\" y=\"162\" font-size=\"13\" text-anchor=\"middle\" fill=\"currentColor\">B</text></svg>",
-  "needs_diagram": true
+  "key": "<b>Answer: D.</b> Square: side 36 &divide; 4 = 9, area 9 &times; 9 = 81. Rectangle: 81 &divide; 3 = 27 long. Perimeter 2 &times; (27 + 3) = 60. A stops at the length, B adds only one length and one width, C doubles the length and leaves out the widths.",
+  "habit_note": "exact-thing-asked",
+  "ref": "Tier: Hard &middot; Topic: Finding Area/Perimeter of Rectangle, given Length & Width &middot; Diagram: no &middot; Wrong so far: 2/12 &middot; New problem &middot; Built like: Lower 1 MA #30 (and its copy MA3 #20)",
+  "diagram": null,
+  "needs_diagram": false
  },
  {
   "n": 36,

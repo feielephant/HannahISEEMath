@@ -847,7 +847,7 @@
     "Word Problems with Ratios",
     "Shape Construction & Symmetry in 2-D Figures",
     "Adding and Subtracting Fractions",
-    "Comparing Volume of Cubes",
+    "Finding Area/Perimeter of Rectangle, given Length & Width",
     "Counting Multiples within a Range",
     "No Remainder when Divided by a given Number",
     "Remaining Amount after Reducing by Fractions"
@@ -901,7 +901,7 @@
     "32": "Lower #2 #36",
     "33": "Lower #5 #29, parent: she did not find the line",
     "34": "Lower #2 #36",
-    "35": "Lower #4 #36",
+    "35": "Lower 1 MA #30 (and its copy MA3 #20)",
     "36": "Lower 5 MA #29",
     "37": "Lower 1 MA #29",
     "38": "Lower #5 #33 step chain"
@@ -938,7 +938,8 @@
    "change_after_publish_7_2026-11-02": "Parent: #18 (Lower 4 #24 repeat, easier than #5) replaced by a number-only pattern 3, 4, 7, 12, 19 to target writing differences. #22 choices reordered so its answer is A, for letter balance.",
    "change_after_publish_8_2026-11-02": "Parent: #36 (second scales problem, same as #2) replaced by counting multiples of 3 between 46 and 89 (answer 14), since she takes Set 9 before any mental practice. #11 choices reordered so its answer is A, for letter balance.",
    "change_after_publish_9_2026-11-02": "#36 numbers changed to 47 and 88 (answer 14) so her shortcut, (end - start) / 3 with the decimal dropped, gives 13 and fails. With 46 and 89 the shortcut gave the right answer.",
-   "change_after_publish_10_2026-11-02": "Parent: #37 (number line average, right on her last 3) replaced by a divisibility word problem built on Lower 1 MA #29: Nora and 11 others = 12, answer 1,476. Traps: 1,348 (by 4 only), 1,410 (by 6 not 12), 1,419 (by 11)."
+   "change_after_publish_10_2026-11-02": "Parent: #37 (number line average, right on her last 3) replaced by a divisibility word problem built on Lower 1 MA #29: Nora and 11 others = 12, answer 1,476. Traps: 1,348 (by 4 only), 1,410 (by 6 not 12), 1,419 (by 11).",
+   "change_after_publish_11_2026-11-03": "Parent: #35 (cube count, #29 keeps cubes) replaced by square perimeter 36 -> area 81 -> rectangle width 3 -> perimeter 60, built on Lower 1 MA #30 and MA3 #20 (both wrong). Traps: 27 length, 30 one length + one width, 54 lengths only."
   }
  ],
  "rotation_notes": {
