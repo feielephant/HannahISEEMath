@@ -936,7 +936,8 @@
    "change_after_publish_5_2026-11-01": "Parent kept one y-intercept problem (#7). #15 replaced with Who Am I #2 problem 4 (gid 1500), choices reversed. The pool graph problem is in commit f7acd10 for later use.",
    "change_after_publish_6_2026-11-02": "Parent approved: #13 symmetry grid (made-up format, duplicate of #33's skill) replaced by a decimal problem built on Lower 1 #29 (5/8 to 0.625, then place 0.975 between 3/4 and 1). #22 choices reordered so its answer is D, for letter balance.",
    "change_after_publish_7_2026-11-02": "Parent: #18 (Lower 4 #24 repeat, easier than #5) replaced by a number-only pattern 3, 4, 7, 12, 19 to target writing differences. #22 choices reordered so its answer is A, for letter balance.",
-   "change_after_publish_8_2026-11-02": "Parent: #36 (second scales problem, same as #2) replaced by counting multiples of 3 between 46 and 89 (answer 14), since she takes Set 9 before any mental practice. #11 choices reordered so its answer is A, for letter balance."
+   "change_after_publish_8_2026-11-02": "Parent: #36 (second scales problem, same as #2) replaced by counting multiples of 3 between 46 and 89 (answer 14), since she takes Set 9 before any mental practice. #11 choices reordered so its answer is A, for letter balance.",
+   "change_after_publish_9_2026-11-02": "#36 numbers changed to 47 and 88 (answer 14) so her shortcut, (end - start) / 3 with the decimal dropped, gives 13 and fails. With 46 and 89 the shortcut gave the right answer."
   }
  ],
  "rotation_notes": {

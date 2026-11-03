@@ -347,11 +347,14 @@ add(35, 'Comparing Volume of Cubes', 'Two cubes are shown. Cube A has sides with
     ['12','16','27','64'], 'D', '4 cubes fit along each edge of B, so 4 &times; 4 &times; 4 = 64. A multiplies 3 by 4 and C is the volume of Cube A.',
     'Lower #4 #36', svg(230,172, cube(6,146,34,'A') + cube(70,146,104,'B')))
 # 36 parent 2026-11-02: replaces the second scales problem (#2 keeps scales). Same type as Lower 5 MA #29, retake #8 still a gap.
-# Divisible by 3, the kind she missed twice; endpoints are not multiples of 3 so "between" is not ambiguous.
-m = [n for n in range(47, 89) if n % 3 == 0]
-assert 46 % 3 and 89 % 3 and len(m) == 14 and (m[-1]-m[0])//3 == 13
-add(36, 'Counting Multiples within a Range', 'How many numbers between 46 and 89 are divisible by 3?',
-    ['12','13','14','15'], 'C', 'The first multiple of 3 after 46 is 48, and the last before 89 is 87. Count the jumps of 3: (87 &minus; 48) &divide; 3 = 13 jumps. The count of numbers is one more than the jumps: 13 + 1 = 14. B forgets the +1, which matches her answer on Lower 5 MA #29.',
+# Parent: her method is (end - start) / 3, dropping the decimal. Numbers chosen so that method gives the wrong count,
+# the same way it did on Lower 5 MA #29 ((85 - 65) / 3 -> 6, answer 7). Endpoints are not multiples of 3.
+A36, B36 = 47, 88
+m = [n for n in range(A36+1, B36) if n % 3 == 0]
+her = (B36 - A36) // 3
+assert A36 % 3 and B36 % 3 and len(m) == 14 and her == 13 and (85-65)//3 == 6
+add(36, 'Counting Multiples within a Range', f'How many numbers between {A36} and {B36} are divisible by 3?',
+    ['12','13','14','15'], 'C', 'The first multiple of 3 after 47 is 48, and the last before 88 is 87. Count the jumps of 3: (87 &minus; 48) &divide; 3 = 13 jumps. The count of numbers is one more than the jumps: 13 + 1 = 14. B is (88 &minus; 47) &divide; 3 with the decimal dropped, the shortcut she used on Lower 5 MA #29; it misses one number here.',
     'Lower 5 MA #29', None, 'off-by-one')
 # 37
 assert 2*10-2==18

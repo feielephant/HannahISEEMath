@@ -633,7 +633,7 @@
   "n": 36,
   "tier": "Hard",
   "topic": "Counting Multiples within a Range",
-  "q": "How many numbers between 46 and 89 are divisible by 3?",
+  "q": "How many numbers between 47 and 88 are divisible by 3?",
   "choices": {
    "A": "12",
    "B": "13",
@@ -641,7 +641,7 @@
    "D": "15"
   },
   "correct": "C",
-  "key": "<b>Answer: C.</b> The first multiple of 3 after 46 is 48, and the last before 89 is 87. Count the jumps of 3: (87 &minus; 48) &divide; 3 = 13 jumps. The count of numbers is one more than the jumps: 13 + 1 = 14. B forgets the +1, which matches her answer on Lower 5 MA #29.",
+  "key": "<b>Answer: C.</b> The first multiple of 3 after 47 is 48, and the last before 88 is 87. Count the jumps of 3: (87 &minus; 48) &divide; 3 = 13 jumps. The count of numbers is one more than the jumps: 13 + 1 = 14. B is (88 &minus; 47) &divide; 3 with the decimal dropped, the shortcut she used on Lower 5 MA #29; it misses one number here.",
   "habit_note": "off-by-one",
   "ref": "Tier: Hard &middot; Topic: Counting Multiples within a Range &middot; Diagram: no &middot; Wrong so far: 2/7 &middot; New problem &middot; Built like: Lower 5 MA #29",
   "diagram": null,
