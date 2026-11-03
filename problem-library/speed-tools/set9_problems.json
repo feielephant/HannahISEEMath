@@ -650,20 +650,20 @@
  {
   "n": 37,
   "tier": "Hard",
-  "topic": "Determining Averages between Points on Number Lines",
-  "q": "Use the number line shown to answer the question. P is the average of Q and another number. What is the other number?",
+  "topic": "No Remainder when Divided by a given Number",
+  "q": "Nora and 11 other students have each earned an equal number of reading points. Which number could represent the total number of reading points the students have received?",
   "choices": {
-   "A": "6",
-   "B": "12",
-   "C": "14",
-   "D": "18"
+   "A": "1,348",
+   "B": "1,410",
+   "C": "1,419",
+   "D": "1,476"
   },
   "correct": "D",
-  "key": "<b>Answer: D.</b> Each tick is 1, so Q = 2 and P = 10. P is 8 above Q, so the other number is 8 above P: 18. A is the average of Q and P.",
-  "habit_note": null,
-  "ref": "Tier: Hard &middot; Topic: Determining Averages between Points on Number Lines &middot; Diagram: yes &middot; Wrong so far: 3/17 &middot; New problem &middot; Built like: What to Expect #35",
-  "diagram": "<svg viewBox=\"0 0 302 58\" width=\"302\" height=\"58\" role=\"img\"><line x1=\"8\" y1=\"30\" x2=\"286.0\" y2=\"30\" stroke=\"currentColor\" stroke-width=\"2\"/><polygon points=\"296,30 286.0,25 286.0,35\" fill=\"currentColor\"/><line x1=\"16\" y1=\"24\" x2=\"16\" y2=\"36\" stroke=\"currentColor\" stroke-width=\"1.5\"/><line x1=\"36\" y1=\"24\" x2=\"36\" y2=\"36\" stroke=\"currentColor\" stroke-width=\"1.5\"/><line x1=\"56\" y1=\"24\" x2=\"56\" y2=\"36\" stroke=\"currentColor\" stroke-width=\"1.5\"/><line x1=\"76\" y1=\"24\" x2=\"76\" y2=\"36\" stroke=\"currentColor\" stroke-width=\"1.5\"/><line x1=\"96\" y1=\"24\" x2=\"96\" y2=\"36\" stroke=\"currentColor\" stroke-width=\"1.5\"/><line x1=\"116\" y1=\"24\" x2=\"116\" y2=\"36\" stroke=\"currentColor\" stroke-width=\"1.5\"/><line x1=\"136\" y1=\"24\" x2=\"136\" y2=\"36\" stroke=\"currentColor\" stroke-width=\"1.5\"/><line x1=\"156\" y1=\"24\" x2=\"156\" y2=\"36\" stroke=\"currentColor\" stroke-width=\"1.5\"/><line x1=\"176\" y1=\"24\" x2=\"176\" y2=\"36\" stroke=\"currentColor\" stroke-width=\"1.5\"/><line x1=\"196\" y1=\"24\" x2=\"196\" y2=\"36\" stroke=\"currentColor\" stroke-width=\"1.5\"/><line x1=\"216\" y1=\"24\" x2=\"216\" y2=\"36\" stroke=\"currentColor\" stroke-width=\"1.5\"/><line x1=\"236\" y1=\"24\" x2=\"236\" y2=\"36\" stroke=\"currentColor\" stroke-width=\"1.5\"/><line x1=\"256\" y1=\"24\" x2=\"256\" y2=\"36\" stroke=\"currentColor\" stroke-width=\"1.5\"/><text x=\"16\" y=\"52\" font-size=\"13\" text-anchor=\"middle\" fill=\"currentColor\">0</text><text x=\"256\" y=\"52\" font-size=\"13\" text-anchor=\"middle\" fill=\"currentColor\">12</text><circle cx=\"56\" cy=\"30\" r=\"4\" fill=\"currentColor\"/><text x=\"56\" y=\"17\" font-size=\"14\" text-anchor=\"middle\" fill=\"currentColor\">Q</text><circle cx=\"216\" cy=\"30\" r=\"4\" fill=\"currentColor\"/><text x=\"216\" y=\"17\" font-size=\"14\" text-anchor=\"middle\" fill=\"currentColor\">P</text></svg>",
-  "needs_diagram": true
+  "key": "<b>Answer: D.</b> Nora and 11 others is 12 students, so the total must divide evenly by 12. A number divides by 12 when it divides by both 3 and 4. 1,476: digit sum 18 divides by 3, and the last two digits, 76, divide by 4. 1,476 &divide; 12 = 123. A divides by 4 but not 3. B divides by 6 but not by 4. C divides by 11, which comes from counting 11 students.",
+  "habit_note": "exact-thing-asked",
+  "ref": "Tier: Hard &middot; Topic: No Remainder when Divided by a given Number &middot; Diagram: no &middot; Wrong so far: 5/14 &middot; New problem &middot; Built like: Lower 1 MA #29",
+  "diagram": null,
+  "needs_diagram": false
  },
  {
   "n": 38,

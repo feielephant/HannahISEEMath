@@ -356,11 +356,17 @@ assert A36 % 3 and B36 % 3 and len(m) == 14 and her == 13 and (85-65)//3 == 6
 add(36, 'Counting Multiples within a Range', f'How many numbers between {A36} and {B36} are divisible by 3?',
     ['12','13','14','15'], 'C', 'The first multiple of 3 after 47 is 48, and the last before 88 is 87. Count the jumps of 3: (87 &minus; 48) &divide; 3 = 13 jumps. The count of numbers is one more than the jumps: 13 + 1 = 14. B is (88 &minus; 47) &divide; 3 with the decimal dropped, the shortcut she used on Lower 5 MA #29; it misses one number here.',
     'Lower 5 MA #29', None, 'off-by-one')
-# 37
-assert 2*10-2==18
-add(37, 'Determining Averages between Points on Number Lines' if 'Determining Averages between Points on Number Lines' in T else 'Numerical Patterns', 'Use the number line shown to answer the question. P is the average of Q and another number. What is the other number?',
-    ['6','12','14','18'], 'D', 'Each tick is 1, so Q = 2 and P = 10. P is 8 above Q, so the other number is 8 above P: 18. A is the average of Q and P.',
-    'What to Expect #35', numline())
+# 37 parent 2026-11-02: replaces the number line average (right on her last 3). Built on Lower 1 MA #29 (Lillian and 7 others = 8).
+# 12 has no single rule: she must check divisible by 3 AND by 4.
+ch = [1348, 1410, 1419, 1476]
+d = lambda n,k: n % k == 0
+assert [d(n,12) for n in ch] == [False, False, False, True] and 1476 // 12 == 123
+assert d(1348,4) and not d(1348,3)          # passes 4 only
+assert d(1410,6) and not d(1410,4)          # passes 6 (and 3) but not 12
+assert d(1419,11) and not d(1419,12)        # catches counting 11 students
+add(37, 'No Remainder when Divided by a given Number', 'Nora and 11 other students have each earned an equal number of reading points. Which number could represent the total number of reading points the students have received?',
+    ['1,348','1,410','1,419','1,476'], 'D', 'Nora and 11 others is 12 students, so the total must divide evenly by 12. A number divides by 12 when it divides by both 3 and 4. 1,476: digit sum 18 divides by 3, and the last two digits, 76, divide by 4. 1,476 &divide; 12 = 123. A divides by 4 but not 3. B divides by 6 but not by 4. C divides by 11, which comes from counting 11 students.',
+    'Lower 1 MA #29', None, 'exact-thing-asked')
 # 38
 assert 72*F(3,4)*F(2,3)+5==41
 add(38, 'Remaining Amount after Reducing by Fractions', f'A bakery made 72 muffins. It sold {frac(1,4)} of them in the morning. Then it sold {frac(1,3)} of the muffins it had left in the afternoon. Then it baked 5 more muffins. How many muffins does the bakery have now?',
