@@ -210,10 +210,14 @@ assert (F(19,6)-F(5,4))*60 == 115
 add(12, 'Multi-step unit conversion (off-by-10, multi-step)', f'Mary spent 3 {frac(1,6)} hours at the health club. Of that time, 1 {frac(1,4)} hours were spent not exercising. How many minutes did Mary exercise? (1 hour = 60 minutes)',
     ['110','115','125','130'], 'B', '3 1/6 hours = 180 + 10 = 190 minutes. 1 1/4 hours = 60 + 15 = 75 minutes. 190 &minus; 75 = 115.',
     'Lower #1 #29', None, verbatim='gid 1005')
-# 13 symmetry grid
-add(13, 'Shape Construction & Symmetry in 2-D Figures', 'One more square in the grid will be shaded so that the design has exactly one line of symmetry. Which lettered square should be shaded?',
-    ['Square A','Square B','Square C','Square D'], 'D', 'Find the line first. The line goes corner to corner, from the top left to the bottom right, not straight up or across. Every shaded square has a partner across that line except the shaded square in the bottom row, third column. Its partner is square D.',
-    'Lower #5 #29, parent: she did not find the line', symgrid())
+# 13 parent approved 2026-11-02: replaces a made-up symmetry grid (#33 keeps symmetry). Built on Lower 1 #29.
+left = F(25,10) - F(5,8) - F(9,10)
+assert left == F(39,40) and F(3,4) < left < 1
+assert F(25,10) - F(58,100) - F(9,10) > 1 and F(25,10) - F(6,10) - F(9,10) == 1  # rounding 5/8 pushes her to D or to the 1-liter boundary
+add(13, 'Converting to a Decimal', f'A carton holds 2.5 liters of milk. Jake pours {frac(5,8)} liter into one glass and 0.9 liter into another glass. How much milk is left in the carton?',
+    [f'less than {frac(1,2)} liter', f'more than {frac(1,2)} liter and less than {frac(3,4)} liter', f'more than {frac(3,4)} liter and less than 1 liter', f'more than 1 liter and less than 1 {frac(1,2)} liters'], 'C',
+    '5/8 = 5 &divide; 8 = 0.625. Then 2.5 &minus; 0.625 = 1.875, and 1.875 &minus; 0.9 = 0.975. 0.975 is more than 0.75 and less than 1. D comes from rounding 5/8 to 0.58 or 0.6.',
+    'Lower #1 #29', None, 'proper-fraction-long-division')
 # 14 rhombus
 d=lambda a,b:(a[0]-b[0])**2+(a[1]-b[1])**2
 W,X,Y=(1,4),(4,6),(7,4)
@@ -269,7 +273,7 @@ add(21, 'Multi-step unit conversion (off-by-10, multi-step)', 'A chactrac is equ
 # 22
 assert F(3,10)<F(3,8)<F(2,5)<F(45,100)
 add(22, 'Comparing & Ordering Fractions & Decimals', f'Four friends each walked part of the same trail. Ana walked {frac(2,5)} of it, Ben walked 0.3 of it, Cy walked {frac(3,8)} of it, and Dee walked 45% of it. Which list shows the friends in order from the shortest walk to the longest?',
-    ['Ana, Ben, Cy, Dee','Ben, Ana, Cy, Dee','Ben, Cy, Ana, Dee','Cy, Ben, Ana, Dee'], 'C', 'Write each one as a decimal, then place them on a number line: Ben 0.3, Cy 0.375, Ana 0.4, Dee 0.45.',
+    ['Ana, Ben, Cy, Dee','Ben, Ana, Cy, Dee','Cy, Ben, Ana, Dee','Ben, Cy, Ana, Dee'], 'D', 'Write each one as a decimal, then place them on a number line: Ben 0.3, Cy 0.375, Ana 0.4, Dee 0.45.',
     'Lower #4 #27 fractions plus her order-three gap', None, 'write-it-down')
 # 23
 add(23, 'Translating Math Expressions', 'Maya plans to buy enough pizzas so that each guest at her party gets 3 slices. Each pizza has 8 slices. How can Maya find out how many pizzas to buy?',

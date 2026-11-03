@@ -218,20 +218,20 @@
  {
   "n": 13,
   "tier": "Hard",
-  "topic": "Shape Construction & Symmetry in 2-D Figures",
-  "q": "One more square in the grid will be shaded so that the design has exactly one line of symmetry. Which lettered square should be shaded?",
+  "topic": "Converting to a Decimal",
+  "q": "A carton holds 2.5 liters of milk. Jake pours <span class=\"frac\"><span class=\"n\">5</span><span class=\"d\">8</span></span> liter into one glass and 0.9 liter into another glass. How much milk is left in the carton?",
   "choices": {
-   "A": "Square A",
-   "B": "Square B",
-   "C": "Square C",
-   "D": "Square D"
+   "A": "less than <span class=\"frac\"><span class=\"n\">1</span><span class=\"d\">2</span></span> liter",
+   "B": "more than <span class=\"frac\"><span class=\"n\">1</span><span class=\"d\">2</span></span> liter and less than <span class=\"frac\"><span class=\"n\">3</span><span class=\"d\">4</span></span> liter",
+   "C": "more than <span class=\"frac\"><span class=\"n\">3</span><span class=\"d\">4</span></span> liter and less than 1 liter",
+   "D": "more than 1 liter and less than 1 <span class=\"frac\"><span class=\"n\">1</span><span class=\"d\">2</span></span> liters"
   },
-  "correct": "D",
-  "key": "<b>Answer: D.</b> Find the line first. The line goes corner to corner, from the top left to the bottom right, not straight up or across. Every shaded square has a partner across that line except the shaded square in the bottom row, third column. Its partner is square D.",
-  "habit_note": null,
-  "ref": "Tier: Hard &middot; Topic: Shape Construction & Symmetry in 2-D Figures &middot; Diagram: yes &middot; Wrong so far: 1/1 &middot; New problem &middot; Built like: Lower #5 #29, parent: she did not find the line",
-  "diagram": "<svg viewBox=\"0 0 184 184\" width=\"184\" height=\"184\" role=\"img\"><rect x=\"2\" y=\"2\" width=\"36\" height=\"36\" fill=\"currentColor\" stroke=\"currentColor\" stroke-width=\"1.6\"/><rect x=\"38\" y=\"2\" width=\"36\" height=\"36\" fill=\"currentColor\" stroke=\"currentColor\" stroke-width=\"1.6\"/><rect x=\"74\" y=\"2\" width=\"36\" height=\"36\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\"/><rect x=\"110\" y=\"2\" width=\"36\" height=\"36\" fill=\"currentColor\" stroke=\"currentColor\" stroke-width=\"1.6\"/><rect x=\"146\" y=\"2\" width=\"36\" height=\"36\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\"/><rect x=\"2\" y=\"38\" width=\"36\" height=\"36\" fill=\"currentColor\" stroke=\"currentColor\" stroke-width=\"1.6\"/><rect x=\"38\" y=\"38\" width=\"36\" height=\"36\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\"/><rect x=\"74\" y=\"38\" width=\"36\" height=\"36\" fill=\"currentColor\" stroke=\"currentColor\" stroke-width=\"1.6\"/><rect x=\"110\" y=\"38\" width=\"36\" height=\"36\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\"/><rect x=\"146\" y=\"38\" width=\"36\" height=\"36\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\"/><rect x=\"2\" y=\"74\" width=\"36\" height=\"36\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\"/><rect x=\"38\" y=\"74\" width=\"36\" height=\"36\" fill=\"currentColor\" stroke=\"currentColor\" stroke-width=\"1.6\"/><rect x=\"74\" y=\"74\" width=\"36\" height=\"36\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\"/><rect x=\"110\" y=\"74\" width=\"36\" height=\"36\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\"/><rect x=\"146\" y=\"74\" width=\"36\" height=\"36\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\"/><rect x=\"2\" y=\"110\" width=\"36\" height=\"36\" fill=\"currentColor\" stroke=\"currentColor\" stroke-width=\"1.6\"/><rect x=\"38\" y=\"110\" width=\"36\" height=\"36\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\"/><rect x=\"74\" y=\"110\" width=\"36\" height=\"36\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\"/><rect x=\"110\" y=\"110\" width=\"36\" height=\"36\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\"/><rect x=\"146\" y=\"110\" width=\"36\" height=\"36\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\"/><rect x=\"2\" y=\"146\" width=\"36\" height=\"36\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\"/><rect x=\"38\" y=\"146\" width=\"36\" height=\"36\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\"/><rect x=\"74\" y=\"146\" width=\"36\" height=\"36\" fill=\"currentColor\" stroke=\"currentColor\" stroke-width=\"1.6\"/><rect x=\"110\" y=\"146\" width=\"36\" height=\"36\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\"/><rect x=\"146\" y=\"146\" width=\"36\" height=\"36\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\"/><text x=\"164\" y=\"134\" font-size=\"15\" text-anchor=\"middle\" fill=\"currentColor\">A</text><text x=\"20\" y=\"170\" font-size=\"15\" text-anchor=\"middle\" fill=\"currentColor\">B</text><text x=\"164\" y=\"62\" font-size=\"15\" text-anchor=\"middle\" fill=\"currentColor\">C</text><text x=\"164\" y=\"98\" font-size=\"15\" text-anchor=\"middle\" fill=\"currentColor\">D</text></svg>",
-  "needs_diagram": true
+  "correct": "C",
+  "key": "<b>Answer: C.</b> 5/8 = 5 &divide; 8 = 0.625. Then 2.5 &minus; 0.625 = 1.875, and 1.875 &minus; 0.9 = 0.975. 0.975 is more than 0.75 and less than 1. D comes from rounding 5/8 to 0.58 or 0.6.",
+  "habit_note": "proper-fraction-long-division",
+  "ref": "Tier: Hard &middot; Topic: Converting to a Decimal &middot; Diagram: no &middot; Wrong so far: 7/35 &middot; New problem &middot; Built like: Lower #1 #29",
+  "diagram": null,
+  "needs_diagram": false
  },
  {
   "n": 14,
@@ -385,11 +385,11 @@
   "choices": {
    "A": "Ana, Ben, Cy, Dee",
    "B": "Ben, Ana, Cy, Dee",
-   "C": "Ben, Cy, Ana, Dee",
-   "D": "Cy, Ben, Ana, Dee"
+   "C": "Cy, Ben, Ana, Dee",
+   "D": "Ben, Cy, Ana, Dee"
   },
-  "correct": "C",
-  "key": "<b>Answer: C.</b> Write each one as a decimal, then place them on a number line: Ben 0.3, Cy 0.375, Ana 0.4, Dee 0.45.",
+  "correct": "D",
+  "key": "<b>Answer: D.</b> Write each one as a decimal, then place them on a number line: Ben 0.3, Cy 0.375, Ana 0.4, Dee 0.45.",
   "habit_note": "write-it-down",
   "ref": "Tier: Hard &middot; Topic: Comparing & Ordering Fractions & Decimals &middot; Diagram: no &middot; Wrong so far: 8/21 &middot; New problem &middot; Built like: Lower #4 #27 fractions plus her order-three gap",
   "diagram": null,
