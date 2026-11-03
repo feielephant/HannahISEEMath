@@ -171,7 +171,7 @@
    "avg_seconds": 46.0,
    "practice_test_5_2026-11-01": "MA#29 WRONG 134s",
    "priority_before_2026-11-01": "medium",
-   "retake_read_2026-11-01": "Retake #8 (MA#29). Still a gap on the retake, parent wants it in mental practice. Unused real items: gid 974, 976, 978, 979, 980 (977 duplicates 976)."
+   "retake_read_2026-11-01": "Retake #8 (MA#29). Still a gap on the retake, parent wants it in mental practice. Correction 2026-11-02: gid 974-980 repeat the drill gid 723-727, which she already did, and 974 and 980 were already used in sets. No unused real item is left for this topic; write fresh ones."
   },
   {
    "topic": "Equilateral Triangles",
