@@ -365,7 +365,8 @@
    "_sec_total": 110.0,
    "_sec_n": 3,
    "avg_seconds": 36.7,
-   "practice_test_5_2026-11-01": "QR#17 right 12s; QR#26 right 48s"
+   "practice_test_5_2026-11-01": "QR#17 right 12s; QR#26 right 48s",
+   "mechanism_2026-11-02": "Parent: on MA3 #27 she folded the net the other way, so the colored circles ended up inside the box instead of on the outside."
   },
   {
    "topic": "Comparing & Ordering Fractions & Decimals",
@@ -685,7 +686,8 @@
    "_sec_total": 149.0,
    "_sec_n": 6,
    "avg_seconds": 24.8,
-   "practice_test_5_2026-11-01": "QR#27 right 9s"
+   "practice_test_5_2026-11-01": "QR#27 right 9s",
+   "mechanism_2026-11-02": "Parent: on MA3 #14 (one prime, one odd, product) she answered 'odd' because she did not consider that the prime can be 2. Corner-case gap: 2 is the only even prime. Test it with problems where 2 decides the answer."
   },
   {
    "topic": "Identifying Number Properties",
