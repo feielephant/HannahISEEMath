@@ -830,7 +830,7 @@
     "Divisibility / number constraints (Serena/Who am I style)",
     "Percent Increase Decrease basic",
     "Total Shaded Area given Figure with Equal Divisions",
-    "Cryptarithm / digit substitution",
+    "Numerical Patterns",
     "Translating Math Expressions",
     "Finding MMMR given Bar Graph Data Table",
     "Multi-step unit conversion (off-by-10, multi-step)",
@@ -864,7 +864,6 @@
    ],
    "real_repeat_parent_approved": [
     157,
-    184,
     1450
    ],
    "models_by_problem": {
@@ -885,7 +884,7 @@
     "15": "Real drill problem with several conditions, same idea as Lower 2 #35",
     "16": "Lower #4 #38",
     "17": "Lower #5 #35 and Lower #4 #37",
-    "18": "Lower #4 #24",
+    "18": "QR8 #5, real drills gid 904 and 907, Lower 5 #32",
     "19": "Lower #4 #35",
     "20": "Lower #5 MA #17, parent asked for tables with many numbers",
     "21": "Lower #1 #29",
@@ -933,7 +932,8 @@
    "change_after_publish_3_2026-11-01": "#3 choices now 2, 4, 10, 19. 2 = August read for April, 19 = July read for June. Parent chose April, June, and September so her reported April/August mix-up can show.",
    "change_after_publish_4_2026-11-01": "#7 and #15 had never been wrong, so at parent's request they became y-intercept problems: #7 repeats MA3 #22 (gid 1450) word for word; #15 is new, built from gid 1450 and 1451 on a new graph.",
    "change_after_publish_5_2026-11-01": "Parent kept one y-intercept problem (#7). #15 replaced with Who Am I #2 problem 4 (gid 1500), choices reversed. The pool graph problem is in commit f7acd10 for later use.",
-   "change_after_publish_6_2026-11-02": "Parent approved: #13 symmetry grid (made-up format, duplicate of #33's skill) replaced by a decimal problem built on Lower 1 #29 (5/8 to 0.625, then place 0.975 between 3/4 and 1). #22 choices reordered so its answer is D, for letter balance."
+   "change_after_publish_6_2026-11-02": "Parent approved: #13 symmetry grid (made-up format, duplicate of #33's skill) replaced by a decimal problem built on Lower 1 #29 (5/8 to 0.625, then place 0.975 between 3/4 and 1). #22 choices reordered so its answer is D, for letter balance.",
+   "change_after_publish_7_2026-11-02": "Parent: #18 (Lower 4 #24 repeat, easier than #5) replaced by a number-only pattern 3, 4, 7, 12, 19 to target writing differences. #22 choices reordered so its answer is A, for letter balance."
   }
  ],
  "rotation_notes": {

@@ -246,12 +246,15 @@ assert len(cells)==14 and F(14,40)==F(35,100)
 add(17, 'Total Shaded Area given Figure with Equal Divisions', 'The shaded area on the grid represents the part of a rectangular floor that has tile already installed. Each small square on the floor has the same dimensions. What percentage of the floor has tile already installed?',
     ['14%','28%','35%','40%'], 'C', 'There are 8 &times; 5 = 40 squares and 14 are shaded. 14/40 = 7/20 = 35/100 = 35%. A reads the count as the percent.',
     'Lower #5 #35 and Lower #4 #37', floor_grid(8,5,cells))
-# 18 real, parent approved
-sols={(100*0+0) for _ in []}
-res={ (11*a+11*b)//100 for a in range(1,10) for b in range(1,10) if a!=b and 11*a+11*b>=100}; assert res=={1}
-add(18, 'Cryptarithm / digit substitution', 'Each letter represents a different digit from 1 through 9. What digit does C represent?',
-    ['1','3','7','9'], 'A', 'Two 2-digit numbers add to less than 200, since even 99 + 99 = 198. So a 3-digit sum must start with 1, and C = 1.',
-    'Lower #4 #24', colsum(['AA','+BB','CDE']), verbatim='gid 184, parent approved repeat')
+# 18 parent 2026-11-02: replaces the Lower 4 #24 repeat (#5 keeps digit puzzles and is harder).
+# Number-only pattern so she has to write the differences; no picture shortcut.
+seq = [3, 4, 7, 12, 19]
+while len(seq) < 8: seq.append(seq[-1] + (seq[-1]-seq[-2]) + 2)
+assert seq == [3,4,7,12,19,28,39,52] and [seq[i+1]-seq[i] for i in range(4)] == [1,3,5,7]
+assert 19 + 7*3 == 40  # constant +7 trap
+add(18, 'Numerical Patterns', 'A number pattern begins 3, 4, 7, 12, 19, .... If the pattern continues, what is the 8th number in the pattern?',
+    ['28','39','40','52'], 'D', 'Write the differences: 1, 3, 5, 7. Each difference is 2 more than the last, so the next three are 9, 11, 13. 19 + 9 = 28, 28 + 11 = 39, 39 + 13 = 52. C keeps adding 7, B stops at the 7th number, and A stops at the 6th.',
+    'QR8 #5, real drills gid 904 and 907, Lower 5 #32', None, 'write-it-down')
 # 19
 add(19, 'Translating Math Expressions', 'Mia had □ marbles and then she gave ○ of them to Theo. Now Theo has △ times as many marbles as Mia has left. Which expression represents the number of marbles Theo had to begin with?',
     ['△ &times; □ &minus; ○','△ &times; □ + ○','△ &times; (□ &minus; ○) + ○','△ &times; (□ &minus; ○) &minus; ○'], 'D', 'Mia has □ &minus; ○ left. Theo now has △ &times; (□ &minus; ○). He got ○ from Mia, so take that back off to find what he started with. Test it: □ = 10, ○ = 2, △ = 3 means Theo has 24 now and started with 22.',
@@ -273,7 +276,7 @@ add(21, 'Multi-step unit conversion (off-by-10, multi-step)', 'A chactrac is equ
 # 22
 assert F(3,10)<F(3,8)<F(2,5)<F(45,100)
 add(22, 'Comparing & Ordering Fractions & Decimals', f'Four friends each walked part of the same trail. Ana walked {frac(2,5)} of it, Ben walked 0.3 of it, Cy walked {frac(3,8)} of it, and Dee walked 45% of it. Which list shows the friends in order from the shortest walk to the longest?',
-    ['Ana, Ben, Cy, Dee','Ben, Ana, Cy, Dee','Cy, Ben, Ana, Dee','Ben, Cy, Ana, Dee'], 'D', 'Write each one as a decimal, then place them on a number line: Ben 0.3, Cy 0.375, Ana 0.4, Dee 0.45.',
+    ['Ben, Cy, Ana, Dee','Ana, Ben, Cy, Dee','Ben, Ana, Cy, Dee','Cy, Ben, Ana, Dee'], 'A', 'Write each one as a decimal, then place them on a number line: Ben 0.3, Cy 0.375, Ana 0.4, Dee 0.45.',
     'Lower #4 #27 fractions plus her order-three gap', None, 'write-it-down')
 # 23
 add(23, 'Translating Math Expressions', 'Maya plans to buy enough pizzas so that each guest at her party gets 3 slices. Each pizza has 8 slices. How can Maya find out how many pizzas to buy?',

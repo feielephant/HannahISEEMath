@@ -308,20 +308,20 @@
  {
   "n": 18,
   "tier": "Hard",
-  "topic": "Cryptarithm / digit substitution",
-  "q": "Each letter represents a different digit from 1 through 9. What digit does C represent?",
+  "topic": "Numerical Patterns",
+  "q": "A number pattern begins 3, 4, 7, 12, 19, .... If the pattern continues, what is the 8th number in the pattern?",
   "choices": {
-   "A": "1",
-   "B": "3",
-   "C": "7",
-   "D": "9"
+   "A": "28",
+   "B": "39",
+   "C": "40",
+   "D": "52"
   },
-  "correct": "A",
-  "key": "<b>Answer: A.</b> Two 2-digit numbers add to less than 200, since even 99 + 99 = 198. So a 3-digit sum must start with 1, and C = 1.",
-  "habit_note": null,
-  "ref": "Tier: Hard &middot; Topic: Cryptarithm / digit substitution &middot; Diagram: yes &middot; Wrong so far: 5/7 &middot; Real item used verbatim (gid 184, parent approved repeat) &middot; Built like: Lower #4 #24",
-  "diagram": "<div style=\"display:inline-block;font-family:ui-monospace,'SF Mono','Cascadia Mono','Courier New',monospace;letter-spacing:2px;font-size:1.25rem;text-align:right\"><div style=\"padding:2px 6px;line-height:1.5\">AA</div><div style=\"padding:2px 6px;line-height:1.5\">+BB</div><div style=\"padding:7px 6px 2px;margin-top:5px;line-height:1.5;border-top:2px solid currentColor\">CDE</div></div>",
-  "needs_diagram": true
+  "correct": "D",
+  "key": "<b>Answer: D.</b> Write the differences: 1, 3, 5, 7. Each difference is 2 more than the last, so the next three are 9, 11, 13. 19 + 9 = 28, 28 + 11 = 39, 39 + 13 = 52. C keeps adding 7, B stops at the 7th number, and A stops at the 6th.",
+  "habit_note": "write-it-down",
+  "ref": "Tier: Hard &middot; Topic: Numerical Patterns &middot; Diagram: no &middot; Wrong so far: 5/11 &middot; New problem &middot; Built like: QR8 #5, real drills gid 904 and 907, Lower 5 #32",
+  "diagram": null,
+  "needs_diagram": false
  },
  {
   "n": 19,
@@ -383,13 +383,13 @@
   "topic": "Comparing & Ordering Fractions & Decimals",
   "q": "Four friends each walked part of the same trail. Ana walked <span class=\"frac\"><span class=\"n\">2</span><span class=\"d\">5</span></span> of it, Ben walked 0.3 of it, Cy walked <span class=\"frac\"><span class=\"n\">3</span><span class=\"d\">8</span></span> of it, and Dee walked 45% of it. Which list shows the friends in order from the shortest walk to the longest?",
   "choices": {
-   "A": "Ana, Ben, Cy, Dee",
-   "B": "Ben, Ana, Cy, Dee",
-   "C": "Cy, Ben, Ana, Dee",
-   "D": "Ben, Cy, Ana, Dee"
+   "A": "Ben, Cy, Ana, Dee",
+   "B": "Ana, Ben, Cy, Dee",
+   "C": "Ben, Ana, Cy, Dee",
+   "D": "Cy, Ben, Ana, Dee"
   },
-  "correct": "D",
-  "key": "<b>Answer: D.</b> Write each one as a decimal, then place them on a number line: Ben 0.3, Cy 0.375, Ana 0.4, Dee 0.45.",
+  "correct": "A",
+  "key": "<b>Answer: A.</b> Write each one as a decimal, then place them on a number line: Ben 0.3, Cy 0.375, Ana 0.4, Dee 0.45.",
   "habit_note": "write-it-down",
   "ref": "Tier: Hard &middot; Topic: Comparing & Ordering Fractions & Decimals &middot; Diagram: no &middot; Wrong so far: 8/21 &middot; New problem &middot; Built like: Lower #4 #27 fractions plus her order-three gap",
   "diagram": null,
