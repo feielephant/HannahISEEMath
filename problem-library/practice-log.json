@@ -1041,11 +1041,10 @@
      32,
      35,
      36,
+     37,
      38
     ],
-    "blank": [
-     37
-    ],
+    "blank": [],
     "total_elapsed_minutes": 32.82,
     "first_then_changed": {
      "wrong_to_right": [],
@@ -1080,9 +1079,10 @@
      "32": "Stopped one step early / answered a different quantity than asked: 40 is the pasta, not the sauce",
      "35": "Stopped one step early / answered a different quantity than asked: 27 is the rectangle length, not the perimeter (paper, after timer)",
      "36": "Counting multiples: her (end - start) / 3 shortcut, 13 (paper, after timer)",
-     "38": "Stopped one step early / answered a different quantity than asked: 36 before the \"baked 5 more\" step (paper, after timer)"
+     "38": "Stopped one step early / answered a different quantity than asked: 36 before the \"baked 5 more\" step (paper, after timer)",
+     "37": "Did not know how to start; counted wrong, not blank (parent)"
     },
-    "graded_from": "Timed CSV for 1-32; paper answers worked after the timer for 33-38 (the time-out clicks on 33-38 are ignored, per parent). 37 = blank (\"??\", did not know how to start).",
+    "graded_from": "Timed CSV for 1-32; paper answers worked after the timer for 33-38 (the time-out clicks on 33-38 are ignored, per parent). 37 = wrong, not blank (parent) (\"??\", did not know how to start).",
     "vs_real_last_third": "61% wrong (23/38) vs about 31% on real-test last thirds. Not a like-for-like comparison: every problem was built from her weak spots.",
     "patterns": {
      "stop_one_step_early": [
