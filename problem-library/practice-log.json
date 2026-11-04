@@ -1121,6 +1121,22 @@
       24
      ]
     }
+   },
+   "scratch_paper_2026-11-03": {
+    "source": "Google Drive My Drive/Hannahisee/Scanned_20261103-2131.pdf (4 pages). Page 1 is mostly QR9; pages 2-4 are mostly other work (expressions, phone numbers, sums not in QR9).",
+    "clear_matches": {
+     "3": "39 + 13 = 52 for Noor (15 + 24 + 13, used July 24 not June 19); Owen 37 correct; 52 - 37 = 15, not a choice, then picked 19. The row slip was in Noor only.",
+     "9": "Wrote circle = 19 - 2 triangle (from eq 2) and substituted: 19 - 2T + 19 - 2T + 1T = 23, then 38 + T = 23 (should be 38 - 3T = 23, T = 5). Got -15 and gave up, picked 14. She has a real substitution method; the slip was combining -2T -2T +T.",
+     "12": "Wrote 3 4/24 and 1 6/24 (correct common denominators), then 2 22/24 = 2 11/12: the whole number should be 1 after borrowing. Mixed-number subtraction with borrowing.",
+     "28": "Page 2: 50 x 600 / 30 = 1000, correct (picked B)."
+    },
+    "likely_matches": {
+     "8": "\"80 - 12\" worked with borrowing, written result looks like 58 (should be 68). If this is #8, she found 15% of 80 = 12 correctly and the miss was a subtraction slip, not the percent-language trap. Ask her.",
+     "17": "Tally marks, 10/40, 1/4: counted 40 squares correctly; shaded count 10 (actual 14). Chose 28%.",
+     "31": "90 (the vote total, correct) appears in 90 + 54 = 144; no 3/10 x 40 step."
+    },
+    "unclear": "79 - 42 = 37 and 147 (maybe #26); 36 / 2 = 18 = 15 + 3 (maybe #35 treated as same perimeter); 36 + 13 = 49 (maybe #15, choice 49); 25 28 20 / 30 17; 85 - 65 = 20; 120; 60/48.",
+    "not_qr9": "5620 / 3, 795 / 15, 3,460 + 2,800 + 1,025, 17.20 - 3.95, 50 x 700 / 150, 260 x 410 / 130, algebra expressions on page 2, ratios 200:150 and 1400:1350, 616 - 584."
    }
   }
  ],
