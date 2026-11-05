@@ -1,0 +1,137 @@
+<!doctype html><html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>QR9 Redo</title><style>:root{--bg:#EEF2F0;--surface:#FFFFFF;--surface-alt:#E7EDEA;--ink:#1E2A28;--ink-muted:#57655F;--border:#D6DFDA;--accent:#1C7A69;--accent-ink:#0F5648;--accent-soft:#E1F2EC;}@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){--bg:#12181A;--surface:#1B2224;--surface-alt:#212A2C;--ink:#E8EFEC;--ink-muted:#9FB0AA;--border:#2C3739;--accent:#4FC4AC;--accent-ink:#8FE0CC;--accent-soft:rgba(79,196,172,0.14);color-scheme:dark;}}:root[data-theme="dark"]{--bg:#12181A;--surface:#1B2224;--surface-alt:#212A2C;--ink:#E8EFEC;--ink-muted:#9FB0AA;--border:#2C3739;--accent:#4FC4AC;--accent-ink:#8FE0CC;--accent-soft:rgba(79,196,172,0.14);color-scheme:dark;}body{margin:0;background:var(--bg);color:var(--ink);font-family:"Public Sans",system-ui,sans-serif;line-height:1.45;}.wrap{max-width:900px;margin:0 auto;padding:32px 18px 64px;}h1{font-family:Georgia,serif;font-size:1.9rem;margin:0 0 6px;}.lede{color:var(--ink-muted);margin:0 0 20px;}.timer{display:inline-block;border:1px solid var(--border);border-radius:8px;padding:8px 14px;background:var(--surface);font-weight:600;margin-bottom:22px;}.card{background:var(--surface);border:1px solid var(--border);border-radius:10px;padding:16px 18px;margin:0 0 14px;}.num{font-family:Georgia,serif;font-style:italic;color:var(--ink-muted);margin-bottom:4px;}.q{margin:0 0 10px;}.diag{margin:8px 0 12px;color:var(--ink);}.choices{display:grid;grid-template-columns:1fr 1fr;gap:6px 14px;}.choices > span{padding:6px 10px;border:1px solid var(--border);border-radius:6px;background:var(--surface-alt);}table.data{border-collapse:collapse;font-size:0.9rem;}table.data th,table.data td{border:1px solid var(--border);padding:4px 10px;text-align:left;}.key{border-left:3px solid var(--accent);padding:6px 10px;margin-top:8px;color:var(--ink-muted);font-size:0.92rem;}.ref{font-size:0.8rem;color:var(--ink-muted);margin-top:4px;}button.choice{font:inherit;text-align:left;cursor:pointer;color:var(--ink);padding:6px 10px;border:1px solid var(--border);border-radius:6px;background:var(--surface-alt);}button.choice:hover{border-color:var(--ink-muted);}button.choice.selected{background:var(--accent-soft);border-color:var(--accent);font-weight:600;}.ptime{font-size:0.85rem;color:var(--accent-ink);font-weight:600;}.card,.q,.diag,.choices{-webkit-user-select:none;user-select:none;}.sticky-top{position:sticky;top:0;z-index:5;background:var(--bg);padding:8px 0;border-bottom:1px solid var(--border);}.progress{font-weight:600;color:var(--accent-ink);}@media (max-width:520px){.choices{grid-template-columns:1fr;}}.logwrap{max-height:320px;overflow:auto;margin-bottom:12px}button.choice:disabled{opacity:0.5;cursor:not-allowed;}.frac{display:inline-flex;flex-direction:column;vertical-align:middle;text-align:center;line-height:1;font-size:0.82em;margin:0 1px;}.frac .n{border-bottom:2px solid currentColor;padding:0 3px 2px;}.frac .d{padding:2px 3px 0;}.pictograph{margin:8px 0;}.pictorow{display:flex;align-items:center;gap:8px;margin:3px 0;}.piclabel{min-width:60px;font-weight:600;}.picicons{letter-spacing:3px;font-size:1.25em;color:var(--accent-ink);}.picicons .half{display:inline-block;width:0.52em;overflow:hidden;vertical-align:top;}.pictokey{font-size:0.82em;color:var(--ink-muted);margin-top:6px;}.testbar{display:flex;align-items:flex-start;justify-content:space-between;gap:14px;flex-wrap:wrap;}.navgrid{display:flex;flex-wrap:wrap;gap:4px;flex:1;min-width:0;}.navbtn{width:30px;height:30px;border:1px solid var(--border);border-radius:6px;background:var(--surface-alt);color:var(--ink);font:inherit;font-size:0.78rem;cursor:pointer;display:flex;align-items:center;justify-content:center;padding:0;}.navbtn.answered{background:var(--accent-soft);border-color:var(--accent);color:var(--accent-ink);font-weight:600;}.navbtn.current{outline:2px solid var(--accent);outline-offset:1px;font-weight:700;}.timerbox{display:flex;flex-direction:column;align-items:flex-end;gap:6px;flex-shrink:0;}.navcontrols{display:flex;align-items:center;justify-content:space-between;gap:10px;margin-top:10px;}.bignav{font:inherit;padding:10px 16px;border:1px solid var(--border);border-radius:8px;background:var(--surface-alt);color:var(--ink);cursor:pointer;font-weight:600;}.bignav:disabled{opacity:0.4;cursor:not-allowed;}.timingtoggle{font-size:0.8rem;color:var(--ink-muted);background:none;border:none;text-decoration:underline;cursor:pointer;padding:4px 0;}</style></head><style>.card{display:none;}.card.active{display:block;}</style><body><div class="wrap"><h1>QR9 Redo</h1><p class="lede">3 problems · no timer · go in any order · choose one answer (A–D) for each.</p><div class="sticky-top"><div class="testbar"><div class="navgrid" id="navgrid"></div></div><div class="navcontrols"><button type="button" class="bignav" id="prev">← Back</button><span class="progress">Answered: <span id="count">0</span> / 3</span><button type="button" class="bignav" id="next">Next →</button></div><p><button type="button" class="timingtoggle" id="toggletiming">Show timing details (parent)</button></p></div><div id="timing" style="display:none"><p>Total: <span id="total">0:00</span> · Answered: <span id="answered">0</span> / 3</p><table class="data"><tr><th>#</th><th>Time (s)</th><th>First answer</th><th>Final answer</th></tr><tbody id="rows"></tbody></table><p><button type="button" class="bignav" id="dl">Download times (CSV)</button> <button type="button" class="bignav" id="dl2">Download click log (CSV)</button> <button type="button" class="bignav" id="clr">Clear all answers</button></p></div><div class="card" data-n="1"><div class="num">1. <span class="ptime" id="pt1"></span></div><div class="q">Each shape shown represents a different digit from 1 through 9. What is the value of ○?</div><div class="diag"><div style="display:inline-block;font-family:ui-monospace,'SF Mono','Cascadia Mono','Courier New',monospace;letter-spacing:2px;font-size:1.25rem;text-align:right"><div style="padding:2px 6px;line-height:1.5">△○○</div><div style="padding:2px 6px;line-height:1.5">+&nbsp;△△</div><div style="padding:7px 6px 2px;margin-top:5px;line-height:1.5;border-top:2px solid currentColor">266</div></div></div><div class="choices"><button type="button" class="choice" data-qid="1" data-letter="A"><b>A</b>&nbsp; 2</button><button type="button" class="choice" data-qid="1" data-letter="B"><b>B</b>&nbsp; 4</button><button type="button" class="choice" data-qid="1" data-letter="C"><b>C</b>&nbsp; 6</button><button type="button" class="choice" data-qid="1" data-letter="D"><b>D</b>&nbsp; 8</button></div></div><div class="card" data-n="2"><div class="num">2. <span class="ptime" id="pt2"></span></div><div class="q">A pair of shoes cost $70. The price was decreased by 30%. Then Leo used a $6 coupon on the new price. How much did Leo pay for the shoes?</div><div class="choices"><button type="button" class="choice" data-qid="2" data-letter="A"><b>A</b>&nbsp; $34</button><button type="button" class="choice" data-qid="2" data-letter="B"><b>B</b>&nbsp; $43</button><button type="button" class="choice" data-qid="2" data-letter="C"><b>C</b>&nbsp; $49</button><button type="button" class="choice" data-qid="2" data-letter="D"><b>D</b>&nbsp; $63.70</button></div></div><div class="card" data-n="3"><div class="num">3. <span class="ptime" id="pt3"></span></div><div class="q"><div>○ + ○ + △ = 17</div><div>○ + △ + △ = 13</div><div style="margin-top:6px">What is the value of ○?</div></div><div class="choices"><button type="button" class="choice" data-qid="3" data-letter="A"><b>A</b>&nbsp; 3</button><button type="button" class="choice" data-qid="3" data-letter="B"><b>B</b>&nbsp; 4</button><button type="button" class="choice" data-qid="3" data-letter="C"><b>C</b>&nbsp; 7</button><button type="button" class="choice" data-qid="3" data-letter="D"><b>D</b>&nbsp; 10</button></div></div></div><script>(function(){
+var N=3,K="qr9-redo-v1",T="qr9-redo-times",IDX="qr9-redo-idx";
+var st={},clicks=[],visits=[],idx=1;
+try{st=JSON.parse(localStorage.getItem(K)||"{}")}catch(e){}
+try{var saved=JSON.parse(localStorage.getItem(T)||"{}");clicks=saved.clicks||[];visits=saved.visits||[];}catch(e){}
+try{idx=parseInt(localStorage.getItem(IDX)||"1",10)||1}catch(e){}
+function sv(){try{localStorage.setItem(K,JSON.stringify(st));localStorage.setItem(T,JSON.stringify({clicks:clicks,visits:visits}));localStorage.setItem(IDX,String(idx));}catch(e){}}
+function fmt(s){s=Math.max(0,Math.round(s));return Math.floor(s/60)+":"+("0"+(s%60)).slice(-2);}
+
+var visitStart=null, visitN=null;
+function clockRunning(){ return window.__clockRunning===true; }
+function closeVisit(now){
+  if(visitN!==null && visitStart!==null && now>visitStart){ visits.push({n:visitN,start:visitStart,end:now}); }
+  visitStart=null; visitN=null;
+}
+function openVisit(now){ if(clockRunning()){ visitStart=now; visitN=idx; } }
+function secondsFor(n){
+  var tot=0;
+  visits.forEach(function(v){ if(v.n===n) tot += (v.end-v.start)/1000; });
+  if(visitN===n && visitStart!==null) tot += (Date.now()-visitStart)/1000;
+  return tot;
+}
+function answeredCount(){ return Object.keys(st).filter(function(k){return !!st[k];}).length; }
+function firstFinalFor(n){
+  var cs = clicks.filter(function(c){return c.q===String(n);});
+  if(!cs.length) return {first:null, final:null};
+  return {first: cs[0].letter, final: st[n]||null};
+}
+
+function render(){
+  document.querySelectorAll(".card").forEach(function(c){
+    c.classList.toggle("active", parseInt(c.dataset.n,10)===idx);
+  });
+  document.querySelectorAll("button.choice[data-qid]").forEach(function(b){
+    b.classList.toggle("selected", st[b.dataset.qid]===b.dataset.letter);
+  });
+  var grid=document.getElementById("navgrid");
+  grid.innerHTML="";
+  for(var i=1;i<=N;i++){
+    var b=document.createElement("button");
+    b.type="button"; b.className="navbtn"+(st[i]?" answered":"")+(i===idx?" current":"");
+    b.textContent=i;
+    (function(n){ b.addEventListener("click",function(){ goTo(n); }); })(i);
+    grid.appendChild(b);
+  }
+  document.getElementById("count").textContent=answeredCount();
+  document.getElementById("prev").disabled = idx<=1;
+  document.getElementById("next").disabled = idx>=N;
+  renderSummary();
+}
+function goTo(n){
+  if(n<1||n>N) return;
+  if(n===idx){ render(); return; }
+  var now=Date.now();
+  closeVisit(now);
+  idx=n;
+  openVisit(now);
+  sv(); render();
+}
+document.getElementById("prev").addEventListener("click",function(){ goTo(idx-1); });
+document.getElementById("next").addEventListener("click",function(){ goTo(idx+1); });
+document.addEventListener("keydown",function(e){
+  if(e.key==="ArrowLeft"){ e.preventDefault(); goTo(idx-1); }
+  else if(e.key==="ArrowRight"){ e.preventDefault(); goTo(idx+1); }
+});
+document.addEventListener("click",function(e){
+  if(e.target.id==="clr"){
+    if(confirm("Clear all answers, times, and the timer?")){
+      st={}; clicks=[]; visits=[]; visitStart=null; visitN=null;
+      sv(); if(window.__clockReset) window.__clockReset();
+      render();
+    }
+    return;
+  }
+  var b=e.target.closest("button.choice");
+  if(b && b.dataset.qid){
+    var same = st[b.dataset.qid]===b.dataset.letter;
+    var letter = same ? null : b.dataset.letter;
+    st[b.dataset.qid] = letter;
+    clicks.push({q:b.dataset.qid, letter:letter, t:Date.now()});
+    sv(); render();
+    return;
+  }
+  if(e.target.id==="dl"){
+    var rows=["problem,seconds,first_answer,final_answer"];
+    for(var i=1;i<=N;i++){
+      var ff=firstFinalFor(i);
+      if(ff.first===null) continue;
+      rows.push(i+","+Math.round(secondsFor(i))+","+ff.first+","+(ff.final||""));
+    }
+    save("qr9-redo-times.csv", rows.join("\n"));
+    return;
+  }
+  if(e.target.id==="dl2"){
+    var t0 = clicks.length?clicks[0].t:Date.now();
+    var prevByQ={};
+    var rows2=["seq,problem,elapsed_s,clock,action,letter,previous"];
+    clicks.forEach(function(c,i){
+      var prev = prevByQ[c.q]!==undefined ? prevByQ[c.q] : null;
+      var kind = c.letter===null ? "cleared" : (prev===null ? "chose" : "changed");
+      rows2.push((i+1)+","+c.q+","+((c.t-t0)/1000).toFixed(1)+","+new Date(c.t).toLocaleTimeString()+","+kind+","+(c.letter||"")+","+(prev||""));
+      prevByQ[c.q]=c.letter;
+    });
+    save("qr9-redo-click-log.csv", rows2.join("\n"));
+    return;
+  }
+});
+["copy","cut","contextmenu","selectstart","dragstart"].forEach(function(ev2){
+  document.addEventListener(ev2,function(e){ if(e.target.id!=="dl"&&e.target.id!=="dl2") e.preventDefault(); });
+});
+function save(name,csv){
+  var a=document.createElement("a");
+  a.href=URL.createObjectURL(new Blob([csv],{type:"text/csv"}));
+  a.download=name; document.body.appendChild(a); a.click(); a.remove();
+}
+function renderSummary(){
+  var box=document.getElementById("timing");
+  if(!box) return;
+  var answered=[];
+  for(var i=1;i<=N;i++){ var ff=firstFinalFor(i); if(ff.first!==null) answered.push({n:i,ff:ff,sec:secondsFor(i)}); }
+  if(!answered.length){ document.getElementById("rows").innerHTML=""; document.getElementById("answered").textContent=0; document.getElementById("total").textContent="0:00"; return; }
+  document.getElementById("rows").innerHTML = answered.map(function(r){
+    return "<tr><td>"+r.n+"</td><td>"+Math.round(r.sec)+"</td><td>"+r.ff.first+"</td><td>"+(r.ff.final||"")+"</td></tr>";
+  }).join("");
+  document.getElementById("answered").textContent = answered.length;
+  var totalSec = visits.reduce(function(a,v){return a+(v.end-v.start)/1000;},0) + (visitStart!==null?(Date.now()-visitStart)/1000:0);
+  document.getElementById("total").textContent = fmt(totalSec);
+}
+
+// no timer on this page: answers stay unlocked, time per problem still logs quietly
+window.__clockRunning=true;
+window.__clockReset=function(){};
+openVisit(Date.now());
+render();
+setInterval(renderSummary,1000);
+})();
+</script><script>document.getElementById("toggletiming").addEventListener("click",function(){var b=document.getElementById("timing");var showing=b.style.display!=="none";b.style.display=showing?"none":"block";this.textContent=showing?"Show timing details (parent)":"Hide timing details";});</script></body></html>

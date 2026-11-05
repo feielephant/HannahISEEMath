@@ -1,0 +1,47 @@
+[
+ {
+  "n": 1,
+  "topic": "Cryptarithm / digit substitution",
+  "q": "Each shape shown represents a different digit from 1 through 9. What is the value of ○?",
+  "diagram": "<div style=\"display:inline-block;font-family:ui-monospace,'SF Mono','Cascadia Mono','Courier New',monospace;letter-spacing:2px;font-size:1.25rem;text-align:right\"><div style=\"padding:2px 6px;line-height:1.5\">△○○</div><div style=\"padding:2px 6px;line-height:1.5\">+&nbsp;△△</div><div style=\"padding:7px 6px 2px;margin-top:5px;line-height:1.5;border-top:2px solid currentColor\">266</div></div>",
+  "choices": {
+   "A": "2",
+   "B": "4",
+   "C": "6",
+   "D": "8"
+  },
+  "correct": "B",
+  "key": "<b>Answer: B.</b> No column carries, so the hundreds digit of the answer is just △: △ = 2. Ones column: ○ + △ = 6, so ○ + 2 = 6 and ○ = 4. Check: 244 + 22 = 266. A is △. C is the digit in the answer. D is 4 + 4 or 6 + 2.",
+  "ref": "Redo of QR Set 9 #5 &middot; Her answer on 11/3: D (8) (correct B) &middot; now addition with no carrying, per parent"
+ },
+ {
+  "n": 2,
+  "topic": "Percent Increase Decrease basic",
+  "q": "A pair of shoes cost $70. The price was decreased by 30%. Then Leo used a $6 coupon on the new price. How much did Leo pay for the shoes?",
+  "diagram": "",
+  "choices": {
+   "A": "$34",
+   "B": "$43",
+   "C": "$49",
+   "D": "$63.70"
+  },
+  "correct": "B",
+  "key": "<b>Answer: B.</b> 30% of 70 is 0.30 &times; 70 = 21, so the new price is 70 &minus; 21 = 49. After the coupon, 49 &minus; 6 = 43. D subtracts 0.30 instead of 30% of the price. C stops before the coupon. A takes off $30 instead of 30%.",
+  "ref": "Redo of QR Set 9 #8 &middot; Her answer on 11/3: C ($74.85, subtracted 0.15) (correct A) &middot; same build, new numbers"
+ },
+ {
+  "n": 3,
+  "topic": "Algebra with Geometric Shapes",
+  "q": "<div>○ + ○ + △ = 17</div><div>○ + △ + △ = 13</div><div style=\"margin-top:6px\">What is the value of ○?</div>",
+  "diagram": "",
+  "choices": {
+   "A": "3",
+   "B": "4",
+   "C": "7",
+   "D": "10"
+  },
+  "correct": "C",
+  "key": "<b>Answer: C.</b> Add the two lines: three ○ and three △ make 17 + 13 = 30, so ○ + △ = 10. The first line is ○ + (○ + △) = 17, so ○ + 10 = 17 and ○ = 7. Check the second line: 7 + 3 + 3 = 13. Another way: ○ = 13 &minus; 2△, put it in the first line twice: 26 &minus; 4△ + △ = 17, so 3△ = 9 and △ = 3. A is △. B is the difference ○ &minus; △. D is ○ + △ (stopping one step early).",
+  "ref": "Redo of QR Set 9 #9 &middot; Her answer on 11/3: D (14, ○ + △) (correct C) &middot; scratch showed a sign slip: &minus;2△ &minus; 2△ + △ written as +△"
+ }
+]
