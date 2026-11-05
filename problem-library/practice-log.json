@@ -1139,6 +1139,45 @@
     "added_after_test": {
      "8": "Parent: the 80 - 12 work was added later, after the test. During the test she did 80 - 0.15 - 5 = 74.85, the percent-language trap (third time). Her later redo found 15% of 80 = 12 but wrote 80 - 12 = 58 (should be 68)."
     }
+   },
+   "parent_review_with_hannah_2026-11-04": {
+    "1": "Missed the \"increase\" part. Next: a problem with no increase part, so she has to read what is asked.",
+    "3": "Mixed July with June. Next: bigger tables (more rows and columns).",
+    "5": "Redo (addition, no carrying) done without help. Next: addition WITH carrying.",
+    "8": "Not enough time, picked randomly.",
+    "9": "Not secure; redo right.",
+    "10": "Counted 11 sides instead of 10.",
+    "12": "Knows how; calculation very slow. Parent taught 60 x each part and add (distributive), to avoid adding fractions.",
+    "13": "Fraction/decimal operations slow internally; needs more practice.",
+    "15": "Many conditions, got lost. Only the \"switched digits make a prime\" rule was needed to reach D.",
+    "16": "Worth redoing with different numbers (assume 100). Next: a two-change problem that ends in an increase.",
+    "17": "Counted wrong. When there is more information than some threshold she makes mistakes; needs patience.",
+    "19": "Very rough. Built on Lower 4 #35 but one layer harder (\"as many as Mia has LEFT\" vs the real \"as many as he HAD\"). Next: same level as real.",
+    "22": "Mixed number comparison again; mapping numbers back to names is good multi-step practice.",
+    "26": "Redo right; practice again.",
+    "27": "Good multi-step construction. She wrote x - (3 + y) and removed the parentheses wrong (C). Often confused removing () with or without a minus in front. Next: same build, swap x/y and operations, practice removing ().",
+    "30": "Calculation took too long.",
+    "31": "Calculation took long; redo right.",
+    "32": "Gap; taught, then found the right answer.",
+    "34": "Guessed and verified. Similar problem or equal difficulty.",
+    "35": "Mixed perimeter with area again.",
+    "37": "Knew to find divisible by 12, but needs the reminder that 12 means by 3 and by 4. Good multi-level problem: \"Nora and 11 others\" = 12, then divisibility by 12.",
+    "38": "Calculation slow; redo right."
+   },
+   "followup_2026-11-05": {
+    "page": "worksheets/qr9-followup.html",
+    "problems": 23,
+    "real_verbatim": [
+     1060,
+     1497,
+     1501,
+     1054,
+     1061,
+     1062,
+     898,
+     1136
+    ],
+    "note": "One or two problems per item in parent_review_with_hannah_2026-11-04 (not 8, 30, 31, 38). Real items used where the library had a not-done match; the bigger table, carry cryptarithm, percent increase, grid, ordering, nth term, split line, jugs, and the 15-student divisibility problem are new."
    }
   }
  ],

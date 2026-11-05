@@ -411,6 +411,48 @@
     "topic": "Whole Number Who Am I",
     "note": "Used verbatim in QR Set 9, choices reversed for letter balance"
    }
+  ],
+  "9-followup": [
+   {
+    "n": 5,
+    "global_id": 1060,
+    "topic": "QR9 follow-up"
+   },
+   {
+    "n": 8,
+    "global_id": 1497,
+    "topic": "QR9 follow-up"
+   },
+   {
+    "n": 9,
+    "global_id": 1501,
+    "topic": "QR9 follow-up"
+   },
+   {
+    "n": 13,
+    "global_id": 1054,
+    "topic": "QR9 follow-up"
+   },
+   {
+    "n": 17,
+    "global_id": 1061,
+    "topic": "QR9 follow-up"
+   },
+   {
+    "n": 19,
+    "global_id": 1062,
+    "topic": "QR9 follow-up"
+   },
+   {
+    "n": 21,
+    "global_id": 1136,
+    "topic": "QR9 follow-up"
+   },
+   {
+    "n": 22,
+    "global_id": 898,
+    "topic": "QR9 follow-up"
+   }
   ]
  },
  "ma": {
