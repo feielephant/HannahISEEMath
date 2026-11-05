@@ -1,16 +1,16 @@
 [
  {
   "n": 1,
-  "q": "Nina builds picture frames. The first rectangular frame she builds has a perimeter of 26 inches. The length of one of the sides is shown. For her next frame, she keeps the shorter side the same length, but the longer side is 2 times as long as the shorter side. What is the perimeter of the next frame?",
+  "q": "Nina builds picture frames. The first rectangular frame she builds has a perimeter of 26 inches. The length of one of the sides is shown. For her next frame, she keeps the shorter side the same length. The longer side is longer than the shorter side by 2 times the length of the shorter side. What is the perimeter of the next frame?",
   "diagram": "<svg viewBox=\"0 0 220 106\" width=\"220\" height=\"106\" role=\"img\"><rect x=\"8\" y=\"6\" width=\"150\" height=\"70\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\"/><text x=\"83.0\" y=\"96\" font-size=\"13\" text-anchor=\"middle\" fill=\"currentColor\">8</text><text x=\"174\" y=\"45.0\" font-size=\"13\" text-anchor=\"middle\" fill=\"currentColor\">?</text></svg>",
   "choices": {
-   "A": "10 inches",
-   "B": "15 inches",
-   "C": "26 inches",
-   "D": "30 inches"
+   "A": "15 inches",
+   "B": "20 inches",
+   "C": "30 inches",
+   "D": "40 inches"
   },
   "correct": "D",
-  "key": "<b>Answer: D.</b> Two sides of 8 use 16 inches, so the other two sides share 26 &minus; 16 = 10, and each is 5. So 8 is the longer side and 5 is the shorter side. In the next frame the shorter side stays 5 and the longer side is 2 &times; 5 = 10 (2 times the SHORTER side, not 2 times 8). Perimeter: 2 &times; (5 + 10) = 30. A is the new longer side. B is one length plus one width. C is the first frame. Read which side is 2 times which before calculating.",
+  "key": "<b>Answer: D.</b> Two sides of 8 use 16 inches, so the other two sides share 26 &minus; 16 = 10, and each is 5. So 8 is the longer side and 5 is the shorter side. In the next frame the shorter side stays 5. The longer side is 5 PLUS 2 &times; 5 more: 5 + 10 = 15, which is 3 times the shorter side. Perimeter: 2 &times; (5 + 15) = 40. C makes the longer side only 2 times the shorter side (10), missing the \"longer than ... by\" part. A is the new longer side. B is one length plus one width.",
   "ref": "Follows QR9 #1 &middot; New problem",
   "gid": null
  },

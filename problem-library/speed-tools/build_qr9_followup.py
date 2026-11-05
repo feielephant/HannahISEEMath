@@ -35,14 +35,15 @@ def outside_edges(cells):
 
 # 1 -- #1: same rectangle build, but this time it asks for the NEW length, not the increase
 short = 26 // 2 - 8                 # the shown 8 is the longer side; the shorter side is 5
-long2 = 2 * short                   # next frame: longer side is 2 times the shorter side
-assert short == 5 and long2 == 10 and 2 * (short + long2) == 30 and short + long2 == 15 and 2 * (short + 2 * 8) != 30
+long3 = short + 2 * short           # longer than the shorter side BY 2 times the shorter side = 3 times
+assert short == 5 and long3 == 15 and 2 * (short + long3) == 40
+assert 2 * (short + 2 * short) == 30 and short + long3 == 20      # traps: "2 times" only; one length + one width
 add('Nina builds picture frames. The first rectangular frame she builds has a perimeter of 26 inches. The length of one of the sides is shown. '
-    'For her next frame, she keeps the shorter side the same length, but the longer side is 2 times as long as the shorter side. What is the perimeter of the next frame?',
-    ['10 inches', '15 inches', '26 inches', '30 inches'], 'D',
+    'For her next frame, she keeps the shorter side the same length. The longer side is longer than the shorter side by 2 times the length of the shorter side. What is the perimeter of the next frame?',
+    ['15 inches', '20 inches', '30 inches', '40 inches'], 'D',
     'Two sides of 8 use 16 inches, so the other two sides share 26 &minus; 16 = 10, and each is 5. So 8 is the longer side and 5 is the shorter side. '
-    'In the next frame the shorter side stays 5 and the longer side is 2 &times; 5 = 10 (2 times the SHORTER side, not 2 times 8). Perimeter: 2 &times; (5 + 10) = 30. '
-    'A is the new longer side. B is one length plus one width. C is the first frame. Read which side is 2 times which before calculating.',
+    'In the next frame the shorter side stays 5. The longer side is 5 PLUS 2 &times; 5 more: 5 + 10 = 15, which is 3 times the shorter side. Perimeter: 2 &times; (5 + 15) = 40. '
+    'C makes the longer side only 2 times the shorter side (10), missing the "longer than ... by" part. A is the new longer side. B is one length plus one width.',
     1, rect_q(150, 70, '8', '?'))
 
 # 2 -- #3: bigger table, Jun/Jul and Mar/May next to each other
