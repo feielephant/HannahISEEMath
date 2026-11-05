@@ -1367,6 +1367,59 @@
    ],
    "notes": "Manually curated (not plan_set_ma.py auto-selection): top 30 topics from the 2026-10-29 streak-adjusted error-rate ranking, with 2 user-directed swaps (Vertices Forming Right Angles Quadrilaterals -> Classification of Numbers given a Set; Area and Perimeter of Complex Polygons -> a 2nd Numerical Patterns slot in the QR7 #35 backward-anchor style). 29 of 30 problems are real official/library items (one 2nd/3rd/4th-term pattern problem invented, same structure as QR7 #35/QR8 #7). See ma3_SOURCES.md for the full picked-vs-invented table. #1 swapped 2026-10-29 to a no-borrow version (RSS-RS=260, R=2/S=8) at the user's request, replacing the original borrow-requiring version (RSS-RS=650, R=7/S=2) in the same slot -- back to 30 problems, not kept as a 31st. 2026-10-30: swapped 7 problems (#4,#8,#11,#19,#20,#21,#26) to harder real items after a difficulty-check comparison against her actual real-test errors found them undershooting; #23 and #27 flagged but kept (no suitable real alternative exists for the exact mechanic that tripped her up). 2026-10-30 (2nd pass): swapped #6 to a mixed decimal/fraction missing-value item (ISEE Lower #3 Q18) after the user asked for a better pick than gid139 -- preserves the multi-item ordering complexity without the fraction-bar diagram scaffolding. 2026-10-30 (3rd pass): swapped #21 to gid492 (find the input given an output -- the reverse direction) after the user asked for more matching options; the 2 confirmed-wrong real items for this topic are both already used in old redo-sets. 2026-10-30 (4th pass): swapped #23 to gid505 (given dividend+remainder, find the divisor -- inverse reasoning) after a deeper re-search found it; confirmed #27 still has zero real alternative anywhere in the library (full-text search for \"opposite\"). 2026-10-30 (5th pass): swapped #27 to gid151 (ISEE Lower #3 Q32, cube with 3 colored circles, 60.5% correct) -- real answer choices are themselves 4 net diagrams in an unusual skewed-rhombus style; cropped and embedded verbatim from the source screenshot rather than hand-redrawn, to avoid a transcription-error risk. 2026-10-30 (6th pass): swapped #30 from Determining Averages/Points on Number Lines (recently confirmed solid, 5 straight correct) to a new, never-tracked topic, Minimum Distance on Coordinate Plane / Grid (gid406, taxicab/Manhattan distance), at the user's request. 2026-10-30 (7th pass): catalogued 10 freshly-captured real items (gids 1447-1456) from 2 new Test Innovators exercise sets (Y-Intercepts Given Graphs; Minimum Distance on Coordinate Plane/Grid #2). Swapped #22 to Y-Intercepts (equation-of-the-line version, tests slope+intercept together) replacing Order of Operations, and #30 to a cleaner real item from the new Minimum Distance set (gid1453) replacing the hand-redrawn gid406 version.",
    "published_commit": "2aae83934dad85db86b9ecf73a1464631250f249"
+  },
+  {
+   "set_no": 4,
+   "topics": [
+    "Perimeter",
+    "Comparing Adding Subtracting Bar Graph Data Table Values",
+    "Cryptarithm / digit substitution",
+    "Counting Multiples within a Range",
+    "Algebra with Geometric Shapes",
+    "Area and Perimeter of Complex Polygons",
+    "Multi-step unit conversion (off-by-10, multi-step)",
+    "Order of Operations and Equivalence",
+    "Converting to a Decimal",
+    "Divisibility / number constraints (Serena/Who am I style)",
+    "Divisibility / number constraints (Serena/Who am I style)",
+    "Classification of Numbers, given a Set",
+    "Percent Increase Decrease basic",
+    "Total Shaded Area given Figure with Equal Divisions",
+    "Translating Math Expressions",
+    "Value of Digits",
+    "Translating Math Expressions",
+    "Nth Term, given Arithmetic Sequence, Progressive Pattern, etc.",
+    "Comparing & Ordering Fractions & Decimals",
+    "Comparing Volume of Cubes",
+    "Split Line Segments",
+    "Finding Area/Perimeter of Rectangle, given Length & Width",
+    "Split Line Segments",
+    "Remaining Amount after Reducing by Fractions",
+    "Finding Area/Perimeter of Rectangle, given Length & Width",
+    "Adding and Subtracting Fractions",
+    "Word Problems with Ratios",
+    "Matching Stories to Equations",
+    "No Remainder when Divided by a given Number",
+    "No Remainder when Divided by a given Number"
+   ],
+   "built": "2026-11-05",
+   "builder": "speed-tools/build_ma4.py",
+   "notes": "Parent: the 23 QR9 follow-up problems (from the 11/4 review with Hannah) plus 7 built on earlier real-test last-third misses (Lower 5 MA #29 counting multiples, Lower 2 MA #26 distributive, Lower 2 MA #29 classification with 2 is prime, Lower 3 #31 value of digits, Lower 4 #36 cube scaling, Lower 1 #33 parentheses in a story, Lower 1 MA #25 remaining amount). Replaces giving qr9-followup.html separately (same 23 problems). 30 problems, 30 minutes.",
+   "real_verbatim_qr_library": [
+    978,
+    1060,
+    1497,
+    1501,
+    1054,
+    1061,
+    1062,
+    1136,
+    1053,
+    898
+   ],
+   "real_verbatim_ma_library": [
+    "Which expression is equal to 8 \u00d7 (6 + 3) \u2212 4?"
+   ]
   }
  ],
  "ma_notes": {

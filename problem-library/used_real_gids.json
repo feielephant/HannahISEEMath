@@ -568,6 +568,67 @@
     "topic": "Translating Math Expressions",
     "note": "QR-only topic, deliberately included as an exception (confirmed real weak spot, swapped in for a topic she is solid on)"
    }
+  ],
+  "4": [
+   {
+    "n": 8,
+    "global_id": null,
+    "exercise_title": "ORDER OF OPERATIONS & EQUIVALENCE #3",
+    "question_text": "Which expression is equal to 8 × (6 + 3) − 4?",
+    "topic": "Order of Operations and Equivalence"
+   }
+  ],
+  "4_from_qr_library": [
+   {
+    "n": 4,
+    "global_id": 978,
+    "topic": "Counting Multiples within a Range"
+   },
+   {
+    "n": 6,
+    "global_id": 1060,
+    "topic": "Area and Perimeter of Complex Polygons"
+   },
+   {
+    "n": 10,
+    "global_id": 1497,
+    "topic": "Divisibility / number constraints (Serena/Who am I style)"
+   },
+   {
+    "n": 11,
+    "global_id": 1501,
+    "topic": "Divisibility / number constraints (Serena/Who am I style)"
+   },
+   {
+    "n": 17,
+    "global_id": 1054,
+    "topic": "Translating Math Expressions"
+   },
+   {
+    "n": 22,
+    "global_id": 1061,
+    "topic": "Finding Area/Perimeter of Rectangle, given Length & Width"
+   },
+   {
+    "n": 25,
+    "global_id": 1062,
+    "topic": "Finding Area/Perimeter of Rectangle, given Length & Width"
+   },
+   {
+    "n": 27,
+    "global_id": 1136,
+    "topic": "Word Problems with Ratios"
+   },
+   {
+    "n": 28,
+    "global_id": 1053,
+    "topic": "Matching Stories to Equations"
+   },
+   {
+    "n": 29,
+    "global_id": 898,
+    "topic": "No Remainder when Divided by a given Number"
+   }
   ]
  }
 }
