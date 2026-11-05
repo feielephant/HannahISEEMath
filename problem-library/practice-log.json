@@ -1420,11 +1420,12 @@
    "real_verbatim_ma_library": [
     "Which expression is equal to 8 \u00d7 (6 + 3) \u2212 4?"
    ],
-   "published_commit": "70e91f8848d8ae80016b68558a121495680859ea",
+   "published_commit": "7a031e1d33f3e4af4158c014ac0c5069f6a46f81",
    "change_after_publish_1_2026-11-05": "#1 rewritten at parent request: no tripling; next frame keeps the shorter side and the longer side is 2 times the shorter side; asks the new perimeter (30). Needs careful reading of which side is 2 times which.",
    "change_after_publish_2_2026-11-05": "#1 again at parent request: \"The longer side is longer than the shorter side by 2 times the length of the shorter side\" so she must build 5 + 2 x 5 = 15 (3 times), perimeter 40. Trap 30 = reading it as just 2 times. Parent wants practice on \"2 times more\" meaning 3 times, worded so it cannot be read as plain 2 times.",
    "change_after_publish_3_2026-11-05": "#2 at parent request: March, June, August (was October), and Tess ran more than Rosa in March so one month is negative. Answer 8 (55 - 47). Traps: 14 adds 3 + 7 + 4 ignoring the negative month, 5 April for August, 13 July for June.",
-   "change_after_publish_4_2026-11-05": "#3: choice A changed from 1 to 8 at parent request (choices now 8, 4, 5, 7; answer still D = 7)."
+   "change_after_publish_4_2026-11-05": "#3: choice A changed from 1 to 8 at parent request (choices now 8, 4, 5, 7; answer still D = 7).",
+   "change_after_publish_5_2026-11-05": "#26 rebuilt to the same four statement types as QR9 #34 (n = 1 less than 1/3, n = 2 less than 1/2, n = 5 will not fit, n = 6 will not fit); answer D. The earlier version (answer B) mixed in a different statement type."
   }
  ],
  "ma_notes": {
