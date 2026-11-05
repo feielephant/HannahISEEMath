@@ -34,13 +34,13 @@
   "q": "Each shape shown represents a different digit from 1 through 9. What is the value of ○?",
   "diagram": "<div style=\"display:inline-block;font-family:ui-monospace,'SF Mono','Cascadia Mono','Courier New',monospace;letter-spacing:2px;font-size:1.25rem;text-align:right\"><div style=\"padding:2px 6px;line-height:1.5\">△○○</div><div style=\"padding:2px 6px;line-height:1.5\">+&nbsp;△△</div><div style=\"padding:7px 6px 2px;margin-top:5px;line-height:1.5;border-top:2px solid currentColor\">521</div></div>",
   "choices": {
-   "A": "1",
+   "A": "8",
    "B": "4",
    "C": "5",
    "D": "7"
   },
   "correct": "D",
-  "key": "<b>Answer: D.</b> The hundreds digit of the answer is 5, but △ + something carried could make 5, so start with the ones column: ○ + △ ends in 1, so ○ + △ = 11 and 1 carries. Tens column: ○ + △ + 1 = 12, so 2 is written and 1 carries. Hundreds: △ + 1 = 5, so △ = 4 and ○ = 11 &minus; 4 = 7. Check: 477 + 44 = 521. C forgets the carry (△ = 5). B is △. A is the ones digit.",
+  "key": "<b>Answer: D.</b> The hundreds digit of the answer is 5, but △ + something carried could make 5, so start with the ones column: ○ + △ ends in 1, so ○ + △ = 11 and 1 carries. Tens column: ○ + △ + 1 = 12, so 2 is written and 1 carries. Hundreds: △ + 1 = 5, so △ = 4 and ○ = 11 &minus; 4 = 7. Check: 477 + 44 = 521. C forgets the carry (△ = 5). B is △. A does not work: ○ = 8 would need △ = 3 (8 + 3 = 11), and 388 + 33 = 421, not 521.",
   "ref": "Follows QR9 #5 &middot; New problem",
   "gid": null
  },

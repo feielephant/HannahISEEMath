@@ -64,12 +64,12 @@ add('The table shows the number of miles five friends ran each month. How many m
 
 # 3 -- #5: addition WITH carrying this time
 sols = [(t, c) for t in range(1, 10) for c in range(1, 10) if t != c and 100*t + 11*c + 11*t == 521]
-assert sols == [(4, 7)] and 7 + 4 >= 10 and 477 + 44 == 521
+assert sols == [(4, 7)] and 7 + 4 >= 10 and 477 + 44 == 521 and 388 + 33 == 421
 add('Each shape shown represents a different digit from 1 through 9. What is the value of ○?',
-    ['1', '4', '5', '7'], 'D',
+    ['8', '4', '5', '7'], 'D',
     'The hundreds digit of the answer is 5, but △ + something carried could make 5, so start with the ones column: ○ + △ ends in 1, so ○ + △ = 11 and 1 carries. '
     'Tens column: ○ + △ + 1 = 12, so 2 is written and 1 carries. Hundreds: △ + 1 = 5, so △ = 4 and ○ = 11 &minus; 4 = 7. Check: 477 + 44 = 521. '
-    'C forgets the carry (△ = 5). B is △. A is the ones digit.',
+    'C forgets the carry (△ = 5). B is △. A does not work: ○ = 8 would need △ = 3 (8 + 3 = 11), and 388 + 33 = 421, not 521.',
     5, colsum(['△○○', '+&nbsp;△△', '521']))
 
 # 4 -- #9: two shape equations again, this time asking for △
