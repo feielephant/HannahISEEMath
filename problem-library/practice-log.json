@@ -1381,25 +1381,25 @@
     "Order of Operations and Equivalence",
     "Converting to a Decimal",
     "Divisibility / number constraints (Serena/Who am I style)",
-    "Divisibility / number constraints (Serena/Who am I style)",
+    "Identifying Correct Conclusions from Bar Graph Data Table",
     "Classification of Numbers, given a Set",
     "Percent Increase Decrease basic",
     "Total Shaded Area given Figure with Equal Divisions",
     "Translating Math Expressions",
     "Value of Digits",
-    "Translating Math Expressions",
+    "Area of Triangles",
     "Nth Term, given Arithmetic Sequence, Progressive Pattern, etc.",
     "Comparing & Ordering Fractions & Decimals",
     "Comparing Volume of Cubes",
     "Split Line Segments",
-    "Finding Area/Perimeter of Rectangle, given Length & Width",
+    "Comparing Areas",
     "Split Line Segments",
     "Remaining Amount after Reducing by Fractions",
-    "Finding Area/Perimeter of Rectangle, given Length & Width",
+    "Numerical Patterns",
     "Adding and Subtracting Fractions",
     "Word Problems with Ratios",
     "Matching Stories to Equations",
-    "No Remainder when Divided by a given Number",
+    "3D shape from its net (unfolding a solid)",
     "No Remainder when Divided by a given Number"
    ],
    "built": "2026-11-05",
@@ -1409,13 +1409,8 @@
     978,
     1060,
     1497,
-    1501,
-    1054,
-    1061,
-    1062,
     1136,
-    1053,
-    898
+    1053
    ],
    "real_verbatim_ma_library": [
     "Which expression is equal to 8 \u00d7 (6 + 3) \u2212 4?"
@@ -1425,7 +1420,8 @@
    "change_after_publish_2_2026-11-05": "#1 again at parent request: \"The longer side is longer than the shorter side by 2 times the length of the shorter side\" so she must build 5 + 2 x 5 = 15 (3 times), perimeter 40. Trap 30 = reading it as just 2 times. Parent wants practice on \"2 times more\" meaning 3 times, worded so it cannot be read as plain 2 times.",
    "change_after_publish_3_2026-11-05": "#2 at parent request: March, June, August (was October), and Tess ran more than Rosa in March so one month is negative. Answer 8 (55 - 47). Traps: 14 adds 3 + 7 + 4 ignoring the negative month, 5 April for August, 13 July for June.",
    "change_after_publish_4_2026-11-05": "#3: choice A changed from 1 to 8 at parent request (choices now 8, 4, 5, 7; answer still D = 7).",
-   "change_after_publish_5_2026-11-05": "#26 rebuilt to the same four statement types as QR9 #34 (n = 1 less than 1/3, n = 2 less than 1/2, n = 5 will not fit, n = 6 will not fit); answer D. The earlier version (answer B) mixed in a different statement type."
+   "change_after_publish_5_2026-11-05": "#26 rebuilt to the same four statement types as QR9 #34 (n = 1 less than 1/3, n = 2 less than 1/2, n = 5 will not fit, n = 6 will not fit); answer D. The earlier version (answer B) mixed in a different statement type.",
+   "change_after_publish_6_2026-11-05": "Parent-approved swap of 5 duplicate slots for 5 real-test gaps, each matching the difficulty of the real problem she missed: #11 Ted (gid 1501) -> votes prediction (Lower 2 QR #34, QR9 #31); #17 Tabitha (gid 1054) -> triangle area vs height (Lower 2 MA #30); #22 square 1061 -> Room A/B area vs perimeter (Lower 2 QR #38, QR9 #30/#35); #25 square 1062 -> pattern 4 5 7 11 19 with doubling differences (Lower 1 MA #21); #29 divisible by 3 and 4 (gid 898) -> cube net with circles outside (MA3 #27 / real Lower 3 #32), reminder moved into #30 key. Not done for lack of clean slots (next set): estimating a decimal sum (Lower 2 MA #27), x3 pattern (Lower 3 MA #21), statistical question (Lower 5 MA #30). Freed real items 1501, 1054, 1061, 1062, 898 are unused again."
   }
  ],
  "ma_notes": {

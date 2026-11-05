@@ -182,19 +182,19 @@
  {
   "n": 11,
   "tier": "Hard",
-  "topic": "Divisibility / number constraints (Serena/Who am I style)",
-  "q": "Ted picks a two-digit prime number where the first digit is less than the second digit. The difference of its digits is also prime and is a factor of the sum of its digits. Both of these results are less than 6. What is the two-digit prime that Ted chose?",
+  "topic": "Identifying Correct Conclusions from Bar Graph Data Table",
+  "q": "The table shows the number of votes for different class snacks. Based on the information in the table, what is the most reasonable prediction of the number of votes for popcorn out of the next 20 votes?",
   "choices": {
-   "A": "11",
-   "B": "13",
-   "C": "23",
-   "D": "31"
+   "A": "2",
+   "B": "7",
+   "C": "14",
+   "D": "63"
   },
   "correct": "B",
-  "key": "<b>Answer: B.</b> First digit less than second: 11 (equal) and 31 are out. 13: difference 2 (prime), sum 4, 2 is a factor of 4, both less than 6. 23: difference 1, which is not prime. So 13. Test every rule on every choice that is left.",
-  "ref": "Tier: Hard &middot; Topic: Divisibility / number constraints (Serena/Who am I style) &middot; Follows QR9 #15 (parent review 11/4) &middot; Real item used verbatim (gid 1501)",
-  "diagram": "",
-  "gid": 1501,
+  "key": "<b>Answer: B.</b> There are 14 + 21 + 6 + 19 = 60 votes. Popcorn got 21 of 60. The next 20 votes are 1/3 of 60, so popcorn should get 1/3 of 21 = 7. A is grapes (6 &divide; 3). C is 21 &minus; 7. D multiplies by 3 instead of dividing.",
+  "ref": "Tier: Hard &middot; Topic: Identifying Correct Conclusions from Bar Graph Data Table &middot; Built on her real-test miss: Lower 2 QR #34 (and QR9 #31), same difficulty, new numbers &middot; New problem",
+  "diagram": "<div style=\"font-weight:600;margin-bottom:4px\">VOTES FOR CLASS SNACKS</div><table class=\"data\"><tr><th>Snack</th><th>Pretzels</th><th>Popcorn</th><th>Grapes</th><th>Apples</th></tr><tr><td>Number of Votes</td><td>14</td><td>21</td><td>6</td><td>19</td></tr></table>",
+  "gid": null,
   "ma_idx": null
  },
  {
@@ -290,19 +290,19 @@
  {
   "n": 17,
   "tier": "Hard",
-  "topic": "Translating Math Expressions",
-  "q": "Tabitha has □ buttons. She first gives away ○ buttons, and then she sorts the remaining buttons into ◇ containers. Which expression can be used to determine the number of buttons in each container?",
+  "topic": "Area of Triangles",
+  "q": "The base of a triangle is 10 meters (m). Which statement correctly compares the value of A to the height of the triangle? (A = <span class=\"frac\"><span class=\"n\">1</span><span class=\"d\">2</span></span> &times; base &times; height)",
   "choices": {
-   "A": "(□ &minus; ○) &divide; ◇",
-   "B": "(○ &minus; □) &divide; ◇",
-   "C": "(□ &divide; ◇) &minus; ○",
-   "D": "(○ &divide; ◇) &minus; □"
+   "A": "The value of A is always <span class=\"frac\"><span class=\"n\">1</span><span class=\"d\">2</span></span> the value of the height.",
+   "B": "The value of A is always 10 times the value of the height.",
+   "C": "The value of A is always 5 times the value of the height.",
+   "D": "The value of A can be the same as the value of the height."
   },
-  "correct": "A",
-  "key": "<b>Answer: A.</b> Start with □, give away ○: □ &minus; ○ are left. Sort those into ◇ containers: (□ &minus; ○) &divide; ◇. The parentheses make the giving away happen first.",
-  "ref": "Tier: Hard &middot; Topic: Translating Math Expressions &middot; Follows QR9 #19 (parent review 11/4) &middot; Real item used verbatim (gid 1054)",
+  "correct": "C",
+  "key": "<b>Answer: C.</b> A = 1/2 &times; 10 &times; height = 5 &times; height, so A is always 5 times the height. B forgets the 1/2. D would need 5 &times; height = height, which only happens if the height is 0.",
+  "ref": "Tier: Hard &middot; Topic: Area of Triangles &middot; Built on her real-test miss: Lower 2 MA #30, same difficulty, new numbers &middot; New problem",
   "diagram": "",
-  "gid": 1054,
+  "gid": null,
   "ma_idx": null
  },
  {
@@ -380,19 +380,19 @@
  {
   "n": 22,
   "tier": "Hard",
-  "topic": "Finding Area/Perimeter of Rectangle, given Length & Width",
-  "q": "If the perimeter of a square is increased from 12 centimeters to 16 centimeters, then by what amount will its area increase?",
+  "topic": "Comparing Areas",
+  "q": "The floor of Room A is in the shape of a square and has an area of 196 feet&sup2;. The floor of Room B is in the shape of a rectangle and has a length of 18 feet and a width of 10 feet. Which statement correctly compares the floors in the two rooms?",
   "choices": {
-   "A": "4 centimeters&sup2;",
-   "B": "6 centimeters&sup2;",
-   "C": "7 centimeters&sup2;",
-   "D": "9 centimeters&sup2;"
+   "A": "The area of the floor in Room A is the same as the area of the floor in Room B.",
+   "B": "The area of the floor in Room A is less than the area of the floor in Room B.",
+   "C": "The perimeter of the floor in Room A is equal to the perimeter of the floor in Room B.",
+   "D": "The perimeter of the floor in Room A is less than the perimeter of the floor in Room B."
   },
   "correct": "C",
-  "key": "<b>Answer: C.</b> Perimeter 12 means a side of 3, area 9. Perimeter 16 means a side of 4, area 16. The area grows by 16 &minus; 9 = 7. A is the change in perimeter, not area.",
-  "ref": "Tier: Hard &middot; Topic: Finding Area/Perimeter of Rectangle, given Length & Width &middot; Follows QR9 #35 (parent review 11/4) &middot; Real item used verbatim (gid 1061)",
+  "key": "<b>Answer: C.</b> Room A: 14 &times; 14 = 196, so each side is 14 and the perimeter is 4 &times; 14 = 56. Room B: area 18 &times; 10 = 180, perimeter 2 &times; (18 + 10) = 56. The perimeters are equal; the areas are not (196 is more than 180). Check each statement against BOTH numbers.",
+  "ref": "Tier: Hard &middot; Topic: Comparing Areas &middot; Built on her real-test miss: Lower 2 QR #38 (and QR9 #30, #35), same difficulty, new numbers &middot; New problem",
   "diagram": "",
-  "gid": 1061,
+  "gid": null,
   "ma_idx": null
  },
  {
@@ -434,19 +434,19 @@
  {
   "n": 25,
   "tier": "Hard",
-  "topic": "Finding Area/Perimeter of Rectangle, given Length & Width",
-  "q": "The area of a square is 25 feet&sup2;. The area of another square is 11 feet&sup2; more than the first square. What is the perimeter of the second square?",
+  "topic": "Numerical Patterns",
+  "q": "Use the number pattern to answer the question.<div style=\"margin:6px 0;font-size:1.15rem;letter-spacing:2px\">4 &nbsp; 5 &nbsp; 7 &nbsp; 11 &nbsp; 19 &nbsp; ___</div>What is the next number in the pattern?",
   "choices": {
-   "A": "16 feet",
-   "B": "20 feet",
-   "C": "24 feet",
-   "D": "28 feet"
+   "A": "23",
+   "B": "27",
+   "C": "35",
+   "D": "38"
   },
   "correct": "C",
-  "key": "<b>Answer: C.</b> The second square has area 25 + 11 = 36, so its side is 6 and its perimeter is 4 &times; 6 = 24. B is the first square's perimeter.",
-  "ref": "Tier: Hard &middot; Topic: Finding Area/Perimeter of Rectangle, given Length & Width &middot; Follows QR9 #35 (parent review 11/4) &middot; Real item used verbatim (gid 1062)",
+  "key": "<b>Answer: C.</b> Write the differences: 1, 2, 4, 8. Each difference doubles, so the next one is 16: 19 + 16 = 35. B adds 8 again. D doubles 19. A adds 4.",
+  "ref": "Tier: Hard &middot; Topic: Numerical Patterns &middot; Built on her real-test miss: Lower 1 MA #21, same difficulty, new numbers &middot; New problem",
   "diagram": "",
-  "gid": 1062,
+  "gid": null,
   "ma_idx": null
  },
  {
@@ -506,19 +506,19 @@
  {
   "n": 29,
   "tier": "Hard",
-  "topic": "No Remainder when Divided by a given Number",
-  "q": "Which number is divisible by both 3 and 4?",
+  "topic": "3D shape from its net (unfolding a solid)",
+  "q": "A cube has three colored circles drawn on it: yellow (Y) on top, blue (B) on the front, and orange (O) on the right side. Which diagram could be folded to make this cube, if the colored circles are on the OUTSIDE of the cube and cannot be seen from the other side?",
   "choices": {
-   "A": "6",
-   "B": "15",
-   "C": "24",
-   "D": "40"
+   "A": "<svg viewBox=\"0 0 112 86\" width=\"112\" height=\"86\" role=\"img\"><rect x=\"4\" y=\"30\" width=\"26\" height=\"26\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\"/><rect x=\"30\" y=\"56\" width=\"26\" height=\"26\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\"/><rect x=\"30\" y=\"4\" width=\"26\" height=\"26\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\"/><rect x=\"56\" y=\"30\" width=\"26\" height=\"26\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\"/><rect x=\"82\" y=\"30\" width=\"26\" height=\"26\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\"/><rect x=\"30\" y=\"30\" width=\"26\" height=\"26\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\"/><circle cx=\"69.0\" cy=\"43.0\" r=\"8\" fill=\"#F2C230\" stroke=\"currentColor\" stroke-width=\"1\"/><text x=\"69.0\" y=\"46.5\" font-size=\"9\" text-anchor=\"middle\" fill=\"#111\">Y</text><circle cx=\"43.0\" cy=\"69.0\" r=\"8\" fill=\"#3B7DDD\" stroke=\"currentColor\" stroke-width=\"1\"/><text x=\"43.0\" y=\"72.5\" font-size=\"9\" text-anchor=\"middle\" fill=\"#111\">B</text><circle cx=\"95.0\" cy=\"43.0\" r=\"8\" fill=\"#F08A24\" stroke=\"currentColor\" stroke-width=\"1\"/><text x=\"95.0\" y=\"46.5\" font-size=\"9\" text-anchor=\"middle\" fill=\"#111\">O</text></svg>",
+   "B": "<svg viewBox=\"0 0 112 86\" width=\"112\" height=\"86\" role=\"img\"><rect x=\"4\" y=\"30\" width=\"26\" height=\"26\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\"/><rect x=\"30\" y=\"56\" width=\"26\" height=\"26\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\"/><rect x=\"30\" y=\"4\" width=\"26\" height=\"26\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\"/><rect x=\"56\" y=\"30\" width=\"26\" height=\"26\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\"/><rect x=\"82\" y=\"30\" width=\"26\" height=\"26\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\"/><rect x=\"30\" y=\"30\" width=\"26\" height=\"26\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\"/><circle cx=\"69.0\" cy=\"43.0\" r=\"8\" fill=\"#F2C230\" stroke=\"currentColor\" stroke-width=\"1\"/><text x=\"69.0\" y=\"46.5\" font-size=\"9\" text-anchor=\"middle\" fill=\"#111\">Y</text><circle cx=\"95.0\" cy=\"43.0\" r=\"8\" fill=\"#3B7DDD\" stroke=\"currentColor\" stroke-width=\"1\"/><text x=\"95.0\" y=\"46.5\" font-size=\"9\" text-anchor=\"middle\" fill=\"#111\">B</text><circle cx=\"43.0\" cy=\"69.0\" r=\"8\" fill=\"#F08A24\" stroke=\"currentColor\" stroke-width=\"1\"/><text x=\"43.0\" y=\"72.5\" font-size=\"9\" text-anchor=\"middle\" fill=\"#111\">O</text></svg>",
+   "C": "<svg viewBox=\"0 0 112 86\" width=\"112\" height=\"86\" role=\"img\"><rect x=\"4\" y=\"30\" width=\"26\" height=\"26\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\"/><rect x=\"30\" y=\"56\" width=\"26\" height=\"26\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\"/><rect x=\"30\" y=\"4\" width=\"26\" height=\"26\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\"/><rect x=\"56\" y=\"30\" width=\"26\" height=\"26\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\"/><rect x=\"82\" y=\"30\" width=\"26\" height=\"26\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\"/><rect x=\"30\" y=\"30\" width=\"26\" height=\"26\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\"/><circle cx=\"69.0\" cy=\"43.0\" r=\"8\" fill=\"#F2C230\" stroke=\"currentColor\" stroke-width=\"1\"/><text x=\"69.0\" y=\"46.5\" font-size=\"9\" text-anchor=\"middle\" fill=\"#111\">Y</text><circle cx=\"43.0\" cy=\"69.0\" r=\"8\" fill=\"#3B7DDD\" stroke=\"currentColor\" stroke-width=\"1\"/><text x=\"43.0\" y=\"72.5\" font-size=\"9\" text-anchor=\"middle\" fill=\"#111\">B</text><circle cx=\"17.0\" cy=\"43.0\" r=\"8\" fill=\"#F08A24\" stroke=\"currentColor\" stroke-width=\"1\"/><text x=\"17.0\" y=\"46.5\" font-size=\"9\" text-anchor=\"middle\" fill=\"#111\">O</text></svg>",
+   "D": "<svg viewBox=\"0 0 112 86\" width=\"112\" height=\"86\" role=\"img\"><rect x=\"4\" y=\"30\" width=\"26\" height=\"26\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\"/><rect x=\"30\" y=\"56\" width=\"26\" height=\"26\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\"/><rect x=\"30\" y=\"4\" width=\"26\" height=\"26\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\"/><rect x=\"56\" y=\"30\" width=\"26\" height=\"26\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\"/><rect x=\"82\" y=\"30\" width=\"26\" height=\"26\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\"/><rect x=\"30\" y=\"30\" width=\"26\" height=\"26\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\"/><circle cx=\"43.0\" cy=\"43.0\" r=\"8\" fill=\"#F2C230\" stroke=\"currentColor\" stroke-width=\"1\"/><text x=\"43.0\" y=\"46.5\" font-size=\"9\" text-anchor=\"middle\" fill=\"#111\">Y</text><circle cx=\"69.0\" cy=\"43.0\" r=\"8\" fill=\"#3B7DDD\" stroke=\"currentColor\" stroke-width=\"1\"/><text x=\"69.0\" y=\"46.5\" font-size=\"9\" text-anchor=\"middle\" fill=\"#111\">B</text><circle cx=\"43.0\" cy=\"69.0\" r=\"8\" fill=\"#F08A24\" stroke=\"currentColor\" stroke-width=\"1\"/><text x=\"43.0\" y=\"72.5\" font-size=\"9\" text-anchor=\"middle\" fill=\"#111\">O</text></svg>"
   },
-  "correct": "C",
-  "key": "<b>Answer: C.</b> 24 &divide; 3 = 8 and 24 &divide; 4 = 6. A number divisible by both 3 and 4 is divisible by 12. That is the reminder for the next problem type.",
-  "ref": "Tier: Hard &middot; Topic: No Remainder when Divided by a given Number &middot; Follows QR9 #37 (parent review 11/4) &middot; Real item used verbatim (gid 898)",
-  "diagram": "",
-  "gid": 898,
+  "correct": "A",
+  "key": "<b>Answer: A.</b> Fold the net so the drawn side stays on the outside: the squares fold AWAY from you. In A, use the empty middle square as the top. Yellow folds down to become the right side, blue folds down to become the front, and orange (at the end of the row) wraps under to become the bottom. Now tip the cube to the left so the right side comes up: yellow is on top, blue is still in front, and orange (the bottom) comes around to the right. That is the cube. B swaps blue and orange: it makes the mirror cube, which only works if the circles end up INSIDE (her MA3 #27 fold). C puts yellow and orange two squares apart in the row, so they are opposite faces and never touch. D is laid out like the picture but is also the mirror, so it fails the same way as B.",
+  "ref": "Tier: Hard &middot; Topic: 3D shape from its net (unfolding a solid) &middot; Built on her real-test miss: MA3 #27 (real Lower 3 #32, gid 151), same difficulty, new numbers &middot; New problem",
+  "diagram": "<svg viewBox=\"0 0 134 124\" width=\"134\" height=\"124\" role=\"img\"><rect x=\"10\" y=\"40\" width=\"80\" height=\"80\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\"/><polygon points=\"10,40 40,10 120,10 90,40\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\"/><polygon points=\"90,40 120,10 120,90 90,120\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\"/><ellipse cx=\"50.0\" cy=\"80.0\" rx=\"14\" ry=\"14\" fill=\"#3B7DDD\" stroke=\"currentColor\" stroke-width=\"1\"/><text x=\"50.0\" y=\"84.0\" font-size=\"10\" text-anchor=\"middle\" fill=\"#111\">B</text><ellipse cx=\"65.0\" cy=\"25.0\" rx=\"13\" ry=\"6\" fill=\"#F2C230\" stroke=\"currentColor\" stroke-width=\"1\"/><text x=\"65.0\" y=\"29.0\" font-size=\"10\" text-anchor=\"middle\" fill=\"#111\">Y</text><ellipse cx=\"105.0\" cy=\"65.0\" rx=\"6\" ry=\"13\" fill=\"#F08A24\" stroke=\"currentColor\" stroke-width=\"1\"/><text x=\"105.0\" y=\"69.0\" font-size=\"10\" text-anchor=\"middle\" fill=\"#111\">O</text></svg>",
+  "gid": null,
   "ma_idx": null
  },
  {
@@ -533,7 +533,7 @@
    "D": "1,251"
   },
   "correct": "A",
-  "key": "<b>Answer: A.</b> Omar and 14 others is 15 students, so the total must divide by 15, which means by 3 AND by 5. 1,245: ends in 5, and 1 + 2 + 4 + 5 = 12 divides by 3. B divides by 14 (forgot Omar). C divides by 5 but not 3. D divides by 3 but not 5.",
+  "key": "<b>Answer: A.</b> Omar and 14 others is 15 students, so the total must divide by 15, which means by 3 AND by 5 (the same way 12 means by 3 AND by 4). 1,245: ends in 5, and 1 + 2 + 4 + 5 = 12 divides by 3. B divides by 14 (forgot Omar). C divides by 5 but not 3. D divides by 3 but not 5.",
   "ref": "Tier: Hard &middot; Topic: No Remainder when Divided by a given Number &middot; Follows QR9 #37 (parent review 11/4) &middot; New problem",
   "diagram": "",
   "gid": null,

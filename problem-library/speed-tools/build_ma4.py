@@ -114,9 +114,137 @@ from collections import Counter
 L = [p['correct'] for p in final]
 cnt = Counter(L)
 assert len(final) == 30 and max(cnt.values()) - min(cnt.values()) <= 1, cnt
-# the 898 reminder must come right before the Omar problem
-i898 = next(i for i, p in enumerate(final) if p.get('gid') == 898)
-assert 'Omar' in final[i898 + 1]['q']
+# ---- 2026-11-05 parent-approved swap: free 5 duplicate slots, fill with 5 real-test gaps ----
+# dropped (coverage kept elsewhere): Ted 1501 (Sally 1497 stays), Tabitha 1054 (Wendy 1053 stays),
+# square 1062 and square 1061 (Room A/B below covers square area <-> perimeter), 898 (reminder moved into the Omar key)
+NEW = {}
+def newp(slot_gid, topic, q, ch, ans, key, built_on, diagram=''):
+    assert len(set(ch)) == 4 and ans in 'ABCD'
+    NEW[slot_gid] = dict(q=q, diagram=diagram, choices=dict(zip('ABCD', ch)), correct=ans, key=f'<b>Answer: {ans}.</b> {key}',
+                         topic=topic, gid=None, ma_idx=None,
+                         ref=ref(topic, f'Built on her real-test miss: {built_on}, same difficulty, new numbers', 'New problem'))
+
+# votes prediction -- Lower 2 QR #34 (18/24/3/30 of 75, next 25), and QR9 #31
+votes = [('Pretzels', 14), ('Popcorn', 21), ('Grapes', 6), ('Apples', 19)]
+tot_v = sum(v for _, v in votes)
+assert tot_v == 60 and tot_v // 20 == 3 and F(21, 60) * 20 == 7 and 21 // 3 == 7 and 6 // 3 == 2 and 21 * 3 == 63
+newp(1501, s9_topic(31),
+     'The table shows the number of votes for different class snacks. Based on the information in the table, what is the most reasonable prediction of the number of votes for popcorn out of the next 20 votes?',
+     ['2', '7', '14', '63'], 'B',
+     'There are 14 + 21 + 6 + 19 = 60 votes. Popcorn got 21 of 60. The next 20 votes are 1/3 of 60, so popcorn should get 1/3 of 21 = 7. '
+     'A is grapes (6 &divide; 3). C is 21 &minus; 7. D multiplies by 3 instead of dividing.',
+     'Lower 2 QR #34 (and QR9 #31)', table(['Snack'] + [n for n, _ in votes], [['Number of Votes'] + [v for _, v in votes]], 'VOTES FOR CLASS SNACKS'))
+
+# triangle area vs height -- Lower 2 MA #30 (base 6, A always 3 times h)
+assert all(F(1, 2) * 10 * h == 5 * h for h in range(1, 20)) and all(F(1, 2) * 10 * h != h for h in range(1, 20))
+newp(1054, 'Area of Triangles',
+     'The base of a triangle is 10 meters (m). Which statement correctly compares the value of A to the height of the triangle? (A = <span class="frac"><span class="n">1</span><span class="d">2</span></span> &times; base &times; height)',
+     ['The value of A is always <span class="frac"><span class="n">1</span><span class="d">2</span></span> the value of the height.',
+      'The value of A is always 10 times the value of the height.',
+      'The value of A is always 5 times the value of the height.',
+      'The value of A can be the same as the value of the height.'], 'C',
+     'A = 1/2 &times; 10 &times; height = 5 &times; height, so A is always 5 times the height. '
+     'B forgets the 1/2. D would need 5 &times; height = height, which only happens if the height is 0.',
+     'Lower 2 MA #30')
+
+# Room A / Room B -- Lower 2 QR #38 (square area 144 vs 9 x 15: same perimeter), and QR9 #30 / #35
+side = 14; assert side * side == 196 and 4 * side == 56 == 2 * (10 + 18) and 10 * 18 == 180 < 196
+newp(1061, s9_topic(30),
+     'The floor of Room A is in the shape of a square and has an area of 196 feet&sup2;. The floor of Room B is in the shape of a rectangle and has a length of 18 feet and a width of 10 feet. Which statement correctly compares the floors in the two rooms?',
+     ['The area of the floor in Room A is the same as the area of the floor in Room B.',
+      'The area of the floor in Room A is less than the area of the floor in Room B.',
+      'The perimeter of the floor in Room A is equal to the perimeter of the floor in Room B.',
+      'The perimeter of the floor in Room A is less than the perimeter of the floor in Room B.'], 'C',
+     'Room A: 14 &times; 14 = 196, so each side is 14 and the perimeter is 4 &times; 14 = 56. Room B: area 18 &times; 10 = 180, perimeter 2 &times; (18 + 10) = 56. '
+     'The perimeters are equal; the areas are not (196 is more than 180). Check each statement against BOTH numbers.',
+     'Lower 2 QR #38 (and QR9 #30, #35)')
+
+# doubling-differences pattern -- Lower 1 MA #21 (2 3 5 9 17 -> 33)
+seq = [4, 5, 7, 11, 19]
+d = [b - a for a, b in zip(seq, seq[1:])]
+assert d == [1, 2, 4, 8] and seq[-1] + 16 == 35 and seq[-1] + 8 == 27 and seq[-1] + 4 == 23 and 19 * 2 == 38
+newp(1062, 'Numerical Patterns',
+     'Use the number pattern to answer the question.<div style="margin:6px 0;font-size:1.15rem;letter-spacing:2px">4 &nbsp; 5 &nbsp; 7 &nbsp; 11 &nbsp; 19 &nbsp; ___</div>What is the next number in the pattern?',
+     ['23', '27', '35', '38'], 'C',
+     'Write the differences: 1, 2, 4, 8. Each difference doubles, so the next one is 16: 19 + 16 = 35. '
+     'B adds 8 again. D doubles 19. A adds 4.',
+     'Lower 1 MA #21')
+
+# cube net, circles must end up OUTSIDE -- MA3 #27 (real Lower 3 #32, gid 151): she folded it with the circles inside
+def fold(cells, base):
+    """cells: set of (col,row) on the page, row going up. The drawn side faces the reader and becomes the OUTSIDE,
+    so faces fold away from the reader. Returns {cell: outward normal}."""
+    import numpy as np
+    frame = {base: (np.array([1, 0, 0]), np.array([0, 1, 0]), np.array([0, 0, 1]))}   # u (page right), v (page up), n (out)
+    todo = [base]
+    while todo:
+        c = todo.pop(); u, v, n = frame[c]
+        for (dc, dr), (nu, nv, nn) in (((1, 0), (-n, v, u)), ((-1, 0), (n, v, -u)), ((0, 1), (u, -n, v)), ((0, -1), (u, n, -v))):
+            k = (c[0] + dc, c[1] + dr)
+            if k in cells and k not in frame:
+                frame[k] = (nu, nv, nn); todo.append(k)
+    assert len(frame) == 6
+    normals = {tuple(f[2]) for f in frame.values()}
+    assert len(normals) == 6                      # a real cube net
+    return {k: f[2] for k, f in frame.items()}
+import numpy as np
+NET = {(1, 2), (0, 1), (1, 1), (2, 1), (3, 1), (1, 0)}
+NRM = fold(NET, (1, 1))
+TARGET = np.linalg.det(np.array([[0, 0, 1], [0, -1, 0], [1, 0, 0]]))     # yellow top, blue front, orange right
+def verdict(pl):     # pl: {'Y': cell, 'B': cell, 'O': cell}
+    m = np.array([NRM[pl[c]] for c in 'YBO'])
+    if any(abs(m[i] @ m[j]) > 0 for i, j in ((0, 1), (0, 2), (1, 2))): return 'opposite'
+    return 'ok' if round(np.linalg.det(m)) == round(TARGET) else 'mirror'
+CH = [{'Y': (2, 1), 'B': (1, 0), 'O': (3, 1)},     # A correct, not laid out like the picture
+      {'Y': (2, 1), 'B': (3, 1), 'O': (1, 0)},     # B mirror of A (blue/orange swapped): only works with the circles inside
+      {'Y': (2, 1), 'B': (1, 0), 'O': (0, 1)},     # C yellow and orange on opposite faces
+      {'Y': (1, 1), 'B': (2, 1), 'O': (1, 0)}]     # D looks like the picture but is the mirror
+assert [verdict(x) for x in CH] == ['ok', 'mirror', 'opposite', 'mirror'], [verdict(x) for x in CH]
+assert tuple(NRM[(1, 1)]) == (0, 0, 1) and tuple(NRM[(2, 1)]) == (1, 0, 0) and tuple(NRM[(1, 0)]) == (0, -1, 0) and tuple(NRM[(3, 1)]) == (0, 0, -1)
+COL = {'Y': ('#F2C230', 'Y'), 'B': ('#3B7DDD', 'B'), 'O': ('#F08A24', 'O')}
+def net_svg(pl, u=26):
+    b = ''
+    for (c, r) in NET:
+        x, y = 4 + c * u, 4 + (2 - r) * u
+        b += f'<rect x="{x}" y="{y}" width="{u}" height="{u}" fill="none" {SW}/>'
+    for col, (c, r) in pl.items():
+        x, y = 4 + c * u + u / 2, 4 + (2 - r) * u + u / 2
+        b += f'<circle cx="{x}" cy="{y}" r="8" fill="{COL[col][0]}" stroke="currentColor" stroke-width="1"/>' + f'<text x="{x}" y="{y+3.5}" font-size="9" text-anchor="middle" fill="#111">{COL[col][1]}</text>'
+    return svg(4 * u + 8, 3 * u + 8, b)
+def cube_svg():
+    s, d, x, y = 80, 30, 10, 40
+    b = (f'<rect x="{x}" y="{y}" width="{s}" height="{s}" fill="none" {SW}/>'
+         f'<polygon points="{x},{y} {x+d},{y-d} {x+s+d},{y-d} {x+s},{y}" fill="none" {SW}/>'
+         f'<polygon points="{x+s},{y} {x+s+d},{y-d} {x+s+d},{y+s-d} {x+s},{y+s}" fill="none" {SW}/>')
+    for (cx, cy, rx, ry, k) in ((x + s/2, y + s/2, 14, 14, 'B'), (x + s/2 + d/2, y - d/2, 13, 6, 'Y'), (x + s + d/2, y + s/2 - d/2, 6, 13, 'O')):
+        b += f'<ellipse cx="{cx}" cy="{cy}" rx="{rx}" ry="{ry}" fill="{COL[k][0]}" stroke="currentColor" stroke-width="1"/><text x="{cx}" y="{cy+4}" font-size="10" text-anchor="middle" fill="#111">{k}</text>'
+    return svg(s + d + 24, s + d + 14, b)
+newp(898, '3D shape from its net (unfolding a solid)',
+     'A cube has three colored circles drawn on it: yellow (Y) on top, blue (B) on the front, and orange (O) on the right side. Which diagram could be folded to make this cube, if the colored circles are on the OUTSIDE of the cube and cannot be seen from the other side?',
+     [net_svg(x) for x in CH], 'A',
+     'Fold the net so the drawn side stays on the outside: the squares fold AWAY from you. '
+     'In A, use the empty middle square as the top. Yellow folds down to become the right side, blue folds down to become the front, and orange (at the end of the row) wraps under to become the bottom. '
+     'Now tip the cube to the left so the right side comes up: yellow is on top, blue is still in front, and orange (the bottom) comes around to the right. That is the cube. '
+     'B swaps blue and orange: it makes the mirror cube, which only works if the circles end up INSIDE (her MA3 #27 fold). '
+     'C puts yellow and orange two squares apart in the row, so they are opposite faces and never touch. D is laid out like the picture but is also the mirror, so it fails the same way as B.',
+     'MA3 #27 (real Lower 3 #32, gid 151)', diagram=cube_svg())
+
+REPL = {1501: 1501, 1054: 1054, 1061: 1061, 1062: 1062, 898: 898}
+slots_new = [i for i, p in enumerate(final) if p.get('gid') in REPL]
+assert len(slots_new) == 5
+def place(perm):
+    out = list(final)
+    for i, g in zip(slots_new, perm): out[i] = NEW[g]
+    return out
+final = next(place(pm) for pm in itertools.permutations(list(NEW)) if ok(place(pm)))
+for p in final:
+    if 'Omar' in p['q']:
+        p['key'] = p['key'].replace('which means by 3 AND by 5.', 'which means by 3 AND by 5 (the same way 12 means by 3 AND by 4).')
+        assert '12 means by 3 AND by 4' in p['key']
+L = [p['correct'] for p in final]
+cnt = Counter(L)
+assert len(final) == 30 and max(cnt.values()) - min(cnt.values()) <= 1, cnt
+assert not any(p.get('gid') in (1501, 1054, 1061, 1062, 898) for p in final)
 
 P = []
 for i, p in enumerate(final):
