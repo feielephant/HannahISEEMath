@@ -289,13 +289,13 @@
   "q": "Max has two equal-sized buckets of sand. The first bucket is <span class=\"frac\"><span class=\"n\">n</span><span class=\"d\">8</span></span> full. The second bucket is <span class=\"frac\"><span class=\"n\">1</span><span class=\"d\">3</span></span> full. The sand from the first bucket is poured into the second bucket. Which statement best describes the amount of sand once the buckets are combined?",
   "diagram": "",
   "choices": {
-   "A": "If n = 2, then the amount of sand is less than <span class=\"frac\"><span class=\"n\">1</span><span class=\"d\">2</span></span> of a bucket.",
-   "B": "If n = 3, then the amount of sand is less than <span class=\"frac\"><span class=\"n\">3</span><span class=\"d\">4</span></span> of a bucket.",
+   "A": "If n = 1, then the amount of sand is less than <span class=\"frac\"><span class=\"n\">1</span><span class=\"d\">3</span></span> of a bucket.",
+   "B": "If n = 2, then the amount of sand is less than <span class=\"frac\"><span class=\"n\">1</span><span class=\"d\">2</span></span> of a bucket.",
    "C": "If n = 5, then the sand will not all fit in 1 bucket.",
-   "D": "If n = 6, then the amount of sand is less than 1 bucket."
+   "D": "If n = 6, then the sand will not all fit in 1 bucket."
   },
-  "correct": "B",
-  "key": "<b>Answer: B.</b> Use 24ths: 1/3 = 8/24 and n/8 = 3n/24. n = 2: 14/24, more than 12/24, so A is false. n = 3: 17/24, less than 18/24 = 3/4, so B is true. n = 5: 23/24, which fits, so C is false. n = 6: 26/24, more than 1 bucket, so D is false.",
+  "correct": "D",
+  "key": "<b>Answer: D.</b> Use 24ths: 1/3 = 8/24 and n/8 = 3n/24. n = 1: 11/24, more than 8/24, so A is false (the second bucket alone is already 1/3). n = 2: 14/24, more than 12/24, so B is false. n = 5: 23/24, which still fits, so C is false. n = 6: 26/24, more than 1 bucket, so D is true.",
   "ref": "Follows QR9 #34 &middot; New problem",
   "gid": null
  },

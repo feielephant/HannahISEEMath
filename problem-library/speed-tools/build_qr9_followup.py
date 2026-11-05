@@ -187,14 +187,16 @@ add('The length of AC is x. The length of BD is y. The length of AD is 15. What 
 
 # 18 -- #34: equal-difficulty jug problem
 def tot(n): return F(n, 8) + F(1, 3)
-assert not tot(2) < F(1, 2) and tot(3) < F(3, 4) and tot(5) <= 1 and not tot(6) < 1
+# same four statement types as QR9 #34 / Lower 2 #36: two "less than" (false), two "will not all fit" (only the bigger n true)
+truth = [tot(1) < F(1, 3), tot(2) < F(1, 2), tot(5) > 1, tot(6) > 1]
+assert truth == [False, False, False, True]
 add('Max has two equal-sized buckets of sand. The first bucket is <span class="frac"><span class="n">n</span><span class="d">8</span></span> full. The second bucket is <span class="frac"><span class="n">1</span><span class="d">3</span></span> full. The sand from the first bucket is poured into the second bucket. Which statement best describes the amount of sand once the buckets are combined?',
-    ['If n = 2, then the amount of sand is less than <span class="frac"><span class="n">1</span><span class="d">2</span></span> of a bucket.',
-     'If n = 3, then the amount of sand is less than <span class="frac"><span class="n">3</span><span class="d">4</span></span> of a bucket.',
+    ['If n = 1, then the amount of sand is less than <span class="frac"><span class="n">1</span><span class="d">3</span></span> of a bucket.',
+     'If n = 2, then the amount of sand is less than <span class="frac"><span class="n">1</span><span class="d">2</span></span> of a bucket.',
      'If n = 5, then the sand will not all fit in 1 bucket.',
-     'If n = 6, then the amount of sand is less than 1 bucket.'], 'B',
-    'Use 24ths: 1/3 = 8/24 and n/8 = 3n/24. n = 2: 14/24, more than 12/24, so A is false. n = 3: 17/24, less than 18/24 = 3/4, so B is true. '
-    'n = 5: 23/24, which fits, so C is false. n = 6: 26/24, more than 1 bucket, so D is false.',
+     'If n = 6, then the sand will not all fit in 1 bucket.'], 'D',
+    'Use 24ths: 1/3 = 8/24 and n/8 = 3n/24. n = 1: 11/24, more than 8/24, so A is false (the second bucket alone is already 1/3). '
+    'n = 2: 14/24, more than 12/24, so B is false. n = 5: 23/24, which still fits, so C is false. n = 6: 26/24, more than 1 bucket, so D is true.',
     34)
 
 # 19, 20 -- #35: perimeter and area together (real)
