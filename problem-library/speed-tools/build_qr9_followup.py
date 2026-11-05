@@ -34,12 +34,15 @@ def outside_edges(cells):
     return sum((r+dr, c+dc) not in s for r, c in s for dr, dc in ((1,0),(-1,0),(0,1),(0,-1)))
 
 # 1 -- #1: same rectangle build, but this time it asks for the NEW length, not the increase
-other = 26 // 2 - 8
-assert other == 5 and other * 3 == 15
-add('Nina builds picture frames. The first rectangular frame she builds has a perimeter of 26 inches. The length of one of the sides is shown. If the unknown side length of the next frame she builds is tripled, what will the unknown side length of the next frame be?',
-    ['5', '10', '13', '15'], 'D',
-    'Two sides of 8 use 16 inches, so the other two sides share 26 &minus; 16 = 10, and the unknown side is 5. Tripled, it is 15. '
-    'This time the question asks for the new length, not the increase. B (10) is the increase. A is the side before tripling. C is half the perimeter.',
+short = 26 // 2 - 8                 # the shown 8 is the longer side; the shorter side is 5
+long2 = 2 * short                   # next frame: longer side is 2 times the shorter side
+assert short == 5 and long2 == 10 and 2 * (short + long2) == 30 and short + long2 == 15 and 2 * (short + 2 * 8) != 30
+add('Nina builds picture frames. The first rectangular frame she builds has a perimeter of 26 inches. The length of one of the sides is shown. '
+    'For her next frame, she keeps the shorter side the same length, but the longer side is 2 times as long as the shorter side. What is the perimeter of the next frame?',
+    ['10 inches', '15 inches', '26 inches', '30 inches'], 'D',
+    'Two sides of 8 use 16 inches, so the other two sides share 26 &minus; 16 = 10, and each is 5. So 8 is the longer side and 5 is the shorter side. '
+    'In the next frame the shorter side stays 5 and the longer side is 2 &times; 5 = 10 (2 times the SHORTER side, not 2 times 8). Perimeter: 2 &times; (5 + 10) = 30. '
+    'A is the new longer side. B is one length plus one width. C is the first frame. Read which side is 2 times which before calculating.',
     1, rect_q(150, 70, '8', '?'))
 
 # 2 -- #3: bigger table, Jun/Jul and Mar/May next to each other
