@@ -1420,7 +1420,8 @@
    "real_verbatim_ma_library": [
     "Which expression is equal to 8 \u00d7 (6 + 3) \u2212 4?"
    ],
-   "published_commit": "2520ee997788f62c0a6d91330570e99621a0ccfd"
+   "published_commit": "cc8b2162dba00f9996d861e77f8b2ceb2eba59ae",
+   "change_after_publish_1_2026-11-05": "#1 rewritten at parent request: no tripling; next frame keeps the shorter side and the longer side is 2 times the shorter side; asks the new perimeter (30). Needs careful reading of which side is 2 times which."
   }
  ],
  "ma_notes": {
