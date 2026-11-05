@@ -49,14 +49,17 @@ add('Nina builds picture frames. The first rectangular frame she builds has a pe
 # 2 -- #3: bigger table, Jun/Jul and Mar/May next to each other
 months = ['Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct']
 names = ['Rosa', 'Sam', 'Tess', 'Uma', 'Vic']
-D = {'Mar': [14,11,9,16,12], 'Apr': [17,15,12,10,18], 'May': [21,13,17,19,15], 'Jun': [18,22,11,20,16],
+D = {'Mar': [14,11,17,16,12], 'Apr': [17,15,16,10,18], 'May': [21,13,17,19,15], 'Jun': [18,22,11,20,16],
      'Jul': [26,19,14,23,21], 'Aug': [23,16,19,15,24], 'Sep': [15,20,13,18,14], 'Oct': [12,17,10,13,19]}
 def dif(ms): return sum(D[m][0] for m in ms) - sum(D[m][2] for m in ms)
-assert dif(['Mar','Jun','Aug']) == 16 and dif(['May','Jun','Aug']) == 15 and dif(['Mar','Jun','Apr']) == 17 and dif(['Mar','Jul','Aug']) == 21
+assert [D[m][0] - D[m][2] for m in ('Mar','Jun','Aug')] == [-3, 7, 4]      # Tess ran more in March
+assert dif(['Mar','Jun','Aug']) == 8 and dif(['Mar','Jun','Apr']) == 5 and dif(['Mar','Jul','Aug']) == 13
+assert sum(abs(D[m][0] - D[m][2]) for m in ('Mar','Jun','Aug')) == 14
 add('The table shows the number of miles five friends ran each month. How many more miles did Rosa run than Tess in March, June, and August combined?',
-    ['15', '16', '17', '21'], 'B',
-    'Rosa: 14 + 18 + 23 = 55. Tess: 9 + 11 + 19 = 39. 55 &minus; 39 = 16. '
-    'A reads May instead of March. C reads April instead of August (her Lower 5 mix-up). D reads July instead of June. Put a finger on each month name before reading across.',
+    ['5', '8', '13', '14'], 'B',
+    'Rosa: 14 + 18 + 23 = 55. Tess: 17 + 11 + 19 = 47. 55 &minus; 47 = 8. '
+    'Month by month works too, but watch March: Tess ran MORE (17 vs 14), so March counts as &minus;3: &minus;3 + 7 + 4 = 8. '
+    'D adds 3 + 7 + 4, treating March as if Rosa ran more. A reads April instead of August (her Lower 5 mix-up). C reads July instead of June.',
     3, table(['Month'] + names, [[m] + D[m] for m in months], 'MILES RUN'))
 
 # 3 -- #5: addition WITH carrying this time

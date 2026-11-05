@@ -17,15 +17,15 @@
  {
   "n": 2,
   "q": "The table shows the number of miles five friends ran each month. How many more miles did Rosa run than Tess in March, June, and August combined?",
-  "diagram": "<div style=\"font-weight:600;margin-bottom:4px\">MILES RUN</div><table class=\"data\"><tr><th>Month</th><th>Rosa</th><th>Sam</th><th>Tess</th><th>Uma</th><th>Vic</th></tr><tr><td>Mar</td><td>14</td><td>11</td><td>9</td><td>16</td><td>12</td></tr><tr><td>Apr</td><td>17</td><td>15</td><td>12</td><td>10</td><td>18</td></tr><tr><td>May</td><td>21</td><td>13</td><td>17</td><td>19</td><td>15</td></tr><tr><td>Jun</td><td>18</td><td>22</td><td>11</td><td>20</td><td>16</td></tr><tr><td>Jul</td><td>26</td><td>19</td><td>14</td><td>23</td><td>21</td></tr><tr><td>Aug</td><td>23</td><td>16</td><td>19</td><td>15</td><td>24</td></tr><tr><td>Sep</td><td>15</td><td>20</td><td>13</td><td>18</td><td>14</td></tr><tr><td>Oct</td><td>12</td><td>17</td><td>10</td><td>13</td><td>19</td></tr></table>",
+  "diagram": "<div style=\"font-weight:600;margin-bottom:4px\">MILES RUN</div><table class=\"data\"><tr><th>Month</th><th>Rosa</th><th>Sam</th><th>Tess</th><th>Uma</th><th>Vic</th></tr><tr><td>Mar</td><td>14</td><td>11</td><td>17</td><td>16</td><td>12</td></tr><tr><td>Apr</td><td>17</td><td>15</td><td>16</td><td>10</td><td>18</td></tr><tr><td>May</td><td>21</td><td>13</td><td>17</td><td>19</td><td>15</td></tr><tr><td>Jun</td><td>18</td><td>22</td><td>11</td><td>20</td><td>16</td></tr><tr><td>Jul</td><td>26</td><td>19</td><td>14</td><td>23</td><td>21</td></tr><tr><td>Aug</td><td>23</td><td>16</td><td>19</td><td>15</td><td>24</td></tr><tr><td>Sep</td><td>15</td><td>20</td><td>13</td><td>18</td><td>14</td></tr><tr><td>Oct</td><td>12</td><td>17</td><td>10</td><td>13</td><td>19</td></tr></table>",
   "choices": {
-   "A": "15",
-   "B": "16",
-   "C": "17",
-   "D": "21"
+   "A": "5",
+   "B": "8",
+   "C": "13",
+   "D": "14"
   },
   "correct": "B",
-  "key": "<b>Answer: B.</b> Rosa: 14 + 18 + 23 = 55. Tess: 9 + 11 + 19 = 39. 55 &minus; 39 = 16. A reads May instead of March. C reads April instead of August (her Lower 5 mix-up). D reads July instead of June. Put a finger on each month name before reading across.",
+  "key": "<b>Answer: B.</b> Rosa: 14 + 18 + 23 = 55. Tess: 17 + 11 + 19 = 47. 55 &minus; 47 = 8. Month by month works too, but watch March: Tess ran MORE (17 vs 14), so March counts as &minus;3: &minus;3 + 7 + 4 = 8. D adds 3 + 7 + 4, treating March as if Rosa ran more. A reads April instead of August (her Lower 5 mix-up). C reads July instead of June.",
   "ref": "Follows QR9 #3 &middot; New problem",
   "gid": null
  },
