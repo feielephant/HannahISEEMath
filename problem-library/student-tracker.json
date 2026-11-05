@@ -1440,13 +1440,15 @@
    "wrong": 1,
    "graded": 2,
    "habits": [],
-   "priority": "high",
+   "priority": "low",
    "real_tests": 0,
    "real_tests_note": "No item in What to Expect or ISEE Lower #1-5; only the 5-problem platform drill, gid 1447-1451.",
    "evidence_2026-11-01": "MA3 #22 wrong 10/30: picked y = -5x + 30, changed to y = 5x - 30, correct y = 5x + 30. Mechanism not diagnosed. Parent asked for this topic in Set 9.",
    "_sec_total": 22.0,
    "_sec_n": 1,
-   "avg_seconds": 22.0
+   "avg_seconds": 22.0,
+   "priority_before_2026-11-05": "high",
+   "parent_read_2026-11-05": "QR9 #7 right by a guess; she does not know how to do it. Parent thinks writing a line equation from a graph may be beyond ISEE Lower. Library check: only in a platform drill (gid 1450 family), never in What to Expect or Lower 1-5. Do not schedule; keep out of QR/MA sets unless it shows up on a real test."
   }
  ],
  "pacing": {

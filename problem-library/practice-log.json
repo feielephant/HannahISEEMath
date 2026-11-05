@@ -1120,7 +1120,10 @@
       17,
       24
      ]
-    }
+    },
+    "correct_by_guess": [
+     7
+    ]
    },
    "scratch_paper_2026-11-03": {
     "source": "Google Drive My Drive/Hannahisee/Scanned_20261103-2131.pdf (4 pages). Page 1 is mostly QR9; pages 2-4 are mostly other work (expressions, phone numbers, sums not in QR9).",
@@ -1162,7 +1165,8 @@
     "34": "Guessed and verified. Similar problem or equal difficulty.",
     "35": "Mixed perimeter with area again.",
     "37": "Knew to find divisible by 12, but needs the reminder that 12 means by 3 and by 4. Good multi-level problem: \"Nora and 11 others\" = 12, then divisibility by 12.",
-    "38": "Calculation slow; redo right."
+    "38": "Calculation slow; redo right.",
+    "7": "Guessed; does not know how to do it (scored right by luck). Parent thinks it may be beyond ISEE; topic set to low priority."
    },
    "followup_2026-11-05": {
     "page": "worksheets/qr9-followup.html",
