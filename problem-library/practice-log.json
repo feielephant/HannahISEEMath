@@ -1406,7 +1406,6 @@
    "builder": "speed-tools/build_ma4.py",
    "notes": "Parent: the 23 QR9 follow-up problems (from the 11/4 review with Hannah) plus 7 built on earlier real-test last-third misses (Lower 5 MA #29 counting multiples, Lower 2 MA #26 distributive, Lower 2 MA #29 classification with 2 is prime, Lower 3 #31 value of digits, Lower 4 #36 cube scaling, Lower 1 #33 parentheses in a story, Lower 1 MA #25 remaining amount). Replaces giving qr9-followup.html separately (same 23 problems). 30 problems, 30 minutes.",
    "real_verbatim_qr_library": [
-    978,
     1060,
     1497,
     1136,
@@ -1422,7 +1421,8 @@
    "change_after_publish_4_2026-11-05": "#3: choice A changed from 1 to 8 at parent request (choices now 8, 4, 5, 7; answer still D = 7).",
    "change_after_publish_5_2026-11-05": "#26 rebuilt to the same four statement types as QR9 #34 (n = 1 less than 1/3, n = 2 less than 1/2, n = 5 will not fit, n = 6 will not fit); answer D. The earlier version (answer B) mixed in a different statement type.",
    "change_after_publish_6_2026-11-05": "Parent-approved swap of 5 duplicate slots for 5 real-test gaps, each matching the difficulty of the real problem she missed: #11 Ted (gid 1501) -> votes prediction (Lower 2 QR #34, QR9 #31); #17 Tabitha (gid 1054) -> triangle area vs height (Lower 2 MA #30); #22 square 1061 -> Room A/B area vs perimeter (Lower 2 QR #38, QR9 #30/#35); #25 square 1062 -> pattern 4 5 7 11 19 with doubling differences (Lower 1 MA #21); #29 divisible by 3 and 4 (gid 898) -> cube net with circles outside (MA3 #27 / real Lower 3 #32), reminder moved into #30 key. Not done for lack of clean slots (next set): estimating a decimal sum (Lower 2 MA #27), x3 pattern (Lower 3 MA #21), statistical question (Lower 5 MA #30). Freed real items 1501, 1054, 1061, 1062, 898 are unused again.",
-   "change_after_publish_7_2026-11-05": "#29 rebuilt to match the real Lower 3 #32 difficulty (parent: the earlier net needed folding around a corner plus turning the cube, harder than real, and hard to follow): correct net has the front and right circles both touching the top circle's square; all four nets tilted 45 degrees like the real diamond nets; new colors (red top, green front, purple right) so it is not MA3 #27's cube; question wording back to the real sentence. Traps: B swapped (mirror, circles inside), C opposite faces, D right circle on the left. Answer A."
+   "change_after_publish_7_2026-11-05": "#29 rebuilt to match the real Lower 3 #32 difficulty (parent: the earlier net needed folding around a corner plus turning the cube, harder than real, and hard to follow): correct net has the front and right circles both touching the top circle's square; all four nets tilted 45 degrees like the real diamond nets; new colors (red top, green front, purple right) so it is not MA3 #27's cube; question wording back to the real sentence. Traps: B swapped (mirror, circles inside), C opposite faces, D right circle on the left. Answer A.",
+   "change_after_publish_8_2026-11-05": "#4 replaced at parent request: gid 978 (67-85 by 4) was word for word MA3 #18 and her shortcut answer 4 was not a choice. Now 'How many numbers between 56 and 76 are divisible by 3?' (answer 7, C), built like Lower 5 MA #29; her shortcut (76-56)/3 = 6.67 -> 6 is choice B. Rounding up would give 7, so this catches dropping the decimal specifically. gid 978 is unused again."
   }
  ],
  "ma_notes": {

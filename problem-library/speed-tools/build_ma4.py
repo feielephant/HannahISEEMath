@@ -36,11 +36,17 @@ def extra(topic, q, ch, ans, key, built_on, diagram='', gid=None, ma_idx=None):
                       topic=topic, gid=gid, ma_idx=ma_idx, ref=ref(topic, f'Built on her real-test miss: {built_on}', src)))
 
 # E1 counting multiples (Lower 5 MA #29 wrong; QR9 #36 wrong again with the (end - start) / divisor shortcut)
-mult = [n for n in range(68, 85) if n % 4 == 0]
-assert mult == [68, 72, 76, 80, 84] and (85 - 67) // 4 == 4
-extra('Counting Multiples within a Range', LIB[978]['question_text'], ['2', '3', '5', '7'], 'C',
-      'List them: 68, 72, 76, 80, 84, so 5. The shortcut (85 &minus; 67) &divide; 4 = 4.5 &rarr; 4 is wrong; write the first and last multiple, then count.',
-      'Lower 5 MA #29; QR9 #36', gid=978)
+# Changed 11/5 (parent): gid 978 was word for word MA3 #18 and its shortcut answer 4 was not a choice.
+# Now built like Lower 5 MA #29 (by 3, range of 20): her shortcut (end - start) / 3 with the decimal
+# dropped gives 6, which is choice B.
+mult = [n for n in range(57, 76) if n % 3 == 0]
+assert mult == [57, 60, 63, 66, 69, 72, 75] and len(mult) == 7
+assert (76 - 56) // 3 == 6 and 6 != len(mult)
+extra('Counting Multiples within a Range', 'How many numbers between 56 and 76 are divisible by 3?', ['5', '6', '7', '8'], 'C',
+      'List them: 57, 60, 63, 66, 69, 72, 75, so 7. The shortcut (76 &minus; 56) &divide; 3 = 6.67 &rarr; 6 is wrong (B). '
+      'Write the first multiple (57) and the last (75), then count: (75 &minus; 57) &divide; 3 + 1 = 7. '
+      'A drops both ends. D counts 8 by going one past 75.',
+      'Lower 5 MA #29; QR9 #36')
 
 # E2 distributive (Lower 2 MA #26 wrong; parent taught the distributive method on 11/4)
 assert 8 * (6 + 3) - 4 == 68 == (8*6) + (8*3) - 4 and (8*6) + (8*3) != 68 and (8*6 + 3) - 4 != 68

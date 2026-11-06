@@ -57,18 +57,18 @@
   "n": 4,
   "tier": "Hard",
   "topic": "Counting Multiples within a Range",
-  "q": "How many numbers between 67 and 85 are divisible by 4?",
+  "q": "How many numbers between 56 and 76 are divisible by 3?",
   "choices": {
-   "A": "2",
-   "B": "3",
-   "C": "5",
-   "D": "7"
+   "A": "5",
+   "B": "6",
+   "C": "7",
+   "D": "8"
   },
   "correct": "C",
-  "key": "<b>Answer: C.</b> List them: 68, 72, 76, 80, 84, so 5. The shortcut (85 &minus; 67) &divide; 4 = 4.5 &rarr; 4 is wrong; write the first and last multiple, then count.",
-  "ref": "Tier: Hard &middot; Topic: Counting Multiples within a Range &middot; Built on her real-test miss: Lower 5 MA #29; QR9 #36 &middot; Real item used verbatim (gid 978)",
+  "key": "<b>Answer: C.</b> List them: 57, 60, 63, 66, 69, 72, 75, so 7. The shortcut (76 &minus; 56) &divide; 3 = 6.67 &rarr; 6 is wrong (B). Write the first multiple (57) and the last (75), then count: (75 &minus; 57) &divide; 3 + 1 = 7. A drops both ends. D counts 8 by going one past 75.",
+  "ref": "Tier: Hard &middot; Topic: Counting Multiples within a Range &middot; Built on her real-test miss: Lower 5 MA #29; QR9 #36 &middot; New problem",
   "diagram": "",
-  "gid": 978,
+  "gid": null,
   "ma_idx": null
  },
  {
