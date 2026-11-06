@@ -398,18 +398,18 @@
  {
   "n": 23,
   "tier": "Hard",
-  "topic": "Split Line Segments",
-  "q": "The length of AC is x. The length of BD is y. The length of AD is 15. What is the length of BC?",
+  "topic": "Data Collection & Random Sampling",
+  "q": "The table shows some of the characteristics and data gathered by a scientist about a particular type of bird. Which question is NOT a valid statistical question based on the data in the table?",
   "choices": {
-   "A": "x &minus; (15 &minus; y)",
-   "B": "15 &minus; x &minus; y",
-   "C": "x &minus; 15 &minus; y",
-   "D": "x + y + 15"
+   "A": "How many toes did each bird have?",
+   "B": "How long was each bird&rsquo;s wing?",
+   "C": "What mass did each bird have?",
+   "D": "What was the ratio of mass to wing length for each bird?"
   },
   "correct": "A",
-  "key": "<b>Answer: A.</b> AC and BD together cover all of AD plus BC a second time, so x + y = 15 + BC and BC = x + y &minus; 15. A is the same thing: x &minus; (15 &minus; y) = x &minus; 15 + y, because the minus in front of the parentheses flips &minus;y to +y. C removes the parentheses without flipping the sign. Check with A = 0, B = 4, C = 9, D = 15: x = 9, y = 11, BC = 5, and A gives 9 &minus; 4 = 5.",
-  "ref": "Tier: Hard &middot; Topic: Split Line Segments &middot; Follows QR9 #27 (parent review 11/4) &middot; New problem",
-  "diagram": "<svg viewBox=\"0 0 312 34\" width=\"312\" height=\"34\" role=\"img\"><line x1=\"14\" y1=\"24\" x2=\"296\" y2=\"24\" stroke=\"currentColor\" stroke-width=\"2\"/><circle cx=\"14\" cy=\"24\" r=\"4\" fill=\"currentColor\"/><text x=\"14\" y=\"14\" font-size=\"14\" text-anchor=\"middle\" fill=\"currentColor\">A</text><circle cx=\"80\" cy=\"24\" r=\"4\" fill=\"currentColor\"/><text x=\"80\" y=\"14\" font-size=\"14\" text-anchor=\"middle\" fill=\"currentColor\">B</text><circle cx=\"214\" cy=\"24\" r=\"4\" fill=\"currentColor\"/><text x=\"214\" y=\"14\" font-size=\"14\" text-anchor=\"middle\" fill=\"currentColor\">C</text><circle cx=\"296\" cy=\"24\" r=\"4\" fill=\"currentColor\"/><text x=\"296\" y=\"14\" font-size=\"14\" text-anchor=\"middle\" fill=\"currentColor\">D</text></svg>",
+  "key": "<b>Answer: A.</b> A statistical question has answers that VARY, so you would need to collect data to answer it. Wing length (11 to 14 cm) and mass (18 to 30 g) are different for each bird, so B and C are statistical, and D is too, because it is built from those two. Every bird has 4 toes, so A has only one answer: it is not a statistical question. Look for the odd one out: B, C and D all come from numbers that change.",
+  "ref": "Tier: Hard &middot; Topic: Data Collection & Random Sampling &middot; Built on her real-test miss: Lower 5 MA #30, same difficulty, new data &middot; New problem",
+  "diagram": "<div style=\"font-weight:600;margin-bottom:4px\">BIRD DATA</div><table class=\"data\"><tr><th>Characteristic</th><th>Data</th></tr><tr><td>Wing length</td><td>11 to 14 (cm)</td></tr><tr><td>Mass</td><td>18 to 30 (g)</td></tr><tr><td>Number of wings</td><td>2</td></tr><tr><td>Number of toes</td><td>4</td></tr></table>",
   "gid": null,
   "ma_idx": null
  },

@@ -259,6 +259,27 @@ for p in final:
     if 'Omar' in p['q']:
         p['key'] = p['key'].replace('which means by 3 AND by 5.', 'which means by 3 AND by 5 (the same way 12 means by 3 AND by 4).')
         assert '12 means by 3 AND by 4' in p['key']
+# Changed 11/5 (parent): #23 (overlapping segments) duplicated #21's skill and was harder than QR9 #27.
+# Replaced by a statistical question built like Lower 5 MA #30 (bug table, "How many legs" is NOT statistical):
+# same table shape (two ranges, two fixed numbers), same four question types, answer kept at A.
+bird = [('Wing length', '11 to 14 (cm)'), ('Mass', '18 to 30 (g)'), ('Number of wings', '2'), ('Number of toes', '4')]
+varies = {k: (' to ' in v) for k, v in bird}
+assert varies == {'Wing length': True, 'Mass': True, 'Number of wings': False, 'Number of toes': False}
+STAT = dict(q='The table shows some of the characteristics and data gathered by a scientist about a particular type of bird. Which question is NOT a valid statistical question based on the data in the table?',
+            diagram=table(['Characteristic', 'Data'], [[k, v] for k, v in bird], 'BIRD DATA'),
+            choices=dict(A='How many toes did each bird have?', B='How long was each bird&rsquo;s wing?',
+                         C='What mass did each bird have?', D='What was the ratio of mass to wing length for each bird?'),
+            correct='A',
+            key='<b>Answer: A.</b> A statistical question has answers that VARY, so you would need to collect data to answer it. '
+                'Wing length (11 to 14 cm) and mass (18 to 30 g) are different for each bird, so B and C are statistical, and D is too, because it is built from those two. '
+                'Every bird has 4 toes, so A has only one answer: it is not a statistical question. '
+                'Look for the odd one out: B, C and D all come from numbers that change.',
+            topic='Data Collection & Random Sampling', gid=None, ma_idx=None,
+            ref=ref('Data Collection & Random Sampling', 'Built on her real-test miss: Lower 5 MA #30, same difficulty, new data', 'New problem'))
+idx23 = [i for i, p in enumerate(final) if p['q'].startswith('The length of AC is x.')]
+assert len(idx23) == 1 and final[idx23[0]]['correct'] == 'A'
+final[idx23[0]] = STAT
+assert sum('The length of AD is 15.' in p['q'] for p in final) == 1   # #21 stays
 L = [p['correct'] for p in final]
 cnt = Counter(L)
 assert len(final) == 30 and max(cnt.values()) - min(cnt.values()) <= 1, cnt

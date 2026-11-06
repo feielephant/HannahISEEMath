@@ -1400,7 +1400,8 @@
     "Word Problems with Ratios",
     "Matching Stories to Equations",
     "3D shape from its net (unfolding a solid)",
-    "No Remainder when Divided by a given Number"
+    "No Remainder when Divided by a given Number",
+    "Data Collection & Random Sampling"
    ],
    "built": "2026-11-05",
    "builder": "speed-tools/build_ma4.py",
@@ -1423,7 +1424,8 @@
    "change_after_publish_8_2026-11-05": "#4 replaced at parent request: gid 978 (67-85 by 4) was word for word MA3 #18 and her shortcut answer 4 was not a choice. Now 'How many numbers between 56 and 76 are divisible by 3?' (answer 7, C), built like Lower 5 MA #29; her shortcut (76-56)/3 = 6.67 -> 6 is choice B. Rounding up would give 7, so this catches dropping the decimal specifically. gid 978 is unused again.",
    "change_after_publish_9_2026-11-05": "#8 changed at parent request to 'Which expression is equal to 36 - 8 x (6 - 3)?' (answer D: 36 - (8 x 6 - 8 x 3) = 12). Traps: A (36 - 8) x (6 - 3) subtract first; B multiplies only the 6; C flips the inside minus to +. The ma_library ORDER OF OPS #3 item is unused again.",
    "change_after_publish_10_2026-11-05": "#19 names changed at parent request: Kai, Hannah, Natalie, Sophia (was Kai, Lila, Max, Nia). Same values; answer A = Kai, Sophia, Hannah, Natalie.",
-   "change_after_publish_11_2026-11-05": "#8 choices set by parent: D = 36 - 8 x 6 + 8 x 3 (correct, 12), A = 36 - 8 x 6 - 8 x 3 (sign not flipped). Old C (same value as new A) dropped; (36 - 8) x (6 - 3) moved to C. #25 now asks the 7th number of 4, 5, 7, 11, 19, ... with no blanks shown (answer 67, C); traps 35 = 6th, 51 = adds 16 again, 70 = doubles 35."
+   "change_after_publish_11_2026-11-05": "#8 choices set by parent: D = 36 - 8 x 6 + 8 x 3 (correct, 12), A = 36 - 8 x 6 - 8 x 3 (sign not flipped). Old C (same value as new A) dropped; (36 - 8) x (6 - 3) moved to C. #25 now asks the 7th number of 4, 5, 7, 11, 19, ... with no blanks shown (answer 67, C); traps 35 = 6th, 51 = adds 16 again, 70 = doubles 35.",
+   "change_after_publish_12_2026-11-05": "#23 (overlapping segments AC/BD, same skill as #21 and harder than QR9 #27) replaced at parent request by a statistical question built like Lower 5 MA #30: BIRD DATA table (wing length 11-14 cm, mass 18-30 g, wings 2, toes 4); NOT statistical = 'How many toes did each bird have?' (A). Same four question types as the real item. #21 keeps the minus-in-front-of-parentheses practice."
   }
  ],
  "ma_notes": {
