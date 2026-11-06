@@ -200,6 +200,8 @@ CH = [{'Y': (2, 1), 'B': (1, 0), 'O': (3, 1)},     # A correct, not laid out lik
       {'Y': (2, 1), 'B': (1, 0), 'O': (0, 1)},     # C yellow and orange on opposite faces
       {'Y': (1, 1), 'B': (2, 1), 'O': (1, 0)}]     # D looks like the picture but is the mirror
 assert [verdict(x) for x in CH] == ['ok', 'mirror', 'opposite', 'mirror'], [verdict(x) for x in CH]
+# clockwise claim in the key: picture (Y top, O right, B front) and folded A (Y right, O bottom, B front) share the corner order; D is reversed
+assert round(np.linalg.det(np.array([[0,0,1],[1,0,0],[0,-1,0]]))) == round(np.linalg.det(np.array([[1,0,0],[0,0,-1],[0,-1,0]]))) == -round(np.linalg.det(np.array([[0,0,1],[0,-1,0],[1,0,0]])))
 assert tuple(NRM[(1, 1)]) == (0, 0, 1) and tuple(NRM[(2, 1)]) == (1, 0, 0) and tuple(NRM[(1, 0)]) == (0, -1, 0) and tuple(NRM[(3, 1)]) == (0, 0, -1)
 COL = {'Y': ('#F2C230', 'Y'), 'B': ('#3B7DDD', 'B'), 'O': ('#F08A24', 'O')}
 def net_svg(pl, u=26):
@@ -224,7 +226,8 @@ newp(898, '3D shape from its net (unfolding a solid)',
      [net_svg(x) for x in CH], 'A',
      'Fold the net so the drawn side stays on the outside: the squares fold AWAY from you. '
      'In A, use the empty middle square as the top. Yellow folds down to become the right side, blue folds down to become the front, and orange (at the end of the row) wraps under to become the bottom. '
-     'Now tip the cube to the left so the right side comes up: yellow is on top, blue is still in front, and orange (the bottom) comes around to the right. That is the cube. '
+     'Now hold it with blue facing you and turn it a quarter turn to the left, like a steering wheel: the right side (yellow) goes up to the top, the bottom (orange) goes around to the right, and blue stays in front. That is the cube in the picture. '
+     'Quick check without turning: the three circles meet at one corner. On the picture, going around that corner from outside, the order is yellow, orange, blue clockwise; folded A has the same clockwise order, while B and D go the other way (the mirror cube). '
      'B swaps blue and orange: it makes the mirror cube, which only works if the circles end up INSIDE (her MA3 #27 fold). '
      'C puts yellow and orange two squares apart in the row, so they are opposite faces and never touch. D is laid out like the picture but is also the mirror, so it fails the same way as B.',
      'MA3 #27 (real Lower 3 #32, gid 151)', diagram=cube_svg())
