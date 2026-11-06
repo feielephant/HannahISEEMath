@@ -1426,7 +1426,44 @@
    "change_after_publish_10_2026-11-05": "#19 names changed at parent request: Kai, Hannah, Natalie, Sophia (was Kai, Lila, Max, Nia). Same values; answer A = Kai, Sophia, Hannah, Natalie.",
    "change_after_publish_11_2026-11-05": "#8 choices set by parent: D = 36 - 8 x 6 + 8 x 3 (correct, 12), A = 36 - 8 x 6 - 8 x 3 (sign not flipped). Old C (same value as new A) dropped; (36 - 8) x (6 - 3) moved to C. #25 now asks the 7th number of 4, 5, 7, 11, 19, ... with no blanks shown (answer 67, C); traps 35 = 6th, 51 = adds 16 again, 70 = doubles 35.",
    "change_after_publish_12_2026-11-05": "#23 (overlapping segments AC/BD, same skill as #21 and harder than QR9 #27) replaced at parent request by a statistical question built like Lower 5 MA #30: BIRD DATA table (wing length 11-14 cm, mass 18-30 g, wings 2, toes 4); NOT statistical = 'How many toes did each bird have?' (A). Same four question types as the real item. #21 keeps the minus-in-front-of-parentheses practice.",
-   "change_after_publish_13_2026-11-06": "Timer changed from 30 to 35 minutes at parent request: every problem is last-third style, and the extra time is so she does not rush (4 QR9 misses came in under 20 s). Compare her finish point with this in mind; the real MA is 30 problems in 30 minutes."
+   "change_after_publish_13_2026-11-06": "Timer changed from 30 to 35 minutes at parent request: every problem is last-third style, and the extra time is so she does not rush (4 QR9 misses came in under 20 s). Compare her finish point with this in mind; the real MA is 30 problems in 30 minutes.",
+   "graded_2026-11-06": {
+    "score": "21/30",
+    "wrong": [
+     8,
+     13,
+     15,
+     17,
+     18,
+     24,
+     25,
+     27,
+     28
+    ],
+    "blank": [],
+    "total_elapsed_minutes": 35.02,
+    "first_then_changed": {
+     "wrong_to_right": [
+      12,
+      30
+     ],
+     "wrong_to_wrong": [],
+     "right_to_wrong": [
+      28
+     ]
+    },
+    "notes_summary": {
+     "8": "Distributive: the 8 multiplied only the 6 (B)",
+     "13": "Two percent changes: subtracted the percents (+30%)",
+     "15": "Expression: subtracted the \"more\" instead of adding (D)",
+     "17": "Triangle area: chose \"A is always 1/2 the height\"",
+     "18": "Stopped one step early: 112 is the jump, not the 25th number",
+     "24": "Remaining amount: 19 instead of 14 (shells)",
+     "25": "Pattern 7th term: doubled 35 instead of adding 32 (70)",
+     "27": "Ratio chain: 27, no clear source",
+     "28": "Had it right (D), changed to multiplying 2,000 &times; 1,000"
+    }
+   }
   }
  ],
  "ma_notes": {
