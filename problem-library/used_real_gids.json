@@ -569,15 +569,7 @@
     "note": "QR-only topic, deliberately included as an exception (confirmed real weak spot, swapped in for a topic she is solid on)"
    }
   ],
-  "4": [
-   {
-    "n": 8,
-    "global_id": null,
-    "exercise_title": "ORDER OF OPERATIONS & EQUIVALENCE #3",
-    "question_text": "Which expression is equal to 8 × (6 + 3) − 4?",
-    "topic": "Order of Operations and Equivalence"
-   }
-  ],
+  "4": [],
   "4_from_qr_library": [
    {
     "n": 6,

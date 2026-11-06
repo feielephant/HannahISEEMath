@@ -49,11 +49,16 @@ extra('Counting Multiples within a Range', 'How many numbers between 56 and 76 a
       'Lower 5 MA #29; QR9 #36')
 
 # E2 distributive (Lower 2 MA #26 wrong; parent taught the distributive method on 11/4)
-assert 8 * (6 + 3) - 4 == 68 == (8*6) + (8*3) - 4 and (8*6) + (8*3) != 68 and (8*6 + 3) - 4 != 68
-extra('Order of Operations and Equivalence', MA[197]['question_text'],
-      ['(8 &times; 6 + 3) &minus; 4', '(8 &times; 6) + (8 &times; 3)', '(8 &times; 2) + (8 &times; &minus;1)', '(8 &times; 6) + (8 &times; 3) &minus; 4'], 'D',
-      'The 8 multiplies BOTH numbers in the parentheses: (8 &times; 6) + (8 &times; 3). The &minus; 4 is outside, so it stays. Check: 8 &times; 9 &minus; 4 = 68 and 48 + 24 &minus; 4 = 68. B drops the &minus; 4.',
-      'Lower 2 MA #26', ma_idx=197)
+# Changed 11/5 (parent): now 36 - 8 x (6 - 3), so the 8 multiplies both numbers AND a subtraction sits in front.
+v = 36 - 8 * (6 - 3)
+assert v == 12 == 36 - (8*6 - 8*3)
+assert (36 - 8) * (6 - 3) == 84 and 36 - (8*6 - 3) == -9 and 36 - (8*6 + 8*3) == -36   # distractors all differ from 12
+extra('Order of Operations and Equivalence', 'Which expression is equal to 36 &minus; 8 &times; (6 &minus; 3)?',
+      ['(36 &minus; 8) &times; (6 &minus; 3)', '36 &minus; (8 &times; 6 &minus; 3)', '36 &minus; (8 &times; 6 + 8 &times; 3)', '36 &minus; (8 &times; 6 &minus; 8 &times; 3)'], 'D',
+      'Multiplication comes before the subtraction in front, so 8 &times; (6 &minus; 3) stays together. The 8 multiplies BOTH numbers in the parentheses: '
+      '8 &times; (6 &minus; 3) = (8 &times; 6) &minus; (8 &times; 3). Check: 36 &minus; 8 &times; 3 = 36 &minus; 24 = 12, and 36 &minus; (48 &minus; 24) = 36 &minus; 24 = 12. '
+      'A subtracts 36 &minus; 8 first (= 84). B multiplies only the 6 by 8. C changes the &minus; inside to +.',
+      'Lower 2 MA #26')
 
 # E3 classification with the "2 is prime" corner (Lower 2 MA #29 wrong: forgot 2 is prime)
 def isprime(n): return n > 1 and all(n % d for d in range(2, n))

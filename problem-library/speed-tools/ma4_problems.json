@@ -129,19 +129,19 @@
   "n": 8,
   "tier": "Hard",
   "topic": "Order of Operations and Equivalence",
-  "q": "Which expression is equal to 8 × (6 + 3) − 4?",
+  "q": "Which expression is equal to 36 &minus; 8 &times; (6 &minus; 3)?",
   "choices": {
-   "A": "(8 &times; 6 + 3) &minus; 4",
-   "B": "(8 &times; 6) + (8 &times; 3)",
-   "C": "(8 &times; 2) + (8 &times; &minus;1)",
-   "D": "(8 &times; 6) + (8 &times; 3) &minus; 4"
+   "A": "(36 &minus; 8) &times; (6 &minus; 3)",
+   "B": "36 &minus; (8 &times; 6 &minus; 3)",
+   "C": "36 &minus; (8 &times; 6 + 8 &times; 3)",
+   "D": "36 &minus; (8 &times; 6 &minus; 8 &times; 3)"
   },
   "correct": "D",
-  "key": "<b>Answer: D.</b> The 8 multiplies BOTH numbers in the parentheses: (8 &times; 6) + (8 &times; 3). The &minus; 4 is outside, so it stays. Check: 8 &times; 9 &minus; 4 = 68 and 48 + 24 &minus; 4 = 68. B drops the &minus; 4.",
-  "ref": "Tier: Hard &middot; Topic: Order of Operations and Equivalence &middot; Built on her real-test miss: Lower 2 MA #26 &middot; Real item used verbatim (ma_library: ORDER OF OPERATIONS & EQUIVALENCE #3)",
+  "key": "<b>Answer: D.</b> Multiplication comes before the subtraction in front, so 8 &times; (6 &minus; 3) stays together. The 8 multiplies BOTH numbers in the parentheses: 8 &times; (6 &minus; 3) = (8 &times; 6) &minus; (8 &times; 3). Check: 36 &minus; 8 &times; 3 = 36 &minus; 24 = 12, and 36 &minus; (48 &minus; 24) = 36 &minus; 24 = 12. A subtracts 36 &minus; 8 first (= 84). B multiplies only the 6 by 8. C changes the &minus; inside to +.",
+  "ref": "Tier: Hard &middot; Topic: Order of Operations and Equivalence &middot; Built on her real-test miss: Lower 2 MA #26 &middot; New problem",
   "diagram": "",
   "gid": null,
-  "ma_idx": 197
+  "ma_idx": null
  },
  {
   "n": 9,

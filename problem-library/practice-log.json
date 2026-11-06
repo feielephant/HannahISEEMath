@@ -1411,9 +1411,7 @@
     1136,
     1053
    ],
-   "real_verbatim_ma_library": [
-    "Which expression is equal to 8 \u00d7 (6 + 3) \u2212 4?"
-   ],
+   "real_verbatim_ma_library": [],
    "published_commit": "eceeb39a734802fe116f509165115795eafaa9aa",
    "change_after_publish_1_2026-11-05": "#1 rewritten at parent request: no tripling; next frame keeps the shorter side and the longer side is 2 times the shorter side; asks the new perimeter (30). Needs careful reading of which side is 2 times which.",
    "change_after_publish_2_2026-11-05": "#1 again at parent request: \"The longer side is longer than the shorter side by 2 times the length of the shorter side\" so she must build 5 + 2 x 5 = 15 (3 times), perimeter 40. Trap 30 = reading it as just 2 times. Parent wants practice on \"2 times more\" meaning 3 times, worded so it cannot be read as plain 2 times.",
@@ -1422,7 +1420,8 @@
    "change_after_publish_5_2026-11-05": "#26 rebuilt to the same four statement types as QR9 #34 (n = 1 less than 1/3, n = 2 less than 1/2, n = 5 will not fit, n = 6 will not fit); answer D. The earlier version (answer B) mixed in a different statement type.",
    "change_after_publish_6_2026-11-05": "Parent-approved swap of 5 duplicate slots for 5 real-test gaps, each matching the difficulty of the real problem she missed: #11 Ted (gid 1501) -> votes prediction (Lower 2 QR #34, QR9 #31); #17 Tabitha (gid 1054) -> triangle area vs height (Lower 2 MA #30); #22 square 1061 -> Room A/B area vs perimeter (Lower 2 QR #38, QR9 #30/#35); #25 square 1062 -> pattern 4 5 7 11 19 with doubling differences (Lower 1 MA #21); #29 divisible by 3 and 4 (gid 898) -> cube net with circles outside (MA3 #27 / real Lower 3 #32), reminder moved into #30 key. Not done for lack of clean slots (next set): estimating a decimal sum (Lower 2 MA #27), x3 pattern (Lower 3 MA #21), statistical question (Lower 5 MA #30). Freed real items 1501, 1054, 1061, 1062, 898 are unused again.",
    "change_after_publish_7_2026-11-05": "#29 rebuilt to match the real Lower 3 #32 difficulty (parent: the earlier net needed folding around a corner plus turning the cube, harder than real, and hard to follow): correct net has the front and right circles both touching the top circle's square; all four nets tilted 45 degrees like the real diamond nets; new colors (red top, green front, purple right) so it is not MA3 #27's cube; question wording back to the real sentence. Traps: B swapped (mirror, circles inside), C opposite faces, D right circle on the left. Answer A.",
-   "change_after_publish_8_2026-11-05": "#4 replaced at parent request: gid 978 (67-85 by 4) was word for word MA3 #18 and her shortcut answer 4 was not a choice. Now 'How many numbers between 56 and 76 are divisible by 3?' (answer 7, C), built like Lower 5 MA #29; her shortcut (76-56)/3 = 6.67 -> 6 is choice B. Rounding up would give 7, so this catches dropping the decimal specifically. gid 978 is unused again."
+   "change_after_publish_8_2026-11-05": "#4 replaced at parent request: gid 978 (67-85 by 4) was word for word MA3 #18 and her shortcut answer 4 was not a choice. Now 'How many numbers between 56 and 76 are divisible by 3?' (answer 7, C), built like Lower 5 MA #29; her shortcut (76-56)/3 = 6.67 -> 6 is choice B. Rounding up would give 7, so this catches dropping the decimal specifically. gid 978 is unused again.",
+   "change_after_publish_9_2026-11-05": "#8 changed at parent request to 'Which expression is equal to 36 - 8 x (6 - 3)?' (answer D: 36 - (8 x 6 - 8 x 3) = 12). Traps: A (36 - 8) x (6 - 3) subtract first; B multiplies only the 6; C flips the inside minus to +. The ma_library ORDER OF OPS #3 item is unused again."
   }
  ],
  "ma_notes": {
