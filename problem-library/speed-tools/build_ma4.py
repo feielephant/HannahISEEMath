@@ -49,15 +49,16 @@ extra('Counting Multiples within a Range', 'How many numbers between 56 and 76 a
       'Lower 5 MA #29; QR9 #36')
 
 # E2 distributive (Lower 2 MA #26 wrong; parent taught the distributive method on 11/4)
-# Changed 11/5 (parent): now 36 - 8 x (6 - 3), so the 8 multiplies both numbers AND a subtraction sits in front.
+# Changed 11/5 (parent): 36 - 8 x (6 - 3); parent set D = 36 - 8 x 6 + 8 x 3 and A = 36 - 8 x 6 - 8 x 3.
 v = 36 - 8 * (6 - 3)
-assert v == 12 == 36 - (8*6 - 8*3)
-assert (36 - 8) * (6 - 3) == 84 and 36 - (8*6 - 3) == -9 and 36 - (8*6 + 8*3) == -36   # distractors all differ from 12
+assert v == 12 == 36 - 8*6 + 8*3
+assert 36 - 8*6 - 8*3 == -36 and 36 - (8*6 - 3) == -9 and (36 - 8) * (6 - 3) == 84   # distractors all differ from 12 and from each other
 extra('Order of Operations and Equivalence', 'Which expression is equal to 36 &minus; 8 &times; (6 &minus; 3)?',
-      ['(36 &minus; 8) &times; (6 &minus; 3)', '36 &minus; (8 &times; 6 &minus; 3)', '36 &minus; (8 &times; 6 + 8 &times; 3)', '36 &minus; (8 &times; 6 &minus; 8 &times; 3)'], 'D',
-      'Multiplication comes before the subtraction in front, so 8 &times; (6 &minus; 3) stays together. The 8 multiplies BOTH numbers in the parentheses: '
-      '8 &times; (6 &minus; 3) = (8 &times; 6) &minus; (8 &times; 3). Check: 36 &minus; 8 &times; 3 = 36 &minus; 24 = 12, and 36 &minus; (48 &minus; 24) = 36 &minus; 24 = 12. '
-      'A subtracts 36 &minus; 8 first (= 84). B multiplies only the 6 by 8. C changes the &minus; inside to +.',
+      ['36 &minus; 8 &times; 6 &minus; 8 &times; 3', '36 &minus; (8 &times; 6 &minus; 3)', '(36 &minus; 8) &times; (6 &minus; 3)', '36 &minus; 8 &times; 6 + 8 &times; 3'], 'D',
+      'The 8 multiplies BOTH numbers in the parentheses: 8 &times; (6 &minus; 3) = 8 &times; 6 &minus; 8 &times; 3. '
+      'That whole amount is taken away from 36, and a minus sign in front of it flips the &minus; 8 &times; 3 to + 8 &times; 3: '
+      '36 &minus; (8 &times; 6 &minus; 8 &times; 3) = 36 &minus; 8 &times; 6 + 8 &times; 3. Check: 36 &minus; 8 &times; 3 = 12 and 36 &minus; 48 + 24 = 12. '
+      'A forgets to flip the sign. B multiplies only the 6 by 8. C subtracts 36 &minus; 8 first (= 84).',
       'Lower 2 MA #26')
 
 # E3 classification with the "2 is prime" corner (Lower 2 MA #29 wrong: forgot 2 is prime)
@@ -173,12 +174,16 @@ newp(1061, s9_topic(30),
 # doubling-differences pattern -- Lower 1 MA #21 (2 3 5 9 17 -> 33)
 seq = [4, 5, 7, 11, 19]
 d = [b - a for a, b in zip(seq, seq[1:])]
-assert d == [1, 2, 4, 8] and seq[-1] + 16 == 35 and seq[-1] + 8 == 27 and seq[-1] + 4 == 23 and 19 * 2 == 38
+# Changed 11/5 (parent): ask for the 7th number, with no blanks shown, so the answer is not the next number.
+assert d == [1, 2, 4, 8]
+full = seq + [19 + 16, 19 + 16 + 32]
+assert full[5] == 35 and full[6] == 67 and 35 + 16 == 51 and 35 * 2 == 70
 newp(1062, 'Numerical Patterns',
-     'Use the number pattern to answer the question.<div style="margin:6px 0;font-size:1.15rem;letter-spacing:2px">4 &nbsp; 5 &nbsp; 7 &nbsp; 11 &nbsp; 19 &nbsp; ___</div>What is the next number in the pattern?',
-     ['23', '27', '35', '38'], 'C',
-     'Write the differences: 1, 2, 4, 8. Each difference doubles, so the next one is 16: 19 + 16 = 35. '
-     'B adds 8 again. D doubles 19. A adds 4.',
+     'Use the number pattern to answer the question.<div style="margin:6px 0;font-size:1.15rem;letter-spacing:2px">4, &nbsp;5, &nbsp;7, &nbsp;11, &nbsp;19, &nbsp;...</div>What is the 7th number in the pattern?',
+     ['35', '51', '67', '70'], 'C',
+     'Write the differences: 1, 2, 4, 8. Each difference doubles, so the next ones are 16 and 32. '
+     '6th: 19 + 16 = 35. 7th: 35 + 32 = 67. Number each term as you write it, so you stop at the 7th. '
+     'A is the 6th number (one step early). B adds 16 again. D doubles 35.',
      'Lower 1 MA #21')
 
 # cube net, circles must end up OUTSIDE -- MA3 #27 (real Lower 3 #32, gid 151): she folded it with the circles inside

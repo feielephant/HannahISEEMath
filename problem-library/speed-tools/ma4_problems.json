@@ -131,13 +131,13 @@
   "topic": "Order of Operations and Equivalence",
   "q": "Which expression is equal to 36 &minus; 8 &times; (6 &minus; 3)?",
   "choices": {
-   "A": "(36 &minus; 8) &times; (6 &minus; 3)",
+   "A": "36 &minus; 8 &times; 6 &minus; 8 &times; 3",
    "B": "36 &minus; (8 &times; 6 &minus; 3)",
-   "C": "36 &minus; (8 &times; 6 + 8 &times; 3)",
-   "D": "36 &minus; (8 &times; 6 &minus; 8 &times; 3)"
+   "C": "(36 &minus; 8) &times; (6 &minus; 3)",
+   "D": "36 &minus; 8 &times; 6 + 8 &times; 3"
   },
   "correct": "D",
-  "key": "<b>Answer: D.</b> Multiplication comes before the subtraction in front, so 8 &times; (6 &minus; 3) stays together. The 8 multiplies BOTH numbers in the parentheses: 8 &times; (6 &minus; 3) = (8 &times; 6) &minus; (8 &times; 3). Check: 36 &minus; 8 &times; 3 = 36 &minus; 24 = 12, and 36 &minus; (48 &minus; 24) = 36 &minus; 24 = 12. A subtracts 36 &minus; 8 first (= 84). B multiplies only the 6 by 8. C changes the &minus; inside to +.",
+  "key": "<b>Answer: D.</b> The 8 multiplies BOTH numbers in the parentheses: 8 &times; (6 &minus; 3) = 8 &times; 6 &minus; 8 &times; 3. That whole amount is taken away from 36, and a minus sign in front of it flips the &minus; 8 &times; 3 to + 8 &times; 3: 36 &minus; (8 &times; 6 &minus; 8 &times; 3) = 36 &minus; 8 &times; 6 + 8 &times; 3. Check: 36 &minus; 8 &times; 3 = 12 and 36 &minus; 48 + 24 = 12. A forgets to flip the sign. B multiplies only the 6 by 8. C subtracts 36 &minus; 8 first (= 84).",
   "ref": "Tier: Hard &middot; Topic: Order of Operations and Equivalence &middot; Built on her real-test miss: Lower 2 MA #26 &middot; New problem",
   "diagram": "",
   "gid": null,
@@ -435,15 +435,15 @@
   "n": 25,
   "tier": "Hard",
   "topic": "Numerical Patterns",
-  "q": "Use the number pattern to answer the question.<div style=\"margin:6px 0;font-size:1.15rem;letter-spacing:2px\">4 &nbsp; 5 &nbsp; 7 &nbsp; 11 &nbsp; 19 &nbsp; ___</div>What is the next number in the pattern?",
+  "q": "Use the number pattern to answer the question.<div style=\"margin:6px 0;font-size:1.15rem;letter-spacing:2px\">4, &nbsp;5, &nbsp;7, &nbsp;11, &nbsp;19, &nbsp;...</div>What is the 7th number in the pattern?",
   "choices": {
-   "A": "23",
-   "B": "27",
-   "C": "35",
-   "D": "38"
+   "A": "35",
+   "B": "51",
+   "C": "67",
+   "D": "70"
   },
   "correct": "C",
-  "key": "<b>Answer: C.</b> Write the differences: 1, 2, 4, 8. Each difference doubles, so the next one is 16: 19 + 16 = 35. B adds 8 again. D doubles 19. A adds 4.",
+  "key": "<b>Answer: C.</b> Write the differences: 1, 2, 4, 8. Each difference doubles, so the next ones are 16 and 32. 6th: 19 + 16 = 35. 7th: 35 + 32 = 67. Number each term as you write it, so you stop at the 7th. A is the 6th number (one step early). B adds 16 again. D doubles 35.",
   "ref": "Tier: Hard &middot; Topic: Numerical Patterns &middot; Built on her real-test miss: Lower 1 MA #21, same difficulty, new numbers &middot; New problem",
   "diagram": "",
   "gid": null,
