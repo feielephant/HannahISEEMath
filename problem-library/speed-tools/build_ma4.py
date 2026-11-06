@@ -195,41 +195,40 @@ def verdict(pl):     # pl: {'Y': cell, 'B': cell, 'O': cell}
     m = np.array([NRM[pl[c]] for c in 'YBO'])
     if any(abs(m[i] @ m[j]) > 0 for i, j in ((0, 1), (0, 2), (1, 2))): return 'opposite'
     return 'ok' if round(np.linalg.det(m)) == round(TARGET) else 'mirror'
-CH = [{'Y': (2, 1), 'B': (1, 0), 'O': (3, 1)},     # A correct, not laid out like the picture
-      {'Y': (2, 1), 'B': (3, 1), 'O': (1, 0)},     # B mirror of A (blue/orange swapped): only works with the circles inside
-      {'Y': (2, 1), 'B': (1, 0), 'O': (0, 1)},     # C yellow and orange on opposite faces
-      {'Y': (1, 1), 'B': (2, 1), 'O': (1, 0)}]     # D looks like the picture but is the mirror
+CH = [{'Y': (1, 1), 'B': (1, 0), 'O': (2, 1)},     # A correct: blue below yellow (folds to the front), orange right of yellow (folds to the right)
+      {'Y': (1, 1), 'B': (2, 1), 'O': (1, 0)},     # B blue and orange swapped: the mirror cube (circles inside)
+      {'Y': (1, 1), 'B': (1, 0), 'O': (1, 2)},     # C blue and orange on opposite faces
+      {'Y': (1, 1), 'B': (1, 0), 'O': (0, 1)}]     # D orange on the left of yellow: mirror
 assert [verdict(x) for x in CH] == ['ok', 'mirror', 'opposite', 'mirror'], [verdict(x) for x in CH]
-# clockwise claim in the key: picture (Y top, O right, B front) and folded A (Y right, O bottom, B front) share the corner order; D is reversed
-assert round(np.linalg.det(np.array([[0,0,1],[1,0,0],[0,-1,0]]))) == round(np.linalg.det(np.array([[1,0,0],[0,0,-1],[0,-1,0]]))) == -round(np.linalg.det(np.array([[0,0,1],[0,-1,0],[1,0,0]])))
-assert tuple(NRM[(1, 1)]) == (0, 0, 1) and tuple(NRM[(2, 1)]) == (1, 0, 0) and tuple(NRM[(1, 0)]) == (0, -1, 0) and tuple(NRM[(3, 1)]) == (0, 0, -1)
-COL = {'Y': ('#F2C230', 'Y'), 'B': ('#3B7DDD', 'B'), 'O': ('#F08A24', 'O')}
-def net_svg(pl, u=26):
+assert tuple(NRM[(1, 1)]) == (0, 0, 1) and tuple(NRM[(1, 0)]) == (0, -1, 0) and tuple(NRM[(2, 1)]) == (1, 0, 0) and tuple(NRM[(0, 1)]) == (-1, 0, 0)
+COL = {'Y': ('#E04848', 'R'), 'B': ('#3FA34D', 'G'), 'O': ('#9B6BD6', 'P')}   # shown as red top, green front, purple right (new colors so it is not MA3's cube)
+def net_svg(pl, u=28):
+    W = 176; cx0, cy0 = 4 + 2 * u, 4 + 1.5 * u       # centre of the upright net
     b = ''
     for (c, r) in NET:
         x, y = 4 + c * u, 4 + (2 - r) * u
         b += f'<rect x="{x}" y="{y}" width="{u}" height="{u}" fill="none" {SW}/>'
     for col, (c, r) in pl.items():
         x, y = 4 + c * u + u / 2, 4 + (2 - r) * u + u / 2
-        b += f'<circle cx="{x}" cy="{y}" r="8" fill="{COL[col][0]}" stroke="currentColor" stroke-width="1"/>' + f'<text x="{x}" y="{y+3.5}" font-size="9" text-anchor="middle" fill="#111">{COL[col][1]}</text>'
-    return svg(4 * u + 8, 3 * u + 8, b)
+        b += (f'<circle cx="{x}" cy="{y}" r="9" fill="{COL[col][0]}" stroke="currentColor" stroke-width="1"/>'
+              f'<text x="{x}" y="{y+3.2}" font-size="10" text-anchor="middle" fill="#111" transform="rotate(-45 {x} {y})">{COL[col][1]}</text>')
+    g = f'<g transform="translate({W/2 - cx0} {W/2 - cy0}) rotate(45 {cx0} {cy0})">{b}</g>'
+    return svg(W, W, g)
 def cube_svg():
     s, d, x, y = 80, 30, 10, 40
     b = (f'<rect x="{x}" y="{y}" width="{s}" height="{s}" fill="none" {SW}/>'
          f'<polygon points="{x},{y} {x+d},{y-d} {x+s+d},{y-d} {x+s},{y}" fill="none" {SW}/>'
          f'<polygon points="{x+s},{y} {x+s+d},{y-d} {x+s+d},{y+s-d} {x+s},{y+s}" fill="none" {SW}/>')
     for (cx, cy, rx, ry, k) in ((x + s/2, y + s/2, 14, 14, 'B'), (x + s/2 + d/2, y - d/2, 13, 6, 'Y'), (x + s + d/2, y + s/2 - d/2, 6, 13, 'O')):
-        b += f'<ellipse cx="{cx}" cy="{cy}" rx="{rx}" ry="{ry}" fill="{COL[k][0]}" stroke="currentColor" stroke-width="1"/><text x="{cx}" y="{cy+4}" font-size="10" text-anchor="middle" fill="#111">{k}</text>'
+        b += f'<ellipse cx="{cx}" cy="{cy}" rx="{rx}" ry="{ry}" fill="{COL[k][0]}" stroke="currentColor" stroke-width="1"/><text x="{cx}" y="{cy+4}" font-size="10" text-anchor="middle" fill="#111">{COL[k][1]}</text>'
     return svg(s + d + 24, s + d + 14, b)
 newp(898, '3D shape from its net (unfolding a solid)',
-     'A cube has three colored circles drawn on it: yellow (Y) on top, blue (B) on the front, and orange (O) on the right side. Which diagram could be folded to make this cube, if the colored circles are on the OUTSIDE of the cube and cannot be seen from the other side?',
+     'A cube has three colored circles drawn on it (shown below). Which diagram could be folded to make this cube, if the colored circles are on the outside of the cube and cannot be seen from the other side?',
      [net_svg(x) for x in CH], 'A',
-     'Fold the net so the drawn side stays on the outside: the squares fold AWAY from you. '
-     'In A, use the empty middle square as the top. Yellow folds down to become the right side, blue folds down to become the front, and orange (at the end of the row) wraps under to become the bottom. '
-     'Now hold it with blue facing you and turn it a quarter turn to the left, like a steering wheel: the right side (yellow) goes up to the top, the bottom (orange) goes around to the right, and blue stays in front. That is the cube in the picture. '
-     'Quick check without turning: the three circles meet at one corner. On the picture, going around that corner from outside, the order is yellow, orange, blue clockwise; folded A has the same clockwise order, while B and D go the other way (the mirror cube). '
-     'B swaps blue and orange: it makes the mirror cube, which only works if the circles end up INSIDE (her MA3 #27 fold). '
-     'C puts yellow and orange two squares apart in the row, so they are opposite faces and never touch. D is laid out like the picture but is also the mirror, so it fails the same way as B.',
+     'Turn the page so the net stands upright (a row of 4 squares with one square above and one below). Keep the drawn side outside: the squares fold AWAY from you. '
+     'Use the red square as the top. The square touching red&rsquo;s bottom edge folds down to become the front, and the square touching red&rsquo;s right edge folds down to become the right side. '
+     'So the front square must be green and the right square must be purple. Only A has that. '
+     'B swaps green and purple: that cube only works if the circles end up INSIDE (her MA3 #27 fold). C puts green and purple on opposite faces, which never touch. D puts purple on the LEFT of red.',
      'MA3 #27 (real Lower 3 #32, gid 151)', diagram=cube_svg())
 
 REPL = {1501: 1501, 1054: 1054, 1061: 1061, 1062: 1062, 898: 898}
