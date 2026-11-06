@@ -1413,7 +1413,7 @@
     1053
    ],
    "real_verbatim_ma_library": [],
-   "published_commit": "bd493b3553dde355f0ccbf84914d0479ebb21d61",
+   "published_commit": "4cab2a466fbec2418b480af0699de4b3eea9eb34",
    "change_after_publish_1_2026-11-05": "#1 rewritten at parent request: no tripling; next frame keeps the shorter side and the longer side is 2 times the shorter side; asks the new perimeter (30). Needs careful reading of which side is 2 times which.",
    "change_after_publish_2_2026-11-05": "#1 again at parent request: \"The longer side is longer than the shorter side by 2 times the length of the shorter side\" so she must build 5 + 2 x 5 = 15 (3 times), perimeter 40. Trap 30 = reading it as just 2 times. Parent wants practice on \"2 times more\" meaning 3 times, worded so it cannot be read as plain 2 times.",
    "change_after_publish_3_2026-11-05": "#2 at parent request: March, June, August (was October), and Tess ran more than Rosa in March so one month is negative. Answer 8 (55 - 47). Traps: 14 adds 3 + 7 + 4 ignoring the negative month, 5 April for August, 13 July for June.",
