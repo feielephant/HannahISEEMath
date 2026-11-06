@@ -327,15 +327,15 @@
   "n": 19,
   "tier": "Hard",
   "topic": "Comparing & Ordering Fractions & Decimals",
-  "q": "Four students ran on the same track. Kai ran <span class=\"frac\"><span class=\"n\">3</span><span class=\"d\">4</span></span> of a mile, Lila ran 0.7 of a mile, Max ran <span class=\"frac\"><span class=\"n\">5</span><span class=\"d\">8</span></span> of a mile, and Nia ran 72% of a mile. Which list shows the students in order from the longest run to the shortest?",
+  "q": "Four students ran on the same track. Kai ran <span class=\"frac\"><span class=\"n\">3</span><span class=\"d\">4</span></span> of a mile, Hannah ran 0.7 of a mile, Natalie ran <span class=\"frac\"><span class=\"n\">5</span><span class=\"d\">8</span></span> of a mile, and Sophia ran 72% of a mile. Which list shows the students in order from the longest run to the shortest?",
   "choices": {
-   "A": "Kai, Nia, Lila, Max",
-   "B": "Max, Lila, Nia, Kai",
-   "C": "Kai, Lila, Nia, Max",
-   "D": "Nia, Kai, Lila, Max"
+   "A": "Kai, Sophia, Hannah, Natalie",
+   "B": "Natalie, Hannah, Sophia, Kai",
+   "C": "Kai, Hannah, Sophia, Natalie",
+   "D": "Sophia, Kai, Hannah, Natalie"
   },
   "correct": "A",
-  "key": "<b>Answer: A.</b> Write each as a decimal next to the name: Kai 0.75, Lila 0.70, Max 0.625, Nia 0.72. Longest to shortest: 0.75, 0.72, 0.70, 0.625, which is Kai, Nia, Lila, Max. B is shortest to longest. C puts 0.7 before 0.72.",
+  "key": "<b>Answer: A.</b> Write each as a decimal next to the name: Kai 0.75, Hannah 0.70, Natalie 0.625, Sophia 0.72. Longest to shortest: 0.75, 0.72, 0.70, 0.625, which is Kai, Sophia, Hannah, Natalie. B is shortest to longest. C puts 0.7 before 0.72.",
   "ref": "Tier: Hard &middot; Topic: Comparing & Ordering Fractions & Decimals &middot; Follows QR9 #22 (parent review 11/4) &middot; New problem",
   "diagram": "",
   "gid": null,

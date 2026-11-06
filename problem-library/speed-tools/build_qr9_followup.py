@@ -151,11 +151,11 @@ add(LIB[1054]['question_text'], ['(□ &minus; ○) &divide; ◇', '(○ &minus;
     19, gid=1054)
 
 # 14 -- #22: compare, then map back to names
-vals = {'Kai': F(3, 4), 'Lila': F(7, 10), 'Max': F(5, 8), 'Nia': F(72, 100)}
-assert sorted(vals, key=lambda k: -vals[k]) == ['Kai', 'Nia', 'Lila', 'Max']
-add('Four students ran on the same track. Kai ran <span class="frac"><span class="n">3</span><span class="d">4</span></span> of a mile, Lila ran 0.7 of a mile, Max ran <span class="frac"><span class="n">5</span><span class="d">8</span></span> of a mile, and Nia ran 72% of a mile. Which list shows the students in order from the longest run to the shortest?',
-    ['Kai, Nia, Lila, Max', 'Max, Lila, Nia, Kai', 'Kai, Lila, Nia, Max', 'Nia, Kai, Lila, Max'], 'A',
-    'Write each as a decimal next to the name: Kai 0.75, Lila 0.70, Max 0.625, Nia 0.72. Longest to shortest: 0.75, 0.72, 0.70, 0.625, which is Kai, Nia, Lila, Max. '
+vals = {'Kai': F(3, 4), 'Hannah': F(7, 10), 'Natalie': F(5, 8), 'Sophia': F(72, 100)}
+assert sorted(vals, key=lambda k: -vals[k]) == ['Kai', 'Sophia', 'Hannah', 'Natalie']
+add('Four students ran on the same track. Kai ran <span class="frac"><span class="n">3</span><span class="d">4</span></span> of a mile, Hannah ran 0.7 of a mile, Natalie ran <span class="frac"><span class="n">5</span><span class="d">8</span></span> of a mile, and Sophia ran 72% of a mile. Which list shows the students in order from the longest run to the shortest?',
+    ['Kai, Sophia, Hannah, Natalie', 'Natalie, Hannah, Sophia, Kai', 'Kai, Hannah, Sophia, Natalie', 'Sophia, Kai, Hannah, Natalie'], 'A',
+    'Write each as a decimal next to the name: Kai 0.75, Hannah 0.70, Natalie 0.625, Sophia 0.72. Longest to shortest: 0.75, 0.72, 0.70, 0.625, which is Kai, Sophia, Hannah, Natalie. '
     'B is shortest to longest. C puts 0.7 before 0.72.',
     22)
 
