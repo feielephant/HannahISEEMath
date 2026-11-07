@@ -1,0 +1,137 @@
+[
+ {
+  "n": 1,
+  "topic": "Order of Operations and Equivalence",
+  "q": "Which expression is equal to 36 &minus; 8 &times; (6 &minus; 3)?",
+  "diagram": "",
+  "choices": {
+   "A": "36 &minus; 8 &times; 6 &minus; 8 &times; 3",
+   "B": "36 &minus; (8 &times; 6 &minus; 3)",
+   "C": "(36 &minus; 8) &times; (6 &minus; 3)",
+   "D": "36 &minus; 8 &times; 6 + 8 &times; 3"
+  },
+  "correct": "D",
+  "key": "<b>Answer: D.</b> The 8 multiplies BOTH numbers in the parentheses: 8 &times; (6 &minus; 3) = 8 &times; 6 &minus; 8 &times; 3. That whole amount is taken away from 36, and a minus sign in front of it flips the &minus; 8 &times; 3 to + 8 &times; 3: 36 &minus; (8 &times; 6 &minus; 8 &times; 3) = 36 &minus; 8 &times; 6 + 8 &times; 3. Check: 36 &minus; 8 &times; 3 = 12 and 36 &minus; 48 + 24 = 12. A forgets to flip the sign. B multiplies only the 6 by 8. C subtracts 36 &minus; 8 first (= 84).<br><b>Ask her:</b> What does the 8 multiply? Can you write 8 &times; (6 &minus; 3) without parentheses?",
+  "ref": "MA Set 4 #8 &middot; Her answer on 11/6: B (correct D) &middot; Likely: 8 multiplied only the 6, not both numbers in the parentheses"
+ },
+ {
+  "n": 2,
+  "topic": "Percent Increase Decrease basic",
+  "q": "The price of a game is increased by 50%. The new price is then decreased by 20%. What is the overall percent increase or percent decrease from the original price?",
+  "diagram": "",
+  "choices": {
+   "A": "percent decrease by 10%",
+   "B": "percent increase by 30%",
+   "C": "percent increase by 70%",
+   "D": "percent increase by 20%"
+  },
+  "correct": "D",
+  "key": "<b>Answer: D.</b> Start with $100. Up 50%: 100 + 50 = 150. Down 20% of 150: 150 &minus; 30 = 120. 120 is 20 more than 100, so it is a 20% increase. B just subtracts the percents (50 &minus; 20). C adds them.<br><b>Ask her:</b> Start with $100. What is the price after each change?",
+  "ref": "MA Set 4 #13 &middot; Her answer on 11/6: B (correct D) &middot; Likely: subtracted the percents: 50 &minus; 20 = 30"
+ },
+ {
+  "n": 3,
+  "topic": "Translating Math Expressions",
+  "q": "Ava had □ stickers and then she gave ○ of them to Ben. Now, Ben has △ more stickers than Ava had. Which expression represents the number of stickers Ben had to begin with?",
+  "diagram": "",
+  "choices": {
+   "A": "□ + △ &minus; ○",
+   "B": "□ + △ + ○",
+   "C": "△ &minus; □ &minus; ○",
+   "D": "□ &minus; ○ &minus; △"
+  },
+  "correct": "A",
+  "key": "<b>Answer: A.</b> Ava HAD □. Ben now has △ more than that: □ + △. Before Ava gave him ○, he had ○ fewer: □ + △ &minus; ○. Try numbers: □ = 10, ○ = 3, △ = 5. Ben now has 15, so he started with 12. Only A gives 12.<br><b>Ask her:</b> Try &#9633; = 10, &#9675; = 3, &#9651; = 5. How many does Ben have now? Before Ava gave him some?",
+  "ref": "MA Set 4 #15 &middot; Her answer on 11/6: D (correct A) &middot; Likely: turned \"&#9651; more than\" into minus &#9651;"
+ },
+ {
+  "n": 4,
+  "topic": "Area of Triangles",
+  "q": "The base of a triangle is 10 meters (m). Which statement correctly compares the value of A to the height of the triangle? (A = <span class=\"frac\"><span class=\"n\">1</span><span class=\"d\">2</span></span> &times; base &times; height)",
+  "diagram": "",
+  "choices": {
+   "A": "The value of A is always <span class=\"frac\"><span class=\"n\">1</span><span class=\"d\">2</span></span> the value of the height.",
+   "B": "The value of A is always 10 times the value of the height.",
+   "C": "The value of A is always 5 times the value of the height.",
+   "D": "The value of A can be the same as the value of the height."
+  },
+  "correct": "C",
+  "key": "<b>Answer: C.</b> A = 1/2 &times; 10 &times; height = 5 &times; height, so A is always 5 times the height. B forgets the 1/2. D would need 5 &times; height = height, which only happens if the height is 0.<br><b>Ask her:</b> Put base = 10 into the formula. What is A when the height is 2? When it is 4?",
+  "ref": "MA Set 4 #17 &middot; Her answer on 11/6: A (correct C) &middot; Likely: took the 1/2 from the formula and left out the base"
+ },
+ {
+  "n": 5,
+  "topic": "Nth Term, given Arithmetic Sequence, Progressive Pattern, etc.",
+  "q": "In a sequence, each number is 7 more than the number before it. The 9th number in the sequence is 65. What is the 25th number in the sequence?",
+  "diagram": "",
+  "choices": {
+   "A": "112",
+   "B": "170",
+   "C": "175",
+   "D": "177"
+  },
+  "correct": "D",
+  "key": "<b>Answer: D.</b> From the 9th to the 25th number is 25 &minus; 9 = 16 steps. 16 &times; 7 = 112, and 65 + 112 = 177. A is 16 &times; 7, one step early: it still needs adding to 65. B uses 15 steps. C is 25 &times; 7.<br><b>Ask her:</b> What does 112 stand for? What does the question ask for?",
+  "ref": "MA Set 4 #18 &middot; Her answer on 11/6: A (correct D) &middot; Likely: stopped one step early: 112 is the jump from the 9th to the 25th, not the 25th number"
+ },
+ {
+  "n": 6,
+  "topic": "Remaining Amount after Reducing by Fractions",
+  "q": "Sam had 12 marbles and 15 shells. He lost <span class=\"frac\"><span class=\"n\">1</span><span class=\"d\">4</span></span> of his marbles and <span class=\"frac\"><span class=\"n\">2</span><span class=\"d\">3</span></span> of his shells. How many marbles and shells does he have left?",
+  "diagram": "",
+  "choices": {
+   "A": "9",
+   "B": "13",
+   "C": "14",
+   "D": "19"
+  },
+  "correct": "C",
+  "key": "<b>Answer: C.</b> Marbles: 1/4 of 12 is 3, so 9 are left. Shells: 2/3 of 15 is 10, so 5 are left. 9 + 5 = 14. B is how many he LOST. A counts only the marbles. D takes 1/3 of the shells instead of 2/3.<br><b>Ask her:</b> Point to the number of shells he still has.",
+  "ref": "MA Set 4 #24 &middot; Her answer on 11/6: D (correct C) &middot; Likely: added the shells LOST (10) instead of the shells left (5)"
+ },
+ {
+  "n": 7,
+  "topic": "Numerical Patterns",
+  "q": "Use the number pattern to answer the question.<div style=\"margin:6px 0;font-size:1.15rem;letter-spacing:2px\">4, &nbsp;5, &nbsp;7, &nbsp;11, &nbsp;19, &nbsp;...</div>What is the 7th number in the pattern?",
+  "diagram": "",
+  "choices": {
+   "A": "35",
+   "B": "51",
+   "C": "67",
+   "D": "70"
+  },
+  "correct": "C",
+  "key": "<b>Answer: C.</b> Write the differences: 1, 2, 4, 8. Each difference doubles, so the next ones are 16 and 32. 6th: 19 + 16 = 35. 7th: 35 + 32 = 67. Number each term as you write it, so you stop at the 7th. A is the 6th number (one step early). B adds 16 again. D doubles 35.<br><b>Ask her:</b> Write the differences under the numbers. What is the next difference?",
+  "ref": "MA Set 4 #25 &middot; Her answer on 11/6: D (correct C) &middot; Likely: found the 6th number (35), then doubled 35 instead of doubling the difference"
+ },
+ {
+  "n": 8,
+  "topic": "Word Problems with Ratios",
+  "q": "A survey was done to determine which sport was preferred between soccer, football, and basketball. There were 3 times as many votes for soccer as football and 5 times as many votes for football as for basketball. If there is a total of 42 people in the survey, how many people voted for soccer?",
+  "diagram": "",
+  "choices": {
+   "A": "24",
+   "B": "27",
+   "C": "30",
+   "D": "35"
+  },
+  "correct": "C",
+  "key": "<b>Answer: C.</b> Let basketball be 1 part. Football is 5 parts and soccer is 3 &times; 5 = 15 parts: 1 + 5 + 15 = 21 parts = 42, so 1 part = 2. Soccer = 15 &times; 2 = 30.<br><b>Ask her:</b> How did you get 27? Draw one box for basketball, then football, then soccer.",
+  "ref": "MA Set 4 #27 &middot; Her answer on 11/6: B (correct C) &middot; Likely: no clear source for 27 (maybe 42 &minus; 15)"
+ },
+ {
+  "n": 9,
+  "topic": "Matching Stories to Equations",
+  "q": "Wendy can type 60 words in a minute. Wendy needs to type a 1,000-word essay and a 2,000-word short story. Which equation can be used to find t, the total time, in minutes, it will take Wendy to type both the essay and the short story?",
+  "diagram": "",
+  "choices": {
+   "A": "t = (2,000 &times; 1,000) &times; 60",
+   "B": "t = (2,000 &times; 1,000) &divide; 60",
+   "C": "t = (1,000 + 2,000) &times; 60",
+   "D": "t = (1,000 + 2,000) &divide; 60"
+  },
+  "correct": "D",
+  "key": "<b>Answer: D.</b> First the total words: 1,000 + 2,000 = 3,000. She types 60 a minute, so the minutes are 3,000 &divide; 60 = 50. The parentheses make the adding happen first. C multiplies, which would make the time bigger than the words.<br><b>Ask her:</b> Why did you change from D? What does the total number of words mean?",
+  "ref": "MA Set 4 #28 &middot; Her answer on 11/6: B (first picked D, then changed) (correct D) &middot; Likely: had it right, then changed to multiplying 2,000 &times; 1,000"
+ }
+]
