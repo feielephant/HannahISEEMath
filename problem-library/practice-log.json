@@ -1540,6 +1540,75 @@
    },
    "gids": "problem_library 1457-1494 questions, 1495-1496 timing; ma_library test_set ISEE LOWER #5",
    "screenshots": "mathspeed test/actual-practice-tests/ISEE Lower #5/"
+  },
+  {
+   "test": "Practice Test 6 (Test Innovators ISEE Lower; test number not shown in captures)",
+   "result_id": 5100464,
+   "date": "2026-11-08 (screenshots taken; test date not shown)",
+   "qr": {
+    "score": "33/38",
+    "wrong": [
+     18,
+     25,
+     30,
+     36,
+     38
+    ],
+    "blanks": 0,
+    "her_answers_wrong": {
+     "18": "D (777,777,777; key C)",
+     "25": "D (25 / 3 < 55, not enough; key A)",
+     "30": "A (27 miles; key D 36)",
+     "36": "A (300-600; key B 600-900)",
+     "38": "B (number of weeks; key D species of bugs)"
+    },
+    "seconds": {
+     "1": 362,
+     "2": 18,
+     "3": 39,
+     "4": 88,
+     "5": 13,
+     "6": 25,
+     "7": 21,
+     "8": 20,
+     "9": 29,
+     "10": 109,
+     "11": 47,
+     "12": 37,
+     "13": null,
+     "14": 27,
+     "15": 23,
+     "16": 15,
+     "17": 77,
+     "18": 41,
+     "19": 19,
+     "20": 96,
+     "21": 19,
+     "22": 31,
+     "23": 26,
+     "24": 20,
+     "25": 110,
+     "26": 46,
+     "27": 29,
+     "28": 33,
+     "29": 71,
+     "30": 13,
+     "31": 98,
+     "32": 19,
+     "33": 45,
+     "34": 47,
+     "35": 43,
+     "36": 107,
+     "37": 62,
+     "38": 135
+    },
+    "note": "Sum of shown times 34.3 min (Q13 time not captured). Q1 shows 362 s; as in PT5 this is very likely the page left open at the end, so first pass about 28-29 min, about 6 min spare. Wrong: 18 multiplier-to-digit pattern (54 = 9 x 6), 25 yards-to-feet direction (divided instead of multiplied), 30 L-shape perimeter adding only the 4 labeled sides in 13 s (composite-perimeter gap again), 36 estimate 60 / 13 x 152 not adjusted past 600, 38 categories vs quantities (18.4% of others right). Diagnoses from answers only, not confirmed with her."
+   },
+   "ma": {
+    "score": "pending",
+    "note": "MA screenshots were taken with Review Mode on, so her answers are hidden; times captured. Need recapture with Review Mode off."
+   },
+   "screenshots": "recaptureQR/Screenshot 2026-11-08 at 2.06.47-2.08.12 PM (QR 1-38), 2.12.47-2.13.35 PM (MA 1-30)"
   }
  ],
  "retake_sets": [
