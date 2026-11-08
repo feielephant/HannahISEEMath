@@ -1542,7 +1542,7 @@
    "screenshots": "mathspeed test/actual-practice-tests/ISEE Lower #5/"
   },
   {
-   "test": "Practice Test 6 (Test Innovators ISEE Lower; test number not shown in captures)",
+   "test": "ISEE Lower #6 (folder name inferred; captures do not show the platform test title)",
    "result_id": 5100464,
    "date": "2026-11-08 (screenshots taken; test date not shown)",
    "qr": {
@@ -1685,8 +1685,9 @@
     },
     "note": "Times add to 30.0 min: she used the whole 30 minutes and Q30 (210 s) ran to the limit, as on PT5. Big time sinks on items she got right: #25 range 264 s (others 47), #27 rhombus 171 s (31), #12 batteries 177 s and wrong. #30 stopped one step early ($106 = Raya only). #28 percent: 20% = $3, she doubled to $6 instead of x5. #12 picked 36 x n = 4 (division story written backwards). #13 off by one (28 vs 27). Diagnoses from answers only."
    },
-   "screenshots": "recaptureQR/Screenshot 2026-11-08 at 2.06.47-2.08.12 PM (QR 1-38), 2.12.47-2.13.35 PM (MA 1-30)",
-   "ma_screenshots": "recaptureQR/Screenshot 2026-11-08 at 2.28-2.30 PM (recapture with answers; QR 1-38 then MA 1-30, MA30 twice)"
+   "screenshots": "mathspeed test/actual-practice-tests/ISEE Lower #6/ (copied from recaptureQR, 2026-11-08 2.28-2.30 PM; QR 1-38, MA 1-30, MA 30 captured twice)",
+   "ma_screenshots": "recaptureQR/Screenshot 2026-11-08 at 2.28-2.30 PM (recapture with answers; QR 1-38 then MA 1-30, MA30 twice)",
+   "gids": "problem_library 1502-1539 (QR 1-38); ma_library test_set ISEE LOWER #6 (MA 1-30)"
   }
  ],
  "retake_sets": [

@@ -38346,5 +38346,1867 @@
   "global_id": 1501,
   "set_name": "WHOLE NUMBER \"WHO AM I?\" #2",
   "source": "individual_exercise_screenshot"
+ },
+ {
+  "source_file": "mathspeed test/actual-practice-tests/ISEE Lower #6/Screenshot 2026-11-08 at 2.28.11\u202fPM.png",
+  "type": "question",
+  "question_number": 1,
+  "question_text": "The list shows a number pattern. One number is missing from the pattern. 10 14 18 22 26 ? 34 What is the missing number in the pattern?",
+  "diagram_description": "None.",
+  "choices": [
+   "28",
+   "30",
+   "32",
+   "38"
+  ],
+  "correct_letter": "B",
+  "correct_pct": "98.6%",
+  "topic_broad": "patterns",
+  "topic_specific": "add-4 pattern, missing term",
+  "notes": "Practice Test 6, Quantitative Reasoning #1. Answered correctly. Her 362 sec is very likely the page left open at the end of the section, as on Practice Test 5 #1.",
+  "status": "done",
+  "is_wrong": false,
+  "official_topic": "Numerical Patterns",
+  "choice_percentages": {
+   "A": "<5.0%",
+   "B": "98.6%",
+   "C": "<5.0%",
+   "D": "<5.0%"
+  },
+  "choice_percentages_source": "review page; unlisted letters were shown as <5.0% or not read",
+  "her_selected_letter": "B",
+  "her_seconds": 362,
+  "her_seconds_source": "review page",
+  "others_avg_seconds": 14,
+  "difficulty": "Easy",
+  "subtype": "Algebraic Concepts",
+  "test_set": "ISEE LOWER #6",
+  "exercise_title": null,
+  "is_timing_chart": false,
+  "strip_wrong": [
+   18,
+   25,
+   30,
+   36,
+   38
+  ],
+  "result_id": 5100464,
+  "recapture_source_images": [
+   "mathspeed test/actual-practice-tests/ISEE Lower #6/Screenshot 2026-11-08 at 2.28.11\u202fPM.png"
+  ],
+  "global_id": 1502
+ },
+ {
+  "source_file": "mathspeed test/actual-practice-tests/ISEE Lower #6/Screenshot 2026-11-08 at 2.28.15\u202fPM.png",
+  "type": "question",
+  "question_number": 2,
+  "question_text": "Use the equations to answer the question. a + 6 = 8; 6 + c = 10. What is the value of a + c?",
+  "diagram_description": "None.",
+  "choices": [
+   "2",
+   "6",
+   "18",
+   "30"
+  ],
+  "correct_letter": "B",
+  "correct_pct": "98.9%",
+  "topic_broad": "algebra",
+  "topic_specific": "two one-step equations, sum",
+  "notes": "Practice Test 6, Quantitative Reasoning #2. Answered correctly.",
+  "status": "done",
+  "is_wrong": false,
+  "official_topic": "Solving 1 Variable Equations",
+  "choice_percentages": {
+   "A": "<5.0%",
+   "B": "98.9%",
+   "C": "<5.0%",
+   "D": "<5.0%"
+  },
+  "choice_percentages_source": "review page; unlisted letters were shown as <5.0% or not read",
+  "her_selected_letter": "B",
+  "her_seconds": 18,
+  "her_seconds_source": "review page",
+  "others_avg_seconds": 16,
+  "difficulty": "Easy",
+  "subtype": "Algebraic Concepts",
+  "test_set": "ISEE LOWER #6",
+  "exercise_title": null,
+  "is_timing_chart": false,
+  "strip_wrong": [
+   18,
+   25,
+   30,
+   36,
+   38
+  ],
+  "result_id": 5100464,
+  "recapture_source_images": [
+   "mathspeed test/actual-practice-tests/ISEE Lower #6/Screenshot 2026-11-08 at 2.28.15\u202fPM.png"
+  ],
+  "global_id": 1503
+ },
+ {
+  "source_file": "mathspeed test/actual-practice-tests/ISEE Lower #6/Screenshot 2026-11-08 at 2.28.27\u202fPM.png",
+  "type": "question",
+  "question_number": 3,
+  "question_text": "The diagram shows the first three figures and the fifth figure in a pattern. What should be the fourth figure in the pattern?",
+  "diagram_description": "Square grids 1x1, 2x2, 3x3, ?, 5x5; choices are grids of different sizes.",
+  "choices": [
+   "2 x 3 grid",
+   "3 x 4 grid",
+   "4 x 4 grid",
+   "5 x 5 grid"
+  ],
+  "correct_letter": "C",
+  "correct_pct": "97.8%",
+  "topic_broad": "patterns",
+  "topic_specific": "growing square grid",
+  "notes": "Practice Test 6, Quantitative Reasoning #3. Answered correctly.",
+  "status": "done",
+  "is_wrong": false,
+  "official_topic": "Predicting the Next Shapes, given Progressive Pattern",
+  "choice_percentages": {
+   "A": "<5.0%",
+   "B": "<5.0%",
+   "C": "97.8%",
+   "D": "<5.0%"
+  },
+  "choice_percentages_source": "review page; unlisted letters were shown as <5.0% or not read",
+  "her_selected_letter": "C",
+  "her_seconds": 39,
+  "her_seconds_source": "review page",
+  "others_avg_seconds": 24,
+  "difficulty": "Easy",
+  "subtype": "Geometry",
+  "test_set": "ISEE LOWER #6",
+  "exercise_title": null,
+  "is_timing_chart": false,
+  "strip_wrong": [
+   18,
+   25,
+   30,
+   36,
+   38
+  ],
+  "result_id": 5100464,
+  "recapture_source_images": [
+   "mathspeed test/actual-practice-tests/ISEE Lower #6/Screenshot 2026-11-08 at 2.28.27\u202fPM.png"
+  ],
+  "global_id": 1504
+ },
+ {
+  "source_file": "mathspeed test/actual-practice-tests/ISEE Lower #6/Screenshot 2026-11-08 at 2.28.29\u202fPM.png",
+  "type": "question",
+  "question_number": 4,
+  "question_text": "The second number in a pattern is 16, the third number in the pattern is 24, and the fourth number in the pattern is 32. What is the first number in the pattern?",
+  "diagram_description": "None.",
+  "choices": [
+   "0",
+   "1",
+   "8",
+   "9"
+  ],
+  "correct_letter": "C",
+  "correct_pct": "97.8%",
+  "topic_broad": "patterns",
+  "topic_specific": "work backward, add-8 pattern",
+  "notes": "Practice Test 6, Quantitative Reasoning #4. Answered correctly.",
+  "status": "done",
+  "is_wrong": false,
+  "official_topic": "Numerical Patterns",
+  "choice_percentages": {
+   "A": "<5.0%",
+   "B": "<5.0%",
+   "C": "97.8%",
+   "D": "<5.0%"
+  },
+  "choice_percentages_source": "review page; unlisted letters were shown as <5.0% or not read",
+  "her_selected_letter": "C",
+  "her_seconds": 88,
+  "her_seconds_source": "review page",
+  "others_avg_seconds": 25,
+  "difficulty": "Easy",
+  "subtype": "Algebraic Concepts",
+  "test_set": "ISEE LOWER #6",
+  "exercise_title": null,
+  "is_timing_chart": false,
+  "strip_wrong": [
+   18,
+   25,
+   30,
+   36,
+   38
+  ],
+  "result_id": 5100464,
+  "recapture_source_images": [
+   "mathspeed test/actual-practice-tests/ISEE Lower #6/Screenshot 2026-11-08 at 2.28.29\u202fPM.png"
+  ],
+  "global_id": 1505
+ },
+ {
+  "source_file": "mathspeed test/actual-practice-tests/ISEE Lower #6/Screenshot 2026-11-08 at 2.28.30\u202fPM.png",
+  "type": "question",
+  "question_number": 5,
+  "question_text": "The diagram shows the faces of a solid. Which three-dimensional solid could be formed by the faces shown?",
+  "diagram_description": "Faces: 2 triangles and 3 rectangles. Choices: square pyramid, triangular prism, cone, rectangular prism.",
+  "choices": [
+   "square pyramid",
+   "triangular prism",
+   "cone",
+   "rectangular prism"
+  ],
+  "correct_letter": "B",
+  "correct_pct": "96.3%",
+  "topic_broad": "geometry-solids",
+  "topic_specific": "solid from its faces",
+  "notes": "Practice Test 6, Quantitative Reasoning #5. Answered correctly.",
+  "status": "done",
+  "is_wrong": false,
+  "official_topic": "Shape Construction & Symmetry in 2-D Figures",
+  "choice_percentages": {
+   "A": "<5.0%",
+   "B": "96.3%",
+   "C": "<5.0%",
+   "D": "<5.0%"
+  },
+  "choice_percentages_source": "review page; unlisted letters were shown as <5.0% or not read",
+  "her_selected_letter": "B",
+  "her_seconds": 13,
+  "her_seconds_source": "review page",
+  "others_avg_seconds": 21,
+  "difficulty": "Easy",
+  "subtype": "Geometry",
+  "test_set": "ISEE LOWER #6",
+  "exercise_title": null,
+  "is_timing_chart": false,
+  "strip_wrong": [
+   18,
+   25,
+   30,
+   36,
+   38
+  ],
+  "result_id": 5100464,
+  "recapture_source_images": [
+   "mathspeed test/actual-practice-tests/ISEE Lower #6/Screenshot 2026-11-08 at 2.28.30\u202fPM.png"
+  ],
+  "global_id": 1506
+ },
+ {
+  "source_file": "mathspeed test/actual-practice-tests/ISEE Lower #6/Screenshot 2026-11-08 at 2.28.32\u202fPM.png",
+  "type": "question",
+  "question_number": 6,
+  "question_text": "The table shows a relationship between the input numbers and the output numbers generated by a number machine. Which equation shows the rule for the number machine?",
+  "diagram_description": "NUMBER MACHINE table, Input triangle / Output square: 1-14, 2-15, 3-16, 4-17.",
+  "choices": [
+   "\u25b3 + 1 = \u25a0",
+   "\u25b3 \u00d7 1 = \u25a0",
+   "\u25b3 + 13 = \u25a0",
+   "\u25b3 \u00d7 14 = \u25a0"
+  ],
+  "correct_letter": "C",
+  "correct_pct": "95.6%",
+  "topic_broad": "algebra",
+  "topic_specific": "input/output rule",
+  "notes": "Practice Test 6, Quantitative Reasoning #6. Answered correctly.",
+  "status": "done",
+  "is_wrong": false,
+  "official_topic": "Input/Output Tables",
+  "choice_percentages": {
+   "A": "<5.0%",
+   "B": "<5.0%",
+   "C": "95.6%",
+   "D": "<5.0%"
+  },
+  "choice_percentages_source": "review page; unlisted letters were shown as <5.0% or not read",
+  "her_selected_letter": "C",
+  "her_seconds": 25,
+  "her_seconds_source": "review page",
+  "others_avg_seconds": 28,
+  "difficulty": null,
+  "subtype": "Algebraic Concepts",
+  "test_set": "ISEE LOWER #6",
+  "exercise_title": null,
+  "is_timing_chart": false,
+  "strip_wrong": [
+   18,
+   25,
+   30,
+   36,
+   38
+  ],
+  "result_id": 5100464,
+  "recapture_source_images": [
+   "mathspeed test/actual-practice-tests/ISEE Lower #6/Screenshot 2026-11-08 at 2.28.32\u202fPM.png"
+  ],
+  "global_id": 1507
+ },
+ {
+  "source_file": "mathspeed test/actual-practice-tests/ISEE Lower #6/Screenshot 2026-11-08 at 2.28.33\u202fPM.png",
+  "type": "question",
+  "question_number": 7,
+  "question_text": "The graph shows the number of books each of five students read over summer vacation. What is the median of the set of data?",
+  "diagram_description": "Bar graph: Andy 5, Bobby 3, Charlie 7, Davis 8, Eddie 2.",
+  "choices": [
+   "3",
+   "4",
+   "5",
+   "6"
+  ],
+  "correct_letter": "C",
+  "correct_pct": "94.1%",
+  "topic_broad": "data",
+  "topic_specific": "median from bar graph",
+  "notes": "Practice Test 6, Quantitative Reasoning #7. Answered correctly.",
+  "status": "done",
+  "is_wrong": false,
+  "official_topic": "Finding MMMR, given Bar Graph/Data Table of Values",
+  "choice_percentages": {
+   "A": "<5.0%",
+   "B": "<5.0%",
+   "C": "94.1%",
+   "D": "<5.0%"
+  },
+  "choice_percentages_source": "review page; unlisted letters were shown as <5.0% or not read",
+  "her_selected_letter": "C",
+  "her_seconds": 21,
+  "her_seconds_source": "review page",
+  "others_avg_seconds": 34,
+  "difficulty": null,
+  "subtype": null,
+  "test_set": "ISEE LOWER #6",
+  "exercise_title": null,
+  "is_timing_chart": false,
+  "strip_wrong": [
+   18,
+   25,
+   30,
+   36,
+   38
+  ],
+  "result_id": 5100464,
+  "recapture_source_images": [
+   "mathspeed test/actual-practice-tests/ISEE Lower #6/Screenshot 2026-11-08 at 2.28.33\u202fPM.png"
+  ],
+  "global_id": 1508
+ },
+ {
+  "source_file": "mathspeed test/actual-practice-tests/ISEE Lower #6/Screenshot 2026-11-08 at 2.28.35\u202fPM.png",
+  "type": "question",
+  "question_number": 8,
+  "question_text": "Which whole number is divisible by 4 without a remainder?",
+  "diagram_description": "None.",
+  "choices": [
+   "220",
+   "225",
+   "230",
+   "234"
+  ],
+  "correct_letter": "A",
+  "correct_pct": "94.8%",
+  "topic_broad": "number-theory-divisibility",
+  "topic_specific": "divisible by 4",
+  "notes": "Practice Test 6, Quantitative Reasoning #8. Answered correctly.",
+  "status": "done",
+  "is_wrong": false,
+  "official_topic": "No Remainder when Divided by a given Number",
+  "choice_percentages": {
+   "A": "94.8%",
+   "B": "<5.0%",
+   "C": "<5.0%",
+   "D": "<5.0%"
+  },
+  "choice_percentages_source": "review page; unlisted letters were shown as <5.0% or not read",
+  "her_selected_letter": "A",
+  "her_seconds": 20,
+  "her_seconds_source": "review page",
+  "others_avg_seconds": 32,
+  "difficulty": "Easy",
+  "subtype": "Whole Numbers",
+  "test_set": "ISEE LOWER #6",
+  "exercise_title": null,
+  "is_timing_chart": false,
+  "strip_wrong": [
+   18,
+   25,
+   30,
+   36,
+   38
+  ],
+  "result_id": 5100464,
+  "recapture_source_images": [
+   "mathspeed test/actual-practice-tests/ISEE Lower #6/Screenshot 2026-11-08 at 2.28.35\u202fPM.png"
+  ],
+  "global_id": 1509
+ },
+ {
+  "source_file": "mathspeed test/actual-practice-tests/ISEE Lower #6/Screenshot 2026-11-08 at 2.28.36\u202fPM.png",
+  "type": "question",
+  "question_number": 9,
+  "question_text": "Point K is shown on the number line. What fraction is best represented by point K on the number line?",
+  "diagram_description": "Number line 0 to 1 in eighths, K at the 7th tick.",
+  "choices": [
+   "1/8",
+   "1/5",
+   "3/4",
+   "7/8"
+  ],
+  "correct_letter": "D",
+  "correct_pct": "95.6%",
+  "topic_broad": "fractions",
+  "topic_specific": "fraction on a number line",
+  "notes": "Practice Test 6, Quantitative Reasoning #9. Answered correctly.",
+  "status": "done",
+  "is_wrong": false,
+  "official_topic": "Determining Points on Number Lines",
+  "choice_percentages": {
+   "A": "<5.0%",
+   "B": "<5.0%",
+   "C": "<5.0%",
+   "D": "95.6%"
+  },
+  "choice_percentages_source": "review page; unlisted letters were shown as <5.0% or not read",
+  "her_selected_letter": "D",
+  "her_seconds": 29,
+  "her_seconds_source": "review page",
+  "others_avg_seconds": 23,
+  "difficulty": "Easy",
+  "subtype": "Algebraic Concepts",
+  "test_set": "ISEE LOWER #6",
+  "exercise_title": null,
+  "is_timing_chart": false,
+  "strip_wrong": [
+   18,
+   25,
+   30,
+   36,
+   38
+  ],
+  "result_id": 5100464,
+  "recapture_source_images": [
+   "mathspeed test/actual-practice-tests/ISEE Lower #6/Screenshot 2026-11-08 at 2.28.36\u202fPM.png"
+  ],
+  "global_id": 1510
+ },
+ {
+  "source_file": "mathspeed test/actual-practice-tests/ISEE Lower #6/Screenshot 2026-11-08 at 2.28.38\u202fPM.png",
+  "type": "question",
+  "question_number": 10,
+  "question_text": "The table shows the number of students with each eye color in Len's class. What fraction of the students in Len's class have green eyes?",
+  "diagram_description": "LEN'S CLASS table: blue 12, brown 24, green 8, hazel 6.",
+  "choices": [
+   "8/50",
+   "8/42",
+   "42/8",
+   "50/8"
+  ],
+  "correct_letter": "A",
+  "correct_pct": "95.1%",
+  "topic_broad": "fractions",
+  "topic_specific": "part of total from a table",
+  "notes": "Practice Test 6, Quantitative Reasoning #10. Answered correctly.",
+  "status": "done",
+  "is_wrong": false,
+  "official_topic": "Word Problems with Ratios",
+  "choice_percentages": {
+   "A": "95.1%",
+   "B": "<5.0%",
+   "C": "<5.0%",
+   "D": "<5.0%"
+  },
+  "choice_percentages_source": "review page; unlisted letters were shown as <5.0% or not read",
+  "her_selected_letter": "A",
+  "her_seconds": 109,
+  "her_seconds_source": "review page",
+  "others_avg_seconds": 40,
+  "difficulty": null,
+  "subtype": "Data Analysis & Probability",
+  "test_set": "ISEE LOWER #6",
+  "exercise_title": null,
+  "is_timing_chart": false,
+  "strip_wrong": [
+   18,
+   25,
+   30,
+   36,
+   38
+  ],
+  "result_id": 5100464,
+  "recapture_source_images": [
+   "mathspeed test/actual-practice-tests/ISEE Lower #6/Screenshot 2026-11-08 at 2.28.38\u202fPM.png"
+  ],
+  "global_id": 1511
+ },
+ {
+  "source_file": "mathspeed test/actual-practice-tests/ISEE Lower #6/Screenshot 2026-11-08 at 2.28.39\u202fPM.png",
+  "type": "question",
+  "question_number": 11,
+  "question_text": "If 20x + 4 = 64, what is the value of x?",
+  "diagram_description": "None.",
+  "choices": [
+   "3",
+   "5",
+   "8",
+   "10"
+  ],
+  "correct_letter": "A",
+  "correct_pct": "94.8%",
+  "topic_broad": "algebra",
+  "topic_specific": "two-step equation",
+  "notes": "Practice Test 6, Quantitative Reasoning #11. Answered correctly.",
+  "status": "done",
+  "is_wrong": false,
+  "official_topic": "Solving 1 Variable Equations",
+  "choice_percentages": {
+   "A": "94.8%",
+   "B": "<5.0%",
+   "C": "<5.0%",
+   "D": "<5.0%"
+  },
+  "choice_percentages_source": "review page; unlisted letters were shown as <5.0% or not read",
+  "her_selected_letter": "A",
+  "her_seconds": 47,
+  "her_seconds_source": "review page",
+  "others_avg_seconds": 17,
+  "difficulty": "Easy",
+  "subtype": "Algebraic Concepts",
+  "test_set": "ISEE LOWER #6",
+  "exercise_title": null,
+  "is_timing_chart": false,
+  "strip_wrong": [
+   18,
+   25,
+   30,
+   36,
+   38
+  ],
+  "result_id": 5100464,
+  "recapture_source_images": [
+   "mathspeed test/actual-practice-tests/ISEE Lower #6/Screenshot 2026-11-08 at 2.28.39\u202fPM.png"
+  ],
+  "global_id": 1512
+ },
+ {
+  "source_file": "mathspeed test/actual-practice-tests/ISEE Lower #6/Screenshot 2026-11-08 at 2.28.41\u202fPM.png",
+  "type": "question",
+  "question_number": 12,
+  "question_text": "The shaded area on the grid represents the part of a rectangular wall that has tile already installed. Each small square on the wall has the same dimensions. What percentage of the wall has tile already installed?",
+  "diagram_description": "5 x 4 grid, 10 of 20 squares shaded.",
+  "choices": [
+   "10%",
+   "20%",
+   "30%",
+   "50%"
+  ],
+  "correct_letter": "D",
+  "correct_pct": "92.7%",
+  "topic_broad": "fractions-percent",
+  "topic_specific": "shaded grid percent",
+  "notes": "Practice Test 6, Quantitative Reasoning #12. Answered correctly.",
+  "status": "done",
+  "is_wrong": false,
+  "official_topic": "Determining Fraction/Percent of Shaded Area, given Figure",
+  "choice_percentages": {
+   "A": "<5.0%",
+   "B": "<5.0%",
+   "C": "<5.0%",
+   "D": "92.7%"
+  },
+  "choice_percentages_source": "review page; unlisted letters were shown as <5.0% or not read",
+  "her_selected_letter": "D",
+  "her_seconds": 37,
+  "her_seconds_source": "review page",
+  "others_avg_seconds": 31,
+  "difficulty": "Easy",
+  "subtype": "Decimals, Percents, Fractions",
+  "test_set": "ISEE LOWER #6",
+  "exercise_title": null,
+  "is_timing_chart": false,
+  "strip_wrong": [
+   18,
+   25,
+   30,
+   36,
+   38
+  ],
+  "result_id": 5100464,
+  "recapture_source_images": [
+   "mathspeed test/actual-practice-tests/ISEE Lower #6/Screenshot 2026-11-08 at 2.28.41\u202fPM.png"
+  ],
+  "global_id": 1513
+ },
+ {
+  "source_file": "mathspeed test/actual-practice-tests/ISEE Lower #6/Screenshot 2026-11-08 at 2.28.43\u202fPM.png",
+  "type": "question",
+  "question_number": 13,
+  "question_text": "Use the graph to answer the question. Based on the graph, what is the most reasonable prediction of the number of shoes that will be sold during week 6?",
+  "diagram_description": "SHOE SALES bar graph, weeks 1-5: 7, 14, 28, 56, 112 (doubling).",
+  "choices": [
+   "15",
+   "22",
+   "150",
+   "220"
+  ],
+  "correct_letter": "D",
+  "correct_pct": "93.2%",
+  "topic_broad": "data",
+  "topic_specific": "predict next value, doubling",
+  "notes": "Practice Test 6, Quantitative Reasoning #13. Answered correctly.",
+  "status": "done",
+  "is_wrong": false,
+  "official_topic": "Identifying Correct Conclusions from Bar Graph/Data Table Values",
+  "choice_percentages": {
+   "A": "<5.0%",
+   "B": "<5.0%",
+   "C": "6%",
+   "D": "93.2%"
+  },
+  "choice_percentages_source": "review page; unlisted letters were shown as <5.0% or not read",
+  "her_selected_letter": "D",
+  "her_seconds": null,
+  "her_seconds_source": null,
+  "others_avg_seconds": null,
+  "difficulty": null,
+  "subtype": null,
+  "test_set": "ISEE LOWER #6",
+  "exercise_title": null,
+  "is_timing_chart": false,
+  "strip_wrong": [
+   18,
+   25,
+   30,
+   36,
+   38
+  ],
+  "result_id": 5100464,
+  "recapture_source_images": [
+   "mathspeed test/actual-practice-tests/ISEE Lower #6/Screenshot 2026-11-08 at 2.28.43\u202fPM.png"
+  ],
+  "global_id": 1514
+ },
+ {
+  "source_file": "mathspeed test/actual-practice-tests/ISEE Lower #6/Screenshot 2026-11-08 at 2.28.44\u202fPM.png",
+  "type": "question",
+  "question_number": 14,
+  "question_text": "An image with horizontal line of symmetry and vertical line of symmetry is cut in half along a dotted line. One half of the image is shown in Figure 3. Which could be the other half of the figure when matched along the dotted line?",
+  "diagram_description": "Figure 3: half image with corner squares and a triangle pointing left at the dotted edge; choices are mirror candidates.",
+  "choices": [
+   "picture A",
+   "picture B",
+   "picture C",
+   "picture D"
+  ],
+  "correct_letter": "B",
+  "correct_pct": "92.4%",
+  "topic_broad": "geometry-symmetry",
+  "topic_specific": "complete a symmetric figure",
+  "notes": "Practice Test 6, Quantitative Reasoning #14. Answered correctly.",
+  "status": "done",
+  "is_wrong": false,
+  "official_topic": "Shape Construction & Symmetry in 2-D Figures",
+  "choice_percentages": {
+   "A": "<5.0%",
+   "B": "92.4%",
+   "C": "<5.0%",
+   "D": "<5.0%"
+  },
+  "choice_percentages_source": "review page; unlisted letters were shown as <5.0% or not read",
+  "her_selected_letter": "B",
+  "her_seconds": 27,
+  "her_seconds_source": "review page",
+  "others_avg_seconds": 34,
+  "difficulty": null,
+  "subtype": "Geometry",
+  "test_set": "ISEE LOWER #6",
+  "exercise_title": null,
+  "is_timing_chart": false,
+  "strip_wrong": [
+   18,
+   25,
+   30,
+   36,
+   38
+  ],
+  "result_id": 5100464,
+  "recapture_source_images": [
+   "mathspeed test/actual-practice-tests/ISEE Lower #6/Screenshot 2026-11-08 at 2.28.44\u202fPM.png"
+  ],
+  "global_id": 1515
+ },
+ {
+  "source_file": "mathspeed test/actual-practice-tests/ISEE Lower #6/Screenshot 2026-11-08 at 2.28.46\u202fPM.png",
+  "type": "question",
+  "question_number": 15,
+  "question_text": "Which fraction goes in the box so that the list is in order from least to greatest? 1/4, 4/10, \u25a1, 2/3, 3/4",
+  "diagram_description": "None.",
+  "choices": [
+   "1/5",
+   "1/2",
+   "5/6",
+   "7/8"
+  ],
+  "correct_letter": "B",
+  "correct_pct": "90.3%",
+  "topic_broad": "fractions",
+  "topic_specific": "fraction between two others",
+  "notes": "Practice Test 6, Quantitative Reasoning #15. Answered correctly.",
+  "status": "done",
+  "is_wrong": false,
+  "official_topic": "Comparing & Ordering Fractions & Decimals",
+  "choice_percentages": {
+   "A": "<5.0%",
+   "B": "90.3%",
+   "C": "<5.0%",
+   "D": "<5.0%"
+  },
+  "choice_percentages_source": "review page; unlisted letters were shown as <5.0% or not read",
+  "her_selected_letter": "B",
+  "her_seconds": 23,
+  "her_seconds_source": "review page",
+  "others_avg_seconds": 32,
+  "difficulty": "Medium",
+  "subtype": "Decimals, Percents, Fractions",
+  "test_set": "ISEE LOWER #6",
+  "exercise_title": null,
+  "is_timing_chart": false,
+  "strip_wrong": [
+   18,
+   25,
+   30,
+   36,
+   38
+  ],
+  "result_id": 5100464,
+  "recapture_source_images": [
+   "mathspeed test/actual-practice-tests/ISEE Lower #6/Screenshot 2026-11-08 at 2.28.46\u202fPM.png"
+  ],
+  "global_id": 1516
+ },
+ {
+  "source_file": "mathspeed test/actual-practice-tests/ISEE Lower #6/Screenshot 2026-11-08 at 2.28.48\u202fPM.png",
+  "type": "question",
+  "question_number": 16,
+  "question_text": "When a number is divided by 6, the remainder is 2. Which could be the number?",
+  "diagram_description": "None.",
+  "choices": [
+   "22",
+   "26",
+   "34",
+   "39"
+  ],
+  "correct_letter": "B",
+  "correct_pct": "93.3%",
+  "topic_broad": "number-theory-divisibility",
+  "topic_specific": "remainder 2 when divided by 6",
+  "notes": "Practice Test 6, Quantitative Reasoning #16. Answered correctly.",
+  "status": "done",
+  "is_wrong": false,
+  "official_topic": "Remainder when Divided by a given Number",
+  "choice_percentages": {
+   "A": "<5.0%",
+   "B": "93.3%",
+   "C": "<5.0%",
+   "D": "<5.0%"
+  },
+  "choice_percentages_source": "review page; unlisted letters were shown as <5.0% or not read",
+  "her_selected_letter": "B",
+  "her_seconds": 15,
+  "her_seconds_source": "review page",
+  "others_avg_seconds": 31,
+  "difficulty": "Medium",
+  "subtype": "Whole Numbers",
+  "test_set": "ISEE LOWER #6",
+  "exercise_title": null,
+  "is_timing_chart": false,
+  "strip_wrong": [
+   18,
+   25,
+   30,
+   36,
+   38
+  ],
+  "result_id": 5100464,
+  "recapture_source_images": [
+   "mathspeed test/actual-practice-tests/ISEE Lower #6/Screenshot 2026-11-08 at 2.28.48\u202fPM.png"
+  ],
+  "global_id": 1517
+ },
+ {
+  "source_file": "mathspeed test/actual-practice-tests/ISEE Lower #6/Screenshot 2026-11-08 at 2.28.49\u202fPM.png",
+  "type": "question",
+  "question_number": 17,
+  "question_text": "Of Joe's music collection, the ratio of hip-hop songs to the total number of songs is 2 : 5. If there are 360 total songs, how many are hip-hop songs?",
+  "diagram_description": "None.",
+  "choices": [
+   "72",
+   "144",
+   "216",
+   "900"
+  ],
+  "correct_letter": "B",
+  "correct_pct": "73.9%",
+  "topic_broad": "ratios",
+  "topic_specific": "part-to-total ratio",
+  "notes": "Practice Test 6, Quantitative Reasoning #17. Answered correctly.",
+  "status": "done",
+  "is_wrong": false,
+  "official_topic": "Word Problems with Ratios",
+  "choice_percentages": {
+   "A": "18.7%",
+   "B": "73.9%",
+   "C": "6.3%",
+   "D": "<5.0%"
+  },
+  "choice_percentages_source": "review page; unlisted letters were shown as <5.0% or not read",
+  "her_selected_letter": "B",
+  "her_seconds": 77,
+  "her_seconds_source": "review page",
+  "others_avg_seconds": 65,
+  "difficulty": "Medium",
+  "subtype": "Decimals, Percents, Fractions",
+  "test_set": "ISEE LOWER #6",
+  "exercise_title": null,
+  "is_timing_chart": false,
+  "strip_wrong": [
+   18,
+   25,
+   30,
+   36,
+   38
+  ],
+  "result_id": 5100464,
+  "recapture_source_images": [
+   "mathspeed test/actual-practice-tests/ISEE Lower #6/Screenshot 2026-11-08 at 2.28.49\u202fPM.png"
+  ],
+  "global_id": 1518
+ },
+ {
+  "source_file": "mathspeed test/actual-practice-tests/ISEE Lower #6/Screenshot 2026-11-08 at 2.28.51\u202fPM.png",
+  "type": "question",
+  "question_number": 18,
+  "question_text": "Use the pattern to help answer the question. 12,345,679 \u00d7 9 = 111,111,111; 12,345,679 \u00d7 18 = 222,222,222; 12,345,679 \u00d7 27 = 333,333,333. What is the value of 12,345,679 \u00d7 54?",
+  "diagram_description": "None.",
+  "choices": [
+   "444,444,444",
+   "555,555,555",
+   "666,666,666",
+   "777,777,777"
+  ],
+  "correct_letter": "C",
+  "correct_pct": "79%",
+  "topic_broad": "patterns",
+  "topic_specific": "multiplier pattern, 54 = 9 x 6",
+  "notes": "Practice Test 6, Quantitative Reasoning #18. Wrong: she chose D. Likely: 54 = 9 x 6, so the digits are 6s; she went one past. Diagnosis from her answer only, not confirmed with her.",
+  "status": "done",
+  "is_wrong": true,
+  "official_topic": "Numerical Patterns",
+  "choice_percentages": {
+   "A": "17.1%",
+   "B": "<5.0%",
+   "C": "79%",
+   "D": "<5.0%"
+  },
+  "choice_percentages_source": "review page; unlisted letters were shown as <5.0% or not read",
+  "her_selected_letter": "D",
+  "her_seconds": 41,
+  "her_seconds_source": "review page",
+  "others_avg_seconds": 38,
+  "difficulty": "Medium",
+  "subtype": "Algebraic Concepts",
+  "test_set": "ISEE LOWER #6",
+  "exercise_title": null,
+  "is_timing_chart": false,
+  "strip_wrong": [
+   18,
+   25,
+   30,
+   36,
+   38
+  ],
+  "result_id": 5100464,
+  "recapture_source_images": [
+   "mathspeed test/actual-practice-tests/ISEE Lower #6/Screenshot 2026-11-08 at 2.28.51\u202fPM.png"
+  ],
+  "global_id": 1519
+ },
+ {
+  "source_file": "mathspeed test/actual-practice-tests/ISEE Lower #6/Screenshot 2026-11-08 at 2.28.52\u202fPM.png",
+  "type": "question",
+  "question_number": 19,
+  "question_text": "Sheila needs to put \u25cb candles on a cake. She already has put \u25b3 candles on the cake. Which equation will determine \u25a1, the additional number of candles Sheila still needs to put on the cake?",
+  "diagram_description": "None.",
+  "choices": [
+   "\u25cb \u2212 \u25b3 = \u25a1",
+   "\u25a1 \u2212 \u25b3 = \u25cb",
+   "\u25cb \u2212 \u25a1 = \u25b3",
+   "\u25b3 \u2212 \u25cb = \u25a1"
+  ],
+  "correct_letter": "A",
+  "correct_pct": "82.9%",
+  "topic_broad": "algebra",
+  "topic_specific": "symbol equation for remaining amount",
+  "notes": "Practice Test 6, Quantitative Reasoning #19. Answered correctly.",
+  "status": "done",
+  "is_wrong": false,
+  "official_topic": "Algebra with Shapes for Variables",
+  "choice_percentages": {
+   "A": "82.9%",
+   "B": "6.4%",
+   "C": "<5.0%",
+   "D": "8.5%"
+  },
+  "choice_percentages_source": "review page; unlisted letters were shown as <5.0% or not read",
+  "her_selected_letter": "A",
+  "her_seconds": 19,
+  "her_seconds_source": "review page",
+  "others_avg_seconds": 31,
+  "difficulty": "Medium",
+  "subtype": "Algebraic Concepts",
+  "test_set": "ISEE LOWER #6",
+  "exercise_title": null,
+  "is_timing_chart": false,
+  "strip_wrong": [
+   18,
+   25,
+   30,
+   36,
+   38
+  ],
+  "result_id": 5100464,
+  "recapture_source_images": [
+   "mathspeed test/actual-practice-tests/ISEE Lower #6/Screenshot 2026-11-08 at 2.28.52\u202fPM.png"
+  ],
+  "global_id": 1520
+ },
+ {
+  "source_file": "mathspeed test/actual-practice-tests/ISEE Lower #6/Screenshot 2026-11-08 at 2.28.54\u202fPM.png",
+  "type": "question",
+  "question_number": 20,
+  "question_text": "Ruby collects coins. She bought a new empty case that has 28 pages. If each page can hold 18 coins, what is the best estimate of the total number of coins Ruby can put in the case?",
+  "diagram_description": "None.",
+  "choices": [
+   "50",
+   "200",
+   "300",
+   "600"
+  ],
+  "correct_letter": "D",
+  "correct_pct": "88%",
+  "topic_broad": "estimation",
+  "topic_specific": "estimate a product",
+  "notes": "Practice Test 6, Quantitative Reasoning #20. Answered correctly.",
+  "status": "done",
+  "is_wrong": false,
+  "official_topic": "Estimating Multiplication & Division",
+  "choice_percentages": {
+   "A": "<5.0%",
+   "B": "<5.0%",
+   "C": "6.9%",
+   "D": "88%"
+  },
+  "choice_percentages_source": "review page; unlisted letters were shown as <5.0% or not read",
+  "her_selected_letter": "D",
+  "her_seconds": 96,
+  "her_seconds_source": "review page",
+  "others_avg_seconds": 42,
+  "difficulty": "Medium",
+  "subtype": "Whole Numbers",
+  "test_set": "ISEE LOWER #6",
+  "exercise_title": null,
+  "is_timing_chart": false,
+  "strip_wrong": [
+   18,
+   25,
+   30,
+   36,
+   38
+  ],
+  "result_id": 5100464,
+  "recapture_source_images": [
+   "mathspeed test/actual-practice-tests/ISEE Lower #6/Screenshot 2026-11-08 at 2.28.54\u202fPM.png"
+  ],
+  "global_id": 1521
+ },
+ {
+  "source_file": "mathspeed test/actual-practice-tests/ISEE Lower #6/Screenshot 2026-11-08 at 2.28.55\u202fPM.png",
+  "type": "question",
+  "question_number": 21,
+  "question_text": "The perimeter of an equilateral triangle is 27q. What is the length of one side? (Note: Equilateral triangles have three sides of equal length.)",
+  "diagram_description": "None.",
+  "choices": [
+   "6",
+   "9",
+   "6q",
+   "9q"
+  ],
+  "correct_letter": "D",
+  "correct_pct": "79%",
+  "topic_broad": "geometry-perimeter",
+  "topic_specific": "side from perimeter with a variable",
+  "notes": "Practice Test 6, Quantitative Reasoning #21. Answered correctly.",
+  "status": "done",
+  "is_wrong": false,
+  "official_topic": "Area and Perimeter of Complex Polygons",
+  "choice_percentages": {
+   "A": "<5.0%",
+   "B": "18.7%",
+   "C": "<5.0%",
+   "D": "79%"
+  },
+  "choice_percentages_source": "review page; unlisted letters were shown as <5.0% or not read",
+  "her_selected_letter": "D",
+  "her_seconds": 19,
+  "her_seconds_source": "review page",
+  "others_avg_seconds": 27,
+  "difficulty": "Medium",
+  "subtype": "Measurement",
+  "test_set": "ISEE LOWER #6",
+  "exercise_title": null,
+  "is_timing_chart": false,
+  "strip_wrong": [
+   18,
+   25,
+   30,
+   36,
+   38
+  ],
+  "result_id": 5100464,
+  "recapture_source_images": [
+   "mathspeed test/actual-practice-tests/ISEE Lower #6/Screenshot 2026-11-08 at 2.28.55\u202fPM.png"
+  ],
+  "global_id": 1522
+ },
+ {
+  "source_file": "mathspeed test/actual-practice-tests/ISEE Lower #6/Screenshot 2026-11-08 at 2.28.57\u202fPM.png",
+  "type": "question",
+  "question_number": 22,
+  "question_text": "Last year, Geoff scored at least 16 points in every basketball game he played. He played a total of 13 games last year. What is the most reasonable fewest number of points he could have scored last year?",
+  "diagram_description": "None.",
+  "choices": [
+   "30",
+   "40",
+   "100",
+   "200"
+  ],
+  "correct_letter": "D",
+  "correct_pct": "83.7%",
+  "topic_broad": "estimation",
+  "topic_specific": "estimate a product",
+  "notes": "Practice Test 6, Quantitative Reasoning #22. Answered correctly.",
+  "status": "done",
+  "is_wrong": false,
+  "official_topic": "Estimating Multiplication & Division",
+  "choice_percentages": {
+   "A": "<5.0%",
+   "B": "<5.0%",
+   "C": "10.5%",
+   "D": "83.7%"
+  },
+  "choice_percentages_source": "review page; unlisted letters were shown as <5.0% or not read",
+  "her_selected_letter": "D",
+  "her_seconds": 31,
+  "her_seconds_source": "review page",
+  "others_avg_seconds": 49,
+  "difficulty": "Medium",
+  "subtype": "Whole Numbers",
+  "test_set": "ISEE LOWER #6",
+  "exercise_title": null,
+  "is_timing_chart": false,
+  "strip_wrong": [
+   18,
+   25,
+   30,
+   36,
+   38
+  ],
+  "result_id": 5100464,
+  "recapture_source_images": [
+   "mathspeed test/actual-practice-tests/ISEE Lower #6/Screenshot 2026-11-08 at 2.28.57\u202fPM.png"
+  ],
+  "global_id": 1523
+ },
+ {
+  "source_file": "mathspeed test/actual-practice-tests/ISEE Lower #6/Screenshot 2026-11-08 at 2.28.58\u202fPM.png",
+  "type": "question",
+  "question_number": 23,
+  "question_text": "Liam used circles and rectangles to make a pattern. The first four figures of the pattern are shown. What will be the total number of rectangles in Figure 6?",
+  "diagram_description": "Figures 1-4: each figure adds a row of 2, alternating circles and rectangles.",
+  "choices": [
+   "2",
+   "4",
+   "6",
+   "8"
+  ],
+  "correct_letter": "C",
+  "correct_pct": "88.7%",
+  "topic_broad": "patterns",
+  "topic_specific": "growing shape pattern",
+  "notes": "Practice Test 6, Quantitative Reasoning #23. Answered correctly.",
+  "status": "done",
+  "is_wrong": false,
+  "official_topic": "Predicting the Next Shapes, given Progressive Pattern",
+  "choice_percentages": {
+   "A": "<5.0%",
+   "B": "<5.0%",
+   "C": "88.7%",
+   "D": "7.2%"
+  },
+  "choice_percentages_source": "review page; unlisted letters were shown as <5.0% or not read",
+  "her_selected_letter": "C",
+  "her_seconds": 26,
+  "her_seconds_source": "review page",
+  "others_avg_seconds": 39,
+  "difficulty": null,
+  "subtype": "Algebraic Concepts",
+  "test_set": "ISEE LOWER #6",
+  "exercise_title": null,
+  "is_timing_chart": false,
+  "strip_wrong": [
+   18,
+   25,
+   30,
+   36,
+   38
+  ],
+  "result_id": 5100464,
+  "recapture_source_images": [
+   "mathspeed test/actual-practice-tests/ISEE Lower #6/Screenshot 2026-11-08 at 2.28.58\u202fPM.png"
+  ],
+  "global_id": 1524
+ },
+ {
+  "source_file": "mathspeed test/actual-practice-tests/ISEE Lower #6/Screenshot 2026-11-08 at 2.29.00\u202fPM.png",
+  "type": "question",
+  "question_number": 24,
+  "question_text": "If \u2661 \u2212 \u25a1 = \u2661 and \u2661 \u00d7 \u25b3 = \u2661, then what is \u2606 \u00f7 \u25b3?",
+  "diagram_description": "None.",
+  "choices": [
+   "\u25b3",
+   "\u25a1",
+   "\u2661",
+   "\u2606"
+  ],
+  "correct_letter": "D",
+  "correct_pct": "83.2%",
+  "topic_broad": "algebra",
+  "topic_specific": "zero and one properties with symbols",
+  "notes": "Practice Test 6, Quantitative Reasoning #24. Answered correctly.",
+  "status": "done",
+  "is_wrong": false,
+  "official_topic": "Algebra with Shapes for Variables",
+  "choice_percentages": {
+   "A": "5.9%",
+   "B": "<5.0%",
+   "C": "6.8%",
+   "D": "83.2%"
+  },
+  "choice_percentages_source": "review page; unlisted letters were shown as <5.0% or not read",
+  "her_selected_letter": "D",
+  "her_seconds": 20,
+  "her_seconds_source": "review page",
+  "others_avg_seconds": 36,
+  "difficulty": "Medium",
+  "subtype": "Algebraic Concepts",
+  "test_set": "ISEE LOWER #6",
+  "exercise_title": null,
+  "is_timing_chart": false,
+  "strip_wrong": [
+   18,
+   25,
+   30,
+   36,
+   38
+  ],
+  "result_id": 5100464,
+  "recapture_source_images": [
+   "mathspeed test/actual-practice-tests/ISEE Lower #6/Screenshot 2026-11-08 at 2.29.00\u202fPM.png"
+  ],
+  "global_id": 1525
+ },
+ {
+  "source_file": "mathspeed test/actual-practice-tests/ISEE Lower #6/Screenshot 2026-11-08 at 2.29.01\u202fPM.png",
+  "type": "question",
+  "question_number": 25,
+  "question_text": "A spool has 25 yards of wire. There are 3 feet in 1 yard. Karen needs 55 feet of wire to complete her electrical project. Which statement best explains how Karen can determine if she has enough wire to complete her project?",
+  "diagram_description": "None.",
+  "choices": [
+   "Since 25 multiplied by 3 is greater than 55, Karen does have enough wire to complete her project.",
+   "Since 25 multiplied by 3 is greater than 55, Karen does not have enough wire to complete her project.",
+   "Since 25 divided by 3 is less than 55, Karen does have enough wire to complete her project.",
+   "Since 25 divided by 3 is less than 55, Karen does not have enough wire to complete her project."
+  ],
+  "correct_letter": "A",
+  "correct_pct": "83.5%",
+  "topic_broad": "measurement-conversion",
+  "topic_specific": "yards to feet, statement choices",
+  "notes": "Practice Test 6, Quantitative Reasoning #25. Wrong: she chose D. Likely: yards to feet in the wrong direction: divided instead of multiplied. Diagnosis from her answer only, not confirmed with her.",
+  "status": "done",
+  "is_wrong": true,
+  "official_topic": "English Unit Conversions",
+  "choice_percentages": {
+   "A": "83.5%",
+   "B": "8.7%",
+   "C": "<5.0%",
+   "D": "<5.0%"
+  },
+  "choice_percentages_source": "review page; unlisted letters were shown as <5.0% or not read",
+  "her_selected_letter": "D",
+  "her_seconds": 110,
+  "her_seconds_source": "review page",
+  "others_avg_seconds": 55,
+  "difficulty": "Medium",
+  "subtype": "Measurement",
+  "test_set": "ISEE LOWER #6",
+  "exercise_title": null,
+  "is_timing_chart": false,
+  "strip_wrong": [
+   18,
+   25,
+   30,
+   36,
+   38
+  ],
+  "result_id": 5100464,
+  "recapture_source_images": [
+   "mathspeed test/actual-practice-tests/ISEE Lower #6/Screenshot 2026-11-08 at 2.29.01\u202fPM.png"
+  ],
+  "global_id": 1526
+ },
+ {
+  "source_file": "mathspeed test/actual-practice-tests/ISEE Lower #6/Screenshot 2026-11-08 at 2.29.03\u202fPM.png",
+  "type": "question",
+  "question_number": 26,
+  "question_text": "A factory makes \u25cb rubber balls every day. The factory makes \u272a rubber balls each week. Which equation will determine \u25b3, the number of days the factory operates each week?",
+  "diagram_description": "None.",
+  "choices": [
+   "\u272a \u00f7 \u25cb = \u25b3",
+   "\u25cb \u00f7 \u272a = \u25b3",
+   "\u25cb \u2212 \u25b3 = \u272a",
+   "\u25b3 \u2212 \u25cb = \u272a"
+  ],
+  "correct_letter": "A",
+  "correct_pct": "81.2%",
+  "topic_broad": "algebra",
+  "topic_specific": "symbol division story",
+  "notes": "Practice Test 6, Quantitative Reasoning #26. Answered correctly.",
+  "status": "done",
+  "is_wrong": false,
+  "official_topic": "Algebra with Shapes for Variables",
+  "choice_percentages": {
+   "A": "81.2%",
+   "B": "13.5%",
+   "C": "<5.0%",
+   "D": "<5.0%"
+  },
+  "choice_percentages_source": "review page; unlisted letters were shown as <5.0% or not read",
+  "her_selected_letter": "A",
+  "her_seconds": 46,
+  "her_seconds_source": "review page",
+  "others_avg_seconds": 43,
+  "difficulty": "Hard",
+  "subtype": "Algebraic Concepts",
+  "test_set": "ISEE LOWER #6",
+  "exercise_title": null,
+  "is_timing_chart": false,
+  "strip_wrong": [
+   18,
+   25,
+   30,
+   36,
+   38
+  ],
+  "result_id": 5100464,
+  "recapture_source_images": [
+   "mathspeed test/actual-practice-tests/ISEE Lower #6/Screenshot 2026-11-08 at 2.29.03\u202fPM.png"
+  ],
+  "global_id": 1527
+ },
+ {
+  "source_file": "mathspeed test/actual-practice-tests/ISEE Lower #6/Screenshot 2026-11-08 at 2.29.05\u202fPM.png",
+  "type": "question",
+  "question_number": 27,
+  "question_text": "The model is shaded to represent a number greater than 1. Which fraction and decimal represent this number?",
+  "diagram_description": "Base-ten model: 4 full rods and a rod with 5 of 10 shaded.",
+  "choices": [
+   "45/100 and 0.45",
+   "4 5/10 and 4.5",
+   "4 5/100 and 4.5",
+   "4 5/10 and 4.05"
+  ],
+  "correct_letter": "B",
+  "correct_pct": "81.9%",
+  "topic_broad": "decimals",
+  "topic_specific": "mixed number and decimal from a model",
+  "notes": "Practice Test 6, Quantitative Reasoning #27. Answered correctly.",
+  "status": "done",
+  "is_wrong": false,
+  "official_topic": "Equivalent Fractions, Decimals, and Percents",
+  "choice_percentages": {
+   "A": "10.7%",
+   "B": "81.9%",
+   "C": "<5.0%",
+   "D": "<5.0%"
+  },
+  "choice_percentages_source": "review page; unlisted letters were shown as <5.0% or not read",
+  "her_selected_letter": "B",
+  "her_seconds": 29,
+  "her_seconds_source": "review page",
+  "others_avg_seconds": 34,
+  "difficulty": "Hard",
+  "subtype": "Decimals, Percents, Fractions",
+  "test_set": "ISEE LOWER #6",
+  "exercise_title": null,
+  "is_timing_chart": false,
+  "strip_wrong": [
+   18,
+   25,
+   30,
+   36,
+   38
+  ],
+  "result_id": 5100464,
+  "recapture_source_images": [
+   "mathspeed test/actual-practice-tests/ISEE Lower #6/Screenshot 2026-11-08 at 2.29.05\u202fPM.png"
+  ],
+  "global_id": 1528
+ },
+ {
+  "source_file": "mathspeed test/actual-practice-tests/ISEE Lower #6/Screenshot 2026-11-08 at 2.29.06\u202fPM.png",
+  "type": "question",
+  "question_number": 28,
+  "question_text": "Some of the circles in the group are shaded to represent a fraction. Which group of squares is shaded to represent a fraction with an equivalent value?",
+  "diagram_description": "12 circles, 4 shaded. Choices: 1 of 3 squares, 1 of 4, 4 of 4, 4 of 8 shaded.",
+  "choices": [
+   "1 of 3 squares shaded",
+   "1 of 4 squares shaded",
+   "4 of 4 squares shaded",
+   "4 of 8 squares shaded"
+  ],
+  "correct_letter": "A",
+  "correct_pct": "86.3%",
+  "topic_broad": "fractions",
+  "topic_specific": "equivalent shaded fraction",
+  "notes": "Practice Test 6, Quantitative Reasoning #28. Answered correctly.",
+  "status": "done",
+  "is_wrong": false,
+  "official_topic": "Determining Fraction/Percent of Shaded Area, given Figure",
+  "choice_percentages": {
+   "A": "86.3%",
+   "B": "6.6%",
+   "C": "<5.0%",
+   "D": "5.4%"
+  },
+  "choice_percentages_source": "review page; unlisted letters were shown as <5.0% or not read",
+  "her_selected_letter": "A",
+  "her_seconds": 33,
+  "her_seconds_source": "review page",
+  "others_avg_seconds": 32,
+  "difficulty": null,
+  "subtype": "Decimals, Percents, Fractions",
+  "test_set": "ISEE LOWER #6",
+  "exercise_title": null,
+  "is_timing_chart": false,
+  "strip_wrong": [
+   18,
+   25,
+   30,
+   36,
+   38
+  ],
+  "result_id": 5100464,
+  "recapture_source_images": [
+   "mathspeed test/actual-practice-tests/ISEE Lower #6/Screenshot 2026-11-08 at 2.29.06\u202fPM.png"
+  ],
+  "global_id": 1529
+ },
+ {
+  "source_file": "mathspeed test/actual-practice-tests/ISEE Lower #6/Screenshot 2026-11-08 at 2.29.08\u202fPM.png",
+  "type": "question",
+  "question_number": 29,
+  "question_text": "Both Levi and Jackson needed to get their pants shortened. Levi's pants were shortened 8/12 of an inch. Jackson's pants were shortened 4/5 of an inch. Which statement shows how to find the lesser fraction?",
+  "diagram_description": "None.",
+  "choices": [
+   "4/5 = 8/9 and 8/9 < 8/12",
+   "4/5 = 8/9 and 8/9 > 8/12",
+   "8/12 = 4/6 and 4/6 < 4/5",
+   "8/12 = 4/6 and 4/6 > 4/5"
+  ],
+  "correct_letter": "C",
+  "correct_pct": "78.5%",
+  "topic_broad": "fractions",
+  "topic_specific": "compare by same numerator",
+  "notes": "Practice Test 6, Quantitative Reasoning #29. Answered correctly.",
+  "status": "done",
+  "is_wrong": false,
+  "official_topic": "Equivalent Fractions, Decimals, and Percents",
+  "choice_percentages": {
+   "A": "<5.0%",
+   "B": "9.8%",
+   "C": "78.5%",
+   "D": "8.9%"
+  },
+  "choice_percentages_source": "review page; unlisted letters were shown as <5.0% or not read",
+  "her_selected_letter": "C",
+  "her_seconds": 71,
+  "her_seconds_source": "review page",
+  "others_avg_seconds": 58,
+  "difficulty": "Hard",
+  "subtype": "Number Sense",
+  "test_set": "ISEE LOWER #6",
+  "exercise_title": null,
+  "is_timing_chart": false,
+  "strip_wrong": [
+   18,
+   25,
+   30,
+   36,
+   38
+  ],
+  "result_id": 5100464,
+  "recapture_source_images": [
+   "mathspeed test/actual-practice-tests/ISEE Lower #6/Screenshot 2026-11-08 at 2.29.08\u202fPM.png"
+  ],
+  "global_id": 1530
+ },
+ {
+  "source_file": "mathspeed test/actual-practice-tests/ISEE Lower #6/Screenshot 2026-11-08 at 2.29.10\u202fPM.png",
+  "type": "question",
+  "question_number": 30,
+  "question_text": "What is the perimeter of the figure?",
+  "diagram_description": "L-shaped figure with labels 4 miles (top), 9 miles (left), 9 miles (bottom), 5 miles (right lower); two inner sides unlabeled.",
+  "choices": [
+   "27 miles",
+   "33 miles",
+   "35 miles",
+   "36 miles"
+  ],
+  "correct_letter": "D",
+  "correct_pct": "69.5%",
+  "topic_broad": "geometry-perimeter",
+  "topic_specific": "L-shape perimeter with unlabeled sides",
+  "notes": "Practice Test 6, Quantitative Reasoning #30. Wrong: she chose A. Likely: 27 = 4 + 9 + 9 + 5, only the labeled sides; 13 s. Composite-perimeter gap again. Diagnosis from her answer only, not confirmed with her.",
+  "status": "done",
+  "is_wrong": true,
+  "official_topic": "Area and Perimeter of Complex Polygons",
+  "choice_percentages": {
+   "A": "20.2%",
+   "B": "5.9%",
+   "C": "<5.0%",
+   "D": "69.5%"
+  },
+  "choice_percentages_source": "review page; unlisted letters were shown as <5.0% or not read",
+  "her_selected_letter": "A",
+  "her_seconds": 13,
+  "her_seconds_source": "review page",
+  "others_avg_seconds": 59,
+  "difficulty": "Hard",
+  "subtype": "Measurement",
+  "test_set": "ISEE LOWER #6",
+  "exercise_title": null,
+  "is_timing_chart": false,
+  "strip_wrong": [
+   18,
+   25,
+   30,
+   36,
+   38
+  ],
+  "result_id": 5100464,
+  "recapture_source_images": [
+   "mathspeed test/actual-practice-tests/ISEE Lower #6/Screenshot 2026-11-08 at 2.29.10\u202fPM.png"
+  ],
+  "global_id": 1531
+ },
+ {
+  "source_file": "mathspeed test/actual-practice-tests/ISEE Lower #6/Screenshot 2026-11-08 at 2.29.11\u202fPM.png",
+  "type": "question",
+  "question_number": 31,
+  "question_text": "Which list shows the fractions 1/4, 3/9, 3/5 in order from greatest to least?",
+  "diagram_description": "None.",
+  "choices": [
+   "3/5, 3/9, 1/4",
+   "3/9, 3/5, 1/4",
+   "1/4, 3/5, 3/9",
+   "1/4, 3/9, 3/5"
+  ],
+  "correct_letter": "A",
+  "correct_pct": "64.4%",
+  "topic_broad": "fractions",
+  "topic_specific": "order three fractions",
+  "notes": "Practice Test 6, Quantitative Reasoning #31. Answered correctly.",
+  "status": "done",
+  "is_wrong": false,
+  "official_topic": "Comparing & Ordering Fractions & Decimals",
+  "choice_percentages": {
+   "A": "64.4%",
+   "B": "6.2%",
+   "C": "6.1%",
+   "D": "23.3%"
+  },
+  "choice_percentages_source": "review page; unlisted letters were shown as <5.0% or not read",
+  "her_selected_letter": "A",
+  "her_seconds": 98,
+  "her_seconds_source": "review page",
+  "others_avg_seconds": 45,
+  "difficulty": "Hard",
+  "subtype": "Decimals, Percents, Fractions",
+  "test_set": "ISEE LOWER #6",
+  "exercise_title": null,
+  "is_timing_chart": false,
+  "strip_wrong": [
+   18,
+   25,
+   30,
+   36,
+   38
+  ],
+  "result_id": 5100464,
+  "recapture_source_images": [
+   "mathspeed test/actual-practice-tests/ISEE Lower #6/Screenshot 2026-11-08 at 2.29.11\u202fPM.png"
+  ],
+  "global_id": 1532
+ },
+ {
+  "source_file": "mathspeed test/actual-practice-tests/ISEE Lower #6/Screenshot 2026-11-08 at 2.29.13\u202fPM.png",
+  "type": "question",
+  "question_number": 32,
+  "question_text": "A 2-inch square is removed from one corner of the 6-inch square, as shown. What is the area of the remainder of the Figure?",
+  "diagram_description": "6-inch square with a shaded 2-inch square in one corner.",
+  "choices": [
+   "2 inches\u00b2",
+   "4 inches\u00b2",
+   "24 inches\u00b2",
+   "32 inches\u00b2"
+  ],
+  "correct_letter": "D",
+  "correct_pct": "70.5%",
+  "topic_broad": "geometry-area",
+  "topic_specific": "area after removing a corner square",
+  "notes": "Practice Test 6, Quantitative Reasoning #32. Answered correctly.",
+  "status": "done",
+  "is_wrong": false,
+  "official_topic": "Total Shaded Area, given Figure with Equal Divisions",
+  "choice_percentages": {
+   "A": "<5.0%",
+   "B": "10.1%",
+   "C": "17.5%",
+   "D": "70.5%"
+  },
+  "choice_percentages_source": "review page; unlisted letters were shown as <5.0% or not read",
+  "her_selected_letter": "D",
+  "her_seconds": 19,
+  "her_seconds_source": "review page",
+  "others_avg_seconds": 33,
+  "difficulty": null,
+  "subtype": null,
+  "test_set": "ISEE LOWER #6",
+  "exercise_title": null,
+  "is_timing_chart": false,
+  "strip_wrong": [
+   18,
+   25,
+   30,
+   36,
+   38
+  ],
+  "result_id": 5100464,
+  "recapture_source_images": [
+   "mathspeed test/actual-practice-tests/ISEE Lower #6/Screenshot 2026-11-08 at 2.29.13\u202fPM.png"
+  ],
+  "global_id": 1533
+ },
+ {
+  "source_file": "mathspeed test/actual-practice-tests/ISEE Lower #6/Screenshot 2026-11-08 at 2.29.15\u202fPM.png",
+  "type": "question",
+  "question_number": 33,
+  "question_text": "Ben will change the dimension of his rectangular-shaped garden. The new length will be one-third its original length, and the new width will be twice its original width. What amount will Ben decrease the length of his garden?",
+  "diagram_description": "Rectangle 12 m by 8 m.",
+  "choices": [
+   "4 m",
+   "6 m",
+   "8 m",
+   "12 m"
+  ],
+  "correct_letter": "C",
+  "correct_pct": "62%",
+  "topic_broad": "geometry-perimeter",
+  "topic_specific": "amount of decrease, one-third",
+  "notes": "Practice Test 6, Quantitative Reasoning #33. Answered correctly.",
+  "status": "done",
+  "is_wrong": false,
+  "official_topic": "Perimeter",
+  "choice_percentages": {
+   "A": "21.2%",
+   "B": "7.2%",
+   "C": "62%",
+   "D": "9.5%"
+  },
+  "choice_percentages_source": "review page; unlisted letters were shown as <5.0% or not read",
+  "her_selected_letter": "C",
+  "her_seconds": 45,
+  "her_seconds_source": "review page",
+  "others_avg_seconds": 57,
+  "difficulty": "Hard",
+  "subtype": "Measurement",
+  "test_set": "ISEE LOWER #6",
+  "exercise_title": null,
+  "is_timing_chart": false,
+  "strip_wrong": [
+   18,
+   25,
+   30,
+   36,
+   38
+  ],
+  "result_id": 5100464,
+  "recapture_source_images": [
+   "mathspeed test/actual-practice-tests/ISEE Lower #6/Screenshot 2026-11-08 at 2.29.15\u202fPM.png"
+  ],
+  "global_id": 1534
+ },
+ {
+  "source_file": "mathspeed test/actual-practice-tests/ISEE Lower #6/Screenshot 2026-11-08 at 2.29.16\u202fPM.png",
+  "type": "question",
+  "question_number": 34,
+  "question_text": "The graph represents Jenny's walk to the park. Which statement best describes Jenny's walk?",
+  "diagram_description": "JENNY'S WALK TO THE PARK: distance vs time, steep rise to 200 ft by about 2 min, flat to 5 min, then slower rise to 400 ft at 10 min.",
+  "choices": [
+   "She walks at a faster pace early in the walk; then stops; then she walks at a slower pace.",
+   "She walks at a slower pace early in the walk; then stops; then she walks at a faster pace.",
+   "She walks at a faster pace early in the walk; then she walks back home; then she walks at a slower pace to the park.",
+   "She walks at a slower pace early in the walk; then she walks back home; then she walks at a faster pace to the park."
+  ],
+  "correct_letter": "A",
+  "correct_pct": "61.3%",
+  "topic_broad": "data",
+  "topic_specific": "read a distance-time graph",
+  "notes": "Practice Test 6, Quantitative Reasoning #34. Answered correctly.",
+  "status": "done",
+  "is_wrong": false,
+  "official_topic": "Interpreting Graphs of Linear Functions",
+  "choice_percentages": {
+   "A": "61.3%",
+   "B": "29%",
+   "C": "5.6%",
+   "D": "<5.0%"
+  },
+  "choice_percentages_source": "review page; unlisted letters were shown as <5.0% or not read",
+  "her_selected_letter": "A",
+  "her_seconds": 47,
+  "her_seconds_source": "review page",
+  "others_avg_seconds": 47,
+  "difficulty": null,
+  "subtype": null,
+  "test_set": "ISEE LOWER #6",
+  "exercise_title": null,
+  "is_timing_chart": false,
+  "strip_wrong": [
+   18,
+   25,
+   30,
+   36,
+   38
+  ],
+  "result_id": 5100464,
+  "recapture_source_images": [
+   "mathspeed test/actual-practice-tests/ISEE Lower #6/Screenshot 2026-11-08 at 2.29.16\u202fPM.png"
+  ],
+  "global_id": 1535
+ },
+ {
+  "source_file": "mathspeed test/actual-practice-tests/ISEE Lower #6/Screenshot 2026-11-08 at 2.29.18\u202fPM.png",
+  "type": "question",
+  "question_number": 35,
+  "question_text": "Shelley wants to prove that the two figures are the same size and shape. What must she do?",
+  "diagram_description": "Figure P (square with a circle on its right) and Figure Q (square with a circle on top) on either side of a dotted vertical line.",
+  "choices": [
+   "slide Figure P over the vertical line onto Figure Q",
+   "turn Figure P counterclockwise a quarter of a turn",
+   "turn Figure P counterclockwise a quarter of a turn and slide it onto Figure Q",
+   "flip Figure P over the vertical line and turn it counterclockwise a quarter of a turn"
+  ],
+  "correct_letter": "C",
+  "correct_pct": "58.1%",
+  "topic_broad": "geometry-transformations",
+  "topic_specific": "turn and slide to prove congruence",
+  "notes": "Practice Test 6, Quantitative Reasoning #35. Answered correctly.",
+  "status": "done",
+  "is_wrong": false,
+  "official_topic": "Identifying Shapes",
+  "choice_percentages": {
+   "A": "5.4%",
+   "B": "24.4%",
+   "C": "58.1%",
+   "D": "12%"
+  },
+  "choice_percentages_source": "review page; unlisted letters were shown as <5.0% or not read",
+  "her_selected_letter": "C",
+  "her_seconds": 43,
+  "her_seconds_source": "review page",
+  "others_avg_seconds": 42,
+  "difficulty": "Hard",
+  "subtype": "Geometry",
+  "test_set": "ISEE LOWER #6",
+  "exercise_title": null,
+  "is_timing_chart": false,
+  "strip_wrong": [
+   18,
+   25,
+   30,
+   36,
+   38
+  ],
+  "result_id": 5100464,
+  "recapture_source_images": [
+   "mathspeed test/actual-practice-tests/ISEE Lower #6/Screenshot 2026-11-08 at 2.29.18\u202fPM.png"
+  ],
+  "global_id": 1536
+ },
+ {
+  "source_file": "mathspeed test/actual-practice-tests/ISEE Lower #6/Screenshot 2026-11-08 at 2.29.20\u202fPM.png",
+  "type": "question",
+  "question_number": 36,
+  "question_text": "Alex did the problem 60 \u00f7 13 \u00d7 152. Approximately what was his answer?",
+  "diagram_description": "None.",
+  "choices": [
+   "between 300 and 600",
+   "between 600 and 900",
+   "between 900 and 1,200",
+   "between 1,200 and 1,500"
+  ],
+  "correct_letter": "B",
+  "correct_pct": "50.1%",
+  "topic_broad": "estimation",
+  "topic_specific": "estimate divide-then-multiply, adjust direction",
+  "notes": "Practice Test 6, Quantitative Reasoning #36. Wrong: she chose A. Likely: rounded to 4 x 150 = 600 and did not adjust upward (60 / 13 is more than 4). Diagnosis from her answer only, not confirmed with her.",
+  "status": "done",
+  "is_wrong": true,
+  "official_topic": "Estimating Multiplication & Division",
+  "choice_percentages": {
+   "A": "10.9%",
+   "B": "50.1%",
+   "C": "30.6%",
+   "D": "8.3%"
+  },
+  "choice_percentages_source": "review page; unlisted letters were shown as <5.0% or not read",
+  "her_selected_letter": "A",
+  "her_seconds": 107,
+  "her_seconds_source": "review page",
+  "others_avg_seconds": 59,
+  "difficulty": "Hard",
+  "subtype": "Whole Numbers",
+  "test_set": "ISEE LOWER #6",
+  "exercise_title": null,
+  "is_timing_chart": false,
+  "strip_wrong": [
+   18,
+   25,
+   30,
+   36,
+   38
+  ],
+  "result_id": 5100464,
+  "recapture_source_images": [
+   "mathspeed test/actual-practice-tests/ISEE Lower #6/Screenshot 2026-11-08 at 2.29.20\u202fPM.png"
+  ],
+  "global_id": 1537
+ },
+ {
+  "source_file": "mathspeed test/actual-practice-tests/ISEE Lower #6/Screenshot 2026-11-08 at 2.29.21\u202fPM.png",
+  "type": "question",
+  "question_number": 37,
+  "question_text": "The rectangle shown is divided into equal parts. Which equivalent fraction represents how much of the figure is unshaded?",
+  "diagram_description": "7 x 2 rectangle, 4 of 14 parts shaded.",
+  "choices": [
+   "2/7",
+   "2/5",
+   "5/9",
+   "5/7"
+  ],
+  "correct_letter": "D",
+  "correct_pct": "51.6%",
+  "topic_broad": "fractions",
+  "topic_specific": "unshaded fraction, simplified",
+  "notes": "Practice Test 6, Quantitative Reasoning #37. Answered correctly.",
+  "status": "done",
+  "is_wrong": false,
+  "official_topic": "Determining Fraction/Percent of Shaded Area, given Figure",
+  "choice_percentages": {
+   "A": "40.6%",
+   "B": "<5.0%",
+   "C": "<5.0%",
+   "D": "51.6%"
+  },
+  "choice_percentages_source": "review page; unlisted letters were shown as <5.0% or not read",
+  "her_selected_letter": "D",
+  "her_seconds": 62,
+  "her_seconds_source": "review page",
+  "others_avg_seconds": 34,
+  "difficulty": "Hard",
+  "subtype": "Geometry",
+  "test_set": "ISEE LOWER #6",
+  "exercise_title": null,
+  "is_timing_chart": false,
+  "strip_wrong": [
+   18,
+   25,
+   30,
+   36,
+   38
+  ],
+  "result_id": 5100464,
+  "recapture_source_images": [
+   "mathspeed test/actual-practice-tests/ISEE Lower #6/Screenshot 2026-11-08 at 2.29.21\u202fPM.png"
+  ],
+  "global_id": 1538
+ },
+ {
+  "source_file": "mathspeed test/actual-practice-tests/ISEE Lower #6/Screenshot 2026-11-08 at 2.29.23\u202fPM.png",
+  "type": "question",
+  "question_number": 38,
+  "question_text": "Jeremy spent time in his garden collecting data about the plants he was growing. Jeremy listed what he observed in categories or groups. 1. Types of plants growing: carrot, bell pepper, cucumber, blackberries 2. Brand of fertilizer each plant receives 3. ? Which information best completes Jeremy's observation list?",
+  "diagram_description": "None.",
+  "choices": [
+   "the amount of water each plant receives per week",
+   "the number of weeks each plant has been growing",
+   "how many of each type of plant are growing",
+   "species of bugs observed on each plant"
+  ],
+  "correct_letter": "D",
+  "correct_pct": "18.4%",
+  "topic_broad": "data",
+  "topic_specific": "categorical vs numerical data",
+  "notes": "Practice Test 6, Quantitative Reasoning #38. Wrong: she chose B. Likely: picked a numerical measure; the list is categories. Diagnosis from her answer only, not confirmed with her.",
+  "status": "done",
+  "is_wrong": true,
+  "official_topic": "Data Collection & Random Sampling",
+  "choice_percentages": {
+   "A": "44.4%",
+   "B": "15.2%",
+   "C": "22%",
+   "D": "18.4%"
+  },
+  "choice_percentages_source": "review page; unlisted letters were shown as <5.0% or not read",
+  "her_selected_letter": "B",
+  "her_seconds": 135,
+  "her_seconds_source": "review page",
+  "others_avg_seconds": 42,
+  "difficulty": "Hard",
+  "subtype": "Data Analysis & Probability",
+  "test_set": "ISEE LOWER #6",
+  "exercise_title": null,
+  "is_timing_chart": false,
+  "strip_wrong": [
+   18,
+   25,
+   30,
+   36,
+   38
+  ],
+  "result_id": 5100464,
+  "recapture_source_images": [
+   "mathspeed test/actual-practice-tests/ISEE Lower #6/Screenshot 2026-11-08 at 2.29.23\u202fPM.png"
+  ],
+  "global_id": 1539
  }
 ]

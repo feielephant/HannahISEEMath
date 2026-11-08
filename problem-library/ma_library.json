@@ -9525,5 +9525,1415 @@
       29,
       30
     ]
+  },
+  {
+    "source_file": "mathspeed test/actual-practice-tests/ISEE Lower #6/Screenshot 2026-11-08 at 2.29.39 PM.png",
+    "type": "question",
+    "question_number": 1,
+    "question_text": "In the number 670,408, the digit 7 is equivalent to which value?",
+    "diagram_description": "None.",
+    "choices": [
+      "7",
+      "70",
+      "7,000",
+      "70,000"
+    ],
+    "correct_letter": "D",
+    "correct_pct": "97.4%",
+    "topic_broad": "place-value",
+    "topic_specific": "value of a digit",
+    "notes": "Practice Test 6, Mathematics Achievement #1. Answered correctly.",
+    "status": "done",
+    "is_wrong": false,
+    "official_topic": "Value of Digits",
+    "choice_percentages": {
+      "A": "<5.0%",
+      "B": "<5.0%",
+      "C": "<5.0%",
+      "D": "97.4%"
+    },
+    "choice_percentages_source": "review page; unlisted letters were shown as <5.0% or not read",
+    "her_selected_letter": "D",
+    "her_seconds": 7,
+    "her_seconds_source": "review page",
+    "others_avg_seconds": 11,
+    "difficulty": "Easy",
+    "subtype": "Whole Numbers",
+    "test_set": "ISEE LOWER #6",
+    "exercise_title": null,
+    "is_timing_chart": false,
+    "strip_wrong": [
+      12,
+      13,
+      28,
+      30
+    ],
+    "result_id": 5100464,
+    "recapture_source_images": [
+      "mathspeed test/actual-practice-tests/ISEE Lower #6/Screenshot 2026-11-08 at 2.29.39 PM.png"
+    ]
+  },
+  {
+    "source_file": "mathspeed test/actual-practice-tests/ISEE Lower #6/Screenshot 2026-11-08 at 2.29.40 PM.png",
+    "type": "question",
+    "question_number": 2,
+    "question_text": "What is the word form of 29,740?",
+    "diagram_description": "None.",
+    "choices": [
+      "twenty-nine thousand seventy-four",
+      "twenty-nine thousand seven hundred forty",
+      "two hundred nine thousand seven hundred four",
+      "two hundred nine thousand seven hundred forty"
+    ],
+    "correct_letter": "B",
+    "correct_pct": "98.8%",
+    "topic_broad": "place-value",
+    "topic_specific": "word form",
+    "notes": "Practice Test 6, Mathematics Achievement #2. Answered correctly.",
+    "status": "done",
+    "is_wrong": false,
+    "official_topic": "Identifying Numbers, Standard Form <> Word Form",
+    "choice_percentages": {
+      "A": "<5.0%",
+      "B": "98.8%",
+      "C": "<5.0%",
+      "D": "<5.0%"
+    },
+    "choice_percentages_source": "review page; unlisted letters were shown as <5.0% or not read",
+    "her_selected_letter": "B",
+    "her_seconds": 7,
+    "her_seconds_source": "review page",
+    "others_avg_seconds": 18,
+    "difficulty": "Easy",
+    "subtype": "Whole Numbers",
+    "test_set": "ISEE LOWER #6",
+    "exercise_title": null,
+    "is_timing_chart": false,
+    "strip_wrong": [
+      12,
+      13,
+      28,
+      30
+    ],
+    "result_id": 5100464,
+    "recapture_source_images": [
+      "mathspeed test/actual-practice-tests/ISEE Lower #6/Screenshot 2026-11-08 at 2.29.40 PM.png"
+    ]
+  },
+  {
+    "source_file": "mathspeed test/actual-practice-tests/ISEE Lower #6/Screenshot 2026-11-08 at 2.29.42 PM.png",
+    "type": "question",
+    "question_number": 3,
+    "question_text": "A number line is shown. What number is represented by point X on the number line?",
+    "diagram_description": "Number line labeled 20 and 30 with 5 spaces between them; X is 5 spaces right of 30.",
+    "choices": [
+      "35",
+      "36",
+      "40",
+      "42"
+    ],
+    "correct_letter": "C",
+    "correct_pct": "94%",
+    "topic_broad": "number-line",
+    "topic_specific": "scale of 2 per tick",
+    "notes": "Practice Test 6, Mathematics Achievement #3. Answered correctly.",
+    "status": "done",
+    "is_wrong": false,
+    "official_topic": "Determining Points on Number Lines",
+    "choice_percentages": {
+      "A": "<5.0%",
+      "B": "<5.0%",
+      "C": "94%",
+      "D": "<5.0%"
+    },
+    "choice_percentages_source": "review page; unlisted letters were shown as <5.0% or not read",
+    "her_selected_letter": "C",
+    "her_seconds": 30,
+    "her_seconds_source": "review page",
+    "others_avg_seconds": 24,
+    "difficulty": "Easy",
+    "subtype": "Measurement",
+    "test_set": "ISEE LOWER #6",
+    "exercise_title": null,
+    "is_timing_chart": false,
+    "strip_wrong": [
+      12,
+      13,
+      28,
+      30
+    ],
+    "result_id": 5100464,
+    "recapture_source_images": [
+      "mathspeed test/actual-practice-tests/ISEE Lower #6/Screenshot 2026-11-08 at 2.29.42 PM.png"
+    ]
+  },
+  {
+    "source_file": "mathspeed test/actual-practice-tests/ISEE Lower #6/Screenshot 2026-11-08 at 2.29.43 PM.png",
+    "type": "question",
+    "question_number": 4,
+    "question_text": "Miranda created a table of input and output values. What number is missing from Miranda's table?",
+    "diagram_description": "Table x/y: 1-7, 2-14, 3-21, 6-?.",
+    "choices": [
+      "13",
+      "30",
+      "36",
+      "42"
+    ],
+    "correct_letter": "D",
+    "correct_pct": "96.5%",
+    "topic_broad": "algebra",
+    "topic_specific": "times-7 table",
+    "notes": "Practice Test 6, Mathematics Achievement #4. Answered correctly.",
+    "status": "done",
+    "is_wrong": false,
+    "official_topic": "Patterns in Data Tables and Lists",
+    "choice_percentages": {
+      "A": "<5.0%",
+      "B": "<5.0%",
+      "C": "<5.0%",
+      "D": "96.5%"
+    },
+    "choice_percentages_source": "review page; unlisted letters were shown as <5.0% or not read",
+    "her_selected_letter": "D",
+    "her_seconds": 14,
+    "her_seconds_source": "review page",
+    "others_avg_seconds": 19,
+    "difficulty": null,
+    "subtype": null,
+    "test_set": "ISEE LOWER #6",
+    "exercise_title": null,
+    "is_timing_chart": false,
+    "strip_wrong": [
+      12,
+      13,
+      28,
+      30
+    ],
+    "result_id": 5100464,
+    "recapture_source_images": [
+      "mathspeed test/actual-practice-tests/ISEE Lower #6/Screenshot 2026-11-08 at 2.29.43 PM.png"
+    ]
+  },
+  {
+    "source_file": "mathspeed test/actual-practice-tests/ISEE Lower #6/Screenshot 2026-11-08 at 2.29.44 PM.png",
+    "type": "question",
+    "question_number": 5,
+    "question_text": "The same operation is performed on each input number to create an output number. Which input number creates an output of 12?",
+    "diagram_description": "Table: 7-21, 9-27, 10-30, 12-36, 20-60.",
+    "choices": [
+      "4",
+      "6",
+      "28",
+      "29"
+    ],
+    "correct_letter": "A",
+    "correct_pct": "96.6%",
+    "topic_broad": "algebra",
+    "topic_specific": "reverse a times-3 rule",
+    "notes": "Practice Test 6, Mathematics Achievement #5. Answered correctly.",
+    "status": "done",
+    "is_wrong": false,
+    "official_topic": "Input/Output Tables",
+    "choice_percentages": {
+      "A": "96.6%",
+      "B": "<5.0%",
+      "C": "<5.0%",
+      "D": "<5.0%"
+    },
+    "choice_percentages_source": "review page; unlisted letters were shown as <5.0% or not read",
+    "her_selected_letter": "A",
+    "her_seconds": 43,
+    "her_seconds_source": "review page",
+    "others_avg_seconds": 23,
+    "difficulty": null,
+    "subtype": null,
+    "test_set": "ISEE LOWER #6",
+    "exercise_title": null,
+    "is_timing_chart": false,
+    "strip_wrong": [
+      12,
+      13,
+      28,
+      30
+    ],
+    "result_id": 5100464,
+    "recapture_source_images": [
+      "mathspeed test/actual-practice-tests/ISEE Lower #6/Screenshot 2026-11-08 at 2.29.44 PM.png"
+    ]
+  },
+  {
+    "source_file": "mathspeed test/actual-practice-tests/ISEE Lower #6/Screenshot 2026-11-08 at 2.29.46 PM.png",
+    "type": "question",
+    "question_number": 6,
+    "question_text": "A total of 51 people were asked where they would prefer to vacation: Hawaii, Florida, or Mexico. If 26 people said they would prefer Mexico and 8 people said they would prefer Florida, how many people said they would prefer Hawaii?",
+    "diagram_description": "None.",
+    "choices": [
+      "13",
+      "17",
+      "18",
+      "21"
+    ],
+    "correct_letter": "B",
+    "correct_pct": "94.1%",
+    "topic_broad": "arithmetic",
+    "topic_specific": "remaining value from total",
+    "notes": "Practice Test 6, Mathematics Achievement #6. Answered correctly.",
+    "status": "done",
+    "is_wrong": false,
+    "official_topic": "Solving for Remaining Value, given Total & All Other Values",
+    "choice_percentages": {
+      "A": "<5.0%",
+      "B": "94.1%",
+      "C": "<5.0%",
+      "D": "<5.0%"
+    },
+    "choice_percentages_source": "review page; unlisted letters were shown as <5.0% or not read",
+    "her_selected_letter": "B",
+    "her_seconds": 50,
+    "her_seconds_source": "review page",
+    "others_avg_seconds": 47,
+    "difficulty": "Easy",
+    "subtype": "Whole Numbers",
+    "test_set": "ISEE LOWER #6",
+    "exercise_title": null,
+    "is_timing_chart": false,
+    "strip_wrong": [
+      12,
+      13,
+      28,
+      30
+    ],
+    "result_id": 5100464,
+    "recapture_source_images": [
+      "mathspeed test/actual-practice-tests/ISEE Lower #6/Screenshot 2026-11-08 at 2.29.46 PM.png"
+    ]
+  },
+  {
+    "source_file": "mathspeed test/actual-practice-tests/ISEE Lower #6/Screenshot 2026-11-08 at 2.29.47 PM.png",
+    "type": "question",
+    "question_number": 7,
+    "question_text": "Ava took a three-day driving trip. She drove 375 miles the first day, 428 miles the second day, and 537 miles the third day. About how many miles did Ava drive in the three days?",
+    "diagram_description": "None.",
+    "choices": [
+      "700",
+      "800",
+      "1,300",
+      "1,500"
+    ],
+    "correct_letter": "C",
+    "correct_pct": "95.9%",
+    "topic_broad": "estimation",
+    "topic_specific": "round to hundreds and add",
+    "notes": "Practice Test 6, Mathematics Achievement #7. Answered correctly.",
+    "status": "done",
+    "is_wrong": false,
+    "official_topic": null,
+    "choice_percentages": {
+      "A": "<5.0%",
+      "B": "<5.0%",
+      "C": "95.9%",
+      "D": "<5.0%"
+    },
+    "choice_percentages_source": "review page; unlisted letters were shown as <5.0% or not read",
+    "her_selected_letter": "C",
+    "her_seconds": 50,
+    "her_seconds_source": "review page",
+    "others_avg_seconds": 53,
+    "difficulty": "Easy",
+    "subtype": "Number Sense and Operations",
+    "test_set": "ISEE LOWER #6",
+    "exercise_title": null,
+    "is_timing_chart": false,
+    "strip_wrong": [
+      12,
+      13,
+      28,
+      30
+    ],
+    "result_id": 5100464,
+    "recapture_source_images": [
+      "mathspeed test/actual-practice-tests/ISEE Lower #6/Screenshot 2026-11-08 at 2.29.47 PM.png"
+    ]
+  },
+  {
+    "source_file": "mathspeed test/actual-practice-tests/ISEE Lower #6/Screenshot 2026-11-08 at 2.29.49 PM.png",
+    "type": "question",
+    "question_number": 8,
+    "question_text": "What value for n makes the equation true? 7 × n = (7 × 20) + (7 × 8)",
+    "diagram_description": "None.",
+    "choices": [
+      "4",
+      "6",
+      "12",
+      "28"
+    ],
+    "correct_letter": "D",
+    "correct_pct": "96.1%",
+    "topic_broad": "algebra",
+    "topic_specific": "distributive property, find n",
+    "notes": "Practice Test 6, Mathematics Achievement #8. Answered correctly.",
+    "status": "done",
+    "is_wrong": false,
+    "official_topic": "Solving 1 Variable Equations",
+    "choice_percentages": {
+      "A": "<5.0%",
+      "B": "<5.0%",
+      "C": "<5.0%",
+      "D": "96.1%"
+    },
+    "choice_percentages_source": "review page; unlisted letters were shown as <5.0% or not read",
+    "her_selected_letter": "D",
+    "her_seconds": 15,
+    "her_seconds_source": "review page",
+    "others_avg_seconds": 36,
+    "difficulty": "Easy",
+    "subtype": "Algebraic Concepts",
+    "test_set": "ISEE LOWER #6",
+    "exercise_title": null,
+    "is_timing_chart": false,
+    "strip_wrong": [
+      12,
+      13,
+      28,
+      30
+    ],
+    "result_id": 5100464,
+    "recapture_source_images": [
+      "mathspeed test/actual-practice-tests/ISEE Lower #6/Screenshot 2026-11-08 at 2.29.49 PM.png"
+    ]
+  },
+  {
+    "source_file": "mathspeed test/actual-practice-tests/ISEE Lower #6/Screenshot 2026-11-08 at 2.29.50 PM.png",
+    "type": "question",
+    "question_number": 9,
+    "question_text": "In the figure shown, the sides are measured in inches. What is the perimeter of the figure, in inches?",
+    "diagram_description": "House shape: roof sides 2 and 2, walls 5 and 5, base 5.",
+    "choices": [
+      "17",
+      "19",
+      "27",
+      "33"
+    ],
+    "correct_letter": "B",
+    "correct_pct": "94.5%",
+    "topic_broad": "geometry-perimeter",
+    "topic_specific": "outer sides only",
+    "notes": "Practice Test 6, Mathematics Achievement #9. Answered correctly.",
+    "status": "done",
+    "is_wrong": false,
+    "official_topic": "Area and Perimeter of Complex Polygons",
+    "choice_percentages": {
+      "A": "<5.0%",
+      "B": "94.5%",
+      "C": "<5.0%",
+      "D": "<5.0%"
+    },
+    "choice_percentages_source": "review page; unlisted letters were shown as <5.0% or not read",
+    "her_selected_letter": "B",
+    "her_seconds": 17,
+    "her_seconds_source": "review page",
+    "others_avg_seconds": 23,
+    "difficulty": null,
+    "subtype": null,
+    "test_set": "ISEE LOWER #6",
+    "exercise_title": null,
+    "is_timing_chart": false,
+    "strip_wrong": [
+      12,
+      13,
+      28,
+      30
+    ],
+    "result_id": 5100464,
+    "recapture_source_images": [
+      "mathspeed test/actual-practice-tests/ISEE Lower #6/Screenshot 2026-11-08 at 2.29.50 PM.png"
+    ]
+  },
+  {
+    "source_file": "mathspeed test/actual-practice-tests/ISEE Lower #6/Screenshot 2026-11-08 at 2.29.51 PM.png",
+    "type": "question",
+    "question_number": 10,
+    "question_text": "What is the difference between 6,500 and 714?",
+    "diagram_description": "None.",
+    "choices": [
+      "5,296",
+      "5,786",
+      "5,796",
+      "5,896"
+    ],
+    "correct_letter": "B",
+    "correct_pct": "92.2%",
+    "topic_broad": "arithmetic",
+    "topic_specific": "subtraction with borrowing",
+    "notes": "Practice Test 6, Mathematics Achievement #10. Answered correctly.",
+    "status": "done",
+    "is_wrong": false,
+    "official_topic": "Adding and Subtracting Integers",
+    "choice_percentages": {
+      "A": "<5.0%",
+      "B": "92.2%",
+      "C": "<5.0%",
+      "D": "<5.0%"
+    },
+    "choice_percentages_source": "review page; unlisted letters were shown as <5.0% or not read",
+    "her_selected_letter": "B",
+    "her_seconds": 60,
+    "her_seconds_source": "review page",
+    "others_avg_seconds": 39,
+    "difficulty": "Easy",
+    "subtype": "Whole Numbers",
+    "test_set": "ISEE LOWER #6",
+    "exercise_title": null,
+    "is_timing_chart": false,
+    "strip_wrong": [
+      12,
+      13,
+      28,
+      30
+    ],
+    "result_id": 5100464,
+    "recapture_source_images": [
+      "mathspeed test/actual-practice-tests/ISEE Lower #6/Screenshot 2026-11-08 at 2.29.51 PM.png"
+    ]
+  },
+  {
+    "source_file": "mathspeed test/actual-practice-tests/ISEE Lower #6/Screenshot 2026-11-08 at 2.29.53 PM.png",
+    "type": "question",
+    "question_number": 11,
+    "question_text": "Which value is NOT equivalent to 3/10?",
+    "diagram_description": "None.",
+    "choices": [
+      "0.3",
+      "6/20",
+      "9/16",
+      "30%"
+    ],
+    "correct_letter": "C",
+    "correct_pct": "94.8%",
+    "topic_broad": "fractions-percent",
+    "topic_specific": "NOT equivalent",
+    "notes": "Practice Test 6, Mathematics Achievement #11. Answered correctly.",
+    "status": "done",
+    "is_wrong": false,
+    "official_topic": "Equivalent Fractions, Decimals, and Percents",
+    "choice_percentages": {
+      "A": "<5.0%",
+      "B": "<5.0%",
+      "C": "94.8%",
+      "D": "<5.0%"
+    },
+    "choice_percentages_source": "review page; unlisted letters were shown as <5.0% or not read",
+    "her_selected_letter": "C",
+    "her_seconds": 10,
+    "her_seconds_source": "review page",
+    "others_avg_seconds": 22,
+    "difficulty": "Medium",
+    "subtype": "Decimals, Percents, Fractions",
+    "test_set": "ISEE LOWER #6",
+    "exercise_title": null,
+    "is_timing_chart": false,
+    "strip_wrong": [
+      12,
+      13,
+      28,
+      30
+    ],
+    "result_id": 5100464,
+    "recapture_source_images": [
+      "mathspeed test/actual-practice-tests/ISEE Lower #6/Screenshot 2026-11-08 at 2.29.53 PM.png"
+    ]
+  },
+  {
+    "source_file": "mathspeed test/actual-practice-tests/ISEE Lower #6/Screenshot 2026-11-08 at 2.29.54 PM.png",
+    "type": "question",
+    "question_number": 12,
+    "question_text": "A box contains 36 batteries that are packaged into groups of 4. If n represents the number of packages in the box, which equation would tell how many packages are in the box?",
+    "diagram_description": "None.",
+    "choices": [
+      "4 + n = 36",
+      "n = 36 ÷ 4",
+      "n − 4 = 36",
+      "36 × n = 4"
+    ],
+    "correct_letter": "B",
+    "correct_pct": "93.3%",
+    "topic_broad": "algebra",
+    "topic_specific": "division story to equation",
+    "notes": "Practice Test 6, Mathematics Achievement #12. Wrong: she chose D. Likely: division story written backwards (36 x n = 4). Diagnosis from her answer only, not confirmed with her.",
+    "status": "done",
+    "is_wrong": true,
+    "official_topic": "Matching Stories to Equations",
+    "choice_percentages": {
+      "A": "<5.0%",
+      "B": "93.3%",
+      "C": "<5.0%",
+      "D": "<5.0%"
+    },
+    "choice_percentages_source": "review page; unlisted letters were shown as <5.0% or not read",
+    "her_selected_letter": "D",
+    "her_seconds": 177,
+    "her_seconds_source": "review page",
+    "others_avg_seconds": 43,
+    "difficulty": "Medium",
+    "subtype": "Algebraic Concepts",
+    "test_set": "ISEE LOWER #6",
+    "exercise_title": null,
+    "is_timing_chart": false,
+    "strip_wrong": [
+      12,
+      13,
+      28,
+      30
+    ],
+    "result_id": 5100464,
+    "recapture_source_images": [
+      "mathspeed test/actual-practice-tests/ISEE Lower #6/Screenshot 2026-11-08 at 2.29.54 PM.png"
+    ]
+  },
+  {
+    "source_file": "mathspeed test/actual-practice-tests/ISEE Lower #6/Screenshot 2026-11-08 at 2.29.56 PM.png",
+    "type": "question",
+    "question_number": 13,
+    "question_text": "The number machine performs the same operation on each input to create an output. What is the output for an input of 34?",
+    "diagram_description": "NUMBER MACHINE: 13-6, 21-14, 25-18, 32-25.",
+    "choices": [
+      "17",
+      "18",
+      "27",
+      "28"
+    ],
+    "correct_letter": "C",
+    "correct_pct": "93.4%",
+    "topic_broad": "algebra",
+    "topic_specific": "subtract-7 rule",
+    "notes": "Practice Test 6, Mathematics Achievement #13. Wrong: she chose D. Likely: output = input - 7 gives 27; 28 is one off. Diagnosis from her answer only, not confirmed with her.",
+    "status": "done",
+    "is_wrong": true,
+    "official_topic": "Input/Output Tables",
+    "choice_percentages": {
+      "A": "<5.0%",
+      "B": "<5.0%",
+      "C": "93.4%",
+      "D": "<5.0%"
+    },
+    "choice_percentages_source": "review page; unlisted letters were shown as <5.0% or not read",
+    "her_selected_letter": "D",
+    "her_seconds": 78,
+    "her_seconds_source": "review page",
+    "others_avg_seconds": 42,
+    "difficulty": null,
+    "subtype": null,
+    "test_set": "ISEE LOWER #6",
+    "exercise_title": null,
+    "is_timing_chart": false,
+    "strip_wrong": [
+      12,
+      13,
+      28,
+      30
+    ],
+    "result_id": 5100464,
+    "recapture_source_images": [
+      "mathspeed test/actual-practice-tests/ISEE Lower #6/Screenshot 2026-11-08 at 2.29.56 PM.png"
+    ]
+  },
+  {
+    "source_file": "mathspeed test/actual-practice-tests/ISEE Lower #6/Screenshot 2026-11-08 at 2.29.57 PM.png",
+    "type": "question",
+    "question_number": 14,
+    "question_text": "Use the diagram to answer the question. If one of the shapes is chosen at random, what is the probability that it will be a square?",
+    "diagram_description": "8 shapes in a 4 x 2 grid: 2 squares, 6 triangles.",
+    "choices": [
+      "1/8",
+      "1/4",
+      "2/3",
+      "3/4"
+    ],
+    "correct_letter": "B",
+    "correct_pct": "92.3%",
+    "topic_broad": "probability",
+    "topic_specific": "simple probability",
+    "notes": "Practice Test 6, Mathematics Achievement #14. Answered correctly.",
+    "status": "done",
+    "is_wrong": false,
+    "official_topic": "Probability of 1 Event, given a List of Items",
+    "choice_percentages": {
+      "A": "<5.0%",
+      "B": "92.3%",
+      "C": "<5.0%",
+      "D": "<5.0%"
+    },
+    "choice_percentages_source": "review page; unlisted letters were shown as <5.0% or not read",
+    "her_selected_letter": "B",
+    "her_seconds": 17,
+    "her_seconds_source": "review page",
+    "others_avg_seconds": 21,
+    "difficulty": "Medium",
+    "subtype": "Data Analysis & Probability",
+    "test_set": "ISEE LOWER #6",
+    "exercise_title": null,
+    "is_timing_chart": false,
+    "strip_wrong": [
+      12,
+      13,
+      28,
+      30
+    ],
+    "result_id": 5100464,
+    "recapture_source_images": [
+      "mathspeed test/actual-practice-tests/ISEE Lower #6/Screenshot 2026-11-08 at 2.29.57 PM.png"
+    ]
+  },
+  {
+    "source_file": "mathspeed test/actual-practice-tests/ISEE Lower #6/Screenshot 2026-11-08 at 2.29.58 PM.png",
+    "type": "question",
+    "question_number": 15,
+    "question_text": "If △ represents 25, what is the value of 2△ + 3?",
+    "diagram_description": "None.",
+    "choices": [
+      "28",
+      "50",
+      "53",
+      "63"
+    ],
+    "correct_letter": "C",
+    "correct_pct": "91.4%",
+    "topic_broad": "algebra",
+    "topic_specific": "substitute into expression",
+    "notes": "Practice Test 6, Mathematics Achievement #15. Answered correctly.",
+    "status": "done",
+    "is_wrong": false,
+    "official_topic": "Algebraic Equations with Symbol Variables",
+    "choice_percentages": {
+      "A": "7.1%",
+      "B": "<5.0%",
+      "C": "91.4%",
+      "D": "<5.0%"
+    },
+    "choice_percentages_source": "review page; unlisted letters were shown as <5.0% or not read",
+    "her_selected_letter": "C",
+    "her_seconds": 7,
+    "her_seconds_source": "review page",
+    "others_avg_seconds": 17,
+    "difficulty": "Medium",
+    "subtype": "Algebraic Concepts",
+    "test_set": "ISEE LOWER #6",
+    "exercise_title": null,
+    "is_timing_chart": false,
+    "strip_wrong": [
+      12,
+      13,
+      28,
+      30
+    ],
+    "result_id": 5100464,
+    "recapture_source_images": [
+      "mathspeed test/actual-practice-tests/ISEE Lower #6/Screenshot 2026-11-08 at 2.29.58 PM.png"
+    ]
+  },
+  {
+    "source_file": "mathspeed test/actual-practice-tests/ISEE Lower #6/Screenshot 2026-11-08 at 2.30.00 PM.png",
+    "type": "question",
+    "question_number": 16,
+    "question_text": "What are the measures of the three angles of an equilateral triangle?",
+    "diagram_description": "None.",
+    "choices": [
+      "30°, 60°, 90°",
+      "45°, 45°, 90°",
+      "60°, 60°, 60°",
+      "110°, 35°, 45°"
+    ],
+    "correct_letter": "C",
+    "correct_pct": "92%",
+    "topic_broad": "geometry-angles",
+    "topic_specific": "equilateral angles",
+    "notes": "Practice Test 6, Mathematics Achievement #16. Answered correctly.",
+    "status": "done",
+    "is_wrong": false,
+    "official_topic": "Equilateral Triangles",
+    "choice_percentages": {
+      "A": "<5.0%",
+      "B": "<5.0%",
+      "C": "92%",
+      "D": "<5.0%"
+    },
+    "choice_percentages_source": "review page; unlisted letters were shown as <5.0% or not read",
+    "her_selected_letter": "C",
+    "her_seconds": 20,
+    "her_seconds_source": "review page",
+    "others_avg_seconds": 18,
+    "difficulty": "Medium",
+    "subtype": "Geometry",
+    "test_set": "ISEE LOWER #6",
+    "exercise_title": null,
+    "is_timing_chart": false,
+    "strip_wrong": [
+      12,
+      13,
+      28,
+      30
+    ],
+    "result_id": 5100464,
+    "recapture_source_images": [
+      "mathspeed test/actual-practice-tests/ISEE Lower #6/Screenshot 2026-11-08 at 2.30.00 PM.png"
+    ]
+  },
+  {
+    "source_file": "mathspeed test/actual-practice-tests/ISEE Lower #6/Screenshot 2026-11-08 at 2.30.01 PM.png",
+    "type": "question",
+    "question_number": 17,
+    "question_text": "If △ × 2 + 4 = 24, what number does △ stand for?",
+    "diagram_description": "None.",
+    "choices": [
+      "4",
+      "10",
+      "14",
+      "18"
+    ],
+    "correct_letter": "B",
+    "correct_pct": "89.1%",
+    "topic_broad": "algebra",
+    "topic_specific": "two-step equation with a symbol",
+    "notes": "Practice Test 6, Mathematics Achievement #17. Answered correctly.",
+    "status": "done",
+    "is_wrong": false,
+    "official_topic": "Solving 1 Variable Equations",
+    "choice_percentages": {
+      "A": "9.4%",
+      "B": "89.1%",
+      "C": "<5.0%",
+      "D": "<5.0%"
+    },
+    "choice_percentages_source": "review page; unlisted letters were shown as <5.0% or not read",
+    "her_selected_letter": "B",
+    "her_seconds": 36,
+    "her_seconds_source": "review page",
+    "others_avg_seconds": 17,
+    "difficulty": "Medium",
+    "subtype": "Algebraic Concepts",
+    "test_set": "ISEE LOWER #6",
+    "exercise_title": null,
+    "is_timing_chart": false,
+    "strip_wrong": [
+      12,
+      13,
+      28,
+      30
+    ],
+    "result_id": 5100464,
+    "recapture_source_images": [
+      "mathspeed test/actual-practice-tests/ISEE Lower #6/Screenshot 2026-11-08 at 2.30.01 PM.png"
+    ]
+  },
+  {
+    "source_file": "mathspeed test/actual-practice-tests/ISEE Lower #6/Screenshot 2026-11-08 at 2.30.03 PM.png",
+    "type": "question",
+    "question_number": 18,
+    "question_text": "Which of the numbers is a prime number?",
+    "diagram_description": "None.",
+    "choices": [
+      "37",
+      "39",
+      "45",
+      "49"
+    ],
+    "correct_letter": "A",
+    "correct_pct": "90.7%",
+    "topic_broad": "number-theory-primes",
+    "topic_specific": "identify a prime",
+    "notes": "Practice Test 6, Mathematics Achievement #18. Answered correctly.",
+    "status": "done",
+    "is_wrong": false,
+    "official_topic": "Prime Numbers",
+    "choice_percentages": {
+      "A": "90.7%",
+      "B": "<5.0%",
+      "C": "<5.0%",
+      "D": "<5.0%"
+    },
+    "choice_percentages_source": "review page; unlisted letters were shown as <5.0% or not read",
+    "her_selected_letter": "A",
+    "her_seconds": 58,
+    "her_seconds_source": "review page",
+    "others_avg_seconds": 26,
+    "difficulty": "Medium",
+    "subtype": "Whole Numbers",
+    "test_set": "ISEE LOWER #6",
+    "exercise_title": null,
+    "is_timing_chart": false,
+    "strip_wrong": [
+      12,
+      13,
+      28,
+      30
+    ],
+    "result_id": 5100464,
+    "recapture_source_images": [
+      "mathspeed test/actual-practice-tests/ISEE Lower #6/Screenshot 2026-11-08 at 2.30.03 PM.png"
+    ]
+  },
+  {
+    "source_file": "mathspeed test/actual-practice-tests/ISEE Lower #6/Screenshot 2026-11-08 at 2.30.04 PM.png",
+    "type": "question",
+    "question_number": 19,
+    "question_text": "A manufacturing company produces 10,230 toys. About 1/5 of these toys will require batteries to operate. About how many toys of these toys will require batteries to operate?",
+    "diagram_description": "None.",
+    "choices": [
+      "200",
+      "500",
+      "2,000",
+      "5,000"
+    ],
+    "correct_letter": "C",
+    "correct_pct": "86.1%",
+    "topic_broad": "estimation",
+    "topic_specific": "fraction of a rounded number",
+    "notes": "Practice Test 6, Mathematics Achievement #19. Answered correctly.",
+    "status": "done",
+    "is_wrong": false,
+    "official_topic": "Multiplying and Dividing Whole Numbers",
+    "choice_percentages": {
+      "A": "8.3%",
+      "B": "<5.0%",
+      "C": "86.1%",
+      "D": "<5.0%"
+    },
+    "choice_percentages_source": "review page; unlisted letters were shown as <5.0% or not read",
+    "her_selected_letter": "C",
+    "her_seconds": 46,
+    "her_seconds_source": "review page",
+    "others_avg_seconds": 42,
+    "difficulty": "Medium",
+    "subtype": "Decimals, Percents, Fractions",
+    "test_set": "ISEE LOWER #6",
+    "exercise_title": null,
+    "is_timing_chart": false,
+    "strip_wrong": [
+      12,
+      13,
+      28,
+      30
+    ],
+    "result_id": 5100464,
+    "recapture_source_images": [
+      "mathspeed test/actual-practice-tests/ISEE Lower #6/Screenshot 2026-11-08 at 2.30.04 PM.png"
+    ]
+  },
+  {
+    "source_file": "mathspeed test/actual-practice-tests/ISEE Lower #6/Screenshot 2026-11-08 at 2.30.06 PM.png",
+    "type": "question",
+    "question_number": 20,
+    "question_text": "Isaiah has 6 7/8 cups of flour. He uses 3 3/4 cups of flour to make a cake. How many cups of flour does he have left?",
+    "diagram_description": "None.",
+    "choices": [
+      "3 1/8",
+      "3 1/4",
+      "3 1/2",
+      "3 3/4"
+    ],
+    "correct_letter": "A",
+    "correct_pct": "89.1%",
+    "topic_broad": "fractions",
+    "topic_specific": "mixed-number subtraction",
+    "notes": "Practice Test 6, Mathematics Achievement #20. Answered correctly.",
+    "status": "done",
+    "is_wrong": false,
+    "official_topic": "Adding and Subtracting Mixed Numbers",
+    "choice_percentages": {
+      "A": "89.1%",
+      "B": "<5.0%",
+      "C": "<5.0%",
+      "D": "<5.0%"
+    },
+    "choice_percentages_source": "review page; unlisted letters were shown as <5.0% or not read",
+    "her_selected_letter": "A",
+    "her_seconds": 18,
+    "her_seconds_source": "review page",
+    "others_avg_seconds": 36,
+    "difficulty": "Medium",
+    "subtype": "Decimals, Percents, Fractions",
+    "test_set": "ISEE LOWER #6",
+    "exercise_title": null,
+    "is_timing_chart": false,
+    "strip_wrong": [
+      12,
+      13,
+      28,
+      30
+    ],
+    "result_id": 5100464,
+    "recapture_source_images": [
+      "mathspeed test/actual-practice-tests/ISEE Lower #6/Screenshot 2026-11-08 at 2.30.06 PM.png"
+    ]
+  },
+  {
+    "source_file": "mathspeed test/actual-practice-tests/ISEE Lower #6/Screenshot 2026-11-08 at 2.30.07 PM.png",
+    "type": "question",
+    "question_number": 21,
+    "question_text": "Mr. Edwards has 31 students in his class. About 2/3 of the students scored above 80% on their last math quiz. Approximately how many students scored above 80% on their last math quiz?",
+    "diagram_description": "None.",
+    "choices": [
+      "2",
+      "6",
+      "10",
+      "20"
+    ],
+    "correct_letter": "D",
+    "correct_pct": "79.4%",
+    "topic_broad": "estimation",
+    "topic_specific": "fraction of a rounded number",
+    "notes": "Practice Test 6, Mathematics Achievement #21. Answered correctly.",
+    "status": "done",
+    "is_wrong": false,
+    "official_topic": "Estimating Multiplication & Division",
+    "choice_percentages": {
+      "A": "<5.0%",
+      "B": "<5.0%",
+      "C": "16.1%",
+      "D": "79.4%"
+    },
+    "choice_percentages_source": "review page; unlisted letters were shown as <5.0% or not read",
+    "her_selected_letter": "D",
+    "her_seconds": 64,
+    "her_seconds_source": "review page",
+    "others_avg_seconds": 36,
+    "difficulty": "Hard",
+    "subtype": "Decimals, Percents, Fractions",
+    "test_set": "ISEE LOWER #6",
+    "exercise_title": null,
+    "is_timing_chart": false,
+    "strip_wrong": [
+      12,
+      13,
+      28,
+      30
+    ],
+    "result_id": 5100464,
+    "recapture_source_images": [
+      "mathspeed test/actual-practice-tests/ISEE Lower #6/Screenshot 2026-11-08 at 2.30.07 PM.png"
+    ]
+  },
+  {
+    "source_file": "mathspeed test/actual-practice-tests/ISEE Lower #6/Screenshot 2026-11-08 at 2.30.09 PM.png",
+    "type": "question",
+    "question_number": 22,
+    "question_text": "A number pattern is shown. 8 24 12 36 18 54 ___ What is the next number in the pattern?",
+    "diagram_description": "None.",
+    "choices": [
+      "22",
+      "27",
+      "32",
+      "81"
+    ],
+    "correct_letter": "B",
+    "correct_pct": "85.6%",
+    "topic_broad": "patterns",
+    "topic_specific": "alternating x3 and /2",
+    "notes": "Practice Test 6, Mathematics Achievement #22. Answered correctly.",
+    "status": "done",
+    "is_wrong": false,
+    "official_topic": "Numerical Patterns",
+    "choice_percentages": {
+      "A": "6.7%",
+      "B": "85.6%",
+      "C": "5.6%",
+      "D": "<5.0%"
+    },
+    "choice_percentages_source": "review page; unlisted letters were shown as <5.0% or not read",
+    "her_selected_letter": "B",
+    "her_seconds": 32,
+    "her_seconds_source": "review page",
+    "others_avg_seconds": 38,
+    "difficulty": "Hard",
+    "subtype": "Data Analysis & Probability",
+    "test_set": "ISEE LOWER #6",
+    "exercise_title": null,
+    "is_timing_chart": false,
+    "strip_wrong": [
+      12,
+      13,
+      28,
+      30
+    ],
+    "result_id": 5100464,
+    "recapture_source_images": [
+      "mathspeed test/actual-practice-tests/ISEE Lower #6/Screenshot 2026-11-08 at 2.30.09 PM.png"
+    ]
+  },
+  {
+    "source_file": "mathspeed test/actual-practice-tests/ISEE Lower #6/Screenshot 2026-11-08 at 2.30.10 PM.png",
+    "type": "question",
+    "question_number": 23,
+    "question_text": "Which fraction has the same value as 0.6?",
+    "diagram_description": "None.",
+    "choices": [
+      "1/6",
+      "1/2",
+      "3/5",
+      "2/3"
+    ],
+    "correct_letter": "C",
+    "correct_pct": "78.8%",
+    "topic_broad": "decimals",
+    "topic_specific": "decimal to fraction",
+    "notes": "Practice Test 6, Mathematics Achievement #23. Answered correctly.",
+    "status": "done",
+    "is_wrong": false,
+    "official_topic": "Equivalent Fractions, Decimals, and Percents",
+    "choice_percentages": {
+      "A": "16.1%",
+      "B": "<5.0%",
+      "C": "78.8%",
+      "D": "<5.0%"
+    },
+    "choice_percentages_source": "review page; unlisted letters were shown as <5.0% or not read",
+    "her_selected_letter": "C",
+    "her_seconds": 50,
+    "her_seconds_source": "review page",
+    "others_avg_seconds": 17,
+    "difficulty": "Hard",
+    "subtype": "Decimals, Percents, Fractions",
+    "test_set": "ISEE LOWER #6",
+    "exercise_title": null,
+    "is_timing_chart": false,
+    "strip_wrong": [
+      12,
+      13,
+      28,
+      30
+    ],
+    "result_id": 5100464,
+    "recapture_source_images": [
+      "mathspeed test/actual-practice-tests/ISEE Lower #6/Screenshot 2026-11-08 at 2.30.10 PM.png"
+    ]
+  },
+  {
+    "source_file": "mathspeed test/actual-practice-tests/ISEE Lower #6/Screenshot 2026-11-08 at 2.30.12 PM.png",
+    "type": "question",
+    "question_number": 24,
+    "question_text": "Which whole number is divisible by 12?",
+    "diagram_description": "None.",
+    "choices": [
+      "168",
+      "196",
+      "220",
+      "224"
+    ],
+    "correct_letter": "A",
+    "correct_pct": "84.4%",
+    "topic_broad": "number-theory-divisibility",
+    "topic_specific": "divisible by 12",
+    "notes": "Practice Test 6, Mathematics Achievement #24. Answered correctly.",
+    "status": "done",
+    "is_wrong": false,
+    "official_topic": "No Remainder when Divided by a given Number",
+    "choice_percentages": {
+      "A": "84.4%",
+      "B": "5.1%",
+      "C": "<5.0%",
+      "D": "7%"
+    },
+    "choice_percentages_source": "review page; unlisted letters were shown as <5.0% or not read",
+    "her_selected_letter": "A",
+    "her_seconds": 80,
+    "her_seconds_source": "review page",
+    "others_avg_seconds": 46,
+    "difficulty": "Hard",
+    "subtype": "Whole Numbers",
+    "test_set": "ISEE LOWER #6",
+    "exercise_title": null,
+    "is_timing_chart": false,
+    "strip_wrong": [
+      12,
+      13,
+      28,
+      30
+    ],
+    "result_id": 5100464,
+    "recapture_source_images": [
+      "mathspeed test/actual-practice-tests/ISEE Lower #6/Screenshot 2026-11-08 at 2.30.12 PM.png"
+    ]
+  },
+  {
+    "source_file": "mathspeed test/actual-practice-tests/ISEE Lower #6/Screenshot 2026-11-08 at 2.30.13 PM.png",
+    "type": "question",
+    "question_number": 25,
+    "question_text": "The set of numbers shows Sylvia's quiz scores. 88, 92, 79, 94, 85, 76, 82, 92, 84 What is the range of this set of data?",
+    "diagram_description": "None.",
+    "choices": [
+      "4",
+      "18",
+      "85",
+      "92"
+    ],
+    "correct_letter": "B",
+    "correct_pct": "81.5%",
+    "topic_broad": "data",
+    "topic_specific": "range of 9 values",
+    "notes": "Practice Test 6, Mathematics Achievement #25. Answered correctly.",
+    "status": "done",
+    "is_wrong": false,
+    "official_topic": "Finding Range, given Sets of Numbers, Data Tables or Graphs",
+    "choice_percentages": {
+      "A": "<5.0%",
+      "B": "81.5%",
+      "C": "10.2%",
+      "D": "6.1%"
+    },
+    "choice_percentages_source": "review page; unlisted letters were shown as <5.0% or not read",
+    "her_selected_letter": "B",
+    "her_seconds": 264,
+    "her_seconds_source": "review page",
+    "others_avg_seconds": 47,
+    "difficulty": "Hard",
+    "subtype": "Data Analysis & Probability",
+    "test_set": "ISEE LOWER #6",
+    "exercise_title": null,
+    "is_timing_chart": false,
+    "strip_wrong": [
+      12,
+      13,
+      28,
+      30
+    ],
+    "result_id": 5100464,
+    "recapture_source_images": [
+      "mathspeed test/actual-practice-tests/ISEE Lower #6/Screenshot 2026-11-08 at 2.30.13 PM.png"
+    ]
+  },
+  {
+    "source_file": "mathspeed test/actual-practice-tests/ISEE Lower #6/Screenshot 2026-11-08 at 2.30.15 PM.png",
+    "type": "question",
+    "question_number": 26,
+    "question_text": "Sharon has a twelve-sided die that contains the numbers 1 − 12. If she rolls the die four times, what is the probability that the first roll was a 7?",
+    "diagram_description": "None.",
+    "choices": [
+      "1/12",
+      "1/3",
+      "7/12",
+      "2/3"
+    ],
+    "correct_letter": "A",
+    "correct_pct": "75.1%",
+    "topic_broad": "probability",
+    "topic_specific": "irrelevant information, one roll",
+    "notes": "Practice Test 6, Mathematics Achievement #26. Answered correctly.",
+    "status": "done",
+    "is_wrong": false,
+    "official_topic": "Identifying Independent vs. Dependent Events",
+    "choice_percentages": {
+      "A": "75.1%",
+      "B": "11.9%",
+      "C": "11.3%",
+      "D": "<5.0%"
+    },
+    "choice_percentages_source": "review page; unlisted letters were shown as <5.0% or not read",
+    "her_selected_letter": "A",
+    "her_seconds": 29,
+    "her_seconds_source": "review page",
+    "others_avg_seconds": 27,
+    "difficulty": "Hard",
+    "subtype": "Data Analysis & Probability",
+    "test_set": "ISEE LOWER #6",
+    "exercise_title": null,
+    "is_timing_chart": false,
+    "strip_wrong": [
+      12,
+      13,
+      28,
+      30
+    ],
+    "result_id": 5100464,
+    "recapture_source_images": [
+      "mathspeed test/actual-practice-tests/ISEE Lower #6/Screenshot 2026-11-08 at 2.30.15 PM.png"
+    ]
+  },
+  {
+    "source_file": "mathspeed test/actual-practice-tests/ISEE Lower #6/Screenshot 2026-11-08 at 2.30.16 PM.png",
+    "type": "question",
+    "question_number": 27,
+    "question_text": "What is the name for a quadrilateral with four sides of equal length where the angles do not always have to be the same measure?",
+    "diagram_description": "None.",
+    "choices": [
+      "octagon",
+      "rhombus",
+      "square",
+      "trapezoid"
+    ],
+    "correct_letter": "B",
+    "correct_pct": "70.5%",
+    "topic_broad": "geometry-shapes",
+    "topic_specific": "rhombus definition",
+    "notes": "Practice Test 6, Mathematics Achievement #27. Answered correctly.",
+    "status": "done",
+    "is_wrong": false,
+    "official_topic": "Identifying Shapes",
+    "choice_percentages": {
+      "A": "<5.0%",
+      "B": "70.5%",
+      "C": "10.2%",
+      "D": "17.8%"
+    },
+    "choice_percentages_source": "review page; unlisted letters were shown as <5.0% or not read",
+    "her_selected_letter": "B",
+    "her_seconds": 171,
+    "her_seconds_source": "review page",
+    "others_avg_seconds": 31,
+    "difficulty": "Hard",
+    "subtype": "Geometry",
+    "test_set": "ISEE LOWER #6",
+    "exercise_title": null,
+    "is_timing_chart": false,
+    "strip_wrong": [
+      12,
+      13,
+      28,
+      30
+    ],
+    "result_id": 5100464,
+    "recapture_source_images": [
+      "mathspeed test/actual-practice-tests/ISEE Lower #6/Screenshot 2026-11-08 at 2.30.16 PM.png"
+    ]
+  },
+  {
+    "source_file": "mathspeed test/actual-practice-tests/ISEE Lower #6/Screenshot 2026-11-08 at 2.30.18 PM.png",
+    "type": "question",
+    "question_number": 28,
+    "question_text": "A store owner offered a 20% discount off the regular price of a game. The amount of the discount is $3. What is the regular price of the game?",
+    "diagram_description": "None.",
+    "choices": [
+      "$6",
+      "$9",
+      "$15",
+      "$18"
+    ],
+    "correct_letter": "C",
+    "correct_pct": "74.6%",
+    "topic_broad": "fractions-percent",
+    "topic_specific": "whole from a percent part",
+    "notes": "Practice Test 6, Mathematics Achievement #28. Wrong: she chose A. Likely: 20% is $3; she doubled to $6 instead of x5 to get 100%. Diagnosis from her answer only, not confirmed with her.",
+    "status": "done",
+    "is_wrong": true,
+    "official_topic": "Percent Increase & Decrease (basic)",
+    "choice_percentages": {
+      "A": "10.4%",
+      "B": "7.7%",
+      "C": "74.6%",
+      "D": "7.4%"
+    },
+    "choice_percentages_source": "review page; unlisted letters were shown as <5.0% or not read",
+    "her_selected_letter": "A",
+    "her_seconds": 92,
+    "her_seconds_source": "review page",
+    "others_avg_seconds": 37,
+    "difficulty": "Hard",
+    "subtype": "Decimals, Percents, Fractions",
+    "test_set": "ISEE LOWER #6",
+    "exercise_title": null,
+    "is_timing_chart": false,
+    "strip_wrong": [
+      12,
+      13,
+      28,
+      30
+    ],
+    "result_id": 5100464,
+    "recapture_source_images": [
+      "mathspeed test/actual-practice-tests/ISEE Lower #6/Screenshot 2026-11-08 at 2.30.18 PM.png"
+    ]
+  },
+  {
+    "source_file": "mathspeed test/actual-practice-tests/ISEE Lower #6/Screenshot 2026-11-08 at 2.30.19 PM.png",
+    "type": "question",
+    "question_number": 29,
+    "question_text": "What is the area of a rectangle that has a length of 2 inches and a perimeter of 6 inches? (A = l × w)",
+    "diagram_description": "None.",
+    "choices": [
+      "2 inches²",
+      "4 inches²",
+      "6 inches²",
+      "12 inches²"
+    ],
+    "correct_letter": "A",
+    "correct_pct": "67.6%",
+    "topic_broad": "geometry-area",
+    "topic_specific": "missing side from perimeter, then area",
+    "notes": "Practice Test 6, Mathematics Achievement #29. Answered correctly.",
+    "status": "done",
+    "is_wrong": false,
+    "official_topic": "Finding Missing Side, given Area/Perimeter and 1 Side of Rectangle",
+    "choice_percentages": {
+      "A": "67.6%",
+      "B": "6.5%",
+      "C": "<5.0%",
+      "D": "22.3%"
+    },
+    "choice_percentages_source": "review page; unlisted letters were shown as <5.0% or not read",
+    "her_selected_letter": "A",
+    "her_seconds": 49,
+    "her_seconds_source": "review page",
+    "others_avg_seconds": 38,
+    "difficulty": "Hard",
+    "subtype": "Measurement",
+    "test_set": "ISEE LOWER #6",
+    "exercise_title": null,
+    "is_timing_chart": false,
+    "strip_wrong": [
+      12,
+      13,
+      28,
+      30
+    ],
+    "result_id": 5100464,
+    "recapture_source_images": [
+      "mathspeed test/actual-practice-tests/ISEE Lower #6/Screenshot 2026-11-08 at 2.30.19 PM.png"
+    ]
+  },
+  {
+    "source_file": "mathspeed test/actual-practice-tests/ISEE Lower #6/Screenshot 2026-11-08 at 2.30.21 PM.png",
+    "type": "question",
+    "question_number": 30,
+    "question_text": "Raya's employer matches all of her charitable giving in the month of May. This means that for every dollar Raya donates to a charity, her employer will also donate a dollar to that charity. The table shows how much money Raya donated in May. What was the total amount of money these organizations received?",
+    "diagram_description": "RAYA'S EMPLOYER MATCHES table: Seattle Children's Hospital $45, Sierra Club $27, The NEA Foundation $34.",
+    "choices": [
+      "$104",
+      "$106",
+      "$208",
+      "$212"
+    ],
+    "correct_letter": "D",
+    "correct_pct": "50.2%",
+    "topic_broad": "arithmetic",
+    "topic_specific": "sum then double (matching)",
+    "notes": "Practice Test 6, Mathematics Achievement #30. Wrong: she chose B. Likely: $106 is Raya alone; stopped before doubling for the match. Ran to the 30-minute limit. Diagnosis from her answer only, not confirmed with her.",
+    "status": "done",
+    "is_wrong": true,
+    "official_topic": "Determining Total Cost",
+    "choice_percentages": {
+      "A": "<5.0%",
+      "B": "44.3%",
+      "C": "<5.0%",
+      "D": "50.2%"
+    },
+    "choice_percentages_source": "review page; unlisted letters were shown as <5.0% or not read",
+    "her_selected_letter": "B",
+    "her_seconds": 210,
+    "her_seconds_source": "review page",
+    "others_avg_seconds": 73,
+    "difficulty": null,
+    "subtype": null,
+    "test_set": "ISEE LOWER #6",
+    "exercise_title": null,
+    "is_timing_chart": false,
+    "strip_wrong": [
+      12,
+      13,
+      28,
+      30
+    ],
+    "result_id": 5100464,
+    "recapture_source_images": [
+      "mathspeed test/actual-practice-tests/ISEE Lower #6/Screenshot 2026-11-08 at 2.30.21 PM.png"
+    ]
   }
 ]
