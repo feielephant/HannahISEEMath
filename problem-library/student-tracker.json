@@ -1,6 +1,6 @@
 {
  "student": "Hannah",
- "updated": "2026-11-06",
+ "updated": "2026-11-10",
  "test_format": {
   "problems": 38,
   "minutes": 35,
@@ -995,12 +995,14 @@
    "wrong": 1,
    "graded": 6,
    "habits": [],
-   "priority": "unknown",
+   "priority": "high",
    "real_tests_note": "not yet cross-checked against official-test tagging as of 2026-10-14",
    "_sec_total": 323.0,
    "_sec_n": 6,
    "avg_seconds": 53.8,
-   "practice_test_5_2026-11-01": "QR#10 right 68s; QR#13 right 22s; MA#19 right 148s"
+   "practice_test_5_2026-11-01": "QR#10 right 68s; QR#13 right 22s; MA#19 right 148s",
+   "priority_before_2026-11-10": "unknown",
+   "escalated_2026-11-10": "Escalated 2026-11-10 after Practice Test 6 and the parent talk with Hannah (practice-log PT6 parent_review_with_hannah_2026-11-10)."
   },
   {
    "topic": "English Unit Conversions",
@@ -1008,13 +1010,15 @@
    "wrong": 1,
    "graded": 2,
    "habits": [],
-   "priority": "medium",
+   "priority": "high",
    "real_tests_note": "not yet cross-checked against official-test tagging as of 2026-10-14",
    "_sec_total": 130.0,
    "_sec_n": 2,
    "avg_seconds": 65.0,
    "priority_before_2026-11-01": "unknown",
-   "staleness_review_2026-11-01": "Staleness flag reviewed 2026-11-01: 1/2 wrong, QR8 #6 was a real inch vs foot misconception. Raised; unit steps in Set 9 #12, #21."
+   "staleness_review_2026-11-01": "Staleness flag reviewed 2026-11-01: 1/2 wrong, QR8 #6 was a real inch vs foot misconception. Raised; unit steps in Set 9 #12, #21.",
+   "priority_before_2026-11-10": "medium",
+   "escalated_2026-11-10": "Escalated 2026-11-10 after Practice Test 6 and the parent talk with Hannah (practice-log PT6 parent_review_with_hannah_2026-11-10)."
   },
   {
    "topic": "Volume of Solids",
@@ -1174,13 +1178,15 @@
    "wrong": 1,
    "graded": 5,
    "habits": [],
-   "priority": "medium",
+   "priority": "high",
    "real_tests_note": "not yet cross-checked against official-test tagging as of 2026-10-21",
    "_sec_total": 256.0,
    "_sec_n": 5,
    "avg_seconds": 51.2,
    "note_2026-10-26": "Flagged by check_priority_staleness.py (1/2 wrong). Thin data (only 2 instances) so escalated to medium, not high, pending more evidence. Retested at QR8 #24 with a real unused item (gid911, reverse-direction lookup).",
-   "practice_test_5_2026-11-01": "QR#6 right 43s; MA#7 right 24s"
+   "practice_test_5_2026-11-01": "QR#6 right 43s; MA#7 right 24s",
+   "priority_before_2026-11-10": "medium",
+   "escalated_2026-11-10": "Escalated 2026-11-10 after Practice Test 6 and the parent talk with Hannah (practice-log PT6 parent_review_with_hannah_2026-11-10)."
   },
   {
    "topic": "Finding Missing Side Length",
@@ -1287,11 +1293,13 @@
    "wrong": 3,
    "graded": 4,
    "habits": [],
-   "priority": "unknown",
+   "priority": "high",
    "real_tests_note": "not yet cross-checked against official-test tagging as of 2026-10-27",
    "_sec_total": 192.0,
    "_sec_n": 4,
-   "avg_seconds": 48.0
+   "avg_seconds": 48.0,
+   "priority_before_2026-11-10": "unknown",
+   "escalated_2026-11-10": "Escalated 2026-11-10 after Practice Test 6 and the parent talk with Hannah (practice-log PT6 parent_review_with_hannah_2026-11-10)."
   },
   {
    "topic": "Evaluating Percents of Numbers",

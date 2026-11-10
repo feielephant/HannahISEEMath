@@ -1,0 +1,306 @@
+{
+ "1": {
+  "model": "Lower #6 #38 (reversed: the list is numbers, not categories)",
+  "orig": "Lower 6 QR #38, 18.4% right",
+  "lang": "Same \"find the one choice unlike the other three\"; reversed so the answer is the number, not the category",
+  "steps": "1 = 1",
+  "conds": "2 list items, 4 choices = same",
+  "verdict": "Same"
+ },
+ "2": {
+  "model": "Lower #6 #18, new numbers",
+  "orig": "Lower 6 QR #18, 79% right",
+  "lang": "Same layout (3 lines given, then a jump)",
+  "steps": "2 = 2 (see the multiplier is 3 &times; k, use k)",
+  "conds": "same",
+  "verdict": "Same"
+ },
+ "3": {
+  "model": "Lower 2 MA #26 and MA4 #8, with a minus in front of a + group (QR9 #27)",
+  "orig": "Lower 2 MA #26, 69.1% right",
+  "lang": "Harder on purpose: the minus in front of the group (her QR9 #27 confusion)",
+  "steps": "1 &rarr; 2 (distribute, then keep both minus signs)",
+  "conds": "same",
+  "verdict": "Harder (by design)"
+ },
+ "4": {
+  "model": "Lower #6 MA #12",
+  "orig": "Lower 6 MA #12, 93.3% right",
+  "lang": "Same story type; the right choice is written as a multiplication, so she has to see 8 &times; c = 96 means c = 96 &divide; 8",
+  "steps": "1 &rarr; 2",
+  "conds": "same",
+  "verdict": "Slightly harder"
+ },
+ "5": {
+  "model": "Lower #6 MA #13, rule a &times; input + b with a fraction",
+  "orig": "Lower 6 MA #13, 93.4% right",
+  "lang": "Same wording",
+  "steps": "1 (subtract 7) &rarr; 2 (halve, then add 3)",
+  "conds": "same 4 rows",
+  "verdict": "Harder (parent asked for a fraction rule)"
+ },
+ "6": {
+  "model": "Lower #6 MA #28",
+  "orig": "Lower 6 MA #28, 74.6% right",
+  "lang": "Same",
+  "steps": "1 = 1 (part &divide; 0.2)",
+  "conds": "same",
+  "verdict": "Same"
+ },
+ "7": {
+  "model": "Lower #1 #38",
+  "orig": "Lower 1 QR #38, 33.8% right",
+  "lang": "Same wording",
+  "steps": "3 = 3 (side, outside sides, add the shared side)",
+  "conds": "same",
+  "verdict": "Same"
+ },
+ "8": {
+  "model": "Lower #6 #36, same two traps",
+  "orig": "Lower 6 QR #36, 50.1% right",
+  "lang": "Same; both traps kept (left-to-right order, rough rounding lands on a band edge)",
+  "steps": "2 = 2",
+  "conds": "same",
+  "verdict": "Same"
+ },
+ "9": {
+  "model": "Lower 1 MA #25 and MA4 #24",
+  "orig": "Lower 1 MA #25, 64.9% right",
+  "lang": "Same \"how many left\"",
+  "steps": "4 = 4",
+  "conds": "2 items, 2 fractions = same",
+  "verdict": "Same (fraction 2/3 a bit harder than 1/3)"
+ },
+ "10": {
+  "model": "Lower #6 MA #30",
+  "orig": "Lower 6 MA #30, 50.2% right",
+  "lang": "Same \"matches\" explanation sentence",
+  "steps": "2 = 2 (add, then double)",
+  "conds": "3 table values = same",
+  "verdict": "Same"
+ },
+ "11": {
+  "model": "Lower #6 #25, with more steps and extra information",
+  "orig": "Lower 6 QR #25, 83.5% right",
+  "lang": "Same \"Since &hellip;, &hellip;\" statement choices; extra information (beads) added on purpose",
+  "steps": "1 &rarr; 3 (yards to inches is 2 steps, plus bows &times; 10)",
+  "conds": "1 &rarr; 2 (one is a distractor)",
+  "verdict": "Harder"
+ },
+ "12": {
+  "model": "Lower #4 #35, same wording",
+  "orig": "Lower 4 QR #35, 47.4% right",
+  "lang": "Same wording (\"as many as she had\"); D added for the \"has left\" reading",
+  "steps": "2 = 2",
+  "conds": "3 symbols = same",
+  "verdict": "Same"
+ },
+ "13": {
+  "model": "Lower #6 MA #13 and Lower #6 MA #5 (input from output)",
+  "orig": "Lower 6 MA #5 (find the input; rule &times; 3), 96.6% right",
+  "lang": "Same wording",
+  "steps": "1 (divide by 3) &rarr; 2 (add 2, divide by 3)",
+  "conds": "same 4 rows",
+  "verdict": "Harder (parent asked for a &times; input + b)"
+ },
+ "14": {
+  "model": "Lower #1 #29 (decimal word problem) and her order-three gap",
+  "orig": "Lower 1 QR #29, real last third",
+  "lang": "Similar",
+  "steps": "3 &rarr; 4 (2 conversions, order 3 numbers, subtract)",
+  "conds": "3 values",
+  "verdict": "Slightly harder"
+ },
+ "15": {
+  "model": "Lower #4 #38",
+  "orig": "Lower 4 QR #38, 40.6% right",
+  "lang": "Same wording",
+  "steps": "3 = 3 (start at 100, two changes)",
+  "conds": "same",
+  "verdict": "Same"
+ },
+ "16": {
+  "model": "Lower 1 MA #23 and Lower 5 MA #28 (rhombus)",
+  "orig": "Lower 1 MA #23, 67.3% right",
+  "lang": "Same format",
+  "steps": "1 = 1",
+  "conds": "4 statements = same",
+  "verdict": "Same"
+ },
+ "17": {
+  "model": "Lower 3 MA #21",
+  "orig": "Lower 3 MA #21, 80% right",
+  "lang": "Same",
+  "steps": "2 = 2",
+  "conds": "same",
+  "verdict": "Same"
+ },
+ "18": {
+  "model": "Lower 3 #37",
+  "orig": "Lower 3 QR #37, 48% right",
+  "lang": "Same list format with □ and ○",
+  "steps": "1 = 1",
+  "conds": "same",
+  "verdict": "Same"
+ },
+ "19": {
+  "model": "Lower 2 MA #27",
+  "orig": "Lower 2 MA #27, 55.3% right",
+  "lang": "Same",
+  "steps": "2 = 2 (round 5 values, add)",
+  "conds": "5 values = same",
+  "verdict": "Same"
+ },
+ "20": {
+  "model": "Lower 2 MA #30 and MA4 #17",
+  "orig": "Lower 2 MA #30, 32.1% right",
+  "lang": "Same",
+  "steps": "2 = 2",
+  "conds": "same",
+  "verdict": "Same"
+ },
+ "21": {
+  "model": "Lower #6 #18, a second format",
+  "orig": "Lower 6 QR #18, 79% right",
+  "lang": "Different pattern format (parent asked for more than one); one line skipped like 54 skips 36 and 45",
+  "steps": "2 = 2",
+  "conds": "same",
+  "verdict": "Same"
+ },
+ "22": {
+  "model": "QR9 #8 language (Lower 4 #38 wording)",
+  "orig": "real platform drill gid 1106 (\"decreased by 20%\", 1 step)",
+  "lang": "Same \"decreased by\" wording",
+  "steps": "1 &rarr; 3 (20% of 45, subtract, then change)",
+  "conds": "1 &rarr; 2",
+  "verdict": "Harder (multi-step build)"
+ },
+ "23": {
+  "model": "Lower 2 #26",
+  "orig": "Lower 2 QR #26, 68.1% right",
+  "lang": "Same wording",
+  "steps": "3 = 3 (count, make a fraction, to percent)",
+  "conds": "same",
+  "verdict": "Same"
+ },
+ "24": {
+  "model": "MA4 #27 and QR9 #32 (real drill gid 1140)",
+  "orig": "real drill gid 1140 / MA4 #27",
+  "lang": "Same",
+  "steps": "4 = 4",
+  "conds": "2 ratio links + total = same",
+  "verdict": "Same"
+ },
+ "25": {
+  "model": "What to Expect #24",
+  "orig": "What to Expect QR #24, 41.4% right",
+  "lang": "Same \"which line or pair of lines\" format",
+  "steps": "1 per line, 3 lines = same",
+  "conds": "same",
+  "verdict": "Same"
+ },
+ "26": {
+  "model": "Lower #6 #6 (pick the rule) and Lower 5 MA (square rule)",
+  "orig": "Lower 6 QR #6, 95.6% right",
+  "lang": "Same \"which equation shows the rule\"",
+  "steps": "1 &rarr; 2 (rule is a square plus 1)",
+  "conds": "4 rows, each wrong choice fits 1 or 2 rows",
+  "verdict": "Harder (parent asked for a square rule)"
+ },
+ "27": {
+  "model": "MA4 #5 and Lower 1 #37",
+  "orig": "Lower 1 QR #37 / MA4 #5",
+  "lang": "Same",
+  "steps": "3 = 3",
+  "conds": "2 equations = same",
+  "verdict": "Same"
+ },
+ "28": {
+  "model": "Lower 2 #32",
+  "orig": "Lower 2 QR #32, 59.4% right",
+  "lang": "Same",
+  "steps": "2 = 2",
+  "conds": "same",
+  "verdict": "Same"
+ },
+ "29": {
+  "model": "Lower 1 MA #29 (and the digit-sum rule from Lower 1 MA #24)",
+  "orig": "Lower 1 MA #29, 39.1% right",
+  "lang": "Same \"and 8 other\" wording trap",
+  "steps": "2 = 2",
+  "conds": "same",
+  "verdict": "Same"
+ },
+ "30": {
+  "model": "Lower #6 MA #30, a second format",
+  "orig": "Lower 6 MA #30, 50.2% right",
+  "lang": "Same \"promised to add\" sentence before the table",
+  "steps": "2 &rarr; 3 (add, halve, add)",
+  "conds": "4 table values (was 3)",
+  "verdict": "Slightly harder"
+ },
+ "31": {
+  "model": "Lower 1 MA #30",
+  "orig": "Lower 1 MA #30, 35.9% right",
+  "lang": "Same wording",
+  "steps": "3 = 3",
+  "conds": "same",
+  "verdict": "Same"
+ },
+ "32": {
+  "model": "Lower 1 #33 and MA4 #28",
+  "orig": "Lower 1 QR #33, 54.4% right",
+  "lang": "Same",
+  "steps": "2 = 2",
+  "conds": "same",
+  "verdict": "Same"
+ },
+ "33": {
+  "model": "Lower #6 #36, word-problem version",
+  "orig": "Lower 6 QR #36, 50.1% right",
+  "lang": "Different presentation (story, the order is not written for her); same band trap",
+  "steps": "2 = 2",
+  "conds": "same",
+  "verdict": "Same"
+ },
+ "34": {
+  "model": "Lower 1 MA #21 and MA4 #25",
+  "orig": "Lower 1 MA #21, 67.1% right",
+  "lang": "Same",
+  "steps": "2 &rarr; 3 (asks the 7th, not the next)",
+  "conds": "same",
+  "verdict": "Harder (same as MA4 #25)"
+ },
+ "35": {
+  "model": "Lower 3 #29",
+  "orig": "Lower 3 QR #29, 72.2% right",
+  "lang": "Same 4 statements",
+  "steps": "1 &rarr; 2 (multiply first)",
+  "conds": "same",
+  "verdict": "Slightly harder"
+ },
+ "36": {
+  "model": "Lower 5 #33 step chain (fraction of the rest)",
+  "orig": "real \"fraction of the rest\" items",
+  "lang": "Same \"of the remaining\" wording",
+  "steps": "3 = 3",
+  "conds": "2 fractions = same",
+  "verdict": "Same"
+ },
+ "37": {
+  "model": "What to Expect #28",
+  "orig": "What to Expect QR #28, 65.1% right",
+  "lang": "Same",
+  "steps": "1 = 1",
+  "conds": "same",
+  "verdict": "Same (5 &times; 5 &times; 5 instead of 4 &times; 4 &times; 4)"
+ },
+ "38": {
+  "model": "Lower 2 #28",
+  "orig": "Lower 2 QR #28, 72.4% right",
+  "lang": "Same",
+  "steps": "1 = 1",
+  "conds": "same",
+  "verdict": "Same"
+ }
+}
