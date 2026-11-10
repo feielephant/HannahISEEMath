@@ -234,7 +234,7 @@ add('Identifying Shapes', 'Which statement is true?',
 # 17 x3 pattern 6th term (Lower 3 MA #21)
 s17 = [2*3**i for i in range(7)]
 assert s17[:4] == [2, 6, 18, 54] and s17[5] == 486 and s17[4] == 162 and s17[6] == 1458
-add('Nth Term, given Arithmetic Sequence, Progressive Pattern, etc.', 'Use the number pattern to answer the question.<div style="margin-top:6px">2, &nbsp;6, &nbsp;18, &nbsp;54, &nbsp;?, &nbsp;?</div><div style="margin-top:6px">What is the sixth number in the pattern?</div>',
+add('Nth Term, given Arithmetic Sequence, Progressive Pattern, etc.', 'Use the number pattern to answer the question.<div style="margin-top:6px">2, &nbsp;6, &nbsp;18, &nbsp;54</div><div style="margin-top:6px">What is the sixth number in the pattern?</div>',
     ['108', '162', '486', '1,458'], 'C',
     'Each number is 3 times the one before: 54 &times; 3 = 162 (5th), 162 &times; 3 = 486 (6th). A doubles 54. B stops at the 5th. D goes one too far.',
     'Lower 3 MA #21',

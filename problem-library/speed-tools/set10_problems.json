@@ -291,7 +291,7 @@
   "n": 17,
   "tier": "Hard",
   "topic": "Nth Term, given Arithmetic Sequence, Progressive Pattern, etc.",
-  "q": "Use the number pattern to answer the question.<div style=\"margin-top:6px\">2, &nbsp;6, &nbsp;18, &nbsp;54, &nbsp;?, &nbsp;?</div><div style=\"margin-top:6px\">What is the sixth number in the pattern?</div>",
+  "q": "Use the number pattern to answer the question.<div style=\"margin-top:6px\">2, &nbsp;6, &nbsp;18, &nbsp;54</div><div style=\"margin-top:6px\">What is the sixth number in the pattern?</div>",
   "choices": {
    "A": "108",
    "B": "162",
