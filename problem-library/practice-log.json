@@ -1537,7 +1537,8 @@
      "verdict": "Same"
     }
    },
-   "real_verbatim_unused": []
+   "real_verbatim_unused": [],
+   "published_commit": "cad5ef0fc7c801aece324749c72da41179a82f76"
   }
  ],
  "rotation_notes": {
