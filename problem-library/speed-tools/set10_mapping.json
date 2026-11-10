@@ -144,11 +144,11 @@
   "verdict": "Same"
  },
  "19": {
-  "model": "Lower 2 MA #27",
-  "orig": "Lower 2 MA #27, 55.3% right",
-  "lang": "Same",
-  "steps": "2 = 2 (round 5 values, add)",
-  "conds": "5 values = same",
+  "model": "Lower #4 #35, same wording",
+  "orig": "Lower 4 QR #35, 47.4% right",
+  "lang": "Same wording (\"as many as she had\"); D added for the \"has left\" reading",
+  "steps": "2 = 2",
+  "conds": "3 symbols = same",
   "verdict": "Same"
  },
  "20": {

@@ -253,14 +253,15 @@ add('Split Line Segments', 'The length of AD is x. The length of AB is 4. The le
     'QR9 #27 and QR3 #37 (her misses, last third), new layout: the end piece is asked',
     C('QR9 #27 (her miss, last third); real Lower 5 #30, WTE #20', 'Same wording; asks for the end piece, not the middle', '2 = 2', '3 lengths = same', 'Same'),
     seg)
-# 19 decimal bill estimate (Lower 2 MA #27)
-b19 = [F('23.85'), F('41.20'), F('36.62'), F('18.47'), F('29.91')]
-assert sum(b19) == F('150.05') and sum(int(v) for v in b19) == 147
-add('Estimating Sums Differences of Decimal Numbers', 'During a 5-week period, Ben spent $23.85, $41.20, $36.62, $18.47, and $29.91 on groceries. What is the closest approximation of the total amount Ben spent?',
-    ['$135', '$140', '$145', '$150'], 'D',
-    'Round each to the nearest dollar: 24 + 41 + 37 + 18 + 30 = 150. The exact total is $150.05. C comes from dropping the cents (23 + 41 + 36 + 18 + 29 = 147), which loses almost $3.',
-    'Lower 2 MA #27',
-    C('Lower 2 MA #27, 55.3% right', 'Same', '2 = 2 (round 5 values, add)', '5 values = same', 'Same'))
+# 19 (11/10: parent kept the Mila stamps problem; replaces the grocery estimate, 2/11 wrong, last wrong 10/14)
+# Lower 4 #35 real wording "as many as she had"
+sq, ci, tr = 10, 2, 3
+assert tr*sq - ci == 28 and tr*(sq-ci) - ci != 28
+add('Algebra with Geometric Shapes', 'Mila had □ stamps and then she gave ○ of them to Jon. Now, Jon has △ times as many stamps as Mila had. Which expression represents the number of stamps Jon had to begin with?',
+    ['△ &times; □ &minus; ○', '△ &times; ○ + □', '△ &times; □ + ○', '△ &times; (□ &minus; ○) &minus; ○'], 'A',
+    '"As many as Mila HAD" means her starting number, □. So Jon now has △ &times; □. He got ○ from Mila, so before that he had △ &times; □ &minus; ○. Try □ = 10, ○ = 2, △ = 3: Jon now has 30 and started with 28. D uses what Mila has left, which is a different question.',
+    'Lower #4 #35, same wording',
+    C('Lower 4 QR #35, 47.4% right', 'Same wording ("as many as she had"); D added for the "has left" reading', '2 = 2', '3 symbols = same', 'Same'))
 # 20 triangle area vs height (Lower 2 MA #30)
 assert all(F(1, 2)*8*h == 4*h for h in range(1, 20))
 add('Area of Triangles', f'The base of a triangle is 8 meters (m). Which statement correctly compares the value of A to the height of the triangle? (A = {frac(1,2)} &times; base &times; height)',

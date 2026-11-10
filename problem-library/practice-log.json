@@ -1205,7 +1205,7 @@
     "Identifying Shapes",
     "Counting Multiples within a Range",
     "Split Line Segments",
-    "Estimating Sums Differences of Decimal Numbers",
+    "Algebra with Geometric Shapes",
     "Area of Triangles",
     "Remainder when Divided by a given Number",
     "Percent Increase Decrease basic",
@@ -1228,7 +1228,7 @@
    ],
    "date_built": "2026-11-10",
    "built_with": "Plan agreed with the parent 11/10: every Practice Test 6 miss (re-read after the parent talked with Hannah; QR #18, #36, MA #13, #30 get 2-3 formats), real last-third misses wrong again on their last practice, real last-third misses not practiced since, and thin real-test topics. Every problem built like the real last third. No real item used verbatim. Dropped from the plan to fit 38: Venn diagram, separate divisibility-by-8 problem (the 9 rule is in #29), number line, average of mixed numbers, factor array, frame perimeter.",
-   "answers": "ABADBCBCDABBDCADCDDABCCDBABDACBACCDDCA",
+   "answers": "ABADBCBCDABBDCADCDAABCCDBABDACBACCDDCA",
    "models_by_problem": {
     "1": "Lower #6 #38 (reversed: the list is numbers, not categories)",
     "2": "Lower #6 #18, new numbers",
@@ -1248,7 +1248,7 @@
     "16": "Lower 1 MA #23 and Lower 5 MA #28 (rhombus)",
     "17": "QR9 #36 and QR6 #28 (her misses, last third), new \"factor\" wording",
     "18": "QR9 #27 and QR3 #37 (her misses, last third), new layout: the end piece is asked",
-    "19": "Lower 2 MA #27",
+    "19": "Lower #4 #35, same wording",
     "20": "Lower 2 MA #30 and MA4 #17",
     "21": "QR6 #33 (her miss, last third)",
     "22": "QR9 #8 language (Lower 4 #38 wording)",
@@ -1397,10 +1397,10 @@
      "verdict": "Same"
     },
     "19": {
-     "orig": "Lower 2 MA #27, 55.3% right",
-     "lang": "Same",
-     "steps": "2 = 2 (round 5 values, add)",
-     "conds": "5 values = same",
+     "orig": "Lower 4 QR #35, 47.4% right",
+     "lang": "Same wording (\"as many as she had\"); D added for the \"has left\" reading",
+     "steps": "2 = 2",
+     "conds": "3 symbols = same",
      "verdict": "Same"
     },
     "20": {
@@ -1539,7 +1539,8 @@
    },
    "real_verbatim_unused": [],
    "published_commit": "756c66cf7c267747ca948b5438fc314497df8c74",
-   "change_after_publish_2026-11-10": "Parent review 11/10: #17 drops the two '?' and asks for the sixth number directly. Then dropped near-duplicates #10 (kept #30 match), #12 and #18 (kept #32, best parentheses test), #13 (kept #5 and #26 input/output), #17 (kept #34 pattern), #21 (kept #2 digit pattern). Replaced with her own last-third misses from earlier sets: #10 compare areas mixed with perimeter (QR8 #32, QR9 #30), #12 cryptarithm subtraction with no borrow (QR3/6/8 #34/#34/#30), #13 order 4 fractions (QR2 #38, QR6 #32, QR8 #27), #17 counting multiples with 'has 6 as a factor' wording (QR6 #28, QR9 #36; parent saw her stuck on this wording in AoPS), #18 split line segments (QR3 #37, QR9 #27), #21 remainder of what is left (QR6 #33)."
+   "change_after_publish_2026-11-10": "Parent review 11/10: #17 drops the two '?' and asks for the sixth number directly. Then dropped near-duplicates #10 (kept #30 match), #12 and #18 (kept #32, best parentheses test), #13 (kept #5 and #26 input/output), #17 (kept #34 pattern), #21 (kept #2 digit pattern). Replaced with her own last-third misses from earlier sets: #10 compare areas mixed with perimeter (QR8 #32, QR9 #30), #12 cryptarithm subtraction with no borrow (QR3/6/8 #34/#34/#30), #13 order 4 fractions (QR2 #38, QR6 #32, QR8 #27), #17 counting multiples with 'has 6 as a factor' wording (QR6 #28, QR9 #36; parent saw her stuck on this wording in AoPS), #18 split line segments (QR3 #37, QR9 #27), #21 remainder of what is left (QR6 #33).",
+   "change_after_publish_2_2026-11-10": "Parent kept the Mila stamps problem (Lower 4 #35 wording, missed many times); moved to #19, replacing the grocery estimate (Lower 2 MA #27; 2/11 wrong, last wrong 10/14)."
   }
  ],
  "rotation_notes": {

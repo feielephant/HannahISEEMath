@@ -326,18 +326,18 @@
  {
   "n": 19,
   "tier": "Hard",
-  "topic": "Estimating Sums Differences of Decimal Numbers",
-  "q": "During a 5-week period, Ben spent $23.85, $41.20, $36.62, $18.47, and $29.91 on groceries. What is the closest approximation of the total amount Ben spent?",
+  "topic": "Algebra with Geometric Shapes",
+  "q": "Mila had \u25a1 stamps and then she gave \u25cb of them to Jon. Now, Jon has \u25b3 times as many stamps as Mila had. Which expression represents the number of stamps Jon had to begin with?",
   "choices": {
-   "A": "$135",
-   "B": "$140",
-   "C": "$145",
-   "D": "$150"
+   "A": "\u25b3 &times; \u25a1 &minus; \u25cb",
+   "B": "\u25b3 &times; \u25cb + \u25a1",
+   "C": "\u25b3 &times; \u25a1 + \u25cb",
+   "D": "\u25b3 &times; (\u25a1 &minus; \u25cb) &minus; \u25cb"
   },
-  "correct": "D",
-  "key": "<b>Answer: D.</b> Round each to the nearest dollar: 24 + 41 + 37 + 18 + 30 = 150. The exact total is $150.05. C comes from dropping the cents (23 + 41 + 36 + 18 + 29 = 147), which loses almost $3.",
+  "correct": "A",
+  "key": "<b>Answer: A.</b> \"As many as Mila HAD\" means her starting number, \u25a1. So Jon now has \u25b3 &times; \u25a1. He got \u25cb from Mila, so before that he had \u25b3 &times; \u25a1 &minus; \u25cb. Try \u25a1 = 10, \u25cb = 2, \u25b3 = 3: Jon now has 30 and started with 28. D uses what Mila has left, which is a different question.",
   "habit_note": null,
-  "ref": "Topic: Estimating Sums Differences of Decimal Numbers &middot; Diagram: no &middot; Wrong so far: 1/12 &middot; New problem &middot; Built like: Lower 2 MA #27",
+  "ref": "Topic: Algebra with Geometric Shapes &middot; Diagram: no &middot; Wrong so far: 3/5 &middot; New problem &middot; Built like: Lower #4 #35, same wording",
   "diagram": null,
   "needs_diagram": false
  },
