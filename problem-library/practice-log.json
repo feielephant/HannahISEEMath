@@ -1538,7 +1538,7 @@
     }
    },
    "real_verbatim_unused": [],
-   "published_commit": "b5d2d2682fed939f635c6645b41b571a63a57763",
+   "published_commit": "756c66cf7c267747ca948b5438fc314497df8c74",
    "change_after_publish_2026-11-10": "Parent review 11/10: #17 drops the two '?' and asks for the sixth number directly. Then dropped near-duplicates #10 (kept #30 match), #12 and #18 (kept #32, best parentheses test), #13 (kept #5 and #26 input/output), #17 (kept #34 pattern), #21 (kept #2 digit pattern). Replaced with her own last-third misses from earlier sets: #10 compare areas mixed with perimeter (QR8 #32, QR9 #30), #12 cryptarithm subtraction with no borrow (QR3/6/8 #34/#34/#30), #13 order 4 fractions (QR2 #38, QR6 #32, QR8 #27), #17 counting multiples with 'has 6 as a factor' wording (QR6 #28, QR9 #36; parent saw her stuck on this wording in AoPS), #18 split line segments (QR3 #37, QR9 #27), #21 remainder of what is left (QR6 #33)."
   }
  ],
