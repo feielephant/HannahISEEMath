@@ -174,15 +174,15 @@ add('Remaining Amount after Reducing by Fractions', f'Tia had 12 apples and 9 or
     'Apples: 1/4 of 12 is 3, so 9 are left. Oranges: 2/3 of 9 is 6, so 3 are left. 9 + 3 = 12. C is the number she gave away (3 + 6), and B mixes apples given with oranges left.',
     'Lower 1 MA #25 and MA4 #24',
     C('Lower 1 MA #25, 64.9% right', 'Same "how many left"', '4 = 4', '2 items, 2 fractions = same', 'Same (fraction 2/3 a bit harder than 1/3)'))
-# 10 PT6 MA #30 format 1
-d10 = {'Monday': 38, 'Tuesday': 46, 'Wednesday': 29}
-assert sum(d10.values()) == 113 and 2*113 == 226
-add('Determining Total Cost', 'The parent club matches all the money the students raise at their bake sale. This means that for every dollar the students raise, the parent club also gives a dollar to the school. The table shows how much the students raised. What was the total amount of money the school received from the bake sale and the parent club?',
-    ['$111', '$113', '$222', '$226'], 'D',
-    'The students raised 38 + 46 + 29 = $113. The club gives the same $113. Total: 113 + 113 = $226. B stops before the matching part.',
-    'Lower #6 MA #30',
-    C('Lower 6 MA #30, 50.2% right', 'Same "matches" explanation sentence', '2 = 2 (add, then double)', '3 table values = same', 'Same'),
-    table(['Day', 'Money Raised'], [[k, f'${v}'] for k, v in d10.items()], 'BAKE SALE'))
+# 10 (swapped 11/10) compare areas, mixing perimeter and area (QR8 #32, QR9 #30: direction swapped)
+sideA = 36 // 4; wB = (36 - 2*12) // 2
+assert sideA == 9 and wB == 6 and 2*(12 + wB) == 36 and sideA**2 == 81 and 12*wB == 72 and 81 - 72 == 9
+add('Comparing Areas', 'Garden A is a square with a perimeter of 36 feet. Garden B is a rectangle with a length of 12 feet. Garden B has the same perimeter as Garden A. Which statement correctly compares the two gardens?',
+    ['The area of Garden A is 9 square feet greater than the area of Garden B.', 'The area of Garden B is 9 square feet greater than the area of Garden A.', 'The two gardens have the same area because they have the same perimeter.', 'The area of Garden A is 3 square feet greater than the area of Garden B.'], 'A',
+    'Garden A: each side is 36 &divide; 4 = 9 ft, so the area is 9 &times; 9 = 81 square feet. Garden B: the two lengths use 12 + 12 = 24 ft, so the two widths share 36 &minus; 24 = 12 ft, and each width is 6 ft. Its area is 12 &times; 6 = 72 square feet. 81 &minus; 72 = 9, and Garden A is the bigger one. B has the right number in the wrong direction (her QR9 #30 slip). C thinks the same perimeter means the same area. D compares the sides (9 &minus; 6), not the areas.',
+    'QR8 #32 and QR9 #30 (wrong both times, last third), now mixed with perimeter',
+    C('QR9 #30 / QR8 #32 (her misses, last third)', 'Same "which statement compares" choices; both directions offered; same-perimeter trap added', '4 &rarr; 5 (side, area, width from perimeter, area, compare)', '2 shapes, 1 shared perimeter', 'Slightly harder'),
+    None, 'verbose-choices')
 # 11 PT6 QR #25 type: long statement choices with extra information
 assert 4*36 == 144 and 15*10 == 150 and 144 < 150 and 15*2 <= 40
 add('English Unit Conversions', 'Mia has a roll with 4 yards of ribbon and a box of 40 beads. She wants to make 15 bows. Each bow uses 10 inches of ribbon and 2 beads. There are 3 feet in 1 yard and 12 inches in 1 foot. Which statement best explains whether Mia has enough ribbon?',
@@ -191,24 +191,26 @@ add('English Unit Conversions', 'Mia has a roll with 4 yards of ribbon and a box
     'Lower #6 #25, with more steps and extra information',
     C('Lower 6 QR #25, 83.5% right', 'Same "Since &hellip;, &hellip;" statement choices; extra information (beads) added on purpose', '1 &rarr; 3 (yards to inches is 2 steps, plus bows &times; 10)', '1 &rarr; 2 (one is a distractor)', 'Harder'),
     None, 'verbose-choices')
-# 12 Lower 4 #35 real wording "as many as she had"
-sq, ci, tr = 10, 2, 3
-assert tr*sq - ci == 28 and tr*(sq-ci) - ci != 28
-add('Algebra with Geometric Shapes', 'Mila had □ stamps and then she gave ○ of them to Jon. Now, Jon has △ times as many stamps as Mila had. Which expression represents the number of stamps Jon had to begin with?',
-    ['△ &times; □ &minus; ○', '△ &times; ○ + □', '△ &times; □ + ○', '△ &times; (□ &minus; ○) &minus; ○'], 'A',
-    '"As many as Mila HAD" means her starting number, □. So Jon now has △ &times; □. He got ○ from Mila, so before that he had △ &times; □ &minus; ○. Try □ = 10, ○ = 2, △ = 3: Jon now has 30 and started with 28. D uses what Mila has left, which is a different question.',
-    'Lower #4 #35, same wording',
-    C('Lower 4 QR #35, 47.4% right', 'Same wording ("as many as she had"); D added for the "has left" reading', '2 = 2', '3 symbols = same', 'Same'))
-# 13 input/output, find the input, rule 3x - 2
-rule13 = lambda x: 3*x - 2
-rows13 = [(2, 4), (4, 10), (5, 13), (8, 22)]
-assert all(rule13(a) == b for a, b in rows13) and rule13(11) == 31 and rule13(31) == 91
-add('Input Output Tables', 'The same operation is performed on each input number to create an output number. Which input number creates an output of 31?',
-    ['10', '11', '31', '91'], 'B',
-    'From 4 to 5 the output goes up 3, so the rule starts with input &times; 3. 2 &times; 3 = 6, but the output is 4, so subtract 2: output = 3 &times; input &minus; 2. Work back from 31: add 2 (33), divide by 3 (11). Check: 3 &times; 11 &minus; 2 = 31. D runs the rule forward on 31.',
-    'Lower #6 MA #13 and Lower #6 MA #5 (input from output)',
-    C('Lower 6 MA #5 (find the input; rule &times; 3), 96.6% right', 'Same wording', '1 (divide by 3) &rarr; 2 (add 2, divide by 3)', 'same 4 rows', 'Harder (parent asked for a &times; input + b)'),
-    table(['Input', 'Output'], rows13))
+# 12 (swapped 11/10) cryptarithm, subtraction with NO borrow (QR3 #34, QR6 #34, QR8 #30 wrong, last third)
+sol12 = [(p_, q_) for p_ in range(1, 10) for q_ in range(1, 10) if p_ != q_ and (100*p_ + 10*q_ + 9) - (300 + 10*p_ + q_) == 123]
+assert sol12 == [(4, 6)] and 9 >= 6 and 6 >= 4 and 4 >= 3  # unique; no column needs a borrow
+add('Cryptarithm / digit substitution', 'P and Q are different digits from 1 through 9. What digit does P represent?',
+    ['2', '4', '6', '8'], 'B',
+    'Work from the ones column. 9 &minus; Q = 3, so Q = 6. Tens column: Q &minus; P = 2, so 6 &minus; P = 2 and P = 4. Hundreds column check: P &minus; 3 = 4 &minus; 3 = 1. So 469 &minus; 346 = 123. No column needs a borrow. C is Q, not P. D adds 6 + 2 instead of subtracting.',
+    'QR8 #30 (her miss, last third), now with no borrow as the parent asked',
+    C('QR8 #30 / QR6 #34 / QR3 #34 (her misses, last third)', 'Same "different digits" wording; subtraction, no borrow', '3 = 3 (one column at a time)', '2 letters, 3 columns', 'Same (borrow removed, one more column)'),
+    '<div style="font-family:ui-monospace,\'SF Mono\',\'Cascadia Mono\',\'Courier New\',monospace;letter-spacing:2px;max-width:140px;margin:0 auto;font-size:1.1em;"><div style="padding:2px 6px;line-height:1.5;text-align:right;">PQ9</div><div style="padding:2px 6px;line-height:1.5;text-align:right;">&minus;3PQ</div><div style="padding:2px 6px;line-height:1.5;text-align:right;border-top:1.5px solid currentColor;margin-top:5px;padding-top:5px;">123</div></div>',
+    'write-it-down')
+# 13 (swapped 11/10) order 4 fractions greatest to least, one close pair (QR2 #38, QR6 #32, QR8 #27 wrong, last third)
+fr13 = [F(4, 7), F(2, 3), F(5, 9), F(3, 5)]
+assert sorted(fr13, reverse=True) == [F(2, 3), F(3, 5), F(4, 7), F(5, 9)] and 4*9 - 5*7 == 1
+fl = lambda *xs: ', &nbsp;'.join(frac(*x) for x in xs)
+add('Comparing & Ordering Fractions & Decimals', f'Which list shows the fractions {frac(4,7)}, {frac(2,3)}, {frac(5,9)}, and {frac(3,5)} ordered from greatest to least?',
+    [fl((5,9),(4,7),(3,5),(2,3)), fl((2,3),(3,5),(5,9),(4,7)), fl((3,5),(2,3),(4,7),(5,9)), fl((2,3),(3,5),(4,7),(5,9))], 'D',
+    'As decimals: 2/3 &asymp; 0.667, 3/5 = 0.6, 4/7 &asymp; 0.571, 5/9 &asymp; 0.556. The close pair is 4/7 and 5/9: cross-multiply, 4 &times; 9 = 36 and 5 &times; 7 = 35, so 4/7 is bigger. A is least to greatest (bigger numbers do not mean a bigger fraction). B swaps the close pair. C swaps 2/3 and 3/5.',
+    'QR8 #27, QR6 #32, QR2 #38 (her misses, last third)',
+    C('QR8 #27 (her miss, last third)', 'Same "ordered from greatest to least" wording', '3 comparisons = same', '4 fractions = same', 'Same (close pair 36 vs 35 is closer)'),
+    None, 'write-it-down')
 # 14 converting to decimals, order three, subtract
 x = sorted([F(7, 8), F(85, 100), F(4, 5)])
 assert x[-1] - x[0] == F(75, 1000) and F(7, 8) - F(85, 100) == F(25, 1000)
@@ -231,20 +233,26 @@ add('Identifying Shapes', 'Which statement is true?',
     'A rhombus has 4 equal sides. A square has 4 equal sides (and 4 right angles), so every square is a rhombus. A rhombus does not need right angles, so A and C are false. A rectangle does not need equal sides, so B is false.',
     'Lower 1 MA #23 and Lower 5 MA #28 (rhombus)',
     C('Lower 1 MA #23, 67.3% right', 'Same format', '1 = 1', '4 statements = same', 'Same'))
-# 17 x3 pattern 6th term (Lower 3 MA #21)
-s17 = [2*3**i for i in range(7)]
-assert s17[:4] == [2, 6, 18, 54] and s17[5] == 486 and s17[4] == 162 and s17[6] == 1458
-add('Nth Term, given Arithmetic Sequence, Progressive Pattern, etc.', 'Use the number pattern to answer the question.<div style="margin-top:6px">2, &nbsp;6, &nbsp;18, &nbsp;54</div><div style="margin-top:6px">What is the sixth number in the pattern?</div>',
-    ['108', '162', '486', '1,458'], 'C',
-    'Each number is 3 times the one before: 54 &times; 3 = 162 (5th), 162 &times; 3 = 486 (6th). A doubles 54. B stops at the 5th. D goes one too far.',
-    'Lower 3 MA #21',
-    C('Lower 3 MA #21, 80% right', 'Same', '2 = 2', 'same', 'Same'), None, 'exact-thing-asked')
-# 18 Ron (Lower 3 #37)
-add('Matching Stories to Equations', 'A class washed cars to raise money. Every car cost the same amount to wash. The list shows what is known.<div style="margin-top:6px">The total money raised is □.</div><div>The number of cars washed is ○.</div><div style="margin-top:6px">Which equation will determine △, the price for washing one car?</div>',
-    ['△ = □ &minus; ○', '△ = □ &times; ○', '△ = ○ &divide; □', '△ = □ &divide; ○'], 'D',
-    'The total is shared equally among the cars, so price for one = total &divide; number of cars = □ &divide; ○. Try numbers: $60 for 10 cars is $6 a car. C divides the wrong way.',
-    'Lower 3 #37',
-    C('Lower 3 QR #37, 48% right', 'Same list format with □ and ○', '1 = 1', 'same', 'Same'))
+# 17 (swapped 11/10) counting multiples between two numbers, "has 6 as a factor" wording (QR6 #28, QR9 #36 wrong, last third)
+m17 = [k for k in range(42, 91) if k % 6 == 0]
+assert len(m17) == 9 and m17[0] == 42 and m17[-1] == 90 and (91 - 41) // 6 == 8
+add('Counting Multiples within a Range', 'How many whole numbers between 41 and 91 have 6 as a factor?',
+    ['7', '8', '9', '10'], 'C',
+    '"Has 6 as a factor" means the number can be divided by 6 with no remainder, so these are the multiples of 6. The first one after 41 is 42 = 6 &times; 7. The last one before 91 is 90 = 6 &times; 15. Count 7, 8, &hellip;, 15: that is 15 &minus; 7 + 1 = 9 numbers. B is her shortcut (91 &minus; 41) &divide; 6 = 8 R2, which misses one.',
+    'QR9 #36 and QR6 #28 (her misses, last third), new "factor" wording',
+    C('QR9 #36 / QR6 #28 (her misses, last third)', 'Different words: "has 6 as a factor" instead of "divisible by"', '3 = 3 (first, last, count)', '2 ends = same', 'Same (harder words)'),
+    None, 'key-word-watch')
+# 18 (swapped 11/10) split line segments, letters (QR3 #37, QR9 #27 wrong, last third)
+x_, y_ = 20, 9
+assert x_ - 4 - y_ == 7 and x_ - 4 + y_ != 7
+seg = svg(300, 50, f'<line x1="10" y1="25" x2="290" y2="25" {SW}/>' + ''.join(
+    f'<line x1="{px}" y1="19" x2="{px}" y2="31" {SW}/>' + txt(px, 46, lab, 14) for px, lab in ((10, 'A'), (75, 'B'), (190, 'C'), (290, 'D'))))
+add('Split Line Segments', 'The length of AD is x. The length of AB is 4. The length of BC is y. What is the length of CD?',
+    ['x &minus; 4 + y', 'x + 4 + y', '4 + y &minus; x', 'x &minus; 4 &minus; y'], 'D',
+    'CD is what is left of AD after taking away AB and BC: x &minus; 4 &minus; y. Check with numbers: if AD = 20 and BC = 9, then CD = 20 &minus; 4 &minus; 9 = 7. A adds y back (her QR9 #27 change). C takes the whole line away from the parts.',
+    'QR9 #27 and QR3 #37 (her misses, last third), new layout: the end piece is asked',
+    C('QR9 #27 (her miss, last third); real Lower 5 #30, WTE #20', 'Same wording; asks for the end piece, not the middle', '2 = 2', '3 lengths = same', 'Same'),
+    seg)
 # 19 decimal bill estimate (Lower 2 MA #27)
 b19 = [F('23.85'), F('41.20'), F('36.62'), F('18.47'), F('29.91')]
 assert sum(b19) == F('150.05') and sum(int(v) for v in b19) == 147
@@ -260,14 +268,14 @@ add('Area of Triangles', f'The base of a triangle is 8 meters (m). Which stateme
     'Put the base into the formula: A = 1/2 &times; 8 &times; height = 4 &times; height. Check: height 3 gives A = 12, which is 4 times 3. B uses only the 1/2. C uses only the 8.',
     'Lower 2 MA #30 and MA4 #17',
     C('Lower 2 MA #30, 32.1% right', 'Same', '2 = 2', 'same', 'Same'))
-# 21 PT6 QR #18 format 2
-for k, add_ in ((1, 2), (12, 3), (123, 4), (12345, 6)):
-    assert k*9 + add_ == int('1'*add_)
-add('Numerical Patterns', 'Use the pattern to help answer the question.<div style="margin-top:6px">1 &times; 9 + 2 = 11</div><div>12 &times; 9 + 3 = 111</div><div>123 &times; 9 + 4 = 1,111</div><div style="margin-top:6px">What is the value of 12,345 &times; 9 + 6?</div>',
-    ['11,111', '111,111', '1,111,111', '111,116'], 'B',
-    'The number added is the number of 1s in the answer: + 2 gives 11, + 3 gives 111, + 4 gives 1,111. So + 6 gives six 1s: 111,111. A counts the 5 digits of 12,345 instead. The line for 1,234 is skipped, so she has to use the rule, not the next line.',
-    'Lower #6 #18, a second format',
-    C('Lower 6 QR #18, 79% right', 'Different pattern format (parent asked for more than one); one line skipped like 54 skips 36 and 45', '2 = 2', 'same', 'Same'))
+# 21 (swapped 11/10) remainder: divide what is LEFT, then round up (QR6 #33 wrong, last third: used the full goal)
+assert (300 - 130) / 8 == 21.25 and 22*8 >= 170 > 21*8 and 300 / 8 == 37.5
+add('Remainder when Divided by a given Number', 'A soccer team needs to sell 300 raffle tickets. They have already sold 130 tickets. The 8 players will sell the rest, and each player will sell the same number of tickets. What is the fewest number of tickets each player must sell for the team to reach its goal?',
+    ['21', '22', '37', '38'], 'B',
+    'Tickets still to sell: 300 &minus; 130 = 170. 170 &divide; 8 = 21 R2. If each player sells 21, that is only 168, 2 short, so each must sell 22. A forgets the 2 left over. C and D divide the whole goal, 300 &divide; 8, and forget the 130 already sold (her QR6 #33 slip).',
+    'QR6 #33 (her miss, last third)',
+    C('QR6 #33 (her miss, last third)', 'Same "how much more each" idea; adds a remainder', '2 &rarr; 3 (subtract, divide, round up)', '3 values = same', 'Slightly harder'),
+    None, 'exact-thing-asked')
 # 22 "decreased by X%" language, plus change
 assert F(45)*F(80, 100) == 36 and 50 - 36 == 14 and 50 - (45 - F('0.2')) == F('5.2')
 add('Percent Increase Decrease basic', 'A pair of shoes cost $45. The price was decreased by 20%. Sam paid for the shoes at the new price with a $50 bill. How much change did Sam get?',

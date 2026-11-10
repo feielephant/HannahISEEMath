@@ -72,12 +72,12 @@
   "verdict": "Same (fraction 2/3 a bit harder than 1/3)"
  },
  "10": {
-  "model": "Lower #6 MA #30",
-  "orig": "Lower 6 MA #30, 50.2% right",
-  "lang": "Same \"matches\" explanation sentence",
-  "steps": "2 = 2 (add, then double)",
-  "conds": "3 table values = same",
-  "verdict": "Same"
+  "model": "QR8 #32 and QR9 #30 (wrong both times, last third), now mixed with perimeter",
+  "orig": "QR9 #30 / QR8 #32 (her misses, last third)",
+  "lang": "Same \"which statement compares\" choices; both directions offered; same-perimeter trap added",
+  "steps": "4 &rarr; 5 (side, area, width from perimeter, area, compare)",
+  "conds": "2 shapes, 1 shared perimeter",
+  "verdict": "Slightly harder"
  },
  "11": {
   "model": "Lower #6 #25, with more steps and extra information",
@@ -88,20 +88,20 @@
   "verdict": "Harder"
  },
  "12": {
-  "model": "Lower #4 #35, same wording",
-  "orig": "Lower 4 QR #35, 47.4% right",
-  "lang": "Same wording (\"as many as she had\"); D added for the \"has left\" reading",
-  "steps": "2 = 2",
-  "conds": "3 symbols = same",
-  "verdict": "Same"
+  "model": "QR8 #30 (her miss, last third), now with no borrow as the parent asked",
+  "orig": "QR8 #30 / QR6 #34 / QR3 #34 (her misses, last third)",
+  "lang": "Same \"different digits\" wording; subtraction, no borrow",
+  "steps": "3 = 3 (one column at a time)",
+  "conds": "2 letters, 3 columns",
+  "verdict": "Same (borrow removed, one more column)"
  },
  "13": {
-  "model": "Lower #6 MA #13 and Lower #6 MA #5 (input from output)",
-  "orig": "Lower 6 MA #5 (find the input; rule &times; 3), 96.6% right",
-  "lang": "Same wording",
-  "steps": "1 (divide by 3) &rarr; 2 (add 2, divide by 3)",
-  "conds": "same 4 rows",
-  "verdict": "Harder (parent asked for a &times; input + b)"
+  "model": "QR8 #27, QR6 #32, QR2 #38 (her misses, last third)",
+  "orig": "QR8 #27 (her miss, last third)",
+  "lang": "Same \"ordered from greatest to least\" wording",
+  "steps": "3 comparisons = same",
+  "conds": "4 fractions = same",
+  "verdict": "Same (close pair 36 vs 35 is closer)"
  },
  "14": {
   "model": "Lower #1 #29 (decimal word problem) and her order-three gap",
@@ -128,19 +128,19 @@
   "verdict": "Same"
  },
  "17": {
-  "model": "Lower 3 MA #21",
-  "orig": "Lower 3 MA #21, 80% right",
-  "lang": "Same",
-  "steps": "2 = 2",
-  "conds": "same",
-  "verdict": "Same"
+  "model": "QR9 #36 and QR6 #28 (her misses, last third), new \"factor\" wording",
+  "orig": "QR9 #36 / QR6 #28 (her misses, last third)",
+  "lang": "Different words: \"has 6 as a factor\" instead of \"divisible by\"",
+  "steps": "3 = 3 (first, last, count)",
+  "conds": "2 ends = same",
+  "verdict": "Same (harder words)"
  },
  "18": {
-  "model": "Lower 3 #37",
-  "orig": "Lower 3 QR #37, 48% right",
-  "lang": "Same list format with □ and ○",
-  "steps": "1 = 1",
-  "conds": "same",
+  "model": "QR9 #27 and QR3 #37 (her misses, last third), new layout: the end piece is asked",
+  "orig": "QR9 #27 (her miss, last third); real Lower 5 #30, WTE #20",
+  "lang": "Same wording; asks for the end piece, not the middle",
+  "steps": "2 = 2",
+  "conds": "3 lengths = same",
   "verdict": "Same"
  },
  "19": {
@@ -160,12 +160,12 @@
   "verdict": "Same"
  },
  "21": {
-  "model": "Lower #6 #18, a second format",
-  "orig": "Lower 6 QR #18, 79% right",
-  "lang": "Different pattern format (parent asked for more than one); one line skipped like 54 skips 36 and 45",
-  "steps": "2 = 2",
-  "conds": "same",
-  "verdict": "Same"
+  "model": "QR6 #33 (her miss, last third)",
+  "orig": "QR6 #33 (her miss, last third)",
+  "lang": "Same \"how much more each\" idea; adds a remainder",
+  "steps": "2 &rarr; 3 (subtract, divide, round up)",
+  "conds": "3 values = same",
+  "verdict": "Slightly harder"
  },
  "22": {
   "model": "QR9 #8 language (Lower 4 #38 wording)",

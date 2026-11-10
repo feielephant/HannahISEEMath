@@ -164,20 +164,20 @@
  {
   "n": 10,
   "tier": "Hard",
-  "topic": "Determining Total Cost",
-  "q": "The parent club matches all the money the students raise at their bake sale. This means that for every dollar the students raise, the parent club also gives a dollar to the school. The table shows how much the students raised. What was the total amount of money the school received from the bake sale and the parent club?",
+  "topic": "Comparing Areas",
+  "q": "Garden A is a square with a perimeter of 36 feet. Garden B is a rectangle with a length of 12 feet. Garden B has the same perimeter as Garden A. Which statement correctly compares the two gardens?",
   "choices": {
-   "A": "$111",
-   "B": "$113",
-   "C": "$222",
-   "D": "$226"
+   "A": "The area of Garden A is 9 square feet greater than the area of Garden B.",
+   "B": "The area of Garden B is 9 square feet greater than the area of Garden A.",
+   "C": "The two gardens have the same area because they have the same perimeter.",
+   "D": "The area of Garden A is 3 square feet greater than the area of Garden B."
   },
-  "correct": "D",
-  "key": "<b>Answer: D.</b> The students raised 38 + 46 + 29 = $113. The club gives the same $113. Total: 113 + 113 = $226. B stops before the matching part.",
-  "habit_note": null,
-  "ref": "Topic: Determining Total Cost &middot; Diagram: yes &middot; Wrong so far: 1/10 &middot; New problem &middot; Built like: Lower #6 MA #30",
-  "diagram": "<div style=\"font-weight:600;margin-bottom:4px\">BAKE SALE</div><table class=\"data\"><tr><th>Day</th><th>Money Raised</th></tr><tr><td>Monday</td><td>$38</td></tr><tr><td>Tuesday</td><td>$46</td></tr><tr><td>Wednesday</td><td>$29</td></tr></table>",
-  "needs_diagram": true
+  "correct": "A",
+  "key": "<b>Answer: A.</b> Garden A: each side is 36 &divide; 4 = 9 ft, so the area is 9 &times; 9 = 81 square feet. Garden B: the two lengths use 12 + 12 = 24 ft, so the two widths share 36 &minus; 24 = 12 ft, and each width is 6 ft. Its area is 12 &times; 6 = 72 square feet. 81 &minus; 72 = 9, and Garden A is the bigger one. B has the right number in the wrong direction (her QR9 #30 slip). C thinks the same perimeter means the same area. D compares the sides (9 &minus; 6), not the areas.",
+  "habit_note": "verbose-choices",
+  "ref": "Topic: Comparing Areas &middot; Diagram: no &middot; Wrong so far: 2/3 &middot; New problem &middot; Built like: QR8 #32 and QR9 #30 (wrong both times, last third), now mixed with perimeter",
+  "diagram": null,
+  "needs_diagram": false
  },
  {
   "n": 11,
@@ -200,38 +200,38 @@
  {
   "n": 12,
   "tier": "Hard",
-  "topic": "Algebra with Geometric Shapes",
-  "q": "Mila had \u25a1 stamps and then she gave \u25cb of them to Jon. Now, Jon has \u25b3 times as many stamps as Mila had. Which expression represents the number of stamps Jon had to begin with?",
+  "topic": "Cryptarithm / digit substitution",
+  "q": "P and Q are different digits from 1 through 9. What digit does P represent?",
   "choices": {
-   "A": "\u25b3 &times; \u25a1 &minus; \u25cb",
-   "B": "\u25b3 &times; \u25cb + \u25a1",
-   "C": "\u25b3 &times; \u25a1 + \u25cb",
-   "D": "\u25b3 &times; (\u25a1 &minus; \u25cb) &minus; \u25cb"
+   "A": "2",
+   "B": "4",
+   "C": "6",
+   "D": "8"
   },
-  "correct": "A",
-  "key": "<b>Answer: A.</b> \"As many as Mila HAD\" means her starting number, \u25a1. So Jon now has \u25b3 &times; \u25a1. He got \u25cb from Mila, so before that he had \u25b3 &times; \u25a1 &minus; \u25cb. Try \u25a1 = 10, \u25cb = 2, \u25b3 = 3: Jon now has 30 and started with 28. D uses what Mila has left, which is a different question.",
-  "habit_note": null,
-  "ref": "Topic: Algebra with Geometric Shapes &middot; Diagram: no &middot; Wrong so far: 3/5 &middot; New problem &middot; Built like: Lower #4 #35, same wording",
-  "diagram": null,
-  "needs_diagram": false
+  "correct": "B",
+  "key": "<b>Answer: B.</b> Work from the ones column. 9 &minus; Q = 3, so Q = 6. Tens column: Q &minus; P = 2, so 6 &minus; P = 2 and P = 4. Hundreds column check: P &minus; 3 = 4 &minus; 3 = 1. So 469 &minus; 346 = 123. No column needs a borrow. C is Q, not P. D adds 6 + 2 instead of subtracting.",
+  "habit_note": "write-it-down",
+  "ref": "Topic: Cryptarithm / digit substitution &middot; Diagram: yes &middot; Wrong so far: 6/9 &middot; New problem &middot; Built like: QR8 #30 (her miss, last third), now with no borrow as the parent asked",
+  "diagram": "<div style=\"font-family:ui-monospace,'SF Mono','Cascadia Mono','Courier New',monospace;letter-spacing:2px;max-width:140px;margin:0 auto;font-size:1.1em;\"><div style=\"padding:2px 6px;line-height:1.5;text-align:right;\">PQ9</div><div style=\"padding:2px 6px;line-height:1.5;text-align:right;\">&minus;3PQ</div><div style=\"padding:2px 6px;line-height:1.5;text-align:right;border-top:1.5px solid currentColor;margin-top:5px;padding-top:5px;\">123</div></div>",
+  "needs_diagram": true
  },
  {
   "n": 13,
   "tier": "Hard",
-  "topic": "Input Output Tables",
-  "q": "The same operation is performed on each input number to create an output number. Which input number creates an output of 31?",
+  "topic": "Comparing & Ordering Fractions & Decimals",
+  "q": "Which list shows the fractions <span class=\"frac\"><span class=\"n\">4</span><span class=\"d\">7</span></span>, <span class=\"frac\"><span class=\"n\">2</span><span class=\"d\">3</span></span>, <span class=\"frac\"><span class=\"n\">5</span><span class=\"d\">9</span></span>, and <span class=\"frac\"><span class=\"n\">3</span><span class=\"d\">5</span></span> ordered from greatest to least?",
   "choices": {
-   "A": "10",
-   "B": "11",
-   "C": "31",
-   "D": "91"
+   "A": "<span class=\"frac\"><span class=\"n\">5</span><span class=\"d\">9</span></span>, &nbsp;<span class=\"frac\"><span class=\"n\">4</span><span class=\"d\">7</span></span>, &nbsp;<span class=\"frac\"><span class=\"n\">3</span><span class=\"d\">5</span></span>, &nbsp;<span class=\"frac\"><span class=\"n\">2</span><span class=\"d\">3</span></span>",
+   "B": "<span class=\"frac\"><span class=\"n\">2</span><span class=\"d\">3</span></span>, &nbsp;<span class=\"frac\"><span class=\"n\">3</span><span class=\"d\">5</span></span>, &nbsp;<span class=\"frac\"><span class=\"n\">5</span><span class=\"d\">9</span></span>, &nbsp;<span class=\"frac\"><span class=\"n\">4</span><span class=\"d\">7</span></span>",
+   "C": "<span class=\"frac\"><span class=\"n\">3</span><span class=\"d\">5</span></span>, &nbsp;<span class=\"frac\"><span class=\"n\">2</span><span class=\"d\">3</span></span>, &nbsp;<span class=\"frac\"><span class=\"n\">4</span><span class=\"d\">7</span></span>, &nbsp;<span class=\"frac\"><span class=\"n\">5</span><span class=\"d\">9</span></span>",
+   "D": "<span class=\"frac\"><span class=\"n\">2</span><span class=\"d\">3</span></span>, &nbsp;<span class=\"frac\"><span class=\"n\">3</span><span class=\"d\">5</span></span>, &nbsp;<span class=\"frac\"><span class=\"n\">4</span><span class=\"d\">7</span></span>, &nbsp;<span class=\"frac\"><span class=\"n\">5</span><span class=\"d\">9</span></span>"
   },
-  "correct": "B",
-  "key": "<b>Answer: B.</b> From 4 to 5 the output goes up 3, so the rule starts with input &times; 3. 2 &times; 3 = 6, but the output is 4, so subtract 2: output = 3 &times; input &minus; 2. Work back from 31: add 2 (33), divide by 3 (11). Check: 3 &times; 11 &minus; 2 = 31. D runs the rule forward on 31.",
-  "habit_note": null,
-  "ref": "Topic: Input Output Tables &middot; Diagram: yes &middot; Wrong so far: 1/5 &middot; New problem &middot; Built like: Lower #6 MA #13 and Lower #6 MA #5 (input from output)",
-  "diagram": "<table class=\"data\"><tr><th>Input</th><th>Output</th></tr><tr><td>2</td><td>4</td></tr><tr><td>4</td><td>10</td></tr><tr><td>5</td><td>13</td></tr><tr><td>8</td><td>22</td></tr></table>",
-  "needs_diagram": true
+  "correct": "D",
+  "key": "<b>Answer: D.</b> As decimals: 2/3 &asymp; 0.667, 3/5 = 0.6, 4/7 &asymp; 0.571, 5/9 &asymp; 0.556. The close pair is 4/7 and 5/9: cross-multiply, 4 &times; 9 = 36 and 5 &times; 7 = 35, so 4/7 is bigger. A is least to greatest (bigger numbers do not mean a bigger fraction). B swaps the close pair. C swaps 2/3 and 3/5.",
+  "habit_note": "write-it-down",
+  "ref": "Topic: Comparing & Ordering Fractions & Decimals &middot; Diagram: no &middot; Wrong so far: 9/23 &middot; New problem &middot; Built like: QR8 #27, QR6 #32, QR2 #38 (her misses, last third)",
+  "diagram": null,
+  "needs_diagram": false
  },
  {
   "n": 14,
@@ -290,38 +290,38 @@
  {
   "n": 17,
   "tier": "Hard",
-  "topic": "Nth Term, given Arithmetic Sequence, Progressive Pattern, etc.",
-  "q": "Use the number pattern to answer the question.<div style=\"margin-top:6px\">2, &nbsp;6, &nbsp;18, &nbsp;54</div><div style=\"margin-top:6px\">What is the sixth number in the pattern?</div>",
+  "topic": "Counting Multiples within a Range",
+  "q": "How many whole numbers between 41 and 91 have 6 as a factor?",
   "choices": {
-   "A": "108",
-   "B": "162",
-   "C": "486",
-   "D": "1,458"
+   "A": "7",
+   "B": "8",
+   "C": "9",
+   "D": "10"
   },
   "correct": "C",
-  "key": "<b>Answer: C.</b> Each number is 3 times the one before: 54 &times; 3 = 162 (5th), 162 &times; 3 = 486 (6th). A doubles 54. B stops at the 5th. D goes one too far.",
-  "habit_note": "exact-thing-asked",
-  "ref": "Topic: Nth Term, given Arithmetic Sequence, Progressive Pattern, etc. &middot; Diagram: no &middot; Wrong so far: 5/13 &middot; New problem &middot; Built like: Lower 3 MA #21",
+  "key": "<b>Answer: C.</b> \"Has 6 as a factor\" means the number can be divided by 6 with no remainder, so these are the multiples of 6. The first one after 41 is 42 = 6 &times; 7. The last one before 91 is 90 = 6 &times; 15. Count 7, 8, &hellip;, 15: that is 15 &minus; 7 + 1 = 9 numbers. B is her shortcut (91 &minus; 41) &divide; 6 = 8 R2, which misses one.",
+  "habit_note": "key-word-watch",
+  "ref": "Topic: Counting Multiples within a Range &middot; Diagram: no &middot; Wrong so far: 3/9 &middot; New problem &middot; Built like: QR9 #36 and QR6 #28 (her misses, last third), new \"factor\" wording",
   "diagram": null,
   "needs_diagram": false
  },
  {
   "n": 18,
   "tier": "Hard",
-  "topic": "Matching Stories to Equations",
-  "q": "A class washed cars to raise money. Every car cost the same amount to wash. The list shows what is known.<div style=\"margin-top:6px\">The total money raised is \u25a1.</div><div>The number of cars washed is \u25cb.</div><div style=\"margin-top:6px\">Which equation will determine \u25b3, the price for washing one car?</div>",
+  "topic": "Split Line Segments",
+  "q": "The length of AD is x. The length of AB is 4. The length of BC is y. What is the length of CD?",
   "choices": {
-   "A": "\u25b3 = \u25a1 &minus; \u25cb",
-   "B": "\u25b3 = \u25a1 &times; \u25cb",
-   "C": "\u25b3 = \u25cb &divide; \u25a1",
-   "D": "\u25b3 = \u25a1 &divide; \u25cb"
+   "A": "x &minus; 4 + y",
+   "B": "x + 4 + y",
+   "C": "4 + y &minus; x",
+   "D": "x &minus; 4 &minus; y"
   },
   "correct": "D",
-  "key": "<b>Answer: D.</b> The total is shared equally among the cars, so price for one = total &divide; number of cars = \u25a1 &divide; \u25cb. Try numbers: $60 for 10 cars is $6 a car. C divides the wrong way.",
+  "key": "<b>Answer: D.</b> CD is what is left of AD after taking away AB and BC: x &minus; 4 &minus; y. Check with numbers: if AD = 20 and BC = 9, then CD = 20 &minus; 4 &minus; 9 = 7. A adds y back (her QR9 #27 change). C takes the whole line away from the parts.",
   "habit_note": null,
-  "ref": "Topic: Matching Stories to Equations &middot; Diagram: no &middot; Wrong so far: 1/6 &middot; New problem &middot; Built like: Lower 3 #37",
-  "diagram": null,
-  "needs_diagram": false
+  "ref": "Topic: Split Line Segments &middot; Diagram: yes &middot; Wrong so far: 3/5 &middot; New problem &middot; Built like: QR9 #27 and QR3 #37 (her misses, last third), new layout: the end piece is asked",
+  "diagram": "<svg viewBox=\"0 0 300 50\" width=\"300\" height=\"50\" role=\"img\"><line x1=\"10\" y1=\"25\" x2=\"290\" y2=\"25\" stroke=\"currentColor\" stroke-width=\"1.6\"/><line x1=\"10\" y1=\"19\" x2=\"10\" y2=\"31\" stroke=\"currentColor\" stroke-width=\"1.6\"/><text x=\"10\" y=\"46\" font-size=\"14\" text-anchor=\"middle\" fill=\"currentColor\">A</text><line x1=\"75\" y1=\"19\" x2=\"75\" y2=\"31\" stroke=\"currentColor\" stroke-width=\"1.6\"/><text x=\"75\" y=\"46\" font-size=\"14\" text-anchor=\"middle\" fill=\"currentColor\">B</text><line x1=\"190\" y1=\"19\" x2=\"190\" y2=\"31\" stroke=\"currentColor\" stroke-width=\"1.6\"/><text x=\"190\" y=\"46\" font-size=\"14\" text-anchor=\"middle\" fill=\"currentColor\">C</text><line x1=\"290\" y1=\"19\" x2=\"290\" y2=\"31\" stroke=\"currentColor\" stroke-width=\"1.6\"/><text x=\"290\" y=\"46\" font-size=\"14\" text-anchor=\"middle\" fill=\"currentColor\">D</text></svg>",
+  "needs_diagram": true
  },
  {
   "n": 19,
@@ -362,18 +362,18 @@
  {
   "n": 21,
   "tier": "Hard",
-  "topic": "Numerical Patterns",
-  "q": "Use the pattern to help answer the question.<div style=\"margin-top:6px\">1 &times; 9 + 2 = 11</div><div>12 &times; 9 + 3 = 111</div><div>123 &times; 9 + 4 = 1,111</div><div style=\"margin-top:6px\">What is the value of 12,345 &times; 9 + 6?</div>",
+  "topic": "Remainder when Divided by a given Number",
+  "q": "A soccer team needs to sell 300 raffle tickets. They have already sold 130 tickets. The 8 players will sell the rest, and each player will sell the same number of tickets. What is the fewest number of tickets each player must sell for the team to reach its goal?",
   "choices": {
-   "A": "11,111",
-   "B": "111,111",
-   "C": "1,111,111",
-   "D": "111,116"
+   "A": "21",
+   "B": "22",
+   "C": "37",
+   "D": "38"
   },
   "correct": "B",
-  "key": "<b>Answer: B.</b> The number added is the number of 1s in the answer: + 2 gives 11, + 3 gives 111, + 4 gives 1,111. So + 6 gives six 1s: 111,111. A counts the 5 digits of 12,345 instead. The line for 1,234 is skipped, so she has to use the rule, not the next line.",
-  "habit_note": null,
-  "ref": "Topic: Numerical Patterns &middot; Diagram: no &middot; Wrong so far: 6/14 &middot; New problem &middot; Built like: Lower #6 #18, a second format",
+  "key": "<b>Answer: B.</b> Tickets still to sell: 300 &minus; 130 = 170. 170 &divide; 8 = 21 R2. If each player sells 21, that is only 168, 2 short, so each must sell 22. A forgets the 2 left over. C and D divide the whole goal, 300 &divide; 8, and forget the 130 already sold (her QR6 #33 slip).",
+  "habit_note": "exact-thing-asked",
+  "ref": "Topic: Remainder when Divided by a given Number &middot; Diagram: no &middot; Wrong so far: 3/7 &middot; New problem &middot; Built like: QR6 #33 (her miss, last third)",
   "diagram": null,
   "needs_diagram": false
  },
