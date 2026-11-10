@@ -1687,7 +1687,18 @@
    },
    "screenshots": "mathspeed test/actual-practice-tests/ISEE Lower #6/ (copied from recaptureQR, 2026-11-08 2.28-2.30 PM; QR 1-38, MA 1-30, MA 30 captured twice)",
    "ma_screenshots": "recaptureQR/Screenshot 2026-11-08 at 2.28-2.30 PM (recapture with answers; QR 1-38 then MA 1-30, MA30 twice)",
-   "gids": "problem_library 1502-1539 (QR 1-38); ma_library test_set ISEE LOWER #6 (MA 1-30)"
+   "gids": "problem_library 1502-1539 (QR 1-38); ma_library test_set ISEE LOWER #6 (MA 1-30)",
+   "parent_review_with_hannah_2026-11-10": {
+    "QR18": "Did not find the pattern clearly. First time she has seen a repeated-digit multiplication pattern (12,345,679 x 9, 18, 27); the library has no other item of this kind. Give it in more than one format.",
+    "QR25": "Redid it and got it right immediately; does not know why she chose D. Read: long statement choices with extra information confused her (verbose-choices gap).",
+    "QR30": "Ran out of time on it (13 s, guessed); right when she did it again. Pacing, not the L-shape method.",
+    "QR36": "Did 13 x 152 first, then divided 60 by that, as if 13 x 152 were in parentheses; got no matching answer and picked at random. Two traps to keep: the order of operations (left to right) and close bands (60/13 is about 4.6; rounding 13 to 10 and 152 to 150 gives exactly 900, the B/C boundary). Give this type in different presentations with tricky numbers.",
+    "QR38": "Same read as the parent: find the one choice that is different from the other 3; A, B, C all ask for a number, D is a category.",
+    "MA12": "Right on the second try. Needs more practice of story-to-equation (division) problems.",
+    "MA13": "Finding the rule is not stable. Parent told her the rule is usually linear, a x + b (a can be 1, a fraction, or more than 1), and sometimes a square. Needs more problems.",
+    "MA28": "Needs to know the whole is 3 / 0.2 (part / percent).",
+    "MA30": "Large-information problem; she skipped the first part, the employer matching. Look for a real matching problem or make one of similar difficulty."
+   }
   }
  ],
  "retake_sets": [
