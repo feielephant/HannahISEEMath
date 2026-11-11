@@ -2001,7 +2001,8 @@
    "number words to standard form",
    "identifying shapes by properties",
    "bar graph reading"
-  ]
+  ],
+  "order_of_operations_data_check_2026-11-11": "Parent asked for data, not feeling, on '2x5 - 3 + 6x3 done as 5 - 3 first'. Every graded set (exact published snapshot + her final answers) and every real-test item was checked. Plain order-of-operations/equivalence items: 18 seen, 3 wrong, and all 3 are bracket handling: PT2 MA #26 (16 x (13+19) -> picked (16x13)+19), MA4 #8 (36 - 8x(6-3) -> picked 36 - (8x6 - 3)), QR4 #6 (6 + 3x(8-2)/2 -> picked (6 + 3x8 - 2)/2). No answer anywhere matches doing + or - before x (0 of about 10 chances: QR10 #3, MA2 #13, MA1 #23, QR8 #8, PT4 MA #14, PT2 MA #11, PT5 QR #1, ... all right). a / b x c estimates: 2 of 2 wrong (PT6 QR #36, QR10 #8), both times she picked 300-600; on QR10 'less than 1' (what 50/(12x182) gives) was offered and she did NOT pick it, so her clicks point to under-estimating a/b, not a hidden bracket. Decision: MA5 #10 (4x6-2+3x5) replaced; MA5 keeps #15 (a/b x c) and #21 (minus in front of a distributed bracket), which the data supports."
  },
  "integrity_notes": [
   {
