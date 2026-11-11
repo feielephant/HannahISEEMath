@@ -1,0 +1,542 @@
+[
+ {
+  "n": 1,
+  "tier": "Hard",
+  "topic": "Comparing Adding Subtracting Bar Graph Data Table Values",
+  "q": "Two classes, Class A and Class B, each recorded the favorite fruit of the students in the class. The graph shows the results. Which fruit was the favorite of the most students in the two classes together?",
+  "choices": {
+   "A": "apple",
+   "B": "banana",
+   "C": "grape",
+   "D": "orange"
+  },
+  "correct": "B",
+  "key": "<b>Answer: B.</b> Add the two bars for each fruit: apple 7 + 2 = 9, banana 4 + 6 = 10, grape 3 + 3 = 6, orange 5 + 4 = 9. Banana has the most, 10. A has the tallest single bar (7), but the question asks about both classes together.",
+  "ref": "Tier: Hard &middot; Topic: Comparing Adding Subtracting Bar Graph Data Table Values &middot; Wrong so far: 3/13 &middot; New problem &middot; Built on: Lower 3 QR #24 (her miss, middle third, 74% right)",
+  "diagram": "<svg viewBox=\"0 0 430 272\" width=\"430\" height=\"272\" role=\"img\"><line x1=\"46\" y1=\"220.0\" x2=\"420\" y2=\"220.0\" stroke=\"currentColor\" stroke-opacity=\"0.25\" stroke-width=\"1\"/><text x=\"38\" y=\"224.0\" font-size=\"11\" font-weight=\"normal\" text-anchor=\"end\" fill=\"currentColor\">0</text><line x1=\"46\" y1=\"196.2\" x2=\"420\" y2=\"196.2\" stroke=\"currentColor\" stroke-opacity=\"0.25\" stroke-width=\"1\"/><text x=\"38\" y=\"200.25\" font-size=\"11\" font-weight=\"normal\" text-anchor=\"end\" fill=\"currentColor\">1</text><line x1=\"46\" y1=\"172.5\" x2=\"420\" y2=\"172.5\" stroke=\"currentColor\" stroke-opacity=\"0.25\" stroke-width=\"1\"/><text x=\"38\" y=\"176.5\" font-size=\"11\" font-weight=\"normal\" text-anchor=\"end\" fill=\"currentColor\">2</text><line x1=\"46\" y1=\"148.8\" x2=\"420\" y2=\"148.8\" stroke=\"currentColor\" stroke-opacity=\"0.25\" stroke-width=\"1\"/><text x=\"38\" y=\"152.75\" font-size=\"11\" font-weight=\"normal\" text-anchor=\"end\" fill=\"currentColor\">3</text><line x1=\"46\" y1=\"125.0\" x2=\"420\" y2=\"125.0\" stroke=\"currentColor\" stroke-opacity=\"0.25\" stroke-width=\"1\"/><text x=\"38\" y=\"129.0\" font-size=\"11\" font-weight=\"normal\" text-anchor=\"end\" fill=\"currentColor\">4</text><line x1=\"46\" y1=\"101.2\" x2=\"420\" y2=\"101.2\" stroke=\"currentColor\" stroke-opacity=\"0.25\" stroke-width=\"1\"/><text x=\"38\" y=\"105.25\" font-size=\"11\" font-weight=\"normal\" text-anchor=\"end\" fill=\"currentColor\">5</text><line x1=\"46\" y1=\"77.5\" x2=\"420\" y2=\"77.5\" stroke=\"currentColor\" stroke-opacity=\"0.25\" stroke-width=\"1\"/><text x=\"38\" y=\"81.5\" font-size=\"11\" font-weight=\"normal\" text-anchor=\"end\" fill=\"currentColor\">6</text><line x1=\"46\" y1=\"53.8\" x2=\"420\" y2=\"53.8\" stroke=\"currentColor\" stroke-opacity=\"0.25\" stroke-width=\"1\"/><text x=\"38\" y=\"57.75\" font-size=\"11\" font-weight=\"normal\" text-anchor=\"end\" fill=\"currentColor\">7</text><line x1=\"46\" y1=\"30.0\" x2=\"420\" y2=\"30.0\" stroke=\"currentColor\" stroke-opacity=\"0.25\" stroke-width=\"1\"/><text x=\"38\" y=\"34.0\" font-size=\"11\" font-weight=\"normal\" text-anchor=\"end\" fill=\"currentColor\">8</text><rect x=\"66.8\" y=\"53.8\" width=\"24\" height=\"166.2\" fill=\"#4A86C5\" stroke=\"currentColor\" stroke-width=\"1\"/><rect x=\"92.8\" y=\"172.5\" width=\"24\" height=\"47.5\" fill=\"#D08B3C\" stroke=\"currentColor\" stroke-width=\"1\"/><text x=\"92.75\" y=\"236\" font-size=\"12\" font-weight=\"normal\" text-anchor=\"middle\" fill=\"currentColor\">Apple</text><rect x=\"160.2\" y=\"125.0\" width=\"24\" height=\"95.0\" fill=\"#4A86C5\" stroke=\"currentColor\" stroke-width=\"1\"/><rect x=\"186.2\" y=\"77.5\" width=\"24\" height=\"142.5\" fill=\"#D08B3C\" stroke=\"currentColor\" stroke-width=\"1\"/><text x=\"186.25\" y=\"236\" font-size=\"12\" font-weight=\"normal\" text-anchor=\"middle\" fill=\"currentColor\">Banana</text><rect x=\"253.8\" y=\"148.8\" width=\"24\" height=\"71.2\" fill=\"#4A86C5\" stroke=\"currentColor\" stroke-width=\"1\"/><rect x=\"279.8\" y=\"148.8\" width=\"24\" height=\"71.2\" fill=\"#D08B3C\" stroke=\"currentColor\" stroke-width=\"1\"/><text x=\"279.75\" y=\"236\" font-size=\"12\" font-weight=\"normal\" text-anchor=\"middle\" fill=\"currentColor\">Grape</text><rect x=\"347.2\" y=\"101.2\" width=\"24\" height=\"118.8\" fill=\"#4A86C5\" stroke=\"currentColor\" stroke-width=\"1\"/><rect x=\"373.2\" y=\"125.0\" width=\"24\" height=\"95.0\" fill=\"#D08B3C\" stroke=\"currentColor\" stroke-width=\"1\"/><text x=\"373.25\" y=\"236\" font-size=\"12\" font-weight=\"normal\" text-anchor=\"middle\" fill=\"currentColor\">Orange</text><line x1=\"46\" y1=\"220\" x2=\"420\" y2=\"220\" stroke=\"currentColor\" stroke-width=\"1.6\"/><line x1=\"46\" y1=\"24\" x2=\"46\" y2=\"220\" stroke=\"currentColor\" stroke-width=\"1.6\"/><text x=\"215.0\" y=\"16\" font-size=\"13\" font-weight=\"600\" text-anchor=\"middle\" fill=\"currentColor\">FAVORITE FRUIT</text><text x=\"14\" y=\"125.0\" font-size=\"11\" text-anchor=\"middle\" fill=\"currentColor\" transform=\"rotate(-90 14 125.0)\">Number of Students</text><rect x=\"280\" y=\"248\" width=\"12\" height=\"12\" fill=\"#4A86C5\"/><text x=\"296\" y=\"258\" font-size=\"11\" font-weight=\"normal\" text-anchor=\"start\" fill=\"currentColor\">Class A</text><rect x=\"350\" y=\"248\" width=\"12\" height=\"12\" fill=\"#D08B3C\"/><text x=\"366\" y=\"258\" font-size=\"11\" font-weight=\"normal\" text-anchor=\"start\" fill=\"currentColor\">Class B</text></svg>",
+  "gid": null,
+  "ma_idx": null
+ },
+ {
+  "n": 2,
+  "tier": "Hard",
+  "topic": "Finding MMMR given Bar Graph Data Table",
+  "q": "The table shows four test scores for each of four students. What is the mode of this set of data?",
+  "choices": {
+   "A": "79",
+   "B": "86",
+   "C": "88",
+   "D": "97"
+  },
+  "correct": "B",
+  "key": "<b>Answer: B.</b> The mode is the score that appears most often. 86 appears 3 times (Ana, Ben, Cara). 79, 88, and 95 appear only twice. D is the highest score, not the mode.",
+  "ref": "Tier: Hard &middot; Topic: Finding MMMR given Bar Graph Data Table &middot; Wrong so far: 2/11 &middot; New problem &middot; Built on: Lower 5 MA #17 (her miss, middle third, 83% right)",
+  "diagram": "<div style=\"font-weight:600;margin-bottom:4px\">TEST SCORES</div><table class=\"data\"><tr><th>Student</th><th>Test 1</th><th>Test 2</th><th>Test 3</th><th>Test 4</th></tr><tr><td>Ana</td><td>92</td><td>86</td><td>79</td><td>95</td></tr><tr><td>Ben</td><td>84</td><td>97</td><td>86</td><td>90</td></tr><tr><td>Cara</td><td>79</td><td>91</td><td>88</td><td>86</td></tr><tr><td>Dev</td><td>93</td><td>88</td><td>95</td><td>81</td></tr></table>",
+  "gid": null,
+  "ma_idx": null
+ },
+ {
+  "n": 3,
+  "tier": "Hard",
+  "topic": "Matching Stories to Equations",
+  "q": "A box holds 48 crayons that are packed into groups of 6. If p represents the number of packs in the box, which equation can be used to find p?",
+  "choices": {
+   "A": "p &minus; 6 = 48",
+   "B": "48 &times; p = 6",
+   "C": "6 + p = 48",
+   "D": "6 &times; p = 48"
+  },
+  "correct": "D",
+  "key": "<b>Answer: D.</b> p packs with 6 crayons in each make 48 crayons: 6 &times; p = 48 (so p = 8). B is backwards: try p = 8, and 48 &times; 8 is not 6. That is the PT6 MA #12 and QR10 #4 slip.",
+  "ref": "Tier: Hard &middot; Topic: Matching Stories to Equations &middot; Wrong so far: 2/8 &middot; New problem &middot; Built on: Lower 6 MA #12 (her miss, middle third) and QR10 #4",
+  "diagram": null,
+  "gid": null,
+  "ma_idx": null
+ },
+ {
+  "n": 4,
+  "tier": "Hard",
+  "topic": "Input Output Tables",
+  "q": "The number machine performs the same operation on each input to create an output. What is the output for an input of 46?",
+  "choices": {
+   "A": "37",
+   "B": "55",
+   "C": "56",
+   "D": "92"
+  },
+  "correct": "B",
+  "key": "<b>Answer: B.</b> Every output is 9 more than its input: 14 + 9 = 23, 33 + 9 = 42. So 46 + 9 = 55. A subtracts 9. C adds 10. D doubles.",
+  "ref": "Tier: Hard &middot; Topic: Input Output Tables &middot; Wrong so far: 3/7 &middot; New problem &middot; Built on: Lower 6 MA #13 (her miss, middle third); rule kept plain on purpose",
+  "diagram": "<div style=\"font-weight:600;margin-bottom:4px\">NUMBER MACHINE</div><table class=\"data\"><tr><th>Input</th><th>Output</th></tr><tr><td>14</td><td>23</td></tr><tr><td>19</td><td>28</td></tr><tr><td>27</td><td>36</td></tr><tr><td>33</td><td>42</td></tr></table>",
+  "gid": null,
+  "ma_idx": null
+ },
+ {
+  "n": 5,
+  "tier": "Hard",
+  "topic": "Input Output Tables",
+  "q": "The number machine performs the same operation on each input to create an output. What is the output for an input of 40?",
+  "choices": {
+   "A": "20",
+   "B": "25",
+   "C": "30",
+   "D": "45"
+  },
+  "correct": "B",
+  "key": "<b>Answer: B.</b> From 6 to 10 the input goes up 4 and the output goes up 2, so the output grows half as fast: try input &divide; 2. 6 &divide; 2 = 3, and the output is 8, so add 5: output = input &divide; 2 + 5. Check: 24 &divide; 2 + 5 = 17. So 40 &divide; 2 + 5 = 25. A forgets the + 5. D is 40 + 5, leaving out the half (her QR10 #5 slip).",
+  "ref": "Tier: Hard &middot; Topic: Input Output Tables &middot; Wrong so far: 3/7 &middot; New problem &middot; Built on: Lower 6 MA #13 and QR10 #5 (her misses)",
+  "diagram": "<div style=\"font-weight:600;margin-bottom:4px\">NUMBER MACHINE</div><table class=\"data\"><tr><th>Input</th><th>Output</th></tr><tr><td>6</td><td>8</td></tr><tr><td>10</td><td>10</td></tr><tr><td>18</td><td>14</td></tr><tr><td>24</td><td>17</td></tr></table>",
+  "gid": null,
+  "ma_idx": null
+ },
+ {
+  "n": 6,
+  "tier": "Hard",
+  "topic": "Input Output Tables",
+  "q": "The table shows how a number machine changes each input number (△) into an output number (■). Which equation shows the rule for the number machine?",
+  "choices": {
+   "A": "△ &times; 3 &minus; 2 = ■",
+   "B": "△ &times; 2 = ■",
+   "C": "△ + 6 = ■",
+   "D": "△ &times; 2 + 3 = ■"
+  },
+  "correct": "A",
+  "key": "<b>Answer: A.</b> Check every row. 2 &times; 3 &minus; 2 = 4, 4 &times; 3 &minus; 2 = 10, 5 &times; 3 &minus; 2 = 13, 7 &times; 3 &minus; 2 = 19. B works only for 2, C only for 4, D only for 5.",
+  "ref": "Tier: Hard &middot; Topic: Input Output Tables &middot; Wrong so far: 3/7 &middot; New problem &middot; Built on: Lower 6 QR #6 (first third) and QR10 #26 (her miss)",
+  "diagram": "<div style=\"font-weight:600;margin-bottom:4px\">NUMBER MACHINE</div><table class=\"data\"><tr><th>Input (△)</th><th>Output (■)</th></tr><tr><td>2</td><td>4</td></tr><tr><td>4</td><td>10</td></tr><tr><td>5</td><td>13</td></tr><tr><td>7</td><td>19</td></tr></table>",
+  "gid": null,
+  "ma_idx": null
+ },
+ {
+  "n": 7,
+  "tier": "Hard",
+  "topic": "Comparing & Ordering Fractions & Decimals",
+  "q": "Which list shows 0.65, <span class=\"frac\"><span class=\"n\">5</span><span class=\"d\">8</span></span>, and <span class=\"frac\"><span class=\"n\">2</span><span class=\"d\">3</span></span> in order from least to greatest?",
+  "choices": {
+   "A": "0.65, &nbsp;<span class=\"frac\"><span class=\"n\">5</span><span class=\"d\">8</span></span>, &nbsp;<span class=\"frac\"><span class=\"n\">2</span><span class=\"d\">3</span></span>",
+   "B": "<span class=\"frac\"><span class=\"n\">2</span><span class=\"d\">3</span></span>, &nbsp;0.65, &nbsp;<span class=\"frac\"><span class=\"n\">5</span><span class=\"d\">8</span></span>",
+   "C": "<span class=\"frac\"><span class=\"n\">5</span><span class=\"d\">8</span></span>, &nbsp;0.65, &nbsp;<span class=\"frac\"><span class=\"n\">2</span><span class=\"d\">3</span></span>",
+   "D": "<span class=\"frac\"><span class=\"n\">5</span><span class=\"d\">8</span></span>, &nbsp;<span class=\"frac\"><span class=\"n\">2</span><span class=\"d\">3</span></span>, &nbsp;0.65"
+  },
+  "correct": "C",
+  "key": "<b>Answer: C.</b> Change each to a decimal: 5/8 = 0.625, 0.65, 2/3 &asymp; 0.667. Least to greatest: 5/8, 0.65, 2/3. B is greatest to least. D puts the decimal last because it is written differently.",
+  "ref": "Tier: Hard &middot; Topic: Comparing & Ordering Fractions & Decimals &middot; Wrong so far: 10/24 &middot; New problem &middot; Built on: Lower 1 QR #22 and Lower 3 QR #20 (her misses, middle third); QR10 #13",
+  "diagram": null,
+  "gid": null,
+  "ma_idx": null
+ },
+ {
+  "n": 8,
+  "tier": "Hard",
+  "topic": "English Unit Conversions",
+  "q": "Lena has 5 yards of ribbon. She cuts it into pieces that are each 8 inches long. There are 3 feet in 1 yard and 12 inches in 1 foot. How many 8-inch pieces can she cut?",
+  "choices": {
+   "A": "7",
+   "B": "15",
+   "C": "22",
+   "D": "23"
+  },
+  "correct": "C",
+  "key": "<b>Answer: C.</b> 1 yard = 3 &times; 12 = 36 inches, so 5 yards = 180 inches. 180 &divide; 8 = 22 R4, so 22 full pieces (4 inches are left over). A uses 12 inches in a yard (her QR10 #11 slip). B is the number of feet. D rounds up, but a 4-inch piece is not a full piece.",
+  "ref": "Tier: Hard &middot; Topic: English Unit Conversions &middot; Wrong so far: 2/3 &middot; New problem &middot; Built on: Lower 6 QR #25 (her miss, middle third) and QR10 #11",
+  "diagram": null,
+  "gid": null,
+  "ma_idx": null
+ },
+ {
+  "n": 9,
+  "tier": "Hard",
+  "topic": "Evaluating Percents of Numbers",
+  "q": "A store sells a notebook for $4.50. The price of the notebook decreased by 12%. What is the price of the notebook now?",
+  "choices": {
+   "A": "$3.96",
+   "B": "$4.38",
+   "C": "$4.62",
+   "D": "$5.04"
+  },
+  "correct": "A",
+  "key": "<b>Answer: A.</b> 12% of $4.50 is 0.12 &times; 4.50 = $0.54. The new price is 4.50 &minus; 0.54 = $3.96. B subtracts 0.12 instead of 12% of the price (the \"decreased by\" slip). C adds 0.12. D increases by 12%.",
+  "ref": "Tier: Hard &middot; Topic: Evaluating Percents of Numbers &middot; Wrong so far: 1/1 &middot; New problem &middot; Built on: Official ISEE practice exercise (gid 1108, her MA3 #3 miss)",
+  "diagram": null,
+  "gid": null,
+  "ma_idx": null
+ },
+ {
+  "n": 10,
+  "tier": "Hard",
+  "topic": "Minimum Distance on Coordinate Plane / Grid",
+  "q": "Use the grid to answer the question. How many units is the shortest distance from point A to point B if you can only move down or to the right?",
+  "choices": {
+   "A": "8",
+   "B": "9",
+   "C": "10",
+   "D": "11"
+  },
+  "correct": "D",
+  "key": "<b>Answer: D.</b> Right: from x = &minus;3 to x = 2 is 5 units (3 to reach 0, then 2 more). Down: from y = 4 to y = &minus;2 is 6 units (4 to reach 0, then 2 more). 5 + 6 = 11. A, B, and C come from missing a unit when crossing 0; count the grid squares one by one.",
+  "ref": "Tier: Hard &middot; Topic: Minimum Distance on Coordinate Plane / Grid &middot; Wrong so far: 1/1 &middot; New problem &middot; Built on: Official ISEE practice exercise (gid 1453, her MA3 #30 miss)",
+  "diagram": "<svg viewBox=\"0 0 278 268\" width=\"278\" height=\"268\" role=\"img\"><line x1=\"24\" y1=\"24\" x2=\"24\" y2=\"244\" stroke=\"currentColor\" stroke-opacity=\"0.25\" stroke-width=\"1\"/><line x1=\"24\" y1=\"24\" x2=\"244\" y2=\"24\" stroke=\"currentColor\" stroke-opacity=\"0.25\" stroke-width=\"1\"/><line x1=\"46\" y1=\"24\" x2=\"46\" y2=\"244\" stroke=\"currentColor\" stroke-opacity=\"0.25\" stroke-width=\"1\"/><line x1=\"24\" y1=\"46\" x2=\"244\" y2=\"46\" stroke=\"currentColor\" stroke-opacity=\"0.25\" stroke-width=\"1\"/><line x1=\"68\" y1=\"24\" x2=\"68\" y2=\"244\" stroke=\"currentColor\" stroke-opacity=\"0.25\" stroke-width=\"1\"/><line x1=\"24\" y1=\"68\" x2=\"244\" y2=\"68\" stroke=\"currentColor\" stroke-opacity=\"0.25\" stroke-width=\"1\"/><line x1=\"90\" y1=\"24\" x2=\"90\" y2=\"244\" stroke=\"currentColor\" stroke-opacity=\"0.25\" stroke-width=\"1\"/><line x1=\"24\" y1=\"90\" x2=\"244\" y2=\"90\" stroke=\"currentColor\" stroke-opacity=\"0.25\" stroke-width=\"1\"/><line x1=\"112\" y1=\"24\" x2=\"112\" y2=\"244\" stroke=\"currentColor\" stroke-opacity=\"0.25\" stroke-width=\"1\"/><line x1=\"24\" y1=\"112\" x2=\"244\" y2=\"112\" stroke=\"currentColor\" stroke-opacity=\"0.25\" stroke-width=\"1\"/><line x1=\"134\" y1=\"24\" x2=\"134\" y2=\"244\" stroke=\"currentColor\" stroke-opacity=\"0.25\" stroke-width=\"1\"/><line x1=\"24\" y1=\"134\" x2=\"244\" y2=\"134\" stroke=\"currentColor\" stroke-opacity=\"0.25\" stroke-width=\"1\"/><line x1=\"156\" y1=\"24\" x2=\"156\" y2=\"244\" stroke=\"currentColor\" stroke-opacity=\"0.25\" stroke-width=\"1\"/><line x1=\"24\" y1=\"156\" x2=\"244\" y2=\"156\" stroke=\"currentColor\" stroke-opacity=\"0.25\" stroke-width=\"1\"/><line x1=\"178\" y1=\"24\" x2=\"178\" y2=\"244\" stroke=\"currentColor\" stroke-opacity=\"0.25\" stroke-width=\"1\"/><line x1=\"24\" y1=\"178\" x2=\"244\" y2=\"178\" stroke=\"currentColor\" stroke-opacity=\"0.25\" stroke-width=\"1\"/><line x1=\"200\" y1=\"24\" x2=\"200\" y2=\"244\" stroke=\"currentColor\" stroke-opacity=\"0.25\" stroke-width=\"1\"/><line x1=\"24\" y1=\"200\" x2=\"244\" y2=\"200\" stroke=\"currentColor\" stroke-opacity=\"0.25\" stroke-width=\"1\"/><line x1=\"222\" y1=\"24\" x2=\"222\" y2=\"244\" stroke=\"currentColor\" stroke-opacity=\"0.25\" stroke-width=\"1\"/><line x1=\"24\" y1=\"222\" x2=\"244\" y2=\"222\" stroke=\"currentColor\" stroke-opacity=\"0.25\" stroke-width=\"1\"/><line x1=\"244\" y1=\"24\" x2=\"244\" y2=\"244\" stroke=\"currentColor\" stroke-opacity=\"0.25\" stroke-width=\"1\"/><line x1=\"24\" y1=\"244\" x2=\"244\" y2=\"244\" stroke=\"currentColor\" stroke-opacity=\"0.25\" stroke-width=\"1\"/><line x1=\"24\" y1=\"134\" x2=\"244\" y2=\"134\" stroke=\"currentColor\" stroke-width=\"1.6\"/><line x1=\"134\" y1=\"24\" x2=\"134\" y2=\"244\" stroke=\"currentColor\" stroke-width=\"1.6\"/><text x=\"24\" y=\"148\" font-size=\"9\" font-weight=\"normal\" text-anchor=\"middle\" fill=\"currentColor\">-5</text><text x=\"128\" y=\"247\" font-size=\"9\" font-weight=\"normal\" text-anchor=\"end\" fill=\"currentColor\">-5</text><text x=\"46\" y=\"148\" font-size=\"9\" font-weight=\"normal\" text-anchor=\"middle\" fill=\"currentColor\">-4</text><text x=\"128\" y=\"225\" font-size=\"9\" font-weight=\"normal\" text-anchor=\"end\" fill=\"currentColor\">-4</text><text x=\"68\" y=\"148\" font-size=\"9\" font-weight=\"normal\" text-anchor=\"middle\" fill=\"currentColor\">-3</text><text x=\"128\" y=\"203\" font-size=\"9\" font-weight=\"normal\" text-anchor=\"end\" fill=\"currentColor\">-3</text><text x=\"90\" y=\"148\" font-size=\"9\" font-weight=\"normal\" text-anchor=\"middle\" fill=\"currentColor\">-2</text><text x=\"128\" y=\"181\" font-size=\"9\" font-weight=\"normal\" text-anchor=\"end\" fill=\"currentColor\">-2</text><text x=\"112\" y=\"148\" font-size=\"9\" font-weight=\"normal\" text-anchor=\"middle\" fill=\"currentColor\">-1</text><text x=\"128\" y=\"159\" font-size=\"9\" font-weight=\"normal\" text-anchor=\"end\" fill=\"currentColor\">-1</text><text x=\"156\" y=\"148\" font-size=\"9\" font-weight=\"normal\" text-anchor=\"middle\" fill=\"currentColor\">1</text><text x=\"128\" y=\"115\" font-size=\"9\" font-weight=\"normal\" text-anchor=\"end\" fill=\"currentColor\">1</text><text x=\"178\" y=\"148\" font-size=\"9\" font-weight=\"normal\" text-anchor=\"middle\" fill=\"currentColor\">2</text><text x=\"128\" y=\"93\" font-size=\"9\" font-weight=\"normal\" text-anchor=\"end\" fill=\"currentColor\">2</text><text x=\"200\" y=\"148\" font-size=\"9\" font-weight=\"normal\" text-anchor=\"middle\" fill=\"currentColor\">3</text><text x=\"128\" y=\"71\" font-size=\"9\" font-weight=\"normal\" text-anchor=\"end\" fill=\"currentColor\">3</text><text x=\"222\" y=\"148\" font-size=\"9\" font-weight=\"normal\" text-anchor=\"middle\" fill=\"currentColor\">4</text><text x=\"128\" y=\"49\" font-size=\"9\" font-weight=\"normal\" text-anchor=\"end\" fill=\"currentColor\">4</text><text x=\"244\" y=\"148\" font-size=\"9\" font-weight=\"normal\" text-anchor=\"middle\" fill=\"currentColor\">5</text><text x=\"128\" y=\"27\" font-size=\"9\" font-weight=\"normal\" text-anchor=\"end\" fill=\"currentColor\">5</text><text x=\"256\" y=\"138\" font-size=\"12\" font-weight=\"normal\" text-anchor=\"middle\" fill=\"currentColor\">x</text><text x=\"134\" y=\"16\" font-size=\"12\" font-weight=\"normal\" text-anchor=\"middle\" fill=\"currentColor\">y</text><circle cx=\"68\" cy=\"46\" r=\"4.5\" fill=\"currentColor\"/><text x=\"78\" y=\"39\" font-size=\"14\" font-weight=\"700\" text-anchor=\"start\" fill=\"currentColor\">A</text><circle cx=\"178\" cy=\"178\" r=\"4.5\" fill=\"currentColor\"/><text x=\"188\" y=\"171\" font-size=\"14\" font-weight=\"700\" text-anchor=\"start\" fill=\"currentColor\">B</text></svg>",
+  "gid": null,
+  "ma_idx": null
+ },
+ {
+  "n": 11,
+  "tier": "Hard",
+  "topic": "Order of Operations and Equivalence",
+  "q": "What is the value of 4 &times; 6 &minus; 2 + 3 &times; 5?",
+  "choices": {
+   "A": "7",
+   "B": "31",
+   "C": "37",
+   "D": "125"
+  },
+  "correct": "C",
+  "key": "<b>Answer: C.</b> Multiply first: 4 &times; 6 = 24 and 3 &times; 5 = 15. Then left to right: 24 &minus; 2 + 15 = 37. B does 6 &minus; 2 first, as if there were parentheses. A subtracts the whole 2 + 15. D works left to right with no multiplying first.",
+  "ref": "Tier: Hard &middot; Topic: Order of Operations and Equivalence &middot; Wrong so far: 2/12 &middot; New problem &middot; Built on: Parent's 11/11 observation (2 &times; 5 &minus; 3 + 6 &times; 3); real order-of-operations items Lower 2 MA #11, Lower 3 MA #29",
+  "diagram": null,
+  "gid": null,
+  "ma_idx": null
+ },
+ {
+  "n": 12,
+  "tier": "Hard",
+  "topic": "Data Collection & Random Sampling",
+  "q": "Maya recorded information about the books in her class library. She listed the information in categories or groups.<div style=\"margin-top:6px\">1. Type of book: mystery, science, poetry</div><div>2. Language each book is written in</div><div>3. ?</div><div style=\"margin-top:6px\">Which information best completes Maya&rsquo;s list?</div>",
+  "choices": {
+   "A": "the number of pages in each book",
+   "B": "how many times each book was borrowed",
+   "C": "the price of each book",
+   "D": "the color of each book&rsquo;s cover"
+  },
+  "correct": "D",
+  "key": "<b>Answer: D.</b> Type and language are categories (words, not numbers). Only the color of the cover is a category. A, B, and C are all numbers you count or measure. Find the one choice unlike the other three.",
+  "ref": "Tier: Hard &middot; Topic: Data Collection & Random Sampling &middot; Wrong so far: 2/4 &middot; New problem &middot; Built on: Lower 6 QR #38 (her miss, last third, 18.4% right) and Lower 5 MA #30",
+  "diagram": null,
+  "gid": null,
+  "ma_idx": null
+ },
+ {
+  "n": 13,
+  "tier": "Hard",
+  "topic": "Counting Multiples within a Range",
+  "q": "How many numbers between 27 and 78 are multiples of 7?",
+  "choices": {
+   "A": "5",
+   "B": "6",
+   "C": "7",
+   "D": "8"
+  },
+  "correct": "D",
+  "key": "<b>Answer: D.</b> The first multiple of 7 after 27 is 28 = 7 &times; 4. The last one before 78 is 77 = 7 &times; 11. Count 4 through 11: 11 &minus; 4 + 1 = 8. C is her shortcut (78 &minus; 27) &divide; 7 = 7 R2, which misses one.",
+  "ref": "Tier: Hard &middot; Topic: Counting Multiples within a Range &middot; Wrong so far: 3/10 &middot; New problem &middot; Built on: Lower 5 MA #29 (her miss, last third); QR9 #36, QR6 #28",
+  "diagram": null,
+  "gid": null,
+  "ma_idx": null
+ },
+ {
+  "n": 14,
+  "tier": "Hard",
+  "topic": "Percent Word Problems",
+  "q": "A store owner offered a 20% discount off the regular price of a lamp. The amount of the discount was $9. What is the regular price of the lamp?",
+  "choices": {
+   "A": "$18",
+   "B": "$36",
+   "C": "$45",
+   "D": "$54"
+  },
+  "correct": "C",
+  "key": "<b>Answer: C.</b> $9 is 20% of the regular price. 20% is one fifth, so the price is 9 &times; 5 = $45 (or 9 &divide; 0.2). A is 9 &times; 2. B is the sale price, 45 &minus; 9. D adds 9 to 45.",
+  "ref": "Tier: Hard &middot; Topic: Percent Word Problems &middot; Wrong so far: 12/34 &middot; New problem &middot; Built on: Lower 6 MA #28 (her miss, last third); official exercise gid 709 (30% took 1 hour)",
+  "diagram": null,
+  "gid": null,
+  "ma_idx": null
+ },
+ {
+  "n": 15,
+  "tier": "Hard",
+  "topic": "Percent Word Problems",
+  "q": "The price of a bike was increased by 20%. The amount of the increase was $16. What was the price of the bike before the increase?",
+  "choices": {
+   "A": "$64",
+   "B": "$80",
+   "C": "$96",
+   "D": "$112"
+  },
+  "correct": "B",
+  "key": "<b>Answer: B.</b> The $16 increase is 20% of the price before the increase. 20% is one fifth, so the price was 16 &times; 5 = $80. C is the new price, 80 + 16. A takes the 16 away. D adds 16 to the new price again.",
+  "ref": "Tier: Hard &middot; Topic: Percent Word Problems &middot; Wrong so far: 12/34 &middot; New problem &middot; Built on: Lower 6 MA #28 with increase wording (parent 11/11)",
+  "diagram": null,
+  "gid": null,
+  "ma_idx": null
+ },
+ {
+  "n": 16,
+  "tier": "Hard",
+  "topic": "Estimating Multiplication & Division",
+  "q": "Maria did the problem 70 &divide; 9 &times; 124. Approximately what was her answer?",
+  "choices": {
+   "A": "less than 1",
+   "B": "between 600 and 900",
+   "C": "between 900 and 1,200",
+   "D": "between 1,200 and 1,500"
+  },
+  "correct": "C",
+  "key": "<b>Answer: C.</b> Work left to right: 70 &divide; 9 first. 72 &divide; 9 = 8, so 70 &divide; 9 is a little less than 8 (about 7.8). 7.8 &times; 124 is about 964: between 900 and 1,200. A comes from doing 9 &times; 124 first, as if the problem were 70 &divide; (9 &times; 124). B comes from rounding too much: 70 &divide; 10 &times; 120 = 840.",
+  "ref": "Tier: Hard &middot; Topic: Estimating Multiplication & Division &middot; Wrong so far: 3/18 &middot; New problem &middot; Built on: Lower 6 QR #36 (her miss, last third); parent 11/11: she adds parentheses that are not there",
+  "diagram": null,
+  "gid": null,
+  "ma_idx": null
+ },
+ {
+  "n": 17,
+  "tier": "Hard",
+  "topic": "Converting to a Decimal",
+  "q": "Three bottles hold <span class=\"frac\"><span class=\"n\">5</span><span class=\"d\">8</span></span> liter, 0.6 liter, and <span class=\"frac\"><span class=\"n\">7</span><span class=\"d\">10</span></span> liter of water. How much more water does the bottle with the most hold than the bottle with the least?",
+  "choices": {
+   "A": "0.075 liter",
+   "B": "0.1 liter",
+   "C": "0.375 liter",
+   "D": "0.4 liter"
+  },
+  "correct": "B",
+  "key": "<b>Answer: B.</b> 5/8 = 0.625 and 7/10 = 0.7. In order: 0.6, 0.625, 0.7. Most minus least: 0.7 &minus; 0.6 = 0.1. A is 0.7 &minus; 0.625. C is 1 &minus; 5/8. D is 1 &minus; 0.6.",
+  "ref": "Tier: Hard &middot; Topic: Converting to a Decimal &middot; Wrong so far: 9/38 &middot; New problem &middot; Built on: Lower 1 QR #29 (her miss, last third) and QR10 #14",
+  "diagram": null,
+  "gid": null,
+  "ma_idx": null
+ },
+ {
+  "n": 18,
+  "tier": "Hard",
+  "topic": "Nth Term, given Arithmetic Sequence, Progressive Pattern, etc.",
+  "q": "Use the number pattern to answer the question.<div style=\"margin-top:6px\">2, &nbsp;8, &nbsp;32, &nbsp;128, &nbsp;?, &nbsp;?</div><div style=\"margin-top:6px\">What is the sixth number in the pattern?</div>",
+  "choices": {
+   "A": "256",
+   "B": "512",
+   "C": "2,048",
+   "D": "8,192"
+  },
+  "correct": "C",
+  "key": "<b>Answer: C.</b> Each number is 4 times the one before: 128 &times; 4 = 512 (5th), 512 &times; 4 = 2,048 (6th). A doubles 128. B stops at the 5th. D goes one too far.",
+  "ref": "Tier: Hard &middot; Topic: Nth Term, given Arithmetic Sequence, Progressive Pattern, etc. &middot; Wrong so far: 5/13 &middot; New problem &middot; Built on: Lower 3 MA #21 (her miss, last third)",
+  "diagram": null,
+  "gid": null,
+  "ma_idx": null
+ },
+ {
+  "n": 19,
+  "tier": "Hard",
+  "topic": "Nth Term, given Arithmetic Sequence, Progressive Pattern, etc.",
+  "q": "In a sequence, each number is 7 more than the number before it. The 5th number in the sequence is 38. What is the 20th number in the sequence?",
+  "choices": {
+   "A": "136",
+   "B": "143",
+   "C": "150",
+   "D": "157"
+  },
+  "correct": "B",
+  "key": "<b>Answer: B.</b> From the 5th number to the 20th number is 20 &minus; 5 = 15 steps. 15 &times; 7 = 105, and 38 + 105 = 143. A takes 14 steps and C takes 16 steps (off by one). D takes 17.",
+  "ref": "Tier: Hard &middot; Topic: Nth Term, given Arithmetic Sequence, Progressive Pattern, etc. &middot; Wrong so far: 5/13 &middot; New problem &middot; Built on: QR9 #26 and MA4 #18 (her misses, last third); Lower 3 MA #21",
+  "diagram": null,
+  "gid": null,
+  "ma_idx": null
+ },
+ {
+  "n": 20,
+  "tier": "Hard",
+  "topic": "Cryptarithm / digit substitution",
+  "q": "Each shape shown represents a different digit from 1 through 9. What is the value of ○?",
+  "choices": {
+   "A": "3",
+   "B": "5",
+   "C": "7",
+   "D": "8"
+  },
+  "correct": "A",
+  "key": "<b>Answer: A.</b> Start with the hundreds: nothing is subtracted there, but 1 was borrowed, so △ &minus; 1 = 7 and △ = 8. Ones: ○ &minus; 8 needs a borrow, so ○ + 10 &minus; 8 = 5 and ○ = 3. Check the tens: 3 &minus; 1 = 2, borrow again, 12 &minus; 8 = 4. So 833 &minus; 88 = 745. D is △, not ○.",
+  "ref": "Tier: Hard &middot; Topic: Cryptarithm / digit substitution &middot; Wrong so far: 6/10 &middot; New problem &middot; Built on: Lower 3 QR #38 (last third, 40% right); QR3/6/8 misses",
+  "diagram": "<table style=\"margin:0 auto;border-collapse:collapse;font-size:1.25em;\"><tr><td style=\"width:1.6em;text-align:center;padding:3px 0;\"></td><td style=\"width:1.6em;text-align:center;padding:3px 0;\">△</td><td style=\"width:1.6em;text-align:center;padding:3px 0;\">○</td><td style=\"width:1.6em;text-align:center;padding:3px 0;\">○</td></tr><tr><td style=\"width:1.6em;text-align:center;padding:3px 0;\">&minus;</td><td style=\"width:1.6em;text-align:center;padding:3px 0;\"></td><td style=\"width:1.6em;text-align:center;padding:3px 0;\">△</td><td style=\"width:1.6em;text-align:center;padding:3px 0;\">△</td></tr><tr><td style=\"width:1.6em;text-align:center;padding:3px 0;border-top:1.5px solid currentColor;padding-top:6px;\"></td><td style=\"width:1.6em;text-align:center;padding:3px 0;border-top:1.5px solid currentColor;padding-top:6px;\">7</td><td style=\"width:1.6em;text-align:center;padding:3px 0;border-top:1.5px solid currentColor;padding-top:6px;\">4</td><td style=\"width:1.6em;text-align:center;padding:3px 0;border-top:1.5px solid currentColor;padding-top:6px;\">5</td></tr></table>",
+  "gid": null,
+  "ma_idx": null
+ },
+ {
+  "n": 21,
+  "tier": "Hard",
+  "topic": "Value of Digits",
+  "q": "Students were asked to write a new number using all the rules shown and the digits 2, 5, 6, 7, and 9. What digit is in the tens place of the new number?",
+  "choices": {
+   "A": "2",
+   "B": "5",
+   "C": "6",
+   "D": "7"
+  },
+  "correct": "A",
+  "key": "<b>Answer: A.</b> To be odd, the number must end in 5, 7, or 9. To be as large as possible, put the big digits first and end with the smallest odd digit, 5: 97625. The tens digit is 2. B ignores the \"odd\" rule (97652).",
+  "ref": "Tier: Hard &middot; Topic: Value of Digits &middot; Wrong so far: 1/7 &middot; New problem &middot; Built on: Lower 3 QR #31 (her miss, last third, 61.6% right); QR9 #24",
+  "diagram": "<div style=\"border:1.5px solid currentColor;border-radius:6px;padding:8px 12px;max-width:340px\"><div style=\"font-weight:700;margin-bottom:4px\">RULES FOR THE NEW NUMBER</div><div>1. The number must have 5 digits.</div><div>2. The number must be odd.</div><div>3. The number must be the largest number possible.</div><div>4. Each digit can be used only once.</div></div>",
+  "gid": null,
+  "ma_idx": null
+ },
+ {
+  "n": 22,
+  "tier": "Hard",
+  "topic": "Identifying Number Properties",
+  "q": "Which expression is equivalent to 9 &times; (40 &minus; 3)?",
+  "choices": {
+   "A": "(9 &times; 40) &minus; 3",
+   "B": "(9 &minus; 3) &times; 40",
+   "C": "(9 &times; 40) &minus; (9 &times; 3)",
+   "D": "(9 &times; 40) + (9 &times; 3)"
+  },
+  "correct": "C",
+  "key": "<b>Answer: C.</b> The 9 multiplies both numbers inside the parentheses: 9 &times; 40 &minus; 9 &times; 3 = 360 &minus; 27 = 333, and 9 &times; 37 = 333. A multiplies only the 40 (the MA4 #8 slip). D changes minus to plus.",
+  "ref": "Tier: Hard &middot; Topic: Identifying Number Properties &middot; Wrong so far: 1/6 &middot; New problem &middot; Built on: Lower 2 MA #26 (her miss, last third); MA4 #8",
+  "diagram": null,
+  "gid": null,
+  "ma_idx": null
+ },
+ {
+  "n": 23,
+  "tier": "Hard",
+  "topic": "Classification of Numbers, given a Set",
+  "q": "Two numbers are greater than 1. One is an even number and the other is a prime number. What will always describe the product of the two numbers?",
+  "choices": {
+   "A": "an even number",
+   "B": "an odd number",
+   "C": "a prime number",
+   "D": "a multiple of 4"
+  },
+  "correct": "A",
+  "key": "<b>Answer: A.</b> An even number times any whole number is even, so the product is always even. Try 4 &times; 3 = 12 and 2 &times; 5 = 10. B fails because of the even number. C fails: 12 is not prime. D fails: 2 &times; 3 = 6 is not a multiple of 4.",
+  "ref": "Tier: Hard &middot; Topic: Classification of Numbers, given a Set &middot; Wrong so far: 1/11 &middot; New problem &middot; Built on: Lower 2 MA #29 (her miss, last third, 34.4% right)",
+  "diagram": null,
+  "gid": null,
+  "ma_idx": null
+ },
+ {
+  "n": 24,
+  "tier": "Hard",
+  "topic": "No Remainder when Divided by a given Number",
+  "q": "Which number is divisible by 8?",
+  "choices": {
+   "A": "324",
+   "B": "412",
+   "C": "548",
+   "D": "632"
+  },
+  "correct": "D",
+  "key": "<b>Answer: D.</b> 632 &divide; 8 = 79 with no remainder. The others can be divided by 4 but not by 8: 324 &divide; 8 = 40 R4, 412 &divide; 8 = 51 R4, 548 &divide; 8 = 68 R4. Checking only \"divisible by 4\" is not enough.",
+  "ref": "Tier: Hard &middot; Topic: No Remainder when Divided by a given Number &middot; Wrong so far: 6/17 &middot; New problem &middot; Built on: Lower 2 MA #24 (her miss, last third, 73.3% right)",
+  "diagram": null,
+  "gid": null,
+  "ma_idx": null
+ },
+ {
+  "n": 25,
+  "tier": "Hard",
+  "topic": "Comparing Areas",
+  "q": "The length and width of the array shown represent two factors of 18. Which array represents two <u>different</u> factors of 18?<div style=\"margin-top:8px\"><svg viewBox=\"0 0 130 32\" width=\"130\" height=\"32\" role=\"img\"><rect x=\"2\" y=\"2\" width=\"14\" height=\"14\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.2\"/><rect x=\"16\" y=\"2\" width=\"14\" height=\"14\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.2\"/><rect x=\"30\" y=\"2\" width=\"14\" height=\"14\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.2\"/><rect x=\"44\" y=\"2\" width=\"14\" height=\"14\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.2\"/><rect x=\"58\" y=\"2\" width=\"14\" height=\"14\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.2\"/><rect x=\"72\" y=\"2\" width=\"14\" height=\"14\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.2\"/><rect x=\"86\" y=\"2\" width=\"14\" height=\"14\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.2\"/><rect x=\"100\" y=\"2\" width=\"14\" height=\"14\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.2\"/><rect x=\"114\" y=\"2\" width=\"14\" height=\"14\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.2\"/><rect x=\"2\" y=\"16\" width=\"14\" height=\"14\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.2\"/><rect x=\"16\" y=\"16\" width=\"14\" height=\"14\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.2\"/><rect x=\"30\" y=\"16\" width=\"14\" height=\"14\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.2\"/><rect x=\"44\" y=\"16\" width=\"14\" height=\"14\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.2\"/><rect x=\"58\" y=\"16\" width=\"14\" height=\"14\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.2\"/><rect x=\"72\" y=\"16\" width=\"14\" height=\"14\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.2\"/><rect x=\"86\" y=\"16\" width=\"14\" height=\"14\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.2\"/><rect x=\"100\" y=\"16\" width=\"14\" height=\"14\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.2\"/><rect x=\"114\" y=\"16\" width=\"14\" height=\"14\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.2\"/></svg></div>",
+  "choices": {
+   "A": "<svg viewBox=\"0 0 88 46\" width=\"88\" height=\"46\" role=\"img\"><rect x=\"2\" y=\"2\" width=\"14\" height=\"14\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.2\"/><rect x=\"16\" y=\"2\" width=\"14\" height=\"14\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.2\"/><rect x=\"30\" y=\"2\" width=\"14\" height=\"14\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.2\"/><rect x=\"44\" y=\"2\" width=\"14\" height=\"14\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.2\"/><rect x=\"58\" y=\"2\" width=\"14\" height=\"14\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.2\"/><rect x=\"72\" y=\"2\" width=\"14\" height=\"14\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.2\"/><rect x=\"2\" y=\"16\" width=\"14\" height=\"14\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.2\"/><rect x=\"16\" y=\"16\" width=\"14\" height=\"14\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.2\"/><rect x=\"30\" y=\"16\" width=\"14\" height=\"14\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.2\"/><rect x=\"44\" y=\"16\" width=\"14\" height=\"14\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.2\"/><rect x=\"58\" y=\"16\" width=\"14\" height=\"14\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.2\"/><rect x=\"72\" y=\"16\" width=\"14\" height=\"14\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.2\"/><rect x=\"2\" y=\"30\" width=\"14\" height=\"14\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.2\"/><rect x=\"16\" y=\"30\" width=\"14\" height=\"14\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.2\"/><rect x=\"30\" y=\"30\" width=\"14\" height=\"14\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.2\"/><rect x=\"44\" y=\"30\" width=\"14\" height=\"14\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.2\"/><rect x=\"58\" y=\"30\" width=\"14\" height=\"14\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.2\"/><rect x=\"72\" y=\"30\" width=\"14\" height=\"14\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.2\"/></svg>",
+   "B": "<svg viewBox=\"0 0 32 130\" width=\"32\" height=\"130\" role=\"img\"><rect x=\"2\" y=\"2\" width=\"14\" height=\"14\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.2\"/><rect x=\"16\" y=\"2\" width=\"14\" height=\"14\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.2\"/><rect x=\"2\" y=\"16\" width=\"14\" height=\"14\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.2\"/><rect x=\"16\" y=\"16\" width=\"14\" height=\"14\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.2\"/><rect x=\"2\" y=\"30\" width=\"14\" height=\"14\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.2\"/><rect x=\"16\" y=\"30\" width=\"14\" height=\"14\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.2\"/><rect x=\"2\" y=\"44\" width=\"14\" height=\"14\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.2\"/><rect x=\"16\" y=\"44\" width=\"14\" height=\"14\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.2\"/><rect x=\"2\" y=\"58\" width=\"14\" height=\"14\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.2\"/><rect x=\"16\" y=\"58\" width=\"14\" height=\"14\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.2\"/><rect x=\"2\" y=\"72\" width=\"14\" height=\"14\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.2\"/><rect x=\"16\" y=\"72\" width=\"14\" height=\"14\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.2\"/><rect x=\"2\" y=\"86\" width=\"14\" height=\"14\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.2\"/><rect x=\"16\" y=\"86\" width=\"14\" height=\"14\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.2\"/><rect x=\"2\" y=\"100\" width=\"14\" height=\"14\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.2\"/><rect x=\"16\" y=\"100\" width=\"14\" height=\"14\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.2\"/><rect x=\"2\" y=\"114\" width=\"14\" height=\"14\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.2\"/><rect x=\"16\" y=\"114\" width=\"14\" height=\"14\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.2\"/></svg>",
+   "C": "<svg viewBox=\"0 0 74 60\" width=\"74\" height=\"60\" role=\"img\"><rect x=\"2\" y=\"2\" width=\"14\" height=\"14\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.2\"/><rect x=\"16\" y=\"2\" width=\"14\" height=\"14\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.2\"/><rect x=\"30\" y=\"2\" width=\"14\" height=\"14\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.2\"/><rect x=\"44\" y=\"2\" width=\"14\" height=\"14\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.2\"/><rect x=\"58\" y=\"2\" width=\"14\" height=\"14\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.2\"/><rect x=\"2\" y=\"16\" width=\"14\" height=\"14\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.2\"/><rect x=\"16\" y=\"16\" width=\"14\" height=\"14\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.2\"/><rect x=\"30\" y=\"16\" width=\"14\" height=\"14\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.2\"/><rect x=\"44\" y=\"16\" width=\"14\" height=\"14\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.2\"/><rect x=\"58\" y=\"16\" width=\"14\" height=\"14\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.2\"/><rect x=\"2\" y=\"30\" width=\"14\" height=\"14\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.2\"/><rect x=\"16\" y=\"30\" width=\"14\" height=\"14\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.2\"/><rect x=\"30\" y=\"30\" width=\"14\" height=\"14\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.2\"/><rect x=\"44\" y=\"30\" width=\"14\" height=\"14\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.2\"/><rect x=\"58\" y=\"30\" width=\"14\" height=\"14\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.2\"/><rect x=\"2\" y=\"44\" width=\"14\" height=\"14\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.2\"/><rect x=\"16\" y=\"44\" width=\"14\" height=\"14\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.2\"/><rect x=\"30\" y=\"44\" width=\"14\" height=\"14\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.2\"/><rect x=\"44\" y=\"44\" width=\"14\" height=\"14\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.2\"/><rect x=\"58\" y=\"44\" width=\"14\" height=\"14\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.2\"/></svg>",
+   "D": "<svg viewBox=\"0 0 74 46\" width=\"74\" height=\"46\" role=\"img\"><rect x=\"2\" y=\"2\" width=\"14\" height=\"14\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.2\"/><rect x=\"16\" y=\"2\" width=\"14\" height=\"14\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.2\"/><rect x=\"30\" y=\"2\" width=\"14\" height=\"14\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.2\"/><rect x=\"44\" y=\"2\" width=\"14\" height=\"14\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.2\"/><rect x=\"58\" y=\"2\" width=\"14\" height=\"14\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.2\"/><rect x=\"2\" y=\"16\" width=\"14\" height=\"14\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.2\"/><rect x=\"16\" y=\"16\" width=\"14\" height=\"14\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.2\"/><rect x=\"30\" y=\"16\" width=\"14\" height=\"14\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.2\"/><rect x=\"44\" y=\"16\" width=\"14\" height=\"14\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.2\"/><rect x=\"58\" y=\"16\" width=\"14\" height=\"14\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.2\"/><rect x=\"2\" y=\"30\" width=\"14\" height=\"14\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.2\"/><rect x=\"16\" y=\"30\" width=\"14\" height=\"14\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.2\"/><rect x=\"30\" y=\"30\" width=\"14\" height=\"14\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.2\"/><rect x=\"44\" y=\"30\" width=\"14\" height=\"14\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.2\"/><rect x=\"58\" y=\"30\" width=\"14\" height=\"14\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.2\"/></svg>"
+  },
+  "correct": "A",
+  "key": "<b>Answer: A.</b> The array shown is 2 by 9 (2 &times; 9 = 18). A is 3 by 6, and 3 &times; 6 = 18 with different factors. B is 9 by 2, the same factors turned. C is 4 &times; 5 = 20. D is 3 &times; 5 = 15.",
+  "ref": "Tier: Hard &middot; Topic: Comparing Areas &middot; Wrong so far: 2/4 &middot; New problem &middot; Built on: Lower 2 QR #29 (her miss, last third, 65.1% right)",
+  "diagram": null,
+  "gid": null,
+  "ma_idx": null
+ },
+ {
+  "n": 26,
+  "tier": "Hard",
+  "topic": "Remaining Amount after Reducing by Fractions",
+  "q": "Ravi had 9 marbles and 12 stickers. He gave away <span class=\"frac\"><span class=\"n\">2</span><span class=\"d\">3</span></span> of his marbles and <span class=\"frac\"><span class=\"n\">3</span><span class=\"d\">4</span></span> of his stickers. How many marbles and stickers does he have left?",
+  "choices": {
+   "A": "6",
+   "B": "9",
+   "C": "12",
+   "D": "15"
+  },
+  "correct": "A",
+  "key": "<b>Answer: A.</b> Marbles: 2/3 of 9 is 6, so 3 are left. Stickers: 3/4 of 12 is 9, so 3 are left. 3 + 3 = 6. D is what he gave away (6 + 9), the MA4 #24 slip.",
+  "ref": "Tier: Hard &middot; Topic: Remaining Amount after Reducing by Fractions &middot; Wrong so far: 5/11 &middot; New problem &middot; Built on: Lower 1 MA #25 (her miss, last third); MA4 #24",
+  "diagram": null,
+  "gid": null,
+  "ma_idx": null
+ },
+ {
+  "n": 27,
+  "tier": "Hard",
+  "topic": "Finding Area/Perimeter of Rectangle, given Length & Width",
+  "q": "The perimeter of a square is 36 centimeters. A rectangle with a width of 3 centimeters has the same area as the square. What is the perimeter of the rectangle in centimeters?",
+  "choices": {
+   "A": "27",
+   "B": "36",
+   "C": "54",
+   "D": "60"
+  },
+  "correct": "D",
+  "key": "<b>Answer: D.</b> Square side: 36 &divide; 4 = 9, so its area is 81. Rectangle length: 81 &divide; 3 = 27. Perimeter: 27 + 3 + 27 + 3 = 60. A stops at the length. B assumes the same perimeter. C adds only the two lengths.",
+  "ref": "Tier: Hard &middot; Topic: Finding Area/Perimeter of Rectangle, given Length & Width &middot; Wrong so far: 3/14 &middot; New problem &middot; Built on: Lower 1 MA #30 (her miss, last third, 35.9% right); QR9 #35",
+  "diagram": null,
+  "gid": null,
+  "ma_idx": null
+ },
+ {
+  "n": 28,
+  "tier": "Hard",
+  "topic": "Area of Triangles",
+  "q": "The base of a triangle is 12 centimeters (cm). Which statement correctly compares the value of A to the height of the triangle? (A = <span class=\"frac\"><span class=\"n\">1</span><span class=\"d\">2</span></span> &times; base &times; height)",
+  "choices": {
+   "A": "The value of A is always <span class=\"frac\"><span class=\"n\">1</span><span class=\"d\">2</span></span> the value of the height.",
+   "B": "The value of A is always 12 times the value of the height.",
+   "C": "The value of A can be the same as the value of the height.",
+   "D": "The value of A is always 6 times the value of the height."
+  },
+  "correct": "D",
+  "key": "<b>Answer: D.</b> Put the base into the formula: A = 1/2 &times; 12 &times; height = 6 &times; height. Check: height 2 gives A = 12, which is 6 times 2. A uses only the 1/2. B uses only the 12.",
+  "ref": "Tier: Hard &middot; Topic: Area of Triangles &middot; Wrong so far: 3/17 &middot; New problem &middot; Built on: Lower 2 MA #30 (her miss, last third, 32.1% right); MA4 #17",
+  "diagram": null,
+  "gid": null,
+  "ma_idx": null
+ },
+ {
+  "n": 29,
+  "tier": "Hard",
+  "topic": "Interpreting Pictographs",
+  "q": "The scales shown are balanced. Which set of figures would also make a balanced scale?<div style=\"margin-top:8px\"><svg viewBox=\"0 0 300 108\" width=\"300\" height=\"108\" role=\"img\"><text x=\"150\" y=\"14\" font-size=\"12\" font-weight=\"600\" text-anchor=\"middle\" fill=\"currentColor\">Scale 1</text><polygon points=\"150,62 136,100 164,100\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\"/><line x1=\"30\" y1=\"62\" x2=\"270\" y2=\"62\" stroke=\"currentColor\" stroke-width=\"1.6\"/><line x1=\"20\" y1=\"56\" x2=\"120\" y2=\"56\" stroke=\"currentColor\" stroke-width=\"1.6\"/><line x1=\"180\" y1=\"56\" x2=\"280\" y2=\"56\" stroke=\"currentColor\" stroke-width=\"1.6\"/><line x1=\"70\" y1=\"56\" x2=\"70\" y2=\"62\" stroke=\"currentColor\" stroke-width=\"1.6\"/><line x1=\"230\" y1=\"56\" x2=\"230\" y2=\"62\" stroke=\"currentColor\" stroke-width=\"1.6\"/><polygon points=\"48,36.0 40.0,52.0 56.0,52.0\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\"/><polygon points=\"70,36.0 62.0,52.0 78.0,52.0\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\"/><rect x=\"84.0\" y=\"36.0\" width=\"16\" height=\"16\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\"/><rect x=\"211.0\" y=\"36.0\" width=\"16\" height=\"16\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\"/><circle cx=\"241\" cy=\"44\" r=\"8.0\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\"/></svg><svg viewBox=\"0 0 300 108\" width=\"300\" height=\"108\" role=\"img\"><text x=\"150\" y=\"14\" font-size=\"12\" font-weight=\"600\" text-anchor=\"middle\" fill=\"currentColor\">Scale 2</text><polygon points=\"150,62 136,100 164,100\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\"/><line x1=\"30\" y1=\"62\" x2=\"270\" y2=\"62\" stroke=\"currentColor\" stroke-width=\"1.6\"/><line x1=\"20\" y1=\"56\" x2=\"120\" y2=\"56\" stroke=\"currentColor\" stroke-width=\"1.6\"/><line x1=\"180\" y1=\"56\" x2=\"280\" y2=\"56\" stroke=\"currentColor\" stroke-width=\"1.6\"/><line x1=\"70\" y1=\"56\" x2=\"70\" y2=\"62\" stroke=\"currentColor\" stroke-width=\"1.6\"/><line x1=\"230\" y1=\"56\" x2=\"230\" y2=\"62\" stroke=\"currentColor\" stroke-width=\"1.6\"/><circle cx=\"59\" cy=\"44\" r=\"8.0\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\"/><polygon points=\"81,36.0 73.0,52.0 89.0,52.0\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\"/><rect x=\"200.0\" y=\"36.0\" width=\"16\" height=\"16\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\"/><rect x=\"222.0\" y=\"36.0\" width=\"16\" height=\"16\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\"/><rect x=\"244.0\" y=\"36.0\" width=\"16\" height=\"16\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\"/></svg></div>",
+  "choices": {
+   "A": "△ balances □",
+   "B": "○ balances △",
+   "C": "○ balances □ □ □",
+   "D": "□ □ balances △"
+  },
+  "correct": "A",
+  "key": "<b>Answer: A.</b> Scale 1: take one □ off both sides, so △ △ balances ○. Scale 2: put △ △ in place of ○, so △ △ △ balances □ □ □, and one △ balances one □. B is false (○ is two △). C is false (○ is two □). D is false (□ □ is two △).",
+  "ref": "Tier: Hard &middot; Topic: Interpreting Pictographs &middot; Wrong so far: 1/12 &middot; New problem &middot; Built on: Lower 5 QR #34 (her miss, last third, 63.1% right; retake: \"not solid on scale exchange\")",
+  "diagram": null,
+  "gid": null,
+  "ma_idx": null
+ },
+ {
+  "n": 30,
+  "tier": "Hard",
+  "topic": "3D shape from its net (unfolding a solid)",
+  "q": "The net shown is folded to make a cube. Which symbol will be on the face opposite the face with the ★?",
+  "choices": {
+   "A": "▲",
+   "B": "♥",
+   "C": "●",
+   "D": "◆"
+  },
+  "correct": "D",
+  "key": "<b>Answer: D.</b> When the net folds, the ★ square folds over the top of the row of four squares and the ◆ square folds under it, so they end up on opposite faces. ▲, ●, and ♥ are all on the row of four, which goes around the sides, so each of them touches the ★ face. A is right under the ★ on the net, but it folds to be next to it, not across from it.",
+  "ref": "Tier: Hard &middot; Topic: 3D shape from its net (unfolding a solid) &middot; Wrong so far: 1/7 &middot; New problem &middot; Built on: Lower 3 QR #32 (last third, 60.5% right); her MA3 #27 miss",
+  "diagram": "<svg viewBox=\"0 0 192 146\" width=\"192\" height=\"146\" role=\"img\"><rect x=\"50\" y=\"4\" width=\"46\" height=\"46\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\"/><text x=\"73.0\" y=\"35.0\" font-size=\"22\" font-weight=\"normal\" text-anchor=\"middle\" fill=\"currentColor\">★</text><rect x=\"4\" y=\"50\" width=\"46\" height=\"46\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\"/><text x=\"27.0\" y=\"81.0\" font-size=\"22\" font-weight=\"normal\" text-anchor=\"middle\" fill=\"currentColor\">●</text><rect x=\"50\" y=\"50\" width=\"46\" height=\"46\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\"/><text x=\"73.0\" y=\"81.0\" font-size=\"22\" font-weight=\"normal\" text-anchor=\"middle\" fill=\"currentColor\">▲</text><rect x=\"96\" y=\"50\" width=\"46\" height=\"46\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\"/><text x=\"119.0\" y=\"81.0\" font-size=\"22\" font-weight=\"normal\" text-anchor=\"middle\" fill=\"currentColor\">♥</text><rect x=\"142\" y=\"50\" width=\"46\" height=\"46\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\"/><text x=\"165.0\" y=\"81.0\" font-size=\"22\" font-weight=\"normal\" text-anchor=\"middle\" fill=\"currentColor\">■</text><rect x=\"96\" y=\"96\" width=\"46\" height=\"46\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\"/><text x=\"119.0\" y=\"127.0\" font-size=\"22\" font-weight=\"normal\" text-anchor=\"middle\" fill=\"currentColor\">◆</text></svg>",
+  "gid": null,
+  "ma_idx": null
+ }
+]

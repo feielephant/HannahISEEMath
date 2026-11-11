@@ -1448,6 +1448,17 @@
    "avg_seconds": 22.0,
    "priority_before_2026-11-05": "high",
    "parent_read_2026-11-05": "QR9 #7 right by a guess; she does not know how to do it. Parent thinks writing a line equation from a graph may be beyond ISEE Lower. Library check: only in a platform drill (gid 1450 family), never in What to Expect or Lower 1-5. Do not schedule; keep out of QR/MA sets unless it shows up on a real test."
+  },
+  {
+   "topic": "Minimum Distance on Coordinate Plane / Grid",
+   "tier": "Hard",
+   "wrong": 1,
+   "graded": 1,
+   "habits": [
+    "check-every-condition"
+   ],
+   "priority": "high",
+   "added_2026-11-11": "Was missing from the tracker: MA3 #30 (official ISEE exercise gid 1453) was wrong on 10/30 but MA3 grading never reached the tracker."
   }
  ],
  "pacing": {
