@@ -164,17 +164,17 @@
  {
   "n": 10,
   "tier": "Hard",
-  "topic": "Order of Operations and Equivalence",
-  "q": "What is the value of 4 &times; 6 &minus; 2 + 3 &times; 5?",
+  "topic": "Algebra with Geometric Shapes",
+  "q": "<div>□ + □ + △ = 23</div><div>□ + △ + △ = 19</div><div style=\"margin-top:6px\">What is the value of □?</div>",
   "choices": {
-   "A": "7",
-   "B": "31",
-   "C": "37",
-   "D": "125"
+   "A": "4",
+   "B": "5",
+   "C": "9",
+   "D": "14"
   },
   "correct": "C",
-  "key": "<b>Answer: C.</b> Multiply first: 4 &times; 6 = 24 and 3 &times; 5 = 15. Then left to right: 24 &minus; 2 + 15 = 37. B does 6 &minus; 2 first, as if there were parentheses. A subtracts the whole 2 + 15. D works left to right with no multiplying first.",
-  "ref": "Tier: Hard &middot; Topic: Order of Operations and Equivalence &middot; Wrong so far: 2/12 &middot; New problem &middot; Built on: Parent's 11/11 observation (2 &times; 5 &minus; 3 + 6 &times; 3); real order-of-operations items Lower 2 MA #11, Lower 3 MA #29",
+  "key": "<b>Answer: C.</b> Add the two lines: three □ and three △ make 23 + 19 = 42, so one □ and one △ make 42 &divide; 3 = 14. Take that away from the first line: □ + (□ + △) = 23, so □ = 23 &minus; 14 = 9. Check the second line: 9 + 5 + 5 = 19. D stops at □ + △ = 14 (her QR9 #9 slip). B is △. A is □ &minus; △.",
+  "ref": "Tier: Hard &middot; Topic: Algebra with Geometric Shapes &middot; Wrong so far: 3/7 &middot; New problem &middot; Built on: QR10 #27 type (parent pick); MA4 #5 shape; her QR9 #9 miss (stopped at the sum)",
   "diagram": null,
   "gid": null,
   "ma_idx": null

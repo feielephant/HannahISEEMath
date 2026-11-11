@@ -1891,7 +1891,7 @@
     "English Unit Conversions",
     "Evaluating Percents of Numbers",
     "Minimum Distance on Coordinate Plane / Grid",
-    "Order of Operations and Equivalence",
+    "Algebra with Geometric Shapes",
     "Data Collection & Random Sampling",
     "Counting Multiples within a Range",
     "Identifying Correct Conclusions from Bar Graph Data Table",
@@ -1928,7 +1928,7 @@
     "7": "Lower 6 QR #25 (her miss, middle third) and QR10 #11",
     "8": "Official ISEE practice exercise (gid 1108, her MA3 #3 miss)",
     "9": "Official ISEE practice exercise (gid 1453, her MA3 #30 miss)",
-    "10": "Parent's 11/11 observation (2 &times; 5 &minus; 3 + 6 &times; 3); real order-of-operations items Lower 2 MA #11, Lower 3 MA #29",
+    "10": "QR10 #27 type (parent pick); MA4 #5 shape; her QR9 #9 miss (stopped at the sum)",
     "11": "Lower 6 QR #38 (her miss, last third, 18.4% right) and Lower 5 MA #30",
     "12": "Lower 5 MA #29 (her miss, last third); QR9 #36, QR6 #28",
     "13": "Lower 2 QR #37 (her miss, last third, 41.7% right)",
@@ -1962,7 +1962,7 @@
     "7": "PT6 QR #25 | Harder (1 -> 3 steps: yards -> feet -> inches, divide, drop remainder)",
     "8": "Official exercise 1108 | Slightly easier (no rounding to the cent)",
     "9": "Official exercise 1453 | Slightly harder (crosses both axes)",
-    "10": "Parent observation | n/a",
+    "10": "QR10 #27 / MA4 #5 / QR9 #9 | Harder than QR10 #27 (two mixed combos instead of a difference line; sum-only trap)",
     "11": "PT6 QR #38 | Same",
     "12": "PT5 MA #29 | Same",
     "13": "PT2 QR #37 | Same",
@@ -1985,7 +1985,8 @@
     "30": "PT3 QR #32 | Easier (one net, find the opposite face)"
    },
    "change_after_publish_2_2026-11-11": "Parent: #7 rebuilt in the QR10 #11 format (Since-statement choices + irrelevant buttons info); answer stays C.",
-   "change_after_publish_3_2026-11-11": "Parent: original #7 (ribbon pieces) kept; the QR10 #11-format ribbon/buttons problem replaces #23 (divisible by 8, owed to a later set with Venn)."
+   "change_after_publish_3_2026-11-11": "Parent: original #7 (ribbon pieces) kept; the QR10 #11-format ribbon/buttons problem replaces #23 (divisible by 8, owed to a later set with Venn).",
+   "change_after_publish_4_2026-11-11": "Parent unsure about #10 (4 x 6 - 2 + 3 x 5); replaced with the QR10 #27 two-equation symbol type in the harder MA4 #5 shape. The a x b - c + d x e observation stays untested for now."
   }
  ],
  "ma_notes": {

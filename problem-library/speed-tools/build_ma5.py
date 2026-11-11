@@ -209,13 +209,14 @@ add('Minimum Distance on Coordinate Plane / Grid',
     'Official ISEE practice exercise (gid 1453, her MA3 #30 miss)', 'exercise',
     coord_grid({'A': A10, 'B': B10}))
 
-# 11 parent observation 11/11: she sometimes does 2 x 5 - 3 + 6 x 3 as 5 - 3 first
-assert 4*6 - 2 + 3*5 == 37 and 4*(6-2) + 3*5 == 31 and 4*6 - (2 + 3*5) == 7 and ((4*6 - 2) + 3)*5 == 125
-add('Order of Operations and Equivalence',
-    'What is the value of 4 &times; 6 &minus; 2 + 3 &times; 5?',
-    ['7', '31', '37', '125'], 'C',
-    'Multiply first: 4 &times; 6 = 24 and 3 &times; 5 = 15. Then left to right: 24 &minus; 2 + 15 = 37. B does 6 &minus; 2 first, as if there were parentheses. A subtracts the whole 2 + 15. D works left to right with no multiplying first.',
-    "Parent's 11/11 observation (2 &times; 5 &minus; 3 + 6 &times; 3); real order-of-operations items Lower 2 MA #11, Lower 3 MA #29", 'parent')
+# 10 (parent 11/11: replaces the 4 x 6 - 2 + 3 x 5 item) QR10 #27 type, harder MA4 #5 shape; her QR9 #9 miss stopped at the sum
+sol10 = [(q, t) for q in range(1, 30) for t in range(1, 30) if 2*q + t == 23 and q + 2*t == 19]
+assert sol10 == [(9, 5)] and 9 + 5 == 14 and 9 - 5 == 4
+add('Algebra with Geometric Shapes',
+    '<div>□ + □ + △ = 23</div><div>□ + △ + △ = 19</div><div style="margin-top:6px">What is the value of □?</div>',
+    ['4', '5', '9', '14'], 'C',
+    'Add the two lines: three □ and three △ make 23 + 19 = 42, so one □ and one △ make 42 &divide; 3 = 14. Take that away from the first line: □ + (□ + △) = 23, so □ = 23 &minus; 14 = 9. Check the second line: 9 + 5 + 5 = 19. D stops at □ + △ = 14 (her QR9 #9 slip). B is △. A is □ &minus; △.',
+    'QR10 #27 type (parent pick); MA4 #5 shape; her QR9 #9 miss (stopped at the sum)', 'parent')
 
 # ================= positions 12-30: real last-third sources =================
 # 12 PT6 QR #38 (18.4% right, her miss) / Lower 5 MA #30 (18.8%): the list is categories, find the one category
