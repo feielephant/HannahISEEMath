@@ -1950,7 +1950,7 @@
     "29": "Lower 5 QR #34 (her miss, last third, 63.1% right; retake: \"not solid on scale exchange\")",
     "30": "Lower 3 QR #32 (last third, 60.5% right); her MA3 #27 miss"
    },
-   "published_commit": "6501ea40f2c09c3ebeddfbaf97342cb8f4b48435",
+   "published_commit": "a8e7b0097bf807dd32b6213d7a5cce1d0aee8b7f",
    "change_after_publish_2026-11-11": "Before she took it, parent review: cut duplicates (input/2+5 table, 20%-discount whole, x4 pattern); #4 now a SUBTRACTING plain rule (parent: rules are harder for her when outputs are smaller than inputs); cryptarithm replaced by mixed-number hours to minutes (official exercise gid 1005, QR9 #12; parent: enough cryptarithm practice); distributive made harder (500 - 9 x (40 - 3)); added real last-third misses: Lower 2 QR #37 stem-and-leaf, Lower 3 QR #37 story-to-equation with a 'left' step (parent pick E), Lower 5 QR #33 picture frame. Parent confirmed estimation is already covered by the a / b x c item, and asked to verify the cube-net answer (D, checked by folding in code)."
   }
  ],
