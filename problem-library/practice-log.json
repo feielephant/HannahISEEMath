@@ -1925,7 +1925,7 @@
     "4": "Lower 6 MA #13 (her miss, middle third; that rule was &minus; 7, outputs smaller than inputs)",
     "5": "Lower 6 QR #6 (first third) and QR10 #26 (her miss)",
     "6": "Lower 1 QR #22 and Lower 3 QR #20 (her misses, middle third); QR10 #13",
-    "7": "Lower 6 QR #25 (her miss, middle third) and QR10 #11",
+    "7": "Lower 6 QR #25 (her miss, middle third) and QR10 #11 (her miss), same format as QR10 #11",
     "8": "Official ISEE practice exercise (gid 1108, her MA3 #3 miss)",
     "9": "Official ISEE practice exercise (gid 1453, her MA3 #30 miss)",
     "10": "Parent's 11/11 observation (2 &times; 5 &minus; 3 + 6 &times; 3); real order-of-operations items Lower 2 MA #11, Lower 3 MA #29",
@@ -1959,7 +1959,7 @@
     "4": "PT6 MA #13 | Same (subtracting rule)",
     "5": "PT6 QR #6 | Harder (2-step rule, wrong rules fit one row)",
     "6": "PT1 QR #22 / PT3 QR #20 | Same",
-    "7": "PT6 QR #25 | Harder (1 -> 3 steps)",
+    "7": "PT6 QR #25 / QR10 #11 | Harder than PT6 QR #25 (1 -> 3 steps, extra information, statement choices); same as QR10 #11",
     "8": "Official exercise 1108 | Slightly easier (no rounding to the cent)",
     "9": "Official exercise 1453 | Slightly harder (crosses both axes)",
     "10": "Parent observation | n/a",
@@ -1983,7 +1983,8 @@
     "28": "PT2 MA #30 | Same",
     "29": "PT5 QR #34 | Same",
     "30": "PT3 QR #32 | Easier (one net, find the opposite face)"
-   }
+   },
+   "change_after_publish_2_2026-11-11": "Parent: #7 rebuilt in the QR10 #11 format (Since-statement choices + irrelevant buttons info); answer stays C."
   }
  ],
  "ma_notes": {

@@ -184,12 +184,13 @@ add('Comparing & Ordering Fractions & Decimals',
     'Lower 1 QR #22 and Lower 3 QR #20 (her misses, middle third); QR10 #13', 'middle')
 
 # 8 PT6 QR #25 / QR10 #11 yards -> feet -> inches (middle third, wrong)
-assert 5*3*12 == 180 and 180 // 8 == 22 and 180 % 8 == 4 and 5*12 // 8 == 7
+# 11/11 parent: rebuilt in the QR10 #11 format ("Since ..." statement choices + extra information that does not matter)
+assert 3*3*12 == 108 and 12*10 == 120 and 108 < 120 and 3*12 == 36 and 12*2 == 24
 add('English Unit Conversions',
-    'Lena has 5 yards of ribbon. She cuts it into pieces that are each 8 inches long. There are 3 feet in 1 yard and 12 inches in 1 foot. How many 8-inch pieces can she cut?',
-    ['7', '15', '22', '23'], 'C',
-    '1 yard = 3 &times; 12 = 36 inches, so 5 yards = 180 inches. 180 &divide; 8 = 22 R4, so 22 full pieces (4 inches are left over). A uses 12 inches in a yard (her QR10 #11 slip). B is the number of feet. D rounds up, but a 4-inch piece is not a full piece.',
-    'Lower 6 QR #25 (her miss, middle third) and QR10 #11', 'middle')
+    'Jo has a roll with 3 yards of ribbon and a bag of 24 buttons. She wants to make 12 bookmarks. Each bookmark uses 10 inches of ribbon and 2 buttons. There are 3 feet in 1 yard and 12 inches in 1 foot. Which statement best explains whether Jo has enough ribbon?',
+    ['Since 3 &times; 12 = 36 is less than 120, Jo does not have enough ribbon.', 'Since 3 &times; 36 = 108 is less than 120, Jo does have enough ribbon.', 'Since 3 &times; 36 = 108 is less than 120, Jo does not have enough ribbon.', 'Since 24 buttons is enough for 12 &times; 2 = 24 buttons, Jo does have enough ribbon.'], 'C',
+    '1 yard = 3 &times; 12 = 36 inches, so 3 yards = 108 inches. 12 bookmarks need 12 &times; 10 = 120 inches. 108 is less than 120, so she does not have enough. A uses 12 inches in a yard (her QR10 #11 slip): the conclusion happens to be right, but the reason is wrong. B has the right numbers and the wrong conclusion. D is about buttons, which the question does not ask.',
+    'Lower 6 QR #25 (her miss, middle third) and QR10 #11 (her miss), same format as QR10 #11', 'middle')
 
 # 9 official ISEE exercise gid 1108 (pear, "decreased by 16%", she missed it on MA3 #3): new numbers
 assert F('4.50')*F(88, 100) == F('3.96') and F('4.50') - F('0.12') == F('4.38') and F('4.50')*F(112, 100) == F('5.04')
