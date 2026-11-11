@@ -1540,7 +1540,43 @@
    "real_verbatim_unused": [],
    "published_commit": "2c5a07a223e7ceccf93b29269443698dabdd1e5e",
    "change_after_publish_2026-11-10": "Parent review 11/10: #17 drops the two '?' and asks for the sixth number directly. Then dropped near-duplicates #10 (kept #30 match), #12 and #18 (kept #32, best parentheses test), #13 (kept #5 and #26 input/output), #17 (kept #34 pattern), #21 (kept #2 digit pattern). Replaced with her own last-third misses from earlier sets: #10 compare areas mixed with perimeter (QR8 #32, QR9 #30), #12 cryptarithm subtraction with no borrow (QR3/6/8 #34/#34/#30), #13 order 4 fractions (QR2 #38, QR6 #32, QR8 #27), #17 counting multiples with 'has 6 as a factor' wording (QR6 #28, QR9 #36; parent saw her stuck on this wording in AoPS), #18 split line segments (QR3 #37, QR9 #27), #21 remainder of what is left (QR6 #33).",
-   "change_after_publish_2_2026-11-10": "Parent kept the Mila stamps problem (Lower 4 #35 wording, missed many times); moved to #19, replacing the grocery estimate (Lower 2 MA #27; 2/11 wrong, last wrong 10/14)."
+   "change_after_publish_2_2026-11-10": "Parent kept the Mila stamps problem (Lower 4 #35 wording, missed many times); moved to #19, replacing the grocery estimate (Lower 2 MA #27; 2/11 wrong, last wrong 10/14).",
+   "graded_2026-11-10": {
+    "score": "29/38",
+    "wrong": [
+     1,
+     4,
+     5,
+     6,
+     8,
+     11,
+     13,
+     14,
+     26
+    ],
+    "blank": [],
+    "total_elapsed_minutes": 34.65,
+    "first_then_changed": {
+     "wrong_to_right": [
+      23
+     ],
+     "wrong_to_wrong": [],
+     "right_to_wrong": []
+    },
+    "notes_summary": {
+     "1": "Same miss as PT6 QR #38: picked a category (breed) for a list of numbers",
+     "4": "Same miss as PT6 MA #12: wrote 96 &times; c = 8 (backwards)",
+     "5": "Rule-finding: picked 30 + 3 (33), left out the half",
+     "6": "Same miss as PT6 MA #28: finding the whole from 20%",
+     "8": "Estimate 50 &divide; 12 &times; 182: picked 300&ndash;600; order trap avoided",
+     "11": "Unit conversion: used 12 inches in a yard (skipped feet)",
+     "13": "Ordering 4 fractions: swapped 2/3 and 3/5 (21 seconds)",
+     "14": "Decimal difference: 0.125, likely 4/5 read as 0.75",
+     "26": "Pick the rule: checked only one row (&times; 6 + 1 works only for 6)"
+    },
+    "vs_set9": "29/38 vs QR9 15/38. All 7 problems swapped in 11/10 right except #13 (fractions). PT6-based problems missed again: #1 (QR38), #4 (MA12), #5 (MA13), #6 (MA28), #8 (QR36, but order trap avoided), #11 (QR25), #26 (rule). Right: #2 (QR18), #30 (MA30), #33 (QR36 word)."
+   },
+   "paper_after_timer_2026-11-10": "Timer ran out after #34 (35 min). #35-38 clicks in the CSV are time-out clicks and are ignored; her paper answers (Drive Hannahisee/Scanned_20261110-1656.pdf): 35 D, 36 D, 37 C, 38 A, all correct. Graded from speed-set-10-times-graded.csv."
   }
  ],
  "rotation_notes": {

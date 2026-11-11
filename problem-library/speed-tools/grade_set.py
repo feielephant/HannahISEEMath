@@ -149,8 +149,10 @@ def _parse_answer_key(html):
         m_key = re.search(r'<div class="key"><b>Answer: ([A-D])\.</b> (.*?)</div>', chunk, re.S)
         ans, why = (m_key.group(1), m_key.group(2)) if m_key else (None, '')
         # accept either the literal middle-dot or its HTML entity as the separator
-        m_ref = re.search(r'Tier: (\w+) (?:·|&middot;) Topic: ([^<·]+?)(?:&middot;| ·|<)', chunk)
-        tier, topic = (m_ref.group(1), m_ref.group(2).strip().replace('&amp;', '&')) if m_ref else ('', '')
+        # "Tier: X · " is optional: Set 10's answer key starts the ref line at "Topic:"
+        m_ref = re.search(r'(?:Tier: (\w+) (?:·|&middot;) )?Topic: ([^<·]+?)(?:&middot;| ·|<)', chunk)
+        tier, topic = ((m_ref.group(1) or 'Hard'), m_ref.group(2).strip().replace('&amp;', '&')) if m_ref else ('', '')
+        assert topic, f'problem {n}: no topic found in the answer key ref line'
         problems[n] = dict(q=q, diag=diag, choices=ch, ans=ans, why=why, tier=tier, topic=topic)
     return problems
 
