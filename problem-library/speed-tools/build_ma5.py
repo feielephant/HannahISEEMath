@@ -184,13 +184,12 @@ add('Comparing & Ordering Fractions & Decimals',
     'Lower 1 QR #22 and Lower 3 QR #20 (her misses, middle third); QR10 #13', 'middle')
 
 # 8 PT6 QR #25 / QR10 #11 yards -> feet -> inches (middle third, wrong)
-# 11/11 parent: rebuilt in the QR10 #11 format ("Since ..." statement choices + extra information that does not matter)
-assert 3*3*12 == 108 and 12*10 == 120 and 108 < 120 and 3*12 == 36 and 12*2 == 24
+assert 5*3*12 == 180 and 180 // 8 == 22 and 180 % 8 == 4 and 5*12 // 8 == 7
 add('English Unit Conversions',
-    'Jo has a roll with 3 yards of ribbon and a bag of 24 buttons. She wants to make 12 bookmarks. Each bookmark uses 10 inches of ribbon and 2 buttons. There are 3 feet in 1 yard and 12 inches in 1 foot. Which statement best explains whether Jo has enough ribbon?',
-    ['Since 3 &times; 12 = 36 is less than 120, Jo does not have enough ribbon.', 'Since 3 &times; 36 = 108 is less than 120, Jo does have enough ribbon.', 'Since 3 &times; 36 = 108 is less than 120, Jo does not have enough ribbon.', 'Since 24 buttons is enough for 12 &times; 2 = 24 buttons, Jo does have enough ribbon.'], 'C',
-    '1 yard = 3 &times; 12 = 36 inches, so 3 yards = 108 inches. 12 bookmarks need 12 &times; 10 = 120 inches. 108 is less than 120, so she does not have enough. A uses 12 inches in a yard (her QR10 #11 slip): the conclusion happens to be right, but the reason is wrong. B has the right numbers and the wrong conclusion. D is about buttons, which the question does not ask.',
-    'Lower 6 QR #25 (her miss, middle third) and QR10 #11 (her miss), same format as QR10 #11', 'middle')
+    'Lena has 5 yards of ribbon. She cuts it into pieces that are each 8 inches long. There are 3 feet in 1 yard and 12 inches in 1 foot. How many 8-inch pieces can she cut?',
+    ['7', '15', '22', '23'], 'C',
+    '1 yard = 3 &times; 12 = 36 inches, so 5 yards = 180 inches. 180 &divide; 8 = 22 R4, so 22 full pieces (4 inches are left over). A uses 12 inches in a yard (her QR10 #11 slip). B is the number of feet. D rounds up, but a 4-inch piece is not a full piece.',
+    'Lower 6 QR #25 (her miss, middle third) and QR10 #11', 'middle')
 
 # 9 official ISEE exercise gid 1108 (pear, "decreased by 16%", she missed it on MA3 #3): new numbers
 assert F('4.50')*F(88, 100) == F('3.96') and F('4.50') - F('0.12') == F('4.38') and F('4.50')*F(112, 100) == F('5.04')
@@ -329,14 +328,13 @@ add('Classification of Numbers, given a Set',
     'An even number times any whole number is even, so the product is always even. Try 4 &times; 3 = 12 and 2 &times; 5 = 10. B fails because of the even number. C fails: 12 is not prime. D fails: 2 &times; 3 = 6 is not a multiple of 4.',
     'Lower 2 MA #29 (her miss, last third, 34.4% right)', 'last')
 
-# 24 Lower 2 MA #24 divisible by 8 (her miss, last third); traps all divisible by 4
-ch24 = [324, 412, 548, 632]
-assert [x % 8 == 0 for x in ch24] == [False, False, False, True] and all(x % 4 == 0 for x in ch24)
-add('No Remainder when Divided by a given Number',
-    'Which number is divisible by 8?',
-    ['324', '412', '548', '632'], 'D',
-    '632 &divide; 8 = 79 with no remainder. The others can be divided by 4 but not by 8: 324 &divide; 8 = 40 R4, 412 &divide; 8 = 51 R4, 548 &divide; 8 = 68 R4. Checking only "divisible by 4" is not enough.',
-    'Lower 2 MA #24 (her miss, last third, 73.3% right)', 'last')
+# 23 (parent 11/11: replaces divisible-by-8, owed to a later set) QR10 #11 format ("Since ..." statement choices + extra information that does not matter)
+assert 3*3*12 == 108 and 12*10 == 120 and 108 < 120 and 3*12 == 36 and 12*2 == 24
+add('English Unit Conversions',
+    'Jo has a roll with 3 yards of ribbon and a bag of 24 buttons. She wants to make 12 bookmarks. Each bookmark uses 10 inches of ribbon and 2 buttons. There are 3 feet in 1 yard and 12 inches in 1 foot. Which statement best explains whether Jo has enough ribbon?',
+    ['Since 3 &times; 12 = 36 is less than 120, Jo does not have enough ribbon.', 'Since 3 &times; 36 = 108 is less than 120, Jo does have enough ribbon.', 'Since 24 buttons is enough for 12 &times; 2 = 24 buttons, Jo does have enough ribbon.', 'Since 3 &times; 36 = 108 is less than 120, Jo does not have enough ribbon.'], 'D',
+    '1 yard = 3 &times; 12 = 36 inches, so 3 yards = 108 inches. 12 bookmarks need 12 &times; 10 = 120 inches. 108 is less than 120, so she does not have enough. A uses 12 inches in a yard (her QR10 #11 slip): the conclusion happens to be right, but the reason is wrong. B has the right numbers and the wrong conclusion. C is about buttons, which the question does not ask.',
+    'Lower 6 QR #25 (her miss, middle third) and QR10 #11 (her miss), same format as QR10 #11', 'middle-placed-late')
 
 # 25 Lower 2 QR #29 factor arrays (her miss, last third)
 arr25 = [(3, 6), (9, 2), (4, 5), (3, 5)]
@@ -415,7 +413,7 @@ assert not any(L[i] == L[i+1] == L[i+2] for i in range(28)), ''.join(L)
 tc = Counter(p['topic'] for p in P)
 assert max(tc.values()) <= 3, tc
 thirds = Counter(MAP[n]['source_third'] for n in MAP); print(thirds)
-assert all(MAP[n]['source_third'] == 'last' for n in range(11, 31)) and all(MAP[n]['source_third'] != 'last' for n in range(1, 11))
+assert all(MAP[n]['source_third'] in ('last', 'middle-placed-late') for n in range(11, 31)) and all(MAP[n]['source_third'] != 'last' for n in range(1, 11))
 json.dump(P, open(os.path.join(HERE, 'ma5_problems.json'), 'w'), indent=1, ensure_ascii=False)
 json.dump(MAP, open(os.path.join(HERE, 'ma5_mapping.json'), 'w'), indent=1, ensure_ascii=False)
 print('wrote', len(P), 'diagrams', sum(1 for p in P if p['diagram']))

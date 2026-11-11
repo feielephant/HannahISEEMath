@@ -111,16 +111,16 @@
   "n": 7,
   "tier": "Hard",
   "topic": "English Unit Conversions",
-  "q": "Jo has a roll with 3 yards of ribbon and a bag of 24 buttons. She wants to make 12 bookmarks. Each bookmark uses 10 inches of ribbon and 2 buttons. There are 3 feet in 1 yard and 12 inches in 1 foot. Which statement best explains whether Jo has enough ribbon?",
+  "q": "Lena has 5 yards of ribbon. She cuts it into pieces that are each 8 inches long. There are 3 feet in 1 yard and 12 inches in 1 foot. How many 8-inch pieces can she cut?",
   "choices": {
-   "A": "Since 3 &times; 12 = 36 is less than 120, Jo does not have enough ribbon.",
-   "B": "Since 3 &times; 36 = 108 is less than 120, Jo does have enough ribbon.",
-   "C": "Since 3 &times; 36 = 108 is less than 120, Jo does not have enough ribbon.",
-   "D": "Since 24 buttons is enough for 12 &times; 2 = 24 buttons, Jo does have enough ribbon."
+   "A": "7",
+   "B": "15",
+   "C": "22",
+   "D": "23"
   },
   "correct": "C",
-  "key": "<b>Answer: C.</b> 1 yard = 3 &times; 12 = 36 inches, so 3 yards = 108 inches. 12 bookmarks need 12 &times; 10 = 120 inches. 108 is less than 120, so she does not have enough. A uses 12 inches in a yard (her QR10 #11 slip): the conclusion happens to be right, but the reason is wrong. B has the right numbers and the wrong conclusion. D is about buttons, which the question does not ask.",
-  "ref": "Tier: Hard &middot; Topic: English Unit Conversions &middot; Wrong so far: 2/3 &middot; New problem &middot; Built on: Lower 6 QR #25 (her miss, middle third) and QR10 #11 (her miss), same format as QR10 #11",
+  "key": "<b>Answer: C.</b> 1 yard = 3 &times; 12 = 36 inches, so 5 yards = 180 inches. 180 &divide; 8 = 22 R4, so 22 full pieces (4 inches are left over). A uses 12 inches in a yard (her QR10 #11 slip). B is the number of feet. D rounds up, but a 4-inch piece is not a full piece.",
+  "ref": "Tier: Hard &middot; Topic: English Unit Conversions &middot; Wrong so far: 2/3 &middot; New problem &middot; Built on: Lower 6 QR #25 (her miss, middle third) and QR10 #11",
   "diagram": null,
   "gid": null,
   "ma_idx": null
@@ -398,17 +398,17 @@
  {
   "n": 23,
   "tier": "Hard",
-  "topic": "No Remainder when Divided by a given Number",
-  "q": "Which number is divisible by 8?",
+  "topic": "English Unit Conversions",
+  "q": "Jo has a roll with 3 yards of ribbon and a bag of 24 buttons. She wants to make 12 bookmarks. Each bookmark uses 10 inches of ribbon and 2 buttons. There are 3 feet in 1 yard and 12 inches in 1 foot. Which statement best explains whether Jo has enough ribbon?",
   "choices": {
-   "A": "324",
-   "B": "412",
-   "C": "548",
-   "D": "632"
+   "A": "Since 3 &times; 12 = 36 is less than 120, Jo does not have enough ribbon.",
+   "B": "Since 3 &times; 36 = 108 is less than 120, Jo does have enough ribbon.",
+   "C": "Since 24 buttons is enough for 12 &times; 2 = 24 buttons, Jo does have enough ribbon.",
+   "D": "Since 3 &times; 36 = 108 is less than 120, Jo does not have enough ribbon."
   },
   "correct": "D",
-  "key": "<b>Answer: D.</b> 632 &divide; 8 = 79 with no remainder. The others can be divided by 4 but not by 8: 324 &divide; 8 = 40 R4, 412 &divide; 8 = 51 R4, 548 &divide; 8 = 68 R4. Checking only \"divisible by 4\" is not enough.",
-  "ref": "Tier: Hard &middot; Topic: No Remainder when Divided by a given Number &middot; Wrong so far: 6/17 &middot; New problem &middot; Built on: Lower 2 MA #24 (her miss, last third, 73.3% right)",
+  "key": "<b>Answer: D.</b> 1 yard = 3 &times; 12 = 36 inches, so 3 yards = 108 inches. 12 bookmarks need 12 &times; 10 = 120 inches. 108 is less than 120, so she does not have enough. A uses 12 inches in a yard (her QR10 #11 slip): the conclusion happens to be right, but the reason is wrong. B has the right numbers and the wrong conclusion. C is about buttons, which the question does not ask.",
+  "ref": "Tier: Hard &middot; Topic: English Unit Conversions &middot; Wrong so far: 2/3 &middot; New problem &middot; Built on: Lower 6 QR #25 (her miss, middle third) and QR10 #11 (her miss), same format as QR10 #11",
   "diagram": null,
   "gid": null,
   "ma_idx": null
