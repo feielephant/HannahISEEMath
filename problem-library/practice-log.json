@@ -1915,7 +1915,7 @@
    ],
    "built": "2026-11-11",
    "builder": "speed-tools/build_ma5.py",
-   "answers": "BBDCACCADCDDBBCCBBAACADAABDDAD",
+   "answers": "BBDCACCACCDDBBCCBBAACADAABDDAD",
    "minutes": 30,
    "notes": "Plan agreed with the parent 11/11 after QR10 grading. Real last-third sources get priority and fill positions 12-30 (19 problems); positions 1-11: real middle-third misses (PT3 QR #24, PT5 MA #17, PT6 MA #12, PT6 MA #13 x2, PT1 QR #22/PT3 QR #20, PT6 QR #25), PT6 QR #6 (first third), official ISEE exercises gid 1108 and 1453 (her MA3 misses), and the parent's a x b - c + d x e observation. Rested as secured on QR10: equivalent fractions/decimals/percents, add/sub decimals, remainder, shapes, shaded grid, split segments, cube volume, ratio chains, symbol algebra, digit patterns. Dropped QR8 #12 unit price (made up, no real item she missed). Venn (WTE #10, first third) moved to QR11 to give a last-third slot to PT3 QR #31 value of digits. Nothing invented from a topic name: built_on per problem in ma5_mapping.json.",
    "built_on_by_problem": {
@@ -1986,7 +1986,8 @@
    },
    "change_after_publish_2_2026-11-11": "Parent: #7 rebuilt in the QR10 #11 format (Since-statement choices + irrelevant buttons info); answer stays C.",
    "change_after_publish_3_2026-11-11": "Parent: original #7 (ribbon pieces) kept; the QR10 #11-format ribbon/buttons problem replaces #23 (divisible by 8, owed to a later set with Venn).",
-   "change_after_publish_4_2026-11-11": "Parent unsure about #10 (4 x 6 - 2 + 3 x 5); replaced with the QR10 #27 two-equation symbol type in the harder MA4 #5 shape. The a x b - c + d x e observation stays untested for now."
+   "change_after_publish_4_2026-11-11": "Parent unsure about #10 (4 x 6 - 2 + 3 x 5); replaced with the QR10 #27 two-equation symbol type in the harder MA4 #5 shape. The a x b - c + d x e observation stays untested for now.",
+   "change_after_publish_5_2026-11-11": "Parent caught the #9 coordinate grid again: axis numbers were tiny and grid lines ran through them. Redrawn to match the real grid (gid 1453): half-unit grid squares, arrowed axes, larger serif axis numbers on a background so lines don't cross them, italic A/B. Because each square is now half a unit, choices changed from 8/9/10/11 to 9/10/11/22 (22 = counting squares); answer moved D -> C."
   }
  ],
  "ma_notes": {

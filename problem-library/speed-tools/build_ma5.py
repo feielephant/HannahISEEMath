@@ -53,23 +53,34 @@ def grouped_bars(cats, a, b, ymax, title, la='Class A', lb='Class B'):
     g += f'<rect x="{W-80}" y="{B+28}" width="12" height="12" fill="#D08B3C"/>' + txt(W-64, B+38, lb, 11, 'start')
     return svg(W, H + 2, g)
 
-def coord_grid(pts, lo=-5, hi=5, u=22):
-    n = hi - lo; S = n*u; off = 24
-    g = ''
-    for k in range(n + 1):
-        p = off + k*u
-        g += f'<line x1="{p}" y1="{off}" x2="{p}" y2="{off+S}" stroke="currentColor" stroke-opacity="0.25" stroke-width="1"/>'
-        g += f'<line x1="{off}" y1="{p}" x2="{off+S}" y2="{p}" stroke="currentColor" stroke-opacity="0.25" stroke-width="1"/>'
+def coord_grid(pts, lo=-5, hi=5, u=34):
+    # matches the real ISEE grid (gid 1453): half-unit grid squares, arrowed axes, axis numbers
+    # on a surface-colored halo so grid lines never strike through them, italic point letters
+    n = hi - lo; S = n*u; off = 30
     X = lambda x: off + (x - lo)*u
     Y = lambda y: off + (hi - y)*u
-    g += f'<line x1="{off}" y1="{Y(0)}" x2="{off+S}" y2="{Y(0)}" {SW}/><line x1="{X(0)}" y1="{off}" x2="{X(0)}" y2="{off+S}" {SW}/>'
+    g = ''
+    for k in range(2*n + 1):
+        p = off + k*u/2
+        g += f'<line x1="{p}" y1="{off}" x2="{p}" y2="{off+S}" stroke="currentColor" stroke-opacity="0.22" stroke-width="1"/>'
+        g += f'<line x1="{off}" y1="{p}" x2="{off+S}" y2="{p}" stroke="currentColor" stroke-opacity="0.22" stroke-width="1"/>'
+    e = 16
+    g += f'<line x1="{off-e}" y1="{Y(0)}" x2="{off+S+e}" y2="{Y(0)}" {SW}/><line x1="{X(0)}" y1="{off-e}" x2="{X(0)}" y2="{off+S+e}" {SW}/>'
+    ar = lambda pts_: f'<polygon points="{pts_}" fill="currentColor"/>'
+    g += ar(f'{off-e-6},{Y(0)} {off-e+4},{Y(0)-5} {off-e+4},{Y(0)+5}') + ar(f'{off+S+e+6},{Y(0)} {off+S+e-4},{Y(0)-5} {off+S+e-4},{Y(0)+5}')
+    g += ar(f'{X(0)},{off-e-6} {X(0)-5},{off-e+4} {X(0)+5},{off-e+4}') + ar(f'{X(0)},{off+S+e+6} {X(0)-5},{off+S+e-4} {X(0)+5},{off+S+e-4}')
+    halo = 'paint-order="stroke" stroke="var(--surface,#fff)" stroke-width="4" stroke-linejoin="round"'
+    lab = lambda x, y, s, anchor: f'<text x="{x}" y="{y}" font-size="14" font-family="Times New Roman,serif" text-anchor="{anchor}" fill="currentColor" {halo}>{s}</text>'
     for v in range(lo, hi + 1):
         if v == 0: continue
-        g += txt(X(v), Y(0)+14, v, 9) + txt(X(0)-6, Y(v)+3, v, 9, 'end')
-    g += txt(off+S+12, Y(0)+4, 'x', 12) + txt(X(0), off-8, 'y', 12)
-    for lab, (x, y) in pts.items():
-        g += f'<circle cx="{X(x)}" cy="{Y(y)}" r="4.5" fill="currentColor"/>' + txt(X(x)+10, Y(y)-7, lab, 14, 'start', '700')
-    return svg(S + 2*off + 10, S + 2*off, g)
+        s = str(v).replace('-', '&minus;')
+        g += lab(X(v), Y(0)+18, s, 'middle') + lab(X(0)-6, Y(v)+5, s, 'end')
+    it = lambda x, y, s: f'<text x="{x}" y="{y}" font-size="20" font-style="italic" font-family="Times New Roman,serif" text-anchor="middle" fill="currentColor" {halo}>{s}</text>'
+    g += it(off+S+e+18, Y(0)+6, 'x') + it(X(0)-16, off-e+2, 'y')
+    for name, (x, y) in pts.items():
+        g += f'<circle cx="{X(x)}" cy="{Y(y)}" r="5" fill="currentColor"/>' + it(X(x)+14, Y(y)-8, name)
+    W = S + 2*off + 2*e + 24
+    return svg(W, S + 2*off + 2*e, g)
 
 def stacked(rows, total):
     # fixed-width column grid so shapes and digits line up by place value (op, hundreds, tens, ones)
@@ -204,8 +215,8 @@ A10, B10 = (-3, 4), (2, -2)
 assert (B10[0]-A10[0]) + (A10[1]-B10[1]) == 11
 add('Minimum Distance on Coordinate Plane / Grid',
     'Use the grid to answer the question. How many units is the shortest distance from point A to point B if you can only move down or to the right?',
-    ['8', '9', '10', '11'], 'D',
-    'Right: from x = &minus;3 to x = 2 is 5 units (3 to reach 0, then 2 more). Down: from y = 4 to y = &minus;2 is 6 units (4 to reach 0, then 2 more). 5 + 6 = 11. A, B, and C come from missing a unit when crossing 0; count the grid squares one by one.',
+    ['9', '10', '11', '22'], 'C',
+    'Right: from x = &minus;3 to x = 2 is 5 units (3 to reach 0, then 2 more). Down: from y = 4 to y = &minus;2 is 6 units (4 to reach 0, then 2 more). 5 + 6 = 11. 9 and 10 come from missing a unit when crossing 0. Each grid square is half a unit, so counting squares gives 22; count by the axis numbers instead.',
     'Official ISEE practice exercise (gid 1453, her MA3 #30 miss)', 'exercise',
     coord_grid({'A': A10, 'B': B10}))
 
