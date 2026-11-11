@@ -12,95 +12,95 @@
   "source_third": "middle"
  },
  "4": {
-  "built_on": "Lower 6 MA #13 (her miss, middle third); rule kept plain on purpose",
+  "built_on": "Lower 6 MA #13 (her miss, middle third; that rule was &minus; 7, outputs smaller than inputs)",
   "source_third": "middle"
  },
  "5": {
-  "built_on": "Lower 6 MA #13 and QR10 #5 (her misses)",
-  "source_third": "middle"
- },
- "6": {
   "built_on": "Lower 6 QR #6 (first third) and QR10 #26 (her miss)",
   "source_third": "first"
  },
- "7": {
+ "6": {
   "built_on": "Lower 1 QR #22 and Lower 3 QR #20 (her misses, middle third); QR10 #13",
   "source_third": "middle"
  },
- "8": {
+ "7": {
   "built_on": "Lower 6 QR #25 (her miss, middle third) and QR10 #11",
   "source_third": "middle"
  },
- "9": {
+ "8": {
   "built_on": "Official ISEE practice exercise (gid 1108, her MA3 #3 miss)",
   "source_third": "exercise"
  },
- "10": {
+ "9": {
   "built_on": "Official ISEE practice exercise (gid 1453, her MA3 #30 miss)",
   "source_third": "exercise"
  },
- "11": {
+ "10": {
   "built_on": "Parent's 11/11 observation (2 &times; 5 &minus; 3 + 6 &times; 3); real order-of-operations items Lower 2 MA #11, Lower 3 MA #29",
   "source_third": "parent"
  },
- "12": {
+ "11": {
   "built_on": "Lower 6 QR #38 (her miss, last third, 18.4% right) and Lower 5 MA #30",
   "source_third": "last"
  },
- "13": {
+ "12": {
   "built_on": "Lower 5 MA #29 (her miss, last third); QR9 #36, QR6 #28",
   "source_third": "last"
  },
- "14": {
-  "built_on": "Lower 6 MA #28 (her miss, last third); official exercise gid 709 (30% took 1 hour)",
+ "13": {
+  "built_on": "Lower 2 QR #37 (her miss, last third, 41.7% right)",
   "source_third": "last"
  },
- "15": {
+ "14": {
   "built_on": "Lower 6 MA #28 with increase wording (parent 11/11)",
   "source_third": "last"
  },
- "16": {
+ "15": {
   "built_on": "Lower 6 QR #36 (her miss, last third); parent 11/11: she adds parentheses that are not there",
   "source_third": "last"
  },
- "17": {
+ "16": {
   "built_on": "Lower 1 QR #29 (her miss, last third) and QR10 #14",
   "source_third": "last"
  },
- "18": {
-  "built_on": "Lower 3 MA #21 (her miss, last third)",
+ "17": {
+  "built_on": "Lower 3 QR #37 (her miss, last third, 48% right), with a \"left\" step; MA4 #28, PT6 MA #12, QR10 #4",
   "source_third": "last"
  },
- "19": {
+ "18": {
   "built_on": "QR9 #26 and MA4 #18 (her misses, last third); Lower 3 MA #21",
   "source_third": "last"
  },
- "20": {
-  "built_on": "Lower 3 QR #38 (last third, 40% right); QR3/6/8 misses",
+ "19": {
+  "built_on": "Official ISEE practice exercise gid 1005 (her QR9 #12 miss)",
   "source_third": "last"
  },
- "21": {
+ "20": {
   "built_on": "Lower 3 QR #31 (her miss, last third, 61.6% right); QR9 #24",
   "source_third": "last"
  },
- "22": {
-  "built_on": "Lower 2 MA #26 (her miss, last third); MA4 #8",
+ "21": {
+  "built_on": "Lower 2 MA #26 (her miss, last third); minus in front like QR10 #3 and MA4 #8",
   "source_third": "last"
  },
- "23": {
+ "22": {
   "built_on": "Lower 2 MA #29 (her miss, last third, 34.4% right)",
   "source_third": "last"
  },
- "24": {
+ "23": {
   "built_on": "Lower 2 MA #24 (her miss, last third, 73.3% right)",
   "source_third": "last"
  },
- "25": {
+ "24": {
   "built_on": "Lower 2 QR #29 (her miss, last third, 65.1% right)",
   "source_third": "last"
  },
- "26": {
+ "25": {
   "built_on": "Lower 1 MA #25 (her miss, last third); MA4 #24",
+  "source_third": "last"
+ },
+ "26": {
+  "built_on": "Lower 5 QR #33 (her miss, last third, 66.1% right)",
   "source_third": "last"
  },
  "27": {

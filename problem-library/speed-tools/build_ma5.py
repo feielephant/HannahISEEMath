@@ -151,27 +151,16 @@ add('Matching Stories to Equations',
     'p packs with 6 crayons in each make 48 crayons: 6 &times; p = 48 (so p = 8). B is backwards: try p = 8, and 48 &times; 8 is not 6. That is the PT6 MA #12 and QR10 #4 slip.',
     'Lower 6 MA #12 (her miss, middle third) and QR10 #4', 'middle')
 
-# 4 PT6 MA #13 input/output, plain "+ n" with n > 7 (parent 11/11: mix in simpler rules)
-r4 = lambda x: x + 9
-rows4 = [(14, 23), (19, 28), (27, 36), (33, 42)]
-assert all(r4(a) == b for a, b in rows4) and r4(46) == 55
+# 4 PT6 MA #13 input/output, plain "- n" with n > 7 (parent 11/11: simpler rule; she finds rules harder when outputs are SMALLER than inputs)
+r4 = lambda x: x - 9
+rows4 = [(23, 14), (28, 19), (36, 27), (42, 33)]
+assert all(r4(a) == b for a, b in rows4) and r4(51) == 42 and all(b < a for a, b in rows4)
 add('Input Output Tables',
-    'The number machine performs the same operation on each input to create an output. What is the output for an input of 46?',
-    ['37', '55', '56', '92'], 'B',
-    'Every output is 9 more than its input: 14 + 9 = 23, 33 + 9 = 42. So 46 + 9 = 55. A subtracts 9. C adds 10. D doubles.',
-    'Lower 6 MA #13 (her miss, middle third); rule kept plain on purpose', 'middle',
+    'The number machine performs the same operation on each input to create an output. What is the output for an input of 51?',
+    ['33', '41', '42', '60'], 'C',
+    'Every output is 9 less than its input: 23 &minus; 9 = 14, 42 &minus; 9 = 33. So 51 &minus; 9 = 42. D adds 9 instead of subtracting. B subtracts 10. A is the last output in the table, not the output for 51.',
+    'Lower 6 MA #13 (her miss, middle third; that rule was &minus; 7, outputs smaller than inputs)', 'middle',
     table(['Input', 'Output'], rows4, 'NUMBER MACHINE'))
-
-# 5 PT6 MA #13 / QR10 #5 retry: input / 2 + 5
-r5 = lambda x: x // 2 + 5
-rows5 = [(6, 8), (10, 10), (18, 14), (24, 17)]
-assert all(r5(a) == b for a, b in rows5) and r5(40) == 25 and all(a % 2 == 0 for a, _ in rows5)
-add('Input Output Tables',
-    'The number machine performs the same operation on each input to create an output. What is the output for an input of 40?',
-    ['20', '25', '30', '45'], 'B',
-    'From 6 to 10 the input goes up 4 and the output goes up 2, so the output grows half as fast: try input &divide; 2. 6 &divide; 2 = 3, and the output is 8, so add 5: output = input &divide; 2 + 5. Check: 24 &divide; 2 + 5 = 17. So 40 &divide; 2 + 5 = 25. A forgets the + 5. D is 40 + 5, leaving out the half (her QR10 #5 slip).',
-    'Lower 6 MA #13 and QR10 #5 (her misses)', 'middle',
-    table(['Input', 'Output'], rows5, 'NUMBER MACHINE'))
 
 # 6 PT6 QR #6 pick the rule (first third); parent liked QR10 #26. Each wrong rule fits exactly one row.
 rows6 = [(2, 4), (4, 10), (5, 13), (7, 19)]
@@ -245,13 +234,16 @@ add('Counting Multiples within a Range',
     'The first multiple of 7 after 27 is 28 = 7 &times; 4. The last one before 78 is 77 = 7 &times; 11. Count 4 through 11: 11 &minus; 4 + 1 = 8. C is her shortcut (78 &minus; 27) &divide; 7 = 7 R2, which misses one.',
     'Lower 5 MA #29 (her miss, last third); QR9 #36, QR6 #28', 'last')
 
-# 14 PT6 MA #28 whole from 20%, discount wording
-assert F(9) / F(20, 100) == 45 and 45 - 9 == 36
-add('Percent Word Problems',
-    'A store owner offered a 20% discount off the regular price of a lamp. The amount of the discount was $9. What is the regular price of the lamp?',
-    ['$18', '$36', '$45', '$54'], 'C',
-    '$9 is 20% of the regular price. 20% is one fifth, so the price is 9 &times; 5 = $45 (or 9 &divide; 0.2). A is 9 &times; 2. B is the sale price, 45 &minus; 9. D adds 9 to 45.',
-    'Lower 6 MA #28 (her miss, last third); official exercise gid 709 (30% took 1 hour)', 'last')
+# Lower 2 QR #37 stem-and-leaf, "which conclusion is true" (her miss, last third, 41.7% right; never practiced since)
+stem = {3: [2, 5, 5, 8], 4: [0, 1, 1, 1, 6], 5: [3, 7, 9], 6: [0, 4]}
+pts = [10*k + l for k, ls in stem.items() for l in ls]
+assert len(pts) == 14 and pts.count(41) == 3 and min(pts) == 32 and sum(x >= 60 for x in pts) == 2 and pts.count(35) == 2
+add('Identifying Correct Conclusions from Bar Graph Data Table',
+    'The stem-and-leaf plot shows the number of points a basketball team scored in each of 14 games, where 4 | 6 represents 46 points. Based on the data in the stem-and-leaf plot, which conclusion is true?',
+    ['The team scored at least 35 points in every game.', 'The team scored 41 points in 3 games.', 'The team scored 35 points in 3 games.', 'The team scored 60 or more points in exactly 3 games.'], 'B',
+    'Read each leaf with its stem. The 4 row has leaves 0, 1, 1, 1, 6, so 41 appears 3 times. A is false: the lowest score is 32. C is false: 35 appears only twice. D is false: only 60 and 64 are 60 or more, which is 2 games.',
+    'Lower 2 QR #37 (her miss, last third, 41.7% right)', 'last',
+    '<div style="font-weight:600;margin-bottom:4px">POINTS SCORED</div><table class="data"><tr><th>Stem</th><th>Leaf</th></tr>' + ''.join(f'<tr><td>{k}</td><td>{" &nbsp;".join(map(str, ls))}</td></tr>' for k, ls in stem.items()) + '</table><div style="font-size:0.85em;margin-top:4px">Key: 4 | 6 = 46</div>')
 
 # 15 PT6 MA #28 whole from 20%, increase wording (parent 11/11): same original price
 assert F(16) / F(20, 100) == 80 and 80 + 16 == 96 and 80 - 16 == 64
@@ -272,21 +264,22 @@ add('Estimating Multiplication & Division',
 
 # 17 PT1 QR #29 (fraction + decimal) and QR10 #14 (order, then calculate)
 v17 = sorted([F(5, 8), F(6, 10), F(7, 10)])
-assert v17[-1] - v17[0] == F(1, 10) and F(7, 10) - F(5, 8) == F(75, 1000) and 1 - F(6, 10) == F(4, 10)
+assert F(5, 8) - F(6, 10) == F(25, 1000) and v17[-1] - v17[0] == F(1, 10) and F(7, 10) - F(5, 8) == F(75, 1000) and 1 - F(6, 10) == F(4, 10)
 add('Converting to a Decimal',
     f'Three bottles hold {frac(5,8)} liter, 0.6 liter, and {frac(7,10)} liter of water. How much more water does the bottle with the most hold than the bottle with the least?',
-    ['0.075 liter', '0.1 liter', '0.375 liter', '0.4 liter'], 'B',
-    '5/8 = 0.625 and 7/10 = 0.7. In order: 0.6, 0.625, 0.7. Most minus least: 0.7 &minus; 0.6 = 0.1. A is 0.7 &minus; 0.625. C is 1 &minus; 5/8. D is 1 &minus; 0.6.',
+    ['0.025 liter', '0.075 liter', '0.1 liter', '0.4 liter'], 'C',
+    '5/8 = 0.625 and 7/10 = 0.7. In order: 0.6, 0.625, 0.7. Most minus least: 0.7 &minus; 0.6 = 0.1. A is 0.625 &minus; 0.6 and B is 0.7 &minus; 0.625: each uses the middle bottle. D is 1 &minus; 0.6.',
     'Lower 1 QR #29 (her miss, last third) and QR10 #14', 'last')
 
-# 18 Lower 3 MA #21 (x3 pattern, sixth number): x4 pattern
-s18 = [2*4**i for i in range(7)]
-assert s18[:4] == [2, 8, 32, 128] and s18[4] == 512 and s18[5] == 2048 and s18[6] == 8192
-add('Nth Term, given Arithmetic Sequence, Progressive Pattern, etc.',
-    'Use the number pattern to answer the question.<div style="margin-top:6px">2, &nbsp;8, &nbsp;32, &nbsp;128, &nbsp;?, &nbsp;?</div><div style="margin-top:6px">What is the sixth number in the pattern?</div>',
-    ['256', '512', '2,048', '8,192'], 'C',
-    'Each number is 4 times the one before: 128 &times; 4 = 512 (5th), 512 &times; 4 = 2,048 (6th). A doubles 128. B stops at the 5th. D goes one too far.',
-    'Lower 3 MA #21 (her miss, last third)', 'last')
+# E (parent pick 11/11) Lower 3 QR #37 story -> equation with symbols (her miss, last third, 48% right); topic wrong MA4 #28, PT6 MA #12, QR10 #4
+for sq, st, ci in ((200, 50, 10), (120, 24, 8), (90, 30, 4)):
+    assert (sq - st) / ci == ((sq - st) // ci if (sq - st) % ci == 0 else (sq - st) / ci)
+assert (200 - 50) / 10 == 15 and 200 / 10 - 50 == -30 and (200 + 50) / 10 == 25 and 10 / (200 - 50) < 1
+add('Matching Stories to Equations',
+    'Mia reads the same number of pages each day to finish a book. The list shows what is known.<div style="margin-top:6px">The number of pages in the book is □.</div><div>The number of pages she has already read is ☆.</div><div>The number of days she has left is ○.</div><div style="margin-top:6px">Which equation will determine △, the number of pages she must read each day?</div>',
+    ['△ = □ &divide; ○ &minus; ☆', '△ = (□ &minus; ☆) &divide; ○', '△ = (□ + ☆) &divide; ○', '△ = ○ &divide; (□ &minus; ☆)'], 'B',
+    'First find the pages still to read: □ &minus; ☆. Share them over the days left: (□ &minus; ☆) &divide; ○. Try numbers: a 200-page book, 50 pages read, 10 days left: 150 &divide; 10 = 15 pages a day. A gives 200 &divide; 10 &minus; 50, which is less than 0. C adds the pages already read. D divides the wrong way.',
+    'Lower 3 QR #37 (her miss, last third, 48% right), with a "left" step; MA4 #28, PT6 MA #12, QR10 #4', 'last')
 
 # 19 nth term, arithmetic, off-by-one trap (QR9 #26 and MA4 #18 misses; Lower 3 MA #21)
 assert 38 + (20 - 5)*7 == 143 and 38 + 14*7 == 136 and 38 + 16*7 == 150
@@ -296,15 +289,13 @@ add('Nth Term, given Arithmetic Sequence, Progressive Pattern, etc.',
     'From the 5th number to the 20th number is 20 &minus; 5 = 15 steps. 15 &times; 7 = 105, and 38 + 105 = 143. A takes 14 steps and C takes 16 steps (off by one). D takes 17.',
     'QR9 #26 and MA4 #18 (her misses, last third); Lower 3 MA #21', 'last')
 
-# 20 Lower 3 QR #38 cryptarithm (shapes, with a borrow)
-sol20 = [(t, c) for t in range(1, 10) for c in range(1, 10) if t != c and (100*t + 11*c) - 11*t == 745]
-assert sol20 == [(8, 3)] and 3 < 8  # unique; ones column needs a borrow
-add('Cryptarithm / digit substitution',
-    'Each shape shown represents a different digit from 1 through 9. What is the value of ○?',
-    ['3', '5', '7', '8'], 'A',
-    'Start with the hundreds: nothing is subtracted there, but 1 was borrowed, so △ &minus; 1 = 7 and △ = 8. Ones: ○ &minus; 8 needs a borrow, so ○ + 10 &minus; 8 = 5 and ○ = 3. Check the tens: 3 &minus; 1 = 2, borrow again, 12 &minus; 8 = 4. So 833 &minus; 88 = 745. D is △, not ○.',
-    'Lower 3 QR #38 (last third, 40% right); QR3/6/8 misses', 'last',
-    stacked([['', '△', '○', '○'], ['&minus;', '', '△', '△']], ['', '7', '4', '5']))
+# F (parent pick 11/11) official ISEE exercise gid 1005 (QR9 #12 miss: 125 instead of 115), mixed-number hours to minutes
+assert F(17, 6)*60 == 170 and F(5, 4)*60 == 75 and 170 - 75 == 95 and 170 - 15 == 155 and 170 + 75 == 245
+add('Multi-step unit conversion (off-by-10, multi-step)',
+    f'Leo spent 2 {frac(5,6)} hours at the library. Of that time, 1 {frac(1,4)} hours were spent eating lunch and walking. How many minutes did Leo spend reading? (1 hour = 60 minutes)',
+    ['95', '105', '155', '245'], 'A',
+    '2 5/6 hours: 5/6 of 60 is 50, so it is 120 + 50 = 170 minutes. 1 1/4 hours: 1/4 of 60 is 15, so it is 60 + 15 = 75 minutes. 170 &minus; 75 = 95. B is off by 10 (her QR9 #12 slip). C forgets the 1 whole hour in 1 1/4. D adds instead of subtracting.',
+    'Official ISEE practice exercise gid 1005 (her QR9 #12 miss)', 'last')
 
 # 21 Lower 3 QR #31 value of digits with a rules box (her miss, last third); QR9 #24
 from itertools import permutations
@@ -318,13 +309,13 @@ add('Value of Digits',
     'Lower 3 QR #31 (her miss, last third, 61.6% right); QR9 #24', 'last',
     '<div style="border:1.5px solid currentColor;border-radius:6px;padding:8px 12px;max-width:340px"><div style="font-weight:700;margin-bottom:4px">RULES FOR THE NEW NUMBER</div><div>1. The number must have 5 digits.</div><div>2. The number must be odd.</div><div>3. The number must be the largest number possible.</div><div>4. Each digit can be used only once.</div></div>')
 
-# 22 Lower 2 MA #26 distributive property (her miss, last third)
-assert 9*(40 - 3) == 9*40 - 9*3 and 9*(40 - 3) != 9*40 - 3
+# 22 Lower 2 MA #26 distributive property (her miss, last third), made harder per parent: something minus 9 x (40 - 3)
+assert 500 - 9*(40 - 3) == 167 == 500 - 9*40 + 9*3 and 500 - 9*40 - 9*3 == 113 and 500 - 9*40 - 3 == 137
 add('Identifying Number Properties',
-    'Which expression is equivalent to 9 &times; (40 &minus; 3)?',
-    ['(9 &times; 40) &minus; 3', '(9 &minus; 3) &times; 40', '(9 &times; 40) &minus; (9 &times; 3)', '(9 &times; 40) + (9 &times; 3)'], 'C',
-    'The 9 multiplies both numbers inside the parentheses: 9 &times; 40 &minus; 9 &times; 3 = 360 &minus; 27 = 333, and 9 &times; 37 = 333. A multiplies only the 40 (the MA4 #8 slip). D changes minus to plus.',
-    'Lower 2 MA #26 (her miss, last third); MA4 #8', 'last')
+    'Which expression is equivalent to 500 &minus; 9 &times; (40 &minus; 3)?',
+    ['500 &minus; (9 &times; 40) &minus; 3', '500 &minus; (9 &times; 40) &minus; (9 &times; 3)', '500 &minus; (9 &times; 40) + (9 &times; 3)', '(500 &minus; 9) &times; (40 &minus; 3)'], 'C',
+    '9 &times; (40 &minus; 3) = 9 &times; 40 &minus; 9 &times; 3 = 360 &minus; 27 = 333, and 500 &minus; 333 = 167. Taking it away from 500 flips the second sign: 500 &minus; 360 + 27 = 167. B keeps the minus (500 &minus; 360 &minus; 27 = 113). A multiplies only the 40. D subtracts before multiplying.',
+    'Lower 2 MA #26 (her miss, last third); minus in front like QR10 #3 and MA4 #8', 'last')
 
 # 23 Lower 2 MA #29 classification (her miss, last third, 34% right)
 for e in range(2, 41, 2):
@@ -362,6 +353,16 @@ add('Remaining Amount after Reducing by Fractions',
     ['6', '9', '12', '15'], 'A',
     'Marbles: 2/3 of 9 is 6, so 3 are left. Stickers: 3/4 of 12 is 9, so 3 are left. 3 + 3 = 6. D is what he gave away (6 + 9), the MA4 #24 slip.',
     'Lower 1 MA #25 (her miss, last third); MA4 #24', 'last')
+
+# Lower 5 QR #33 picture frame, combo (her miss, last third, 66.1%; parent: each step solid, the combo is the gap)
+side = (30 - 2*9) // 2
+assert side == 6 and 2*(9 + side) == 30 and 3*side - side == 12
+add('Perimeter',
+    'Omar builds picture frames. The first rectangular frame he builds has a perimeter of 30 centimeters (cm). The length of one of the sides is shown. If the unknown side length of the next frame he builds is tripled, by what amount will the unknown side length increase?',
+    ['6', '12', '18', '21'], 'B',
+    'The two 9 cm sides use 18 cm, so the two unknown sides share 30 &minus; 18 = 12 cm, and each is 6 cm. Tripled, it becomes 18 cm. The increase is 18 &minus; 6 = 12 cm. A is the unknown side itself. C is the new length, not the increase. D is 30 &minus; 9.',
+    'Lower 5 QR #33 (her miss, last third, 66.1% right)', 'last',
+    svg(240, 130, f'<rect x="30" y="15" width="160" height="90" fill="none" {SW}/>' + txt(110, 124, '9 cm', 13) + txt(212, 64, '?', 16)))
 
 # 27 Lower 1 MA #30 (35.9% right) with one more step: perimeter of the rectangle
 side27 = 36 // 4; len27 = side27**2 // 3
@@ -413,7 +414,7 @@ assert not any(L[i] == L[i+1] == L[i+2] for i in range(28)), ''.join(L)
 tc = Counter(p['topic'] for p in P)
 assert max(tc.values()) <= 3, tc
 thirds = Counter(MAP[n]['source_third'] for n in MAP); print(thirds)
-assert all(MAP[n]['source_third'] == 'last' for n in range(12, 31))
+assert all(MAP[n]['source_third'] == 'last' for n in range(11, 31)) and all(MAP[n]['source_third'] != 'last' for n in range(1, 11))
 json.dump(P, open(os.path.join(HERE, 'ma5_problems.json'), 'w'), indent=1, ensure_ascii=False)
 json.dump(MAP, open(os.path.join(HERE, 'ma5_mapping.json'), 'w'), indent=1, ensure_ascii=False)
 print('wrote', len(P), 'diagrams', sum(1 for p in P if p['diagram']))

@@ -57,40 +57,22 @@
   "n": 4,
   "tier": "Hard",
   "topic": "Input Output Tables",
-  "q": "The number machine performs the same operation on each input to create an output. What is the output for an input of 46?",
+  "q": "The number machine performs the same operation on each input to create an output. What is the output for an input of 51?",
   "choices": {
-   "A": "37",
-   "B": "55",
-   "C": "56",
-   "D": "92"
+   "A": "33",
+   "B": "41",
+   "C": "42",
+   "D": "60"
   },
-  "correct": "B",
-  "key": "<b>Answer: B.</b> Every output is 9 more than its input: 14 + 9 = 23, 33 + 9 = 42. So 46 + 9 = 55. A subtracts 9. C adds 10. D doubles.",
-  "ref": "Tier: Hard &middot; Topic: Input Output Tables &middot; Wrong so far: 3/7 &middot; New problem &middot; Built on: Lower 6 MA #13 (her miss, middle third); rule kept plain on purpose",
-  "diagram": "<div style=\"font-weight:600;margin-bottom:4px\">NUMBER MACHINE</div><table class=\"data\"><tr><th>Input</th><th>Output</th></tr><tr><td>14</td><td>23</td></tr><tr><td>19</td><td>28</td></tr><tr><td>27</td><td>36</td></tr><tr><td>33</td><td>42</td></tr></table>",
+  "correct": "C",
+  "key": "<b>Answer: C.</b> Every output is 9 less than its input: 23 &minus; 9 = 14, 42 &minus; 9 = 33. So 51 &minus; 9 = 42. D adds 9 instead of subtracting. B subtracts 10. A is the last output in the table, not the output for 51.",
+  "ref": "Tier: Hard &middot; Topic: Input Output Tables &middot; Wrong so far: 3/7 &middot; New problem &middot; Built on: Lower 6 MA #13 (her miss, middle third; that rule was &minus; 7, outputs smaller than inputs)",
+  "diagram": "<div style=\"font-weight:600;margin-bottom:4px\">NUMBER MACHINE</div><table class=\"data\"><tr><th>Input</th><th>Output</th></tr><tr><td>23</td><td>14</td></tr><tr><td>28</td><td>19</td></tr><tr><td>36</td><td>27</td></tr><tr><td>42</td><td>33</td></tr></table>",
   "gid": null,
   "ma_idx": null
  },
  {
   "n": 5,
-  "tier": "Hard",
-  "topic": "Input Output Tables",
-  "q": "The number machine performs the same operation on each input to create an output. What is the output for an input of 40?",
-  "choices": {
-   "A": "20",
-   "B": "25",
-   "C": "30",
-   "D": "45"
-  },
-  "correct": "B",
-  "key": "<b>Answer: B.</b> From 6 to 10 the input goes up 4 and the output goes up 2, so the output grows half as fast: try input &divide; 2. 6 &divide; 2 = 3, and the output is 8, so add 5: output = input &divide; 2 + 5. Check: 24 &divide; 2 + 5 = 17. So 40 &divide; 2 + 5 = 25. A forgets the + 5. D is 40 + 5, leaving out the half (her QR10 #5 slip).",
-  "ref": "Tier: Hard &middot; Topic: Input Output Tables &middot; Wrong so far: 3/7 &middot; New problem &middot; Built on: Lower 6 MA #13 and QR10 #5 (her misses)",
-  "diagram": "<div style=\"font-weight:600;margin-bottom:4px\">NUMBER MACHINE</div><table class=\"data\"><tr><th>Input</th><th>Output</th></tr><tr><td>6</td><td>8</td></tr><tr><td>10</td><td>10</td></tr><tr><td>18</td><td>14</td></tr><tr><td>24</td><td>17</td></tr></table>",
-  "gid": null,
-  "ma_idx": null
- },
- {
-  "n": 6,
   "tier": "Hard",
   "topic": "Input Output Tables",
   "q": "The table shows how a number machine changes each input number (△) into an output number (■). Which equation shows the rule for the number machine?",
@@ -108,7 +90,7 @@
   "ma_idx": null
  },
  {
-  "n": 7,
+  "n": 6,
   "tier": "Hard",
   "topic": "Comparing & Ordering Fractions & Decimals",
   "q": "Which list shows 0.65, <span class=\"frac\"><span class=\"n\">5</span><span class=\"d\">8</span></span>, and <span class=\"frac\"><span class=\"n\">2</span><span class=\"d\">3</span></span> in order from least to greatest?",
@@ -126,7 +108,7 @@
   "ma_idx": null
  },
  {
-  "n": 8,
+  "n": 7,
   "tier": "Hard",
   "topic": "English Unit Conversions",
   "q": "Lena has 5 yards of ribbon. She cuts it into pieces that are each 8 inches long. There are 3 feet in 1 yard and 12 inches in 1 foot. How many 8-inch pieces can she cut?",
@@ -144,7 +126,7 @@
   "ma_idx": null
  },
  {
-  "n": 9,
+  "n": 8,
   "tier": "Hard",
   "topic": "Evaluating Percents of Numbers",
   "q": "A store sells a notebook for $4.50. The price of the notebook decreased by 12%. What is the price of the notebook now?",
@@ -162,7 +144,7 @@
   "ma_idx": null
  },
  {
-  "n": 10,
+  "n": 9,
   "tier": "Hard",
   "topic": "Minimum Distance on Coordinate Plane / Grid",
   "q": "Use the grid to answer the question. How many units is the shortest distance from point A to point B if you can only move down or to the right?",
@@ -180,7 +162,7 @@
   "ma_idx": null
  },
  {
-  "n": 11,
+  "n": 10,
   "tier": "Hard",
   "topic": "Order of Operations and Equivalence",
   "q": "What is the value of 4 &times; 6 &minus; 2 + 3 &times; 5?",
@@ -198,7 +180,7 @@
   "ma_idx": null
  },
  {
-  "n": 12,
+  "n": 11,
   "tier": "Hard",
   "topic": "Data Collection & Random Sampling",
   "q": "Maya recorded information about the books in her class library. She listed the information in categories or groups.<div style=\"margin-top:6px\">1. Type of book: mystery, science, poetry</div><div>2. Language each book is written in</div><div>3. ?</div><div style=\"margin-top:6px\">Which information best completes Maya&rsquo;s list?</div>",
@@ -216,7 +198,7 @@
   "ma_idx": null
  },
  {
-  "n": 13,
+  "n": 12,
   "tier": "Hard",
   "topic": "Counting Multiples within a Range",
   "q": "How many numbers between 27 and 78 are multiples of 7?",
@@ -234,25 +216,25 @@
   "ma_idx": null
  },
  {
-  "n": 14,
+  "n": 13,
   "tier": "Hard",
-  "topic": "Percent Word Problems",
-  "q": "A store owner offered a 20% discount off the regular price of a lamp. The amount of the discount was $9. What is the regular price of the lamp?",
+  "topic": "Identifying Correct Conclusions from Bar Graph Data Table",
+  "q": "The stem-and-leaf plot shows the number of points a basketball team scored in each of 14 games, where 4 | 6 represents 46 points. Based on the data in the stem-and-leaf plot, which conclusion is true?",
   "choices": {
-   "A": "$18",
-   "B": "$36",
-   "C": "$45",
-   "D": "$54"
+   "A": "The team scored at least 35 points in every game.",
+   "B": "The team scored 41 points in 3 games.",
+   "C": "The team scored 35 points in 3 games.",
+   "D": "The team scored 60 or more points in exactly 3 games."
   },
-  "correct": "C",
-  "key": "<b>Answer: C.</b> $9 is 20% of the regular price. 20% is one fifth, so the price is 9 &times; 5 = $45 (or 9 &divide; 0.2). A is 9 &times; 2. B is the sale price, 45 &minus; 9. D adds 9 to 45.",
-  "ref": "Tier: Hard &middot; Topic: Percent Word Problems &middot; Wrong so far: 12/34 &middot; New problem &middot; Built on: Lower 6 MA #28 (her miss, last third); official exercise gid 709 (30% took 1 hour)",
-  "diagram": null,
+  "correct": "B",
+  "key": "<b>Answer: B.</b> Read each leaf with its stem. The 4 row has leaves 0, 1, 1, 1, 6, so 41 appears 3 times. A is false: the lowest score is 32. C is false: 35 appears only twice. D is false: only 60 and 64 are 60 or more, which is 2 games.",
+  "ref": "Tier: Hard &middot; Topic: Identifying Correct Conclusions from Bar Graph Data Table &middot; Wrong so far: 1/7 &middot; New problem &middot; Built on: Lower 2 QR #37 (her miss, last third, 41.7% right)",
+  "diagram": "<div style=\"font-weight:600;margin-bottom:4px\">POINTS SCORED</div><table class=\"data\"><tr><th>Stem</th><th>Leaf</th></tr><tr><td>3</td><td>2 &nbsp;5 &nbsp;5 &nbsp;8</td></tr><tr><td>4</td><td>0 &nbsp;1 &nbsp;1 &nbsp;1 &nbsp;6</td></tr><tr><td>5</td><td>3 &nbsp;7 &nbsp;9</td></tr><tr><td>6</td><td>0 &nbsp;4</td></tr></table><div style=\"font-size:0.85em;margin-top:4px\">Key: 4 | 6 = 46</div>",
   "gid": null,
   "ma_idx": null
  },
  {
-  "n": 15,
+  "n": 14,
   "tier": "Hard",
   "topic": "Percent Word Problems",
   "q": "The price of a bike was increased by 20%. The amount of the increase was $16. What was the price of the bike before the increase?",
@@ -270,7 +252,7 @@
   "ma_idx": null
  },
  {
-  "n": 16,
+  "n": 15,
   "tier": "Hard",
   "topic": "Estimating Multiplication & Division",
   "q": "Maria did the problem 70 &divide; 9 &times; 124. Approximately what was her answer?",
@@ -288,43 +270,43 @@
   "ma_idx": null
  },
  {
-  "n": 17,
+  "n": 16,
   "tier": "Hard",
   "topic": "Converting to a Decimal",
   "q": "Three bottles hold <span class=\"frac\"><span class=\"n\">5</span><span class=\"d\">8</span></span> liter, 0.6 liter, and <span class=\"frac\"><span class=\"n\">7</span><span class=\"d\">10</span></span> liter of water. How much more water does the bottle with the most hold than the bottle with the least?",
   "choices": {
-   "A": "0.075 liter",
-   "B": "0.1 liter",
-   "C": "0.375 liter",
+   "A": "0.025 liter",
+   "B": "0.075 liter",
+   "C": "0.1 liter",
    "D": "0.4 liter"
   },
-  "correct": "B",
-  "key": "<b>Answer: B.</b> 5/8 = 0.625 and 7/10 = 0.7. In order: 0.6, 0.625, 0.7. Most minus least: 0.7 &minus; 0.6 = 0.1. A is 0.7 &minus; 0.625. C is 1 &minus; 5/8. D is 1 &minus; 0.6.",
+  "correct": "C",
+  "key": "<b>Answer: C.</b> 5/8 = 0.625 and 7/10 = 0.7. In order: 0.6, 0.625, 0.7. Most minus least: 0.7 &minus; 0.6 = 0.1. A is 0.625 &minus; 0.6 and B is 0.7 &minus; 0.625: each uses the middle bottle. D is 1 &minus; 0.6.",
   "ref": "Tier: Hard &middot; Topic: Converting to a Decimal &middot; Wrong so far: 9/38 &middot; New problem &middot; Built on: Lower 1 QR #29 (her miss, last third) and QR10 #14",
   "diagram": null,
   "gid": null,
   "ma_idx": null
  },
  {
-  "n": 18,
+  "n": 17,
   "tier": "Hard",
-  "topic": "Nth Term, given Arithmetic Sequence, Progressive Pattern, etc.",
-  "q": "Use the number pattern to answer the question.<div style=\"margin-top:6px\">2, &nbsp;8, &nbsp;32, &nbsp;128, &nbsp;?, &nbsp;?</div><div style=\"margin-top:6px\">What is the sixth number in the pattern?</div>",
+  "topic": "Matching Stories to Equations",
+  "q": "Mia reads the same number of pages each day to finish a book. The list shows what is known.<div style=\"margin-top:6px\">The number of pages in the book is □.</div><div>The number of pages she has already read is ☆.</div><div>The number of days she has left is ○.</div><div style=\"margin-top:6px\">Which equation will determine △, the number of pages she must read each day?</div>",
   "choices": {
-   "A": "256",
-   "B": "512",
-   "C": "2,048",
-   "D": "8,192"
+   "A": "△ = □ &divide; ○ &minus; ☆",
+   "B": "△ = (□ &minus; ☆) &divide; ○",
+   "C": "△ = (□ + ☆) &divide; ○",
+   "D": "△ = ○ &divide; (□ &minus; ☆)"
   },
-  "correct": "C",
-  "key": "<b>Answer: C.</b> Each number is 4 times the one before: 128 &times; 4 = 512 (5th), 512 &times; 4 = 2,048 (6th). A doubles 128. B stops at the 5th. D goes one too far.",
-  "ref": "Tier: Hard &middot; Topic: Nth Term, given Arithmetic Sequence, Progressive Pattern, etc. &middot; Wrong so far: 5/13 &middot; New problem &middot; Built on: Lower 3 MA #21 (her miss, last third)",
+  "correct": "B",
+  "key": "<b>Answer: B.</b> First find the pages still to read: □ &minus; ☆. Share them over the days left: (□ &minus; ☆) &divide; ○. Try numbers: a 200-page book, 50 pages read, 10 days left: 150 &divide; 10 = 15 pages a day. A gives 200 &divide; 10 &minus; 50, which is less than 0. C adds the pages already read. D divides the wrong way.",
+  "ref": "Tier: Hard &middot; Topic: Matching Stories to Equations &middot; Wrong so far: 2/8 &middot; New problem &middot; Built on: Lower 3 QR #37 (her miss, last third, 48% right), with a \"left\" step; MA4 #28, PT6 MA #12, QR10 #4",
   "diagram": null,
   "gid": null,
   "ma_idx": null
  },
  {
-  "n": 19,
+  "n": 18,
   "tier": "Hard",
   "topic": "Nth Term, given Arithmetic Sequence, Progressive Pattern, etc.",
   "q": "In a sequence, each number is 7 more than the number before it. The 5th number in the sequence is 38. What is the 20th number in the sequence?",
@@ -342,25 +324,25 @@
   "ma_idx": null
  },
  {
-  "n": 20,
+  "n": 19,
   "tier": "Hard",
-  "topic": "Cryptarithm / digit substitution",
-  "q": "Each shape shown represents a different digit from 1 through 9. What is the value of ○?",
+  "topic": "Multi-step unit conversion (off-by-10, multi-step)",
+  "q": "Leo spent 2 <span class=\"frac\"><span class=\"n\">5</span><span class=\"d\">6</span></span> hours at the library. Of that time, 1 <span class=\"frac\"><span class=\"n\">1</span><span class=\"d\">4</span></span> hours were spent eating lunch and walking. How many minutes did Leo spend reading? (1 hour = 60 minutes)",
   "choices": {
-   "A": "3",
-   "B": "5",
-   "C": "7",
-   "D": "8"
+   "A": "95",
+   "B": "105",
+   "C": "155",
+   "D": "245"
   },
   "correct": "A",
-  "key": "<b>Answer: A.</b> Start with the hundreds: nothing is subtracted there, but 1 was borrowed, so △ &minus; 1 = 7 and △ = 8. Ones: ○ &minus; 8 needs a borrow, so ○ + 10 &minus; 8 = 5 and ○ = 3. Check the tens: 3 &minus; 1 = 2, borrow again, 12 &minus; 8 = 4. So 833 &minus; 88 = 745. D is △, not ○.",
-  "ref": "Tier: Hard &middot; Topic: Cryptarithm / digit substitution &middot; Wrong so far: 6/10 &middot; New problem &middot; Built on: Lower 3 QR #38 (last third, 40% right); QR3/6/8 misses",
-  "diagram": "<table style=\"margin:0 auto;border-collapse:collapse;font-size:1.25em;\"><tr><td style=\"width:1.6em;text-align:center;padding:3px 0;\"></td><td style=\"width:1.6em;text-align:center;padding:3px 0;\">△</td><td style=\"width:1.6em;text-align:center;padding:3px 0;\">○</td><td style=\"width:1.6em;text-align:center;padding:3px 0;\">○</td></tr><tr><td style=\"width:1.6em;text-align:center;padding:3px 0;\">&minus;</td><td style=\"width:1.6em;text-align:center;padding:3px 0;\"></td><td style=\"width:1.6em;text-align:center;padding:3px 0;\">△</td><td style=\"width:1.6em;text-align:center;padding:3px 0;\">△</td></tr><tr><td style=\"width:1.6em;text-align:center;padding:3px 0;border-top:1.5px solid currentColor;padding-top:6px;\"></td><td style=\"width:1.6em;text-align:center;padding:3px 0;border-top:1.5px solid currentColor;padding-top:6px;\">7</td><td style=\"width:1.6em;text-align:center;padding:3px 0;border-top:1.5px solid currentColor;padding-top:6px;\">4</td><td style=\"width:1.6em;text-align:center;padding:3px 0;border-top:1.5px solid currentColor;padding-top:6px;\">5</td></tr></table>",
+  "key": "<b>Answer: A.</b> 2 5/6 hours: 5/6 of 60 is 50, so it is 120 + 50 = 170 minutes. 1 1/4 hours: 1/4 of 60 is 15, so it is 60 + 15 = 75 minutes. 170 &minus; 75 = 95. B is off by 10 (her QR9 #12 slip). C forgets the 1 whole hour in 1 1/4. D adds instead of subtracting.",
+  "ref": "Tier: Hard &middot; Topic: Multi-step unit conversion (off-by-10, multi-step) &middot; Wrong so far: 6/12 &middot; New problem &middot; Built on: Official ISEE practice exercise gid 1005 (her QR9 #12 miss)",
+  "diagram": null,
   "gid": null,
   "ma_idx": null
  },
  {
-  "n": 21,
+  "n": 20,
   "tier": "Hard",
   "topic": "Value of Digits",
   "q": "Students were asked to write a new number using all the rules shown and the digits 2, 5, 6, 7, and 9. What digit is in the tens place of the new number?",
@@ -378,25 +360,25 @@
   "ma_idx": null
  },
  {
-  "n": 22,
+  "n": 21,
   "tier": "Hard",
   "topic": "Identifying Number Properties",
-  "q": "Which expression is equivalent to 9 &times; (40 &minus; 3)?",
+  "q": "Which expression is equivalent to 500 &minus; 9 &times; (40 &minus; 3)?",
   "choices": {
-   "A": "(9 &times; 40) &minus; 3",
-   "B": "(9 &minus; 3) &times; 40",
-   "C": "(9 &times; 40) &minus; (9 &times; 3)",
-   "D": "(9 &times; 40) + (9 &times; 3)"
+   "A": "500 &minus; (9 &times; 40) &minus; 3",
+   "B": "500 &minus; (9 &times; 40) &minus; (9 &times; 3)",
+   "C": "500 &minus; (9 &times; 40) + (9 &times; 3)",
+   "D": "(500 &minus; 9) &times; (40 &minus; 3)"
   },
   "correct": "C",
-  "key": "<b>Answer: C.</b> The 9 multiplies both numbers inside the parentheses: 9 &times; 40 &minus; 9 &times; 3 = 360 &minus; 27 = 333, and 9 &times; 37 = 333. A multiplies only the 40 (the MA4 #8 slip). D changes minus to plus.",
-  "ref": "Tier: Hard &middot; Topic: Identifying Number Properties &middot; Wrong so far: 1/6 &middot; New problem &middot; Built on: Lower 2 MA #26 (her miss, last third); MA4 #8",
+  "key": "<b>Answer: C.</b> 9 &times; (40 &minus; 3) = 9 &times; 40 &minus; 9 &times; 3 = 360 &minus; 27 = 333, and 500 &minus; 333 = 167. Taking it away from 500 flips the second sign: 500 &minus; 360 + 27 = 167. B keeps the minus (500 &minus; 360 &minus; 27 = 113). A multiplies only the 40. D subtracts before multiplying.",
+  "ref": "Tier: Hard &middot; Topic: Identifying Number Properties &middot; Wrong so far: 1/6 &middot; New problem &middot; Built on: Lower 2 MA #26 (her miss, last third); minus in front like QR10 #3 and MA4 #8",
   "diagram": null,
   "gid": null,
   "ma_idx": null
  },
  {
-  "n": 23,
+  "n": 22,
   "tier": "Hard",
   "topic": "Classification of Numbers, given a Set",
   "q": "Two numbers are greater than 1. One is an even number and the other is a prime number. What will always describe the product of the two numbers?",
@@ -414,7 +396,7 @@
   "ma_idx": null
  },
  {
-  "n": 24,
+  "n": 23,
   "tier": "Hard",
   "topic": "No Remainder when Divided by a given Number",
   "q": "Which number is divisible by 8?",
@@ -432,7 +414,7 @@
   "ma_idx": null
  },
  {
-  "n": 25,
+  "n": 24,
   "tier": "Hard",
   "topic": "Comparing Areas",
   "q": "The length and width of the array shown represent two factors of 18. Which array represents two <u>different</u> factors of 18?<div style=\"margin-top:8px\"><svg viewBox=\"0 0 130 32\" width=\"130\" height=\"32\" role=\"img\"><rect x=\"2\" y=\"2\" width=\"14\" height=\"14\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.2\"/><rect x=\"16\" y=\"2\" width=\"14\" height=\"14\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.2\"/><rect x=\"30\" y=\"2\" width=\"14\" height=\"14\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.2\"/><rect x=\"44\" y=\"2\" width=\"14\" height=\"14\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.2\"/><rect x=\"58\" y=\"2\" width=\"14\" height=\"14\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.2\"/><rect x=\"72\" y=\"2\" width=\"14\" height=\"14\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.2\"/><rect x=\"86\" y=\"2\" width=\"14\" height=\"14\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.2\"/><rect x=\"100\" y=\"2\" width=\"14\" height=\"14\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.2\"/><rect x=\"114\" y=\"2\" width=\"14\" height=\"14\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.2\"/><rect x=\"2\" y=\"16\" width=\"14\" height=\"14\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.2\"/><rect x=\"16\" y=\"16\" width=\"14\" height=\"14\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.2\"/><rect x=\"30\" y=\"16\" width=\"14\" height=\"14\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.2\"/><rect x=\"44\" y=\"16\" width=\"14\" height=\"14\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.2\"/><rect x=\"58\" y=\"16\" width=\"14\" height=\"14\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.2\"/><rect x=\"72\" y=\"16\" width=\"14\" height=\"14\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.2\"/><rect x=\"86\" y=\"16\" width=\"14\" height=\"14\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.2\"/><rect x=\"100\" y=\"16\" width=\"14\" height=\"14\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.2\"/><rect x=\"114\" y=\"16\" width=\"14\" height=\"14\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.2\"/></svg></div>",
@@ -450,7 +432,7 @@
   "ma_idx": null
  },
  {
-  "n": 26,
+  "n": 25,
   "tier": "Hard",
   "topic": "Remaining Amount after Reducing by Fractions",
   "q": "Ravi had 9 marbles and 12 stickers. He gave away <span class=\"frac\"><span class=\"n\">2</span><span class=\"d\">3</span></span> of his marbles and <span class=\"frac\"><span class=\"n\">3</span><span class=\"d\">4</span></span> of his stickers. How many marbles and stickers does he have left?",
@@ -464,6 +446,24 @@
   "key": "<b>Answer: A.</b> Marbles: 2/3 of 9 is 6, so 3 are left. Stickers: 3/4 of 12 is 9, so 3 are left. 3 + 3 = 6. D is what he gave away (6 + 9), the MA4 #24 slip.",
   "ref": "Tier: Hard &middot; Topic: Remaining Amount after Reducing by Fractions &middot; Wrong so far: 5/11 &middot; New problem &middot; Built on: Lower 1 MA #25 (her miss, last third); MA4 #24",
   "diagram": null,
+  "gid": null,
+  "ma_idx": null
+ },
+ {
+  "n": 26,
+  "tier": "Hard",
+  "topic": "Perimeter",
+  "q": "Omar builds picture frames. The first rectangular frame he builds has a perimeter of 30 centimeters (cm). The length of one of the sides is shown. If the unknown side length of the next frame he builds is tripled, by what amount will the unknown side length increase?",
+  "choices": {
+   "A": "6",
+   "B": "12",
+   "C": "18",
+   "D": "21"
+  },
+  "correct": "B",
+  "key": "<b>Answer: B.</b> The two 9 cm sides use 18 cm, so the two unknown sides share 30 &minus; 18 = 12 cm, and each is 6 cm. Tripled, it becomes 18 cm. The increase is 18 &minus; 6 = 12 cm. A is the unknown side itself. C is the new length, not the increase. D is 30 &minus; 9.",
+  "ref": "Tier: Hard &middot; Topic: Perimeter &middot; Wrong so far: 2/13 &middot; New problem &middot; Built on: Lower 5 QR #33 (her miss, last third, 66.1% right)",
+  "diagram": "<svg viewBox=\"0 0 240 130\" width=\"240\" height=\"130\" role=\"img\"><rect x=\"30\" y=\"15\" width=\"160\" height=\"90\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\"/><text x=\"110\" y=\"124\" font-size=\"13\" font-weight=\"normal\" text-anchor=\"middle\" fill=\"currentColor\">9 cm</text><text x=\"212\" y=\"64\" font-size=\"16\" font-weight=\"normal\" text-anchor=\"middle\" fill=\"currentColor\">?</text></svg>",
   "gid": null,
   "ma_idx": null
  },
