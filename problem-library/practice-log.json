@@ -1987,7 +1987,39 @@
    "change_after_publish_2_2026-11-11": "Parent: #7 rebuilt in the QR10 #11 format (Since-statement choices + irrelevant buttons info); answer stays C.",
    "change_after_publish_3_2026-11-11": "Parent: original #7 (ribbon pieces) kept; the QR10 #11-format ribbon/buttons problem replaces #23 (divisible by 8, owed to a later set with Venn).",
    "change_after_publish_4_2026-11-11": "Parent unsure about #10 (4 x 6 - 2 + 3 x 5); replaced with the QR10 #27 two-equation symbol type in the harder MA4 #5 shape. The a x b - c + d x e observation stays untested for now.",
-   "change_after_publish_5_2026-11-11": "Parent caught the #9 coordinate grid again: axis numbers were tiny and grid lines ran through them. Redrawn to match the real grid (gid 1453): half-unit grid squares, arrowed axes, larger serif axis numbers on a background so lines don't cross them, italic A/B. Because each square is now half a unit, choices changed from 8/9/10/11 to 9/10/11/22 (22 = counting squares); answer moved D -> C."
+   "change_after_publish_5_2026-11-11": "Parent caught the #9 coordinate grid again: axis numbers were tiny and grid lines ran through them. Redrawn to match the real grid (gid 1453): half-unit grid squares, arrowed axes, larger serif axis numbers on a background so lines don't cross them, italic A/B. Because each square is now half a unit, choices changed from 8/9/10/11 to 9/10/11/22 (22 = counting squares); answer moved D -> C.",
+   "graded_2026-11-11": {
+    "score": "24/30",
+    "wrong": [
+     8,
+     9,
+     15,
+     16,
+     21,
+     23
+    ],
+    "blank": [],
+    "total_elapsed_minutes": 29.52,
+    "first_then_changed": {
+     "wrong_to_right": [],
+     "wrong_to_wrong": [
+      21
+     ],
+     "right_to_wrong": [
+      16
+     ]
+    },
+    "notes_summary": {
+     "8": "Percent decrease: picked $4.62 (price went UP by 12 cents)",
+     "9": "Grid: counted half-unit squares (22 instead of 11)",
+     "15": "a \u00f7 b \u00d7 c estimate: 600-900 again (3 of 3 the same)",
+     "16": "Three bottles: changed from right (C) to the middle bottle (A)",
+     "21": "Minus in front of a bracket: kept the minus on 9 \u00d7 3",
+     "23": "Right numbers, wrong conclusion (108 < 120 \"does have enough\")"
+    },
+    "vs_ma4": "MA4 21/30 -> MA5 24/30 (23/30 timer-only). Repeats: a\u00f7b\u00d7c estimate 600-900 a third time; minus-before-bracket a fourth bracket miss; percent decrease again. New: half-unit grid squares."
+   },
+   "paper_after_timer_2026-11-11": "Timer ran out during #27-28; she clicked #28 (C, 14 s), #29 (A, 3 s), #30 (C->D, 14 s) as guesses, then redid 28-30 on paper after time (Drive Hannahisee/Scanned_20261111-1812.pdf): 28 D, 29 A, 30 D, all right. Graded with paper answers (24/30); timer-only score 23/30 (#28 wrong). She saw the redrawn #9 grid (fix live 14:33, she started 17:17)."
   }
  ],
  "ma_notes": {
