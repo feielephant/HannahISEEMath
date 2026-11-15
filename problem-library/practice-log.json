@@ -2256,6 +2256,40 @@
     "MA28": "Needs to know the whole is 3 / 0.2 (part / percent).",
     "MA30": "Large-information problem; she skipped the first part, the employer matching. Look for a real matching problem or make one of similar difficulty."
    }
+  },
+  {
+   "test": "ISEE Lower #7 (name inferred; review URL result 5142706)",
+   "result_id": 5142706,
+   "date": "2026-11-15",
+   "qr": {
+    "score": "36/38",
+    "wrong": [
+     34,
+     36
+    ],
+    "blanks": 0,
+    "minutes_known": 33.75,
+    "note": "#22 time not visible in the screenshot. About 34-35 min used. #34: picked 4 = 1/3 of the 12 non-purple coins (left the purple coins out of the total). #36: picked 9, the hundred-thousands digit of 975,318, not the hundreds digit (3). Slow but right (2.5x+ others and 85s+): #16 cryptarithm 99s, #18 balance 94s, #21 symbol story 120s, #27 rotation 185s, #28 wiggles rule 91s, #32 shape identities 92s."
+   },
+   "ma": {
+    "score": "29/30",
+    "wrong": [
+     18
+    ],
+    "minutes": 30.0,
+    "note": "Used exactly 30 min. #18: picked trapezoid for two pairs of parallel sides (3rd real quadrilateral-name miss: PT1 MA #23, PT5 MA #28). #19 input/output find-the-input (\u00f72 + 1) right. Slow but right: #4 bananas 99s, #10 probability 0-1 123s, #23 3/10 = 0.3 158s, #25 1/3 of 59,905 207s (possibly exact division instead of rounding), #26 double bar 127s, #29 ramp 119s."
+   },
+   "gids": "problem_library 1540-1577 (QR); ma_library test_set ISEE LOWER #7 (MA). Screenshots: mathspeed test/actual-practice-tests/ISEE Lower #7/.",
+   "review_page": "reviews/practice-test-7-wrong-2026-11-15.html (local, private: real test content)",
+   "vs_previous": "QR 34 -> 33 -> 36; MA 25 -> 26 -> 29 (PT5, PT6, PT7). No blanks on either section.",
+   "next_qr_plan_2026-11-17": [
+    "Probability, find the unknown count: ?/(known + ?) = given fraction; list the wrong-total answer as a choice. New real miss.",
+    "Digit-rules box asking for one place (hundreds/tens/thousands), largest/smallest even/odd. Real misses PT3 QR #31 and PT7 QR #36; vary which place is asked.",
+    "Quadrilateral names and properties as statement choices (parallel sides, square is a rectangle/rhombus/parallelogram). 3 real misses.",
+    "Speed items she got right slowly: shape identities with 0 and 1, symbol story to equation, quarter-turn rotation, hidden-rule odd-one-out.",
+    "Still open from practice: a \u00f7 b \u00d7 c estimate rounding (3 in a row), minus before a bracket, percent decrease ($4.62 cause pending).",
+    "Owed from QR10/MA5: Venn (WTE #10), divisible by 8 (PT2 MA #24), number-line average, average of mixed numbers."
+   ]
   }
  ],
  "retake_sets": [
