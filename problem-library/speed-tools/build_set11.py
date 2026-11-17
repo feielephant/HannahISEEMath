@@ -156,31 +156,31 @@ WHY = {
 }
 
 # ================= MIDDLE-THIRD TYPES (1-8) =================
-# 3 order fractions (PT3 QR #20 wrong; QR10 #13 wrong)
+# 3 order fractions (Lower 3 QR #20 wrong; QR10 #13 wrong)
 fr = [F(3, 5), F(2, 3), F(5, 8), F(4, 7)]
 assert sorted(fr) == [F(4, 7), F(3, 5), F(5, 8), F(2, 3)]
 add('Comparing & Ordering Fractions & Decimals', 'ORDER', 'middle', f'Which list shows {frac(3,5)}, {frac(2,3)}, {frac(5,8)}, and {frac(4,7)} in order from least to greatest?',
     [f'{frac(4,7)}, {frac(3,5)}, {frac(5,8)}, {frac(2,3)}', f'{frac(4,7)}, {frac(5,8)}, {frac(3,5)}, {frac(2,3)}', f'{frac(3,5)}, {frac(2,3)}, {frac(5,8)}, {frac(4,7)}', f'{frac(2,3)}, {frac(3,5)}, {frac(4,7)}, {frac(5,8)}'], 'A',
     'Compare each to a decimal: 4/7 &asymp; 0.57, 3/5 = 0.6, 5/8 = 0.625, 2/3 &asymp; 0.67. Write them down before ordering. B swaps 3/5 and 5/8. C is just the order they were given in. D orders them by the bottom number (3, 5, 7, 8).',
-    'PT3 QR #20 (gid 139) and QR10 #13: ordering 4 fractions, both wrong')
-# 4 statement to find greater fraction (PT1 QR #22 wrong; PT6 #29)
+    'Lower 3 QR #20 (gid 139) and QR10 #13: ordering 4 fractions, both wrong')
+# 4 statement to find greater fraction (Lower 1 QR #22 wrong; PT6 #29)
 assert F(5, 8) == F(15, 24) and F(7, 12) == F(14, 24) and F(5, 8) > F(7, 12) and F(10, 16) > F(7, 12)
 add('Comparing & Ordering Fractions & Decimals', 'ORDER', 'middle', f'Ana walked {frac(5,8)} of a mile. Ben walked {frac(7,12)} of a mile. Which statement shows how to find the greater distance?',
     [f'{frac(5,8)} = {frac(15,24)} and {frac(7,12)} = {frac(14,24)}, so {frac(5,8)} &gt; {frac(7,12)}', f'{frac(5,8)} = {frac(15,24)} and {frac(7,12)} = {frac(14,24)}, so {frac(5,8)} &lt; {frac(7,12)}', f'{frac(7,12)} has the greater bottom number, so {frac(7,12)} &gt; {frac(5,8)}', f'{frac(5,8)} = {frac(10,16)} and {frac(10,16)} &lt; {frac(7,12)}'], 'A',
     'Make the bottoms the same: 5/8 = 15/24 and 7/12 = 14/24. 15/24 is more, so Ana&rsquo;s 5/8 is greater. B has the right fractions but the wrong sign. C uses the bottom number only. D is false: 10/16 = 0.625 is more than 7/12.',
-    'PT1 QR #22 (gid 60, wrong) and PT6 QR #29 (gid 1530)')
-# 10 categories (PT6 QR #38 wrong, QR10 #1 wrong)
+    'Lower 1 QR #22 (gid 60, wrong) and Lower 6 QR #29 (gid 1530)')
+# 10 categories (Lower 6 QR #38 wrong, QR10 #1 wrong)
 add('Data Collection & Random Sampling', 'DATA', 'middle', 'Maya watched a bird feeder and listed what she observed in categories or groups.<div style="margin-top:6px">1. Kind of bird: robin, cardinal, sparrow</div><div>2. Color of each bird&rsquo;s feathers</div><div>3. ?</div><div style="margin-top:6px">Which information best completes Maya&rsquo;s list?</div>',
     ['the side of the feeder each bird landed on: left or right', 'the number of seeds each bird ate', 'how many minutes each bird stayed', 'the weight of each bird, in grams'], 'A',
     'Items 1 and 2 are categories (words), not numbers. Only A is a category. B, C, and D are all numbers you count or measure.',
-    'PT6 QR #38 (gid 1539, wrong) and QR10 #1 (wrong)')
-# 11 divisible by 3 and 8 (PT1 QR #20 wrong; PT2 MA #24 wrong)
+    'Lower 6 QR #38 (gid 1539, wrong) and QR10 #1 (wrong)')
+# 11 divisible by 3 and 8 (Lower 1 QR #20 wrong; Lower 2 MA #24 wrong)
 ch11 = [312, 316, 328, 333]
 assert [x for x in ch11 if x % 3 == 0 and x % 8 == 0] == [312] and 328 % 8 == 0 and 333 % 3 == 0
 add('No Remainder when Divided by a given Number', 'DIV', 'middle', 'Which whole number is divisible by both 3 and 8 without a remainder?',
     ['312', '316', '328', '333'], 'A',
     'By 3: the digits add to a multiple of 3. 3 + 1 + 2 = 6, yes. By 8: 312 &divide; 8 = 39, yes. C works for 8 (328 &divide; 8 = 41) but not 3 (digits add to 13). D works for 3 but is odd, so not 8.',
-    'PT1 QR #20 (gid 58, wrong) and PT2 MA #24 (divisible by 8, wrong)')
+    'Lower 1 QR #20 (gid 58, wrong) and Lower 2 MA #24 (divisible by 8, wrong)')
 
 # counting multiples in a range (QR9 #36 wrong, Lower 5 MA #29 wrong)
 cnt6 = [k for k in range(39, 95) if k % 2 == 0 and k % 3 == 0]
@@ -218,12 +218,12 @@ add('Measurement Scaling', 'SCALE', 'middle', 'On a map, 2 centimeters stand for
     'QR2 #24-#25 scale problems (#25 wrong)')
 
 # ================= LAST-THIRD TYPES (9-38) =================
-# 9 unit conversion statement (PT6 QR #25 wrong; last 5 attempts 4 wrong)
+# 9 unit conversion statement (Lower 6 QR #25 wrong; last 5 attempts 4 wrong)
 assert 8*3*12 == 288 < 300 and 8*12 == 96
 add('English Unit Conversions', 'UNIT', 'last', 'A roll has 8 yards of ribbon. There are 3 feet in 1 yard and 12 inches in 1 foot. Mia needs 300 inches of ribbon. Which statement best explains whether Mia has enough ribbon?',
     ['Since 8 &times; 3 &times; 12 is less than 300, Mia does not have enough ribbon.', 'Since 8 &times; 3 &times; 12 is less than 300, Mia has enough ribbon.', 'Since 8 &times; 12 is less than 300, Mia does not have enough ribbon.', 'Since 8 &times; 3 &times; 12 is greater than 300, Mia has enough ribbon.'], 'A',
     'Yards to feet: 8 &times; 3 = 24 feet. Feet to inches: 24 &times; 12 = 288 inches. 288 is less than 300, so she does not have enough. C skips the feet step (12 inches in a yard, the QR10 #11 slip). D is wrong arithmetic.',
-    'PT6 QR #25 (gid 1526, wrong) with two steps, like QR10 #11')
+    'Lower 6 QR #25 (gid 1526, wrong) with two steps, like QR10 #11')
 
 # fractions and decimals mixed: longest minus shortest (QR10 #14 wrong, MA5 #16 wrong)
 runs = {'Monday': F(3, 5), 'Tuesday': F(65, 100), 'Wednesday': F(5, 8)}
@@ -232,13 +232,13 @@ add('Converting to a Decimal', 'DEC', 'last', f'Lisa ran {frac(3,5)} mile on Mon
     ['0.025 mile', '0.05 mile', '0.075 mile', '0.25 mile'], 'B',
     'Write every distance as a decimal first: 3/5 = 0.6, 0.65, 5/8 = 0.625. Longest is 0.65 (Tuesday), shortest is 0.6 (Monday). 0.65 &minus; 0.6 = 0.05. 0.025 compares Tuesday with Wednesday instead of the shortest day.',
     'QR10 #14 and MA5 #16 (both wrong)')
-# 15 a / b x c range (PT6 QR #36 wrong; MA5 #15 wrong)
+# 15 a / b x c range (Lower 6 QR #36 wrong; MA5 #15 wrong)
 v15 = F(75, 11) * 190
 assert 1200 < v15 < 1500 and 900 < 6*190 < 1200 and 1200 < 7*200 < 1500
 add('Estimating Multiplication & Division', 'EST', 'last', 'Sam did the problem 75 &divide; 11 &times; 190 on a calculator. Approximately what was his answer?',
     ['between 600 and 900', 'between 900 and 1,200', 'between 1,200 and 1,500', 'between 1,500 and 1,800'], 'C',
     'Work left to right. 75 &divide; 11 is about 7 (77 &divide; 11 = 7). 7 &times; 190 is about 7 &times; 200 = 1,400. Exact: about 1,295. B comes from cutting 75 &divide; 11 down to 6.',
-    'PT6 QR #36 (gid 1537, wrong) and MA5 #15 (wrong): third time on this type')
+    'Lower 6 QR #36 (gid 1537, wrong) and MA5 #15 (wrong): third time on this type')
 
 # quadrilateral: properties to name (Official MA #18 wrong)
 add('Identifying Shapes', 'SHAPES', 'last', 'A quadrilateral has exactly one pair of parallel sides. Its other two sides are equal in length. Which statement about this quadrilateral is true?',
@@ -254,12 +254,12 @@ add('Split Line Segments', 'SPLIT', 'last', 'Points A, B, C, and D are on a line
     ['x &minus; 5 &minus; y', 'x &minus; 5 + y', 'x + 5 + y', '5 + y &minus; x'], 'A',
     'BC is what is left of the whole AD after taking away AB and CD: x &minus; 5 &minus; y. Try numbers: if AD = 20, AB = 5, CD = 6, then BC = 9 = 20 &minus; 5 &minus; 6. x &minus; 5 + y adds CD back.',
     'QR9 #27 (wrong), MA4 #21, QR10 #18', segment())
-# 19 thousands cubes (PT5 QR #38, wrong)
+# 19 thousands cubes (Lower 5 QR #38, wrong)
 assert 20 * 1000 == 2*10*10*10*10
 add('Comparing Volume of Cubes', 'CUBE', 'last', 'The thousands cube shown has a volume of 1,000 cubic centimeters. Exactly 20 of these thousands cubes are used to build a new figure. Which expression shows the volume of the new figure, in cubic centimeters?',
     ['2 &times; 10', '2 &times; 10 &times; 10 &times; 10', '2 &times; 10 &times; 10 &times; 10 &times; 10', '2 &times; 10 &times; 10 &times; 10 &times; 10 &times; 10'], 'C',
     '20 &times; 1,000 = 20,000. 20 = 2 &times; 10 and 1,000 = 10 &times; 10 &times; 10, so 20,000 = 2 &times; 10 &times; 10 &times; 10 &times; 10 (four 10s). B is only 2,000.',
-    'PT5 QR #38 (gid 1494, wrong)', thousands_cube())
+    'Lower 5 QR #38 (gid 1494, wrong)', thousands_cube())
 
 # find the regular price from the discount, then one more step (QR10 #6 wrong, Lower 6 MA #28 wrong)
 reg = 9 * 4; sale = reg - 9
@@ -299,12 +299,12 @@ add('Area of Triangles', 'TRI', 'last', 'The base of a triangle is 14 centimeter
     ['The value of A is always 7 times the value of the height.', 'The value of A is always 14 times the value of the height.', f'The value of A is always {frac(1,2)} the value of the height.', 'The value of A is always 28 times the value of the height.'], 'A',
     'A = 1/2 &times; 14 &times; height = 7 &times; height. The second choice forgets the 1/2. The third uses only the 1/2. The last doubles instead of halving.',
     'MA4 #17 (wrong), QR10 #20, MA5 #28')
-# 32 midpoint on a number line (PT2 QR #33)
+# 32 midpoint on a number line (Lower 2 QR #33)
 assert 2*NL_D - NL_C == 44
 add('Determining Averages between Points on Number Lines', 'NUMLINE', 'last', 'The tick marks on the number line are evenly spaced. D is the midpoint between C and another point, E. What is the value of E?',
     ['16', '20', '40', '44'], 'D',
     'Each tick is 4 (5 jumps from 0 to 20). C = 12 and D = 28. From C to D is 16, so E is 16 more than D: 28 + 16 = 44. 16 stops at the distance between C and D. 40 adds C and D.',
-    'PT2 QR #33 (gid 112) and What to Expect QR #35 (gid 37)', number_line())
+    'Lower 2 QR #33 (gid 112) and What to Expect QR #35 (gid 37)', number_line())
 
 # yards, feet, inches statements (QR8 #6 wrong)
 def inches(yd, ft, inch): return yd*36 + ft*12 + inch
@@ -324,7 +324,7 @@ add('Finding Ratios given Probability', 'PROB', 'last', 'The table shows the num
     table(['Color', 'Number'], [['Red', 5], ['Blue', 7], ['Green', 4], ['Yellow', 8], ['Purple', '?']], 'MARBLES IN THE BAG'),
     ['4', '6', '8', '12'], 'C',
     'The other marbles: 5 + 7 + 4 + 8 = 24. The total must include the purple ones. Check 8: 8 out of 24 + 8 = 32, and 8/32 = 1/4. 6 is 1/4 of 24, leaving purple out of the total (the Official Lower test slip).',
-    'Official QR #34 (gid 1573, wrong) and PT5 QR #37 (gid 1493, 145 s)')
+    'Official QR #34 (gid 1573, wrong) and Lower 5 QR #37 (gid 1493, 145 s)')
 
 # nth term from the start (QR8 #23 wrong)
 seq = [7 + 4*k for k in range(25)]
@@ -348,12 +348,12 @@ add('Estimating Multiplication & Division', 'EST', 'last', f'Josh did the proble
     ['between 600 and 900', 'between 900 and 1,200', 'between 1,200 and 1,500', 'between 1,500 and 2,000'], 'B',
     '61 &divide; 30 is about 2. 2 &times; 482 is about 960. Exact: about 980. Divide the pair that goes together first.',
     'What to Expect QR #33 (gid 35, wrong)')
-# 33 compare areas and perimeters (PT2 QR #38, wrong)
+# 33 compare areas and perimeters (Lower 2 QR #38, wrong)
 assert 10*10 == 5*20 and 4*10 < 2*(5+20)
 add('Comparing Areas', 'AREAS', 'last', 'The floor of Room A is a square with an area of 100 square feet. The floor of Room B is a rectangle 5 feet wide and 20 feet long. Which statement correctly compares the two floors?',
     ['The area of Room A is greater than the area of Room B.', 'The area of Room A is less than the area of Room B.', 'The perimeter of Room A is equal to the perimeter of Room B.', 'The perimeter of Room A is less than the perimeter of Room B.'], 'D',
     'Room A: 10 &times; 10 = 100, so its sides are 10 and its perimeter is 40. Room B: area 5 &times; 20 = 100 (the same), perimeter 5 + 20 + 5 + 20 = 50. 40 is less than 50.',
-    'PT2 QR #38 (gid 117, wrong)')
+    'Lower 2 QR #38 (gid 117, wrong)')
 
 # pour out a fraction and a decimal, estimate what is left (QR9 #13 wrong)
 left = F(32, 10) - F(3, 4) - F(16, 10)
@@ -362,11 +362,11 @@ add('Converting to a Decimal', 'DEC', 'last', f'A jug holds 3.2 liters of juice.
     [f'less than {frac(1,2)} liter', f'more than {frac(1,2)} liter and less than {frac(3,4)} liter', f'more than {frac(3,4)} liter and less than 1 liter', f'more than 1 liter and less than 1{frac(1,2)} liters'], 'C',
     '3/4 = 0.75. 3.2 &minus; 0.75 &minus; 1.6 = 0.85 liter, which is between 3/4 (0.75) and 1. The last choice comes from reading 3/4 as 0.34.',
     'QR9 #13 (wrong) and MA4 #9')
-# 23 always-true statement (PT1 MA #23, wrong; PT5 MA #28, wrong)
+# 23 always-true statement (Lower 1 MA #23, wrong; Lower 5 MA #28, wrong)
 add('Identifying Shapes', 'SHAPES', 'last', 'Which statement is always true?',
     ['A rhombus is always a square.', 'A trapezoid always has two pairs of parallel sides.', 'A rectangle always has four sides of equal length.', 'A square is always a rhombus.'], 'D',
     'A rhombus has 4 equal sides. A square has 4 equal sides (and 4 right angles), so every square is a rhombus. A is backwards: a rhombus does not need right angles. B: one pair only. C: only a square.',
-    'PT1 MA #23 and PT5 MA #28 (both wrong)')
+    'Lower 1 MA #23 and Lower 5 MA #28 (both wrong)')
 
 # formula rearranged (QR7 #37 wrong)
 for w in (2, 3, 4, 6):
@@ -391,7 +391,7 @@ add('Value of Digits', 'DIGIT', 'last', 'Students wrote a new number using the d
     '<div style="border:1px solid var(--border);border-radius:6px;padding:6px 10px;margin:8px 0;max-width:420px"><b>RULES FOR THE NEW NUMBER</b><div>1. The number must have 6 digits.</div><div>2. The number must be odd.</div><div>3. The number must be the smallest number possible.</div><div>4. Each digit can be used only once.</div></div>What digit is in the <b>hundreds</b> place of the new number?',
     ['2', '5', '6', '9'], 'C',
     'Smallest: put the small digits in front. Odd: the ones digit must be 5, 7, or 9; use the biggest odd one (9) at the end so the front stays small: 245,679. Write the places under it: hundreds is 6. A is the first digit.',
-    'Official QR #36 (gid 1575, wrong) and PT3 QR #31 (gid 150, wrong)')
+    'Official QR #36 (gid 1575, wrong) and Lower 3 QR #31 (gid 150, wrong)')
 
 # overall percent change (QR9 #16 wrong, MA4 #13 wrong)
 assert F(150, 100) * F(60, 100) == F(90, 100)
@@ -415,7 +415,7 @@ add('Percent Word Problems', 'PCTWORD', 'last', 'A shop had 300 bracelets. On Sa
     ['40', '60', '100', '120'], 'B',
     '40% of 300 = 120 sold, so 300 &minus; 120 = 180 were not sold. 1/3 of 180 = 60. 40 takes 1/3 of the sold bracelets. 100 takes 1/3 of all 300. 120 stops at the number sold.',
     'QR8 #31 (wrong)')
-# 28 digit rules, tens place (PT3 QR #31, wrong)
+# 28 digit rules, tens place (Lower 3 QR #31, wrong)
 cands = [int(''.join(p)) for p in permutations('13468') if int(p[-1]) % 2 == 0]
 best = max(cands)
 assert best == 86314 and str(best)[-2] == '1'
@@ -423,7 +423,7 @@ add('Value of Digits', 'DIGIT', 'last', 'Students wrote a new number using the d
     '<div style="border:1px solid var(--border);border-radius:6px;padding:6px 10px;margin:8px 0;max-width:420px"><b>RULES FOR THE NEW NUMBER</b><div>1. The number must have 5 digits.</div><div>2. The number must be even.</div><div>3. The number must be the largest number possible.</div><div>4. Each digit can be used only once.</div></div>What digit is in the <b>tens</b> place of the new number?',
     ['1', '3', '4', '8'], 'A',
     'Largest: big digits in front. Even: the ones digit must be 4, 6, or 8; use the smallest even one (4) at the end so the front stays big: 86,314. Tens place is 1. C (4) is the tens digit of 86,341, which is odd.',
-    'PT3 QR #31 (gid 150, wrong) and PT2 QR #35 (gid 114)')
+    'Lower 3 QR #31 (gid 150, wrong) and Lower 2 QR #35 (gid 114)')
 
 # fraction of what is left, then add (QR9 #38 wrong, MA4 #24 wrong)
 c1 = 96 - 96 // 4; c2 = c1 - c1 // 3; c3 = c2 + 10
@@ -432,21 +432,21 @@ add('Remaining Amount after Reducing by Fractions', 'REMFRAC', 'last', f'A libra
     ['48', '50', '58', '82'], 'C',
     'Morning: 1/4 of 96 = 24, so 72 are left. Afternoon: 1/3 of 72 = 24, so 48 are left. Add 10: 58. 48 forgets the 10 new books. 50 takes 1/3 of all 96 instead of the 72 left.',
     'QR9 #38 and MA4 #24 (both wrong), QR8 #21')
-# 37 increase then decrease (PT4 QR #38, wrong; percent decrease open from MA5 #8)
+# 37 increase then decrease (Lower 4 QR #38, wrong; percent decrease open from MA5 #8)
 p1 = F(50) * F(110, 100); p2 = p1 * F(90, 100)
 assert p1 == 55 and p2 == F(99, 2)
 add('Percent Increase Decrease basic', 'PCT', 'last', 'A game costs $50. The price is increased by 10%. Later, the new price is decreased by 10%. What is the final price?',
     ['$44.50', '$45.00', '$49.50', '$50.00'], 'C',
     'Up 10% of $50: $5, so $55. Down 10% of the NEW price $55: $5.50, so $55 &minus; $5.50 = $49.50. $50.00 thinks the two 10%s cancel out. $44.50 takes 10% of $55 from $50. The second 10% is of a bigger number.',
-    'PT4 QR #38 (gid 198, wrong) and MA5 #8 (wrong, percent decrease)')
-# 38 minus before a group (PT2 MA #26, MA4 #8, MA5 #21: all wrong)
+    'Lower 4 QR #38 (gid 198, wrong) and MA5 #8 (wrong, percent decrease)')
+# 38 minus before a group (Lower 2 MA #26, MA4 #8, MA5 #21: all wrong)
 v38 = 40 - (15 + 9 - 4)
 ex38 = {'A': 40 - 15 - 9 + 4, 'B': 40 - 15 + 9 - 4, 'C': 40 - 15 - 9 - 4, 'D': 40 + 15 - 9 + 4}
 assert v38 == 20 and [k for k, v in ex38.items() if v == v38] == ['A']
 add('Order of Operations and Equivalence', 'OOO', 'last', 'Which expression has the same value as 40 &minus; (15 + 9 &minus; 4)?',
     ['40 &minus; 15 &minus; 9 + 4', '40 &minus; 15 + 9 &minus; 4', '40 &minus; 15 &minus; 9 &minus; 4', '40 + 15 &minus; 9 + 4'], 'A',
     'The minus in front takes away the whole group: 15 + 9 &minus; 4 = 20, and 40 &minus; 20 = 20. Taking away the group flips each sign inside: &minus;15, &minus;9, +4, which gives 20. C forgets to flip the &minus;4 (it gives 12).',
-    'PT2 MA #26 and MA5 #21 (minus before a bracket, wrong)')
+    'Lower 2 MA #26 and MA5 #21 (minus before a bracket, wrong)')
 
 assert len(P) == 38
 M2 = {}
