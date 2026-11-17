@@ -18,7 +18,7 @@ for x in P:
     k=(s,x.get('question_number'))
     if k in seen: continue
     seen.add(k)
-    add(x.get('official_topic'),QRD[s],short(s)+' QR #%s'%x.get('question_number'),x.get('question_number'),x['is_wrong'],'realQR')
+    add(x.get('topic_override') or x.get('official_topic'),QRD[s],short(s)+' QR #%s'%x.get('question_number'),x.get('question_number'),x['is_wrong'],'realQR')
 MAD={'ISEE LOWER #%d'%i:QRD['ISEE Lower #%d'%i] if i<6 else QRD['ISEE LOWER #%d'%i] for i in range(1,7)}; MAD['OFFICIAL LOWER']=QRD['OFFICIAL LOWER']
 seen=set()
 for m in M:

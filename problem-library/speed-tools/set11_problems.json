@@ -250,7 +250,7 @@
   },
   "correct": "C",
   "key": "<b>Answer: C.</b> Work left to right. 75 &divide; 11 is about 7 (77 &divide; 11 = 7). 7 &times; 190 is about 7 &times; 200 = 1,400. Exact: about 1,295. B comes from cutting 75 &divide; 11 down to 6.",
-  "ref": "Tier: Hard &middot; Topic: Estimating Multiplication & Division &middot; Type: real last third &middot; Built like: PT6 QR #36 (gid 1537, wrong) and MA5 #15 (wrong): third time on this type &middot; Real tests: 5 middle-third + 5 last-third items &middot; Last done: Official QR #35 11-15 &middot; Last wrong: MA5 #15 11-11 &middot; Last 5: 2/5 wrong &middot; Since 10/25: 3/13 wrong",
+  "ref": "Tier: Hard &middot; Topic: Estimating Multiplication & Division &middot; Type: real last third &middot; Built like: PT6 QR #36 (gid 1537, wrong) and MA5 #15 (wrong): third time on this type &middot; Real tests: 5 middle-third + 4 last-third items &middot; Last done: Official MA #28 11-15 &middot; Last wrong: MA5 #15 11-11 &middot; Last 5: 2/5 wrong &middot; Since 10/25: 3/12 wrong",
   "diagram": null,
   "needs_diagram": false
  },
@@ -267,7 +267,7 @@
   },
   "correct": "B",
   "key": "<b>Answer: B.</b> 61 &divide; 30 is about 2. 2 &times; 482 is about 960. Exact: about 980. Divide the pair that goes together first.",
-  "ref": "Tier: Hard &middot; Topic: Estimating Multiplication & Division &middot; Type: real last third &middot; Built like: What to Expect QR #33 (gid 35, wrong) &middot; Real tests: 5 middle-third + 5 last-third items &middot; Last done: Official QR #35 11-15 &middot; Last wrong: MA5 #15 11-11 &middot; Last 5: 2/5 wrong &middot; Since 10/25: 3/13 wrong",
+  "ref": "Tier: Hard &middot; Topic: Estimating Multiplication & Division &middot; Type: real last third &middot; Built like: What to Expect QR #33 (gid 35, wrong) &middot; Real tests: 5 middle-third + 4 last-third items &middot; Last done: Official MA #28 11-15 &middot; Last wrong: MA5 #15 11-11 &middot; Last 5: 2/5 wrong &middot; Since 10/25: 3/12 wrong",
   "diagram": null,
   "needs_diagram": false
  },
@@ -284,7 +284,7 @@
   },
   "correct": "B",
   "key": "<b>Answer: B.</b> 42 &times; 19 is about 40 &times; 20 = 800. Add the 286, about 300: 800 + 300 = 1,100. A forgets the 286. D multiplies 300 by 20.",
-  "ref": "Tier: Hard &middot; Topic: Estimating Multiplication & Division &middot; Type: real last third &middot; Built like: PT2 QR #24 (gid 102, wrong) &middot; Real tests: 5 middle-third + 5 last-third items &middot; Last done: Official QR #35 11-15 &middot; Last wrong: MA5 #15 11-11 &middot; Last 5: 2/5 wrong &middot; Since 10/25: 3/13 wrong",
+  "ref": "Tier: Hard &middot; Topic: Estimating Multiplication & Division &middot; Type: real last third &middot; Built like: PT2 QR #24 (gid 102, wrong) &middot; Real tests: 5 middle-third + 4 last-third items &middot; Last done: Official MA #28 11-15 &middot; Last wrong: MA5 #15 11-11 &middot; Last 5: 2/5 wrong &middot; Since 10/25: 3/12 wrong",
   "diagram": null,
   "needs_diagram": false
  },
@@ -335,7 +335,7 @@
   },
   "correct": "D",
   "key": "<b>Answer: D.</b> Each friend paid &#9675;, and there are &#9633; friends, so the total is &#9675; &times; &#9633;. Try numbers: 4 friends paid $5 each, total $20 = 5 &times; 4. A is the Practice Test 3 answer, but this time the total is unknown.",
-  "ref": "Tier: Hard &middot; Topic: Matching Stories to Equations &middot; Type: real last third &middot; Built like: PT3 QR #37 (gid 156, wrong), reversed to find the total &middot; Real tests: 2 middle-third + 5 last-third items &middot; Last done: Official QR #26 11-15 &middot; Last wrong: QR10 #4 11-10 &middot; Last 5: 0/5 wrong &middot; Since 10/25: 3/13 wrong",
+  "ref": "Tier: Hard &middot; Topic: Matching Stories to Equations &middot; Type: real last third &middot; Built like: PT3 QR #37 (gid 156, wrong), reversed to find the total &middot; Real tests: 2 middle-third + 6 last-third items &middot; Last done: Official QR #35 11-15 &middot; Last wrong: QR10 #4 11-10 &middot; Last 5: 0/5 wrong &middot; Since 10/25: 3/14 wrong",
   "diagram": null,
   "needs_diagram": false
  },
@@ -352,7 +352,7 @@
   },
   "correct": "A",
   "key": "<b>Answer: A.</b> Tiles along the length: 96 &divide; 8 = 12. Along the width: 54 &divide; 6 = 9. 12 &times; 9 = 108 tiles. C and D subtract instead of dividing. B adds the tile sides instead of multiplying them.",
-  "ref": "Tier: Hard &middot; Topic: Matching Stories to Equations &middot; Type: real last third &middot; Built like: PT2 QR #32 (gid 111, wrong) and Official QR #26 (gid 1565) &middot; Real tests: 2 middle-third + 5 last-third items &middot; Last done: Official QR #26 11-15 &middot; Last wrong: QR10 #4 11-10 &middot; Last 5: 0/5 wrong &middot; Since 10/25: 3/13 wrong",
+  "ref": "Tier: Hard &middot; Topic: Matching Stories to Equations &middot; Type: real last third &middot; Built like: PT2 QR #32 (gid 111, wrong) and Official QR #26 (gid 1565) &middot; Real tests: 2 middle-third + 6 last-third items &middot; Last done: Official QR #35 11-15 &middot; Last wrong: QR10 #4 11-10 &middot; Last 5: 0/5 wrong &middot; Since 10/25: 3/14 wrong",
   "diagram": null,
   "needs_diagram": false
  },

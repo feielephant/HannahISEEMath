@@ -41817,7 +41817,9 @@
   "recapture_source_images": [
    "mathspeed test/actual-practice-tests/Official Lower/Screenshot 2026-11-15 at 1.26.42\u202fPM.png"
   ],
-  "global_id": 1574
+  "global_id": 1574,
+  "topic_override": "Matching Stories to Equations",
+  "topic_override_reason": "Parent 11/17: not an estimation problem (no estimating); it asks which steps to use (friends x 8, then / 5). Test Innovators follow-up label is Estimating Multiplication & Division."
  },
  {
   "source_file": "mathspeed test/actual-practice-tests/Official Lower/Screenshot 2026-11-15 at 1.26.43\u202fPM.png",

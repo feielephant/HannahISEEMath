@@ -201,13 +201,13 @@
   "third": "last",
   "model": "PT6 QR #36 (gid 1537, wrong) and MA5 #15 (wrong): third time on this type",
   "real_mid": 5,
-  "real_last": 5,
-  "real_wrong": "4/19",
-  "last_done": "Official QR #35 11-15",
+  "real_last": 4,
+  "real_wrong": "4/18",
+  "last_done": "Official MA #28 11-15",
   "last_wrong": "MA5 #15 11-11",
   "last5": "2/5",
-  "since1025": "3/13",
-  "total": "8/34"
+  "since1025": "3/12",
+  "total": "8/33"
  },
  "16": {
   "group": "EST",
@@ -215,13 +215,13 @@
   "third": "last",
   "model": "What to Expect QR #33 (gid 35, wrong)",
   "real_mid": 5,
-  "real_last": 5,
-  "real_wrong": "4/19",
-  "last_done": "Official QR #35 11-15",
+  "real_last": 4,
+  "real_wrong": "4/18",
+  "last_done": "Official MA #28 11-15",
   "last_wrong": "MA5 #15 11-11",
   "last5": "2/5",
-  "since1025": "3/13",
-  "total": "8/34"
+  "since1025": "3/12",
+  "total": "8/33"
  },
  "17": {
   "group": "EST",
@@ -229,13 +229,13 @@
   "third": "last",
   "model": "PT2 QR #24 (gid 102, wrong)",
   "real_mid": 5,
-  "real_last": 5,
-  "real_wrong": "4/19",
-  "last_done": "Official QR #35 11-15",
+  "real_last": 4,
+  "real_wrong": "4/18",
+  "last_done": "Official MA #28 11-15",
   "last_wrong": "MA5 #15 11-11",
   "last5": "2/5",
-  "since1025": "3/13",
-  "total": "8/34"
+  "since1025": "3/12",
+  "total": "8/33"
  },
  "18": {
   "group": "CUBE",
@@ -271,13 +271,13 @@
   "third": "last",
   "model": "PT3 QR #37 (gid 156, wrong), reversed to find the total",
   "real_mid": 2,
-  "real_last": 5,
-  "real_wrong": "3/14",
-  "last_done": "Official QR #26 11-15",
+  "real_last": 6,
+  "real_wrong": "3/15",
+  "last_done": "Official QR #35 11-15",
   "last_wrong": "QR10 #4 11-10",
   "last5": "0/5",
-  "since1025": "3/13",
-  "total": "5/21"
+  "since1025": "3/14",
+  "total": "5/22"
  },
  "21": {
   "group": "STORY",
@@ -285,13 +285,13 @@
   "third": "last",
   "model": "PT2 QR #32 (gid 111, wrong) and Official QR #26 (gid 1565)",
   "real_mid": 2,
-  "real_last": 5,
-  "real_wrong": "3/14",
-  "last_done": "Official QR #26 11-15",
+  "real_last": 6,
+  "real_wrong": "3/15",
+  "last_done": "Official QR #35 11-15",
   "last_wrong": "QR10 #4 11-10",
   "last5": "0/5",
-  "since1025": "3/13",
-  "total": "5/21"
+  "since1025": "3/14",
+  "total": "5/22"
  },
  "22": {
   "group": "SHAPES",
