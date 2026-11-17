@@ -1671,7 +1671,7 @@
     "25": "What to Expect QR #33 (gid 35, wrong)",
     "26": "Lower 2 QR #38 (gid 117, wrong)",
     "27": "QR9 #13 (wrong) and MA4 #9",
-    "28": "Lower 1 MA #23 and Lower 5 MA #28 (both wrong)",
+    "28": "Official MA #18 and Lower 5 MA #28 (both wrong), Lower 6 MA #27 (171 s)",
     "29": "QR7 #37 (wrong) and QR7 #1 (wrong)",
     "30": "QR9 #12 (wrong), MA5 #19, MA4 #7",
     "31": "Official QR #36 (gid 1575, wrong) and Lower 3 QR #31 (gid 150, wrong)",
@@ -2070,7 +2070,8 @@
     "answers": "DCAABCBCAABABACBBDCDADDCBCCACBADDBDDBA",
     "published_commit": "61228997aff0f9cf2ae83c7d45f0c7bc847c9f8b",
     "note": "First 38-problem version (24 last-third + 14 middle-third) replaced the same day before she took it; worksheet storage keys moved to speed-set-11-v2."
-   }
+   },
+   "duplicate_check_2026-11-17": "Compared with every earlier practice set and real item. Same type with different numbers is intended. Replaced 2 near-repeats: #28 (was QR10 #16 statements, same answer) and #30 (same answer 95 and 3 shared choices as MA5 #19)."
   }
  ],
  "rotation_notes": {

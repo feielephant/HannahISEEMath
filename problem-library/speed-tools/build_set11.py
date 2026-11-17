@@ -362,11 +362,15 @@ add('Converting to a Decimal', 'DEC', 'last', f'A jug holds 3.2 liters of juice.
     [f'less than {frac(1,2)} liter', f'more than {frac(1,2)} liter and less than {frac(3,4)} liter', f'more than {frac(3,4)} liter and less than 1 liter', f'more than 1 liter and less than 1{frac(1,2)} liters'], 'C',
     '3/4 = 0.75. 3.2 &minus; 0.75 &minus; 1.6 = 0.85 liter, which is between 3/4 (0.75) and 1. The last choice comes from reading 3/4 as 0.34.',
     'QR9 #13 (wrong) and MA4 #9')
-# 23 always-true statement (Lower 1 MA #23, wrong; Lower 5 MA #28, wrong)
-add('Identifying Shapes', 'SHAPES', 'last', 'Which statement is always true?',
-    ['A rhombus is always a square.', 'A trapezoid always has two pairs of parallel sides.', 'A rectangle always has four sides of equal length.', 'A square is always a rhombus.'], 'D',
-    'A rhombus has 4 equal sides. A square has 4 equal sides (and 4 right angles), so every square is a rhombus. A is backwards: a rhombus does not need right angles. B: one pair only. C: only a square.',
-    'Lower 1 MA #23 and Lower 5 MA #28 (both wrong)')
+# shape from several conditions (Official MA #18 wrong, Lower 5 MA #28 wrong; Lower 6 MA #27 right but 171 s)
+PROPS = {'trapezoid': dict(par=1, eq=False, right=False), 'rectangle': dict(par=2, eq=False, right=True),
+         'rhombus': dict(par=2, eq=True, right=False), 'square': dict(par=2, eq=True, right=True)}
+# "always two pairs parallel, always 4 equal sides, does NOT always have right angles"
+assert [k for k, v in PROPS.items() if v['par'] == 2 and v['eq'] and not v['right']] == ['rhombus']
+add('Identifying Shapes', 'SHAPES', 'last', 'Which shape ALWAYS has two pairs of parallel sides and four sides of equal length, but does NOT always have four right angles?',
+    ['trapezoid', 'rectangle', 'rhombus', 'square'], 'C',
+    'Check all three conditions. A rhombus has two pairs of parallel sides and 4 equal sides, and its angles do not have to be right angles. A square always has right angles. A rectangle does not always have 4 equal sides. A trapezoid has only one pair of parallel sides.',
+    'Official MA #18 and Lower 5 MA #28 (both wrong), Lower 6 MA #27 (171 s)')
 
 # formula rearranged (QR7 #37 wrong)
 for w in (2, 3, 4, 6):
@@ -376,12 +380,12 @@ add('Solving Problems with Geometric Formulas', 'GEOFORM', 'last', 'The volume o
     '60 = l &times; w &times; 5. Divide both sides by 5: 12 = l &times; w. Then l = 12 &divide; w. 55 subtracts the height instead of dividing. 300 multiplies by the height.',
     'QR7 #37 (wrong) and QR7 #1 (wrong)')
 
-# mixed-number hours to minutes, then subtract (QR9 #12 wrong)
-total_m = 3*60 + 60 // 3; off_m = 60 + 60*3 // 4
-assert (total_m, off_m, total_m - off_m) == (200, 105, 95) and total_m - 45 == 155
-add('Multi-step unit conversion (off-by-10, multi-step)', 'MSUNIT', 'last', f'Nora spent 3{frac(1,3)} hours at the park. Of that time, 1{frac(3,4)} hours were spent eating lunch and riding the bus. How many minutes did Nora spend playing? (1 hour = 60 minutes)',
-    ['25', '95', '105', '155'], 'B',
-    '3 1/3 hours = 180 + 20 = 200 minutes. 1 3/4 hours = 60 + 45 = 105 minutes. 200 &minus; 105 = 95. 105 is the lunch-and-bus time. 155 forgets the 1 whole hour in 1 3/4.',
+# mixed-number hours to minutes, then subtract (QR9 #12 wrong) - numbers changed from MA5 #19
+total_m = 3*60 + 60 // 3; off_m = 60 + 60*2 // 5
+assert (total_m, off_m, total_m - off_m) == (200, 84, 116) and total_m - 24 == 176
+add('Multi-step unit conversion (off-by-10, multi-step)', 'MSUNIT', 'last', f'Nora spent 3{frac(1,3)} hours at the park. Of that time, 1{frac(2,5)} hours were spent eating lunch and riding the bus. How many minutes did Nora spend playing? (1 hour = 60 minutes)',
+    ['84', '116', '176', '200'], 'B',
+    '3 1/3 hours = 180 + 20 = 200 minutes. 2/5 of an hour = 60 &divide; 5 &times; 2 = 24 minutes, so 1 2/5 hours = 84 minutes. 200 &minus; 84 = 116. 176 forgets the 1 whole hour in 1 2/5. 84 is the lunch-and-bus time. 200 is the whole park time.',
     'QR9 #12 (wrong), MA5 #19, MA4 #7')
 # 27 digit rules, hundreds place (Official QR #36, wrong)
 cands = [int(''.join(p)) for p in permutations('245679') if int(p[-1]) % 2 == 1]

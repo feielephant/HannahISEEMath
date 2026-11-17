@@ -381,7 +381,7 @@
   "group": "SHAPES",
   "topic": "Identifying Shapes",
   "third": "last",
-  "model": "Lower 1 MA #23 and Lower 5 MA #28 (both wrong)",
+  "model": "Official MA #18 and Lower 5 MA #28 (both wrong), Lower 6 MA #27 (171 s)",
   "real_mid": 0,
   "real_last": 5,
   "real_wrong": "3/15",
