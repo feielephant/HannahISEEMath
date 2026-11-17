@@ -10,7 +10,7 @@ G={'EST':['Estimating Multiplication & Division'],'CUBE':['Comparing Volume of C
 'EQUIV':['Equivalent Fractions, Decimals, and Percents','Determining Fraction/Percent of Shaded Area, given Figure'],'PICTO':['Interpreting Pictographs','Cryptarithm / digit substitution'],
 'PAT':['Numerical Patterns'],'ORDER':['Comparing & Ordering Fractions & Decimals'],'RATIO':['Word Problems with Ratios'],'MMMR':['Finding MMMR, given Bar Graph/Data Table of Values','Finding MMMR given Bar Graph Data Table','Finding Median, given Sets of Numbers'],
 'DATA':['Data Collection & Random Sampling'],'UNIT':['English Unit Conversions'],'DIV':['No Remainder when Divided by a given Number','No Remainder when Divided by two given Numbers'],'VENN':['Solving for Subsets in a Venn Diagram'],
-'PCT':['Percent Increase & Decrease (basic)','Percent Increase Decrease basic','Percent Word Problems'],'OOO':['Order of Operations and Equivalence','Translating Math Expressions'],'AVGMIX':['Averaging Mixed Numbers'],'RECT':['Finding Area/Perimeter of Rectangle, given Length & Width']}
+'PCT':['Percent Increase & Decrease (basic)','Percent Increase Decrease basic'],'PCTWORD':['Percent Word Problems'],'DEC':['Converting to a Decimal'],'MSUNIT':['Multi-step unit conversion (off-by-10, multi-step)'],'SPLIT':['Split Line Segments'],'MULT':['Counting Multiples within a Range'],'NTH':['Nth Term, given Arithmetic Sequence, Progressive Pattern, etc.'],'REMFRAC':['Remaining Amount after Reducing by Fractions'],'NUMPROP':['Identifying Number Properties'],'TRI':['Area of Triangles'],'IO':['Input/Output Tables','Input Output Tables'],'UNITPRICE':['Finding Unit Price'],'GEOFORM':['Solving Problems with Geometric Formulas'],'WHO':['Whole Number "Who am I?"','Whole Number Who am I'],'SCALE':['Measurement Scaling'],'OOO':['Order of Operations and Equivalence','Translating Math Expressions'],'AVGMIX':['Averaging Mixed Numbers'],'RECT':['Finding Area/Perimeter of Rectangle, given Length & Width']}
 out = {}
 for g, ts in G.items():
     ev = sorted(set(tuple(e) for t in ts if n(t) in H for e in H[n(t)]['events']))
@@ -21,4 +21,4 @@ for g, ts in G.items():
         last_done='%s %s' % (ev[-1][1], ev[-1][0][5:]), last_wrong=('%s %s' % (lw[-1][1], lw[-1][0][5:])) if lw else 'never',
         last5='%d/%d' % (sum(e[3] for e in r5), len(r5)), since1025='%d/%d' % (sum(e[3] for e in s), len(s)), total='%d/%d' % (len(lw), len(ev)))
 json.dump(out, open(os.path.join(os.path.dirname(os.path.abspath(__file__)), 'qr11_metrics.json'), 'w'), indent=1)
-for g in ('EST', 'STORY'): print(g, out[g])
+print(len(out), 'groups')

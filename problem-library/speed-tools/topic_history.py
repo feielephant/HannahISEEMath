@@ -7,7 +7,7 @@ def norm(t):
 names={}
 ev=collections.defaultdict(list)   # norm topic -> (date, label, pos, wrong, kind)
 QRD={'What to Expect':'2026-09-05','ISEE Lower #1':'2026-08-30','ISEE Lower #2':'2026-09-13','ISEE Lower #3':'2026-09-25','ISEE Lower #4':'2026-09-27','ISEE Lower #5':'2026-11-01','ISEE LOWER #6':'2026-11-08','OFFICIAL LOWER':'2026-11-15'}
-def short(s): return s.replace('OFFICIAL LOWER','Official').replace('ISEE LOWER #','PT').replace('ISEE Lower #','PT').replace('What to Expect','WTE')
+def short(s): return s.replace('OFFICIAL LOWER','Official').replace('ISEE LOWER #','Lower ').replace('ISEE Lower #','Lower ').replace('What to Expect','WTE')
 def add(topic,date,label,pos,wrong,kind):
     if not topic: return
     n=norm(topic); names.setdefault(n,topic); ev[n].append((date,label,pos,wrong,kind))

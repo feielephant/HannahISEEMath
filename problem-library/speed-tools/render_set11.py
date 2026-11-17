@@ -41,7 +41,7 @@ live += ''.join(cards)
 live += '</div>'
 
 SCRIPT = '''<script>(function(){
-var N=38,K="speed-set-11-v1",T="speed-set-11-times",IDX="speed-set-11-idx";
+var N=38,K="speed-set-11-v2",T="speed-set-11-v2-times",IDX="speed-set-11-v2-idx";
 var st={},clicks=[],visits=[],idx=1;
 try{st=JSON.parse(localStorage.getItem(K)||"{}")}catch(e){}
 try{var saved=JSON.parse(localStorage.getItem(T)||"{}");clicks=saved.clicks||[];visits=saved.visits||[];}catch(e){}
@@ -170,7 +170,7 @@ function renderSummary(){
 }
 
 // ---- timer ----
-var CK="speed-set-11-clock", TOTAL=2100;
+var CK="speed-set-11-v2-clock", TOTAL=2100;
 var cst={rem:TOTAL,run:false,last:0};
 try{var x=JSON.parse(localStorage.getItem(CK)||"null"); if(x) cst=x;}catch(e){}
 function csv2(){try{localStorage.setItem(CK,JSON.stringify(cst));}catch(e){}}
