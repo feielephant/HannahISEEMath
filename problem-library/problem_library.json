@@ -4550,7 +4550,7 @@
   "notes": "First image of chunk D; appears to be question 1 of a new 38-question set (no correctness strip visible in this particular screenshot, only on later ones). Answered correctly (98.8%), so no habit-trigger guess applies.",
   "global_id": 120,
   "set_name": "ISEE Lower #3",
-  "set_date": "2026-09-20",
+  "set_date": "2026-09-25",
   "is_duplicate_capture": false,
   "real_test_signal": "no-signal",
   "is_wrong": false,
@@ -4590,7 +4590,7 @@
   "notes": "Answered correctly.",
   "global_id": 121,
   "set_name": "ISEE Lower #3",
-  "set_date": "2026-09-20",
+  "set_date": "2026-09-25",
   "is_duplicate_capture": false,
   "real_test_signal": "no-signal",
   "is_wrong": false,
@@ -4630,7 +4630,7 @@
   "notes": "Answered correctly.",
   "global_id": 122,
   "set_name": "ISEE Lower #3",
-  "set_date": "2026-09-20",
+  "set_date": "2026-09-25",
   "is_duplicate_capture": false,
   "real_test_signal": "no-signal",
   "is_wrong": false,
@@ -4673,7 +4673,7 @@
   "notes": "Answered correctly.",
   "global_id": 123,
   "set_name": "ISEE Lower #3",
-  "set_date": "2026-09-20",
+  "set_date": "2026-09-25",
   "is_duplicate_capture": false,
   "real_test_signal": "no-signal",
   "is_wrong": false,
@@ -4713,7 +4713,7 @@
   "notes": "Answered correctly. A 'Solution' section preview is visible at the bottom of the page (not transcribed).",
   "global_id": 124,
   "set_name": "ISEE Lower #3",
-  "set_date": "2026-09-20",
+  "set_date": "2026-09-25",
   "is_duplicate_capture": false,
   "real_test_signal": "no-signal",
   "is_wrong": false,
@@ -4753,7 +4753,7 @@
   "notes": "Answered correctly.",
   "global_id": 125,
   "set_name": "ISEE Lower #3",
-  "set_date": "2026-09-20",
+  "set_date": "2026-09-25",
   "is_duplicate_capture": false,
   "real_test_signal": "no-signal",
   "is_wrong": false,
@@ -4793,7 +4793,7 @@
   "notes": "Answered correctly.",
   "global_id": 126,
   "set_name": "ISEE Lower #3",
-  "set_date": "2026-09-20",
+  "set_date": "2026-09-25",
   "is_duplicate_capture": false,
   "real_test_signal": "no-signal",
   "is_wrong": false,
@@ -4833,7 +4833,7 @@
   "notes": "Answered correctly.",
   "global_id": 127,
   "set_name": "ISEE Lower #3",
-  "set_date": "2026-09-20",
+  "set_date": "2026-09-25",
   "is_duplicate_capture": false,
   "real_test_signal": "no-signal",
   "is_wrong": false,
@@ -4872,7 +4872,7 @@
   "notes": "Answered correctly.",
   "global_id": 128,
   "set_name": "ISEE Lower #3",
-  "set_date": "2026-09-20",
+  "set_date": "2026-09-25",
   "is_duplicate_capture": false,
   "real_test_signal": "no-signal",
   "is_wrong": false,
@@ -4911,7 +4911,7 @@
   "notes": "Answered correctly. Other options are impossible given the counts available (e.g. only 1 yellow exists, so '2 yellow' is impossible; only 1 purple exists, so '2 purple' is impossible).",
   "global_id": 129,
   "set_name": "ISEE Lower #3",
-  "set_date": "2026-09-20",
+  "set_date": "2026-09-25",
   "is_duplicate_capture": false,
   "real_test_signal": "no-signal",
   "is_wrong": false,
@@ -4950,7 +4950,7 @@
   "notes": "This question was answered WRONG by the student. Two choices are colored: B (45) is green/correct (85.9%), and C (48) is colored maroon/red (7.1%) - the student's actual (incorrect) selection. This dual-color pattern (green=correct, maroon=student's wrong pick) appears on every question flagged maroon in the strip.",
   "global_id": 130,
   "set_name": "ISEE Lower #3",
-  "set_date": "2026-09-20",
+  "set_date": "2026-09-25",
   "is_duplicate_capture": false,
   "real_test_signal": "no-signal",
   "is_wrong": true,
@@ -4991,7 +4991,7 @@
   "notes": "Answered correctly.",
   "global_id": 131,
   "set_name": "ISEE Lower #3",
-  "set_date": "2026-09-20",
+  "set_date": "2026-09-25",
   "is_duplicate_capture": false,
   "real_test_signal": "no-signal",
   "is_wrong": false,
@@ -5030,7 +5030,7 @@
   "notes": "Answered correctly.",
   "global_id": 132,
   "set_name": "ISEE Lower #3",
-  "set_date": "2026-09-20",
+  "set_date": "2026-09-25",
   "is_duplicate_capture": false,
   "real_test_signal": "no-signal",
   "is_wrong": false,
@@ -5069,7 +5069,7 @@
   "notes": "Answered correctly.",
   "global_id": 133,
   "set_name": "ISEE Lower #3",
-  "set_date": "2026-09-20",
+  "set_date": "2026-09-25",
   "is_duplicate_capture": false,
   "real_test_signal": "no-signal",
   "is_wrong": false,
@@ -5108,7 +5108,7 @@
   "notes": "Answered correctly.",
   "global_id": 134,
   "set_name": "ISEE Lower #3",
-  "set_date": "2026-09-20",
+  "set_date": "2026-09-25",
   "is_duplicate_capture": false,
   "real_test_signal": "no-signal",
   "is_wrong": false,
@@ -5147,7 +5147,7 @@
   "notes": "Answered correctly.",
   "global_id": 135,
   "set_name": "ISEE Lower #3",
-  "set_date": "2026-09-20",
+  "set_date": "2026-09-25",
   "is_duplicate_capture": false,
   "real_test_signal": "no-signal",
   "is_wrong": false,
@@ -5186,7 +5186,7 @@
   "notes": "Answered correctly. Not tagged as cube-scale-factor since no scaling/scale-factor comparison is involved, just direct edge-cubed volume.",
   "global_id": 136,
   "set_name": "ISEE Lower #3",
-  "set_date": "2026-09-20",
+  "set_date": "2026-09-25",
   "is_duplicate_capture": false,
   "real_test_signal": "no-signal",
   "is_wrong": false,
@@ -5225,7 +5225,7 @@
   "notes": "Answered correctly. Not tagged as decimal-fraction-percent since no conversion between representations is involved, just place-value ordering.",
   "global_id": 137,
   "set_name": "ISEE Lower #3",
-  "set_date": "2026-09-20",
+  "set_date": "2026-09-25",
   "is_duplicate_capture": false,
   "real_test_signal": "no-signal",
   "is_wrong": false,
@@ -5264,7 +5264,7 @@
   "notes": "Answered correctly.",
   "global_id": 138,
   "set_name": "ISEE Lower #3",
-  "set_date": "2026-09-20",
+  "set_date": "2026-09-25",
   "is_duplicate_capture": false,
   "real_test_signal": "no-signal",
   "is_wrong": false,
@@ -5303,7 +5303,7 @@
   "notes": "Answered WRONG. D (3/4, 2/3, 3/6, 2/5, 9.9%) is colored maroon as the student's actual pick, while B (77.0%) is green/correct.",
   "global_id": 139,
   "set_name": "ISEE Lower #3",
-  "set_date": "2026-09-20",
+  "set_date": "2026-09-25",
   "is_duplicate_capture": false,
   "real_test_signal": "no-signal",
   "is_wrong": true,
@@ -5344,7 +5344,7 @@
   "notes": "Answered correctly.",
   "global_id": 140,
   "set_name": "ISEE Lower #3",
-  "set_date": "2026-09-20",
+  "set_date": "2026-09-25",
   "is_duplicate_capture": false,
   "real_test_signal": "no-signal",
   "is_wrong": false,
@@ -5383,7 +5383,7 @@
   "notes": "Answered correctly. Not tagged 'estimation' - this is benchmark/comparison reasoning about fraction magnitude, not a rounding-based numeric estimate like Q7.",
   "global_id": 141,
   "set_name": "ISEE Lower #3",
-  "set_date": "2026-09-20",
+  "set_date": "2026-09-25",
   "is_duplicate_capture": false,
   "real_test_signal": "no-signal",
   "is_wrong": false,
@@ -5422,7 +5422,7 @@
   "notes": "Answered correctly.",
   "global_id": 142,
   "set_name": "ISEE Lower #3",
-  "set_date": "2026-09-20",
+  "set_date": "2026-09-25",
   "is_duplicate_capture": false,
   "real_test_signal": "no-signal",
   "is_wrong": false,
@@ -5461,7 +5461,7 @@
   "notes": "Answered WRONG. B (brown, 23.5%) is colored maroon as the student's actual pick, while A (74.2%) is green/correct.",
   "global_id": 143,
   "set_name": "ISEE Lower #3",
-  "set_date": "2026-09-20",
+  "set_date": "2026-09-25",
   "is_duplicate_capture": false,
   "real_test_signal": "no-signal",
   "is_wrong": true,
@@ -5502,7 +5502,7 @@
   "notes": "Answered correctly.",
   "global_id": 144,
   "set_name": "ISEE Lower #3",
-  "set_date": "2026-09-20",
+  "set_date": "2026-09-25",
   "is_duplicate_capture": false,
   "real_test_signal": "reported-absent",
   "is_wrong": false,
@@ -5541,7 +5541,7 @@
   "notes": "Answered correctly. Merged duplicate gid1207 (recaptureQR 10/9 re-catalog of this same question) into this entry; recapture_source_images added from it.",
   "global_id": 145,
   "set_name": "ISEE Lower #3",
-  "set_date": "2026-09-20",
+  "set_date": "2026-09-25",
   "is_duplicate_capture": false,
   "real_test_signal": "no-signal",
   "is_wrong": false,
@@ -5582,7 +5582,7 @@
   "notes": "Answered correctly.",
   "global_id": 146,
   "set_name": "ISEE Lower #3",
-  "set_date": "2026-09-20",
+  "set_date": "2026-09-25",
   "is_duplicate_capture": false,
   "real_test_signal": "no-signal",
   "is_wrong": false,
@@ -5621,7 +5621,7 @@
   "notes": "Answered correctly. Differences between consecutive Second Basement values are -1,-2,-3,-4; extending that pattern (-5,-6) gives 25min=9in, 30min=3in, matching answer B.",
   "global_id": 147,
   "set_name": "ISEE Lower #3",
-  "set_date": "2026-09-20",
+  "set_date": "2026-09-25",
   "is_duplicate_capture": false,
   "real_test_signal": "no-signal",
   "is_wrong": false,
@@ -5660,7 +5660,7 @@
   "notes": "Answered WRONG. B ('less than 27', 16.2%) is colored maroon as the student's actual pick, while C (72.2%) is green/correct. This looks like a conceptual misunderstanding about gaps/volume rather than a clear match to one of the 5 listed habits, so no habit guess is made.",
   "global_id": 148,
   "set_name": "ISEE Lower #3",
-  "set_date": "2026-09-20",
+  "set_date": "2026-09-25",
   "is_duplicate_capture": false,
   "real_test_signal": "no-signal",
   "is_wrong": true,
@@ -5701,7 +5701,7 @@
   "notes": "Answered correctly. Merged duplicate gid1208 (recaptureQR 10/9 re-catalog of this same question) into this entry; recapture_source_images added from it.",
   "global_id": 149,
   "set_name": "ISEE Lower #3",
-  "set_date": "2026-09-20",
+  "set_date": "2026-09-25",
   "is_duplicate_capture": false,
   "real_test_signal": "no-signal",
   "is_wrong": false,
@@ -5742,7 +5742,7 @@
   "notes": "Answered WRONG. B ('2', 12.9%) is colored maroon as the student's actual pick, while D (61.6%) is green/correct.",
   "global_id": 150,
   "set_name": "ISEE Lower #3",
-  "set_date": "2026-09-20",
+  "set_date": "2026-09-25",
   "is_duplicate_capture": false,
   "real_test_signal": "no-signal",
   "is_wrong": true,
@@ -5783,7 +5783,7 @@
   "notes": "Answered correctly.",
   "global_id": 151,
   "set_name": "ISEE Lower #3",
-  "set_date": "2026-09-20",
+  "set_date": "2026-09-25",
   "is_duplicate_capture": false,
   "real_test_signal": "no-signal",
   "is_wrong": false,
@@ -5822,7 +5822,7 @@
   "notes": "Answered correctly.",
   "global_id": 152,
   "set_name": "ISEE Lower #3",
-  "set_date": "2026-09-20",
+  "set_date": "2026-09-25",
   "is_duplicate_capture": false,
   "real_test_signal": "no-signal",
   "is_wrong": false,
@@ -5861,7 +5861,7 @@
   "notes": "Answered correctly. Exact tick values for X and Y were unclear from the image; recorded choices and answer only.",
   "global_id": 153,
   "set_name": "ISEE Lower #3",
-  "set_date": "2026-09-20",
+  "set_date": "2026-09-25",
   "is_duplicate_capture": false,
   "real_test_signal": "no-signal",
   "is_wrong": false,
@@ -5900,7 +5900,7 @@
   "notes": "Answered correctly.",
   "global_id": 154,
   "set_name": "ISEE Lower #3",
-  "set_date": "2026-09-20",
+  "set_date": "2026-09-25",
   "is_duplicate_capture": false,
   "real_test_signal": "no-signal",
   "is_wrong": false,
@@ -5939,7 +5939,7 @@
   "notes": "Answered correctly. A 'Solution'/'Follow-Up Exercise' section preview is visible at the bottom of the page (not transcribed).",
   "global_id": 155,
   "set_name": "ISEE Lower #3",
-  "set_date": "2026-09-20",
+  "set_date": "2026-09-25",
   "is_duplicate_capture": false,
   "real_test_signal": "no-signal",
   "is_wrong": false,
@@ -5978,7 +5978,7 @@
   "notes": "Answered WRONG, and a notably close/confusing item: C (circle\u00d7square, 42.1%) is colored maroon as the student's actual pick, vs D (48.0%) correct - the two closest percentages seen in this chunk.",
   "global_id": 156,
   "set_name": "ISEE Lower #3",
-  "set_date": "2026-09-20",
+  "set_date": "2026-09-25",
   "is_duplicate_capture": false,
   "real_test_signal": "no-signal",
   "is_wrong": true,
@@ -6019,7 +6019,7 @@
   "notes": "Answered correctly (40.0%, the lowest correct-answer percentage seen in this chunk, suggesting a hard/confusing closer question). A 'Solution' section preview is visible at the bottom of the page (not transcribed). Merged duplicate gid1209 (recaptureQR 10/9 re-catalog of this same question) into this entry; recapture_source_images added from it.",
   "global_id": 157,
   "set_name": "ISEE Lower #3",
-  "set_date": "2026-09-20",
+  "set_date": "2026-09-25",
   "is_duplicate_capture": false,
   "real_test_signal": "no-signal",
   "is_wrong": false,
@@ -6054,7 +6054,7 @@
   "notes": "Test overview/results header page: 'ISEE LOWER #3 (Sep 25, 2026)' with a 'DOWNLOAD SCORES PDF' button and tabs for Test Overview, Verbal Reasoning, Quantitative Reasoning (active), Reading Comprehension, Mathematics Achievement, Essay. This confirms the entire 38-question set in this chunk belongs to the Quantitative Reasoning section of 'ISEE LOWER #3' dated Sep 25, 2026. 'Hide Answer' / 'Hide Choices' toggles also visible.",
   "global_id": 158,
   "set_name": "ISEE Lower #3",
-  "set_date": "2026-09-20",
+  "set_date": "2026-09-25",
   "real_test_signal": null,
   "is_wrong": null,
   "source": "isee_official_screenshot",
@@ -6077,7 +6077,7 @@
   "notes": "'How you allocated your time' step-chart (title text visible: 'How you allocated your time:', toggle 'Show detailed timing graph'). Hover tooltip visible on Question 20: 'Current answer: d, Final answer: d, Partial time: 92 sec, Total time: 92 sec.' Image itself being kept alongside the library per instruction, so shape not described in detail here.",
   "global_id": 159,
   "set_name": "ISEE Lower #3",
-  "set_date": "2026-09-20",
+  "set_date": "2026-09-25",
   "real_test_signal": null,
   "is_wrong": null,
   "source": "isee_official_screenshot",
@@ -40210,7 +40210,7 @@
   "global_id": 1539
  },
  {
-  "source_file": "mathspeed test/actual-practice-tests/ISEE Lower #7/Screenshot 2026-11-15 at 1.25.27\u202fPM.png",
+  "source_file": "mathspeed test/actual-practice-tests/Official Lower/Screenshot 2026-11-15 at 1.25.27\u202fPM.png",
   "type": "question",
   "question_number": 1,
   "question_text": "Which figure has a top view that is a triangle and a side view that is a rectangle?",
@@ -40225,7 +40225,7 @@
   "correct_pct": "94.1%",
   "topic_broad": "geometry",
   "topic_specific": "views of 3-D figures",
-  "notes": "Practice Test 7, Quantitative Reasoning #1. Answered correctly.",
+  "notes": "Official Lower test, Quantitative Reasoning #1. Answered correctly.",
   "status": "done",
   "is_wrong": false,
   "official_topic": "Identifying Shapes",
@@ -40242,7 +40242,7 @@
   "others_avg_seconds": 19,
   "difficulty": "Easy",
   "subtype": "Geometry",
-  "test_set": "ISEE LOWER #7",
+  "test_set": "OFFICIAL LOWER",
   "exercise_title": null,
   "is_timing_chart": false,
   "strip_wrong": [
@@ -40251,12 +40251,12 @@
   ],
   "result_id": 5142706,
   "recapture_source_images": [
-   "mathspeed test/actual-practice-tests/ISEE Lower #7/Screenshot 2026-11-15 at 1.25.27\u202fPM.png"
+   "mathspeed test/actual-practice-tests/Official Lower/Screenshot 2026-11-15 at 1.25.27\u202fPM.png"
   ],
   "global_id": 1540
  },
  {
-  "source_file": "mathspeed test/actual-practice-tests/ISEE Lower #7/Screenshot 2026-11-15 at 1.25.43\u202fPM.png",
+  "source_file": "mathspeed test/actual-practice-tests/Official Lower/Screenshot 2026-11-15 at 1.25.43\u202fPM.png",
   "type": "question",
   "question_number": 2,
   "question_text": "The second number in a pattern is 15, the third number in the pattern is 11, and the fourth number in the pattern is 7. What is the first number in the pattern?",
@@ -40271,7 +40271,7 @@
   "correct_pct": "89.6%",
   "topic_broad": "patterns",
   "topic_specific": "subtract-4 pattern, find first term",
-  "notes": "Practice Test 7, Quantitative Reasoning #2. Answered correctly.",
+  "notes": "Official Lower test, Quantitative Reasoning #2. Answered correctly.",
   "status": "done",
   "is_wrong": false,
   "official_topic": "Numerical Patterns",
@@ -40288,7 +40288,7 @@
   "others_avg_seconds": 25,
   "difficulty": "Easy",
   "subtype": "Algebraic Concepts",
-  "test_set": "ISEE LOWER #7",
+  "test_set": "OFFICIAL LOWER",
   "exercise_title": null,
   "is_timing_chart": false,
   "strip_wrong": [
@@ -40297,12 +40297,12 @@
   ],
   "result_id": 5142706,
   "recapture_source_images": [
-   "mathspeed test/actual-practice-tests/ISEE Lower #7/Screenshot 2026-11-15 at 1.25.43\u202fPM.png"
+   "mathspeed test/actual-practice-tests/Official Lower/Screenshot 2026-11-15 at 1.25.43\u202fPM.png"
   ],
   "global_id": 1541
  },
  {
-  "source_file": "mathspeed test/actual-practice-tests/ISEE Lower #7/Screenshot 2026-11-15 at 1.25.45\u202fPM.png",
+  "source_file": "mathspeed test/actual-practice-tests/Official Lower/Screenshot 2026-11-15 at 1.25.45\u202fPM.png",
   "type": "question",
   "question_number": 3,
   "question_text": "Alyssa is ordering T-shirts for all the students in her school. She knows how many students are in the school, and she knows how many shirts come in a box. How would she figure out how many boxes (b) to order?",
@@ -40317,7 +40317,7 @@
   "correct_pct": "73.1%",
   "topic_broad": "equations",
   "topic_specific": "story to operation (division), word-form choices",
-  "notes": "Practice Test 7, Quantitative Reasoning #3. Answered correctly.",
+  "notes": "Official Lower test, Quantitative Reasoning #3. Answered correctly.",
   "status": "done",
   "is_wrong": false,
   "official_topic": "Interpreting Linear Equations from Word Problems",
@@ -40334,7 +40334,7 @@
   "others_avg_seconds": 49,
   "difficulty": "Easy",
   "subtype": "Number Sense and Operations",
-  "test_set": "ISEE LOWER #7",
+  "test_set": "OFFICIAL LOWER",
   "exercise_title": null,
   "is_timing_chart": false,
   "strip_wrong": [
@@ -40343,12 +40343,12 @@
   ],
   "result_id": 5142706,
   "recapture_source_images": [
-   "mathspeed test/actual-practice-tests/ISEE Lower #7/Screenshot 2026-11-15 at 1.25.45\u202fPM.png"
+   "mathspeed test/actual-practice-tests/Official Lower/Screenshot 2026-11-15 at 1.25.45\u202fPM.png"
   ],
   "global_id": 1542
  },
  {
-  "source_file": "mathspeed test/actual-practice-tests/ISEE Lower #7/Screenshot 2026-11-15 at 1.25.46\u202fPM.png",
+  "source_file": "mathspeed test/actual-practice-tests/Official Lower/Screenshot 2026-11-15 at 1.25.46\u202fPM.png",
   "type": "question",
   "question_number": 4,
   "question_text": "A group of 25 people goes to the aquarium. Everyone purchases an All-Day Pass and a ticket to the Dolphin Exhibit. AQUARIUM FEES: All-Day Pass $16.00, Dolphin Exhibit $8.00. What is the total cost for the group to go to the aquarium?",
@@ -40363,7 +40363,7 @@
   "correct_pct": "92.3%",
   "topic_broad": "data",
   "topic_specific": "table, (16 + 8) \u00d7 25",
-  "notes": "Practice Test 7, Quantitative Reasoning #4. Answered correctly.",
+  "notes": "Official Lower test, Quantitative Reasoning #4. Answered correctly.",
   "status": "done",
   "is_wrong": false,
   "official_topic": "Identifying Correct Conclusions from Bar Graph/Data Table Values",
@@ -40380,7 +40380,7 @@
   "others_avg_seconds": 67,
   "difficulty": "Easy",
   "subtype": "Algebraic Concepts",
-  "test_set": "ISEE LOWER #7",
+  "test_set": "OFFICIAL LOWER",
   "exercise_title": null,
   "is_timing_chart": false,
   "strip_wrong": [
@@ -40389,12 +40389,12 @@
   ],
   "result_id": 5142706,
   "recapture_source_images": [
-   "mathspeed test/actual-practice-tests/ISEE Lower #7/Screenshot 2026-11-15 at 1.25.46\u202fPM.png"
+   "mathspeed test/actual-practice-tests/Official Lower/Screenshot 2026-11-15 at 1.25.46\u202fPM.png"
   ],
   "global_id": 1543
  },
  {
-  "source_file": "mathspeed test/actual-practice-tests/ISEE Lower #7/Screenshot 2026-11-15 at 1.25.48\u202fPM.png",
+  "source_file": "mathspeed test/actual-practice-tests/Official Lower/Screenshot 2026-11-15 at 1.25.48\u202fPM.png",
   "type": "question",
   "question_number": 5,
   "question_text": "Devon created a solid figure using cubes. Which figure shows Devon's solid as viewed from the top?",
@@ -40409,7 +40409,7 @@
   "correct_pct": "83.7%",
   "topic_broad": "geometry",
   "topic_specific": "top view of cube stack",
-  "notes": "Practice Test 7, Quantitative Reasoning #5. Answered correctly.",
+  "notes": "Official Lower test, Quantitative Reasoning #5. Answered correctly.",
   "status": "done",
   "is_wrong": false,
   "official_topic": "Views of 3D Figures",
@@ -40426,7 +40426,7 @@
   "others_avg_seconds": 27,
   "difficulty": "Easy",
   "subtype": "Geometry",
-  "test_set": "ISEE LOWER #7",
+  "test_set": "OFFICIAL LOWER",
   "exercise_title": null,
   "is_timing_chart": false,
   "strip_wrong": [
@@ -40435,12 +40435,12 @@
   ],
   "result_id": 5142706,
   "recapture_source_images": [
-   "mathspeed test/actual-practice-tests/ISEE Lower #7/Screenshot 2026-11-15 at 1.25.48\u202fPM.png"
+   "mathspeed test/actual-practice-tests/Official Lower/Screenshot 2026-11-15 at 1.25.48\u202fPM.png"
   ],
   "global_id": 1544
  },
  {
-  "source_file": "mathspeed test/actual-practice-tests/ISEE Lower #7/Screenshot 2026-11-15 at 1.25.50\u202fPM.png",
+  "source_file": "mathspeed test/actual-practice-tests/Official Lower/Screenshot 2026-11-15 at 1.25.50\u202fPM.png",
   "type": "question",
   "question_number": 6,
   "question_text": "Rachel grows and sells flowers. This year she will change the shape of her garden from a rectangle to a square. If Rachel keeps the 10-meter length for two sides of the square garden, by what amount will she increase the width of the rectangle?",
@@ -40455,7 +40455,7 @@
   "correct_pct": "85.9%",
   "topic_broad": "geometry",
   "topic_specific": "rectangle to square, width change",
-  "notes": "Practice Test 7, Quantitative Reasoning #6. Answered correctly.",
+  "notes": "Official Lower test, Quantitative Reasoning #6. Answered correctly.",
   "status": "done",
   "is_wrong": false,
   "official_topic": "Perimeter",
@@ -40472,7 +40472,7 @@
   "others_avg_seconds": 39,
   "difficulty": "Easy",
   "subtype": "Measurement",
-  "test_set": "ISEE LOWER #7",
+  "test_set": "OFFICIAL LOWER",
   "exercise_title": null,
   "is_timing_chart": false,
   "strip_wrong": [
@@ -40481,12 +40481,12 @@
   ],
   "result_id": 5142706,
   "recapture_source_images": [
-   "mathspeed test/actual-practice-tests/ISEE Lower #7/Screenshot 2026-11-15 at 1.25.50\u202fPM.png"
+   "mathspeed test/actual-practice-tests/Official Lower/Screenshot 2026-11-15 at 1.25.50\u202fPM.png"
   ],
   "global_id": 1545
  },
  {
-  "source_file": "mathspeed test/actual-practice-tests/ISEE Lower #7/Screenshot 2026-11-15 at 1.25.52\u202fPM.png",
+  "source_file": "mathspeed test/actual-practice-tests/Official Lower/Screenshot 2026-11-15 at 1.25.52\u202fPM.png",
   "type": "question",
   "question_number": 7,
   "question_text": "Each shape represents a place on a decimal place-value chart. star = thousandths, triangle = tenths, square = hundredths. Which would be the correct order of these shapes to the right of the decimal place?",
@@ -40501,7 +40501,7 @@
   "correct_pct": "93.3%",
   "topic_broad": "place-value",
   "topic_specific": "decimal place names order",
-  "notes": "Practice Test 7, Quantitative Reasoning #7. Answered correctly.",
+  "notes": "Official Lower test, Quantitative Reasoning #7. Answered correctly.",
   "status": "done",
   "is_wrong": false,
   "official_topic": "Interpreting Pictographs",
@@ -40518,7 +40518,7 @@
   "others_avg_seconds": 21,
   "difficulty": "Easy",
   "subtype": "Decimals, Percents, Fractions",
-  "test_set": "ISEE LOWER #7",
+  "test_set": "OFFICIAL LOWER",
   "exercise_title": null,
   "is_timing_chart": false,
   "strip_wrong": [
@@ -40527,12 +40527,12 @@
   ],
   "result_id": 5142706,
   "recapture_source_images": [
-   "mathspeed test/actual-practice-tests/ISEE Lower #7/Screenshot 2026-11-15 at 1.25.52\u202fPM.png"
+   "mathspeed test/actual-practice-tests/Official Lower/Screenshot 2026-11-15 at 1.25.52\u202fPM.png"
   ],
   "global_id": 1546
  },
  {
-  "source_file": "mathspeed test/actual-practice-tests/ISEE Lower #7/Screenshot 2026-11-15 at 1.25.54\u202fPM.png",
+  "source_file": "mathspeed test/actual-practice-tests/Official Lower/Screenshot 2026-11-15 at 1.25.54\u202fPM.png",
   "type": "question",
   "question_number": 8,
   "question_text": "The figure shows a paper pyramid Koji made for a project. Which drawing is a two-dimensional representation of Koji's pyramid?",
@@ -40547,7 +40547,7 @@
   "correct_pct": "81.8%",
   "topic_broad": "geometry",
   "topic_specific": "net of square pyramid",
-  "notes": "Practice Test 7, Quantitative Reasoning #8. Answered correctly.",
+  "notes": "Official Lower test, Quantitative Reasoning #8. Answered correctly.",
   "status": "done",
   "is_wrong": false,
   "official_topic": "Perimeter",
@@ -40564,7 +40564,7 @@
   "others_avg_seconds": 26,
   "difficulty": "Easy",
   "subtype": "Geometry",
-  "test_set": "ISEE LOWER #7",
+  "test_set": "OFFICIAL LOWER",
   "exercise_title": null,
   "is_timing_chart": false,
   "strip_wrong": [
@@ -40573,12 +40573,12 @@
   ],
   "result_id": 5142706,
   "recapture_source_images": [
-   "mathspeed test/actual-practice-tests/ISEE Lower #7/Screenshot 2026-11-15 at 1.25.54\u202fPM.png"
+   "mathspeed test/actual-practice-tests/Official Lower/Screenshot 2026-11-15 at 1.25.54\u202fPM.png"
   ],
   "global_id": 1547
  },
  {
-  "source_file": "mathspeed test/actual-practice-tests/ISEE Lower #7/Screenshot 2026-11-15 at 1.25.56\u202fPM.png",
+  "source_file": "mathspeed test/actual-practice-tests/Official Lower/Screenshot 2026-11-15 at 1.25.56\u202fPM.png",
   "type": "question",
   "question_number": 9,
   "question_text": "After store employees unpack boxes of merchandise, they unfold and completely flatten the boxes for recycling. One of the boxes is shown. Which figure shows the box flattened?",
@@ -40593,7 +40593,7 @@
   "correct_pct": "84.6%",
   "topic_broad": "geometry",
   "topic_specific": "net of rectangular prism",
-  "notes": "Practice Test 7, Quantitative Reasoning #9. Answered correctly.",
+  "notes": "Official Lower test, Quantitative Reasoning #9. Answered correctly.",
   "status": "done",
   "is_wrong": false,
   "official_topic": "Perimeter",
@@ -40610,7 +40610,7 @@
   "others_avg_seconds": 38,
   "difficulty": "Easy",
   "subtype": "Geometry",
-  "test_set": "ISEE LOWER #7",
+  "test_set": "OFFICIAL LOWER",
   "exercise_title": null,
   "is_timing_chart": false,
   "strip_wrong": [
@@ -40619,12 +40619,12 @@
   ],
   "result_id": 5142706,
   "recapture_source_images": [
-   "mathspeed test/actual-practice-tests/ISEE Lower #7/Screenshot 2026-11-15 at 1.25.56\u202fPM.png"
+   "mathspeed test/actual-practice-tests/Official Lower/Screenshot 2026-11-15 at 1.25.56\u202fPM.png"
   ],
   "global_id": 1548
  },
  {
-  "source_file": "mathspeed test/actual-practice-tests/ISEE Lower #7/Screenshot 2026-11-15 at 1.25.58\u202fPM.png",
+  "source_file": "mathspeed test/actual-practice-tests/Official Lower/Screenshot 2026-11-15 at 1.25.58\u202fPM.png",
   "type": "question",
   "question_number": 10,
   "question_text": "Mr. North's class visited the aquarium. The pie chart shows the portion of the visit the students spent at each exhibit. If Mr. North's students spent 60 minutes at the otter exhibit, about how many hours did the class spend at all the exhibits?",
@@ -40639,7 +40639,7 @@
   "correct_pct": "85.4%",
   "topic_broad": "fractions",
   "topic_specific": "part of a pie = 1/4, find whole",
-  "notes": "Practice Test 7, Quantitative Reasoning #10. Answered correctly.",
+  "notes": "Official Lower test, Quantitative Reasoning #10. Answered correctly.",
   "status": "done",
   "is_wrong": false,
   "official_topic": "Estimating Fraction of a Whole, given Figure",
@@ -40656,7 +40656,7 @@
   "others_avg_seconds": 50,
   "difficulty": "Easy",
   "subtype": "Decimals, Percents, Fractions",
-  "test_set": "ISEE LOWER #7",
+  "test_set": "OFFICIAL LOWER",
   "exercise_title": null,
   "is_timing_chart": false,
   "strip_wrong": [
@@ -40665,12 +40665,12 @@
   ],
   "result_id": 5142706,
   "recapture_source_images": [
-   "mathspeed test/actual-practice-tests/ISEE Lower #7/Screenshot 2026-11-15 at 1.25.58\u202fPM.png"
+   "mathspeed test/actual-practice-tests/Official Lower/Screenshot 2026-11-15 at 1.25.58\u202fPM.png"
   ],
   "global_id": 1549
  },
  {
-  "source_file": "mathspeed test/actual-practice-tests/ISEE Lower #7/Screenshot 2026-11-15 at 1.26.00\u202fPM.png",
+  "source_file": "mathspeed test/actual-practice-tests/Official Lower/Screenshot 2026-11-15 at 1.26.00\u202fPM.png",
   "type": "question",
   "question_number": 11,
   "question_text": "Justin saw some coins on a table. He counted 37 coins that were heads up and 63 coins that were heads down. What fraction of the coins that Justin saw were heads down?",
@@ -40685,7 +40685,7 @@
   "correct_pct": "89.3%",
   "topic_broad": "fractions",
   "topic_specific": "part of whole",
-  "notes": "Practice Test 7, Quantitative Reasoning #11. Answered correctly. Slow: 64 s vs others' 27 s.",
+  "notes": "Official Lower test, Quantitative Reasoning #11. Answered correctly. Slow: 64 s vs others' 27 s.",
   "status": "done",
   "is_wrong": false,
   "official_topic": "Word Problems with Ratios",
@@ -40702,7 +40702,7 @@
   "others_avg_seconds": 27,
   "difficulty": "Easy",
   "subtype": "Decimals, Percents, Fractions",
-  "test_set": "ISEE LOWER #7",
+  "test_set": "OFFICIAL LOWER",
   "exercise_title": null,
   "is_timing_chart": false,
   "strip_wrong": [
@@ -40711,12 +40711,12 @@
   ],
   "result_id": 5142706,
   "recapture_source_images": [
-   "mathspeed test/actual-practice-tests/ISEE Lower #7/Screenshot 2026-11-15 at 1.26.00\u202fPM.png"
+   "mathspeed test/actual-practice-tests/Official Lower/Screenshot 2026-11-15 at 1.26.00\u202fPM.png"
   ],
   "global_id": 1550
  },
  {
-  "source_file": "mathspeed test/actual-practice-tests/ISEE Lower #7/Screenshot 2026-11-15 at 1.26.02\u202fPM.png",
+  "source_file": "mathspeed test/actual-practice-tests/Official Lower/Screenshot 2026-11-15 at 1.26.02\u202fPM.png",
   "type": "question",
   "question_number": 12,
   "question_text": "Mr. Jones and Ms. Lopez took their students to the zoo. Later, the students in both classes voted for their favorite type of animal. The graph shows how the students voted. Which animal received the most votes?",
@@ -40731,7 +40731,7 @@
   "correct_pct": "93.1%",
   "topic_broad": "data",
   "topic_specific": "double bar graph, add both classes",
-  "notes": "Practice Test 7, Quantitative Reasoning #12. Answered correctly.",
+  "notes": "Official Lower test, Quantitative Reasoning #12. Answered correctly.",
   "status": "done",
   "is_wrong": false,
   "official_topic": "Comparing/Adding/Subtracting Bar Graph/Data Table Values",
@@ -40748,7 +40748,7 @@
   "others_avg_seconds": 49,
   "difficulty": "Easy",
   "subtype": "Data Analysis & Probability",
-  "test_set": "ISEE LOWER #7",
+  "test_set": "OFFICIAL LOWER",
   "exercise_title": null,
   "is_timing_chart": false,
   "strip_wrong": [
@@ -40757,12 +40757,12 @@
   ],
   "result_id": 5142706,
   "recapture_source_images": [
-   "mathspeed test/actual-practice-tests/ISEE Lower #7/Screenshot 2026-11-15 at 1.26.02\u202fPM.png"
+   "mathspeed test/actual-practice-tests/Official Lower/Screenshot 2026-11-15 at 1.26.02\u202fPM.png"
   ],
   "global_id": 1551
  },
  {
-  "source_file": "mathspeed test/actual-practice-tests/ISEE Lower #7/Screenshot 2026-11-15 at 1.26.03\u202fPM.png",
+  "source_file": "mathspeed test/actual-practice-tests/Official Lower/Screenshot 2026-11-15 at 1.26.03\u202fPM.png",
   "type": "question",
   "question_number": 13,
   "question_text": "If triangle + triangle + triangle = 15 and square \u00d7 triangle = 30 are both true, what is the value of triangle + square?",
@@ -40777,7 +40777,7 @@
   "correct_pct": "97%",
   "topic_broad": "equations",
   "topic_specific": "two shape equations",
-  "notes": "Practice Test 7, Quantitative Reasoning #13. Answered correctly.",
+  "notes": "Official Lower test, Quantitative Reasoning #13. Answered correctly.",
   "status": "done",
   "is_wrong": false,
   "official_topic": "Algebra with Shapes for Variables",
@@ -40794,7 +40794,7 @@
   "others_avg_seconds": 21,
   "difficulty": "Easy",
   "subtype": "Algebraic Concepts",
-  "test_set": "ISEE LOWER #7",
+  "test_set": "OFFICIAL LOWER",
   "exercise_title": null,
   "is_timing_chart": false,
   "strip_wrong": [
@@ -40803,12 +40803,12 @@
   ],
   "result_id": 5142706,
   "recapture_source_images": [
-   "mathspeed test/actual-practice-tests/ISEE Lower #7/Screenshot 2026-11-15 at 1.26.03\u202fPM.png"
+   "mathspeed test/actual-practice-tests/Official Lower/Screenshot 2026-11-15 at 1.26.03\u202fPM.png"
   ],
   "global_id": 1552
  },
  {
-  "source_file": "mathspeed test/actual-practice-tests/ISEE Lower #7/Screenshot 2026-11-15 at 1.26.05\u202fPM.png",
+  "source_file": "mathspeed test/actual-practice-tests/Official Lower/Screenshot 2026-11-15 at 1.26.05\u202fPM.png",
   "type": "question",
   "question_number": 14,
   "question_text": "Makayla constructed a design using cubes. Which diagram shows the top view of Makayla's design?",
@@ -40823,7 +40823,7 @@
   "correct_pct": "96.1%",
   "topic_broad": "geometry",
   "topic_specific": "top view",
-  "notes": "Practice Test 7, Quantitative Reasoning #14. Answered correctly.",
+  "notes": "Official Lower test, Quantitative Reasoning #14. Answered correctly.",
   "status": "done",
   "is_wrong": false,
   "official_topic": "Views of 3D Figures",
@@ -40840,7 +40840,7 @@
   "others_avg_seconds": 18,
   "difficulty": "Easy",
   "subtype": "Geometry",
-  "test_set": "ISEE LOWER #7",
+  "test_set": "OFFICIAL LOWER",
   "exercise_title": null,
   "is_timing_chart": false,
   "strip_wrong": [
@@ -40849,12 +40849,12 @@
   ],
   "result_id": 5142706,
   "recapture_source_images": [
-   "mathspeed test/actual-practice-tests/ISEE Lower #7/Screenshot 2026-11-15 at 1.26.05\u202fPM.png"
+   "mathspeed test/actual-practice-tests/Official Lower/Screenshot 2026-11-15 at 1.26.05\u202fPM.png"
   ],
   "global_id": 1553
  },
  {
-  "source_file": "mathspeed test/actual-practice-tests/ISEE Lower #7/Screenshot 2026-11-15 at 1.26.07\u202fPM.png",
+  "source_file": "mathspeed test/actual-practice-tests/Official Lower/Screenshot 2026-11-15 at 1.26.07\u202fPM.png",
   "type": "question",
   "question_number": 15,
   "question_text": "Mrs. Baker has 14 girls and 7 boys in her class. She divided 28 yellow pencils equally among the girls and divided 28 green pencils equally among the boys. Which statement is true about how many pencils the students received?",
@@ -40869,7 +40869,7 @@
   "correct_pct": "90.3%",
   "topic_broad": "operations",
   "topic_specific": "compare two quotients, statement choices",
-  "notes": "Practice Test 7, Quantitative Reasoning #15. Answered correctly.",
+  "notes": "Official Lower test, Quantitative Reasoning #15. Answered correctly.",
   "status": "done",
   "is_wrong": false,
   "official_topic": "Multiplying and Dividing Integers",
@@ -40886,7 +40886,7 @@
   "others_avg_seconds": 37,
   "difficulty": "Easy",
   "subtype": "Whole Numbers",
-  "test_set": "ISEE LOWER #7",
+  "test_set": "OFFICIAL LOWER",
   "exercise_title": null,
   "is_timing_chart": false,
   "strip_wrong": [
@@ -40895,12 +40895,12 @@
   ],
   "result_id": 5142706,
   "recapture_source_images": [
-   "mathspeed test/actual-practice-tests/ISEE Lower #7/Screenshot 2026-11-15 at 1.26.07\u202fPM.png"
+   "mathspeed test/actual-practice-tests/Official Lower/Screenshot 2026-11-15 at 1.26.07\u202fPM.png"
   ],
   "global_id": 1554
  },
  {
-  "source_file": "mathspeed test/actual-practice-tests/ISEE Lower #7/Screenshot 2026-11-15 at 1.26.09\u202fPM.png",
+  "source_file": "mathspeed test/actual-practice-tests/Official Lower/Screenshot 2026-11-15 at 1.26.09\u202fPM.png",
   "type": "question",
   "question_number": 16,
   "question_text": "Each shape below represents a digit from 1 through 9. (cross) + (trapezoid) = (square)(heart), a two-digit sum. What digit does the square shape represent?",
@@ -40915,7 +40915,7 @@
   "correct_pct": "89.1%",
   "topic_broad": "cryptarithm",
   "topic_specific": "tens digit of sum of two digits is 1",
-  "notes": "Practice Test 7, Quantitative Reasoning #16. Answered correctly. Slow: 99 s vs others' 32 s.",
+  "notes": "Official Lower test, Quantitative Reasoning #16. Answered correctly. Slow: 99 s vs others' 32 s.",
   "status": "done",
   "is_wrong": false,
   "official_topic": "Interpreting Pictographs",
@@ -40932,7 +40932,7 @@
   "others_avg_seconds": 32,
   "difficulty": "Easy",
   "subtype": "Whole Numbers",
-  "test_set": "ISEE LOWER #7",
+  "test_set": "OFFICIAL LOWER",
   "exercise_title": null,
   "is_timing_chart": false,
   "strip_wrong": [
@@ -40941,12 +40941,12 @@
   ],
   "result_id": 5142706,
   "recapture_source_images": [
-   "mathspeed test/actual-practice-tests/ISEE Lower #7/Screenshot 2026-11-15 at 1.26.09\u202fPM.png"
+   "mathspeed test/actual-practice-tests/Official Lower/Screenshot 2026-11-15 at 1.26.09\u202fPM.png"
   ],
   "global_id": 1555
  },
  {
-  "source_file": "mathspeed test/actual-practice-tests/ISEE Lower #7/Screenshot 2026-11-15 at 1.26.10\u202fPM.png",
+  "source_file": "mathspeed test/actual-practice-tests/Official Lower/Screenshot 2026-11-15 at 1.26.10\u202fPM.png",
   "type": "question",
   "question_number": 17,
   "question_text": "Mrs. Brown's box of 24 assorted markers contains 2 red, 3 blue, 4 green, 6 yellow, 4 pink, and 5 purple markers. If she randomly selects a marker without looking, which color has a 1 out of 8 chance of being selected?",
@@ -40961,7 +40961,7 @@
   "correct_pct": "76%",
   "topic_broad": "probability",
   "topic_specific": "which count gives 1/8 (3/24)",
-  "notes": "Practice Test 7, Quantitative Reasoning #17. Answered correctly.",
+  "notes": "Official Lower test, Quantitative Reasoning #17. Answered correctly.",
   "status": "done",
   "is_wrong": false,
   "official_topic": "Probability of 1 Event, given a List of Items",
@@ -40978,7 +40978,7 @@
   "others_avg_seconds": 43,
   "difficulty": "Medium",
   "subtype": "Data Analysis & Probability",
-  "test_set": "ISEE LOWER #7",
+  "test_set": "OFFICIAL LOWER",
   "exercise_title": null,
   "is_timing_chart": false,
   "strip_wrong": [
@@ -40987,12 +40987,12 @@
   ],
   "result_id": 5142706,
   "recapture_source_images": [
-   "mathspeed test/actual-practice-tests/ISEE Lower #7/Screenshot 2026-11-15 at 1.26.10\u202fPM.png"
+   "mathspeed test/actual-practice-tests/Official Lower/Screenshot 2026-11-15 at 1.26.10\u202fPM.png"
   ],
   "global_id": 1556
  },
  {
-  "source_file": "mathspeed test/actual-practice-tests/ISEE Lower #7/Screenshot 2026-11-15 at 1.26.12\u202fPM.png",
+  "source_file": "mathspeed test/actual-practice-tests/Official Lower/Screenshot 2026-11-15 at 1.26.12\u202fPM.png",
   "type": "question",
   "question_number": 18,
   "question_text": "The scales below are balanced. (4 circles = rectangle; 2 circles = hexagon.) Which set of figures would create a balance scale?",
@@ -41007,7 +41007,7 @@
   "correct_pct": "87.1%",
   "topic_broad": "balance",
   "topic_specific": "substitute hexagon for 2 circles",
-  "notes": "Practice Test 7, Quantitative Reasoning #18. Answered correctly. Slow: 94 s vs others' 38 s.",
+  "notes": "Official Lower test, Quantitative Reasoning #18. Answered correctly. Slow: 94 s vs others' 38 s.",
   "status": "done",
   "is_wrong": false,
   "official_topic": "Interpreting Pictographs",
@@ -41024,7 +41024,7 @@
   "others_avg_seconds": 38,
   "difficulty": "Medium",
   "subtype": "Algebraic Concepts",
-  "test_set": "ISEE LOWER #7",
+  "test_set": "OFFICIAL LOWER",
   "exercise_title": null,
   "is_timing_chart": false,
   "strip_wrong": [
@@ -41033,12 +41033,12 @@
   ],
   "result_id": 5142706,
   "recapture_source_images": [
-   "mathspeed test/actual-practice-tests/ISEE Lower #7/Screenshot 2026-11-15 at 1.26.12\u202fPM.png"
+   "mathspeed test/actual-practice-tests/Official Lower/Screenshot 2026-11-15 at 1.26.12\u202fPM.png"
   ],
   "global_id": 1557
  },
  {
-  "source_file": "mathspeed test/actual-practice-tests/ISEE Lower #7/Screenshot 2026-11-15 at 1.26.14\u202fPM.png",
+  "source_file": "mathspeed test/actual-practice-tests/Official Lower/Screenshot 2026-11-15 at 1.26.14\u202fPM.png",
   "type": "question",
   "question_number": 19,
   "question_text": "Ms. Jones is sorting numbers. She puts the numbers 4, 9, and 16 in a group together. Which is another number that belongs in Ms. Jones's group?",
@@ -41053,7 +41053,7 @@
   "correct_pct": "58.2%",
   "topic_broad": "number-properties",
   "topic_specific": "perfect squares",
-  "notes": "Practice Test 7, Quantitative Reasoning #19. Answered correctly.",
+  "notes": "Official Lower test, Quantitative Reasoning #19. Answered correctly.",
   "status": "done",
   "is_wrong": false,
   "official_topic": "Numerical Patterns",
@@ -41070,7 +41070,7 @@
   "others_avg_seconds": 57,
   "difficulty": "Medium",
   "subtype": "Whole Numbers",
-  "test_set": "ISEE LOWER #7",
+  "test_set": "OFFICIAL LOWER",
   "exercise_title": null,
   "is_timing_chart": false,
   "strip_wrong": [
@@ -41079,12 +41079,12 @@
   ],
   "result_id": 5142706,
   "recapture_source_images": [
-   "mathspeed test/actual-practice-tests/ISEE Lower #7/Screenshot 2026-11-15 at 1.26.14\u202fPM.png"
+   "mathspeed test/actual-practice-tests/Official Lower/Screenshot 2026-11-15 at 1.26.14\u202fPM.png"
   ],
   "global_id": 1558
  },
  {
-  "source_file": "mathspeed test/actual-practice-tests/ISEE Lower #7/Screenshot 2026-11-15 at 1.26.16\u202fPM.png",
+  "source_file": "mathspeed test/actual-practice-tests/Official Lower/Screenshot 2026-11-15 at 1.26.16\u202fPM.png",
   "type": "question",
   "question_number": 20,
   "question_text": "Figure 1 is a 5-inch square. Four 2-inch squares are removed from each of the four corners of Figure 1. What is the area of the remainder of Figure 1, as shown in Figure 2?",
@@ -41099,7 +41099,7 @@
   "correct_pct": "73.1%",
   "topic_broad": "geometry",
   "topic_specific": "25 \u2212 4 \u00d7 4",
-  "notes": "Practice Test 7, Quantitative Reasoning #20. Answered correctly.",
+  "notes": "Official Lower test, Quantitative Reasoning #20. Answered correctly.",
   "status": "done",
   "is_wrong": false,
   "official_topic": "Total Shaded Area, given Figure with Equal Divisions",
@@ -41116,7 +41116,7 @@
   "others_avg_seconds": 61,
   "difficulty": "Medium",
   "subtype": "Measurement",
-  "test_set": "ISEE LOWER #7",
+  "test_set": "OFFICIAL LOWER",
   "exercise_title": null,
   "is_timing_chart": false,
   "strip_wrong": [
@@ -41125,12 +41125,12 @@
   ],
   "result_id": 5142706,
   "recapture_source_images": [
-   "mathspeed test/actual-practice-tests/ISEE Lower #7/Screenshot 2026-11-15 at 1.26.16\u202fPM.png"
+   "mathspeed test/actual-practice-tests/Official Lower/Screenshot 2026-11-15 at 1.26.16\u202fPM.png"
   ],
   "global_id": 1559
  },
  {
-  "source_file": "mathspeed test/actual-practice-tests/ISEE Lower #7/Screenshot 2026-11-15 at 1.26.18\u202fPM.png",
+  "source_file": "mathspeed test/actual-practice-tests/Official Lower/Screenshot 2026-11-15 at 1.26.18\u202fPM.png",
   "type": "question",
   "question_number": 21,
   "question_text": "Ryan needs (circle) balloons for his party. He already has (star) balloons. Which equation will determine (heart), the additional number of balloons that Ryan needs?",
@@ -41145,7 +41145,7 @@
   "correct_pct": "80.5%",
   "topic_broad": "equations",
   "topic_specific": "symbol story to equation",
-  "notes": "Practice Test 7, Quantitative Reasoning #21. Answered correctly. Slow: 120 s vs others' 28 s.",
+  "notes": "Official Lower test, Quantitative Reasoning #21. Answered correctly. Slow: 120 s vs others' 28 s.",
   "status": "done",
   "is_wrong": false,
   "official_topic": "Solving 1 Variable Equations",
@@ -41162,7 +41162,7 @@
   "others_avg_seconds": 28,
   "difficulty": "Medium",
   "subtype": "Algebraic Concepts",
-  "test_set": "ISEE LOWER #7",
+  "test_set": "OFFICIAL LOWER",
   "exercise_title": null,
   "is_timing_chart": false,
   "strip_wrong": [
@@ -41171,12 +41171,12 @@
   ],
   "result_id": 5142706,
   "recapture_source_images": [
-   "mathspeed test/actual-practice-tests/ISEE Lower #7/Screenshot 2026-11-15 at 1.26.18\u202fPM.png"
+   "mathspeed test/actual-practice-tests/Official Lower/Screenshot 2026-11-15 at 1.26.18\u202fPM.png"
   ],
   "global_id": 1560
  },
  {
-  "source_file": "mathspeed test/actual-practice-tests/ISEE Lower #7/Screenshot 2026-11-15 at 1.26.20\u202fPM.png",
+  "source_file": "mathspeed test/actual-practice-tests/Official Lower/Screenshot 2026-11-15 at 1.26.20\u202fPM.png",
   "type": "question",
   "question_number": 22,
   "question_text": "Billy has a cube with some shapes on it (diamond on top, triangle on front, circle on right). Which diagram could be folded to make a cube like Billy's?",
@@ -41191,7 +41191,7 @@
   "correct_pct": "60.8%",
   "topic_broad": "geometry",
   "topic_specific": "net folding with symbol positions",
-  "notes": "Practice Test 7, Quantitative Reasoning #22. Answered correctly. Her time was not visible in the screenshot.",
+  "notes": "Official Lower test, Quantitative Reasoning #22. Answered correctly. Her time was not visible in the screenshot.",
   "status": "done",
   "is_wrong": false,
   "official_topic": "Views of 3D Figures",
@@ -41208,7 +41208,7 @@
   "others_avg_seconds": null,
   "difficulty": "Medium",
   "subtype": "Geometry",
-  "test_set": "ISEE LOWER #7",
+  "test_set": "OFFICIAL LOWER",
   "exercise_title": null,
   "is_timing_chart": false,
   "strip_wrong": [
@@ -41217,12 +41217,12 @@
   ],
   "result_id": 5142706,
   "recapture_source_images": [
-   "mathspeed test/actual-practice-tests/ISEE Lower #7/Screenshot 2026-11-15 at 1.26.20\u202fPM.png"
+   "mathspeed test/actual-practice-tests/Official Lower/Screenshot 2026-11-15 at 1.26.20\u202fPM.png"
   ],
   "global_id": 1561
  },
  {
-  "source_file": "mathspeed test/actual-practice-tests/ISEE Lower #7/Screenshot 2026-11-15 at 1.26.21\u202fPM.png",
+  "source_file": "mathspeed test/actual-practice-tests/Official Lower/Screenshot 2026-11-15 at 1.26.21\u202fPM.png",
   "type": "question",
   "question_number": 23,
   "question_text": "Ms. Emerson's class of 24 students voted for their favorite field trip. They made a circle graph to display the results, as shown. The riverboat was the favorite field trip of about how many students?",
@@ -41237,7 +41237,7 @@
   "correct_pct": "88.7%",
   "topic_broad": "fractions",
   "topic_specific": "1/4 of 24",
-  "notes": "Practice Test 7, Quantitative Reasoning #23. Answered correctly.",
+  "notes": "Official Lower test, Quantitative Reasoning #23. Answered correctly.",
   "status": "done",
   "is_wrong": false,
   "official_topic": "Estimating Fraction of a Whole, given Figure",
@@ -41254,7 +41254,7 @@
   "others_avg_seconds": 34,
   "difficulty": "Medium",
   "subtype": "Decimals, Percents, Fractions",
-  "test_set": "ISEE LOWER #7",
+  "test_set": "OFFICIAL LOWER",
   "exercise_title": null,
   "is_timing_chart": false,
   "strip_wrong": [
@@ -41263,12 +41263,12 @@
   ],
   "result_id": 5142706,
   "recapture_source_images": [
-   "mathspeed test/actual-practice-tests/ISEE Lower #7/Screenshot 2026-11-15 at 1.26.21\u202fPM.png"
+   "mathspeed test/actual-practice-tests/Official Lower/Screenshot 2026-11-15 at 1.26.21\u202fPM.png"
   ],
   "global_id": 1562
  },
  {
-  "source_file": "mathspeed test/actual-practice-tests/ISEE Lower #7/Screenshot 2026-11-15 at 1.26.23\u202fPM.png",
+  "source_file": "mathspeed test/actual-practice-tests/Official Lower/Screenshot 2026-11-15 at 1.26.23\u202fPM.png",
   "type": "question",
   "question_number": 24,
   "question_text": "A snorg is worth 50 quarbs. A quarb is worth 800 munfogs. How many munfogs equal one snorg?",
@@ -41283,7 +41283,7 @@
   "correct_pct": "79.2%",
   "topic_broad": "unit-conversion",
   "topic_specific": "made-up units, 800 \u00d7 50",
-  "notes": "Practice Test 7, Quantitative Reasoning #24. Answered correctly.",
+  "notes": "Official Lower test, Quantitative Reasoning #24. Answered correctly.",
   "status": "done",
   "is_wrong": false,
   "official_topic": "Multiplying and Dividing Integers",
@@ -41300,7 +41300,7 @@
   "others_avg_seconds": 42,
   "difficulty": "Medium",
   "subtype": "Whole Numbers",
-  "test_set": "ISEE LOWER #7",
+  "test_set": "OFFICIAL LOWER",
   "exercise_title": null,
   "is_timing_chart": false,
   "strip_wrong": [
@@ -41309,12 +41309,12 @@
   ],
   "result_id": 5142706,
   "recapture_source_images": [
-   "mathspeed test/actual-practice-tests/ISEE Lower #7/Screenshot 2026-11-15 at 1.26.23\u202fPM.png"
+   "mathspeed test/actual-practice-tests/Official Lower/Screenshot 2026-11-15 at 1.26.23\u202fPM.png"
   ],
   "global_id": 1563
  },
  {
-  "source_file": "mathspeed test/actual-practice-tests/ISEE Lower #7/Screenshot 2026-11-15 at 1.26.25\u202fPM.png",
+  "source_file": "mathspeed test/actual-practice-tests/Official Lower/Screenshot 2026-11-15 at 1.26.25\u202fPM.png",
   "type": "question",
   "question_number": 25,
   "question_text": "Nina found useful information from the U.S. Census Bureau to make a graph of population trends in three states from 1950 to 2010. Which conclusion can Nina make using the information in her graph?",
@@ -41329,7 +41329,7 @@
   "correct_pct": "73.1%",
   "topic_broad": "data",
   "topic_specific": "line graph conclusions",
-  "notes": "Practice Test 7, Quantitative Reasoning #25. Answered correctly.",
+  "notes": "Official Lower test, Quantitative Reasoning #25. Answered correctly.",
   "status": "done",
   "is_wrong": false,
   "official_topic": "Comparing/Adding/Subtracting Bar Graph/Data Table Values",
@@ -41346,7 +41346,7 @@
   "others_avg_seconds": 81,
   "difficulty": "Medium",
   "subtype": "Data Analysis & Probability",
-  "test_set": "ISEE LOWER #7",
+  "test_set": "OFFICIAL LOWER",
   "exercise_title": null,
   "is_timing_chart": false,
   "strip_wrong": [
@@ -41355,12 +41355,12 @@
   ],
   "result_id": 5142706,
   "recapture_source_images": [
-   "mathspeed test/actual-practice-tests/ISEE Lower #7/Screenshot 2026-11-15 at 1.26.25\u202fPM.png"
+   "mathspeed test/actual-practice-tests/Official Lower/Screenshot 2026-11-15 at 1.26.25\u202fPM.png"
   ],
   "global_id": 1564
  },
  {
-  "source_file": "mathspeed test/actual-practice-tests/ISEE Lower #7/Screenshot 2026-11-15 at 1.26.27\u202fPM.png",
+  "source_file": "mathspeed test/actual-practice-tests/Official Lower/Screenshot 2026-11-15 at 1.26.27\u202fPM.png",
   "type": "question",
   "question_number": 26,
   "question_text": "Jolene wants to cover the top of her table with tiles. Her table is 60 inches long and 32 inches wide. Each tile is 3 inches long and 2 inches wide. If she knows how to find the area of a rectangle, how can Jolene determine how many tiles she will need without laying them all on the table? (A = l \u00d7 w)",
@@ -41375,7 +41375,7 @@
   "correct_pct": "73.2%",
   "topic_broad": "equations",
   "topic_specific": "tiles along length \u00d7 along width",
-  "notes": "Practice Test 7, Quantitative Reasoning #26. Answered correctly.",
+  "notes": "Official Lower test, Quantitative Reasoning #26. Answered correctly.",
   "status": "done",
   "is_wrong": false,
   "official_topic": "Matching Stories to Equations",
@@ -41392,7 +41392,7 @@
   "others_avg_seconds": 68,
   "difficulty": "Medium",
   "subtype": "Whole Numbers",
-  "test_set": "ISEE LOWER #7",
+  "test_set": "OFFICIAL LOWER",
   "exercise_title": null,
   "is_timing_chart": false,
   "strip_wrong": [
@@ -41401,12 +41401,12 @@
   ],
   "result_id": 5142706,
   "recapture_source_images": [
-   "mathspeed test/actual-practice-tests/ISEE Lower #7/Screenshot 2026-11-15 at 1.26.27\u202fPM.png"
+   "mathspeed test/actual-practice-tests/Official Lower/Screenshot 2026-11-15 at 1.26.27\u202fPM.png"
   ],
   "global_id": 1565
  },
  {
-  "source_file": "mathspeed test/actual-practice-tests/ISEE Lower #7/Screenshot 2026-11-15 at 1.26.29\u202fPM.png",
+  "source_file": "mathspeed test/actual-practice-tests/Official Lower/Screenshot 2026-11-15 at 1.26.29\u202fPM.png",
   "type": "question",
   "question_number": 27,
   "question_text": "Mike wants to prove that Figure E and Figure F are the same size and shape. What must he do?",
@@ -41421,7 +41421,7 @@
   "correct_pct": "76.3%",
   "topic_broad": "geometry",
   "topic_specific": "transformations: rotation + slide",
-  "notes": "Practice Test 7, Quantitative Reasoning #27. Answered correctly. Slow: 185 s vs others' 39 s.",
+  "notes": "Official Lower test, Quantitative Reasoning #27. Answered correctly. Slow: 185 s vs others' 39 s.",
   "status": "done",
   "is_wrong": false,
   "official_topic": "Identifying Shapes",
@@ -41438,7 +41438,7 @@
   "others_avg_seconds": 39,
   "difficulty": "Easy",
   "subtype": "Geometry",
-  "test_set": "ISEE LOWER #7",
+  "test_set": "OFFICIAL LOWER",
   "exercise_title": null,
   "is_timing_chart": false,
   "strip_wrong": [
@@ -41447,12 +41447,12 @@
   ],
   "result_id": 5142706,
   "recapture_source_images": [
-   "mathspeed test/actual-practice-tests/ISEE Lower #7/Screenshot 2026-11-15 at 1.26.29\u202fPM.png"
+   "mathspeed test/actual-practice-tests/Official Lower/Screenshot 2026-11-15 at 1.26.29\u202fPM.png"
   ],
   "global_id": 1566
  },
  {
-  "source_file": "mathspeed test/actual-practice-tests/ISEE Lower #7/Screenshot 2026-11-15 at 1.26.30\u202fPM.png",
+  "source_file": "mathspeed test/actual-practice-tests/Official Lower/Screenshot 2026-11-15 at 1.26.30\u202fPM.png",
   "type": "question",
   "question_number": 28,
   "question_text": "These are wiggles. (shapes with a white shape inside the same as the outer shape) These are not wiggles. Which of these is a wiggle?",
@@ -41467,7 +41467,7 @@
   "correct_pct": "77.7%",
   "topic_broad": "logic",
   "topic_specific": "find the hidden rule (made-up category)",
-  "notes": "Practice Test 7, Quantitative Reasoning #28. Answered correctly. Slow: 91 s vs others' 35 s.",
+  "notes": "Official Lower test, Quantitative Reasoning #28. Answered correctly. Slow: 91 s vs others' 35 s.",
   "status": "done",
   "is_wrong": false,
   "official_topic": "Identifying Shapes",
@@ -41484,7 +41484,7 @@
   "others_avg_seconds": 35,
   "difficulty": "Hard",
   "subtype": "Geometry",
-  "test_set": "ISEE LOWER #7",
+  "test_set": "OFFICIAL LOWER",
   "exercise_title": null,
   "is_timing_chart": false,
   "strip_wrong": [
@@ -41493,12 +41493,12 @@
   ],
   "result_id": 5142706,
   "recapture_source_images": [
-   "mathspeed test/actual-practice-tests/ISEE Lower #7/Screenshot 2026-11-15 at 1.26.30\u202fPM.png"
+   "mathspeed test/actual-practice-tests/Official Lower/Screenshot 2026-11-15 at 1.26.30\u202fPM.png"
   ],
   "global_id": 1567
  },
  {
-  "source_file": "mathspeed test/actual-practice-tests/ISEE Lower #7/Screenshot 2026-11-15 at 1.26.32\u202fPM.png",
+  "source_file": "mathspeed test/actual-practice-tests/Official Lower/Screenshot 2026-11-15 at 1.26.32\u202fPM.png",
   "type": "question",
   "question_number": 29,
   "question_text": "If circle + square = circle and heart \u00d7 triangle = heart, then which value is greatest?",
@@ -41513,7 +41513,7 @@
   "correct_pct": "78.6%",
   "topic_broad": "equations",
   "topic_specific": "square = 0, triangle = 1",
-  "notes": "Practice Test 7, Quantitative Reasoning #29. Answered correctly.",
+  "notes": "Official Lower test, Quantitative Reasoning #29. Answered correctly.",
   "status": "done",
   "is_wrong": false,
   "official_topic": "Algebra with Shapes for Variables",
@@ -41530,7 +41530,7 @@
   "others_avg_seconds": 47,
   "difficulty": "Hard",
   "subtype": "Algebraic Concepts",
-  "test_set": "ISEE LOWER #7",
+  "test_set": "OFFICIAL LOWER",
   "exercise_title": null,
   "is_timing_chart": false,
   "strip_wrong": [
@@ -41539,12 +41539,12 @@
   ],
   "result_id": 5142706,
   "recapture_source_images": [
-   "mathspeed test/actual-practice-tests/ISEE Lower #7/Screenshot 2026-11-15 at 1.26.32\u202fPM.png"
+   "mathspeed test/actual-practice-tests/Official Lower/Screenshot 2026-11-15 at 1.26.32\u202fPM.png"
   ],
   "global_id": 1568
  },
  {
-  "source_file": "mathspeed test/actual-practice-tests/ISEE Lower #7/Screenshot 2026-11-15 at 1.26.34\u202fPM.png",
+  "source_file": "mathspeed test/actual-practice-tests/Official Lower/Screenshot 2026-11-15 at 1.26.34\u202fPM.png",
   "type": "question",
   "question_number": 30,
   "question_text": "Mr. Goodman sold 36 apples at his fruit stand on Saturday morning. Each of his customers purchased 3 apples. How many apples would Mr. Goodman have sold if each customer had purchased 4 apples instead of 3 apples?",
@@ -41559,7 +41559,7 @@
   "correct_pct": "76.5%",
   "topic_broad": "multi-step",
   "topic_specific": "36 \u00f7 3 \u00d7 4 (B = stops at 12)",
-  "notes": "Practice Test 7, Quantitative Reasoning #30. Answered correctly. Slow: 87 s vs others' 37 s.",
+  "notes": "Official Lower test, Quantitative Reasoning #30. Answered correctly. Slow: 87 s vs others' 37 s.",
   "status": "done",
   "is_wrong": false,
   "official_topic": "Multiplying and Dividing Integers",
@@ -41576,7 +41576,7 @@
   "others_avg_seconds": 37,
   "difficulty": "Hard",
   "subtype": "Algebraic Concepts",
-  "test_set": "ISEE LOWER #7",
+  "test_set": "OFFICIAL LOWER",
   "exercise_title": null,
   "is_timing_chart": false,
   "strip_wrong": [
@@ -41585,12 +41585,12 @@
   ],
   "result_id": 5142706,
   "recapture_source_images": [
-   "mathspeed test/actual-practice-tests/ISEE Lower #7/Screenshot 2026-11-15 at 1.26.34\u202fPM.png"
+   "mathspeed test/actual-practice-tests/Official Lower/Screenshot 2026-11-15 at 1.26.34\u202fPM.png"
   ],
   "global_id": 1569
  },
  {
-  "source_file": "mathspeed test/actual-practice-tests/ISEE Lower #7/Screenshot 2026-11-15 at 1.26.35\u202fPM.png",
+  "source_file": "mathspeed test/actual-practice-tests/Official Lower/Screenshot 2026-11-15 at 1.26.35\u202fPM.png",
   "type": "question",
   "question_number": 31,
   "question_text": "Callie uses a strand of lights as a party decoration. She has 4 extra red bulbs. If 2 bulbs burn out and Callie replaces them with red bulbs, which outcome is a possible combination of light bulb colors?",
@@ -41605,7 +41605,7 @@
   "correct_pct": "61.3%",
   "topic_broad": "logic",
   "topic_specific": "total stays 15, reds +2",
-  "notes": "Practice Test 7, Quantitative Reasoning #31. Answered correctly.",
+  "notes": "Official Lower test, Quantitative Reasoning #31. Answered correctly.",
   "status": "done",
   "is_wrong": false,
   "official_topic": "Patterns in Data Tables and Lists",
@@ -41622,7 +41622,7 @@
   "others_avg_seconds": 74,
   "difficulty": "Hard",
   "subtype": "Whole Numbers",
-  "test_set": "ISEE LOWER #7",
+  "test_set": "OFFICIAL LOWER",
   "exercise_title": null,
   "is_timing_chart": false,
   "strip_wrong": [
@@ -41631,12 +41631,12 @@
   ],
   "result_id": 5142706,
   "recapture_source_images": [
-   "mathspeed test/actual-practice-tests/ISEE Lower #7/Screenshot 2026-11-15 at 1.26.35\u202fPM.png"
+   "mathspeed test/actual-practice-tests/Official Lower/Screenshot 2026-11-15 at 1.26.35\u202fPM.png"
   ],
   "global_id": 1570
  },
  {
-  "source_file": "mathspeed test/actual-practice-tests/ISEE Lower #7/Screenshot 2026-11-15 at 1.26.37\u202fPM.png",
+  "source_file": "mathspeed test/actual-practice-tests/Official Lower/Screenshot 2026-11-15 at 1.26.37\u202fPM.png",
   "type": "question",
   "question_number": 32,
   "question_text": "If square + heart = heart and cross \u00d7 square = square, then what is the value of (target) \u2212 square?",
@@ -41651,7 +41651,7 @@
   "correct_pct": "82.4%",
   "topic_broad": "equations",
   "topic_specific": "square = 0",
-  "notes": "Practice Test 7, Quantitative Reasoning #32. Answered correctly. Slow: 92 s vs others' 31 s.",
+  "notes": "Official Lower test, Quantitative Reasoning #32. Answered correctly. Slow: 92 s vs others' 31 s.",
   "status": "done",
   "is_wrong": false,
   "official_topic": "Algebra with Shapes for Variables",
@@ -41668,7 +41668,7 @@
   "others_avg_seconds": 31,
   "difficulty": "Hard",
   "subtype": "Algebraic Concepts",
-  "test_set": "ISEE LOWER #7",
+  "test_set": "OFFICIAL LOWER",
   "exercise_title": null,
   "is_timing_chart": false,
   "strip_wrong": [
@@ -41677,12 +41677,12 @@
   ],
   "result_id": 5142706,
   "recapture_source_images": [
-   "mathspeed test/actual-practice-tests/ISEE Lower #7/Screenshot 2026-11-15 at 1.26.37\u202fPM.png"
+   "mathspeed test/actual-practice-tests/Official Lower/Screenshot 2026-11-15 at 1.26.37\u202fPM.png"
   ],
   "global_id": 1571
  },
  {
-  "source_file": "mathspeed test/actual-practice-tests/ISEE Lower #7/Screenshot 2026-11-15 at 1.26.39\u202fPM.png",
+  "source_file": "mathspeed test/actual-practice-tests/Official Lower/Screenshot 2026-11-15 at 1.26.39\u202fPM.png",
   "type": "question",
   "question_number": 33,
   "question_text": "The graph represents Tyler's 30-minute walk from home to school. Which statement best describes Tyler's walk?",
@@ -41697,7 +41697,7 @@
   "correct_pct": "74.8%",
   "topic_broad": "data",
   "topic_specific": "distance-time graph",
-  "notes": "Practice Test 7, Quantitative Reasoning #33. Answered correctly.",
+  "notes": "Official Lower test, Quantitative Reasoning #33. Answered correctly.",
   "status": "done",
   "is_wrong": false,
   "official_topic": "Interpreting Graphs of Linear Functions",
@@ -41714,7 +41714,7 @@
   "others_avg_seconds": 39,
   "difficulty": "Hard",
   "subtype": "Algebraic Concepts",
-  "test_set": "ISEE LOWER #7",
+  "test_set": "OFFICIAL LOWER",
   "exercise_title": null,
   "is_timing_chart": false,
   "strip_wrong": [
@@ -41723,12 +41723,12 @@
   ],
   "result_id": 5142706,
   "recapture_source_images": [
-   "mathspeed test/actual-practice-tests/ISEE Lower #7/Screenshot 2026-11-15 at 1.26.39\u202fPM.png"
+   "mathspeed test/actual-practice-tests/Official Lower/Screenshot 2026-11-15 at 1.26.39\u202fPM.png"
   ],
   "global_id": 1572
  },
  {
-  "source_file": "mathspeed test/actual-practice-tests/ISEE Lower #7/Screenshot 2026-11-15 at 1.26.40\u202fPM.png",
+  "source_file": "mathspeed test/actual-practice-tests/Official Lower/Screenshot 2026-11-15 at 1.26.40\u202fPM.png",
   "type": "question",
   "question_number": 34,
   "question_text": "The table shows the number of each color of coin Jackson has in a bag (red 3, green 3, blue 3, yellow 3, purple ?). If the probability of randomly taking a purple coin out of the bag on the first try is 1/3, how many purple coins are in the bag?",
@@ -41743,7 +41743,7 @@
   "correct_pct": "57.6%",
   "topic_broad": "probability",
   "topic_specific": "unknown count so ?/(12+?) = 1/3",
-  "notes": "Practice Test 7, Quantitative Reasoning #34. WRONG: she picked B.",
+  "notes": "Official Lower test, Quantitative Reasoning #34. WRONG: she picked B.",
   "status": "done",
   "is_wrong": true,
   "official_topic": "Probability of 1 Event, given a List of Items",
@@ -41760,7 +41760,7 @@
   "others_avg_seconds": 48,
   "difficulty": "Hard",
   "subtype": "Data Analysis & Probability",
-  "test_set": "ISEE LOWER #7",
+  "test_set": "OFFICIAL LOWER",
   "exercise_title": null,
   "is_timing_chart": false,
   "strip_wrong": [
@@ -41769,12 +41769,12 @@
   ],
   "result_id": 5142706,
   "recapture_source_images": [
-   "mathspeed test/actual-practice-tests/ISEE Lower #7/Screenshot 2026-11-15 at 1.26.40\u202fPM.png"
+   "mathspeed test/actual-practice-tests/Official Lower/Screenshot 2026-11-15 at 1.26.40\u202fPM.png"
   ],
   "global_id": 1573
  },
  {
-  "source_file": "mathspeed test/actual-practice-tests/ISEE Lower #7/Screenshot 2026-11-15 at 1.26.42\u202fPM.png",
+  "source_file": "mathspeed test/actual-practice-tests/Official Lower/Screenshot 2026-11-15 at 1.26.42\u202fPM.png",
   "type": "question",
   "question_number": 35,
   "question_text": "April plans to buy charms to make a bracelet for each of her friends. She wants to put 8 charms on each bracelet, and there are 5 charms in each package. How can April find out how many packages of charms to buy?",
@@ -41789,7 +41789,7 @@
   "correct_pct": "62%",
   "topic_broad": "equations",
   "topic_specific": "story to operations, word choices",
-  "notes": "Practice Test 7, Quantitative Reasoning #35. Answered correctly.",
+  "notes": "Official Lower test, Quantitative Reasoning #35. Answered correctly.",
   "status": "done",
   "is_wrong": false,
   "official_topic": "Estimating Multiplication & Division",
@@ -41806,7 +41806,7 @@
   "others_avg_seconds": 47,
   "difficulty": "Hard",
   "subtype": "Whole Numbers",
-  "test_set": "ISEE LOWER #7",
+  "test_set": "OFFICIAL LOWER",
   "exercise_title": null,
   "is_timing_chart": false,
   "strip_wrong": [
@@ -41815,12 +41815,12 @@
   ],
   "result_id": 5142706,
   "recapture_source_images": [
-   "mathspeed test/actual-practice-tests/ISEE Lower #7/Screenshot 2026-11-15 at 1.26.42\u202fPM.png"
+   "mathspeed test/actual-practice-tests/Official Lower/Screenshot 2026-11-15 at 1.26.42\u202fPM.png"
   ],
   "global_id": 1574
  },
  {
-  "source_file": "mathspeed test/actual-practice-tests/ISEE Lower #7/Screenshot 2026-11-15 at 1.26.43\u202fPM.png",
+  "source_file": "mathspeed test/actual-practice-tests/Official Lower/Screenshot 2026-11-15 at 1.26.43\u202fPM.png",
   "type": "question",
   "question_number": 36,
   "question_text": "Students were asked to write a new number using all the guidelines below and the digits 1, 3, 5, 7, 8, and 9. 1. The number must have 6 digits. 2. The number must be even. 3. The number must be the largest possible number. What digit is in the hundreds place for the new number?",
@@ -41835,7 +41835,7 @@
   "correct_pct": "57%",
   "topic_broad": "place-value",
   "topic_specific": "rules box, largest even 975,318",
-  "notes": "Practice Test 7, Quantitative Reasoning #36. WRONG: she picked D.",
+  "notes": "Official Lower test, Quantitative Reasoning #36. WRONG: she picked D.",
   "status": "done",
   "is_wrong": true,
   "official_topic": "Value of Digits",
@@ -41852,7 +41852,7 @@
   "others_avg_seconds": 52,
   "difficulty": "Hard",
   "subtype": "Whole Numbers",
-  "test_set": "ISEE LOWER #7",
+  "test_set": "OFFICIAL LOWER",
   "exercise_title": null,
   "is_timing_chart": false,
   "strip_wrong": [
@@ -41861,12 +41861,12 @@
   ],
   "result_id": 5142706,
   "recapture_source_images": [
-   "mathspeed test/actual-practice-tests/ISEE Lower #7/Screenshot 2026-11-15 at 1.26.43\u202fPM.png"
+   "mathspeed test/actual-practice-tests/Official Lower/Screenshot 2026-11-15 at 1.26.43\u202fPM.png"
   ],
   "global_id": 1575
  },
  {
-  "source_file": "mathspeed test/actual-practice-tests/ISEE Lower #7/Screenshot 2026-11-15 at 1.26.45\u202fPM.png",
+  "source_file": "mathspeed test/actual-practice-tests/Official Lower/Screenshot 2026-11-15 at 1.26.45\u202fPM.png",
   "type": "question",
   "question_number": 37,
   "question_text": "Billy (B) can shovel snow from twice as many driveways as Luke (L) can in the same amount of time. This relationship is represented by the equation B = 2L. If L increases, what happens to the value of B?",
@@ -41881,7 +41881,7 @@
   "correct_pct": "55.7%",
   "topic_broad": "equations",
   "topic_specific": "B = 2L change",
-  "notes": "Practice Test 7, Quantitative Reasoning #37. Answered correctly.",
+  "notes": "Official Lower test, Quantitative Reasoning #37. Answered correctly.",
   "status": "done",
   "is_wrong": false,
   "official_topic": "Word Problems - Linear Relationships",
@@ -41898,7 +41898,7 @@
   "others_avg_seconds": 36,
   "difficulty": "Hard",
   "subtype": "Algebraic Concepts",
-  "test_set": "ISEE LOWER #7",
+  "test_set": "OFFICIAL LOWER",
   "exercise_title": null,
   "is_timing_chart": false,
   "strip_wrong": [
@@ -41907,12 +41907,12 @@
   ],
   "result_id": 5142706,
   "recapture_source_images": [
-   "mathspeed test/actual-practice-tests/ISEE Lower #7/Screenshot 2026-11-15 at 1.26.45\u202fPM.png"
+   "mathspeed test/actual-practice-tests/Official Lower/Screenshot 2026-11-15 at 1.26.45\u202fPM.png"
   ],
   "global_id": 1576
  },
  {
-  "source_file": "mathspeed test/actual-practice-tests/ISEE Lower #7/Screenshot 2026-11-15 at 1.26.47\u202fPM.png",
+  "source_file": "mathspeed test/actual-practice-tests/Official Lower/Screenshot 2026-11-15 at 1.26.47\u202fPM.png",
   "type": "question",
   "question_number": 38,
   "question_text": "These are polynums. These are not polynums. Which of these is a polynum?",
@@ -41927,7 +41927,7 @@
   "correct_pct": "74.7%",
   "topic_broad": "logic",
   "topic_specific": "find the hidden rule (made-up category)",
-  "notes": "Practice Test 7, Quantitative Reasoning #38. Answered correctly.",
+  "notes": "Official Lower test, Quantitative Reasoning #38. Answered correctly.",
   "status": "done",
   "is_wrong": false,
   "official_topic": "Predicting the Next Shapes, given Progressive Pattern",
@@ -41944,7 +41944,7 @@
   "others_avg_seconds": 33,
   "difficulty": "Hard",
   "subtype": "Geometry",
-  "test_set": "ISEE LOWER #7",
+  "test_set": "OFFICIAL LOWER",
   "exercise_title": null,
   "is_timing_chart": false,
   "strip_wrong": [
@@ -41953,7 +41953,7 @@
   ],
   "result_id": 5142706,
   "recapture_source_images": [
-   "mathspeed test/actual-practice-tests/ISEE Lower #7/Screenshot 2026-11-15 at 1.26.47\u202fPM.png"
+   "mathspeed test/actual-practice-tests/Official Lower/Screenshot 2026-11-15 at 1.26.47\u202fPM.png"
   ],
   "global_id": 1577
  }

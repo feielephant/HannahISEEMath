@@ -119,11 +119,11 @@ add('Numerical Patterns', 'PAT', 'middle', 'Use the pattern to help answer the q
     ['444,444', '666,666', '888,888', '999,999'], 'D',
     'The repeated digit is how many 7s are in the number you multiply by: 7 = 1 seven, 14 = 2 sevens, 21 = 3 sevens. 63 = 9 sevens, so the answer is 999,999. A is just the next line after 333,333.',
     'PT6 QR #18 (gid 1519): she picked the next line in the list')
-# 2 group rule (PT7 QR #19, slow 85 s)
+# 2 group rule (Official QR #19, slow 85 s)
 add('Numerical Patterns', 'PAT', 'middle', 'Mr. Diaz is sorting numbers. He puts the numbers 8, 27, and 64 in a group together. Which is another number that belongs in Mr. Diaz&rsquo;s group?',
     ['81', '100', '125', '144'], 'C',
-    '8 = 2 &times; 2 &times; 2, 27 = 3 &times; 3 &times; 3, 64 = 4 &times; 4 &times; 4. The next is 5 &times; 5 &times; 5 = 125. 81, 100, and 144 are a number times itself only twice (9 &times; 9, 10 &times; 10, 12 &times; 12), the rule from Practice Test 7.',
-    'PT7 QR #19 (gid 1558): squares 4, 9, 16, right but 85 s')
+    '8 = 2 &times; 2 &times; 2, 27 = 3 &times; 3 &times; 3, 64 = 4 &times; 4 &times; 4. The next is 5 &times; 5 &times; 5 = 125. 81, 100, and 144 are a number times itself only twice (9 &times; 9, 10 &times; 10, 12 &times; 12), the rule from Official Lower test.',
+    'Official QR #19 (gid 1558): squares 4, 9, 16, right but 85 s')
 assert all(round(v ** (1/3)) ** 3 != v for v in (81, 100, 144)) and 5**3 == 125
 # 3 order fractions (PT3 QR #20 wrong; QR10 #13 wrong)
 fr = [F(3, 5), F(2, 3), F(5, 8), F(4, 7)]
@@ -138,7 +138,7 @@ add('Comparing & Ordering Fractions & Decimals', 'ORDER', 'middle', f'Ana walked
     [f'{frac(5,8)} = {frac(15,24)} and {frac(7,12)} = {frac(14,24)}, so {frac(5,8)} &gt; {frac(7,12)}', f'{frac(5,8)} = {frac(15,24)} and {frac(7,12)} = {frac(14,24)}, so {frac(5,8)} &lt; {frac(7,12)}', f'{frac(7,12)} has the greater bottom number, so {frac(7,12)} &gt; {frac(5,8)}', f'{frac(5,8)} = {frac(10,16)} and {frac(10,16)} &lt; {frac(7,12)}'], 'A',
     'Make the bottoms the same: 5/8 = 15/24 and 7/12 = 14/24. 15/24 is more, so Ana&rsquo;s 5/8 is greater. B has the right fractions but the wrong sign. C uses the bottom number only. D is false: 10/16 = 0.625 is more than 7/12.',
     'PT1 QR #22 (gid 60, wrong) and PT6 QR #29 (gid 1530)')
-# 5 balance scales (PT5 QR #34 wrong; PT7 QR #18 slow 94 s)
+# 5 balance scales (PT5 QR #34 wrong; Official QR #18 slow 94 s)
 circ, sq, hexa = 1, 3, 6
 assert 3*circ == sq and 2*sq == hexa
 checks = {'A': hexa == 5*circ, 'B': hexa == sq + 3*circ, 'C': 2*hexa == 3*sq, 'D': sq == 2*circ}
@@ -146,14 +146,14 @@ assert checks == {'A': False, 'B': True, 'C': False, 'D': False}
 add('Interpreting Pictographs', 'PICTO', 'middle', 'The scales are balanced.' + lines('<b>Scale 1:</b> &#9679; &#9679; &#9679; on the left balances &#9632; on the right.', '<b>Scale 2:</b> &#9632; &#9632; on the left balances &#9650; on the right.') + 'Which set of figures would also balance a scale?',
     ['&#9650; = &#9679; &#9679; &#9679; &#9679; &#9679;', '&#9650; = &#9632; &#9679; &#9679; &#9679;', '&#9650; &#9650; = &#9632; &#9632; &#9632;', '&#9632; = &#9679; &#9679;'], 'B',
     'Write each in circles: &#9632; = 3 circles, so &#9650; = 2 &times; 3 = 6 circles. B: &#9632; + 3 circles = 3 + 3 = 6. A adds 3 + 2 = 5 instead of multiplying. C: 12 circles vs 9. D: 3 circles vs 2.',
-    'PT5 QR #34 (gid 1490, wrong) and PT7 QR #18 (gid 1557, right but 94 s)')
-# 6 shape digits (PT7 QR #16, slow 99 s)
+    'PT5 QR #34 (gid 1490, wrong) and Official QR #18 (gid 1557, right but 94 s)')
+# 6 shape digits (Official QR #16, slow 99 s)
 sols = [(s, c) for s in range(1, 10) for c in range(1, 10) if s != c and 3*s == 10*c + s]
 assert sols == [(5, 1)], sols
 add('Cryptarithm / digit substitution', 'PICTO', 'middle', 'Each shape stands for a different digit from 1 through 9.<table style="margin:8px 0 8px 24px;font-size:1.35em;border-collapse:collapse;text-align:center"><tr><td></td><td></td><td style="width:1.4em">&#9733;</td></tr><tr><td></td><td></td><td>&#9733;</td></tr><tr><td>+</td><td></td><td>&#9733;</td></tr><tr><td colspan="3" style="border-top:2px solid currentColor;padding:0"></td></tr><tr><td></td><td style="width:1.4em">&#9679;</td><td>&#9733;</td></tr></table>What digit does &#9733; stand for?',
     ['1', '3', '5', '7'], 'C',
     'Three &#9733;s add up to a two-digit number that ends in &#9733;. Try them: 3 &times; 5 = 15 ends in 5. So &#9733; = 5 and &#9679; = 1. A is &#9679;, not &#9733;.',
-    'PT7 QR #16 (gid 1555): right but 99 s')
+    'Official QR #16 (gid 1555): right but 99 s')
 # 7 ratio part of total then the rest (PT6 QR #17)
 tot = 96 * 8 // 3
 assert 96 * 8 % 3 == 0 and tot == 256 and tot - 96 == 160 and F(96, tot) == F(3, 8)
@@ -243,43 +243,43 @@ add('Matching Stories to Equations', 'STORY', 'last', 'Some friends shared the c
     ['&#9651; = &#9675; &divide; &#9633;', '&#9651; = &#9675; + &#9633;', '&#9651; = &#9675; &minus; &#9633;', '&#9651; = &#9675; &times; &#9633;'], 'D',
     'Each friend paid &#9675;, and there are &#9633; friends, so the total is &#9675; &times; &#9633;. Try numbers: 4 friends paid $5 each, total $20 = 5 &times; 4. A is the Practice Test 3 answer, but this time the total is unknown.',
     'PT3 QR #37 (gid 156, wrong), reversed to find the total')
-# 21 tiles (PT2 QR #32 wrong; PT7 QR #26)
+# 21 tiles (PT2 QR #32 wrong; Official QR #26)
 assert 96 % 8 == 0 and 54 % 6 == 0 and (96//8)*(54//6) == 108 and (96*54) // (8*6) == 108
 add('Matching Stories to Equations', 'STORY', 'last', 'Rosa wants to cover a patio with tiles. The patio is 96 inches long and 54 inches wide. Each tile is 8 inches long and 6 inches wide. How can Rosa find how many tiles she needs without laying them all down? (A = l &times; w)',
     ['(96 &divide; 8) &times; (54 &divide; 6)', '(96 &times; 54) &divide; (8 + 6)', '(96 &minus; 8) &times; (54 &minus; 6)', '(96 &minus; 48) &times; (54 &minus; 48)'], 'A',
     'Tiles along the length: 96 &divide; 8 = 12. Along the width: 54 &divide; 6 = 9. 12 &times; 9 = 108 tiles. C and D subtract instead of dividing. B adds the tile sides instead of multiplying them.',
-    'PT2 QR #32 (gid 111, wrong) and PT7 QR #26 (gid 1565)')
-# 22 quadrilateral: exactly one pair of parallel sides (PT7 MA #18, wrong)
+    'PT2 QR #32 (gid 111, wrong) and Official QR #26 (gid 1565)')
+# 22 quadrilateral: exactly one pair of parallel sides (Official MA #18, wrong)
 add('Identifying Shapes', 'SHAPES', 'last', 'Which figure could be described as a quadrilateral with exactly one pair of parallel sides?',
     ['square', 'rectangle', 'rhombus', 'trapezoid'], 'D',
-    'A trapezoid has exactly ONE pair of parallel sides. A square, a rectangle, and a rhombus each have TWO pairs. (On Practice Test 7 the question asked for two pairs, and the answer was square, not trapezoid.)',
-    'PT7 MA #18 (wrong: picked trapezoid for two pairs)')
+    'A trapezoid has exactly ONE pair of parallel sides. A square, a rectangle, and a rhombus each have TWO pairs. (On Official Lower test the question asked for two pairs, and the answer was square, not trapezoid.)',
+    'Official MA #18 (wrong: picked trapezoid for two pairs)')
 # 23 always-true statement (PT1 MA #23, wrong; PT5 MA #28, wrong)
 add('Identifying Shapes', 'SHAPES', 'last', 'Which statement is always true?',
     ['A rhombus is always a square.', 'A trapezoid always has two pairs of parallel sides.', 'A rectangle always has four sides of equal length.', 'A square is always a rhombus.'], 'D',
     'A rhombus has 4 equal sides. A square has 4 equal sides (and 4 right angles), so every square is a rhombus. A is backwards: a rhombus does not need right angles. B: one pair only. C: only a square.',
     'PT1 MA #23 and PT5 MA #28 (both wrong)')
-# 24 rotation (PT7 QR #27, right but 185 s)
+# 24 rotation (Official QR #27, right but 185 s)
 add('Identifying Shapes', 'SHAPES', 'last', 'Leo wants to prove that Figure E and Figure F are the same size and shape. What must he do?',
     ['slide Figure E over the dashed line onto Figure F', 'turn Figure E counterclockwise a quarter of a turn', 'turn Figure E clockwise a quarter of a turn and slide it onto Figure F', 'flip Figure E over the dashed line and turn it counterclockwise a quarter of a turn'], 'C',
     'Look at the one square that sticks out. In E it sticks out on the right of the middle column. Turn E clockwise (like a clock) a quarter turn: the long column lies flat and the bump points down, as in F. Then slide it over.',
-    'PT7 QR #27 (gid 1566): right but 185 s', rot_fig())
-# 25 probability, unknown count (PT7 QR #34, wrong)
+    'Official QR #27 (gid 1566): right but 185 s', rot_fig())
+# 25 probability, unknown count (Official QR #34, wrong)
 known = [5, 7, 4, 8]
 sol = [p for p in range(1, 50) if F(p, sum(known) + p) == F(1, 4)]
 assert sum(known) == 24 and sol == [8] and sum(known) // 4 == 6
 add('Finding Ratios given Probability', 'PROB', 'last', 'The table shows the number of each color of marble in a bag. The probability of picking a purple marble without looking is ' + frac(1, 4) + '. How many purple marbles are in the bag?' +
     table(['Color', 'Number'], [['Red', 5], ['Blue', 7], ['Green', 4], ['Yellow', 8], ['Purple', '?']], 'MARBLES IN THE BAG'),
     ['6', '8', '12', '24'], 'B',
-    'The other marbles: 5 + 7 + 4 + 8 = 24. The total must include the purple ones. Check 8: 8 out of 24 + 8 = 32, and 8/32 = 1/4. A is 1/4 of 24, leaving purple out of the total (the Practice Test 7 slip).',
-    'PT7 QR #34 (gid 1573, wrong) and PT5 QR #37 (gid 1493, 145 s)')
+    'The other marbles: 5 + 7 + 4 + 8 = 24. The total must include the purple ones. Check 8: 8 out of 24 + 8 = 32, and 8/32 = 1/4. A is 1/4 of 24, leaving purple out of the total (the Official Lower test slip).',
+    'Official QR #34 (gid 1573, wrong) and PT5 QR #37 (gid 1493, 145 s)')
 # 26 probability, find the other group (What to Expect QR #27)
 assert F(6, 21) == F(2, 7) and 21 - 6 == 15
 add('Finding Ratios given Probability', 'PROB', 'last', 'Mr. Lee put the names of all his students in a hat. The probability of pulling out a boy&rsquo;s name is 2 out of 7. There are 15 girls in the class. How many boys are in the class?',
     ['2', '5', '6', '21'], 'C',
     'Girls are the other 5 out of 7. 5 parts = 15, so 1 part = 3. Boys are 2 parts = 6. Check: 6 boys out of 21 students = 2/7. D is the whole class. B is the girls&rsquo; part number.',
     'What to Expect QR #27 (gid 29)')
-# 27 digit rules, hundreds place (PT7 QR #36, wrong)
+# 27 digit rules, hundreds place (Official QR #36, wrong)
 cands = [int(''.join(p)) for p in permutations('245679') if int(p[-1]) % 2 == 1]
 best = min(cands)
 assert best == 245679 and str(best)[-3] == '6'
@@ -287,7 +287,7 @@ add('Value of Digits', 'DIGIT', 'last', 'Students wrote a new number using the d
     '<div style="border:1px solid var(--border);border-radius:6px;padding:6px 10px;margin:8px 0;max-width:420px"><b>RULES FOR THE NEW NUMBER</b><div>1. The number must have 6 digits.</div><div>2. The number must be odd.</div><div>3. The number must be the smallest number possible.</div><div>4. Each digit can be used only once.</div></div>What digit is in the <b>hundreds</b> place of the new number?',
     ['2', '5', '6', '9'], 'C',
     'Smallest: put the small digits in front. Odd: the ones digit must be 5, 7, or 9; use the biggest odd one (9) at the end so the front stays small: 245,679. Write the places under it: hundreds is 6. A is the first digit.',
-    'PT7 QR #36 (gid 1575, wrong) and PT3 QR #31 (gid 150, wrong)')
+    'Official QR #36 (gid 1575, wrong) and PT3 QR #31 (gid 150, wrong)')
 # 28 digit rules, tens place (PT3 QR #31, wrong)
 cands = [int(''.join(p)) for p in permutations('13468') if int(p[-1]) % 2 == 0]
 best = max(cands)
@@ -304,7 +304,7 @@ add('Area and Perimeter of Complex Polygons', 'POLY', 'last', 'The figure is mad
     ['32 feet', '39 feet', '46 feet', '57 feet'], 'C',
     'Find the two missing sides: across = 12 &minus; 5 = 7, down = 11 &minus; 4 = 7. Add all six: 5 + 7 + 7 + 4 + 12 + 11 = 46. A adds only the four labeled sides. B misses one of the 7s.',
     'PT6 QR #30 (gid 1531, wrong)', l_shape())
-# 30 0/1 identities (PT7 QR #32, right but 92 s)
+# 30 0/1 identities (Official QR #32, right but 92 s)
 for star in (3, 8):
     for dot in (2, 9):
         dia, tri = 0, 1
@@ -313,7 +313,7 @@ for star in (3, 8):
 add('Algebraic Equations with Symbol Variables', 'SYM', 'last', 'If &#9733; &minus; &#9670; = &#9733; and &#9679; &times; &#9650; = &#9679;, what is the value of &#9632; &times; &#9670; + &#9650;?',
     ['0', '1', '&#9632;', '&#9632; + 1'], 'B',
     '&#9733; &minus; &#9670; = &#9733; means &#9670; = 0. &#9679; &times; &#9650; = &#9679; means &#9650; = 1. So &#9632; &times; 0 + 1 = 0 + 1 = 1. D forgets that anything times 0 is 0.',
-    'PT7 QR #32 (gid 1571): right but 92 s')
+    'Official QR #32 (gid 1571): right but 92 s')
 # 31 symbol story (PT4 QR #35, wrong)
 def ok31(sq, ci, tr):
     ben_before = tr * (sq - ci) - ci
@@ -337,7 +337,7 @@ add('Comparing Areas', 'AREAS', 'last', 'The floor of Room A is a square with an
     ['The area of Room A is greater than the area of Room B.', 'The area of Room A is less than the area of Room B.', 'The perimeter of Room A is equal to the perimeter of Room B.', 'The perimeter of Room A is less than the perimeter of Room B.'], 'D',
     'Room A: 10 &times; 10 = 100, so its sides are 10 and its perimeter is 40. Room B: area 5 &times; 20 = 100 (the same), perimeter 5 + 20 + 5 + 20 = 50. 40 is less than 50.',
     'PT2 QR #38 (gid 117, wrong)')
-# 34 hidden rule (PT7 QR #38 and #28)
+# 34 hidden rule (Official QR #38 and #28)
 rule = lambda sides, dots: dots == 2*sides
 yes = [(3, 6), (4, 8), (5, 10)]; no = [(3, 3), (6, 8), (4, 6)]
 assert all(rule(*x) for x in yes) and not any(rule(*x) for x in no)
@@ -346,7 +346,7 @@ assert [k for k, v in opts.items() if rule(*v)] == ['B']
 add('Predicting the Next Shapes given Progressive Pattern', 'NEXT', 'last', '<div><b>These are zorbs:</b> a triangle with 6 dots, a square with 8 dots, a pentagon with 10 dots.</div><div><b>These are NOT zorbs:</b> a triangle with 3 dots, a hexagon with 8 dots, a square with 6 dots.</div><div style="margin-top:6px">Which of these is a zorb?</div>',
     ['a hexagon with 10 dots', 'an octagon with 16 dots', 'a pentagon with 5 dots', 'a square with 10 dots'], 'B',
     'Check every zorb: the dots are 2 times the number of sides (3 &rarr; 6, 4 &rarr; 8, 5 &rarr; 10). An octagon has 8 sides: 2 &times; 8 = 16. C fits &ldquo;dots = sides&rdquo;, which the non-zorb triangle with 3 dots rules out.',
-    'PT7 QR #38 (gid 1577) and PT7 QR #28 (gid 1567, right but 91 s)')
+    'Official QR #38 (gid 1577) and Official QR #28 (gid 1567, right but 91 s)')
 # 35 mean/median statements (What to Expect QR #29)
 data = {'Ana': 15, 'Ben': 30, 'Cai': 40, 'Dev': 19}
 vals = sorted(data.values()); mean = F(sum(vals), 4); med = F(vals[1] + vals[2], 2); rng = vals[-1] - vals[0]

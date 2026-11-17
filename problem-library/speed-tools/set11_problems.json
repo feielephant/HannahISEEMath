@@ -12,7 +12,7 @@
   },
   "correct": "D",
   "key": "<b>Answer: D.</b> The repeated digit is how many 7s are in the number you multiply by: 7 = 1 seven, 14 = 2 sevens, 21 = 3 sevens. 63 = 9 sevens, so the answer is 999,999. A is just the next line after 333,333.",
-  "ref": "Tier: Hard &middot; Topic: Numerical Patterns &middot; Type: real middle third &middot; Built like: PT6 QR #18 (gid 1519): she picked the next line in the list &middot; Real tests: 5 middle-third + 1 last-third items &middot; Last done: PT7 QR #2 11-15 &middot; Last wrong: PT6 QR #18 11-08 &middot; Last 5: 0/5 wrong &middot; Since 10/25: 3/15 wrong",
+  "ref": "Tier: Hard &middot; Topic: Numerical Patterns &middot; Type: real middle third &middot; Built like: PT6 QR #18 (gid 1519): she picked the next line in the list &middot; Real tests: 5 middle-third + 1 last-third items &middot; Last done: Official QR #2 11-15 &middot; Last wrong: PT6 QR #18 11-08 &middot; Last 5: 0/5 wrong &middot; Since 10/25: 3/15 wrong",
   "diagram": null,
   "needs_diagram": false
  },
@@ -28,8 +28,8 @@
    "D": "144"
   },
   "correct": "C",
-  "key": "<b>Answer: C.</b> 8 = 2 &times; 2 &times; 2, 27 = 3 &times; 3 &times; 3, 64 = 4 &times; 4 &times; 4. The next is 5 &times; 5 &times; 5 = 125. 81, 100, and 144 are a number times itself only twice (9 &times; 9, 10 &times; 10, 12 &times; 12), the rule from Practice Test 7.",
-  "ref": "Tier: Hard &middot; Topic: Numerical Patterns &middot; Type: real middle third &middot; Built like: PT7 QR #19 (gid 1558): squares 4, 9, 16, right but 85 s &middot; Real tests: 5 middle-third + 1 last-third items &middot; Last done: PT7 QR #2 11-15 &middot; Last wrong: PT6 QR #18 11-08 &middot; Last 5: 0/5 wrong &middot; Since 10/25: 3/15 wrong",
+  "key": "<b>Answer: C.</b> 8 = 2 &times; 2 &times; 2, 27 = 3 &times; 3 &times; 3, 64 = 4 &times; 4 &times; 4. The next is 5 &times; 5 &times; 5 = 125. 81, 100, and 144 are a number times itself only twice (9 &times; 9, 10 &times; 10, 12 &times; 12), the rule from Official Lower test.",
+  "ref": "Tier: Hard &middot; Topic: Numerical Patterns &middot; Type: real middle third &middot; Built like: Official QR #19 (gid 1558): squares 4, 9, 16, right but 85 s &middot; Real tests: 5 middle-third + 1 last-third items &middot; Last done: Official QR #2 11-15 &middot; Last wrong: PT6 QR #18 11-08 &middot; Last 5: 0/5 wrong &middot; Since 10/25: 3/15 wrong",
   "diagram": null,
   "needs_diagram": false
  },
@@ -80,7 +80,7 @@
   },
   "correct": "B",
   "key": "<b>Answer: B.</b> Write each in circles: &#9632; = 3 circles, so &#9650; = 2 &times; 3 = 6 circles. B: &#9632; + 3 circles = 3 + 3 = 6. A adds 3 + 2 = 5 instead of multiplying. C: 12 circles vs 9. D: 3 circles vs 2.",
-  "ref": "Tier: Hard &middot; Topic: Interpreting Pictographs &middot; Type: real middle third &middot; Built like: PT5 QR #34 (gid 1490, wrong) and PT7 QR #18 (gid 1557, right but 94 s) &middot; Real tests: 5 middle-third + 1 last-third items &middot; Last done: PT7 QR #7 11-15 &middot; Last wrong: QR9 #5 11-03 &middot; Last 5: 0/5 wrong &middot; Since 10/25: 4/14 wrong",
+  "ref": "Tier: Hard &middot; Topic: Interpreting Pictographs &middot; Type: real middle third &middot; Built like: PT5 QR #34 (gid 1490, wrong) and Official QR #18 (gid 1557, right but 94 s) &middot; Real tests: 5 middle-third + 1 last-third items &middot; Last done: Official QR #7 11-15 &middot; Last wrong: QR9 #5 11-03 &middot; Last 5: 0/5 wrong &middot; Since 10/25: 4/14 wrong",
   "diagram": null,
   "needs_diagram": false
  },
@@ -97,7 +97,7 @@
   },
   "correct": "C",
   "key": "<b>Answer: C.</b> Three &#9733;s add up to a two-digit number that ends in &#9733;. Try them: 3 &times; 5 = 15 ends in 5. So &#9733; = 5 and &#9679; = 1. A is &#9679;, not &#9733;.",
-  "ref": "Tier: Hard &middot; Topic: Cryptarithm / digit substitution &middot; Type: real middle third &middot; Built like: PT7 QR #16 (gid 1555): right but 99 s &middot; Real tests: 5 middle-third + 1 last-third items &middot; Last done: PT7 QR #7 11-15 &middot; Last wrong: QR9 #5 11-03 &middot; Last 5: 0/5 wrong &middot; Since 10/25: 4/14 wrong",
+  "ref": "Tier: Hard &middot; Topic: Cryptarithm / digit substitution &middot; Type: real middle third &middot; Built like: Official QR #16 (gid 1555): right but 99 s &middot; Real tests: 5 middle-third + 1 last-third items &middot; Last done: Official QR #7 11-15 &middot; Last wrong: QR9 #5 11-03 &middot; Last 5: 0/5 wrong &middot; Since 10/25: 4/14 wrong",
   "diagram": null,
   "needs_diagram": false
  },
@@ -114,7 +114,7 @@
   },
   "correct": "B",
   "key": "<b>Answer: B.</b> 3 parts = 96, so 1 part = 32 and the total is 8 &times; 32 = 256. Not mystery: 256 &minus; 96 = 160. C stops at the total. A is 3/8 of 96. D is 96 &times; 3.",
-  "ref": "Tier: Hard &middot; Topic: Word Problems with Ratios &middot; Type: real middle third &middot; Built like: PT6 QR #17 (gid 1518), with one more step at the end &middot; Real tests: 4 middle-third + 1 last-third items &middot; Last done: PT7 QR #11 11-15 &middot; Last wrong: MA4 #27 11-06 &middot; Last 5: 0/5 wrong &middot; Since 10/25: 3/11 wrong",
+  "ref": "Tier: Hard &middot; Topic: Word Problems with Ratios &middot; Type: real middle third &middot; Built like: PT6 QR #17 (gid 1518), with one more step at the end &middot; Real tests: 4 middle-third + 1 last-third items &middot; Last done: Official QR #11 11-15 &middot; Last wrong: MA4 #27 11-06 &middot; Last 5: 0/5 wrong &middot; Since 10/25: 3/11 wrong",
   "diagram": null,
   "needs_diagram": false
  },
@@ -131,7 +131,7 @@
   },
   "correct": "C",
   "key": "<b>Answer: C.</b> 150 &divide; 25 = 6 eggs per cake. 175 &times; 6 = 1,050. A adds 150 because 175 &minus; 25 = 150. B uses 5 eggs. D uses 10 eggs.",
-  "ref": "Tier: Hard &middot; Topic: Word Problems with Ratios &middot; Type: real middle third &middot; Built like: PT5 QR #21 (gid 1477): right but 85 s &middot; Real tests: 4 middle-third + 1 last-third items &middot; Last done: PT7 QR #11 11-15 &middot; Last wrong: MA4 #27 11-06 &middot; Last 5: 0/5 wrong &middot; Since 10/25: 3/11 wrong",
+  "ref": "Tier: Hard &middot; Topic: Word Problems with Ratios &middot; Type: real middle third &middot; Built like: PT5 QR #21 (gid 1477): right but 85 s &middot; Real tests: 4 middle-third + 1 last-third items &middot; Last done: Official QR #11 11-15 &middot; Last wrong: MA4 #27 11-06 &middot; Last 5: 0/5 wrong &middot; Since 10/25: 3/11 wrong",
   "diagram": null,
   "needs_diagram": false
  },
@@ -165,7 +165,7 @@
   },
   "correct": "A",
   "key": "<b>Answer: A.</b> Items 1 and 2 are categories (words), not numbers. Only A is a category. B, C, and D are all numbers you count or measure.",
-  "ref": "Tier: Hard &middot; Topic: Data Collection & Random Sampling &middot; Type: real middle third &middot; Built like: PT6 QR #38 (gid 1539, wrong) and QR10 #1 (wrong) &middot; Real tests: 0 middle-third + 1 last-third items &middot; Last done: PT7 MA #8 11-15 &middot; Last wrong: QR10 #1 11-10 &middot; Last 5: 2/5 wrong &middot; Since 10/25: 3/6 wrong",
+  "ref": "Tier: Hard &middot; Topic: Data Collection & Random Sampling &middot; Type: real middle third &middot; Built like: PT6 QR #38 (gid 1539, wrong) and QR10 #1 (wrong) &middot; Real tests: 0 middle-third + 1 last-third items &middot; Last done: Official MA #8 11-15 &middot; Last wrong: QR10 #1 11-10 &middot; Last 5: 2/5 wrong &middot; Since 10/25: 3/6 wrong",
   "diagram": null,
   "needs_diagram": false
  },
@@ -199,7 +199,7 @@
   },
   "correct": "A",
   "key": "<b>Answer: A.</b> By 3: the digits add to a multiple of 3. 3 + 1 + 2 = 6, yes. By 8: 312 &divide; 8 = 39, yes. C works for 8 (328 &divide; 8 = 41) but not 3 (digits add to 13). D works for 3 but is odd, so not 8.",
-  "ref": "Tier: Hard &middot; Topic: No Remainder when Divided by a given Number &middot; Type: real middle third &middot; Built like: PT1 QR #20 (gid 58, wrong) and PT2 MA #24 (divisible by 8, wrong) &middot; Real tests: 3 middle-third + 0 last-third items &middot; Last done: PT7 MA #3 11-15 &middot; Last wrong: QR9 #37 11-03 &middot; Last 5: 0/5 wrong &middot; Since 10/25: 2/10 wrong",
+  "ref": "Tier: Hard &middot; Topic: No Remainder when Divided by a given Number &middot; Type: real middle third &middot; Built like: PT1 QR #20 (gid 58, wrong) and PT2 MA #24 (divisible by 8, wrong) &middot; Real tests: 3 middle-third + 0 last-third items &middot; Last done: Official MA #3 11-15 &middot; Last wrong: QR9 #37 11-03 &middot; Last 5: 0/5 wrong &middot; Since 10/25: 2/10 wrong",
   "diagram": null,
   "needs_diagram": false
  },
@@ -250,7 +250,7 @@
   },
   "correct": "C",
   "key": "<b>Answer: C.</b> Work left to right. 75 &divide; 11 is about 7 (77 &divide; 11 = 7). 7 &times; 190 is about 7 &times; 200 = 1,400. Exact: about 1,295. B comes from cutting 75 &divide; 11 down to 6.",
-  "ref": "Tier: Hard &middot; Topic: Estimating Multiplication & Division &middot; Type: real last third &middot; Built like: PT6 QR #36 (gid 1537, wrong) and MA5 #15 (wrong): third time on this type &middot; Real tests: 5 middle-third + 5 last-third items &middot; Last done: PT7 QR #35 11-15 &middot; Last wrong: MA5 #15 11-11 &middot; Last 5: 2/5 wrong &middot; Since 10/25: 3/13 wrong",
+  "ref": "Tier: Hard &middot; Topic: Estimating Multiplication & Division &middot; Type: real last third &middot; Built like: PT6 QR #36 (gid 1537, wrong) and MA5 #15 (wrong): third time on this type &middot; Real tests: 5 middle-third + 5 last-third items &middot; Last done: Official QR #35 11-15 &middot; Last wrong: MA5 #15 11-11 &middot; Last 5: 2/5 wrong &middot; Since 10/25: 3/13 wrong",
   "diagram": null,
   "needs_diagram": false
  },
@@ -267,7 +267,7 @@
   },
   "correct": "B",
   "key": "<b>Answer: B.</b> 61 &divide; 30 is about 2. 2 &times; 482 is about 960. Exact: about 980. Divide the pair that goes together first.",
-  "ref": "Tier: Hard &middot; Topic: Estimating Multiplication & Division &middot; Type: real last third &middot; Built like: What to Expect QR #33 (gid 35, wrong) &middot; Real tests: 5 middle-third + 5 last-third items &middot; Last done: PT7 QR #35 11-15 &middot; Last wrong: MA5 #15 11-11 &middot; Last 5: 2/5 wrong &middot; Since 10/25: 3/13 wrong",
+  "ref": "Tier: Hard &middot; Topic: Estimating Multiplication & Division &middot; Type: real last third &middot; Built like: What to Expect QR #33 (gid 35, wrong) &middot; Real tests: 5 middle-third + 5 last-third items &middot; Last done: Official QR #35 11-15 &middot; Last wrong: MA5 #15 11-11 &middot; Last 5: 2/5 wrong &middot; Since 10/25: 3/13 wrong",
   "diagram": null,
   "needs_diagram": false
  },
@@ -284,7 +284,7 @@
   },
   "correct": "B",
   "key": "<b>Answer: B.</b> 42 &times; 19 is about 40 &times; 20 = 800. Add the 286, about 300: 800 + 300 = 1,100. A forgets the 286. D multiplies 300 by 20.",
-  "ref": "Tier: Hard &middot; Topic: Estimating Multiplication & Division &middot; Type: real last third &middot; Built like: PT2 QR #24 (gid 102, wrong) &middot; Real tests: 5 middle-third + 5 last-third items &middot; Last done: PT7 QR #35 11-15 &middot; Last wrong: MA5 #15 11-11 &middot; Last 5: 2/5 wrong &middot; Since 10/25: 3/13 wrong",
+  "ref": "Tier: Hard &middot; Topic: Estimating Multiplication & Division &middot; Type: real last third &middot; Built like: PT2 QR #24 (gid 102, wrong) &middot; Real tests: 5 middle-third + 5 last-third items &middot; Last done: Official QR #35 11-15 &middot; Last wrong: MA5 #15 11-11 &middot; Last 5: 2/5 wrong &middot; Since 10/25: 3/13 wrong",
   "diagram": null,
   "needs_diagram": false
  },
@@ -335,7 +335,7 @@
   },
   "correct": "D",
   "key": "<b>Answer: D.</b> Each friend paid &#9675;, and there are &#9633; friends, so the total is &#9675; &times; &#9633;. Try numbers: 4 friends paid $5 each, total $20 = 5 &times; 4. A is the Practice Test 3 answer, but this time the total is unknown.",
-  "ref": "Tier: Hard &middot; Topic: Matching Stories to Equations &middot; Type: real last third &middot; Built like: PT3 QR #37 (gid 156, wrong), reversed to find the total &middot; Real tests: 2 middle-third + 5 last-third items &middot; Last done: PT7 QR #26 11-15 &middot; Last wrong: QR10 #4 11-10 &middot; Last 5: 0/5 wrong &middot; Since 10/25: 3/13 wrong",
+  "ref": "Tier: Hard &middot; Topic: Matching Stories to Equations &middot; Type: real last third &middot; Built like: PT3 QR #37 (gid 156, wrong), reversed to find the total &middot; Real tests: 2 middle-third + 5 last-third items &middot; Last done: Official QR #26 11-15 &middot; Last wrong: QR10 #4 11-10 &middot; Last 5: 0/5 wrong &middot; Since 10/25: 3/13 wrong",
   "diagram": null,
   "needs_diagram": false
  },
@@ -352,7 +352,7 @@
   },
   "correct": "A",
   "key": "<b>Answer: A.</b> Tiles along the length: 96 &divide; 8 = 12. Along the width: 54 &divide; 6 = 9. 12 &times; 9 = 108 tiles. C and D subtract instead of dividing. B adds the tile sides instead of multiplying them.",
-  "ref": "Tier: Hard &middot; Topic: Matching Stories to Equations &middot; Type: real last third &middot; Built like: PT2 QR #32 (gid 111, wrong) and PT7 QR #26 (gid 1565) &middot; Real tests: 2 middle-third + 5 last-third items &middot; Last done: PT7 QR #26 11-15 &middot; Last wrong: QR10 #4 11-10 &middot; Last 5: 0/5 wrong &middot; Since 10/25: 3/13 wrong",
+  "ref": "Tier: Hard &middot; Topic: Matching Stories to Equations &middot; Type: real last third &middot; Built like: PT2 QR #32 (gid 111, wrong) and Official QR #26 (gid 1565) &middot; Real tests: 2 middle-third + 5 last-third items &middot; Last done: Official QR #26 11-15 &middot; Last wrong: QR10 #4 11-10 &middot; Last 5: 0/5 wrong &middot; Since 10/25: 3/13 wrong",
   "diagram": null,
   "needs_diagram": false
  },
@@ -368,8 +368,8 @@
    "D": "trapezoid"
   },
   "correct": "D",
-  "key": "<b>Answer: D.</b> A trapezoid has exactly ONE pair of parallel sides. A square, a rectangle, and a rhombus each have TWO pairs. (On Practice Test 7 the question asked for two pairs, and the answer was square, not trapezoid.)",
-  "ref": "Tier: Hard &middot; Topic: Identifying Shapes &middot; Type: real last third &middot; Built like: PT7 MA #18 (wrong: picked trapezoid for two pairs) &middot; Real tests: 0 middle-third + 5 last-third items &middot; Last done: PT7 QR #28 11-15 &middot; Last wrong: PT7 MA #18 11-15 &middot; Last 5: 1/5 wrong &middot; Since 10/25: 2/12 wrong",
+  "key": "<b>Answer: D.</b> A trapezoid has exactly ONE pair of parallel sides. A square, a rectangle, and a rhombus each have TWO pairs. (On Official Lower test the question asked for two pairs, and the answer was square, not trapezoid.)",
+  "ref": "Tier: Hard &middot; Topic: Identifying Shapes &middot; Type: real last third &middot; Built like: Official MA #18 (wrong: picked trapezoid for two pairs) &middot; Real tests: 0 middle-third + 5 last-third items &middot; Last done: Official QR #28 11-15 &middot; Last wrong: Official MA #18 11-15 &middot; Last 5: 1/5 wrong &middot; Since 10/25: 2/12 wrong",
   "diagram": null,
   "needs_diagram": false
  },
@@ -386,7 +386,7 @@
   },
   "correct": "D",
   "key": "<b>Answer: D.</b> A rhombus has 4 equal sides. A square has 4 equal sides (and 4 right angles), so every square is a rhombus. A is backwards: a rhombus does not need right angles. B: one pair only. C: only a square.",
-  "ref": "Tier: Hard &middot; Topic: Identifying Shapes &middot; Type: real last third &middot; Built like: PT1 MA #23 and PT5 MA #28 (both wrong) &middot; Real tests: 0 middle-third + 5 last-third items &middot; Last done: PT7 QR #28 11-15 &middot; Last wrong: PT7 MA #18 11-15 &middot; Last 5: 1/5 wrong &middot; Since 10/25: 2/12 wrong",
+  "ref": "Tier: Hard &middot; Topic: Identifying Shapes &middot; Type: real last third &middot; Built like: PT1 MA #23 and PT5 MA #28 (both wrong) &middot; Real tests: 0 middle-third + 5 last-third items &middot; Last done: Official QR #28 11-15 &middot; Last wrong: Official MA #18 11-15 &middot; Last 5: 1/5 wrong &middot; Since 10/25: 2/12 wrong",
   "diagram": null,
   "needs_diagram": false
  },
@@ -403,7 +403,7 @@
   },
   "correct": "C",
   "key": "<b>Answer: C.</b> Look at the one square that sticks out. In E it sticks out on the right of the middle column. Turn E clockwise (like a clock) a quarter turn: the long column lies flat and the bump points down, as in F. Then slide it over.",
-  "ref": "Tier: Hard &middot; Topic: Identifying Shapes &middot; Type: real last third &middot; Built like: PT7 QR #27 (gid 1566): right but 185 s &middot; Real tests: 0 middle-third + 5 last-third items &middot; Last done: PT7 QR #28 11-15 &middot; Last wrong: PT7 MA #18 11-15 &middot; Last 5: 1/5 wrong &middot; Since 10/25: 2/12 wrong",
+  "ref": "Tier: Hard &middot; Topic: Identifying Shapes &middot; Type: real last third &middot; Built like: Official QR #27 (gid 1566): right but 185 s &middot; Real tests: 0 middle-third + 5 last-third items &middot; Last done: Official QR #28 11-15 &middot; Last wrong: Official MA #18 11-15 &middot; Last 5: 1/5 wrong &middot; Since 10/25: 2/12 wrong",
   "diagram": "<svg viewBox=\"0 0 300 145\" width=\"300\" height=\"145\" role=\"img\"><rect x=\"48\" y=\"86\" width=\"28\" height=\"28\" fill=\"var(--ink-muted)\" fill-opacity=\"0.35\" stroke=\"currentColor\" stroke-width=\"1.6\"/><rect x=\"76\" y=\"58\" width=\"28\" height=\"28\" fill=\"var(--ink-muted)\" fill-opacity=\"0.35\" stroke=\"currentColor\" stroke-width=\"1.6\"/><rect x=\"20\" y=\"30\" width=\"28\" height=\"28\" fill=\"var(--ink-muted)\" fill-opacity=\"0.35\" stroke=\"currentColor\" stroke-width=\"1.6\"/><rect x=\"48\" y=\"30\" width=\"28\" height=\"28\" fill=\"var(--ink-muted)\" fill-opacity=\"0.35\" stroke=\"currentColor\" stroke-width=\"1.6\"/><rect x=\"48\" y=\"58\" width=\"28\" height=\"28\" fill=\"var(--ink-muted)\" fill-opacity=\"0.35\" stroke=\"currentColor\" stroke-width=\"1.6\"/><rect x=\"200\" y=\"58\" width=\"28\" height=\"28\" fill=\"var(--ink-muted)\" fill-opacity=\"0.35\" stroke=\"currentColor\" stroke-width=\"1.6\"/><rect x=\"228\" y=\"86\" width=\"28\" height=\"28\" fill=\"var(--ink-muted)\" fill-opacity=\"0.35\" stroke=\"currentColor\" stroke-width=\"1.6\"/><rect x=\"256\" y=\"58\" width=\"28\" height=\"28\" fill=\"var(--ink-muted)\" fill-opacity=\"0.35\" stroke=\"currentColor\" stroke-width=\"1.6\"/><rect x=\"228\" y=\"58\" width=\"28\" height=\"28\" fill=\"var(--ink-muted)\" fill-opacity=\"0.35\" stroke=\"currentColor\" stroke-width=\"1.6\"/><rect x=\"256\" y=\"30\" width=\"28\" height=\"28\" fill=\"var(--ink-muted)\" fill-opacity=\"0.35\" stroke=\"currentColor\" stroke-width=\"1.6\"/><line x1=\"150\" y1=\"10\" x2=\"150\" y2=\"140\" stroke=\"currentColor\" stroke-width=\"1.3\" stroke-dasharray=\"6 5\"/><text x=\"62\" y=\"135\" font-size=\"13\" text-anchor=\"middle\" fill=\"currentColor\" >Figure E</text><text x=\"242\" y=\"135\" font-size=\"13\" text-anchor=\"middle\" fill=\"currentColor\" >Figure F</text></svg>",
   "needs_diagram": true
  },
@@ -419,8 +419,8 @@
    "D": "24"
   },
   "correct": "B",
-  "key": "<b>Answer: B.</b> The other marbles: 5 + 7 + 4 + 8 = 24. The total must include the purple ones. Check 8: 8 out of 24 + 8 = 32, and 8/32 = 1/4. A is 1/4 of 24, leaving purple out of the total (the Practice Test 7 slip).",
-  "ref": "Tier: Hard &middot; Topic: Finding Ratios given Probability &middot; Type: real last third &middot; Built like: PT7 QR #34 (gid 1573, wrong) and PT5 QR #37 (gid 1493, 145 s) &middot; Real tests: 1 middle-third + 7 last-third items &middot; Last done: PT7 QR #34 11-15 &middot; Last wrong: PT7 QR #34 11-15 &middot; Last 5: 1/5 wrong &middot; Since 10/25: 1/9 wrong",
+  "key": "<b>Answer: B.</b> The other marbles: 5 + 7 + 4 + 8 = 24. The total must include the purple ones. Check 8: 8 out of 24 + 8 = 32, and 8/32 = 1/4. A is 1/4 of 24, leaving purple out of the total (the Official Lower test slip).",
+  "ref": "Tier: Hard &middot; Topic: Finding Ratios given Probability &middot; Type: real last third &middot; Built like: Official QR #34 (gid 1573, wrong) and PT5 QR #37 (gid 1493, 145 s) &middot; Real tests: 1 middle-third + 7 last-third items &middot; Last done: Official QR #34 11-15 &middot; Last wrong: Official QR #34 11-15 &middot; Last 5: 1/5 wrong &middot; Since 10/25: 1/9 wrong",
   "diagram": null,
   "needs_diagram": false
  },
@@ -437,7 +437,7 @@
   },
   "correct": "C",
   "key": "<b>Answer: C.</b> Girls are the other 5 out of 7. 5 parts = 15, so 1 part = 3. Boys are 2 parts = 6. Check: 6 boys out of 21 students = 2/7. D is the whole class. B is the girls&rsquo; part number.",
-  "ref": "Tier: Hard &middot; Topic: Finding Ratios given Probability &middot; Type: real last third &middot; Built like: What to Expect QR #27 (gid 29) &middot; Real tests: 1 middle-third + 7 last-third items &middot; Last done: PT7 QR #34 11-15 &middot; Last wrong: PT7 QR #34 11-15 &middot; Last 5: 1/5 wrong &middot; Since 10/25: 1/9 wrong",
+  "ref": "Tier: Hard &middot; Topic: Finding Ratios given Probability &middot; Type: real last third &middot; Built like: What to Expect QR #27 (gid 29) &middot; Real tests: 1 middle-third + 7 last-third items &middot; Last done: Official QR #34 11-15 &middot; Last wrong: Official QR #34 11-15 &middot; Last 5: 1/5 wrong &middot; Since 10/25: 1/9 wrong",
   "diagram": null,
   "needs_diagram": false
  },
@@ -454,7 +454,7 @@
   },
   "correct": "C",
   "key": "<b>Answer: C.</b> Smallest: put the small digits in front. Odd: the ones digit must be 5, 7, or 9; use the biggest odd one (9) at the end so the front stays small: 245,679. Write the places under it: hundreds is 6. A is the first digit.",
-  "ref": "Tier: Hard &middot; Topic: Value of Digits &middot; Type: real last third &middot; Built like: PT7 QR #36 (gid 1575, wrong) and PT3 QR #31 (gid 150, wrong) &middot; Real tests: 1 middle-third + 3 last-third items &middot; Last done: PT7 QR #36 11-15 &middot; Last wrong: PT7 QR #36 11-15 &middot; Last 5: 2/5 wrong &middot; Since 10/25: 2/6 wrong",
+  "ref": "Tier: Hard &middot; Topic: Value of Digits &middot; Type: real last third &middot; Built like: Official QR #36 (gid 1575, wrong) and PT3 QR #31 (gid 150, wrong) &middot; Real tests: 1 middle-third + 3 last-third items &middot; Last done: Official QR #36 11-15 &middot; Last wrong: Official QR #36 11-15 &middot; Last 5: 2/5 wrong &middot; Since 10/25: 2/6 wrong",
   "diagram": null,
   "needs_diagram": false
  },
@@ -471,7 +471,7 @@
   },
   "correct": "A",
   "key": "<b>Answer: A.</b> Largest: big digits in front. Even: the ones digit must be 4, 6, or 8; use the smallest even one (4) at the end so the front stays big: 86,314. Tens place is 1. B is the tens digit of 86,341, which is odd.",
-  "ref": "Tier: Hard &middot; Topic: Value of Digits &middot; Type: real last third &middot; Built like: PT3 QR #31 (gid 150, wrong) and PT2 QR #35 (gid 114) &middot; Real tests: 1 middle-third + 3 last-third items &middot; Last done: PT7 QR #36 11-15 &middot; Last wrong: PT7 QR #36 11-15 &middot; Last 5: 2/5 wrong &middot; Since 10/25: 2/6 wrong",
+  "ref": "Tier: Hard &middot; Topic: Value of Digits &middot; Type: real last third &middot; Built like: PT3 QR #31 (gid 150, wrong) and PT2 QR #35 (gid 114) &middot; Real tests: 1 middle-third + 3 last-third items &middot; Last done: Official QR #36 11-15 &middot; Last wrong: Official QR #36 11-15 &middot; Last 5: 2/5 wrong &middot; Since 10/25: 2/6 wrong",
   "diagram": null,
   "needs_diagram": false
  },
@@ -488,7 +488,7 @@
   },
   "correct": "C",
   "key": "<b>Answer: C.</b> Find the two missing sides: across = 12 &minus; 5 = 7, down = 11 &minus; 4 = 7. Add all six: 5 + 7 + 7 + 4 + 12 + 11 = 46. A adds only the four labeled sides. B misses one of the 7s.",
-  "ref": "Tier: Hard &middot; Topic: Area and Perimeter of Complex Polygons &middot; Type: real last third &middot; Built like: PT6 QR #30 (gid 1531, wrong) &middot; Real tests: 5 middle-third + 6 last-third items &middot; Last done: PT7 QR #9 11-15 &middot; Last wrong: PT6 QR #30 11-08 &middot; Last 5: 0/5 wrong &middot; Since 10/25: 4/20 wrong",
+  "ref": "Tier: Hard &middot; Topic: Area and Perimeter of Complex Polygons &middot; Type: real last third &middot; Built like: PT6 QR #30 (gid 1531, wrong) &middot; Real tests: 5 middle-third + 6 last-third items &middot; Last done: Official QR #9 11-15 &middot; Last wrong: PT6 QR #30 11-08 &middot; Last 5: 0/5 wrong &middot; Since 10/25: 4/20 wrong",
   "diagram": "<svg viewBox=\"0 0 260 200\" width=\"260\" height=\"200\" role=\"img\"><polygon points=\"40,20 110,20 110,118 208,118 208,174 40,174\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\"/><text x=\"75.0\" y=\"14\" font-size=\"13\" text-anchor=\"middle\" fill=\"currentColor\" >5 ft</text><text x=\"34\" y=\"101.0\" font-size=\"13\" text-anchor=\"end\" fill=\"currentColor\" >11 ft</text><text x=\"124\" y=\"192\" font-size=\"13\" text-anchor=\"middle\" fill=\"currentColor\" >12 ft</text><text x=\"214\" y=\"150\" font-size=\"13\" text-anchor=\"start\" fill=\"currentColor\" >4 ft</text></svg>",
   "needs_diagram": true
  },
@@ -505,7 +505,7 @@
   },
   "correct": "B",
   "key": "<b>Answer: B.</b> &#9733; &minus; &#9670; = &#9733; means &#9670; = 0. &#9679; &times; &#9650; = &#9679; means &#9650; = 1. So &#9632; &times; 0 + 1 = 0 + 1 = 1. D forgets that anything times 0 is 0.",
-  "ref": "Tier: Hard &middot; Topic: Algebraic Equations with Symbol Variables &middot; Type: real last third &middot; Built like: PT7 QR #32 (gid 1571): right but 92 s &middot; Real tests: 4 middle-third + 5 last-third items &middot; Last done: PT7 QR #32 11-15 &middot; Last wrong: QR9 #9 11-03 &middot; Last 5: 0/5 wrong &middot; Since 10/25: 3/17 wrong",
+  "ref": "Tier: Hard &middot; Topic: Algebraic Equations with Symbol Variables &middot; Type: real last third &middot; Built like: Official QR #32 (gid 1571): right but 92 s &middot; Real tests: 4 middle-third + 5 last-third items &middot; Last done: Official QR #32 11-15 &middot; Last wrong: QR9 #9 11-03 &middot; Last 5: 0/5 wrong &middot; Since 10/25: 3/17 wrong",
   "diagram": null,
   "needs_diagram": false
  },
@@ -522,7 +522,7 @@
   },
   "correct": "A",
   "key": "<b>Answer: A.</b> Ava has &#9633; &minus; &#9675; left. Ben now has &#9651; times that: &#9651; &times; (&#9633; &minus; &#9675;). Before the gift he had &#9675; fewer, so subtract &#9675;. Try numbers: Ava 10, gave 3, Ben now 2 &times; 7 = 14, before 11. D stops one step early.",
-  "ref": "Tier: Hard &middot; Topic: Algebraic Equations with Symbol Variables &middot; Type: real last third &middot; Built like: PT4 QR #35 (gid 195, wrong) &middot; Real tests: 4 middle-third + 5 last-third items &middot; Last done: PT7 QR #32 11-15 &middot; Last wrong: QR9 #9 11-03 &middot; Last 5: 0/5 wrong &middot; Since 10/25: 3/17 wrong",
+  "ref": "Tier: Hard &middot; Topic: Algebraic Equations with Symbol Variables &middot; Type: real last third &middot; Built like: PT4 QR #35 (gid 195, wrong) &middot; Real tests: 4 middle-third + 5 last-third items &middot; Last done: Official QR #32 11-15 &middot; Last wrong: QR9 #9 11-03 &middot; Last 5: 0/5 wrong &middot; Since 10/25: 3/17 wrong",
   "diagram": null,
   "needs_diagram": false
  },
@@ -556,7 +556,7 @@
   },
   "correct": "D",
   "key": "<b>Answer: D.</b> Room A: 10 &times; 10 = 100, so its sides are 10 and its perimeter is 40. Room B: area 5 &times; 20 = 100 (the same), perimeter 5 + 20 + 5 + 20 = 50. 40 is less than 50.",
-  "ref": "Tier: Hard &middot; Topic: Comparing Areas &middot; Type: real last third &middot; Built like: PT2 QR #38 (gid 117, wrong) &middot; Real tests: 0 middle-third + 3 last-third items &middot; Last done: PT7 MA #15 11-15 &middot; Last wrong: QR9 #30 11-03 &middot; Last 5: 1/5 wrong &middot; Since 10/25: 2/6 wrong",
+  "ref": "Tier: Hard &middot; Topic: Comparing Areas &middot; Type: real last third &middot; Built like: PT2 QR #38 (gid 117, wrong) &middot; Real tests: 0 middle-third + 3 last-third items &middot; Last done: Official MA #15 11-15 &middot; Last wrong: QR9 #30 11-03 &middot; Last 5: 1/5 wrong &middot; Since 10/25: 2/6 wrong",
   "diagram": null,
   "needs_diagram": false
  },
@@ -573,7 +573,7 @@
   },
   "correct": "B",
   "key": "<b>Answer: B.</b> Check every zorb: the dots are 2 times the number of sides (3 &rarr; 6, 4 &rarr; 8, 5 &rarr; 10). An octagon has 8 sides: 2 &times; 8 = 16. C fits &ldquo;dots = sides&rdquo;, which the non-zorb triangle with 3 dots rules out.",
-  "ref": "Tier: Hard &middot; Topic: Predicting the Next Shapes given Progressive Pattern &middot; Type: real last third &middot; Built like: PT7 QR #38 (gid 1577) and PT7 QR #28 (gid 1567, right but 91 s) &middot; Real tests: 5 middle-third + 5 last-third items &middot; Last done: PT7 QR #38 11-15 &middot; Last wrong: PT1 MA #27 08-30 &middot; Last 5: 0/5 wrong &middot; Since 10/25: 0/10 wrong",
+  "ref": "Tier: Hard &middot; Topic: Predicting the Next Shapes given Progressive Pattern &middot; Type: real last third &middot; Built like: Official QR #38 (gid 1577) and Official QR #28 (gid 1567, right but 91 s) &middot; Real tests: 5 middle-third + 5 last-third items &middot; Last done: Official QR #38 11-15 &middot; Last wrong: PT1 MA #27 08-30 &middot; Last 5: 0/5 wrong &middot; Since 10/25: 0/10 wrong",
   "diagram": null,
   "needs_diagram": false
  },
@@ -607,7 +607,7 @@
   },
   "correct": "D",
   "key": "<b>Answer: D.</b> There are 8 &times; 5 = 40 squares. 10 are white, so 30 are shaded. 30 out of 40 = 3/4 = 75%. B is the white part. A and C are the counts, not percents.",
-  "ref": "Tier: Hard &middot; Topic: Determining Fraction/Percent of Shaded Area, given Figure &middot; Type: real last third &middot; Built like: PT2 QR #26 (gid 104, wrong) and PT4 QR #37 (gid 197) &middot; Real tests: 2 middle-third + 7 last-third items &middot; Last done: PT7 MA #23 11-15 &middot; Last wrong: QR3 #19 10-11 &middot; Last 5: 0/5 wrong &middot; Since 10/25: 0/12 wrong",
+  "ref": "Tier: Hard &middot; Topic: Determining Fraction/Percent of Shaded Area, given Figure &middot; Type: real last third &middot; Built like: PT2 QR #26 (gid 104, wrong) and PT4 QR #37 (gid 197) &middot; Real tests: 2 middle-third + 7 last-third items &middot; Last done: Official MA #23 11-15 &middot; Last wrong: QR3 #19 10-11 &middot; Last 5: 0/5 wrong &middot; Since 10/25: 0/12 wrong",
   "diagram": "<svg viewBox=\"0 0 228 144\" width=\"228\" height=\"144\" role=\"img\"><rect x=\"2\" y=\"2\" width=\"28\" height=\"28\" fill=\"var(--ink-muted)\" stroke=\"currentColor\" stroke-width=\"1.6\"/><rect x=\"30\" y=\"2\" width=\"28\" height=\"28\" fill=\"var(--ink-muted)\" stroke=\"currentColor\" stroke-width=\"1.6\"/><rect x=\"58\" y=\"2\" width=\"28\" height=\"28\" fill=\"var(--ink-muted)\" stroke=\"currentColor\" stroke-width=\"1.6\"/><rect x=\"86\" y=\"2\" width=\"28\" height=\"28\" fill=\"var(--surface,#fff)\" stroke=\"currentColor\" stroke-width=\"1.6\"/><rect x=\"114\" y=\"2\" width=\"28\" height=\"28\" fill=\"var(--ink-muted)\" stroke=\"currentColor\" stroke-width=\"1.6\"/><rect x=\"142\" y=\"2\" width=\"28\" height=\"28\" fill=\"var(--ink-muted)\" stroke=\"currentColor\" stroke-width=\"1.6\"/><rect x=\"170\" y=\"2\" width=\"28\" height=\"28\" fill=\"var(--ink-muted)\" stroke=\"currentColor\" stroke-width=\"1.6\"/><rect x=\"198\" y=\"2\" width=\"28\" height=\"28\" fill=\"var(--surface,#fff)\" stroke=\"currentColor\" stroke-width=\"1.6\"/><rect x=\"2\" y=\"30\" width=\"28\" height=\"28\" fill=\"var(--ink-muted)\" stroke=\"currentColor\" stroke-width=\"1.6\"/><rect x=\"30\" y=\"30\" width=\"28\" height=\"28\" fill=\"var(--surface,#fff)\" stroke=\"currentColor\" stroke-width=\"1.6\"/><rect x=\"58\" y=\"30\" width=\"28\" height=\"28\" fill=\"var(--ink-muted)\" stroke=\"currentColor\" stroke-width=\"1.6\"/><rect x=\"86\" y=\"30\" width=\"28\" height=\"28\" fill=\"var(--ink-muted)\" stroke=\"currentColor\" stroke-width=\"1.6\"/><rect x=\"114\" y=\"30\" width=\"28\" height=\"28\" fill=\"var(--ink-muted)\" stroke=\"currentColor\" stroke-width=\"1.6\"/><rect x=\"142\" y=\"30\" width=\"28\" height=\"28\" fill=\"var(--ink-muted)\" stroke=\"currentColor\" stroke-width=\"1.6\"/><rect x=\"170\" y=\"30\" width=\"28\" height=\"28\" fill=\"var(--surface,#fff)\" stroke=\"currentColor\" stroke-width=\"1.6\"/><rect x=\"198\" y=\"30\" width=\"28\" height=\"28\" fill=\"var(--ink-muted)\" stroke=\"currentColor\" stroke-width=\"1.6\"/><rect x=\"2\" y=\"58\" width=\"28\" height=\"28\" fill=\"var(--ink-muted)\" stroke=\"currentColor\" stroke-width=\"1.6\"/><rect x=\"30\" y=\"58\" width=\"28\" height=\"28\" fill=\"var(--ink-muted)\" stroke=\"currentColor\" stroke-width=\"1.6\"/><rect x=\"58\" y=\"58\" width=\"28\" height=\"28\" fill=\"var(--surface,#fff)\" stroke=\"currentColor\" stroke-width=\"1.6\"/><rect x=\"86\" y=\"58\" width=\"28\" height=\"28\" fill=\"var(--ink-muted)\" stroke=\"currentColor\" stroke-width=\"1.6\"/><rect x=\"114\" y=\"58\" width=\"28\" height=\"28\" fill=\"var(--surface,#fff)\" stroke=\"currentColor\" stroke-width=\"1.6\"/><rect x=\"142\" y=\"58\" width=\"28\" height=\"28\" fill=\"var(--ink-muted)\" stroke=\"currentColor\" stroke-width=\"1.6\"/><rect x=\"170\" y=\"58\" width=\"28\" height=\"28\" fill=\"var(--ink-muted)\" stroke=\"currentColor\" stroke-width=\"1.6\"/><rect x=\"198\" y=\"58\" width=\"28\" height=\"28\" fill=\"var(--ink-muted)\" stroke=\"currentColor\" stroke-width=\"1.6\"/><rect x=\"2\" y=\"86\" width=\"28\" height=\"28\" fill=\"var(--surface,#fff)\" stroke=\"currentColor\" stroke-width=\"1.6\"/><rect x=\"30\" y=\"86\" width=\"28\" height=\"28\" fill=\"var(--ink-muted)\" stroke=\"currentColor\" stroke-width=\"1.6\"/><rect x=\"58\" y=\"86\" width=\"28\" height=\"28\" fill=\"var(--ink-muted)\" stroke=\"currentColor\" stroke-width=\"1.6\"/><rect x=\"86\" y=\"86\" width=\"28\" height=\"28\" fill=\"var(--ink-muted)\" stroke=\"currentColor\" stroke-width=\"1.6\"/><rect x=\"114\" y=\"86\" width=\"28\" height=\"28\" fill=\"var(--ink-muted)\" stroke=\"currentColor\" stroke-width=\"1.6\"/><rect x=\"142\" y=\"86\" width=\"28\" height=\"28\" fill=\"var(--surface,#fff)\" stroke=\"currentColor\" stroke-width=\"1.6\"/><rect x=\"170\" y=\"86\" width=\"28\" height=\"28\" fill=\"var(--ink-muted)\" stroke=\"currentColor\" stroke-width=\"1.6\"/><rect x=\"198\" y=\"86\" width=\"28\" height=\"28\" fill=\"var(--ink-muted)\" stroke=\"currentColor\" stroke-width=\"1.6\"/><rect x=\"2\" y=\"114\" width=\"28\" height=\"28\" fill=\"var(--ink-muted)\" stroke=\"currentColor\" stroke-width=\"1.6\"/><rect x=\"30\" y=\"114\" width=\"28\" height=\"28\" fill=\"var(--ink-muted)\" stroke=\"currentColor\" stroke-width=\"1.6\"/><rect x=\"58\" y=\"114\" width=\"28\" height=\"28\" fill=\"var(--ink-muted)\" stroke=\"currentColor\" stroke-width=\"1.6\"/><rect x=\"86\" y=\"114\" width=\"28\" height=\"28\" fill=\"var(--surface,#fff)\" stroke=\"currentColor\" stroke-width=\"1.6\"/><rect x=\"114\" y=\"114\" width=\"28\" height=\"28\" fill=\"var(--ink-muted)\" stroke=\"currentColor\" stroke-width=\"1.6\"/><rect x=\"142\" y=\"114\" width=\"28\" height=\"28\" fill=\"var(--ink-muted)\" stroke=\"currentColor\" stroke-width=\"1.6\"/><rect x=\"170\" y=\"114\" width=\"28\" height=\"28\" fill=\"var(--ink-muted)\" stroke=\"currentColor\" stroke-width=\"1.6\"/><rect x=\"198\" y=\"114\" width=\"28\" height=\"28\" fill=\"var(--surface,#fff)\" stroke=\"currentColor\" stroke-width=\"1.6\"/></svg>",
   "needs_diagram": true
  },

@@ -6,8 +6,8 @@ def norm(t):
     return re.sub(r'\s+',' ',re.sub(r'[^a-z0-9 ]',' ',t)).strip()
 names={}
 ev=collections.defaultdict(list)   # norm topic -> (date, label, pos, wrong, kind)
-QRD={'What to Expect':'2026-09-05','ISEE Lower #1':'2026-08-30','ISEE Lower #2':'2026-09-13','ISEE Lower #3':'2026-09-20','ISEE Lower #4':'2026-09-27','ISEE Lower #5':'2026-11-01','ISEE LOWER #6':'2026-11-08','ISEE LOWER #7':'2026-11-15'}
-def short(s): return s.replace('ISEE LOWER #','PT').replace('ISEE Lower #','PT').replace('What to Expect','WTE')
+QRD={'What to Expect':'2026-09-05','ISEE Lower #1':'2026-08-30','ISEE Lower #2':'2026-09-13','ISEE Lower #3':'2026-09-25','ISEE Lower #4':'2026-09-27','ISEE Lower #5':'2026-11-01','ISEE LOWER #6':'2026-11-08','OFFICIAL LOWER':'2026-11-15'}
+def short(s): return s.replace('OFFICIAL LOWER','Official').replace('ISEE LOWER #','PT').replace('ISEE Lower #','PT').replace('What to Expect','WTE')
 def add(topic,date,label,pos,wrong,kind):
     if not topic: return
     n=norm(topic); names.setdefault(n,topic); ev[n].append((date,label,pos,wrong,kind))
@@ -19,7 +19,7 @@ for x in P:
     if k in seen: continue
     seen.add(k)
     add(x.get('official_topic'),QRD[s],short(s)+' QR #%s'%x.get('question_number'),x.get('question_number'),x['is_wrong'],'realQR')
-MAD={'ISEE LOWER #%d'%i:QRD['ISEE Lower #%d'%i] if i<6 else QRD['ISEE LOWER #%d'%i] for i in range(1,8)}
+MAD={'ISEE LOWER #%d'%i:QRD['ISEE Lower #%d'%i] if i<6 else QRD['ISEE LOWER #%d'%i] for i in range(1,7)}; MAD['OFFICIAL LOWER']=QRD['OFFICIAL LOWER']
 seen=set()
 for m in M:
     s=m.get('test_set') or ('What to Expect' if 'Expect' in (m.get('source_file') or '') else None)
