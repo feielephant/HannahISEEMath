@@ -92,7 +92,7 @@
   "real_last": 0,
   "real_wrong": "1/4",
   "last_done": "QR4 #23 10-14",
-  "last_wrong": "PT3 QR #11 09-25",
+  "last_wrong": "Lower 3 QR #11 09-25",
   "last5": "1/5",
   "since1025": "0/0",
   "total": "1/5"
@@ -190,7 +190,7 @@
   "real_last": 5,
   "real_wrong": "4/7",
   "last_done": "QR10 #37 11-10",
-  "last_wrong": "PT5 QR #38 11-01",
+  "last_wrong": "Lower 5 QR #38 11-01",
   "last5": "1/5",
   "since1025": "1/4",
   "total": "4/11"
@@ -442,7 +442,7 @@
   "real_last": 1,
   "real_wrong": "2/2",
   "last_done": "QR10 #22 11-10",
-  "last_wrong": "PT6 MA #28 11-08",
+  "last_wrong": "Lower 6 MA #28 11-08",
   "last5": "3/5",
   "since1025": "4/7",
   "total": "5/8"
@@ -512,7 +512,7 @@
   "real_last": 1,
   "real_wrong": "2/2",
   "last_done": "QR10 #22 11-10",
-  "last_wrong": "PT6 MA #28 11-08",
+  "last_wrong": "Lower 6 MA #28 11-08",
   "last5": "3/5",
   "since1025": "4/7",
   "total": "5/8"
