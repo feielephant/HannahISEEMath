@@ -1,0 +1,648 @@
+[
+ {
+  "n": 1,
+  "tier": "Hard",
+  "topic": "Numerical Patterns",
+  "q": "Use the pattern to help answer the question.<div style=\"margin-top:6px\">15,873 &times; 7 = 111,111</div><div>15,873 &times; 14 = 222,222</div><div>15,873 &times; 21 = 333,333</div><div style=\"margin-top:6px\">What is the value of 15,873 &times; 63?</div>",
+  "choices": {
+   "A": "444,444",
+   "B": "666,666",
+   "C": "888,888",
+   "D": "999,999"
+  },
+  "correct": "D",
+  "key": "<b>Answer: D.</b> The repeated digit is how many 7s are in the number you multiply by: 7 = 1 seven, 14 = 2 sevens, 21 = 3 sevens. 63 = 9 sevens, so the answer is 999,999. A is just the next line after 333,333.",
+  "ref": "Tier: Hard &middot; Topic: Numerical Patterns &middot; Type: real middle third &middot; Built like: PT6 QR #18 (gid 1519): she picked the next line in the list &middot; Real tests: 5 middle-third + 1 last-third items &middot; Last done: PT7 QR #2 11-15 &middot; Last wrong: PT6 QR #18 11-08 &middot; Last 5: 0/5 wrong &middot; Since 10/25: 3/15 wrong",
+  "diagram": null,
+  "needs_diagram": false
+ },
+ {
+  "n": 2,
+  "tier": "Hard",
+  "topic": "Numerical Patterns",
+  "q": "Mr. Diaz is sorting numbers. He puts the numbers 8, 27, and 64 in a group together. Which is another number that belongs in Mr. Diaz&rsquo;s group?",
+  "choices": {
+   "A": "81",
+   "B": "100",
+   "C": "125",
+   "D": "144"
+  },
+  "correct": "C",
+  "key": "<b>Answer: C.</b> 8 = 2 &times; 2 &times; 2, 27 = 3 &times; 3 &times; 3, 64 = 4 &times; 4 &times; 4. The next is 5 &times; 5 &times; 5 = 125. 81, 100, and 144 are a number times itself only twice (9 &times; 9, 10 &times; 10, 12 &times; 12), the rule from Practice Test 7.",
+  "ref": "Tier: Hard &middot; Topic: Numerical Patterns &middot; Type: real middle third &middot; Built like: PT7 QR #19 (gid 1558): squares 4, 9, 16, right but 85 s &middot; Real tests: 5 middle-third + 1 last-third items &middot; Last done: PT7 QR #2 11-15 &middot; Last wrong: PT6 QR #18 11-08 &middot; Last 5: 0/5 wrong &middot; Since 10/25: 3/15 wrong",
+  "diagram": null,
+  "needs_diagram": false
+ },
+ {
+  "n": 3,
+  "tier": "Hard",
+  "topic": "Comparing & Ordering Fractions & Decimals",
+  "q": "Which list shows <span class=\"frac\"><span class=\"n\">3</span><span class=\"d\">5</span></span>, <span class=\"frac\"><span class=\"n\">2</span><span class=\"d\">3</span></span>, <span class=\"frac\"><span class=\"n\">5</span><span class=\"d\">8</span></span>, and <span class=\"frac\"><span class=\"n\">4</span><span class=\"d\">7</span></span> in order from least to greatest?",
+  "choices": {
+   "A": "<span class=\"frac\"><span class=\"n\">4</span><span class=\"d\">7</span></span>, <span class=\"frac\"><span class=\"n\">3</span><span class=\"d\">5</span></span>, <span class=\"frac\"><span class=\"n\">5</span><span class=\"d\">8</span></span>, <span class=\"frac\"><span class=\"n\">2</span><span class=\"d\">3</span></span>",
+   "B": "<span class=\"frac\"><span class=\"n\">4</span><span class=\"d\">7</span></span>, <span class=\"frac\"><span class=\"n\">5</span><span class=\"d\">8</span></span>, <span class=\"frac\"><span class=\"n\">3</span><span class=\"d\">5</span></span>, <span class=\"frac\"><span class=\"n\">2</span><span class=\"d\">3</span></span>",
+   "C": "<span class=\"frac\"><span class=\"n\">3</span><span class=\"d\">5</span></span>, <span class=\"frac\"><span class=\"n\">2</span><span class=\"d\">3</span></span>, <span class=\"frac\"><span class=\"n\">4</span><span class=\"d\">7</span></span>, <span class=\"frac\"><span class=\"n\">5</span><span class=\"d\">8</span></span>",
+   "D": "<span class=\"frac\"><span class=\"n\">2</span><span class=\"d\">3</span></span>, <span class=\"frac\"><span class=\"n\">3</span><span class=\"d\">5</span></span>, <span class=\"frac\"><span class=\"n\">4</span><span class=\"d\">7</span></span>, <span class=\"frac\"><span class=\"n\">5</span><span class=\"d\">8</span></span>"
+  },
+  "correct": "A",
+  "key": "<b>Answer: A.</b> Compare each to a decimal: 4/7 &asymp; 0.57, 3/5 = 0.6, 5/8 = 0.625, 2/3 &asymp; 0.67. Write them down before ordering. B swaps 3/5 and 5/8. C orders by the bottom number. D orders by the bottom number backwards.",
+  "ref": "Tier: Hard &middot; Topic: Comparing & Ordering Fractions & Decimals &middot; Type: real middle third &middot; Built like: PT3 QR #20 (gid 139) and QR10 #13: ordering 4 fractions, both wrong &middot; Real tests: 4 middle-third + 1 last-third items &middot; Last done: MA5 #6 11-11 &middot; Last wrong: QR10 #13 11-10 &middot; Last 5: 1/5 wrong &middot; Since 10/25: 4/10 wrong",
+  "diagram": null,
+  "needs_diagram": false
+ },
+ {
+  "n": 4,
+  "tier": "Hard",
+  "topic": "Comparing & Ordering Fractions & Decimals",
+  "q": "Ana walked <span class=\"frac\"><span class=\"n\">5</span><span class=\"d\">8</span></span> of a mile. Ben walked <span class=\"frac\"><span class=\"n\">7</span><span class=\"d\">12</span></span> of a mile. Which statement shows how to find the greater distance?",
+  "choices": {
+   "A": "<span class=\"frac\"><span class=\"n\">5</span><span class=\"d\">8</span></span> = <span class=\"frac\"><span class=\"n\">15</span><span class=\"d\">24</span></span> and <span class=\"frac\"><span class=\"n\">7</span><span class=\"d\">12</span></span> = <span class=\"frac\"><span class=\"n\">14</span><span class=\"d\">24</span></span>, so <span class=\"frac\"><span class=\"n\">5</span><span class=\"d\">8</span></span> &gt; <span class=\"frac\"><span class=\"n\">7</span><span class=\"d\">12</span></span>",
+   "B": "<span class=\"frac\"><span class=\"n\">5</span><span class=\"d\">8</span></span> = <span class=\"frac\"><span class=\"n\">15</span><span class=\"d\">24</span></span> and <span class=\"frac\"><span class=\"n\">7</span><span class=\"d\">12</span></span> = <span class=\"frac\"><span class=\"n\">14</span><span class=\"d\">24</span></span>, so <span class=\"frac\"><span class=\"n\">5</span><span class=\"d\">8</span></span> &lt; <span class=\"frac\"><span class=\"n\">7</span><span class=\"d\">12</span></span>",
+   "C": "<span class=\"frac\"><span class=\"n\">7</span><span class=\"d\">12</span></span> has the greater bottom number, so <span class=\"frac\"><span class=\"n\">7</span><span class=\"d\">12</span></span> &gt; <span class=\"frac\"><span class=\"n\">5</span><span class=\"d\">8</span></span>",
+   "D": "<span class=\"frac\"><span class=\"n\">5</span><span class=\"d\">8</span></span> = <span class=\"frac\"><span class=\"n\">10</span><span class=\"d\">16</span></span> and <span class=\"frac\"><span class=\"n\">10</span><span class=\"d\">16</span></span> &lt; <span class=\"frac\"><span class=\"n\">7</span><span class=\"d\">12</span></span>"
+  },
+  "correct": "A",
+  "key": "<b>Answer: A.</b> Make the bottoms the same: 5/8 = 15/24 and 7/12 = 14/24. 15/24 is more, so Ana&rsquo;s 5/8 is greater. B has the right fractions but the wrong sign. C uses the bottom number only. D is false: 10/16 = 0.625 is more than 7/12.",
+  "ref": "Tier: Hard &middot; Topic: Comparing & Ordering Fractions & Decimals &middot; Type: real middle third &middot; Built like: PT1 QR #22 (gid 60, wrong) and PT6 QR #29 (gid 1530) &middot; Real tests: 4 middle-third + 1 last-third items &middot; Last done: MA5 #6 11-11 &middot; Last wrong: QR10 #13 11-10 &middot; Last 5: 1/5 wrong &middot; Since 10/25: 4/10 wrong",
+  "diagram": null,
+  "needs_diagram": false
+ },
+ {
+  "n": 5,
+  "tier": "Hard",
+  "topic": "Interpreting Pictographs",
+  "q": "The scales are balanced.<div><b>Scale 1:</b> &#9679; &#9679; &#9679; on the left balances &#9632; on the right.</div><div><b>Scale 2:</b> &#9632; &#9632; on the left balances &#9650; on the right.</div>Which set of figures would also balance a scale?",
+  "choices": {
+   "A": "&#9650; = &#9679; &#9679; &#9679; &#9679; &#9679;",
+   "B": "&#9650; = &#9632; &#9679; &#9679; &#9679;",
+   "C": "&#9650; &#9650; = &#9632; &#9632; &#9632;",
+   "D": "&#9632; = &#9679; &#9679;"
+  },
+  "correct": "B",
+  "key": "<b>Answer: B.</b> Write each in circles: &#9632; = 3 circles, so &#9650; = 2 &times; 3 = 6 circles. B: &#9632; + 3 circles = 3 + 3 = 6. A adds 3 + 2 = 5 instead of multiplying. C: 12 circles vs 9. D: 3 circles vs 2.",
+  "ref": "Tier: Hard &middot; Topic: Interpreting Pictographs &middot; Type: real middle third &middot; Built like: PT5 QR #34 (gid 1490, wrong) and PT7 QR #18 (gid 1557, right but 94 s) &middot; Real tests: 5 middle-third + 1 last-third items &middot; Last done: PT7 QR #7 11-15 &middot; Last wrong: QR9 #5 11-03 &middot; Last 5: 0/5 wrong &middot; Since 10/25: 4/14 wrong",
+  "diagram": null,
+  "needs_diagram": false
+ },
+ {
+  "n": 6,
+  "tier": "Hard",
+  "topic": "Cryptarithm / digit substitution",
+  "q": "Each shape stands for a different digit from 1 through 9.<table style=\"margin:8px 0 8px 24px;font-size:1.35em;border-collapse:collapse;text-align:center\"><tr><td></td><td></td><td style=\"width:1.4em\">&#9733;</td></tr><tr><td></td><td></td><td>&#9733;</td></tr><tr><td>+</td><td></td><td>&#9733;</td></tr><tr><td colspan=\"3\" style=\"border-top:2px solid currentColor;padding:0\"></td></tr><tr><td></td><td style=\"width:1.4em\">&#9679;</td><td>&#9733;</td></tr></table>What digit does &#9733; stand for?",
+  "choices": {
+   "A": "1",
+   "B": "3",
+   "C": "5",
+   "D": "7"
+  },
+  "correct": "C",
+  "key": "<b>Answer: C.</b> Three &#9733;s add up to a two-digit number that ends in &#9733;. Try them: 3 &times; 5 = 15 ends in 5. So &#9733; = 5 and &#9679; = 1. A is &#9679;, not &#9733;.",
+  "ref": "Tier: Hard &middot; Topic: Cryptarithm / digit substitution &middot; Type: real middle third &middot; Built like: PT7 QR #16 (gid 1555): right but 99 s &middot; Real tests: 5 middle-third + 1 last-third items &middot; Last done: PT7 QR #7 11-15 &middot; Last wrong: QR9 #5 11-03 &middot; Last 5: 0/5 wrong &middot; Since 10/25: 4/14 wrong",
+  "diagram": null,
+  "needs_diagram": false
+ },
+ {
+  "n": 7,
+  "tier": "Hard",
+  "topic": "Word Problems with Ratios",
+  "q": "In a library, the ratio of mystery books to the total number of books is 3 : 8. There are 96 mystery books. How many books are NOT mystery books?",
+  "choices": {
+   "A": "36",
+   "B": "160",
+   "C": "256",
+   "D": "288"
+  },
+  "correct": "B",
+  "key": "<b>Answer: B.</b> 3 parts = 96, so 1 part = 32 and the total is 8 &times; 32 = 256. Not mystery: 256 &minus; 96 = 160. C stops at the total. A is 3/8 of 96. D is 96 &times; 3.",
+  "ref": "Tier: Hard &middot; Topic: Word Problems with Ratios &middot; Type: real middle third &middot; Built like: PT6 QR #17 (gid 1518), with one more step at the end &middot; Real tests: 4 middle-third + 1 last-third items &middot; Last done: PT7 QR #11 11-15 &middot; Last wrong: MA4 #27 11-06 &middot; Last 5: 0/5 wrong &middot; Since 10/25: 3/11 wrong",
+  "diagram": null,
+  "needs_diagram": false
+ },
+ {
+  "n": 8,
+  "tier": "Hard",
+  "topic": "Word Problems with Ratios",
+  "q": "A bakery uses 150 eggs to make 25 cakes. It uses the same number of eggs in each cake. How many eggs does it need to make 175 cakes?",
+  "choices": {
+   "A": "300",
+   "B": "875",
+   "C": "1,050",
+   "D": "1,750"
+  },
+  "correct": "C",
+  "key": "<b>Answer: C.</b> 150 &divide; 25 = 6 eggs per cake. 175 &times; 6 = 1,050. A adds 150 because 175 &minus; 25 = 150. B uses 5 eggs. D uses 10 eggs.",
+  "ref": "Tier: Hard &middot; Topic: Word Problems with Ratios &middot; Type: real middle third &middot; Built like: PT5 QR #21 (gid 1477): right but 85 s &middot; Real tests: 4 middle-third + 1 last-third items &middot; Last done: PT7 QR #11 11-15 &middot; Last wrong: MA4 #27 11-06 &middot; Last 5: 0/5 wrong &middot; Since 10/25: 3/11 wrong",
+  "diagram": null,
+  "needs_diagram": false
+ },
+ {
+  "n": 9,
+  "tier": "Hard",
+  "topic": "English Unit Conversions",
+  "q": "A roll has 8 yards of ribbon. There are 3 feet in 1 yard and 12 inches in 1 foot. Mia needs 300 inches of ribbon. Which statement best explains whether Mia has enough ribbon?",
+  "choices": {
+   "A": "Since 8 &times; 3 &times; 12 is less than 300, Mia does not have enough ribbon.",
+   "B": "Since 8 &times; 3 &times; 12 is less than 300, Mia has enough ribbon.",
+   "C": "Since 8 &times; 12 is less than 300, Mia does not have enough ribbon.",
+   "D": "Since 8 &times; 3 &times; 12 is greater than 300, Mia has enough ribbon."
+  },
+  "correct": "A",
+  "key": "<b>Answer: A.</b> Yards to feet: 8 &times; 3 = 24 feet. Feet to inches: 24 &times; 12 = 288 inches. 288 is less than 300, so she does not have enough. C skips the feet step (12 inches in a yard, the QR10 #11 slip). D is wrong arithmetic.",
+  "ref": "Tier: Hard &middot; Topic: English Unit Conversions &middot; Type: real middle third &middot; Built like: PT6 QR #25 (gid 1526, wrong) with two steps, like QR10 #11 &middot; Real tests: 2 middle-third + 0 last-third items &middot; Last done: MA5 #7 11-11 &middot; Last wrong: MA5 #23 11-11 &middot; Last 5: 4/5 wrong &middot; Since 10/25: 4/5 wrong",
+  "diagram": null,
+  "needs_diagram": false
+ },
+ {
+  "n": 10,
+  "tier": "Hard",
+  "topic": "Data Collection & Random Sampling",
+  "q": "Maya watched a bird feeder and listed what she observed in categories or groups.<div style=\"margin-top:6px\">1. Kind of bird: robin, cardinal, sparrow</div><div>2. Color of each bird&rsquo;s feathers</div><div>3. ?</div><div style=\"margin-top:6px\">Which information best completes Maya&rsquo;s list?</div>",
+  "choices": {
+   "A": "the side of the feeder each bird landed on: left or right",
+   "B": "the number of seeds each bird ate",
+   "C": "how many minutes each bird stayed",
+   "D": "the weight of each bird, in grams"
+  },
+  "correct": "A",
+  "key": "<b>Answer: A.</b> Items 1 and 2 are categories (words), not numbers. Only A is a category. B, C, and D are all numbers you count or measure.",
+  "ref": "Tier: Hard &middot; Topic: Data Collection & Random Sampling &middot; Type: real middle third &middot; Built like: PT6 QR #38 (gid 1539, wrong) and QR10 #1 (wrong) &middot; Real tests: 0 middle-third + 1 last-third items &middot; Last done: PT7 MA #8 11-15 &middot; Last wrong: QR10 #1 11-10 &middot; Last 5: 2/5 wrong &middot; Since 10/25: 3/6 wrong",
+  "diagram": null,
+  "needs_diagram": false
+ },
+ {
+  "n": 11,
+  "tier": "Hard",
+  "topic": "Solving for Subsets in a Venn Diagram",
+  "q": "Use the Venn diagram. What instrument do the students in the shaded part play?",
+  "choices": {
+   "A": "piano",
+   "B": "violin",
+   "C": "drums",
+   "D": "piano and drums"
+  },
+  "correct": "B",
+  "key": "<b>Answer: B.</b> The shaded part is inside BOTH circles. The only instrument named in both labels is violin. Piano is only in the left label, drums only in the right.",
+  "ref": "Tier: Hard &middot; Topic: Solving for Subsets in a Venn Diagram &middot; Type: real middle third &middot; Built like: What to Expect QR #10 (gid 10, wrong) &middot; Real tests: 1 middle-third + 0 last-third items &middot; Last done: PT5 QR #3 11-01 &middot; Last wrong: WTE QR #10 09-05 &middot; Last 5: 1/4 wrong &middot; Since 10/25: 0/1 wrong",
+  "diagram": "<svg viewBox=\"0 0 330 200\" width=\"330\" height=\"200\" role=\"img\"><defs><clipPath id=\"v11l\"><circle cx=\"120\" cy=\"95\" r=\"80\"/></clipPath></defs><circle cx=\"210\" cy=\"95\" r=\"80\" fill=\"var(--ink-muted)\" fill-opacity=\"0.45\" clip-path=\"url(#v11l)\"/><circle cx=\"120\" cy=\"95\" r=\"80\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\"/><circle cx=\"210\" cy=\"95\" r=\"80\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\"/><text x=\"85\" y=\"192\" font-size=\"12\" text-anchor=\"middle\" fill=\"currentColor\" >Play piano or violin</text><text x=\"250\" y=\"192\" font-size=\"12\" text-anchor=\"middle\" fill=\"currentColor\" >Play violin or drums</text></svg>",
+  "needs_diagram": true
+ },
+ {
+  "n": 12,
+  "tier": "Hard",
+  "topic": "No Remainder when Divided by a given Number",
+  "q": "Which whole number is divisible by both 3 and 8 without a remainder?",
+  "choices": {
+   "A": "312",
+   "B": "316",
+   "C": "328",
+   "D": "333"
+  },
+  "correct": "A",
+  "key": "<b>Answer: A.</b> By 3: the digits add to a multiple of 3. 3 + 1 + 2 = 6, yes. By 8: 312 &divide; 8 = 39, yes. C works for 8 (328 &divide; 8 = 41) but not 3 (digits add to 13). D works for 3 but is odd, so not 8.",
+  "ref": "Tier: Hard &middot; Topic: No Remainder when Divided by a given Number &middot; Type: real middle third &middot; Built like: PT1 QR #20 (gid 58, wrong) and PT2 MA #24 (divisible by 8, wrong) &middot; Real tests: 3 middle-third + 0 last-third items &middot; Last done: PT7 MA #3 11-15 &middot; Last wrong: QR9 #37 11-03 &middot; Last 5: 0/5 wrong &middot; Since 10/25: 2/10 wrong",
+  "diagram": null,
+  "needs_diagram": false
+ },
+ {
+  "n": 13,
+  "tier": "Hard",
+  "topic": "Averaging Mixed Numbers",
+  "q": "A dog had 4 puppies. Two puppies weighed 2&frac12; pounds each, one weighed 3&frac12; pounds, and one weighed 4&frac12; pounds. What is the mean weight of the puppies?",
+  "choices": {
+   "A": "3 pounds",
+   "B": "3&frac14; pounds",
+   "C": "3&frac12; pounds",
+   "D": "3&frac34; pounds"
+  },
+  "correct": "B",
+  "key": "<b>Answer: B.</b> Add all four: 2&frac12; + 2&frac12; + 3&frac12; + 4&frac12; = 13. Divide by 4 puppies: 13 &divide; 4 = 3&frac14;. C counts 2&frac12; only once and divides by 3.",
+  "ref": "Tier: Hard &middot; Topic: Averaging Mixed Numbers &middot; Type: real middle third &middot; Built like: What to Expect QR #18 (gid 18, wrong) &middot; Real tests: 1 middle-third + 0 last-third items &middot; Last done: QR8 #18 10-27 &middot; Last wrong: WTE QR #18 09-05 &middot; Last 5: 1/3 wrong &middot; Since 10/25: 0/2 wrong",
+  "diagram": null,
+  "needs_diagram": false
+ },
+ {
+  "n": 14,
+  "tier": "Hard",
+  "topic": "Finding Area/Perimeter of Rectangle, given Length & Width",
+  "q": "The length of a rectangle is L feet. The width is W feet, where W = L &divide; 3. Which statement is true?",
+  "choices": {
+   "A": "The length is always 3 times the width.",
+   "B": "The width is always 3 times the length.",
+   "C": "The length is always 1/3 of the width.",
+   "D": "The perimeter is always 6 times the width."
+  },
+  "correct": "A",
+  "key": "<b>Answer: A.</b> W = L &divide; 3 means the width is one third of the length, so the length is 3 times the width. D: the perimeter is L + W + L + W = 3W + W + 3W + W = 8W, not 6W.",
+  "ref": "Tier: Hard &middot; Topic: Finding Area/Perimeter of Rectangle, given Length & Width &middot; Type: real middle third &middot; Built like: PT2 QR #25 (gid 103, wrong) &middot; Real tests: 1 middle-third + 0 last-third items &middot; Last done: MA5 #27 11-11 &middot; Last wrong: QR9 #35 11-03 &middot; Last 5: 2/5 wrong &middot; Since 10/25: 2/5 wrong",
+  "diagram": null,
+  "needs_diagram": false
+ },
+ {
+  "n": 15,
+  "tier": "Hard",
+  "topic": "Estimating Multiplication & Division",
+  "q": "Sam did the problem 75 &divide; 11 &times; 190 on a calculator. Approximately what was his answer?",
+  "choices": {
+   "A": "between 600 and 900",
+   "B": "between 900 and 1,200",
+   "C": "between 1,200 and 1,500",
+   "D": "between 1,500 and 1,800"
+  },
+  "correct": "C",
+  "key": "<b>Answer: C.</b> Work left to right. 75 &divide; 11 is about 7 (77 &divide; 11 = 7). 7 &times; 190 is about 7 &times; 200 = 1,400. Exact: about 1,295. B comes from cutting 75 &divide; 11 down to 6.",
+  "ref": "Tier: Hard &middot; Topic: Estimating Multiplication & Division &middot; Type: real last third &middot; Built like: PT6 QR #36 (gid 1537, wrong) and MA5 #15 (wrong): third time on this type &middot; Real tests: 5 middle-third + 5 last-third items &middot; Last done: PT7 QR #35 11-15 &middot; Last wrong: MA5 #15 11-11 &middot; Last 5: 2/5 wrong &middot; Since 10/25: 3/13 wrong",
+  "diagram": null,
+  "needs_diagram": false
+ },
+ {
+  "n": 16,
+  "tier": "Hard",
+  "topic": "Estimating Multiplication & Division",
+  "q": "Josh did the problem shown on his calculator: <span class=\"frac\"><span class=\"n\">61 &times; 482</span><span class=\"d\">30</span></span>. What is a reasonable estimate for his answer?",
+  "choices": {
+   "A": "between 600 and 900",
+   "B": "between 900 and 1,200",
+   "C": "between 1,200 and 1,500",
+   "D": "between 1,500 and 2,000"
+  },
+  "correct": "B",
+  "key": "<b>Answer: B.</b> 61 &divide; 30 is about 2. 2 &times; 482 is about 960. Exact: about 980. Divide the pair that goes together first.",
+  "ref": "Tier: Hard &middot; Topic: Estimating Multiplication & Division &middot; Type: real last third &middot; Built like: What to Expect QR #33 (gid 35, wrong) &middot; Real tests: 5 middle-third + 5 last-third items &middot; Last done: PT7 QR #35 11-15 &middot; Last wrong: MA5 #15 11-11 &middot; Last 5: 2/5 wrong &middot; Since 10/25: 3/13 wrong",
+  "diagram": null,
+  "needs_diagram": false
+ },
+ {
+  "n": 17,
+  "tier": "Hard",
+  "topic": "Estimating Multiplication & Division",
+  "q": "A store had 286 pencils. It got 42 more boxes of pencils with 19 pencils in each box. The expression 286 + (42 &times; 19) is the exact number of pencils now. Which is the best estimate of the number of pencils?",
+  "choices": {
+   "A": "800",
+   "B": "1,100",
+   "C": "1,300",
+   "D": "6,000"
+  },
+  "correct": "B",
+  "key": "<b>Answer: B.</b> 42 &times; 19 is about 40 &times; 20 = 800. Add the 286, about 300: 800 + 300 = 1,100. A forgets the 286. D multiplies 300 by 20.",
+  "ref": "Tier: Hard &middot; Topic: Estimating Multiplication & Division &middot; Type: real last third &middot; Built like: PT2 QR #24 (gid 102, wrong) &middot; Real tests: 5 middle-third + 5 last-third items &middot; Last done: PT7 QR #35 11-15 &middot; Last wrong: MA5 #15 11-11 &middot; Last 5: 2/5 wrong &middot; Since 10/25: 3/13 wrong",
+  "diagram": null,
+  "needs_diagram": false
+ },
+ {
+  "n": 18,
+  "tier": "Hard",
+  "topic": "Comparing Volume of Cubes",
+  "q": "Two cubes are shown. Cube A has sides of length 3 centimeters. Cube B is 4 times as wide as Cube A. How many Cube A&rsquo;s can fit inside Cube B?",
+  "choices": {
+   "A": "12",
+   "B": "16",
+   "C": "48",
+   "D": "64"
+  },
+  "correct": "D",
+  "key": "<b>Answer: D.</b> 4 times as wide means 4 cube A&rsquo;s along each edge: 4 long, 4 wide, 4 tall. 4 &times; 4 &times; 4 = 64. B fills only the bottom layer. A uses 3 &times; 4. The 3 cm does not matter.",
+  "ref": "Tier: Hard &middot; Topic: Comparing Volume of Cubes &middot; Type: real last third &middot; Built like: PT4 QR #36 (gid 196, wrong) &middot; Real tests: 2 middle-third + 5 last-third items &middot; Last done: QR10 #37 11-10 &middot; Last wrong: PT5 QR #38 11-01 &middot; Last 5: 1/5 wrong &middot; Since 10/25: 1/4 wrong",
+  "diagram": "<svg viewBox=\"0 0 310 235\" width=\"310\" height=\"235\" role=\"img\"><polygon points=\"20,176 52,176 52,208 20,208\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\"/><polygon points=\"20,176 34.4,161.6 66.4,161.6 52,176\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\"/><polygon points=\"52,176 66.4,161.6 66.4,193.6 52,208\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\"/><text x=\"36.0\" y=\"197.0\" font-size=\"15\" text-anchor=\"middle\" fill=\"currentColor\" font-weight=\"600\">A</text><text x=\"36.0\" y=\"226\" font-size=\"13\" text-anchor=\"middle\" fill=\"currentColor\" >3 cm</text><polygon points=\"100,80 228,80 228,208 100,208\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\"/><polygon points=\"100,80 157.6,22.4 285.6,22.4 228,80\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\"/><polygon points=\"228,80 285.6,22.4 285.6,150.4 228,208\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\"/><text x=\"164.0\" y=\"149.0\" font-size=\"15\" text-anchor=\"middle\" fill=\"currentColor\" font-weight=\"600\">B</text></svg>",
+  "needs_diagram": true
+ },
+ {
+  "n": 19,
+  "tier": "Hard",
+  "topic": "Comparing Volume of Cubes",
+  "q": "The thousands cube shown has a volume of 1,000 cubic centimeters. Exactly 20 of these thousands cubes are used to build a new figure. Which expression shows the volume of the new figure, in cubic centimeters?",
+  "choices": {
+   "A": "2 &times; 10",
+   "B": "2 &times; 10 &times; 10 &times; 10",
+   "C": "2 &times; 10 &times; 10 &times; 10 &times; 10",
+   "D": "2 &times; 10 &times; 10 &times; 10 &times; 10 &times; 10"
+  },
+  "correct": "C",
+  "key": "<b>Answer: C.</b> 20 &times; 1,000 = 20,000. 20 = 2 &times; 10 and 1,000 = 10 &times; 10 &times; 10, so 20,000 = 2 &times; 10 &times; 10 &times; 10 &times; 10 (four 10s). B is only 2,000.",
+  "ref": "Tier: Hard &middot; Topic: Comparing Volume of Cubes &middot; Type: real last third &middot; Built like: PT5 QR #38 (gid 1494, wrong) &middot; Real tests: 2 middle-third + 5 last-third items &middot; Last done: QR10 #37 11-10 &middot; Last wrong: PT5 QR #38 11-01 &middot; Last 5: 1/5 wrong &middot; Since 10/25: 1/4 wrong",
+  "diagram": "<svg viewBox=\"0 0 187 187\" width=\"187\" height=\"187\" role=\"img\"><line x1=\"10\" y1=\"65.0\" x2=\"10\" y2=\"175.0\" stroke=\"currentColor\" stroke-width=\"1\"/><line x1=\"10\" y1=\"65.0\" x2=\"120\" y2=\"65.0\" stroke=\"currentColor\" stroke-width=\"1\"/><line x1=\"10\" y1=\"65.0\" x2=\"65.0\" y2=\"10.0\" stroke=\"currentColor\" stroke-width=\"1\"/><line x1=\"10.0\" y1=\"65.0\" x2=\"120.0\" y2=\"65.0\" stroke=\"currentColor\" stroke-width=\"1\"/><line x1=\"120.0\" y1=\"65.0\" x2=\"120.0\" y2=\"175.0\" stroke=\"currentColor\" stroke-width=\"1\"/><line x1=\"120\" y1=\"65.0\" x2=\"175.0\" y2=\"10.0\" stroke=\"currentColor\" stroke-width=\"1\"/><line x1=\"21\" y1=\"65.0\" x2=\"21\" y2=\"175.0\" stroke=\"currentColor\" stroke-width=\"1\"/><line x1=\"10\" y1=\"76.0\" x2=\"120\" y2=\"76.0\" stroke=\"currentColor\" stroke-width=\"1\"/><line x1=\"21\" y1=\"65.0\" x2=\"76.0\" y2=\"10.0\" stroke=\"currentColor\" stroke-width=\"1\"/><line x1=\"15.5\" y1=\"59.5\" x2=\"125.5\" y2=\"59.5\" stroke=\"currentColor\" stroke-width=\"1\"/><line x1=\"125.5\" y1=\"59.5\" x2=\"125.5\" y2=\"169.5\" stroke=\"currentColor\" stroke-width=\"1\"/><line x1=\"120\" y1=\"76.0\" x2=\"175.0\" y2=\"21.0\" stroke=\"currentColor\" stroke-width=\"1\"/><line x1=\"32\" y1=\"65.0\" x2=\"32\" y2=\"175.0\" stroke=\"currentColor\" stroke-width=\"1\"/><line x1=\"10\" y1=\"87.0\" x2=\"120\" y2=\"87.0\" stroke=\"currentColor\" stroke-width=\"1\"/><line x1=\"32\" y1=\"65.0\" x2=\"87.0\" y2=\"10.0\" stroke=\"currentColor\" stroke-width=\"1\"/><line x1=\"21.0\" y1=\"54.0\" x2=\"131.0\" y2=\"54.0\" stroke=\"currentColor\" stroke-width=\"1\"/><line x1=\"131.0\" y1=\"54.0\" x2=\"131.0\" y2=\"164.0\" stroke=\"currentColor\" stroke-width=\"1\"/><line x1=\"120\" y1=\"87.0\" x2=\"175.0\" y2=\"32.0\" stroke=\"currentColor\" stroke-width=\"1\"/><line x1=\"43\" y1=\"65.0\" x2=\"43\" y2=\"175.0\" stroke=\"currentColor\" stroke-width=\"1\"/><line x1=\"10\" y1=\"98.0\" x2=\"120\" y2=\"98.0\" stroke=\"currentColor\" stroke-width=\"1\"/><line x1=\"43\" y1=\"65.0\" x2=\"98.0\" y2=\"10.0\" stroke=\"currentColor\" stroke-width=\"1\"/><line x1=\"26.5\" y1=\"48.5\" x2=\"136.5\" y2=\"48.5\" stroke=\"currentColor\" stroke-width=\"1\"/><line x1=\"136.5\" y1=\"48.5\" x2=\"136.5\" y2=\"158.5\" stroke=\"currentColor\" stroke-width=\"1\"/><line x1=\"120\" y1=\"98.0\" x2=\"175.0\" y2=\"43.0\" stroke=\"currentColor\" stroke-width=\"1\"/><line x1=\"54\" y1=\"65.0\" x2=\"54\" y2=\"175.0\" stroke=\"currentColor\" stroke-width=\"1\"/><line x1=\"10\" y1=\"109.0\" x2=\"120\" y2=\"109.0\" stroke=\"currentColor\" stroke-width=\"1\"/><line x1=\"54\" y1=\"65.0\" x2=\"109.0\" y2=\"10.0\" stroke=\"currentColor\" stroke-width=\"1\"/><line x1=\"32.0\" y1=\"43.0\" x2=\"142.0\" y2=\"43.0\" stroke=\"currentColor\" stroke-width=\"1\"/><line x1=\"142.0\" y1=\"43.0\" x2=\"142.0\" y2=\"153.0\" stroke=\"currentColor\" stroke-width=\"1\"/><line x1=\"120\" y1=\"109.0\" x2=\"175.0\" y2=\"54.0\" stroke=\"currentColor\" stroke-width=\"1\"/><line x1=\"65\" y1=\"65.0\" x2=\"65\" y2=\"175.0\" stroke=\"currentColor\" stroke-width=\"1\"/><line x1=\"10\" y1=\"120.0\" x2=\"120\" y2=\"120.0\" stroke=\"currentColor\" stroke-width=\"1\"/><line x1=\"65\" y1=\"65.0\" x2=\"120.0\" y2=\"10.0\" stroke=\"currentColor\" stroke-width=\"1\"/><line x1=\"37.5\" y1=\"37.5\" x2=\"147.5\" y2=\"37.5\" stroke=\"currentColor\" stroke-width=\"1\"/><line x1=\"147.5\" y1=\"37.5\" x2=\"147.5\" y2=\"147.5\" stroke=\"currentColor\" stroke-width=\"1\"/><line x1=\"120\" y1=\"120.0\" x2=\"175.0\" y2=\"65.0\" stroke=\"currentColor\" stroke-width=\"1\"/><line x1=\"76\" y1=\"65.0\" x2=\"76\" y2=\"175.0\" stroke=\"currentColor\" stroke-width=\"1\"/><line x1=\"10\" y1=\"131.0\" x2=\"120\" y2=\"131.0\" stroke=\"currentColor\" stroke-width=\"1\"/><line x1=\"76\" y1=\"65.0\" x2=\"131.0\" y2=\"10.0\" stroke=\"currentColor\" stroke-width=\"1\"/><line x1=\"43.0\" y1=\"32.0\" x2=\"153.0\" y2=\"32.0\" stroke=\"currentColor\" stroke-width=\"1\"/><line x1=\"153.0\" y1=\"32.0\" x2=\"153.0\" y2=\"142.0\" stroke=\"currentColor\" stroke-width=\"1\"/><line x1=\"120\" y1=\"131.0\" x2=\"175.0\" y2=\"76.0\" stroke=\"currentColor\" stroke-width=\"1\"/><line x1=\"87\" y1=\"65.0\" x2=\"87\" y2=\"175.0\" stroke=\"currentColor\" stroke-width=\"1\"/><line x1=\"10\" y1=\"142.0\" x2=\"120\" y2=\"142.0\" stroke=\"currentColor\" stroke-width=\"1\"/><line x1=\"87\" y1=\"65.0\" x2=\"142.0\" y2=\"10.0\" stroke=\"currentColor\" stroke-width=\"1\"/><line x1=\"48.5\" y1=\"26.5\" x2=\"158.5\" y2=\"26.5\" stroke=\"currentColor\" stroke-width=\"1\"/><line x1=\"158.5\" y1=\"26.5\" x2=\"158.5\" y2=\"136.5\" stroke=\"currentColor\" stroke-width=\"1\"/><line x1=\"120\" y1=\"142.0\" x2=\"175.0\" y2=\"87.0\" stroke=\"currentColor\" stroke-width=\"1\"/><line x1=\"98\" y1=\"65.0\" x2=\"98\" y2=\"175.0\" stroke=\"currentColor\" stroke-width=\"1\"/><line x1=\"10\" y1=\"153.0\" x2=\"120\" y2=\"153.0\" stroke=\"currentColor\" stroke-width=\"1\"/><line x1=\"98\" y1=\"65.0\" x2=\"153.0\" y2=\"10.0\" stroke=\"currentColor\" stroke-width=\"1\"/><line x1=\"54.0\" y1=\"21.0\" x2=\"164.0\" y2=\"21.0\" stroke=\"currentColor\" stroke-width=\"1\"/><line x1=\"164.0\" y1=\"21.0\" x2=\"164.0\" y2=\"131.0\" stroke=\"currentColor\" stroke-width=\"1\"/><line x1=\"120\" y1=\"153.0\" x2=\"175.0\" y2=\"98.0\" stroke=\"currentColor\" stroke-width=\"1\"/><line x1=\"109\" y1=\"65.0\" x2=\"109\" y2=\"175.0\" stroke=\"currentColor\" stroke-width=\"1\"/><line x1=\"10\" y1=\"164.0\" x2=\"120\" y2=\"164.0\" stroke=\"currentColor\" stroke-width=\"1\"/><line x1=\"109\" y1=\"65.0\" x2=\"164.0\" y2=\"10.0\" stroke=\"currentColor\" stroke-width=\"1\"/><line x1=\"59.5\" y1=\"15.5\" x2=\"169.5\" y2=\"15.5\" stroke=\"currentColor\" stroke-width=\"1\"/><line x1=\"169.5\" y1=\"15.5\" x2=\"169.5\" y2=\"125.5\" stroke=\"currentColor\" stroke-width=\"1\"/><line x1=\"120\" y1=\"164.0\" x2=\"175.0\" y2=\"109.0\" stroke=\"currentColor\" stroke-width=\"1\"/><line x1=\"120\" y1=\"65.0\" x2=\"120\" y2=\"175.0\" stroke=\"currentColor\" stroke-width=\"1\"/><line x1=\"10\" y1=\"175.0\" x2=\"120\" y2=\"175.0\" stroke=\"currentColor\" stroke-width=\"1\"/><line x1=\"120\" y1=\"65.0\" x2=\"175.0\" y2=\"10.0\" stroke=\"currentColor\" stroke-width=\"1\"/><line x1=\"65.0\" y1=\"10.0\" x2=\"175.0\" y2=\"10.0\" stroke=\"currentColor\" stroke-width=\"1\"/><line x1=\"175.0\" y1=\"10.0\" x2=\"175.0\" y2=\"120.0\" stroke=\"currentColor\" stroke-width=\"1\"/><line x1=\"120\" y1=\"175.0\" x2=\"175.0\" y2=\"120.0\" stroke=\"currentColor\" stroke-width=\"1\"/></svg>",
+  "needs_diagram": true
+ },
+ {
+  "n": 20,
+  "tier": "Hard",
+  "topic": "Matching Stories to Equations",
+  "q": "Some friends shared the cost of a pizza equally. The list shows what is known.<div style=\"margin-top:6px\">The number of friends sharing is &#9633;.</div><div>The amount each friend paid is &#9675;.</div><div style=\"margin-top:6px\">Which equation will find &#9651;, the total cost of the pizza?</div>",
+  "choices": {
+   "A": "&#9651; = &#9675; &divide; &#9633;",
+   "B": "&#9651; = &#9675; + &#9633;",
+   "C": "&#9651; = &#9675; &minus; &#9633;",
+   "D": "&#9651; = &#9675; &times; &#9633;"
+  },
+  "correct": "D",
+  "key": "<b>Answer: D.</b> Each friend paid &#9675;, and there are &#9633; friends, so the total is &#9675; &times; &#9633;. Try numbers: 4 friends paid $5 each, total $20 = 5 &times; 4. A is the Practice Test 3 answer, but this time the total is unknown.",
+  "ref": "Tier: Hard &middot; Topic: Matching Stories to Equations &middot; Type: real last third &middot; Built like: PT3 QR #37 (gid 156, wrong), reversed to find the total &middot; Real tests: 2 middle-third + 5 last-third items &middot; Last done: PT7 QR #26 11-15 &middot; Last wrong: QR10 #4 11-10 &middot; Last 5: 0/5 wrong &middot; Since 10/25: 3/13 wrong",
+  "diagram": null,
+  "needs_diagram": false
+ },
+ {
+  "n": 21,
+  "tier": "Hard",
+  "topic": "Matching Stories to Equations",
+  "q": "Rosa wants to cover a patio with tiles. The patio is 96 inches long and 54 inches wide. Each tile is 8 inches long and 6 inches wide. How can Rosa find how many tiles she needs without laying them all down? (A = l &times; w)",
+  "choices": {
+   "A": "(96 &divide; 8) &times; (54 &divide; 6)",
+   "B": "(96 &times; 54) &divide; (8 + 6)",
+   "C": "(96 &minus; 8) &times; (54 &minus; 6)",
+   "D": "(96 &minus; 48) &times; (54 &minus; 48)"
+  },
+  "correct": "A",
+  "key": "<b>Answer: A.</b> Tiles along the length: 96 &divide; 8 = 12. Along the width: 54 &divide; 6 = 9. 12 &times; 9 = 108 tiles. C and D subtract instead of dividing. B adds the tile sides instead of multiplying them.",
+  "ref": "Tier: Hard &middot; Topic: Matching Stories to Equations &middot; Type: real last third &middot; Built like: PT2 QR #32 (gid 111, wrong) and PT7 QR #26 (gid 1565) &middot; Real tests: 2 middle-third + 5 last-third items &middot; Last done: PT7 QR #26 11-15 &middot; Last wrong: QR10 #4 11-10 &middot; Last 5: 0/5 wrong &middot; Since 10/25: 3/13 wrong",
+  "diagram": null,
+  "needs_diagram": false
+ },
+ {
+  "n": 22,
+  "tier": "Hard",
+  "topic": "Identifying Shapes",
+  "q": "Which figure could be described as a quadrilateral with exactly one pair of parallel sides?",
+  "choices": {
+   "A": "square",
+   "B": "rectangle",
+   "C": "rhombus",
+   "D": "trapezoid"
+  },
+  "correct": "D",
+  "key": "<b>Answer: D.</b> A trapezoid has exactly ONE pair of parallel sides. A square, a rectangle, and a rhombus each have TWO pairs. (On Practice Test 7 the question asked for two pairs, and the answer was square, not trapezoid.)",
+  "ref": "Tier: Hard &middot; Topic: Identifying Shapes &middot; Type: real last third &middot; Built like: PT7 MA #18 (wrong: picked trapezoid for two pairs) &middot; Real tests: 0 middle-third + 5 last-third items &middot; Last done: PT7 QR #28 11-15 &middot; Last wrong: PT7 MA #18 11-15 &middot; Last 5: 1/5 wrong &middot; Since 10/25: 2/12 wrong",
+  "diagram": null,
+  "needs_diagram": false
+ },
+ {
+  "n": 23,
+  "tier": "Hard",
+  "topic": "Identifying Shapes",
+  "q": "Which statement is always true?",
+  "choices": {
+   "A": "A rhombus is always a square.",
+   "B": "A trapezoid always has two pairs of parallel sides.",
+   "C": "A rectangle always has four sides of equal length.",
+   "D": "A square is always a rhombus."
+  },
+  "correct": "D",
+  "key": "<b>Answer: D.</b> A rhombus has 4 equal sides. A square has 4 equal sides (and 4 right angles), so every square is a rhombus. A is backwards: a rhombus does not need right angles. B: one pair only. C: only a square.",
+  "ref": "Tier: Hard &middot; Topic: Identifying Shapes &middot; Type: real last third &middot; Built like: PT1 MA #23 and PT5 MA #28 (both wrong) &middot; Real tests: 0 middle-third + 5 last-third items &middot; Last done: PT7 QR #28 11-15 &middot; Last wrong: PT7 MA #18 11-15 &middot; Last 5: 1/5 wrong &middot; Since 10/25: 2/12 wrong",
+  "diagram": null,
+  "needs_diagram": false
+ },
+ {
+  "n": 24,
+  "tier": "Hard",
+  "topic": "Identifying Shapes",
+  "q": "Leo wants to prove that Figure E and Figure F are the same size and shape. What must he do?",
+  "choices": {
+   "A": "slide Figure E over the dashed line onto Figure F",
+   "B": "turn Figure E counterclockwise a quarter of a turn",
+   "C": "turn Figure E clockwise a quarter of a turn and slide it onto Figure F",
+   "D": "flip Figure E over the dashed line and turn it counterclockwise a quarter of a turn"
+  },
+  "correct": "C",
+  "key": "<b>Answer: C.</b> Look at the one square that sticks out. In E it sticks out on the right of the middle column. Turn E clockwise (like a clock) a quarter turn: the long column lies flat and the bump points down, as in F. Then slide it over.",
+  "ref": "Tier: Hard &middot; Topic: Identifying Shapes &middot; Type: real last third &middot; Built like: PT7 QR #27 (gid 1566): right but 185 s &middot; Real tests: 0 middle-third + 5 last-third items &middot; Last done: PT7 QR #28 11-15 &middot; Last wrong: PT7 MA #18 11-15 &middot; Last 5: 1/5 wrong &middot; Since 10/25: 2/12 wrong",
+  "diagram": "<svg viewBox=\"0 0 300 145\" width=\"300\" height=\"145\" role=\"img\"><rect x=\"48\" y=\"86\" width=\"28\" height=\"28\" fill=\"var(--ink-muted)\" fill-opacity=\"0.35\" stroke=\"currentColor\" stroke-width=\"1.6\"/><rect x=\"76\" y=\"58\" width=\"28\" height=\"28\" fill=\"var(--ink-muted)\" fill-opacity=\"0.35\" stroke=\"currentColor\" stroke-width=\"1.6\"/><rect x=\"20\" y=\"30\" width=\"28\" height=\"28\" fill=\"var(--ink-muted)\" fill-opacity=\"0.35\" stroke=\"currentColor\" stroke-width=\"1.6\"/><rect x=\"48\" y=\"30\" width=\"28\" height=\"28\" fill=\"var(--ink-muted)\" fill-opacity=\"0.35\" stroke=\"currentColor\" stroke-width=\"1.6\"/><rect x=\"48\" y=\"58\" width=\"28\" height=\"28\" fill=\"var(--ink-muted)\" fill-opacity=\"0.35\" stroke=\"currentColor\" stroke-width=\"1.6\"/><rect x=\"200\" y=\"58\" width=\"28\" height=\"28\" fill=\"var(--ink-muted)\" fill-opacity=\"0.35\" stroke=\"currentColor\" stroke-width=\"1.6\"/><rect x=\"228\" y=\"86\" width=\"28\" height=\"28\" fill=\"var(--ink-muted)\" fill-opacity=\"0.35\" stroke=\"currentColor\" stroke-width=\"1.6\"/><rect x=\"256\" y=\"58\" width=\"28\" height=\"28\" fill=\"var(--ink-muted)\" fill-opacity=\"0.35\" stroke=\"currentColor\" stroke-width=\"1.6\"/><rect x=\"228\" y=\"58\" width=\"28\" height=\"28\" fill=\"var(--ink-muted)\" fill-opacity=\"0.35\" stroke=\"currentColor\" stroke-width=\"1.6\"/><rect x=\"256\" y=\"30\" width=\"28\" height=\"28\" fill=\"var(--ink-muted)\" fill-opacity=\"0.35\" stroke=\"currentColor\" stroke-width=\"1.6\"/><line x1=\"150\" y1=\"10\" x2=\"150\" y2=\"140\" stroke=\"currentColor\" stroke-width=\"1.3\" stroke-dasharray=\"6 5\"/><text x=\"62\" y=\"135\" font-size=\"13\" text-anchor=\"middle\" fill=\"currentColor\" >Figure E</text><text x=\"242\" y=\"135\" font-size=\"13\" text-anchor=\"middle\" fill=\"currentColor\" >Figure F</text></svg>",
+  "needs_diagram": true
+ },
+ {
+  "n": 25,
+  "tier": "Hard",
+  "topic": "Finding Ratios given Probability",
+  "q": "The table shows the number of each color of marble in a bag. The probability of picking a purple marble without looking is <span class=\"frac\"><span class=\"n\">1</span><span class=\"d\">4</span></span>. How many purple marbles are in the bag?<div style=\"font-weight:600;margin-bottom:4px\">MARBLES IN THE BAG</div><table class=\"data\"><tr><th>Color</th><th>Number</th></tr><tr><td>Red</td><td>5</td></tr><tr><td>Blue</td><td>7</td></tr><tr><td>Green</td><td>4</td></tr><tr><td>Yellow</td><td>8</td></tr><tr><td>Purple</td><td>?</td></tr></table>",
+  "choices": {
+   "A": "6",
+   "B": "8",
+   "C": "12",
+   "D": "24"
+  },
+  "correct": "B",
+  "key": "<b>Answer: B.</b> The other marbles: 5 + 7 + 4 + 8 = 24. The total must include the purple ones. Check 8: 8 out of 24 + 8 = 32, and 8/32 = 1/4. A is 1/4 of 24, leaving purple out of the total (the Practice Test 7 slip).",
+  "ref": "Tier: Hard &middot; Topic: Finding Ratios given Probability &middot; Type: real last third &middot; Built like: PT7 QR #34 (gid 1573, wrong) and PT5 QR #37 (gid 1493, 145 s) &middot; Real tests: 1 middle-third + 7 last-third items &middot; Last done: PT7 QR #34 11-15 &middot; Last wrong: PT7 QR #34 11-15 &middot; Last 5: 1/5 wrong &middot; Since 10/25: 1/9 wrong",
+  "diagram": null,
+  "needs_diagram": false
+ },
+ {
+  "n": 26,
+  "tier": "Hard",
+  "topic": "Finding Ratios given Probability",
+  "q": "Mr. Lee put the names of all his students in a hat. The probability of pulling out a boy&rsquo;s name is 2 out of 7. There are 15 girls in the class. How many boys are in the class?",
+  "choices": {
+   "A": "2",
+   "B": "5",
+   "C": "6",
+   "D": "21"
+  },
+  "correct": "C",
+  "key": "<b>Answer: C.</b> Girls are the other 5 out of 7. 5 parts = 15, so 1 part = 3. Boys are 2 parts = 6. Check: 6 boys out of 21 students = 2/7. D is the whole class. B is the girls&rsquo; part number.",
+  "ref": "Tier: Hard &middot; Topic: Finding Ratios given Probability &middot; Type: real last third &middot; Built like: What to Expect QR #27 (gid 29) &middot; Real tests: 1 middle-third + 7 last-third items &middot; Last done: PT7 QR #34 11-15 &middot; Last wrong: PT7 QR #34 11-15 &middot; Last 5: 1/5 wrong &middot; Since 10/25: 1/9 wrong",
+  "diagram": null,
+  "needs_diagram": false
+ },
+ {
+  "n": 27,
+  "tier": "Hard",
+  "topic": "Value of Digits",
+  "q": "Students wrote a new number using the digits 2, 4, 5, 6, 7, and 9 and these rules.<div style=\"border:1px solid var(--border);border-radius:6px;padding:6px 10px;margin:8px 0;max-width:420px\"><b>RULES FOR THE NEW NUMBER</b><div>1. The number must have 6 digits.</div><div>2. The number must be odd.</div><div>3. The number must be the smallest number possible.</div><div>4. Each digit can be used only once.</div></div>What digit is in the <b>hundreds</b> place of the new number?",
+  "choices": {
+   "A": "2",
+   "B": "5",
+   "C": "6",
+   "D": "9"
+  },
+  "correct": "C",
+  "key": "<b>Answer: C.</b> Smallest: put the small digits in front. Odd: the ones digit must be 5, 7, or 9; use the biggest odd one (9) at the end so the front stays small: 245,679. Write the places under it: hundreds is 6. A is the first digit.",
+  "ref": "Tier: Hard &middot; Topic: Value of Digits &middot; Type: real last third &middot; Built like: PT7 QR #36 (gid 1575, wrong) and PT3 QR #31 (gid 150, wrong) &middot; Real tests: 1 middle-third + 3 last-third items &middot; Last done: PT7 QR #36 11-15 &middot; Last wrong: PT7 QR #36 11-15 &middot; Last 5: 2/5 wrong &middot; Since 10/25: 2/6 wrong",
+  "diagram": null,
+  "needs_diagram": false
+ },
+ {
+  "n": 28,
+  "tier": "Hard",
+  "topic": "Value of Digits",
+  "q": "Students wrote a new number using the digits 1, 3, 4, 6, and 8 and these rules.<div style=\"border:1px solid var(--border);border-radius:6px;padding:6px 10px;margin:8px 0;max-width:420px\"><b>RULES FOR THE NEW NUMBER</b><div>1. The number must have 5 digits.</div><div>2. The number must be even.</div><div>3. The number must be the largest number possible.</div><div>4. Each digit can be used only once.</div></div>What digit is in the <b>tens</b> place of the new number?",
+  "choices": {
+   "A": "1",
+   "B": "3",
+   "C": "4",
+   "D": "8"
+  },
+  "correct": "A",
+  "key": "<b>Answer: A.</b> Largest: big digits in front. Even: the ones digit must be 4, 6, or 8; use the smallest even one (4) at the end so the front stays big: 86,314. Tens place is 1. B is the tens digit of 86,341, which is odd.",
+  "ref": "Tier: Hard &middot; Topic: Value of Digits &middot; Type: real last third &middot; Built like: PT3 QR #31 (gid 150, wrong) and PT2 QR #35 (gid 114) &middot; Real tests: 1 middle-third + 3 last-third items &middot; Last done: PT7 QR #36 11-15 &middot; Last wrong: PT7 QR #36 11-15 &middot; Last 5: 2/5 wrong &middot; Since 10/25: 2/6 wrong",
+  "diagram": null,
+  "needs_diagram": false
+ },
+ {
+  "n": 29,
+  "tier": "Hard",
+  "topic": "Area and Perimeter of Complex Polygons",
+  "q": "The figure is made of straight sides that meet at right angles. What is the perimeter of the figure?",
+  "choices": {
+   "A": "32 feet",
+   "B": "39 feet",
+   "C": "46 feet",
+   "D": "57 feet"
+  },
+  "correct": "C",
+  "key": "<b>Answer: C.</b> Find the two missing sides: across = 12 &minus; 5 = 7, down = 11 &minus; 4 = 7. Add all six: 5 + 7 + 7 + 4 + 12 + 11 = 46. A adds only the four labeled sides. B misses one of the 7s.",
+  "ref": "Tier: Hard &middot; Topic: Area and Perimeter of Complex Polygons &middot; Type: real last third &middot; Built like: PT6 QR #30 (gid 1531, wrong) &middot; Real tests: 5 middle-third + 6 last-third items &middot; Last done: PT7 QR #9 11-15 &middot; Last wrong: PT6 QR #30 11-08 &middot; Last 5: 0/5 wrong &middot; Since 10/25: 4/20 wrong",
+  "diagram": "<svg viewBox=\"0 0 260 200\" width=\"260\" height=\"200\" role=\"img\"><polygon points=\"40,20 110,20 110,118 208,118 208,174 40,174\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\"/><text x=\"75.0\" y=\"14\" font-size=\"13\" text-anchor=\"middle\" fill=\"currentColor\" >5 ft</text><text x=\"34\" y=\"101.0\" font-size=\"13\" text-anchor=\"end\" fill=\"currentColor\" >11 ft</text><text x=\"124\" y=\"192\" font-size=\"13\" text-anchor=\"middle\" fill=\"currentColor\" >12 ft</text><text x=\"214\" y=\"150\" font-size=\"13\" text-anchor=\"start\" fill=\"currentColor\" >4 ft</text></svg>",
+  "needs_diagram": true
+ },
+ {
+  "n": 30,
+  "tier": "Hard",
+  "topic": "Algebraic Equations with Symbol Variables",
+  "q": "If &#9733; &minus; &#9670; = &#9733; and &#9679; &times; &#9650; = &#9679;, what is the value of &#9632; &times; &#9670; + &#9650;?",
+  "choices": {
+   "A": "0",
+   "B": "1",
+   "C": "&#9632;",
+   "D": "&#9632; + 1"
+  },
+  "correct": "B",
+  "key": "<b>Answer: B.</b> &#9733; &minus; &#9670; = &#9733; means &#9670; = 0. &#9679; &times; &#9650; = &#9679; means &#9650; = 1. So &#9632; &times; 0 + 1 = 0 + 1 = 1. D forgets that anything times 0 is 0.",
+  "ref": "Tier: Hard &middot; Topic: Algebraic Equations with Symbol Variables &middot; Type: real last third &middot; Built like: PT7 QR #32 (gid 1571): right but 92 s &middot; Real tests: 4 middle-third + 5 last-third items &middot; Last done: PT7 QR #32 11-15 &middot; Last wrong: QR9 #9 11-03 &middot; Last 5: 0/5 wrong &middot; Since 10/25: 3/17 wrong",
+  "diagram": null,
+  "needs_diagram": false
+ },
+ {
+  "n": 31,
+  "tier": "Hard",
+  "topic": "Algebraic Equations with Symbol Variables",
+  "q": "Ava had &#9633; stickers. She gave &#9675; of them to Ben. After that, Ben had &#9651; times as many stickers as Ava had left. Which expression shows how many stickers Ben had before Ava gave him any?",
+  "choices": {
+   "A": "&#9651; &times; (&#9633; &minus; &#9675;) &minus; &#9675;",
+   "B": "&#9651; &times; (&#9633; &minus; &#9675;) + &#9675;",
+   "C": "&#9651; &times; &#9633; &minus; &#9675;",
+   "D": "&#9651; &times; (&#9633; &minus; &#9675;)"
+  },
+  "correct": "A",
+  "key": "<b>Answer: A.</b> Ava has &#9633; &minus; &#9675; left. Ben now has &#9651; times that: &#9651; &times; (&#9633; &minus; &#9675;). Before the gift he had &#9675; fewer, so subtract &#9675;. Try numbers: Ava 10, gave 3, Ben now 2 &times; 7 = 14, before 11. D stops one step early.",
+  "ref": "Tier: Hard &middot; Topic: Algebraic Equations with Symbol Variables &middot; Type: real last third &middot; Built like: PT4 QR #35 (gid 195, wrong) &middot; Real tests: 4 middle-third + 5 last-third items &middot; Last done: PT7 QR #32 11-15 &middot; Last wrong: QR9 #9 11-03 &middot; Last 5: 0/5 wrong &middot; Since 10/25: 3/17 wrong",
+  "diagram": null,
+  "needs_diagram": false
+ },
+ {
+  "n": 32,
+  "tier": "Hard",
+  "topic": "Determining Averages between Points on Number Lines",
+  "q": "The tick marks on the number line are evenly spaced. D is the midpoint between C and another point, E. What is the value of E?",
+  "choices": {
+   "A": "16",
+   "B": "20",
+   "C": "40",
+   "D": "44"
+  },
+  "correct": "D",
+  "key": "<b>Answer: D.</b> Each tick is 4 (5 jumps from 0 to 20). C = 12 and D = 28. From C to D is 16, so E is 16 more than D: 28 + 16 = 44. A stops at the distance. C adds C and D.",
+  "ref": "Tier: Hard &middot; Topic: Determining Averages between Points on Number Lines &middot; Type: real last third &middot; Built like: PT2 QR #33 (gid 112) and What to Expect QR #35 (gid 37) &middot; Real tests: 0 middle-third + 4 last-third items &middot; Last done: QR7 #21 10-25 &middot; Last wrong: QR4 #26 10-14 &middot; Last 5: 1/5 wrong &middot; Since 10/25: 0/1 wrong",
+  "diagram": "<svg viewBox=\"0 0 330 85\" width=\"330\" height=\"85\" role=\"img\"><line x1=\"12\" y1=\"50\" x2=\"318\" y2=\"50\" stroke=\"currentColor\" stroke-width=\"1.6\"/><polygon points=\"322,50 312,45 312,55\" fill=\"currentColor\"/><line x1=\"20\" y1=\"43\" x2=\"20\" y2=\"57\" stroke=\"currentColor\" stroke-width=\"1.6\"/><line x1=\"48\" y1=\"43\" x2=\"48\" y2=\"57\" stroke=\"currentColor\" stroke-width=\"1.6\"/><line x1=\"76\" y1=\"43\" x2=\"76\" y2=\"57\" stroke=\"currentColor\" stroke-width=\"1.6\"/><line x1=\"104\" y1=\"43\" x2=\"104\" y2=\"57\" stroke=\"currentColor\" stroke-width=\"1.6\"/><line x1=\"132\" y1=\"43\" x2=\"132\" y2=\"57\" stroke=\"currentColor\" stroke-width=\"1.6\"/><line x1=\"160\" y1=\"43\" x2=\"160\" y2=\"57\" stroke=\"currentColor\" stroke-width=\"1.6\"/><line x1=\"188\" y1=\"43\" x2=\"188\" y2=\"57\" stroke=\"currentColor\" stroke-width=\"1.6\"/><line x1=\"216\" y1=\"43\" x2=\"216\" y2=\"57\" stroke=\"currentColor\" stroke-width=\"1.6\"/><line x1=\"244\" y1=\"43\" x2=\"244\" y2=\"57\" stroke=\"currentColor\" stroke-width=\"1.6\"/><line x1=\"272\" y1=\"43\" x2=\"272\" y2=\"57\" stroke=\"currentColor\" stroke-width=\"1.6\"/><line x1=\"300\" y1=\"43\" x2=\"300\" y2=\"57\" stroke=\"currentColor\" stroke-width=\"1.6\"/><text x=\"20\" y=\"75\" font-size=\"14\" text-anchor=\"middle\" fill=\"currentColor\" >0</text><text x=\"160\" y=\"75\" font-size=\"14\" text-anchor=\"middle\" fill=\"currentColor\" >20</text><circle cx=\"104\" cy=\"50\" r=\"5\" fill=\"currentColor\"/><text x=\"104\" y=\"33\" font-size=\"15\" text-anchor=\"middle\" fill=\"currentColor\" font-style=\"italic\">C</text><circle cx=\"216\" cy=\"50\" r=\"5\" fill=\"currentColor\"/><text x=\"216\" y=\"33\" font-size=\"15\" text-anchor=\"middle\" fill=\"currentColor\" font-style=\"italic\">D</text></svg>",
+  "needs_diagram": true
+ },
+ {
+  "n": 33,
+  "tier": "Hard",
+  "topic": "Comparing Areas",
+  "q": "The floor of Room A is a square with an area of 100 square feet. The floor of Room B is a rectangle 5 feet wide and 20 feet long. Which statement correctly compares the two floors?",
+  "choices": {
+   "A": "The area of Room A is greater than the area of Room B.",
+   "B": "The area of Room A is less than the area of Room B.",
+   "C": "The perimeter of Room A is equal to the perimeter of Room B.",
+   "D": "The perimeter of Room A is less than the perimeter of Room B."
+  },
+  "correct": "D",
+  "key": "<b>Answer: D.</b> Room A: 10 &times; 10 = 100, so its sides are 10 and its perimeter is 40. Room B: area 5 &times; 20 = 100 (the same), perimeter 5 + 20 + 5 + 20 = 50. 40 is less than 50.",
+  "ref": "Tier: Hard &middot; Topic: Comparing Areas &middot; Type: real last third &middot; Built like: PT2 QR #38 (gid 117, wrong) &middot; Real tests: 0 middle-third + 3 last-third items &middot; Last done: PT7 MA #15 11-15 &middot; Last wrong: QR9 #30 11-03 &middot; Last 5: 1/5 wrong &middot; Since 10/25: 2/6 wrong",
+  "diagram": null,
+  "needs_diagram": false
+ },
+ {
+  "n": 34,
+  "tier": "Hard",
+  "topic": "Predicting the Next Shapes given Progressive Pattern",
+  "q": "<div><b>These are zorbs:</b> a triangle with 6 dots, a square with 8 dots, a pentagon with 10 dots.</div><div><b>These are NOT zorbs:</b> a triangle with 3 dots, a hexagon with 8 dots, a square with 6 dots.</div><div style=\"margin-top:6px\">Which of these is a zorb?</div>",
+  "choices": {
+   "A": "a hexagon with 10 dots",
+   "B": "an octagon with 16 dots",
+   "C": "a pentagon with 5 dots",
+   "D": "a square with 10 dots"
+  },
+  "correct": "B",
+  "key": "<b>Answer: B.</b> Check every zorb: the dots are 2 times the number of sides (3 &rarr; 6, 4 &rarr; 8, 5 &rarr; 10). An octagon has 8 sides: 2 &times; 8 = 16. C fits &ldquo;dots = sides&rdquo;, which the non-zorb triangle with 3 dots rules out.",
+  "ref": "Tier: Hard &middot; Topic: Predicting the Next Shapes given Progressive Pattern &middot; Type: real last third &middot; Built like: PT7 QR #38 (gid 1577) and PT7 QR #28 (gid 1567, right but 91 s) &middot; Real tests: 5 middle-third + 5 last-third items &middot; Last done: PT7 QR #38 11-15 &middot; Last wrong: PT1 MA #27 08-30 &middot; Last 5: 0/5 wrong &middot; Since 10/25: 0/10 wrong",
+  "diagram": null,
+  "needs_diagram": false
+ },
+ {
+  "n": 35,
+  "tier": "Hard",
+  "topic": "Finding MMMR given Bar Graph Data Table",
+  "q": "Four students recorded the minutes they practiced piano one night.<div style=\"font-weight:600;margin-bottom:4px\">MINUTES PRACTICED</div><table class=\"data\"><tr><th>Student</th><th>Minutes</th></tr><tr><td>Ana</td><td>15</td></tr><tr><td>Ben</td><td>30</td></tr><tr><td>Cai</td><td>40</td></tr><tr><td>Dev</td><td>19</td></tr></table>Which statement is true?",
+  "choices": {
+   "A": "The mean is between 24 and 25.",
+   "B": "The range is greater than the number of minutes Ben practiced.",
+   "C": "Cai practiced as many minutes as Ana and Dev combined.",
+   "D": "The median is less than the mean."
+  },
+  "correct": "D",
+  "key": "<b>Answer: D.</b> Mean: 15 + 30 + 40 + 19 = 104, and 104 &divide; 4 = 26. Median: in order 15, 19, 30, 40, the middle two are 19 and 30, so the median is 24&frac12;. 24&frac12; is less than 26. A describes the median, not the mean. B: range 40 &minus; 15 = 25, less than 30. C: 15 + 19 = 34.",
+  "ref": "Tier: Hard &middot; Topic: Finding MMMR given Bar Graph Data Table &middot; Type: real last third &middot; Built like: What to Expect QR #29 (gid 31) &middot; Real tests: 4 middle-third + 1 last-third items &middot; Last done: MA5 #2 11-11 &middot; Last wrong: PT5 MA #17 11-01 &middot; Last 5: 1/5 wrong &middot; Since 10/25: 1/6 wrong",
+  "diagram": null,
+  "needs_diagram": false
+ },
+ {
+  "n": 36,
+  "tier": "Hard",
+  "topic": "Determining Fraction/Percent of Shaded Area, given Figure",
+  "q": "The shaded squares show the part of a floor that already has tile. Each small square is the same size. What percent of the floor already has tile?",
+  "choices": {
+   "A": "10%",
+   "B": "25%",
+   "C": "30%",
+   "D": "75%"
+  },
+  "correct": "D",
+  "key": "<b>Answer: D.</b> There are 8 &times; 5 = 40 squares. 10 are white, so 30 are shaded. 30 out of 40 = 3/4 = 75%. B is the white part. A and C are the counts, not percents.",
+  "ref": "Tier: Hard &middot; Topic: Determining Fraction/Percent of Shaded Area, given Figure &middot; Type: real last third &middot; Built like: PT2 QR #26 (gid 104, wrong) and PT4 QR #37 (gid 197) &middot; Real tests: 2 middle-third + 7 last-third items &middot; Last done: PT7 MA #23 11-15 &middot; Last wrong: QR3 #19 10-11 &middot; Last 5: 0/5 wrong &middot; Since 10/25: 0/12 wrong",
+  "diagram": "<svg viewBox=\"0 0 228 144\" width=\"228\" height=\"144\" role=\"img\"><rect x=\"2\" y=\"2\" width=\"28\" height=\"28\" fill=\"var(--ink-muted)\" stroke=\"currentColor\" stroke-width=\"1.6\"/><rect x=\"30\" y=\"2\" width=\"28\" height=\"28\" fill=\"var(--ink-muted)\" stroke=\"currentColor\" stroke-width=\"1.6\"/><rect x=\"58\" y=\"2\" width=\"28\" height=\"28\" fill=\"var(--ink-muted)\" stroke=\"currentColor\" stroke-width=\"1.6\"/><rect x=\"86\" y=\"2\" width=\"28\" height=\"28\" fill=\"var(--surface,#fff)\" stroke=\"currentColor\" stroke-width=\"1.6\"/><rect x=\"114\" y=\"2\" width=\"28\" height=\"28\" fill=\"var(--ink-muted)\" stroke=\"currentColor\" stroke-width=\"1.6\"/><rect x=\"142\" y=\"2\" width=\"28\" height=\"28\" fill=\"var(--ink-muted)\" stroke=\"currentColor\" stroke-width=\"1.6\"/><rect x=\"170\" y=\"2\" width=\"28\" height=\"28\" fill=\"var(--ink-muted)\" stroke=\"currentColor\" stroke-width=\"1.6\"/><rect x=\"198\" y=\"2\" width=\"28\" height=\"28\" fill=\"var(--surface,#fff)\" stroke=\"currentColor\" stroke-width=\"1.6\"/><rect x=\"2\" y=\"30\" width=\"28\" height=\"28\" fill=\"var(--ink-muted)\" stroke=\"currentColor\" stroke-width=\"1.6\"/><rect x=\"30\" y=\"30\" width=\"28\" height=\"28\" fill=\"var(--surface,#fff)\" stroke=\"currentColor\" stroke-width=\"1.6\"/><rect x=\"58\" y=\"30\" width=\"28\" height=\"28\" fill=\"var(--ink-muted)\" stroke=\"currentColor\" stroke-width=\"1.6\"/><rect x=\"86\" y=\"30\" width=\"28\" height=\"28\" fill=\"var(--ink-muted)\" stroke=\"currentColor\" stroke-width=\"1.6\"/><rect x=\"114\" y=\"30\" width=\"28\" height=\"28\" fill=\"var(--ink-muted)\" stroke=\"currentColor\" stroke-width=\"1.6\"/><rect x=\"142\" y=\"30\" width=\"28\" height=\"28\" fill=\"var(--ink-muted)\" stroke=\"currentColor\" stroke-width=\"1.6\"/><rect x=\"170\" y=\"30\" width=\"28\" height=\"28\" fill=\"var(--surface,#fff)\" stroke=\"currentColor\" stroke-width=\"1.6\"/><rect x=\"198\" y=\"30\" width=\"28\" height=\"28\" fill=\"var(--ink-muted)\" stroke=\"currentColor\" stroke-width=\"1.6\"/><rect x=\"2\" y=\"58\" width=\"28\" height=\"28\" fill=\"var(--ink-muted)\" stroke=\"currentColor\" stroke-width=\"1.6\"/><rect x=\"30\" y=\"58\" width=\"28\" height=\"28\" fill=\"var(--ink-muted)\" stroke=\"currentColor\" stroke-width=\"1.6\"/><rect x=\"58\" y=\"58\" width=\"28\" height=\"28\" fill=\"var(--surface,#fff)\" stroke=\"currentColor\" stroke-width=\"1.6\"/><rect x=\"86\" y=\"58\" width=\"28\" height=\"28\" fill=\"var(--ink-muted)\" stroke=\"currentColor\" stroke-width=\"1.6\"/><rect x=\"114\" y=\"58\" width=\"28\" height=\"28\" fill=\"var(--surface,#fff)\" stroke=\"currentColor\" stroke-width=\"1.6\"/><rect x=\"142\" y=\"58\" width=\"28\" height=\"28\" fill=\"var(--ink-muted)\" stroke=\"currentColor\" stroke-width=\"1.6\"/><rect x=\"170\" y=\"58\" width=\"28\" height=\"28\" fill=\"var(--ink-muted)\" stroke=\"currentColor\" stroke-width=\"1.6\"/><rect x=\"198\" y=\"58\" width=\"28\" height=\"28\" fill=\"var(--ink-muted)\" stroke=\"currentColor\" stroke-width=\"1.6\"/><rect x=\"2\" y=\"86\" width=\"28\" height=\"28\" fill=\"var(--surface,#fff)\" stroke=\"currentColor\" stroke-width=\"1.6\"/><rect x=\"30\" y=\"86\" width=\"28\" height=\"28\" fill=\"var(--ink-muted)\" stroke=\"currentColor\" stroke-width=\"1.6\"/><rect x=\"58\" y=\"86\" width=\"28\" height=\"28\" fill=\"var(--ink-muted)\" stroke=\"currentColor\" stroke-width=\"1.6\"/><rect x=\"86\" y=\"86\" width=\"28\" height=\"28\" fill=\"var(--ink-muted)\" stroke=\"currentColor\" stroke-width=\"1.6\"/><rect x=\"114\" y=\"86\" width=\"28\" height=\"28\" fill=\"var(--ink-muted)\" stroke=\"currentColor\" stroke-width=\"1.6\"/><rect x=\"142\" y=\"86\" width=\"28\" height=\"28\" fill=\"var(--surface,#fff)\" stroke=\"currentColor\" stroke-width=\"1.6\"/><rect x=\"170\" y=\"86\" width=\"28\" height=\"28\" fill=\"var(--ink-muted)\" stroke=\"currentColor\" stroke-width=\"1.6\"/><rect x=\"198\" y=\"86\" width=\"28\" height=\"28\" fill=\"var(--ink-muted)\" stroke=\"currentColor\" stroke-width=\"1.6\"/><rect x=\"2\" y=\"114\" width=\"28\" height=\"28\" fill=\"var(--ink-muted)\" stroke=\"currentColor\" stroke-width=\"1.6\"/><rect x=\"30\" y=\"114\" width=\"28\" height=\"28\" fill=\"var(--ink-muted)\" stroke=\"currentColor\" stroke-width=\"1.6\"/><rect x=\"58\" y=\"114\" width=\"28\" height=\"28\" fill=\"var(--ink-muted)\" stroke=\"currentColor\" stroke-width=\"1.6\"/><rect x=\"86\" y=\"114\" width=\"28\" height=\"28\" fill=\"var(--surface,#fff)\" stroke=\"currentColor\" stroke-width=\"1.6\"/><rect x=\"114\" y=\"114\" width=\"28\" height=\"28\" fill=\"var(--ink-muted)\" stroke=\"currentColor\" stroke-width=\"1.6\"/><rect x=\"142\" y=\"114\" width=\"28\" height=\"28\" fill=\"var(--ink-muted)\" stroke=\"currentColor\" stroke-width=\"1.6\"/><rect x=\"170\" y=\"114\" width=\"28\" height=\"28\" fill=\"var(--ink-muted)\" stroke=\"currentColor\" stroke-width=\"1.6\"/><rect x=\"198\" y=\"114\" width=\"28\" height=\"28\" fill=\"var(--surface,#fff)\" stroke=\"currentColor\" stroke-width=\"1.6\"/></svg>",
+  "needs_diagram": true
+ },
+ {
+  "n": 37,
+  "tier": "Hard",
+  "topic": "Percent Increase Decrease basic",
+  "q": "A game costs $50. The price is increased by 10%. Later, the new price is decreased by 10%. What is the final price?",
+  "choices": {
+   "A": "$45.00",
+   "B": "$49.50",
+   "C": "$50.00",
+   "D": "$50.50"
+  },
+  "correct": "B",
+  "key": "<b>Answer: B.</b> Up 10% of $50: $5, so $55. Down 10% of the NEW price $55: $5.50, so $55 &minus; $5.50 = $49.50. C thinks the two 10%s cancel out. The second 10% is of a bigger number.",
+  "ref": "Tier: Hard &middot; Topic: Percent Increase Decrease basic &middot; Type: real last third &middot; Built like: PT4 QR #38 (gid 198, wrong) and MA5 #8 (wrong, percent decrease) &middot; Real tests: 0 middle-third + 1 last-third items &middot; Last done: MA5 #14 11-11 &middot; Last wrong: QR10 #6 11-10 &middot; Last 5: 2/5 wrong &middot; Since 10/25: 6/12 wrong",
+  "diagram": null,
+  "needs_diagram": false
+ },
+ {
+  "n": 38,
+  "tier": "Hard",
+  "topic": "Order of Operations and Equivalence",
+  "q": "Which expression has the same value as 40 &minus; (15 + 9 &minus; 4)?",
+  "choices": {
+   "A": "40 &minus; 15 &minus; 9 + 4",
+   "B": "40 &minus; 15 + 9 &minus; 4",
+   "C": "40 &minus; 15 &minus; 9 &minus; 4",
+   "D": "40 + 15 &minus; 9 + 4"
+  },
+  "correct": "A",
+  "key": "<b>Answer: A.</b> The minus in front takes away the whole group: 15 + 9 &minus; 4 = 20, and 40 &minus; 20 = 20. Taking away the group flips each sign inside: &minus;15, &minus;9, +4. A = 20. C forgets to flip the &minus;4 (it gives 12).",
+  "ref": "Tier: Hard &middot; Topic: Order of Operations and Equivalence &middot; Type: real last third &middot; Built like: PT2 MA #26 and MA5 #21 (minus before a bracket, wrong) &middot; Real tests: 1 middle-third + 1 last-third items &middot; Last done: QR10 #38 11-10 &middot; Last wrong: MA4 #8 11-06 &middot; Last 5: 2/5 wrong &middot; Since 10/25: 3/10 wrong",
+  "diagram": null,
+  "needs_diagram": false
+ }
+]
