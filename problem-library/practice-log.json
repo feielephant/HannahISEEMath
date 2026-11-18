@@ -2074,7 +2074,48 @@
    "duplicate_check_2026-11-17": "Compared with every earlier practice set and real item. Same type with different numbers is intended. Replaced 2 near-repeats: #28 (was QR10 #16 statements, same answer) and #30 (same answer 95 and 3 shared choices as MA5 #19).",
    "change_2026-11-17_parent": "#25 replaced (was (61 x 482) / 30 estimate, same problem as #11) with a partial 2-for-1 donation match total, built like Lower 6 MA #30 (wrong). #13 diagram redrawn points-only, scrambled order B A D C, as on real tests.",
    "change_2_2026-11-17_parent": "#37 replaced (was $50 +10% then -10%, same type as #32) with a grouped symbol story -> expression, (lessons Mon + Tue) x minutes x dollars per minute, built like Lower 1 QR #33 (wrong) and MA4 #28 (wrong). Parent asked for an equation type she has not been drilling. Answer letters rebalanced.",
-   "change_3_2026-11-17_parent": "#37 -> \"times as many\" chain with a total (beads 4x/2x, 66 in all), built like MA4 #27 (wrong) and QR5 #28 (wrong). #38 -> words to expression with brackets (\"4 less than 3 times the sum of n and 5\"), built like QR2 #23 and MA4 #15 (wrong); old #38 (sign flip only) dropped as the easier copy of #16. Letters rebalanced."
+   "change_3_2026-11-17_parent": "#37 -> \"times as many\" chain with a total (beads 4x/2x, 66 in all), built like MA4 #27 (wrong) and QR5 #28 (wrong). #38 -> words to expression with brackets (\"4 less than 3 times the sum of n and 5\"), built like QR2 #23 and MA4 #15 (wrong); old #38 (sign flip only) dropped as the easier copy of #16. Letters rebalanced.",
+   "graded_2026-11-17": {
+    "score": "27/38",
+    "wrong": [
+     8,
+     14,
+     15,
+     17,
+     23,
+     24,
+     30
+    ],
+    "blank": [
+     34,
+     35,
+     36,
+     37
+    ],
+    "total_elapsed_minutes": 34.97,
+    "first_then_changed": {
+     "wrong_to_right": [
+      28
+     ],
+     "wrong_to_wrong": [
+      8,
+      17,
+      24
+     ],
+     "right_to_wrong": [
+      15
+     ]
+    },
+    "notes_summary": {
+     "8": "Scale turned the wrong way (ask her)",
+     "14": "Lost one 10 from the 20",
+     "15": "Had it right, switched in 1.6 seconds",
+     "17": "Treated the rectangle as a square",
+     "23": "Off by one (the other way)",
+     "24": "Started right, then lost the thread (217 s)",
+     "30": "Stopped one step early (paper)"
+    }
+   }
   }
  ],
  "rotation_notes": {
