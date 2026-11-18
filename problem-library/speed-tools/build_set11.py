@@ -115,13 +115,11 @@ assert len(WHITE) == 10 and all(r < 5 and c < 8 for r, c in WHITE)
 
 
 def segment():
-    X = {'A': 20, 'B': 95, 'C': 215, 'D': 300}
-    b = f'<line x1="20" y1="62" x2="300" y2="62" {SW}/>'
-    for k, v in X.items(): b += f'<circle cx="{v}" cy="62" r="4" fill="currentColor"/>' + txt(v, 50, k, 14, style='font-style="italic"')
-    b += f'<polyline points="20,32 20,24 300,24 300,32" fill="none" {SW}/>' + txt(160, 18, 'x', 15, style='font-style="italic"')
-    b += f'<polyline points="20,74 20,80 95,80 95,74" fill="none" stroke="currentColor" stroke-width="1.2"/>' + txt(57, 97, '5', 14)
-    b += f'<polyline points="215,74 215,80 300,80 300,74" fill="none" stroke="currentColor" stroke-width="1.2"/>' + txt(257, 97, 'y', 14, style='font-style="italic"')
-    return svg(320, 104, b)
+    # points only, as on the real tests; left to right B, A, D, C
+    X = [('B', 20), ('A', 95), ('D', 215), ('C', 300)]
+    b = f'<line x1="20" y1="40" x2="300" y2="40" {SW}/>'
+    for k, v in X: b += f'<circle cx="{v}" cy="40" r="4" fill="currentColor"/>' + txt(v, 26, k, 15, style='font-style="italic"')
+    return svg(320, 55, b)
 
 WHY = {
  'ORDER': 'high error rate, 4 of 10 wrong since 10/25 (last wrong QR10 #13)',
@@ -250,9 +248,9 @@ add('Identifying Shapes', 'SHAPES', 'last', 'A quadrilateral has exactly one pai
 for xv, yv in ((20, 6), (31, 9)):
     bc = xv - 5 - yv
     assert bc == xv - 5 - yv and bc != xv - 5 + yv and bc != xv + 5 + yv
-add('Split Line Segments', 'SPLIT', 'last', 'Points A, B, C, and D are on a line, in that order. The length of AD is x. The length of AB is 5. The length of CD is y. What is the length of BC?',
+add('Split Line Segments', 'SPLIT', 'last', 'Use the figure. The length of BC is x. The length of AB is 5. The length of CD is y. What is the length of AD?',
     ['x &minus; 5 &minus; y', 'x &minus; 5 + y', 'x + 5 + y', '5 + y &minus; x'], 'A',
-    'BC is what is left of the whole AD after taking away AB and CD: x &minus; 5 &minus; y. Try numbers: if AD = 20, AB = 5, CD = 6, then BC = 9 = 20 &minus; 5 &minus; 6. x &minus; 5 + y adds CD back.',
+    'Read the order from the picture: B, A, D, C. The whole segment is BC = x. AD is what is left after taking away AB (5) and DC (y): x &minus; 5 &minus; y. Try numbers: if BC = 20, AB = 5, CD = 6, then AD = 9 = 20 &minus; 5 &minus; 6. x &minus; 5 + y adds CD back. Label each piece on the picture before choosing.',
     'QR9 #27 (wrong), MA4 #21, QR10 #18', segment())
 # 19 thousands cubes (Lower 5 QR #38, wrong)
 assert 20 * 1000 == 2*10*10*10*10

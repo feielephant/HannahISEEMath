@@ -207,7 +207,7 @@
   "n": 13,
   "tier": "Hard",
   "topic": "Split Line Segments",
-  "q": "Points A, B, C, and D are on a line, in that order. The length of AD is x. The length of AB is 5. The length of CD is y. What is the length of BC?",
+  "q": "Use the figure. The length of BC is x. The length of AB is 5. The length of CD is y. What is the length of AD?",
   "choices": {
    "A": "x &minus; 5 &minus; y",
    "B": "x &minus; 5 + y",
@@ -215,9 +215,9 @@
    "D": "5 + y &minus; x"
   },
   "correct": "A",
-  "key": "<b>Answer: A.</b> BC is what is left of the whole AD after taking away AB and CD: x &minus; 5 &minus; y. Try numbers: if AD = 20, AB = 5, CD = 6, then BC = 9 = 20 &minus; 5 &minus; 6. x &minus; 5 + y adds CD back.",
+  "key": "<b>Answer: A.</b> Read the order from the picture: B, A, D, C. The whole segment is BC = x. AD is what is left after taking away AB (5) and DC (y): x &minus; 5 &minus; y. Try numbers: if BC = 20, AB = 5, CD = 6, then AD = 9 = 20 &minus; 5 &minus; 6. x &minus; 5 + y adds CD back. Label each piece on the picture before choosing.",
   "ref": "Tier: Hard &middot; Topic: Split Line Segments &middot; Type: real last third &middot; Why chosen: high error rate (3 of 8), last wrong QR9 #27 &middot; Built like: QR9 #27 (wrong), MA4 #21, QR10 #18 &middot; Real tests: 1 middle-third + 1 last-third items &middot; Last done: QR10 #18 11-10 &middot; Last wrong: QR9 #27 11-03 &middot; Last 5: 1/5 wrong &middot; Since 10/25: 1/5 wrong",
-  "diagram": "<svg viewBox=\"0 0 320 104\" width=\"320\" height=\"104\" role=\"img\"><line x1=\"20\" y1=\"62\" x2=\"300\" y2=\"62\" stroke=\"currentColor\" stroke-width=\"1.6\"/><circle cx=\"20\" cy=\"62\" r=\"4\" fill=\"currentColor\"/><text x=\"20\" y=\"50\" font-size=\"14\" text-anchor=\"middle\" fill=\"currentColor\" font-style=\"italic\">A</text><circle cx=\"95\" cy=\"62\" r=\"4\" fill=\"currentColor\"/><text x=\"95\" y=\"50\" font-size=\"14\" text-anchor=\"middle\" fill=\"currentColor\" font-style=\"italic\">B</text><circle cx=\"215\" cy=\"62\" r=\"4\" fill=\"currentColor\"/><text x=\"215\" y=\"50\" font-size=\"14\" text-anchor=\"middle\" fill=\"currentColor\" font-style=\"italic\">C</text><circle cx=\"300\" cy=\"62\" r=\"4\" fill=\"currentColor\"/><text x=\"300\" y=\"50\" font-size=\"14\" text-anchor=\"middle\" fill=\"currentColor\" font-style=\"italic\">D</text><polyline points=\"20,32 20,24 300,24 300,32\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\"/><text x=\"160\" y=\"18\" font-size=\"15\" text-anchor=\"middle\" fill=\"currentColor\" font-style=\"italic\">x</text><polyline points=\"20,74 20,80 95,80 95,74\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.2\"/><text x=\"57\" y=\"97\" font-size=\"14\" text-anchor=\"middle\" fill=\"currentColor\" >5</text><polyline points=\"215,74 215,80 300,80 300,74\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.2\"/><text x=\"257\" y=\"97\" font-size=\"14\" text-anchor=\"middle\" fill=\"currentColor\" font-style=\"italic\">y</text></svg>",
+  "diagram": "<svg viewBox=\"0 0 320 55\" width=\"320\" height=\"55\" role=\"img\"><line x1=\"20\" y1=\"40\" x2=\"300\" y2=\"40\" stroke=\"currentColor\" stroke-width=\"1.6\"/><circle cx=\"20\" cy=\"40\" r=\"4\" fill=\"currentColor\"/><text x=\"20\" y=\"26\" font-size=\"15\" text-anchor=\"middle\" fill=\"currentColor\" font-style=\"italic\">B</text><circle cx=\"95\" cy=\"40\" r=\"4\" fill=\"currentColor\"/><text x=\"95\" y=\"26\" font-size=\"15\" text-anchor=\"middle\" fill=\"currentColor\" font-style=\"italic\">A</text><circle cx=\"215\" cy=\"40\" r=\"4\" fill=\"currentColor\"/><text x=\"215\" y=\"26\" font-size=\"15\" text-anchor=\"middle\" fill=\"currentColor\" font-style=\"italic\">D</text><circle cx=\"300\" cy=\"40\" r=\"4\" fill=\"currentColor\"/><text x=\"300\" y=\"26\" font-size=\"15\" text-anchor=\"middle\" fill=\"currentColor\" font-style=\"italic\">C</text></svg>",
   "needs_diagram": true
  },
  {
