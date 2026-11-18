@@ -18,10 +18,10 @@ ASK = {
  23: 'How many jumps of 4 from the 1st number to the 2nd? To the 25th?',
  24: 'You had $0.70 first. What was the question asking for after that?',
  30: 'You found 84 minutes. What does 84 stand for? What did the question ask?',
- 34: '', 35: '', 36: '', 37: '',
+ 35: 'Write the number first. Which digit is in the ones place? The tens place? The hundreds place?',
 }
-WRONG = [8, 14, 15, 17, 23, 24, 30]
-NOTREACHED = [34, 35, 36, 37]
+WRONG = [8, 14, 15, 17, 23, 24, 30, 35]
+NOTREACHED = []
 for n in WRONG:
     assert HER[n] != P[n]['ans'], n
 
@@ -67,7 +67,7 @@ JS = '''document.querySelectorAll('.card').forEach(function(c){
 });'''
 page = (f'<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">'
         f'<title>QR11 Missed Problems</title><style>{CSS}</style></head><body><div class="wrap">'
-        f'<h1>QR Set 11 &mdash; Problems to Redo</h1><p class="lede">The {len(WRONG)} missed problems and {len(NOTREACHED)} not reached from 11/17, exactly as they were on the worksheet. '
+        f'<h1>QR Set 11 &mdash; Problems to Redo</h1><p class="lede">The {len(WRONG)} problems she missed on 11/17 (#30 and #35 were answered on paper), exactly as they were on the worksheet. '
         f'Nothing is shown until you press a button. No timer.</p>{cards}</div><script>{JS}</script></body></html>')
 out = os.path.join(HERE, '..', '..', 'worksheets', 'qr11-wrong.html')
 open(out, 'w').write(page)

@@ -2076,7 +2076,7 @@
    "change_2_2026-11-17_parent": "#37 replaced (was $50 +10% then -10%, same type as #32) with a grouped symbol story -> expression, (lessons Mon + Tue) x minutes x dollars per minute, built like Lower 1 QR #33 (wrong) and MA4 #28 (wrong). Parent asked for an equation type she has not been drilling. Answer letters rebalanced.",
    "change_3_2026-11-17_parent": "#37 -> \"times as many\" chain with a total (beads 4x/2x, 66 in all), built like MA4 #27 (wrong) and QR5 #28 (wrong). #38 -> words to expression with brackets (\"4 less than 3 times the sum of n and 5\"), built like QR2 #23 and MA4 #15 (wrong); old #38 (sign flip only) dropped as the easier copy of #16. Letters rebalanced.",
    "graded_2026-11-17": {
-    "score": "27/38",
+    "score": "30/38",
     "wrong": [
      8,
      14,
@@ -2084,14 +2084,10 @@
      17,
      23,
      24,
-     30
+     30,
+     35
     ],
-    "blank": [
-     34,
-     35,
-     36,
-     37
-    ],
+    "blank": [],
     "total_elapsed_minutes": 34.97,
     "first_then_changed": {
      "wrong_to_right": [
@@ -2113,8 +2109,27 @@
      "17": "Treated the rectangle as a square",
      "23": "Off by one (the other way)",
      "24": "Started right, then lost the thread (217 s)",
-     "30": "Stopped one step early (paper)"
-    }
+     "30": "Stopped one step early (paper)",
+     "35": "Rules box: wrong place again (ask her)"
+    },
+    "paper_answers": {
+     "after_timer_same_night": {
+      "27": "C",
+      "29": "D",
+      "30": "A",
+      "31": "C",
+      "32": "C",
+      "33": "B",
+      "38": "A"
+     },
+     "done_later_2026-11-18": {
+      "34": "B",
+      "35": "B",
+      "36": "C",
+      "37": "D"
+     }
+    },
+    "timer_only_score": "21/38"
    }
   }
  ],

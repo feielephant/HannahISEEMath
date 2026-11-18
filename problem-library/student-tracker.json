@@ -19,7 +19,7 @@
    "tier": "Hard",
    "real_tests": 6,
    "wrong": 13,
-   "graded": 36,
+   "graded": 37,
    "habits": [
     "check-every-condition",
     "exact-thing-asked"
@@ -347,7 +347,7 @@
    "tier": "Medium",
    "real_tests": null,
    "wrong": 5,
-   "graded": 12,
+   "graded": 13,
    "habits": [],
    "priority": "high",
    "note": "examples added 2026-10-03; no graded results yet",
@@ -467,7 +467,7 @@
    "tier": "Medium",
    "real_tests": null,
    "wrong": 6,
-   "graded": 13,
+   "graded": 14,
    "habits": [
     "ratio-partition-forgotten (set 2 only)",
     "exact-thing-asked (set 3 #33 -- her answer 21 = 3x7, the cats count via a correctly-run partition method, but the question asked for dogs. This is the 6th topic this exact habit has shown up under -- see Percent Word Problems, Fractional Parts Word Problems, Determining Averages between Points on Number Lines, Multi-step unit conversion, and Cryptarithm, all tagged with the same habit. Cross-topic pattern, not specific to ratios -- the fix is a general exam habit (re-read what's actually asked before finalizing), not more ratio practice specifically."
@@ -498,8 +498,8 @@
    "topic": "Value of Digits",
    "tier": "Easy",
    "real_tests_note": "not yet cross-checked against official-test tagging as of 2026-10-11; introduced via set 3 (book/platform-sourced)",
-   "wrong": 1,
-   "graded": 9,
+   "wrong": 2,
+   "graded": 10,
    "habits": [],
    "priority": "unknown",
    "_sec_total": 332.0,
