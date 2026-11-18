@@ -39,13 +39,13 @@
   "topic": "Data Collection & Random Sampling",
   "q": "Maya watched a bird feeder and listed what she observed in categories or groups.<div style=\"margin-top:6px\">1. Kind of bird: robin, cardinal, sparrow</div><div>2. Color of each bird&rsquo;s feathers</div><div>3. ?</div><div style=\"margin-top:6px\">Which information best completes Maya&rsquo;s list?</div>",
   "choices": {
-   "A": "the weight of each bird, in grams",
+   "A": "the side of the feeder each bird landed on: left or right",
    "B": "the number of seeds each bird ate",
    "C": "how many minutes each bird stayed",
-   "D": "the side of the feeder each bird landed on: left or right"
+   "D": "the weight of each bird, in grams"
   },
-  "correct": "D",
-  "key": "<b>Answer: D.</b> Items 1 and 2 are categories (words), not numbers. Only D is a category. B, C, and A are all numbers you count or measure.",
+  "correct": "A",
+  "key": "<b>Answer: A.</b> Items 1 and 2 are categories (words), not numbers. Only A is a category. B, C, and D are all numbers you count or measure.",
   "ref": "Tier: Hard &middot; Topic: Data Collection & Random Sampling &middot; Type: real middle third &middot; Why chosen: high error rate, 3 of 6 wrong since 10/25 (last wrong QR10 #1) &middot; Built like: Lower 6 QR #38 (gid 1539, wrong) and QR10 #1 (wrong) &middot; Real tests: 0 middle-third + 1 last-third items &middot; Last done: Official MA #8 11-15 &middot; Last wrong: QR10 #1 11-10 &middot; Last 5: 2/5 wrong &middot; Since 10/25: 3/6 wrong",
   "diagram": null,
   "needs_diagram": false
@@ -90,13 +90,13 @@
   "topic": "Input Output Tables",
   "q": "The table shows how a number machine changes each input number (&#9651;) into an output number (&#9632;). Which equation shows the rule for the number machine?<table class=\"data\"><tr><th>Input (&#9651;)</th><th>Output (&#9632;)</th></tr><tr><td>2</td><td>5</td></tr><tr><td>3</td><td>10</td></tr><tr><td>5</td><td>26</td></tr><tr><td>7</td><td>50</td></tr></table>",
   "choices": {
-   "A": "&#9651; &times; 2 + 1 = &#9632;",
-   "B": "&#9651; &times; &#9651; + 1 = &#9632;",
+   "A": "&#9651; &times; &#9651; + 1 = &#9632;",
+   "B": "&#9651; &times; 2 + 1 = &#9632;",
    "C": "&#9651; &times; 5 &minus; 5 = &#9632;",
    "D": "&#9651; + 3 = &#9632;"
   },
-  "correct": "B",
-  "key": "<b>Answer: B.</b> Check a rule on EVERY row, not just the first one. &#9651; &times; &#9651; + 1: 2&rarr;5, 3&rarr;10, 5&rarr;26, 7&rarr;50, all work. &#9651; &times; 5 &minus; 5 works for the first two rows but gives 20 for 5. &#9651; &times; 2 + 1 and &#9651; + 3 work only for 2.",
+  "correct": "A",
+  "key": "<b>Answer: A.</b> Check a rule on EVERY row, not just the first one. &#9651; &times; &#9651; + 1: 2&rarr;5, 3&rarr;10, 5&rarr;26, 7&rarr;50, all work. &#9651; &times; 5 &minus; 5 works for the first two rows but gives 20 for 5. &#9651; &times; 2 + 1 and &#9651; + 3 work only for 2.",
   "ref": "Tier: Hard &middot; Topic: Input Output Tables &middot; Type: real middle third &middot; Why chosen: recent misses (QR10 #5, #26) &middot; Built like: QR10 #26 (wrong: checked one row) and QR10 #5 (wrong) &middot; Real tests: 0 middle-third + 0 last-third items &middot; Last done: Official MA #19 11-15 &middot; Last wrong: QR10 #5 11-10 &middot; Last 5: 2/5 wrong &middot; Since 10/25: 3/12 wrong",
   "diagram": null,
   "needs_diagram": false
@@ -141,13 +141,13 @@
   "topic": "English Unit Conversions",
   "q": "A roll has 8 yards of ribbon. There are 3 feet in 1 yard and 12 inches in 1 foot. Mia needs 300 inches of ribbon. Which statement best explains whether Mia has enough ribbon?",
   "choices": {
-   "A": "Since 8 &times; 3 &times; 12 is greater than 300, Mia has enough ribbon.",
+   "A": "Since 8 &times; 3 &times; 12 is less than 300, Mia does not have enough ribbon.",
    "B": "Since 8 &times; 3 &times; 12 is less than 300, Mia has enough ribbon.",
    "C": "Since 8 &times; 12 is less than 300, Mia does not have enough ribbon.",
-   "D": "Since 8 &times; 3 &times; 12 is less than 300, Mia does not have enough ribbon."
+   "D": "Since 8 &times; 3 &times; 12 is greater than 300, Mia has enough ribbon."
   },
-  "correct": "D",
-  "key": "<b>Answer: D.</b> Yards to feet: 8 &times; 3 = 24 feet. Feet to inches: 24 &times; 12 = 288 inches. 288 is less than 300, so she does not have enough. C skips the feet step (12 inches in a yard, the QR10 #11 slip). A is wrong arithmetic.",
+  "correct": "A",
+  "key": "<b>Answer: A.</b> Yards to feet: 8 &times; 3 = 24 feet. Feet to inches: 24 &times; 12 = 288 inches. 288 is less than 300, so she does not have enough. C skips the feet step (12 inches in a yard, the QR10 #11 slip). D is wrong arithmetic.",
   "ref": "Tier: Hard &middot; Topic: English Unit Conversions &middot; Type: real last third &middot; Why chosen: 4 of her last 5 wrong &middot; Built like: Lower 6 QR #25 (gid 1526, wrong) with two steps, like QR10 #11 &middot; Real tests: 2 middle-third + 0 last-third items &middot; Last done: MA5 #7 11-11 &middot; Last wrong: MA5 #23 11-11 &middot; Last 5: 4/5 wrong &middot; Since 10/25: 4/5 wrong",
   "diagram": null,
   "needs_diagram": false
@@ -192,13 +192,13 @@
   "topic": "Identifying Shapes",
   "q": "A quadrilateral has exactly one pair of parallel sides. Its other two sides are equal in length. Which statement about this quadrilateral is true?",
   "choices": {
-   "A": "It is a trapezoid, because it has exactly one pair of parallel sides.",
+   "A": "It is a parallelogram, because two of its sides are equal.",
    "B": "It is a rhombus, because it has parallel sides.",
-   "C": "It is a parallelogram, because two of its sides are equal.",
-   "D": "It is a rectangle, because its opposite sides are equal."
+   "C": "It is a rectangle, because its opposite sides are equal.",
+   "D": "It is a trapezoid, because it has exactly one pair of parallel sides."
   },
-  "correct": "A",
-  "key": "<b>Answer: A.</b> Exactly ONE pair of parallel sides is the trapezoid rule. A parallelogram, a rhombus, and a rectangle all have TWO pairs. (On the Official Lower test she called a shape with two pairs a trapezoid.)",
+  "correct": "D",
+  "key": "<b>Answer: D.</b> Exactly ONE pair of parallel sides is the trapezoid rule. A parallelogram, a rhombus, and a rectangle all have TWO pairs. (On the Official Lower test she called a shape with two pairs a trapezoid.)",
   "ref": "Tier: Hard &middot; Topic: Identifying Shapes &middot; Type: real last third &middot; Why chosen: missed on the Official Lower test (MA #18) &middot; Built like: Official MA #18 (wrong), Lower 5 MA #28 (wrong) &middot; Real tests: 0 middle-third + 5 last-third items &middot; Last done: Official QR #28 11-15 &middot; Last wrong: Official MA #18 11-15 &middot; Last 5: 1/5 wrong &middot; Since 10/25: 2/12 wrong",
   "diagram": null,
   "needs_diagram": false
@@ -209,13 +209,13 @@
   "topic": "Split Line Segments",
   "q": "Use the figure. The length of BC is x. The length of AB is 5. The length of CD is y. What is the length of AD?",
   "choices": {
-   "A": "x &minus; 5 &minus; y",
+   "A": "5 + y &minus; x",
    "B": "x &minus; 5 + y",
    "C": "x + 5 + y",
-   "D": "5 + y &minus; x"
+   "D": "x &minus; 5 &minus; y"
   },
-  "correct": "A",
-  "key": "<b>Answer: A.</b> Read the order from the picture: B, A, D, C. The whole segment is BC = x. AD is what is left after taking away AB (5) and DC (y): x &minus; 5 &minus; y. Try numbers: if BC = 20, AB = 5, CD = 6, then AD = 9 = 20 &minus; 5 &minus; 6. x &minus; 5 + y adds CD back. Label each piece on the picture before choosing.",
+  "correct": "D",
+  "key": "<b>Answer: D.</b> Read the order from the picture: B, D, A, C. The whole segment is BC = x. AD is what is left after taking away AB (5) and DC (y): x &minus; 5 &minus; y. Try numbers: if BC = 20, AB = 5, CD = 6, then AD = 9 = 20 &minus; 5 &minus; 6. x &minus; 5 + y adds CD back. Label each piece on the picture before choosing.",
   "ref": "Tier: Hard &middot; Topic: Split Line Segments &middot; Type: real last third &middot; Why chosen: high error rate (3 of 8), last wrong QR9 #27 &middot; Built like: QR9 #27 (wrong), MA4 #21, QR10 #18 &middot; Real tests: 1 middle-third + 1 last-third items &middot; Last done: QR10 #18 11-10 &middot; Last wrong: QR9 #27 11-03 &middot; Last 5: 1/5 wrong &middot; Since 10/25: 1/5 wrong",
   "diagram": "<svg viewBox=\"0 0 320 55\" width=\"320\" height=\"55\" role=\"img\"><line x1=\"20\" y1=\"40\" x2=\"300\" y2=\"40\" stroke=\"currentColor\" stroke-width=\"1.6\"/><circle cx=\"20\" cy=\"40\" r=\"4\" fill=\"currentColor\"/><text x=\"20\" y=\"26\" font-size=\"15\" text-anchor=\"middle\" fill=\"currentColor\" font-style=\"italic\">B</text><circle cx=\"95\" cy=\"40\" r=\"4\" fill=\"currentColor\"/><text x=\"95\" y=\"26\" font-size=\"15\" text-anchor=\"middle\" fill=\"currentColor\" font-style=\"italic\">A</text><circle cx=\"215\" cy=\"40\" r=\"4\" fill=\"currentColor\"/><text x=\"215\" y=\"26\" font-size=\"15\" text-anchor=\"middle\" fill=\"currentColor\" font-style=\"italic\">D</text><circle cx=\"300\" cy=\"40\" r=\"4\" fill=\"currentColor\"/><text x=\"300\" y=\"26\" font-size=\"15\" text-anchor=\"middle\" fill=\"currentColor\" font-style=\"italic\">C</text></svg>",
   "needs_diagram": true
@@ -345,13 +345,13 @@
   "topic": "English Unit Conversions",
   "q": "Sam cut three pieces of rope.<div style=\"margin-top:6px\">Rope 1: 2 yards, 2 feet, 5 inches</div><div>Rope 2: 3 yards, 1 inch</div><div>Rope 3: 1 yard, 5 feet, 5 inches</div><div style=\"margin-top:6px\">Which statement is true? (1 yard = 3 feet; 1 foot = 12 inches)</div>",
   "choices": {
-   "A": "Rope 1 and Rope 3 are the same length.",
-   "B": "Rope 3 is longer than Rope 2.",
-   "C": "Rope 1 is longer than Rope 3.",
+   "A": "Rope 1 is longer than Rope 3.",
+   "B": "Rope 1 and Rope 3 are the same length.",
+   "C": "Rope 3 is longer than Rope 2.",
    "D": "Rope 1 is longer than Rope 2."
   },
-  "correct": "A",
-  "key": "<b>Answer: A.</b> Change each to inches. Rope 1: 72 + 24 + 5 = 101. Rope 2: 108 + 1 = 109. Rope 3: 36 + 60 + 5 = 101. Ropes 1 and 3 are both 101 inches. Rope 3 looks shorter only because it has 1 yard, but its 5 feet make up for it.",
+  "correct": "B",
+  "key": "<b>Answer: B.</b> Change each to inches. Rope 1: 72 + 24 + 5 = 101. Rope 2: 108 + 1 = 109. Rope 3: 36 + 60 + 5 = 101. Ropes 1 and 3 are both 101 inches. Rope 3 looks shorter only because it has 1 yard, but its 5 feet make up for it.",
   "ref": "Tier: Hard &middot; Topic: English Unit Conversions &middot; Type: real last third &middot; Why chosen: 4 of her last 5 wrong &middot; Built like: QR8 #6 (wrong) and Lower 3 QR #25 (gid 144) &middot; Real tests: 2 middle-third + 0 last-third items &middot; Last done: MA5 #7 11-11 &middot; Last wrong: MA5 #23 11-11 &middot; Last 5: 4/5 wrong &middot; Since 10/25: 4/5 wrong",
   "diagram": null,
   "needs_diagram": false
@@ -481,13 +481,13 @@
   "topic": "Solving Problems with Geometric Formulas",
   "q": "The volume of a rectangular prism is 60 cubic inches. Its height is 5 inches. Which equation can be used to find the length, l, of the prism? (V = l &times; w &times; h)",
   "choices": {
-   "A": "l = 12 &divide; w",
+   "A": "l = 300 &divide; w",
    "B": "l = 12 &times; w",
    "C": "l = 55 &divide; w",
-   "D": "l = 300 &divide; w"
+   "D": "l = 12 &divide; w"
   },
-  "correct": "A",
-  "key": "<b>Answer: A.</b> 60 = l &times; w &times; 5. Divide both sides by 5: 12 = l &times; w. Then l = 12 &divide; w. 55 subtracts the height instead of dividing. 300 multiplies by the height.",
+  "correct": "D",
+  "key": "<b>Answer: D.</b> 60 = l &times; w &times; 5. Divide both sides by 5: 12 = l &times; w. Then l = 12 &divide; w. 55 subtracts the height instead of dividing. 300 multiplies by the height.",
   "ref": "Tier: Hard &middot; Topic: Solving Problems with Geometric Formulas &middot; Type: real last third &middot; Why chosen: 2 of last 5 wrong &middot; Built like: QR7 #37 (wrong) and QR7 #1 (wrong) &middot; Real tests: 0 middle-third + 0 last-third items &middot; Last done: QR9 #6 11-03 &middot; Last wrong: QR7 #37 10-25 &middot; Last 5: 2/5 wrong &middot; Since 10/25: 2/4 wrong",
   "diagram": null,
   "needs_diagram": false
@@ -614,17 +614,17 @@
  {
   "n": 37,
   "tier": "Hard",
-  "topic": "Percent Increase Decrease basic",
-  "q": "A game costs $50. The price is increased by 10%. Later, the new price is decreased by 10%. What is the final price?",
+  "topic": "Interpreting Linear Equations from Word Problems",
+  "q": "A tutor taught &#9633; lessons on Monday and &#9675; lessons on Tuesday. Each lesson lasted &#9651; minutes. She was paid &#9734; dollars for every minute she taught. Which expression shows how many dollars she earned on Monday and Tuesday?",
   "choices": {
-   "A": "$44.50",
-   "B": "$45.00",
-   "C": "$49.50",
-   "D": "$50.00"
+   "A": "(&#9633; + &#9675;) &times; &#9651; &times; &#9734;",
+   "B": "&#9633; + &#9675; &times; &#9651; &times; &#9734;",
+   "C": "(&#9633; + &#9675;) &times; &#9651; + &#9734;",
+   "D": "&#9633; &times; &#9675; &times; &#9651; &times; &#9734;"
   },
-  "correct": "C",
-  "key": "<b>Answer: C.</b> Up 10% of $50: $5, so $55. Down 10% of the NEW price $55: $5.50, so $55 &minus; $5.50 = $49.50. $50.00 thinks the two 10%s cancel out. $44.50 takes 10% of $55 from $50. The second 10% is of a bigger number.",
-  "ref": "Tier: Hard &middot; Topic: Percent Increase Decrease basic &middot; Type: real last third &middot; Why chosen: 3 of her last 5 wrong &middot; Built like: Lower 4 QR #38 (gid 198, wrong) and MA5 #8 (wrong, percent decrease) &middot; Real tests: 0 middle-third + 1 last-third items &middot; Last done: QR10 #22 11-10 &middot; Last wrong: Lower 6 MA #28 11-08 &middot; Last 5: 3/5 wrong &middot; Since 10/25: 4/7 wrong",
+  "correct": "A",
+  "key": "<b>Answer: A.</b> Build it step by step. Lessons in all: &#9633; + &#9675; (keep them together in brackets). Minutes: (&#9633; + &#9675;) &times; &#9651;. Dollars: that many minutes &times; &#9734;. Try numbers: 3 + 5 = 8 lessons, &times; 20 minutes = 160 minutes, &times; $2 = $320. The choice without brackets multiplies only the Tuesday lessons. Adding &#9734; treats the pay as one extra dollar amount instead of a rate.",
+  "ref": "Tier: Hard &middot; Topic: Interpreting Linear Equations from Word Problems &middot; Type: real last third &middot; Why chosen: missed Lower 1 QR #33 and MA4 #28 (a group times an amount each); symbol version never practiced since &middot; Built like: Lower 1 QR #33 (gid 71, wrong) and MA4 #28 (wrong) &middot; Real tests: 1 middle-third + 1 last-third items &middot; Last done: Official QR #3 11-15 &middot; Last wrong: Lower 1 QR #33 08-30 &middot; Last 5: 1/5 wrong &middot; Since 10/25: 0/2 wrong",
   "diagram": null,
   "needs_diagram": false
  },

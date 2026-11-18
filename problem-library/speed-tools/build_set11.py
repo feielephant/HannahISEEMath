@@ -132,6 +132,7 @@ WHY = {
  'UNIT': '4 of her last 5 wrong',
  'DEC': '4 of her last 5 wrong',
  'EST': '2 of last 5 wrong; a / b x c estimate missed 3 times in a row',
+ 'LINEQ': 'missed Lower 1 QR #33 and MA4 #28 (a group times an amount each); symbol version never practiced since',
  'TOTALCOST': 'missed Lower 6 MA #30 (11/8), the last problem on that test',
  'SHAPES': 'missed on the Official Lower test (MA #18)',
  'SPLIT': 'high error rate (3 of 8), last wrong QR9 #27',
@@ -439,13 +440,16 @@ add('Remaining Amount after Reducing by Fractions', 'REMFRAC', 'last', f'A libra
     ['48', '50', '58', '82'], 'C',
     'Morning: 1/4 of 96 = 24, so 72 are left. Afternoon: 1/3 of 72 = 24, so 48 are left. Add 10: 58. 48 forgets the 10 new books. 50 takes 1/3 of all 96 instead of the 72 left.',
     'QR9 #38 and MA4 #24 (both wrong), QR8 #21')
-# 37 increase then decrease (Lower 4 QR #38, wrong; percent decrease open from MA5 #8)
-p1 = F(50) * F(110, 100); p2 = p1 * F(90, 100)
-assert p1 == 55 and p2 == F(99, 2)
-add('Percent Increase Decrease basic', 'PCT', 'last', 'A game costs $50. The price is increased by 10%. Later, the new price is decreased by 10%. What is the final price?',
-    ['$44.50', '$45.00', '$49.50', '$50.00'], 'C',
-    'Up 10% of $50: $5, so $55. Down 10% of the NEW price $55: $5.50, so $55 &minus; $5.50 = $49.50. $50.00 thinks the two 10%s cancel out. $44.50 takes 10% of $55 from $50. The second 10% is of a bigger number.',
-    'Lower 4 QR #38 (gid 198, wrong) and MA5 #8 (wrong, percent decrease)')
+# grouped story -> expression with symbols (Lower 1 QR #33 wrong: (calls + emails) x minutes each; MA4 #28 wrong: (1,000 + 2,000) / 60)
+EXPR = {'A': lambda sq, ci, tr, st: (sq + ci) * tr * st, 'B': lambda sq, ci, tr, st: sq + ci * tr * st,
+        'C': lambda sq, ci, tr, st: (sq + ci) * tr + st, 'D': lambda sq, ci, tr, st: sq * ci * tr * st}
+for vals in ((3, 5, 20, 2), (4, 2, 30, 3)):
+    right = (vals[0] + vals[1]) * vals[2] * vals[3]          # lessons x minutes x dollars per minute
+    assert [k for k, f in EXPR.items() if f(*vals) == right] == ['A']
+add('Interpreting Linear Equations from Word Problems', 'LINEQ', 'last', 'A tutor taught &#9633; lessons on Monday and &#9675; lessons on Tuesday. Each lesson lasted &#9651; minutes. She was paid &#9734; dollars for every minute she taught. Which expression shows how many dollars she earned on Monday and Tuesday?',
+    ['(&#9633; + &#9675;) &times; &#9651; &times; &#9734;', '&#9633; + &#9675; &times; &#9651; &times; &#9734;', '(&#9633; + &#9675;) &times; &#9651; + &#9734;', '&#9633; &times; &#9675; &times; &#9651; &times; &#9734;'], 'A',
+    'Build it step by step. Lessons in all: &#9633; + &#9675; (keep them together in brackets). Minutes: (&#9633; + &#9675;) &times; &#9651;. Dollars: that many minutes &times; &#9734;. Try numbers: 3 + 5 = 8 lessons, &times; 20 minutes = 160 minutes, &times; $2 = $320. The choice without brackets multiplies only the Tuesday lessons. Adding &#9734; treats the pay as one extra dollar amount instead of a rate.',
+    'Lower 1 QR #33 (gid 71, wrong) and MA4 #28 (wrong)')
 # 38 minus before a group (Lower 2 MA #26, MA4 #8, MA5 #21: all wrong)
 v38 = 40 - (15 + 9 - 4)
 ex38 = {'A': 40 - 15 - 9 + 4, 'B': 40 - 15 + 9 - 4, 'C': 40 - 15 - 9 - 4, 'D': 40 + 15 - 9 + 4}

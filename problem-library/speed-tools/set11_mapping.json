@@ -504,18 +504,18 @@
   "total": "5/15"
  },
  "37": {
-  "group": "PCT",
-  "topic": "Percent Increase Decrease basic",
+  "group": "LINEQ",
+  "topic": "Interpreting Linear Equations from Word Problems",
   "third": "last",
-  "model": "Lower 4 QR #38 (gid 198, wrong) and MA5 #8 (wrong, percent decrease)",
-  "real_mid": 0,
+  "model": "Lower 1 QR #33 (gid 71, wrong) and MA4 #28 (wrong)",
+  "real_mid": 1,
   "real_last": 1,
-  "real_wrong": "2/2",
-  "last_done": "QR10 #22 11-10",
-  "last_wrong": "Lower 6 MA #28 11-08",
-  "last5": "3/5",
-  "since1025": "4/7",
-  "total": "5/8"
+  "real_wrong": "1/6",
+  "last_done": "Official QR #3 11-15",
+  "last_wrong": "Lower 1 QR #33 08-30",
+  "last5": "1/5",
+  "since1025": "0/2",
+  "total": "1/6"
  },
  "38": {
   "group": "OOO",

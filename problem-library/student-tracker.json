@@ -1462,6 +1462,18 @@
    "_sec_total": 46.0,
    "_sec_n": 1,
    "avg_seconds": 46.0
+  },
+  {
+   "topic": "Interpreting Linear Equations from Word Problems",
+   "tier": "Hard",
+   "real_tests": 6,
+   "wrong": 1,
+   "graded": 6,
+   "habits": [
+    "exact-thing-asked"
+   ],
+   "priority": "medium",
+   "note": "Added 2026-11-17 for QR11 #37. Real items: Lower 1 QR #33 (wrong: (calls + emails) x minutes each), Lower 1 MA #14, Lower 2 MA #8, Lower 2 QR #18, Lower 5 QR #10, Official QR #3 (right)."
   }
  ],
  "pacing": {

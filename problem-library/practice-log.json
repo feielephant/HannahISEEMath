@@ -1637,12 +1637,12 @@
     "Percent Word Problems",
     "Value of Digits",
     "Remaining Amount after Reducing by Fractions",
-    "Percent Increase Decrease basic",
+    "Interpreting Linear Equations from Word Problems",
     "Order of Operations and Equivalence"
    ],
    "date_built": "2026-11-17",
    "built_with": "REBUILT 11/17 per parent: 30 real last-third type problems (#9-38: more steps, more information) + 8 middle-third type (#1-8), no easy problems. Topics only by her data (topic_history.py -> group_metrics.py): high error rate; or high error earlier, later secured, but not practiced 3+ weeks (Who am I, map scale, mixed-number mean, unit price, number-line midpoint); or still missed in recent sets/tests. Dropped as secured: story-to-equation (14 right in a row), symbol equations, balance/cryptarithm, ratio, patterns, polygon perimeter, hidden rule, Venn.",
-   "answers": "ADDABBCBDBCAACCDCBADACBABDCDABCDBBACCD",
+   "answers": "ADAABACBABCDDCCDCBADBCBABDCDDBCDBBACAD",
    "models_by_problem": {
     "1": "Lower 3 QR #20 (gid 139) and QR10 #13: ordering 4 fractions, both wrong",
     "2": "Lower 1 QR #22 (gid 60, wrong) and Lower 6 QR #29 (gid 1530)",
@@ -1680,7 +1680,7 @@
     "34": "QR8 #31 (wrong)",
     "35": "Lower 3 QR #31 (gid 150, wrong) and Lower 2 QR #35 (gid 114)",
     "36": "QR9 #38 and MA4 #24 (both wrong), QR8 #21",
-    "37": "Lower 4 QR #38 (gid 198, wrong) and MA5 #8 (wrong, percent decrease)",
+    "37": "Lower 1 QR #33 (gid 71, wrong) and MA4 #28 (wrong)",
     "38": "Lower 2 MA #26 and MA5 #21 (minus before a bracket, wrong)"
    },
    "metrics_by_problem": {
@@ -2045,13 +2045,13 @@
      "real_last": 0
     },
     "37": {
-     "group": "PCT",
+     "group": "LINEQ",
      "third": "last",
-     "last_done": "QR10 #22 11-10",
-     "last_wrong": "Lower 6 MA #28 11-08",
-     "last5": "3/5",
-     "since1025": "4/7",
-     "real_mid": 0,
+     "last_done": "Official QR #3 11-15",
+     "last_wrong": "Lower 1 QR #33 08-30",
+     "last5": "1/5",
+     "since1025": "0/2",
+     "real_mid": 1,
      "real_last": 1
     },
     "38": {
@@ -2072,7 +2072,8 @@
     "note": "First 38-problem version (24 last-third + 14 middle-third) replaced the same day before she took it; worksheet storage keys moved to speed-set-11-v2."
    },
    "duplicate_check_2026-11-17": "Compared with every earlier practice set and real item. Same type with different numbers is intended. Replaced 2 near-repeats: #28 (was QR10 #16 statements, same answer) and #30 (same answer 95 and 3 shared choices as MA5 #19).",
-   "change_2026-11-17_parent": "#25 replaced (was (61 x 482) / 30 estimate, same problem as #11) with a partial 2-for-1 donation match total, built like Lower 6 MA #30 (wrong). #13 diagram redrawn points-only, scrambled order B A D C, as on real tests."
+   "change_2026-11-17_parent": "#25 replaced (was (61 x 482) / 30 estimate, same problem as #11) with a partial 2-for-1 donation match total, built like Lower 6 MA #30 (wrong). #13 diagram redrawn points-only, scrambled order B A D C, as on real tests.",
+   "change_2_2026-11-17_parent": "#37 replaced (was $50 +10% then -10%, same type as #32) with a grouped symbol story -> expression, (lessons Mon + Tue) x minutes x dollars per minute, built like Lower 1 QR #33 (wrong) and MA4 #28 (wrong). Parent asked for an equation type she has not been drilling. Answer letters rebalanced."
   }
  ],
  "rotation_notes": {
