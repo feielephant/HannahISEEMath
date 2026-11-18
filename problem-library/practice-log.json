@@ -1625,7 +1625,7 @@
     "Finding Ratios given Probability",
     "Nth Term, given Arithmetic Sequence, Progressive Pattern, etc.",
     "Finding Unit Price",
-    "Estimating Multiplication & Division",
+    "Determining Total Cost",
     "Comparing Areas",
     "Converting to a Decimal",
     "Identifying Shapes",
@@ -1668,7 +1668,7 @@
     "22": "Official QR #34 (gid 1573, wrong) and Lower 5 QR #37 (gid 1493, 145 s)",
     "23": "QR8 #23 (wrong) and QR7 #6",
     "24": "QR8 #12 and QR4 #1 (both wrong)",
-    "25": "What to Expect QR #33 (gid 35, wrong)",
+    "25": "Lower 6 MA #30 (wrong, 11/8: the match was left out of the total)",
     "26": "Lower 2 QR #38 (gid 117, wrong)",
     "27": "QR9 #13 (wrong) and MA4 #9",
     "28": "Official MA #18 and Lower 5 MA #28 (both wrong), Lower 6 MA #27 (171 s)",
@@ -1925,14 +1925,14 @@
      "real_last": 0
     },
     "25": {
-     "group": "EST",
+     "group": "TOTALCOST",
      "third": "last",
-     "last_done": "Official MA #28 11-15",
-     "last_wrong": "MA5 #15 11-11",
-     "last5": "2/5",
-     "since1025": "3/12",
-     "real_mid": 5,
-     "real_last": 4
+     "last_done": "QR10 #30 11-10",
+     "last_wrong": "Lower 6 MA #30 11-08",
+     "last5": "1/5",
+     "since1025": "1/4",
+     "real_mid": 0,
+     "real_last": 0
     },
     "26": {
      "group": "AREAS",
@@ -2071,7 +2071,8 @@
     "published_commit": "61228997aff0f9cf2ae83c7d45f0c7bc847c9f8b",
     "note": "First 38-problem version (24 last-third + 14 middle-third) replaced the same day before she took it; worksheet storage keys moved to speed-set-11-v2."
    },
-   "duplicate_check_2026-11-17": "Compared with every earlier practice set and real item. Same type with different numbers is intended. Replaced 2 near-repeats: #28 (was QR10 #16 statements, same answer) and #30 (same answer 95 and 3 shared choices as MA5 #19)."
+   "duplicate_check_2026-11-17": "Compared with every earlier practice set and real item. Same type with different numbers is intended. Replaced 2 near-repeats: #28 (was QR10 #16 statements, same answer) and #30 (same answer 95 and 3 shared choices as MA5 #19).",
+   "change_2026-11-17_parent": "#25 replaced (was (61 x 482) / 30 estimate, same problem as #11) with a partial 2-for-1 donation match total, built like Lower 6 MA #30 (wrong). #13 diagram redrawn points-only, scrambled order B A D C, as on real tests."
   }
  ],
  "rotation_notes": {

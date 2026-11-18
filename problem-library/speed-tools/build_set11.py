@@ -132,6 +132,7 @@ WHY = {
  'UNIT': '4 of her last 5 wrong',
  'DEC': '4 of her last 5 wrong',
  'EST': '2 of last 5 wrong; a / b x c estimate missed 3 times in a row',
+ 'TOTALCOST': 'missed Lower 6 MA #30 (11/8), the last problem on that test',
  'SHAPES': 'missed on the Official Lower test (MA #18)',
  'SPLIT': 'high error rate (3 of 8), last wrong QR9 #27',
  'CUBE': 'high error rate (4 of 11), 4 of 7 real-test items wrong',
@@ -339,13 +340,17 @@ add('Finding Unit Price', 'UNITPRICE', 'last', 'Pack A has 6 granola bars for $4
     ['$0.05', '$0.65', '$0.70', '$2.30'], 'A',
     'Pack A: $4.20 &divide; 6 = $0.70 per bar. Pack B: $6.50 &divide; 10 = $0.65 per bar. $0.70 &minus; $0.65 = $0.05. $2.30 subtracts the pack prices. $0.70 and $0.65 stop at one price.',
     'QR8 #12 and QR4 #1 (both wrong)')
-# 16 (a x b) / c range (What to Expect QR #33, wrong)
-v16 = F(61*482, 30)
-assert 900 < v16 < 1200
-add('Estimating Multiplication & Division', 'EST', 'last', f'Josh did the problem shown on his calculator: {frac("61 &times; 482", "30")}. What is a reasonable estimate for his answer?',
-    ['between 600 and 900', 'between 900 and 1,200', 'between 1,200 and 1,500', 'between 1,500 and 2,000'], 'B',
-    '61 &divide; 30 is about 2. 2 &times; 482 is about 960. Exact: about 980. Divide the pair that goes together first.',
-    'What to Expect QR #33 (gid 35, wrong)')
+# total with a partial 2-for-1 match (Lower 6 MA #30 wrong: employer matches every dollar; she picked $106 not $212)
+wk = {'Week 1': 15, 'Week 2': 20, 'Week 3': 12, 'Week 4': 18}
+class_total = sum(wk.values()); store = 2 * (wk['Week 3'] + wk['Week 4'])
+assert (class_total, store, class_total + store) == (65, 60, 125)
+assert class_total + (wk['Week 3'] + wk['Week 4']) == 95 and 2 * class_total == 130 and 3 * class_total == 195
+add('Determining Total Cost', 'TOTALCOST', 'last', 'Mia&rsquo;s class collected money for an animal shelter for 4 weeks. The table shows how much the class collected each week.' +
+    table(['Week', 'Money collected'], [[k, f'${v}'] for k, v in wk.items()], 'MONEY FOR THE SHELTER') +
+    'A pet store promised that for every $1 the class collected in Week 3 and Week 4, the store would give $2 more to the shelter. What was the total amount of money the shelter received?',
+    ['$95', '$125', '$130', '$195'], 'B',
+    'Class total: 15 + 20 + 12 + 18 = $65. The store only matches Weeks 3 and 4: 12 + 18 = $30, and $2 for every $1 is 2 &times; 30 = $60. The shelter gets both: 65 + 60 = $125. $95 gives only $1 for each $1. $130 matches every week $1 for $1. $195 matches every week with $2.',
+    'Lower 6 MA #30 (wrong, 11/8: the match was left out of the total)')
 # 33 compare areas and perimeters (Lower 2 QR #38, wrong)
 assert 10*10 == 5*20 and 4*10 < 2*(5+20)
 add('Comparing Areas', 'AREAS', 'last', 'The floor of Room A is a square with an area of 100 square feet. The floor of Room B is a rectangle 5 feet wide and 20 feet long. Which statement correctly compares the two floors?',

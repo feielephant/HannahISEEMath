@@ -359,6 +359,16 @@
   "since1025": "0/0",
   "total": "1/3"
  },
+ "TOTALCOST": {
+  "real_mid": 0,
+  "real_last": 0,
+  "real_wrong": "2/4",
+  "last_done": "QR10 #30 11-10",
+  "last_wrong": "Lower 6 MA #30 11-08",
+  "last5": "1/5",
+  "since1025": "1/4",
+  "total": "2/12"
+ },
  "OOO": {
   "real_mid": 1,
   "real_last": 1,

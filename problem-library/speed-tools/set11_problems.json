@@ -410,17 +410,17 @@
  {
   "n": 25,
   "tier": "Hard",
-  "topic": "Estimating Multiplication & Division",
-  "q": "Josh did the problem shown on his calculator: <span class=\"frac\"><span class=\"n\">61 &times; 482</span><span class=\"d\">30</span></span>. What is a reasonable estimate for his answer?",
+  "topic": "Determining Total Cost",
+  "q": "Mia&rsquo;s class collected money for an animal shelter for 4 weeks. The table shows how much the class collected each week.<div style=\"font-weight:600;margin-bottom:4px\">MONEY FOR THE SHELTER</div><table class=\"data\"><tr><th>Week</th><th>Money collected</th></tr><tr><td>Week 1</td><td>$15</td></tr><tr><td>Week 2</td><td>$20</td></tr><tr><td>Week 3</td><td>$12</td></tr><tr><td>Week 4</td><td>$18</td></tr></table>A pet store promised that for every $1 the class collected in Week 3 and Week 4, the store would give $2 more to the shelter. What was the total amount of money the shelter received?",
   "choices": {
-   "A": "between 600 and 900",
-   "B": "between 900 and 1,200",
-   "C": "between 1,200 and 1,500",
-   "D": "between 1,500 and 2,000"
+   "A": "$95",
+   "B": "$125",
+   "C": "$130",
+   "D": "$195"
   },
   "correct": "B",
-  "key": "<b>Answer: B.</b> 61 &divide; 30 is about 2. 2 &times; 482 is about 960. Exact: about 980. Divide the pair that goes together first.",
-  "ref": "Tier: Hard &middot; Topic: Estimating Multiplication & Division &middot; Type: real last third &middot; Why chosen: 2 of last 5 wrong; a / b x c estimate missed 3 times in a row &middot; Built like: What to Expect QR #33 (gid 35, wrong) &middot; Real tests: 5 middle-third + 4 last-third items &middot; Last done: Official MA #28 11-15 &middot; Last wrong: MA5 #15 11-11 &middot; Last 5: 2/5 wrong &middot; Since 10/25: 3/12 wrong",
+  "key": "<b>Answer: B.</b> Class total: 15 + 20 + 12 + 18 = $65. The store only matches Weeks 3 and 4: 12 + 18 = $30, and $2 for every $1 is 2 &times; 30 = $60. The shelter gets both: 65 + 60 = $125. $95 gives only $1 for each $1. $130 matches every week $1 for $1. $195 matches every week with $2.",
+  "ref": "Tier: Hard &middot; Topic: Determining Total Cost &middot; Type: real last third &middot; Why chosen: missed Lower 6 MA #30 (11/8), the last problem on that test &middot; Built like: Lower 6 MA #30 (wrong, 11/8: the match was left out of the total) &middot; Real tests: 0 middle-third + 0 last-third items &middot; Last done: QR10 #30 11-10 &middot; Last wrong: Lower 6 MA #30 11-08 &middot; Last 5: 1/5 wrong &middot; Since 10/25: 1/4 wrong",
   "diagram": null,
   "needs_diagram": false
  },
