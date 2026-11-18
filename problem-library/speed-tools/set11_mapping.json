@@ -504,31 +504,31 @@
   "total": "5/15"
  },
  "37": {
-  "group": "LINEQ",
-  "topic": "Interpreting Linear Equations from Word Problems",
+  "group": "RATIO",
+  "topic": "Word Problems with Ratios",
   "third": "last",
-  "model": "Lower 1 QR #33 (gid 71, wrong) and MA4 #28 (wrong)",
-  "real_mid": 1,
+  "model": "MA4 #27 (wrong, 11/6) and QR5 #28 (wrong)",
+  "real_mid": 4,
   "real_last": 1,
-  "real_wrong": "1/6",
-  "last_done": "Official QR #3 11-15",
-  "last_wrong": "Lower 1 QR #33 08-30",
-  "last5": "1/5",
-  "since1025": "0/2",
-  "total": "1/6"
+  "real_wrong": "0/10",
+  "last_done": "Official QR #11 11-15",
+  "last_wrong": "MA4 #27 11-06",
+  "last5": "0/5",
+  "since1025": "3/11",
+  "total": "6/22"
  },
  "38": {
-  "group": "OOO",
-  "topic": "Order of Operations and Equivalence",
+  "group": "TRANS",
+  "topic": "Translating Math Expressions",
   "third": "last",
-  "model": "Lower 2 MA #26 and MA5 #21 (minus before a bracket, wrong)",
+  "model": "QR2 #23 (wrong), MA4 #15 (wrong), Lower 1 QR #17",
   "real_mid": 1,
   "real_last": 1,
-  "real_wrong": "0/8",
+  "real_wrong": "0/2",
   "last_done": "QR10 #38 11-10",
-  "last_wrong": "MA4 #8 11-06",
+  "last_wrong": "MA4 #15 11-06",
   "last5": "2/5",
-  "since1025": "3/10",
-  "total": "6/29"
+  "since1025": "2/6",
+  "total": "4/17"
  }
 }

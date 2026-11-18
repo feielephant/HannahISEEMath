@@ -153,6 +153,8 @@ WHY = {
  'PCT': '3 of her last 5 wrong',
  'REMFRAC': 'high error rate (5 of 15), 2 of last 5 wrong',
  'OOO': '2 of last 5 wrong (minus before a group)',
+ 'RATIO': 'high error rate (6 of 22), 3 of 11 wrong since 10/25; last wrong MA4 #27 (11/6)',
+ 'TRANS': '2 of last 5 wrong (last wrong MA4 #15, 11/6)',
 }
 
 # ================= MIDDLE-THIRD TYPES (1-8) =================
@@ -440,25 +442,21 @@ add('Remaining Amount after Reducing by Fractions', 'REMFRAC', 'last', f'A libra
     ['48', '50', '58', '82'], 'C',
     'Morning: 1/4 of 96 = 24, so 72 are left. Afternoon: 1/3 of 72 = 24, so 48 are left. Add 10: 58. 48 forgets the 10 new books. 50 takes 1/3 of all 96 instead of the 72 left.',
     'QR9 #38 and MA4 #24 (both wrong), QR8 #21')
-# grouped story -> expression with symbols (Lower 1 QR #33 wrong: (calls + emails) x minutes each; MA4 #28 wrong: (1,000 + 2,000) / 60)
-EXPR = {'A': lambda sq, ci, tr, st: (sq + ci) * tr * st, 'B': lambda sq, ci, tr, st: sq + ci * tr * st,
-        'C': lambda sq, ci, tr, st: (sq + ci) * tr + st, 'D': lambda sq, ci, tr, st: sq * ci * tr * st}
-for vals in ((3, 5, 20, 2), (4, 2, 30, 3)):
-    right = (vals[0] + vals[1]) * vals[2] * vals[3]          # lessons x minutes x dollars per minute
-    assert [k for k, f in EXPR.items() if f(*vals) == right] == ['A']
-add('Interpreting Linear Equations from Word Problems', 'LINEQ', 'last', 'A tutor taught &#9633; lessons on Monday and &#9675; lessons on Tuesday. Each lesson lasted &#9651; minutes. She was paid &#9734; dollars for every minute she taught. Which expression shows how many dollars she earned on Monday and Tuesday?',
-    ['(&#9633; + &#9675;) &times; &#9651; &times; &#9734;', '&#9633; + &#9675; &times; &#9651; &times; &#9734;', '(&#9633; + &#9675;) &times; &#9651; + &#9734;', '&#9633; &times; &#9675; &times; &#9651; &times; &#9734;'], 'A',
-    'Build it step by step. Lessons in all: &#9633; + &#9675; (keep them together in brackets). Minutes: (&#9633; + &#9675;) &times; &#9651;. Dollars: that many minutes &times; &#9734;. Try numbers: 3 + 5 = 8 lessons, &times; 20 minutes = 160 minutes, &times; $2 = $320. The choice without brackets multiplies only the Tuesday lessons. Adding &#9734; treats the pay as one extra dollar amount instead of a rate.',
-    'Lower 1 QR #33 (gid 71, wrong) and MA4 #28 (wrong)')
-# 38 minus before a group (Lower 2 MA #26, MA4 #8, MA5 #21: all wrong)
-v38 = 40 - (15 + 9 - 4)
-ex38 = {'A': 40 - 15 - 9 + 4, 'B': 40 - 15 + 9 - 4, 'C': 40 - 15 - 9 - 4, 'D': 40 + 15 - 9 + 4}
-assert v38 == 20 and [k for k, v in ex38.items() if v == v38] == ['A']
-add('Order of Operations and Equivalence', 'OOO', 'last', 'Which expression has the same value as 40 &minus; (15 + 9 &minus; 4)?',
-    ['40 &minus; 15 &minus; 9 + 4', '40 &minus; 15 + 9 &minus; 4', '40 &minus; 15 &minus; 9 &minus; 4', '40 + 15 &minus; 9 + 4'], 'A',
-    'The minus in front takes away the whole group: 15 + 9 &minus; 4 = 20, and 40 &minus; 20 = 20. Taking away the group flips each sign inside: &minus;15, &minus;9, +4, which gives 20. C forgets to flip the &minus;4 (it gives 12).',
-    'Lower 2 MA #26 and MA5 #21 (minus before a bracket, wrong)')
-
+# "times as many" chain with a total (MA4 #27 wrong: 3x / 5x votes, 42 people; QR5 #28 wrong: 8 more, 50 in all)
+sols = [(r, b, g) for g in range(1, 67) for b in [2 * g] for r in [4 * b] if r + b + g == 66]
+assert sols == [(48, 12, 6)] and 66 // 2 == 33
+add('Word Problems with Ratios', 'RATIO', 'last', 'A jar has red, blue, and green beads. There are 4 times as many red beads as blue beads. There are 2 times as many blue beads as green beads. There are 66 beads in all. How many red beads are in the jar?',
+    ['6', '12', '33', '48'], 'D',
+    'Use parts. Green = 1 part. Blue = 2 times green = 2 parts. Red = 4 times blue = 8 parts. In all: 1 + 2 + 8 = 11 parts = 66, so 1 part = 6. Red = 8 &times; 6 = 48. 12 is blue and 6 is green (stopping one step early). 33 just halves 66.',
+    'MA4 #27 (wrong, 11/6) and QR5 #28 (wrong)')
+# words -> expression with brackets (QR2 #23 wrong; MA4 #15 wrong; Lower 1 QR #17)
+EXW = {'A': lambda n: 3 * (n + 5) - 4, 'B': lambda n: 3 * n + 5 - 4, 'C': lambda n: 4 - 3 * (n + 5), 'D': lambda n: 3 * (n + 5 - 4)}
+for nv in (1, 2, 7):
+    assert [k for k, f in EXW.items() if f(nv) == 3 * (nv + 5) - 4] == ['A']
+add('Translating Math Expressions', 'TRANS', 'last', 'Which expression means &ldquo;4 less than 3 times the sum of n and 5&rdquo;?',
+    ['3 &times; (n + 5) &minus; 4', '3 &times; n + 5 &minus; 4', '4 &minus; 3 &times; (n + 5)', '3 &times; (n + 5 &minus; 4)'], 'A',
+    'Read from the inside: &ldquo;the sum of n and 5&rdquo; is (n + 5), and it needs brackets because the 3 multiplies the whole sum. &ldquo;3 times&rdquo; it: 3 &times; (n + 5). &ldquo;4 less than&rdquo; that: take 4 away at the END. Without brackets, the 3 multiplies only n. &ldquo;4 less than&rdquo; does not mean 4 minus.',
+    'QR2 #23 (wrong), MA4 #15 (wrong), Lower 1 QR #17')
 assert len(P) == 38
 M2 = {}
 for i, p in enumerate(P, 1):

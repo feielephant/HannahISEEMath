@@ -5,13 +5,13 @@
   "topic": "Comparing & Ordering Fractions & Decimals",
   "q": "Which list shows <span class=\"frac\"><span class=\"n\">3</span><span class=\"d\">5</span></span>, <span class=\"frac\"><span class=\"n\">2</span><span class=\"d\">3</span></span>, <span class=\"frac\"><span class=\"n\">5</span><span class=\"d\">8</span></span>, and <span class=\"frac\"><span class=\"n\">4</span><span class=\"d\">7</span></span> in order from least to greatest?",
   "choices": {
-   "A": "<span class=\"frac\"><span class=\"n\">4</span><span class=\"d\">7</span></span>, <span class=\"frac\"><span class=\"n\">3</span><span class=\"d\">5</span></span>, <span class=\"frac\"><span class=\"n\">5</span><span class=\"d\">8</span></span>, <span class=\"frac\"><span class=\"n\">2</span><span class=\"d\">3</span></span>",
-   "B": "<span class=\"frac\"><span class=\"n\">4</span><span class=\"d\">7</span></span>, <span class=\"frac\"><span class=\"n\">5</span><span class=\"d\">8</span></span>, <span class=\"frac\"><span class=\"n\">3</span><span class=\"d\">5</span></span>, <span class=\"frac\"><span class=\"n\">2</span><span class=\"d\">3</span></span>",
+   "A": "<span class=\"frac\"><span class=\"n\">4</span><span class=\"d\">7</span></span>, <span class=\"frac\"><span class=\"n\">5</span><span class=\"d\">8</span></span>, <span class=\"frac\"><span class=\"n\">3</span><span class=\"d\">5</span></span>, <span class=\"frac\"><span class=\"n\">2</span><span class=\"d\">3</span></span>",
+   "B": "<span class=\"frac\"><span class=\"n\">4</span><span class=\"d\">7</span></span>, <span class=\"frac\"><span class=\"n\">3</span><span class=\"d\">5</span></span>, <span class=\"frac\"><span class=\"n\">5</span><span class=\"d\">8</span></span>, <span class=\"frac\"><span class=\"n\">2</span><span class=\"d\">3</span></span>",
    "C": "<span class=\"frac\"><span class=\"n\">3</span><span class=\"d\">5</span></span>, <span class=\"frac\"><span class=\"n\">2</span><span class=\"d\">3</span></span>, <span class=\"frac\"><span class=\"n\">5</span><span class=\"d\">8</span></span>, <span class=\"frac\"><span class=\"n\">4</span><span class=\"d\">7</span></span>",
    "D": "<span class=\"frac\"><span class=\"n\">2</span><span class=\"d\">3</span></span>, <span class=\"frac\"><span class=\"n\">3</span><span class=\"d\">5</span></span>, <span class=\"frac\"><span class=\"n\">4</span><span class=\"d\">7</span></span>, <span class=\"frac\"><span class=\"n\">5</span><span class=\"d\">8</span></span>"
   },
-  "correct": "A",
-  "key": "<b>Answer: A.</b> Compare each to a decimal: 4/7 &asymp; 0.57, 3/5 = 0.6, 5/8 = 0.625, 2/3 &asymp; 0.67. Write them down before ordering. B swaps 3/5 and 5/8. C is just the order they were given in. D orders them by the bottom number (3, 5, 7, 8).",
+  "correct": "B",
+  "key": "<b>Answer: B.</b> Compare each to a decimal: 4/7 &asymp; 0.57, 3/5 = 0.6, 5/8 = 0.625, 2/3 &asymp; 0.67. Write them down before ordering. A swaps 3/5 and 5/8. C is just the order they were given in. D orders them by the bottom number (3, 5, 7, 8).",
   "ref": "Tier: Hard &middot; Topic: Comparing & Ordering Fractions & Decimals &middot; Type: real middle third &middot; Why chosen: high error rate, 4 of 10 wrong since 10/25 (last wrong QR10 #13) &middot; Built like: Lower 3 QR #20 (gid 139) and QR10 #13: ordering 4 fractions, both wrong &middot; Real tests: 4 middle-third + 1 last-third items &middot; Last done: MA5 #6 11-11 &middot; Last wrong: QR10 #13 11-10 &middot; Last 5: 1/5 wrong &middot; Since 10/25: 4/10 wrong",
   "diagram": null,
   "needs_diagram": false
@@ -141,13 +141,13 @@
   "topic": "English Unit Conversions",
   "q": "A roll has 8 yards of ribbon. There are 3 feet in 1 yard and 12 inches in 1 foot. Mia needs 300 inches of ribbon. Which statement best explains whether Mia has enough ribbon?",
   "choices": {
-   "A": "Since 8 &times; 3 &times; 12 is less than 300, Mia does not have enough ribbon.",
+   "A": "Since 8 &times; 3 &times; 12 is greater than 300, Mia has enough ribbon.",
    "B": "Since 8 &times; 3 &times; 12 is less than 300, Mia has enough ribbon.",
    "C": "Since 8 &times; 12 is less than 300, Mia does not have enough ribbon.",
-   "D": "Since 8 &times; 3 &times; 12 is greater than 300, Mia has enough ribbon."
+   "D": "Since 8 &times; 3 &times; 12 is less than 300, Mia does not have enough ribbon."
   },
-  "correct": "A",
-  "key": "<b>Answer: A.</b> Yards to feet: 8 &times; 3 = 24 feet. Feet to inches: 24 &times; 12 = 288 inches. 288 is less than 300, so she does not have enough. C skips the feet step (12 inches in a yard, the QR10 #11 slip). D is wrong arithmetic.",
+  "correct": "D",
+  "key": "<b>Answer: D.</b> Yards to feet: 8 &times; 3 = 24 feet. Feet to inches: 24 &times; 12 = 288 inches. 288 is less than 300, so she does not have enough. C skips the feet step (12 inches in a yard, the QR10 #11 slip). A is wrong arithmetic.",
   "ref": "Tier: Hard &middot; Topic: English Unit Conversions &middot; Type: real last third &middot; Why chosen: 4 of her last 5 wrong &middot; Built like: Lower 6 QR #25 (gid 1526, wrong) with two steps, like QR10 #11 &middot; Real tests: 2 middle-third + 0 last-third items &middot; Last done: MA5 #7 11-11 &middot; Last wrong: MA5 #23 11-11 &middot; Last 5: 4/5 wrong &middot; Since 10/25: 4/5 wrong",
   "diagram": null,
   "needs_diagram": false
@@ -192,13 +192,13 @@
   "topic": "Identifying Shapes",
   "q": "A quadrilateral has exactly one pair of parallel sides. Its other two sides are equal in length. Which statement about this quadrilateral is true?",
   "choices": {
-   "A": "It is a parallelogram, because two of its sides are equal.",
+   "A": "It is a trapezoid, because it has exactly one pair of parallel sides.",
    "B": "It is a rhombus, because it has parallel sides.",
-   "C": "It is a rectangle, because its opposite sides are equal.",
-   "D": "It is a trapezoid, because it has exactly one pair of parallel sides."
+   "C": "It is a parallelogram, because two of its sides are equal.",
+   "D": "It is a rectangle, because its opposite sides are equal."
   },
-  "correct": "D",
-  "key": "<b>Answer: D.</b> Exactly ONE pair of parallel sides is the trapezoid rule. A parallelogram, a rhombus, and a rectangle all have TWO pairs. (On the Official Lower test she called a shape with two pairs a trapezoid.)",
+  "correct": "A",
+  "key": "<b>Answer: A.</b> Exactly ONE pair of parallel sides is the trapezoid rule. A parallelogram, a rhombus, and a rectangle all have TWO pairs. (On the Official Lower test she called a shape with two pairs a trapezoid.)",
   "ref": "Tier: Hard &middot; Topic: Identifying Shapes &middot; Type: real last third &middot; Why chosen: missed on the Official Lower test (MA #18) &middot; Built like: Official MA #18 (wrong), Lower 5 MA #28 (wrong) &middot; Real tests: 0 middle-third + 5 last-third items &middot; Last done: Official QR #28 11-15 &middot; Last wrong: Official MA #18 11-15 &middot; Last 5: 1/5 wrong &middot; Since 10/25: 2/12 wrong",
   "diagram": null,
   "needs_diagram": false
@@ -209,13 +209,13 @@
   "topic": "Split Line Segments",
   "q": "Use the figure. The length of BC is x. The length of AB is 5. The length of CD is y. What is the length of AD?",
   "choices": {
-   "A": "5 + y &minus; x",
+   "A": "x &minus; 5 &minus; y",
    "B": "x &minus; 5 + y",
    "C": "x + 5 + y",
-   "D": "x &minus; 5 &minus; y"
+   "D": "5 + y &minus; x"
   },
-  "correct": "D",
-  "key": "<b>Answer: D.</b> Read the order from the picture: B, D, A, C. The whole segment is BC = x. AD is what is left after taking away AB (5) and DC (y): x &minus; 5 &minus; y. Try numbers: if BC = 20, AB = 5, CD = 6, then AD = 9 = 20 &minus; 5 &minus; 6. x &minus; 5 + y adds CD back. Label each piece on the picture before choosing.",
+  "correct": "A",
+  "key": "<b>Answer: A.</b> Read the order from the picture: B, A, D, C. The whole segment is BC = x. AD is what is left after taking away AB (5) and DC (y): x &minus; 5 &minus; y. Try numbers: if BC = 20, AB = 5, CD = 6, then AD = 9 = 20 &minus; 5 &minus; 6. x &minus; 5 + y adds CD back. Label each piece on the picture before choosing.",
   "ref": "Tier: Hard &middot; Topic: Split Line Segments &middot; Type: real last third &middot; Why chosen: high error rate (3 of 8), last wrong QR9 #27 &middot; Built like: QR9 #27 (wrong), MA4 #21, QR10 #18 &middot; Real tests: 1 middle-third + 1 last-third items &middot; Last done: QR10 #18 11-10 &middot; Last wrong: QR9 #27 11-03 &middot; Last 5: 1/5 wrong &middot; Since 10/25: 1/5 wrong",
   "diagram": "<svg viewBox=\"0 0 320 55\" width=\"320\" height=\"55\" role=\"img\"><line x1=\"20\" y1=\"40\" x2=\"300\" y2=\"40\" stroke=\"currentColor\" stroke-width=\"1.6\"/><circle cx=\"20\" cy=\"40\" r=\"4\" fill=\"currentColor\"/><text x=\"20\" y=\"26\" font-size=\"15\" text-anchor=\"middle\" fill=\"currentColor\" font-style=\"italic\">B</text><circle cx=\"95\" cy=\"40\" r=\"4\" fill=\"currentColor\"/><text x=\"95\" y=\"26\" font-size=\"15\" text-anchor=\"middle\" fill=\"currentColor\" font-style=\"italic\">A</text><circle cx=\"215\" cy=\"40\" r=\"4\" fill=\"currentColor\"/><text x=\"215\" y=\"26\" font-size=\"15\" text-anchor=\"middle\" fill=\"currentColor\" font-style=\"italic\">D</text><circle cx=\"300\" cy=\"40\" r=\"4\" fill=\"currentColor\"/><text x=\"300\" y=\"26\" font-size=\"15\" text-anchor=\"middle\" fill=\"currentColor\" font-style=\"italic\">C</text></svg>",
   "needs_diagram": true
@@ -346,12 +346,12 @@
   "q": "Sam cut three pieces of rope.<div style=\"margin-top:6px\">Rope 1: 2 yards, 2 feet, 5 inches</div><div>Rope 2: 3 yards, 1 inch</div><div>Rope 3: 1 yard, 5 feet, 5 inches</div><div style=\"margin-top:6px\">Which statement is true? (1 yard = 3 feet; 1 foot = 12 inches)</div>",
   "choices": {
    "A": "Rope 1 is longer than Rope 3.",
-   "B": "Rope 1 and Rope 3 are the same length.",
-   "C": "Rope 3 is longer than Rope 2.",
-   "D": "Rope 1 is longer than Rope 2."
+   "B": "Rope 3 is longer than Rope 2.",
+   "C": "Rope 1 is longer than Rope 2.",
+   "D": "Rope 1 and Rope 3 are the same length."
   },
-  "correct": "B",
-  "key": "<b>Answer: B.</b> Change each to inches. Rope 1: 72 + 24 + 5 = 101. Rope 2: 108 + 1 = 109. Rope 3: 36 + 60 + 5 = 101. Ropes 1 and 3 are both 101 inches. Rope 3 looks shorter only because it has 1 yard, but its 5 feet make up for it.",
+  "correct": "D",
+  "key": "<b>Answer: D.</b> Change each to inches. Rope 1: 72 + 24 + 5 = 101. Rope 2: 108 + 1 = 109. Rope 3: 36 + 60 + 5 = 101. Ropes 1 and 3 are both 101 inches. Rope 3 looks shorter only because it has 1 yard, but its 5 feet make up for it.",
   "ref": "Tier: Hard &middot; Topic: English Unit Conversions &middot; Type: real last third &middot; Why chosen: 4 of her last 5 wrong &middot; Built like: QR8 #6 (wrong) and Lower 3 QR #25 (gid 144) &middot; Real tests: 2 middle-third + 0 last-third items &middot; Last done: MA5 #7 11-11 &middot; Last wrong: MA5 #23 11-11 &middot; Last 5: 4/5 wrong &middot; Since 10/25: 4/5 wrong",
   "diagram": null,
   "needs_diagram": false
@@ -532,13 +532,13 @@
   "topic": "Percent Increase Decrease basic",
   "q": "The price of a scooter is increased by 50%. The new price is then decreased by 40%. What is the overall percent increase or percent decrease from the original price?",
   "choices": {
-   "A": "percent decrease by 40%",
+   "A": "no change",
    "B": "percent increase by 10%",
-   "C": "no change",
-   "D": "percent decrease by 10%"
+   "C": "percent decrease by 10%",
+   "D": "percent decrease by 40%"
   },
-  "correct": "D",
-  "key": "<b>Answer: D.</b> Try a price of $100. Up 50%: $150. Down 40% of $150 is $60, so $90. $90 is 10% less than $100. &ldquo;Increase by 10%&rdquo; comes from 50 &minus; 40, which forgets that the 40% is taken from the bigger price.",
+  "correct": "C",
+  "key": "<b>Answer: C.</b> Try a price of $100. Up 50%: $150. Down 40% of $150 is $60, so $90. $90 is 10% less than $100. &ldquo;Increase by 10%&rdquo; comes from 50 &minus; 40, which forgets that the 40% is taken from the bigger price.",
   "ref": "Tier: Hard &middot; Topic: Percent Increase Decrease basic &middot; Type: real last third &middot; Why chosen: 3 of her last 5 wrong &middot; Built like: QR9 #16 and MA4 #13 (both wrong), Lower 4 QR #38 (wrong) &middot; Real tests: 0 middle-third + 1 last-third items &middot; Last done: QR10 #22 11-10 &middot; Last wrong: Lower 6 MA #28 11-08 &middot; Last 5: 3/5 wrong &middot; Since 10/25: 4/7 wrong",
   "diagram": null,
   "needs_diagram": false
@@ -614,34 +614,34 @@
  {
   "n": 37,
   "tier": "Hard",
-  "topic": "Interpreting Linear Equations from Word Problems",
-  "q": "A tutor taught &#9633; lessons on Monday and &#9675; lessons on Tuesday. Each lesson lasted &#9651; minutes. She was paid &#9734; dollars for every minute she taught. Which expression shows how many dollars she earned on Monday and Tuesday?",
+  "topic": "Word Problems with Ratios",
+  "q": "A jar has red, blue, and green beads. There are 4 times as many red beads as blue beads. There are 2 times as many blue beads as green beads. There are 66 beads in all. How many red beads are in the jar?",
   "choices": {
-   "A": "(&#9633; + &#9675;) &times; &#9651; &times; &#9734;",
-   "B": "&#9633; + &#9675; &times; &#9651; &times; &#9734;",
-   "C": "(&#9633; + &#9675;) &times; &#9651; + &#9734;",
-   "D": "&#9633; &times; &#9675; &times; &#9651; &times; &#9734;"
+   "A": "6",
+   "B": "12",
+   "C": "33",
+   "D": "48"
   },
-  "correct": "A",
-  "key": "<b>Answer: A.</b> Build it step by step. Lessons in all: &#9633; + &#9675; (keep them together in brackets). Minutes: (&#9633; + &#9675;) &times; &#9651;. Dollars: that many minutes &times; &#9734;. Try numbers: 3 + 5 = 8 lessons, &times; 20 minutes = 160 minutes, &times; $2 = $320. The choice without brackets multiplies only the Tuesday lessons. Adding &#9734; treats the pay as one extra dollar amount instead of a rate.",
-  "ref": "Tier: Hard &middot; Topic: Interpreting Linear Equations from Word Problems &middot; Type: real last third &middot; Why chosen: missed Lower 1 QR #33 and MA4 #28 (a group times an amount each); symbol version never practiced since &middot; Built like: Lower 1 QR #33 (gid 71, wrong) and MA4 #28 (wrong) &middot; Real tests: 1 middle-third + 1 last-third items &middot; Last done: Official QR #3 11-15 &middot; Last wrong: Lower 1 QR #33 08-30 &middot; Last 5: 1/5 wrong &middot; Since 10/25: 0/2 wrong",
+  "correct": "D",
+  "key": "<b>Answer: D.</b> Use parts. Green = 1 part. Blue = 2 times green = 2 parts. Red = 4 times blue = 8 parts. In all: 1 + 2 + 8 = 11 parts = 66, so 1 part = 6. Red = 8 &times; 6 = 48. 12 is blue and 6 is green (stopping one step early). 33 just halves 66.",
+  "ref": "Tier: Hard &middot; Topic: Word Problems with Ratios &middot; Type: real last third &middot; Why chosen: high error rate (6 of 22), 3 of 11 wrong since 10/25; last wrong MA4 #27 (11/6) &middot; Built like: MA4 #27 (wrong, 11/6) and QR5 #28 (wrong) &middot; Real tests: 4 middle-third + 1 last-third items &middot; Last done: Official QR #11 11-15 &middot; Last wrong: MA4 #27 11-06 &middot; Last 5: 0/5 wrong &middot; Since 10/25: 3/11 wrong",
   "diagram": null,
   "needs_diagram": false
  },
  {
   "n": 38,
   "tier": "Hard",
-  "topic": "Order of Operations and Equivalence",
-  "q": "Which expression has the same value as 40 &minus; (15 + 9 &minus; 4)?",
+  "topic": "Translating Math Expressions",
+  "q": "Which expression means &ldquo;4 less than 3 times the sum of n and 5&rdquo;?",
   "choices": {
-   "A": "40 + 15 &minus; 9 + 4",
-   "B": "40 &minus; 15 + 9 &minus; 4",
-   "C": "40 &minus; 15 &minus; 9 &minus; 4",
-   "D": "40 &minus; 15 &minus; 9 + 4"
+   "A": "3 &times; (n + 5) &minus; 4",
+   "B": "3 &times; n + 5 &minus; 4",
+   "C": "4 &minus; 3 &times; (n + 5)",
+   "D": "3 &times; (n + 5 &minus; 4)"
   },
-  "correct": "D",
-  "key": "<b>Answer: D.</b> The minus in front takes away the whole group: 15 + 9 &minus; 4 = 20, and 40 &minus; 20 = 20. Taking away the group flips each sign inside: &minus;15, &minus;9, +4, which gives 20. C forgets to flip the &minus;4 (it gives 12).",
-  "ref": "Tier: Hard &middot; Topic: Order of Operations and Equivalence &middot; Type: real last third &middot; Why chosen: 2 of last 5 wrong (minus before a group) &middot; Built like: Lower 2 MA #26 and MA5 #21 (minus before a bracket, wrong) &middot; Real tests: 1 middle-third + 1 last-third items &middot; Last done: QR10 #38 11-10 &middot; Last wrong: MA4 #8 11-06 &middot; Last 5: 2/5 wrong &middot; Since 10/25: 3/10 wrong",
+  "correct": "A",
+  "key": "<b>Answer: A.</b> Read from the inside: &ldquo;the sum of n and 5&rdquo; is (n + 5), and it needs brackets because the 3 multiplies the whole sum. &ldquo;3 times&rdquo; it: 3 &times; (n + 5). &ldquo;4 less than&rdquo; that: take 4 away at the END. Without brackets, the 3 multiplies only n. &ldquo;4 less than&rdquo; does not mean 4 minus.",
+  "ref": "Tier: Hard &middot; Topic: Translating Math Expressions &middot; Type: real last third &middot; Why chosen: 2 of last 5 wrong (last wrong MA4 #15, 11/6) &middot; Built like: QR2 #23 (wrong), MA4 #15 (wrong), Lower 1 QR #17 &middot; Real tests: 1 middle-third + 1 last-third items &middot; Last done: QR10 #38 11-10 &middot; Last wrong: MA4 #15 11-06 &middot; Last 5: 2/5 wrong &middot; Since 10/25: 2/6 wrong",
   "diagram": null,
   "needs_diagram": false
  }

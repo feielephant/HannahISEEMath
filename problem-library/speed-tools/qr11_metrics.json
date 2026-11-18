@@ -380,14 +380,24 @@
   "total": "1/6"
  },
  "OOO": {
+  "real_mid": 0,
+  "real_last": 0,
+  "real_wrong": "0/6",
+  "last_done": "QR10 #3 11-10",
+  "last_wrong": "MA4 #8 11-06",
+  "last5": "1/5",
+  "since1025": "1/4",
+  "total": "2/12"
+ },
+ "TRANS": {
   "real_mid": 1,
   "real_last": 1,
-  "real_wrong": "0/8",
+  "real_wrong": "0/2",
   "last_done": "QR10 #38 11-10",
-  "last_wrong": "MA4 #8 11-06",
+  "last_wrong": "MA4 #15 11-06",
   "last5": "2/5",
-  "since1025": "3/10",
-  "total": "6/29"
+  "since1025": "2/6",
+  "total": "4/17"
  },
  "AVGMIX": {
   "real_mid": 1,
