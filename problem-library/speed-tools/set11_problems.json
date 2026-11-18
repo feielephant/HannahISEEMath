@@ -368,7 +368,7 @@
    "D": "12"
   },
   "correct": "C",
-  "key": "<b>Answer: C.</b> The other marbles: 5 + 7 + 4 + 8 = 24. The total must include the purple ones. Check 8: 8 out of 24 + 8 = 32, and 8/32 = 1/4. 6 is 1/4 of 24, leaving purple out of the total (the Official Lower test slip).",
+  "key": "<b>Answer: C.</b> Purple is 1/4 of ALL the marbles, so for every 1 purple there are 3 that are NOT purple (purple : not purple = 1 : 3). Not purple: 5 + 7 + 4 + 8 = 24. So purple = 24 &divide; 3 = 8. Check: 8 out of 24 + 8 = 32 is 1/4. 6 is 1/4 of the 24 other marbles, which leaves purple out of the total (the Official Lower test slip: 1/3 there meant purple : not purple = 1 : 2, so 12 &divide; 2 = 6, not 12 &divide; 3 = 4).",
   "ref": "Tier: Hard &middot; Topic: Finding Ratios given Probability &middot; Type: real last third &middot; Why chosen: missed on the Official Lower test (QR #34) &middot; Built like: Official QR #34 (gid 1573, wrong) and Lower 5 QR #37 (gid 1493, 145 s) &middot; Real tests: 1 middle-third + 7 last-third items &middot; Last done: Official QR #34 11-15 &middot; Last wrong: Official QR #34 11-15 &middot; Last 5: 1/5 wrong &middot; Since 10/25: 1/9 wrong",
   "diagram": null,
   "needs_diagram": false

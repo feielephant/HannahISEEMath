@@ -325,7 +325,7 @@ assert sum(known) == 24 and sol == [8] and sum(known) // 4 == 6
 add('Finding Ratios given Probability', 'PROB', 'last', 'The table shows the number of each color of marble in a bag. The probability of picking a purple marble without looking is ' + frac(1, 4) + '. How many purple marbles are in the bag?' +
     table(['Color', 'Number'], [['Red', 5], ['Blue', 7], ['Green', 4], ['Yellow', 8], ['Purple', '?']], 'MARBLES IN THE BAG'),
     ['4', '6', '8', '12'], 'C',
-    'The other marbles: 5 + 7 + 4 + 8 = 24. The total must include the purple ones. Check 8: 8 out of 24 + 8 = 32, and 8/32 = 1/4. 6 is 1/4 of 24, leaving purple out of the total (the Official Lower test slip).',
+    'Purple is 1/4 of ALL the marbles, so for every 1 purple there are 3 that are NOT purple (purple : not purple = 1 : 3). Not purple: 5 + 7 + 4 + 8 = 24. So purple = 24 &divide; 3 = 8. Check: 8 out of 24 + 8 = 32 is 1/4. 6 is 1/4 of the 24 other marbles, which leaves purple out of the total (the Official Lower test slip: 1/3 there meant purple : not purple = 1 : 2, so 12 &divide; 2 = 6, not 12 &divide; 3 = 4).',
     'Official QR #34 (gid 1573, wrong) and Lower 5 QR #37 (gid 1493, 145 s)')
 
 # nth term from the start (QR8 #23 wrong)
