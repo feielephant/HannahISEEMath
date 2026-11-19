@@ -2103,14 +2103,14 @@
      ]
     },
     "notes_summary": {
-     "8": "Scale turned the wrong way (ask her)",
-     "14": "Lost one 10 from the 20",
-     "15": "Had it right, switched in 1.6 seconds",
-     "17": "Treated the rectangle as a square",
-     "23": "Off by one (the other way)",
-     "24": "Started right, then lost the thread (217 s)",
-     "30": "Stopped one step early (paper)",
-     "35": "Rules box: wrong place again (ask her)"
+     "8": "Scale with decimal per-unit value (15/2=7.5); fine once told decimals allowed",
+     "14": "Forgot the 20 (20 x 1,000)",
+     "15": "Found $36 regular price, stopped, picked closest ($31)",
+     "17": "Language: read perimeter as the 1/3; needed W:L=1:3, W+L=24",
+     "23": "Needs reps; right on 2nd try",
+     "24": "Subtracted pack prices, skipped per-bar step",
+     "30": "Found lunch time, not playing (left) time",
+     "35": "Expected hundreds place (stereotype), asked tens"
     },
     "paper_answers": {
      "after_timer_same_night": {
@@ -2129,7 +2129,18 @@
       "37": "D"
      }
     },
-    "timer_only_score": "21/38"
+    "timer_only_score": "21/38",
+    "verified_with_hannah": "2026-11-18",
+    "next_set_guidance": [
+     "scale problems: at least 3 with decimal per-unit values",
+     "cube volume: vary the count and the cube size (e.g. 200 cubes of 100 cubic cm), change the story",
+     "percent/discount multi-step like #15",
+     "ratio hidden in language (one side = other / n, given perimeter)",
+     "nth term reps",
+     "unit price: compute per item first",
+     "left/not/the rest multi-step",
+     "rules box: randomize which place is asked; vary details so she cannot learn one pattern"
+    ]
    }
   }
  ],
