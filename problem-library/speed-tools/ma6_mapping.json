@@ -1,0 +1,272 @@
+{
+ "1": {
+  "topic": "Measurement Scaling",
+  "built_on": "WTE QR #26 (middle third, 1.2 in = 10 mi); QR11 #8 (her miss, decimal per-unit)",
+  "source_third": "middle",
+  "last5": "o x o x",
+  "counted": "WTE QR #26, QR2 #25, QR7 #34, QR11 #8",
+  "comparable_wrong": "2/4",
+  "vs_latest": "Slightly harder: same steps, but it asks the map length (the other direction) and the answer is a decimal"
+ },
+ "2": {
+  "topic": "Finding Unit Price",
+  "built_on": "Lower 5 QR #21 (middle third, price per item); QR8 #12 and QR11 #24 (her misses)",
+  "source_third": "middle",
+  "last5": "x x",
+  "counted": "QR8 #12, QR11 #24",
+  "comparable_wrong": "2/2",
+  "vs_latest": "Slightly harder: same two divisions and a subtraction, and she must also say which store is lower"
+ },
+ "3": {
+  "topic": "Evaluating Percents of Numbers",
+  "built_on": "Official ISEE exercise gid 1108 (her MA3 #3 miss); QR8 #14 and MA5 #8 (her misses)",
+  "source_third": "middle",
+  "last5": "x x",
+  "counted": "QR8 #14, MA5 #8",
+  "comparable_wrong": "2/2",
+  "vs_latest": "Same: one percent and one subtraction, in a story with no money so it does not look like the last two"
+ },
+ "4": {
+  "topic": "Cryptarithm / digit substitution",
+  "built_on": "Lower 4 QR #24 (middle third, her miss); QR9 #5 (her miss)",
+  "source_third": "middle",
+  "last5": "x x x o o",
+  "counted": "Lower 4 QR #24, QR8 #30, QR9 #5, MA4 #3, QR10 #12",
+  "comparable_wrong": "3/5",
+  "vs_latest": "Same: same layout as QR9 #5 with a borrow, but it asks for the other symbol"
+ },
+ "5": {
+  "topic": "English Unit Conversions",
+  "built_on": "Lower 6 QR #25 (middle third, her miss); QR10 #11, MA5 #7, MA5 #23, QR11 #9",
+  "source_third": "middle",
+  "last5": "x x x o o*",
+  "counted": "Lower 6 QR #25, QR10 #11, MA5 #23, MA5 #7, QR11 #9 (245 s)",
+  "comparable_wrong": "3/5",
+  "vs_latest": "Harder: yards and feet mixed, and it asks the leftover instead of the number of pieces"
+ },
+ "6": {
+  "topic": "Remainder when Divided by a given Number",
+  "built_on": "Lower 3 MA #16 (middle third, her miss)",
+  "source_third": "middle",
+  "last5": "x",
+  "counted": "Lower 3 MA #16",
+  "comparable_wrong": "1/1",
+  "vs_latest": "Slightly harder: same check, but each wrong choice passes one of the two tests, so she must check both"
+ },
+ "7": {
+  "topic": "Data Collection & Random Sampling",
+  "built_on": "Lower 5 MA #30 (her miss, last third, 18.8% right, 282 s)",
+  "source_third": "last",
+  "last5": "x",
+  "counted": "Lower 5 MA #30 (282 s)",
+  "comparable_wrong": "1/1",
+  "vs_latest": "Same: same table format, different animal and different row that does not vary"
+ },
+ "8": {
+  "topic": "Equivalent Fractions Decimals and Percents",
+  "built_on": "Official MA #23 (last third, 158 s); Lower 2 QR #26 (her miss)",
+  "source_third": "last",
+  "last5": "x o o o*",
+  "counted": "Lower 2 QR #26, Lower 4 QR #37, Lower 6 QR #27, Official MA #23 (158 s)",
+  "comparable_wrong": "1/4",
+  "vs_latest": "Harder: total is 25 (not 10) and two groups must be added first"
+ },
+ "9": {
+  "topic": "Estimating Sums Differences of Decimal Numbers",
+  "built_on": "Lower 2 MA #27 (her miss, last third, 55.3% right)",
+  "source_third": "last",
+  "last5": "o x o o o",
+  "counted": "Lower 1 MA #20, Lower 2 MA #27, QR2 #4, QR6 #26, MA2 #12",
+  "comparable_wrong": "1/5",
+  "vs_latest": "Slightly harder: 6 values instead of 5; last practiced 10/21"
+ },
+ "10": {
+  "topic": "Comparing Adding Subtracting Bar Graph Data Table Values",
+  "built_on": "Official MA #26 (last third, 127 s); Lower 5 MA #6 and QR9 #3 (her misses)",
+  "source_third": "last",
+  "last5": "x x o o o*",
+  "counted": "Lower 5 MA #6, QR9 #3, MA4 #2, MA5 #1, Official MA #26 (127 s)",
+  "comparable_wrong": "2/5",
+  "vs_latest": "Harder: one sport against two others combined (one more step)"
+ },
+ "11": {
+  "topic": "Percent Word Problems",
+  "built_on": "Lower 6 MA #28 (her miss, last third); QR9 #8, QR10 #22, QR11 #15",
+  "source_third": "last",
+  "last5": "x o x",
+  "counted": "QR9 #8, QR10 #22, QR11 #15",
+  "comparable_wrong": "2/3",
+  "vs_latest": "Slightly harder: 15% (not 25%) to find the whole, then two more steps"
+ },
+ "12": {
+  "topic": "Comparing & Ordering Fractions & Decimals",
+  "built_on": "Lower 6 QR #31 (last third, 98 s, greatest to least); QR10 #13 (her miss)",
+  "source_third": "last",
+  "last5": "o* x o o",
+  "counted": "Lower 6 QR #31 (98 s), QR10 #13, MA5 #6, QR11 #1",
+  "comparable_wrong": "1/4",
+  "vs_latest": "Same: four close numbers like QR11 #1, now with decimals mixed in and in the greatest-to-least direction"
+ },
+ "13": {
+  "topic": "Multiplying and Dividing Whole Numbers",
+  "built_on": "Official MA #25 (last third, 207 s); Lower 5 MA #10 (186 s); Lower 2 MA #15 (her miss)",
+  "source_third": "last",
+  "last5": "x o o* o o*",
+  "counted": "Lower 2 MA #15, Lower 2 MA #5, Lower 5 MA #10 (186 s), Lower 6 MA #19, Official MA #25 (207 s)",
+  "comparable_wrong": "1/5",
+  "vs_latest": "Harder: 3/4 is given but she must find the other 1/4 (empty seats)"
+ },
+ "14": {
+  "topic": "Volume of Solids",
+  "built_on": "Lower 1 QR #36 (her miss, last third, 37.2% right); QR4 #19, QR5 #20, QR9 #6",
+  "source_third": "last",
+  "last5": "x o o",
+  "counted": "Lower 1 QR #36, QR4 #19, QR5 #20",
+  "comparable_wrong": "1/3",
+  "vs_latest": "Harder: she must compute the volume, not just choose the expression; last practiced 10/18"
+ },
+ "15": {
+  "topic": "Translating Math Expressions",
+  "built_on": "Lower 4 QR #35 (her miss, last third, 47.4% right); QR9 #19, MA4 #15 (her misses), QR10 #19",
+  "source_third": "last",
+  "last5": "x x x o",
+  "counted": "Lower 4 QR #35, QR9 #19, MA4 #15, QR10 #19",
+  "comparable_wrong": "3/4",
+  "vs_latest": "Harder: \"more than she has left\" and the gift must be taken away twice"
+ },
+ "16": {
+  "topic": "Nth Term, given Arithmetic Sequence, Progressive Pattern, etc.",
+  "built_on": "Lower 3 MA #21 (last third); QR9 #26, MA4 #18, QR11 #23 (her misses), QR11 #33",
+  "source_third": "last",
+  "last5": "x x o x o",
+  "counted": "QR9 #26, MA4 #18, MA5 #18, QR11 #23, QR11 #33",
+  "comparable_wrong": "3/5",
+  "vs_latest": "Harder: she must first find the step from two given numbers"
+ },
+ "17": {
+  "topic": "Finding Range, given Sets of Numbers, Data Tables or Graphs",
+  "built_on": "Lower 6 MA #25 (last third, 264 s)",
+  "source_third": "last",
+  "last5": "o o o*",
+  "counted": "Lower 4 MA #26, QR6 #12, Lower 6 MA #25 (264 s)",
+  "comparable_wrong": "0/3",
+  "vs_latest": "Harder: 10 three-digit values in a table (in for speed: she took 264 s on the real one)"
+ },
+ "18": {
+  "topic": "Multi-step unit conversion (off-by-10, multi-step)",
+  "built_on": "Official ISEE exercise gid 1005; Lower 1 QR #29 (her miss, last third, \"left\"); QR9 #12, QR11 #30 (her misses)",
+  "source_third": "last",
+  "last5": "x o x",
+  "counted": "QR9 #12, MA5 #19, QR11 #30",
+  "comparable_wrong": "2/3",
+  "vs_latest": "Harder: three parts, one already in minutes (one more step)"
+ },
+ "19": {
+  "topic": "Numerical Patterns",
+  "built_on": "Lower 1 MA #21 (her miss, last third, 67.1% right); MA4 #25 (her miss), QR10 #34",
+  "source_third": "last",
+  "last5": "x x x x o",
+  "counted": "Lower 1 MA #21, QR3 #6, MA1 #4, MA4 #25, QR10 #34",
+  "comparable_wrong": "4/5",
+  "vs_latest": "Slightly harder: a missing middle number, which must be checked against the number after it"
+ },
+ "20": {
+  "topic": "Estimating Multiplication & Division",
+  "built_on": "Lower 6 QR #36 (her miss, last third); QR10 #8, MA5 #15 (her misses), QR11 #11",
+  "source_third": "last",
+  "last5": "x x x o*",
+  "counted": "Lower 6 QR #36, QR10 #8, MA5 #15, QR11 #11 (136 s)",
+  "comparable_wrong": "3/4",
+  "vs_latest": "Same: same left-to-right estimate with new numbers"
+ },
+ "21": {
+  "topic": "Probability of 1 Event, given a List of Items",
+  "built_on": "Official QR #34 (her miss, last third, 57.6% right); QR11 #22",
+  "source_third": "last",
+  "last5": "o* x o",
+  "counted": "Lower 5 QR #37 (145 s), Official QR #34, QR11 #22",
+  "comparable_wrong": "1/3",
+  "vs_latest": "Harder: 2/5 is not a unit fraction, and it asks for the total instead of the missing count"
+ },
+ "22": {
+  "topic": "Remaining Amount after Reducing by Fractions",
+  "built_on": "Lower 1 MA #25 (her miss, last third); QR9 #38 (her miss), QR8 #21, QR11 #36",
+  "source_third": "last",
+  "last5": "o x o",
+  "counted": "QR8 #21, QR9 #38, QR11 #36 (right only on paper after time)",
+  "comparable_wrong": "1/3",
+  "vs_latest": "Same: same two fraction steps as QR11 #36, but it asks for a difference instead of what is left"
+ },
+ "23": {
+  "topic": "Value of Digits",
+  "built_on": "Lower 3 QR #31 (her miss, last third, 61.6% right); Official QR #36 (her miss), QR11 #35 (her miss)",
+  "source_third": "last",
+  "last5": "o o x o x",
+  "counted": "MA4 #16, MA5 #20, Official QR #36, QR11 #31, QR11 #35",
+  "comparable_wrong": "2/5",
+  "vs_latest": "Harder: asks the thousands place, and ending in the smallest even digit gives the wrong number"
+ },
+ "24": {
+  "topic": "Identifying Shapes",
+  "built_on": "Lower 6 MA #27 (last third, 171 s); Official MA #18 (her miss)",
+  "source_third": "last",
+  "last5": "o* o x o o",
+  "counted": "Lower 6 MA #27 (171 s), QR10 #16, Official MA #18, QR11 #12, QR11 #28",
+  "comparable_wrong": "1/5",
+  "vs_latest": "Same: same kind of description, but about angles instead of parallel sides"
+ },
+ "25": {
+  "topic": "Order of Operations and Equivalence",
+  "built_on": "Lower 2 MA #26 (her miss, last third); MA4 #8, MA5 #21 (her misses), QR10 #3, QR11 #16",
+  "source_third": "last",
+  "last5": "x o x o",
+  "counted": "MA4 #8, QR10 #3, MA5 #21, QR11 #16",
+  "comparable_wrong": "2/4",
+  "vs_latest": "Same: same bracket, but she finds the value instead of the matching expression"
+ },
+ "26": {
+  "topic": "Converting to a Decimal",
+  "built_on": "Lower 1 QR #29 (her miss, last third); QR9 #13, QR10 #14, MA5 #16 (her misses), QR11 #10, QR11 #27",
+  "source_third": "last",
+  "last5": "x o x x o",
+  "counted": "QR9 #13, MA4 #9, QR10 #14, MA5 #16, QR11 #10 (QR11 #27 right only on paper)",
+  "comparable_wrong": "3/5",
+  "vs_latest": "Slightly harder: four statements to check instead of one difference"
+ },
+ "27": {
+  "topic": "Counting Multiples within a Range",
+  "built_on": "Lower 5 MA #29 (her miss, last third); QR9 #36 (her miss), QR11 #5 (183 s)",
+  "source_third": "last",
+  "last5": "x o o o o*",
+  "counted": "QR9 #36, MA4 #4, QR10 #17, MA5 #12, QR11 #5 (183 s)",
+  "comparable_wrong": "1/5",
+  "vs_latest": "Harder: 4 and 6 share a factor, so multiplying them (24) is wrong (in for speed: 183 s on QR11)"
+ },
+ "28": {
+  "topic": "Determining Total Cost",
+  "built_on": "Lower 6 MA #30 (her miss, last third, 210 s); QR11 #25",
+  "source_third": "last",
+  "last5": "x o",
+  "counted": "Lower 6 MA #30 (210 s), QR11 #25",
+  "comparable_wrong": "1/2",
+  "vs_latest": "Harder: a $3-for-$2 match instead of $1 for $1"
+ },
+ "29": {
+  "topic": "Finding Area/Perimeter of Rectangle, given Length & Width",
+  "built_on": "Lower 1 MA #30 (her miss, last third, 35.9% right); QR8 #9, QR9 #35, QR11 #17 (her misses)",
+  "source_third": "last",
+  "last5": "x x o o x",
+  "counted": "QR8 #9, QR9 #35, QR10 #31, MA5 #27, QR11 #17",
+  "comparable_wrong": "3/5",
+  "vs_latest": "Same: same ratio-in-words idea as QR11 #17 (her language miss), and it asks the length instead of the area"
+ },
+ "30": {
+  "topic": "Comparing Volume of Cubes",
+  "built_on": "Lower 5 QR #38 (her miss, last third); QR9 #29, QR11 #14 (her miss)",
+  "source_third": "last",
+  "last5": "x o x",
+  "counted": "Lower 5 QR #38, QR9 #29, QR11 #14",
+  "comparable_wrong": "2/3",
+  "vs_latest": "Same: same steps as QR11 #14, with 200 flats of 100 instead of 20 cubes of 1,000 (parent 11/18)"
+ }
+}
