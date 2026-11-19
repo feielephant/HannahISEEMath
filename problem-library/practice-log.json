@@ -2701,7 +2701,8 @@
     "28": "Harder: a $3-for-$2 match instead of $1 for $1",
     "29": "Same: same ratio-in-words idea as QR11 #17 (her language miss), and it asks the length instead of the area",
     "30": "Same: same steps as QR11 #14, with 200 flats of 100 instead of 20 cubes of 1,000 (parent 11/18)"
-   }
+   },
+   "published_commit": "7ae9362437bb98eeaf27b2d5daff1bf251bc179b"
   }
  ],
  "ma_notes": {
