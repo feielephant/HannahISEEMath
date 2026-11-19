@@ -2605,7 +2605,7 @@
    "answers": "BDBCABDCDBAABADCCABCCBBAADCDCD",
    "minutes": 30,
    "planned_for": "2026-11-20",
-   "notes": "Plan agreed with the parent 11/19 after QR11 grading. One problem per skill (no repeats inside the set). Skills chosen from difficulty-matched history only (easier or fewer-step versions of a topic not counted). 9 secured skills dropped (divisible-by story, prime x odd, triangle A vs height, percent up-then-down, division story -> equation, input/output, and 3 more) and replaced with open ones; parent removed 2 overlaps (part:part ratio = #29 rectangle, a third percent problem) and approved quadrilateral names + counting multiples instead. Asked target rotated against earlier copies (feedback 11/18). Positions 1-6 middle-third sources, 7-30 last-third sources.",
+   "notes": "Plan agreed with the parent 11/19 after QR11 grading. One problem per skill (no repeats inside the set). Skills chosen from difficulty-matched history only (easier or fewer-step versions of a topic not counted). 6 secured skills dropped (divisible-by story, prime x odd, triangle A vs height, percent up-then-down, division story -> equation, input/output); ordering fractions, quadrilateral names and counting multiples kept for recent misses or slowness; parent removed 2 overlaps (part:part ratio = #29 rectangle, a third percent problem) and approved quadrilateral names + counting multiples instead. Asked target rotated against earlier copies (feedback 11/18). Positions 1-6 middle-third sources, 7-30 last-third sources.",
    "built_on_by_problem": {
     "1": "WTE QR #26 (middle third, 1.2 in = 10 mi); QR11 #8 (her miss, decimal per-unit)",
     "2": "Lower 5 QR #21 (middle third, price per item); QR8 #12 and QR11 #24 (her misses)",
