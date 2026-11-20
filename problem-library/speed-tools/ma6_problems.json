@@ -66,7 +66,7 @@
   },
   "correct": "C",
   "key": "<b>Answer: C.</b> Ones: ○ &minus; △ ends in 3. Tens: △ &minus; ○ ends in 7, so the tens must borrow (○ is bigger than △). Because of the borrow, the hundreds digit is △ &minus; 1 = 5, so △ = 6. Then ○ = 9: 669 &minus; 96 = 573. B reads the hundreds digit without the borrow. D is ○.",
-  "ref": "Topic: Cryptarithm / digit substitution &middot; Built on: Lower 4 QR #24 (middle third, her miss); QR9 #5 (her miss) &middot; Her comparable tries (oldest &rarr; newest): <b>x x x o o</b> (Lower 4 QR #24, QR8 #30, QR9 #5, MA4 #3, QR10 #12) &middot; Compared with the latest: Same: same layout as QR9 #5 with a borrow, but it asks for the other symbol",
+  "ref": "Topic: Cryptarithm / digit substitution &middot; Built on: Lower 3 QR #38 (gid 157, 40% right; same subtraction layout); Lower 4 QR #24 (her miss); QR9 #5 (her miss) &middot; Her comparable tries (oldest &rarr; newest): <b>x x x o o</b> (Lower 4 QR #24, QR8 #30, QR9 #5, MA4 #3, QR10 #12) &middot; Compared with the latest: Same: same layout as QR9 #5 with a borrow, but it asks for the other symbol",
   "diagram": null,
   "gid": null,
   "ma_idx": null
@@ -282,7 +282,7 @@
   },
   "correct": "C",
   "key": "<b>Answer: C.</b> From the 4th to the 9th number is 5 steps, and it grows 48 &minus; 23 = 25, so each step is 25 &divide; 5 = 5. From the 4th to the 30th number is 26 steps: 23 + 26 &times; 5 = 153. A takes 25 steps and D takes 27 (off by one). B is 30 &times; 5 with no starting number.",
-  "ref": "Topic: Nth Term, given Arithmetic Sequence, Progressive Pattern, etc. &middot; Built on: Lower 3 MA #21 (last third); QR9 #26, MA4 #18, QR11 #23 (her misses), QR11 #33 &middot; Her comparable tries (oldest &rarr; newest): <b>x x o x o</b> (QR9 #26, MA4 #18, MA5 #18, QR11 #23, QR11 #33) &middot; Compared with the latest: Harder: she must first find the step from two given numbers",
+  "ref": "Topic: Nth Term, given Arithmetic Sequence, Progressive Pattern, etc. &middot; Built on: No real test item asks a far term; closest official: Lower 1 QR #6 (gid 44, given the 2nd/3rd/4th numbers) and the official Nth Term exercises (gids 903-907); QR9 #26, MA4 #18, QR11 #23 (her misses), QR11 #33 &middot; Her comparable tries (oldest &rarr; newest): <b>x x o x o</b> (QR9 #26, MA4 #18, MA5 #18, QR11 #23, QR11 #33) &middot; Compared with the latest: Harder: she must first find the step from two given numbers",
   "diagram": null,
   "gid": null,
   "ma_idx": null
@@ -390,7 +390,7 @@
   },
   "correct": "B",
   "key": "<b>Answer: B.</b> Morning: 3/8 of 120 = 45 sold, so 75 are left. Afternoon: 2/5 of the 75 left = 30 sold. 45 &minus; 30 = 15. A takes 2/5 of all 120 apples (48) instead of the apples that were left. C is the afternoon only. D is the total sold.",
-  "ref": "Topic: Remaining Amount after Reducing by Fractions &middot; Built on: Lower 1 MA #25 (her miss, last third); QR9 #38 (her miss), QR8 #21, QR11 #36 &middot; Her comparable tries (oldest &rarr; newest): <b>o x o</b> (QR8 #21, QR9 #38, QR11 #36 (right only on paper after time)) &middot; Compared with the latest: Same: same two fraction steps as QR11 #36, but it asks for a difference instead of what is left",
+  "ref": "Topic: Remaining Amount after Reducing by Fractions &middot; Built on: Official exercise gid 849 (Fractional Parts Word Problems #1 #5, 59.4% right: 1/5, then 1/5 of the rest); Lower 1 MA #25 (her miss, last third); QR9 #38 (her miss), QR11 #36 &middot; Her comparable tries (oldest &rarr; newest): <b>o x o</b> (QR8 #21, QR9 #38, QR11 #36 (right only on paper after time)) &middot; Compared with the latest: Same: same two fraction steps as QR11 #36, but it asks for a difference instead of what is left",
   "diagram": null,
   "gid": null,
   "ma_idx": null

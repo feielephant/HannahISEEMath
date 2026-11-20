@@ -122,7 +122,7 @@ add('Cryptarithm / digit substitution',
     'Each shape shown represents a different digit from 1 through 9. What is the value of △?<div style="margin-top:8px">' + colsum(['△△○', '&minus; ○△', '573']) + '</div>',
     ['3', '5', '6', '9'], '6',
     'Ones: ○ &minus; △ ends in 3. Tens: △ &minus; ○ ends in 7, so the tens must borrow (○ is bigger than △). Because of the borrow, the hundreds digit is △ &minus; 1 = 5, so △ = 6. Then ○ = 9: 669 &minus; 96 = 573. B reads the hundreds digit without the borrow. D is ○.',
-    'Lower 4 QR #24 (middle third, her miss); QR9 #5 (her miss)', 'middle',
+    'Lower 3 QR #38 (gid 157, 40% right; same subtraction layout); Lower 4 QR #24 (her miss); QR9 #5 (her miss)', 'middle',
     'x x x o o', 'Lower 4 QR #24, QR8 #30, QR9 #5, MA4 #3, QR10 #12',
     'Same: same layout as QR9 #5 with a borrow, but it asks for the other symbol')
 
@@ -257,7 +257,7 @@ add('Nth Term, given Arithmetic Sequence, Progressive Pattern, etc.',
     'In a sequence, each number is the same amount more than the number before it. The 4th number is 23 and the 9th number is 48. What is the 30th number in the sequence?',
     ['148', '150', '153', '158'], '153',
     'From the 4th to the 9th number is 5 steps, and it grows 48 &minus; 23 = 25, so each step is 25 &divide; 5 = 5. From the 4th to the 30th number is 26 steps: 23 + 26 &times; 5 = 153. A takes 25 steps and D takes 27 (off by one). B is 30 &times; 5 with no starting number.',
-    'Lower 3 MA #21 (last third); QR9 #26, MA4 #18, QR11 #23 (her misses), QR11 #33', 'last',
+    'No real test item asks a far term; closest official: Lower 1 QR #6 (gid 44, given the 2nd/3rd/4th numbers) and the official Nth Term exercises (gids 903-907); QR9 #26, MA4 #18, QR11 #23 (her misses), QR11 #33', 'last',
     'x x o x o', 'QR9 #26, MA4 #18, MA5 #18, QR11 #23, QR11 #33',
     'Harder: she must first find the step from two given numbers')
 
@@ -325,7 +325,7 @@ add('Remaining Amount after Reducing by Fractions',
     f'A farm stand had 120 apples. In the morning, {frac(3,8)} of the apples were sold. In the afternoon, {frac(2,5)} of the apples that were left were sold. How many more apples were sold in the morning than in the afternoon?',
     ['3', '15', '30', '75'], '15',
     'Morning: 3/8 of 120 = 45 sold, so 75 are left. Afternoon: 2/5 of the 75 left = 30 sold. 45 &minus; 30 = 15. A takes 2/5 of all 120 apples (48) instead of the apples that were left. C is the afternoon only. D is the total sold.',
-    'Lower 1 MA #25 (her miss, last third); QR9 #38 (her miss), QR8 #21, QR11 #36', 'last',
+    'Official exercise gid 849 (Fractional Parts Word Problems #1 #5, 59.4% right: 1/5, then 1/5 of the rest); Lower 1 MA #25 (her miss, last third); QR9 #38 (her miss), QR11 #36', 'last',
     'o x o', 'QR8 #21, QR9 #38, QR11 #36 (right only on paper after time)',
     'Same: same two fraction steps as QR11 #36, but it asks for a difference instead of what is left')
 

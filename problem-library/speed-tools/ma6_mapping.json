@@ -28,7 +28,7 @@
  },
  "4": {
   "topic": "Cryptarithm / digit substitution",
-  "built_on": "Lower 4 QR #24 (middle third, her miss); QR9 #5 (her miss)",
+  "built_on": "Lower 3 QR #38 (gid 157, 40% right; same subtraction layout); Lower 4 QR #24 (her miss); QR9 #5 (her miss)",
   "source_third": "middle",
   "last5": "x x x o o",
   "counted": "Lower 4 QR #24, QR8 #30, QR9 #5, MA4 #3, QR10 #12",
@@ -136,7 +136,7 @@
  },
  "16": {
   "topic": "Nth Term, given Arithmetic Sequence, Progressive Pattern, etc.",
-  "built_on": "Lower 3 MA #21 (last third); QR9 #26, MA4 #18, QR11 #23 (her misses), QR11 #33",
+  "built_on": "No real test item asks a far term; closest official: Lower 1 QR #6 (gid 44, given the 2nd/3rd/4th numbers) and the official Nth Term exercises (gids 903-907); QR9 #26, MA4 #18, QR11 #23 (her misses), QR11 #33",
   "source_third": "last",
   "last5": "x x o x o",
   "counted": "QR9 #26, MA4 #18, MA5 #18, QR11 #23, QR11 #33",
@@ -190,7 +190,7 @@
  },
  "22": {
   "topic": "Remaining Amount after Reducing by Fractions",
-  "built_on": "Lower 1 MA #25 (her miss, last third); QR9 #38 (her miss), QR8 #21, QR11 #36",
+  "built_on": "Official exercise gid 849 (Fractional Parts Word Problems #1 #5, 59.4% right: 1/5, then 1/5 of the rest); Lower 1 MA #25 (her miss, last third); QR9 #38 (her miss), QR11 #36",
   "source_third": "last",
   "last5": "o x o",
   "counted": "QR8 #21, QR9 #38, QR11 #36 (right only on paper after time)",
