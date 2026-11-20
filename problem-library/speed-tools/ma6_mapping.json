@@ -1,57 +1,57 @@
 {
  "1": {
   "topic": "Measurement Scaling",
-  "built_on": "WTE QR #26 (middle third, 1.2 in = 10 mi); QR11 #8 (her miss, decimal per-unit)",
-  "source_third": "middle",
+  "built_on": "WTE QR #26 (last third, 61.9% right, 1.2 in = 10 mi); QR11 #8 (her miss, decimal per-unit)",
+  "source_third": "last",
   "last5": "o x o x",
   "counted": "WTE QR #26, QR2 #25, QR7 #34, QR11 #8",
   "comparable_wrong": "2/4",
   "vs_latest": "Slightly harder: same steps, but it asks the map length (the other direction) and the answer is a decimal"
  },
  "2": {
-  "topic": "Finding Unit Price",
-  "built_on": "Lower 5 QR #21 (middle third, price per item); QR8 #12 and QR11 #24 (her misses)",
-  "source_third": "middle",
-  "last5": "x x",
-  "counted": "QR8 #12, QR11 #24",
-  "comparable_wrong": "2/2",
-  "vs_latest": "Slightly harder: same two divisions and a subtraction, and she must also say which store is lower"
+  "topic": "Identifying Correct Conclusions from Bar Graph Data Table",
+  "built_on": "ISEE Lower #2 QR #37 (her miss, last third, 41.7% right); MA5 #13",
+  "source_third": "last",
+  "last5": "x o",
+  "counted": "ISEE Lower #2 QR #37, MA5 #13",
+  "comparable_wrong": "1/2",
+  "vs_latest": "Slightly harder: one statement needs the most &minus; fewest difference, and \"at least\" / \"or more\" wording"
  },
  "3": {
-  "topic": "Evaluating Percents of Numbers",
-  "built_on": "Official ISEE exercise gid 1108 (her MA3 #3 miss); QR8 #14 and MA5 #8 (her misses)",
-  "source_third": "middle",
-  "last5": "x x",
-  "counted": "QR8 #14, MA5 #8",
-  "comparable_wrong": "2/2",
-  "vs_latest": "Same: one percent and one subtraction, in a story with no money so it does not look like the last two"
+  "topic": "Percent Increase Decrease basic",
+  "built_on": "ISEE Lower #4 QR #38 (her miss, last third, 40.6% right); QR9 #16, MA4 #13 (her misses), QR10 #15, QR11 #32; \"decreased by\" slip: QR8 #14, MA5 #8",
+  "source_third": "last",
+  "last5": "x x o o",
+  "counted": "ISEE Lower #4 QR #38 is the real one; last 4: QR9 #16, MA4 #13, QR10 #15, QR11 #32",
+  "comparable_wrong": "2/4",
+  "vs_latest": "Same steps as ISEE Lower #4 QR #38 (up, then down from the new amount), asked as a price with decimal choices so her \"subtract 0.30\" habit shows"
  },
  "4": {
   "topic": "Cryptarithm / digit substitution",
-  "built_on": "Lower 3 QR #38 (gid 157, 40% right; same subtraction layout); Lower 4 QR #24 (her miss); QR9 #5 (her miss)",
-  "source_third": "middle",
+  "built_on": "ISEE Lower #3 QR #38 (last third, 40% right; same subtraction layout); QR9 #5 (her miss)",
+  "source_third": "last",
   "last5": "x x x o o",
   "counted": "Lower 4 QR #24, QR8 #30, QR9 #5, MA4 #3, QR10 #12",
   "comparable_wrong": "3/5",
   "vs_latest": "Same: same layout as QR9 #5 with a borrow, but it asks for the other symbol"
  },
  "5": {
-  "topic": "English Unit Conversions",
-  "built_on": "Lower 6 QR #25 (middle third, her miss); QR10 #11, MA5 #7, MA5 #23, QR11 #9",
-  "source_third": "middle",
-  "last5": "x x x o o*",
-  "counted": "Lower 6 QR #25, QR10 #11, MA5 #23, MA5 #7, QR11 #9 (245 s)",
-  "comparable_wrong": "3/5",
-  "vs_latest": "Harder: yards and feet mixed, and it asks the leftover instead of the number of pieces"
+  "topic": "Patterns in Data Tables and Lists",
+  "built_on": "ISEE Lower #2 QR #34 (her miss, last third, 56.3% right)",
+  "source_third": "last",
+  "last5": "x",
+  "counted": "ISEE Lower #2 QR #34 (9/13; not practiced since)",
+  "comparable_wrong": "1/1",
+  "vs_latest": "Harder: same steps (add the total, then scale), plus two groups added together"
  },
  "6": {
-  "topic": "Remainder when Divided by a given Number",
-  "built_on": "Lower 3 MA #16 (middle third, her miss)",
-  "source_third": "middle",
-  "last5": "x",
-  "counted": "Lower 3 MA #16",
-  "comparable_wrong": "1/1",
-  "vs_latest": "Slightly harder: same check, but each wrong choice passes one of the two tests, so she must check both"
+  "topic": "Word Problems with Ratios",
+  "built_on": "Official MA #29 (last third, 63.2% right; she was right but took 119 s vs. 52 s)",
+  "source_third": "last",
+  "last5": "o*",
+  "counted": "Official MA #29 (119 s)",
+  "comparable_wrong": "0/1",
+  "vs_latest": "Harder: works backward from the height, and the answer must be changed to centimeters"
  },
  "7": {
   "topic": "Data Collection & Random Sampling",
@@ -135,13 +135,13 @@
   "vs_latest": "Harder: \"more than she has left\" and the gift must be taken away twice"
  },
  "16": {
-  "topic": "Nth Term, given Arithmetic Sequence, Progressive Pattern, etc.",
-  "built_on": "No real test item asks a far term; closest official: Lower 1 QR #6 (gid 44, given the 2nd/3rd/4th numbers) and the official Nth Term exercises (gids 903-907); QR9 #26, MA4 #18, QR11 #23 (her misses), QR11 #33",
+  "topic": "Multiplying and Dividing Integers",
+  "built_on": "Official QR #30 (last third, 76.5% right; she was right but took 87 s vs. 37 s); ISEE Lower #1 QR #19",
   "source_third": "last",
-  "last5": "x x o x o",
-  "counted": "QR9 #26, MA4 #18, MA5 #18, QR11 #23, QR11 #33",
-  "comparable_wrong": "3/5",
-  "vs_latest": "Harder: she must first find the step from two given numbers"
+  "last5": "o o*",
+  "counted": "ISEE Lower #1 QR #19, Official QR #30 (87 s)",
+  "comparable_wrong": "0/2",
+  "vs_latest": "Harder: one more step (how many fewer) than the real one"
  },
  "17": {
   "topic": "Finding Range, given Sets of Numbers, Data Tables or Graphs",

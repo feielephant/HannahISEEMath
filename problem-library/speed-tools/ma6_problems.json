@@ -12,7 +12,7 @@
   },
   "correct": "B",
   "key": "<b>Answer: B.</b> 10 kilometers for every 4 centimeters means 1 centimeter stands for 10 &divide; 4 = 2.5 kilometers. 27 &divide; 2.5 = 10.8 centimeters. Check: 10.8 &times; 2.5 = 27. C multiplies 27 by 2.5 (that finds a real distance, but 27 is already the real distance). A divides 27 by 4. D drops the decimal point.",
-  "ref": "Topic: Measurement Scaling &middot; Built on: WTE QR #26 (middle third, 1.2 in = 10 mi); QR11 #8 (her miss, decimal per-unit) &middot; Her comparable tries (oldest &rarr; newest): <b>o x o x</b> (WTE QR #26, QR2 #25, QR7 #34, QR11 #8) &middot; Compared with the latest: Slightly harder: same steps, but it asks the map length (the other direction) and the answer is a decimal",
+  "ref": "Topic: Measurement Scaling &middot; Built on: WTE QR #26 (last third, 61.9% right, 1.2 in = 10 mi); QR11 #8 (her miss, decimal per-unit) &middot; Her comparable tries (oldest &rarr; newest): <b>o x o x</b> (WTE QR #26, QR2 #25, QR7 #34, QR11 #8) &middot; Compared with the latest: Slightly harder: same steps, but it asks the map length (the other direction) and the answer is a decimal",
   "diagram": null,
   "gid": null,
   "ma_idx": null
@@ -20,35 +20,35 @@
  {
   "n": 2,
   "tier": "Hard",
-  "topic": "Finding Unit Price",
-  "q": "Store A sells 5 pens for $3.40. Store B sells 8 of the same pens for $5.20. Which store has the lower price for one pen, and by how much?",
+  "topic": "Identifying Correct Conclusions from Bar Graph Data Table",
+  "q": "The stem-and-leaf plot shows the number of minutes each of 14 students spent reading last night, where 3 | 7 represents 37 minutes. Based on the data in the stem-and-leaf plot, which conclusion is true?",
   "choices": {
-   "A": "Store A, by $0.03 per pen",
-   "B": "Store B, by $0.65 per pen",
-   "C": "Store A, by $1.80 per pen",
-   "D": "Store B, by $0.03 per pen"
+   "A": "Every student read for at least 25 minutes.",
+   "B": "Exactly 5 students read for 40 minutes or more.",
+   "C": "Four students read for 33 minutes.",
+   "D": "The most minutes is 35 more than the fewest minutes."
   },
   "correct": "D",
-  "key": "<b>Answer: D.</b> Find the price of one pen at each store. Store A: 3.40 &divide; 5 = $0.68. Store B: 5.20 &divide; 8 = $0.65. Store B is lower by 0.68 &minus; 0.65 = $0.03. A has the right amount but the wrong store. B is the price of one pen at Store B, not the difference. C subtracts the pack prices (her QR11 #24 slip).",
-  "ref": "Topic: Finding Unit Price &middot; Built on: Lower 5 QR #21 (middle third, price per item); QR8 #12 and QR11 #24 (her misses) &middot; Her comparable tries (oldest &rarr; newest): <b>x x</b> (QR8 #12, QR11 #24) &middot; Compared with the latest: Slightly harder: same two divisions and a subtraction, and she must also say which store is lower",
-  "diagram": null,
+  "key": "<b>Answer: D.</b> Read each leaf with its stem: 24, 25, 28, 30, 33, 33, 33, 37, 41, 46, 46, 52, 55, 59. Most &minus; fewest = 59 &minus; 24 = 35, true. A is false: one student read 24 minutes. B is false: 41, 46, 46, 52, 55, 59 is 6 students. C is false: 33 appears 3 times. Write out every value before checking the statements.",
+  "ref": "Topic: Identifying Correct Conclusions from Bar Graph Data Table &middot; Built on: ISEE Lower #2 QR #37 (her miss, last third, 41.7% right); MA5 #13 &middot; Her comparable tries (oldest &rarr; newest): <b>x o</b> (ISEE Lower #2 QR #37, MA5 #13) &middot; Compared with the latest: Slightly harder: one statement needs the most &minus; fewest difference, and \"at least\" / \"or more\" wording",
+  "diagram": "<div style=\"font-weight:600;margin-bottom:4px\">MINUTES SPENT READING</div><table class=\"data\"><tr><th>Stem</th><th>Leaf</th></tr><tr><td>2</td><td>4 &nbsp;5 &nbsp;8</td></tr><tr><td>3</td><td>0 &nbsp;3 &nbsp;3 &nbsp;3 &nbsp;7</td></tr><tr><td>4</td><td>1 &nbsp;6 &nbsp;6</td></tr><tr><td>5</td><td>2 &nbsp;5 &nbsp;9</td></tr></table><div style=\"font-size:0.85em;margin-top:4px\">Key: 3 | 7 = 37 minutes</div>",
   "gid": null,
   "ma_idx": null
  },
  {
   "n": 3,
   "tier": "Hard",
-  "topic": "Evaluating Percents of Numbers",
-  "q": "A lake had 3,500 fish. After a dry summer, the number of fish decreased by 14%. How many fish are in the lake now?",
+  "topic": "Percent Increase Decrease basic",
+  "q": "A bike costs $64. The price was increased by 25%. Then the new price was decreased by 30%. What is the price now?",
   "choices": {
-   "A": "490",
-   "B": "3,010",
-   "C": "3,486",
-   "D": "3,990"
+   "A": "$56.00",
+   "B": "$60.80",
+   "C": "$79.70",
+   "D": "$104.00"
   },
-  "correct": "B",
-  "key": "<b>Answer: B.</b> 14% of 3,500: 10% is 350 and 4% is 140, so 14% is 490. Decreased by 14% means take 490 away: 3,500 &minus; 490 = 3,010. A stops at the amount of the decrease. C subtracts 14 instead of 14% of 3,500 (the \"decreased by\" slip). D increases instead.",
-  "ref": "Topic: Evaluating Percents of Numbers &middot; Built on: Official ISEE exercise gid 1108 (her MA3 #3 miss); QR8 #14 and MA5 #8 (her misses) &middot; Her comparable tries (oldest &rarr; newest): <b>x x</b> (QR8 #14, MA5 #8) &middot; Compared with the latest: Same: one percent and one subtraction, in a story with no money so it does not look like the last two",
+  "correct": "A",
+  "key": "<b>Answer: A.</b> 25% of 64 is 16, so the new price is $80. Then 30% of the NEW price: 30% of 80 is 24. 80 &minus; 24 = $56.00. C subtracts 0.30 instead of 30% of the price (the \"decreased by\" slip). B takes 5% off $64 (the 25 &minus; 30 shortcut), which is also what you get by taking 30% of the old $64 instead of the new $80. D adds the 24 instead of subtracting.",
+  "ref": "Topic: Percent Increase Decrease basic &middot; Built on: ISEE Lower #4 QR #38 (her miss, last third, 40.6% right); QR9 #16, MA4 #13 (her misses), QR10 #15, QR11 #32; \"decreased by\" slip: QR8 #14, MA5 #8 &middot; Her comparable tries (oldest &rarr; newest): <b>x x o o</b> (ISEE Lower #4 QR #38 is the real one; last 4: QR9 #16, MA4 #13, QR10 #15, QR11 #32) &middot; Compared with the latest: Same steps as ISEE Lower #4 QR #38 (up, then down from the new amount), asked as a price with decimal choices so her \"subtract 0.30\" habit shows",
   "diagram": null,
   "gid": null,
   "ma_idx": null
@@ -66,7 +66,7 @@
   },
   "correct": "C",
   "key": "<b>Answer: C.</b> Ones: ○ &minus; △ ends in 3. Tens: △ &minus; ○ ends in 7, so the tens must borrow (○ is bigger than △). Because of the borrow, the hundreds digit is △ &minus; 1 = 5, so △ = 6. Then ○ = 9: 669 &minus; 96 = 573. B reads the hundreds digit without the borrow. D is ○.",
-  "ref": "Topic: Cryptarithm / digit substitution &middot; Built on: Lower 3 QR #38 (gid 157, 40% right; same subtraction layout); Lower 4 QR #24 (her miss); QR9 #5 (her miss) &middot; Her comparable tries (oldest &rarr; newest): <b>x x x o o</b> (Lower 4 QR #24, QR8 #30, QR9 #5, MA4 #3, QR10 #12) &middot; Compared with the latest: Same: same layout as QR9 #5 with a borrow, but it asks for the other symbol",
+  "ref": "Topic: Cryptarithm / digit substitution &middot; Built on: ISEE Lower #3 QR #38 (last third, 40% right; same subtraction layout); QR9 #5 (her miss) &middot; Her comparable tries (oldest &rarr; newest): <b>x x x o o</b> (Lower 4 QR #24, QR8 #30, QR9 #5, MA4 #3, QR10 #12) &middot; Compared with the latest: Same: same layout as QR9 #5 with a borrow, but it asks for the other symbol",
   "diagram": null,
   "gid": null,
   "ma_idx": null
@@ -74,35 +74,35 @@
  {
   "n": 5,
   "tier": "Hard",
-  "topic": "English Unit Conversions",
-  "q": "A rope is 4 yards 2 feet long. Kai cuts it into as many 10-inch pieces as he can. There are 3 feet in 1 yard and 12 inches in 1 foot. How many inches of rope are left over?",
+  "topic": "Patterns in Data Tables and Lists",
+  "q": "The table shows the snack each student in a group chose. Based on the information in the table, what is the most reasonable prediction of the number of students who will choose fruit or popcorn out of the next 20 students?",
   "choices": {
-   "A": "8",
-   "B": "16",
-   "C": "24",
-   "D": "168"
+   "A": "7",
+   "B": "13",
+   "C": "20",
+   "D": "39"
   },
-  "correct": "A",
-  "key": "<b>Answer: A.</b> 1 yard = 3 &times; 12 = 36 inches, so 4 yards = 144 inches. 2 feet = 24 inches. The rope is 144 + 24 = 168 inches. 168 &divide; 10 = 16 R8: 16 pieces and 8 inches left over. B is the number of pieces. C treats the 2 feet (24 inches) as the leftover piece. D is the whole rope in inches.",
-  "ref": "Topic: English Unit Conversions &middot; Built on: Lower 6 QR #25 (middle third, her miss); QR10 #11, MA5 #7, MA5 #23, QR11 #9 &middot; Her comparable tries (oldest &rarr; newest): <b>x x x o o*</b> (Lower 6 QR #25, QR10 #11, MA5 #23, MA5 #7, QR11 #9 (245 s)) &middot; Compared with the latest: Harder: yards and feet mixed, and it asks the leftover instead of the number of pieces",
-  "diagram": null,
+  "correct": "B",
+  "key": "<b>Answer: B.</b> First find the total: 15 + 21 + 18 + 6 = 60 students. Fruit or popcorn: 21 + 18 = 39 out of 60. 39/60 = 13/20, so out of the next 20 students, about 13. A uses fruit only (21/60 of 20 = 7). D is the count so far, not out of 20. C is all 20 students.",
+  "ref": "Topic: Patterns in Data Tables and Lists &middot; Built on: ISEE Lower #2 QR #34 (her miss, last third, 56.3% right) &middot; Her comparable tries (oldest &rarr; newest): <b>x</b> (ISEE Lower #2 QR #34 (9/13; not practiced since)) &middot; Compared with the latest: Harder: same steps (add the total, then scale), plus two groups added together",
+  "diagram": "<div style=\"font-weight:600;margin-bottom:4px\">SNACK CHOICES</div><table class=\"data\"><tr><th>Snack</th><th>Number of Students</th></tr><tr><td>Pretzels</td><td>15</td></tr><tr><td>Fruit</td><td>21</td></tr><tr><td>Popcorn</td><td>18</td></tr><tr><td>Chips</td><td>6</td></tr></table>",
   "gid": null,
   "ma_idx": null
  },
  {
   "n": 6,
   "tier": "Hard",
-  "topic": "Remainder when Divided by a given Number",
-  "q": "Which number leaves a remainder of 3 when it is divided by 4 and also leaves a remainder of 3 when it is divided by 6?",
+  "topic": "Word Problems with Ratios",
+  "q": "Ben is building a ramp. For each meter of length, the ramp&rsquo;s height increases by 15 centimeters. The finished ramp is 90 centimeters high. What is the length of the ramp, in centimeters? (1 meter = 100 centimeters)",
   "choices": {
-   "A": "23",
-   "B": "27",
-   "C": "33",
-   "D": "36"
+   "A": "6 centimeters",
+   "B": "60 centimeters",
+   "C": "600 centimeters",
+   "D": "1,350 centimeters"
   },
-  "correct": "B",
-  "key": "<b>Answer: B.</b> Check both divisions for each choice. 27 &divide; 4 = 6 R3 and 27 &divide; 6 = 4 R3. 23 &divide; 4 = 5 R3, but 23 &divide; 6 = 3 R5. 33 &divide; 6 = 5 R3, but 33 &divide; 4 = 8 R1. 36 divides evenly by both.",
-  "ref": "Topic: Remainder when Divided by a given Number &middot; Built on: Lower 3 MA #16 (middle third, her miss) &middot; Her comparable tries (oldest &rarr; newest): <b>x</b> (Lower 3 MA #16) &middot; Compared with the latest: Slightly harder: same check, but each wrong choice passes one of the two tests, so she must check both",
+  "correct": "C",
+  "key": "<b>Answer: C.</b> Each meter of length adds 15 cm of height. 90 &divide; 15 = 6, so the ramp is 6 meters long. 6 meters = 600 centimeters. A forgets to change meters to centimeters. B uses 10 cm in a meter. D multiplies 90 by 15.",
+  "ref": "Topic: Word Problems with Ratios &middot; Built on: Official MA #29 (last third, 63.2% right; she was right but took 119 s vs. 52 s) &middot; Her comparable tries (oldest &rarr; newest): <b>o*</b> (Official MA #29 (119 s)) &middot; Compared with the latest: Harder: works backward from the height, and the answer must be changed to centimeters",
   "diagram": null,
   "gid": null,
   "ma_idx": null
@@ -272,17 +272,17 @@
  {
   "n": 16,
   "tier": "Hard",
-  "topic": "Nth Term, given Arithmetic Sequence, Progressive Pattern, etc.",
-  "q": "In a sequence, each number is the same amount more than the number before it. The 4th number is 23 and the 9th number is 48. What is the 30th number in the sequence?",
+  "topic": "Multiplying and Dividing Integers",
+  "q": "A bakery sold 84 muffins on Sunday. Each customer bought 6 muffins. How many fewer muffins would the bakery have sold if each customer had bought 4 muffins instead of 6 muffins?",
   "choices": {
-   "A": "148",
-   "B": "150",
-   "C": "153",
-   "D": "158"
+   "A": "2",
+   "B": "14",
+   "C": "28",
+   "D": "56"
   },
   "correct": "C",
-  "key": "<b>Answer: C.</b> From the 4th to the 9th number is 5 steps, and it grows 48 &minus; 23 = 25, so each step is 25 &divide; 5 = 5. From the 4th to the 30th number is 26 steps: 23 + 26 &times; 5 = 153. A takes 25 steps and D takes 27 (off by one). B is 30 &times; 5 with no starting number.",
-  "ref": "Topic: Nth Term, given Arithmetic Sequence, Progressive Pattern, etc. &middot; Built on: No real test item asks a far term; closest official: Lower 1 QR #6 (gid 44, given the 2nd/3rd/4th numbers) and the official Nth Term exercises (gids 903-907); QR9 #26, MA4 #18, QR11 #23 (her misses), QR11 #33 &middot; Her comparable tries (oldest &rarr; newest): <b>x x o x o</b> (QR9 #26, MA4 #18, MA5 #18, QR11 #23, QR11 #33) &middot; Compared with the latest: Harder: she must first find the step from two given numbers",
+  "key": "<b>Answer: C.</b> 84 &divide; 6 = 14 customers. At 4 muffins each: 14 &times; 4 = 56 muffins. Fewer: 84 &minus; 56 = 28. Or: each customer buys 2 fewer, and 14 &times; 2 = 28. D stops at the new total. B is the number of customers. A is the difference for one customer.",
+  "ref": "Topic: Multiplying and Dividing Integers &middot; Built on: Official QR #30 (last third, 76.5% right; she was right but took 87 s vs. 37 s); ISEE Lower #1 QR #19 &middot; Her comparable tries (oldest &rarr; newest): <b>o o*</b> (ISEE Lower #1 QR #19, Official QR #30 (87 s)) &middot; Compared with the latest: Harder: one more step (how many fewer) than the real one",
   "diagram": null,
   "gid": null,
   "ma_idx": null

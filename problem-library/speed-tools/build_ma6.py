@@ -84,37 +84,39 @@ def rules_box(*rules):
     return ('<div style="border:1.5px solid currentColor;border-radius:6px;padding:8px 12px;max-width:340px"><div style="font-weight:700;margin-bottom:4px">RULES FOR THE NEW NUMBER</div>'
             + ''.join(f'<div>{i}. {r}</div>' for i, r in enumerate(rules, 1)) + '</div>')
 
-# ================= positions 1-6: middle-third sources =================
+# ================= positions 1-30: real last-third sources only (parent 11/20) =================
 # 1 scale with a decimal per-unit value, asked the OTHER direction (QR11 #8 asked real distance; this asks map length)
 assert F(27)*4/10 == F('10.8') and F(27)*10/4 == F('67.5') and F(27)/4 == F('6.75')
 add('Measurement Scaling',
     'On a map, 4 centimeters stand for 10 kilometers. Two lakes are really 27 kilometers apart. How far apart are the lakes on the map?',
     ['6.75 centimeters', '10.8 centimeters', '67.5 centimeters', '108 centimeters'], '10.8 centimeters',
     '10 kilometers for every 4 centimeters means 1 centimeter stands for 10 &divide; 4 = 2.5 kilometers. 27 &divide; 2.5 = 10.8 centimeters. Check: 10.8 &times; 2.5 = 27. C multiplies 27 by 2.5 (that finds a real distance, but 27 is already the real distance). A divides 27 by 4. D drops the decimal point.',
-    'WTE QR #26 (middle third, 1.2 in = 10 mi); QR11 #8 (her miss, decimal per-unit)', 'middle',
+    'WTE QR #26 (last third, 61.9% right, 1.2 in = 10 mi); QR11 #8 (her miss, decimal per-unit)', 'last',
     'o x o x', 'WTE QR #26, QR2 #25, QR7 #34, QR11 #8',
     'Slightly harder: same steps, but it asks the map length (the other direction) and the answer is a decimal')
 
-# 2 two packs, price per item, and say which is cheaper (QR11 #24 asked only the difference)
-assert F('3.40')/5 == F('0.68') and F('5.20')/8 == F('0.65') and F('0.68') - F('0.65') == F('0.03') and F('5.20') - F('3.40') == F('1.80')
-add('Finding Unit Price',
-    'Store A sells 5 pens for $3.40. Store B sells 8 of the same pens for $5.20. Which store has the lower price for one pen, and by how much?',
-    ['Store A, by $0.03 per pen', 'Store B, by $0.65 per pen', 'Store A, by $1.80 per pen', 'Store B, by $0.03 per pen'], 'Store B, by $0.03 per pen',
-    'Find the price of one pen at each store. Store A: 3.40 &divide; 5 = $0.68. Store B: 5.20 &divide; 8 = $0.65. Store B is lower by 0.68 &minus; 0.65 = $0.03. A has the right amount but the wrong store. B is the price of one pen at Store B, not the difference. C subtracts the pack prices (her QR11 #24 slip).',
-    'Lower 5 QR #21 (middle third, price per item); QR8 #12 and QR11 #24 (her misses)', 'middle',
-    'x x', 'QR8 #12, QR11 #24',
-    'Slightly harder: same two divisions and a subtraction, and she must also say which store is lower')
-
-# 3 "decreased by 14%" in a non-store story (her habit: subtract 0.14 or 14)
-assert 3500*F(14, 100) == 490 and 3500 - 490 == 3010 and 3500 - 14 == 3486 and 3500 + 490 == 3990
-add('Evaluating Percents of Numbers',
-    'A lake had 3,500 fish. After a dry summer, the number of fish decreased by 14%. How many fish are in the lake now?',
-    ['490', '3,010', '3,486', '3,990'], '3,010',
-    '14% of 3,500: 10% is 350 and 4% is 140, so 14% is 490. Decreased by 14% means take 490 away: 3,500 &minus; 490 = 3,010. A stops at the amount of the decrease. C subtracts 14 instead of 14% of 3,500 (the "decreased by" slip). D increases instead.',
-    'Official ISEE exercise gid 1108 (her MA3 #3 miss); QR8 #14 and MA5 #8 (her misses)', 'middle',
-    'x x', 'QR8 #14, MA5 #8',
-    'Same: one percent and one subtraction, in a story with no money so it does not look like the last two')
-
+# 2 stem-and-leaf, "which conclusion is true" (ISEE Lower #2 QR #37, 41.7% right, her miss); MA5 #13 asked counts, this one adds a range check
+stem2 = {2: [4, 5, 8], 3: [0, 3, 3, 3, 7], 4: [1, 6, 6], 5: [2, 5, 9]}
+v2 = [10*k + l for k, ls in stem2.items() for l in ls]
+assert len(v2) == 14 and v2.count(33) == 3 and sum(x < 30 for x in v2) == 3 and sum(x >= 40 for x in v2) == 6 and max(v2) - min(v2) == 35 and min(v2) == 24
+add('Identifying Correct Conclusions from Bar Graph Data Table',
+    'The stem-and-leaf plot shows the number of minutes each of 14 students spent reading last night, where 3 | 7 represents 37 minutes. Based on the data in the stem-and-leaf plot, which conclusion is true?',
+    ['Every student read for at least 25 minutes.', 'Exactly 5 students read for 40 minutes or more.', 'Four students read for 33 minutes.', 'The most minutes is 35 more than the fewest minutes.'], 'The most minutes is 35 more than the fewest minutes.',
+    'Read each leaf with its stem: 24, 25, 28, 30, 33, 33, 33, 37, 41, 46, 46, 52, 55, 59. Most &minus; fewest = 59 &minus; 24 = 35, true. A is false: one student read 24 minutes. B is false: 41, 46, 46, 52, 55, 59 is 6 students. C is false: 33 appears 3 times. Write out every value before checking the statements.',
+    'ISEE Lower #2 QR #37 (her miss, last third, 41.7% right); MA5 #13', 'last',
+    'x o', 'ISEE Lower #2 QR #37, MA5 #13',
+    'Slightly harder: one statement needs the most &minus; fewest difference, and "at least" / "or more" wording',
+    '<div style="font-weight:600;margin-bottom:4px">MINUTES SPENT READING</div><table class="data"><tr><th>Stem</th><th>Leaf</th></tr>' + ''.join(f'<tr><td>{k}</td><td>{" &nbsp;".join(map(str, ls))}</td></tr>' for k, ls in stem2.items()) + '</table><div style="font-size:0.85em;margin-top:4px">Key: 3 | 7 = 37 minutes</div>')
+# 3 up then down, asked as a PRICE so her "subtract 0.30" habit has a choice (ISEE Lower #4 QR #38, 40.6% right, her miss)
+up3 = F(64)*F(125, 100); down3 = up3*F(30, 100)
+assert up3 == 80 and down3 == 24 and up3 - down3 == 56 and up3 - F('0.30') == F('79.70') and F(64)*F(95, 100) == F('60.80') == up3 - F(64)*F(30, 100) and up3 + down3 == 104
+add('Percent Increase Decrease basic',
+    'A bike costs $64. The price was increased by 25%. Then the new price was decreased by 30%. What is the price now?',
+    ['$56.00', '$60.80', '$79.70', '$104.00'], '$56.00',
+    '25% of 64 is 16, so the new price is $80. Then 30% of the NEW price: 30% of 80 is 24. 80 &minus; 24 = $56.00. C subtracts 0.30 instead of 30% of the price (the "decreased by" slip). B takes 5% off $64 (the 25 &minus; 30 shortcut), which is also what you get by taking 30% of the old $64 instead of the new $80. D adds the 24 instead of subtracting.',
+    'ISEE Lower #4 QR #38 (her miss, last third, 40.6% right); QR9 #16, MA4 #13 (her misses), QR10 #15, QR11 #32; "decreased by" slip: QR8 #14, MA5 #8', 'last',
+    'x x o o', 'ISEE Lower #4 QR #38 is the real one; last 4: QR9 #16, MA4 #13, QR10 #15, QR11 #32',
+    'Same steps as ISEE Lower #4 QR #38 (up, then down from the new amount), asked as a price with decimal choices so her "subtract 0.30" habit shows')
 # 4 digit puzzle with a borrow; asks the OTHER symbol (QR9 #5 asked the circle)
 sol4 = [(t, c) for t in range(1, 10) for c in range(1, 10) if t != c and (110*t + c) - (10*c + t) == 573]
 assert sol4 == [(6, 9)] and 669 - 96 == 573
@@ -122,32 +124,31 @@ add('Cryptarithm / digit substitution',
     'Each shape shown represents a different digit from 1 through 9. What is the value of △?<div style="margin-top:8px">' + colsum(['△△○', '&minus; ○△', '573']) + '</div>',
     ['3', '5', '6', '9'], '6',
     'Ones: ○ &minus; △ ends in 3. Tens: △ &minus; ○ ends in 7, so the tens must borrow (○ is bigger than △). Because of the borrow, the hundreds digit is △ &minus; 1 = 5, so △ = 6. Then ○ = 9: 669 &minus; 96 = 573. B reads the hundreds digit without the borrow. D is ○.',
-    'Lower 3 QR #38 (gid 157, 40% right; same subtraction layout); Lower 4 QR #24 (her miss); QR9 #5 (her miss)', 'middle',
+    'ISEE Lower #3 QR #38 (last third, 40% right; same subtraction layout); QR9 #5 (her miss)', 'last',
     'x x x o o', 'Lower 4 QR #24, QR8 #30, QR9 #5, MA4 #3, QR10 #12',
     'Same: same layout as QR9 #5 with a borrow, but it asks for the other symbol')
 
-# 5 yards + feet to inches, asks the LEFTOVER (earlier copies asked pieces or "enough")
-inch5 = 4*36 + 2*12
-assert inch5 == 168 and divmod(168, 10) == (16, 8) and divmod(4*36 + 2, 10) == (14, 6) and divmod(4*12 + 24, 10) == (7, 2)
-add('English Unit Conversions',
-    'A rope is 4 yards 2 feet long. Kai cuts it into as many 10-inch pieces as he can. There are 3 feet in 1 yard and 12 inches in 1 foot. How many inches of rope are left over?',
-    ['8', '16', '24', '168'], '8',
-    '1 yard = 3 &times; 12 = 36 inches, so 4 yards = 144 inches. 2 feet = 24 inches. The rope is 144 + 24 = 168 inches. 168 &divide; 10 = 16 R8: 16 pieces and 8 inches left over. B is the number of pieces. C treats the 2 feet (24 inches) as the leftover piece. D is the whole rope in inches.',
-    'Lower 6 QR #25 (middle third, her miss); QR10 #11, MA5 #7, MA5 #23, QR11 #9', 'middle',
-    'x x x o o*', 'Lower 6 QR #25, QR10 #11, MA5 #23, MA5 #7, QR11 #9 (245 s)',
-    'Harder: yards and feet mixed, and it asks the leftover instead of the number of pieces')
-
-# 6 remainder with two divisors; every wrong choice fits exactly one condition
-r6 = lambda k: (k % 4 == 3, k % 6 == 3)
-assert r6(27) == (True, True) and r6(23) == (True, False) and r6(33) == (False, True) and r6(36) == (False, False)
-add('Remainder when Divided by a given Number',
-    'Which number leaves a remainder of 3 when it is divided by 4 and also leaves a remainder of 3 when it is divided by 6?',
-    ['23', '27', '33', '36'], '27',
-    'Check both divisions for each choice. 27 &divide; 4 = 6 R3 and 27 &divide; 6 = 4 R3. 23 &divide; 4 = 5 R3, but 23 &divide; 6 = 3 R5. 33 &divide; 6 = 5 R3, but 33 &divide; 4 = 8 R1. 36 divides evenly by both.',
-    'Lower 3 MA #16 (middle third, her miss)', 'middle',
-    'x', 'Lower 3 MA #16',
-    'Slightly harder: same check, but each wrong choice passes one of the two tests, so she must check both')
-
+# 5 prediction from a table, two groups combined (ISEE Lower #2 QR #34 asked one group)
+snack5 = {'Pretzels': 15, 'Fruit': 21, 'Popcorn': 18, 'Chips': 6}
+tot5 = sum(snack5.values())
+assert tot5 == 60 and F(21 + 18, 60)*20 == 13 and F(21, 60)*20 == 7 and 21 + 18 == 39
+add('Patterns in Data Tables and Lists',
+    'The table shows the snack each student in a group chose. Based on the information in the table, what is the most reasonable prediction of the number of students who will choose fruit or popcorn out of the next 20 students?',
+    ['7', '13', '20', '39'], '13',
+    'First find the total: 15 + 21 + 18 + 6 = 60 students. Fruit or popcorn: 21 + 18 = 39 out of 60. 39/60 = 13/20, so out of the next 20 students, about 13. A uses fruit only (21/60 of 20 = 7). D is the count so far, not out of 20. C is all 20 students.',
+    'ISEE Lower #2 QR #34 (her miss, last third, 56.3% right)', 'last',
+    'x', 'ISEE Lower #2 QR #34 (9/13; not practiced since)',
+    'Harder: same steps (add the total, then scale), plus two groups added together',
+    table(['Snack', 'Number of Students'], [[k, v] for k, v in snack5.items()], 'SNACK CHOICES'))
+# 6 ramp: rise per meter, work BACKWARD from the height to the length in cm (Official MA #29 asked the height; she took 119 s)
+assert F(90, 15) == 6 and 6*100 == 600 and 90*15 == 1350
+add('Word Problems with Ratios',
+    'Ben is building a ramp. For each meter of length, the ramp&rsquo;s height increases by 15 centimeters. The finished ramp is 90 centimeters high. What is the length of the ramp, in centimeters? (1 meter = 100 centimeters)',
+    ['6 centimeters', '60 centimeters', '600 centimeters', '1,350 centimeters'], '600 centimeters',
+    'Each meter of length adds 15 cm of height. 90 &divide; 15 = 6, so the ramp is 6 meters long. 6 meters = 600 centimeters. A forgets to change meters to centimeters. B uses 10 cm in a meter. D multiplies 90 by 15.',
+    'Official MA #29 (last third, 63.2% right; she was right but took 119 s vs. 52 s)', 'last',
+    'o*', 'Official MA #29 (119 s)',
+    'Harder: works backward from the height, and the answer must be changed to centimeters')
 # ================= positions 7-30: last-third sources =================
 # 7 NOT a statistical question (Lower 5 MA #30, 18.8% right, her miss, 282 s)
 add('Data Collection & Random Sampling',
@@ -250,17 +251,16 @@ add('Translating Math Expressions',
     'x x x o', 'Lower 4 QR #35, QR9 #19, MA4 #15, QR10 #19',
     'Harder: "more than she has left" and the gift must be taken away twice')
 
-# 16 nth term from TWO given terms (QR11 #33 gave the step)
-d16 = (48 - 23) // (9 - 4)
-assert d16 == 5 and 23 + (30 - 4)*5 == 153 and 23 + 25*5 == 148 and 23 + 27*5 == 158 and 30*5 == 150
-add('Nth Term, given Arithmetic Sequence, Progressive Pattern, etc.',
-    'In a sequence, each number is the same amount more than the number before it. The 4th number is 23 and the 9th number is 48. What is the 30th number in the sequence?',
-    ['148', '150', '153', '158'], '153',
-    'From the 4th to the 9th number is 5 steps, and it grows 48 &minus; 23 = 25, so each step is 25 &divide; 5 = 5. From the 4th to the 30th number is 26 steps: 23 + 26 &times; 5 = 153. A takes 25 steps and D takes 27 (off by one). B is 30 &times; 5 with no starting number.',
-    'No real test item asks a far term; closest official: Lower 1 QR #6 (gid 44, given the 2nd/3rd/4th numbers) and the official Nth Term exercises (gids 903-907); QR9 #26, MA4 #18, QR11 #23 (her misses), QR11 #33', 'last',
-    'x x o x o', 'QR9 #26, MA4 #18, MA5 #18, QR11 #23, QR11 #33',
-    'Harder: she must first find the step from two given numbers')
-
+# 16 same total, different group size, asked as "how many FEWER" (Official QR #30, she took 87 s vs. 37 s)
+cust16 = 84 // 6
+assert cust16 == 14 and 84 % 6 == 0 and cust16*4 == 56 and 84 - 56 == 28 and 6 - 4 == 2
+add('Multiplying and Dividing Integers',
+    'A bakery sold 84 muffins on Sunday. Each customer bought 6 muffins. How many fewer muffins would the bakery have sold if each customer had bought 4 muffins instead of 6 muffins?',
+    ['2', '14', '28', '56'], '28',
+    '84 &divide; 6 = 14 customers. At 4 muffins each: 14 &times; 4 = 56 muffins. Fewer: 84 &minus; 56 = 28. Or: each customer buys 2 fewer, and 14 &times; 2 = 28. D stops at the new total. B is the number of customers. A is the difference for one customer.',
+    'Official QR #30 (last third, 76.5% right; she was right but took 87 s vs. 37 s); ISEE Lower #1 QR #19', 'last',
+    'o o*', 'ISEE Lower #1 QR #19, Official QR #30 (87 s)',
+    'Harder: one more step (how many fewer) than the real one')
 # 17 range of 10 three-digit values in a table (Lower 6 MA #25, 9 two-digit values, 264 s)
 v17 = [148, 213, 176, 129, 205, 231, 162, 139, 190, 218]
 assert max(v17) - min(v17) == 102 and 231 - 139 == 92 and 218 - 129 == 89
@@ -427,7 +427,7 @@ assert not any(L[i] == L[i+1] == L[i+2] for i in range(28)), ''.join(L)
 tc = Counter(p['topic'] for p in P)
 assert max(tc.values()) == 1, tc
 thirds = Counter(MAP[n]['source_third'] for n in MAP); print(thirds)
-assert thirds == {'middle': 6, 'last': 24} and all(MAP[n]['source_third'] == 'middle' for n in range(1, 7))
+assert thirds == {'last': 30}
 json.dump(P, open(os.path.join(HERE, 'ma6_problems.json'), 'w'), indent=1, ensure_ascii=False)
 json.dump(MAP, open(os.path.join(HERE, 'ma6_mapping.json'), 'w'), indent=1, ensure_ascii=False)
 print('wrote', len(P), 'diagrams', sum(1 for p in P if p['diagram']))
