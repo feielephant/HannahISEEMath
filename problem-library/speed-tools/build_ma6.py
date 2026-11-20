@@ -166,8 +166,8 @@ add('Equivalent Fractions Decimals and Percents',
     'Mr. Diaz has 25 plants in his classroom. He has 7 tulips, 10 daisies, and 8 ferns. Which number represents the part of his plants that are tulips or ferns?',
     ['0.15', '0.4', '0.6', '15'], '0.6',
     'Tulips or ferns: 7 + 8 = 15 out of 25. 15/25 = 60/100 = 0.6. B is the daisies (10/25). A writes 15 as hundredths without using the 25. D is the count, not the part.',
-    'Official MA #23 (last third, 158 s); Lower 2 QR #26 (her miss)', 'last',
-    'x o o o*', 'Lower 2 QR #26, Lower 4 QR #37, Lower 6 QR #27, Official MA #23 (158 s)',
+    'Official MA #23 (last third, 81.4% right; she was right but took 158 s vs. 29 s)', 'last',
+    'o*', 'Official MA #23 (158 s vs. 29 s); the shaded-grid and model problems are built differently and are not counted',
     'Harder: total is 25 (not 10) and two groups must be added first')
 
 # 9 estimate a sum of 6 decimals; round-each-down trap (Lower 2 MA #27, her miss)

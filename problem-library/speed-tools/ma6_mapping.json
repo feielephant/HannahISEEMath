@@ -64,11 +64,11 @@
  },
  "8": {
   "topic": "Equivalent Fractions Decimals and Percents",
-  "built_on": "Official MA #23 (last third, 158 s); Lower 2 QR #26 (her miss)",
+  "built_on": "Official MA #23 (last third, 81.4% right; she was right but took 158 s vs. 29 s)",
   "source_third": "last",
-  "last5": "x o o o*",
-  "counted": "Lower 2 QR #26, Lower 4 QR #37, Lower 6 QR #27, Official MA #23 (158 s)",
-  "comparable_wrong": "1/4",
+  "last5": "o*",
+  "counted": "Official MA #23 (158 s vs. 29 s); the shaded-grid and model problems are built differently and are not counted",
+  "comparable_wrong": "0/1",
   "vs_latest": "Harder: total is 25 (not 10) and two groups must be added first"
  },
  "9": {
