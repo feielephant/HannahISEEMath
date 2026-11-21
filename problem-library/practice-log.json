@@ -2749,9 +2749,6 @@
      "27": "Multiplied 4 &times; 6 = 24 (the trap)",
      "29": "Unclear: likely forgot the perimeter counts each side twice"
     },
-    "random_not_in_tracker": [
-     30
-    ],
     "redo_after_timer_untimed": {
      "20": "B",
      "21": "D",
@@ -2764,8 +2761,8 @@
      "28": "D",
      "29": "B"
     },
-    "timed_only_score": "14/30 (from #20 on she picked randomly; #20, #23, #24, #30 right by chance)",
-    "pacing": "Worked #1-19 in about 27.5 min (#1-13 took 21.3 min: #13 284 s, #3 240 s, #5 179 s, #11 136 s); she says she picked randomly from #20 on. #20-29 redone after the timer (no times): 6/10. Timed #1-19: 10/19.",
+    "timed_only_score": "14/30 (she picked #20-29 randomly to reach #30; #20, #23, #24 right by chance; #30 worked in the last 20 s, C changed to D, right)",
+    "pacing": "Worked #1-19 in about 27.5 min (#1-13 took 21.3 min: #13 284 s, #3 240 s, #5 179 s, #11 136 s); she picked #20-29 randomly to reach #30 with 20 s left and worked #30 (C -> D, right). #20-29 redone after the timer (no times): 6/10. Timed: #1-19 10/19 + #30 right.",
     "pattern": "Answered the real reference question instead of the changed asked part: #16 (Official QR #30); one step early on #15. Known traps chosen: #3 subtract 0.30, #8 count as decimal, #27 4x6=24, #20 a/b rounded down (4th time). (#21 timed answer was random; redo picked 45.)"
    }
   }

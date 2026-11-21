@@ -26,7 +26,7 @@ ASK = {
  29: 'How did you get 10? The perimeter goes around all 4 sides. What are length + width together?',
 }
 WRONG = [3, 8, 12, 14, 15, 16, 17, 18, 19, 20, 21, 27, 29]
-NOTREACHED = [30]   # random pick as time ran out, not redone
+NOTREACHED = []
 for n in WRONG:
     assert HER[n] != P[n]['ans'], n
 REDO = [n for n in WRONG if ROWS[n]['seconds'] == '']
@@ -74,7 +74,7 @@ JS = '''document.querySelectorAll('.card').forEach(function(c){
 });'''
 page = (f'<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">'
         f'<title>MA6 Problems to Redo</title><style>{CSS}</style></head><body><div class="wrap">'
-        f'<h1>MA Set 6 &mdash; Problems to Redo</h1><p class="lede">The {len(WRONG)} problems she missed on 11/20 ({len(REDO)} of them in her redo of #20&ndash;29 after the timer), then #30, a random pick she has not redone, exactly as they were on the worksheet. '
+        f'<h1>MA Set 6 &mdash; Problems to Redo</h1><p class="lede">The {len(WRONG)} problems she missed on 11/20 ({len(REDO)} of them in her redo of #20&ndash;29 after the timer; she had picked #20&ndash;29 randomly to reach #30), exactly as they were on the worksheet. '
         f'Nothing is shown until you press a button. No timer.</p>{cards}</div><script>{JS}</script></body></html>')
 out = os.path.join(HERE, '..', '..', 'worksheets', 'ma6-wrong.html')
 open(out, 'w').write(page)
