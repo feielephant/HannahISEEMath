@@ -217,12 +217,12 @@
  },
  "25": {
   "topic": "Order of Operations and Equivalence",
-  "built_on": "Lower 2 MA #26 (her miss, last third); MA4 #8, MA5 #21 (her misses), QR10 #3, QR11 #16",
+  "built_on": "ISEE Lower #2 MA #26 (her miss, last third, 69.1% right: 16 &times; (13 + 19)); MA4 #8, MA5 #21 (her misses), QR10 #3, QR11 #16",
   "source_third": "last",
   "last5": "x o x o",
   "counted": "MA4 #8, QR10 #3, MA5 #21, QR11 #16",
   "comparable_wrong": "2/4",
-  "vs_latest": "Same: same bracket, but she finds the value instead of the matching expression"
+  "vs_latest": "Harder than ISEE Lower #2 MA #26 (adds a minus in front). Same form as QR11 #16, but + inside instead of &minus;, so the sign does NOT flip"
  },
  "26": {
   "topic": "Converting to a Decimal",

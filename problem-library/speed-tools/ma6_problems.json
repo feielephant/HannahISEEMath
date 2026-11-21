@@ -435,16 +435,16 @@
   "n": 25,
   "tier": "Hard",
   "topic": "Order of Operations and Equivalence",
-  "q": "What is the value of 300 &minus; 6 &times; (25 + 8)?",
+  "q": "Which expression is equivalent to 300 &minus; 6 &times; (25 + 8)?",
   "choices": {
-   "A": "102",
-   "B": "158",
-   "C": "198",
-   "D": "9,702"
+   "A": "300 &minus; (6 &times; 25) &minus; (6 &times; 8)",
+   "B": "300 &minus; (6 &times; 25) + (6 &times; 8)",
+   "C": "300 &minus; (6 &times; 25) + 8",
+   "D": "(300 &minus; 6) &times; (25 + 8)"
   },
   "correct": "A",
-  "key": "<b>Answer: A.</b> Brackets first: 25 + 8 = 33. Then 6 &times; 33 = 198. Then 300 &minus; 198 = 102. Or: 300 &minus; 150 &minus; 48 = 102 (the minus goes to both parts). C flips the second part to + (300 &minus; 150 + 48), or stops at 6 &times; 33. B multiplies only the 25. D subtracts first.",
-  "ref": "Topic: Order of Operations and Equivalence &middot; Built on: Lower 2 MA #26 (her miss, last third); MA4 #8, MA5 #21 (her misses), QR10 #3, QR11 #16 &middot; Her comparable tries (oldest &rarr; newest): <b>x o x o</b> (MA4 #8, QR10 #3, MA5 #21, QR11 #16) &middot; Compared with the latest: Same: same bracket, but she finds the value instead of the matching expression",
+  "key": "<b>Answer: A.</b> 6 &times; (25 + 8) = (6 &times; 25) + (6 &times; 8): the 6 multiplies BOTH numbers in the bracket. That whole amount is taken away from 300, so both parts are taken away: 300 &minus; (6 &times; 25) &minus; (6 &times; 8). Check: 300 &minus; 150 &minus; 48 = 102, and 300 &minus; 6 &times; 33 = 102. B flips the second sign to +; that flip is only right when the bracket has a minus inside (like QR11 #16). C multiplies only the 25. D subtracts before multiplying.",
+  "ref": "Topic: Order of Operations and Equivalence &middot; Built on: ISEE Lower #2 MA #26 (her miss, last third, 69.1% right: 16 &times; (13 + 19)); MA4 #8, MA5 #21 (her misses), QR10 #3, QR11 #16 &middot; Her comparable tries (oldest &rarr; newest): <b>x o x o</b> (MA4 #8, QR10 #3, MA5 #21, QR11 #16) &middot; Compared with the latest: Harder than ISEE Lower #2 MA #26 (adds a minus in front). Same form as QR11 #16, but + inside instead of &minus;, so the sign does NOT flip",
   "diagram": null,
   "gid": null,
   "ma_idx": null

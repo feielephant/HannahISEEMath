@@ -352,15 +352,16 @@ add('Identifying Shapes',
     'o* o x o o', 'Lower 6 MA #27 (171 s), QR10 #16, Official MA #18, QR11 #12, QR11 #28',
     'Same: same kind of description, but about angles instead of parallel sides')
 
-# 25 value with a minus in front of a bracket with + inside (QR11 #16 asked for an equivalent expression)
-assert 300 - 6*(25 + 8) == 102 and 300 - 6*25 + 8 == 158 and 300 - 6*25 + 6*8 == 198 and (300 - 6)*(25 + 8) == 9702
+# 25 equivalent expression after distributing, minus in FRONT and + INSIDE (parent 11/20: ask the distributed form, as the real test does).
+#    MA5 #21 and QR11 #16 had - inside (the second sign flips to +); here + inside, so both signs stay minus and "always flip" is the trap
+assert 300 - 6*(25 + 8) == 102 == 300 - 6*25 - 6*8 and 300 - 6*25 + 6*8 == 198 and 300 - 6*25 + 8 == 158 and (300 - 6)*(25 + 8) == 9702
 add('Order of Operations and Equivalence',
-    'What is the value of 300 &minus; 6 &times; (25 + 8)?',
-    ['102', '158', '198', '9,702'], '102',
-    'Brackets first: 25 + 8 = 33. Then 6 &times; 33 = 198. Then 300 &minus; 198 = 102. Or: 300 &minus; 150 &minus; 48 = 102 (the minus goes to both parts). C flips the second part to + (300 &minus; 150 + 48), or stops at 6 &times; 33. B multiplies only the 25. D subtracts first.',
-    'Lower 2 MA #26 (her miss, last third); MA4 #8, MA5 #21 (her misses), QR10 #3, QR11 #16', 'last',
+    'Which expression is equivalent to 300 &minus; 6 &times; (25 + 8)?',
+    ['300 &minus; (6 &times; 25) &minus; (6 &times; 8)', '300 &minus; (6 &times; 25) + (6 &times; 8)', '300 &minus; (6 &times; 25) + 8', '(300 &minus; 6) &times; (25 + 8)'], '300 &minus; (6 &times; 25) &minus; (6 &times; 8)',
+    '6 &times; (25 + 8) = (6 &times; 25) + (6 &times; 8): the 6 multiplies BOTH numbers in the bracket. That whole amount is taken away from 300, so both parts are taken away: 300 &minus; (6 &times; 25) &minus; (6 &times; 8). Check: 300 &minus; 150 &minus; 48 = 102, and 300 &minus; 6 &times; 33 = 102. B flips the second sign to +; that flip is only right when the bracket has a minus inside (like QR11 #16). C multiplies only the 25. D subtracts before multiplying.',
+    'ISEE Lower #2 MA #26 (her miss, last third, 69.1% right: 16 &times; (13 + 19)); MA4 #8, MA5 #21 (her misses), QR10 #3, QR11 #16', 'last',
     'x o x o', 'MA4 #8, QR10 #3, MA5 #21, QR11 #16',
-    'Same: same bracket, but she finds the value instead of the matching expression')
+    'Harder than ISEE Lower #2 MA #26 (adds a minus in front). Same form as QR11 #16, but + inside instead of &minus;, so the sign does NOT flip')
 
 # 26 fractions and decimals mixed, statement choices (MA5 #16 and QR11 #10 asked one difference)
 m26, w26, o26 = F(3, 4), F(6, 10), F(2, 5)
