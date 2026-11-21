@@ -95,18 +95,23 @@ add('Measurement Scaling',
     'o x o x', 'WTE QR #26, QR2 #25, QR7 #34, QR11 #8',
     'Slightly harder: same steps, but it asks the map length (the other direction) and the answer is a decimal')
 
-# 2 stem-and-leaf, "which conclusion is true" (ISEE Lower #2 QR #37, 41.7% right, her miss); MA5 #13 asked counts, this one adds a range check
+# 2 stem-and-leaf, "which conclusion is true" (ISEE Lower #2 QR #37, 41.7% right, her miss); true statement is an "or more" count like the real one (not range: #17 tests range)
 stem2 = {2: [4, 5, 8], 3: [0, 3, 3, 3, 7], 4: [1, 6, 6], 5: [2, 5, 9]}
 v2 = [10*k + l for k, ls in stem2.items() for l in ls]
-assert len(v2) == 14 and v2.count(33) == 3 and sum(x < 30 for x in v2) == 3 and sum(x >= 40 for x in v2) == 6 and max(v2) - min(v2) == 35 and min(v2) == 24
+assert len(v2) == 14 and v2.count(33) == 3 and sum(x < 30 for x in v2) == 3 and sum(x >= 40 for x in v2) == 6 and min(v2) == 24
+def stem_plot(title, stems):
+    rows = ''.join(f'<tr><td style="padding:5px 12px 5px 18px;text-align:right;border-right:2px solid currentColor">{k}</td>'
+                   f'<td style="padding:5px 28px 5px 12px;white-space:nowrap">{"&nbsp;&nbsp;&nbsp;".join(map(str, ls))}</td></tr>' for k, ls in stems.items())
+    return (f'<div style="display:inline-block;text-align:center;margin-left:12px"><div style="font-weight:600;letter-spacing:0.03em;margin-bottom:8px">{title}</div>'
+            f'<table style="border-collapse:collapse;border-top:2px solid currentColor;font-variant-numeric:lining-nums tabular-nums;font-size:1.15em;margin:0 auto 10px">{rows}</table></div>')
 add('Identifying Correct Conclusions from Bar Graph Data Table',
     'The stem-and-leaf plot shows the number of minutes each of 14 students spent reading last night, where 3 | 7 represents 37 minutes. Based on the data in the stem-and-leaf plot, which conclusion is true?',
-    ['Every student read for at least 25 minutes.', 'Exactly 5 students read for 40 minutes or more.', 'Four students read for 33 minutes.', 'The most minutes is 35 more than the fewest minutes.'], 'The most minutes is 35 more than the fewest minutes.',
-    'Read each leaf with its stem: 24, 25, 28, 30, 33, 33, 33, 37, 41, 46, 46, 52, 55, 59. Most &minus; fewest = 59 &minus; 24 = 35, true. A is false: one student read 24 minutes. B is false: 41, 46, 46, 52, 55, 59 is 6 students. C is false: 33 appears 3 times. Write out every value before checking the statements.',
+    ['Every student read for at least 25 minutes.', 'Exactly 4 students read for less than 30 minutes.', 'Four students read for 33 minutes.', 'Exactly 6 students read for 40 minutes or more.'], 'Exactly 6 students read for 40 minutes or more.',
+    'Read each leaf with its stem: 24, 25, 28, 30, 33, 33, 33, 37, 41, 46, 46, 52, 55, 59. 40 or more: 41, 46, 46, 52, 55, 59 = 6 students, true. A is false: one student read 24 minutes. B is false: less than 30 is 24, 25, 28 = 3 students. C is false: 33 appears 3 times. Write out every value before checking the statements.',
     'ISEE Lower #2 QR #37 (her miss, last third, 41.7% right); MA5 #13', 'last',
     'x o', 'ISEE Lower #2 QR #37, MA5 #13',
-    'Slightly harder: one statement needs the most &minus; fewest difference, and "at least" / "or more" wording',
-    '<div style="font-weight:600;margin-bottom:4px">MINUTES SPENT READING</div><table class="data"><tr><th>Stem</th><th>Leaf</th></tr>' + ''.join(f'<tr><td>{k}</td><td>{" &nbsp;".join(map(str, ls))}</td></tr>' for k, ls in stem2.items()) + '</table><div style="font-size:0.85em;margin-top:4px">Key: 3 | 7 = 37 minutes</div>')
+    'Same as the real one: 14 values on 4 stems, true statement is an "or more" count; one more count statement ("less than") to check',
+    stem_plot('MINUTES SPENT READING', stem2))
 # 3 up then down, asked as a PRICE so her "subtract 0.30" habit has a choice (ISEE Lower #4 QR #38, 40.6% right, her miss)
 up3 = F(64)*F(125, 100); down3 = up3*F(30, 100)
 assert up3 == 80 and down3 == 24 and up3 - down3 == 56 and up3 - F('0.30') == F('79.70') and F(64)*F(95, 100) == F('60.80') == up3 - F(64)*F(30, 100) and up3 + down3 == 104

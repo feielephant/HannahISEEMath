@@ -24,14 +24,14 @@
   "q": "The stem-and-leaf plot shows the number of minutes each of 14 students spent reading last night, where 3 | 7 represents 37 minutes. Based on the data in the stem-and-leaf plot, which conclusion is true?",
   "choices": {
    "A": "Every student read for at least 25 minutes.",
-   "B": "Exactly 5 students read for 40 minutes or more.",
+   "B": "Exactly 4 students read for less than 30 minutes.",
    "C": "Four students read for 33 minutes.",
-   "D": "The most minutes is 35 more than the fewest minutes."
+   "D": "Exactly 6 students read for 40 minutes or more."
   },
   "correct": "D",
-  "key": "<b>Answer: D.</b> Read each leaf with its stem: 24, 25, 28, 30, 33, 33, 33, 37, 41, 46, 46, 52, 55, 59. Most &minus; fewest = 59 &minus; 24 = 35, true. A is false: one student read 24 minutes. B is false: 41, 46, 46, 52, 55, 59 is 6 students. C is false: 33 appears 3 times. Write out every value before checking the statements.",
-  "ref": "Topic: Identifying Correct Conclusions from Bar Graph Data Table &middot; Built on: ISEE Lower #2 QR #37 (her miss, last third, 41.7% right); MA5 #13 &middot; Her comparable tries (oldest &rarr; newest): <b>x o</b> (ISEE Lower #2 QR #37, MA5 #13) &middot; Compared with the latest: Slightly harder: one statement needs the most &minus; fewest difference, and \"at least\" / \"or more\" wording",
-  "diagram": "<div style=\"font-weight:600;margin-bottom:4px\">MINUTES SPENT READING</div><table class=\"data\"><tr><th>Stem</th><th>Leaf</th></tr><tr><td>2</td><td>4 &nbsp;5 &nbsp;8</td></tr><tr><td>3</td><td>0 &nbsp;3 &nbsp;3 &nbsp;3 &nbsp;7</td></tr><tr><td>4</td><td>1 &nbsp;6 &nbsp;6</td></tr><tr><td>5</td><td>2 &nbsp;5 &nbsp;9</td></tr></table><div style=\"font-size:0.85em;margin-top:4px\">Key: 3 | 7 = 37 minutes</div>",
+  "key": "<b>Answer: D.</b> Read each leaf with its stem: 24, 25, 28, 30, 33, 33, 33, 37, 41, 46, 46, 52, 55, 59. 40 or more: 41, 46, 46, 52, 55, 59 = 6 students, true. A is false: one student read 24 minutes. B is false: less than 30 is 24, 25, 28 = 3 students. C is false: 33 appears 3 times. Write out every value before checking the statements.",
+  "ref": "Topic: Identifying Correct Conclusions from Bar Graph Data Table &middot; Built on: ISEE Lower #2 QR #37 (her miss, last third, 41.7% right); MA5 #13 &middot; Her comparable tries (oldest &rarr; newest): <b>x o</b> (ISEE Lower #2 QR #37, MA5 #13) &middot; Compared with the latest: Same as the real one: 14 values on 4 stems, true statement is an \"or more\" count; one more count statement (\"less than\") to check",
+  "diagram": "<div style=\"display:inline-block;text-align:center;margin-left:12px\"><div style=\"font-weight:600;letter-spacing:0.03em;margin-bottom:8px\">MINUTES SPENT READING</div><table style=\"border-collapse:collapse;border-top:2px solid currentColor;font-variant-numeric:lining-nums tabular-nums;font-size:1.15em;margin:0 auto 10px\"><tr><td style=\"padding:5px 12px 5px 18px;text-align:right;border-right:2px solid currentColor\">2</td><td style=\"padding:5px 28px 5px 12px;white-space:nowrap\">4&nbsp;&nbsp;&nbsp;5&nbsp;&nbsp;&nbsp;8</td></tr><tr><td style=\"padding:5px 12px 5px 18px;text-align:right;border-right:2px solid currentColor\">3</td><td style=\"padding:5px 28px 5px 12px;white-space:nowrap\">0&nbsp;&nbsp;&nbsp;3&nbsp;&nbsp;&nbsp;3&nbsp;&nbsp;&nbsp;3&nbsp;&nbsp;&nbsp;7</td></tr><tr><td style=\"padding:5px 12px 5px 18px;text-align:right;border-right:2px solid currentColor\">4</td><td style=\"padding:5px 28px 5px 12px;white-space:nowrap\">1&nbsp;&nbsp;&nbsp;6&nbsp;&nbsp;&nbsp;6</td></tr><tr><td style=\"padding:5px 12px 5px 18px;text-align:right;border-right:2px solid currentColor\">5</td><td style=\"padding:5px 28px 5px 12px;white-space:nowrap\">2&nbsp;&nbsp;&nbsp;5&nbsp;&nbsp;&nbsp;9</td></tr></table></div>",
   "gid": null,
   "ma_idx": null
  },
