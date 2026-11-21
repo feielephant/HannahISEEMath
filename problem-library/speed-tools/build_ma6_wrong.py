@@ -8,7 +8,7 @@ from grade_set import load_published_problems
 
 P = load_published_problems('ma', 6)
 ROWS = {int(r['problem']): r for r in
-        csv.DictReader(open(os.path.expanduser('~/Documents/HannahISEEMath/reviews/ma-set-6-times.csv')))}
+        csv.DictReader(open(os.path.expanduser('~/Documents/HannahISEEMath/reviews/ma-set-6-times-graded.csv')))}
 HER = {n: r['final_answer'] for n, r in ROWS.items()}
 ASK = {
  3: 'The price went up to $80. What is 30% of $80? So what does "decreased by 30%" take away?',
@@ -20,14 +20,17 @@ ASK = {
  17: 'Find the smallest number in BOTH rows. Which day is it?',
  18: 'How many minutes is 1 hour? So how many minutes is 1 1/6 hours?',
  19: 'If the blank is 15, what gap takes you from 15 to 35? Does it fit the gaps 1, 2, 4?',
- 21: 'You found 12. What does 12 stand for? What did the question ask?',
+ 20: 'About how much is 47 &divide; 6? Is it closer to 5 or to 8? Then times about 100?',
+ 21: 'If purple is 2/5 of the bag, what fraction are the other 18 marbles?',
+ 27: 'Is 12 a multiple of both 4 and 6? Is 12 a multiple of 24? So which numbers count?',
+ 29: 'How did you get 10? The perimeter goes around all 4 sides. What are length + width together?',
 }
-WRONG = [3, 8, 12, 14, 15, 16, 17, 18, 19, 21]
-NOTREACHED = [20, 22, 25, 26, 27, 28, 29]   # answered in 2-6 s as time ran out: guesses
+WRONG = [3, 8, 12, 14, 15, 16, 17, 18, 19, 20, 21, 27, 29]
+NOTREACHED = [30]   # random pick as time ran out, not redone
 for n in WRONG:
     assert HER[n] != P[n]['ans'], n
-for n in NOTREACHED:
-    assert float(ROWS[n]['seconds']) <= 6, n
+REDO = [n for n in WRONG if ROWS[n]['seconds'] == '']
+assert REDO == [20, 21, 27, 29], REDO
 
 def choices(n):
     return '<div class="choices">' + ''.join(
@@ -38,9 +41,9 @@ for i, n in enumerate(WRONG + NOTREACHED, 1):
     p = P[n]
     nr = n in NOTREACHED
     her_btn = '<button type="button" class="rev her">Show her answer</button>'
-    her_box = f'<div class="herbox" hidden>Her answer on 11/20: <b>{HER[n]}</b>' + (f' (in {ROWS[n]["seconds"]} seconds as time ran out' + (', right, but a guess' if HER[n] == p['ans'] else '') + ')' if nr else '') + '</div>'
+    her_box = f'<div class="herbox" hidden>Her answer on 11/20: <b>{HER[n]}</b>' + (' (redone after the timer; her timed pick was random; no time recorded)' if n in REDO else '') + (' (random pick as time ran out, right by chance; not redone)' if nr else '') + '</div>'
     ask = f'<div class="ask"><b>Ask her:</b> {ASK[n]}</div>' if ASK.get(n) else ''
-    src = f'MA6 #{n}' + (' &middot; time ran out' if nr else '')
+    src = f'MA6 #{n}' + (' &middot; redone after the timer' if n in REDO else '') + (' &middot; random pick, not redone' if nr else '')
     cards += (f'<section class="card" data-ans="{p["ans"]}" data-her="{HER.get(n, "")}">'
               f'<div class="num">{i}. &nbsp;<span class="src">{src}</span></div>'
               f'<div class="q">{p["q"]}</div>' + (f'<div class="diag">{p["diag"]}</div>' if p['diag'] else '') + choices(n) +
@@ -71,7 +74,7 @@ JS = '''document.querySelectorAll('.card').forEach(function(c){
 });'''
 page = (f'<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">'
         f'<title>MA6 Problems to Redo</title><style>{CSS}</style></head><body><div class="wrap">'
-        f'<h1>MA Set 6 &mdash; Problems to Redo</h1><p class="lede">The {len(WRONG)} problems she worked and missed on 11/20, then the {len(NOTREACHED)} she answered in 6 seconds or less as time ran out, exactly as they were on the worksheet. '
+        f'<h1>MA Set 6 &mdash; Problems to Redo</h1><p class="lede">The {len(WRONG)} problems she missed on 11/20 ({len(REDO)} of them in her redo of #20&ndash;29 after the timer), then #30, a random pick she has not redone, exactly as they were on the worksheet. '
         f'Nothing is shown until you press a button. No timer.</p>{cards}</div><script>{JS}</script></body></html>')
 out = os.path.join(HERE, '..', '..', 'worksheets', 'ma6-wrong.html')
 open(out, 'w').write(page)

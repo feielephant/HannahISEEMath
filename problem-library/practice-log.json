@@ -2709,7 +2709,7 @@
    "change_before_taken_4_2026-11-20": "Parent could not read #2: the stem-and-leaf was drawn as a bordered table with Stem/Leaf headers. Redrawn like the real ISEE Lower #2 QR #37 (title, top rule, vertical bar, no headers). True statement changed from range (most - fewest, which duplicated #17) to an 'or more' count like the real one; answer still D.",
    "change_before_taken_5_2026-11-20": "Record fix (parent asked for #1's own mapping): QR2 #25 (model car, inches -> feet) is a unit-change problem, moved from #1's record to #6's. #1 = o o x (WTE QR #26, QR7 #34, QR11 #8); #6 = x o* (QR2 #25, Official MA #29). Problems unchanged.",
    "graded_2026-11-20": {
-    "score": "14/30",
+    "score": "17/30",
     "wrong": [
      3,
      8,
@@ -2720,16 +2720,13 @@
      17,
      18,
      19,
+     20,
      21,
-     22,
-     25,
-     26,
      27,
-     28,
      29
     ],
     "blank": [],
-    "total_elapsed_minutes": 30.0,
+    "total_elapsed_minutes": 27.88,
     "first_then_changed": {
      "wrong_to_right": [
       30
@@ -2747,25 +2744,29 @@
      "17": "Missed the least value",
      "18": "1 1/6 hours turned into 10 minutes (lost the whole hour)",
      "19": "Did not check against the number after the blank",
-     "21": "Answered the real test's question (purple count), not the total",
-     "22": "Time ran out: a guess",
-     "25": "Time ran out: a guess",
-     "26": "Time ran out: a guess",
-     "27": "Time ran out: a guess",
-     "28": "Time ran out: a guess",
-     "29": "Time ran out: a guess"
+     "20": "a &divide; b &times; c estimate: rounded 47 &divide; 6 down too far",
+     "21": "Took the 18 non-purple marbles as the 2/5",
+     "27": "Multiplied 4 &times; 6 = 24 (the trap)",
+     "29": "Unclear: likely forgot the perimeter counts each side twice"
     },
-    "timeout_guesses_not_in_tracker": [
-     20,
-     22,
-     25,
-     26,
-     27,
-     28,
-     29
+    "random_not_in_tracker": [
+     30
     ],
-    "pacing": "#1-13 took 21.3 min (#13 284 s, #3 240 s, #5 179 s, #11 136 s); #14-21 took 7 min; #22-29 answered in 2-6 s each as time ran out. Worked problems (#1-21, #23, #24, #30): 14/24.",
-    "pattern": "Answered the real reference question instead of the changed asked part: #16 (Official QR #30), #21 (Official QR #34); one step early on #15. Known trap chosen: #3 subtract 0.30, #8 count as decimal."
+    "redo_after_timer_untimed": {
+     "20": "B",
+     "21": "D",
+     "22": "B",
+     "23": "B",
+     "24": "A",
+     "25": "A",
+     "26": "D",
+     "27": "A",
+     "28": "D",
+     "29": "B"
+    },
+    "timed_only_score": "14/30 (from #20 on she picked randomly; #20, #23, #24, #30 right by chance)",
+    "pacing": "Worked #1-19 in about 27.5 min (#1-13 took 21.3 min: #13 284 s, #3 240 s, #5 179 s, #11 136 s); she says she picked randomly from #20 on. #20-29 redone after the timer (no times): 6/10. Timed #1-19: 10/19.",
+    "pattern": "Answered the real reference question instead of the changed asked part: #16 (Official QR #30); one step early on #15. Known traps chosen: #3 subtract 0.30, #8 count as decimal, #27 4x6=24, #20 a/b rounded down (4th time). (#21 timed answer was random; redo picked 45.)"
    }
   }
  ],
