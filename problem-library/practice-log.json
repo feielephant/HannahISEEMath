@@ -2702,7 +2702,7 @@
     "29": "Same: same ratio-in-words idea as QR11 #17 (her language miss), and it asks the length instead of the area",
     "30": "Same: same steps as QR11 #14, with 200 flats of 100 instead of 20 cubes of 1,000 (parent 11/18)"
    },
-   "published_commit": "74b464efcea9e5778bc7af32be755c07164c5552",
+   "published_commit": "b4a4665d591965336de547cc7d23a2909c8ac65b",
    "change_before_taken_2026-11-20": "Parent rule 11/20: real-test references count only from the last third (QR 26-38, MA 21-30); her recent tries on our sets count too. Replaced 5 problems with no last-third source: #2 unit price -> stem-and-leaf conclusion (ISEE Lower #2 QR #37); #3 'decreased by 14%' fish (easier than its only source, an official exercise) -> bike $64 +25% then -30%, asked as a price so the 'subtract 0.30' habit is a choice (ISEE Lower #4 QR #38); #5 yards/feet leftover -> prediction from a table, two groups (ISEE Lower #2 QR #34); #6 remainder with two divisors -> ramp ratio backward to length in cm (Official MA #29); #16 nth term from two terms -> muffins 'how many fewer' (Official QR #30). Kept #18 (hours 'left') and #22 (fraction of the rest) as partial matches by parent decision. All 30 now last-third sources.",
    "change_before_taken_2_2026-11-20": "Parent: #10 double bar graph was secured (last 3 comparable right; the 127 s on Official MA #26 did not repeat on Official QR #12 the same day). Replaced with ISEE Lower #1 QR #33 type, (\u25a1 + \u25cb) \u00d7 \u25b3 plus getting-ready time on both days; one choice drops the parentheses."
   }
