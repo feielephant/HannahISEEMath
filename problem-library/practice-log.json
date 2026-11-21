@@ -2639,12 +2639,12 @@
     "30": "Lower 5 QR #38 (her miss, last third); QR9 #29, QR11 #14 (her miss)"
    },
    "comparable_last5_by_problem": {
-    "1": "o o x",
+    "1": "o o x (WTE QR #26, QR7 #34, QR11 #8)",
     "2": "x o (ISEE Lower #2 QR #37, MA5 #13)",
     "3": "x x o o (ISEE Lower #4 QR #38 is the real one; last 4: QR9 #16, MA4 #13, QR10 #15, QR11 #32)",
     "4": "x x x o o (Lower 4 QR #24, QR8 #30, QR9 #5, MA4 #3, QR10 #12)",
     "5": "x (ISEE Lower #2 QR #34 (9/13; not practiced since))",
-    "6": "x o*",
+    "6": "x o* (QR2 #25, Official MA #29 (119 s))",
     "7": "x (Lower 5 MA #30 (282 s))",
     "8": "o* (Official MA #23 (158 s vs. 29 s); the shaded-grid and model problems are built differently and are not counted)",
     "9": "o x o o o (Lower 1 MA #20, Lower 2 MA #27, QR2 #4, QR6 #26, MA2 #12)",
