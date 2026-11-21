@@ -12,7 +12,7 @@
   },
   "correct": "B",
   "key": "<b>Answer: B.</b> 10 kilometers for every 4 centimeters means 1 centimeter stands for 10 &divide; 4 = 2.5 kilometers. 27 &divide; 2.5 = 10.8 centimeters. Check: 10.8 &times; 2.5 = 27. C multiplies 27 by 2.5 (that finds a real distance, but 27 is already the real distance). A divides 27 by 4. D drops the decimal point.",
-  "ref": "Topic: Measurement Scaling &middot; Built on: WTE QR #26 (last third, 61.9% right, 1.2 in = 10 mi); QR11 #8 (her miss, decimal per-unit) &middot; Her comparable tries (oldest &rarr; newest): <b>o x o x</b> (WTE QR #26, QR2 #25, QR7 #34, QR11 #8) &middot; Compared with the latest: Slightly harder: same steps, but it asks the map length (the other direction) and the answer is a decimal",
+  "ref": "Topic: Measurement Scaling &middot; Built on: WTE QR #26 (last third, 61.9% right, 1.2 in = 10 mi); QR11 #8 (her miss, decimal per-unit) &middot; Her comparable tries (oldest &rarr; newest): <b>o o x</b> (WTE QR #26, QR7 #34, QR11 #8 (QR2 #25 is a unit-change problem: counted under #6)) &middot; Compared with the latest: Slightly harder: same steps, but it asks the map length (the other direction) and the answer is a decimal",
   "diagram": null,
   "gid": null,
   "ma_idx": null
@@ -102,7 +102,7 @@
   },
   "correct": "C",
   "key": "<b>Answer: C.</b> Each meter of length adds 15 cm of height. 90 &divide; 15 = 6, so the ramp is 6 meters long. 6 meters = 600 centimeters. A forgets to change meters to centimeters. B uses 10 cm in a meter. D multiplies 90 by 15.",
-  "ref": "Topic: Word Problems with Ratios &middot; Built on: Official MA #29 (last third, 63.2% right; she was right but took 119 s vs. 52 s) &middot; Her comparable tries (oldest &rarr; newest): <b>o*</b> (Official MA #29 (119 s)) &middot; Compared with the latest: Harder: works backward from the height, and the answer must be changed to centimeters",
+  "ref": "Topic: Word Problems with Ratios &middot; Built on: Official MA #29 (last third, 63.2% right; she was right but took 119 s vs. 52 s) &middot; Her comparable tries (oldest &rarr; newest): <b>x o*</b> (QR2 #25 (forgot inches to feet), Official MA #29 (119 s)) &middot; Compared with the latest: Harder: works backward from the height, and the answer must be changed to centimeters",
   "diagram": null,
   "gid": null,
   "ma_idx": null

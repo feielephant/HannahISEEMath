@@ -2639,12 +2639,12 @@
     "30": "Lower 5 QR #38 (her miss, last third); QR9 #29, QR11 #14 (her miss)"
    },
    "comparable_last5_by_problem": {
-    "1": "o x o x (WTE QR #26, QR2 #25, QR7 #34, QR11 #8)",
+    "1": "o o x",
     "2": "x o (ISEE Lower #2 QR #37, MA5 #13)",
     "3": "x x o o (ISEE Lower #4 QR #38 is the real one; last 4: QR9 #16, MA4 #13, QR10 #15, QR11 #32)",
     "4": "x x x o o (Lower 4 QR #24, QR8 #30, QR9 #5, MA4 #3, QR10 #12)",
     "5": "x (ISEE Lower #2 QR #34 (9/13; not practiced since))",
-    "6": "o* (Official MA #29 (119 s))",
+    "6": "x o*",
     "7": "x (Lower 5 MA #30 (282 s))",
     "8": "o* (Official MA #23 (158 s vs. 29 s); the shaded-grid and model problems are built differently and are not counted)",
     "9": "o x o o o (Lower 1 MA #20, Lower 2 MA #27, QR2 #4, QR6 #26, MA2 #12)",
@@ -2706,7 +2706,8 @@
    "change_before_taken_2026-11-20": "Parent rule 11/20: real-test references count only from the last third (QR 26-38, MA 21-30); her recent tries on our sets count too. Replaced 5 problems with no last-third source: #2 unit price -> stem-and-leaf conclusion (ISEE Lower #2 QR #37); #3 'decreased by 14%' fish (easier than its only source, an official exercise) -> bike $64 +25% then -30%, asked as a price so the 'subtract 0.30' habit is a choice (ISEE Lower #4 QR #38); #5 yards/feet leftover -> prediction from a table, two groups (ISEE Lower #2 QR #34); #6 remainder with two divisors -> ramp ratio backward to length in cm (Official MA #29); #16 nth term from two terms -> muffins 'how many fewer' (Official QR #30). Kept #18 (hours 'left') and #22 (fraction of the rest) as partial matches by parent decision. All 30 now last-third sources.",
    "change_before_taken_2_2026-11-20": "Parent: #10 double bar graph was secured (last 3 comparable right; the 127 s on Official MA #26 did not repeat on Official QR #12 the same day). Replaced with ISEE Lower #1 QR #33 type, (\u25a1 + \u25cb) \u00d7 \u25b3 plus getting-ready time on both days; one choice drops the parentheses.",
    "change_before_taken_3_2026-11-20": "Parent: #25 should ask the distributed (equivalent) form, as the real test does, not the final value (brackets-first skips the distributing). Now: which expression equals 300 - 6 x (25 + 8); + inside so the sign does not flip (QR11 #16 / MA5 #21 had - inside).",
-   "change_before_taken_4_2026-11-20": "Parent could not read #2: the stem-and-leaf was drawn as a bordered table with Stem/Leaf headers. Redrawn like the real ISEE Lower #2 QR #37 (title, top rule, vertical bar, no headers). True statement changed from range (most - fewest, which duplicated #17) to an 'or more' count like the real one; answer still D."
+   "change_before_taken_4_2026-11-20": "Parent could not read #2: the stem-and-leaf was drawn as a bordered table with Stem/Leaf headers. Redrawn like the real ISEE Lower #2 QR #37 (title, top rule, vertical bar, no headers). True statement changed from range (most - fewest, which duplicated #17) to an 'or more' count like the real one; answer still D.",
+   "change_before_taken_5_2026-11-20": "Record fix (parent asked for #1's own mapping): QR2 #25 (model car, inches -> feet) is a unit-change problem, moved from #1's record to #6's. #1 = o o x (WTE QR #26, QR7 #34, QR11 #8); #6 = x o* (QR2 #25, Official MA #29). Problems unchanged."
   }
  ],
  "ma_notes": {

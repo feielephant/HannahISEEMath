@@ -92,7 +92,7 @@ add('Measurement Scaling',
     ['6.75 centimeters', '10.8 centimeters', '67.5 centimeters', '108 centimeters'], '10.8 centimeters',
     '10 kilometers for every 4 centimeters means 1 centimeter stands for 10 &divide; 4 = 2.5 kilometers. 27 &divide; 2.5 = 10.8 centimeters. Check: 10.8 &times; 2.5 = 27. C multiplies 27 by 2.5 (that finds a real distance, but 27 is already the real distance). A divides 27 by 4. D drops the decimal point.',
     'WTE QR #26 (last third, 61.9% right, 1.2 in = 10 mi); QR11 #8 (her miss, decimal per-unit)', 'last',
-    'o x o x', 'WTE QR #26, QR2 #25, QR7 #34, QR11 #8',
+    'o o x', 'WTE QR #26, QR7 #34, QR11 #8 (QR2 #25 is a unit-change problem: counted under #6)',
     'Slightly harder: same steps, but it asks the map length (the other direction) and the answer is a decimal')
 
 # 2 stem-and-leaf, "which conclusion is true" (ISEE Lower #2 QR #37, 41.7% right, her miss); true statement is an "or more" count like the real one (not range: #17 tests range)
@@ -152,7 +152,7 @@ add('Word Problems with Ratios',
     ['6 centimeters', '60 centimeters', '600 centimeters', '1,350 centimeters'], '600 centimeters',
     'Each meter of length adds 15 cm of height. 90 &divide; 15 = 6, so the ramp is 6 meters long. 6 meters = 600 centimeters. A forgets to change meters to centimeters. B uses 10 cm in a meter. D multiplies 90 by 15.',
     'Official MA #29 (last third, 63.2% right; she was right but took 119 s vs. 52 s)', 'last',
-    'o*', 'Official MA #29 (119 s)',
+    'x o*', 'QR2 #25 (forgot inches to feet), Official MA #29 (119 s)',
     'Harder: works backward from the height, and the answer must be changed to centimeters')
 # ================= positions 7-30: last-third sources =================
 # 7 NOT a statistical question (Lower 5 MA #30, 18.8% right, her miss, 282 s)

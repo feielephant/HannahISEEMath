@@ -3,9 +3,9 @@
   "topic": "Measurement Scaling",
   "built_on": "WTE QR #26 (last third, 61.9% right, 1.2 in = 10 mi); QR11 #8 (her miss, decimal per-unit)",
   "source_third": "last",
-  "last5": "o x o x",
-  "counted": "WTE QR #26, QR2 #25, QR7 #34, QR11 #8",
-  "comparable_wrong": "2/4",
+  "last5": "o o x",
+  "counted": "WTE QR #26, QR7 #34, QR11 #8 (QR2 #25 is a unit-change problem: counted under #6)",
+  "comparable_wrong": "1/3",
   "vs_latest": "Slightly harder: same steps, but it asks the map length (the other direction) and the answer is a decimal"
  },
  "2": {
@@ -48,9 +48,9 @@
   "topic": "Word Problems with Ratios",
   "built_on": "Official MA #29 (last third, 63.2% right; she was right but took 119 s vs. 52 s)",
   "source_third": "last",
-  "last5": "o*",
-  "counted": "Official MA #29 (119 s)",
-  "comparable_wrong": "0/1",
+  "last5": "x o*",
+  "counted": "QR2 #25 (forgot inches to feet), Official MA #29 (119 s)",
+  "comparable_wrong": "1/2",
   "vs_latest": "Harder: works backward from the height, and the answer must be changed to centimeters"
  },
  "7": {
