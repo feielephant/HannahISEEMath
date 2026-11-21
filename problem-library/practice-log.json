@@ -2707,7 +2707,66 @@
    "change_before_taken_2_2026-11-20": "Parent: #10 double bar graph was secured (last 3 comparable right; the 127 s on Official MA #26 did not repeat on Official QR #12 the same day). Replaced with ISEE Lower #1 QR #33 type, (\u25a1 + \u25cb) \u00d7 \u25b3 plus getting-ready time on both days; one choice drops the parentheses.",
    "change_before_taken_3_2026-11-20": "Parent: #25 should ask the distributed (equivalent) form, as the real test does, not the final value (brackets-first skips the distributing). Now: which expression equals 300 - 6 x (25 + 8); + inside so the sign does not flip (QR11 #16 / MA5 #21 had - inside).",
    "change_before_taken_4_2026-11-20": "Parent could not read #2: the stem-and-leaf was drawn as a bordered table with Stem/Leaf headers. Redrawn like the real ISEE Lower #2 QR #37 (title, top rule, vertical bar, no headers). True statement changed from range (most - fewest, which duplicated #17) to an 'or more' count like the real one; answer still D.",
-   "change_before_taken_5_2026-11-20": "Record fix (parent asked for #1's own mapping): QR2 #25 (model car, inches -> feet) is a unit-change problem, moved from #1's record to #6's. #1 = o o x (WTE QR #26, QR7 #34, QR11 #8); #6 = x o* (QR2 #25, Official MA #29). Problems unchanged."
+   "change_before_taken_5_2026-11-20": "Record fix (parent asked for #1's own mapping): QR2 #25 (model car, inches -> feet) is a unit-change problem, moved from #1's record to #6's. #1 = o o x (WTE QR #26, QR7 #34, QR11 #8); #6 = x o* (QR2 #25, Official MA #29). Problems unchanged.",
+   "graded_2026-11-20": {
+    "score": "14/30",
+    "wrong": [
+     3,
+     8,
+     12,
+     14,
+     15,
+     16,
+     17,
+     18,
+     19,
+     21,
+     22,
+     25,
+     26,
+     27,
+     28,
+     29
+    ],
+    "blank": [],
+    "total_elapsed_minutes": 30.0,
+    "first_then_changed": {
+     "wrong_to_right": [
+      30
+     ],
+     "wrong_to_wrong": [],
+     "right_to_wrong": []
+    },
+    "notes_summary": {
+     "3": "Real gap: \"decreased by 30%\" read as \"subtract 0.30\"",
+     "8": "Real gap: wrote the count 15 as 0.15 without dividing by 25",
+     "12": "Right order, wrong direction",
+     "14": "Unclear: ask her how she got 196",
+     "15": "Stopped one step early: gave Max's count NOW",
+     "16": "Answered the real test's question, not this one",
+     "17": "Missed the least value",
+     "18": "1 1/6 hours turned into 10 minutes (lost the whole hour)",
+     "19": "Did not check against the number after the blank",
+     "21": "Answered the real test's question (purple count), not the total",
+     "22": "Time ran out: a guess",
+     "25": "Time ran out: a guess",
+     "26": "Time ran out: a guess",
+     "27": "Time ran out: a guess",
+     "28": "Time ran out: a guess",
+     "29": "Time ran out: a guess"
+    },
+    "timeout_guesses_not_in_tracker": [
+     20,
+     22,
+     25,
+     26,
+     27,
+     28,
+     29
+    ],
+    "pacing": "#1-13 took 21.3 min (#13 284 s, #3 240 s, #5 179 s, #11 136 s); #14-21 took 7 min; #22-29 answered in 2-6 s each as time ran out. Worked problems (#1-21, #23, #24, #30): 14/24.",
+    "pattern": "Answered the real reference question instead of the changed asked part: #16 (Official QR #30), #21 (Official QR #34); one step early on #15. Known trap chosen: #3 subtract 0.30, #8 count as decimal."
+   }
   }
  ],
  "ma_notes": {
