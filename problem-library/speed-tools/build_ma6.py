@@ -181,19 +181,19 @@ add('Estimating Sums Differences of Decimal Numbers',
     'o x o o o', 'Lower 1 MA #20, Lower 2 MA #27, QR2 #4, QR6 #26, MA2 #12',
     'Slightly harder: 6 values instead of 5; last practiced 10/21')
 
-# 10 double bar graph: one category against two others combined (Official MA #26 compared two, 127 s)
-cats10, g4, g5 = ['Soccer', 'Basketball', 'Tennis', 'Swimming'], [7, 4, 2, 6], [8, 3, 3, 5]
-tot10 = [a + b for a, b in zip(g4, g5)]
-assert tot10 == [15, 7, 5, 11] and 15 - (7 + 5) == 3 and 15 - 7 == 8 and 15 - 5 == 10
-add('Comparing Adding Subtracting Bar Graph Data Table Values',
-    'Students in Grade 4 and Grade 5 voted for their favorite sport. The graph shows the results. How many more students in the two grades together voted for soccer than voted for basketball and tennis combined?',
-    ['2', '3', '8', '10'], '3',
-    'Add the two bars for each sport. Soccer: 7 + 8 = 15. Basketball: 4 + 3 = 7. Tennis: 2 + 3 = 5. Basketball and tennis combined: 7 + 5 = 12. 15 &minus; 12 = 3. C compares soccer with basketball only. D compares soccer with tennis only. A uses only the Grade 5 bars (8 &minus; 6).',
-    'Official MA #26 (last third, 127 s); Lower 5 MA #6 and QR9 #3 (her misses)', 'last',
-    'x x o o o*', 'Lower 5 MA #6, QR9 #3, MA4 #2, MA5 #1, Official MA #26 (127 s)',
-    'Harder: one sport against two others combined (one more step)',
-    grouped_bars(cats10, g4, g5, 9, 'FAVORITE SPORT', 'Grade 4', 'Grade 5', 'Number of Students'))
-
+# 10 symbols story -> expression with a group TIMES a rate (ISEE Lower #1 QR #33, 54.4% right, her miss 8/30, never practiced since)
+#    harder: plus a fixed time on each of the 2 days; one choice drops the parentheses (her bracket gap)
+for sq, ci, tr in ((3, 2, 40), (5, 4, 25), (1, 6, 10)):
+    total = (sq + ci)*tr + 2*15
+    assert total != (sq + ci)*tr + 15 and total != (sq + ci) + tr + 30 and total != sq + ci*tr + 30
+assert (3 + 2)*40 + 30 == 230 and 3 + 2*40 + 30 == 113
+add('Interpreting Linear Equations from Word Problems',
+    'A tutor taught □ lessons on Monday and ○ lessons on Tuesday. Each lesson lasted △ minutes. On each of the two days, she also spent 15 minutes getting ready. Which expression represents the total amount of time, in minutes, the tutor spent on both days?',
+    ['(□ + ○) &times; △ + 15', '(□ + ○) &times; △ + 30', '(□ + ○) + △ + 30', '□ + ○ &times; △ + 30'], '(□ + ○) &times; △ + 30',
+    'All the lessons: □ + ○. Each lasts △ minutes, so the lessons take (□ + ○) &times; △. Getting ready: 15 minutes on each of 2 days = 30. Total: (□ + ○) &times; △ + 30. Try numbers: 3 and 2 lessons of 40 minutes: 5 &times; 40 + 30 = 230. A counts getting ready on only one day. C adds the minutes instead of multiplying (the real test&rsquo;s trap). D drops the parentheses, so only ○ is multiplied: 3 + 2 &times; 40 + 30 = 113.',
+    'ISEE Lower #1 QR #33 (her miss, last third, 54.4% right)', 'last',
+    'x', 'ISEE Lower #1 QR #33 (8/30; not practiced since)',
+    'Harder: same (□ + ○) &times; △ as the real one, plus getting-ready time on both days, and one choice drops the parentheses')
 # 11 percent chain: discount amount at 15% -> price -> sale price -> how much more she needs (QR11 #15 was 25% and change)
 orig11 = F(12) / F(15, 100)
 assert orig11 == 80 and orig11 - 12 == 68 and 68 - 50 == 18 and 80 - 50 == 30 and 50 - 12 == 38
