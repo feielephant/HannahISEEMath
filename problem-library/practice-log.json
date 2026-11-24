@@ -2735,19 +2735,19 @@
      "right_to_wrong": []
     },
     "notes_summary": {
-     "3": "Real gap: \"decreased by 30%\" read as \"subtract 0.30\"",
-     "8": "Real gap: wrote the count 15 as 0.15 without dividing by 25",
+     "3": "Did not know how in the moment; random pick after 5 min; right on the second try",
+     "8": "Mixed concepts, then picked the choice whose format fit her guess",
      "12": "Right order, wrong direction",
-     "14": "Unclear: ask her how she got 196",
-     "15": "Stopped one step early: gave Max's count NOW",
-     "16": "Answered the real test's question, not this one",
-     "17": "Missed the least value",
-     "18": "1 1/6 hours turned into 10 minutes (lost the whole hour)",
-     "19": "Did not check against the number after the blank",
-     "20": "a &divide; b &times; c estimate: rounded 47 &divide; 6 down too far",
-     "21": "Took the 18 non-purple marbles as the 2/5",
-     "27": "Multiplied 4 &times; 6 = 24 (the trap)",
-     "29": "Unclear: likely forgot the perimeter counts each side twice"
+     "14": "Calculation error",
+     "15": "Does not get the idea yet: needs teaching",
+     "16": "Skipped the last step",
+     "17": "Needs practice with many large, close numbers",
+     "18": "Needs more practice: right when done again",
+     "19": "Right once written down",
+     "20": "Rounds the divisor far too much (6 &rarr; 10)",
+     "21": "No sense yet of 2/5 as purple vs. non-purple",
+     "27": "Two steps: find the LCM first, then count its multiples",
+     "29": "Does not see the 1 : 4 ratio and length + width = 50 &divide; 2"
     },
     "redo_after_timer_untimed": {
      "20": "B",
@@ -2763,7 +2763,8 @@
     },
     "timed_only_score": "14/30 (she picked #20-29 randomly to reach #30; #20, #23, #24 right by chance; #30 worked in the last 20 s, C changed to D, right)",
     "pacing": "Worked #1-19 in about 27.5 min (#1-13 took 21.3 min: #13 284 s, #3 240 s, #5 179 s, #11 136 s); she picked #20-29 randomly to reach #30 with 20 s left and worked #30 (C -> D, right). #20-29 redone after the timer (no times): 6/10. Timed: #1-19 10/19 + #30 right.",
-    "pattern": "Answered the real reference question instead of the changed asked part: #16 (Official QR #30); one step early on #15. Known traps chosen: #3 subtract 0.30, #8 count as decimal, #27 4x6=24, #20 a/b rounded down (4th time). (#21 timed answer was random; redo picked 45.)"
+    "pattern": "Parent-verified: #16 skipped the last step; #15 does not get the idea (needs teaching); #8 mixed concepts then picked the choice whose format fit her guess instead of finding the root cause; #20 rounds 6 to 10 instead of 47 to 48; #21 no sense of 2/5 purple vs 3/5 non-purple; #27 LCM then count; #29 1:4 ratio with length + width = 50/2; #17 large close numbers. Slips: #12 direction, #14 calculation, #3 stuck then random (right on retry), #18 right on retry, #19 right once written.",
+    "parent_verified": "2026-11-21"
    }
   }
  ],
