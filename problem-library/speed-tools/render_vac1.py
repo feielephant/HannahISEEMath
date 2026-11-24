@@ -36,8 +36,8 @@ for p in P:
                  f'<div class="q">{p["q"]}</div>{diag}{choices_html_live(n, p["choices"])}</div>')
 
 live = head("Vacation Math Day 1") + '<style>.card{display:none;}.card.active{display:block;}</style><body><div class="wrap">'
-live += f'<h1>Vacation Math — Day 1</h1><p class="lede">{N} problems · 10 minutes · choose one answer (A–D) for each.</p><div class="habit" style="background:var(--surface);border:1px solid var(--border);border-left:4px solid var(--accent);border-radius:10px;padding:12px 16px;margin:0 0 16px"><b>Before you pick an answer:</b> on your paper, write the 1–3 words the question asks for (for example: <i>sale price</i>, <i>how many purple</i>). When you get a number, check it against those words. If it is only a step on the way, keep going.</div>'
-live += f'<div class="sticky-top"><div class="testbar"><div class="navgrid" id="navgrid"></div><div class="timerbox"><div class="timer">Time left: <span id="clock">10:00</span></div><button type="button" class="bignav" id="go">Start</button><button type="button" class="bignav" id="end" disabled>Submit</button></div></div><div class="navcontrols"><button type="button" class="bignav" id="prev">← Back</button><span class="progress">Answered: <span id="count">0</span> / {N}</span><button type="button" class="bignav" id="next">Next →</button></div><p><button type="button" class="timingtoggle" id="toggletiming">Show timing details (parent)</button></p></div>'
+live += f'<h1>Vacation Math — Day 1</h1><p class="lede">{N} problems · 15 minutes · choose one answer (A–D) for each.</p><div class="habit" style="background:var(--surface);border:1px solid var(--border);border-left:4px solid var(--accent);border-radius:10px;padding:12px 16px;margin:0 0 16px"><b>Before you pick an answer:</b> on your paper, write the 1–3 words the question asks for (for example: <i>sale price</i>, <i>how many purple</i>). When you get a number, check it against those words. If it is only a step on the way, keep going.</div>'
+live += f'<div class="sticky-top"><div class="testbar"><div class="navgrid" id="navgrid"></div><div class="timerbox"><div class="timer">Time left: <span id="clock">15:00</span></div><button type="button" class="bignav" id="go">Start</button><button type="button" class="bignav" id="end" disabled>Submit</button></div></div><div class="navcontrols"><button type="button" class="bignav" id="prev">← Back</button><span class="progress">Answered: <span id="count">0</span> / {N}</span><button type="button" class="bignav" id="next">Next →</button></div><p><button type="button" class="timingtoggle" id="toggletiming">Show timing details (parent)</button></p></div>'
 live += f'<div id="timing" style="display:none"><p>Total: <span id="total">0:00</span> · Answered: <span id="answered">0</span> / {N}</p><table class="data"><tr><th>#</th><th>Time (s)</th><th>First answer</th><th>Final answer</th></tr><tbody id="rows"></tbody></table><p><button type="button" class="bignav" id="dl">Download times (CSV)</button> <button type="button" class="bignav" id="dl2">Download click log (CSV)</button> <button type="button" class="bignav" id="clr">Clear all answers</button></p></div>'
 live += ''.join(cards)
 live += '</div>'
@@ -172,7 +172,7 @@ function renderSummary(){
 }
 
 // ---- timer ----
-var CK="%s-clock", TOTAL=600;
+var CK="%s-clock", TOTAL=900;
 var cst={rem:TOTAL,run:false,last:0};
 try{var x=JSON.parse(localStorage.getItem(CK)||"null"); if(x) cst=x;}catch(e){}
 function csv2(){try{localStorage.setItem(CK,JSON.stringify(cst));}catch(e){}}
