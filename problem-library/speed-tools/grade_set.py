@@ -54,14 +54,15 @@ REPO = os.path.join(HERE, '..', '..')
 LOG_PATH = os.path.join(HERE, '..', 'practice-log.json')
 TRACKER_PATH = os.path.join(HERE, '..', 'student-tracker.json')
 
-SLUG = {'qr': 'speed-set-{}', 'ma': 'ma-set-{}'}
+SLUG = {'qr': 'speed-set-{}', 'ma': 'ma-set-{}', 'vac': 'vacation-day-{}'}
+LOGKEY = {'qr': 'sets', 'ma': 'ma_sets', 'vac': 'vacation_sets'}
 
 
 # ---------- 1. Pull the exact as-published snapshot ----------
 
 def _set_entry(kind, set_no):
     log = json.load(open(LOG_PATH))
-    key = 'sets' if kind == 'qr' else 'ma_sets'
+    key = LOGKEY[kind]
     entries = log.get(key, [])
     target = next((e for e in entries if e.get('set_no') == set_no), None)
     if target is None:

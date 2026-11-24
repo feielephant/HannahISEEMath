@@ -11,6 +11,7 @@ this is exactly what had to be done after-the-fact for set 3).
 
 Usage: python3 mark_published.py qr 3
        python3 mark_published.py ma 2
+       python3 mark_published.py vac 1
 """
 import json, subprocess, sys, os
 
@@ -18,11 +19,11 @@ HERE = os.path.dirname(os.path.abspath(__file__))
 LOG_PATH = os.path.join(HERE, '..', 'practice-log.json')
 
 def main():
-    if len(sys.argv) != 3 or sys.argv[1] not in ('qr', 'ma'):
+    if len(sys.argv) != 3 or sys.argv[1] not in ('qr', 'ma', 'vac'):
         print(__doc__)
         sys.exit(1)
     kind, set_no = sys.argv[1], int(sys.argv[2])
-    key = 'sets' if kind == 'qr' else 'ma_sets'
+    key = {'qr': 'sets', 'ma': 'ma_sets', 'vac': 'vacation_sets'}[kind]
 
     commit = subprocess.check_output(['git', 'rev-parse', 'HEAD'], cwd=HERE).decode().strip()
     status = subprocess.check_output(['git', 'status', '--porcelain'], cwd=HERE).decode()
