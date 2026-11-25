@@ -3311,7 +3311,8 @@
      "D": "Read the tens place"
     }
    },
-   "notes": "Parent 11/24 after Day 1 (4/7): rest the 4 she got right (percent, rectangle chain, estimate, probability); keep the 3 gaps (cube scaling, story->expression, LCM multiples) with new story/language/numbers; carry the rules box (Day 1 #7 unscored); add 4 open topics with real last-third misses (prediction from a table, composite perimeter, joined prisms, number pattern). Every problem information-heavy (large table, labeled figure, or extra facts)."
+   "notes": "Parent 11/24 after Day 1 (4/7): rest the 4 she got right (percent, rectangle chain, estimate, probability); keep the 3 gaps (cube scaling, story->expression, LCM multiples) with new story/language/numbers; carry the rules box (Day 1 #7 unscored); add 4 open topics with real last-third misses (prediction from a table, composite perimeter, joined prisms, number pattern). Every problem information-heavy (large table, labeled figure, or extra facts).",
+   "published_commit": "2b8ff3c41b339261b78766c85477eaeaa4494071"
   }
  ]
 }
