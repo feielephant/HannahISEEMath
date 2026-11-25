@@ -1,0 +1,180 @@
+<!doctype html><html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Vacation Math Day 2</title><style>:root{--bg:#EEF2F0;--surface:#FFFFFF;--surface-alt:#E7EDEA;--ink:#1E2A28;--ink-muted:#57655F;--border:#D6DFDA;--accent:#1C7A69;--accent-ink:#0F5648;--accent-soft:#E1F2EC;}@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){--bg:#12181A;--surface:#1B2224;--surface-alt:#212A2C;--ink:#E8EFEC;--ink-muted:#9FB0AA;--border:#2C3739;--accent:#4FC4AC;--accent-ink:#8FE0CC;--accent-soft:rgba(79,196,172,0.14);color-scheme:dark;}}:root[data-theme="dark"]{--bg:#12181A;--surface:#1B2224;--surface-alt:#212A2C;--ink:#E8EFEC;--ink-muted:#9FB0AA;--border:#2C3739;--accent:#4FC4AC;--accent-ink:#8FE0CC;--accent-soft:rgba(79,196,172,0.14);color-scheme:dark;}body{margin:0;background:var(--bg);color:var(--ink);font-family:"Public Sans",system-ui,sans-serif;line-height:1.45;}.wrap{max-width:900px;margin:0 auto;padding:32px 18px 64px;}h1{font-family:Georgia,serif;font-size:1.9rem;margin:0 0 6px;}.lede{color:var(--ink-muted);margin:0 0 20px;}.timer{display:inline-block;border:1px solid var(--border);border-radius:8px;padding:8px 14px;background:var(--surface);font-weight:600;margin-bottom:22px;}.card{background:var(--surface);border:1px solid var(--border);border-radius:10px;padding:16px 18px;margin:0 0 14px;}.num{font-family:Georgia,serif;font-style:italic;color:var(--ink-muted);margin-bottom:4px;}.q{margin:0 0 10px;}.diag{margin:8px 0 12px;color:var(--ink);}.choices{display:grid;grid-template-columns:1fr 1fr;gap:6px 14px;}.choices > span{padding:6px 10px;border:1px solid var(--border);border-radius:6px;background:var(--surface-alt);}table.data{border-collapse:collapse;font-size:0.9rem;}table.data th,table.data td{border:1px solid var(--border);padding:4px 10px;text-align:left;}.key{border-left:3px solid var(--accent);padding:6px 10px;margin-top:8px;color:var(--ink-muted);font-size:0.92rem;}.ref{font-size:0.8rem;color:var(--ink-muted);margin-top:4px;}button.choice{font:inherit;text-align:left;cursor:pointer;color:var(--ink);padding:6px 10px;border:1px solid var(--border);border-radius:6px;background:var(--surface-alt);}button.choice:hover{border-color:var(--ink-muted);}button.choice.selected{background:var(--accent-soft);border-color:var(--accent);font-weight:600;}.ptime{font-size:0.85rem;color:var(--accent-ink);font-weight:600;}.card,.q,.diag,.choices{-webkit-user-select:none;user-select:none;}.sticky-top{position:sticky;top:0;z-index:5;background:var(--bg);padding:8px 0;border-bottom:1px solid var(--border);}.progress{font-weight:600;color:var(--accent-ink);}@media (max-width:520px){.choices{grid-template-columns:1fr;}}.logwrap{max-height:320px;overflow:auto;margin-bottom:12px}button.choice:disabled{opacity:0.5;cursor:not-allowed;}.frac{display:inline-flex;flex-direction:column;vertical-align:middle;text-align:center;line-height:1;font-size:0.82em;margin:0 1px;}.frac .n{border-bottom:2px solid currentColor;padding:0 3px 2px;}.frac .d{padding:2px 3px 0;}.pictograph{margin:8px 0;}.pictorow{display:flex;align-items:center;gap:8px;margin:3px 0;}.piclabel{min-width:60px;font-weight:600;}.picicons{letter-spacing:3px;font-size:1.25em;color:var(--accent-ink);}.picicons .half{display:inline-block;width:0.52em;overflow:hidden;vertical-align:top;}.pictokey{font-size:0.82em;color:var(--ink-muted);margin-top:6px;}.testbar{display:flex;align-items:flex-start;justify-content:space-between;gap:14px;flex-wrap:wrap;}.navgrid{display:flex;flex-wrap:wrap;gap:4px;flex:1;min-width:0;}.navbtn{width:30px;height:30px;border:1px solid var(--border);border-radius:6px;background:var(--surface-alt);color:var(--ink);font:inherit;font-size:0.78rem;cursor:pointer;display:flex;align-items:center;justify-content:center;padding:0;}.navbtn.answered{background:var(--accent-soft);border-color:var(--accent);color:var(--accent-ink);font-weight:600;}.navbtn.current{outline:2px solid var(--accent);outline-offset:1px;font-weight:700;}.timerbox{display:flex;flex-direction:column;align-items:flex-end;gap:6px;flex-shrink:0;}.navcontrols{display:flex;align-items:center;justify-content:space-between;gap:10px;margin-top:10px;}.bignav{font:inherit;padding:10px 16px;border:1px solid var(--border);border-radius:8px;background:var(--surface-alt);color:var(--ink);cursor:pointer;font-weight:600;}.bignav:disabled{opacity:0.4;cursor:not-allowed;}.timingtoggle{font-size:0.8rem;color:var(--ink-muted);background:none;border:none;text-decoration:underline;cursor:pointer;padding:4px 0;}</style></head><style>.card{display:none;}.card.active{display:block;}</style><body><div class="wrap"><h1>Vacation Math — Day 2</h1><p class="lede">8 problems · 15 minutes · choose one answer (A–D) for each.</p><div class="habit" style="background:var(--surface);border:1px solid var(--border);border-left:4px solid var(--accent);border-radius:10px;padding:12px 16px;margin:0 0 16px"><b>Before you pick an answer:</b> on your paper, write the 1–3 words the question asks for (for example: <i>sale price</i>, <i>how many purple</i>). When you get a number, check it against those words. If it is only a step on the way, keep going.</div><div class="sticky-top"><div class="testbar"><div class="navgrid" id="navgrid"></div><div class="timerbox"><div class="timer">Time left: <span id="clock">15:00</span></div><button type="button" class="bignav" id="go">Start</button><button type="button" class="bignav" id="end" disabled>Submit</button></div></div><div class="navcontrols"><button type="button" class="bignav" id="prev">← Back</button><span class="progress">Answered: <span id="count">0</span> / 8</span><button type="button" class="bignav" id="next">Next →</button></div><p><button type="button" class="timingtoggle" id="toggletiming">Show timing details (parent)</button></p></div><div id="timing" style="display:none"><p>Total: <span id="total">0:00</span> · Answered: <span id="answered">0</span> / 8</p><table class="data"><tr><th>#</th><th>Time (s)</th><th>First answer</th><th>Final answer</th></tr><tbody id="rows"></tbody></table><p><button type="button" class="bignav" id="dl">Download times (CSV)</button> <button type="button" class="bignav" id="dl2">Download click log (CSV)</button> <button type="button" class="bignav" id="clr">Clear all answers</button></p></div><div class="card" data-n="1"><div class="num">1. <span class="ptime" id="pt1"></span></div><div class="q">The table shows how a group of students voted for the place they most want to visit on a class trip. Based on the information in the table, what is the most reasonable prediction of how many more of the next 40 students will vote for the aquarium than for the museum?</div><div class="diag"><div style="font-weight:600;margin-bottom:4px">CLASS TRIP VOTES</div><table class="data"><tr><th>Place</th><th>Number of Votes</th></tr><tr><td>Zoo</td><td>22</td></tr><tr><td>Museum</td><td>14</td></tr><tr><td>Aquarium</td><td>26</td></tr><tr><td>Science center</td><td>10</td></tr><tr><td>Park</td><td>8</td></tr></table></div><div class="choices"><button type="button" class="choice" data-qid="1" data-letter="A"><b>A</b>&nbsp; 6</button><button type="button" class="choice" data-qid="1" data-letter="B"><b>B</b>&nbsp; 7</button><button type="button" class="choice" data-qid="1" data-letter="C"><b>C</b>&nbsp; 12</button><button type="button" class="choice" data-qid="1" data-letter="D"><b>D</b>&nbsp; 13</button></div></div><div class="card" data-n="2"><div class="num">2. <span class="ptime" id="pt2"></span></div><div class="q">A store sells gift boxes shaped like cubes. The table shows the edge length of each size. How many Small boxes together have the same volume as one Large box?</div><div class="diag"><div style="font-weight:600;margin-bottom:4px">GIFT BOXES</div><table class="data"><tr><th>Box size</th><th>Edge length</th></tr><tr><td>Small</td><td>3 inches</td></tr><tr><td>Medium</td><td>6 inches</td></tr><tr><td>Large</td><td>9 inches</td></tr></table></div><div class="choices"><button type="button" class="choice" data-qid="2" data-letter="A"><b>A</b>&nbsp; 3</button><button type="button" class="choice" data-qid="2" data-letter="B"><b>B</b>&nbsp; 9</button><button type="button" class="choice" data-qid="2" data-letter="C"><b>C</b>&nbsp; 27</button><button type="button" class="choice" data-qid="2" data-letter="D"><b>D</b>&nbsp; 729</button></div></div><div class="card" data-n="3"><div class="num">3. <span class="ptime" id="pt3"></span></div><div class="q">Mr. Lee had &square; books on his shelf. Ms. Diaz gave him &#9675; books from her shelf. Now Ms. Diaz has &#9651; fewer books than Mr. Lee has. Which expression represents the number of books Ms. Diaz had at first?</div><div class="choices"><button type="button" class="choice" data-qid="3" data-letter="A"><b>A</b>&nbsp; &square; + &#9675; &minus; &#9651; + &#9675;</button><button type="button" class="choice" data-qid="3" data-letter="B"><b>B</b>&nbsp; &square; + &#9675; &minus; &#9651;</button><button type="button" class="choice" data-qid="3" data-letter="C"><b>C</b>&nbsp; &square; &minus; &#9651; + &#9675;</button><button type="button" class="choice" data-qid="3" data-letter="D"><b>D</b>&nbsp; &square; + &#9675; &minus; &#9651; &minus; &#9675;</button></div></div><div class="card" data-n="4"><div class="num">4. <span class="ptime" id="pt4"></span></div><div class="q">A sign is made of a square and a triangle that share one side, as shown. The two slanted sides of the triangle are the same length. The perimeter of the whole sign is 30 inches. The perimeter of the square alone is 24 inches. What is the perimeter of the triangle alone?</div><div class="diag"><svg viewBox="0 0 260 230" width="260" height="230" role="img"><polygon points="80,100 130,30 180,100" fill="none" stroke="currentColor" stroke-width="2"/><rect x="80" y="100" width="100" height="100" fill="none" stroke="currentColor" stroke-width="2"/><text x="130" y="80" font-size="14" text-anchor="middle" fill="currentColor">triangle</text><text x="130" y="155" font-size="14" text-anchor="middle" fill="currentColor">square</text></svg></div><div class="choices"><button type="button" class="choice" data-qid="4" data-letter="A"><b>A</b>&nbsp; 12 inches</button><button type="button" class="choice" data-qid="4" data-letter="B"><b>B</b>&nbsp; 18 inches</button><button type="button" class="choice" data-qid="4" data-letter="C"><b>C</b>&nbsp; 24 inches</button><button type="button" class="choice" data-qid="4" data-letter="D"><b>D</b>&nbsp; 30 inches</button></div></div><div class="card" data-n="5"><div class="num">5. <span class="ptime" id="pt5"></span></div><div class="q">The table shows the number of members in a chess club at the end of each month. The number of members keeps growing in the same pattern. How many members will the club have at the end of Month 7?</div><div class="diag"><div style="font-weight:600;margin-bottom:4px">CHESS CLUB MEMBERS</div><table class="data"><tr><th>Month</th><th>1</th><th>2</th><th>3</th><th>4</th><th>5</th><th>6</th><th>7</th></tr><tr><td>Members</td><td>3</td><td>4</td><td>6</td><td>10</td><td>18</td><td>?</td><td>?</td></tr></table></div><div class="choices"><button type="button" class="choice" data-qid="5" data-letter="A"><b>A</b>&nbsp; 26</button><button type="button" class="choice" data-qid="5" data-letter="B"><b>B</b>&nbsp; 34</button><button type="button" class="choice" data-qid="5" data-letter="C"><b>C</b>&nbsp; 36</button><button type="button" class="choice" data-qid="5" data-letter="D"><b>D</b>&nbsp; 66</button></div></div><div class="card" data-n="6"><div class="num">6. <span class="ptime" id="pt6"></span></div><div class="q">Lena has a notebook with pages numbered 1 to 200. She puts a star on every 4th page (page 4, 8, 12, and so on) and a heart on every 10th page (page 10, 20, 30, and so on). She also puts a dot on every page that is a multiple of 3. How many pages have both a star and a heart?</div><div class="choices"><button type="button" class="choice" data-qid="6" data-letter="A"><b>A</b>&nbsp; 5</button><button type="button" class="choice" data-qid="6" data-letter="B"><b>B</b>&nbsp; 10</button><button type="button" class="choice" data-qid="6" data-letter="C"><b>C</b>&nbsp; 20</button><button type="button" class="choice" data-qid="6" data-letter="D"><b>D</b>&nbsp; 50</button></div></div><div class="card" data-n="7"><div class="num">7. <span class="ptime" id="pt7"></span></div><div class="q">The figure shown was made by joining two rectangular prisms. The side lengths are measured in feet. Which expression can be used to find the total volume of the figure? (V = lwh, where V = volume, l = length, w = width, and h = height.)</div><div class="diag"><svg viewBox="-10.0 -12.0 181.0 160.0" width="181" height="160" role="img"><polygon points="20.0,16.0 68.0,16.0 81.0,6.0 33.0,6.0" fill="var(--surface-alt)" stroke="currentColor" stroke-width="1.3"/><polygon points="68.0,96.0 148.0,96.0 161.0,86.0 81.0,86.0" fill="var(--surface-alt)" stroke="currentColor" stroke-width="1.3"/><polygon points="68.0,16.0 68.0,96.0 81.0,86.0 81.0,6.0" fill="var(--surface)" stroke="currentColor" stroke-width="1.3"/><polygon points="148.0,96.0 148.0,128.0 161.0,118.0 161.0,86.0" fill="var(--surface)" stroke="currentColor" stroke-width="1.3"/><polygon points="20.0,16.0 68.0,16.0 68.0,96.0 148.0,96.0 148.0,128.0 20.0,128.0" fill="none" stroke="currentColor" stroke-width="1.8"/><text x="52.0" y="-2.0" text-anchor="middle" font-size="14" fill="currentColor">3</text><text x="18.0" y="9.0" text-anchor="end" font-size="14" fill="currentColor">6</text><text x="60.0" y="56.0" text-anchor="end" font-size="14" fill="currentColor">5</text><text x="164.0" y="112.0" text-anchor="start" font-size="14" fill="currentColor">2</text><text x="12.0" y="72.0" text-anchor="end" font-size="14" fill="currentColor">7</text><text x="84.0" y="142.0" text-anchor="middle" font-size="14" fill="currentColor">8</text></svg></div><div class="choices"><button type="button" class="choice" data-qid="7" data-letter="A"><b>A</b>&nbsp; 3 &times; 6 &times; 5</button><button type="button" class="choice" data-qid="7" data-letter="B"><b>B</b>&nbsp; 8 &times; 6 &times; 7</button><button type="button" class="choice" data-qid="7" data-letter="C"><b>C</b>&nbsp; (3 &times; 6 &times; 7) + (8 &times; 6 &times; 2)</button><button type="button" class="choice" data-qid="7" data-letter="D"><b>D</b>&nbsp; (3 &times; 6 &times; 5) + (8 &times; 6 &times; 2)</button></div></div><div class="card" data-n="8"><div class="num">8. <span class="ptime" id="pt8"></span></div><div class="q">Students wrote a new number using the digits 0, 4, 5, 6, and 8 and these rules. What digit is in the hundreds place of the new number?</div><div class="diag"><div style="border:1.5px solid currentColor;border-radius:6px;padding:8px 12px;max-width:340px"><div style="font-weight:700;margin-bottom:4px">RULES FOR THE NEW NUMBER</div><div>1. The number must have 5 digits.</div><div>2. The number must be odd.</div><div>3. The number must be the smallest number possible.</div><div>4. Each digit can be used only once.</div></div></div><div class="choices"><button type="button" class="choice" data-qid="8" data-letter="A"><b>A</b>&nbsp; 0</button><button type="button" class="choice" data-qid="8" data-letter="B"><b>B</b>&nbsp; 5</button><button type="button" class="choice" data-qid="8" data-letter="C"><b>C</b>&nbsp; 6</button><button type="button" class="choice" data-qid="8" data-letter="D"><b>D</b>&nbsp; 8</button></div></div></div><script>(function(){
+var N=8,K="vacation-day-2-v1",T="vacation-day-2-times",IDX="vacation-day-2-idx";
+var st={},clicks=[],visits=[],idx=1;
+try{st=JSON.parse(localStorage.getItem(K)||"{}")}catch(e){}
+try{var saved=JSON.parse(localStorage.getItem(T)||"{}");clicks=saved.clicks||[];visits=saved.visits||[];}catch(e){}
+try{idx=parseInt(localStorage.getItem(IDX)||"1",10)||1}catch(e){}
+function sv(){try{localStorage.setItem(K,JSON.stringify(st));localStorage.setItem(T,JSON.stringify({clicks:clicks,visits:visits}));localStorage.setItem(IDX,String(idx));}catch(e){}}
+function fmt(s){s=Math.max(0,Math.round(s));return Math.floor(s/60)+":"+("0"+(s%60)).slice(-2);}
+
+var visitStart=null, visitN=null;
+function clockRunning(){ return window.__clockRunning===true; }
+function closeVisit(now){
+  if(visitN!==null && visitStart!==null && now>visitStart){ visits.push({n:visitN,start:visitStart,end:now}); }
+  visitStart=null; visitN=null;
+}
+function openVisit(now){ if(clockRunning()){ visitStart=now; visitN=idx; } }
+function secondsFor(n){
+  var tot=0;
+  visits.forEach(function(v){ if(v.n===n) tot += (v.end-v.start)/1000; });
+  if(visitN===n && visitStart!==null) tot += (Date.now()-visitStart)/1000;
+  return tot;
+}
+function answeredCount(){ return Object.keys(st).filter(function(k){return !!st[k];}).length; }
+function firstFinalFor(n){
+  var cs = clicks.filter(function(c){return c.q===String(n);});
+  if(!cs.length) return {first:null, final:null};
+  return {first: cs[0].letter, final: st[n]||null};
+}
+
+function render(){
+  document.querySelectorAll(".card").forEach(function(c){
+    c.classList.toggle("active", parseInt(c.dataset.n,10)===idx);
+  });
+  document.querySelectorAll("button.choice[data-qid]").forEach(function(b){
+    b.classList.toggle("selected", st[b.dataset.qid]===b.dataset.letter);
+  });
+  var grid=document.getElementById("navgrid");
+  grid.innerHTML="";
+  for(var i=1;i<=N;i++){
+    var b=document.createElement("button");
+    b.type="button"; b.className="navbtn"+(st[i]?" answered":"")+(i===idx?" current":"");
+    b.textContent=i;
+    (function(n){ b.addEventListener("click",function(){ goTo(n); }); })(i);
+    grid.appendChild(b);
+  }
+  document.getElementById("count").textContent=answeredCount();
+  document.getElementById("prev").disabled = idx<=1;
+  document.getElementById("next").disabled = idx>=N;
+  renderSummary();
+}
+function goTo(n){
+  if(n<1||n>N) return;
+  if(n===idx){ render(); return; }
+  var now=Date.now();
+  closeVisit(now);
+  idx=n;
+  openVisit(now);
+  sv(); render();
+}
+document.getElementById("prev").addEventListener("click",function(){ goTo(idx-1); });
+document.getElementById("next").addEventListener("click",function(){ goTo(idx+1); });
+document.addEventListener("keydown",function(e){
+  if(e.key==="ArrowLeft"){ e.preventDefault(); goTo(idx-1); }
+  else if(e.key==="ArrowRight"){ e.preventDefault(); goTo(idx+1); }
+});
+document.addEventListener("click",function(e){
+  if(e.target.id==="clr"){
+    if(confirm("Clear all answers, times, and the timer?")){
+      st={}; clicks=[]; visits=[]; visitStart=null; visitN=null;
+      sv(); if(window.__clockReset) window.__clockReset();
+      render();
+    }
+    return;
+  }
+  var b=e.target.closest("button.choice");
+  if(b && b.dataset.qid){
+    var same = st[b.dataset.qid]===b.dataset.letter;
+    var letter = same ? null : b.dataset.letter;
+    st[b.dataset.qid] = letter;
+    clicks.push({q:b.dataset.qid, letter:letter, t:Date.now()});
+    sv(); render();
+    return;
+  }
+  if(e.target.id==="dl"){
+    var rows=["problem,seconds,first_answer,final_answer"];
+    for(var i=1;i<=N;i++){
+      var ff=firstFinalFor(i);
+      if(ff.first===null) continue;
+      rows.push(i+","+Math.round(secondsFor(i))+","+ff.first+","+(ff.final||""));
+    }
+    save("vacation-day-2-times.csv", rows.join("\n"));
+    return;
+  }
+  if(e.target.id==="dl2"){
+    var t0 = clicks.length?clicks[0].t:Date.now();
+    var prevByQ={};
+    var rows2=["seq,problem,elapsed_s,clock,action,letter,previous"];
+    clicks.forEach(function(c,i){
+      var prev = prevByQ[c.q]!==undefined ? prevByQ[c.q] : null;
+      var kind = c.letter===null ? "cleared" : (prev===null ? "chose" : "changed");
+      rows2.push((i+1)+","+c.q+","+((c.t-t0)/1000).toFixed(1)+","+new Date(c.t).toLocaleTimeString()+","+kind+","+(c.letter||"")+","+(prev||""));
+      prevByQ[c.q]=c.letter;
+    });
+    save("vacation-day-2-click-log.csv", rows2.join("\n"));
+    return;
+  }
+});
+["copy","cut","contextmenu","selectstart","dragstart"].forEach(function(ev2){
+  document.addEventListener(ev2,function(e){ if(e.target.id!=="dl"&&e.target.id!=="dl2") e.preventDefault(); });
+});
+function save(name,csv){
+  var a=document.createElement("a");
+  a.href=URL.createObjectURL(new Blob([csv],{type:"text/csv"}));
+  a.download=name; document.body.appendChild(a); a.click(); a.remove();
+}
+function renderSummary(){
+  var box=document.getElementById("timing");
+  if(!box) return;
+  var answered=[];
+  for(var i=1;i<=N;i++){ var ff=firstFinalFor(i); if(ff.first!==null) answered.push({n:i,ff:ff,sec:secondsFor(i)}); }
+  if(!answered.length){ document.getElementById("rows").innerHTML=""; document.getElementById("answered").textContent=0; document.getElementById("total").textContent="0:00"; return; }
+  document.getElementById("rows").innerHTML = answered.map(function(r){
+    return "<tr><td>"+r.n+"</td><td>"+Math.round(r.sec)+"</td><td>"+r.ff.first+"</td><td>"+(r.ff.final||"")+"</td></tr>";
+  }).join("");
+  document.getElementById("answered").textContent = answered.length;
+  var totalSec = visits.reduce(function(a,v){return a+(v.end-v.start)/1000;},0) + (visitStart!==null?(Date.now()-visitStart)/1000:0);
+  document.getElementById("total").textContent = fmt(totalSec);
+}
+
+// ---- timer ----
+var CK="vacation-day-2-clock", TOTAL=900;
+var cst={rem:TOTAL,run:false,last:0};
+try{var x=JSON.parse(localStorage.getItem(CK)||"null"); if(x) cst=x;}catch(e){}
+function csv2(){try{localStorage.setItem(CK,JSON.stringify(cst));}catch(e){}}
+function lock(){ var L=!cst.run; document.querySelectorAll("button.choice[data-qid]").forEach(function(b){b.disabled=L;}); }
+function show(){
+  window.__clockRunning = cst.run;
+  var r=Math.max(0,Math.round(cst.rem)); var m=Math.floor(r/60), s=r%60;
+  var status = cst.rem<=0 ? " — time\u2019s up" : (cst.submitted ? " — submitted" : (cst.run?"":" — press Start to unlock"));
+  document.getElementById("clock").textContent=m+":"+("0"+s).slice(-2)+status;
+  document.getElementById("go").textContent=cst.run?"Running":"Start";
+  document.getElementById("go").disabled=cst.run||cst.submitted;
+  if(endBtn) endBtn.disabled=!cst.run;
+  lock();
+}
+function tick(){
+  if(cst.run){
+    var now=Date.now();
+    cst.rem=Math.max(0,cst.rem-(now-cst.last)/1000);
+    cst.last=now;
+    if(cst.rem<=0){ cst.run=false; closeVisit(now); sv(); }
+    csv2();
+  }
+  show(); renderSummary();
+}
+document.getElementById("go").addEventListener("click",function(){
+  if(!cst.run && cst.rem>0 && !cst.submitted){
+    cst.run=true; cst.last=Date.now(); csv2(); show();
+    openVisit(Date.now()); sv(); render();
+  }
+});
+var endBtn=document.getElementById("end");
+if(endBtn){
+  endBtn.addEventListener("click",function(){
+    if(!cst.run) return;
+    if(confirm("Submit now and stop the timer? You can still look back at your answers, but the clock won\'t run again.")){
+      var now=Date.now();
+      cst.run=false; cst.submitted=true; closeVisit(now); csv2(); show();
+      sv(); render();
+    }
+  });
+}
+window.__clockReset=function(){ cst={rem:TOTAL,run:false,last:0,submitted:false}; csv2(); show(); };
+
+show();
+if(clockRunning() && visitN===null){ openVisit(Date.now()); sv(); }
+render();
+setInterval(tick,500);
+})();
+</script><script>document.getElementById("toggletiming").addEventListener("click",function(){var b=document.getElementById("timing");var showing=b.style.display!=="none";b.style.display=showing?"none":"block";this.textContent=showing?"Show timing details (parent)":"Hide timing details";});</script></body></html>

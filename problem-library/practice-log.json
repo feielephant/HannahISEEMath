@@ -3218,6 +3218,100 @@
     "stop_early_count": 1,
     "pacing": "7 problems in 11.6 of 15 min; slow: #3 242 s (right), #6 178 s (wrong); #5 26 s (wrong, stopped early)."
    }
+  },
+  {
+   "set_no": 2,
+   "built": "2026-11-24",
+   "builder": "speed-tools/build_vac2.py",
+   "minutes": 15,
+   "answers": "ACABDBDC",
+   "topics": [
+    "Patterns in Data Tables and Lists",
+    "Comparing Volume of Cubes",
+    "Translating Math Expressions",
+    "Area and Perimeter of Complex Polygons",
+    "Numerical Patterns",
+    "Counting Multiples within a Range",
+    "Volume of Solids",
+    "Value of Digits"
+   ],
+   "built_on_by_problem": {
+    "1": "Lower 2 QR #34 (last third, 56.3% right, her miss): votes table, predict one color out of the next 25",
+    "2": "Lower 4 QR #36 (last third, 48.2% right, her miss): Cube B is 5 times as wide, how many A's fit; Lower 5 QR #38 (39.6%, her miss)",
+    "3": "Lower 4 QR #35 (last third, 47.4% right, her miss); Lower 1 QR #33 (54.4%, her miss)",
+    "4": "Lower 1 QR #38 (last third, 33.8% right, her miss): largest polygon 20, square 16, triangle?; Lower 6 QR #30 (69.5%, her miss)",
+    "5": "Lower 1 MA #21 (last third, 67.1% right, her miss): 2, 3, 5, 9, 17, next?",
+    "6": "Lower 5 MA #29 (last third, 63.7% right, her miss, 134 s): between 65 and 85, divisible by 3",
+    "7": "Lower 1 QR #36 (last third, 37.2% right, her miss)",
+    "8": "Lower 3 QR #31 (last third, 61.6% right, her miss): smallest even with 0, tens place; Official QR #36 (57%, her miss)"
+   },
+   "stop_early_choices": {
+    "1": [
+     "D"
+    ],
+    "2": [
+     "D"
+    ],
+    "3": [
+     "B"
+    ],
+    "4": [
+     "A"
+    ],
+    "5": [
+     "B"
+    ],
+    "6": [
+     "C"
+    ],
+    "7": [
+     "A"
+    ],
+    "8": []
+   },
+   "choice_tags": {
+    "1": {
+     "B": "Predicted the museum only",
+     "C": "Known trap: subtracted the table counts (26 &minus; 14), no prediction",
+     "D": "Stopped early: this is the aquarium prediction only"
+    },
+    "2": {
+     "A": "Known trap (Day 1 #2): compared the edges only (9 &divide; 3)",
+     "B": "Compared one face only (3 &times; 3)",
+     "D": "Stopped early: this is the volume of the Large box"
+    },
+    "3": {
+     "B": "Stopped early: this is how many Ms. Diaz has NOW",
+     "C": "Forgot Mr. Lee got &#9675; more books before comparing",
+     "D": "Went the wrong way in time: took the gift away again instead of giving it back"
+    },
+    "4": {
+     "A": "Stopped early: this is only the two slanted sides",
+     "C": "Gave the square's perimeter",
+     "D": "Gave the whole sign's perimeter"
+    },
+    "5": {
+     "A": "Known trap: added the last jump (8) again",
+     "B": "Stopped early: this is Month 6",
+     "C": "Doubled the last number"
+    },
+    "6": {
+     "A": "Known trap (MA6 #27): used 4 &times; 10 = 40 instead of the LCM",
+     "C": "Stopped early: this is the LCM (every 20th page), not how many",
+     "D": "Counted the stars only (Day 1: counted one number only)"
+    },
+    "7": {
+     "A": "Stopped early: this is the top prism only",
+     "B": "Treated the figure as one big box",
+     "C": "Known trap: used the full height 7 for the top prism (counts the bottom part twice)"
+    },
+    "8": {
+     "A": "Read the thousands place",
+     "B": "Forgot the number must be odd (40,568)",
+     "D": "Read the tens place"
+    }
+   },
+   "notes": "Parent 11/24 after Day 1 (4/7): rest the 4 she got right (percent, rectangle chain, estimate, probability); keep the 3 gaps (cube scaling, story->expression, LCM multiples) with new story/language/numbers; carry the rules box (Day 1 #7 unscored); add 4 open topics with real last-third misses (prediction from a table, composite perimeter, joined prisms, number pattern). Every problem information-heavy (large table, labeled figure, or extra facts)."
   }
  ]
 }
