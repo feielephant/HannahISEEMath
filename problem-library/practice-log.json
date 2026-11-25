@@ -3181,9 +3181,43 @@
     }
    },
    "notes": "Vacation daily drill (parent 11/23). 8 open topics, each with a real last-third problem she missed and not secured since. Every problem multi-step with the stop-early number as a choice; wrong choices tagged by cause so grading can count \"stopped early\". Habit on the page: write the 1-3 words the question asks for before choosing.",
-   "published_commit": "17e61eea4f753d2f4a9ecbd9c1481dc184c9851c",
+   "published_commit": "6a2cb182dccac2cbc369acf98344294cfc725b74",
    "change_before_taken_2026-11-23": "Parent: 15 minutes for the first days (about 110 s per problem) while she learns the write-what-it-asks habit; plan 12 min on Days 3-4, 10 min from Day 5.",
-   "fix_2026-11-24": "#7 shipped without its rules box (unsolvable as published 11/23); rules box added 11/24. Builder now asserts any question pointing at a table/rules/figure has a diagram."
+   "fix_2026-11-24": "#7 shipped without its rules box (unsolvable as published 11/23); rules box added 11/24. Builder now asserts any question pointing at a table/rules/figure has a diagram.",
+   "fixed_commit_after_taken": "17e61eea4f753d2f4a9ecbd9c1481dc184c9851c",
+   "taken_note": "Taken 11/24 10:09-10:20 PM on the 6a2cb18 version (15 min, #7 had no rules box); #7 fix went live 10:25 PM. published_commit set to what she actually saw so grading shows it as administered.",
+   "graded_2026-11-24": {
+    "score": "4/7 (#7 not scored: rules box missing on the page she took)",
+    "wrong": [
+     2,
+     5,
+     6
+    ],
+    "blank": [
+     7
+    ],
+    "total_elapsed_minutes": 11.63,
+    "first_then_changed": {
+     "wrong_to_right": [],
+     "wrong_to_wrong": [],
+     "right_to_wrong": []
+    },
+    "notes_summary": {
+     "2": "\"3 times as wide\" taken as 3 times the volume",
+     "5": "Stopped early: gave Ava's count NOW",
+     "6": "Counted multiples of 9 only (skipped \"both\")"
+    },
+    "not_scored": [
+     7
+    ],
+    "wrong_causes": {
+     "2": "Known trap: thought 3 times as wide means 3 times the volume (24 &minus; 8)",
+     "5": "Stopped early: this is how many Ava has NOW",
+     "6": "Checked only 9"
+    },
+    "stop_early_count": 1,
+    "pacing": "7 problems in 11.6 of 15 min; slow: #3 242 s (right), #6 178 s (wrong); #5 26 s (wrong, stopped early)."
+   }
   }
  ]
 }
