@@ -133,7 +133,8 @@ add('Value of Digits',
     'the tens digit',
     'Largest means the big digits go first. Odd means the last digit is 3, 5, 7 or 9; to keep the front as big as possible, put the SMALLEST odd digit (3) last. The number is 987,523. Tens place: 2. Write the number with the place names under it before answering.',
     'Lower 3 QR #31 (last third, 61.6% right, her miss): smallest even number, tens place; Official QR #36 (her miss)',
-    'o o x o x o', 'Same build, flipped: largest and odd instead of smallest and even')
+    'o o x o x o', 'Same build, flipped: largest and odd instead of smallest and even',
+    rules_box('The number must have 6 digits.', 'The number must be odd.', 'The number must be the largest number possible.', 'Each digit can be used only once.'))
 
 # 8 probability: 2/5 purple means 3/5 not purple; asks the purple count (MA6 #21 asked the total; parent: no sense of 2/5 vs 3/5 yet)
 others = 5 + 4 + 3
@@ -150,6 +151,10 @@ add('Probability of 1 Event, given a List of Items',
     'o o o x o x', 'Harder: 2/5 is not a unit fraction (the real one is 1/3); asks the purple count like the real one, not the total like MA6 #21',
     table(['Color', 'Number'], [['Red', 5], ['Blue', 4], ['Green', 3], ['Purple', '?']], 'MARBLES IN THE BAG'))
 
+import re
+for p in P:
+    if re.search(r'these rules|the table|shown|the figure|the graph|the plot', p['q'], re.I):
+        assert p['diagram'], f"problem {p['n']} refers to something on the page but has no diagram"
 letters = Counter(p['correct'] for p in P)
 assert max(letters.values()) - min(letters.values()) <= 1, letters
 seq = ''.join(p['correct'] for p in P)
