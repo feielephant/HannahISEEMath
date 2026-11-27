@@ -3,7 +3,7 @@
   "n": 1,
   "tier": "Hard",
   "topic": "Nth Term, given Arithmetic Sequence, Progressive Pattern, etc.",
-  "q": "Use the number pattern to answer the question.<div style=\"margin:8px 0;font-size:1.15em;letter-spacing:0.15em\">2, 6, 18, 54, ?, ?</div>What is the sixth number in the pattern?",
+  "q": "Use the number pattern to answer the question.<div style=\"margin:8px 0;font-size:1.15em\">2&nbsp;&nbsp;&nbsp;6&nbsp;&nbsp;&nbsp;18&nbsp;&nbsp;&nbsp;54&nbsp;&nbsp;&nbsp;?&nbsp;&nbsp;&nbsp;?</div>What is the sixth number in the pattern?",
   "choices": {
    "A": "108",
    "B": "162",
@@ -12,7 +12,7 @@
   },
   "correct": "C",
   "key": "<b>Answer: C.</b> <i>The question asks for: the sixth number.</i> Each number is 3 times the one before: 54 &times; 3 = 162 (fifth), 162 &times; 3 = 486 (sixth). <br>Wrong choices: <b>A</b>: Known trap (like 54 on the real one, her pick): doubled the last number &middot; <b>B</b>: Stopped early: this is the fifth number &middot; <b>D</b>: One step too far (the seventh number)",
-  "ref": "Topic: Nth Term, given Arithmetic Sequence, Progressive Pattern, etc. &middot; Built on: Lower 3 MA #21 (last third, 80.0% right; her result: x) &middot; Her record: 6/17 &middot; o x x o x o &middot; last miss 11/17 &middot; Compared with the real one: Same: &times;3 pattern, find the sixth number; same kinds of wrong choices",
+  "ref": "Topic: Nth Term, given Arithmetic Sequence, Progressive Pattern, etc. &middot; Built on: Lower 3 MA #21 (last third, 80.0% right; her result: x) &middot; Her record: 6/17 &middot; o x x o x o &middot; last miss 11/17 &middot; Compared with the real one: Same as the real one: four numbers then two ? marks, asks the sixth; same kinds of wrong choices",
   "diagram": null,
   "gid": null,
   "ma_idx": null,

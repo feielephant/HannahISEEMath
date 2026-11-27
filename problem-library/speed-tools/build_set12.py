@@ -137,12 +137,12 @@ add('Comparing & Ordering Fractions & Decimals', 'Lower 6 QR #31', 64.4, 'o (98 
 seq7 = [2, 6, 18, 54]
 assert seq7[-1]*3 == 162 and 162*3 == 486 and 54*2 == 108
 add('Nth Term, given Arithmetic Sequence, Progressive Pattern, etc.', 'Lower 3 MA #21', 80.0, 'x', '6/17 &middot; o x x o x o &middot; last miss 11/17',
-    'Use the number pattern to answer the question.<div style="margin:8px 0;font-size:1.15em;letter-spacing:0.15em">2, 6, 18, 54, ?, ?</div>What is the sixth number in the pattern?',
+    'Use the number pattern to answer the question.<div style="margin:8px 0;font-size:1.15em">2&nbsp;&nbsp;&nbsp;6&nbsp;&nbsp;&nbsp;18&nbsp;&nbsp;&nbsp;54&nbsp;&nbsp;&nbsp;?&nbsp;&nbsp;&nbsp;?</div>What is the sixth number in the pattern?',
     ['108', '162', '486', '1,458'], '486',
     {'108': 'Known trap (like 54 on the real one, her pick): doubled the last number', '162': 'Stopped early: this is the fifth number', '1,458': 'One step too far (the seventh number)'},
     'the sixth number',
     'Each number is 3 times the one before: 54 &times; 3 = 162 (fifth), 162 &times; 3 = 486 (sixth).',
-    'Same: &times;3 pattern, find the sixth number; same kinds of wrong choices')
+    'Same as the real one: four numbers then two ? marks, asks the sixth; same kinds of wrong choices')
 add('Volume of Solids', 'Lower 1 QR #36', 37.2, 'x', '2/6 &middot; x o o o x o &middot; last miss 11/20',
     'The figure shown was made by joining two rectangular prisms. The side lengths are measured in feet. Which expression can be used to find the total volume of the figure? (V = lwh, where V = volume, l = length, w = width, and h = height.)',
     ['(2 &times; 5 &times; 4) + (6 &times; 5 &times; 3)', '(2 &times; 5 &times; 7) + (6 &times; 5 &times; 3)', '6 &times; 5 &times; 7', '(6 &times; 5 &times; 4) + (2 &times; 5 &times; 3)'],
