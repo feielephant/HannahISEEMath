@@ -72,13 +72,13 @@ def balance(left, right, scale=1.0):
     return f'<svg viewBox="0 0 {W} {H}" width="{w}" height="{h}" role="img" style="vertical-align:middle">{g}</svg>'
 
 P, MAP = [], {}
-def add(topic, ref, pct, her, record, q, ch, right, tags, asks, key, vs, diagram=None, free=False):
+def add(topic, ref, pct, her, record, q, ch, right, tags, asks, key, vs, diagram=None, free=False, order_pct=None):
     """ref/pct/her: the real last-third problem, its % right, and her result on it; record: her wrong/tries + last 6 + last miss.
     tags: {choice: cause} for the 3 wrong choices; free=True lets the builder reorder the choices to balance answer letters."""
     assert topic in T, topic
     assert len(set(ch)) == 4 and right in ch and set(tags) == set(ch) - {right}, (ref, ch)
     P.append(dict(topic=topic, ref=ref, pct=pct, her=her, record=record, q=q, ch=list(ch), right=right, tags=tags, asks=asks,
-                  key=key, vs=vs, diagram=diagram, free=free))
+                  key=key, vs=vs, diagram=diagram, free=free, order_pct=order_pct if order_pct is not None else pct))
 
 # ---------------- A. open weaknesses ----------------
 add('Percent Increase Decrease basic', 'Lower 4 QR #38', 40.6, 'x', '6/11 &middot; x o o o x o &middot; last miss 11/20',
@@ -106,13 +106,13 @@ add('Counting Multiples within a Range', 'Lower 5 MA #29', 63.7, 'x (134 s)', '6
     'The first multiple of 4 after 50 is 52 and the last before 90 is 88. List or count by 4s: 52, 56, ..., 88. (88 &minus; 52) &divide; 4 + 1 = 10.',
     'Same: one divisor, a range whose ends are not multiples; off-by-one choices like the real one')
 add('Comparing Volume of Cubes', 'Lower 4 QR #36', 48.2, 'x', '6/15 &middot; o o x o x o &middot; last miss 11/24',
-    'Cube A has sides that are 3 centimeters long. Cube B is 4 times as wide as Cube A. How many Cube A\'s can fit inside Cube B?',
-    ['12', '16', '64', '96'], '64',
-    {'12': 'Multiplied 4 by the 3 sides', '16': 'Squared the scale (one face only)', '96': 'Counted 16 per face times 6 faces (like 150 on the real one, her pick)'},
+    'Cube A has sides that are 5 millimeters long. Cube B is 3 times as wide as Cube A. How many Cube A\'s can fit inside Cube B?',
+    ['9', '15', '27', '54'], '27',
+    {'9': 'Squared the scale (one face only)', '15': 'Multiplied the scale by the side length (3 &times; 5)', '54': 'Counted 9 per face times 6 faces (like 150 on the real one, her pick)'},
     'how many Cube A\'s',
-    'Cube B is 4 times as long, 4 times as wide and 4 times as tall, so 4 &times; 4 &times; 4 = 64 Cube A\'s fit.',
+    'Cube B is 3 times as long, 3 times as wide and 3 times as tall, so 3 &times; 3 &times; 3 = 27 Cube A\'s fit. (The 5 mm does not change the count.)',
     'Same: scale factor cubed; the same kinds of wrong choices (&times;3, squared, faces)')
-assert 4**3 == 64 and 4**2*6 == 96
+assert 3**3 == 27 and 3**2*6 == 54 and 3*5 == 15
 add('Comparing Volume of Cubes', 'Lower 5 QR #38', 39.6, 'x (66 s)', '6/15 &middot; o o x o x o &middot; last miss 11/24',
     'The thousands cube shown has a volume of 1,000 cubic inches. Exactly 70 of these thousands cubes are used to make a new three-dimensional figure. Which expression represents the volume of the new figure in cubic inches?',
     ['7 &times; 10', '7 &times; 10 &times; 10 &times; 10', '7 &times; 10 &times; 10 &times; 10 &times; 10', '7 &times; 10 &times; 10 &times; 10 &times; 10 &times; 10'],
@@ -153,13 +153,13 @@ add('Volume of Solids', 'Lower 1 QR #36', 37.2, 'x', '2/6 &middot; x o o o x o &
     'Top prism: 2 wide, 5 deep, 4 tall. Bottom prism: 6 wide, 5 deep, 3 tall. Total = (2 &times; 5 &times; 4) + (6 &times; 5 &times; 3) = 40 + 90 = 130.',
     'Same: choose the expression for two joined prisms', joined_prisms_svg(2, 4, 6, 3, 5, sc=17).replace('font-size="11"', 'font-size="14"'), free=True)
 add('Translating Math Expressions', 'Lower 4 QR #35', 47.4, 'x', '7/21 &middot; o o o x x x &middot; last miss 11/25',
-    'Maya had &square; stickers, and then she gave &#9675; of them to Ben. Now Ben has &#9651; times as many stickers as Maya had. Which expression represents the number of stickers Ben had to begin with?',
+    'Nia had &square; seashells, and then she gave &#9675; of them to Sam. Now Sam has &#9651; times as many seashells as Nia had. Which expression represents the number of seashells Sam had to begin with?',
     ['&#9651; &times; &#9675; + &square;', '&#9651; &times; &#9675; &minus; &square;', '&#9651; &times; &square; + &#9675;', '&#9651; &times; &square; &minus; &#9675;'],
     '&#9651; &times; &square; &minus; &#9675;',
-    {'&#9651; &times; &#9675; + &square;': 'Multiplied the gift instead of what Maya had', '&#9651; &times; &#9675; &minus; &square;': 'Multiplied the gift (her pick on the real one)',
-     '&#9651; &times; &square; + &#9675;': 'Stopped at Ben NOW plus the gift again: went the wrong way in time'},
-    'Ben, at the beginning',
-    'Before | gift | now. Now Ben has &#9651; times what Maya HAD: &#9651; &times; &square;. That includes the &#9675; she gave him, so before the gift he had &#9651; &times; &square; &minus; &#9675;.',
+    {'&#9651; &times; &#9675; + &square;': 'Multiplied the gift instead of what Nia had', '&#9651; &times; &#9675; &minus; &square;': 'Multiplied the gift (her pick on the real one)',
+     '&#9651; &times; &square; + &#9675;': 'Stopped at Sam NOW plus the gift again: went the wrong way in time'},
+    'Sam, at the beginning',
+    'Before | gift | now. Now Sam has &#9651; times what Nia HAD: &#9651; &times; &square;. That includes the &#9675; she gave him, so before the gift he had &#9651; &times; &square; &minus; &#9675;.',
     'Same as the real one (times as many as she HAD); new story')
 add('Finding Area/Perimeter of Rectangle, given Length & Width', 'Lower 1 MA #30', 35.9, 'x', '6/20 &middot; x o o x x o &middot; last miss 11/20',
     'The perimeter of a square is 40 centimeters. If a rectangle with a width of 5 centimeters has the same area as the square, what is the length of the rectangle in centimeters?',
@@ -170,14 +170,14 @@ add('Finding Area/Perimeter of Rectangle, given Length & Width', 'Lower 1 MA #30
     'Square side = 40 &divide; 4 = 10, so its area is 10 &times; 10 = 100. The rectangle has area 100 and width 5: length = 100 &divide; 5 = 20.',
     'Same chain as the real one (perimeter &rarr; side &rarr; area &rarr; missing side), new numbers')
 assert 40 // 4 == 10 and 100 // 5 == 20
-pat = [4, 5, 7, 11, 19]
-assert [b - a for a, b in zip(pat, pat[1:])] == [1, 2, 4, 8] and 19 + 16 == 35
+pat = [5, 6, 8, 12, 20]
+assert [b - a for a, b in zip(pat, pat[1:])] == [1, 2, 4, 8] and 20 + 16 == 36
 add('Numerical Patterns', 'Lower 1 MA #21', 67.1, 'x', '8/30 &middot; o o o o x o &middot; last miss 11/20',
-    'Use the number pattern to answer the question.<div style="margin:8px 0;font-size:1.15em;letter-spacing:0.15em">4&nbsp; 5&nbsp; 7&nbsp; 11&nbsp; 19&nbsp; __</div>What is the next number in the pattern?',
-    ['23', '27', '35', '38'], '35',
-    {'23': 'Added 4 again', '27': 'Known trap (like 27 on the real one, her pick): added the last jump (8) again', '38': 'Doubled the last number'},
+    'Use the number pattern to answer the question.<div style="margin:8px 0;font-size:1.15em;letter-spacing:0.15em">5&nbsp; 6&nbsp; 8&nbsp; 12&nbsp; 20&nbsp; __</div>What is the next number in the pattern?',
+    ['24', '28', '36', '40'], '36',
+    {'24': 'Added 4 again', '28': 'Known trap (like 27 on the real one, her pick): added the last jump (8) again', '40': 'Doubled the last number'},
     'the next number',
-    'Jumps: +1, +2, +4, +8. Each jump doubles, so the next jump is +16: 19 + 16 = 35.',
+    'Jumps: +1, +2, +4, +8. Each jump doubles, so the next jump is +16: 20 + 16 = 36.',
     'Same: doubling jumps, next number')
 est12 = F(39*812, 20)
 assert 1200 < est12 < 2000 and F(40*800, 20) == 1600
@@ -232,15 +232,15 @@ add('Area and Perimeter of Complex Polygons', 'Lower 1 QR #38', 33.8, 'x', '8/40
     'perimeter of the triangle',
     'Square side = 36 &divide; 4 = 9. The largest polygon\'s outside has 3 square sides (27) and the triangle\'s 2 outside sides, so those two add to 54 &minus; 27 = 27. The triangle also has the shared side: 27 + 9 = 36.',
     'Same: square + triangle sharing a side, two perimeters given', fig16)
-unk17 = (30 - 2*11) // 2
-assert unk17 == 4 and 2*unk17 - unk17 == 4
-fig17 = svg(230, 120, f'<rect x="20" y="15" width="165" height="70" {SW}/>' + txt(102, 106, '11 cm') + txt(206, 55, '?', 16))
+unk17 = (34 - 2*12) // 2
+assert unk17 == 5 and 2*unk17 - unk17 == 5
+fig17 = svg(230, 120, f'<rect x="20" y="15" width="165" height="70" {SW}/>' + txt(102, 106, '12 cm') + txt(206, 55, '?', 16))
 add('Perimeter', 'Lower 5 QR #33', 66.1, 'x (145 s)', '8/40 &middot; o o o o o x &middot; last miss 11/25',
-    'Ben builds picture frames. The first rectangular frame he builds has a perimeter of 30 centimeters (cm). The length of one of the sides is shown. If the unknown side length of the next frame he builds is doubled, by what amount will he increase the unknown side length of the next frame?',
-    ['4', '8', '15', '19'], '4',
-    {'8': 'Gave the new side length, not the increase', '15': 'Half the perimeter (the two sides together)', '19': 'Subtracted only one side (30 &minus; 11)'},
+    'Ben builds picture frames. The first rectangular frame he builds has a perimeter of 34 centimeters (cm). The length of one of the sides is shown. If the unknown side length of the next frame he builds is doubled, by what amount will he increase the unknown side length of the next frame?',
+    ['5', '10', '17', '22'], '5',
+    {'10': 'Gave the new side length, not the increase', '17': 'Half the perimeter (the two sides together)', '22': 'Subtracted only one side (34 &minus; 12)'},
     'the increase',
-    'Two 11 cm sides use 22 cm, so the two unknown sides use 30 &minus; 22 = 8 cm: each is 4 cm. Doubled, it becomes 8 cm, an increase of 4 cm.',
+    'Two 12 cm sides use 24 cm, so the two unknown sides use 34 &minus; 24 = 10 cm: each is 5 cm. Doubled, it becomes 10 cm, an increase of 5 cm.',
     'Same as the real one, new numbers', fig17)
 fig18 = svg(330, 185, f'<polygon points="80,22 155,22 155,112 260,112 260,157 80,157" {SW}/>' + txt(118, 16, '5 miles') + txt(72, 94, '8 miles', 14, 'end')
             + txt(170, 177, '12 miles') + txt(268, 139, '3 miles', 14, 'start'))
@@ -274,30 +274,8 @@ add('Finding Ratios given Probability', 'Lower 1 QR #34', 42.4, 'o', '3/28 &midd
     'Same: probability as "out of", choose the combination', free=True)
 def fits(n): return F(n, 6) + F(1, 3) <= 1
 assert F(1, 6) + F(1, 3) == F(1, 2) and F(3, 6) + F(1, 3) == F(5, 6) > F(3, 4) and F(4, 6) + F(1, 3) == 1 and not fits(5)
-add('Adding and Subtracting Fractions', 'Lower 2 QR #36', 43.6, 'x', '1/13 &middot; not practiced since 11/6 &middot; last miss 9/13',
-    'Lily has two equal-sized jars of rice. The first jar is ' + frac('n', 6) + ' full. The second jar is ' + frac(1, 3) + ' full. The rice from these jars will be combined by pouring the rice from the first jar into the second jar. Which statement best describes the amount of rice once the jars are combined?',
-    ['If n = 1, then the amount of rice is less than ' + frac(1, 2) + ' of a jar.', 'If n = 3, then the amount of rice is less than ' + frac(3, 4) + ' of a jar.',
-     'If n = 4, then the rice will not all fit in 1 jar.', 'If n = 5, then the rice will not all fit in 1 jar.'],
-    'If n = 5, then the rice will not all fit in 1 jar.',
-    {'If n = 1, then the amount of rice is less than ' + frac(1, 2) + ' of a jar.': 'It is exactly 1/2, not less',
-     'If n = 3, then the amount of rice is less than ' + frac(3, 4) + ' of a jar.': '3/6 + 1/3 = 5/6, more than 3/4',
-     'If n = 4, then the rice will not all fit in 1 jar.': 'Known trap (like her pick on the real one): 4/6 + 1/3 is exactly 1 jar, so it fits'},
-    'which statement is true',
-    'Use sixths: 1/3 = 2/6. n = 5: 5/6 + 2/6 = 7/6, more than 1 jar, so it will not all fit. (n = 1 gives exactly 1/2; n = 3 gives 5/6; n = 4 gives exactly 1 jar.)',
-    'Same: n/denominator + a fraction, check four statements')
 # ---------------- B. missed often before, right since ----------------
 assert 10*10 == 100 and 8*12 == 96 and 4*10 == 2*(8 + 12)
-add('Comparing Areas', 'Lower 2 QR #38', 41.1, 'x', '4/10 &middot; x o o o o o &middot; last miss 11/3',
-    'The floor of Room A is in the shape of a square and has an area of 100 feet&sup2;. The floor of Room B is in the shape of a rectangle and has a length of 12 feet and a width of 8 feet. Which statement correctly compares the floors in the two rooms?',
-    ['The area of the floor in Room A is the same as the area of the floor in Room B.', 'The area of the floor in Room A is less than the area of the floor in Room B.',
-     'The perimeter of the floor in Room A is less than the perimeter of the floor in Room B.', 'The perimeter of the floor in Room A is equal to the perimeter of the floor in Room B.'],
-    'The perimeter of the floor in Room A is equal to the perimeter of the floor in Room B.',
-    {'The area of the floor in Room A is the same as the area of the floor in Room B.': '100 vs 96: not the same',
-     'The area of the floor in Room A is less than the area of the floor in Room B.': 'Room A is larger (100 &gt; 96)',
-     'The perimeter of the floor in Room A is less than the perimeter of the floor in Room B.': 'Known trap (her pick on the real one): both are 40 feet'},
-    'which statement is true',
-    'Room A: side = 10 (10 &times; 10 = 100), perimeter 40. Room B: area 96, perimeter 2 &times; (12 + 8) = 40. The perimeters are equal.',
-    'Same: square from its area vs a rectangle, compare area and perimeter', free=True)
 assert 4*15 == 6*10 == 60 and 7*8 != 60 and 4*16 != 60 and 6*11 != 60
 add('Comparing Areas', 'Lower 2 QR #29', 65.1, 'x', '4/10 &middot; x o o o o o &middot; last miss 11/3',
     'The length and width of the array shown represent two factors of a number.<div style="margin:8px 0">' + grid_array(4, 15) + '</div>Which array represents two different factors of the same number?',
@@ -307,13 +285,13 @@ add('Comparing Areas', 'Lower 2 QR #29', 65.1, 'x', '4/10 &middot; x o o o o o &
     'The array shown is 4 rows of 15 = 60. Count each choice: 6 &times; 10 = 60 (the same number, with different factors), 7 &times; 8 = 56, 6 &times; 11 = 66, 4 &times; 16 = 64.',
     'Same: a factor-pair array, find another array with the same product; near-miss arrays as choices', free=True)
 add('Data Collection & Random Sampling', 'Lower 6 QR #38', 18.4, 'x (135 s)', '3/9 &middot; x x o o o o &middot; last miss 11/10',
-    'Ms. Ortiz\'s class watched a bird feeder and collected data. They listed what they observed in categories or groups.<div style="margin:8px 0 8px 12px">1. Kinds of birds seen: robin, blue jay, cardinal, sparrow<br>2. Color of each bird\'s feathers<br>3. ?</div>Which information best completes the class\'s observation list?',
-    ['the number of minutes each bird stayed at the feeder', 'how many seeds each bird ate', 'how many of each kind of bird visited', 'the type of food each bird ate'],
-    'the type of food each bird ate',
-    {'the number of minutes each bird stayed at the feeder': 'A number (measure), not a category like the list', 'how many seeds each bird ate': 'A number (count), not a category',
-     'how many of each kind of bird visited': 'A count, not a category (her pick type on the real one)'},
+    'Mr. Kim\'s class studied the trees in a park. They listed what they observed in categories or groups.<div style="margin:8px 0 8px 12px">1. Kinds of trees: oak, maple, pine, birch<br>2. Shape of each tree\'s leaves<br>3. ?</div>Which information best completes the class\'s observation list?',
+    ['the height of each tree in feet', 'how many leaves fell from each tree', 'how many of each kind of tree grew in the park', 'the color of each tree\'s bark'],
+    'the color of each tree\'s bark',
+    {'the height of each tree in feet': 'A number (measure), not a category like the list', 'how many leaves fell from each tree': 'A number (count), not a category',
+     'how many of each kind of tree grew in the park': 'A count, not a category (her pick type on the real one)'},
     'a category like the other two',
-    'Items 1 and 2 are categories (kinds of birds, colors). Three choices ask for a number; only "the type of food" is a category. Find the one choice that is different from the other three.',
+    'Items 1 and 2 are categories (kinds of trees, leaf shapes). Three choices ask for a number; only "the color of the bark" is a category. Find the one choice that is different from the other three.',
     'Same: complete a list of categories; three numeric choices and one category', free=True)
 assert (6 - 3) + (9 - 3) == 9 and 3 + 3 == 6 and 15 - 3 == 12 and F(2, 3)*15 == 10
 add('Remaining Amount after Reducing by Fractions', 'Lower 1 MA #25', 64.9, 'x', '5/17 &middot; x x o o o o &middot; last miss 11/6',
@@ -325,12 +303,6 @@ add('Remaining Amount after Reducing by Fractions', 'Lower 1 MA #25', 64.9, 'x',
     'Same: a different unit fraction of each of two groups, how many left')
 def dsum(n): return sum(map(int, str(n)))
 assert 5103 % 9 == 0 and 5129 % 9 and 5127 % 9 and 5127 % 3 == 0 and 5919 % 9 and dsum(5103) == 9
-add('No Remainder when Divided by a given Number', 'Lower 1 MA #24', 68.1, 'x', '7/24 &middot; o o o o o o &middot; last miss 11/3',
-    'Which whole number is divisible by 9?', ['5,103', '5,127', '5,129', '5,919'], '5,103',
-    {'5,127': 'Known trap (like her pick on the real one): digit sum 15 is divisible by 3, not by 9', '5,129': 'Digit sum 17', '5,919': 'Ends in 9, but digit sum 24 is not a multiple of 9'},
-    'divisible by 9',
-    'A number is divisible by 9 when its digits add to a multiple of 9. 5 + 1 + 0 + 3 = 9, so 5,103 &divide; 9 = 567.',
-    'Same: four 4-digit numbers, digit-sum rule for 9; one choice divisible by 3 only')
 # balance: scale 1: T C C = T S -> C C = S ; scale 2: C C S = T T -> S S = T T -> S = T
 add('Interpreting Pictographs', 'Lower 5 QR #34', 63.1, 'x (24 s)', '8/30 &middot; o o o o o o &middot; last miss 11/3',
     'The scales shown are balanced.<div style="margin:8px 0">' + balance('TCC', 'TS') + '<br>' + balance('CCS', 'TT') + '</div>Which set of figures would create a balanced scale?',
@@ -372,13 +344,6 @@ add('Identifying Correct Conclusions from Bar Graph Data Table', 'Lower 2 QR #37
     'which conclusion is true',
     'Values: 32, 35, 35, 38, 40, 44, 44, 44, 47, 51, 56, 59, 60, 63. At least 51: 51, 56, 59, 60, 63 = 5 plants.',
     'Same: 14 values on 4 stems, an "at least ... exactly" count is true', stem_plot('PLANT HEIGHTS (CM)', stem30))
-add('Identifying Shapes', 'Lower 5 MA #28', 62.0, 'x (18 s)', '3/24 &middot; o o o o o o &middot; last miss 11/15',
-    'Which figure best describes a quadrilateral with all four sides equal and angles that are not right angles?',
-    ['parallelogram', 'rhombus', 'square', 'trapezoid'], 'rhombus',
-    {'parallelogram': 'Known trap (her pick on the real one): a parallelogram\'s sides need not all be equal', 'square': 'A square has four right angles', 'trapezoid': 'Only one pair of parallel sides'},
-    'name of the shape',
-    'Four equal sides is a rhombus. A square is a rhombus with right angles, so a rhombus without right angles is not a square.',
-    'Same: describe a quadrilateral, choose its name (rhombus, as on the real one)')
 add('Interpreting Linear Equations from Word Problems', 'Lower 1 QR #33', 54.4, 'x', '1/7 &middot; x o o o o o &middot; last miss 8/30',
     'A baker frosted &square; cupcakes in the morning and &#9675; cupcakes in the afternoon. She used &#9651; grams of frosting on each cupcake. Which expression represents the total amount of frosting, in grams, the baker used?',
     ['(&square; + &#9675;) &divide; &#9651;', '(&square; + &#9675;) + &#9651;', '(&square; + &#9675;) &times; &#9651;', '&square; + &#9675; &times; &#9651;'],
@@ -409,13 +374,6 @@ add('Comparing Volume of Cubes', 'Lower 3 QR #29', 72.2, 'x', '6/15 &middot; o o
 # --- the 4 the parent had rested on 11/19, approved again 11/27 ---
 ch35 = [2104, 2140, 2330, 2500]
 assert [c % 8 == 0 for c in ch35] == [True, False, False, False] and 2140 % 4 == 0 and 2500 % 4 == 0 and 2330 % 2 == 0
-add('No Remainder when Divided by a given Number', 'Lower 1 MA #29', 39.1, 'x', '7/24 &middot; o o o o o o &middot; last miss 11/3',
-    'Ava and 7 other students have each sold an equal number of raffle tickets. Which number could represent the total number of raffle tickets the students have sold?',
-    ['2,104', '2,140', '2,330', '2,500'], '2,104',
-    {'2,140': 'Known trap (like her pick on the real one): divisible by 4, not by 8', '2,330': 'Divisible by 2 only', '2,500': 'Divisible by 4, not by 8'},
-    'divisible by 8 (Ava + 7 = 8 students)',
-    'Ava and 7 others make 8 students, so the total must be divisible by 8. 2,104 &divide; 8 = 263. (Check the last three digits: 104 &divide; 8 = 13.)',
-    'Same: "and 7 others" = 8, choose the multiple of 8; two choices divisible by 4 only')
 for p_, c_ in ((2, 4), (3, 9), (5, 6), (2, 9)):
     pr = p_ * c_
     assert any(pr % d == 0 for d in range(2, pr)) and pr > 1
@@ -429,14 +387,14 @@ add('Classification of Numbers, given a Set', 'Lower 2 MA #29', 34.4, 'x', '1/14
     'Try examples: 2 &times; 4 = 8 (even), 3 &times; 9 = 27 (odd). Odd and even both fail once. Both factors are greater than 1, so the product always has those factors: it is always composite.',
     'Same: classify a product of two kinds of numbers; prime &times; composite instead of prime &times; odd')
 add('Area of Triangles', 'Lower 2 MA #30', 32.1, 'x', '2/8 &middot; o o x o o o &middot; last miss 11/6',
-    'The base of a triangle is 10 meters (m). Which statement correctly compares the value of A to the base and height of the triangle? (A = ' + frac(1, 2) + ' &times; base &times; height)',
-    ['The value of A is always ' + frac(1, 2) + ' the value of the height.', 'The value of A is always 5 times the value of the height.', 'The value of A is always 10 times the value of the height.', 'The value of A can be the same as the value of the height.'],
-    'The value of A is always 5 times the value of the height.',
-    {'The value of A is always ' + frac(1, 2) + ' the value of the height.': 'Used only the 1/2', 'The value of A is always 10 times the value of the height.': 'Forgot the 1/2',
-     'The value of A can be the same as the value of the height.': 'Known trap (her pick on the real one): A = 5 &times; height, never equal (unless 0)'},
+    'The base of a triangle is 16 meters (m). Which statement correctly compares the value of A to the base and height of the triangle? (A = ' + frac(1, 2) + ' &times; base &times; height)',
+    ['The value of A is always ' + frac(1, 2) + ' the value of the height.', 'The value of A is always 8 times the value of the height.', 'The value of A is always 16 times the value of the height.', 'The value of A can be the same as the value of the height.'],
+    'The value of A is always 8 times the value of the height.',
+    {'The value of A is always ' + frac(1, 2) + ' the value of the height.': 'Used only the 1/2', 'The value of A is always 16 times the value of the height.': 'Forgot the 1/2',
+     'The value of A can be the same as the value of the height.': 'Known trap (her pick on the real one): A = 8 &times; height, never equal (unless 0)'},
     'how A compares with the height',
-    'A = 1/2 &times; 10 &times; height = 5 &times; height. So A is always 5 times the height.',
-    'Same: fixed base, compare A to the height (base 10 instead of 6)')
+    'A = 1/2 &times; 16 &times; height = 8 &times; height. So A is always 8 times the height.',
+    'Same: fixed base, compare A to the height (base 16 instead of 6)')
 add('Data Collection & Random Sampling', 'Lower 5 MA #30', 18.8, 'x (282 s)', '3/9 &middot; x x o o o o &middot; last miss 11/10',
     'The table shows some of the characteristics and data gathered by a scientist about a particular type of lizard. Which question is NOT a valid statistical question based on the data in the table?',
     ['How long was each lizard?', 'What mass did each lizard have?', 'How many toes did each foot have?', 'What was the ratio of mass to length for each lizard?'],
@@ -448,9 +406,83 @@ add('Data Collection & Random Sampling', 'Lower 5 MA #30', 18.8, 'x (282 s)', '3
     'Same as the real one: data table with two rows that do not vary; includes the ratio choice the real test used (MA6 #7 left it out)',
     table(['Characteristic', 'Data'], [['Length', '12 to 18 (cm)'], ['Mass', '40 to 75 (g)'], ['Number of eyes', '2'], ['Number of toes on each foot', '5']], 'LIZARD DATA'), free=True)
 
+
+# ---- replacements (parent 11/27): 5 secured problems out, 5 open gaps in ----
+def tile(diag, corner, s_=44, cross=False, mark=None, q=False):
+    """A square tile with one diagonal ('\\' or '/'), both if cross, and a small black square in a corner (TL/TR/BL/BR) or at a mark point."""
+    b = s_*0.2; g = ''
+    g += f'<rect x="1" y="1" width="{s_}" height="{s_}" fill="none" stroke="currentColor" stroke-width="1.6"/>'
+    if q: return svg(s_ + 2, s_ + 2, g + txt(s_/2 + 1, s_/2 + 8, '?', 22))
+    if diag == '\\' or cross: g += f'<line x1="1" y1="1" x2="{s_+1}" y2="{s_+1}" stroke="currentColor" stroke-width="1.4"/>'
+    if diag == '/' or cross: g += f'<line x1="1" y1="{s_+1}" x2="{s_+1}" y2="1" stroke="currentColor" stroke-width="1.4"/>'
+    pos = {'TL': (5, 5), 'TR': (s_ - b - 3, 5), 'BL': (5, s_ - b - 3), 'BR': (s_ - b - 3, s_ - b - 3), 'TM': ((s_ - b)/2 + 1, 5), 'LM': (5, (s_ - b)/2 + 1)}[corner if not mark else mark]
+    g += f'<rect x="{pos[0]:.1f}" y="{pos[1]:.1f}" width="{b:.1f}" height="{b:.1f}" fill="currentColor"/>'
+    return svg(s_ + 2, s_ + 2, g)
+def design():
+    t = 44
+    def place(x, y, inner): return f'<g transform="translate({x},{y})">{inner[inner.index(">")+1:-6]}</g>'
+    body = (place(0, 0, tile('/', 'TL')) + place(2*t, 0, tile(None, None, q=True)) + place(t, t, tile(None, None, cross=True, mark='LM'))
+            + place(0, 2*t, tile('\\', 'BL')) + place(2*t, 2*t, tile('\\', 'TR')))
+    return svg(3*t + 4, 3*t + 4, body)
+# mirror across a HORIZONTAL line (like the real one): '\\' <-> '/', top <-> bottom
+mir = {'\\': '/', '/': '\\'}; mc = {'TL': 'BL', 'BL': 'TL', 'TR': 'BR', 'BR': 'TR'}
+assert (mir['/'], mc['TL']) == ('\\', 'BL') and (mir['\\'], mc['TR']) == ('/', 'BR')   # top-left -> given bottom-left; given bottom-right -> missing top-right
+# every black square sits off its tile's diagonal ('/' joins BL-TR, '\\' joins TL-BR)
+for d_, c_ in (('/', 'TL'), ('\\', 'BL'), ('\\', 'TR'), ('/', 'BR')):
+    assert c_ not in ({'/': ('BL', 'TR'), '\\': ('TL', 'BR')}[d_])
+add('Shape Construction & Symmetry in 2-D Figures', 'Lower 5 QR #29', 70.5, 'x (23 s)', '1/11 &middot; o x o o o o &middot; not practiced since 11/10 &middot; last miss 11/1',
+    'The design, when completed, has one line of symmetry.<div style="margin:8px 0">' + design() + '</div>Which tile, without rotating, correctly completes the design?',
+    [tile('\\', 'TR'), tile('/', 'BR'), tile('/', 'TL'), tile('\\', 'BL')], tile('/', 'BR'),
+    {tile('\\', 'TR'): 'Copied the bottom-right tile without flipping it', tile('/', 'TL'): 'Flipped it the wrong way (left to right): right diagonal, square in the opposite corner (like her pick on the real one)',
+     tile('\\', 'BL'): 'Kept the diagonal and moved the square: not a mirror image'},
+    'the tile that makes it symmetric',
+    'The line of symmetry is horizontal (through the middle tile and its black square on the left side). The top row mirrors the bottom row. The missing top-right tile is the bottom-right tile flipped top to bottom: its diagonal goes the other way and its black square moves from the top-right corner to the bottom-right corner. Check with the left column: top-left and bottom-left are mirror images too.',
+    'Same build as the real one (X of five tiles, one corner missing, a horizontal line of symmetry); a different corner is missing', free=True)
+
+sp = {'Soccer': 21, 'Basketball': 18, 'Swimming': 6, 'Tennis': 15}
+tot_sp = sum(sp.values())
+assert tot_sp == 60 and F(sp['Soccer']*20, tot_sp) == 7 and F(sp['Swimming']*20, tot_sp) == 2 and sp['Soccer']*3 == 63
+add('Patterns in Data Tables and Lists', 'Lower 2 QR #34', 56.3, 'x', 'x o (same build: Lower 2 QR #34, Vacation Day 2 #1)',
+    'The table shows the favorite sports of a group of students. Based on the information in the table, what is the most reasonable prediction of the number of students who would choose soccer out of the next 20 students?',
+    ['2', '7', '18', '63'], '7',
+    {'2': 'Predicted swimming, not soccer', '18': 'Gave a table count (basketball), not a prediction', '63': 'Multiplied by 3 instead of dividing (like 72 on the real one)'},
+    'how many of the next 20 choose soccer',
+    'First the total, which is not given: 21 + 18 + 6 + 15 = 60. 20 is one third of 60, so the prediction is one third of the soccer count: 21 &divide; 3 = 7.',
+    'Same as the real one: one group, total not given, a smaller next group',
+    table(['Sport', 'Number of Students'], [[k, v] for k, v in sp.items()], 'FAVORITE SPORTS'))
+
+assert 7**3 == 343 and 49*2 == 98 and 49*3 == 147 and 49*6 == 294
+add('Comparing Volume of Cubes', 'WTE QR #28', 65.1, 'x', '6/15 &middot; o o x o x o &middot; last miss 11/24',
+    'Use the diagram of the cube to answer the question. How many small cubes are being used to build the large cube?',
+    ['98', '147', '294', '343'], '343',
+    {'98': 'Counted two faces (49 + 49)', '147': 'Counted only the three faces you can see (like 48 on the real one)', '294': 'Counted all six faces (49 &times; 6), not the cubes inside'},
+    'how many small cubes',
+    'Each edge is 7 small cubes long, so the large cube is 7 &times; 7 &times; 7 = 343 small cubes. Counting faces counts only the outside, and counts edge cubes more than once.',
+    'Same as the real one (4 &times; 4 &times; 4 there), 7 &times; 7 &times; 7 here', thousands_cube(n=7, s=17))
+
+add('Translating Math Expressions', 'Lower 4 QR #35', 47.4, 'x', '7/21 &middot; o o o x x x &middot; last miss 11/25',
+    'Omar had &square; marbles. Then Lila gave him &#9675; marbles. Now Omar has &#9651; times as many marbles as Lila had at first. Which expression represents the number of marbles Lila had at first?',
+    ['(&square; + &#9675;) &divide; &#9651;', '&square; &divide; &#9651; + &#9675;', '(&square; &minus; &#9675;) &divide; &#9651;', '&#9651; &times; (&square; + &#9675;)'],
+    '(&square; + &#9675;) &divide; &#9651;',
+    {'&square; &divide; &#9651; + &#9675;': 'Divided before adding the gift: used what Omar had BEFORE', '(&square; &minus; &#9675;) &divide; &#9651;': 'Went the wrong way in time: took the gift away from Omar',
+     '&#9651; &times; (&square; + &#9675;)': 'Multiplied instead of divided'},
+    'Lila, at first',
+    'Before | gift | now. Now Omar has &square; + &#9675;. That is &#9651; times what Lila had at first, so Lila had (&square; + &#9675;) &divide; &#9651;.',
+    'Same timeline idea as the real one, asked from the other side (who had how many at first)', free=True, order_pct=30.0)
+
+win = [k for k in range(120, 161) if k % 6 == 0]
+assert len(win) == 7 and win[0] == 120 and win[-1] == 156
+add('Counting Multiples within a Range', 'Lower 5 MA #29', 63.7, 'x (134 s)', '6/12 &middot; o o x x x &middot; last miss 11/25',
+    'At a school fair, raffle tickets are numbered from 120 to 160. Every ticket whose number is divisible by 6 wins a prize. How many tickets win a prize?',
+    ['5', '6', '7', '8'], '7',
+    {'5': 'Missed both ends', '6': 'Left out ticket 120 (it is divisible by 6 and is on the list)', '8': 'Estimated 40 &divide; 6 and rounded up, or counted 162'},
+    'how many winning tickets',
+    'The tickets start at 120, and 120 &divide; 6 = 20, so 120 wins. Count by 6s: 120, 126, 132, 138, 144, 150, 156 (162 is past 160). That is 7 tickets.',
+    'Same as the real one (count multiples in a range) as a story; this time the first number IS a multiple and counts', order_pct=52.0)
+
 assert len(P) == 38, len(P)
 # ---- order by the real problem's % right, highest first (rising difficulty, like the real test) ----
-P.sort(key=lambda p: -p['pct'])
+P.sort(key=lambda p: -p['order_pct'])
 # keep the two data-collection problems apart (both are the hardest by % right): move Lower 5 MA #30 up 4 places
 k = next(i for i, p in enumerate(P) if p['ref'] == 'Lower 5 MA #30'); P.insert(k - 4, P.pop(k))
 # ---- balance answer letters: numeric/ordered choices stay put; "free" ones may be rotated ----

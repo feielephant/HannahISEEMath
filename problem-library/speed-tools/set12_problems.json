@@ -71,6 +71,29 @@
  {
   "n": 4,
   "tier": "Hard",
+  "topic": "Shape Construction & Symmetry in 2-D Figures",
+  "q": "The design, when completed, has one line of symmetry.<div style=\"margin:8px 0\"><svg viewBox=\"0 0 136 136\" width=\"136\" height=\"136\" role=\"img\"><g transform=\"translate(0,0)\"><rect x=\"1\" y=\"1\" width=\"44\" height=\"44\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\"/><line x1=\"1\" y1=\"45\" x2=\"45\" y2=\"1\" stroke=\"currentColor\" stroke-width=\"1.4\"/><rect x=\"5.0\" y=\"5.0\" width=\"8.8\" height=\"8.8\" fill=\"currentColor\"/></g><g transform=\"translate(88,0)\"><rect x=\"1\" y=\"1\" width=\"44\" height=\"44\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\"/><text x=\"23.0\" y=\"30.0\" font-size=\"22\" text-anchor=\"middle\" fill=\"currentColor\">?</text></g><g transform=\"translate(44,44)\"><rect x=\"1\" y=\"1\" width=\"44\" height=\"44\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\"/><line x1=\"1\" y1=\"1\" x2=\"45\" y2=\"45\" stroke=\"currentColor\" stroke-width=\"1.4\"/><line x1=\"1\" y1=\"45\" x2=\"45\" y2=\"1\" stroke=\"currentColor\" stroke-width=\"1.4\"/><rect x=\"5.0\" y=\"18.6\" width=\"8.8\" height=\"8.8\" fill=\"currentColor\"/></g><g transform=\"translate(0,88)\"><rect x=\"1\" y=\"1\" width=\"44\" height=\"44\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\"/><line x1=\"1\" y1=\"1\" x2=\"45\" y2=\"45\" stroke=\"currentColor\" stroke-width=\"1.4\"/><rect x=\"5.0\" y=\"32.2\" width=\"8.8\" height=\"8.8\" fill=\"currentColor\"/></g><g transform=\"translate(88,88)\"><rect x=\"1\" y=\"1\" width=\"44\" height=\"44\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\"/><line x1=\"1\" y1=\"1\" x2=\"45\" y2=\"45\" stroke=\"currentColor\" stroke-width=\"1.4\"/><rect x=\"32.2\" y=\"5.0\" width=\"8.8\" height=\"8.8\" fill=\"currentColor\"/></g></svg></div>Which tile, without rotating, correctly completes the design?",
+  "choices": {
+   "A": "<svg viewBox=\"0 0 46 46\" width=\"46\" height=\"46\" role=\"img\"><rect x=\"1\" y=\"1\" width=\"44\" height=\"44\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\"/><line x1=\"1\" y1=\"45\" x2=\"45\" y2=\"1\" stroke=\"currentColor\" stroke-width=\"1.4\"/><rect x=\"32.2\" y=\"32.2\" width=\"8.8\" height=\"8.8\" fill=\"currentColor\"/></svg>",
+   "B": "<svg viewBox=\"0 0 46 46\" width=\"46\" height=\"46\" role=\"img\"><rect x=\"1\" y=\"1\" width=\"44\" height=\"44\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\"/><line x1=\"1\" y1=\"45\" x2=\"45\" y2=\"1\" stroke=\"currentColor\" stroke-width=\"1.4\"/><rect x=\"5.0\" y=\"5.0\" width=\"8.8\" height=\"8.8\" fill=\"currentColor\"/></svg>",
+   "C": "<svg viewBox=\"0 0 46 46\" width=\"46\" height=\"46\" role=\"img\"><rect x=\"1\" y=\"1\" width=\"44\" height=\"44\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\"/><line x1=\"1\" y1=\"1\" x2=\"45\" y2=\"45\" stroke=\"currentColor\" stroke-width=\"1.4\"/><rect x=\"5.0\" y=\"32.2\" width=\"8.8\" height=\"8.8\" fill=\"currentColor\"/></svg>",
+   "D": "<svg viewBox=\"0 0 46 46\" width=\"46\" height=\"46\" role=\"img\"><rect x=\"1\" y=\"1\" width=\"44\" height=\"44\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\"/><line x1=\"1\" y1=\"1\" x2=\"45\" y2=\"45\" stroke=\"currentColor\" stroke-width=\"1.4\"/><rect x=\"32.2\" y=\"5.0\" width=\"8.8\" height=\"8.8\" fill=\"currentColor\"/></svg>"
+  },
+  "correct": "A",
+  "key": "<b>Answer: A.</b> <i>The question asks for: the tile that makes it symmetric.</i> The line of symmetry is horizontal (through the middle tile and its black square on the left side). The top row mirrors the bottom row. The missing top-right tile is the bottom-right tile flipped top to bottom: its diagonal goes the other way and its black square moves from the top-right corner to the bottom-right corner. Check with the left column: top-left and bottom-left are mirror images too. <br>Wrong choices: <b>D</b>: Copied the bottom-right tile without flipping it &middot; <b>B</b>: Flipped it the wrong way (left to right): right diagonal, square in the opposite corner (like her pick on the real one) &middot; <b>C</b>: Kept the diagonal and moved the square: not a mirror image",
+  "ref": "Topic: Shape Construction & Symmetry in 2-D Figures &middot; Built on: Lower 5 QR #29 (last third, 70.5% right; her result: x (23 s)) &middot; Her record: 1/11 &middot; o x o o o o &middot; not practiced since 11/10 &middot; last miss 11/1 &middot; Compared with the real one: Same build as the real one (X of five tiles, one corner missing, a horizontal line of symmetry); a different corner is missing",
+  "diagram": null,
+  "gid": null,
+  "ma_idx": null,
+  "tags": {
+   "D": "Copied the bottom-right tile without flipping it",
+   "B": "Flipped it the wrong way (left to right): right diagonal, square in the opposite corner (like her pick on the real one)",
+   "C": "Kept the diagonal and moved the square: not a mirror image"
+  }
+ },
+ {
+  "n": 5,
+  "tier": "Hard",
   "topic": "Area and Perimeter of Complex Polygons",
   "q": "What is the perimeter of the figure?",
   "choices": {
@@ -92,41 +115,18 @@
   }
  },
  {
-  "n": 5,
-  "tier": "Hard",
-  "topic": "No Remainder when Divided by a given Number",
-  "q": "Which whole number is divisible by 9?",
-  "choices": {
-   "A": "5,103",
-   "B": "5,127",
-   "C": "5,129",
-   "D": "5,919"
-  },
-  "correct": "A",
-  "key": "<b>Answer: A.</b> <i>The question asks for: divisible by 9.</i> A number is divisible by 9 when its digits add to a multiple of 9. 5 + 1 + 0 + 3 = 9, so 5,103 &divide; 9 = 567. <br>Wrong choices: <b>B</b>: Known trap (like her pick on the real one): digit sum 15 is divisible by 3, not by 9 &middot; <b>C</b>: Digit sum 17 &middot; <b>D</b>: Ends in 9, but digit sum 24 is not a multiple of 9",
-  "ref": "Topic: No Remainder when Divided by a given Number &middot; Built on: Lower 1 MA #24 (last third, 68.1% right; her result: x) &middot; Her record: 7/24 &middot; o o o o o o &middot; last miss 11/3 &middot; Compared with the real one: Same: four 4-digit numbers, digit-sum rule for 9; one choice divisible by 3 only",
-  "diagram": null,
-  "gid": null,
-  "ma_idx": null,
-  "tags": {
-   "B": "Known trap (like her pick on the real one): digit sum 15 is divisible by 3, not by 9",
-   "C": "Digit sum 17",
-   "D": "Ends in 9, but digit sum 24 is not a multiple of 9"
-  }
- },
- {
   "n": 6,
   "tier": "Hard",
   "topic": "Numerical Patterns",
-  "q": "Use the number pattern to answer the question.<div style=\"margin:8px 0;font-size:1.15em;letter-spacing:0.15em\">4&nbsp; 5&nbsp; 7&nbsp; 11&nbsp; 19&nbsp; __</div>What is the next number in the pattern?",
+  "q": "Use the number pattern to answer the question.<div style=\"margin:8px 0;font-size:1.15em;letter-spacing:0.15em\">5&nbsp; 6&nbsp; 8&nbsp; 12&nbsp; 20&nbsp; __</div>What is the next number in the pattern?",
   "choices": {
-   "A": "23",
-   "B": "27",
-   "C": "35",
-   "D": "38"
+   "A": "24",
+   "B": "28",
+   "C": "36",
+   "D": "40"
   },
   "correct": "C",
-  "key": "<b>Answer: C.</b> <i>The question asks for: the next number.</i> Jumps: +1, +2, +4, +8. Each jump doubles, so the next jump is +16: 19 + 16 = 35. <br>Wrong choices: <b>A</b>: Added 4 again &middot; <b>B</b>: Known trap (like 27 on the real one, her pick): added the last jump (8) again &middot; <b>D</b>: Doubled the last number",
+  "key": "<b>Answer: C.</b> <i>The question asks for: the next number.</i> Jumps: +1, +2, +4, +8. Each jump doubles, so the next jump is +16: 20 + 16 = 36. <br>Wrong choices: <b>A</b>: Added 4 again &middot; <b>B</b>: Known trap (like 27 on the real one, her pick): added the last jump (8) again &middot; <b>D</b>: Doubled the last number",
   "ref": "Topic: Numerical Patterns &middot; Built on: Lower 1 MA #21 (last third, 67.1% right; her result: x) &middot; Her record: 8/30 &middot; o o o o x o &middot; last miss 11/20 &middot; Compared with the real one: Same: doubling jumps, next number",
   "diagram": null,
   "gid": null,
@@ -141,23 +141,23 @@
   "n": 7,
   "tier": "Hard",
   "topic": "Perimeter",
-  "q": "Ben builds picture frames. The first rectangular frame he builds has a perimeter of 30 centimeters (cm). The length of one of the sides is shown. If the unknown side length of the next frame he builds is doubled, by what amount will he increase the unknown side length of the next frame?",
+  "q": "Ben builds picture frames. The first rectangular frame he builds has a perimeter of 34 centimeters (cm). The length of one of the sides is shown. If the unknown side length of the next frame he builds is doubled, by what amount will he increase the unknown side length of the next frame?",
   "choices": {
-   "A": "4",
-   "B": "8",
-   "C": "15",
-   "D": "19"
+   "A": "5",
+   "B": "10",
+   "C": "17",
+   "D": "22"
   },
   "correct": "A",
-  "key": "<b>Answer: A.</b> <i>The question asks for: the increase.</i> Two 11 cm sides use 22 cm, so the two unknown sides use 30 &minus; 22 = 8 cm: each is 4 cm. Doubled, it becomes 8 cm, an increase of 4 cm. <br>Wrong choices: <b>B</b>: Gave the new side length, not the increase &middot; <b>C</b>: Half the perimeter (the two sides together) &middot; <b>D</b>: Subtracted only one side (30 &minus; 11)",
+  "key": "<b>Answer: A.</b> <i>The question asks for: the increase.</i> Two 12 cm sides use 24 cm, so the two unknown sides use 34 &minus; 24 = 10 cm: each is 5 cm. Doubled, it becomes 10 cm, an increase of 5 cm. <br>Wrong choices: <b>B</b>: Gave the new side length, not the increase &middot; <b>C</b>: Half the perimeter (the two sides together) &middot; <b>D</b>: Subtracted only one side (34 &minus; 12)",
   "ref": "Topic: Perimeter &middot; Built on: Lower 5 QR #33 (last third, 66.1% right; her result: x (145 s)) &middot; Her record: 8/40 &middot; o o o o o x &middot; last miss 11/25 &middot; Compared with the real one: Same as the real one, new numbers",
-  "diagram": "<svg viewBox=\"0 0 230 120\" width=\"230\" height=\"120\" role=\"img\"><rect x=\"20\" y=\"15\" width=\"165\" height=\"70\" stroke=\"currentColor\" stroke-width=\"2\" fill=\"none\"/><text x=\"102\" y=\"106\" font-size=\"14\" text-anchor=\"middle\" fill=\"currentColor\">11 cm</text><text x=\"206\" y=\"55\" font-size=\"16\" text-anchor=\"middle\" fill=\"currentColor\">?</text></svg>",
+  "diagram": "<svg viewBox=\"0 0 230 120\" width=\"230\" height=\"120\" role=\"img\"><rect x=\"20\" y=\"15\" width=\"165\" height=\"70\" stroke=\"currentColor\" stroke-width=\"2\" fill=\"none\"/><text x=\"102\" y=\"106\" font-size=\"14\" text-anchor=\"middle\" fill=\"currentColor\">12 cm</text><text x=\"206\" y=\"55\" font-size=\"16\" text-anchor=\"middle\" fill=\"currentColor\">?</text></svg>",
   "gid": null,
   "ma_idx": null,
   "tags": {
    "B": "Gave the new side length, not the increase",
    "C": "Half the perimeter (the two sides together)",
-   "D": "Subtracted only one side (30 &minus; 11)"
+   "D": "Subtracted only one side (34 &minus; 12)"
   }
  },
  {
@@ -186,6 +186,29 @@
  {
   "n": 9,
   "tier": "Hard",
+  "topic": "Comparing Volume of Cubes",
+  "q": "Use the diagram of the cube to answer the question. How many small cubes are being used to build the large cube?",
+  "choices": {
+   "A": "98",
+   "B": "147",
+   "C": "294",
+   "D": "343"
+  },
+  "correct": "D",
+  "key": "<b>Answer: D.</b> <i>The question asks for: how many small cubes.</i> Each edge is 7 small cubes long, so the large cube is 7 &times; 7 &times; 7 = 343 small cubes. Counting faces counts only the outside, and counts edge cubes more than once. <br>Wrong choices: <b>A</b>: Counted two faces (49 + 49) &middot; <b>B</b>: Counted only the three faces you can see (like 48 on the real one) &middot; <b>C</b>: Counted all six faces (49 &times; 6), not the cubes inside",
+  "ref": "Topic: Comparing Volume of Cubes &middot; Built on: WTE QR #28 (last third, 65.1% right; her result: x) &middot; Her record: 6/15 &middot; o o x o x o &middot; last miss 11/24 &middot; Compared with the real one: Same as the real one (4 &times; 4 &times; 4 there), 7 &times; 7 &times; 7 here",
+  "diagram": "<svg viewBox=\"0 0 186 175\" width=\"186\" height=\"175\" role=\"img\"><g stroke=\"currentColor\" stroke-width=\"1\" fill=\"none\"><line x1=\"4\" y1=\"51.60000000000001\" x2=\"4\" y2=\"170.60000000000002\"/><line x1=\"4\" y1=\"51.60000000000001\" x2=\"123\" y2=\"51.60000000000001\"/><line x1=\"21\" y1=\"51.60000000000001\" x2=\"21\" y2=\"170.60000000000002\"/><line x1=\"4\" y1=\"68.60000000000001\" x2=\"123\" y2=\"68.60000000000001\"/><line x1=\"38\" y1=\"51.60000000000001\" x2=\"38\" y2=\"170.60000000000002\"/><line x1=\"4\" y1=\"85.60000000000001\" x2=\"123\" y2=\"85.60000000000001\"/><line x1=\"55\" y1=\"51.60000000000001\" x2=\"55\" y2=\"170.60000000000002\"/><line x1=\"4\" y1=\"102.60000000000001\" x2=\"123\" y2=\"102.60000000000001\"/><line x1=\"72\" y1=\"51.60000000000001\" x2=\"72\" y2=\"170.60000000000002\"/><line x1=\"4\" y1=\"119.60000000000001\" x2=\"123\" y2=\"119.60000000000001\"/><line x1=\"89\" y1=\"51.60000000000001\" x2=\"89\" y2=\"170.60000000000002\"/><line x1=\"4\" y1=\"136.60000000000002\" x2=\"123\" y2=\"136.60000000000002\"/><line x1=\"106\" y1=\"51.60000000000001\" x2=\"106\" y2=\"170.60000000000002\"/><line x1=\"4\" y1=\"153.60000000000002\" x2=\"123\" y2=\"153.60000000000002\"/><line x1=\"123\" y1=\"51.60000000000001\" x2=\"123\" y2=\"170.60000000000002\"/><line x1=\"4\" y1=\"170.60000000000002\" x2=\"123\" y2=\"170.60000000000002\"/><line x1=\"4\" y1=\"51.60000000000001\" x2=\"63.5\" y2=\"4.0\"/><line x1=\"4.0\" y1=\"51.60000000000001\" x2=\"123.0\" y2=\"51.60000000000001\"/><line x1=\"21\" y1=\"51.60000000000001\" x2=\"80.5\" y2=\"4.0\"/><line x1=\"12.5\" y1=\"44.80000000000001\" x2=\"131.5\" y2=\"44.80000000000001\"/><line x1=\"38\" y1=\"51.60000000000001\" x2=\"97.5\" y2=\"4.0\"/><line x1=\"21.0\" y1=\"38.00000000000001\" x2=\"140.0\" y2=\"38.00000000000001\"/><line x1=\"55\" y1=\"51.60000000000001\" x2=\"114.5\" y2=\"4.0\"/><line x1=\"29.5\" y1=\"31.200000000000006\" x2=\"148.5\" y2=\"31.200000000000006\"/><line x1=\"72\" y1=\"51.60000000000001\" x2=\"131.5\" y2=\"4.0\"/><line x1=\"38.0\" y1=\"24.400000000000006\" x2=\"157.0\" y2=\"24.400000000000006\"/><line x1=\"89\" y1=\"51.60000000000001\" x2=\"148.5\" y2=\"4.0\"/><line x1=\"46.5\" y1=\"17.60000000000001\" x2=\"165.5\" y2=\"17.60000000000001\"/><line x1=\"106\" y1=\"51.60000000000001\" x2=\"165.5\" y2=\"4.0\"/><line x1=\"55.0\" y1=\"10.800000000000004\" x2=\"174.0\" y2=\"10.800000000000004\"/><line x1=\"123\" y1=\"51.60000000000001\" x2=\"182.5\" y2=\"4.0\"/><line x1=\"63.5\" y1=\"4.0\" x2=\"182.5\" y2=\"4.0\"/><line x1=\"123.0\" y1=\"51.60000000000001\" x2=\"123.0\" y2=\"170.60000000000002\"/><line x1=\"123\" y1=\"51.60000000000001\" x2=\"182.5\" y2=\"4.0\"/><line x1=\"131.5\" y1=\"44.80000000000001\" x2=\"131.5\" y2=\"163.8\"/><line x1=\"123\" y1=\"68.60000000000001\" x2=\"182.5\" y2=\"21.0\"/><line x1=\"140.0\" y1=\"38.00000000000001\" x2=\"140.0\" y2=\"157.00000000000003\"/><line x1=\"123\" y1=\"85.60000000000001\" x2=\"182.5\" y2=\"38.0\"/><line x1=\"148.5\" y1=\"31.200000000000006\" x2=\"148.5\" y2=\"150.20000000000002\"/><line x1=\"123\" y1=\"102.60000000000001\" x2=\"182.5\" y2=\"55.0\"/><line x1=\"157.0\" y1=\"24.400000000000006\" x2=\"157.0\" y2=\"143.40000000000003\"/><line x1=\"123\" y1=\"119.60000000000001\" x2=\"182.5\" y2=\"72.0\"/><line x1=\"165.5\" y1=\"17.60000000000001\" x2=\"165.5\" y2=\"136.60000000000002\"/><line x1=\"123\" y1=\"136.60000000000002\" x2=\"182.5\" y2=\"89.00000000000001\"/><line x1=\"174.0\" y1=\"10.800000000000004\" x2=\"174.0\" y2=\"129.8\"/><line x1=\"123\" y1=\"153.60000000000002\" x2=\"182.5\" y2=\"106.00000000000001\"/><line x1=\"182.5\" y1=\"4.0\" x2=\"182.5\" y2=\"123.00000000000001\"/><line x1=\"123\" y1=\"170.60000000000002\" x2=\"182.5\" y2=\"123.00000000000001\"/></g></svg>",
+  "gid": null,
+  "ma_idx": null,
+  "tags": {
+   "A": "Counted two faces (49 + 49)",
+   "B": "Counted only the three faces you can see (like 48 on the real one)",
+   "C": "Counted all six faces (49 &times; 6), not the cubes inside"
+  }
+ },
+ {
+  "n": 10,
+  "tier": "Hard",
   "topic": "Remaining Amount after Reducing by Fractions",
   "q": "Leo had 6 markers and 9 crayons. He lost half of his markers and a third of his crayons. How many markers and crayons does he have remaining?",
   "choices": {
@@ -207,7 +230,7 @@
   }
  },
  {
-  "n": 10,
+  "n": 11,
   "tier": "Hard",
   "topic": "Comparing & Ordering Fractions & Decimals",
   "q": "Which list shows the fractions <span class=\"frac\"><span class=\"n\">3</span><span class=\"d\">10</span></span>, <span class=\"frac\"><span class=\"n\">2</span><span class=\"d\">5</span></span>, <span class=\"frac\"><span class=\"n\">1</span><span class=\"d\">6</span></span> in order from least to greatest?",
@@ -230,7 +253,7 @@
   }
  },
  {
-  "n": 11,
+  "n": 12,
   "tier": "Hard",
   "topic": "Counting Multiples within a Range",
   "q": "How many numbers between 50 and 90 are divisible by 4?",
@@ -253,7 +276,7 @@
   }
  },
  {
-  "n": 12,
+  "n": 13,
   "tier": "Hard",
   "topic": "Interpreting Pictographs",
   "q": "The scales shown are balanced.<div style=\"margin:8px 0\"><svg viewBox=\"0 0 300 110\" width=\"300\" height=\"110\" role=\"img\" style=\"vertical-align:middle\"><line x1=\"150\" y1=\"58\" x2=\"150\" y2=\"104\" stroke=\"currentColor\" stroke-width=\"2\"/><polygon points=\"136,106 164,106 150,90\" stroke=\"currentColor\" stroke-width=\"2\" fill=\"none\"/><line x1=\"20\" y1=\"58\" x2=\"280\" y2=\"58\" stroke=\"currentColor\" stroke-width=\"3\"/><polygon points=\"36,56 58,56 47,34\" stroke=\"currentColor\" stroke-width=\"2\" fill=\"none\"/><circle cx=\"75\" cy=\"45\" r=\"11\" stroke=\"currentColor\" stroke-width=\"2\" fill=\"none\"/><circle cx=\"103\" cy=\"45\" r=\"11\" stroke=\"currentColor\" stroke-width=\"2\" fill=\"none\"/><polygon points=\"200,56 222,56 211,34\" stroke=\"currentColor\" stroke-width=\"2\" fill=\"none\"/><rect x=\"228\" y=\"34\" width=\"22\" height=\"22\" stroke=\"currentColor\" stroke-width=\"2\" fill=\"none\"/></svg><br><svg viewBox=\"0 0 300 110\" width=\"300\" height=\"110\" role=\"img\" style=\"vertical-align:middle\"><line x1=\"150\" y1=\"58\" x2=\"150\" y2=\"104\" stroke=\"currentColor\" stroke-width=\"2\"/><polygon points=\"136,106 164,106 150,90\" stroke=\"currentColor\" stroke-width=\"2\" fill=\"none\"/><line x1=\"20\" y1=\"58\" x2=\"280\" y2=\"58\" stroke=\"currentColor\" stroke-width=\"3\"/><circle cx=\"47\" cy=\"45\" r=\"11\" stroke=\"currentColor\" stroke-width=\"2\" fill=\"none\"/><circle cx=\"75\" cy=\"45\" r=\"11\" stroke=\"currentColor\" stroke-width=\"2\" fill=\"none\"/><rect x=\"92\" y=\"34\" width=\"22\" height=\"22\" stroke=\"currentColor\" stroke-width=\"2\" fill=\"none\"/><polygon points=\"200,56 222,56 211,34\" stroke=\"currentColor\" stroke-width=\"2\" fill=\"none\"/><polygon points=\"228,56 250,56 239,34\" stroke=\"currentColor\" stroke-width=\"2\" fill=\"none\"/></svg></div>Which set of figures would create a balanced scale?",
@@ -276,49 +299,26 @@
   }
  },
  {
-  "n": 13,
-  "tier": "Hard",
-  "topic": "Identifying Shapes",
-  "q": "Which figure best describes a quadrilateral with all four sides equal and angles that are not right angles?",
-  "choices": {
-   "A": "parallelogram",
-   "B": "rhombus",
-   "C": "square",
-   "D": "trapezoid"
-  },
-  "correct": "B",
-  "key": "<b>Answer: B.</b> <i>The question asks for: name of the shape.</i> Four equal sides is a rhombus. A square is a rhombus with right angles, so a rhombus without right angles is not a square. <br>Wrong choices: <b>A</b>: Known trap (her pick on the real one): a parallelogram's sides need not all be equal &middot; <b>C</b>: A square has four right angles &middot; <b>D</b>: Only one pair of parallel sides",
-  "ref": "Topic: Identifying Shapes &middot; Built on: Lower 5 MA #28 (last third, 62.0% right; her result: x (18 s)) &middot; Her record: 3/24 &middot; o o o o o o &middot; last miss 11/15 &middot; Compared with the real one: Same: describe a quadrilateral, choose its name (rhombus, as on the real one)",
-  "diagram": null,
-  "gid": null,
-  "ma_idx": null,
-  "tags": {
-   "A": "Known trap (her pick on the real one): a parallelogram's sides need not all be equal",
-   "C": "A square has four right angles",
-   "D": "Only one pair of parallel sides"
-  }
- },
- {
   "n": 14,
   "tier": "Hard",
   "topic": "Matching Stories to Equations",
   "q": "Dana wants to cover a patio with tiles. Her patio is 120 inches long and 60 inches wide. Each tile is 6 inches long and 5 inches wide. If she knows how to find the area of a rectangle, how can Dana determine how many tiles she will need without laying them all on the patio? (A = l &times; w)",
   "choices": {
-   "A": "(120 &minus; 6) &times; (60 &minus; 5)",
-   "B": "(120 &divide; 36) &times; (60 &divide; 25)",
-   "C": "(120 &divide; 6) &times; (60 &divide; 5)",
-   "D": "(120 &minus; 36) &times; (60 &minus; 25)"
+   "A": "(120 &divide; 6) &times; (60 &divide; 5)",
+   "B": "(120 &minus; 36) &times; (60 &minus; 25)",
+   "C": "(120 &minus; 6) &times; (60 &minus; 5)",
+   "D": "(120 &divide; 36) &times; (60 &divide; 25)"
   },
-  "correct": "C",
-  "key": "<b>Answer: C.</b> <i>The question asks for: number of tiles (expression).</i> Tiles along the length: 120 &divide; 6 = 20. Tiles along the width: 60 &divide; 5 = 12. Total tiles = (120 &divide; 6) &times; (60 &divide; 5) = 240. <br>Wrong choices: <b>D</b>: Subtracted squares of the tile sides (her pick type on the real one) &middot; <b>A</b>: Subtracted instead of divided &middot; <b>B</b>: Divided by the squares of the tile sides",
+  "correct": "A",
+  "key": "<b>Answer: A.</b> <i>The question asks for: number of tiles (expression).</i> Tiles along the length: 120 &divide; 6 = 20. Tiles along the width: 60 &divide; 5 = 12. Total tiles = (120 &divide; 6) &times; (60 &divide; 5) = 240. <br>Wrong choices: <b>B</b>: Subtracted squares of the tile sides (her pick type on the real one) &middot; <b>C</b>: Subtracted instead of divided &middot; <b>D</b>: Divided by the squares of the tile sides",
   "ref": "Topic: Matching Stories to Equations &middot; Built on: Lower 2 QR #32 (last third, 59.4% right; her result: x) &middot; Her record: 5/22 &middot; o o o o o o &middot; last miss 11/10 &middot; Compared with the real one: Same: tiles along length &times; tiles along width; same four forms",
   "diagram": null,
   "gid": null,
   "ma_idx": null,
   "tags": {
-   "D": "Subtracted squares of the tile sides (her pick type on the real one)",
-   "A": "Subtracted instead of divided",
-   "B": "Divided by the squares of the tile sides"
+   "B": "Subtracted squares of the tile sides (her pick type on the real one)",
+   "C": "Subtracted instead of divided",
+   "D": "Divided by the squares of the tile sides"
   }
  },
  {
@@ -393,6 +393,29 @@
  {
   "n": 18,
   "tier": "Hard",
+  "topic": "Patterns in Data Tables and Lists",
+  "q": "The table shows the favorite sports of a group of students. Based on the information in the table, what is the most reasonable prediction of the number of students who would choose soccer out of the next 20 students?",
+  "choices": {
+   "A": "2",
+   "B": "7",
+   "C": "18",
+   "D": "63"
+  },
+  "correct": "B",
+  "key": "<b>Answer: B.</b> <i>The question asks for: how many of the next 20 choose soccer.</i> First the total, which is not given: 21 + 18 + 6 + 15 = 60. 20 is one third of 60, so the prediction is one third of the soccer count: 21 &divide; 3 = 7. <br>Wrong choices: <b>A</b>: Predicted swimming, not soccer &middot; <b>C</b>: Gave a table count (basketball), not a prediction &middot; <b>D</b>: Multiplied by 3 instead of dividing (like 72 on the real one)",
+  "ref": "Topic: Patterns in Data Tables and Lists &middot; Built on: Lower 2 QR #34 (last third, 56.3% right; her result: x) &middot; Her record: x o (same build: Lower 2 QR #34, Vacation Day 2 #1) &middot; Compared with the real one: Same as the real one: one group, total not given, a smaller next group",
+  "diagram": "<div style=\"font-weight:600;margin-bottom:4px\">FAVORITE SPORTS</div><table class=\"data\"><tr><th>Sport</th><th>Number of Students</th></tr><tr><td>Soccer</td><td>21</td></tr><tr><td>Basketball</td><td>18</td></tr><tr><td>Swimming</td><td>6</td></tr><tr><td>Tennis</td><td>15</td></tr></table>",
+  "gid": null,
+  "ma_idx": null,
+  "tags": {
+   "A": "Predicted swimming, not soccer",
+   "C": "Gave a table count (basketball), not a prediction",
+   "D": "Multiplied by 3 instead of dividing (like 72 on the real one)"
+  }
+ },
+ {
+  "n": 19,
+  "tier": "Hard",
   "topic": "Estimating Sums Differences of Decimal Numbers",
   "q": "During a 5-month period, Sam's phone bills were $27.85, $43.12, $36.49, $52.91, and $39.70. What is the closest approximation of the total cost of Sam's phone bills during the 5-month period?",
   "choices": {
@@ -414,7 +437,7 @@
   }
  },
  {
-  "n": 19,
+  "n": 20,
   "tier": "Hard",
   "topic": "Interpreting Linear Equations from Word Problems",
   "q": "A baker frosted &square; cupcakes in the morning and &#9675; cupcakes in the afternoon. She used &#9651; grams of frosting on each cupcake. Which expression represents the total amount of frosting, in grams, the baker used?",
@@ -437,7 +460,30 @@
   }
  },
  {
-  "n": 20,
+  "n": 21,
+  "tier": "Hard",
+  "topic": "Counting Multiples within a Range",
+  "q": "At a school fair, raffle tickets are numbered from 120 to 160. Every ticket whose number is divisible by 6 wins a prize. How many tickets win a prize?",
+  "choices": {
+   "A": "5",
+   "B": "6",
+   "C": "7",
+   "D": "8"
+  },
+  "correct": "C",
+  "key": "<b>Answer: C.</b> <i>The question asks for: how many winning tickets.</i> The tickets start at 120, and 120 &divide; 6 = 20, so 120 wins. Count by 6s: 120, 126, 132, 138, 144, 150, 156 (162 is past 160). That is 7 tickets. <br>Wrong choices: <b>A</b>: Missed both ends &middot; <b>B</b>: Left out ticket 120 (it is divisible by 6 and is on the list) &middot; <b>D</b>: Estimated 40 &divide; 6 and rounded up, or counted 162",
+  "ref": "Topic: Counting Multiples within a Range &middot; Built on: Lower 5 MA #29 (last third, 63.7% right; her result: x (134 s)) &middot; Her record: 6/12 &middot; o o x x x &middot; last miss 11/25 &middot; Compared with the real one: Same as the real one (count multiples in a range) as a story; this time the first number IS a multiple and counts",
+  "diagram": null,
+  "gid": null,
+  "ma_idx": null,
+  "tags": {
+   "A": "Missed both ends",
+   "B": "Left out ticket 120 (it is divisible by 6 and is on the list)",
+   "D": "Estimated 40 &divide; 6 and rounded up, or counted 162"
+  }
+ },
+ {
+  "n": 22,
   "tier": "Hard",
   "topic": "Determining Total Cost",
   "q": "Kofi's aunt matches all of the money he donates in June. This means that for every dollar Kofi donates to a charity, his aunt will also donate a dollar to that charity. The table shows how much money Kofi donated in June. What was the total amount of money these charities received?",
@@ -460,7 +506,7 @@
   }
  },
  {
-  "n": 21,
+  "n": 23,
   "tier": "Hard",
   "topic": "Estimating Multiplication & Division",
   "q": "Ella did the problem 85 &divide; 11 &times; 162. Approximately what was her answer?",
@@ -483,7 +529,7 @@
   }
  },
  {
-  "n": 22,
+  "n": 24,
   "tier": "Hard",
   "topic": "Estimating Multiplication & Division",
   "q": "Josh did the problem shown with his calculator. What is a reasonable estimation for his answer?<div style=\"margin:8px 0;font-size:1.2em\"><span class=\"frac\"><span class=\"n\">39 &times; 812</span><span class=\"d\">20</span></span></div>",
@@ -506,33 +552,33 @@
   }
  },
  {
-  "n": 23,
+  "n": 25,
   "tier": "Hard",
   "topic": "Comparing Volume of Cubes",
-  "q": "Cube A has sides that are 3 centimeters long. Cube B is 4 times as wide as Cube A. How many Cube A's can fit inside Cube B?",
+  "q": "Cube A has sides that are 5 millimeters long. Cube B is 3 times as wide as Cube A. How many Cube A's can fit inside Cube B?",
   "choices": {
-   "A": "12",
-   "B": "16",
-   "C": "64",
-   "D": "96"
+   "A": "9",
+   "B": "15",
+   "C": "27",
+   "D": "54"
   },
   "correct": "C",
-  "key": "<b>Answer: C.</b> <i>The question asks for: how many Cube A's.</i> Cube B is 4 times as long, 4 times as wide and 4 times as tall, so 4 &times; 4 &times; 4 = 64 Cube A's fit. <br>Wrong choices: <b>A</b>: Multiplied 4 by the 3 sides &middot; <b>B</b>: Squared the scale (one face only) &middot; <b>D</b>: Counted 16 per face times 6 faces (like 150 on the real one, her pick)",
+  "key": "<b>Answer: C.</b> <i>The question asks for: how many Cube A's.</i> Cube B is 3 times as long, 3 times as wide and 3 times as tall, so 3 &times; 3 &times; 3 = 27 Cube A's fit. (The 5 mm does not change the count.) <br>Wrong choices: <b>A</b>: Squared the scale (one face only) &middot; <b>B</b>: Multiplied the scale by the side length (3 &times; 5) &middot; <b>D</b>: Counted 9 per face times 6 faces (like 150 on the real one, her pick)",
   "ref": "Topic: Comparing Volume of Cubes &middot; Built on: Lower 4 QR #36 (last third, 48.2% right; her result: x) &middot; Her record: 6/15 &middot; o o x o x o &middot; last miss 11/24 &middot; Compared with the real one: Same: scale factor cubed; the same kinds of wrong choices (&times;3, squared, faces)",
   "diagram": null,
   "gid": null,
   "ma_idx": null,
   "tags": {
-   "A": "Multiplied 4 by the 3 sides",
-   "B": "Squared the scale (one face only)",
-   "D": "Counted 16 per face times 6 faces (like 150 on the real one, her pick)"
+   "A": "Squared the scale (one face only)",
+   "B": "Multiplied the scale by the side length (3 &times; 5)",
+   "D": "Counted 9 per face times 6 faces (like 150 on the real one, her pick)"
   }
  },
  {
-  "n": 24,
+  "n": 26,
   "tier": "Hard",
   "topic": "Translating Math Expressions",
-  "q": "Maya had &square; stickers, and then she gave &#9675; of them to Ben. Now Ben has &#9651; times as many stickers as Maya had. Which expression represents the number of stickers Ben had to begin with?",
+  "q": "Nia had &square; seashells, and then she gave &#9675; of them to Sam. Now Sam has &#9651; times as many seashells as Nia had. Which expression represents the number of seashells Sam had to begin with?",
   "choices": {
    "A": "&#9651; &times; &#9675; + &square;",
    "B": "&#9651; &times; &#9675; &minus; &square;",
@@ -540,42 +586,19 @@
    "D": "&#9651; &times; &square; &minus; &#9675;"
   },
   "correct": "D",
-  "key": "<b>Answer: D.</b> <i>The question asks for: Ben, at the beginning.</i> Before | gift | now. Now Ben has &#9651; times what Maya HAD: &#9651; &times; &square;. That includes the &#9675; she gave him, so before the gift he had &#9651; &times; &square; &minus; &#9675;. <br>Wrong choices: <b>A</b>: Multiplied the gift instead of what Maya had &middot; <b>B</b>: Multiplied the gift (her pick on the real one) &middot; <b>C</b>: Stopped at Ben NOW plus the gift again: went the wrong way in time",
+  "key": "<b>Answer: D.</b> <i>The question asks for: Sam, at the beginning.</i> Before | gift | now. Now Sam has &#9651; times what Nia HAD: &#9651; &times; &square;. That includes the &#9675; she gave him, so before the gift he had &#9651; &times; &square; &minus; &#9675;. <br>Wrong choices: <b>A</b>: Multiplied the gift instead of what Nia had &middot; <b>B</b>: Multiplied the gift (her pick on the real one) &middot; <b>C</b>: Stopped at Sam NOW plus the gift again: went the wrong way in time",
   "ref": "Topic: Translating Math Expressions &middot; Built on: Lower 4 QR #35 (last third, 47.4% right; her result: x) &middot; Her record: 7/21 &middot; o o o x x x &middot; last miss 11/25 &middot; Compared with the real one: Same as the real one (times as many as she HAD); new story",
   "diagram": null,
   "gid": null,
   "ma_idx": null,
   "tags": {
-   "A": "Multiplied the gift instead of what Maya had",
+   "A": "Multiplied the gift instead of what Nia had",
    "B": "Multiplied the gift (her pick on the real one)",
-   "C": "Stopped at Ben NOW plus the gift again: went the wrong way in time"
+   "C": "Stopped at Sam NOW plus the gift again: went the wrong way in time"
   }
  },
  {
-  "n": 25,
-  "tier": "Hard",
-  "topic": "Adding and Subtracting Fractions",
-  "q": "Lily has two equal-sized jars of rice. The first jar is <span class=\"frac\"><span class=\"n\">n</span><span class=\"d\">6</span></span> full. The second jar is <span class=\"frac\"><span class=\"n\">1</span><span class=\"d\">3</span></span> full. The rice from these jars will be combined by pouring the rice from the first jar into the second jar. Which statement best describes the amount of rice once the jars are combined?",
-  "choices": {
-   "A": "If n = 1, then the amount of rice is less than <span class=\"frac\"><span class=\"n\">1</span><span class=\"d\">2</span></span> of a jar.",
-   "B": "If n = 3, then the amount of rice is less than <span class=\"frac\"><span class=\"n\">3</span><span class=\"d\">4</span></span> of a jar.",
-   "C": "If n = 4, then the rice will not all fit in 1 jar.",
-   "D": "If n = 5, then the rice will not all fit in 1 jar."
-  },
-  "correct": "D",
-  "key": "<b>Answer: D.</b> <i>The question asks for: which statement is true.</i> Use sixths: 1/3 = 2/6. n = 5: 5/6 + 2/6 = 7/6, more than 1 jar, so it will not all fit. (n = 1 gives exactly 1/2; n = 3 gives 5/6; n = 4 gives exactly 1 jar.) <br>Wrong choices: <b>A</b>: It is exactly 1/2, not less &middot; <b>B</b>: 3/6 + 1/3 = 5/6, more than 3/4 &middot; <b>C</b>: Known trap (like her pick on the real one): 4/6 + 1/3 is exactly 1 jar, so it fits",
-  "ref": "Topic: Adding and Subtracting Fractions &middot; Built on: Lower 2 QR #36 (last third, 43.6% right; her result: x) &middot; Her record: 1/13 &middot; not practiced since 11/6 &middot; last miss 9/13 &middot; Compared with the real one: Same: n/denominator + a fraction, check four statements",
-  "diagram": null,
-  "gid": null,
-  "ma_idx": null,
-  "tags": {
-   "A": "It is exactly 1/2, not less",
-   "B": "3/6 + 1/3 = 5/6, more than 3/4",
-   "C": "Known trap (like her pick on the real one): 4/6 + 1/3 is exactly 1 jar, so it fits"
-  }
- },
- {
-  "n": 26,
+  "n": 27,
   "tier": "Hard",
   "topic": "Finding Ratios given Probability",
   "q": "Ana has a bag of marbles in different colors: blue, red, green, and yellow. The probability of picking a blue marble is 2 out of 7. What combination of marbles reflects this probability?",
@@ -598,7 +621,7 @@
   }
  },
  {
-  "n": 27,
+  "n": 28,
   "tier": "Hard",
   "topic": "Identifying Correct Conclusions from Bar Graph Data Table",
   "q": "The stem-and-leaf plot shows the heights of 14 plants in a garden, where 4 | 7 represents 47 centimeters. Based on the data in the stem-and-leaf plot, which conclusion is true?",
@@ -618,29 +641,6 @@
    "A": "32 appears once",
    "B": "One plant was 32 cm",
    "C": "Known trap (like her pick on the real one): counted the whole 5 row as 51s"
-  }
- },
- {
-  "n": 28,
-  "tier": "Hard",
-  "topic": "Comparing Areas",
-  "q": "The floor of Room A is in the shape of a square and has an area of 100 feet&sup2;. The floor of Room B is in the shape of a rectangle and has a length of 12 feet and a width of 8 feet. Which statement correctly compares the floors in the two rooms?",
-  "choices": {
-   "A": "The area of the floor in Room A is less than the area of the floor in Room B.",
-   "B": "The perimeter of the floor in Room A is less than the perimeter of the floor in Room B.",
-   "C": "The perimeter of the floor in Room A is equal to the perimeter of the floor in Room B.",
-   "D": "The area of the floor in Room A is the same as the area of the floor in Room B."
-  },
-  "correct": "C",
-  "key": "<b>Answer: C.</b> <i>The question asks for: which statement is true.</i> Room A: side = 10 (10 &times; 10 = 100), perimeter 40. Room B: area 96, perimeter 2 &times; (12 + 8) = 40. The perimeters are equal. <br>Wrong choices: <b>D</b>: 100 vs 96: not the same &middot; <b>A</b>: Room A is larger (100 &gt; 96) &middot; <b>B</b>: Known trap (her pick on the real one): both are 40 feet",
-  "ref": "Topic: Comparing Areas &middot; Built on: Lower 2 QR #38 (last third, 41.1% right; her result: x) &middot; Her record: 4/10 &middot; x o o o o o &middot; last miss 11/3 &middot; Compared with the real one: Same: square from its area vs a rectangle, compare area and perimeter",
-  "diagram": null,
-  "gid": null,
-  "ma_idx": null,
-  "tags": {
-   "D": "100 vs 96: not the same",
-   "A": "Room A is larger (100 &gt; 96)",
-   "B": "Known trap (her pick on the real one): both are 40 feet"
   }
  },
  {
@@ -692,29 +692,6 @@
  {
   "n": 31,
   "tier": "Hard",
-  "topic": "No Remainder when Divided by a given Number",
-  "q": "Ava and 7 other students have each sold an equal number of raffle tickets. Which number could represent the total number of raffle tickets the students have sold?",
-  "choices": {
-   "A": "2,104",
-   "B": "2,140",
-   "C": "2,330",
-   "D": "2,500"
-  },
-  "correct": "A",
-  "key": "<b>Answer: A.</b> <i>The question asks for: divisible by 8 (Ava + 7 = 8 students).</i> Ava and 7 others make 8 students, so the total must be divisible by 8. 2,104 &divide; 8 = 263. (Check the last three digits: 104 &divide; 8 = 13.) <br>Wrong choices: <b>B</b>: Known trap (like her pick on the real one): divisible by 4, not by 8 &middot; <b>C</b>: Divisible by 2 only &middot; <b>D</b>: Divisible by 4, not by 8",
-  "ref": "Topic: No Remainder when Divided by a given Number &middot; Built on: Lower 1 MA #29 (last third, 39.1% right; her result: x) &middot; Her record: 7/24 &middot; o o o o o o &middot; last miss 11/3 &middot; Compared with the real one: Same: \"and 7 others\" = 8, choose the multiple of 8; two choices divisible by 4 only",
-  "diagram": null,
-  "gid": null,
-  "ma_idx": null,
-  "tags": {
-   "B": "Known trap (like her pick on the real one): divisible by 4, not by 8",
-   "C": "Divisible by 2 only",
-   "D": "Divisible by 4, not by 8"
-  }
- },
- {
-  "n": 32,
-  "tier": "Hard",
   "topic": "Volume of Solids",
   "q": "The figure shown was made by joining two rectangular prisms. The side lengths are measured in feet. Which expression can be used to find the total volume of the figure? (V = lwh, where V = volume, l = length, w = width, and h = height.)",
   "choices": {
@@ -733,6 +710,29 @@
    "B": "Used the full height 7 for the top prism (counts the bottom twice)",
    "C": "Treated it as one box",
    "D": "Mixed up which width goes with which height (like C on the real one, her pick)"
+  }
+ },
+ {
+  "n": 32,
+  "tier": "Hard",
+  "topic": "Finding Area/Perimeter of Rectangle, given Length & Width",
+  "q": "The perimeter of a square is 40 centimeters. If a rectangle with a width of 5 centimeters has the same area as the square, what is the length of the rectangle in centimeters?",
+  "choices": {
+   "A": "8",
+   "B": "10",
+   "C": "15",
+   "D": "20"
+  },
+  "correct": "D",
+  "key": "<b>Answer: D.</b> <i>The question asks for: length of the rectangle.</i> Square side = 40 &divide; 4 = 10, so its area is 10 &times; 10 = 100. The rectangle has area 100 and width 5: length = 100 &divide; 5 = 20. <br>Wrong choices: <b>A</b>: Known trap (like 8 on the real one, her pick): divided the perimeter by the width (40 &divide; 5) &middot; <b>B</b>: Stopped early: this is the square's side &middot; <b>C</b>: Added the width to the side (10 + 5)",
+  "ref": "Topic: Finding Area/Perimeter of Rectangle, given Length & Width &middot; Built on: Lower 1 MA #30 (last third, 35.9% right; her result: x) &middot; Her record: 6/20 &middot; x o o x x o &middot; last miss 11/20 &middot; Compared with the real one: Same chain as the real one (perimeter &rarr; side &rarr; area &rarr; missing side), new numbers",
+  "diagram": null,
+  "gid": null,
+  "ma_idx": null,
+  "tags": {
+   "A": "Known trap (like 8 on the real one, her pick): divided the perimeter by the width (40 &divide; 5)",
+   "B": "Stopped early: this is the square's side",
+   "C": "Added the width to the side (10 + 5)"
   }
  },
  {
@@ -761,29 +761,6 @@
  {
   "n": 34,
   "tier": "Hard",
-  "topic": "Finding Area/Perimeter of Rectangle, given Length & Width",
-  "q": "The perimeter of a square is 40 centimeters. If a rectangle with a width of 5 centimeters has the same area as the square, what is the length of the rectangle in centimeters?",
-  "choices": {
-   "A": "8",
-   "B": "10",
-   "C": "15",
-   "D": "20"
-  },
-  "correct": "D",
-  "key": "<b>Answer: D.</b> <i>The question asks for: length of the rectangle.</i> Square side = 40 &divide; 4 = 10, so its area is 10 &times; 10 = 100. The rectangle has area 100 and width 5: length = 100 &divide; 5 = 20. <br>Wrong choices: <b>A</b>: Known trap (like 8 on the real one, her pick): divided the perimeter by the width (40 &divide; 5) &middot; <b>B</b>: Stopped early: this is the square's side &middot; <b>C</b>: Added the width to the side (10 + 5)",
-  "ref": "Topic: Finding Area/Perimeter of Rectangle, given Length & Width &middot; Built on: Lower 1 MA #30 (last third, 35.9% right; her result: x) &middot; Her record: 6/20 &middot; x o o x x o &middot; last miss 11/20 &middot; Compared with the real one: Same chain as the real one (perimeter &rarr; side &rarr; area &rarr; missing side), new numbers",
-  "diagram": null,
-  "gid": null,
-  "ma_idx": null,
-  "tags": {
-   "A": "Known trap (like 8 on the real one, her pick): divided the perimeter by the width (40 &divide; 5)",
-   "B": "Stopped early: this is the square's side",
-   "C": "Added the width to the side (10 + 5)"
-  }
- },
- {
-  "n": 35,
-  "tier": "Hard",
   "topic": "Classification of Numbers, given a Set",
   "q": "Two numbers are greater than 1. One is a prime number and the other is a composite number. What will always describe the product of the two numbers?",
   "choices": {
@@ -805,30 +782,7 @@
   }
  },
  {
-  "n": 36,
-  "tier": "Hard",
-  "topic": "Area of Triangles",
-  "q": "The base of a triangle is 10 meters (m). Which statement correctly compares the value of A to the base and height of the triangle? (A = <span class=\"frac\"><span class=\"n\">1</span><span class=\"d\">2</span></span> &times; base &times; height)",
-  "choices": {
-   "A": "The value of A is always <span class=\"frac\"><span class=\"n\">1</span><span class=\"d\">2</span></span> the value of the height.",
-   "B": "The value of A is always 5 times the value of the height.",
-   "C": "The value of A is always 10 times the value of the height.",
-   "D": "The value of A can be the same as the value of the height."
-  },
-  "correct": "B",
-  "key": "<b>Answer: B.</b> <i>The question asks for: how A compares with the height.</i> A = 1/2 &times; 10 &times; height = 5 &times; height. So A is always 5 times the height. <br>Wrong choices: <b>A</b>: Used only the 1/2 &middot; <b>C</b>: Forgot the 1/2 &middot; <b>D</b>: Known trap (her pick on the real one): A = 5 &times; height, never equal (unless 0)",
-  "ref": "Topic: Area of Triangles &middot; Built on: Lower 2 MA #30 (last third, 32.1% right; her result: x) &middot; Her record: 2/8 &middot; o o x o o o &middot; last miss 11/6 &middot; Compared with the real one: Same: fixed base, compare A to the height (base 10 instead of 6)",
-  "diagram": null,
-  "gid": null,
-  "ma_idx": null,
-  "tags": {
-   "A": "Used only the 1/2",
-   "C": "Forgot the 1/2",
-   "D": "Known trap (her pick on the real one): A = 5 &times; height, never equal (unless 0)"
-  }
- },
- {
-  "n": 37,
+  "n": 35,
   "tier": "Hard",
   "topic": "Area and Perimeter of Complex Polygons",
   "q": "The figure shown is made of a square and a triangle. The perimeter of the largest polygon is 54 centimeters. The perimeter of the square is 36 centimeters. What is the perimeter of the triangle?",
@@ -851,18 +805,64 @@
   }
  },
  {
+  "n": 36,
+  "tier": "Hard",
+  "topic": "Area of Triangles",
+  "q": "The base of a triangle is 16 meters (m). Which statement correctly compares the value of A to the base and height of the triangle? (A = <span class=\"frac\"><span class=\"n\">1</span><span class=\"d\">2</span></span> &times; base &times; height)",
+  "choices": {
+   "A": "The value of A is always <span class=\"frac\"><span class=\"n\">1</span><span class=\"d\">2</span></span> the value of the height.",
+   "B": "The value of A is always 8 times the value of the height.",
+   "C": "The value of A is always 16 times the value of the height.",
+   "D": "The value of A can be the same as the value of the height."
+  },
+  "correct": "B",
+  "key": "<b>Answer: B.</b> <i>The question asks for: how A compares with the height.</i> A = 1/2 &times; 16 &times; height = 8 &times; height. So A is always 8 times the height. <br>Wrong choices: <b>A</b>: Used only the 1/2 &middot; <b>C</b>: Forgot the 1/2 &middot; <b>D</b>: Known trap (her pick on the real one): A = 8 &times; height, never equal (unless 0)",
+  "ref": "Topic: Area of Triangles &middot; Built on: Lower 2 MA #30 (last third, 32.1% right; her result: x) &middot; Her record: 2/8 &middot; o o x o o o &middot; last miss 11/6 &middot; Compared with the real one: Same: fixed base, compare A to the height (base 16 instead of 6)",
+  "diagram": null,
+  "gid": null,
+  "ma_idx": null,
+  "tags": {
+   "A": "Used only the 1/2",
+   "C": "Forgot the 1/2",
+   "D": "Known trap (her pick on the real one): A = 8 &times; height, never equal (unless 0)"
+  }
+ },
+ {
+  "n": 37,
+  "tier": "Hard",
+  "topic": "Translating Math Expressions",
+  "q": "Omar had &square; marbles. Then Lila gave him &#9675; marbles. Now Omar has &#9651; times as many marbles as Lila had at first. Which expression represents the number of marbles Lila had at first?",
+  "choices": {
+   "A": "(&square; + &#9675;) &divide; &#9651;",
+   "B": "&square; &divide; &#9651; + &#9675;",
+   "C": "(&square; &minus; &#9675;) &divide; &#9651;",
+   "D": "&#9651; &times; (&square; + &#9675;)"
+  },
+  "correct": "A",
+  "key": "<b>Answer: A.</b> <i>The question asks for: Lila, at first.</i> Before | gift | now. Now Omar has &square; + &#9675;. That is &#9651; times what Lila had at first, so Lila had (&square; + &#9675;) &divide; &#9651;. <br>Wrong choices: <b>B</b>: Divided before adding the gift: used what Omar had BEFORE &middot; <b>C</b>: Went the wrong way in time: took the gift away from Omar &middot; <b>D</b>: Multiplied instead of divided",
+  "ref": "Topic: Translating Math Expressions &middot; Built on: Lower 4 QR #35 (last third, 47.4% right; her result: x) &middot; Her record: 7/21 &middot; o o o x x x &middot; last miss 11/25 &middot; Compared with the real one: Same timeline idea as the real one, asked from the other side (who had how many at first)",
+  "diagram": null,
+  "gid": null,
+  "ma_idx": null,
+  "tags": {
+   "B": "Divided before adding the gift: used what Omar had BEFORE",
+   "C": "Went the wrong way in time: took the gift away from Omar",
+   "D": "Multiplied instead of divided"
+  }
+ },
+ {
   "n": 38,
   "tier": "Hard",
   "topic": "Data Collection & Random Sampling",
-  "q": "Ms. Ortiz's class watched a bird feeder and collected data. They listed what they observed in categories or groups.<div style=\"margin:8px 0 8px 12px\">1. Kinds of birds seen: robin, blue jay, cardinal, sparrow<br>2. Color of each bird's feathers<br>3. ?</div>Which information best completes the class's observation list?",
+  "q": "Mr. Kim's class studied the trees in a park. They listed what they observed in categories or groups.<div style=\"margin:8px 0 8px 12px\">1. Kinds of trees: oak, maple, pine, birch<br>2. Shape of each tree's leaves<br>3. ?</div>Which information best completes the class's observation list?",
   "choices": {
-   "A": "the number of minutes each bird stayed at the feeder",
-   "B": "how many seeds each bird ate",
-   "C": "how many of each kind of bird visited",
-   "D": "the type of food each bird ate"
+   "A": "the height of each tree in feet",
+   "B": "how many leaves fell from each tree",
+   "C": "how many of each kind of tree grew in the park",
+   "D": "the color of each tree's bark"
   },
   "correct": "D",
-  "key": "<b>Answer: D.</b> <i>The question asks for: a category like the other two.</i> Items 1 and 2 are categories (kinds of birds, colors). Three choices ask for a number; only \"the type of food\" is a category. Find the one choice that is different from the other three. <br>Wrong choices: <b>A</b>: A number (measure), not a category like the list &middot; <b>B</b>: A number (count), not a category &middot; <b>C</b>: A count, not a category (her pick type on the real one)",
+  "key": "<b>Answer: D.</b> <i>The question asks for: a category like the other two.</i> Items 1 and 2 are categories (kinds of trees, leaf shapes). Three choices ask for a number; only \"the color of the bark\" is a category. Find the one choice that is different from the other three. <br>Wrong choices: <b>A</b>: A number (measure), not a category like the list &middot; <b>B</b>: A number (count), not a category &middot; <b>C</b>: A count, not a category (her pick type on the real one)",
   "ref": "Topic: Data Collection & Random Sampling &middot; Built on: Lower 6 QR #38 (last third, 18.4% right; her result: x (135 s)) &middot; Her record: 3/9 &middot; x x o o o o &middot; last miss 11/10 &middot; Compared with the real one: Same: complete a list of categories; three numeric choices and one category",
   "diagram": null,
   "gid": null,

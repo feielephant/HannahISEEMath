@@ -29,21 +29,21 @@
   "stop_early": []
  },
  "4": {
+  "topic": "Shape Construction & Symmetry in 2-D Figures",
+  "built_on": "Lower 5 QR #29 (70.5%, her x (23 s))",
+  "last5": "1/11 &middot; o x o o o o &middot; not practiced since 11/10 &middot; last miss 11/1",
+  "comparable_wrong": "",
+  "vs_latest": "Same build as the real one (X of five tiles, one corner missing, a horizontal line of symmetry); a different corner is missing",
+  "asks": "the tile that makes it symmetric",
+  "stop_early": []
+ },
+ "5": {
   "topic": "Area and Perimeter of Complex Polygons",
   "built_on": "Lower 6 QR #30 (69.5%, her x (13 s))",
   "last5": "8/40 &middot; o o o o o x &middot; last miss 11/25",
   "comparable_wrong": "",
   "vs_latest": "Same: L-shape with two unlabeled inner sides",
   "asks": "perimeter (all 6 sides)",
-  "stop_early": []
- },
- "5": {
-  "topic": "No Remainder when Divided by a given Number",
-  "built_on": "Lower 1 MA #24 (68.1%, her x)",
-  "last5": "7/24 &middot; o o o o o o &middot; last miss 11/3",
-  "comparable_wrong": "",
-  "vs_latest": "Same: four 4-digit numbers, digit-sum rule for 9; one choice divisible by 3 only",
-  "asks": "divisible by 9",
   "stop_early": []
  },
  "6": {
@@ -74,6 +74,15 @@
   "stop_early": []
  },
  "9": {
+  "topic": "Comparing Volume of Cubes",
+  "built_on": "WTE QR #28 (65.1%, her x)",
+  "last5": "6/15 &middot; o o x o x o &middot; last miss 11/24",
+  "comparable_wrong": "",
+  "vs_latest": "Same as the real one (4 &times; 4 &times; 4 there), 7 &times; 7 &times; 7 here",
+  "asks": "how many small cubes",
+  "stop_early": []
+ },
+ "10": {
   "topic": "Remaining Amount after Reducing by Fractions",
   "built_on": "Lower 1 MA #25 (64.9%, her x)",
   "last5": "5/17 &middot; x x o o o o &middot; last miss 11/6",
@@ -84,7 +93,7 @@
    "A"
   ]
  },
- "10": {
+ "11": {
   "topic": "Comparing & Ordering Fractions & Decimals",
   "built_on": "Lower 6 QR #31 (64.4%, her o (98 s))",
   "last5": "13/35 &middot; o x o o o x &middot; last miss 11/20",
@@ -93,7 +102,7 @@
   "asks": "least to greatest",
   "stop_early": []
  },
- "11": {
+ "12": {
   "topic": "Counting Multiples within a Range",
   "built_on": "Lower 5 MA #29 (63.7%, her x (134 s))",
   "last5": "6/12 &middot; o o o x x x &middot; last miss 11/25",
@@ -102,22 +111,13 @@
   "asks": "how many numbers",
   "stop_early": []
  },
- "12": {
+ "13": {
   "topic": "Interpreting Pictographs",
   "built_on": "Lower 5 QR #34 (63.1%, her x (24 s))",
   "last5": "8/30 &middot; o o o o o o &middot; last miss 11/3",
   "comparable_wrong": "",
   "vs_latest": "Same: two balanced scales, substitute between them",
   "asks": "which scale balances",
-  "stop_early": []
- },
- "13": {
-  "topic": "Identifying Shapes",
-  "built_on": "Lower 5 MA #28 (62.0%, her x (18 s))",
-  "last5": "3/24 &middot; o o o o o o &middot; last miss 11/15",
-  "comparable_wrong": "",
-  "vs_latest": "Same: describe a quadrilateral, choose its name (rhombus, as on the real one)",
-  "asks": "name of the shape",
   "stop_early": []
  },
  "14": {
@@ -157,6 +157,15 @@
   "stop_early": []
  },
  "18": {
+  "topic": "Patterns in Data Tables and Lists",
+  "built_on": "Lower 2 QR #34 (56.3%, her x)",
+  "last5": "x o (same build: Lower 2 QR #34, Vacation Day 2 #1)",
+  "comparable_wrong": "",
+  "vs_latest": "Same as the real one: one group, total not given, a smaller next group",
+  "asks": "how many of the next 20 choose soccer",
+  "stop_early": []
+ },
+ "19": {
   "topic": "Estimating Sums Differences of Decimal Numbers",
   "built_on": "Lower 2 MA #27 (55.3%, her x)",
   "last5": "2/13 &middot; o x o o o o &middot; last miss 10/14",
@@ -165,7 +174,7 @@
   "asks": "closest total",
   "stop_early": []
  },
- "19": {
+ "20": {
   "topic": "Interpreting Linear Equations from Word Problems",
   "built_on": "Lower 1 QR #33 (54.4%, her x)",
   "last5": "1/7 &middot; x o o o o o &middot; last miss 8/30",
@@ -174,7 +183,16 @@
   "asks": "total frosting (expression)",
   "stop_early": []
  },
- "20": {
+ "21": {
+  "topic": "Counting Multiples within a Range",
+  "built_on": "Lower 5 MA #29 (63.7%, her x (134 s))",
+  "last5": "6/12 &middot; o o x x x &middot; last miss 11/25",
+  "comparable_wrong": "",
+  "vs_latest": "Same as the real one (count multiples in a range) as a story; this time the first number IS a multiple and counts",
+  "asks": "how many winning tickets",
+  "stop_early": []
+ },
+ "22": {
   "topic": "Determining Total Cost",
   "built_on": "Lower 6 MA #30 (50.2%, her x (210 s))",
   "last5": "2/14 &middot; o o x o o o &middot; last miss 11/8",
@@ -185,7 +203,7 @@
    "B"
   ]
  },
- "21": {
+ "23": {
   "topic": "Estimating Multiplication & Division",
   "built_on": "Lower 6 QR #36 (50.1%, her x (107 s))",
   "last5": "9/36 &middot; x o o o x o &middot; last miss 11/20",
@@ -194,7 +212,7 @@
   "asks": "about how much",
   "stop_early": []
  },
- "22": {
+ "24": {
   "topic": "Estimating Multiplication & Division",
   "built_on": "WTE QR #33 (49.0%, her x)",
   "last5": "9/36 &middot; x o o o x o &middot; last miss 11/20",
@@ -203,7 +221,7 @@
   "asks": "about how much",
   "stop_early": []
  },
- "23": {
+ "25": {
   "topic": "Comparing Volume of Cubes",
   "built_on": "Lower 4 QR #36 (48.2%, her x)",
   "last5": "6/15 &middot; o o x o x o &middot; last miss 11/24",
@@ -212,25 +230,16 @@
   "asks": "how many Cube A's",
   "stop_early": []
  },
- "24": {
+ "26": {
   "topic": "Translating Math Expressions",
   "built_on": "Lower 4 QR #35 (47.4%, her x)",
   "last5": "7/21 &middot; o o o x x x &middot; last miss 11/25",
   "comparable_wrong": "",
   "vs_latest": "Same as the real one (times as many as she HAD); new story",
-  "asks": "Ben, at the beginning",
+  "asks": "Sam, at the beginning",
   "stop_early": []
  },
- "25": {
-  "topic": "Adding and Subtracting Fractions",
-  "built_on": "Lower 2 QR #36 (43.6%, her x)",
-  "last5": "1/13 &middot; not practiced since 11/6 &middot; last miss 9/13",
-  "comparable_wrong": "",
-  "vs_latest": "Same: n/denominator + a fraction, check four statements",
-  "asks": "which statement is true",
-  "stop_early": []
- },
- "26": {
+ "27": {
   "topic": "Finding Ratios given Probability",
   "built_on": "Lower 1 QR #34 (42.4%, her o)",
   "last5": "3/28 &middot; o o x o x o &middot; last miss 11/20",
@@ -239,22 +248,13 @@
   "asks": "blue out of ALL the marbles",
   "stop_early": []
  },
- "27": {
+ "28": {
   "topic": "Identifying Correct Conclusions from Bar Graph Data Table",
   "built_on": "Lower 2 QR #37 (41.7%, her x)",
   "last5": "x o o (same build: MA5 #13, MA6 #2)",
   "comparable_wrong": "",
   "vs_latest": "Same: 14 values on 4 stems, an \"at least ... exactly\" count is true",
   "asks": "which conclusion is true",
-  "stop_early": []
- },
- "28": {
-  "topic": "Comparing Areas",
-  "built_on": "Lower 2 QR #38 (41.1%, her x)",
-  "last5": "4/10 &middot; x o o o o o &middot; last miss 11/3",
-  "comparable_wrong": "",
-  "vs_latest": "Same: square from its area vs a rectangle, compare area and perimeter",
-  "asks": "which statement is true",
   "stop_early": []
  },
  "29": {
@@ -276,15 +276,6 @@
   "stop_early": []
  },
  "31": {
-  "topic": "No Remainder when Divided by a given Number",
-  "built_on": "Lower 1 MA #29 (39.1%, her x)",
-  "last5": "7/24 &middot; o o o o o o &middot; last miss 11/3",
-  "comparable_wrong": "",
-  "vs_latest": "Same: \"and 7 others\" = 8, choose the multiple of 8; two choices divisible by 4 only",
-  "asks": "divisible by 8 (Ava + 7 = 8 students)",
-  "stop_early": []
- },
- "32": {
   "topic": "Volume of Solids",
   "built_on": "Lower 1 QR #36 (37.2%, her x)",
   "last5": "2/6 &middot; x o o o x o &middot; last miss 11/20",
@@ -292,6 +283,17 @@
   "vs_latest": "Same: choose the expression for two joined prisms",
   "asks": "total volume (expression)",
   "stop_early": []
+ },
+ "32": {
+  "topic": "Finding Area/Perimeter of Rectangle, given Length & Width",
+  "built_on": "Lower 1 MA #30 (35.9%, her x)",
+  "last5": "6/20 &middot; x o o x x o &middot; last miss 11/20",
+  "comparable_wrong": "",
+  "vs_latest": "Same chain as the real one (perimeter &rarr; side &rarr; area &rarr; missing side), new numbers",
+  "asks": "length of the rectangle",
+  "stop_early": [
+   "B"
+  ]
  },
  "33": {
   "topic": "Data Collection & Random Sampling",
@@ -303,17 +305,6 @@
   "stop_early": []
  },
  "34": {
-  "topic": "Finding Area/Perimeter of Rectangle, given Length & Width",
-  "built_on": "Lower 1 MA #30 (35.9%, her x)",
-  "last5": "6/20 &middot; x o o x x o &middot; last miss 11/20",
-  "comparable_wrong": "",
-  "vs_latest": "Same chain as the real one (perimeter &rarr; side &rarr; area &rarr; missing side), new numbers",
-  "asks": "length of the rectangle",
-  "stop_early": [
-   "B"
-  ]
- },
- "35": {
   "topic": "Classification of Numbers, given a Set",
   "built_on": "Lower 2 MA #29 (34.4%, her x)",
   "last5": "1/14 &middot; o o o o o o &middot; last miss 9/13",
@@ -322,16 +313,7 @@
   "asks": "always true",
   "stop_early": []
  },
- "36": {
-  "topic": "Area of Triangles",
-  "built_on": "Lower 2 MA #30 (32.1%, her x)",
-  "last5": "2/8 &middot; o o x o o o &middot; last miss 11/6",
-  "comparable_wrong": "",
-  "vs_latest": "Same: fixed base, compare A to the height (base 10 instead of 6)",
-  "asks": "how A compares with the height",
-  "stop_early": []
- },
- "37": {
+ "35": {
   "topic": "Area and Perimeter of Complex Polygons",
   "built_on": "Lower 1 QR #38 (33.8%, her x)",
   "last5": "8/40 &middot; o o o o o x &middot; last miss 11/25",
@@ -341,6 +323,24 @@
   "stop_early": [
    "C"
   ]
+ },
+ "36": {
+  "topic": "Area of Triangles",
+  "built_on": "Lower 2 MA #30 (32.1%, her x)",
+  "last5": "2/8 &middot; o o x o o o &middot; last miss 11/6",
+  "comparable_wrong": "",
+  "vs_latest": "Same: fixed base, compare A to the height (base 16 instead of 6)",
+  "asks": "how A compares with the height",
+  "stop_early": []
+ },
+ "37": {
+  "topic": "Translating Math Expressions",
+  "built_on": "Lower 4 QR #35 (47.4%, her x)",
+  "last5": "7/21 &middot; o o o x x x &middot; last miss 11/25",
+  "comparable_wrong": "",
+  "vs_latest": "Same timeline idea as the real one, asked from the other side (who had how many at first)",
+  "asks": "Lila, at first",
+  "stop_early": []
  },
  "38": {
   "topic": "Data Collection & Random Sampling",

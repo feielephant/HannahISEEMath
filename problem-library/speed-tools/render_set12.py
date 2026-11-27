@@ -240,7 +240,7 @@ for p in P:
 key = head("QR Set 12 Answer Key") + '<body><div class="wrap">'
 key += f'<h1>Quantitative Reasoning Practice — Set 12 · Answer Key</h1><p class="lede">For parent use. Tier, topic, and reference show how each problem connects to Hannah\'s gaps and past practice.</p>'
 M = json.load(open(os.path.join(HERE, 'set12_mapping.json')))
-key += '<div class="card"><div style="font-weight:600;margin-bottom:6px">Plan summary: every problem is built on a real last-third problem she missed (or, for #10 and #27, one she got right but often misses in our sets). Her record = misses / tries on the topic, last 6 oldest &rarr; newest (o = right, x = wrong), last miss</div><div class="logwrap" style="max-height:none;overflow-x:auto"><table class="data"><tr><th>#</th><th>Skill</th><th>Built on</th><th>Her record</th><th>Asks for</th><th>vs. the real one</th></tr>'
+key += '<div class="card"><div style="font-weight:600;margin-bottom:6px">Plan summary: every problem is built on a real last-third problem she missed (or, for #11 and #27, one she got right but often misses in our sets). Her record = misses / tries on the topic, last 6 oldest &rarr; newest (o = right, x = wrong), last miss</div><div class="logwrap" style="max-height:none;overflow-x:auto"><table class="data"><tr><th>#</th><th>Skill</th><th>Built on</th><th>Her record</th><th>Asks for</th><th>vs. the real one</th></tr>'
 for n in range(1, N + 1):
     m = M[str(n)]
     key += f"<tr><td>{n}</td><td>{m['topic']}</td><td>{m['built_on']}</td><td>{m['last5']}</td><td>{m['asks']}</td><td>{m['vs_latest']}</td></tr>"
