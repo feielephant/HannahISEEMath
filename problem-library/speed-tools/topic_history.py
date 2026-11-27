@@ -39,6 +39,12 @@ for s in L['ma_sets']:
     if not g: continue
     date=g[0][0].split('_')[1]; wr=set(g[0][1].get('wrong',[]))
     for i,t in enumerate(s['topics'],1): add(t,date,'MA%d #%d'%(s['set_no'],i),i,i in wr,'setMA')
+for s in L.get('vacation_sets', []):
+    g=[(k,v) for k,v in s.items() if k.startswith('graded')]
+    if not g: continue
+    date=g[0][0].split('_')[1]; wr=set(g[0][1].get('wrong',[])); ns=set(g[0][1].get('not_scored',[]))
+    for i,t in enumerate(s['topics'],1):
+        if i not in ns: add(t,date,'VAC%d #%d'%(s['set_no'],i),i,i in wr,'setVAC')
 def stats(n):
     e=sorted(ev[n])
     real=[x for x in e if x[4]=='realQR']

@@ -1,0 +1,354 @@
+{
+ "1": {
+  "topic": "Nth Term, given Arithmetic Sequence, Progressive Pattern, etc.",
+  "built_on": "Lower 3 MA #21 (80.0%, her x)",
+  "last5": "6/17 &middot; o x x o x o &middot; last miss 11/17",
+  "comparable_wrong": "",
+  "vs_latest": "Same: &times;3 pattern, find the sixth number; same kinds of wrong choices",
+  "asks": "the sixth number",
+  "stop_early": [
+   "B"
+  ]
+ },
+ "2": {
+  "topic": "Percent Increase Decrease basic",
+  "built_on": "Lower 6 MA #28 (74.6%, her x (92 s))",
+  "last5": "6/11 &middot; x o o o x o &middot; last miss 11/20",
+  "comparable_wrong": "",
+  "vs_latest": "Same: 20% of the price is given in dollars, find the whole; same kinds of wrong choices",
+  "asks": "regular price",
+  "stop_early": []
+ },
+ "3": {
+  "topic": "Comparing Volume of Cubes",
+  "built_on": "Lower 3 QR #29 (72.2%, her x)",
+  "last5": "6/15 &middot; o o x o x o &middot; last miss 11/24",
+  "comparable_wrong": "",
+  "vs_latest": "Same as the real one, new numbers",
+  "asks": "volume of the box",
+  "stop_early": []
+ },
+ "4": {
+  "topic": "Area and Perimeter of Complex Polygons",
+  "built_on": "Lower 6 QR #30 (69.5%, her x (13 s))",
+  "last5": "8/40 &middot; o o o o o x &middot; last miss 11/25",
+  "comparable_wrong": "",
+  "vs_latest": "Same: L-shape with two unlabeled inner sides",
+  "asks": "perimeter (all 6 sides)",
+  "stop_early": []
+ },
+ "5": {
+  "topic": "No Remainder when Divided by a given Number",
+  "built_on": "Lower 1 MA #24 (68.1%, her x)",
+  "last5": "7/24 &middot; o o o o o o &middot; last miss 11/3",
+  "comparable_wrong": "",
+  "vs_latest": "Same: four 4-digit numbers, digit-sum rule for 9; one choice divisible by 3 only",
+  "asks": "divisible by 9",
+  "stop_early": []
+ },
+ "6": {
+  "topic": "Numerical Patterns",
+  "built_on": "Lower 1 MA #21 (67.1%, her x)",
+  "last5": "8/30 &middot; o o o o x o &middot; last miss 11/20",
+  "comparable_wrong": "",
+  "vs_latest": "Same: doubling jumps, next number",
+  "asks": "the next number",
+  "stop_early": []
+ },
+ "7": {
+  "topic": "Perimeter",
+  "built_on": "Lower 5 QR #33 (66.1%, her x (145 s))",
+  "last5": "8/40 &middot; o o o o o x &middot; last miss 11/25",
+  "comparable_wrong": "",
+  "vs_latest": "Same as the real one, new numbers",
+  "asks": "the increase",
+  "stop_early": []
+ },
+ "8": {
+  "topic": "Comparing Areas",
+  "built_on": "Lower 2 QR #29 (65.1%, her x)",
+  "last5": "4/10 &middot; x o o o o o &middot; last miss 11/3",
+  "comparable_wrong": "",
+  "vs_latest": "Same: a factor-pair array, find another array with the same product; near-miss arrays as choices",
+  "asks": "same number (60), different factors",
+  "stop_early": []
+ },
+ "9": {
+  "topic": "Remaining Amount after Reducing by Fractions",
+  "built_on": "Lower 1 MA #25 (64.9%, her x)",
+  "last5": "5/17 &middot; x x o o o o &middot; last miss 11/6",
+  "comparable_wrong": "",
+  "vs_latest": "Same: a different unit fraction of each of two groups, how many left",
+  "asks": "how many are left",
+  "stop_early": [
+   "A"
+  ]
+ },
+ "10": {
+  "topic": "Comparing & Ordering Fractions & Decimals",
+  "built_on": "Lower 6 QR #31 (64.4%, her o (98 s))",
+  "last5": "13/35 &middot; o x o o o x &middot; last miss 11/20",
+  "comparable_wrong": "",
+  "vs_latest": "Same: three fractions with different denominators; asks least to greatest instead of greatest to least",
+  "asks": "least to greatest",
+  "stop_early": []
+ },
+ "11": {
+  "topic": "Counting Multiples within a Range",
+  "built_on": "Lower 5 MA #29 (63.7%, her x (134 s))",
+  "last5": "6/12 &middot; o o o x x x &middot; last miss 11/25",
+  "comparable_wrong": "",
+  "vs_latest": "Same: one divisor, a range whose ends are not multiples; off-by-one choices like the real one",
+  "asks": "how many numbers",
+  "stop_early": []
+ },
+ "12": {
+  "topic": "Interpreting Pictographs",
+  "built_on": "Lower 5 QR #34 (63.1%, her x (24 s))",
+  "last5": "8/30 &middot; o o o o o o &middot; last miss 11/3",
+  "comparable_wrong": "",
+  "vs_latest": "Same: two balanced scales, substitute between them",
+  "asks": "which scale balances",
+  "stop_early": []
+ },
+ "13": {
+  "topic": "Identifying Shapes",
+  "built_on": "Lower 5 MA #28 (62.0%, her x (18 s))",
+  "last5": "3/24 &middot; o o o o o o &middot; last miss 11/15",
+  "comparable_wrong": "",
+  "vs_latest": "Same: describe a quadrilateral, choose its name (rhombus, as on the real one)",
+  "asks": "name of the shape",
+  "stop_early": []
+ },
+ "14": {
+  "topic": "Matching Stories to Equations",
+  "built_on": "Lower 2 QR #32 (59.4%, her x)",
+  "last5": "5/22 &middot; o o o o o o &middot; last miss 11/10",
+  "comparable_wrong": "",
+  "vs_latest": "Same: tiles along length &times; tiles along width; same four forms",
+  "asks": "number of tiles (expression)",
+  "stop_early": []
+ },
+ "15": {
+  "topic": "Probability of 1 Event, given a List of Items",
+  "built_on": "Official QR #34 (57.6%, her x (59 s))",
+  "last5": "3/28 &middot; o o x o x o &middot; last miss 11/20",
+  "comparable_wrong": "",
+  "vs_latest": "Same: unit fraction, unknown count in a table (1/4 instead of 1/3)",
+  "asks": "how many purple",
+  "stop_early": []
+ },
+ "16": {
+  "topic": "Value of Digits",
+  "built_on": "Official QR #36 (57.0%, her x (36 s))",
+  "last5": "4/16 &middot; o x o x o o &middot; last miss 11/17",
+  "comparable_wrong": "",
+  "vs_latest": "Same: one digit is forced last by odd/even, largest number, a middle place asked",
+  "asks": "the hundreds digit",
+  "stop_early": []
+ },
+ "17": {
+  "topic": "Adding and Subtracting Decimals",
+  "built_on": "Lower 1 QR #29 (56.9%, her x)",
+  "last5": "3/12 &middot; not practiced since 11/1 &middot; last miss 10/6",
+  "comparable_wrong": "",
+  "vs_latest": "Same: a decimal amount minus a fraction amount, answer as a range",
+  "asks": "how much is left",
+  "stop_early": []
+ },
+ "18": {
+  "topic": "Estimating Sums Differences of Decimal Numbers",
+  "built_on": "Lower 2 MA #27 (55.3%, her x)",
+  "last5": "2/13 &middot; o x o o o o &middot; last miss 10/14",
+  "comparable_wrong": "",
+  "vs_latest": "Same: five money amounts, closest total among four nearby choices",
+  "asks": "closest total",
+  "stop_early": []
+ },
+ "19": {
+  "topic": "Interpreting Linear Equations from Word Problems",
+  "built_on": "Lower 1 QR #33 (54.4%, her x)",
+  "last5": "1/7 &middot; x o o o o o &middot; last miss 8/30",
+  "comparable_wrong": "",
+  "vs_latest": "Same: (&square; + &#9675;) &times; &#9651;; one choice drops the parentheses",
+  "asks": "total frosting (expression)",
+  "stop_early": []
+ },
+ "20": {
+  "topic": "Determining Total Cost",
+  "built_on": "Lower 6 MA #30 (50.2%, her x (210 s))",
+  "last5": "2/14 &middot; o o x o o o &middot; last miss 11/8",
+  "comparable_wrong": "",
+  "vs_latest": "Same: 1-for-1 match of a table total",
+  "asks": "total the charities received",
+  "stop_early": [
+   "B"
+  ]
+ },
+ "21": {
+  "topic": "Estimating Multiplication & Division",
+  "built_on": "Lower 6 QR #36 (50.1%, her x (107 s))",
+  "last5": "9/36 &middot; x o o o x o &middot; last miss 11/20",
+  "comparable_wrong": "",
+  "vs_latest": "Same: a &divide; b &times; c with four ranges; new numbers",
+  "asks": "about how much",
+  "stop_early": []
+ },
+ "22": {
+  "topic": "Estimating Multiplication & Division",
+  "built_on": "WTE QR #33 (49.0%, her x)",
+  "last5": "9/36 &middot; x o o o x o &middot; last miss 11/20",
+  "comparable_wrong": "",
+  "vs_latest": "Same: (a &times; b) &divide; c with the same four ranges; new numbers",
+  "asks": "about how much",
+  "stop_early": []
+ },
+ "23": {
+  "topic": "Comparing Volume of Cubes",
+  "built_on": "Lower 4 QR #36 (48.2%, her x)",
+  "last5": "6/15 &middot; o o x o x o &middot; last miss 11/24",
+  "comparable_wrong": "",
+  "vs_latest": "Same: scale factor cubed; the same kinds of wrong choices (&times;3, squared, faces)",
+  "asks": "how many Cube A's",
+  "stop_early": []
+ },
+ "24": {
+  "topic": "Matching Stories to Equations",
+  "built_on": "Lower 3 QR #37 (48.0%, her x)",
+  "last5": "5/22 &middot; o o o o o o &middot; last miss 11/10",
+  "comparable_wrong": "",
+  "vs_latest": "Same one-step equation, asked the other way (the total instead of each share)",
+  "asks": "the total cost",
+  "stop_early": []
+ },
+ "25": {
+  "topic": "Translating Math Expressions",
+  "built_on": "Lower 4 QR #35 (47.4%, her x)",
+  "last5": "7/21 &middot; o o o x x x &middot; last miss 11/25",
+  "comparable_wrong": "",
+  "vs_latest": "Same as the real one (times as many as she HAD); new story",
+  "asks": "Ben, at the beginning",
+  "stop_early": []
+ },
+ "26": {
+  "topic": "Adding and Subtracting Fractions",
+  "built_on": "Lower 2 QR #36 (43.6%, her x)",
+  "last5": "1/13 &middot; not practiced since 11/6 &middot; last miss 9/13",
+  "comparable_wrong": "",
+  "vs_latest": "Same: n/denominator + a fraction, check four statements",
+  "asks": "which statement is true",
+  "stop_early": []
+ },
+ "27": {
+  "topic": "Finding Ratios given Probability",
+  "built_on": "Lower 1 QR #34 (42.4%, her o)",
+  "last5": "3/28 &middot; o o x o x o &middot; last miss 11/20",
+  "comparable_wrong": "",
+  "vs_latest": "Same: probability as \"out of\", choose the combination",
+  "asks": "blue out of ALL the marbles",
+  "stop_early": []
+ },
+ "28": {
+  "topic": "Identifying Correct Conclusions from Bar Graph Data Table",
+  "built_on": "Lower 2 QR #37 (41.7%, her x)",
+  "last5": "x o o (same build: MA5 #13, MA6 #2)",
+  "comparable_wrong": "",
+  "vs_latest": "Same: 14 values on 4 stems, an \"at least ... exactly\" count is true",
+  "asks": "which conclusion is true",
+  "stop_early": []
+ },
+ "29": {
+  "topic": "Comparing Areas",
+  "built_on": "Lower 2 QR #38 (41.1%, her x)",
+  "last5": "4/10 &middot; x o o o o o &middot; last miss 11/3",
+  "comparable_wrong": "",
+  "vs_latest": "Same: square from its area vs a rectangle, compare area and perimeter",
+  "asks": "which statement is true",
+  "stop_early": []
+ },
+ "30": {
+  "topic": "Percent Increase Decrease basic",
+  "built_on": "Lower 4 QR #38 (40.6%, her x)",
+  "last5": "6/11 &middot; x o o o x o &middot; last miss 11/20",
+  "comparable_wrong": "",
+  "vs_latest": "Same: two opposite changes of the same percent, answer is a percent change (30% instead of 20%; decrease first)",
+  "asks": "percent change from the original",
+  "stop_early": []
+ },
+ "31": {
+  "topic": "Comparing Volume of Cubes",
+  "built_on": "Lower 5 QR #38 (39.6%, her x (66 s))",
+  "last5": "6/15 &middot; o o x o x o &middot; last miss 11/24",
+  "comparable_wrong": "",
+  "vs_latest": "Same: thousands cubes, count to a power of 10 (70 instead of 30)",
+  "asks": "volume (expression)",
+  "stop_early": []
+ },
+ "32": {
+  "topic": "No Remainder when Divided by a given Number",
+  "built_on": "Lower 1 MA #29 (39.1%, her x)",
+  "last5": "7/24 &middot; o o o o o o &middot; last miss 11/3",
+  "comparable_wrong": "",
+  "vs_latest": "Same: \"and 7 others\" = 8, choose the multiple of 8; two choices divisible by 4 only",
+  "asks": "divisible by 8 (Ava + 7 = 8 students)",
+  "stop_early": []
+ },
+ "33": {
+  "topic": "Volume of Solids",
+  "built_on": "Lower 1 QR #36 (37.2%, her x)",
+  "last5": "2/6 &middot; x o o o x o &middot; last miss 11/20",
+  "comparable_wrong": "",
+  "vs_latest": "Same: choose the expression for two joined prisms",
+  "asks": "total volume (expression)",
+  "stop_early": []
+ },
+ "34": {
+  "topic": "Finding Area/Perimeter of Rectangle, given Length & Width",
+  "built_on": "Lower 1 MA #30 (35.9%, her x)",
+  "last5": "6/20 &middot; x o o x x o &middot; last miss 11/20",
+  "comparable_wrong": "",
+  "vs_latest": "Same chain as the real one (perimeter &rarr; side &rarr; area &rarr; missing side), new numbers",
+  "asks": "length of the rectangle",
+  "stop_early": [
+   "B"
+  ]
+ },
+ "35": {
+  "topic": "Classification of Numbers, given a Set",
+  "built_on": "Lower 2 MA #29 (34.4%, her x)",
+  "last5": "1/14 &middot; o o o o o o &middot; last miss 9/13",
+  "comparable_wrong": "",
+  "vs_latest": "Same: classify a product of two kinds of numbers; prime &times; composite instead of prime &times; odd",
+  "asks": "always true",
+  "stop_early": []
+ },
+ "36": {
+  "topic": "Area of Triangles",
+  "built_on": "Lower 2 MA #30 (32.1%, her x)",
+  "last5": "2/8 &middot; o o x o o o &middot; last miss 11/6",
+  "comparable_wrong": "",
+  "vs_latest": "Same: fixed base, compare A to the height (base 10 instead of 6)",
+  "asks": "how A compares with the height",
+  "stop_early": []
+ },
+ "37": {
+  "topic": "Area and Perimeter of Complex Polygons",
+  "built_on": "Lower 1 QR #38 (33.8%, her x)",
+  "last5": "8/40 &middot; o o o o o x &middot; last miss 11/25",
+  "comparable_wrong": "",
+  "vs_latest": "Same: square + triangle sharing a side, two perimeters given",
+  "asks": "perimeter of the triangle",
+  "stop_early": [
+   "C"
+  ]
+ },
+ "38": {
+  "topic": "Data Collection & Random Sampling",
+  "built_on": "Lower 6 QR #38 (18.4%, her x (135 s))",
+  "last5": "3/9 &middot; x x o o o o &middot; last miss 11/10",
+  "comparable_wrong": "",
+  "vs_latest": "Same: complete a list of categories; three numeric choices and one category",
+  "asks": "a category like the other two",
+  "stop_early": []
+ }
+}

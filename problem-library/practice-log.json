@@ -2142,6 +2142,366 @@
      "rules box: randomize which place is asked; vary details so she cannot learn one pattern"
     ]
    }
+  },
+  {
+   "set_no": 12,
+   "date_built": "2026-11-27",
+   "builder": "speed-tools/build_set12.py",
+   "minutes": 35,
+   "topics": [
+    "Nth Term, given Arithmetic Sequence, Progressive Pattern, etc.",
+    "Percent Increase Decrease basic",
+    "Comparing Volume of Cubes",
+    "Area and Perimeter of Complex Polygons",
+    "No Remainder when Divided by a given Number",
+    "Numerical Patterns",
+    "Perimeter",
+    "Comparing Areas",
+    "Remaining Amount after Reducing by Fractions",
+    "Comparing & Ordering Fractions & Decimals",
+    "Counting Multiples within a Range",
+    "Interpreting Pictographs",
+    "Identifying Shapes",
+    "Matching Stories to Equations",
+    "Probability of 1 Event, given a List of Items",
+    "Value of Digits",
+    "Adding and Subtracting Decimals",
+    "Estimating Sums Differences of Decimal Numbers",
+    "Interpreting Linear Equations from Word Problems",
+    "Determining Total Cost",
+    "Estimating Multiplication & Division",
+    "Estimating Multiplication & Division",
+    "Comparing Volume of Cubes",
+    "Matching Stories to Equations",
+    "Translating Math Expressions",
+    "Adding and Subtracting Fractions",
+    "Finding Ratios given Probability",
+    "Identifying Correct Conclusions from Bar Graph Data Table",
+    "Comparing Areas",
+    "Percent Increase Decrease basic",
+    "Comparing Volume of Cubes",
+    "No Remainder when Divided by a given Number",
+    "Volume of Solids",
+    "Finding Area/Perimeter of Rectangle, given Length & Width",
+    "Classification of Numbers, given a Set",
+    "Area of Triangles",
+    "Area and Perimeter of Complex Polygons",
+    "Data Collection & Random Sampling"
+   ],
+   "answers": "CCADACAABADABCBBCBADCBCCDDBDABCAADDBDD",
+   "built_with": "Parent 11/27 after vacation: 38 problems, every one built on a REAL last-third practice-test problem (QR #26-38 / MA #21-30), nothing invented. Topics from her data (topic_history.py incl. vacation days): A) 21 open weaknesses (high error, recent misses, or a miss then 3+ weeks unpracticed); B) 17 types missed often before and right since, 1-2 weeks unpracticed (will be 3+ weeks by Dec 10), incl. 4 the parent had rested 11/19 (divisible-by-8 story, prime x composite, triangle area vs height, share-a-total equation), approved again 11/27. Parent: difficulty and trap level must match the real problem she missed (same steps, same kinds of wrong choices, her pick included). Ordered by real % right, highest first. Problems now hidden until Start (Day 2 #1 timed 3 s because #1 was readable before Start).",
+   "built_on_by_problem": {
+    "1": "Lower 3 MA #21 (80.0%, her x)",
+    "2": "Lower 6 MA #28 (74.6%, her x (92 s))",
+    "3": "Lower 3 QR #29 (72.2%, her x)",
+    "4": "Lower 6 QR #30 (69.5%, her x (13 s))",
+    "5": "Lower 1 MA #24 (68.1%, her x)",
+    "6": "Lower 1 MA #21 (67.1%, her x)",
+    "7": "Lower 5 QR #33 (66.1%, her x (145 s))",
+    "8": "Lower 2 QR #29 (65.1%, her x)",
+    "9": "Lower 1 MA #25 (64.9%, her x)",
+    "10": "Lower 6 QR #31 (64.4%, her o (98 s))",
+    "11": "Lower 5 MA #29 (63.7%, her x (134 s))",
+    "12": "Lower 5 QR #34 (63.1%, her x (24 s))",
+    "13": "Lower 5 MA #28 (62.0%, her x (18 s))",
+    "14": "Lower 2 QR #32 (59.4%, her x)",
+    "15": "Official QR #34 (57.6%, her x (59 s))",
+    "16": "Official QR #36 (57.0%, her x (36 s))",
+    "17": "Lower 1 QR #29 (56.9%, her x)",
+    "18": "Lower 2 MA #27 (55.3%, her x)",
+    "19": "Lower 1 QR #33 (54.4%, her x)",
+    "20": "Lower 6 MA #30 (50.2%, her x (210 s))",
+    "21": "Lower 6 QR #36 (50.1%, her x (107 s))",
+    "22": "WTE QR #33 (49.0%, her x)",
+    "23": "Lower 4 QR #36 (48.2%, her x)",
+    "24": "Lower 3 QR #37 (48.0%, her x)",
+    "25": "Lower 4 QR #35 (47.4%, her x)",
+    "26": "Lower 2 QR #36 (43.6%, her x)",
+    "27": "Lower 1 QR #34 (42.4%, her o)",
+    "28": "Lower 2 QR #37 (41.7%, her x)",
+    "29": "Lower 2 QR #38 (41.1%, her x)",
+    "30": "Lower 4 QR #38 (40.6%, her x)",
+    "31": "Lower 5 QR #38 (39.6%, her x (66 s))",
+    "32": "Lower 1 MA #29 (39.1%, her x)",
+    "33": "Lower 1 QR #36 (37.2%, her x)",
+    "34": "Lower 1 MA #30 (35.9%, her x)",
+    "35": "Lower 2 MA #29 (34.4%, her x)",
+    "36": "Lower 2 MA #30 (32.1%, her x)",
+    "37": "Lower 1 QR #38 (33.8%, her x)",
+    "38": "Lower 6 QR #38 (18.4%, her x (135 s))"
+   },
+   "records_by_problem": {
+    "1": "6/17 &middot; o x x o x o &middot; last miss 11/17",
+    "2": "6/11 &middot; x o o o x o &middot; last miss 11/20",
+    "3": "6/15 &middot; o o x o x o &middot; last miss 11/24",
+    "4": "8/40 &middot; o o o o o x &middot; last miss 11/25",
+    "5": "7/24 &middot; o o o o o o &middot; last miss 11/3",
+    "6": "8/30 &middot; o o o o x o &middot; last miss 11/20",
+    "7": "8/40 &middot; o o o o o x &middot; last miss 11/25",
+    "8": "4/10 &middot; x o o o o o &middot; last miss 11/3",
+    "9": "5/17 &middot; x x o o o o &middot; last miss 11/6",
+    "10": "13/35 &middot; o x o o o x &middot; last miss 11/20",
+    "11": "6/12 &middot; o o o x x x &middot; last miss 11/25",
+    "12": "8/30 &middot; o o o o o o &middot; last miss 11/3",
+    "13": "3/24 &middot; o o o o o o &middot; last miss 11/15",
+    "14": "5/22 &middot; o o o o o o &middot; last miss 11/10",
+    "15": "3/28 &middot; o o x o x o &middot; last miss 11/20",
+    "16": "4/16 &middot; o x o x o o &middot; last miss 11/17",
+    "17": "3/12 &middot; not practiced since 11/1 &middot; last miss 10/6",
+    "18": "2/13 &middot; o x o o o o &middot; last miss 10/14",
+    "19": "1/7 &middot; x o o o o o &middot; last miss 8/30",
+    "20": "2/14 &middot; o o x o o o &middot; last miss 11/8",
+    "21": "9/36 &middot; x o o o x o &middot; last miss 11/20",
+    "22": "9/36 &middot; x o o o x o &middot; last miss 11/20",
+    "23": "6/15 &middot; o o x o x o &middot; last miss 11/24",
+    "24": "5/22 &middot; o o o o o o &middot; last miss 11/10",
+    "25": "7/21 &middot; o o o x x x &middot; last miss 11/25",
+    "26": "1/13 &middot; not practiced since 11/6 &middot; last miss 9/13",
+    "27": "3/28 &middot; o o x o x o &middot; last miss 11/20",
+    "28": "x o o (same build: MA5 #13, MA6 #2)",
+    "29": "4/10 &middot; x o o o o o &middot; last miss 11/3",
+    "30": "6/11 &middot; x o o o x o &middot; last miss 11/20",
+    "31": "6/15 &middot; o o x o x o &middot; last miss 11/24",
+    "32": "7/24 &middot; o o o o o o &middot; last miss 11/3",
+    "33": "2/6 &middot; x o o o x o &middot; last miss 11/20",
+    "34": "6/20 &middot; x o o x x o &middot; last miss 11/20",
+    "35": "1/14 &middot; o o o o o o &middot; last miss 9/13",
+    "36": "2/8 &middot; o o x o o o &middot; last miss 11/6",
+    "37": "8/40 &middot; o o o o o x &middot; last miss 11/25",
+    "38": "3/9 &middot; x x o o o o &middot; last miss 11/10"
+   },
+   "difficulty_vs_original": {
+    "1": "Same: &times;3 pattern, find the sixth number; same kinds of wrong choices",
+    "2": "Same: 20% of the price is given in dollars, find the whole; same kinds of wrong choices",
+    "3": "Same as the real one, new numbers",
+    "4": "Same: L-shape with two unlabeled inner sides",
+    "5": "Same: four 4-digit numbers, digit-sum rule for 9; one choice divisible by 3 only",
+    "6": "Same: doubling jumps, next number",
+    "7": "Same as the real one, new numbers",
+    "8": "Same: a factor-pair array, find another array with the same product; near-miss arrays as choices",
+    "9": "Same: a different unit fraction of each of two groups, how many left",
+    "10": "Same: three fractions with different denominators; asks least to greatest instead of greatest to least",
+    "11": "Same: one divisor, a range whose ends are not multiples; off-by-one choices like the real one",
+    "12": "Same: two balanced scales, substitute between them",
+    "13": "Same: describe a quadrilateral, choose its name (rhombus, as on the real one)",
+    "14": "Same: tiles along length &times; tiles along width; same four forms",
+    "15": "Same: unit fraction, unknown count in a table (1/4 instead of 1/3)",
+    "16": "Same: one digit is forced last by odd/even, largest number, a middle place asked",
+    "17": "Same: a decimal amount minus a fraction amount, answer as a range",
+    "18": "Same: five money amounts, closest total among four nearby choices",
+    "19": "Same: (&square; + &#9675;) &times; &#9651;; one choice drops the parentheses",
+    "20": "Same: 1-for-1 match of a table total",
+    "21": "Same: a &divide; b &times; c with four ranges; new numbers",
+    "22": "Same: (a &times; b) &divide; c with the same four ranges; new numbers",
+    "23": "Same: scale factor cubed; the same kinds of wrong choices (&times;3, squared, faces)",
+    "24": "Same one-step equation, asked the other way (the total instead of each share)",
+    "25": "Same as the real one (times as many as she HAD); new story",
+    "26": "Same: n/denominator + a fraction, check four statements",
+    "27": "Same: probability as \"out of\", choose the combination",
+    "28": "Same: 14 values on 4 stems, an \"at least ... exactly\" count is true",
+    "29": "Same: square from its area vs a rectangle, compare area and perimeter",
+    "30": "Same: two opposite changes of the same percent, answer is a percent change (30% instead of 20%; decrease first)",
+    "31": "Same: thousands cubes, count to a power of 10 (70 instead of 30)",
+    "32": "Same: \"and 7 others\" = 8, choose the multiple of 8; two choices divisible by 4 only",
+    "33": "Same: choose the expression for two joined prisms",
+    "34": "Same chain as the real one (perimeter &rarr; side &rarr; area &rarr; missing side), new numbers",
+    "35": "Same: classify a product of two kinds of numbers; prime &times; composite instead of prime &times; odd",
+    "36": "Same: fixed base, compare A to the height (base 10 instead of 6)",
+    "37": "Same: square + triangle sharing a side, two perimeters given",
+    "38": "Same: complete a list of categories; three numeric choices and one category"
+   },
+   "choice_tags": {
+    "1": {
+     "A": "Known trap (like 54 on the real one, her pick): doubled the last number",
+     "B": "Stopped early: this is the fifth number",
+     "D": "One step too far (the seventh number)"
+    },
+    "2": {
+     "A": "Known trap (her pick on the real one): doubled the $4 instead of finding 100%",
+     "B": "Tripled the $4",
+     "D": "Added the $4 to the regular price"
+    },
+    "3": {
+     "C": "Counted only the cubes, not the empty space",
+     "D": "Known trap (her pick on the real one): the gaps make the box bigger, not smaller",
+     "B": "No reason for exactly double"
+    },
+    "4": {
+     "A": "Known trap (like 27 on the real one, her pick): added only the labeled sides",
+     "B": "Added only one unlabeled side (5)",
+     "C": "Added only one unlabeled side (7)"
+    },
+    "5": {
+     "B": "Known trap (like her pick on the real one): digit sum 15 is divisible by 3, not by 9",
+     "C": "Digit sum 17",
+     "D": "Ends in 9, but digit sum 24 is not a multiple of 9"
+    },
+    "6": {
+     "A": "Added 4 again",
+     "B": "Known trap (like 27 on the real one, her pick): added the last jump (8) again",
+     "D": "Doubled the last number"
+    },
+    "7": {
+     "B": "Gave the new side length, not the increase",
+     "C": "Half the perimeter (the two sides together)",
+     "D": "Subtracted only one side (30 &minus; 11)"
+    },
+    "8": {
+     "B": "7 by 8 = 56, not 60",
+     "C": "6 by 11 = 66, not 60 (a close shape, like her pick on the real one)",
+     "D": "4 by 16 = 64: same width, not the same number"
+    },
+    "9": {
+     "A": "Stopped early: this is how many he lost",
+     "C": "Took 2/3 of the total 15 instead of each group",
+     "D": "Took away only the 3 crayons (15 &minus; 3)"
+    },
+    "10": {
+     "B": "Right order, wrong direction (greatest to least; the real trap D, and her MA6 #12 slip)",
+     "C": "Compared numerators only",
+     "D": "Compared denominators only"
+    },
+    "11": {
+     "A": "Missed several: counted by 4s from 60",
+     "B": "Off by two: missed both ends",
+     "C": "Off by one: missed the first (52) or the last (88)"
+    },
+    "12": {
+     "C": "Read the second scale as square = 2 triangles",
+     "D": "Known trap (like her pick on the real one): one shape = two of the other",
+     "B": "A square balances TWO circles, not one"
+    },
+    "13": {
+     "A": "Known trap (her pick on the real one): a parallelogram's sides need not all be equal",
+     "C": "A square has four right angles",
+     "D": "Only one pair of parallel sides"
+    },
+    "14": {
+     "D": "Subtracted squares of the tile sides (her pick type on the real one)",
+     "A": "Subtracted instead of divided",
+     "B": "Divided by the squares of the tile sides"
+    },
+    "15": {
+     "A": "Known trap (like her pick on the real one): took 1/4 of the other 12 marbles",
+     "C": "Guessed one more than the answer",
+     "D": "Matched the biggest color count"
+    },
+    "16": {
+     "A": "Read the tens place",
+     "C": "Forgot the number must be odd (864,320)",
+     "D": "Read the first digit (like 9 on the real one, her pick)"
+    },
+    "17": {
+     "A": "Read the 3/4 as what is left (her pick on the real one)",
+     "B": "Took away 1 whole liter instead of 3/4",
+     "D": "Took away 0.34 or 0.4"
+    },
+    "18": {
+     "A": "Rounded every bill down",
+     "C": "Rounded every bill up",
+     "D": "Rounded every bill up to the next $5 (like her pick on the real one)"
+    },
+    "19": {
+     "C": "Divided instead of multiplied",
+     "D": "Added the grams once (her pick on the real one)",
+     "B": "No parentheses: only the afternoon cupcakes get frosting"
+    },
+    "20": {
+     "A": "Addition slip",
+     "B": "Stopped early: this is Kofi's donations only (her pick on the real one)",
+     "C": "Doubled the addition slip"
+    },
+    "21": {
+     "A": "Rounded 85 &divide; 11 down to 5",
+     "B": "Known trap (her pick on the real one was the range below): rounded 85 &divide; 11 down to 7",
+     "D": "Rounded 85 &divide; 11 up to 10"
+    },
+    "22": {
+     "A": "Rounded too far down (35 &times; 700 &divide; 20)",
+     "C": "Known trap (her pick on the real one): rounded 20 down to 15 (40 &times; 800 &divide; 15)",
+     "D": "Divided by 10 or 12 instead of 20"
+    },
+    "23": {
+     "A": "Multiplied 4 by the 3 sides",
+     "B": "Squared the scale (one face only)",
+     "D": "Counted 16 per face times 6 faces (like 150 on the real one, her pick)"
+    },
+    "24": {
+     "D": "Known trap: divided as in the real one, but this asks the total, not each share",
+     "A": "Added",
+     "B": "Subtracted"
+    },
+    "25": {
+     "A": "Multiplied the gift instead of what Maya had",
+     "B": "Multiplied the gift (her pick on the real one)",
+     "C": "Stopped at Ben NOW plus the gift again: went the wrong way in time"
+    },
+    "26": {
+     "A": "It is exactly 1/2, not less",
+     "B": "3/6 + 1/3 = 5/6, more than 3/4",
+     "C": "Known trap (like her pick on the real one): 4/6 + 1/3 is exactly 1 jar, so it fits"
+    },
+    "27": {
+     "A": "Known trap (39.5% picked this on the real one): used 7 as the OTHER marbles, not the total",
+     "C": "Doubled the 2 and the 7 but used 14 as the others",
+     "D": "6 out of 20 = 3/10, not 2/7"
+    },
+    "28": {
+     "A": "32 appears once",
+     "B": "One plant was 32 cm",
+     "C": "Known trap (like her pick on the real one): counted the whole 5 row as 51s"
+    },
+    "29": {
+     "B": "100 vs 96: not the same",
+     "C": "Room A is larger (100 &gt; 96)",
+     "D": "Known trap (her pick on the real one): both are 40 feet"
+    },
+    "30": {
+     "A": "Used only the first change",
+     "C": "Right size, wrong direction (her pick on the real one)",
+     "D": "Used only the last change"
+    },
+    "31": {
+     "A": "Known trap (her pick on the real one): wrote only the 70",
+     "B": "Wrote 7,000: forgot that 70 is 7 &times; 10",
+     "D": "One 10 too many"
+    },
+    "32": {
+     "B": "Known trap (like her pick on the real one): divisible by 4, not by 8",
+     "C": "Divisible by 2 only",
+     "D": "Divisible by 4, not by 8"
+    },
+    "33": {
+     "B": "Used the full height 7 for the top prism (counts the bottom twice)",
+     "C": "Treated it as one box",
+     "D": "Mixed up which width goes with which height (like C on the real one, her pick)"
+    },
+    "34": {
+     "A": "Known trap (like 8 on the real one, her pick): divided the perimeter by the width (40 &divide; 5)",
+     "B": "Stopped early: this is the square's side",
+     "C": "Added the width to the side (10 + 5)"
+    },
+    "35": {
+     "A": "Known trap (her pick on the real one): true for 3 &times; 9 = 27, but 2 &times; 4 = 8 is even",
+     "B": "True for 2 &times; 4 = 8, but 3 &times; 9 = 27 is odd",
+     "C": "A product of two numbers greater than 1 is never prime"
+    },
+    "36": {
+     "A": "Used only the 1/2",
+     "C": "Forgot the 1/2",
+     "D": "Known trap (her pick on the real one): A = 5 &times; height, never equal (unless 0)"
+    },
+    "37": {
+     "A": "Gave the square's side",
+     "B": "Subtracted the perimeters (54 &minus; 36)",
+     "C": "Stopped early: only the two outside sides of the triangle (her pick on the real one)"
+    },
+    "38": {
+     "A": "A number (measure), not a category like the list",
+     "B": "A number (count), not a category",
+     "C": "A count, not a category (her pick type on the real one)"
+    }
+   }
   }
  ],
  "rotation_notes": {
