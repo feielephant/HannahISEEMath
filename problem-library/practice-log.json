@@ -2172,7 +2172,6 @@
     "Estimating Multiplication & Division",
     "Estimating Multiplication & Division",
     "Comparing Volume of Cubes",
-    "Matching Stories to Equations",
     "Translating Math Expressions",
     "Adding and Subtracting Fractions",
     "Finding Ratios given Probability",
@@ -2182,13 +2181,14 @@
     "Comparing Volume of Cubes",
     "No Remainder when Divided by a given Number",
     "Volume of Solids",
+    "Data Collection & Random Sampling",
     "Finding Area/Perimeter of Rectangle, given Length & Width",
     "Classification of Numbers, given a Set",
     "Area of Triangles",
     "Area and Perimeter of Complex Polygons",
     "Data Collection & Random Sampling"
    ],
-   "answers": "CCADACAABADABCBBCBADCBCCDDBDABCAADDBDD",
+   "answers": "CCADACAABADABCBBCBADCBCDDBDCBCAACDDBDD",
    "built_with": "Parent 11/27 after vacation: 38 problems, every one built on a REAL last-third practice-test problem (QR #26-38 / MA #21-30), nothing invented. Topics from her data (topic_history.py incl. vacation days): A) 21 open weaknesses (high error, recent misses, or a miss then 3+ weeks unpracticed); B) 17 types missed often before and right since, 1-2 weeks unpracticed (will be 3+ weeks by Dec 10), incl. 4 the parent had rested 11/19 (divisible-by-8 story, prime x composite, triangle area vs height, share-a-total equation), approved again 11/27. Parent: difficulty and trap level must match the real problem she missed (same steps, same kinds of wrong choices, her pick included). Ordered by real % right, highest first. Problems now hidden until Start (Day 2 #1 timed 3 s because #1 was readable before Start).",
    "built_on_by_problem": {
     "1": "Lower 3 MA #21 (80.0%, her x)",
@@ -2214,16 +2214,16 @@
     "21": "Lower 6 QR #36 (50.1%, her x (107 s))",
     "22": "WTE QR #33 (49.0%, her x)",
     "23": "Lower 4 QR #36 (48.2%, her x)",
-    "24": "Lower 3 QR #37 (48.0%, her x)",
-    "25": "Lower 4 QR #35 (47.4%, her x)",
-    "26": "Lower 2 QR #36 (43.6%, her x)",
-    "27": "Lower 1 QR #34 (42.4%, her o)",
-    "28": "Lower 2 QR #37 (41.7%, her x)",
-    "29": "Lower 2 QR #38 (41.1%, her x)",
-    "30": "Lower 4 QR #38 (40.6%, her x)",
-    "31": "Lower 5 QR #38 (39.6%, her x (66 s))",
-    "32": "Lower 1 MA #29 (39.1%, her x)",
-    "33": "Lower 1 QR #36 (37.2%, her x)",
+    "24": "Lower 4 QR #35 (47.4%, her x)",
+    "25": "Lower 2 QR #36 (43.6%, her x)",
+    "26": "Lower 1 QR #34 (42.4%, her o)",
+    "27": "Lower 2 QR #37 (41.7%, her x)",
+    "28": "Lower 2 QR #38 (41.1%, her x)",
+    "29": "Lower 4 QR #38 (40.6%, her x)",
+    "30": "Lower 5 QR #38 (39.6%, her x (66 s))",
+    "31": "Lower 1 MA #29 (39.1%, her x)",
+    "32": "Lower 1 QR #36 (37.2%, her x)",
+    "33": "Lower 5 MA #30 (18.8%, her x (282 s))",
     "34": "Lower 1 MA #30 (35.9%, her x)",
     "35": "Lower 2 MA #29 (34.4%, her x)",
     "36": "Lower 2 MA #30 (32.1%, her x)",
@@ -2254,16 +2254,16 @@
     "21": "9/36 &middot; x o o o x o &middot; last miss 11/20",
     "22": "9/36 &middot; x o o o x o &middot; last miss 11/20",
     "23": "6/15 &middot; o o x o x o &middot; last miss 11/24",
-    "24": "5/22 &middot; o o o o o o &middot; last miss 11/10",
-    "25": "7/21 &middot; o o o x x x &middot; last miss 11/25",
-    "26": "1/13 &middot; not practiced since 11/6 &middot; last miss 9/13",
-    "27": "3/28 &middot; o o x o x o &middot; last miss 11/20",
-    "28": "x o o (same build: MA5 #13, MA6 #2)",
-    "29": "4/10 &middot; x o o o o o &middot; last miss 11/3",
-    "30": "6/11 &middot; x o o o x o &middot; last miss 11/20",
-    "31": "6/15 &middot; o o x o x o &middot; last miss 11/24",
-    "32": "7/24 &middot; o o o o o o &middot; last miss 11/3",
-    "33": "2/6 &middot; x o o o x o &middot; last miss 11/20",
+    "24": "7/21 &middot; o o o x x x &middot; last miss 11/25",
+    "25": "1/13 &middot; not practiced since 11/6 &middot; last miss 9/13",
+    "26": "3/28 &middot; o o x o x o &middot; last miss 11/20",
+    "27": "x o o (same build: MA5 #13, MA6 #2)",
+    "28": "4/10 &middot; x o o o o o &middot; last miss 11/3",
+    "29": "6/11 &middot; x o o o x o &middot; last miss 11/20",
+    "30": "6/15 &middot; o o x o x o &middot; last miss 11/24",
+    "31": "7/24 &middot; o o o o o o &middot; last miss 11/3",
+    "32": "2/6 &middot; x o o o x o &middot; last miss 11/20",
+    "33": "3/9 &middot; x x o o o o &middot; last miss 11/10",
     "34": "6/20 &middot; x o o x x o &middot; last miss 11/20",
     "35": "1/14 &middot; o o o o o o &middot; last miss 9/13",
     "36": "2/8 &middot; o o x o o o &middot; last miss 11/6",
@@ -2271,7 +2271,7 @@
     "38": "3/9 &middot; x x o o o o &middot; last miss 11/10"
    },
    "difficulty_vs_original": {
-    "1": "Same: &times;3 pattern, find the sixth number; same kinds of wrong choices",
+    "1": "Same as the real one: four numbers then two ? marks, asks the sixth; same kinds of wrong choices",
     "2": "Same: 20% of the price is given in dollars, find the whole; same kinds of wrong choices",
     "3": "Same as the real one, new numbers",
     "4": "Same: L-shape with two unlabeled inner sides",
@@ -2294,16 +2294,16 @@
     "21": "Same: a &divide; b &times; c with four ranges; new numbers",
     "22": "Same: (a &times; b) &divide; c with the same four ranges; new numbers",
     "23": "Same: scale factor cubed; the same kinds of wrong choices (&times;3, squared, faces)",
-    "24": "Same one-step equation, asked the other way (the total instead of each share)",
-    "25": "Same as the real one (times as many as she HAD); new story",
-    "26": "Same: n/denominator + a fraction, check four statements",
-    "27": "Same: probability as \"out of\", choose the combination",
-    "28": "Same: 14 values on 4 stems, an \"at least ... exactly\" count is true",
-    "29": "Same: square from its area vs a rectangle, compare area and perimeter",
-    "30": "Same: two opposite changes of the same percent, answer is a percent change (30% instead of 20%; decrease first)",
-    "31": "Same: thousands cubes, count to a power of 10 (70 instead of 30)",
-    "32": "Same: \"and 7 others\" = 8, choose the multiple of 8; two choices divisible by 4 only",
-    "33": "Same: choose the expression for two joined prisms",
+    "24": "Same as the real one (times as many as she HAD); new story",
+    "25": "Same: n/denominator + a fraction, check four statements",
+    "26": "Same: probability as \"out of\", choose the combination",
+    "27": "Same: 14 values on 4 stems, an \"at least ... exactly\" count is true",
+    "28": "Same: square from its area vs a rectangle, compare area and perimeter",
+    "29": "Same: two opposite changes of the same percent, answer is a percent change (30% instead of 20%; decrease first)",
+    "30": "Same: thousands cubes, count to a power of 10 (70 instead of 30)",
+    "31": "Same: \"and 7 others\" = 8, choose the multiple of 8; two choices divisible by 4 only",
+    "32": "Same: choose the expression for two joined prisms",
+    "33": "Same as the real one: data table with two rows that do not vary; includes the ratio choice the real test used (MA6 #7 left it out)",
     "34": "Same chain as the real one (perimeter &rarr; side &rarr; area &rarr; missing side), new numbers",
     "35": "Same: classify a product of two kinds of numbers; prime &times; composite instead of prime &times; odd",
     "36": "Same: fixed base, compare A to the height (base 10 instead of 6)",
@@ -2427,54 +2427,54 @@
      "D": "Counted 16 per face times 6 faces (like 150 on the real one, her pick)"
     },
     "24": {
-     "D": "Known trap: divided as in the real one, but this asks the total, not each share",
-     "A": "Added",
-     "B": "Subtracted"
-    },
-    "25": {
      "A": "Multiplied the gift instead of what Maya had",
      "B": "Multiplied the gift (her pick on the real one)",
      "C": "Stopped at Ben NOW plus the gift again: went the wrong way in time"
     },
-    "26": {
+    "25": {
      "A": "It is exactly 1/2, not less",
      "B": "3/6 + 1/3 = 5/6, more than 3/4",
      "C": "Known trap (like her pick on the real one): 4/6 + 1/3 is exactly 1 jar, so it fits"
     },
-    "27": {
+    "26": {
      "A": "Known trap (39.5% picked this on the real one): used 7 as the OTHER marbles, not the total",
      "C": "Doubled the 2 and the 7 but used 14 as the others",
      "D": "6 out of 20 = 3/10, not 2/7"
     },
-    "28": {
+    "27": {
      "A": "32 appears once",
      "B": "One plant was 32 cm",
      "C": "Known trap (like her pick on the real one): counted the whole 5 row as 51s"
     },
-    "29": {
-     "B": "100 vs 96: not the same",
-     "C": "Room A is larger (100 &gt; 96)",
-     "D": "Known trap (her pick on the real one): both are 40 feet"
+    "28": {
+     "D": "100 vs 96: not the same",
+     "A": "Room A is larger (100 &gt; 96)",
+     "B": "Known trap (her pick on the real one): both are 40 feet"
     },
-    "30": {
+    "29": {
      "A": "Used only the first change",
      "C": "Right size, wrong direction (her pick on the real one)",
      "D": "Used only the last change"
     },
-    "31": {
+    "30": {
      "A": "Known trap (her pick on the real one): wrote only the 70",
      "B": "Wrote 7,000: forgot that 70 is 7 &times; 10",
      "D": "One 10 too many"
     },
-    "32": {
+    "31": {
      "B": "Known trap (like her pick on the real one): divisible by 4, not by 8",
      "C": "Divisible by 2 only",
      "D": "Divisible by 4, not by 8"
     },
-    "33": {
+    "32": {
      "B": "Used the full height 7 for the top prism (counts the bottom twice)",
      "C": "Treated it as one box",
      "D": "Mixed up which width goes with which height (like C on the real one, her pick)"
+    },
+    "33": {
+     "A": "Valid: the lengths vary (12 to 18 cm)",
+     "B": "Valid: the masses vary (40 to 75 g)",
+     "D": "Known trap (the real one's choice D): sounds unusual, but mass and length both vary, so the ratio varies too; it IS statistical"
     },
     "34": {
      "A": "Known trap (like 8 on the real one, her pick): divided the perimeter by the width (40 &divide; 5)",
@@ -2502,7 +2502,8 @@
      "C": "A count, not a category (her pick type on the real one)"
     }
    },
-   "published_commit": "7bbe8ea41bb623533b86aee99ab2de40f5aca74c"
+   "published_commit": "7bbe8ea41bb623533b86aee99ab2de40f5aca74c",
+   "change_before_taken_2026-11-27": "Parent: #19 frosting (Lower 1 QR #33), #24 pizza share equation (Lower 3 QR #37) and #25 gift timeline (Lower 4 QR #35) looked alike (symbol story -> expression). Kept #19 and #25; #24 replaced by \"which question is NOT statistical\" built like Lower 5 MA #30 (18.8%, her miss, 282 s) with the real ratio trap choice, placed at #33 so it is not next to #38 (also data collection). #1 pattern now shown exactly like Lower 3 MA #21 (spaces, two ? marks; the real one shows them too)."
   }
  ],
  "rotation_notes": {

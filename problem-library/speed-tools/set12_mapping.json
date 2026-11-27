@@ -213,15 +213,6 @@
   "stop_early": []
  },
  "24": {
-  "topic": "Matching Stories to Equations",
-  "built_on": "Lower 3 QR #37 (48.0%, her x)",
-  "last5": "5/22 &middot; o o o o o o &middot; last miss 11/10",
-  "comparable_wrong": "",
-  "vs_latest": "Same one-step equation, asked the other way (the total instead of each share)",
-  "asks": "the total cost",
-  "stop_early": []
- },
- "25": {
   "topic": "Translating Math Expressions",
   "built_on": "Lower 4 QR #35 (47.4%, her x)",
   "last5": "7/21 &middot; o o o x x x &middot; last miss 11/25",
@@ -230,7 +221,7 @@
   "asks": "Ben, at the beginning",
   "stop_early": []
  },
- "26": {
+ "25": {
   "topic": "Adding and Subtracting Fractions",
   "built_on": "Lower 2 QR #36 (43.6%, her x)",
   "last5": "1/13 &middot; not practiced since 11/6 &middot; last miss 9/13",
@@ -239,7 +230,7 @@
   "asks": "which statement is true",
   "stop_early": []
  },
- "27": {
+ "26": {
   "topic": "Finding Ratios given Probability",
   "built_on": "Lower 1 QR #34 (42.4%, her o)",
   "last5": "3/28 &middot; o o x o x o &middot; last miss 11/20",
@@ -248,7 +239,7 @@
   "asks": "blue out of ALL the marbles",
   "stop_early": []
  },
- "28": {
+ "27": {
   "topic": "Identifying Correct Conclusions from Bar Graph Data Table",
   "built_on": "Lower 2 QR #37 (41.7%, her x)",
   "last5": "x o o (same build: MA5 #13, MA6 #2)",
@@ -257,7 +248,7 @@
   "asks": "which conclusion is true",
   "stop_early": []
  },
- "29": {
+ "28": {
   "topic": "Comparing Areas",
   "built_on": "Lower 2 QR #38 (41.1%, her x)",
   "last5": "4/10 &middot; x o o o o o &middot; last miss 11/3",
@@ -266,7 +257,7 @@
   "asks": "which statement is true",
   "stop_early": []
  },
- "30": {
+ "29": {
   "topic": "Percent Increase Decrease basic",
   "built_on": "Lower 4 QR #38 (40.6%, her x)",
   "last5": "6/11 &middot; x o o o x o &middot; last miss 11/20",
@@ -275,7 +266,7 @@
   "asks": "percent change from the original",
   "stop_early": []
  },
- "31": {
+ "30": {
   "topic": "Comparing Volume of Cubes",
   "built_on": "Lower 5 QR #38 (39.6%, her x (66 s))",
   "last5": "6/15 &middot; o o x o x o &middot; last miss 11/24",
@@ -284,7 +275,7 @@
   "asks": "volume (expression)",
   "stop_early": []
  },
- "32": {
+ "31": {
   "topic": "No Remainder when Divided by a given Number",
   "built_on": "Lower 1 MA #29 (39.1%, her x)",
   "last5": "7/24 &middot; o o o o o o &middot; last miss 11/3",
@@ -293,13 +284,22 @@
   "asks": "divisible by 8 (Ava + 7 = 8 students)",
   "stop_early": []
  },
- "33": {
+ "32": {
   "topic": "Volume of Solids",
   "built_on": "Lower 1 QR #36 (37.2%, her x)",
   "last5": "2/6 &middot; x o o o x o &middot; last miss 11/20",
   "comparable_wrong": "",
   "vs_latest": "Same: choose the expression for two joined prisms",
   "asks": "total volume (expression)",
+  "stop_early": []
+ },
+ "33": {
+  "topic": "Data Collection & Random Sampling",
+  "built_on": "Lower 5 MA #30 (18.8%, her x (282 s))",
+  "last5": "3/9 &middot; x x o o o o &middot; last miss 11/10",
+  "comparable_wrong": "",
+  "vs_latest": "Same as the real one: data table with two rows that do not vary; includes the ratio choice the real test used (MA6 #7 left it out)",
+  "asks": "the question that is NOT statistical",
   "stop_early": []
  },
  "34": {

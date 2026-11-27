@@ -531,29 +531,6 @@
  {
   "n": 24,
   "tier": "Hard",
-  "topic": "Matching Stories to Equations",
-  "q": "A group of friends shared the cost of a pizza equally. The list shows what is known.<div style=\"margin:8px 0 8px 12px\">The number of friends is &square;.<br>Each friend paid &#9651; dollars.</div>Which equation will determine &#9675;, the total cost of the pizza?",
-  "choices": {
-   "A": "&#9675; = &#9651; + &square;",
-   "B": "&#9675; = &#9651; &minus; &square;",
-   "C": "&#9675; = &#9651; &times; &square;",
-   "D": "&#9675; = &#9651; &divide; &square;"
-  },
-  "correct": "C",
-  "key": "<b>Answer: C.</b> <i>The question asks for: the total cost.</i> Each of &square; friends paid &#9651;, so the total is &#9651; &times; &square;. (The real one asked each share: total &divide; people. This asks the other way.) <br>Wrong choices: <b>D</b>: Known trap: divided as in the real one, but this asks the total, not each share &middot; <b>A</b>: Added &middot; <b>B</b>: Subtracted",
-  "ref": "Topic: Matching Stories to Equations &middot; Built on: Lower 3 QR #37 (last third, 48.0% right; her result: x) &middot; Her record: 5/22 &middot; o o o o o o &middot; last miss 11/10 &middot; Compared with the real one: Same one-step equation, asked the other way (the total instead of each share)",
-  "diagram": null,
-  "gid": null,
-  "ma_idx": null,
-  "tags": {
-   "D": "Known trap: divided as in the real one, but this asks the total, not each share",
-   "A": "Added",
-   "B": "Subtracted"
-  }
- },
- {
-  "n": 25,
-  "tier": "Hard",
   "topic": "Translating Math Expressions",
   "q": "Maya had &square; stickers, and then she gave &#9675; of them to Ben. Now Ben has &#9651; times as many stickers as Maya had. Which expression represents the number of stickers Ben had to begin with?",
   "choices": {
@@ -575,7 +552,7 @@
   }
  },
  {
-  "n": 26,
+  "n": 25,
   "tier": "Hard",
   "topic": "Adding and Subtracting Fractions",
   "q": "Lily has two equal-sized jars of rice. The first jar is <span class=\"frac\"><span class=\"n\">n</span><span class=\"d\">6</span></span> full. The second jar is <span class=\"frac\"><span class=\"n\">1</span><span class=\"d\">3</span></span> full. The rice from these jars will be combined by pouring the rice from the first jar into the second jar. Which statement best describes the amount of rice once the jars are combined?",
@@ -598,7 +575,7 @@
   }
  },
  {
-  "n": 27,
+  "n": 26,
   "tier": "Hard",
   "topic": "Finding Ratios given Probability",
   "q": "Ana has a bag of marbles in different colors: blue, red, green, and yellow. The probability of picking a blue marble is 2 out of 7. What combination of marbles reflects this probability?",
@@ -621,7 +598,7 @@
   }
  },
  {
-  "n": 28,
+  "n": 27,
   "tier": "Hard",
   "topic": "Identifying Correct Conclusions from Bar Graph Data Table",
   "q": "The stem-and-leaf plot shows the heights of 14 plants in a garden, where 4 | 7 represents 47 centimeters. Based on the data in the stem-and-leaf plot, which conclusion is true?",
@@ -644,30 +621,30 @@
   }
  },
  {
-  "n": 29,
+  "n": 28,
   "tier": "Hard",
   "topic": "Comparing Areas",
   "q": "The floor of Room A is in the shape of a square and has an area of 100 feet&sup2;. The floor of Room B is in the shape of a rectangle and has a length of 12 feet and a width of 8 feet. Which statement correctly compares the floors in the two rooms?",
   "choices": {
-   "A": "The perimeter of the floor in Room A is equal to the perimeter of the floor in Room B.",
-   "B": "The area of the floor in Room A is the same as the area of the floor in Room B.",
-   "C": "The area of the floor in Room A is less than the area of the floor in Room B.",
-   "D": "The perimeter of the floor in Room A is less than the perimeter of the floor in Room B."
+   "A": "The area of the floor in Room A is less than the area of the floor in Room B.",
+   "B": "The perimeter of the floor in Room A is less than the perimeter of the floor in Room B.",
+   "C": "The perimeter of the floor in Room A is equal to the perimeter of the floor in Room B.",
+   "D": "The area of the floor in Room A is the same as the area of the floor in Room B."
   },
-  "correct": "A",
-  "key": "<b>Answer: A.</b> <i>The question asks for: which statement is true.</i> Room A: side = 10 (10 &times; 10 = 100), perimeter 40. Room B: area 96, perimeter 2 &times; (12 + 8) = 40. The perimeters are equal. <br>Wrong choices: <b>B</b>: 100 vs 96: not the same &middot; <b>C</b>: Room A is larger (100 &gt; 96) &middot; <b>D</b>: Known trap (her pick on the real one): both are 40 feet",
+  "correct": "C",
+  "key": "<b>Answer: C.</b> <i>The question asks for: which statement is true.</i> Room A: side = 10 (10 &times; 10 = 100), perimeter 40. Room B: area 96, perimeter 2 &times; (12 + 8) = 40. The perimeters are equal. <br>Wrong choices: <b>D</b>: 100 vs 96: not the same &middot; <b>A</b>: Room A is larger (100 &gt; 96) &middot; <b>B</b>: Known trap (her pick on the real one): both are 40 feet",
   "ref": "Topic: Comparing Areas &middot; Built on: Lower 2 QR #38 (last third, 41.1% right; her result: x) &middot; Her record: 4/10 &middot; x o o o o o &middot; last miss 11/3 &middot; Compared with the real one: Same: square from its area vs a rectangle, compare area and perimeter",
   "diagram": null,
   "gid": null,
   "ma_idx": null,
   "tags": {
-   "B": "100 vs 96: not the same",
-   "C": "Room A is larger (100 &gt; 96)",
-   "D": "Known trap (her pick on the real one): both are 40 feet"
+   "D": "100 vs 96: not the same",
+   "A": "Room A is larger (100 &gt; 96)",
+   "B": "Known trap (her pick on the real one): both are 40 feet"
   }
  },
  {
-  "n": 30,
+  "n": 29,
   "tier": "Hard",
   "topic": "Percent Increase Decrease basic",
   "q": "The price of a bicycle was decreased by 30%. Then the new price was increased by 30%. What is the percent increase or percent decrease from the original price?",
@@ -690,7 +667,7 @@
   }
  },
  {
-  "n": 31,
+  "n": 30,
   "tier": "Hard",
   "topic": "Comparing Volume of Cubes",
   "q": "The thousands cube shown has a volume of 1,000 cubic inches. Exactly 70 of these thousands cubes are used to make a new three-dimensional figure. Which expression represents the volume of the new figure in cubic inches?",
@@ -713,7 +690,7 @@
   }
  },
  {
-  "n": 32,
+  "n": 31,
   "tier": "Hard",
   "topic": "No Remainder when Divided by a given Number",
   "q": "Ava and 7 other students have each sold an equal number of raffle tickets. Which number could represent the total number of raffle tickets the students have sold?",
@@ -736,7 +713,7 @@
   }
  },
  {
-  "n": 33,
+  "n": 32,
   "tier": "Hard",
   "topic": "Volume of Solids",
   "q": "The figure shown was made by joining two rectangular prisms. The side lengths are measured in feet. Which expression can be used to find the total volume of the figure? (V = lwh, where V = volume, l = length, w = width, and h = height.)",
@@ -756,6 +733,29 @@
    "B": "Used the full height 7 for the top prism (counts the bottom twice)",
    "C": "Treated it as one box",
    "D": "Mixed up which width goes with which height (like C on the real one, her pick)"
+  }
+ },
+ {
+  "n": 33,
+  "tier": "Hard",
+  "topic": "Data Collection & Random Sampling",
+  "q": "The table shows some of the characteristics and data gathered by a scientist about a particular type of lizard. Which question is NOT a valid statistical question based on the data in the table?",
+  "choices": {
+   "A": "How long was each lizard?",
+   "B": "What mass did each lizard have?",
+   "C": "How many toes did each foot have?",
+   "D": "What was the ratio of mass to length for each lizard?"
+  },
+  "correct": "C",
+  "key": "<b>Answer: C.</b> <i>The question asks for: the question that is NOT statistical.</i> A statistical question has answers that vary. Length and mass vary, and so does the ratio of mass to length. Every lizard has 5 toes on each foot, so \"How many toes did each foot have?\" has only one answer: it is not a statistical question. <br>Wrong choices: <b>A</b>: Valid: the lengths vary (12 to 18 cm) &middot; <b>B</b>: Valid: the masses vary (40 to 75 g) &middot; <b>D</b>: Known trap (the real one's choice D): sounds unusual, but mass and length both vary, so the ratio varies too; it IS statistical",
+  "ref": "Topic: Data Collection & Random Sampling &middot; Built on: Lower 5 MA #30 (last third, 18.8% right; her result: x (282 s)) &middot; Her record: 3/9 &middot; x x o o o o &middot; last miss 11/10 &middot; Compared with the real one: Same as the real one: data table with two rows that do not vary; includes the ratio choice the real test used (MA6 #7 left it out)",
+  "diagram": "<div style=\"font-weight:600;margin-bottom:4px\">LIZARD DATA</div><table class=\"data\"><tr><th>Characteristic</th><th>Data</th></tr><tr><td>Length</td><td>12 to 18 (cm)</td></tr><tr><td>Mass</td><td>40 to 75 (g)</td></tr><tr><td>Number of eyes</td><td>2</td></tr><tr><td>Number of toes on each foot</td><td>5</td></tr></table>",
+  "gid": null,
+  "ma_idx": null,
+  "tags": {
+   "A": "Valid: the lengths vary (12 to 18 cm)",
+   "B": "Valid: the masses vary (40 to 75 g)",
+   "D": "Known trap (the real one's choice D): sounds unusual, but mass and length both vary, so the ratio varies too; it IS statistical"
   }
  },
  {

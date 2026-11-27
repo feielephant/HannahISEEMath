@@ -3,7 +3,7 @@
   without a real reference;
 - topics only from her data: high error rate, recent misses, or a miss followed by 3+ weeks without practice; plus (parent
   approved 11/27) types she missed often before and has got right since, 1-2 weeks unpracticed, including 4 the parent had
-  rested on 11/19 (divisible-by-8 story, prime x composite, triangle area vs height, share-a-total equation);
+  rested on 11/19 (divisible-by-8 story, prime x composite, triangle area vs height; the share-a-total equation was later swapped out by the parent for a second data-collection problem, Lower 5 MA #30);
 - difficulty AND trap level match the real problem she missed: same steps, same kind of numbers, and the same kinds of
   wrong choices the real test offered (including the one she picked). Numbers, story and sometimes the asked part change,
   because she memorizes formats;
@@ -437,19 +437,22 @@ add('Area of Triangles', 'Lower 2 MA #30', 32.1, 'x', '2/8 &middot; o o x o o o 
     'how A compares with the height',
     'A = 1/2 &times; 10 &times; height = 5 &times; height. So A is always 5 times the height.',
     'Same: fixed base, compare A to the height (base 10 instead of 6)')
-add('Matching Stories to Equations', 'Lower 3 QR #37', 48.0, 'x', '5/22 &middot; o o o o o o &middot; last miss 11/10',
-    'A group of friends shared the cost of a pizza equally. The list shows what is known.<div style="margin:8px 0 8px 12px">The number of friends is &square;.<br>Each friend paid &#9651; dollars.</div>Which equation will determine &#9675;, the total cost of the pizza?',
-    ['&#9675; = &#9651; &divide; &square;', '&#9675; = &#9651; + &square;', '&#9675; = &#9651; &minus; &square;', '&#9675; = &#9651; &times; &square;'],
-    '&#9675; = &#9651; &times; &square;',
-    {'&#9675; = &#9651; &divide; &square;': 'Known trap: divided as in the real one, but this asks the total, not each share', '&#9675; = &#9651; + &square;': 'Added',
-     '&#9675; = &#9651; &minus; &square;': 'Subtracted'},
-    'the total cost',
-    'Each of &square; friends paid &#9651;, so the total is &#9651; &times; &square;. (The real one asked each share: total &divide; people. This asks the other way.)',
-    'Same one-step equation, asked the other way (the total instead of each share)', free=True)
+add('Data Collection & Random Sampling', 'Lower 5 MA #30', 18.8, 'x (282 s)', '3/9 &middot; x x o o o o &middot; last miss 11/10',
+    'The table shows some of the characteristics and data gathered by a scientist about a particular type of lizard. Which question is NOT a valid statistical question based on the data in the table?',
+    ['How long was each lizard?', 'What mass did each lizard have?', 'How many toes did each foot have?', 'What was the ratio of mass to length for each lizard?'],
+    'How many toes did each foot have?',
+    {'How long was each lizard?': 'Valid: the lengths vary (12 to 18 cm)', 'What mass did each lizard have?': 'Valid: the masses vary (40 to 75 g)',
+     'What was the ratio of mass to length for each lizard?': 'Known trap (the real one\'s choice D): sounds unusual, but mass and length both vary, so the ratio varies too; it IS statistical'},
+    'the question that is NOT statistical',
+    'A statistical question has answers that vary. Length and mass vary, and so does the ratio of mass to length. Every lizard has 5 toes on each foot, so "How many toes did each foot have?" has only one answer: it is not a statistical question.',
+    'Same as the real one: data table with two rows that do not vary; includes the ratio choice the real test used (MA6 #7 left it out)',
+    table(['Characteristic', 'Data'], [['Length', '12 to 18 (cm)'], ['Mass', '40 to 75 (g)'], ['Number of eyes', '2'], ['Number of toes on each foot', '5']], 'LIZARD DATA'), free=True)
 
 assert len(P) == 38, len(P)
 # ---- order by the real problem's % right, highest first (rising difficulty, like the real test) ----
 P.sort(key=lambda p: -p['pct'])
+# keep the two data-collection problems apart (both are the hardest by % right): move Lower 5 MA #30 up 4 places
+k = next(i for i, p in enumerate(P) if p['ref'] == 'Lower 5 MA #30'); P.insert(k - 4, P.pop(k))
 # ---- balance answer letters: numeric/ordered choices stay put; "free" ones may be rotated ----
 for p in P:
     p['correct'] = 'ABCD'[p['ch'].index(p['right'])]
