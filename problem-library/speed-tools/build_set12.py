@@ -33,7 +33,7 @@ def stem_plot(title, stems):
 SW = 'stroke="currentColor" stroke-width="2" fill="none"'
 def svg(w, h, body): return f'<svg viewBox="0 0 {w} {h}" width="{w}" height="{h}" role="img">{body}</svg>'
 def txt(x, y, s, size=14, anchor='middle'): return f'<text x="{x}" y="{y}" font-size="{size}" text-anchor="{anchor}" fill="currentColor">{s}</text>'
-def grid_array(rows, cols, cell=10):
+def grid_array(rows, cols, cell=13):
     w, h = cols*cell, rows*cell
     g = ''.join(f'<line x1="{c*cell}" y1="0" x2="{c*cell}" y2="{h}" stroke="currentColor" stroke-width="1"/>' for c in range(cols + 1))
     g += ''.join(f'<line x1="0" y1="{r*cell}" x2="{w}" y2="{r*cell}" stroke="currentColor" stroke-width="1"/>' for r in range(rows + 1))
@@ -220,8 +220,8 @@ add('Value of Digits', 'Official QR #36', 57.0, 'x (36 s)', '4/16 &middot; o x o
     {'0': 'Read the tens place', '3': 'Forgot the number must be odd (864,320)', '8': 'Read the first digit (like 9 on the real one, her pick)'},
     'the hundreds digit',
     'Odd: 3 is the only odd digit, so it must be last. Largest: the other digits go biggest first: 8, 6, 4, 2, 0. The number is 864,203. Hundreds place: 2.',
-    'Same: one digit is forced last by odd/even, largest number, a middle place asked',
-    rules_box('The number must have 6 digits.', 'The number must be odd.', 'The number must be the largest possible number.'))
+    'Same: one digit is forced last by odd/even, largest number, a middle place asked; rule 4 (each digit once, as Lower 3 QR #31 states) added so the largest number cannot repeat digits',
+    rules_box('The number must have 6 digits.', 'The number must be odd.', 'The number must be the largest possible number.', 'Each digit can be used only once.'))
 sq16 = 36 // 4; others16 = 54 - 3*sq16
 assert sq16 == 9 and others16 == 27 and others16 + sq16 == 36 and 12 + 15 == 27 and 9**2 + 12**2 == 15**2
 fig16 = svg(250, 140, f'<polygon points="20,20 110,20 110,110 20,110" {SW}/><polygon points="110,20 110,110 230,110" {SW}/>')

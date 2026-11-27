@@ -143,7 +143,7 @@
   "built_on": "Official QR #36 (57.0%, her x (36 s))",
   "last5": "4/16 &middot; o x o x o o &middot; last miss 11/17",
   "comparable_wrong": "",
-  "vs_latest": "Same: one digit is forced last by odd/even, largest number, a middle place asked",
+  "vs_latest": "Same: one digit is forced last by odd/even, largest number, a middle place asked; rule 4 (each digit once, as Lower 3 QR #31 states) added so the largest number cannot repeat digits",
   "asks": "the hundreds digit",
   "stop_early": []
  },
