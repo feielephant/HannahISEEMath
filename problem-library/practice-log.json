@@ -2505,7 +2505,45 @@
    "published_commit": "a0acf9d5e23b72430131c9acb38e16fe47a9221b",
    "change_before_taken_2026-11-27": "Parent: #19 frosting (Lower 1 QR #33), #24 pizza share equation (Lower 3 QR #37) and #25 gift timeline (Lower 4 QR #35) looked alike (symbol story -> expression). Kept #19 and #25; #24 replaced by \"which question is NOT statistical\" built like Lower 5 MA #30 (18.8%, her miss, 282 s) with the real ratio trap choice, placed at #33 so it is not next to #38 (also data collection). #1 pattern now shown exactly like Lower 3 MA #21 (spaces, two ? marks; the real one shows them too).",
    "change_2_before_taken_2026-11-27": "Parent asked whether last-5-all-right topics were easier than the real problem. Checked each by same-build tries only: secured (3+ same-build rights) and removed: divisible by 9 (Lower 1 MA #24), divisible-by-8 story (Lower 1 MA #29), square room vs rectangle room (Lower 2 QR #38), rhombus name (Lower 5 MA #28), jars n/6 + 1/3 (Lower 2 QR #36). Kept (only 1-2 same-build rights): tiles (Lower 2 QR #32), prime x composite (Lower 2 MA #29). Added open gaps: symmetry tile (Lower 5 QR #29, horizontal line), one-group prediction table (Lower 2 QR #34), count cubes in a drawing (WTE QR #28, 7x7x7), a second gift timeline asked from the other side (Lower 4 QR #35), a second multiples count as a ticket story where the first number counts (Lower 5 MA #29). Near-copy check against every earlier set: changed #6 (MA4 #25 had 4 5 7 11 19), #7 (MA5 #26 perimeter 30), #9 (QR10 #37 5x5x5), #25 (MA4 #20 3 cm x4), #36 (MA4 #17 base 10), #26 story (MA4 #15 stickers to Ben), #38 story (QR11 #3 bird feeder).",
-   "audit_2026-11-27": "Full audit before she takes it: all 38 refs are real last-third problems (36 she missed; #11 and #27 right but often missed in our sets); all answers re-solved independently; live page rendered with every card shown after Start: every figure, table and rules box present (sanitize_check clean). Fixes: #16 rules box lacked \"each digit can be used only once\" (with repeats allowed the largest number changes, e.g. 888,883; her real pick of 9 on Official QR #36 fits a repeat reading), rule 4 added as Lower 3 QR #31 states it; #8 array cells enlarged so 10 vs 11 columns can be counted. Noted for the parent: 4 cube problems (#3 #9 #25 #30) and 3 symbol-story problems (#20 #26 #37)."
+   "audit_2026-11-27": "Full audit before she takes it: all 38 refs are real last-third problems (36 she missed; #11 and #27 right but often missed in our sets); all answers re-solved independently; live page rendered with every card shown after Start: every figure, table and rules box present (sanitize_check clean). Fixes: #16 rules box lacked \"each digit can be used only once\" (with repeats allowed the largest number changes, e.g. 888,883; her real pick of 9 on Official QR #36 fits a repeat reading), rule 4 added as Lower 3 QR #31 states it; #8 array cells enlarged so 10 vs 11 columns can be counted. Noted for the parent: 4 cube problems (#3 #9 #25 #30) and 3 symbol-story problems (#20 #26 #37).",
+   "graded_2026-11-27": {
+    "score": "32/38",
+    "wrong": [
+     2,
+     4,
+     14,
+     17,
+     21,
+     27
+    ],
+    "blank": [],
+    "total_elapsed_minutes": 34.87,
+    "first_then_changed": {
+     "wrong_to_right": [
+      1
+     ],
+     "wrong_to_wrong": [],
+     "right_to_wrong": []
+    },
+    "notes_summary": {
+     "2": "Same wrong answer as on the real test: $8",
+     "4": "Copied the tile without flipping it (24 s)",
+     "14": "Divided by 6 &times; 6 and 5 &times; 5 instead of 6 and 5",
+     "17": "3/4 liter read as about 0.34 or 0.4 (129 s)",
+     "21": "Left out the first ticket, 120",
+     "27": "Treated 7 as the OTHER marbles again"
+    },
+    "wrong_causes": {
+     "2": "Known trap (her pick on the real one): doubled the $4 instead of finding 100%",
+     "4": "Copied the bottom-right tile without flipping it",
+     "14": "Divided by the squares of the tile sides",
+     "17": "Took away 0.34 or 0.4",
+     "21": "Left out ticket 120 (it is divisible by 6 and is on the list)",
+     "27": "Doubled the 2 and the 7 but used 14 as the others"
+    },
+    "timed_score": "28/34 (reached #34 in 35 min); #35-38 done on paper after, 4/4",
+    "pacing": "Slow: #23 181 s, #1 151 s (changed B to C, caught her stop-early pick), #12 133 s, #17 129 s, #6 124 s."
+   }
   }
  ],
  "rotation_notes": {
